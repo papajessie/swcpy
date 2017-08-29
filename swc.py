@@ -126,7 +126,10 @@ def main(argv):
     for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk'):
         importfile(file)
     importlangfile(config['lang'])
-    mode=config['mode']
+    if 'mode' in config:
+        mode=config['mode']
+    else:
+        mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
         mode='tournament'
@@ -207,6 +210,8 @@ def main(argv):
     # Help mode
     xhelp['help']='Display this help text.'
     if ('help' in modes):
+        print('Usage: swc.py variable=value variable2=value2 ... item1 item2 item3 ...')
+        print('Please use mode=xxx with one of these modes')
         wrapper = textwrap.TextWrapper()
         wrapper.initial_indent='    '
         wrapper.subsequent_indent='    '
@@ -215,7 +220,7 @@ def main(argv):
         morewrapper.subsequent_indent='      '
         for k,v in xhelp.items():
             print(' * {0}'.format(k))
-            print("\n".join(wrapper.wsrap(v)))
+            print("\n".join(wrapper.wrap(v)))
             if k in morehelp:
                 for kk,vv in morehelp[k].items():
                     print("\n".join(wrapper.wrap(' - {0}{2} {1}'.format(kk,vv,('items with no xxx= specifier:' if (kk=='') else '=xxx:')))))
