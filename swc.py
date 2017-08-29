@@ -49,8 +49,6 @@ def importfile(filename):
                         pprint(item)
                         sys.exit(0)
             
-                
-                
 def importlangfile(lang):
     global config
     global langdata
@@ -93,7 +91,6 @@ def analysis(x):
     else:
         elements.append(x)
 
-
 def addtodisplay(displayed,category,item):
     if not(category in displayed):
         displayed[category]=[]
@@ -105,6 +102,7 @@ def _(x):
         return langdata[x]
     else:
         return '_'+x+'_ (no translation)'
+
 
 def main(argv):
     global data
@@ -213,14 +211,16 @@ def main(argv):
             print("\n".join(xhelp.keys()))
     sys.exit(0)
 
-# This set of functions builds objects from the data, gathering useful data in one place
 
+# This set of functions builds objects from the data, gathering useful data in one place
 def analyse_crate(objects,displayed,id):
     global data
     global config
     if id in objects:
         return
     pass
+
+
 def analyse_tournament(objects,displayed,id):
     global data
     global config
@@ -270,6 +270,7 @@ def analyse_tournament(objects,displayed,id):
 # This set of functions output objects for various modes
 def output_listheader_tournament(out,objects,displayed):
     out.append("There are {0} tournaments in the selection:".format(len(displayed)))
+
 def output_list_tournament(out,objects,item):
     rewards=item['rewards']
     rewardsstr=''
@@ -295,8 +296,10 @@ def output_list_tournament(out,objects,item):
                 rewardsstr+=''
     xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(item['uid'],item['startDate'],item['endDate'],display_planet(item['planetId']),_('tournament_title_'+item['uid']),rewardsstr)
     out[len(out)-1]+=xout
+
 def output_csvheader_tournament(out,objects,displayed):
     out.append('#id;planet;startDate;endDate;reward1;reward2;reward3;reward4;reward5;reward6;reward7;reward8\n')
+
 def output_csv_tournament(out,objects,item):
     rewards=item['rewards']
     ar=['','','','','','','','']
@@ -311,7 +314,9 @@ def output_csv_tournament(out,objects,item):
 # This set of functions take an Id and return the adequate string for it
 def display_planet(planetId):
     return _('planet_name_'+planetId)
+
 def display_crate_veryshort(crateId):
     return crateId
+
 if __name__ == "__main__":
     main(sys.argv)
