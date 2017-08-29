@@ -343,15 +343,17 @@ def output_csv_tournament(out,objects,item):
 
 def output_mdheader_tournament(out,objects,displayed):
     with open("docs/tournament.md","w") as file:
-            dates={}
-            for tournament in displayed:
-                dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
-            for xtournament in reversed(sorted(dates)):
-                tournament=dates[xtournament]
-                item=objects[tournament]
-                id=item['uid']
-                title=display_colored(_('tournament_title_'+id))
-                file.write("  * [Conflict {1} ({0})]({0}.html)\n".format(id,title))
+        file.write("---\ntitle: Index of conflicts\n---\n")
+        file.write("# Conflicts\n\n")
+        dates={}
+        for tournament in displayed:
+            dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
+        for xtournament in reversed(sorted(dates)):
+            tournament=dates[xtournament]
+            item=objects[tournament]
+            id=item['uid']
+            title=display_colored(_('tournament_title_'+id))
+            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
 
 def output_md_tournament(out,objects,item):
     id=item['uid']
