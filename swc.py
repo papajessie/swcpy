@@ -93,6 +93,12 @@ def analysis(x):
     else:
         elements.append(x)
 
+
+def addtodisplay(displayed,category,item):
+    if not(category in displayed):
+        displayed[category]=[]
+    displayed[category].append(item)
+        
 def _(x):
     global langdata
     if x in langdata:
@@ -159,7 +165,6 @@ def main(argv):
     xhelp['tournament']='Lists all tournaments (conflicts)'
     morehelp['tournament']={'begin':'Start date in format YYYY-MM-DD (default: current day)','end':'End date in format YYYY-MM-DD (default: 9999-12-31)','':'tournament identifier (default: all)'}
     if ('tournament' in modes):
-        displayed['tournament']=[]
         # do something that adds tournament objects
         for i in data['TournamentData']:
             analyse_tournament(objects,displayed,i)
@@ -176,13 +181,16 @@ def main(argv):
                 tournament=dates[xtournament]
                 output_list_tournament(out,objects,objects[tournament])
         if ('csv' in outputs):
-            output_csvheader_tournament(out,objects,objects[displayed['tournament']])
-            for tournament in displayed:
+            output_csvheader_tournament(out,objects,displayed['tournament'])
+            for tournament in displayed['tournament']:
                 output_csv_tournament(out,objects,objects[tournament])
     # list mode: print output
     if ('list' in outputs):
         if (len(out)>0):
             print("\n\n".join(out))
+    if ('csv' in outputs):
+        if (len(out)>0):
+            print("\n".join(out))
     # Help mode
     xhelp['help']='Display this help text.'
     if ('help' in modes):
@@ -207,9 +215,17 @@ def main(argv):
 
 # This set of functions builds objects from the data, gathering useful data in one place
 
+def analyse_crate(objects,displayed,id):
+    global data
+    global config
+    if id in objects:
+        return
+    pass
 def analyse_tournament(objects,displayed,id):
     global data
     global config
+    if id in objects:
+        return
     ob={}
     def swcdatetoiso(x):
         a=x.split(",")[1]
@@ -233,15 +249,23 @@ def analyse_tournament(objects,displayed,id):
             localed='2999-12-31'
         rew={}
         ob['rewards']=rew
-        if 'rewardGroupId' in swcitem:
-            rewardgroup=swcitem['rewardGroupId']
-            for rewards in data['TournamentRewards']:
-                if (data['TournamentRewards'][rewards]['tournamentRewardsId'] == rewardgroup):
-                    myrew=data['TournamentRewards'][rewards]
-                    rew[myrew['tournamentTier']]=myrew['crateRewardUid']
         if (ob['startDate']<=localed and ob['endDate']>=localsd):
-            displayed['tournament'].append(id)
+            addtodisplay(displayed,'tournament',id)
             objects[id]=ob
+            if 'rewardGroupId' in swcitem:
+                rewardgroup=swcitem['rewardGroupId']
+                for rewards in data['TournamentRewards']:
+                    if (data['TournamentRewards'][rewards]['tournamentRewardsId'] == rewardgroup):
+                        myrew=data['TournamentRewards'][rewards]
+                        rew[myrew['tournamentTier']]=myrew['crateRewardUid']
+                        oldplanet=''
+                        if 'planet' in config:
+                            oldplanet=config['planet']
+                        config['planet']=ob['planetId']
+                        for crate in myrew['crateRewardUid']:
+                            analyse_crate(objects,displayed,crate)
+                        if oldplanet != '':
+                            config['planet']=oldplanet
 
 # This set of functions output objects for various modes
 def output_listheader_tournament(out,objects,displayed):
@@ -271,6 +295,18 @@ def output_list_tournament(out,objects,item):
                 rewardsstr+=''
     xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(item['uid'],item['startDate'],item['endDate'],display_planet(item['planetId']),_('tournament_title_'+item['uid']),rewardsstr)
     out[len(out)-1]+=xout
+def output_csvheader_tournament(out,objects,displayed):
+    out.append('#id;planet;startDate;endDate;reward1;reward2;reward3;reward4;reward5;reward6;reward7;reward8\n')
+def output_csv_tournament(out,objects,item):
+    rewards=item['rewards']
+    ar=['','','','','','','','']
+    for i in range(1,8):
+        tier='tournament_tier_{0}'.format(i)
+        if tier in rewards:
+            ar[i-1]=','.join(rewards[tier])
+    xout=";".join([item['uid'],display_planet(item['planetId']),item['startDate'],item['endDate']]+ar)
+    out[len(out)-1]+=xout+'\n'
+
 
 # This set of functions take an Id and return the adequate string for it
 def display_planet(planetId):
