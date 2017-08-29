@@ -5,6 +5,7 @@ import textwrap
 import sys
 import json
 import codecs
+import re
 from datetime import date
 from pprint import pprint
 
@@ -27,6 +28,11 @@ config={'table':[],'lang':'en-US','output':'list'}
 xhelp={}
 morehelp={}
 
+def log(string):
+    global config
+    outputs=config['output'].split(",")
+    if 'verbose' in outputs:
+        print(string)
 
 def importfile(filename):
     global config
@@ -77,9 +83,9 @@ def setconfig(x,y):
             config[x].append(y)
         else:
               config[x]=y
-        print ('--- Setting {0} to {1}'.format(configitems[x],config[x]))
+        log('--- Setting {0} to {1}'.format(configitems[x],config[x]))
     else:
-        print ('--- Config item {0} unknown, ignoring'.format(x))
+        log('--- Config item {0} unknown, ignoring'.format(x))
     
 def analysis(x):
     global config
@@ -182,13 +188,17 @@ def main(argv):
             output_csvheader_tournament(out,objects,displayed['tournament'])
             for tournament in displayed['tournament']:
                 output_csv_tournament(out,objects,objects[tournament])
+        if ('md' in outputs):
+            output_mdheader_tournament(out,objects,displayed['tournament'])
+            for tournament in displayed['tournament']:
+                output_md_tournament(out,objects,objects[tournament])
     # list mode: print output
     if ('list' in outputs):
         if (len(out)>0):
             print("\n\n".join(out))
     if ('csv' in outputs):
         if (len(out)>0):
-            print("\n".join(out))
+            print('\n'.join(out))
     # Help mode
     xhelp['help']='Display this help text.'
     if ('help' in modes):
@@ -259,13 +269,22 @@ def analyse_tournament(objects,displayed,id):
                         myrew=data['TournamentRewards'][rewards]
                         rew[myrew['tournamentTier']]=myrew['crateRewardUid']
                         oldplanet=''
+                        oldside=''
                         if 'planet' in config:
                             oldplanet=config['planet']
+                        if 'side' in config:
+                            oldsid=config['side']
                         config['planet']=ob['planetId']
+                        config['side']='empire'
+                        for crate in myrew['crateRewardUid']:
+                            analyse_crate(objects,displayed,crate)
+                        config['side']='rebel'
                         for crate in myrew['crateRewardUid']:
                             analyse_crate(objects,displayed,crate)
                         if oldplanet != '':
                             config['planet']=oldplanet
+                        if oldside != '':
+                            config['side']=oldside
 
 # This set of functions output objects for various modes
 def output_listheader_tournament(out,objects,displayed):
@@ -298,25 +317,63 @@ def output_list_tournament(out,objects,item):
     out[len(out)-1]+=xout
 
 def output_csvheader_tournament(out,objects,displayed):
-    out.append('#id;planet;startDate;endDate;reward1;reward2;reward3;reward4;reward5;reward6;reward7;reward8\n')
+    out.append('#id;planet;startDate;endDate;reward1;reward2;reward3;reward4;reward5;reward6;reward7;reward8')
 
 def output_csv_tournament(out,objects,item):
     rewards=item['rewards']
     ar=['','','','','','','','']
-    for i in range(1,8):
+    for i in range(1,9):
         tier='tournament_tier_{0}'.format(i)
         if tier in rewards:
             ar[i-1]=','.join(rewards[tier])
+        else:
+            print('no reward '+tier)
     xout=";".join([item['uid'],display_planet(item['planetId']),item['startDate'],item['endDate']]+ar)
-    out[len(out)-1]+=xout+'\n'
+    out[len(out)-1]+='\n'+xout
 
-
+def output_mdheader_tournament(out,objects,displayed):
+    pass
+def output_md_tournament(out,objects,item):
+    id=item['uid']
+    title=display_colored(_('tournament_title_'+id))
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: tournament\n---\n".format(id,title))
+        file.write("# {0}\n\n  * Start date: {1}\n  * End date: {2}\n\n".format(title,item['startDate'],item['endDate']))
+        file.write("## Rewards\n\n")
+        rewards=item['rewards']
+        rewardsstr=''
+        leagues={'tournament_tier_8':'ULTRACHROME','tournament_tier_7':'OBSIDIAN','tournament_tier_6':'BRONZIUM_01','tournament_tier_5':'BRONZIUM_02','tournament_tier_4':'DURASTEEL_02','tournament_tier_3':'DURASTEEL_01','tournament_tier_2':'CARBONITE_01','tournament_tier_1':'CARBONITE_02'}
+        if len(rewards)>0:
+            for k in sorted(rewards.keys()):
+                file.write('  * {1}:'.format(k,_('TOURNAMENT_TIER_'+leagues[k])))
+                crates={}
+                for j in rewards[k]:
+                    if j in crates:
+                        crates[j]+=1
+                    else:
+                        crates[j]=1
+                head=' '
+                if len(crates.keys())>1:
+                    file.write('\n')
+                    head='    * '
+                for j,k in crates.items():
+                    if k==1:
+                        file.write(head+'A "{1}"'.format(k,display_crate_mdlink(j,'')))
+                    else:
+                        file.write(head+'{0} "{1}"'.format(k,display_crate_mdlink(j,'s')))
+                file.write('\n')
+            file.write(rewardsstr)
+    
 # This set of functions take an Id and return the adequate string for it
 def display_planet(planetId):
     return _('planet_name_'+planetId)
 
 def display_crate_veryshort(crateId):
     return crateId
+def display_crate_mdlink(crateId,plural):
+    return '[{1}{2} ({0})]({0}.html)'.format(crateId,_('crate_title_'+crateId),plural)
 
+def display_colored(string):
+        return re.sub("[\[](.*)[\]]", "\1", string)
 if __name__ == "__main__":
     main(sys.argv)
