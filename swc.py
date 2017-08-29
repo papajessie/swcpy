@@ -27,6 +27,7 @@ data={}
 config={'table':[],'lang':'en-US','output':'list'}
 xhelp={}
 morehelp={}
+indexdata={}
 
 def log(string):
     global config
@@ -332,7 +333,17 @@ def output_csv_tournament(out,objects,item):
     out[len(out)-1]+='\n'+xout
 
 def output_mdheader_tournament(out,objects,displayed):
-    pass
+    with open("docs/tournament.md","w") as file:
+            dates={}
+            for tournament in displayed:
+                dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
+            for xtournament in reversed(sorted(dates)):
+                tournament=dates[xtournament]
+                item=objects[tournament]
+                id=item['uid']
+                title=display_colored(_('tournament_title_'+id))
+                file.write("  * [Conflict {1} ({0})]({0}.html)\n".format(id,title))
+
 def output_md_tournament(out,objects,item):
     id=item['uid']
     title=display_colored(_('tournament_title_'+id))
@@ -374,6 +385,6 @@ def display_crate_mdlink(crateId,plural):
     return '[{1}{2} ({0})]({0}.html)'.format(crateId,_('crate_title_'+crateId),plural)
 
 def display_colored(string):
-        return re.sub("[\[](.*)[\]]", "\1", string)
+        return re.sub("\[.*\]", '', string)
 if __name__ == "__main__":
     main(sys.argv)
