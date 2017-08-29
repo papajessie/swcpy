@@ -127,7 +127,11 @@ def main(argv):
         importfile(file)
     importlangfile(config['lang'])
     mode=config['mode']
-
+    xhelp['docs']='Generate all docs in Markdown format'
+    if mode == 'docs':
+        mode='tournament'
+        config['begin']='2012-01-01'
+        config['output']='md'
     modes=mode.split(",")
     # Modes in one single phase
     xhelp['tables']='List all tables available in the data files, as well as the number of entries.'
