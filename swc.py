@@ -14,7 +14,6 @@ side='rebel'
 version=1048
 verbosity=0
 planet='planet1'
-mode='crate'
 xdate=date.today().isoformat()
 
 elements=[]
@@ -141,6 +140,12 @@ def main(argv):
     if ('tables' in modes):
         for t in data:
             print('{0};{1}'.format(t,len(data[t])))
+    # Modes in one single phase
+    xhelp['translate']='Searches a string ID through the SWC catalog and translates it.'
+    morehelp['translate']={'':'keys to be searched'}
+    if ('translate' in modes):
+        for t in elements:
+            print('{0};{1}'.format(t,_(t)))
     xhelp['table']='List all keys from specific tables'
     morehelp['table']={'table':'table to search keys from (cumulative, default: all tables)','':'keys to be searched'}
     if (mode == 'table'):
