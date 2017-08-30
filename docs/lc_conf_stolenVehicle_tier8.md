@@ -62,6 +62,14 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
   * (1/1) 104000 Alloy
 
+### Fallback with HQ level 10
+
+  * 480000 Credits
+
+### Fallback with HQ level 6
+
+  * 104000 Credits
+
 ## Pool "lcpool_currency_conf8" (x1 draw)
 
 ### With HQ level 10
@@ -72,28 +80,32 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
   * (1/1) 200 Contraband
 
+### Fallback with HQ level 10
+
+  * 480000 Credits
+
+### Fallback with HQ level 6
+
+  * 104000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf8" (x2 draws)
 
-### Empire, with HQ level 10
+### Empire
 
+  * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
   * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
   * (1/3) 16 troop sample [Seized AT-TE Walker](SeizedATTE)
-  * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
 
-### Empire, with HQ level 6
+### Rebellion
 
-  * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
-  * (1/3) 16 troop sample [Seized AT-TE Walker](SeizedATTE)
-  * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
-
-### Rebellion, with HQ level 10
-
-  * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
   * (1/3) 16 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
+  * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
   * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
-### Rebellion, with HQ level 6
+### Fallback with HQ level 10
 
-  * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
-  * (1/3) 16 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
-  * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
+  * 380000 Credits
+
+### Fallback with HQ level 6
+
+  * 82000 Credits

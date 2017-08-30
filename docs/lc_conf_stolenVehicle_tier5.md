@@ -61,24 +61,30 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
   * (1/1) 52000 Alloy
 
+### Fallback with HQ level 10
+
+  * 240000 Credits
+
+### Fallback with HQ level 6
+
+  * 52000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf5" (x2 draws)
 
-### Empire, with HQ level 10
+### Empire
 
   * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
   * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
-### Empire, with HQ level 6
-
-  * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
-  * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (1/2) 4 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
   * (1/2) 8 troop sample [Stolen AT-AT Walker](StolenATAT)
 
-### Rebellion, with HQ level 6
+### Fallback with HQ level 10
 
-  * (1/2) 4 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
-  * (1/2) 8 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * 225000 Credits
+
+### Fallback with HQ level 6
+
+  * 50000 Credits
