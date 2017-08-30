@@ -65,13 +65,13 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire, with HQ level 10
 
-  * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
   * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
+  * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Empire, with HQ level 6
 
-  * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
   * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
+  * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Rebellion, with HQ level 10
 
