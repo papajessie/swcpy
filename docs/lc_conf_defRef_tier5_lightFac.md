@@ -3,7 +3,7 @@ title: Bronzium Conflict Crate (lc_conf_defRef_tier5_lightFac)
 category: crate
 ---
 
-# Crate Bronzium Conflict Crate (lc_conf_defRef_tier5_lightFac)
+# Bronzium Conflict Crate (lc_conf_defRef_tier5_lightFac)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -11,250 +11,154 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_creditsAlloy_conf5" (x1 draw)
 
-### On planet Er'Kit, with HQ level 10
-
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
-
 ### On planet Tatooine, with HQ level 10
 
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
-
-### On planet Dandoran, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
-
-### On planet Takodana, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
-
-### On planet Tatooine, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
-
-### On planet Yavin 4, with HQ level 10
-
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
-
-### On planet Dandoran, with HQ level 10
-
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
-
-### On planet Hoth, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
-
-### On planet Yavin 4, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
+    * (1/1) 240000 Credits
 
 ### On planet Hoth, with HQ level 10
 
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
-
-### On planet Er'Kit, with HQ level 6
-
-    * (1/2) 52000x materials
-    * (1/2) 52000x credits
+    * (1/1) 240000 Credits
 
 ### On planet Takodana, with HQ level 10
 
-    * (1/2) 240000x materials
-    * (1/2) 240000x credits
+    * (1/1) 240000 Alloy
 
-## Pool "lcpool_shrd_t3" (x1 draw)
+### On planet Dandoran, with HQ level 10
 
-### Rebellion, with HQ level 6
+    * (1/1) 240000 Credits
 
-    * (1/112) 2x eqpRebelFactorySummonHeavy
-    * (1/112) 2x eqpEmpireArcticATMP
-    * (1/112) 2x eqpRebelEchoBaseHeavySoldier
-    * (1/112) 2x eqpRebelHeavySandSoldier
-    * (1/112) 2x eqpRebelBarracksSummonHeavy
-    * (1/112) 2x eqpRebelBarracksSummonLight
-    * (1/112) 2x eqpEmpireHeavySnowtrooper
-    * (1/112) 2x eqpRebelSandJetpackTrooper
-    * (1/112) 2x eqpEmpireBarracksSummonLight
-    * (1/112) 2x eqpEmpirePentagonJumpTrooper
-    * (1/112) 2x eqpEmpirePentagonHeavyTrooper
-    * (1/112) 2x eqpRebelCaptainSolo
-    * (1/112) 2x eqpEmpireSnowJumpTrooper
-    * (1/112) 2x eqpRebelShaggyAlien
-    * (1/112) 2x eqpEmpirePentagonTrooper
-    * (1/112) 2x eqpRebelEchoBaseJetpackTrooper
-    * (1/112) 2x eqpRebelSandSoldier
-    * (1/112) 2x eqpEmpireFactorySummonLight
-    * (1/112) 2x eqpRebelBarracksSummonMedium
-    * (1/112) 2x eqpRebelEchoBaseSoldier
-    * (1/112) 2x eqpRebelArcticHailfire
-    * (1/112) 2x eqpEmpireArcticINT4
-    * (1/112) 2x eqpRebelPentagonSoldier
-    * (1/112) 2x eqpEmpireSandJumpTrooper
-    * (1/112) 2x eqpRebelDiplomat
-    * (1/112) 2x eqpEmpireHeavySandtrooper
-    * (1/112) 2x eqpEmpireFactorySummonHeavy
-    * (1/112) 2x eqpRebelTauntaun
-    * (1/112) 2x eqpRebelFactorySummonLight
-    * (1/112) 2x eqpEmpireBarracksSummonHeavy
-    * (1/112) 2x eqpRebelPentagonJetpackTrooper
-    * (1/112) 2x eqpEmpireSnowtrooper
-    * (1/112) 2x eqpEmpireBarracksSummonMedium
-    * (1/112) 2x eqpEmpireArcticMHC
-    * (1/112) 2x eqpEmpireSandtrooper
-    * (1/112) 2x eqpEmpireCargoGreatDane
+### On planet Er'Kit, with HQ level 10
 
-### Rebellion, with HQ level 10
+    * (1/1) 240000 Alloy
 
-    * (1/112) 2x eqpRebelFactorySummonHeavy
-    * (1/112) 2x eqpEmpireArcticATMP
-    * (1/112) 2x eqpRebelEchoBaseHeavySoldier
-    * (1/112) 2x eqpRebelHeavySandSoldier
-    * (1/112) 2x eqpRebelBarracksSummonHeavy
-    * (1/112) 2x eqpRebelBarracksSummonLight
-    * (1/112) 2x eqpEmpireHeavySnowtrooper
-    * (1/112) 2x eqpRebelSandJetpackTrooper
-    * (1/112) 2x eqpEmpireBarracksSummonLight
-    * (1/112) 2x eqpEmpirePentagonJumpTrooper
-    * (1/112) 2x eqpEmpirePentagonHeavyTrooper
-    * (1/112) 2x eqpRebelCaptainSolo
-    * (1/112) 2x eqpEmpireSnowJumpTrooper
-    * (1/112) 2x eqpRebelShaggyAlien
-    * (1/112) 2x eqpEmpirePentagonTrooper
-    * (1/112) 2x eqpRebelEchoBaseJetpackTrooper
-    * (1/112) 2x eqpRebelSandSoldier
-    * (1/112) 2x eqpEmpireFactorySummonLight
-    * (1/112) 2x eqpRebelBarracksSummonMedium
-    * (1/112) 2x eqpRebelEchoBaseSoldier
-    * (1/112) 2x eqpRebelArcticHailfire
-    * (1/112) 2x eqpEmpireArcticINT4
-    * (1/112) 2x eqpRebelPentagonSoldier
-    * (1/112) 2x eqpEmpireSandJumpTrooper
-    * (1/112) 2x eqpRebelDiplomat
-    * (1/112) 2x eqpEmpireHeavySandtrooper
-    * (1/112) 2x eqpEmpireFactorySummonHeavy
-    * (1/112) 2x eqpRebelTauntaun
-    * (1/112) 2x eqpRebelFactorySummonLight
-    * (1/112) 2x eqpEmpireBarracksSummonHeavy
-    * (1/112) 2x eqpRebelPentagonJetpackTrooper
-    * (1/112) 2x eqpEmpireSnowtrooper
-    * (1/112) 2x eqpEmpireBarracksSummonMedium
-    * (1/112) 2x eqpEmpireArcticMHC
-    * (1/112) 2x eqpEmpireSandtrooper
-    * (1/112) 2x eqpEmpireCargoGreatDane
+### On planet Yavin 4, with HQ level 10
 
-### Empire, with HQ level 10
+    * (1/1) 240000 Alloy
 
-    * (1/112) 2x eqpRebelFactorySummonHeavy
-    * (1/112) 2x eqpEmpireArcticATMP
-    * (1/112) 2x eqpRebelEchoBaseHeavySoldier
-    * (1/112) 2x eqpRebelHeavySandSoldier
-    * (1/112) 2x eqpRebelBarracksSummonHeavy
-    * (1/112) 2x eqpRebelBarracksSummonLight
-    * (1/112) 2x eqpEmpireHeavySnowtrooper
-    * (1/112) 2x eqpRebelSandJetpackTrooper
-    * (1/112) 2x eqpEmpireBarracksSummonLight
-    * (1/112) 2x eqpEmpirePentagonJumpTrooper
-    * (1/112) 2x eqpEmpirePentagonHeavyTrooper
-    * (1/112) 2x eqpRebelCaptainSolo
-    * (1/112) 2x eqpEmpireSnowJumpTrooper
-    * (1/112) 2x eqpRebelShaggyAlien
-    * (1/112) 2x eqpEmpirePentagonTrooper
-    * (1/112) 2x eqpRebelEchoBaseJetpackTrooper
-    * (1/112) 2x eqpRebelSandSoldier
-    * (1/112) 2x eqpEmpireFactorySummonLight
-    * (1/112) 2x eqpRebelBarracksSummonMedium
-    * (1/112) 2x eqpRebelEchoBaseSoldier
-    * (1/112) 2x eqpRebelArcticHailfire
-    * (1/112) 2x eqpEmpireArcticINT4
-    * (1/112) 2x eqpRebelPentagonSoldier
-    * (1/112) 2x eqpEmpireSandJumpTrooper
-    * (1/112) 2x eqpRebelDiplomat
-    * (1/112) 2x eqpEmpireHeavySandtrooper
-    * (1/112) 2x eqpEmpireFactorySummonHeavy
-    * (1/112) 2x eqpRebelTauntaun
-    * (1/112) 2x eqpRebelFactorySummonLight
-    * (1/112) 2x eqpEmpireBarracksSummonHeavy
-    * (1/112) 2x eqpRebelPentagonJetpackTrooper
-    * (1/112) 2x eqpEmpireSnowtrooper
-    * (1/112) 2x eqpEmpireBarracksSummonMedium
-    * (1/112) 2x eqpEmpireArcticMHC
-    * (1/112) 2x eqpEmpireSandtrooper
-    * (1/112) 2x eqpEmpireCargoGreatDane
+### On planet Tatooine, with HQ level 6
 
-### Empire, with HQ level 6
+    * (1/1) 52000 Credits
 
-    * (1/112) 2x eqpRebelFactorySummonHeavy
-    * (1/112) 2x eqpEmpireArcticATMP
-    * (1/112) 2x eqpRebelEchoBaseHeavySoldier
-    * (1/112) 2x eqpRebelHeavySandSoldier
-    * (1/112) 2x eqpRebelBarracksSummonHeavy
-    * (1/112) 2x eqpRebelBarracksSummonLight
-    * (1/112) 2x eqpEmpireHeavySnowtrooper
-    * (1/112) 2x eqpRebelSandJetpackTrooper
-    * (1/112) 2x eqpEmpireBarracksSummonLight
-    * (1/112) 2x eqpEmpirePentagonJumpTrooper
-    * (1/112) 2x eqpEmpirePentagonHeavyTrooper
-    * (1/112) 2x eqpRebelCaptainSolo
-    * (1/112) 2x eqpEmpireSnowJumpTrooper
-    * (1/112) 2x eqpRebelShaggyAlien
-    * (1/112) 2x eqpEmpirePentagonTrooper
-    * (1/112) 2x eqpRebelEchoBaseJetpackTrooper
-    * (1/112) 2x eqpRebelSandSoldier
-    * (1/112) 2x eqpEmpireFactorySummonLight
-    * (1/112) 2x eqpRebelBarracksSummonMedium
-    * (1/112) 2x eqpRebelEchoBaseSoldier
-    * (1/112) 2x eqpRebelArcticHailfire
-    * (1/112) 2x eqpEmpireArcticINT4
-    * (1/112) 2x eqpRebelPentagonSoldier
-    * (1/112) 2x eqpEmpireSandJumpTrooper
-    * (1/112) 2x eqpRebelDiplomat
-    * (1/112) 2x eqpEmpireHeavySandtrooper
-    * (1/112) 2x eqpEmpireFactorySummonHeavy
-    * (1/112) 2x eqpRebelTauntaun
-    * (1/112) 2x eqpRebelFactorySummonLight
-    * (1/112) 2x eqpEmpireBarracksSummonHeavy
-    * (1/112) 2x eqpRebelPentagonJetpackTrooper
-    * (1/112) 2x eqpEmpireSnowtrooper
-    * (1/112) 2x eqpEmpireBarracksSummonMedium
-    * (1/112) 2x eqpEmpireArcticMHC
-    * (1/112) 2x eqpEmpireSandtrooper
-    * (1/112) 2x eqpEmpireCargoGreatDane
+### On planet Hoth, with HQ level 6
+
+    * (1/1) 52000 Credits
+
+### On planet Takodana, with HQ level 6
+
+    * (1/1) 52000 Alloy
+
+### On planet Dandoran, with HQ level 6
+
+    * (1/1) 52000 Credits
+
+### On planet Er'Kit, with HQ level 6
+
+    * (1/1) 52000 Alloy
+
+### On planet Yavin 4, with HQ level 6
+
+    * (1/1) 52000 Alloy
 
 ## Pool "lcpool_defRef_shrd_conf_tier5_lightFac" (x1 draw)
 
-### Rebellion, with HQ level 6
-
-    * (1/8) 3x shrd_troopIakaruWarrior
-    * (1/8) 3x eqpEmpireFactorySummonLight
-    * (1/8) 3x eqpRebelFactorySummonLight
-    * (1/8) 3x shrd_troopIG86Droid
-
-### Rebellion, with HQ level 10
-
-    * (1/8) 3x shrd_troopIakaruWarrior
-    * (1/8) 3x eqpEmpireFactorySummonLight
-    * (1/8) 3x eqpRebelFactorySummonLight
-    * (1/8) 3x shrd_troopIG86Droid
-
 ### Empire, with HQ level 10
 
-    * (1/8) 3x shrd_troopIakaruWarrior
-    * (1/8) 3x eqpEmpireFactorySummonLight
-    * (1/8) 3x eqpRebelFactorySummonLight
-    * (1/8) 3x shrd_troopIG86Droid
+    * (1/2) 3 data fragments of equipment Guard Reserve: Anti-infantry
 
 ### Empire, with HQ level 6
 
-    * (1/8) 3x shrd_troopIakaruWarrior
-    * (1/8) 3x eqpEmpireFactorySummonLight
-    * (1/8) 3x eqpRebelFactorySummonLight
-    * (1/8) 3x shrd_troopIG86Droid
+    * (1/2) 3 data fragments of equipment Guard Reserve: Anti-infantry
+
+### Rebellion, with HQ level 10
+
+    * (1/2) 3 data fragments of equipment Guard Reserve: Anti-infantry
+
+### Rebellion, with HQ level 6
+
+    * (1/2) 3 data fragments of equipment Guard Reserve: Anti-infantry
+
+## Pool "lcpool_shrd_t3" (x1 draw)
+
+### Empire, with HQ level 10
+
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Cold-weather Mobile Heavy Cannon
+    * (1/56) 2 data fragments of equipment Desert Jump Trooper
+    * (1/56) 2 data fragments of equipment AT-ACT
+    * (1/56) 2 data fragments of equipment Arctic Jump Trooper
+    * (1/56) 2 data fragments of equipment Sandtrooper
+    * (1/56) 2 data fragments of equipment Heavy Sandtrooper
+    * (1/56) 2 data fragments of equipment Heavy Snowtrooper
+    * (1/56) 2 data fragments of equipment Shoretrooper
+    * (1/56) 2 data fragments of equipment Heavy Shoretrooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
+    * (1/56) 2 data fragments of equipment Modified INT-4 Interceptor
+    * (1/56) 2 data fragments of equipment Forest Jump Trooper
+    * (1/56) 2 data fragments of equipment Cold Weather AT-MP Mark III
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (1/56) 2 data fragments of equipment Snowtrooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+
+### Empire, with HQ level 6
+
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Cold-weather Mobile Heavy Cannon
+    * (1/56) 2 data fragments of equipment Desert Jump Trooper
+    * (1/56) 2 data fragments of equipment AT-ACT
+    * (1/56) 2 data fragments of equipment Arctic Jump Trooper
+    * (1/56) 2 data fragments of equipment Sandtrooper
+    * (1/56) 2 data fragments of equipment Heavy Sandtrooper
+    * (1/56) 2 data fragments of equipment Heavy Snowtrooper
+    * (1/56) 2 data fragments of equipment Shoretrooper
+    * (1/56) 2 data fragments of equipment Heavy Shoretrooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
+    * (1/56) 2 data fragments of equipment Modified INT-4 Interceptor
+    * (1/56) 2 data fragments of equipment Forest Jump Trooper
+    * (1/56) 2 data fragments of equipment Cold Weather AT-MP Mark III
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (1/56) 2 data fragments of equipment Snowtrooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+
+### Rebellion, with HQ level 10
+
+    * (1/56) 2 data fragments of equipment Cold-weather Hailfire Droid
+    * (1/56) 2 data fragments of equipment Arctic Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Senator Leia Organa
+    * (1/56) 2 data fragments of equipment Cold-weather Heavy Soldier
+    * (1/56) 2 data fragments of equipment Rebel Commando
+    * (1/56) 2 data fragments of equipment Desert Soldier
+    * (1/56) 2 data fragments of equipment Heavy Desert Soldier
+    * (1/56) 2 data fragments of equipment Desert Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Tauntaun Rider
+    * (1/56) 2 data fragments of equipment Cold-weather Soldier
+    * (1/56) 2 data fragments of equipment Captain Han Solo
+    * (1/56) 2 data fragments of equipment Gigoran Fighter
+    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+    * (1/56) 2 data fragments of equipment Forest Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+
+### Rebellion, with HQ level 6
+
+    * (1/56) 2 data fragments of equipment Cold-weather Hailfire Droid
+    * (1/56) 2 data fragments of equipment Arctic Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Senator Leia Organa
+    * (1/56) 2 data fragments of equipment Cold-weather Heavy Soldier
+    * (1/56) 2 data fragments of equipment Rebel Commando
+    * (1/56) 2 data fragments of equipment Desert Soldier
+    * (1/56) 2 data fragments of equipment Heavy Desert Soldier
+    * (1/56) 2 data fragments of equipment Desert Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
+    * (1/56) 2 data fragments of equipment Tauntaun Rider
+    * (1/56) 2 data fragments of equipment Cold-weather Soldier
+    * (1/56) 2 data fragments of equipment Captain Han Solo
+    * (1/56) 2 data fragments of equipment Gigoran Fighter
+    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+    * (1/56) 2 data fragments of equipment Forest Jetpack Trooper
+    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
