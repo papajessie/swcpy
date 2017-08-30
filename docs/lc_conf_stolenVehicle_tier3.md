@@ -15,70 +15,70 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### On planet Tatooine, with HQ level 10
 
-    * (1/1) 88000 Credits
+  * (1/1) 88000 Credits
 
 ### On planet Hoth, with HQ level 10
 
-    * (1/1) 88000 Credits
+  * (1/1) 88000 Credits
 
 ### On planet Takodana, with HQ level 10
 
-    * (1/1) 88000 Alloy
+  * (1/1) 88000 Alloy
 
 ### On planet Dandoran, with HQ level 10
 
-    * (1/1) 88000 Credits
+  * (1/1) 88000 Credits
 
 ### On planet Er'Kit, with HQ level 10
 
-    * (1/1) 88000 Alloy
+  * (1/1) 88000 Alloy
 
 ### On planet Yavin 4, with HQ level 10
 
-    * (1/1) 88000 Alloy
+  * (1/1) 88000 Alloy
 
 ### On planet Tatooine, with HQ level 6
 
-    * (1/1) 20000 Credits
+  * (1/1) 20000 Credits
 
 ### On planet Hoth, with HQ level 6
 
-    * (1/1) 20000 Credits
+  * (1/1) 20000 Credits
 
 ### On planet Takodana, with HQ level 6
 
-    * (1/1) 20000 Alloy
+  * (1/1) 20000 Alloy
 
 ### On planet Dandoran, with HQ level 6
 
-    * (1/1) 20000 Credits
+  * (1/1) 20000 Credits
 
 ### On planet Er'Kit, with HQ level 6
 
-    * (1/1) 20000 Alloy
+  * (1/1) 20000 Alloy
 
 ### On planet Yavin 4, with HQ level 6
 
-    * (1/1) 20000 Alloy
+  * (1/1) 20000 Alloy
 
 ## Pool "lcpool_stolenVehicle_conf3" (x2 draws)
 
 ### Empire, with HQ level 10
 
-    * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
-    * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
+  * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
+  * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Empire, with HQ level 6
 
-    * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
-    * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
+  * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
+  * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Rebellion, with HQ level 10
 
-    * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
-    * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
 
 ### Rebellion, with HQ level 6
 
-    * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
-    * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)

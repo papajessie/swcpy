@@ -13,60 +13,60 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ### On planet Tatooine, with HQ level 10
 
-    * (1/1) 6000 Credits
+  * (1/1) 6000 Credits
 
 ### On planet Hoth, with HQ level 10
 
-    * (1/1) 6000 Credits
+  * (1/1) 6000 Credits
 
 ### On planet Takodana, with HQ level 10
 
-    * (1/1) 6000 Alloy
+  * (1/1) 6000 Alloy
 
 ### On planet Dandoran, with HQ level 10
 
-    * (1/1) 6000 Credits
+  * (1/1) 6000 Credits
 
 ### On planet Er'Kit, with HQ level 10
 
-    * (1/1) 6000 Alloy
+  * (1/1) 6000 Alloy
 
 ### On planet Yavin 4, with HQ level 10
 
-    * (1/1) 6000 Alloy
+  * (1/1) 6000 Alloy
 
 ### On planet Tatooine, with HQ level 6
 
-    * (1/1) 2560 Credits
+  * (1/1) 2560 Credits
 
 ### On planet Hoth, with HQ level 6
 
-    * (1/1) 2560 Credits
+  * (1/1) 2560 Credits
 
 ### On planet Takodana, with HQ level 6
 
-    * (1/1) 2560 Alloy
+  * (1/1) 2560 Alloy
 
 ### On planet Dandoran, with HQ level 6
 
-    * (1/1) 2560 Credits
+  * (1/1) 2560 Credits
 
 ### On planet Er'Kit, with HQ level 6
 
-    * (1/1) 2560 Alloy
+  * (1/1) 2560 Alloy
 
 ### On planet Yavin 4, with HQ level 6
 
-    * (1/1) 2560 Alloy
+  * (1/1) 2560 Alloy
 
 ## Pool "lcpool_stolenVehicle_conf1" (x1 draw)
 
 ### With HQ level 10
 
-    * (1/2) 7500 Alloy
-    * (1/2) 7500 Credits
+  * (1/2) 7500 Alloy
+  * (1/2) 7500 Credits
 
 ### With HQ level 6
 
-    * (1/2) 3200 Alloy
-    * (1/2) 3200 Credits
+  * (1/2) 3200 Alloy
+  * (1/2) 3200 Credits
