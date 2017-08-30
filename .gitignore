@@ -1,6 +1,6 @@
 # Local files
 content/
-manifest.*
+manifest*
 layout/
 layout2/
 lastversion.txt
