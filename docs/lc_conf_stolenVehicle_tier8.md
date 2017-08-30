@@ -76,24 +76,24 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
 ### Empire, with HQ level 10
 
-    * (1/6) 32 troop sample Seized Hailfire Droid
-    * (1/6) 16 air support sample Seized A-wing Starfighter
-    * (1/6) 16 troop sample Seized AT-TE Walker
+    * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
+    * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
+    * (1/3) 16 troop sample [Seized AT-TE Walker](SeizedATTE)
 
 ### Empire, with HQ level 6
 
-    * (1/6) 32 troop sample Seized Hailfire Droid
-    * (1/6) 16 air support sample Seized A-wing Starfighter
-    * (1/6) 16 troop sample Seized AT-TE Walker
+    * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
+    * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
+    * (1/3) 16 troop sample [Seized AT-TE Walker](SeizedATTE)
 
 ### Rebellion, with HQ level 10
 
-    * (1/6) 16 air support sample Stolen TIE Advanced
-    * (1/6) 32 troop sample Stolen Mobile Heavy Cannon
-    * (1/6) 16 troop sample Stolen AT-DP Walker
+    * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
+    * (1/3) 16 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
+    * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
 ### Rebellion, with HQ level 6
 
-    * (1/6) 16 air support sample Stolen TIE Advanced
-    * (1/6) 32 troop sample Stolen Mobile Heavy Cannon
-    * (1/6) 16 troop sample Stolen AT-DP Walker
+    * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
+    * (1/3) 16 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
+    * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
