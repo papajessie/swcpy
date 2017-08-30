@@ -65,20 +65,20 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire, with HQ level 10
 
-    * (1/4) 4 troop sample Seized AAT-1 Hover Tank
-    * (1/4) 2 troop sample Seized Juggernaut
+    * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
+    * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Empire, with HQ level 6
 
-    * (1/4) 4 troop sample Seized AAT-1 Hover Tank
-    * (1/4) 2 troop sample Seized Juggernaut
+    * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
+    * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
 
 ### Rebellion, with HQ level 10
 
-    * (1/4) 4 troop sample Stolen AT-ST Walker
-    * (1/4) 2 troop sample Stolen AT-AT Walker
+    * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
+    * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
 
 ### Rebellion, with HQ level 6
 
-    * (1/4) 4 troop sample Stolen AT-ST Walker
-    * (1/4) 2 troop sample Stolen AT-AT Walker
+    * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
+    * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)

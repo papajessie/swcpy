@@ -31,102 +31,102 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
-    * (1/2) 16 troop sample TX-225
+    * (1/1) 16 troop sample [TX-225](EmpireHovertankSample)
 
 ### Empire, with HQ level 6
 
-    * (1/2) 16 troop sample TX-225
+    * (1/1) 16 troop sample [TX-225](EmpireHovertankSample)
 
 ### Rebellion, with HQ level 10
 
-    * (1/2) 16 troop sample Stolen TX-225
+    * (1/1) 16 troop sample [Stolen TX-225](RebelHovertankSample)
 
 ### Rebellion, with HQ level 6
 
-    * (1/2) 16 troop sample Stolen TX-225
+    * (1/1) 16 troop sample [Stolen TX-225](RebelHovertankSample)
 
 ## Pool "lcpool_shrd_t3" (x1 draw)
 
 ### Empire, with HQ level 10
 
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Cold-weather Mobile Heavy Cannon
-    * (1/56) 2 data fragments of equipment Desert Jump Trooper
-    * (1/56) 2 data fragments of equipment AT-ACT
-    * (1/56) 2 data fragments of equipment Arctic Jump Trooper
-    * (1/56) 2 data fragments of equipment Sandtrooper
-    * (1/56) 2 data fragments of equipment Heavy Sandtrooper
-    * (1/56) 2 data fragments of equipment Heavy Snowtrooper
-    * (1/56) 2 data fragments of equipment Shoretrooper
-    * (1/56) 2 data fragments of equipment Heavy Shoretrooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
-    * (1/56) 2 data fragments of equipment Modified INT-4 Interceptor
-    * (1/56) 2 data fragments of equipment Forest Jump Trooper
-    * (1/56) 2 data fragments of equipment Cold Weather AT-MP Mark III
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
-    * (1/56) 2 data fragments of equipment Snowtrooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
-    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonMedium_name](eqpEmpireBarracksSummonMedium_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpirePentagonJumpTrooper_name](eqpEmpirePentagonJumpTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireFactorySummonLight_name](eqpEmpireFactorySummonLight_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonHeavy_name](eqpEmpireBarracksSummonHeavy_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireSandJumpTrooper_name](eqpEmpireSandJumpTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireSnowJumpTrooper_name](eqpEmpireSnowJumpTrooper_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
+    * (3/38) 2 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireFactorySummonHeavy_name](eqpEmpireFactorySummonHeavy_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
+    * (3/38) 2 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
+    * (5/38) 2 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonLight_name](eqpEmpireBarracksSummonLight_name)
 
 ### Empire, with HQ level 6
 
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Cold-weather Mobile Heavy Cannon
-    * (1/56) 2 data fragments of equipment Desert Jump Trooper
-    * (1/56) 2 data fragments of equipment AT-ACT
-    * (1/56) 2 data fragments of equipment Arctic Jump Trooper
-    * (1/56) 2 data fragments of equipment Sandtrooper
-    * (1/56) 2 data fragments of equipment Heavy Sandtrooper
-    * (1/56) 2 data fragments of equipment Heavy Snowtrooper
-    * (1/56) 2 data fragments of equipment Shoretrooper
-    * (1/56) 2 data fragments of equipment Heavy Shoretrooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
-    * (1/56) 2 data fragments of equipment Modified INT-4 Interceptor
-    * (1/56) 2 data fragments of equipment Forest Jump Trooper
-    * (1/56) 2 data fragments of equipment Cold Weather AT-MP Mark III
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
-    * (1/56) 2 data fragments of equipment Snowtrooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
-    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonMedium_name](eqpEmpireBarracksSummonMedium_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpirePentagonJumpTrooper_name](eqpEmpirePentagonJumpTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireFactorySummonLight_name](eqpEmpireFactorySummonLight_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonHeavy_name](eqpEmpireBarracksSummonHeavy_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireSandJumpTrooper_name](eqpEmpireSandJumpTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireSnowJumpTrooper_name](eqpEmpireSnowJumpTrooper_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
+    * (3/38) 2 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
+    * (1/38) 2 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireFactorySummonHeavy_name](eqpEmpireFactorySummonHeavy_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
+    * (3/38) 2 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
+    * (5/38) 2 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpEmpireBarracksSummonLight_name](eqpEmpireBarracksSummonLight_name)
 
 ### Rebellion, with HQ level 10
 
-    * (1/56) 2 data fragments of equipment Cold-weather Hailfire Droid
-    * (1/56) 2 data fragments of equipment Arctic Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Senator Leia Organa
-    * (1/56) 2 data fragments of equipment Cold-weather Heavy Soldier
-    * (1/56) 2 data fragments of equipment Rebel Commando
-    * (1/56) 2 data fragments of equipment Desert Soldier
-    * (1/56) 2 data fragments of equipment Heavy Desert Soldier
-    * (1/56) 2 data fragments of equipment Desert Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Tauntaun Rider
-    * (1/56) 2 data fragments of equipment Cold-weather Soldier
-    * (1/56) 2 data fragments of equipment Captain Han Solo
-    * (1/56) 2 data fragments of equipment Gigoran Fighter
-    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
-    * (1/56) 2 data fragments of equipment Forest Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (2/38) 2 data fragments of equipment [eqpRebelPentagonJetpackTrooper_name](eqpRebelPentagonJetpackTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelEchoBaseJetpackTrooper_name](eqpRebelEchoBaseJetpackTrooper_name)
+    * (3/38) 2 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonMedium_name](eqpRebelBarracksSummonMedium_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelFactorySummonHeavy_name](eqpRebelFactorySummonHeavy_name)
+    * (5/38) 2 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonLight_name](eqpRebelBarracksSummonLight_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelFactorySummonLight_name](eqpRebelFactorySummonLight_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelSandJetpackTrooper_name](eqpRebelSandJetpackTrooper_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonHeavy_name](eqpRebelBarracksSummonHeavy_name)
+    * (3/38) 2 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
 
 ### Rebellion, with HQ level 6
 
-    * (1/56) 2 data fragments of equipment Cold-weather Hailfire Droid
-    * (1/56) 2 data fragments of equipment Arctic Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Senator Leia Organa
-    * (1/56) 2 data fragments of equipment Cold-weather Heavy Soldier
-    * (1/56) 2 data fragments of equipment Rebel Commando
-    * (1/56) 2 data fragments of equipment Desert Soldier
-    * (1/56) 2 data fragments of equipment Heavy Desert Soldier
-    * (1/56) 2 data fragments of equipment Desert Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Light Infantry
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-vehicle
-    * (1/56) 2 data fragments of equipment Tauntaun Rider
-    * (1/56) 2 data fragments of equipment Cold-weather Soldier
-    * (1/56) 2 data fragments of equipment Captain Han Solo
-    * (1/56) 2 data fragments of equipment Gigoran Fighter
-    * (1/56) 2 data fragments of equipment Guard Reserve: Melee Bruisers
-    * (1/56) 2 data fragments of equipment Forest Jetpack Trooper
-    * (1/56) 2 data fragments of equipment Guard Reserve: Anti-infantry
+    * (2/38) 2 data fragments of equipment [eqpRebelPentagonJetpackTrooper_name](eqpRebelPentagonJetpackTrooper_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelEchoBaseJetpackTrooper_name](eqpRebelEchoBaseJetpackTrooper_name)
+    * (3/38) 2 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonMedium_name](eqpRebelBarracksSummonMedium_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelFactorySummonHeavy_name](eqpRebelFactorySummonHeavy_name)
+    * (5/38) 2 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonLight_name](eqpRebelBarracksSummonLight_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelFactorySummonLight_name](eqpRebelFactorySummonLight_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelSandJetpackTrooper_name](eqpRebelSandJetpackTrooper_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
+    * (1/38) 2 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
+    * (2/38) 2 data fragments of equipment [eqpRebelBarracksSummonHeavy_name](eqpRebelBarracksSummonHeavy_name)
+    * (3/38) 2 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
