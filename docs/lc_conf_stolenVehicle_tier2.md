@@ -59,14 +59,30 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
   * (1/1) 5600 Alloy
 
+### Fallback with HQ level 10
+
+  * 40000 Credits
+
+### Fallback with HQ level 6
+
+  * 11000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf2" (x1 draw)
 
 ### With HQ level 10
 
-  * (1/2) 25000 Credits
   * (1/2) 25000 Alloy
+  * (1/2) 25000 Credits
 
 ### With HQ level 6
 
-  * (1/2) 7000 Credits
   * (1/2) 7000 Alloy
+  * (1/2) 7000 Credits
+
+### Fallback with HQ level 10
+
+  * 40000 Credits
+
+### Fallback with HQ level 6
+
+  * 12000 Credits

@@ -61,28 +61,32 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
   * (1/1) 76000 Alloy
 
+### Fallback with HQ level 10
+
+  * 364000 Credits
+
+### Fallback with HQ level 6
+
+  * 76000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf7" (x2 draws)
 
-### Empire, with HQ level 10
+### Empire
 
-  * (1/3) 16 troop sample [Seized Hailfire Droid](SeizedHailfire)
   * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
   * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
-
-### Empire, with HQ level 6
-
   * (1/3) 16 troop sample [Seized Hailfire Droid](SeizedHailfire)
-  * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
-  * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
 
-### Rebellion, with HQ level 10
+### Rebellion
 
+  * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
   * (1/3) 16 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
   * (1/3) 8 troop sample [Stolen AT-DP Walker](StolenATDP)
-  * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
 
-### Rebellion, with HQ level 6
+### Fallback with HQ level 10
 
-  * (1/3) 16 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
-  * (1/3) 8 troop sample [Stolen AT-DP Walker](StolenATDP)
-  * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
+  * 300000 Credits
+
+### Fallback with HQ level 6
+
+  * 65000 Credits
