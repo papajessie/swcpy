@@ -37,54 +37,54 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
   * (1/1) 152000 Alloy
 
-### On planet Tatooine, with HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 32800 Credits
+  * (1/1) 13200 Credits
 
-### On planet Hoth, with HQ level 6
+### On planet Hoth, with HQ level 5
 
-  * (1/1) 32800 Credits
+  * (1/1) 13200 Credits
 
-### On planet Takodana, with HQ level 6
+### On planet Takodana, with HQ level 5
 
-  * (1/1) 32800 Alloy
+  * (1/1) 13200 Alloy
 
-### On planet Dandoran, with HQ level 6
+### On planet Dandoran, with HQ level 5
 
-  * (1/1) 32800 Credits
+  * (1/1) 13200 Credits
 
-### On planet Er'Kit, with HQ level 6
+### On planet Er'Kit, with HQ level 5
 
-  * (1/1) 32800 Alloy
+  * (1/1) 13200 Alloy
 
-### On planet Yavin 4, with HQ level 6
+### On planet Yavin 4, with HQ level 5
 
-  * (1/1) 32800 Alloy
+  * (1/1) 13200 Alloy
 
 ### Fallback with HQ level 10
 
   * 304000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 65600 Credits
+  * 26400 Credits
 
 ## Pool "lcpool_stolenVehicle_conf5" (x2 draws)
 
 ### Empire
 
-  * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
   * (1/2) 8 troop sample [Seized Juggernaut](SeizedJuggernaut)
+  * (1/2) 4 troop sample [Seized Hailfire Droid](SeizedHailfire)
 
 ### Rebellion
 
-  * (1/2) 4 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
   * (1/2) 8 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 4 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
 ### Fallback with HQ level 10
 
   * 225000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 50000 Credits
+  * 25000 Credits
