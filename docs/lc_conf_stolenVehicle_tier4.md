@@ -73,13 +73,13 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire
 
-  * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
   * (1/2) 2 troop sample [Seized Juggernaut](SeizedJuggernaut)
+  * (1/2) 4 troop sample [Seized AAT-1 Hover Tank](SeizedAAT1)
 
 ### Rebellion
 
-  * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
   * (1/2) 2 troop sample [Stolen AT-AT Walker](StolenATAT)
+  * (1/2) 4 troop sample [Stolen AT-ST Walker](StolenATST)
 
 ### Fallback with HQ level 10
 

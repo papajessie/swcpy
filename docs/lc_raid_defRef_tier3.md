@@ -13,24 +13,24 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### With HQ level 10
 
-  * (3/51) 210 Contraband
-  * (7/51) 60000 Alloy
-  * (7/51) 75000 Alloy
-  * (7/51) 90000 Credits
-  * (3/51) 250 Contraband
   * (3/51) 170 Contraband
-  * (7/51) 60000 Credits
-  * (7/51) 75000 Credits
   * (7/51) 90000 Alloy
+  * (7/51) 75000 Credits
+  * (7/51) 60000 Alloy
+  * (7/51) 90000 Credits
+  * (7/51) 75000 Alloy
+  * (7/51) 60000 Credits
+  * (3/51) 210 Contraband
+  * (3/51) 250 Contraband
 
 ### With HQ level 5
 
-  * (7/42) 8000 Alloy
-  * (7/42) 10000 Alloy
-  * (7/42) 12000 Credits
-  * (7/42) 8000 Credits
-  * (7/42) 10000 Credits
   * (7/42) 12000 Alloy
+  * (7/42) 10000 Credits
+  * (7/42) 8000 Alloy
+  * (7/42) 12000 Credits
+  * (7/42) 10000 Alloy
+  * (7/42) 8000 Credits
 
 ### Fallback with HQ level 10
 
@@ -44,49 +44,49 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
-  * (2/22) 4 data fragments of equipment [eqpEmpireBarracksSummonMedium_name](eqpEmpireBarracksSummonMedium_name)
-  * (2/22) 4 data fragments of equipment [eqpEmpireFactorySummonHeavy_name](eqpEmpireFactorySummonHeavy_name)
-  * (3/22) 3 data fragments of equipment [eqpEmpireBarracksSummonLight_name](eqpEmpireBarracksSummonLight_name)
-  * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (2/22) 4 data fragments of equipment [eqpEmpireBarracksSummonLight_name](eqpEmpireBarracksSummonLight_name)
-  * (3/22) 3 data fragments of equipment [eqpEmpireFactorySummonLight_name](eqpEmpireFactorySummonLight_name)
-  * (2/22) 4 data fragments of equipment [eqpEmpireFactorySummonLight_name](eqpEmpireFactorySummonLight_name)
-  * (1/22) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
   * (1/22) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
-  * (2/22) 4 data fragments of equipment [eqpEmpireBarracksSummonHeavy_name](eqpEmpireBarracksSummonHeavy_name)
-  * (3/22) 3 data fragments of equipment [eqpEmpireBarracksSummonMedium_name](eqpEmpireBarracksSummonMedium_name)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
+  * (1/22) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
+  * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
 
 ### Empire, with HQ level 5
 
-  * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (4/15) 3 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (4/15) 3 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
-  * (1/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/15) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
+  * (4/15) 3 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
+  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Rebellion, with HQ level 10
 
-  * (3/22) 3 data fragments of equipment [eqpRebelBarracksSummonLight_name](eqpRebelBarracksSummonLight_name)
-  * (3/22) 3 data fragments of equipment [eqpRebelFactorySummonLight_name](eqpRebelFactorySummonLight_name)
-  * (2/22) 4 data fragments of equipment [eqpRebelBarracksSummonHeavy_name](eqpRebelBarracksSummonHeavy_name)
-  * (2/22) 4 data fragments of equipment [eqpRebelFactorySummonLight_name](eqpRebelFactorySummonLight_name)
-  * (3/22) 3 data fragments of equipment [eqpRebelBarracksSummonMedium_name](eqpRebelBarracksSummonMedium_name)
-  * (1/22) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (1/22) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/22) 4 data fragments of equipment [eqpRebelFactorySummonHeavy_name](eqpRebelFactorySummonHeavy_name)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelFactorySummonHeavy)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
   * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (2/22) 4 data fragments of equipment [eqpRebelBarracksSummonMedium_name](eqpRebelBarracksSummonMedium_name)
-  * (2/22) 4 data fragments of equipment [eqpRebelBarracksSummonLight_name](eqpRebelBarracksSummonLight_name)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
+  * (3/22) 3 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
+  * (1/22) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
+  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelBarracksSummonHeavy)
 
 ### Rebellion, with HQ level 5
 
-  * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/15) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/15) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (4/15) 3 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (4/15) 3 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/15) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback with HQ level 10
 
@@ -100,18 +100,18 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire
 
-  * (2/6) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
   * (1/6) 1 troop sample [Shock Trooper](Shock)
-  * (1/6) 2 troop sample [Shock Trooper](Shock)
+  * (2/6) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
   * (1/6) 3 troop sample [Johhar Kessen](EmpireJohhar)
   * (1/6) 2 troop sample [Johhar Kessen](EmpireJohhar)
+  * (1/6) 2 troop sample [Shock Trooper](Shock)
 
 ### Rebellion
 
   * (1/6) 1 troop sample [Rebel Vanguard](Vanguard)
-  * (1/6) 3 troop sample [Johhar Kessen](RebelJohhar)
-  * (2/6) 2 troop sample [Iakaru Warrior](IakaruWarrior)
   * (1/6) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (2/6) 2 troop sample [Iakaru Warrior](IakaruWarrior)
+  * (1/6) 3 troop sample [Johhar Kessen](RebelJohhar)
   * (1/6) 2 troop sample [Rebel Vanguard](Vanguard)
 
 ### Fallback with HQ level 10
