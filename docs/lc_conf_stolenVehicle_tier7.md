@@ -73,15 +73,15 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire
 
-  * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
-  * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
   * (1/3) 16 troop sample [Seized Hailfire Droid](SeizedHailfire)
+  * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
+  * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
 
 ### Rebellion
 
-  * (1/3) 16 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
-  * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
   * (1/3) 8 troop sample [Stolen AT-DP Walker](StolenATDP)
+  * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
+  * (1/3) 16 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
 ### Fallback with HQ level 10
 

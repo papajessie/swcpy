@@ -71,7 +71,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
-  * (1/1) 5 data fragments of equipment [eqpEmpirePentagonJumpTrooper_name](eqpEmpirePentagonJumpTrooper_name)
+  * (1/1) 5 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
 
 ### Empire, on planet Tatooine, with HQ level 5
 
@@ -99,7 +99,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Rebellion, with HQ level 10
 
-  * (1/1) 5 data fragments of equipment [eqpRebelPentagonJetpackTrooper_name](eqpRebelPentagonJetpackTrooper_name)
+  * (1/1) 5 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
 
 ### Rebellion, on planet Tatooine, with HQ level 5
 
@@ -141,29 +141,29 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
-  * (1/42) 1 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
-  * (10/42) 1 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (1/42) 1 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
-  * (6/42) 1 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
-  * (6/42) 1 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-  * (2/42) 1 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
+  * (2/42) 1 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (4/42) 1 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (10/42) 1 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (4/42) 1 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
+  * (4/42) 1 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (6/42) 1 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (1/42) 1 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (4/42) 1 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
+  * (6/42) 1 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
+  * (1/42) 1 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
 
 ### Rebellion, with HQ level 10
 
-  * (4/42) 1 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
-  * (2/42) 1 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (6/42) 1 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-  * (10/42) 1 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
-  * (6/42) 1 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
+  * (4/42) 1 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (6/42) 1 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
+  * (1/42) 1 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
+  * (4/42) 1 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (6/42) 1 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+  * (1/42) 1 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
+  * (4/42) 1 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
+  * (2/42) 1 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (10/42) 1 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (4/42) 1 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
 
 ### Fallback with HQ level 10
 

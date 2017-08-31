@@ -13,21 +13,21 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### With HQ level 10
 
-  * (1/6) 3000000 Credits
-  * (1/6) 3000000 Alloy
-  * (1/6) 1500000 Alloy
   * (1/6) 1500000 Credits
-  * (1/6) 6000000 Credits
   * (1/6) 6000000 Alloy
+  * (1/6) 6000000 Credits
+  * (1/6) 3000000 Credits
+  * (1/6) 1500000 Alloy
+  * (1/6) 3000000 Alloy
 
 ### With HQ level 5
 
-  * (1/6) 150000 Credits
-  * (1/6) 150000 Alloy
-  * (1/6) 75000 Alloy
   * (1/6) 75000 Credits
-  * (1/6) 300000 Credits
   * (1/6) 300000 Alloy
+  * (1/6) 300000 Credits
+  * (1/6) 150000 Credits
+  * (1/6) 75000 Alloy
+  * (1/6) 150000 Alloy
 
 ### Fallback with HQ level 10
 
@@ -41,34 +41,34 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
+  * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
   * (4/20) 16 data fragments of unlockable troop [MTV-7](MTV7)
+  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (4/20) 16 data fragments of unlockable troop [Shock Trooper](Shock)
   * (4/20) 16 data fragments of unlockable air support [VT-49 Decimator](VT49)
-  * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
 ### Empire, with HQ level 5
 
+  * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
   * (4/20) 16 data fragments of unlockable troop [MTV-7](MTV7)
+  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (4/20) 16 data fragments of unlockable troop [Shock Trooper](Shock)
   * (4/20) 16 data fragments of unlockable air support [VT-49 Decimator](VT49)
-  * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
 ### Rebellion, with HQ level 10
 
-  * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
   * (4/20) 16 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
+  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (4/20) 16 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Rebellion, with HQ level 5
 
-  * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
   * (4/20) 16 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
+  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (4/20) 16 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Fallback with HQ level 10

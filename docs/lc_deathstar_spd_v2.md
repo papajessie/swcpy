@@ -18,25 +18,25 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
 
 ### Empire, with HQ level 10
 
-  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/8) 20 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (1/8) 24 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (1/8) 24 data fragments of equipment [eqpEmpireLordVader_name](eqpEmpireLordVader_name)
-  * (1/8) 20 data fragments of equipment [eqpEmpireLordVader_name](eqpEmpireLordVader_name)
-  * (1/8) 20 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/8) 24 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
   * (1/8) 20 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/8) 20 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
+  * (1/8) 20 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/8) 20 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/8) 24 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+  * (1/8) 20 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
 
 ### Rebellion, with HQ level 10
 
-  * (1/8) 20 data fragments of equipment [eqpRebelArtoo_name](eqpRebelArtoo_name)
-  * (1/8) 24 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
-  * (1/8) 20 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/8) 20 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (1/8) 20 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/8) 20 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
-  * (1/8) 24 data fragments of equipment [eqpRebelArtoo_name](eqpRebelArtoo_name)
+  * (1/8) 20 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/8) 24 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
+  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/8) 20 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (1/8) 24 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (1/8) 20 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/8) 20 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
 
 ### Fallback with HQ level 10
 
