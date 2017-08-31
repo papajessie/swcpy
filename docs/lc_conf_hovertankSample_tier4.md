@@ -35,37 +35,37 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 88000 Alloy
 
-### On planet Tatooine, with HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 20000 Credits
+  * (1/1) 10000 Credits
 
-### On planet Hoth, with HQ level 6
+### On planet Hoth, with HQ level 5
 
-  * (1/1) 20000 Credits
+  * (1/1) 10000 Credits
 
-### On planet Takodana, with HQ level 6
+### On planet Takodana, with HQ level 5
 
-  * (1/1) 20000 Alloy
+  * (1/1) 10000 Alloy
 
-### On planet Dandoran, with HQ level 6
+### On planet Dandoran, with HQ level 5
 
-  * (1/1) 20000 Credits
+  * (1/1) 10000 Credits
 
-### On planet Er'Kit, with HQ level 6
+### On planet Er'Kit, with HQ level 5
 
-  * (1/1) 20000 Alloy
+  * (1/1) 10000 Alloy
 
-### On planet Yavin 4, with HQ level 6
+### On planet Yavin 4, with HQ level 5
 
-  * (1/1) 20000 Alloy
+  * (1/1) 10000 Alloy
 
 ### Fallback with HQ level 10
 
   * 88000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 20000 Credits
+  * 10000 Credits
 
 ## Pool "lcpool_hovertankSample_conf3" (x1 draw)
 
@@ -81,132 +81,78 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 50000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 14000 Credits
+  * 7500 Credits
 
 ## Pool "lcpool_shrd_t2" (x1 draw)
 
+### With HQ level 5
+
+  * No items, see the fallback option below
+
 ### Empire, with HQ level 10
 
-  * (1/62) 10 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretDamage_name](eqpEmpireBurstTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
-  * (5/62) 14 data fragments of equipment [eqpEmpireContrabandGeneratorHealth_name](eqpEmpireContrabandGeneratorHealth_name)
-  * (6/62) 20 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
-  * (1/62) 10 data fragments of equipment [eqpEmpireMortarTurretHealth_name](eqpEmpireMortarTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretHealth_name](eqpEmpireBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretHealth_name](eqpEmpireBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretDamage_name](eqpEmpireRapidFireTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
-  * (5/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretDamage_name](eqpEmpireBurstTurretDamage_name)
-  * (5/62) 14 data fragments of equipment [eqpEmpireCreditGeneratorHealth_name](eqpEmpireCreditGeneratorHealth_name)
-  * (5/62) 20 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireCreditGeneratorHealth_name](eqpEmpireCreditGeneratorHealth_name)
   * (1/62) 10 data fragments of equipment [eqpEmpireRapidFireTurretDamage_name](eqpEmpireRapidFireTurretDamage_name)
   * (4/62) 14 data fragments of equipment [eqpEmpireContrabandGeneratorHealth_name](eqpEmpireContrabandGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireMortarTurretHealth_name](eqpEmpireMortarTurretHealth_name)
-
-### Empire, with HQ level 6
-
-  * (1/62) 10 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretDamage_name](eqpEmpireBurstTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
-  * (5/62) 14 data fragments of equipment [eqpEmpireContrabandGeneratorHealth_name](eqpEmpireContrabandGeneratorHealth_name)
-  * (6/62) 20 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
   * (1/62) 10 data fragments of equipment [eqpEmpireMortarTurretHealth_name](eqpEmpireMortarTurretHealth_name)
   * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretHealth_name](eqpEmpireBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretHealth_name](eqpEmpireBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretDamage_name](eqpEmpireRapidFireTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
-  * (5/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
   * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretDamage_name](eqpEmpireBurstTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
   * (5/62) 14 data fragments of equipment [eqpEmpireCreditGeneratorHealth_name](eqpEmpireCreditGeneratorHealth_name)
-  * (5/62) 20 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
+  * (1/62) 10 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
+  * (1/62) 10 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
   * (4/62) 14 data fragments of equipment [eqpEmpireCreditGeneratorHealth_name](eqpEmpireCreditGeneratorHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpEmpireRapidFireTurretDamage_name](eqpEmpireRapidFireTurretDamage_name)
-  * (4/62) 14 data fragments of equipment [eqpEmpireContrabandGeneratorHealth_name](eqpEmpireContrabandGeneratorHealth_name)
+  * (5/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
+  * (5/62) 14 data fragments of equipment [eqpEmpireContrabandGeneratorHealth_name](eqpEmpireContrabandGeneratorHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretHealth_name](eqpEmpireRapidFireTurretHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
+  * (4/62) 14 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireMortarTurretDamage_name](eqpEmpireMortarTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretHealth_name](eqpEmpireRocketTurretHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretHealth_name](eqpEmpireBurstTurretHealth_name)
+  * (5/62) 20 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRapidFireTurretDamage_name](eqpEmpireRapidFireTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireBurstTurretDamage_name](eqpEmpireBurstTurretDamage_name)
+  * (4/62) 14 data fragments of equipment [eqpEmpireMaterialsGeneratorHealth_name](eqpEmpireMaterialsGeneratorHealth_name)
   * (1/62) 8 data fragments of equipment [eqpEmpireMortarTurretHealth_name](eqpEmpireMortarTurretHealth_name)
+  * (6/62) 20 data fragments of equipment [eqpEmpireWallHealth_name](eqpEmpireWallHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpEmpireRocketTurretDamage_name](eqpEmpireRocketTurretDamage_name)
+  * (4/62) 14 data fragments of equipment [eqpEmpireHQHealth_name](eqpEmpireHQHealth_name)
 
 ### Rebellion, with HQ level 10
 
-  * (1/62) 8 data fragments of equipment [eqpRebelRapidFireTurretHealth_name](eqpRebelRapidFireTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (6/62) 20 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretHealth_name](eqpRebelMortarTurretHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
   * (1/62) 8 data fragments of equipment [eqpRebelMortarTurretDamage_name](eqpRebelMortarTurretDamage_name)
   * (1/62) 8 data fragments of equipment [eqpRebelMortarTurretHealth_name](eqpRebelMortarTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretHealth_name](eqpRebelRocketTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelRapidFireTurretDamage_name](eqpRebelRapidFireTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRapidFireTurretDamage_name](eqpRebelRapidFireTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretHealth_name](eqpRebelRocketTurretHealth_name)
-  * (5/62) 20 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretDamage_name](eqpRebelMortarTurretDamage_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelRapidFireTurretHealth_name](eqpRebelRapidFireTurretHealth_name)
-
-### Rebellion, with HQ level 6
-
   * (1/62) 8 data fragments of equipment [eqpRebelRapidFireTurretHealth_name](eqpRebelRapidFireTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (6/62) 20 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretHealth_name](eqpRebelMortarTurretHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelMortarTurretDamage_name](eqpRebelMortarTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelMortarTurretHealth_name](eqpRebelMortarTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
+  * (5/62) 14 data fragments of equipment [eqpRebelCreditGeneratorHealth_name](eqpRebelCreditGeneratorHealth_name)
   * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretHealth_name](eqpRebelRocketTurretHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (5/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelRapidFireTurretDamage_name](eqpRebelRapidFireTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
   * (1/62) 8 data fragments of equipment [eqpRebelRapidFireTurretDamage_name](eqpRebelRapidFireTurretDamage_name)
-  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretHealth_name](eqpRebelRocketTurretHealth_name)
-  * (5/62) 20 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
-  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretDamage_name](eqpRebelMortarTurretDamage_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
-  * (4/62) 14 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
+  * (1/62) 10 data fragments of equipment [eqpRebelRapidFireTurretDamage_name](eqpRebelRapidFireTurretDamage_name)
   * (1/62) 10 data fragments of equipment [eqpRebelRapidFireTurretHealth_name](eqpRebelRapidFireTurretHealth_name)
+  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretHealth_name](eqpRebelMortarTurretHealth_name)
+  * (4/62) 14 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretDamage_name](eqpRebelBurstTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretHealth_name](eqpRebelRocketTurretHealth_name)
+  * (5/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
+  * (4/62) 14 data fragments of equipment [eqpRebelContrabandGeneratorHealth_name](eqpRebelContrabandGeneratorHealth_name)
+  * (4/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
+  * (5/62) 14 data fragments of equipment [eqpRebelMaterialsGeneratorHealth_name](eqpRebelMaterialsGeneratorHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelBurstTurretHealth_name](eqpRebelBurstTurretHealth_name)
+  * (4/62) 14 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
+  * (6/62) 20 data fragments of equipment [eqpRebelWallHealth_name](eqpRebelWallHealth_name)
+  * (5/62) 20 data fragments of equipment [eqpRebelHQHealth_name](eqpRebelHQHealth_name)
+  * (4/62) 14 data fragments of equipment [eqpRebelCreditGeneratorHealth_name](eqpRebelCreditGeneratorHealth_name)
+  * (1/62) 10 data fragments of equipment [eqpRebelMortarTurretDamage_name](eqpRebelMortarTurretDamage_name)
+  * (1/62) 8 data fragments of equipment [eqpRebelRocketTurretDamage_name](eqpRebelRocketTurretDamage_name)
 
 ### Fallback with HQ level 10
 
   * 30000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 9500 Credits
+  * 4300 Credits

@@ -31,28 +31,29 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1 data fragments of unlockable air support [VT-49 Decimator](VT49)
 
-### Empire, on planet Tatooine, with HQ level 6
+### Empire, on planet Tatooine, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire, on planet Hoth, with HQ level 6
+### Empire, on planet Hoth, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [MTV-7](MTV7)
 
-### Empire, on planet Dandoran, with HQ level 6
+### Empire, on planet Dandoran, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
 
-### Empire, on planet Er'Kit, with HQ level 6
+### Empire, on planet Er'Kit, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
-### Empire, on planet Yavin 4, with HQ level 6
+### Empire, on planet Yavin 4, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable air support [VT-49 Decimator](VT49)
 
 ### Empire, on planet Takodana
 
+  * No items, see the fallback option below
 
 ### Rebellion, on planet Tatooine, with HQ level 10
 
@@ -74,36 +75,37 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1 data fragments of unlockable air support [HWK-290](HWK290)
 
-### Rebellion, on planet Tatooine, with HQ level 6
+### Rebellion, on planet Tatooine, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion, on planet Hoth, with HQ level 6
+### Rebellion, on planet Hoth, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
 
-### Rebellion, on planet Dandoran, with HQ level 6
+### Rebellion, on planet Dandoran, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable air support [A-wing Starfighter](AWing)
 
-### Rebellion, on planet Er'Kit, with HQ level 6
+### Rebellion, on planet Er'Kit, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
-### Rebellion, on planet Yavin 4, with HQ level 6
+### Rebellion, on planet Yavin 4, with HQ level 5
 
   * (1/1) 1 data fragments of unlockable air support [HWK-290](HWK290)
 
 ### Rebellion, on planet Takodana
 
+  * No items, see the fallback option below
 
 ### Fallback with HQ level 10
 
   * 225000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 50000 Credits
+  * 25000 Credits
 
 ## Pool "lcpool_creditsAlloy_conf5" (x1 draw)
 
@@ -131,96 +133,74 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 240000 Alloy
 
-### On planet Tatooine, with HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 52000 Credits
+  * (1/1) 21600 Credits
 
-### On planet Hoth, with HQ level 6
+### On planet Hoth, with HQ level 5
 
-  * (1/1) 52000 Credits
+  * (1/1) 21600 Credits
 
-### On planet Takodana, with HQ level 6
+### On planet Takodana, with HQ level 5
 
-  * (1/1) 52000 Alloy
+  * (1/1) 21600 Alloy
 
-### On planet Dandoran, with HQ level 6
+### On planet Dandoran, with HQ level 5
 
-  * (1/1) 52000 Credits
+  * (1/1) 21600 Credits
 
-### On planet Er'Kit, with HQ level 6
+### On planet Er'Kit, with HQ level 5
 
-  * (1/1) 52000 Alloy
+  * (1/1) 21600 Alloy
 
-### On planet Yavin 4, with HQ level 6
+### On planet Yavin 4, with HQ level 5
 
-  * (1/1) 52000 Alloy
+  * (1/1) 21600 Alloy
 
 ### Fallback with HQ level 10
 
   * 240000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 52000 Credits
+  * 21600 Credits
 
 ## Pool "lcpool_shrd_conf_eqp_tier5" (x1 draw)
+
+### With HQ level 5
+
+  * No items, see the fallback option below
 
 ### Empire, with HQ level 10
 
   * (1/42) 1 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
   * (10/42) 1 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
   * (4/42) 1 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (2/42) 1 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
   * (1/42) 1 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
+  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
   * (6/42) 1 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
   * (6/42) 1 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-
-### Empire, with HQ level 6
-
-  * (1/42) 1 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (10/42) 1 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
-  * (4/42) 1 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
   * (2/42) 1 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (1/42) 1 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
-  * (6/42) 1 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
-  * (6/42) 1 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
+  * (4/42) 1 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
+  * (4/42) 1 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
 
 ### Rebellion, with HQ level 10
 
-  * (2/42) 1 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
   * (4/42) 1 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (6/42) 1 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
+  * (1/42) 1 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
+  * (2/42) 1 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
+  * (1/42) 1 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
   * (4/42) 1 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
   * (6/42) 1 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
-  * (10/42) 1 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
   * (4/42) 1 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-
-### Rebellion, with HQ level 6
-
-  * (2/42) 1 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (6/42) 1 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
+  * (10/42) 1 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
   * (4/42) 1 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (6/42) 1 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-  * (1/42) 1 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
-  * (10/42) 1 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
-  * (4/42) 1 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
+  * (6/42) 1 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
 
 ### Fallback with HQ level 10
 
   * 50000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 14000 Credits
+  * 7500 Credits

@@ -38,37 +38,37 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
   * (1/1) 480000 Alloy
 
-### On planet Tatooine, with HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 104000 Credits
+  * (1/1) 48000 Credits
 
-### On planet Hoth, with HQ level 6
+### On planet Hoth, with HQ level 5
 
-  * (1/1) 104000 Credits
+  * (1/1) 48000 Credits
 
-### On planet Takodana, with HQ level 6
+### On planet Takodana, with HQ level 5
 
-  * (1/1) 104000 Alloy
+  * (1/1) 48000 Alloy
 
-### On planet Dandoran, with HQ level 6
+### On planet Dandoran, with HQ level 5
 
-  * (1/1) 104000 Credits
+  * (1/1) 48000 Credits
 
-### On planet Er'Kit, with HQ level 6
+### On planet Er'Kit, with HQ level 5
 
-  * (1/1) 104000 Alloy
+  * (1/1) 48000 Alloy
 
-### On planet Yavin 4, with HQ level 6
+### On planet Yavin 4, with HQ level 5
 
-  * (1/1) 104000 Alloy
+  * (1/1) 48000 Alloy
 
 ### Fallback with HQ level 10
 
   * 480000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 104000 Credits
+  * 48000 Credits
 
 ## Pool "lcpool_currency_conf8" (x1 draw)
 
@@ -76,36 +76,56 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
   * (1/1) 9500 Contraband
 
-### With HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 200 Contraband
+  * (1/1) 48000 Credits
+
+### On planet Hoth, with HQ level 5
+
+  * (1/1) 48000 Credits
+
+### On planet Takodana, with HQ level 5
+
+  * (1/1) 48000 Alloy
+
+### On planet Dandoran, with HQ level 5
+
+  * (1/1) 48000 Credits
+
+### On planet Er'Kit, with HQ level 5
+
+  * (1/1) 48000 Alloy
+
+### On planet Yavin 4, with HQ level 5
+
+  * (1/1) 48000 Alloy
 
 ### Fallback with HQ level 10
 
   * 480000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 104000 Credits
+  * 48000 Credits
 
 ## Pool "lcpool_stolenVehicle_conf8" (x2 draws)
 
 ### Empire
 
-  * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
   * (1/3) 32 troop sample [Seized Hailfire Droid](SeizedHailfire)
+  * (1/3) 16 air support sample [Seized A-wing Starfighter](SeizedAwing)
   * (1/3) 16 troop sample [Seized AT-TE Walker](SeizedATTE)
 
 ### Rebellion
 
+  * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
   * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
   * (1/3) 16 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
-  * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
 ### Fallback with HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 82000 Credits
+  * 33000 Credits

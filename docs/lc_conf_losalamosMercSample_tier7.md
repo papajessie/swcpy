@@ -35,37 +35,37 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 364000 Alloy
 
-### On planet Tatooine, with HQ level 6
+### On planet Tatooine, with HQ level 5
 
-  * (1/1) 76000 Credits
+  * (1/1) 36000 Credits
 
-### On planet Hoth, with HQ level 6
+### On planet Hoth, with HQ level 5
 
-  * (1/1) 76000 Credits
+  * (1/1) 36000 Credits
 
-### On planet Takodana, with HQ level 6
+### On planet Takodana, with HQ level 5
 
-  * (1/1) 76000 Alloy
+  * (1/1) 36000 Alloy
 
-### On planet Dandoran, with HQ level 6
+### On planet Dandoran, with HQ level 5
 
-  * (1/1) 76000 Credits
+  * (1/1) 36000 Credits
 
-### On planet Er'Kit, with HQ level 6
+### On planet Er'Kit, with HQ level 5
 
-  * (1/1) 76000 Alloy
+  * (1/1) 36000 Alloy
 
-### On planet Yavin 4, with HQ level 6
+### On planet Yavin 4, with HQ level 5
 
-  * (1/1) 76000 Alloy
+  * (1/1) 36000 Alloy
 
 ### Fallback with HQ level 10
 
   * 364000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 76000 Credits
+  * 36000 Credits
 
 ## Pool "lcpool_losalamosMercSample_conf7" (x1 draw)
 
@@ -81,100 +81,62 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 300000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 65000 Credits
+  * 27000 Credits
 
 ## Pool "lcpool_shrd_conf_eqp_tier7" (x1 draw)
 
+### With HQ level 5
+
+  * No items, see the fallback option below
+
 ### Empire, with HQ level 10
 
-  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (3/42) 3 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
-  * (1/42) 3 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (3/42) 2 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
-  * (3/42) 3 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
-  * (5/42) 3 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (5/42) 2 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
   * (2/42) 3 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
-  * (3/42) 2 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
-
-### Empire, with HQ level 6
-
-  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
-  * (3/42) 3 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
-  * (1/42) 3 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (3/42) 2 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
   * (3/42) 3 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
-  * (5/42) 3 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (5/42) 2 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
-  * (2/42) 3 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
-  * (1/42) 2 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
-  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
+  * (2/42) 2 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
   * (3/42) 2 data fragments of equipment [eqpEmpireSandtrooper_name](eqpEmpireSandtrooper_name)
+  * (1/42) 2 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
+  * (1/42) 2 data fragments of equipment [eqpEmpireArcticINT4_name](eqpEmpireArcticINT4_name)
+  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
+  * (2/42) 2 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
+  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySandtrooper_name](eqpEmpireHeavySandtrooper_name)
+  * (1/42) 2 data fragments of equipment [eqpEmpireArcticMHC_name](eqpEmpireArcticMHC_name)
+  * (2/42) 3 data fragments of equipment [eqpEmpireHeavySnowtrooper_name](eqpEmpireHeavySnowtrooper_name)
+  * (5/42) 3 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
+  * (5/42) 2 data fragments of equipment [eqpEmpirePentagonTrooper_name](eqpEmpirePentagonTrooper_name)
+  * (2/42) 2 data fragments of equipment [eqpEmpirePentagonHeavyTrooper_name](eqpEmpirePentagonHeavyTrooper_name)
+  * (3/42) 2 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
+  * (3/42) 3 data fragments of equipment [eqpEmpireSnowtrooper_name](eqpEmpireSnowtrooper_name)
+  * (2/42) 3 data fragments of equipment [eqpEmpireArcticATMP_name](eqpEmpireArcticATMP_name)
+  * (1/42) 3 data fragments of equipment [eqpEmpireCargoGreatDane_name](eqpEmpireCargoGreatDane_name)
 
 ### Rebellion, with HQ level 10
 
-  * (3/42) 2 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
-  * (5/42) 3 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
-  * (1/42) 3 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (3/42) 3 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
+  * (2/42) 3 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
+  * (3/42) 2 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
+  * (2/42) 3 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
   * (2/42) 3 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
+  * (1/42) 2 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
+  * (2/42) 2 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
+  * (1/42) 2 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
   * (3/42) 3 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-  * (5/42) 2 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
+  * (2/42) 2 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
+  * (1/42) 3 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
+  * (5/42) 3 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
+  * (3/42) 2 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
+  * (3/42) 3 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
   * (2/42) 2 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
+  * (5/42) 2 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
+  * (2/42) 3 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
   * (1/42) 2 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
   * (2/42) 2 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-  * (1/42) 2 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (1/42) 2 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
-  * (3/42) 2 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-
-### Rebellion, with HQ level 6
-
-  * (3/42) 2 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
-  * (5/42) 3 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
-  * (1/42) 3 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (3/42) 3 data fragments of equipment [eqpRebelSandSoldier_name](eqpRebelSandSoldier_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
-  * (3/42) 3 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
-  * (5/42) 2 data fragments of equipment [eqpRebelPentagonSoldier_name](eqpRebelPentagonSoldier_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelCaptainSolo_name](eqpRebelCaptainSolo_name)
-  * (1/42) 2 data fragments of equipment [eqpRebelDiplomat_name](eqpRebelDiplomat_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-  * (1/42) 2 data fragments of equipment [eqpRebelArcticHailfire_name](eqpRebelArcticHailfire_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelShaggyAlien_name](eqpRebelShaggyAlien_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (2/42) 3 data fragments of equipment [eqpRebelHeavySandSoldier_name](eqpRebelHeavySandSoldier_name)
-  * (2/42) 2 data fragments of equipment [eqpRebelEchoBaseHeavySoldier_name](eqpRebelEchoBaseHeavySoldier_name)
-  * (1/42) 2 data fragments of equipment [eqpRebelTauntaun_name](eqpRebelTauntaun_name)
-  * (3/42) 2 data fragments of equipment [eqpRebelEchoBaseSoldier_name](eqpRebelEchoBaseSoldier_name)
 
 ### Fallback with HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 6
+### Fallback with HQ level 5
 
-  * 65000 Credits
+  * 27000 Credits
