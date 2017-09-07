@@ -14,22 +14,22 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 ### With HQ level 10
 
   * (3/51) 170 Contraband
-  * (7/51) 90000 Alloy
-  * (7/51) 75000 Credits
-  * (7/51) 60000 Alloy
-  * (7/51) 90000 Credits
-  * (7/51) 75000 Alloy
-  * (7/51) 60000 Credits
   * (3/51) 210 Contraband
   * (3/51) 250 Contraband
+  * (7/51) 60000 Alloy
+  * (7/51) 60000 Credits
+  * (7/51) 75000 Alloy
+  * (7/51) 75000 Credits
+  * (7/51) 90000 Alloy
+  * (7/51) 90000 Credits
 
 ### With HQ level 5
 
-  * (7/42) 12000 Alloy
-  * (7/42) 10000 Credits
-  * (7/42) 8000 Alloy
-  * (7/42) 12000 Credits
   * (7/42) 10000 Alloy
+  * (7/42) 10000 Credits
+  * (7/42) 12000 Alloy
+  * (7/42) 12000 Credits
+  * (7/42) 8000 Alloy
   * (7/42) 8000 Credits
 
 ### Fallback with HQ level 10
@@ -48,45 +48,45 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
+  * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (1/38) 2 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
+  * (2/38) 2 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (2/38) 2 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
+  * (2/38) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (2/38) 2 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
   * (2/38) 2 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
   * (3/38) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/38) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (3/38) 2 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
-  * (2/38) 2 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
-  * (2/38) 2 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
-  * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
   * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-  * (1/38) 2 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
-  * (2/38) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/38) 2 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
 
 ### Rebellion, with HQ level 10
 
+  * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
+  * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (1/38) 2 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
   * (2/38) 2 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
-  * (3/38) 2 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
-  * (2/38) 2 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
-  * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelFactorySummonHeavy)
-  * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
-  * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelBarracksSummonHeavy)
-  * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (2/38) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (2/38) 2 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
   * (2/38) 2 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
+  * (2/38) 2 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
+  * (2/38) 2 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
   * (2/38) 2 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelBarracksSummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelFactorySummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
   * (2/38) 2 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
+  * (3/38) 2 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
+  * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+  * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
 ### Fallback with HQ level 10
 
@@ -106,9 +106,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Rebellion
 
-  * (1/3) 5 troop sample [Shadow Rancor](RebelShadowRancor)
-  * (1/3) 5 troop sample [Rage Rancor](RebelRageRancor)
   * (1/3) 5 troop sample [Hunter Rancor](RebelHunterRancor)
+  * (1/3) 5 troop sample [Rage Rancor](RebelRageRancor)
+  * (1/3) 5 troop sample [Shadow Rancor](RebelShadowRancor)
 
 ### Fallback with HQ level 10
 

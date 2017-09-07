@@ -71,13 +71,13 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ### With HQ level 10
 
-  * (1/2) 25000 Credits
   * (1/2) 25000 Alloy
+  * (1/2) 25000 Credits
 
 ### With HQ level 5
 
-  * (1/2) 3750 Credits
   * (1/2) 3750 Alloy
+  * (1/2) 3750 Credits
 
 ### Fallback with HQ level 10
 

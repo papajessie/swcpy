@@ -101,29 +101,29 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire, with HQ level 10
 
-  * (2/42) 1 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (4/42) 1 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (10/42) 1 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-  * (4/42) 1 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
-  * (4/42) 1 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (6/42) 1 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
   * (1/42) 1 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (4/42) 1 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
-  * (6/42) 1 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
   * (1/42) 1 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
+  * (10/42) 1 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (2/42) 1 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (4/42) 1 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (4/42) 1 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (4/42) 1 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
+  * (4/42) 1 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
+  * (6/42) 1 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (6/42) 1 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
 
 ### Rebellion, with HQ level 10
 
-  * (4/42) 1 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (6/42) 1 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
   * (1/42) 1 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
-  * (4/42) 1 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (6/42) 1 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (1/42) 1 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
-  * (4/42) 1 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
-  * (2/42) 1 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (10/42) 1 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (2/42) 1 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (4/42) 1 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (4/42) 1 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
+  * (4/42) 1 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (4/42) 1 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
+  * (6/42) 1 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
+  * (6/42) 1 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
 
 ### Fallback with HQ level 10
 
