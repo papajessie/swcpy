@@ -223,6 +223,7 @@ def main(argv):
             for tournament in getdisplayed(displayed,'tournament'):
                 output_csv_tournament(out,objects,objects[tournament])
         if ('md' in outputs):
+            addtodisplay(displayed,'index','tournament')
             output_mdheader_tournament(out,objects,getdisplayed(displayed,'tournament'))
             for tournament in getdisplayed(displayed,'tournament'):
                 output_md_tournament(out,objects,objects[tournament])
@@ -232,9 +233,19 @@ def main(argv):
             for crate in sorted(getdisplayed(displayed,'crate')):
                 output_list_crate(out,objects,objects[crate])
         if ('md' in outputs):
+            addtodisplay(displayed,'index','crate')
             output_mdheader_crate(out,objects,getdisplayed(displayed,'crate'))
             for crate in getdisplayed(displayed,'crate'):
                 output_md_crate(out,objects,objects[crate])
+    if ('index' in displayed):
+        id='index'
+        with open("docs/{0}.md".format(id),"w") as file:
+            file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,'Main index page'))
+            file.write("# {1} ({0})\n\n".format('index','Main index page'))
+            for sid in sorted(getdisplayed(displayed,id)):
+                title='Index of objects of type "{0}"'.format(sid)
+                file.write(' * [{1}]({0}.html)\n'.format(sid,title))
+
     # list mode: print output
     if ('list' in outputs):
         if (len(out)>0):
