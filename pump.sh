@@ -15,7 +15,7 @@ fi
 if [ -n "$1" ]; then
     VERSION=$1
 else
-    echo "Trouvons la dernière version..."
+    echo "Let us look for the last version..."
     VERSION=1012
     if [ -f lastversion.txt ]; then
         VERSION=$(cat lastversion.txt)
@@ -28,7 +28,7 @@ else
         # MANIFEST="https://starts0.content.disney.io/cloud-cms/manifest/starts/prod/${VERSION}.json" # oldstyle
         MANIFEST="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
         DEST=manifest${VERSION}.json
-        curl -o "$DEST" "$MANIFEST"
+        curl -s -o "$DEST" "$MANIFEST"
         if  [ "$(stat -c %s $DEST)" -lt 20000 ]; then
             FOUND=1
             echo "Version $VERSION is not available. Going back to $LASTVERSION."
@@ -42,6 +42,9 @@ else
     done
 fi
 
+if [ -n "VCHECK" ]; then
+    exit 0
+fi
 
 MANIFEST="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
 DEST=manifest${VERSION}.json
