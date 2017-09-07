@@ -16,27 +16,27 @@ This crates does not expire. The contents are decided by 5 draws from 3 differen
 
 ### Empire, with HQ level 10
 
-  * (2/4) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
   * (2/4) 5 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
+  * (2/4) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
 
 ### Empire, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Rebellion, with HQ level 10
 
-  * (2/4) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
   * (2/4) 5 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
+  * (2/4) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
 
 ### Rebellion, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Fallback with HQ level 10
 
@@ -50,35 +50,35 @@ This crates does not expire. The contents are decided by 5 draws from 3 differen
 
 ### Empire, with HQ level 10
 
-  * (2/12) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
   * (2/12) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (2/12) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/12) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
   * (2/12) 5 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
+  * (2/12) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
   * (2/12) 6 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (2/12) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
 
 ### Empire, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Rebellion, with HQ level 10
 
-  * (2/12) 6 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
-  * (2/12) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (2/12) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
-  * (2/12) 5 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
-  * (2/12) 6 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
   * (2/12) 4 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+  * (2/12) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
+  * (2/12) 5 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
+  * (2/12) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
+  * (2/12) 6 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+  * (2/12) 6 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
 
 ### Rebellion, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Fallback with HQ level 10
 

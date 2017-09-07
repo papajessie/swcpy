@@ -65,17 +65,17 @@ This crate expires after 1d. The contents are one draw from each of the 6 pools.
 
 ### With HQ level 10
 
+  * (1/4) 6000 Alloy
+  * (1/4) 6000 Contraband
   * (1/4) 6000 Credits
   * (1/4) 6000 Crystals
-  * (1/4) 6000 Contraband
-  * (1/4) 6000 Alloy
 
 ### With HQ level 5
 
+  * (1/4) 1200 Alloy
+  * (1/4) 1200 Contraband
   * (1/4) 1200 Credits
   * (1/4) 1200 Crystals
-  * (1/4) 1200 Contraband
-  * (1/4) 1200 Alloy
 
 ### Fallback with HQ level 10
 
@@ -89,23 +89,23 @@ This crate expires after 1d. The contents are one draw from each of the 6 pools.
 
 ### Empire, with HQ level 10
 
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/2) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
 ### Empire, with HQ level 5
 
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/2) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
 ### Rebellion, with HQ level 10
 
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/2) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Rebellion, with HQ level 5
 
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/2) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Fallback with HQ level 10
 

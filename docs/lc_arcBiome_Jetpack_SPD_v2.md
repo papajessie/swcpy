@@ -21,22 +21,22 @@ This crate expires after 7d. The contents are decided by 7 draws from 3 differen
 
 ### Empire, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
-  * (1/4) 6 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/4) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/4) 4 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/4) 6 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
+  * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Rebellion, with HQ level 10
 
-  * (2/4) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (2/4) 5 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
+  * (2/4) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
 
 ### Rebellion, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (1/4) 4 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (1/4) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
+  * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback with HQ level 10
 
@@ -50,39 +50,39 @@ This crate expires after 7d. The contents are decided by 7 draws from 3 differen
 
 ### Empire, with HQ level 10
 
-  * (2/14) 4 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
-  * (2/14) 6 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
-  * (2/14) 5 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
-  * (2/14) 4 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
-  * (2/14) 6 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
-  * (2/14) 6 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
-  * (1/14) 6 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
   * (1/14) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (1/14) 6 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (2/14) 4 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
+  * (2/14) 4 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
+  * (2/14) 5 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
+  * (2/14) 6 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
+  * (2/14) 6 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
+  * (2/14) 6 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
 
 ### Empire, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
-  * (1/4) 6 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/4) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/4) 4 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/4) 6 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
+  * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Rebellion, with HQ level 10
 
-  * (2/14) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
-  * (2/14) 6 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
-  * (2/14) 4 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
   * (1/14) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
-  * (2/14) 5 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (1/14) 6 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (2/14) 4 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
+  * (2/14) 4 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
+  * (2/14) 5 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
+  * (2/14) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (2/14) 6 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
+  * (2/14) 6 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
 
 ### Rebellion, with HQ level 5
 
-  * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (1/4) 4 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (1/4) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
+  * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback with HQ level 10
 
