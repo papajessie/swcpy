@@ -99,16 +99,27 @@ def analysis(x):
 
 def addtodisplay(displayed,category,item):
     if not(category in displayed):
-        displayed[category]=[]
-    displayed[category].append(item)
+        displayed[category]={}
+    if item in displayed[category]:
+        displayed[category][item]+=1
+    else:
+        displayed[category][item]=1
+
+def getdisplayed(displayed,category):
+    if not(category in displayed):
+        return ()
+    return (displayed[category].keys())
         
+
+
 def _(x):
     global langdata
     if x in langdata:
         return langdata[x]
     else:
-        return '_'+x+'_ (no translation)'
-
+        return x+' (no text translation)'
+def __(x):
+    return display_colored(_(x))
 
 def main(argv):
     global data
@@ -131,7 +142,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament'
+        mode='tournament,crate'
         config['begin']='2012-01-01'
         config['output']='md'
     modes=mode.split(",")
@@ -185,26 +196,45 @@ def main(argv):
         # do something that adds tournament objects
         for i in data['TournamentData']:
             analyse_tournament(objects,displayed,i)
+    xhelp['crate']='List the contents of crates'
+    morehelp['crate']={'planet':'planet the crate is gained from (default: all planets, as with special value "any")','hq':'hq level (default: 5 and 10)','side':'faction (default: all factions, as with special value "any")','':'crate identifier (default: all)'}
+    if ('crate' in modes):
+        # do something that adds tournament objects
+        if len(elements)==0:
+            xelements=(data['Crate']).keys()
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_crate(objects,displayed,i)
     # Output phase
     out=[]
     outputs=config['output'].split(",")
-    if ('tournament' in modes):
+    if ('tournament' in displayed):
         if ('list' in outputs):
-            output_listheader_tournament(out,objects,displayed['tournament'])
+            output_listheader_tournament(out,objects,getdisplayed(displayed,'tournament'))
             dates={}
-            for tournament in displayed['tournament']:
+            for tournament in getdisplayed(displayed,'tournament'):
                 dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
             for xtournament in sorted(dates):
                 tournament=dates[xtournament]
                 output_list_tournament(out,objects,objects[tournament])
         if ('csv' in outputs):
-            output_csvheader_tournament(out,objects,displayed['tournament'])
-            for tournament in displayed['tournament']:
+            output_csvheader_tournament(out,objects,getdisplayed(displayed,'tournament'))
+            for tournament in getdisplayed(displayed,'tournament'):
                 output_csv_tournament(out,objects,objects[tournament])
         if ('md' in outputs):
-            output_mdheader_tournament(out,objects,displayed['tournament'])
-            for tournament in displayed['tournament']:
+            output_mdheader_tournament(out,objects,getdisplayed(displayed,'tournament'))
+            for tournament in getdisplayed(displayed,'tournament'):
                 output_md_tournament(out,objects,objects[tournament])
+    if ('crate' in displayed):
+        if ('list' in outputs):
+            output_listheader_crate(out,objects,getdisplayed(displayed,'crate'))
+            for crate in sorted(getdisplayed(displayed,'crate')):
+                output_list_crate(out,objects,objects[crate])
+        if ('md' in outputs):
+            output_mdheader_crate(out,objects,getdisplayed(displayed,'crate'))
+            for crate in getdisplayed(displayed,'crate'):
+                output_md_crate(out,objects,objects[crate])
     # list mode: print output
     if ('list' in outputs):
         if (len(out)>0):
@@ -241,10 +271,134 @@ def main(argv):
 def analyse_crate(objects,displayed,id):
     global data
     global config
+    ob={}
     if id in objects:
-        return
-    pass
+        ob=objects[id]
+    swcitem=data['Crate'][id]
+    ob['uid']=swcitem['uid']
+    ob['title']='crate_title_'+swcitem['uid']
+    if 'expirationTime' in swcitem:
+        ob['expirationTime']=swcitem['expirationTime']
+    else:
+        ob['expirationTime']='never'
+    ob['pools']={}
+    if 'variants' not in ob:
+        ob['variants']={}
+    if 'variantsdefaults' not in ob:
+        ob['variantsdefaults']={}
+    draws=0
+    for x in swcitem['supplyPoolUid']:
+        if x in ob['pools']:
+            ob['pools'][x]+=1
+            draws+=1
+        else:
+            ob['pools'][x]=1
+            draws+=1
+            if x not in ob['variants']:
+                ob['variants'][x]={}
+            if x not in ob['variantsdefaults']:
+                ob['variantsdefaults'][x]={}
+    ob['draws']=draws
+    # We do not pass because of variants by hq, planet, side
+    if 'side' in config:
+        if config['side']=='any':
+            sides=['empire','rebel']
+        else:
+            sides=[config['side']]
+    else:
+            sides=['empire','rebel']        
+    if 'hq' in config:
+        hqs=[config['hq']]
+    else:
+        hqs=[5,10]
+    if 'defaultplanet' in config:
+        defaultplanet=config['defaultplanet'].split(",")
+    else:
+        defaultplanet=[]
+        for ii in data['ObjSeries']:
+            i=data['ObjSeries'][ii]
+            if not(i['planetUid'] in defaultplanet):
+                defaultplanet.append(i['planetUid'])
+        defaultplanet=sorted(defaultplanet)
+        config['defaultplanet']=",".join(defaultplanet)
+    if 'planet' in config:
+        if config['planet']=='any':
+            planets=defaultplanet
+        else:
+            planets=[config['planet']]
+    else:
+            planets=defaultplanet
+    for planet in planets:
+        for hq in hqs:
+            for side in sides:
+                variant='{2},{1},{0}'.format(planet,hq,side)
+                if variant not in ob['variants']:
+                    analyse_crate_variant(objects,displayed,id,ob,variant,planet,hq,side)
+    addtodisplay(displayed,'crate',id)
+    if id not in objects:
+        objects[id]=ob
+    
+def analyse_crate_variant(objects,displayed,id,ob,variant,planet,hq,side):
+    global data
+    global config
+    # Fill in pools for specific values of planet, hq, side
+    for pool in ob['pools'].keys():
+        sensitive={}
+        pools={}
+        flat=1
+        defaults={}
+        if 'fallbackUid' in data['CrateSupplyPool'][pool]:
+            (fflat,defaults)=analyse_cratepoolitem(hq,data['CrateSupply'][data['CrateSupplyPool'][pool]['fallbackUid']])
+        variant='{2},{1},{0}'.format(planet if 'planet' in sensitive else 'any',hq if (fflat==0) else 'any',side if 'faction' in sensitive else 'any')
+        ob['variantsdefaults'][pool][variant]=defaults
+        instances=0
+        for i in data['CrateSupply']:
+            item=data['CrateSupply'][i]
+            if ('crateSupplyPoolUid' in item) and (pool in item['crateSupplyPoolUid']):
+                if ('maxHQ' in item and hq > int(item['maxHQ'])):
+                    sensitive['hq']=1
+                    continue
+                if ('minHQ' in item and hq < int(item['minHQ'])):
+                    sensitive['hq']=1
+                    continue
+                if ('faction' in item and side != item['faction']):
+                    sensitive['faction']=1
+                    continue
+                if ('planet' in item and planet not in item['planet']):
+                    sensitive['planet']=1
+                    continue
+                (xflat,pools[item['uid']])=analyse_cratepoolitem(hq,item)
+                if xflat==0:
+                    flat=0
+                inst=1
+                if 'poolInstances' in item:
+                    inst=int(item['poolInstances'])
+                pools[item['uid']]['rate']=inst
+                instances+=inst
+        if (flat==0):
+            sensitive['hq']=1
+        variant='{2},{1},{0}'.format(planet if 'planet' in sensitive else 'any',hq if 'hq' in sensitive else 'any',side if 'faction' in sensitive else 'any')
+        ob['variants'][pool][variant]={'items': pools,'instances':instances}
 
+def analyse_cratepoolitem(hq,item):
+    global data
+    simple_item={}
+    simple_item['rewardType']=item['rewardType']
+    simple_item['rewardUid']=item['rewardUid']
+    flat=1
+    if 'scalingUid' in item:
+        scale=item['scalingUid']
+        xnum=data['CrateSupplyScale'][scale]['HQ10']
+        for k in data['CrateSupplyScale'][scale]:
+            if data['CrateSupplyScale'][scale][k]!=xnum:
+                flat=0
+        num=data['CrateSupplyScale'][scale]['HQ{0}'.format(hq)]
+    elif 'amount' in item:
+        num=item['amount']
+    else:
+        num='???'
+    simple_item['num']=num
+    return(flat,simple_item)
 
 def analyse_tournament(objects,displayed,id):
     global data
@@ -259,12 +413,16 @@ def analyse_tournament(objects,displayed,id):
     if id in data['TournamentData']:
         swcitem=data['TournamentData'][id]
         ob['uid']=swcitem['uid']
+        ob['title']='tournament_title_'+swcitem['uid']
         ob['endDate']=swcdatetoiso(swcitem['endDate'])
         ob['startDate']=swcdatetoiso(swcitem['startDate'])
         if 'planetId' in swcitem:
             ob['planetId']=swcitem['planetId']
         else:
             ob['planetId']='planet1'
+        if 'planet' in config:
+            if config['planet']!=ob['planetId']:
+                return
         localsd=date.today().isoformat()
         if 'begin' in config:
             localsd=config['begin']
@@ -283,32 +441,68 @@ def analyse_tournament(objects,displayed,id):
                     if (data['TournamentRewards'][rewards]['tournamentRewardsId'] == rewardgroup):
                         myrew=data['TournamentRewards'][rewards]
                         rew[myrew['tournamentTier']]=myrew['crateRewardUid']
-                        oldplanet=''
-                        oldside=''
+                        oldplanet='any'
                         if 'planet' in config:
                             oldplanet=config['planet']
-                        if 'side' in config:
-                            oldsid=config['side']
                         config['planet']=ob['planetId']
-                        config['side']='empire'
                         for crate in myrew['crateRewardUid']:
                             analyse_crate(objects,displayed,crate)
-                        config['side']='rebel'
-                        for crate in myrew['crateRewardUid']:
-                            analyse_crate(objects,displayed,crate)
-                        if oldplanet != '':
+                        if oldplanet != 'any':
                             config['planet']=oldplanet
-                        if oldside != '':
-                            config['side']=oldside
+                        else:
+                            del config['planet']
 
 # This set of functions output objects for various modes
+def output_listheader_crate(out,objects,displayed):
+    out.append("There are {0} crates in the selection:".format(len(displayed)))
+
+def output_list_crate(out,objects,item,LINKS=False):
+    id=item['uid']
+    title=__(item['title'])
+    xout='\n# {1} ({0})\n\n'.format(id,title)
+    xout+='Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.\n\n'
+    expiration=display_expiration(item['expirationTime'])
+    if (expiration == 'never'):
+        xout+='This crates does not expire.'
+    else:
+        xout+='This crate expires after {0}.'.format(expiration)
+    draws=item['draws']
+    pools=item['pools']
+    if (draws==1):
+        xout+=' The contents are one draw from one pool only.'
+    elif (draws==len(pools)):
+        xout+=' The contents are one draw from each of the {0} pools.'.format(len(pools))
+    elif (pools==1):
+        xout+=' The contents are {0} draws from one pool.'.format(draws)
+    else:
+        xout+=' The contents are decided by {0} draws from {1} different pools.'.format(draws,len(pools))
+        for i in sorted(pools.keys()):
+            xout+='\n  * {0} draw{2} from pool "{1}"'.format(pools[i],i,'s' if pools[i]>1 else '')
+    for j in sorted(pools.keys()):
+        xout+='\n\n## Pool "{0}" (x{1} draw{2})'.format(j,pools[j],'' if pools[j]<2 else 's')
+        for i in sorted(item['variants'][j]):
+            xout+='\n\n### {0}\n'.format(display_poolvariant(i))
+            instances=item['variants'][j][i]['instances']
+            lines=[]
+            if (instances==0):
+                lines.append('  * No items, see the fallback option below')
+            for it in item['variants'][j][i]['items']:
+                myit=item['variants'][j][i]['items'][it]
+                lines.append('  * ({0}/{1}) {2}'.format(myit['rate'],instances,display_unitbatch(myit,LINKS)))
+            xout+='\n'+'\n'.join(sorted(lines))
+        for i in sorted(item['variantsdefaults'][j]):
+            xout+='\n\n### Fallback{0}\n'.format(display_poolvariant(i,False))
+            myit=item['variantsdefaults'][j][i]
+            xout+='\n  * {0}'.format(display_unitbatch(myit,LINKS))
+    out[len(out)-1]+=xout
+
 def output_listheader_tournament(out,objects,displayed):
     out.append("There are {0} tournaments in the selection:".format(len(displayed)))
 
 def output_list_tournament(out,objects,item):
     rewards=item['rewards']
     rewardsstr=''
-    leagues={'tournament_tier_8':'ULTRACHROME','tournament_tier_7':'OBSIDIAN','tournament_tier_6':'BRONZIUM_01','tournament_tier_5':'BRONZIUM_02','tournament_tier_4':'DURASTEEL_02','tournament_tier_3':'DURASTEEL_01','tournament_tier_2':'CARBONITE_01','tournament_tier_1':'CARBONITE_02'}
+    leagues={'tournament_tier_8':'ULTRACHROME','tournament_tier_7':'OBSIDIAN','tournament_tier_6':'BRONZIUM_01','tournament_tier_5':'BRONZIUM_02','tournament_tier_4':'DURASTEEL_01','tournament_tier_3':'DURASTEEL_02','tournament_tier_2':'CARBONITE_01','tournament_tier_1':'CARBONITE_02'}
     if len(rewards)>0:
         rewardsstr=' The rewards are:'
         for k in sorted(rewards.keys()):
@@ -328,7 +522,7 @@ def output_list_tournament(out,objects,item):
                     else:
                         rewardsstr+='{0} crates "{1}"'.format(k,display_crate_veryshort(j))
                 rewardsstr+=''
-    xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(item['uid'],item['startDate'],item['endDate'],display_planet(item['planetId']),_('tournament_title_'+item['uid']),rewardsstr)
+    xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(item['uid'],item['startDate'],item['endDate'],display_planet(item['planetId']),_(item['title']),rewardsstr)
     out[len(out)-1]+=xout
 
 def output_csvheader_tournament(out,objects,displayed):
@@ -357,12 +551,12 @@ def output_mdheader_tournament(out,objects,displayed):
             tournament=dates[xtournament]
             item=objects[tournament]
             id=item['uid']
-            title=display_colored(_('tournament_title_'+id))
+            title=__(item['title'])
             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
 
 def output_md_tournament(out,objects,item):
     id=item['uid']
-    title=display_colored(_('tournament_title_'+id))
+    title=__('tournament_title_'+id)
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: tournament\n---\n".format(id,title))
         file.write("# {0}\n\n  * Start date: {1}\n  * End date: {2}\n\n".format(title,item['startDate'],item['endDate']))
@@ -391,16 +585,138 @@ def output_md_tournament(out,objects,item):
                 file.write('\n')
             file.write(rewardsstr)
     
+
+def output_mdheader_crate(out,objects,displayed):
+    with open("docs/crate.md","w") as file:
+        file.write("---\ntitle: Index of crates\n---\n")
+        file.write("# Crates\n\n")
+        dates={}
+        for crate in displayed:
+            item=objects[crate]
+            id=item['uid']
+            title=__(item['title'])
+            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+
+def output_md_crate(out,objects,item):
+    id=item['uid']
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,title))
+        lout=['']
+        output_list_crate(lout,objects,item,True)
+        file.write(lout[0])
+
+
 # This set of functions take an Id and return the adequate string for it
+
 def display_planet(planetId):
     return _('planet_name_'+planetId)
 
+def display_side(side):
+    if (side=='empire'):
+        return 'Empire'
+    if (side=='rebel'):
+        return 'Rebellion'
+    return side
+
 def display_crate_veryshort(crateId):
     return crateId
+
 def display_crate_mdlink(crateId,plural):
     return '[{1}{2} ({0})]({0}.html)'.format(crateId,_('crate_title_'+crateId),plural)
 
 def display_colored(string):
         return re.sub("\[.*\]", '', string)
-if __name__ == "__main__":
+
+def display_expiration(s):
+    if (s=='never'):
+        return s
+    a=int(s)
+    days=int(a/1440)
+    hours=int((a%1440)/60)
+    minutes=int(a%60)
+    x=''
+    if days>0:
+        x='{0}d'.format(days)
+    if (hours+minutes)>0:
+        x+='{0:02d}h'.format(hours)
+    if minutes>0:
+        x+='{0:02d}m'.format(minutes)
+    return x
+
+def display_poolvariant(s,cap=True):
+    (side,hq,planet)=s.split(',')
+    if side=='any':
+        if planet=='any':
+            if hq=='any':
+                if cap:
+                    return 'Always'
+                else:
+                    return ''
+            else:
+                if cap:
+                    return 'With HQ level {0}'.format(hq)
+                else:
+                    return ' with HQ level {0}'.format(hq)
+        else:
+            return '{2}n planet {0}{1}'.format(display_planet(planet),'' if hq=='any' else ', with HQ level {0}'.format(hq),'O' if cap else ' o')
+    else:
+        return '{3}{2}{0}{1}'.format('' if planet=='any' else ', on planet {0}'.format(display_planet(planet)),'' if hq=='any' else ', with HQ level {0}'.format(hq),display_side(side),'' if cap else ' for the ')
+    return '{2}, on planet {0} with HQ level {1}'.format(display_planet(planet),hq,display_side(side),'' if cap else ' for the ')
+
+def display_unitbatch(item,link):
+    count=item['num']
+    nature=''
+    itemx=''
+    title=''
+    line='{0} {1} {2}'
+    if link:
+        line='{0} {1} [{2}]({3})'
+    if (item['rewardType'] == 'currency'):
+        array={'contraband': _('CONTRABAND'), 'crystals':_('CRYSTALS'),'materials':_('MATERIALS'),'credits':_('CREDITS'), 'reputation':_('REPUTATION')}
+        nature='resource'
+        itemx=array[item['rewardUid']]
+        line='{0} {3}'
+    elif (item['rewardType'] == 'shard'):
+        nature='data fragments of equipment'
+        itemx=item['rewardUid']
+        title=_(display_things(item['rewardUid'],'EquipmentData','equipmentID','equipmentName'))
+    elif (item['rewardType'] == 'shardTroop'):
+        nature='data fragments of unlockable troop'
+        itemx=display_things(item['rewardUid'],'TroopData','upgradeShardUid','unitID')
+        title=_('trp_title_'+itemx)
+    elif (item['rewardType'] == 'shardSpecialAttack'):
+        nature='data fragments of unlockable air support'
+        itemx=display_things(item['rewardUid'],'SpecialAttackData','upgradeShardUid','specialAttackID')
+        title=_('shp_title_'+itemx)
+    elif (item['rewardType'] == 'troop'):
+        nature='troop sample'
+        itemx=display_things(item['rewardUid'],'TroopData','uid','unitID')
+        title=_('trp_title_'+itemx)
+    elif (item['rewardType'] == 'specialAttack'):
+        nature='air support sample'
+        itemx=display_things(item['rewardUid'],'SpecialAttackData','uid','specialAttackID')
+        title=_('shp_title_'+itemx)
+    elif (item['rewardType'] == 'hero'):
+        nature='hero sample of'
+        itemx=display_things(item['rewardUid'],'TroopData','uid','unitID')
+        title=_('trp_title_'+itemx)
+    else:
+        nature=item['rewardType']
+        itemx=name
+        line='{0} {1}: {2}'
+    if title=='':
+        title=itemx
+    line=line.format(count,nature,title,itemx)
+    return(line)
+
+def display_things(uid,table,localid,localname):
+    global data
+    for xx in data[table]:
+        x=data[table][xx]
+        if ((localid in x) and (localname in x) and (x[localid]==uid)):
+            return x[localname]
+    return uid
+
+if __name__ == "__main__":    
     main(sys.argv)
