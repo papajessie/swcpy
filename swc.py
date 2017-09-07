@@ -108,7 +108,7 @@ def addtodisplay(displayed,category,item):
 def getdisplayed(displayed,category):
     if not(category in displayed):
         return ()
-    return (displayed[category].keys())
+    return sorted(displayed[category].keys())
         
 
 
@@ -230,7 +230,7 @@ def main(argv):
     if ('crate' in displayed):
         if ('list' in outputs):
             output_listheader_crate(out,objects,getdisplayed(displayed,'crate'))
-            for crate in sorted(getdisplayed(displayed,'crate')):
+            for crate in getdisplayed(displayed,'crate'):
                 output_list_crate(out,objects,objects[crate])
         if ('md' in outputs):
             addtodisplay(displayed,'index','crate')
@@ -242,7 +242,7 @@ def main(argv):
         with open("docs/{0}.md".format(id),"w") as file:
             file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,'Main index page'))
             file.write("# {1} ({0})\n\n".format('index','Main index page'))
-            for sid in sorted(getdisplayed(displayed,id)):
+            for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
                 file.write(' * [{1}]({0}.html)\n'.format(sid,title))
 
@@ -601,7 +601,6 @@ def output_mdheader_crate(out,objects,displayed):
     with open("docs/crate.md","w") as file:
         file.write("---\ntitle: Index of crates\n---\n")
         file.write("# Crates\n\n")
-        dates={}
         for crate in displayed:
             item=objects[crate]
             id=item['uid']
