@@ -102,21 +102,23 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire
 
-  * (3/24) 6 air support sample [TIE Striker](AtmosMig)
-  * (3/24) 6 troop sample [Security Droid](SecurityDroid)
-  * (3/24) 6 troop sample [TX-225](EmpireHovertankSample)
-  * (5/24) 4 air support sample [TIE Striker](AtmosMig)
-  * (5/24) 4 troop sample [Security Droid](SecurityDroid)
-  * (5/24) 4 troop sample [TX-225](EmpireHovertankSample)
+  * (2/14) 4 air support sample [TIE Striker](AtmosMig)
+  * (2/14) 4 troop sample [Death Trooper](HeroDeathTrooper)
+  * (2/14) 4 troop sample [Security Droid](SecurityDroid)
+  * (2/14) 4 troop sample [TX-225](EmpireHovertankSample)
+  * (2/14) 6 air support sample [TIE Striker](AtmosMig)
+  * (2/14) 6 troop sample [Security Droid](SecurityDroid)
+  * (2/14) 6 troop sample [TX-225](EmpireHovertankSample)
 
 ### Rebellion
 
-  * (3/24) 6 air support sample [Fang Fighter](FangFighter)
-  * (3/24) 6 troop sample [Drabatan Saboteur](BigMouthAlien)
-  * (3/24) 6 troop sample [Stolen TX-225](RebelHovertankSample)
-  * (5/24) 4 air support sample [Fang Fighter](FangFighter)
-  * (5/24) 4 troop sample [Drabatan Saboteur](BigMouthAlien)
-  * (5/24) 4 troop sample [Stolen TX-225](RebelHovertankSample)
+  * (2/14) 4 air support sample [Fang Fighter](FangFighter)
+  * (2/14) 4 troop sample [Drabatan Saboteur](BigMouthAlien)
+  * (2/14) 4 troop sample [Elite AT-TE Walker](HeroATTE)
+  * (2/14) 4 troop sample [Stolen TX-225](RebelHovertankSample)
+  * (2/14) 6 air support sample [Fang Fighter](FangFighter)
+  * (2/14) 6 troop sample [Drabatan Saboteur](BigMouthAlien)
+  * (2/14) 6 troop sample [Stolen TX-225](RebelHovertankSample)
 
 ### Fallback with HQ level 10
 
