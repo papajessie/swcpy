@@ -11,41 +11,57 @@ This crates does not expire. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_desBiome_JetpackStore_shrd" (x1 draw)
 
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (2/4) 5 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
   * (2/4) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
 
-### Empire, with HQ level 5
-
-  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (2/4) 5 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
   * (2/4) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
 
-### Rebellion, with HQ level 5
+### Rebellion for HQ level 5
 
   * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Fallback with HQ level 10
+### Empire for HQ level 5
+
+  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
 
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits
+
 ## Pool "lcpool_desBiome_JetpackStore_shrd2" (x1 draw)
 
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (2/12) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (2/12) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
@@ -54,14 +70,14 @@ This crates does not expire. The contents are one draw from each of the 2 pools.
   * (2/12) 6 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (2/12) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
 
-### Empire, with HQ level 5
+### Rebellion for HQ level 5
 
-  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (2/12) 4 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (2/12) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
@@ -70,17 +86,33 @@ This crates does not expire. The contents are one draw from each of the 2 pools.
   * (2/12) 6 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (2/12) 6 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
 
-### Rebellion, with HQ level 5
+### Empire for HQ level 5
 
-  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/4) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

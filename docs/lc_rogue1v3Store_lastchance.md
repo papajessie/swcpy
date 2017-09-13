@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_rogue1v3Store_SPD3x" (x2 draws)
 
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/22) 16 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/22) 16 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
@@ -29,19 +29,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/22) 24 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (4/22) 16 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
-### Empire, with HQ level 5
-
-  * (1/22) 24 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (1/22) 40 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/22) 12 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/22) 24 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (3/22) 16 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (3/22) 16 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (3/22) 24 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (3/22) 24 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (4/22) 16 data fragments of unlockable air support [TIE Striker](AtmosMig)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/22) 16 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (1/22) 16 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
@@ -58,7 +46,19 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/22) 24 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (4/22) 16 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Rebellion, with HQ level 5
+### Empire for HQ level 5
+
+  * (1/22) 24 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (1/22) 40 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/22) 12 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/22) 24 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (3/22) 16 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (3/22) 16 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (3/22) 24 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (3/22) 24 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (4/22) 16 data fragments of unlockable air support [TIE Striker](AtmosMig)
+
+### Rebellion for HQ level 5
 
   * (1/22) 24 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (1/22) 40 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
@@ -70,10 +70,26 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/22) 24 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (4/22) 16 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

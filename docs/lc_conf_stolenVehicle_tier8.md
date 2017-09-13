@@ -14,99 +14,131 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
 
 ## Pool "lcpool_creditsAlloy_conf8" (x1 draw)
 
-### On planet Tatooine, with HQ level 10
-
-  * (1/1) 480000 Credits
-
-### On planet Hoth, with HQ level 10
-
-  * (1/1) 480000 Credits
-
-### On planet Takodana, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 10
 
   * (1/1) 480000 Alloy
 
-### On planet Dandoran, with HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ level 5
+
+  * (1/1) 48000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 8
+
+  * (1/1) 220000 Credits
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 7
+
+  * (1/1) 140000 Alloy
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 8
+
+  * (1/1) 220000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 6
+
+  * (1/1) 104000 Credits
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
+
+  * (1/1) 48000 Alloy
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 6
+
+  * (1/1) 104000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 7
+
+  * (1/1) 140000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 9
+
+  * (1/1) 320000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 10
 
   * (1/1) 480000 Credits
 
-### On planet Er'Kit, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 9
 
-  * (1/1) 480000 Alloy
+  * (1/1) 320000 Alloy
 
-### On planet Yavin 4, with HQ level 10
-
-  * (1/1) 480000 Alloy
-
-### On planet Tatooine, with HQ level 5
-
-  * (1/1) 48000 Credits
-
-### On planet Hoth, with HQ level 5
-
-  * (1/1) 48000 Credits
-
-### On planet Takodana, with HQ level 5
-
-  * (1/1) 48000 Alloy
-
-### On planet Dandoran, with HQ level 5
-
-  * (1/1) 48000 Credits
-
-### On planet Er'Kit, with HQ level 5
-
-  * (1/1) 48000 Alloy
-
-### On planet Yavin 4, with HQ level 5
-
-  * (1/1) 48000 Alloy
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 480000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 48000 Credits
+
+### Fallback for HQ level 6
+
+  * 104000 Credits
+
+### Fallback for HQ level 7
+
+  * 140000 Credits
+
+### Fallback for HQ level 8
+
+  * 220000 Credits
+
+### Fallback for HQ level 9
+
+  * 320000 Credits
 
 ## Pool "lcpool_currency_conf8" (x1 draw)
 
-### With HQ level 10
+### For HQ level 7
+
+  * (1/1) 1600 Contraband
+
+### For HQ level 10
 
   * (1/1) 9500 Contraband
 
-### On planet Tatooine, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
   * (1/1) 48000 Credits
 
-### On planet Hoth, with HQ level 5
-
-  * (1/1) 48000 Credits
-
-### On planet Takodana, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
 
   * (1/1) 48000 Alloy
 
-### On planet Dandoran, with HQ level 5
+### For HQ level 6
 
-  * (1/1) 48000 Credits
+  * (1/1) 200 Contraband
 
-### On planet Er'Kit, with HQ level 5
+### For HQ level 8
 
-  * (1/1) 48000 Alloy
+  * (1/1) 3600 Contraband
 
-### On planet Yavin 4, with HQ level 5
+### For HQ level 9
 
-  * (1/1) 48000 Alloy
+  * (1/1) 7000 Contraband
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 480000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 48000 Credits
+
+### Fallback for HQ level 6
+
+  * 104000 Credits
+
+### Fallback for HQ level 7
+
+  * 140000 Credits
+
+### Fallback for HQ level 8
+
+  * 220000 Credits
+
+### Fallback for HQ level 9
+
+  * 320000 Credits
 
 ## Pool "lcpool_stolenVehicle_conf8" (x2 draws)
 
@@ -122,10 +154,26 @@ This crate expires after 7d. The contents are decided by 4 draws from 3 differen
   * (1/3) 16 troop sample [Stolen AT-DP Walker](StolenATDP)
   * (1/3) 32 troop sample [Stolen Mobile Heavy Cannon](StolenMHC)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

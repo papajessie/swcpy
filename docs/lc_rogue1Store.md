@@ -11,7 +11,14 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_rogue1Store_shrd" (x1 draw)
 
-### Empire, with HQ level 10
+### Empire for HQ level 5
+
+  * (1/11) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/11) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (3/11) 6 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/11) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+
+### Empire for HQ levels 6-10
 
   * (1/25) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/25) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
@@ -26,14 +33,14 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/25) 6 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (5/25) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
-### Empire, with HQ level 5
+### Rebellion for HQ level 5
 
-  * (1/11) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/11) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (3/11) 6 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (5/11) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (1/11) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/11) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (3/11) 6 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (5/11) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/25) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (1/25) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
@@ -48,20 +55,29 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/25) 6 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (5/25) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Rebellion, with HQ level 5
-
-  * (1/11) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/11) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (3/11) 6 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (5/11) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 40000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 6000 Credits
+
+### Fallback for HQ level 6
+
+  * 12000 Credits
+
+### Fallback for HQ level 7
+
+  * 17500 Credits
+
+### Fallback for HQ level 8
+
+  * 22000 Credits
+
+### Fallback for HQ level 9
+
+  * 25000 Credits
 
 ## Pool "lcpool_rogue1Store_smpl" (x1 draw)
 
@@ -83,10 +99,26 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (5/17) 2 troop sample [Stolen TX-225](RebelHovertankSample)
   * (6/17) 2 troop sample [Drabatan Saboteur](BigMouthAlien)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 30000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 4300 Credits
+
+### Fallback for HQ level 6
+
+  * 9500 Credits
+
+### Fallback for HQ level 7
+
+  * 14000 Credits
+
+### Fallback for HQ level 8
+
+  * 15000 Credits
+
+### Fallback for HQ level 9
+
+  * 20000 Credits

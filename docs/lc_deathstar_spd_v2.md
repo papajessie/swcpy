@@ -12,22 +12,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
 
 ## Pool "lcpool_anh40rr_SPD1" (x5 draws)
 
-### With HQ level 5
-
-  * No items, see the fallback option below
-
-### Empire, with HQ level 10
-
-  * (1/8) 20 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (1/8) 20 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (1/8) 20 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/8) 20 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/8) 20 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/8) 24 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (1/8) 24 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/8) 20 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
   * (1/8) 20 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -38,10 +23,41 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
   * (1/8) 24 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
   * (1/8) 24 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Fallback with HQ level 10
+### For HQ level 5
+
+  * No items, see the fallback option below
+
+### Empire for HQ levels 6-10
+
+  * (1/8) 20 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (1/8) 20 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (1/8) 20 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+  * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/8) 20 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/8) 20 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/8) 24 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (1/8) 24 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

@@ -11,44 +11,76 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_eqpTutorial1" (x1 draw)
 
-### With HQ level 5
-
-  * No items, see the fallback option below
-
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/1) 40 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
 
-### Rebellion, with HQ level 10
-
-  * (1/1) 40 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
-
-### Fallback with HQ level 10
-
-  * 380000 Credits
-
-### Fallback with HQ level 5
-
-  * 33000 Credits
-
-## Pool "lcpool_eqpTutorial2" (x1 draw)
-
-### With HQ level 5
+### For HQ level 5
 
   * No items, see the fallback option below
 
-### Empire, with HQ level 10
+### Rebellion for HQ levels 6-10
 
-  * (1/1) 16 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (1/1) 40 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
 
-### Rebellion, with HQ level 10
-
-  * (1/1) 16 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits
+
+## Pool "lcpool_eqpTutorial2" (x1 draw)
+
+### For HQ level 5
+
+  * No items, see the fallback option below
+
+### Rebellion for HQ levels 6-10
+
+  * (1/1) 16 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+
+### Empire for HQ levels 6-10
+
+  * (1/1) 16 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+
+### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 5
+
+  * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

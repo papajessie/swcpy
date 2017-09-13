@@ -12,11 +12,40 @@ This crate expires after 7d. The contents are decided by 6 draws from 1 differen
 
 ## Pool "lcpool_shrd_st1" (x6 draws)
 
-### With HQ level 5
+### For HQ level 5
 
   * No items, see the fallback option below
 
-### Empire, with HQ level 10
+### Rebellion for HQ levels 6-10
+
+  * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
+  * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
+  * (1/41) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
+  * (1/41) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
+  * (1/41) 10 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
+  * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
+  * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
+  * (1/41) 12 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
+  * (1/41) 12 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
+  * (1/41) 12 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
+  * (1/41) 12 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
+  * (1/41) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
+  * (1/41) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelRocketTurretDamage)
+  * (1/41) 4 data fragments of equipment [Reinforced Mounting](eqpRebelBurstTurretHealth)
+  * (1/41) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
+  * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelRocketTurretDamage)
+  * (1/41) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
+  * (1/41) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
+  * (1/41) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
+  * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelBurstTurretHealth)
+  * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (3/41) 30 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
+  * (4/41) 20 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
+  * (5/41) 30 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
+  * (7/41) 20 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
+
+### Empire for HQ levels 6-10
 
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireMortarTurretDamage)
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
@@ -45,39 +74,26 @@ This crate expires after 7d. The contents are decided by 6 draws from 1 differen
   * (5/41) 30 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
   * (7/41) 20 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
 
-### Rebellion, with HQ level 10
-
-  * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
-  * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
-  * (1/41) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
-  * (1/41) 10 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/41) 10 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
-  * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
-  * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
-  * (1/41) 12 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
-  * (1/41) 12 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
-  * (1/41) 12 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
-  * (1/41) 12 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
-  * (1/41) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
-  * (1/41) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelRocketTurretDamage)
-  * (1/41) 4 data fragments of equipment [Reinforced Mounting](eqpRebelBurstTurretHealth)
-  * (1/41) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
-  * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
-  * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelRocketTurretDamage)
-  * (1/41) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
-  * (1/41) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/41) 6 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
-  * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelBurstTurretHealth)
-  * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
-  * (3/41) 30 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
-  * (4/41) 20 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
-  * (5/41) 30 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-  * (7/41) 20 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 225000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 25000 Credits
+
+### Fallback for HQ level 6
+
+  * 50000 Credits
+
+### Fallback for HQ level 7
+
+  * 80000 Credits
+
+### Fallback for HQ level 8
+
+  * 110000 Credits
+
+### Fallback for HQ level 9
+
+  * 150000 Credits

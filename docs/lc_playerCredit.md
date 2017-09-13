@@ -11,18 +11,30 @@ This crate expires after 14d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_playerCredit" (x1 draw)
 
-### With HQ level 10
+### Always
 
   * (1/1) 100 Crystals
 
-### With HQ level 5
-
-  * (1/1) 100 Crystals
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 100 Crystals
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
+
+  * 100 Crystals
+
+### Fallback for HQ level 6
+
+  * 100 Crystals
+
+### Fallback for HQ level 7
+
+  * 100 Crystals
+
+### Fallback for HQ level 8
+
+  * 100 Crystals
+
+### Fallback for HQ level 9
 
   * 100 Crystals
