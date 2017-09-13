@@ -6,6 +6,7 @@ import sys
 import json
 import codecs
 import re
+import hashlib
 from datetime import date
 from pprint import pprint
 
@@ -279,6 +280,42 @@ def main(argv):
 
 
 # This set of functions builds objects from the data, gathering useful data in one place
+def variantspace():
+    global config
+    global data
+    sides=[]
+    hqs=[]
+    planets=[]
+    if 'side' in config:
+        if config['side']=='any':
+            sides=['empire','rebel']
+        else:
+            sides=[config['side']]
+    else:
+            sides=['empire','rebel']        
+    if 'hq' in config:
+        hqs=[config['hq']]
+    else:
+        hqs=[5,6,7,8,9,10]
+    if 'defaultplanet' in config:
+        defaultplanet=config['defaultplanet'].split(",")
+    else:
+        defaultplanet=[]
+        for ii in data['ObjSeries']:
+            i=data['ObjSeries'][ii]
+            if not(i['planetUid'] in defaultplanet):
+                defaultplanet.append(i['planetUid'])
+        defaultplanet=sorted(defaultplanet)
+        config['defaultplanet']=",".join(defaultplanet)
+    if 'planet' in config:
+        if config['planet']=='any':
+            planets=defaultplanet
+        else:
+            planets=[config['planet']]
+    else:
+            planets=defaultplanet
+    return (sides,hqs,planets)
+    
 def analyse_crate(objects,displayed,id):
     global data
     global config
@@ -311,34 +348,7 @@ def analyse_crate(objects,displayed,id):
                 ob['variantsdefaults'][x]={}
     ob['draws']=draws
     # We do not pass because of variants by hq, planet, side
-    if 'side' in config:
-        if config['side']=='any':
-            sides=['empire','rebel']
-        else:
-            sides=[config['side']]
-    else:
-            sides=['empire','rebel']        
-    if 'hq' in config:
-        hqs=[config['hq']]
-    else:
-        hqs=[5,10]
-    if 'defaultplanet' in config:
-        defaultplanet=config['defaultplanet'].split(",")
-    else:
-        defaultplanet=[]
-        for ii in data['ObjSeries']:
-            i=data['ObjSeries'][ii]
-            if not(i['planetUid'] in defaultplanet):
-                defaultplanet.append(i['planetUid'])
-        defaultplanet=sorted(defaultplanet)
-        config['defaultplanet']=",".join(defaultplanet)
-    if 'planet' in config:
-        if config['planet']=='any':
-            planets=defaultplanet
-        else:
-            planets=[config['planet']]
-    else:
-            planets=defaultplanet
+    (sides,hqs,planets)=variantspace()
     for planet in planets:
         for hq in hqs:
             for side in sides:
@@ -403,7 +413,12 @@ def analyse_cratepoolitem(hq,item):
         for k in data['CrateSupplyScale'][scale]:
             if data['CrateSupplyScale'][scale][k]!=xnum:
                 flat=0
-        num=data['CrateSupplyScale'][scale]['HQ{0}'.format(hq)]
+        HQ='HQ{0}'.format(hq)
+        # Some scales are missing HQ2.
+        try:
+            num=data['CrateSupplyScale'][scale]['HQ{0}'.format(hq)]
+        except KeyError:
+            num=data['CrateSupplyScale'][scale]['HQ3']
     elif 'amount' in item:
         num=item['amount']
     else:
@@ -491,8 +506,11 @@ def output_list_crate(out,objects,item,LINKS=False):
             xout+='\n  * {0} draw{2} from pool "{1}"'.format(pools[i],i,'s' if pools[i]>1 else '')
     for j in sorted(pools.keys()):
         xout+='\n\n## Pool "{0}" (x{1} draw{2})'.format(j,pools[j],'' if pools[j]<2 else 's')
+        thispool={}
+        thispooltext={}
         for i in sorted(item['variants'][j]):
-            xout+='\n\n### {0}\n'.format(display_poolvariant(i))
+            thisvariant=''
+#            thisvariant+=
             instances=item['variants'][j][i]['instances']
             lines=[]
             if (instances==0):
@@ -500,7 +518,18 @@ def output_list_crate(out,objects,item,LINKS=False):
             for it in item['variants'][j][i]['items']:
                 myit=item['variants'][j][i]['items'][it]
                 lines.append('  * ({0}/{1}) {2}'.format(myit['rate'],instances,display_unitbatch(myit,LINKS)))
-            xout+='\n'+'\n'.join(sorted(lines))
+            thisvariant+='\n'+'\n'.join(sorted(lines))
+            xhash=hashlib.sha1(thisvariant.encode('utf-8'))
+            xxhash=xhash.hexdigest()
+            thispooltext[xxhash]=thisvariant
+            try:
+                thispool[xxhash] += '/{0}'.format(i)
+            except KeyError:
+                thispool[xxhash]='{0}'.format(i)
+        for xxhash in sorted(thispooltext):
+            variants=thispool[xxhash]
+            xout+='\n\n### {0}\n'.format(display_poolvariant(variants))
+            xout+=thispooltext[xxhash]
         for i in sorted(item['variantsdefaults'][j]):
             xout+='\n\n### Fallback{0}\n'.format(display_poolvariant(i,False))
             myit=item['variantsdefaults'][j][i]
@@ -654,25 +683,154 @@ def display_expiration(s):
         x+='{0:02d}m'.format(minutes)
     return x
 
-def display_poolvariant(s,cap=True):
-    (side,hq,planet)=s.split(',')
-    if side=='any':
-        if planet=='any':
-            if hq=='any':
-                if cap:
-                    return 'Always'
-                else:
-                    return ''
-            else:
-                if cap:
-                    return 'With HQ level {0}'.format(hq)
-                else:
-                    return ' with HQ level {0}'.format(hq)
+def display_poolvariant(variants,cap=True):
+    variantsarray=variants.split('/')
+    def describehq(space,levels,cap):
+        s2=':'.join([str(l) for l in sorted(space)])
+        if levels==s2:
+            return ''
         else:
-            return '{2}n planet {0}{1}'.format(display_planet(planet),'' if hq=='any' else ', with HQ level {0}'.format(hq),'O' if cap else ' o')
-    else:
-        return '{3}{2}{0}{1}'.format('' if planet=='any' else ', on planet {0}'.format(display_planet(planet)),'' if hq=='any' else ', with HQ level {0}'.format(hq),display_side(side),'' if cap else ' for the ')
-    return '{2}, on planet {0} with HQ level {1}'.format(display_planet(planet),hq,display_side(side),'' if cap else ' for the ')
+            xlevels=[]
+            for l in levels.split(':'):
+                xlevels.append(int(l))
+            xlevels.sort()
+        pairs=[]
+        num=len(xlevels)
+        while len(xlevels)>0:
+            start=xlevels[0]
+            current=start
+            while (current in xlevels):
+                xlevels.remove(current)
+                current+=1
+            stop=current-1
+            if stop==start:
+                pairs.append('{0}'.format(start))
+            else:
+                pairs.append('{0}-{1}'.format(start,stop))
+        if pairs[0]=='2-10':
+            return ''
+        if cap:
+            sentence='For HQ'
+        else:
+            sentence=' for HQ'
+        if (num>1):
+            sentence+=' levels '
+        else:
+            sentence+=' level '
+        sentence+=', '.join(pairs)
+        return sentence
+    
+    def describeplanet(space,planets,cap):
+        if planets==':'.join(space):
+            return ''
+        planetsarr=planets.split(':')
+        if planetsarr[0]=='any':
+            return ''
+        if cap:
+            sentence='On '
+        else:
+            sentence=' on '
+        planetnames=[]
+        for p in planetsarr:
+            planetnames.append(display_planet(p))
+        return sentence+' or '.join(sorted(planetnames))
+    
+    def describefaction(space,factions,cap):
+        if factions==':'.join(space):
+            return ''
+        prefix='' if cap else ' '
+        factionsarr=factions.split(':')
+        far=[display_side(f) for f in factionsarr]
+        return prefix+(' or '.join(far))
+
+    (sides,hqs,planets)=variantspace()
+    poolbysidebyplanet={}
+    for s in variantsarray:
+        (side,hq,planet)=s.split(',')
+        if side in poolbysidebyplanet:
+            if planet in poolbysidebyplanet[side]:
+                pass
+            else:
+                poolbysidebyplanet[side][planet]={}
+        else:
+            poolbysidebyplanet[side]={}
+            poolbysidebyplanet[side][planet]={}
+        if hq=='any':
+            for h in hqs:
+                hh='{0}'.format(h)
+                poolbysidebyplanet[side][planet][hh]=1
+        else:
+                poolbysidebyplanet[side][planet][hq]=1
+    variantsarray=[]
+    for side in poolbysidebyplanet.keys():
+        for planet in poolbysidebyplanet[side].keys():
+            thqs=sorted(poolbysidebyplanet[side][planet].keys(),key=int)
+            variantsarray.append('{2},{1},{0}'.format(planet,':'.join(thqs),side))
+    poolbysidebyhq={}
+    for s in variantsarray:
+        (side,hq,planet)=s.split(',')
+        if side in poolbysidebyhq:
+            if hq in poolbysidebyhq[side]:
+                pass
+            else:
+                poolbysidebyhq[side][hq]={}
+        else:
+            poolbysidebyhq[side]={}
+            poolbysidebyhq[side][hq]={}
+        if planet=='any':
+            for p in planets:
+                poolbysidebyhq[side][hq][p]=1
+        else:
+                poolbysidebyhq[side][hq][planet]=1
+    variantsarray=[]
+    for side in poolbysidebyhq.keys():
+        for planet in poolbysidebyhq[side].keys():
+            pl=sorted(poolbysidebyhq[side][hq].keys())
+            variantsarray.append('{2},{1},{0}'.format(':'.join(pl),hq,side))
+    poolbyplanetbyhq={}
+    for s in variantsarray:
+        (side,hq,planet)=s.split(',')
+        if planet in poolbyplanetbyhq:
+            if hq in poolbyplanetbyhq[planet]:
+                pass
+            else:
+                poolbyplanetbyhq[planet][hq]={}
+        else:
+            poolbyplanetbyhq[planet]={}
+            poolbyplanetbyhq[planet][hq]={}
+        if side=='any':
+            for si in sides:
+                poolbyplanetbyhq[planet][hq][si]=1
+        else:
+                poolbyplanetbyhq[planet][hq][side]=1
+    variantsarray=[]
+    for planet in poolbyplanetbyhq.keys():
+        for hq in poolbyplanetbyhq[planet].keys():
+            si=sorted(poolbyplanetbyhq[planet][hq].keys())
+            variantsarray.append('{2},{1},{0}'.format(planet,hq,':'.join(si)))
+    pieces=[]
+    ocap=cap
+    for s in variantsarray:
+        final=''
+        (side,hq,planet)=s.split(',')
+        f=describefaction(sides,side,cap)
+        if len(f)>0:
+            cap=False
+        final=f
+        f=describeplanet(planets,planet,cap)
+        if len(f)>0:
+            cap=False
+        final+=f
+        f=describehq(hqs,hq,cap)
+        if len(f)>0:
+            cap=False
+        final+=f
+        pieces.append(final)
+    final=' or '.join(pieces)
+    if final=='':
+        if cap:
+            final='Always'
+    return final
 
 def display_unitbatch(item,link):
     count=item['num']
