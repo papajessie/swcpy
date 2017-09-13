@@ -11,78 +11,130 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_creditsAlloy_conf2" (x1 draw)
 
-### On planet Tatooine, with HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ level 6
 
-  * (1/1) 20000 Credits
+  * (1/1) 5600 Credits
 
-### On planet Hoth, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 6
 
-  * (1/1) 20000 Credits
+  * (1/1) 5600 Alloy
 
-### On planet Takodana, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 9
 
-  * (1/1) 20000 Alloy
+  * (1/1) 12800 Alloy
 
-### On planet Dandoran, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 7
 
-  * (1/1) 20000 Credits
+  * (1/1) 7200 Alloy
 
-### On planet Er'Kit, with HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ level 8
 
-  * (1/1) 20000 Alloy
+  * (1/1) 10000 Credits
 
-### On planet Yavin 4, with HQ level 10
-
-  * (1/1) 20000 Alloy
-
-### On planet Tatooine, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
   * (1/1) 3000 Credits
 
-### On planet Hoth, with HQ level 5
-
-  * (1/1) 3000 Credits
-
-### On planet Takodana, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
 
   * (1/1) 3000 Alloy
 
-### On planet Dandoran, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 9
 
-  * (1/1) 3000 Credits
+  * (1/1) 12800 Credits
 
-### On planet Er'Kit, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 7
 
-  * (1/1) 3000 Alloy
+  * (1/1) 7200 Credits
 
-### On planet Yavin 4, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 10
 
-  * (1/1) 3000 Alloy
+  * (1/1) 20000 Alloy
 
-### Fallback with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 8
+
+  * (1/1) 10000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 10
+
+  * (1/1) 20000 Credits
+
+### Fallback for HQ level 10
 
   * 40000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 6000 Credits
 
+### Fallback for HQ level 6
+
+  * 11000 Credits
+
+### Fallback for HQ level 7
+
+  * 15000 Credits
+
+### Fallback for HQ level 8
+
+  * 20000 Credits
+
+### Fallback for HQ level 9
+
+  * 25000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf2" (x1 draw)
 
-### With HQ level 10
-
-  * (1/2) 25000 Alloy
-  * (1/2) 25000 Credits
-
-### With HQ level 5
+### For HQ level 5
 
   * (1/2) 3750 Alloy
   * (1/2) 3750 Credits
 
-### Fallback with HQ level 10
+### For HQ level 7
+
+  * (1/2) 9000 Alloy
+  * (1/2) 9000 Credits
+
+### For HQ level 10
+
+  * (1/2) 25000 Alloy
+  * (1/2) 25000 Credits
+
+### For HQ level 6
+
+  * (1/2) 7000 Alloy
+  * (1/2) 7000 Credits
+
+### For HQ level 8
+
+  * (1/2) 12500 Alloy
+  * (1/2) 12500 Credits
+
+### For HQ level 9
+
+  * (1/2) 16000 Alloy
+  * (1/2) 16000 Credits
+
+### Fallback for HQ level 10
 
   * 40000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 6000 Credits
+
+### Fallback for HQ level 6
+
+  * 12000 Credits
+
+### Fallback for HQ level 7
+
+  * 17500 Credits
+
+### Fallback for HQ level 8
+
+  * 22000 Credits
+
+### Fallback for HQ level 9
+
+  * 25000 Credits

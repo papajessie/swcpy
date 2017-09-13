@@ -12,11 +12,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 1 differen
 
 ## Pool "lcpool_shrd_st2" (x4 draws)
 
-### With HQ level 5
-
-  * No items, see the fallback option below
-
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/86) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/86) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
@@ -43,7 +39,11 @@ This crate expires after 7d. The contents are decided by 4 draws from 1 differen
   * (5/86) 10 data fragments of equipment [Reinforced Mounting](eqpEmpireRapidFireTurretHealth)
   * (5/86) 10 data fragments of equipment [Reinforced Mounting](eqpEmpireRocketTurretHealth)
 
-### Rebellion, with HQ level 10
+### For HQ level 5
+
+  * No items, see the fallback option below
+
+### Rebellion for HQ levels 6-10
 
   * (1/86) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
   * (1/86) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
@@ -70,10 +70,26 @@ This crate expires after 7d. The contents are decided by 4 draws from 1 differen
   * (5/86) 10 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (5/86) 10 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_currency_t3" (x1 draw)
 
-### With HQ level 10
+### For HQ level 10
 
   * (1/27) 100 Contraband
   * (1/27) 120 Contraband
@@ -23,7 +23,31 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (4/27) 36000 Alloy
   * (4/27) 36000 Credits
 
-### With HQ level 5
+### For HQ level 6
+
+  * (1/27) 4 Contraband
+  * (1/27) 5 Contraband
+  * (1/27) 6 Contraband
+  * (4/27) 11500 Alloy
+  * (4/27) 11500 Credits
+  * (4/27) 7500 Alloy
+  * (4/27) 7500 Credits
+  * (4/27) 9500 Alloy
+  * (4/27) 9500 Credits
+
+### For HQ level 9
+
+  * (1/27) 45 Contraband
+  * (1/27) 55 Contraband
+  * (1/27) 65 Contraband
+  * (4/27) 16000 Alloy
+  * (4/27) 16000 Credits
+  * (4/27) 20000 Alloy
+  * (4/27) 20000 Credits
+  * (4/27) 24000 Alloy
+  * (4/27) 24000 Credits
+
+### For HQ level 5
 
   * (4/24) 3500 Alloy
   * (4/24) 3500 Credits
@@ -32,21 +56,61 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (4/24) 5100 Alloy
   * (4/24) 5100 Credits
 
-### Fallback with HQ level 10
+### For HQ level 7
+
+  * (1/27) 14 Contraband
+  * (1/27) 18 Contraband
+  * (1/27) 22 Contraband
+  * (4/27) 11000 Alloy
+  * (4/27) 11000 Credits
+  * (4/27) 14000 Alloy
+  * (4/27) 14000 Credits
+  * (4/27) 17000 Alloy
+  * (4/27) 17000 Credits
+
+### For HQ level 8
+
+  * (1/27) 30 Contraband
+  * (1/27) 35 Contraband
+  * (1/27) 40 Contraband
+  * (4/27) 12000 Alloy
+  * (4/27) 12000 Credits
+  * (4/27) 15000 Alloy
+  * (4/27) 15000 Credits
+  * (4/27) 18000 Alloy
+  * (4/27) 18000 Credits
+
+### Fallback for HQ level 10
 
   * 30000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 4300 Credits
 
+### Fallback for HQ level 6
+
+  * 9500 Credits
+
+### Fallback for HQ level 7
+
+  * 14000 Credits
+
+### Fallback for HQ level 8
+
+  * 15000 Credits
+
+### Fallback for HQ level 9
+
+  * 20000 Credits
+
 ## Pool "lcpool_shrd_t1" (x1 draw)
 
-### With HQ level 5
+### For HQ level 5
 
   * No items, see the fallback option below
 
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/82) 4 data fragments of equipment [Enhanced Heat Sink](eqpEmpireBurstTurretDamage)
   * (1/82) 4 data fragments of equipment [Enhanced Heat Sink](eqpEmpireMortarTurretDamage)
@@ -75,7 +139,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (9/82) 10 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/82) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
   * (1/82) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
@@ -85,9 +149,9 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (1/82) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/82) 6 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
   * (3/82) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
@@ -98,16 +162,32 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (9/82) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (9/82) 10 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 25000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 3750 Credits
+
+### Fallback for HQ level 6
+
+  * 7000 Credits
+
+### Fallback for HQ level 7
+
+  * 9000 Credits
+
+### Fallback for HQ level 8
+
+  * 12500 Credits
+
+### Fallback for HQ level 9
+
+  * 16000 Credits

@@ -13,69 +13,79 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ## Pool "lcpool_creditsAlloy_conf7" (x1 draw)
 
-### On planet Tatooine, with HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ level 7
+
+  * (1/1) 120000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 10
 
   * (1/1) 364000 Credits
 
-### On planet Hoth, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 9
 
-  * (1/1) 364000 Credits
+  * (1/1) 244000 Alloy
 
-### On planet Takodana, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Dandoran, with HQ level 10
-
-  * (1/1) 364000 Credits
-
-### On planet Er'Kit, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Yavin 4, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Tatooine, with HQ level 5
-
-  * (1/1) 36000 Credits
-
-### On planet Hoth, with HQ level 5
-
-  * (1/1) 36000 Credits
-
-### On planet Takodana, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
 
   * (1/1) 36000 Alloy
 
-### On planet Dandoran, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 7
+
+  * (1/1) 120000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 6
+
+  * (1/1) 76000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 9
+
+  * (1/1) 244000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
   * (1/1) 36000 Credits
 
-### On planet Er'Kit, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 8
 
-  * (1/1) 36000 Alloy
+  * (1/1) 160000 Credits
 
-### On planet Yavin 4, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 10
 
-  * (1/1) 36000 Alloy
+  * (1/1) 364000 Alloy
 
-### Fallback with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 8
+
+  * (1/1) 160000 Alloy
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 6
+
+  * (1/1) 76000 Alloy
+
+### Fallback for HQ level 10
 
   * 364000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 36000 Credits
 
+### Fallback for HQ level 6
+
+  * 76000 Credits
+
+### Fallback for HQ level 7
+
+  * 120000 Credits
+
+### Fallback for HQ level 8
+
+  * 160000 Credits
+
+### Fallback for HQ level 9
+
+  * 244000 Credits
+
 ## Pool "lcpool_stolenVehicle_conf7" (x2 draws)
-
-### Empire
-
-  * (1/3) 16 troop sample [Seized Hailfire Droid](SeizedHailfire)
-  * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
-  * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
 
 ### Rebellion
 
@@ -83,10 +93,32 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (1/3) 8 air support sample [Stolen TIE Advanced](StolenTieAdvanced)
   * (1/3) 8 troop sample [Stolen AT-DP Walker](StolenATDP)
 
-### Fallback with HQ level 10
+### Empire
+
+  * (1/3) 16 troop sample [Seized Hailfire Droid](SeizedHailfire)
+  * (1/3) 8 air support sample [Seized A-wing Starfighter](SeizedAwing)
+  * (1/3) 8 troop sample [Seized AT-TE Walker](SeizedATTE)
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

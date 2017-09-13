@@ -11,7 +11,25 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_war3" (x1 draw)
 
-### With HQ level 10
+### For HQ level 8
+
+  * (1/6) 1000000 Alloy
+  * (1/6) 1000000 Credits
+  * (1/6) 2100000 Alloy
+  * (1/6) 2100000 Credits
+  * (1/6) 500000 Alloy
+  * (1/6) 500000 Credits
+
+### For HQ level 6
+
+  * (1/6) 200000 Alloy
+  * (1/6) 200000 Credits
+  * (1/6) 400000 Alloy
+  * (1/6) 400000 Credits
+  * (1/6) 800000 Alloy
+  * (1/6) 800000 Credits
+
+### For HQ level 10
 
   * (1/6) 1500000 Alloy
   * (1/6) 1500000 Credits
@@ -20,7 +38,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/6) 6000000 Alloy
   * (1/6) 6000000 Credits
 
-### With HQ level 5
+### For HQ level 5
 
   * (1/6) 150000 Alloy
   * (1/6) 150000 Credits
@@ -29,17 +47,51 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/6) 75000 Alloy
   * (1/6) 75000 Credits
 
-### Fallback with HQ level 10
+### For HQ level 7
+
+  * (1/6) 1000000 Alloy
+  * (1/6) 1000000 Credits
+  * (1/6) 250000 Alloy
+  * (1/6) 250000 Credits
+  * (1/6) 500000 Alloy
+  * (1/6) 500000 Credits
+
+### For HQ level 9
+
+  * (1/6) 1000000 Alloy
+  * (1/6) 1000000 Credits
+  * (1/6) 2000000 Alloy
+  * (1/6) 2000000 Credits
+  * (1/6) 4000000 Alloy
+  * (1/6) 4000000 Credits
+
+### Fallback for HQ level 10
 
   * 3000000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 150000 Credits
+
+### Fallback for HQ level 6
+
+  * 400000 Credits
+
+### Fallback for HQ level 7
+
+  * 500000 Credits
+
+### Fallback for HQ level 8
+
+  * 1000000 Credits
+
+### Fallback for HQ level 9
+
+  * 2000000 Credits
 
 ## Pool "lcpool_war_unit" (x1 draw)
 
-### Empire, with HQ level 10
+### Empire
 
   * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
   * (4/20) 16 data fragments of unlockable air support [VT-49 Decimator](VT49)
@@ -47,15 +99,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 16 data fragments of unlockable troop [MTV-7](MTV7)
   * (4/20) 16 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire, with HQ level 5
-
-  * (4/20) 16 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (4/20) 16 data fragments of unlockable air support [VT-49 Decimator](VT49)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (4/20) 16 data fragments of unlockable troop [MTV-7](MTV7)
-  * (4/20) 16 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
@@ -63,36 +107,56 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (4/20) 16 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion, with HQ level 5
-
-  * (4/20) 16 data fragments of unlockable air support [A-wing Starfighter](AWing)
-  * (4/20) 16 data fragments of unlockable air support [HWK-290](HWK290)
-  * (4/20) 16 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (4/20) 16 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (4/20) 16 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 3000000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 150000 Credits
 
+### Fallback for HQ level 6
+
+  * 400000 Credits
+
+### Fallback for HQ level 7
+
+  * 500000 Credits
+
+### Fallback for HQ level 8
+
+  * 1000000 Credits
+
+### Fallback for HQ level 9
+
+  * 2000000 Credits
+
 ## Pool "lcpool_warrep" (x1 draw)
 
-### With HQ level 10
+### Always
 
   * (1/1) 10 Reputation
 
-### With HQ level 5
-
-  * (1/1) 10 Reputation
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

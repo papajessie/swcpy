@@ -13,31 +13,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
 ## Pool "lcpool_anh40Store_shrd" (x2 draws)
 
-### Empire, with HQ level 10
-
-  * (1/15) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/15) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/15) 6 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (2/15) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/15) 6 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/15) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (4/15) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-
-### Empire, with HQ level 5
-
-  * (1/15) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/15) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/15) 6 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (2/15) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/15) 6 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/15) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (4/15) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (1/15) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/15) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
@@ -49,53 +25,45 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (2/15) 6 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (4/15) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
 
-### Rebellion, with HQ level 5
+### Empire
 
-  * (1/15) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (1/15) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/15) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/15) 6 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (2/15) 4 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
-  * (2/15) 6 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (2/15) 6 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
-  * (4/15) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (1/15) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/15) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (1/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/15) 6 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (2/15) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (2/15) 6 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (2/15) 6 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (4/15) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits
 
 ## Pool "lcpool_anh40Store_shrd2" (x2 draws)
 
-### Empire, with HQ level 10
-
-  * (1/13) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/13) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/13) 3 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/13) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/13) 3 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/13) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/13) 2 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/13) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/13) 3 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-
-### Empire, with HQ level 5
-
-  * (1/13) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/13) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/13) 3 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (1/13) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/13) 3 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/13) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (2/13) 2 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/13) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/13) 3 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (1/13) 2 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
   * (1/13) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
@@ -107,22 +75,38 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (2/13) 3 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
   * (2/13) 3 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
 
-### Rebellion, with HQ level 5
+### Empire
 
-  * (1/13) 2 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (1/13) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (1/13) 3 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (1/13) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/13) 3 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/13) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
-  * (2/13) 2 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/13) 3 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (2/13) 3 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+  * (1/13) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (1/13) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/13) 3 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (1/13) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/13) 3 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (2/13) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (2/13) 2 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (2/13) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (2/13) 3 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

@@ -11,7 +11,64 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_currency_t13" (x1 draw)
 
-### With HQ level 10
+### For HQ level 5
+
+  * (1/6) 48000 Alloy
+  * (1/6) 48000 Credits
+  * (1/6) 60000 Alloy
+  * (1/6) 60000 Credits
+  * (1/6) 72000 Alloy
+  * (1/6) 72000 Credits
+
+### For HQ level 7
+
+  * (1/9) 140000 Alloy
+  * (1/9) 140000 Credits
+  * (1/9) 1600 Contraband
+  * (1/9) 175000 Alloy
+  * (1/9) 175000 Credits
+  * (1/9) 2000 Contraband
+  * (1/9) 210000 Alloy
+  * (1/9) 210000 Credits
+  * (1/9) 2400 Contraband
+
+### For HQ level 9
+
+  * (1/9) 11000 Contraband
+  * (1/9) 320000 Alloy
+  * (1/9) 320000 Credits
+  * (1/9) 400000 Alloy
+  * (1/9) 400000 Credits
+  * (1/9) 480000 Alloy
+  * (1/9) 480000 Credits
+  * (1/9) 7000 Contraband
+  * (1/9) 9000 Contraband
+
+### For HQ level 8
+
+  * (1/9) 220000 Alloy
+  * (1/9) 220000 Credits
+  * (1/9) 275000 Alloy
+  * (1/9) 275000 Credits
+  * (1/9) 330000 Alloy
+  * (1/9) 330000 Credits
+  * (1/9) 3600 Contraband
+  * (1/9) 4500 Contraband
+  * (1/9) 5400 Contraband
+
+### For HQ level 6
+
+  * (1/9) 104000 Alloy
+  * (1/9) 104000 Credits
+  * (1/9) 130000 Alloy
+  * (1/9) 130000 Credits
+  * (1/9) 156000 Alloy
+  * (1/9) 156000 Credits
+  * (1/9) 200 Contraband
+  * (1/9) 250 Contraband
+  * (1/9) 300 Contraband
+
+### For HQ level 10
 
   * (1/9) 12000 Contraband
   * (1/9) 14500 Contraband
@@ -23,56 +80,71 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/9) 720000 Credits
   * (1/9) 9500 Contraband
 
-### With HQ level 5
-
-  * (1/6) 48000 Alloy
-  * (1/6) 48000 Credits
-  * (1/6) 60000 Alloy
-  * (1/6) 60000 Credits
-  * (1/6) 72000 Alloy
-  * (1/6) 72000 Credits
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 600000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 60000 Credits
 
+### Fallback for HQ level 6
+
+  * 130000 Credits
+
+### Fallback for HQ level 7
+
+  * 175000 Credits
+
+### Fallback for HQ level 8
+
+  * 275000 Credits
+
+### Fallback for HQ level 9
+
+  * 400000 Credits
+
 ## Pool "lcpool_desBiome_shrd_conf_tier8" (x1 draw)
 
-### Empire, with HQ level 10
+### Empire
 
   * (1/1) 32 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
-### Empire, with HQ level 5
-
-  * (1/1) 32 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (1/1) 32 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
 
-### Rebellion, with HQ level 5
-
-  * (1/1) 32 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
 
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits
+
 ## Pool "lcpool_shrd_conf_eqp_tier8" (x1 draw)
 
-### With HQ level 5
+### For HQ level 5
 
   * No items, see the fallback option below
 
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/42) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/42) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -93,7 +165,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
   * (5/42) 6 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/42) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/42) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -114,10 +186,26 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
   * (5/42) 6 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

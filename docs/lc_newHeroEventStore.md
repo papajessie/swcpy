@@ -12,23 +12,19 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_newHeroEventStore_shrd" (x2 draws)
 
-### Empire, with HQ level 10
+### Rebellion for HQ level 5
 
-  * (1/31) 4 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (1/31) 6 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (2/31) 3 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (2/31) 5 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/31) 5 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/31) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (3/31) 3 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (3/31) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (3/31) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (3/31) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (3/31) 4 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (3/31) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (3/31) 5 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (1/21) 4 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (1/21) 6 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (2/21) 3 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (2/21) 5 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (3/21) 3 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (3/21) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (3/21) 4 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+  * (3/21) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (3/21) 5 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Empire, with HQ level 5
+### Empire for HQ level 5
 
   * (1/21) 4 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
   * (1/21) 6 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
@@ -40,7 +36,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/21) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (3/21) 5 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/31) 4 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
   * (1/31) 6 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
@@ -56,22 +52,42 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/31) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (3/31) 5 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Rebellion, with HQ level 5
+### Empire for HQ levels 6-10
 
-  * (1/21) 4 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
-  * (1/21) 6 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
-  * (2/21) 3 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
-  * (2/21) 5 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (3/21) 3 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (3/21) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (3/21) 4 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
-  * (3/21) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (3/21) 5 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+  * (1/31) 4 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (1/31) 6 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (2/31) 3 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (2/31) 5 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (2/31) 5 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/31) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (3/31) 3 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (3/31) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (3/31) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (3/31) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (3/31) 4 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (3/31) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (3/31) 5 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

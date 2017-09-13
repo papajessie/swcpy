@@ -12,33 +12,17 @@ This crate expires after 7d. The contents are decided by 7 draws from 1 differen
 
 ## Pool "lcpool_anh40rrStore_shrd" (x7 draws)
 
-### Empire, with HQ level 10
+### Rebellion for HQ level 5
 
-  * (1/26) 5 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (1/26) 5 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/26) 5 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/26) 5 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/26) 6 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/26) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/26) 5 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/26) 6 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (3/26) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (3/26) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (3/26) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (3/26) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (3/26) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/15) 5 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (1/15) 5 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/15) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (3/15) 4 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (3/15) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (3/15) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (3/15) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Empire, with HQ level 5
-
-  * (1/15) 5 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/15) 5 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/15) 5 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (3/15) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-  * (3/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (3/15) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (3/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/26) 5 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
   * (1/26) 5 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
@@ -54,20 +38,52 @@ This crate expires after 7d. The contents are decided by 7 draws from 1 differen
   * (3/26) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (3/26) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Rebellion, with HQ level 5
+### Empire for HQ level 5
 
-  * (1/15) 5 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (1/15) 5 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/15) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (3/15) 4 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (3/15) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (3/15) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (3/15) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
+  * (1/15) 5 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/15) 5 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/15) 5 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (3/15) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+  * (3/15) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (3/15) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (3/15) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Fallback with HQ level 10
+### Empire for HQ levels 6-10
+
+  * (1/26) 5 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (1/26) 5 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/26) 5 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/26) 5 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/26) 6 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (2/26) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (2/26) 5 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (2/26) 6 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+  * (3/26) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (3/26) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
+  * (3/26) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (3/26) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (3/26) 4 data fragments of unlockable troop [Shock Trooper](Shock)
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

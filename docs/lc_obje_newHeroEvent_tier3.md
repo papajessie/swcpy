@@ -11,7 +11,28 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_currency_t9" (x1 draw)
 
-### With HQ level 10
+### For HQ level 5
+
+  * (7/42) 20000 Alloy
+  * (7/42) 20000 Credits
+  * (7/42) 25000 Alloy
+  * (7/42) 25000 Credits
+  * (7/42) 30000 Alloy
+  * (7/42) 30000 Credits
+
+### For HQ level 7
+
+  * (3/51) 100 Contraband
+  * (3/51) 125 Contraband
+  * (3/51) 150 Contraband
+  * (7/51) 64000 Alloy
+  * (7/51) 64000 Credits
+  * (7/51) 80000 Alloy
+  * (7/51) 80000 Credits
+  * (7/51) 96000 Alloy
+  * (7/51) 96000 Credits
+
+### For HQ level 10
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -23,26 +44,91 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 270000 Alloy
   * (7/51) 270000 Credits
 
-### With HQ level 5
+### For HQ level 9
 
-  * (7/42) 20000 Alloy
-  * (7/42) 20000 Credits
-  * (7/42) 25000 Alloy
-  * (7/42) 25000 Credits
-  * (7/42) 30000 Alloy
-  * (7/42) 30000 Credits
+  * (3/51) 320 Contraband
+  * (3/51) 400 Contraband
+  * (3/51) 480 Contraband
+  * (7/51) 120000 Alloy
+  * (7/51) 120000 Credits
+  * (7/51) 150000 Alloy
+  * (7/51) 150000 Credits
+  * (7/51) 180000 Alloy
+  * (7/51) 180000 Credits
 
-### Fallback with HQ level 10
+### For HQ level 8
+
+  * (3/51) 200 Contraband
+  * (3/51) 250 Contraband
+  * (3/51) 300 Contraband
+  * (7/51) 110000 Alloy
+  * (7/51) 110000 Credits
+  * (7/51) 132000 Alloy
+  * (7/51) 132000 Credits
+  * (7/51) 88000 Alloy
+  * (7/51) 88000 Credits
+
+### For HQ level 6
+
+  * (3/51) 24 Contraband
+  * (3/51) 30 Contraband
+  * (3/51) 36 Contraband
+  * (7/51) 40000 Alloy
+  * (7/51) 40000 Credits
+  * (7/51) 50000 Alloy
+  * (7/51) 50000 Credits
+  * (7/51) 60000 Alloy
+  * (7/51) 60000 Credits
+
+### Fallback for HQ level 10
 
   * 225000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 25000 Credits
 
+### Fallback for HQ level 6
+
+  * 50000 Credits
+
+### Fallback for HQ level 7
+
+  * 80000 Credits
+
+### Fallback for HQ level 8
+
+  * 110000 Credits
+
+### Fallback for HQ level 9
+
+  * 150000 Credits
+
 ## Pool "lcpool_newHeroEvent_shrd" (x1 draw)
 
-### Empire, with HQ level 10
+### Rebellion for HQ level 5
+
+  * (1/14) 1 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (1/14) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+  * (2/14) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (2/14) 2 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (2/14) 2 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/14) 2 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (2/14) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (2/14) 2 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+
+### Empire for HQ level 5
+
+  * (1/14) 1 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (1/14) 1 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (2/14) 1 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (2/14) 2 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (2/14) 2 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (2/14) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (2/14) 2 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/14) 2 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+
+### Empire for HQ levels 6-10
 
   * (1/16) 1 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
   * (1/16) 1 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
@@ -54,18 +140,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/16) 2 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/16) 2 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
-### Empire, with HQ level 5
-
-  * (1/14) 1 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (1/14) 1 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (2/14) 1 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (2/14) 2 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (2/14) 2 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (2/14) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (2/14) 2 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/14) 2 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/16) 1 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
   * (1/16) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
@@ -77,24 +152,29 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/16) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (2/16) 2 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Rebellion, with HQ level 5
-
-  * (1/14) 1 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
-  * (1/14) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
-  * (2/14) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (2/14) 2 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (2/14) 2 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/14) 2 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
-  * (2/14) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (2/14) 2 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 225000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 25000 Credits
+
+### Fallback for HQ level 6
+
+  * 50000 Credits
+
+### Fallback for HQ level 7
+
+  * 80000 Credits
+
+### Fallback for HQ level 8
+
+  * 110000 Credits
+
+### Fallback for HQ level 9
+
+  * 150000 Credits
 
 ## Pool "lcpool_rogue1v3_smpl" (x1 draw)
 
@@ -118,10 +198,26 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/14) 6 troop sample [Drabatan Saboteur](BigMouthAlien)
   * (2/14) 6 troop sample [Stolen TX-225](RebelHovertankSample)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 40000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 6000 Credits
+
+### Fallback for HQ level 6
+
+  * 12000 Credits
+
+### Fallback for HQ level 7
+
+  * 17500 Credits
+
+### Fallback for HQ level 8
+
+  * 22000 Credits
+
+### Fallback for HQ level 9
+
+  * 25000 Credits

@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_vertCrateHero" (x2 draws)
 
-### Empire, with HQ level 10
+### Empire
 
   * (2/44) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (2/44) 4 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
@@ -27,22 +27,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (5/44) 2 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
   * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
-### Empire, with HQ level 5
-
-  * (2/44) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/44) 4 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (2/44) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/44) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (4/44) 3 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (4/44) 3 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (4/44) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (4/44) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (5/44) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (5/44) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (5/44) 2 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (2/44) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
   * (2/44) 4 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
@@ -57,25 +42,26 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (5/44) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
-### Rebellion, with HQ level 5
-
-  * (2/44) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (2/44) 4 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (2/44) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (2/44) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (4/44) 3 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (4/44) 3 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (4/44) 3 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (4/44) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (5/44) 2 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (5/44) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (5/44) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

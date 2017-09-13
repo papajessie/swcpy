@@ -11,167 +11,151 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_conf7" (x1 draw)
 
-### Empire, on planet Tatooine, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Empire, on planet Hoth, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [MTV-7](MTV7)
-
-### Empire, on planet Dandoran, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-
-### Empire, on planet Er'Kit, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-
-### Empire, on planet Yavin 4, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable air support [VT-49 Decimator](VT49)
-
-### Empire, on planet Tatooine, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Empire, on planet Hoth, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable troop [MTV-7](MTV7)
-
-### Empire, on planet Dandoran, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-
-### Empire, on planet Er'Kit, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-
-### Empire, on planet Yavin 4, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable air support [VT-49 Decimator](VT49)
-
-### Empire, on planet Takodana
-
-  * No items, see the fallback option below
-
-### Rebellion, on planet Tatooine, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-
-### Rebellion, on planet Hoth, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [AT-RT Walker](ATRT)
-
-### Rebellion, on planet Dandoran, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable air support [A-wing Starfighter](AWing)
-
-### Rebellion, on planet Er'Kit, with HQ level 10
-
-  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Rebellion, on planet Yavin 4, with HQ level 10
+### Rebellion on Yavin 4
 
   * (1/1) 8 data fragments of unlockable air support [HWK-290](HWK290)
 
-### Rebellion, on planet Tatooine, with HQ level 5
+### Empire on Tatooine
 
-  * (1/1) 8 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/1) 8 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Rebellion, on planet Hoth, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable troop [AT-RT Walker](ATRT)
-
-### Rebellion, on planet Dandoran, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable air support [A-wing Starfighter](AWing)
-
-### Rebellion, on planet Er'Kit, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Rebellion, on planet Yavin 4, with HQ level 5
-
-  * (1/1) 8 data fragments of unlockable air support [HWK-290](HWK290)
-
-### Rebellion, on planet Takodana
+### On Takodana
 
   * No items, see the fallback option below
 
-### Fallback with HQ level 10
+### Empire on Er'Kit
+
+  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+
+### Rebellion on Er'Kit
+
+  * (1/1) 8 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+
+### Rebellion on Tatooine
+
+  * (1/1) 8 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+
+### Empire on Yavin 4
+
+  * (1/1) 8 data fragments of unlockable air support [VT-49 Decimator](VT49)
+
+### Rebellion on Hoth
+
+  * (1/1) 8 data fragments of unlockable troop [AT-RT Walker](ATRT)
+
+### Rebellion on Dandoran
+
+  * (1/1) 8 data fragments of unlockable air support [A-wing Starfighter](AWing)
+
+### Empire on Hoth
+
+  * (1/1) 8 data fragments of unlockable troop [MTV-7](MTV7)
+
+### Empire on Dandoran
+
+  * (1/1) 8 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
 
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits
+
 ## Pool "lcpool_creditsAlloy_conf7" (x1 draw)
 
-### On planet Tatooine, with HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ level 7
+
+  * (1/1) 120000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 10
 
   * (1/1) 364000 Credits
 
-### On planet Hoth, with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 9
 
-  * (1/1) 364000 Credits
+  * (1/1) 244000 Alloy
 
-### On planet Takodana, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Dandoran, with HQ level 10
-
-  * (1/1) 364000 Credits
-
-### On planet Er'Kit, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Yavin 4, with HQ level 10
-
-  * (1/1) 364000 Alloy
-
-### On planet Tatooine, with HQ level 5
-
-  * (1/1) 36000 Credits
-
-### On planet Hoth, with HQ level 5
-
-  * (1/1) 36000 Credits
-
-### On planet Takodana, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
 
   * (1/1) 36000 Alloy
 
-### On planet Dandoran, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 7
+
+  * (1/1) 120000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 6
+
+  * (1/1) 76000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 9
+
+  * (1/1) 244000 Credits
+
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
   * (1/1) 36000 Credits
 
-### On planet Er'Kit, with HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 8
 
-  * (1/1) 36000 Alloy
+  * (1/1) 160000 Credits
 
-### On planet Yavin 4, with HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 10
 
-  * (1/1) 36000 Alloy
+  * (1/1) 364000 Alloy
 
-### Fallback with HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ level 8
+
+  * (1/1) 160000 Alloy
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 6
+
+  * (1/1) 76000 Alloy
+
+### Fallback for HQ level 10
 
   * 364000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 36000 Credits
 
+### Fallback for HQ level 6
+
+  * 76000 Credits
+
+### Fallback for HQ level 7
+
+  * 120000 Credits
+
+### Fallback for HQ level 8
+
+  * 160000 Credits
+
+### Fallback for HQ level 9
+
+  * 244000 Credits
+
 ## Pool "lcpool_shrd_conf_eqp_tier7" (x1 draw)
 
-### With HQ level 5
-
-  * No items, see the fallback option below
-
-### Empire, with HQ level 10
+### Empire for HQ levels 6-10
 
   * (1/42) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/42) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -192,7 +176,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
   * (5/42) 3 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/42) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/42) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -213,10 +197,30 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
   * (5/42) 3 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Fallback with HQ level 10
+### For HQ level 5
+
+  * No items, see the fallback option below
+
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits

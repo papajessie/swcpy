@@ -11,32 +11,11 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_shrd_t3" (x1 draw)
 
-### With HQ level 5
+### For HQ level 5
 
   * No items, see the fallback option below
 
-### Empire, with HQ level 10
-
-  * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (1/38) 2 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
-  * (2/38) 2 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
-  * (2/38) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (2/38) 2 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
-  * (2/38) 2 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
-  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
-  * (2/38) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
-  * (2/38) 2 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
-  * (2/38) 2 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
-  * (3/38) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-  * (3/38) 2 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
-  * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-
-### Rebellion, with HQ level 10
+### Rebellion for HQ levels 6-10
 
   * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -57,48 +36,133 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Fallback with HQ level 10
+### Empire for HQ levels 6-10
+
+  * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (1/38) 2 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
+  * (2/38) 2 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (2/38) 2 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
+  * (2/38) 2 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
+  * (2/38) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
+  * (2/38) 2 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
+  * (2/38) 2 data fragments of equipment [Heavy Snowtrooper](eqpEmpireHeavySnowtrooper)
+  * (3/38) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
+  * (3/38) 2 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
+  * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+
+### Fallback for HQ level 10
 
   * 50000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 7500 Credits
 
+### Fallback for HQ level 6
+
+  * 14000 Credits
+
+### Fallback for HQ level 7
+
+  * 18000 Credits
+
+### Fallback for HQ level 8
+
+  * 25000 Credits
+
+### Fallback for HQ level 9
+
+  * 32000 Credits
+
 ## Pool "lcpool_war_max" (x1 draw)
 
-### With HQ level 10
+### For HQ level 9
+
+  * (1/2) 4000000 Alloy
+  * (1/2) 4000000 Credits
+
+### For HQ level 7
+
+  * (1/2) 1000000 Alloy
+  * (1/2) 1000000 Credits
+
+### For HQ level 10
 
   * (1/2) 6000000 Alloy
   * (1/2) 6000000 Credits
 
-### With HQ level 5
+### For HQ level 6
+
+  * (1/2) 800000 Alloy
+  * (1/2) 800000 Credits
+
+### For HQ level 8
+
+  * (1/2) 2100000 Alloy
+  * (1/2) 2100000 Credits
+
+### For HQ level 5
 
   * (1/2) 300000 Alloy
   * (1/2) 300000 Credits
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 6000000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 300000 Credits
 
+### Fallback for HQ level 6
+
+  * 800000 Credits
+
+### Fallback for HQ level 7
+
+  * 1000000 Credits
+
+### Fallback for HQ level 8
+
+  * 2100000 Credits
+
+### Fallback for HQ level 9
+
+  * 4000000 Credits
+
 ## Pool "lcpool_warrep" (x1 draw)
 
-### With HQ level 10
+### Always
 
   * (1/1) 10 Reputation
 
-### With HQ level 5
-
-  * (1/1) 10 Reputation
-
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 380000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 33000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits

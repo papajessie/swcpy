@@ -12,27 +12,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
 
 ## Pool "lcpool_newHeroEventSPD_shrd" (x3 draws)
 
-### Empire, with HQ level 10
-
-  * (1/7) 10 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/7) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (1/7) 10 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (1/7) 8 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/7) 8 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (1/7) 8 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (1/7) 8 data fragments of unlockable troop [Security Droid](SecurityDroid)
-
-### Empire, with HQ level 5
-
-  * (1/7) 10 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/7) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (1/7) 10 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (1/7) 8 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/7) 8 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (1/7) 8 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
-  * (1/7) 8 data fragments of unlockable troop [Security Droid](SecurityDroid)
-
-### Rebellion, with HQ level 10
+### Rebellion
 
   * (1/7) 10 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
   * (1/7) 10 data fragments of unlockable air support [Fang Fighter](FangFighter)
@@ -42,20 +22,36 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
   * (1/7) 8 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (1/7) 8 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
 
-### Rebellion, with HQ level 5
+### Empire
 
-  * (1/7) 10 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (1/7) 10 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (1/7) 10 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (1/7) 8 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (1/7) 8 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (1/7) 8 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (1/7) 8 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (1/7) 10 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (1/7) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (1/7) 10 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (1/7) 8 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (1/7) 8 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (1/7) 8 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (1/7) 8 data fragments of unlockable troop [Security Droid](SecurityDroid)
 
-### Fallback with HQ level 10
+### Fallback for HQ level 10
 
   * 300000 Credits
 
-### Fallback with HQ level 5
+### Fallback for HQ level 5
 
   * 27000 Credits
+
+### Fallback for HQ level 6
+
+  * 65000 Credits
+
+### Fallback for HQ level 7
+
+  * 100000 Credits
+
+### Fallback for HQ level 8
+
+  * 140000 Credits
+
+### Fallback for HQ level 9
+
+  * 200000 Credits
