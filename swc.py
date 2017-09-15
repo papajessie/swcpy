@@ -154,8 +154,10 @@ def main(argv):
             print('{0};{1}'.format(t,len(data[t])))
     # Modes in one single phase
     xhelp['translate']='Searches a string ID through the SWC catalog and translates it.'
-    morehelp['translate']={'':'keys to be searched'}
+    morehelp['translate']={'':'keys to be searched  (cumulative, default: all strings)'}
     if ('translate' in modes):
+        if len(elements)==0:
+            elements=sorted(langdata.keys())
         for t in elements:
             print('{0};{1}'.format(t,_(t)))
     xhelp['table']='List all keys from specific tables'
