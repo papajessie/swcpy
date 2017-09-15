@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts
+# Conflicts — version 1072
 
   * [Conflict on Dandoran (conf_dan_20170923)](conf_dan_20170923.html)
   * [Conflict on Tatooine (conf_tat_20170921)](conf_tat_20170921.html)
