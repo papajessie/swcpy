@@ -244,7 +244,7 @@ def main(argv):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
             file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,'Main index page'))
-            file.write("# {1} ({0})\n\n".format('index','Main index page'))
+            file.write("# {1} ({0}) — version {2}\n\n".format('index','Main index page',config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
                 file.write(' * [{1}]({0}.html)\n'.format(sid,title))
@@ -487,7 +487,7 @@ def output_listheader_crate(out,objects,displayed):
 def output_list_crate(out,objects,item,LINKS=False):
     id=item['uid']
     title=__(item['title'])
-    xout='\n# {1} ({0})\n\n'.format(id,title)
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     xout+='Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.\n\n'
     expiration=display_expiration(item['expirationTime'])
     if (expiration == 'never'):
@@ -585,7 +585,7 @@ def output_csv_tournament(out,objects,item):
 def output_mdheader_tournament(out,objects,displayed):
     with open("docs/tournament.md","w") as file:
         file.write("---\ntitle: Index of conflicts\n---\n")
-        file.write("# Conflicts\n\n")
+        file.write("# Conflicts — version {0}\n\n".format(config['version']))
         dates={}
         for tournament in displayed:
             dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
@@ -631,7 +631,7 @@ def output_md_tournament(out,objects,item):
 def output_mdheader_crate(out,objects,displayed):
     with open("docs/crate.md","w") as file:
         file.write("---\ntitle: Index of crates\n---\n")
-        file.write("# Crates\n\n")
+        file.write("# Crates — version {0}\n\n".format(config['version']))
         for crate in displayed:
             item=objects[crate]
             id=item['uid']
