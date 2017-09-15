@@ -12,41 +12,41 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_vertCrateVehicle" (x2 draws)
 
-### Empire
-
-  * (2/50) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (2/50) 4 data fragments of unlockable air support [HWK-290](HWK290)
-  * (2/50) 4 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (2/50) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (2/50) 4 data fragments of unlockable troop [MTV-7](MTV7)
-  * (4/50) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (4/50) 2 data fragments of unlockable air support [HWK-290](HWK290)
-  * (4/50) 2 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (4/50) 2 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (4/50) 2 data fragments of unlockable troop [MTV-7](MTV7)
-  * (4/50) 3 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (4/50) 3 data fragments of unlockable air support [HWK-290](HWK290)
-  * (4/50) 3 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (4/50) 3 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (4/50) 3 data fragments of unlockable troop [MTV-7](MTV7)
-
 ### Rebellion
 
   * (2/50) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (2/50) 4 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (2/50) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (2/50) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (2/50) 4 data fragments of unlockable air support [HWK-290](HWK290)
   * (2/50) 4 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (4/50) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (4/50) 2 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (4/50) 2 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/50) 2 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (4/50) 2 data fragments of unlockable air support [HWK-290](HWK290)
   * (4/50) 2 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (4/50) 3 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (4/50) 3 data fragments of unlockable air support [A-wing Starfighter](AWing)
   * (4/50) 3 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/50) 3 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (4/50) 3 data fragments of unlockable air support [HWK-290](HWK290)
   * (4/50) 3 data fragments of unlockable troop [AT-RT Walker](ATRT)
+
+### Empire
+
+  * (2/50) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (2/50) 4 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (2/50) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (2/50) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (2/50) 4 data fragments of unlockable troop [MTV-7](MTV7)
+  * (4/50) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (4/50) 2 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (4/50) 2 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (4/50) 2 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (4/50) 2 data fragments of unlockable troop [MTV-7](MTV7)
+  * (4/50) 3 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (4/50) 3 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (4/50) 3 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (4/50) 3 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (4/50) 3 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Fallback for HQ level 10
 
