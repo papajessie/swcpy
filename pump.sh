@@ -42,7 +42,7 @@ else
     done
 fi
 
-if [ -n "VCHECK" ]; then
+if [ -n "$VCHECK" ]; then
     exit 0
 fi
 
