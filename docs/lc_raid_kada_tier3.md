@@ -3,7 +3,7 @@ title: Weapons Research Crate (lc_raid_kada_tier3)
 category: crate
 ---
 
-# Weapons Research Crate (lc_raid_kada_tier3) — version 1072
+# Weapons Research Crate (lc_raid_kada_tier3) — version 1079
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
