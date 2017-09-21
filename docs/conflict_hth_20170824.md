@@ -1,8 +1,8 @@
 ---
-title: Conflict on Hoth (conflict_hth_20170824)
+title: tournament_title_conflict_hth_20170824 (no text translation) (conflict_hth_20170824)
 category: tournament
 ---
-# Conflict on Hoth
+# tournament_title_conflict_hth_20170824 (no text translation)
 
   * Start date: 2017-08-24
   * End date: 2017-08-30

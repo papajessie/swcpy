@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1072
+# Conflicts — version 1079
 
   * [Conflict on Dandoran (conf_dan_20170923)](conf_dan_20170923.html)
   * [Conflict on Tatooine (conf_tat_20170921)](conf_tat_20170921.html)
@@ -20,9 +20,9 @@ title: Index of conflicts
   * [Conflict on Takodana (conflict_tak_20170831)](conflict_tak_20170831.html)
   * [Conflict on Hoth (conflict_hth_20170831)](conflict_hth_20170831.html)
   * [Conflict on Tatooine (conflict_tat_20170831)](conflict_tat_20170831.html)
-  * [Conflict on Er'Kit (conflict_erk_20170824)](conflict_erk_20170824.html)
-  * [Conflict on Hoth (conflict_hth_20170824)](conflict_hth_20170824.html)
-  * [Conflict on Tatooine (conflict_tat_20170824)](conflict_tat_20170824.html)
+  * [tournament_title_conflict_erk_20170824 (no text translation) (conflict_erk_20170824)](conflict_erk_20170824.html)
+  * [tournament_title_conflict_hth_20170824 (no text translation) (conflict_hth_20170824)](conflict_hth_20170824.html)
+  * [tournament_title_conflict_tat_20170824 (no text translation) (conflict_tat_20170824)](conflict_tat_20170824.html)
   * [Conflict on Yavin 4 (conflict_yav_20170818)](conflict_yav_20170818.html)
   * [Conflict on Hoth (conflict_hth_20170818)](conflict_hth_20170818.html)
   * [Conflict on Tatooine (conflict_tat_20170817)](conflict_tat_20170817.html)
