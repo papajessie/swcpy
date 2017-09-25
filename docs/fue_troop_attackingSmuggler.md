@@ -3,24 +3,31 @@ title: Smuggler (fue_troop_attackingSmuggler)
 category: unit
 ---
 
-# Smuggler (fue_troop_attackingSmuggler) — version 1079
+# Smuggler (fue_troop_attackingSmuggler) — version 1080
 
 ## Main stats
 
+  * Side: tusken
+  * Type: infantry
+  * Armor type: infantry
+  * Role: Striker
   * Levels available: 1
-  * Training time: 21s
+  * Training time: 21
   * Training cost: 100$
   * Upgrade requirements: 1500$
-  * Upgrade time: 10s
+  * Upgrade time: 10
   * Health: 1200
   * Damage*: 30
   * Damage per second*: 26
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 * These values are not necessarily accurate and may be not coherent with other values
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 20
@@ -43,78 +50,74 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 55
   * Vehicle hero: 1
   * View Range: 20
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * playerFacing: true
-  * buffAssetOffset: 0.00,0.08,0.00
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9,10,11.12
   * newRotationSpeed: 7854
-  * bundleName: bountyhunter_smg-ani
   * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
-  * assetName: bountyhunter_smg-ani
+  * bundleName: bountyhunter_smg-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryRotation: 0
-  * gunSequence: 1,2
+  * buffAssetOffset: 0.00,0.08,0.00
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * playerFacing: true
+  * assetName: bountyhunter_smg-ani
+  * gunSequence: 1,2
+  * iconLookatPosition: 0.09,1.4,0.28
   * animationDelay: 0
+  * iconCameraPosition: 9,10,11.12
+  * factoryScaleFactor: 1
+  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: false
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
+  * clipRetargeting: false
   * xp: 0
   * favoriteTargetType: none
-  * shieldRange: 0
+  * overWalls: false
+  * size: 1
+  * targetInRangeModifier: 1
   * retargetingOffset: 12
-  * lvl: 1
-  * chargeTime: 250
-  * pathSearchWidth: 1
-  * role: Striker
-  * clipRetargeting: false
-  * impactDelay: 1000
-  * sizex: 1
+  * pointValue: 1.000
+  * shotDelay: 500
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
   * reload: 1500
   * acceleration: 0
   * attackShieldBorder: false
-  * pointValue: 1.000
-  * shotDelay: 500
-  * maxSpeed: 30
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: infantry
+  * order: 331801
+  * shotCount: 2
+  * pathSearchWidth: 1
+  * lvl: 1
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * targetPreferenceStrength: 90
-  * projectileType: projectileBountyHunter
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 2
-  * trap: 0
-  * faction: tusken
-  * size: 1
-  * type: infantry
-  * order: 331801
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * chargeTime: 250
+  * projectileType: projectileBountyHunter
+  * sizex: 1
+  * deathAnimation: buffFireBurn:15
+  * splash: 0
+  * impactDelay: 1000
+  * sizey: 1
 

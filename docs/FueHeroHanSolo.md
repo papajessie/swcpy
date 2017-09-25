@@ -3,24 +3,31 @@ title: Han Solo (FueHeroHanSolo)
 category: unit
 ---
 
-# Han Solo (FueHeroHanSolo) — version 1079
+# Han Solo (FueHeroHanSolo) — version 1080
 
 ## Main stats
 
+  * Side: Independent units
+  * Type: hero
+  * Armor type: infantry
+  * Role: Destroyer
   * Levels available: 1
-  * Training time: 3m40s
+  * Training time: 220
   * Training cost: 550$
   * Upgrade requirements: 5000$
-  * Upgrade time: 30m
+  * Upgrade time: 1800
   * Health: 33000
   * Damage*: 1300
   * Damage per second*: 1198
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 * These values are not necessarily accurate and may be not coherent with other values
 
 ## Targetting
 
-  * Target preferences: Shield generator, Shield, Turret, Heavy infantry, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -43,83 +50,79 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield generator, Shield, Turret, Heavy infantry, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 60
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 40
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * iconLookatPosition: -0.01,1.77,0.14
-  * audioPlacement: "sfx_placement_hero_han":100
-  * playerFacing: true
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 11.5,12.83,14.14
   * newRotationSpeed: 7854
-  * bundleName: hansolo_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
-  * assetName: hansolo_rbl-ani
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryRotation: 0
-  * gunSequence: 1
   * decalSize: 160
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * bundleName: hansolo_rbl-ani
+  * audioPlacement: "sfx_placement_hero_han":100
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * factoryRotation: 0
+  * playerFacing: true
+  * assetName: hansolo_rbl-ani
+  * gunSequence: 1
+  * iconLookatPosition: -0.01,1.77,0.14
   * animationDelay: 0
+  * iconCameraPosition: 11.5,12.83,14.14
+  * factoryScaleFactor: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_han":100
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: false
-  * selfCenteredTargeting: false
+  * clipRetargeting: false
   * xp: 0
   * favoriteTargetType: shieldGenerator
-  * shieldRange: 0
+  * heroData: hero2
+  * size: 1
+  * targetInRangeModifier: 1
   * retargetingOffset: 8
-  * lvl: 1
-  * chargeTime: 150
-  * pathSearchWidth: 1
-  * role: Destroyer
-  * clipRetargeting: false
-  * impactDelay: 1000
-  * sizex: 1
-  * reload: 1870
-  * acceleration: 0
-  * attackShieldBorder: false
-  * decalAssetName: tac_hero_rbl
   * pointValue: 20.000
   * shotDelay: 150
-  * maxSpeed: 40
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: infantry
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * decalBundleName: tac_hero_rbl
-  * targetPreferenceStrength: 90
-  * projectileType: projectileFUEHeroHanSolo
-  * uiDecalAssetName: HeroDecalRebel
-  * maxScale: false
+  * selfCenteredTargeting: false
+  * crushesWalls: false
   * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 2
-  * trap: 0
-  * faction: smuggler
-  * size: 1
-  * type: hero
+  * autoSpawnSpreadingScale: 1
+  * acceleration: 0
+  * attackShieldBorder: false
   * order: 42
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
+  * shotCount: 2
+  * pathSearchWidth: 1
+  * lvl: 1
+  * targetPreferenceStrength: 90
+  * uiDecalAssetName: HeroDecalRebel
+  * strictCoolDown: false
   * autoSpawnRateScale: 1
-  * heroData: hero2
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * decalAssetName: tac_hero_rbl
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 150
+  * armingDelay: 0
+  * projectileType: projectileFUEHeroHanSolo
+  * sizex: 1
+  * decalBundleName: tac_hero_rbl
+  * reload: 1870
+  * splash: 0
+  * impactDelay: 1000
+  * targetLocking: false
+  * sizey: 1
 

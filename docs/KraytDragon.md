@@ -3,15 +3,22 @@ title: Krayt Dragon (KraytDragon)
 category: unit
 ---
 
-# Krayt Dragon (KraytDragon) — version 1079
+# Krayt Dragon (KraytDragon) — version 1080
 
 ## Main stats
 
+  * Side: Independent units
+  * Type: infantry
+  * Armor type: bruiserInfantry
+  * Role: Striker
   * Levels available: 1-10
-  * Training time: 5s
+  * Training time: 5
   * Training cost: Free
   * Upgrade requirements: Nothing
-  * Upgrade time: 0s
+  * Upgrade time: 0
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level             |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |------------------|-----|-----|------|------|------|------|------|------|------|------|
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Droideka, Vehicle hero, Light vehicle, Heavy vehicular hero, Turret, Shield generator, Other building, Ressource generator, Shield, Support troop, Storage, HQ, Wall, Flying infantry, Flying vehicle
+  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Vehicle hero, Turret, Ressource generator, Other building, Support troop, Storage, Shield, Shield generator, HQ, Wall, Trap, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,81 +53,77 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Droideka, Vehicle hero, Light vehicle, Heavy vehicular hero, Turret, Shield generator, Other building, Ressource generator, Shield, Support troop, Storage, HQ, Wall, Flying infantry, Flying vehicle
+  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Vehicle hero, Turret, Ressource generator, Other building, Support troop, Storage, Shield, Shield generator, HQ, Wall, Trap, Flying infantry, Flying vehicle
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 60
   * View Range: 16
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCloseupCameraPosition: 39.19,48.81,48.9
-  * iconLookatPosition: 0.73,1.52,-0.71
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * playerFacing: false
-  * iconCloseupLookatPosition: 0.73,1.52,-0.71
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 39.19,48.81,48.9
   * newRotationSpeed: 2000
-  * bundleName: kraytdragonfast_neu-ani
   * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * assetName: kraytdragonfast_neu-ani
+  * iconCloseupCameraPosition: 39.19,48.81,48.9
+  * bundleName: kraytdragonfast_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
+  * iconCloseupLookatPosition: 0.73,1.52,-0.71
   * factoryRotation: 0
+  * playerFacing: false
+  * assetName: kraytdragonfast_neu-ani
   * gunSequence: 2,1
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconLookatPosition: 0.73,1.52,-0.71
   * animationDelay: 1500
+  * iconCameraPosition: 39.19,48.81,48.9
+  * factoryScaleFactor: 1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * audioDeath: "sfx_death_krayt_1":100
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: true
-  * selfCenteredTargeting: false
-  * xp: 0
-  * shieldRange: 0
-  * retargetingOffset: 8
-  * chargeTime: 750
-  * pathSearchWidth: 1
-  * role: Striker
   * clipRetargeting: true
-  * impactDelay: 0
-  * sizex: 1
-  * reload: 0
+  * xp: 0
+  * size: 20
+  * targetInRangeModifier: 1
+  * retargetingOffset: 8
+  * shotDelay: 1000
+  * selfCenteredTargeting: false
+  * crushesWalls: true
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 2
   * acceleration: 0
   * attackShieldBorder: false
-  * shotDelay: 1000
-  * maxSpeed: 30
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: bruiserInfantry
+  * shotCount: 1
+  * pathSearchWidth: 1
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 2
-  * targetPreferenceStrength: 90
-  * projectileType: projectileMeleeKraytDragon
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 1
-  * trap: 0
-  * faction: smuggler
-  * size: 20
-  * type: infantry
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 750
+  * projectileType: projectileMeleeKraytDragon
+  * sizex: 1
+  * reload: 0
+  * splash: 0
+  * impactDelay: 0
+  * sizey: 1
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |favoriteTargetType|turret|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
-|lvl               |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |pointValue        |20.000|24.000  |28.000  |32.000  |36.000  |40.000  |44.000  |48.000  |52.000  |60.000  |
 |order             |332401|332402  |332403  |332404  |332405  |332406  |332407  |332408  |332409  |332410  |
+|lvl               |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 

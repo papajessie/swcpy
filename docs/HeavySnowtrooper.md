@@ -3,18 +3,25 @@ title: Heavy Snowtrooper (HeavySnowtrooper)
 category: unit
 ---
 
-# Heavy Snowtrooper (HeavySnowtrooper) — version 1079
+# Heavy Snowtrooper (HeavySnowtrooper) — version 1080
 
 ## Main stats
 
+  * Side: Empire
+  * Type: infantry
+  * Armor type: infantry
+  * Role: Generic
   * Levels available: 1-10
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |1m20s|1m28s|1m32s|1m36s |1m40s |1m44s  |1m48s  |1m52s  |1m56s   |2m      |
+|Training time       |80   |88   |92   |96    |100   |104    |108    |112    |116     |120     |
 |Training cost       |200$ |280$ |360$ |440$  |520$  |600$   |680$   |800$   |840$    |920$    |
 |Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
+|Upgrade time        |0    |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |777600  |
 |Health              |8100 |9725 |11325|12950 |14575 |16200  |17800  |19425  |21050   |24300   |
 |Damage*             |450  |540  |630  |720   |810   |900    |980    |1080   |1160    |1340    |
 |Damage per second*  |2080 |2504 |2916 |3328  |3752  |4164   |4576   |5000   |5408    |6244    |
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,84 +53,80 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * newRotationSpeed: 7854
   * iconCloseupCameraPosition: 1.24,0.61,11.39
-  * iconLookatPosition: -0.4,1.77,0.55
+  * bundleName: snowheavytrooper_emp-ani
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * playerFacing: false
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * iconCloseupLookatPosition: -0.02,2.5,-0.01
   * buffAssetOffset: 0.00,0.28,0.00
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 7.72,10.75,21.04
-  * newRotationSpeed: 7854
-  * bundleName: snowheavytrooper_emp-ani
-  * gunSequence: 1
-  * assetName: snowheavytrooper_emp-ani
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * playerFacing: false
+  * assetName: snowheavytrooper_emp-ani
+  * gunSequence: 1
+  * iconLookatPosition: -0.4,1.77,0.55
   * animationDelay: 0
+  * iconCameraPosition: 7.72,10.75,21.04
+  * factoryScaleFactor: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
-  * crushesWalls: false
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * xp: 0
-  * favoriteTargetType: closest
-  * shieldRange: 0
-  * retargetingOffset: 14
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * role: Generic
   * clipRetargeting: false
-  * impactDelay: 500
-  * sizex: 1
+  * favoriteTargetType: closest
+  * overWalls: false
+  * size: 4
+  * targetInRangeModifier: 1
+  * retargetingOffset: 14
+  * pathSearchWidth: 15
+  * pointValue: 1.000
+  * shotDelay: 75
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
   * reload: 2000
   * acceleration: 0
   * attackShieldBorder: false
-  * pointValue: 1.000
-  * shotDelay: 75
-  * maxSpeed: 20
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: infantry
+  * shotCount: 17
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * targetPreferenceStrength: 90
   * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * projectileType: projectileHeavyStorm
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 17
-  * trap: 0
-  * faction: empire
-  * size: 4
-  * type: infantry
-  * overWalls: false
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * chargeTime: 500
+  * projectileType: projectileHeavyStorm
+  * sizex: 1
+  * deathAnimation: buffFireBurn:15
+  * splash: 0
+  * impactDelay: 500
+  * sizey: 1
 
 |Level       |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|-------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements|['empireBarracks6']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|lvl         |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |300090             |300091               |300092               |300093               |300094               |300095               |300096               |300097               |300098               |300099                |
+|lvl         |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 

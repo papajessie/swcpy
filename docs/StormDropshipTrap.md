@@ -3,18 +3,25 @@ title: trp_title_StormDropshipTrap (no text translation) (StormDropshipTrap)
 category: unit
 ---
 
-# trp_title_StormDropshipTrap (no text translation) (StormDropshipTrap) — version 1079
+# trp_title_StormDropshipTrap (no text translation) (StormDropshipTrap) — version 1080
 
 ## Main stats
 
+  * Side: Empire
+  * Type: infantry
+  * Armor type: infantry
+  * Role: Generic
   * Levels available: 1-10
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |20s |22s  |23s  |24s   |25s   |26s    |27s    |28s    |29s     |30s     |
+|Training time       |20  |22   |23   |24    |25    |26     |27     |28     |29      |30      |
 |Training cost       |50$ |70$  |90$  |110$  |130$  |150$   |170$   |200$   |210$    |230$    |
 |Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Upgrade time        |0   |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
 |Health              |2700|2820 |2940 |3180  |3300  |3420   |3540   |3720   |3900    |4500    |
 |Damage*             |293 |306  |319  |345   |358   |371    |384    |403    |423     |488     |
 |Damage per second*  |302 |362  |390  |445   |501   |557    |612    |668    |724     |835     |
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -46,83 +53,79 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 12
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0,1.43,0.17
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * playerFacing: false
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.75,8.64,12.5
   * newRotationSpeed: 7854
-  * bundleName: dropshiptrooper_emp-ani
   * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
-  * assetName: dropshiptrooper_emp-ani
+  * bundleName: dropshiptrooper_emp-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * factoryRotation: 0
-  * gunSequence: 1
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * playerFacing: false
+  * assetName: dropshiptrooper_emp-ani
+  * gunSequence: 1
+  * iconLookatPosition: 0,1.43,0.17
   * animationDelay: 0
+  * iconCameraPosition: 9.75,8.64,12.5
+  * factoryScaleFactor: 1
+  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
   * requirements: ['empireOffenseLab2']
-  * crushesWalls: false
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * xp: 0
   * favoriteTargetType: closest
-  * shieldRange: 0
-  * retargetingOffset: 14
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * role: Generic
   * clipRetargeting: false
-  * impactDelay: 1000
-  * sizex: 1
   * size: 1
+  * targetInRangeModifier: 1
+  * retargetingOffset: 14
+  * shotCount: 3
+  * shotDelay: 200
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
+  * reload: 500
   * acceleration: 0
   * attackShieldBorder: false
-  * decalAssetName: troop_stotrper_emp
-  * shotDelay: 200
-  * maxSpeed: 20
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: infantry
+  * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * decalBundleName: troop_stotrper_emp
-  * targetPreferenceStrength: 90
-  * projectileType: projectileStorm
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * reload: 500
-  * shotCount: 3
-  * trap: 0
-  * faction: empire
-  * type: infantry
-  * overWalls: false
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * decalAssetName: troop_stotrper_emp
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 500
+  * strictCoolDown: false
+  * projectileType: projectileStorm
+  * sizex: 1
+  * decalBundleName: troop_stotrper_emp
+  * deathAnimation: buffFireBurn:15
+  * splash: 0
+  * impactDelay: 1000
+  * sizey: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
 |order     |135401|135402|135403|135404|135405|135406|135407|135408|135409|135410|
+|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 

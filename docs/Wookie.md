@@ -3,27 +3,34 @@ title: Wookiee Warrior (Wookie)
 category: unit
 ---
 
-# Wookiee Warrior (Wookie) — version 1079
+# Wookiee Warrior (Wookie) — version 1080
 
 ## Main stats
 
+  * Side: Rebellion
+  * Type: infantry
+  * Armor type: bruiserInfantry
+  * Role: Bruiser
   * Levels available: 1-10
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |1m45s|1m50s|1m55s|2m    |2m5s  |2m10s  |2m15s  |2m20s  |2m25s   |2m30s   |
-|Training cost       |250$ |350$ |450$ |550$  |650$  |750$   |850$   |1000$  |1050$   |1150$   |
-|Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
-|Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
-|Health              |9000 |10800|10500|12000 |13500 |15000  |16500  |18000  |19500   |22500   |
-|Damage*             |325  |390  |380  |434   |488   |542    |596    |650    |705     |813     |
-|Damage per second*  |300  |360  |350  |400   |450   |500    |550    |600    |650     |750     |
+|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Training time       |105 |110  |115  |120   |125   |130    |135    |140    |145     |150     |
+|Training cost       |250$|350$ |450$ |550$  |650$  |750$   |850$   |1000$  |1050$   |1150$   |
+|Upgrade requirements|700$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+|Upgrade time        |0   |1800 |5400 |18000 |36000 |129600 |216000 |345600 |518400  |777600  |
+|Health              |9000|10800|10500|12000 |13500 |15000  |16500  |18000  |19500   |22500   |
+|Damage*             |325 |390  |380  |434   |488   |542    |596    |650    |705     |813     |
+|Damage per second*  |300 |360  |350  |400   |450   |500    |550    |600    |650     |750     |
 
 * These values are not necessarily accurate and may be not coherent with other values
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -46,85 +53,81 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 12
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * newRotationSpeed: 7854
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
   * iconCloseupCameraPosition: -0.51,3.09,12.25
-  * iconLookatPosition: -0.06,1.71,0.07
+  * bundleName: wookiewarrior_rbl-ani
   * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
-  * playerFacing: true
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
   * iconCloseupLookatPosition: 0.08,3,-1.33
   * buffAssetOffset: 0.00,0.36,0.00
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.29,13.73,18.65
-  * newRotationSpeed: 7854
-  * bundleName: wookiewarrior_rbl-ani
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * assetName: wookiewarrior_rbl-ani
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
   * factoryRotation: 0
+  * playerFacing: true
+  * assetName: wookiewarrior_rbl-ani
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: -0.06,1.71,0.07
   * animationDelay: 0
+  * iconCameraPosition: 9.29,13.73,18.65
+  * factoryScaleFactor: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
 
 ## Uninterpreted stats
 
-  * crushesWalls: false
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * xp: 0
-  * favoriteTargetType: turret
-  * shieldRange: 0
-  * retargetingOffset: 10
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * role: Bruiser
   * clipRetargeting: false
-  * impactDelay: 1000
-  * sizex: 1
+  * favoriteTargetType: turret
+  * overWalls: false
+  * size: 5
+  * targetInRangeModifier: 1
+  * retargetingOffset: 10
+  * pathSearchWidth: 15
+  * shotDelay: 500
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
   * reload: 2000
   * acceleration: 0
   * attackShieldBorder: false
-  * shotDelay: 500
-  * maxSpeed: 20
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: bruiserInfantry
+  * shotCount: 3
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * targetPreferenceStrength: 90
   * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
-  * projectileType: projectileWookie
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 3
-  * trap: 0
-  * faction: rebel
-  * size: 5
-  * type: infantry
-  * overWalls: false
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * chargeTime: 250
+  * projectileType: projectileWookie
+  * sizex: 1
+  * deathAnimation: buffFireBurn:15
+  * splash: 0
+  * impactDelay: 1000
+  * sizey: 1
 
 |Level       |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelBarracks2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|lvl         |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |pointValue  |5.000             |6.000               |7.000               |8.000               |9.000               |10.000              |11.000              |12.000              |13.000              |15.000               |
 |order       |220201            |220202              |220203              |220204              |220205              |220206              |220207              |220208              |220209              |220210               |
+|lvl         |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 

@@ -3,24 +3,31 @@ title: trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking)
 category: unit
 ---
 
-# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1079
+# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1080
 
 ## Main stats
 
+  * Side: Independent units
+  * Type: infantry
+  * Armor type: infantry
+  * Role: Generic
   * Levels available: 1
-  * Training time: 1s
+  * Training time: 1
   * Training cost: Free
   * Upgrade requirements: Nothing
-  * Upgrade time: 0s
+  * Upgrade time: 0
   * Health: 1
   * Damage*: 1
   * Damage per second*: 1
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 * These values are not necessarily accurate and may be not coherent with other values
 
 ## Targetting
 
-  * Target preferences: Shield generator, Shield, Other building, Ressource generator, Storage, Heavy infantry, Turret, Infantry, Heavy vehicle, Flying infantry, Droideka, Flying vehicle, Light vehicle, HQ, Support troop, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Shield, Shield generator, Ressource generator, Other building, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 1
   * Min. Range: 0
   * View Range: 8
@@ -43,73 +50,69 @@ category: unit
   * Shield generator: 70
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Shield generator, Shield, Other building, Ressource generator, Storage, Heavy infantry, Turret, Infantry, Heavy vehicle, Flying infantry, Droideka, Flying vehicle, Light vehicle, HQ, Support troop, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Shield, Shield generator, Ressource generator, Other building, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 1
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.15,0.8,-0.39
-  * bundleName: jawatalking_neu-ani
-  * playerFacing: false
-  * factoryScaleFactor: 1
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * iconCameraPosition: -1.2,4.65,15.26
   * newRotationSpeed: 1
-  * gunSequence: 1
-  * assetName: jawatalking_neu-ani
-  * factoryRotation: 0
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * bundleName: jawatalking_neu-ani
   * rotationSpeed: 1
+  * playerFacing: false
+  * assetName: jawatalking_neu-ani
+  * gunSequence: 1
+  * iconLookatPosition: -0.15,0.8,-0.39
   * animationDelay: 0
+  * iconCameraPosition: -1.2,4.65,15.26
+  * factoryScaleFactor: 1
+  * factoryRotation: 0
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: false
-  * selfCenteredTargeting: false
+  * clipRetargeting: false
   * xp: 0
   * favoriteTargetType: closest
-  * shieldRange: 0
-  * retargetingOffset: 1
-  * lvl: 1
-  * chargeTime: 1
-  * pathSearchWidth: 1
-  * role: Generic
-  * clipRetargeting: false
-  * impactDelay: 1
   * sizex: 1
-  * reload: 1
-  * acceleration: 0
-  * attackShieldBorder: false
+  * targetInRangeModifier: 1
+  * retargetingOffset: 1
   * pointValue: 0.000
   * shotDelay: 1
-  * maxSpeed: 1
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: infantry
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 1
+  * acceleration: 0
+  * attackShieldBorder: false
+  * order: 372201
+  * shotCount: 5
+  * pathSearchWidth: 1
+  * lvl: 1
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * targetPreferenceStrength: 90
-  * projectileType: projectileSmugglerSaboteur
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 5
-  * trap: 0
-  * faction: smuggler
-  * size: 4
-  * type: infantry
-  * order: 372201
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 1
+  * projectileType: projectileSmugglerSaboteur
+  * size: 4
+  * reload: 1
+  * splash: 0
+  * impactDelay: 1
+  * sizey: 1
 

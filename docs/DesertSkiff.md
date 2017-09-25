@@ -3,18 +3,25 @@ title: Anti-Vehicle Skiff (DesertSkiff)
 category: unit
 ---
 
-# Anti-Vehicle Skiff (DesertSkiff) — version 1079
+# Anti-Vehicle Skiff (DesertSkiff) — version 1080
 
 ## Main stats
 
+  * Side: Rebellion
+  * Type: vehicle
+  * Armor type: vehicle
+  * Role: Striker
   * Levels available: 1-10
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |3m2s |3m3s |3m4s |3m5s  |3m6s  |3m7s   |3m9s   |3m16s  |3m23s   |3m30s   |
+|Training time       |182  |183  |184  |185   |186   |187    |189    |196    |203     |210     |
 |Training cost       |1050$|1070$|1090$|1110$ |1130$ |1160$  |1190$  |1400$  |1470$   |1610$   |
 |Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w3d    |
+|Upgrade time        |0    |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |864000  |
 |Health              |11200|11710|12240|12800 |13380 |14000  |14650  |15330  |16050   |16800   |
 |Damage*             |3920 |4100 |4280 |4480  |4690  |4900   |5130   |5370   |5620    |5890    |
 |Damage per second*  |1540 |1610 |1680 |1760  |1840  |1930   |2020   |2110   |2210    |2310    |
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicle, Flying vehicle, Light vehicle, Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Light vehicle, Heavy vehicle, Flying vehicle, Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,82 +53,78 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 55
-  * Target preferences: Heavy vehicle, Flying vehicle, Light vehicle, Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Light vehicle, Heavy vehicle, Flying vehicle, Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.09,2.29,-0.96
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * playerFacing: true
-  * buffAssetOffset: 0.00,1.7,0.00
-  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
-  * iconCameraPosition: 25.92,23.21,24.67
   * newRotationSpeed: 7854
-  * bundleName: banthabarge_rbl-ani
   * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: banthabarge_rbl-ani
+  * bundleName: banthabarge_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * factoryRotation: 0
-  * gunSequence: 1
+  * buffAssetOffset: 0.00,1.7,0.00
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * playerFacing: true
+  * assetName: banthabarge_rbl-ani
+  * gunSequence: 1
+  * iconLookatPosition: -0.09,2.29,-0.96
   * animationDelay: 0
+  * iconCameraPosition: 25.92,23.21,24.67
+  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
+  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: false
-  * selfCenteredTargeting: false
   * xp: 0
-  * favoriteTargetType: vehicles
-  * shieldRange: 0
-  * retargetingOffset: 14
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * role: Striker
   * clipRetargeting: true
-  * impactDelay: 500
-  * sizex: 1
-  * reload: 1500
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * overWalls: false
+  * size: 7
+  * targetInRangeModifier: 1
+  * retargetingOffset: 14
+  * shotDelay: 250
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 1
   * acceleration: 0
   * attackShieldBorder: false
-  * shotDelay: 250
-  * maxSpeed: 30
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: vehicle
+  * shotCount: 1
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 1
-  * targetPreferenceStrength: 90
-  * projectileType: projectileDesertSkiff
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 1
-  * trap: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * faction: rebel
-  * size: 7
-  * type: vehicle
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * impactDelay: 500
+  * chargeTime: 500
+  * projectileType: projectileDesertSkiff
+  * sizex: 1
+  * reload: 1500
+  * splash: 0
+  * favoriteTargetType: vehicles
+  * sizey: 1
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
 |requirements|['rebelFactory6']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
 |order       |230601           |230602              |230603              |230604              |230605              |230606              |230607              |230608              |230609              |230610               |
+|lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 

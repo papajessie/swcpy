@@ -3,16 +3,23 @@ title: Shadow Rancor (EmpireShadowRancor)
 category: unit
 ---
 
-# Shadow Rancor (EmpireShadowRancor) — version 1079
+# Shadow Rancor (EmpireShadowRancor) — version 1080
 
 ## Main stats
 
+  * Side: Empire
+  * Type: infantry
+  * Armor type: bruiserInfantry
+  * Role: Generic
   * Levels available: 1-10
-  * Training time: 5s
+  * Training time: 5
   * Training cost: Free
   * Upgrade requirements: Nothing
-  * Upgrade time: 0s
+  * Upgrade time: 0
   * Damage per second*: 2928
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level  |1    |2    |3    |4    |5    |6    |7    |8     |9     |10    |
 |-------|-----|-----|-----|-----|-----|-----|-----|------|------|------|
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,79 +53,75 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 16
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.63,2.9,-1.73
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * playerFacing: false
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 34.42,44.79,49.58
   * newRotationSpeed: 2000
-  * bundleName: rancorshadow_neu-ani
   * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * assetName: rancorshadow_neu-ani
+  * bundleName: rancorshadow_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * factoryRotation: 0
-  * gunSequence: 2,1
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * playerFacing: false
+  * assetName: rancorshadow_neu-ani
+  * gunSequence: 2,1
+  * iconLookatPosition: -0.63,2.9,-1.73
   * animationDelay: 960
+  * iconCameraPosition: 34.42,44.79,49.58
+  * factoryScaleFactor: 1
+  * factoryRotation: 0
   * audioDeath: "sfx_death_creatures_rancor_1":100
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: true
-  * selfCenteredTargeting: false
+  * clipRetargeting: true
   * xp: 0
   * favoriteTargetType: closest
-  * shieldRange: 0
+  * size: 20
+  * targetInRangeModifier: 1
   * retargetingOffset: 8
-  * chargeTime: 500
-  * pathSearchWidth: 1
-  * role: Generic
-  * clipRetargeting: true
-  * impactDelay: 0
-  * sizex: 1
-  * reload: 1910
+  * shotDelay: 270
+  * selfCenteredTargeting: false
+  * crushesWalls: true
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 2
   * acceleration: 0
   * attackShieldBorder: false
-  * shotDelay: 270
-  * maxSpeed: 20
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: bruiserInfantry
+  * shotCount: 2
+  * pathSearchWidth: 1
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 2
-  * targetPreferenceStrength: 90
-  * projectileType: projectileMeleeShadowRancor
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 2
-  * trap: 0
-  * faction: empire
-  * size: 20
-  * type: infantry
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 500
+  * projectileType: projectileMeleeShadowRancor
+  * sizex: 1
+  * reload: 1910
+  * splash: 0
+  * impactDelay: 0
+  * sizey: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |125201|125202|125203|125204|125205|125206|125207|125208|125209|125210|
+|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 
