@@ -3,18 +3,25 @@ title: Seized AAT-1 Hover Tank (SeizedAAT1)
 category: unit
 ---
 
-# Seized AAT-1 Hover Tank (SeizedAAT1) — version 1079
+# Seized AAT-1 Hover Tank (SeizedAAT1) — version 1080
 
 ## Main stats
 
+  * Side: Empire
+  * Type: vehicle
+  * Armor type: bruiserVehicle
+  * Role: Bruiser
   * Levels available: 1-10
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |4m   |4m2s |4m4s |4m7s  |4m10s |4m13s  |4m16s  |4m20s  |4m24s   |4m30s   |
+|Training time       |240  |242  |244  |247   |250   |253    |256    |260    |264     |270     |
 |Training cost       |990$ |1030$|1070$|1120$ |1170$ |1350$  |1530$  |1800$  |1890$   |2070$   |
 |Upgrade requirements|2700$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
-|Upgrade time        |0s   |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
+|Upgrade time        |0    |2700 |7200 |21600 |43200 |172800 |259200 |432000 |604800  |864000  |
 |Health              |24300|25690|27160|28730 |30400 |32180  |34070  |36080  |38220   |40500   |
 |Damage*             |810  |850  |900  |960   |1010  |1070   |1140   |1200   |1280    |1360    |
 |Damage per second*  |1140 |1190 |1260 |1350  |1420  |1500   |1600   |1680   |1800    |1910    |
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,76 +53,72 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.48,1.51,-0.32
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * playerFacing: false
-  * buffAssetOffset: 0.00,1.75,0.00
-  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * iconCameraPosition: 22.61,26.18,29.65
   * newRotationSpeed: 2000
-  * bundleName: aat1_rbl-ani
   * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
-  * assetName: aat1_rbl-ani
+  * bundleName: aat1_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * factoryRotation: 0
-  * gunSequence: 1
+  * buffAssetOffset: 0.00,1.75,0.00
   * rotationSpeed: 2
+  * playerFacing: false
+  * assetName: aat1_rbl-ani
+  * gunSequence: 1
+  * iconLookatPosition: -0.48,1.51,-0.32
   * animationDelay: 0
+  * iconCameraPosition: 22.61,26.18,29.65
+  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
+  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * crushesWalls: false
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * selfCenteredTargeting: false
   * xp: 0
   * favoriteTargetType: turret
-  * projectileType: projectileSeizedAAT1
-  * shieldRange: 0
+  * clipRetargeting: false
+  * size: 9
+  * targetInRangeModifier: 1
   * retargetingOffset: 12
-  * chargeTime: 250
+  * autoSpawnRateScale: 2
+  * shotDelay: 200
+  * selfCenteredTargeting: false
   * pathSearchWidth: 15
   * targetedType: ENEMIES
-  * clipRetargeting: false
-  * sizey: 3
-  * reload: 2000
-  * shotCount: 4
-  * attackShieldBorder: false
-  * impactDelay: 1000
-  * role: Bruiser
-  * sizex: 2
-  * overWalls: false
-  * trap: 0
+  * autoSpawnSpreadingScale: 2
   * acceleration: 0
-  * shieldCooldown: 0
-  * faction: empire
-  * size: 9
-  * type: vehicle
-  * shotDelay: 200
-  * maxSpeed: 20
-  * shieldHealth: 0
-  * isFlying: false
-  * armorType: bruiserVehicle
-  * runThreshold: 0
-  * autoSpawnRateScale: 2
+  * attackShieldBorder: false
+  * shotCount: 4
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * armingDelay: 0
+  * targetLocking: false
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 250
+  * projectileType: projectileSeizedAAT1
+  * sizex: 2
+  * reload: 2000
   * splash: 0
-  * targetInRangeModifier: 1
-  * runSpeed: 0
+  * impactDelay: 1000
+  * sizey: 3
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|

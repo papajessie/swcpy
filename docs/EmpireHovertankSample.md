@@ -3,17 +3,24 @@ title: TX-225 (EmpireHovertankSample)
 category: unit
 ---
 
-# TX-225 (EmpireHovertankSample) — version 1079
+# TX-225 (EmpireHovertankSample) — version 1080
 
 ## Main stats
 
+  * Side: Empire
+  * Type: vehicle
+  * Armor type: bruiserVehicle
+  * Role: Bruiser
   * Levels available: 1-10
   * Upgrade requirements: Nothing
-  * Upgrade time: 0s
+  * Upgrade time: 0
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time     |3m20s|3m40s|3m50s|4m   |4m10s|4m20s|4m30s|4m40s|4m50s|5m   |
+|Training time     |200  |220  |230  |240  |250  |260  |270  |280  |290  |300  |
 |Training cost     |500$ |700$ |900$ |1100$|1300$|1500$|1700$|2000$|2100$|2300$|
 |Health            |22400|26880|31360|35840|40320|44800|49280|53760|58240|67200|
 |Damage*           |798  |958  |1118 |1276 |1436 |1596 |1756 |1915 |2075 |2395 |
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,83 +53,79 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
+  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * newRotationSpeed: 2000
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
   * iconCloseupCameraPosition: 23.7,17.94,45.6
-  * iconLookatPosition: -0.59,0.62,-0.25
+  * bundleName: hovertankempire_emp-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * playerFacing: false
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * iconCloseupLookatPosition: -0.59,0.62,-0.25
   * buffAssetOffset: 0.0,1.14,0.0
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * iconCameraPosition: 23.7,17.94,45.6
-  * newRotationSpeed: 2000
-  * bundleName: hovertankempire_emp-ani
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * assetName: hovertankempire_emp-ani
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * factoryRotation: 0
+  * playerFacing: false
+  * assetName: hovertankempire_emp-ani
   * gunSequence: 1,1,1,1
-  * rotationSpeed: 2
+  * iconLookatPosition: -0.59,0.62,-0.25
   * animationDelay: 0
+  * iconCameraPosition: 23.7,17.94,45.6
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * rotationSpeed: 2
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
 
 ## Uninterpreted stats
 
   * requirements: ['empireHQ2']
-  * crushesWalls: false
-  * selfCenteredTargeting: false
   * xp: 0
   * favoriteTargetType: turret
-  * shieldRange: 0
-  * retargetingOffset: 16
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * role: Bruiser
   * clipRetargeting: false
-  * impactDelay: 1000
-  * sizex: 2
-  * reload: 2000
-  * acceleration: 0
-  * attackShieldBorder: false
+  * size: 10
+  * targetInRangeModifier: 1
+  * retargetingOffset: 16
   * pointValue: 1.000
   * shotDelay: 800
-  * maxSpeed: 20
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: bruiserVehicle
+  * selfCenteredTargeting: false
+  * crushesWalls: false
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 3
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotCount: 16
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 3
-  * targetPreferenceStrength: 90
-  * projectileType: projectile2MTank
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 3
-  * shotCount: 16
-  * trap: 0
-  * faction: empire
-  * size: 10
-  * type: vehicle
-  * overWalls: false
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 3
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 250
+  * projectileType: projectile2MTank
+  * sizex: 2
+  * reload: 2000
+  * splash: 0
+  * impactDelay: 1000
+  * sizey: 3
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|lvl  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |order|133001|133002|133003|133004|133005|133006|133007|133008|133009|133010|
+|lvl  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 

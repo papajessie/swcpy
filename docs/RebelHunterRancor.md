@@ -3,15 +3,22 @@ title: Hunter Rancor (RebelHunterRancor)
 category: unit
 ---
 
-# Hunter Rancor (RebelHunterRancor) — version 1079
+# Hunter Rancor (RebelHunterRancor) — version 1080
 
 ## Main stats
 
+  * Side: Rebellion
+  * Type: infantry
+  * Armor type: bruiserInfantry
+  * Role: Striker
   * Levels available: 1-10
-  * Training time: 5s
+  * Training time: 5
   * Training cost: Free
   * Upgrade requirements: Nothing
-  * Upgrade time: 0s
+  * Upgrade time: 0
+  * Shield Health: 0
+  * Shield Cooldown: 0
+  * Shield Range: 0
 
 |Level             |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |------------------|-----|-----|------|------|------|------|------|------|------|------|
@@ -23,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Droideka, Vehicle hero, Light vehicle, Heavy vehicular hero, Turret, Shield generator, Other building, Ressource generator, Shield, Support troop, Storage, HQ, Wall, Flying infantry, Flying vehicle
+  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Vehicle hero, Turret, Ressource generator, Other building, Support troop, Storage, Shield, Shield generator, HQ, Wall, Trap, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,79 +53,75 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Droideka, Vehicle hero, Light vehicle, Heavy vehicular hero, Turret, Shield generator, Other building, Ressource generator, Shield, Support troop, Storage, HQ, Wall, Flying infantry, Flying vehicle
+  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Vehicle hero, Turret, Ressource generator, Other building, Support troop, Storage, Shield, Shield generator, HQ, Wall, Trap, Flying infantry, Flying vehicle
+  * Trap: 0
   * Turret: 50
   * Vehicle hero: 60
   * View Range: 16
   * Wall: 1
 
+## Movement
+
+  * Flying unit: No
+  * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.58,2.75,-1.64
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * playerFacing: false
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 32.55,42.31,46.76
   * newRotationSpeed: 2000
-  * bundleName: rancorhunter_neu-ani
   * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * assetName: rancorhunter_neu-ani
+  * bundleName: rancorhunter_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * factoryRotation: 0
-  * gunSequence: 2,1
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * playerFacing: false
+  * assetName: rancorhunter_neu-ani
+  * gunSequence: 2,1
+  * iconLookatPosition: -0.58,2.75,-1.64
   * animationDelay: 960
+  * iconCameraPosition: 32.55,42.31,46.76
+  * factoryScaleFactor: 1
+  * factoryRotation: 0
   * audioDeath: "sfx_death_creatures_rancor_1":100
 
 ## Uninterpreted stats
 
-  * overWalls: false
-  * crushesWalls: true
-  * selfCenteredTargeting: false
-  * xp: 0
-  * shieldRange: 0
-  * retargetingOffset: 8
-  * chargeTime: 500
-  * pathSearchWidth: 1
-  * role: Striker
   * clipRetargeting: true
-  * impactDelay: 0
-  * sizex: 1
-  * reload: 1910
+  * xp: 0
+  * size: 20
+  * targetInRangeModifier: 1
+  * retargetingOffset: 8
+  * shotDelay: 270
+  * selfCenteredTargeting: false
+  * crushesWalls: true
+  * targetedType: ENEMIES
+  * autoSpawnSpreadingScale: 2
   * acceleration: 0
   * attackShieldBorder: false
-  * shotDelay: 270
-  * maxSpeed: 30
-  * strictCoolDown: false
-  * isFlying: false
-  * splash: 0
-  * armorType: bruiserInfantry
+  * shotCount: 2
+  * pathSearchWidth: 1
+  * targetPreferenceStrength: 90
   * armingDelay: 0
   * targetLocking: false
-  * autoSpawnSpreadingScale: 2
-  * targetPreferenceStrength: 90
-  * projectileType: projectileMeleeHunterRancor
-  * maxScale: false
-  * targetedType: ENEMIES
-  * sizey: 1
-  * shotCount: 2
-  * trap: 0
-  * faction: rebel
-  * size: 20
-  * type: infantry
-  * runSpeed: 0
-  * shieldCooldown: 0
-  * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * runThreshold: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * overWalls: false
+  * chargeTime: 500
+  * projectileType: projectileMeleeHunterRancor
+  * sizex: 1
+  * reload: 1910
+  * splash: 0
+  * impactDelay: 0
+  * sizey: 1
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |favoriteTargetType|turret|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
-|lvl               |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |pointValue        |20.000|24.000  |28.000  |32.000  |36.000  |40.000  |44.000  |48.000  |52.000  |60.000  |
 |order             |225601|225602  |225603  |225604  |225605  |225606  |225607  |225608  |225609  |225610  |
+|lvl               |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 
