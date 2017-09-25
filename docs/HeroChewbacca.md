@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,77 +54,77 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_rbl
-  * targetInRangeModifier: 1
-  * faction: rebel
-  * retargetingOffset: 10
-  * animationDelay: 0
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * effectType: 1
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * chargeTime: 150
-  * armingDelay: 0
-  * decalSize: 160
-  * playerFacing: true
-  * armorType: bruiserInfantry
-  * xp: 0
-  * iconCameraPosition: 11.26,10.46,19.03
-  * unitID: HeroChewbacca
-  * assetName: chewbacca_rbl-ani
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: -0.16,1.83,-0.03
-  * splash: 0
-  * trap: 0
-  * hologramUid: HeroHologramRebel2
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_rbl
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.23,3.05,-1.49
-  * acceleration: 0
-  * factoryRotation: 0
-  * sizex: 1
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_hero_chewbacca":100
-  * newRotationSpeed: 7854
-  * autoSpawnSpreadingScale: 0
-  * targetedType: ENEMIES
-  * audioDeath: "sfx_death_hero_chewbacca":100
-  * maxSpeed: 20
-  * bundleName: chewbacca_rbl-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 250
-  * shotDelay: 150
-  * type: hero
-  * reload: 1870
-  * iconCloseupCameraPosition: 1.37,3.04,11.84
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
   * buffAssetOffset: 0.00,0.43,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileHeroChewbacca
-  * selfCenteredTargeting: false
   * favoriteTargetType: turret
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 1.37,3.04,11.84
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_hero_chewbacca":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * decalAssetName: tac_hero_rbl
+  * pathSearchWidth: 15
+  * shotCount: 2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: bruiserInfantry
+  * decalSize: 160
+  * bundleName: chewbacca_rbl-ani
+  * type: hero
+  * iconLookatPosition: -0.16,1.83,-0.03
+  * reload: 1870
+  * faction: rebel
+  * playerFacing: true
+  * overWalls: false
+  * hologramUid: HeroHologramRebel2
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 0
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 250
+  * newRotationSpeed: 7854
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * retargetingOffset: 10
+  * iconCameraPosition: 11.26,10.46,19.03
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.23,3.05,-1.49
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * decalBundleName: tac_hero_rbl
+  * unitID: HeroChewbacca
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 150
+  * projectileType: projectileHeroChewbacca
+  * assetName: chewbacca_rbl-ani
+  * audioPlacement: "sfx_placement_hero_chewbacca":100
+  * chargeTime: 150
+  * maxScale: false
+  * animationDelay: 0
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 20
+  * effectType: 1
 
 |Level       |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|requirements|['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |210201                   |210202              |210203              |210204              |210205              |210206              |210207              |210208              |210209              |210210               |
-|requirements|['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
 |heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

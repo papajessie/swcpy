@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 70
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
@@ -54,68 +54,68 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: empire
+  * buffAssetOffset: 0.00,1.84,0.00
+  * favoriteTargetType: shieldGenerator
+  * factoryRotation: 0
   * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * assetName: attacktank_rbl-ani
-  * pathSearchWidth: 15
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
   * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1,1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 3
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 2
+  * runThreshold: 0
+  * armorType: bruiserVehicle
+  * animationDelay: 0
+  * bundleName: attacktank_rbl-ani
+  * iconLookatPosition: -0.89,1.38,-0.23
+  * shieldHealth: 0
+  * reload: 1000
+  * faction: empire
+  * crushesWalls: true
+  * newRotationSpeed: 2000
+  * clipRetargeting: false
+  * type: vehicle
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 3
+  * isFlying: false
+  * sizey: 2
+  * overWalls: true
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * shotCount: 2
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * retargetingOffset: 16
+  * iconCameraPosition: 35.28,24.86,45.37
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * sizex: 2
+  * attackShieldBorder: true
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
+  * unitID: SeizedJuggernaut
+  * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 250
+  * projectileType: projectileSeizedJuggernaut
+  * assetName: attacktank_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * chargeTime: 1000
   * playerFacing: false
-  * armorType: bruiserVehicle
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * iconCameraPosition: 35.28,24.86,45.37
-  * unitID: SeizedJuggernaut
-  * autoSpawnRateScale: 3
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * shieldHealth: 0
-  * size: 20
-  * iconLookatPosition: -0.89,1.38,-0.23
-  * splash: 0
-  * trap: 0
-  * crushesWalls: true
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * overWalls: true
-  * gunSequence: 1,1
   * acceleration: 0
-  * newRotationSpeed: 2000
-  * maxSpeed: 30
-  * shieldRange: 0
-  * xp: 0
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 3
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * sizex: 2
-  * bundleName: attacktank_rbl-ani
+  * size: 20
   * targetLocking: false
-  * sizey: 2
-  * impactDelay: 500
-  * shotDelay: 250
-  * type: vehicle
-  * reload: 1000
-  * rotationSpeed: 2
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
-  * buffAssetOffset: 0.00,1.84,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileSeizedJuggernaut
-  * selfCenteredTargeting: false
-  * favoriteTargetType: shieldGenerator
-  * role: Destroyer
+  * maxScale: false
+  * maxSpeed: 30
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireFactory5']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |484804            |484808               |484812               |484816               |484820               |484824               |484828               |484832               |484836               |484840                |
-|requirements|['empireFactory5']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 

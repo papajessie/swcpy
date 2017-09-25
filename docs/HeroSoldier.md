@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
@@ -54,75 +54,75 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_rbl
-  * audioDeath: "sfx_death_hero_oto":100
-  * faction: rebel
-  * retargetingOffset: 14
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * effectType: 1
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 3
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * chargeTime: 500
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 7.18,10.31,13.72
-  * unitID: HeroSoldier
-  * assetName: soldierhero_rbl-ani
   * decalSize: 160
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: -0.2,1.46,0.41
-  * splash: 0
-  * trap: 0
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_rbl
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.05,2.03,-0.84
-  * acceleration: 0
+  * favoriteTargetType: closest
   * factoryRotation: 0
-  * sizex: 1
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_hero_oto":100
-  * newRotationSpeed: 7854
-  * autoSpawnSpreadingScale: 0
   * targetedType: ENEMIES
   * armingDelay: 0
-  * maxSpeed: 20
-  * bundleName: soldierhero_rbl-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 200
-  * type: hero
-  * reload: 500
-  * iconCloseupCameraPosition: 0.23,1.56,8.6
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * shieldCooldown: 0
-  * projectileType: projectileHeroLeia
+  * strictCoolDown: false
+  * gunSequence: 1
   * selfCenteredTargeting: false
-  * favoriteTargetType: closest
+  * iconCloseupCameraPosition: 0.23,1.56,8.6
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_hero_oto":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * decalAssetName: tac_hero_rbl
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: soldierhero_rbl-ani
+  * type: hero
+  * iconLookatPosition: -0.2,1.46,0.41
+  * reload: 500
+  * faction: rebel
+  * playerFacing: false
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 0
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 3
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * retargetingOffset: 14
+  * iconCameraPosition: 7.18,10.31,13.72
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.05,2.03,-0.84
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalBundleName: tac_hero_rbl
+  * unitID: HeroSoldier
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
+  * projectileType: projectileHeroLeia
+  * assetName: soldierhero_rbl-ani
+  * audioPlacement: "sfx_placement_hero_oto":100
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 20
+  * effectType: 1
 
 |Level       |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|requirements|['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |210801                   |210802              |210803              |210804              |210805              |210806              |210807              |210808              |210809              |210810               |
-|requirements|['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
 |heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

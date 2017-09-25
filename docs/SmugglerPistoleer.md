@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicle, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 70
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicle, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
@@ -54,69 +54,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * assetName: generalpurpose_smg-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 8.56,9.58,10.6
-  * unitID: SmugglerPistoleer
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 6
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 100
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * maxSpeed: 30
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * sizex: 1
-  * bundleName: generalpurpose_smg-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 125
-  * type: infantry
-  * reload: 500
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * shieldCooldown: 0
-  * projectileType: projectileSmugglerPistoleer
-  * selfCenteredTargeting: false
   * favoriteTargetType: none
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: generalpurpose_smg-ani
+  * iconLookatPosition: 0.09,1.4,0.28
+  * shieldHealth: 0
+  * reload: 500
+  * faction: smuggler
+  * playerFacing: true
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * type: infantry
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 2
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * retargetingOffset: 100
+  * iconCameraPosition: 8.56,9.58,10.6
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * unitID: SmugglerPistoleer
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 125
+  * projectileType: projectileSmugglerPistoleer
+  * assetName: generalpurpose_smg-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 6
+  * targetLocking: false
+  * maxSpeed: 30
+  * deathAnimation: buffFireBurn:15
 
 |Level       |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['smugglerBarracks1']|['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 |lvl         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |334001               |334002               |334003               |334004               |334005               |334006               |334007               |334008               |334009               |334010                |
 |pointValue  |1.000                |1.200                |1.400                |1.600                |1.800                |2.000                |2.200                |2.400                |2.600                |3.000                 |
-|requirements|['smugglerBarracks1']|['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 

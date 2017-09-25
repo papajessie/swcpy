@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,71 +54,71 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: empire
+  * buffAssetOffset: 0.00,1.01,0.00
+  * favoriteTargetType: turret
+  * factoryRotation: 0
   * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * assetName: dewback_emp-ani
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
   * pathSearchWidth: 200
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 5
-  * maxScale: false
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * runThreshold: 0
   * animationDelay: 1000
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * xp: 0
-  * iconCameraPosition: 17.06,13.27,18.62
-  * unitID: Dewback
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 3
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 4
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: -0.75,1.05,-0.6
-  * newRotationSpeed: 7854
-  * maxSpeed: 30
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * sizex: 1
   * bundleName: dewback_emp-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 750
   * type: infantry
+  * iconLookatPosition: -0.75,1.05,-0.6
   * reload: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.00,1.01,0.00
+  * faction: empire
+  * playerFacing: true
+  * acceleration: 0
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
   * shieldCooldown: 0
-  * selfCenteredTargeting: false
-  * favoriteTargetType: turret
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 5
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * retargetingOffset: 4
+  * iconCameraPosition: 17.06,13.27,18.62
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * unitID: Dewback
   * role: Breacher
+  * targetPreferenceStrength: 90
+  * shotDelay: 750
+  * assetName: dewback_emp-ani
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * chargeTime: 500
+  * maxScale: false
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * size: 3
+  * targetLocking: false
+  * maxSpeed: 30
+  * deathAnimation: buffFireBurn:15
 
 |Level         |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |--------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
-|lvl           |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
+|requirements  |['empireBarracks4']         |['empireOffenseLab2']       |['empireOffenseLab3']       |['empireOffenseLab4']       |['empireOffenseLab5']       |['empireOffenseLab6']       |['empireOffenseLab7']       |['empireOffenseLab8']       |['empireOffenseLab9']       |['empireOffenseLab10']       |
 |armorType     |infantry                    |infantry                    |infantry                    |infantry                    |infantry                    |infantry                    |bruiserInfantry             |bruiserInfantry             |bruiserInfantry             |bruiserInfantry              |
+|lvl           |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
 |pointValue    |3.000                       |3.600                       |4.200                       |4.800                       |5.400                       |6.000                       |6.600                       |7.200                       |7.800                       |9.000                        |
-|requirements  |['empireBarracks4']         |['empireOffenseLab2']       |['empireOffenseLab3']       |['empireOffenseLab4']       |['empireOffenseLab5']       |['empireOffenseLab6']       |['empireOffenseLab7']       |['empireOffenseLab8']       |['empireOffenseLab9']       |['empireOffenseLab10']       |
 |projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
 

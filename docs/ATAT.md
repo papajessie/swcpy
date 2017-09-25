@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 9
   * Min. Range: 1
   * View Range: 12
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 12
@@ -54,69 +54,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: empire
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * assetName: atat_emp-ani
-  * pathSearchWidth: 200
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 8
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * armorType: bruiserVehicle
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * iconCameraPosition: 41.83,40.55,52.41
-  * unitID: ATAT
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 30
-  * splash: 0
-  * trap: 0
-  * crushesWalls: true
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 18
-  * overWalls: true
-  * gunSequence: 1,1,1,1
-  * acceleration: 0
-  * iconLookatPosition: -2.01,3.9,-0.8
-  * newRotationSpeed: 982
-  * maxSpeed: 10
-  * shieldRange: 0
-  * xp: 0
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_walker_1":100
-  * sizex: 2
-  * bundleName: atat_emp-ani
-  * targetLocking: false
-  * sizey: 2
-  * impactDelay: 500
-  * shotDelay: 250
-  * type: vehicle
-  * reload: 1500
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
   * buffAssetOffset: 0,4.00,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileATAT
-  * selfCenteredTargeting: false
   * favoriteTargetType: shieldGenerator
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1,1,1,1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_walker_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 200
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * runThreshold: 0
+  * armorType: bruiserVehicle
+  * animationDelay: 0
+  * bundleName: atat_emp-ani
+  * iconLookatPosition: -2.01,3.9,-0.8
+  * shieldHealth: 0
+  * reload: 1500
+  * faction: empire
+  * playerFacing: true
+  * crushesWalls: true
+  * newRotationSpeed: 982
+  * clipRetargeting: false
+  * type: vehicle
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 2
+  * overWalls: true
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * shotCount: 8
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * retargetingOffset: 18
+  * iconCameraPosition: 41.83,40.55,52.41
+  * factoryScaleFactor: 1
+  * sizex: 2
+  * attackShieldBorder: true
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * unitID: ATAT
   * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 250
+  * projectileType: projectileATAT
+  * assetName: atat_emp-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 30
+  * targetLocking: false
+  * maxSpeed: 10
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireFactory5']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |130501            |130502               |130503               |130504               |130505               |130506               |130507               |130508               |130509               |130510                |
 |pointValue  |30.000            |36.000               |42.000               |48.000               |54.000               |60.000               |66.000               |72.000               |78.000               |90.000                |
-|requirements|['empireFactory5']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, HQ, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, HQ, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Turret: 55
   * Vehicle hero: 1
   * View Range: 16
@@ -54,65 +54,65 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * assetName: rancor_neu-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 960
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: false
-  * armorType: bruiserInfantry
-  * xp: 0
-  * iconCameraPosition: 38.76,41.86,47.24
-  * unitID: Rancor
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 20
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * overWalls: false
-  * gunSequence: 2,1
-  * acceleration: 0
-  * iconLookatPosition: -0.95,2.74,-1.82
-  * newRotationSpeed: 2000
-  * maxSpeed: 20
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * sizex: 2
-  * bundleName: rancor_neu-ani
-  * targetLocking: false
-  * sizey: 2
-  * impactDelay: 0
-  * shotDelay: 270
-  * type: infantry
-  * reload: 1910
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * buffAssetOffset: 0.00,4.30,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileMeleeRancor
-  * selfCenteredTargeting: false
   * favoriteTargetType: vehicles
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 2,1
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * runThreshold: 0
+  * armorType: bruiserInfantry
+  * animationDelay: 960
+  * bundleName: rancor_neu-ani
+  * type: infantry
+  * iconLookatPosition: -0.95,2.74,-1.82
+  * reload: 1910
+  * faction: smuggler
+  * playerFacing: false
+  * overWalls: false
+  * newRotationSpeed: 2000
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 2
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 2
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * retargetingOffset: 8
+  * iconCameraPosition: 38.76,41.86,47.24
+  * factoryScaleFactor: 1
+  * sizex: 2
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * unitID: Rancor
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 270
+  * projectileType: projectileMeleeRancor
+  * assetName: rancor_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 20
+  * targetLocking: false
+  * maxSpeed: 20
+  * deathAnimation: buffFireBurn:15
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

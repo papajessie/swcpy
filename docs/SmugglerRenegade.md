@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Flying vehicle, Light vehicle, Vehicle hero, Flying infantry, Infantry hero, Infantry, Wall
+  * Target preferences: Turret, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, Wall
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 60
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Flying vehicle, Light vehicle, Vehicle hero, Flying infantry, Infantry hero, Infantry, Wall
+  * Target preferences: Turret, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, Wall
   * Turret: 70
   * Vehicle hero: 50
   * View Range: 8
@@ -54,71 +54,71 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * assetName: speederbike_smg-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 3
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: true
-  * armorType: vehicle
-  * xp: 0
-  * iconCameraPosition: 14.41,12.49,21.37
-  * unitID: SmugglerRenegade
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 2
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 100
-  * overWalls: false
-  * gunSequence: 1,2
-  * acceleration: 0
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * newRotationSpeed: 7854
-  * maxSpeed: 50
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * sizex: 1
-  * bundleName: speederbike_smg-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 125
-  * type: vehicle
-  * reload: 500
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
   * buffAssetOffset: 0,1,0
-  * shieldCooldown: 0
-  * projectileType: projectileSmugglerRenegade
-  * selfCenteredTargeting: false
   * favoriteTargetType: infantry
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1,2
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: vehicle
+  * animationDelay: 0
+  * bundleName: speederbike_smg-ani
+  * type: vehicle
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * reload: 500
+  * faction: smuggler
+  * playerFacing: true
+  * acceleration: 0
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 3
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * retargetingOffset: 100
+  * iconCameraPosition: 14.41,12.49,21.37
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * unitID: SmugglerRenegade
   * role: Striker
+  * targetPreferenceStrength: 90
+  * shotDelay: 125
+  * projectileType: projectileSmugglerRenegade
+  * assetName: speederbike_smg-ani
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * chargeTime: 250
+  * maxScale: false
+  * size: 2
+  * targetLocking: false
+  * maxSpeed: 50
+  * deathAnimation: buffFireBurn:15
 
 |Level       |1                                                                                                                      |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|-----------------------------------------------------------------------------------------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['smugglerBarracks1']                                                                                                  |['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 |lvl         |1                                                                                                                      |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|audioTrain  |"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|                     |                     |                     |                     |                     |                     |                     |                     |                      |
 |order       |344301                                                                                                                 |344302               |344303               |344304               |344305               |344306               |344307               |344308               |344309               |344310                |
 |pointValue  |6.000                                                                                                                  |7.200                |8.400                |9.600                |10.800               |12.000               |13.200               |14.400               |15.600               |18.000                |
-|requirements|['smugglerBarracks1']                                                                                                  |['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
+|audioTrain  |"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,69 +54,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * assetName: aat1_rbl-ani
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 4
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: true
-  * armorType: bruiserVehicle
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * iconCameraPosition: 22.61,26.18,29.65
-  * unitID: AAT1
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * shieldHealth: 0
-  * size: 9
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: -0.48,1.51,-0.32
-  * newRotationSpeed: 2000
-  * maxSpeed: 20
-  * shieldRange: 0
-  * xp: 0
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * sizex: 2
-  * bundleName: aat1_rbl-ani
-  * targetLocking: false
-  * sizey: 3
-  * impactDelay: 1000
-  * shotDelay: 200
-  * type: vehicle
-  * reload: 2000
-  * rotationSpeed: 2
-  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
   * buffAssetOffset: 0.00,1.75,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileAAT1
-  * selfCenteredTargeting: false
   * favoriteTargetType: turret
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 2
+  * runThreshold: 0
+  * armorType: bruiserVehicle
+  * animationDelay: 0
+  * bundleName: aat1_rbl-ani
+  * iconLookatPosition: -0.48,1.51,-0.32
+  * shieldHealth: 0
+  * reload: 2000
+  * faction: rebel
+  * playerFacing: true
+  * crushesWalls: false
+  * newRotationSpeed: 2000
+  * clipRetargeting: false
+  * type: vehicle
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 3
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 4
+  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
+  * retargetingOffset: 12
+  * iconCameraPosition: 22.61,26.18,29.65
+  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
+  * sizex: 2
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * unitID: AAT1
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
+  * projectileType: projectileAAT1
+  * assetName: aat1_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 9
+  * targetLocking: false
+  * maxSpeed: 20
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|requirements|['rebelFactory3']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |230301           |230302              |230303              |230304              |230305              |230306              |230307              |230308              |230309              |230310               |
 |pointValue  |9.000            |10.800              |12.600              |14.400              |16.200              |18.000              |19.800              |21.600              |23.400              |27.000               |
-|requirements|['rebelFactory3']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 

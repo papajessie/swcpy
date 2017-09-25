@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Light vehicle, Vehicle hero, Ressource generator, Storage, Infantry hero, Infantry, Wall, Flying vehicle, Flying infantry
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Light vehicle, Vehicle hero, Ressource generator, Storage, Infantry hero, Infantry, Wall, Flying vehicle, Flying infantry
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 8
@@ -54,63 +54,63 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: tusken
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * assetName: womprat_neu-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 4
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 1000
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 11.42,11.67,7.56
-  * unitID: WompRatGeneralist
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * newRotationSpeed: 7854
-  * maxSpeed: 50
-  * shieldRange: 0
+  * favoriteTargetType: closest
   * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * sizex: 1
-  * bundleName: womprat_neu-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 250
-  * type: infantry
-  * reload: 1000
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * requirements: ['smugglerBarracks4']
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 1000
+  * bundleName: womprat_neu-ani
+  * iconLookatPosition: -0.07,0.16,-0.08
+  * shieldHealth: 0
+  * reload: 1000
+  * faction: tusken
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * type: infantry
+  * trap: 0
   * shieldCooldown: 0
-  * projectileType: projectileMeleeWompRatGeneralist
-  * selfCenteredTargeting: false
-  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 4
+  * retargetingOffset: 8
+  * iconCameraPosition: 11.42,11.67,7.56
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * unitID: WompRatGeneralist
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 250
+  * projectileType: projectileMeleeWompRatGeneralist
+  * assetName: womprat_neu-ani
+  * chargeTime: 250
+  * playerFacing: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxScale: false
+  * maxSpeed: 50
+  * deathAnimation: buffFireBurn:15
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

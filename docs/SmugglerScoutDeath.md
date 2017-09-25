@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Flying vehicle, Light vehicle, Vehicle hero, Flying infantry, Infantry hero, Infantry, Ressource generator, Storage, Turret, Shield, Other building, HQ, Shield generator, Wall
+  * Target preferences: Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, Ressource generator, Storage, HQ, Turret, Shield, Shield generator, Other building, Wall
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 51
   * Support troop: 60
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Flying vehicle, Light vehicle, Vehicle hero, Flying infantry, Infantry hero, Infantry, Ressource generator, Storage, Turret, Shield, Other building, HQ, Shield generator, Wall
+  * Target preferences: Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, Ressource generator, Storage, HQ, Turret, Shield, Shield generator, Other building, Wall
   * Turret: 50
   * Vehicle hero: 60
   * View Range: 8
@@ -54,66 +54,66 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * assetName: scotrper_dth-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 4
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 10.84,12.06,13.07
-  * unitID: SmugglerScoutDeath
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * acceleration: 0
-  * iconLookatPosition: 0.06,1.74,0.02
-  * newRotationSpeed: 7854
-  * sizex: 1
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * maxSpeed: 50
-  * bundleName: scotrper_dth-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 225
-  * type: infantry
-  * reload: 800
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
-  * shieldCooldown: 0
-  * projectileType: projectileSmugglerScoutDeath
-  * selfCenteredTargeting: false
   * favoriteTargetType: infantry
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: scotrper_dth-ani
+  * type: infantry
+  * iconLookatPosition: 0.06,1.74,0.02
+  * reload: 800
+  * faction: smuggler
+  * playerFacing: false
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 4
+  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
+  * retargetingOffset: 8
+  * iconCameraPosition: 10.84,12.06,13.07
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * unitID: SmugglerScoutDeath
   * role: Striker
+  * targetPreferenceStrength: 90
+  * shotDelay: 225
+  * projectileType: projectileSmugglerScoutDeath
+  * assetName: scotrper_dth-ani
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 50
+  * deathAnimation: buffFireBurn:15
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

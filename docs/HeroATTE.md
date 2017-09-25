@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 12
@@ -54,83 +54,83 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_rbl
-  * targetInRangeModifier: 1
-  * faction: rebel
-  * retargetingOffset: 20
-  * animationDelay: 0
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * autoSpawnRateScale: 2
-  * maxScale: false
-  * pathSearchWidth: 200
-  * effectType: 2
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 3
-  * runThreshold: 0
-  * chargeTime: 500
-  * armingDelay: 0
-  * decalSize: 320
-  * playerFacing: true
-  * armorType: bruiserVehicle
+  * buffAssetOffset: 0.00,1.46,0.00
   * favoriteTargetType: shieldGenerator
-  * xp: 0
-  * iconCameraPosition: 36.44,26.49,49.08
-  * unitID: HeroATTE
+  * factoryRotation: 0
   * targetedType: ENEMIES
-  * assetName: attehero_rbl-ani
-  * isFlying: false
+  * armingDelay: 0
   * strictCoolDown: false
+  * gunSequence: 1
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 200
+  * shotCount: 3
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * factoryScaleFactor: 1
+  * runThreshold: 0
+  * armorType: bruiserVehicle
+  * decalSize: 320
+  * bundleName: attehero_rbl-ani
+  * hologramUid: HeroHologramATTE
+  * acceleration: 0
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * reload: 1000
+  * faction: rebel
+  * playerFacing: true
+  * overWalls: true
+  * eventButtonString: hn_open_galaxy
+  * attackShieldBorder: true
+  * eventButtonAction: galaxy
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 0
+  * isFlying: false
+  * sizey: 2
+  * crushesWalls: true
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * newRotationSpeed: 3927
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * retargetingOffset: 20
+  * iconCameraPosition: 36.44,26.49,49.08
+  * projectileType: projectileHeroATTE
+  * decalAssetName: tac_hero_rbl
+  * sizex: 2
+  * clipRetargeting: false
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * decalBundleName: tac_hero_rbl
+  * unitID: HeroATTE
+  * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 400
+  * selfCenteredTargeting: false
+  * type: hero
+  * assetName: attehero_rbl-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * chargeTime: 500
+  * maxScale: false
+  * trap: 0
+  * animationDelay: 0
   * upgradeShardUid: shrd_troopHeroATTE
   * size: 1
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * splash: 0
-  * trap: 0
-  * hologramUid: HeroHologramATTE
-  * crushesWalls: true
-  * runSpeed: 0
-  * decalAssetName: tac_hero_rbl
-  * overWalls: true
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * gunSequence: 1
-  * acceleration: 0
-  * factoryRotation: 0
-  * maxSpeed: 10
-  * newRotationSpeed: 3927
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * eventButtonString: hn_open_galaxy
-  * autoSpawnSpreadingScale: 0
-  * unlockedByEvent: true
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * sizex: 2
-  * bundleName: attehero_rbl-ani
   * targetLocking: false
-  * sizey: 2
-  * impactDelay: 500
-  * shotDelay: 400
-  * type: hero
-  * reload: 1000
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldHealth: 0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * buffAssetOffset: 0.00,1.46,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileHeroATTE
-  * selfCenteredTargeting: false
-  * eventButtonAction: galaxy
-  * role: Destroyer
+  * maxSpeed: 10
+  * unlockedByEvent: true
+  * effectType: 2
 
 |Level             |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|iconUnlockRotation|0,-20,0                  |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|iconUnlockScale   |0.5,0.5,0.5              |                    |                    |                    |                    |                    |                    |                    |                    |                     |
 |order             |211201                   |211202              |211203              |211204              |211205              |211206              |211207              |211208              |211209              |211210               |
-|requirements      |['rebelTacticalCommand5']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|iconUnlockRotation|0,-20,0                  |                    |                    |                    |                    |                    |                    |                    |                    |                     |
 |pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
 |heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
+|requirements      |['rebelTacticalCommand5']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|iconUnlockScale   |0.5,0.5,0.5              |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

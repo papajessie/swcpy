@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicle, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Heavy infantry, Support troop, Heavy vehicle, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
@@ -54,70 +54,70 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: empire
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
-  * assetName: viperprobedroid_emp-ani
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetPreferenceStrength: 90
-  * shotCount: 4
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * armorType: vehicle
-  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
-  * xp: 0
-  * iconCameraPosition: -18.83,17.64,22.74
-  * unitID: ProbeDroid
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 4
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: 0.53,3.67,-0.56
-  * newRotationSpeed: 7854
-  * maxSpeed: 40
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_empire_probedroid_1":100
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
-  * sizex: 1
-  * bundleName: viperprobedroid_emp-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 500
-  * shotDelay: 250
-  * type: vehicle
-  * reload: 500
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * buffAssetOffset: 0.00,2,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileProbeDroid
-  * selfCenteredTargeting: false
   * favoriteTargetType: infantry
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: vehicle
+  * animationDelay: 0
+  * bundleName: viperprobedroid_emp-ani
+  * type: vehicle
+  * iconLookatPosition: 0.53,3.67,-0.56
+  * reload: 500
+  * faction: empire
+  * playerFacing: true
+  * acceleration: 0
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: true
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * shotCount: 4
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * retargetingOffset: 14
+  * iconCameraPosition: -18.83,17.64,22.74
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
+  * unitID: ProbeDroid
   * role: Striker
+  * targetPreferenceStrength: 90
+  * shotDelay: 250
+  * projectileType: projectileProbeDroid
+  * assetName: viperprobedroid_emp-ani
+  * audioPlacement: "sfx_placement_empire_probedroid_1":100
+  * chargeTime: 500
+  * maxScale: false
+  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
+  * size: 4
+  * targetLocking: false
+  * maxSpeed: 40
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireFactory6']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |130601            |130602               |130603               |130604               |130605               |130606               |130607               |130608               |130609               |130610                |
 |pointValue  |4.000             |4.800                |5.600                |6.400                |7.200                |8.000                |8.800                |9.600                |10.400               |12.000                |
-|requirements|['empireFactory6']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 

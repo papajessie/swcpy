@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Heavy infantry hero, Infantry hero, Infantry, Heavy vehicular hero, Heavy vehicle, Droideka, Light vehicle, Vehicle hero, Turret, Support troop, Shield, Other building, Shield generator, Ressource generator, Storage, HQ, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Infantry, Heavy infantry hero, Heavy infantry, Infantry hero, Droideka, Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, Ressource generator, Turret, Support troop, Shield, Shield generator, Storage, Other building, HQ, Wall, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Heavy infantry hero, Infantry hero, Infantry, Heavy vehicular hero, Heavy vehicle, Droideka, Light vehicle, Vehicle hero, Turret, Support troop, Shield, Other building, Shield generator, Ressource generator, Storage, HQ, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Infantry, Heavy infantry hero, Heavy infantry, Infantry hero, Droideka, Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, Ressource generator, Turret, Support troop, Shield, Shield generator, Storage, Other building, HQ, Wall, Flying infantry, Flying vehicle
   * Turret: 50
   * Vehicle hero: 60
   * View Range: 16
@@ -54,69 +54,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
-  * assetName: kraytdragonfast_neu-ani
-  * pathSearchWidth: 1
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 1500
-  * armingDelay: 0
-  * chargeTime: 750
-  * playerFacing: false
-  * armorType: bruiserInfantry
-  * xp: 0
-  * iconCameraPosition: 39.19,48.81,48.9
-  * unitID: KraytDragon
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 20
-  * splash: 0
-  * trap: 0
-  * crushesWalls: true
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * overWalls: false
-  * gunSequence: 2,1
-  * iconCloseupLookatPosition: 0.73,1.52,-0.71
-  * acceleration: 0
-  * iconLookatPosition: 0.73,1.52,-0.71
-  * newRotationSpeed: 2000
-  * maxSpeed: 30
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_krayt_1":100
-  * sizex: 1
-  * bundleName: kraytdragonfast_neu-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 1000
-  * type: infantry
-  * reload: 0
-  * iconCloseupCameraPosition: 39.19,48.81,48.9
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * shieldCooldown: 0
-  * projectileType: projectileMeleeKraytDragon
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 2,1
   * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 39.19,48.81,48.9
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_krayt_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * runThreshold: 0
+  * armorType: bruiserInfantry
+  * animationDelay: 1500
+  * bundleName: kraytdragonfast_neu-ani
+  * iconLookatPosition: 0.73,1.52,-0.71
+  * shieldHealth: 0
+  * reload: 0
+  * faction: smuggler
+  * playerFacing: false
+  * crushesWalls: true
+  * newRotationSpeed: 2000
+  * clipRetargeting: true
+  * type: infantry
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 1
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * retargetingOffset: 8
+  * iconCameraPosition: 39.19,48.81,48.9
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.73,1.52,-0.71
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
+  * unitID: KraytDragon
   * role: Striker
+  * targetPreferenceStrength: 90
+  * shotDelay: 1000
+  * projectileType: projectileMeleeKraytDragon
+  * assetName: kraytdragonfast_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * chargeTime: 750
+  * maxScale: false
+  * acceleration: 0
+  * size: 20
+  * targetLocking: false
+  * maxSpeed: 30
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|favoriteTargetType|turret|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
 |lvl               |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |order             |332401|332402  |332403  |332404  |332405  |332406  |332407  |332408  |332409  |332410  |
 |pointValue        |20.000|24.000  |28.000  |32.000  |36.000  |40.000  |44.000  |48.000  |52.000  |60.000  |
-|favoriteTargetType|turret|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
 

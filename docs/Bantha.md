@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Light vehicle, Ressource generator, Storage, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,70 +54,70 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
+  * buffAssetOffset: 0.00,0.68,0.0
+  * favoriteTargetType: turret
+  * factoryRotation: 0
   * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * assetName: bantha_rbl-ani
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
   * pathSearchWidth: 200
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 5
-  * maxScale: false
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * runThreshold: 0
   * animationDelay: 1250
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
-  * xp: 0
-  * iconCameraPosition: 16.54,17.6,29.53
-  * unitID: Bantha
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 2
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 4
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: 0.48,2.52,0.88
-  * newRotationSpeed: 7854
-  * maxSpeed: 20
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
-  * sizex: 1
   * bundleName: bantha_rbl-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 500
   * type: infantry
+  * iconLookatPosition: 0.48,2.52,0.88
   * reload: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.68,0.0
+  * faction: rebel
+  * playerFacing: true
+  * acceleration: 0
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
   * shieldCooldown: 0
-  * selfCenteredTargeting: false
-  * favoriteTargetType: turret
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 5
+  * retargetingOffset: 4
+  * iconCameraPosition: 16.54,17.6,29.53
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * unitID: Bantha
   * role: Breacher
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * assetName: bantha_rbl-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * chargeTime: 500
+  * maxScale: false
+  * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
+  * size: 2
+  * targetLocking: false
+  * maxSpeed: 20
+  * deathAnimation: buffFireBurn:15
 
 |Level         |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
 |--------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|lvl           |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
+|requirements  |['rebelBarracks3']         |['rebelOffenseLab2']       |['rebelOffenseLab3']       |['rebelOffenseLab4']       |['rebelOffenseLab5']       |['rebelOffenseLab6']       |['rebelOffenseLab7']       |['rebelOffenseLab8']       |['rebelOffenseLab9']       |['rebelOffenseLab10']       |
 |armorType     |infantry                   |infantry                   |infantry                   |infantry                   |infantry                   |infantry                   |bruiserInfantry            |bruiserInfantry            |bruiserInfantry            |bruiserInfantry             |
+|lvl           |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
 |order         |220301                     |220302                     |220303                     |220304                     |220305                     |220306                     |220307                     |220308                     |220309                     |220310                      |
 |pointValue    |2.000                      |2.400                      |2.800                      |3.200                      |3.600                      |4.000                      |4.400                      |4.800                      |5.200                      |6.000                       |
-|requirements  |['rebelBarracks3']         |['rebelOffenseLab2']       |['rebelOffenseLab3']       |['rebelOffenseLab4']       |['rebelOffenseLab5']       |['rebelOffenseLab6']       |['rebelOffenseLab7']       |['rebelOffenseLab8']       |['rebelOffenseLab9']       |['rebelOffenseLab10']       |
 |projectileType|projectileMeleeBanthaLevel1|projectileMeleeBanthaLevel2|projectileMeleeBanthaLevel3|projectileMeleeBanthaLevel4|projectileMeleeBanthaLevel5|projectileMeleeBanthaLevel6|projectileMeleeBanthaLevel7|projectileMeleeBanthaLevel8|projectileMeleeBanthaLevel9|projectileMeleeBanthaLevel10|
 
