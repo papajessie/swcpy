@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: No
   * Type: infantry
   * Armor type: infantry
   * Role: Generic
@@ -19,7 +20,7 @@ category: unit
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0    |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
+|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |7500 |9000 |10500|12000 |13500 |15000  |16500  |18000  |19500   |22500   |
 |Damage*             |170  |204  |238  |272   |306   |340    |374    |408    |442     |510     |
 |Damage per second*  |500  |600  |700  |800   |900   |1000   |1100   |1200   |1300    |1500    |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Vehicle hero (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Heavy vehicular hero (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|----------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|200$                              |280$                                   |360$                                   |440$                                   |520$                                   |600$                                   |680$                                   |760$                                   |840$                                   |920$                                    |
 |Training time|80                                |88                                     |92                                     |96                                     |100                                    |104                                    |108                                    |112                                    |116                                    |120                                     |
-|Building 0   |[Barracks 10](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Barracks 10](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,56 +55,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.00,0.27,0.00
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * bundleName: heavytrooper_dth-ani
-  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
-  * iconLookatPosition: -0.36,1.33,-0.66
   * newRotationSpeed: 7854
-  * playerFacing: false
+  * assetName: heavytrooper_dth-ani
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * gunSequence: 1
+  * buffAssetOffset: 0.00,0.27,0.00
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 3.27,3.36,10.55
   * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * assetName: heavytrooper_dth-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
+  * iconLookatPosition: -0.36,1.33,-0.66
   * iconCameraPosition: 4.46,8.55,22.59
-  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
-  * chargeTime: 500
-  * targetedType: ENEMIES
-  * reload: 2000
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
+  * sizex: 1
+  * targetInRangeModifier: 1
   * spawnApplyBuffs: buffReduceHeals2
-  * attackShieldBorder: false
-  * retargetingOffset: 10
-  * size: 4
-  * clipRetargeting: false
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * targetLocking: false
+  * impactDelay: 500
+  * reload: 2000
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
   * armingDelay: 0
   * projectileType: projectileHeavyStormDeath
-  * impactDelay: 500
-  * overWalls: false
-  * favoriteTargetType: closest
-  * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 1
   * shotDelay: 100
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 10
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 10
   * maxScale: false
-  * targetInRangeModifier: 1
+  * shotCount: 10
+  * deathAnimation: buffFireBurn:15
+  * clipRetargeting: false
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 4
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

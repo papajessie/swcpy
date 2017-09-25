@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: hero
   * Armor type: bruiserVehicle
   * Role: Destroyer
@@ -19,7 +20,7 @@ category: unit
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|6500$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0    |5400 |10800 |28800 |86400 |259200 |432000 |604800 |864000  |1209600 |
+|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Health              |24000|28800|33600 |38400 |43200 |48000  |52800  |57600  |62400   |72000   |
 |Damage*             |844  |1013 |1182  |1350  |1519  |1688   |1857   |2025   |2194    |2532    |
 |Damage per second*  |1800 |2161 |2521  |2880  |3240  |3601   |3961   |4320   |4680    |5401    |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Storage (50), HQ (50), Droideka (50), Flying vehicle (50), Support troop (50), Infantry (50), Other building (50), Ressource generator (50), Flying infantry (50), Turret (50), Light vehicle (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -39,7 +40,7 @@ category: unit
 |-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |3800$                                  |4200$                                  |4600$                                   |
 |Training time|210                                         |220                                    |230                                    |240                                    |250                                    |260                                    |270                                    |280                                    |290                                    |300                                     |
-|Building 0   |[Hero Command 5](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Hero Command 5](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,57 +55,56 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.00,4.96,0.0
-  * animationDelay: 0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: atathero_emp-ani
+  * newRotationSpeed: 3927
+  * assetName: atathero_emp-ani
+  * gunSequence: 1,1,1,1
+  * buffAssetOffset: 0.00,4.96,0.0
+  * decalSize: 320
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryRotation: 0
+  * animationDelay: 0
   * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * iconLookatPosition: -2.41,4.25,-0.65
-  * newRotationSpeed: 3927
-  * decalSize: 320
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * assetName: atathero_emp-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * audioPlacement: "sfx_placement_empire_atat_1":100
   * iconCameraPosition: 49.18,33.65,54.14
-  * gunSequence: 1,1,1,1
-  * playerFacing: true
 
 ## Uninterpreted stats
 
   * sizex: 2
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
+  * targetInRangeModifier: 1
+  * hologramUid: HeroHologramEmpire2
   * chargeTime: 500
-  * maxScale: false
-  * decalAssetName: tac_hero_emp
-  * reload: 1500
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * effectType: 2
-  * decalBundleName: tac_hero_emp
-  * retargetingOffset: 20
-  * size: 1
-  * clipRetargeting: false
-  * armingDelay: 0
-  * projectileType: projectileHeroATAT
+  * pathSearchWidth: 200
+  * targetLocking: false
   * impactDelay: 500
-  * overWalls: true
+  * reload: 1500
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 2
+  * strictCoolDown: false
+  * armingDelay: 0
+  * effectType: 2
+  * size: 1
+  * decalBundleName: tac_hero_emp
+  * decalAssetName: tac_hero_emp
+  * autoSpawnRateScale: 2
+  * retargetingOffset: 20
+  * projectileType: projectileHeroATAT
+  * shotCount: 8
+  * maxScale: false
+  * clipRetargeting: false
   * attackShieldBorder: true
   * favoriteTargetType: shieldGenerator
-  * hologramUid: HeroHologramEmpire2
-  * sizey: 2
-  * autoSpawnRateScale: 2
-  * shotDelay: 250
-  * pathSearchWidth: 200
   * autoSpawnSpreadingScale: 0
-  * shotCount: 8
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * overWalls: true
+  * shotDelay: 250
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

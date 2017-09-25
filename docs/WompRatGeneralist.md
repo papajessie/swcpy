@@ -7,7 +7,8 @@ category: unit
 
 ## Main stats
 
-  * Side: tusken
+  * Side: Tusken Raiders
+  * Buildable unit: No
   * Type: infantry
   * Armor type: infantry
   * Role: Generic
@@ -19,7 +20,7 @@ category: unit
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0    |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
+|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |400  |480  |560  |640   |720   |800    |880    |960    |1040    |1200    |
 |Damage*             |20   |24   |28   |32    |36    |40     |44     |48     |52      |60      |
 |Damage per second*  |40   |48   |56   |64    |72    |80     |88     |96     |104     |120     |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Heavy vehicular hero (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -37,7 +38,7 @@ category: unit
 
   * Training cost: 690$
   * Training time: 60
-  * Building 0: [Barracks 4](smugglerBarracks.html)
+  * Building: [Barracks 4](smugglerBarracks.html)
 
 ## Movement
 
@@ -52,50 +53,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 1000
-  * iconCameraPosition: 11.42,11.67,7.56
-  * bundleName: womprat_neu-ani
   * iconLookatPosition: -0.07,0.16,-0.08
-  * newRotationSpeed: 7854
-  * playerFacing: false
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * assetName: womprat_neu-ani
   * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * bundleName: womprat_neu-ani
+  * newRotationSpeed: 7854
+  * assetName: womprat_neu-ani
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 11.42,11.67,7.56
+  * factoryRotation: 0
   * gunSequence: 1
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * animationDelay: 1000
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * chargeTime: 250
-  * targetedType: ENEMIES
-  * reload: 1000
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 8
-  * size: 1
-  * clipRetargeting: false
-  * targetLocking: false
-  * armingDelay: 0
-  * projectileType: projectileMeleeWompRatGeneralist
-  * impactDelay: 1000
-  * overWalls: false
-  * favoriteTargetType: closest
   * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 250
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 4
-  * maxScale: false
   * targetInRangeModifier: 1
+  * size: 1
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * reload: 1000
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 8
+  * projectileType: projectileMeleeWompRatGeneralist
+  * shotCount: 4
+  * deathAnimation: buffFireBurn:15
+  * targetLocking: false
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * overWalls: false
+  * shotDelay: 250
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

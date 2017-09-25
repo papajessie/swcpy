@@ -8,12 +8,13 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: No
   * Type: vehicle
   * Armor type: bruiserVehicle
   * Role: Bruiser
   * Levels available: 1-10
   * Upgrade requirements: Nothing
-  * Upgrade time: 0
+  * Upgrade time: 0s
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -28,14 +29,14 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Shield generator (50), Storage (50), HQ (50), Droideka (50), Flying vehicle (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Shield (50), Shield generator (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
 
 ## Recruiting
 
-  * Building 0: [Headquarters 2](empireHQ.html)
+  * Building: [Headquarters 2](empireHQ.html)
 
 |Level        |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
 |-------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
@@ -55,55 +56,54 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.0,1.14,0.0
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * bundleName: hovertankempire_emp-ani
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * iconLookatPosition: -0.59,0.62,-0.25
   * newRotationSpeed: 2000
-  * playerFacing: false
+  * assetName: hovertankempire_emp-ani
+  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * gunSequence: 1,1,1,1
+  * buffAssetOffset: 0.0,1.14,0.0
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
   * rotationSpeed: 2
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 23.7,17.94,45.6
   * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * assetName: hovertankempire_emp-ani
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * iconLookatPosition: -0.59,0.62,-0.25
   * iconCameraPosition: 23.7,17.94,45.6
-  * gunSequence: 1,1,1,1
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
-  * chargeTime: 250
-  * targetedType: ENEMIES
-  * reload: 2000
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 16
-  * size: 10
-  * clipRetargeting: false
-  * pointValue: 1.000
-  * armingDelay: 0
-  * projectileType: projectile2MTank
-  * impactDelay: 1000
-  * overWalls: false
-  * favoriteTargetType: turret
   * sizex: 2
-  * sizey: 3
-  * autoSpawnRateScale: 3
-  * shotDelay: 800
+  * targetInRangeModifier: 1
+  * pointValue: 1.000
+  * chargeTime: 250
   * pathSearchWidth: 15
+  * impactDelay: 1000
+  * reload: 2000
   * autoSpawnSpreadingScale: 3
+  * targetedType: ENEMIES
+  * sizey: 3
+  * strictCoolDown: false
+  * armingDelay: 0
+  * xp: 0
+  * shotDelay: 800
+  * autoSpawnRateScale: 3
+  * retargetingOffset: 16
+  * projectileType: projectile2MTank
   * shotCount: 16
   * maxScale: false
-  * targetInRangeModifier: 1
+  * targetLocking: false
+  * attackShieldBorder: false
+  * favoriteTargetType: turret
+  * clipRetargeting: false
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 10
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

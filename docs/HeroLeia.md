@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Rebellion
+  * Buildable unit: Yes
   * Type: hero
   * Armor type: infantry
   * Role: Striker
@@ -19,7 +20,7 @@ category: unit
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0    |3600 |9000  |25200 |72000 |216000 |345600 |518400 |691200  |1036800 |
+|Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Health              |16000|19200|22400 |25600 |28800 |32000  |35200  |38400  |41600   |48000   |
 |Damage*             |934  |1120 |1307  |1494  |1680  |1867   |2054   |2240   |2427    |2800    |
 |Damage per second*  |2001 |2400 |2800  |3201  |3600  |4000   |4401   |4800   |5200    |6000    |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Droideka (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Infantry (60)**, **Flying infantry (60)**, **Light vehicle (60)**, **Heavy vehicle (60)**, **Heavy infantry (60)**, Shield generator (50), Storage (50), HQ (50), Other building (50), Shield (50), Ressource generator (50), Turret (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (60)**, **Heavy vehicle (60)**, **Flying vehicle (60)**, **Heavy infantry (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Training time|210                                        |220                                   |230                                   |240                                   |250                                   |260                                   |270                                   |560                                   |580                                   |600                                    |
-|Building 0   |[Hero Command 4](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Building     |[Hero Command 4](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 ## Movement
 
@@ -54,57 +55,56 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 0,2.44,-0.3
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_hero_leia":100
   * bundleName: princessleia_rbl-ani
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * iconLookatPosition: 0.06,1.58,0.16
   * newRotationSpeed: 7854
+  * assetName: princessleia_rbl-ani
+  * iconCloseupLookatPosition: 0,2.44,-0.3
+  * gunSequence: 1
   * decalSize: 160
+  * audioDeath: "sfx_death_hero_leia":100
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 1.49,1.49,7.71
   * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * assetName: princessleia_rbl-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_leia":100
-  * audioPlacement: "sfx_placement_hero_leia":100
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * iconLookatPosition: 0.06,1.58,0.16
   * iconCameraPosition: 11.91,11.82,11.76
-  * gunSequence: 1
-  * playerFacing: true
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
   * targetLocking: false
   * chargeTime: 500
-  * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * reload: 500
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * decalBundleName: tac_hero_rbl
-  * retargetingOffset: 14
-  * size: 1
-  * clipRetargeting: true
-  * armingDelay: 0
-  * projectileType: projectileHeroLeia
+  * pathSearchWidth: 15
+  * shotDelay: 200
   * impactDelay: 1000
-  * overWalls: false
+  * reload: 500
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * hologramUid: HeroHologramRebel3
+  * xp: 0
+  * decalBundleName: tac_hero_rbl
+  * decalAssetName: tac_hero_rbl
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 14
+  * projectileType: projectileHeroLeia
+  * maxScale: false
+  * clipRetargeting: true
   * attackShieldBorder: false
   * favoriteTargetType: infantry
-  * hologramUid: HeroHologramRebel3
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 200
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
   * shotCount: 3
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

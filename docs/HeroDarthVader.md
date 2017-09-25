@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: hero
   * Armor type: infantry
   * Role: Destroyer
@@ -19,7 +20,7 @@ category: unit
 |Level               |1      |2     |3      |4      |5      |6      |7       |8       |9       |10      |
 |--------------------|-------|------|-------|-------|-------|-------|--------|--------|--------|--------|
 |Upgrade requirements|Nothing|75000$|150000$|300000$|600000$|900000$|1050000$|1200000$|3200000$|4800000$|
-|Upgrade time        |3600   |3600  |18000  |75600  |172800 |345600 |518400  |777600  |1036800 |1209600 |
+|Upgrade time        |1h     |1h    |5h     |21h    |2d     |4d     |6d      |1w2d    |1w5d    |2w      |
 |Health              |28000  |33600 |39200  |44800  |50400  |56000  |61600   |67200   |72800   |84000   |
 |Damage*             |3900   |4680  |5460   |6240   |7020   |7800   |8580    |9360    |10140   |11700   |
 |Damage per second*  |8210   |9852  |11494  |13136  |14778  |16421  |18063   |19705   |21347   |24631   |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (80)**, Shield generator (50), Storage (50), HQ (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Ressource generator (50), Light vehicle (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (80)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Heavy infantry (50), Shield (50), Shield generator (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Max. Range: 3
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|1500$                                       |2100$                                  |2700$                                  |3300$                                  |3900$                                  |4500$                                  |5100$                                  |5700$                                  |6300$                                  |6900$                                   |
 |Training time|420                                         |440                                    |460                                    |480                                    |500                                    |520                                    |540                                    |560                                    |580                                    |600                                     |
-|Building 0   |[Hero Command 8](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Hero Command 8](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,60 +55,59 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 230
-  * iconCloseupLookatPosition: 0.1,2.86,-0.67
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_hero_vader_1":100
   * bundleName: darthvader_emp-ani
-  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * iconLookatPosition: -0.27,1.69,-0.32
   * newRotationSpeed: 7854
+  * assetName: darthvader_emp-ani
+  * iconCloseupLookatPosition: 0.1,2.86,-0.67
+  * gunSequence: 1,2
   * decalSize: 160
+  * audioDeath: "sfx_death_hero_vader_1":100
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 0.17,0.86,11.66
   * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
-  * assetName: darthvader_emp-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_vader_1":100
-  * audioPlacement: "sfx_placement_hero_vader_1":100
+  * factoryRotation: 0
+  * animationDelay: 230
+  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * iconLookatPosition: -0.27,1.69,-0.32
   * iconCameraPosition: 15.97,7.67,16.77
-  * gunSequence: 1,2
-  * playerFacing: true
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * ability: abilityHeroDarthDefend
   * targetLocking: false
   * chargeTime: 0
-  * maxScale: false
-  * ability: abilityHeroDarthDefend
-  * spawnEffectUid: effectEmpireSpawn
-  * decalAssetName: tac_hero_emp
-  * reload: 750
-  * splash: 0
-  * xp: 0
+  * pathSearchWidth: 15
   * selfCenteredTargeting: false
-  * effectType: 2
-  * decalBundleName: tac_hero_emp
-  * retargetingOffset: 6
-  * size: 1
-  * clipRetargeting: false
-  * armingDelay: 0
-  * projectileType: projectileHeroDarthAttack
   * impactDelay: 250
-  * overWalls: false
+  * reload: 750
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * hologramUid: HeroHologramDarthVader
+  * effectType: 2
+  * xp: 0
+  * decalBundleName: tac_hero_emp
+  * decalAssetName: tac_hero_emp
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 6
+  * projectileType: projectileHeroDarthAttack
+  * maxScale: false
+  * spawnEffectUid: effectEmpireSpawn
+  * clipRetargeting: false
   * attackShieldBorder: false
   * favoriteTargetType: turret
-  * hologramUid: HeroHologramDarthVader
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 200
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
   * shotCount: 2
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * overWalls: false
+  * shotDelay: 200
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

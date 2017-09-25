@@ -8,12 +8,13 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: No
   * Type: infantry
   * Armor type: bruiserInfantry
   * Role: Striker
   * Levels available: 1-10
   * Upgrade requirements: Nothing
-  * Upgrade time: 0
+  * Upgrade time: 0s
   * Damage per second*: 2928
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Infantry (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Droideka (60)_, _Vehicle hero (60)_, _Heavy vehicular hero (60)_, _Light vehicle (60)_, _Heavy vehicle (60)_, Shield generator (50), Storage (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Turret (50), HQ (40), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry hero (70)**, **Heavy infantry (70)**, **Infantry hero (70)**, **Infantry (70)**, _Light vehicle (60)_, _Heavy vehicular hero (60)_, _Heavy vehicle (60)_, _Droideka (60)_, _Vehicle hero (60)_, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Other building (50), HQ (40), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -51,50 +52,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 960
-  * iconCameraPosition: 32.55,42.31,46.76
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * bundleName: rancorhunter_neu-ani
+  * newRotationSpeed: 2000
+  * assetName: rancorhunter_neu-ani
+  * gunSequence: 2,1
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * factoryRotation: 0
+  * animationDelay: 960
   * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * iconLookatPosition: -0.58,2.75,-1.64
-  * newRotationSpeed: 2000
-  * playerFacing: false
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * assetName: rancorhunter_neu-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunSequence: 2,1
+  * iconCameraPosition: 32.55,42.31,46.76
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * chargeTime: 500
-  * targetedType: ENEMIES
-  * reload: 1910
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 8
+  * targetInRangeModifier: 1
   * size: 20
-  * clipRetargeting: true
-  * targetLocking: false
-  * projectileType: projectileMeleeHunterRancor
-  * impactDelay: 0
-  * overWalls: false
-  * armingDelay: 0
-  * sizey: 1
-  * autoSpawnRateScale: 2
-  * shotDelay: 270
+  * chargeTime: 500
   * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 2
+  * clipRetargeting: true
+  * impactDelay: 0
+  * reload: 1910
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 2
+  * retargetingOffset: 8
+  * projectileType: projectileMeleeHunterRancor
   * shotCount: 2
   * maxScale: false
-  * targetInRangeModifier: 1
+  * targetLocking: false
+  * attackShieldBorder: false
+  * autoSpawnSpreadingScale: 2
+  * overWalls: false
+  * shotDelay: 270
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level             |1       |2       |3       |4       |5       |6       |7       |8       |9       |10     |
 |------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-------|

@@ -7,7 +7,8 @@ category: unit
 
 ## Main stats
 
-  * Side: Independent units
+  * Side: Independant units
+  * Buildable unit: No
   * Type: infantry
   * Armor type: infantry
   * Role: Generic
@@ -19,7 +20,7 @@ category: unit
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0   |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
+|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |2275|2730 |2940 |3360  |3780  |4200   |4620   |5040   |5460    |6300    |
 |Damage*             |190 |228  |245  |280   |315   |351    |386    |421    |456     |526     |
 |Damage per second*  |378 |452  |488  |556   |626   |696    |765    |835    |905     |1044    |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Vehicle hero (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Heavy vehicular hero (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -53,56 +54,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * bundleName: stotrper_dth-ani
-  * gunPosition: "stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun":1
-  * iconLookatPosition: 0.05,1.69,0.14
   * newRotationSpeed: 7854
-  * playerFacing: false
+  * assetName: stotrper_dth-ani
+  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * gunSequence: 1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 4.5,4.27,7.56
   * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * assetName: stotrper_dth-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: "stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun":1
+  * iconLookatPosition: 0.05,1.69,0.14
   * iconCameraPosition: 11.27,12.43,13.71
-  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
+  * sizex: 1
+  * targetInRangeModifier: 1
   * chargeTime: 250
-  * targetedType: ENEMIES
-  * decalAssetName: troop_stotrper_emp
-  * reload: 650
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * decalBundleName: troop_stotrper_emp
-  * retargetingOffset: 14
-  * size: 1
-  * clipRetargeting: false
-  * armingDelay: 0
-  * projectileType: projectileSmugglerStormDeath
+  * pathSearchWidth: 1
+  * targetLocking: false
   * impactDelay: 1000
-  * overWalls: false
+  * reload: 650
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * xp: 0
+  * shotDelay: 350
+  * decalBundleName: troop_stotrper_emp
+  * decalAssetName: troop_stotrper_emp
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 14
+  * projectileType: projectileSmugglerStormDeath
+  * deathAnimation: buffFireBurn:15
+  * clipRetargeting: false
   * attackShieldBorder: false
   * favoriteTargetType: closest
-  * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 350
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
   * shotCount: 3
-  * maxScale: false
-  * targetInRangeModifier: 1
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -8,12 +8,13 @@ category: unit
 ## Main stats
 
   * Side: Rebellion
+  * Buildable unit: No
   * Type: hero
   * Armor type: healerInfantry
   * Role: Healer
   * Levels available: 1-10
   * Upgrade requirements: Nothing
-  * Upgrade time: 0
+  * Upgrade time: 0s
   * Damage*: 0
   * Damage per second*: 0
   * Shield Health: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Droideka (50)**, **Flying vehicle (50)**, **Vehicle hero (50)**, **Infantry (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Shield generator (0), Storage (0), HQ (0), Support troop (0), Other building (0), Trap (0), Shield (0), Ressource generator (0), Turret (0), Wall (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Infantry hero (50)**, **Infantry (50)**, Ressource generator (0), Trap (0), Turret (0), Shield (0), Shield generator (0), Storage (0), HQ (0), Wall (0), Support troop (0), Other building (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 100
@@ -51,55 +52,54 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * bundleName: c3po_rbl-ani
-  * tooltipHeightOffset: 1.5
-  * assetName: c3po_rbl-ani
-  * newRotationSpeed: 7854
-  * playerFacing: false
-  * factoryRotation: 0
   * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
   * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunSequence: 1
+  * bundleName: c3po_rbl-ani
+  * newRotationSpeed: 7854
+  * assetName: c3po_rbl-ani
   * decalSize: 160
+  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * gunSequence: 1
+  * animationDelay: 0
+  * tooltipHeightOffset: 1.5
 
 ## Uninterpreted stats
 
-  * supportFollowDistance: 2
-  * strictCoolDown: false
-  * targetPreferenceStrength: 1
-  * targetLocking: true
+  * sizex: 1
+  * targetedType: ALLIES
+  * size: 1
   * chargeTime: 0
+  * pathSearchWidth: 15
+  * targetLocking: true
+  * impactDelay: 0
+  * reload: 500
+  * autoSpawnSpreadingScale: 1
+  * targetInRangeModifier: 1
+  * sizey: 1
+  * strictCoolDown: false
+  * supportFollowDistance: 2
+  * armingDelay: 0
+  * xp: 0
+  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
+  * decalBundleName: tac_hero_rbl
+  * ignoresWalls: true
+  * decalAssetName: tac_hero_rbl
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 15
+  * projectileType: projectileC3PO1
   * maxScale: false
   * spawnEffectUid: effectRebelSpawn
-  * decalAssetName: tac_hero_rbl
-  * reload: 500
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: true
-  * ignoresWalls: true
-  * decalBundleName: tac_hero_rbl
-  * retargetingOffset: 15
-  * size: 1
   * clipRetargeting: false
-  * projectileType: projectileC3PO1
-  * impactDelay: 0
-  * overWalls: true
-  * armingDelay: 0
   * attackShieldBorder: false
   * favoriteTargetType: closest
-  * sizex: 1
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
-  * shotDelay: 0
-  * autoSpawnRateScale: 1
-  * sizey: 1
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
   * shotCount: 1
-  * targetedType: ALLIES
-  * targetInRangeModifier: 1
+  * overWalls: true
+  * shotDelay: 0
+  * splash: 0
+  * targetPreferenceStrength: 1
+  * selfCenteredTargeting: true
 
 |Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|-----|-----|------|------|------|------|------|------|------|------|

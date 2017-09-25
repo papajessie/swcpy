@@ -7,13 +7,14 @@ category: unit
 
 ## Main stats
 
-  * Side: Independent units
+  * Side: Independant units
+  * Buildable unit: Yes
   * Type: hero
   * Armor type: infantry
   * Role: Destroyer
   * Levels available: 1
   * Upgrade requirements: 5000$
-  * Upgrade time: 1800
+  * Upgrade time: 30m
   * Health: 33000
   * Damage*: 1300
   * Damage per second*: 1198
@@ -25,7 +26,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Turret (60)_, Storage (50), HQ (50), Droideka (50), Flying vehicle (50), Support troop (50), Infantry (50), Other building (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Turret (60)_, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -48,58 +49,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_hero_han":100
   * bundleName: hansolo_rbl-ani
-  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
-  * iconLookatPosition: -0.01,1.77,0.14
   * newRotationSpeed: 7854
+  * assetName: hansolo_rbl-ani
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * gunSequence: 1
   * decalSize: 160
+  * audioDeath: "sfx_death_hero_han":100
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: -0.48,1.56,9.22
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * assetName: hansolo_rbl-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_han":100
-  * audioPlacement: "sfx_placement_hero_han":100
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
+  * iconLookatPosition: -0.01,1.77,0.14
   * iconCameraPosition: 11.5,12.83,14.14
-  * gunSequence: 1
-  * playerFacing: true
 
 ## Uninterpreted stats
 
-  * uiDecalAssetName: HeroDecalRebel
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
-  * chargeTime: 150
-  * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * reload: 1870
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * decalBundleName: tac_hero_rbl
-  * retargetingOffset: 8
-  * size: 1
-  * clipRetargeting: false
+  * sizex: 1
+  * shotDelay: 150
+  * targetInRangeModifier: 1
   * pointValue: 20.000
-  * armingDelay: 0
-  * projectileType: projectileFUEHeroHanSolo
+  * chargeTime: 150
+  * pathSearchWidth: 1
+  * targetLocking: false
   * impactDelay: 1000
-  * overWalls: false
+  * reload: 1870
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * armingDelay: 0
+  * xp: 0
   * order: 42
+  * heroData: hero2
+  * decalBundleName: tac_hero_rbl
+  * decalAssetName: tac_hero_rbl
+  * uiDecalAssetName: HeroDecalRebel
+  * retargetingOffset: 8
+  * projectileType: projectileFUEHeroHanSolo
+  * maxScale: false
+  * shotCount: 2
   * attackShieldBorder: false
   * favoriteTargetType: shieldGenerator
-  * sizex: 1
-  * sizey: 1
-  * heroData: hero2
-  * autoSpawnRateScale: 1
-  * shotDelay: 150
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 2
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * clipRetargeting: false
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 1
 

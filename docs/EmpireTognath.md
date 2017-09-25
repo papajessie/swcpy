@@ -8,12 +8,13 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: mercenary
   * Armor type: infantry
   * Role: Striker
   * Levels available: 1-10
   * Upgrade requirements: 32 data fragments
-  * Upgrade time: 0
+  * Upgrade time: 0s
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Droideka (100)**, _Support troop (60)_, _Infantry (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Shield generator (50), Storage (50), HQ (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Turret (50), Light vehicle (50), Heavy vehicle (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|50 Con.                                  |85 Con.                                |115 Con.                               |145 Con.                               |175 Con.                               |205 Con.                               |235 Con.                               |265 Con.                               |295 Con.                               |325 Con.                                |
 |Training time|345                                      |403                                    |467                                    |537                                    |543                                    |549                                    |555                                    |561                                    |567                                    |573                                     |
-|Building 0   |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,63 +55,62 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: tognath_con-ani
-  * iconLookatPosition: -0.63,1.31,-0.68
   * newRotationSpeed: 7854
-  * playerFacing: true
+  * assetName: tognath_con-ani
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * gunSequence: 1
+  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 5.7,5.61,10.18
   * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * assetName: tognath_con-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * factoryRotation: 0
+  * animationDelay: 0
+  * iconLookatPosition: -0.63,1.31,-0.68
   * iconCameraPosition: 9.66,10.8,15.86
-  * gunSequence: 1
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * eventButtonAction: galaxy
-  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
   * chargeTime: 250
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 2
+  * pathSearchWidth: 15
+  * targetLocking: false
+  * impactDelay: 1000
   * reload: 1500
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * xp: 0
   * eventButtonString: hn_open_galaxy
-  * attackShieldBorder: false
-  * retargetingOffset: 20
-  * size: 7
-  * clipRetargeting: true
-  * targetLocking: false
-  * strictCoolDown: false
-  * projectileType: projectileEmpireTognath
-  * impactDelay: 1000
-  * eventFeaturesString: fragment_obtain_gen
-  * shotCount: 4
-  * overWalls: false
   * shotDelay: 500
-  * favoriteTargetType: champion
-  * armingDelay: 0
-  * splash: 0
   * autoSpawnRateScale: 2
-  * sizey: 1
-  * pathSearchWidth: 15
+  * overWalls: false
   * upgradeShardUid: shrd_troopEmpireTognath
+  * retargetingOffset: 20
+  * projectileType: projectileEmpireTognath
   * maxScale: false
+  * clipRetargeting: true
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * attackShieldBorder: false
+  * favoriteTargetType: champion
+  * shotCount: 4
+  * eventButtonAction: galaxy
   * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
   * unlockedByEvent: true
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * size: 7
 
 |Level          |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
 |ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 |iconUnlockScale|1.2,1.2,1.2        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)         |
+|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
 

@@ -7,13 +7,14 @@ category: unit
 
 ## Main stats
 
-  * Side: tusken
+  * Side: Tusken Raiders
+  * Buildable unit: Yes
   * Type: infantry
   * Armor type: infantry
   * Role: Striker
   * Levels available: 1
   * Upgrade requirements: 1500$
-  * Upgrade time: 10
+  * Upgrade time: 10s
   * Health: 200
   * Damage*: 2
   * Damage per second*: 1
@@ -25,7 +26,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _HQ (60)_, _Droideka (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Infantry (60)_, _Other building (60)_, _Flying infantry (60)_, _Turret (60)_, _Light vehicle (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Shield generator (50), Shield (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Ressource generator (66)**, **Storage (66)**, _Light vehicle (60)_, _Heavy vehicle (60)_, _Flying vehicle (60)_, _Heavy infantry (60)_, _Turret (60)_, _Flying infantry (60)_, _Droideka (60)_, _HQ (60)_, _Support troop (60)_, _Other building (60)_, _Infantry (60)_, Shield (50), Shield generator (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -48,51 +49,50 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCameraPosition: 10,11.38,12.75
-  * bundleName: raiderrifle_tkn-ani
   * iconLookatPosition: -0.17,1.62,0.41
-  * newRotationSpeed: 7854
-  * playerFacing: true
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * assetName: raiderrifle_tkn-ani
   * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * bundleName: raiderrifle_tkn-ani
+  * newRotationSpeed: 7854
+  * assetName: raiderrifle_tkn-ani
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
   * gunSequence: 1
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * iconCameraPosition: 10,11.38,12.75
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * chargeTime: 250
-  * targetedType: ENEMIES
-  * pointValue: 1.000
-  * reload: 2000
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 10
-  * size: 1
-  * clipRetargeting: false
-  * targetLocking: false
-  * projectileType: projectileTusken
-  * impactDelay: 1000
-  * overWalls: false
-  * order: 332101
-  * favoriteTargetType: none
-  * armingDelay: 0
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 500
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 3
-  * maxScale: false
   * targetInRangeModifier: 1
+  * pointValue: 1.000
+  * size: 1
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * reload: 2000
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * order: 332101
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 10
+  * projectileType: projectileTusken
+  * shotCount: 3
+  * deathAnimation: buffFireBurn:15
+  * targetLocking: false
+  * attackShieldBorder: false
+  * favoriteTargetType: none
+  * autoSpawnSpreadingScale: 1
+  * overWalls: false
+  * shotDelay: 500
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 

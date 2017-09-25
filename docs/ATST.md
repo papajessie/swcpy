@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: vehicle
   * Armor type: vehicle
   * Role: Generic
@@ -19,7 +20,7 @@ category: unit
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|200000$|385000$|1250000$|2250000$|
-|Upgrade time        |0    |3600 |9000 |25200 |72000 |216000 |345600 |518400 |691200  |1036800 |
+|Upgrade time        |0s   |1h   |2h30m|7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Health              |11200|12560|14100|15850 |17840 |20120  |24200  |26400  |28600   |33000   |
 |Damage*             |1260 |1410 |1580 |1780  |2000  |2260   |2723   |2970   |3218    |3713    |
 |Damage per second*  |1120 |1250 |1400 |1580  |1780  |2010   |2420   |2640   |2860    |3300    |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|700$                           |800$                                   |900$                                   |1100$                                  |1300$                                  |1500$                                  |1700$                                  |2000$                                  |2100$                                  |2300$                                   |
 |Training time|210                            |220                                    |230                                    |240                                    |250                                    |260                                    |270                                    |280                                    |290                                    |300                                     |
-|Building 0   |[Factory 2](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Factory 2](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,52 +55,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.00,3.16,0.00
-  * animationDelay: 0
-  * iconCameraPosition: 29.51,14.98,34.56
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atst_emp-ani
+  * newRotationSpeed: 7854
+  * assetName: atst_emp-ani
+  * gunSequence: 1,2
+  * buffAssetOffset: 0.00,3.16,0.00
+  * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * factoryRotation: 0
+  * animationDelay: 0
   * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
   * iconLookatPosition: 0.17,2.95,0.85
-  * newRotationSpeed: 7854
-  * playerFacing: true
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * assetName: atst_emp-ani
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioDeath: "sfx_death_walker_1":100
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunSequence: 1,2
+  * iconCameraPosition: 29.51,14.98,34.56
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * chargeTime: 1000
-  * targetedType: ENEMIES
-  * reload: 1000
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 16
-  * size: 10
-  * clipRetargeting: false
-  * targetLocking: false
-  * armingDelay: 0
-  * projectileType: projectileATST
-  * impactDelay: 500
-  * overWalls: false
-  * favoriteTargetType: closest
   * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 2
-  * shotDelay: 250
+  * targetInRangeModifier: 1
+  * size: 10
+  * chargeTime: 1000
   * pathSearchWidth: 15
+  * impactDelay: 500
+  * reload: 1000
   * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * xp: 0
+  * autoSpawnRateScale: 2
+  * retargetingOffset: 16
+  * projectileType: projectileATST
   * shotCount: 2
   * maxScale: false
-  * targetInRangeModifier: 1
+  * targetLocking: false
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
+  * clipRetargeting: false
+  * overWalls: false
+  * shotDelay: 250
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

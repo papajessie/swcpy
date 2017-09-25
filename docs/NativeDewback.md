@@ -7,7 +7,7 @@ category: unit
 
 ## Main stats
 
-  * Side: Independent units
+  * Side: Independant units
   * Type: infantry
   * Armor type: infantry
   * Role: Breacher
@@ -18,8 +18,9 @@ category: unit
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Buildable unit      |Yes  |Yes  |Yes  |Yes   |Yes   |Yes    |Yes    |No     |No      |No      |
 |Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0    |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
+|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |6000 |7200 |8400 |9600  |10800 |12000  |13200  |14400  |15600   |18000   |
 |Damage*             |528  |634  |740  |845   |951   |1056   |1162   |1268   |1373    |1584    |
 |Damage per second*  |754  |905  |1057 |1207  |1358  |1508   |1660   |1811   |1961    |2262    |
@@ -28,14 +29,14 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
 
 ## Recruiting
 
-  * Building 0: [Barracks 4](smugglerBarracks.html)
+  * Building: [Barracks 4](smugglerBarracks.html)
 
 |Level        |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |-------------|----|----|----|----|----|----|----|----|----|----|
@@ -55,56 +56,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.00,0.60,0.00
-  * animationDelay: 1000
-  * iconCameraPosition: 14.52,11.43,15.95
-  * bundleName: dewback_neu-ani
-  * iconLookatPosition: -0.75,0.91,-0.52
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * assetName: dewback_neu-ani
   * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
   * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * bundleName: dewback_neu-ani
+  * newRotationSpeed: 7854
+  * assetName: dewback_neu-ani
   * gunSequence: 1
-
-|Level       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
-|------------|----|----|----|----|----|----|----|-----|-----|-----|
-|playerFacing|true|true|true|true|true|true|true|false|false|false|
+  * buffAssetOffset: 0.00,0.60,0.00
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * factoryRotation: 0
+  * animationDelay: 1000
+  * iconLookatPosition: -0.75,0.91,-0.52
+  * iconCameraPosition: 14.52,11.43,15.95
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
-  * chargeTime: 500
-  * targetedType: ENEMIES
-  * reload: 0
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 4
-  * size: 3
-  * clipRetargeting: false
-  * armingDelay: 0
-  * projectileType: projectileDewback
-  * impactDelay: 0
-  * overWalls: false
-  * favoriteTargetType: closest
-  * splash: 0
   * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 750
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 5
-  * maxScale: false
   * targetInRangeModifier: 1
+  * size: 3
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * clipRetargeting: false
+  * impactDelay: 0
+  * reload: 0
+  * xp: 0
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 4
+  * projectileType: projectileDewback
+  * shotCount: 5
+  * deathAnimation: buffFireBurn:15
+  * targetLocking: false
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * overWalls: false
+  * shotDelay: 750
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
