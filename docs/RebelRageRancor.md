@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -46,75 +46,79 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 16
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.61,3.05,-1.83
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * playerFacing: false
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 33.71,44.06,48.37
+  * newRotationSpeed: 2000
+  * bundleName: rancorrage_neu-ani
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * assetName: rancorrage_neu-ani
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * factoryRotation: 0
+  * gunSequence: 2,1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 960
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+
 ## Uninterpreted stats
 
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 2,1
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 1
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * runThreshold: 0
-  * armorType: bruiserInfantry
-  * animationDelay: 960
-  * bundleName: rancorrage_neu-ani
-  * iconLookatPosition: -0.61,3.05,-1.83
-  * shieldHealth: 0
-  * reload: 1910
-  * faction: rebel
-  * crushesWalls: true
-  * newRotationSpeed: 2000
-  * clipRetargeting: true
-  * type: infantry
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 1
   * overWalls: false
-  * targetInRangeModifier: 1
+  * crushesWalls: true
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
   * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 1
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * retargetingOffset: 8
-  * iconCameraPosition: 33.71,44.06,48.37
-  * factoryScaleFactor: 1
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * unitID: RebelRageRancor
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 270
-  * projectileType: projectileAOERancor
-  * assetName: rancorrage_neu-ani
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * chargeTime: 500
-  * playerFacing: false
+  * pathSearchWidth: 1
+  * role: Generic
+  * clipRetargeting: true
+  * impactDelay: 0
+  * sizex: 1
+  * reload: 1910
   * acceleration: 0
-  * size: 50
-  * targetLocking: false
-  * maxScale: false
+  * attackShieldBorder: false
+  * shotDelay: 270
   * maxSpeed: 10
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserInfantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileAOERancor
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 1
+  * trap: 0
+  * faction: rebel
+  * size: 50
+  * type: infantry
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level     |1     |2     |3     |4     |5     |6      |7      |8      |9      |10     |
 |----------|------|------|------|------|------|-------|-------|-------|-------|-------|
 |lvl       |1     |2     |3     |4     |5     |6      |7      |8      |9      |10     |
-|order     |225401|225402|225403|225404|225405|225406 |225407 |225408 |225409 |225410 |
 |pointValue|50.000|60.000|70.000|80.000|90.000|100.000|110.000|120.000|130.000|150.000|
+|order     |225401|225402|225403|225404|225405|225406 |225407 |225408 |225409 |225410 |
 

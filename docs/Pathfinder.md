@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Ressource generator, Storage, HQ, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Ressource generator, Storage, Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -46,80 +46,84 @@ category: unit
   * Shield generator: 50
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Ressource generator, Storage, HQ, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Ressource generator, Storage, Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 1.45,1.64,9.17
+  * iconLookatPosition: 0.09,1.73,0.11
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.01,2.68,-0.31
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 10.61,11.75,12.82
+  * newRotationSpeed: 7854
+  * bundleName: pathfndr_rbl-ani
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * assetName: pathfndr_rbl-ani
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+
 ## Uninterpreted stats
 
-  * favoriteTargetType: resource
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 1.45,1.64,9.17
+  * xp: 0
+  * favoriteTargetType: resource
+  * shieldRange: 0
+  * retargetingOffset: 8
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * role: Looter
+  * clipRetargeting: false
+  * impactDelay: 0
+  * sizex: 1
+  * size: 2
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 0
+  * maxSpeed: 40
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * projectileType: projectilePathfinder
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * reload: 800
+  * shotCount: 1
+  * trap: 0
+  * faction: rebel
+  * type: infantry
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 0
-  * bundleName: pathfndr_rbl-ani
-  * type: infantry
-  * iconLookatPosition: 0.09,1.73,0.11
-  * reload: 800
-  * faction: rebel
-  * playerFacing: true
-  * acceleration: 0
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 1
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * retargetingOffset: 8
-  * iconCameraPosition: 10.61,11.75,12.82
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: -0.01,2.68,-0.31
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * unitID: Pathfinder
-  * role: Looter
-  * targetPreferenceStrength: 90
-  * shotDelay: 0
-  * projectileType: projectilePathfinder
-  * assetName: pathfndr_rbl-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * chargeTime: 250
-  * maxScale: false
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * size: 2
-  * targetLocking: false
-  * maxSpeed: 40
-  * deathAnimation: buffFireBurn:15
+  * runThreshold: 0
 
 |Level       |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelBarracks4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |220401            |220402              |220403              |220404              |220405              |220406              |220407              |220408              |220409              |220410               |
 |pointValue  |2.000             |2.400               |2.800               |3.200               |3.600               |4.000               |4.400               |4.800               |5.200               |6.000                |
+|order       |220401            |220402              |220403              |220404              |220405              |220406              |220407              |220408              |220409              |220410               |
 

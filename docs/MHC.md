@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -46,77 +46,81 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * playerFacing: true
+  * buffAssetOffset: 0.00,0.90,0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 30.35,41.15,37.35
+  * newRotationSpeed: 15708
+  * bundleName: umhc_emp-ani
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * assetName: umhc_emp-ani
+  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
+  * factoryRotation: 90
+  * gunSequence: 1
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_umhc_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.90,0
-  * favoriteTargetType: turret
-  * factoryRotation: 90
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_empire_umhc_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 200
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
-  * runThreshold: 0
-  * armorType: vehicle
-  * animationDelay: 0
-  * bundleName: umhc_emp-ani
-  * iconLookatPosition: -0.33,0.73,-0.17
-  * shieldHealth: 0
-  * reload: 900
-  * faction: empire
-  * playerFacing: true
   * crushesWalls: false
-  * newRotationSpeed: 15708
-  * clipRetargeting: true
-  * type: vehicle
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 2
-  * overWalls: false
-  * targetInRangeModifier: 1
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
   * shieldRange: 0
-  * impactDelay: 500
-  * shotCount: 1
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
   * retargetingOffset: 20
-  * iconCameraPosition: 30.35,41.15,37.35
-  * factoryScaleFactor: 1
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * unitID: MHC
-  * role: Striker
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileMHC
-  * assetName: umhc_emp-ani
-  * audioPlacement: "sfx_placement_empire_atat_1":100
   * chargeTime: 900
-  * maxScale: false
+  * pathSearchWidth: 200
+  * role: Striker
+  * clipRetargeting: true
+  * impactDelay: 500
+  * sizex: 2
+  * reload: 900
   * acceleration: 0
-  * size: 12
-  * targetLocking: false
+  * attackShieldBorder: false
+  * shotDelay: 200
   * maxSpeed: 10
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileMHC
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 2
+  * shotCount: 1
+  * trap: 0
+  * faction: empire
+  * size: 12
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements|['empireFactory7']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|order       |130701            |130702               |130703               |130704               |130705               |130706               |130707               |130708               |130709               |130710                |
 |pointValue  |12.000            |14.400               |16.800               |19.200               |21.600               |24.000               |26.400               |28.800               |31.200               |36.000                |
+|order       |130701            |130702               |130703               |130704               |130705               |130706               |130707               |130708               |130709               |130710                |
 

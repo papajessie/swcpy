@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,76 +46,80 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 31.02,16.53,48.25
+  * iconLookatPosition: -0.49,0.88,-0.24
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.49,0.88,-0.24
+  * buffAssetOffset: 0.00,1.75,0.00
+  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
+  * iconCameraPosition: 31.02,16.53,48.25
+  * newRotationSpeed: 2000
+  * bundleName: hovertankrebel_rbl-ani
+  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
+  * assetName: hovertankrebel_rbl-ani
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryRotation: 0
+  * gunSequence: 1,1,1,1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,1.75,0.00
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,1,1,1
+  * requirements: ['rebelHQ2']
+  * crushesWalls: false
   * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 31.02,16.53,48.25
+  * xp: 0
+  * favoriteTargetType: turret
+  * shieldRange: 0
+  * retargetingOffset: 12
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * role: Bruiser
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 2000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * pointValue: 1.000
+  * shotDelay: 800
+  * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserVehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileAAT1
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 3
+  * shotCount: 16
+  * trap: 0
+  * faction: rebel
+  * size: 9
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 2
-  * requirements: ['rebelHQ2']
-  * runThreshold: 0
-  * armorType: bruiserVehicle
-  * animationDelay: 0
-  * bundleName: hovertankrebel_rbl-ani
-  * type: vehicle
-  * iconLookatPosition: -0.49,0.88,-0.24
-  * reload: 2000
-  * faction: rebel
-  * playerFacing: false
-  * pointValue: 1.000
-  * overWalls: false
-  * newRotationSpeed: 2000
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 3
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 16
-  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
-  * retargetingOffset: 12
-  * iconCameraPosition: 31.02,16.53,48.25
-  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * iconCloseupLookatPosition: -0.49,0.88,-0.24
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * unitID: RebelHovertankSample
-  * role: Bruiser
-  * targetPreferenceStrength: 90
-  * shotDelay: 800
-  * projectileType: projectileAAT1
-  * assetName: hovertankrebel_rbl-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * chargeTime: 250
-  * maxScale: false
-  * acceleration: 0
-  * size: 9
-  * targetLocking: false
-  * maxSpeed: 20
+  * runThreshold: 0
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Shield generator, Shield, Heavy infantry, Turret, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,77 +46,81 @@ category: unit
   * Shield generator: 70
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Shield generator, Shield, Heavy infantry, Turret, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.59,2.38,-0.99
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * playerFacing: true
+  * buffAssetOffset: 0.00,1.94,0.00
+  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
+  * iconCameraPosition: 20.98,26.07,34.08
+  * newRotationSpeed: 3927
+  * bundleName: atap_rbl-ani
+  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * assetName: atap_rbl-ani
+  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
+  * factoryRotation: 0
+  * gunSequence: 1,2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * audioDeath: "sfx_death_rebel_atap_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,1.94,0.00
-  * favoriteTargetType: shieldGenerator
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_rebel_atap_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * runThreshold: 0
-  * armorType: vehicle
-  * animationDelay: 0
-  * bundleName: atap_rbl-ani
-  * iconLookatPosition: -0.59,2.38,-0.99
-  * shieldHealth: 0
-  * reload: 2000
-  * faction: rebel
-  * playerFacing: true
   * crushesWalls: false
-  * newRotationSpeed: 3927
-  * clipRetargeting: false
-  * type: vehicle
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 1
-  * overWalls: false
-  * targetInRangeModifier: 1
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: shieldGenerator
   * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 4
-  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
   * retargetingOffset: 16
-  * iconCameraPosition: 20.98,26.07,34.08
-  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
-  * sizex: 2
-  * attackShieldBorder: true
-  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
-  * unitID: ATAP
-  * role: Destroyer
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileATAP
-  * assetName: atap_rbl-ani
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * chargeTime: 250
-  * maxScale: false
+  * pathSearchWidth: 15
+  * role: Destroyer
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 2000
   * acceleration: 0
-  * size: 10
-  * targetLocking: false
+  * attackShieldBorder: true
+  * shotDelay: 200
   * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileATAP
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 4
+  * trap: 0
+  * faction: rebel
+  * size: 10
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelFactory4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |230401           |230402              |230403              |230404              |230405              |230406              |230407              |230408              |230409              |230410               |
 |pointValue  |10.000           |12.000              |14.000              |16.000              |18.000              |20.000              |22.000              |24.000              |26.000              |30.000               |
+|order       |230401           |230402              |230403              |230404              |230405              |230406              |230407              |230408              |230409              |230410               |
 

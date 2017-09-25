@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Heavy infantry, HQ, Ressource generator, Turret, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Heavy vehicle, Other building, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,84 +46,91 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Heavy infantry, HQ, Ressource generator, Turret, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Heavy vehicle, Other building, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
-## Uninterpreted stats
+## Presentation stats
 
-  * spawnEffectUid: effectRebelSpawn
-  * buffAssetOffset: 0.00,0.65,0.00
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * uiDecalAssetName: HeroDecalNeutral
-  * shieldAssetName: effectRebelDroidekaShield1
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,1,2,2
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * splash: 0
-  * runSpeed: 100
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 7
-  * armorType: champion
-  * decalSize: 160
-  * bundleName: droideka_con-ani-up1
-  * type: champion
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
   * iconLookatPosition: -0.39,1.23,-0.21
-  * reload: 500
-  * faction: smuggler
   * playerFacing: true
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 20
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
-  * targetInRangeModifier: 1
-  * shieldRange: 3
-  * impactDelay: 1000
-  * shotCount: 6
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
-  * retargetingOffset: 100
-  * iconCameraPosition: 18.67,14.16,15.1
+  * buffAssetOffset: 0.00,0.65,0.00
   * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * decalAssetName: tac_hero_neu
-  * sizex: 1
-  * attackShieldBorder: false
+  * iconCameraPosition: 18.67,14.16,15.1
+  * newRotationSpeed: 7854
+  * bundleName: droideka_con-ani-up1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
+  * shieldAssetName: effectRebelDroidekaShield1
   * tooltipHeightOffset: 1.5
-  * decalBundleName: tac_hero_neu
-  * unitID: SmugglerDroideka
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileChampionRebelDroideka
+  * factoryRotation: 0
+  * gunSequence: 1,1,2,2
   * assetName: droideka_con-ani-up1
-  * chargeTime: 500
-  * maxScale: false
+  * decalSize: 160
   * animationDelay: 0
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 30
 
 |Level         |1                                                                                                                                      |2                                                                                                                                      |3                                                                                                                                      |4                                                                                                                                      |5                                                                                                                                      |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|shieldHealth  |12000                                                                                                                                  |12000                                                                                                                                  |12000                                                                                                                                  |12000                                                                                                                                  |12000                                                                                                                                  |14400                                                                                                                                  |17760                                                                                                                                  |27360                                                                                                                                  |33120                                                                                                                                  |36000                                                                                                                                  |
-|audioDeath    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
-|requirements  |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka6']                                                                                                          |['smugglerPlatformDroideka7']                                                                                                          |['smugglerPlatformDroideka8']                                                                                                          |['smugglerPlatformDroideka9']                                                                                                          |['smugglerPlatformDroideka10']                                                                                                         |
-|lvl           |1                                                                                                                                      |2                                                                                                                                      |3                                                                                                                                      |4                                                                                                                                      |5                                                                                                                                      |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
-|order         |314701                                                                                                                                 |314702                                                                                                                                 |314703                                                                                                                                 |314704                                                                                                                                 |314705                                                                                                                                 |314706                                                                                                                                 |314707                                                                                                                                 |314708                                                                                                                                 |314709                                                                                                                                 |314710                                                                                                                                 |
-|pointValue    |20.000                                                                                                                                 |20.000                                                                                                                                 |20.000                                                                                                                                 |20.000                                                                                                                                 |20.000                                                                                                                                 |40.000                                                                                                                                 |68.000                                                                                                                                 |148.000                                                                                                                                |188.000                                                                                                                                |200.000                                                                                                                                |
-|audioAttack   |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
 |audioPlacement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
+|audioAttack   |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
+|audioDeath    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
+
+## Uninterpreted stats
+
+  * crushesWalls: false
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
+  * shieldRange: 3
+  * retargetingOffset: 100
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 1
+  * reload: 500
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_neu
+  * shotDelay: 200
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: champion
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * decalBundleName: tac_hero_neu
+  * targetPreferenceStrength: 90
+  * projectileType: projectileChampionRebelDroideka
+  * uiDecalAssetName: HeroDecalNeutral
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 6
+  * spawnEffectUid: effectRebelSpawn
+  * trap: 0
+  * faction: smuggler
+  * size: 1
+  * type: champion
+  * overWalls: false
+  * runSpeed: 100
+  * shieldCooldown: 20
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 7
+
+|Level       |1                            |2                            |3                            |4                            |5                            |6                            |7                            |8                            |9                            |10                            |
+|------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|
+|requirements|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka6']|['smugglerPlatformDroideka7']|['smugglerPlatformDroideka8']|['smugglerPlatformDroideka9']|['smugglerPlatformDroideka10']|
+|lvl         |1                            |2                            |3                            |4                            |5                            |6                            |7                            |8                            |9                            |10                            |
+|pointValue  |20.000                       |20.000                       |20.000                       |20.000                       |20.000                       |40.000                       |68.000                       |148.000                      |188.000                      |200.000                       |
+|order       |314701                       |314702                       |314703                       |314704                       |314705                       |314706                       |314707                       |314708                       |314709                       |314710                        |
+|shieldHealth|12000                        |12000                        |12000                        |12000                        |12000                        |14400                        |17760                        |27360                        |33120                        |36000                         |
 

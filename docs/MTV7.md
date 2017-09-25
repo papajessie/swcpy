@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Ressource generator, Storage, HQ, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Other building, Wall
+  * Target preferences: Ressource generator, Storage, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Support troop, Wall
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -46,88 +46,92 @@ category: unit
   * Shield generator: 50
   * Storage: 80
   * Support troop: 50
-  * Target preferences: Ressource generator, Storage, HQ, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Other building, Wall
+  * Target preferences: Ressource generator, Storage, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Support troop, Wall
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: 0.04,1.16,0.04
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * playerFacing: true
+  * buffAssetOffset: 0.00,0.41,0.0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 17.7,17.49,19.17
+  * newRotationSpeed: 7854
+  * bundleName: mtv7_emp-ani
+  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
+  * assetName: mtv7_emp-ani
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.41,0.0
-  * favoriteTargetType: resource
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * ability: abilityMTVIonShot
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * runThreshold: 0
-  * armorType: vehicle
-  * animationDelay: 0
-  * bundleName: mtv7_emp-ani
-  * iconLookatPosition: 0.04,1.16,0.04
-  * shieldHealth: 0
-  * reload: 800
-  * faction: empire
-  * playerFacing: true
-  * upgradeShardUid: shrd_troopMTV7
-  * overWalls: false
-  * eventButtonString: hn_open_hth
-  * attackShieldBorder: false
-  * eventButtonAction: planet
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 2
-  * crushesWalls: false
   * eventButtonData: planet21
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * newRotationSpeed: 7854
-  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
-  * retargetingOffset: 20
-  * iconCameraPosition: 17.7,17.49,19.17
-  * projectileType: projectileMTV7
-  * sizex: 1
-  * clipRetargeting: false
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * unitID: MTV7
-  * role: Looter
-  * targetPreferenceStrength: 90
-  * shotDelay: 0
+  * crushesWalls: false
+  * armingDelay: 0
   * selfCenteredTargeting: false
-  * type: vehicle
-  * assetName: mtv7_emp-ani
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * xp: 0
+  * favoriteTargetType: resource
+  * shieldRange: 0
+  * retargetingOffset: 20
   * chargeTime: 250
-  * maxScale: false
-  * trap: 0
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * clipRetargeting: false
+  * pathSearchWidth: 15
+  * impactDelay: 1000
+  * role: Looter
+  * sizex: 1
+  * reload: 800
   * acceleration: 0
-  * size: 5
-  * targetLocking: false
+  * attackShieldBorder: false
+  * shotDelay: 0
   * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * eventFeaturesString: fragment_obtain_gen
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileMTV7
+  * eventButtonAction: planet
+  * maxScale: false
+  * eventButtonString: hn_open_hth
+  * targetedType: ENEMIES
   * unlockedByEvent: true
+  * sizey: 2
+  * shotCount: 1
+  * trap: 0
+  * faction: empire
+  * size: 5
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * upgradeShardUid: shrd_troopMTV7
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * ability: abilityMTVIonShot
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level             |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|iconUnlockRotation|0,0,0             |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|lvl               |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|order             |131101            |131102               |131103               |131104               |131105               |131106               |131107               |131108               |131109               |131110                |
-|pointValue        |5.000             |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
-|iconUnlockPosition|0,0,0             |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |requirements      |['empireFactory1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |iconUnlockScale   |1,1,1             |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|lvl               |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|iconUnlockRotation|0,0,0             |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|pointValue        |5.000             |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
+|iconUnlockPosition|0,0,0             |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|order             |131101            |131102               |131103               |131104               |131105               |131106               |131107               |131108               |131109               |131110                |
 

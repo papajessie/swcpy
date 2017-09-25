@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Shield, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Shield, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,85 +46,89 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Shield, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Shield, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * iconLookatPosition: 0.43,1.85,0.73
+  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.18,2.49,0.11
+  * buffAssetOffset: 0.00,0.43,0.0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.14,6.79,20.25
+  * newRotationSpeed: 7854
+  * bundleName: gamorreanguard_con-ani
+  * gunSequence: 1
+  * assetName: gamorreanguard_con-ani
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 600
+  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.43,0.0
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * deathProjectileDelay: 3600
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * shieldHealth: 0
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: bruiserInfantry
-  * animationDelay: 600
-  * bundleName: gamorreanguard_con-ani
-  * type: mercenary
-  * iconLookatPosition: 0.43,1.85,0.73
-  * reload: 500
   * faction: rebel
-  * playerFacing: true
-  * acceleration: 0
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
   * crushesWalls: false
-  * targetInRangeModifier: 1
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
   * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 1
   * retargetingOffset: 10
-  * iconCameraPosition: 9.14,6.79,20.25
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: 0.18,2.49,0.11
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * unitID: RebelGamorreanWarrior
+  * deathProjectileDelay: 3600
+  * chargeTime: 400
+  * pathSearchWidth: 15
   * role: Bruiser
-  * deathProjectile: projectileDeathVibroAx
-  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * sizex: 1
+  * overWalls: false
+  * acceleration: 0
+  * clipRetargeting: false
+  * maxSpeed: 20
   * shotDelay: 0
   * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
-  * projectileType: projectileMeleeVibroAx
-  * assetName: gamorreanguard_con-ani
-  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
-  * chargeTime: 400
-  * maxScale: false
-  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
-  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
-  * size: 6
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserInfantry
+  * armingDelay: 0
   * targetLocking: false
-  * maxSpeed: 20
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * impactDelay: 0
+  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
   * deathProjectileDistance: 17
+  * deathProjectile: projectileDeathVibroAx
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * reload: 500
+  * shotCount: 1
+  * projectileType: projectileMeleeVibroAx
+  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
+  * trap: 0
+  * size: 6
+  * type: mercenary
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level                |1                          |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------------|---------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements         |['rebelContrabandCantina1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl                  |1                          |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order                |215101                     |215102              |215103              |215104              |215105              |215106              |215107              |215108              |215109              |215110               |
-|pointValue           |4.000                      |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
 |deathProjectileDamage|1750                       |2000                |2250                |2500                |2750                |3000                |3250                |3500                |3750                |4000                 |
+|pointValue           |4.000                      |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
+|order                |215101                     |215102              |215103              |215104              |215105              |215106              |215107              |215108              |215109              |215110               |
 

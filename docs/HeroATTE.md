@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Shield generator, Shield, Heavy infantry, Turret, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -46,91 +46,95 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Shield generator, Shield, Heavy infantry, Turret, Infantry, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 12
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * playerFacing: true
+  * buffAssetOffset: 0.00,1.46,0.00
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 36.44,26.49,49.08
+  * newRotationSpeed: 3927
+  * bundleName: attehero_rbl-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * assetName: attehero_rbl-ani
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryRotation: 0
+  * gunSequence: 1
+  * decalSize: 320
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_walker_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,1.46,0.00
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * crushesWalls: true
+  * selfCenteredTargeting: false
+  * xp: 0
   * favoriteTargetType: shieldGenerator
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
+  * shieldRange: 0
+  * retargetingOffset: 20
+  * chargeTime: 500
+  * role: Destroyer
+  * clipRetargeting: false
+  * pathSearchWidth: 200
+  * impactDelay: 500
+  * hologramUid: HeroHologramATTE
+  * sizex: 2
+  * reload: 1000
+  * acceleration: 0
+  * attackShieldBorder: true
+  * decalAssetName: tac_hero_rbl
+  * shotDelay: 400
+  * maxSpeed: 10
   * strictCoolDown: false
-  * gunSequence: 1
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserVehicle
+  * eventFeaturesString: fragment_obtain_gen
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 0
+  * targetPreferenceStrength: 90
+  * decalBundleName: tac_hero_rbl
+  * projectileType: projectileHeroATTE
+  * eventButtonAction: galaxy
+  * maxScale: false
+  * eventButtonString: hn_open_galaxy
+  * effectType: 2
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
+  * sizey: 2
+  * shotCount: 3
+  * trap: 0
+  * faction: rebel
+  * size: 1
+  * type: hero
+  * overWalls: true
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * upgradeShardUid: shrd_troopHeroATTE
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * pathSearchWidth: 200
-  * shotCount: 3
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * factoryScaleFactor: 1
-  * runThreshold: 0
-  * armorType: bruiserVehicle
-  * decalSize: 320
-  * bundleName: attehero_rbl-ani
-  * hologramUid: HeroHologramATTE
-  * acceleration: 0
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * reload: 1000
-  * faction: rebel
-  * playerFacing: true
-  * overWalls: true
-  * eventButtonString: hn_open_galaxy
-  * attackShieldBorder: true
-  * eventButtonAction: galaxy
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 0
-  * isFlying: false
-  * sizey: 2
-  * crushesWalls: true
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 500
-  * newRotationSpeed: 3927
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * retargetingOffset: 20
-  * iconCameraPosition: 36.44,26.49,49.08
-  * projectileType: projectileHeroATTE
-  * decalAssetName: tac_hero_rbl
-  * sizex: 2
-  * clipRetargeting: false
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * decalBundleName: tac_hero_rbl
-  * unitID: HeroATTE
-  * role: Destroyer
-  * targetPreferenceStrength: 90
-  * shotDelay: 400
-  * selfCenteredTargeting: false
-  * type: hero
-  * assetName: attehero_rbl-ani
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * chargeTime: 500
-  * maxScale: false
-  * trap: 0
-  * animationDelay: 0
-  * upgradeShardUid: shrd_troopHeroATTE
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 10
-  * unlockedByEvent: true
-  * effectType: 2
+  * runThreshold: 0
 
 |Level             |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|iconUnlockRotation|0,-20,0                  |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order             |211201                   |211202              |211203              |211204              |211205              |211206              |211207              |211208              |211209              |211210               |
-|pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
-|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 |requirements      |['rebelTacticalCommand5']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |iconUnlockScale   |0.5,0.5,0.5              |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|iconUnlockRotation|0,-20,0                  |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|order             |211201                   |211202              |211203              |211204              |211205              |211206              |211207              |211208              |211209              |211210               |
+|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

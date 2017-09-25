@@ -20,7 +20,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -43,73 +43,77 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 55
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: 0.17,2.95,0.85
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * playerFacing: true
+  * buffAssetOffset: 0.00,3.16,0.00
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 29.51,14.98,34.56
+  * newRotationSpeed: 3927
+  * bundleName: atst_emp-ani
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * assetName: atst_emp-ani
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * factoryRotation: 0
+  * gunSequence: 1,2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * audioDeath: "sfx_death_walker_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,3.16,0.00
-  * favoriteTargetType: none
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_walker_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 1
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 0
-  * bundleName: atst_emp-ani
-  * lvl: 1
-  * iconLookatPosition: 0.17,2.95,0.85
-  * shieldHealth: 0
-  * reload: 1000
-  * faction: smuggler
-  * order: 341501
-  * pointValue: 10.000
-  * crushesWalls: false
-  * newRotationSpeed: 3927
-  * clipRetargeting: false
-  * type: vehicle
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 2
   * overWalls: false
-  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: none
   * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 2
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
   * retargetingOffset: 16
-  * iconCameraPosition: 29.51,14.98,34.56
-  * factoryScaleFactor: 1
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * unitID: FueATST
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 250
-  * projectileType: projectileATST
-  * assetName: atst_emp-ani
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * lvl: 1
   * chargeTime: 1000
-  * playerFacing: true
+  * pathSearchWidth: 1
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 1000
   * acceleration: 0
-  * size: 10
-  * targetLocking: false
-  * maxScale: false
+  * attackShieldBorder: false
+  * pointValue: 10.000
+  * shotDelay: 250
   * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileATST
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 2
+  * shotCount: 2
+  * trap: 0
+  * faction: smuggler
+  * size: 10
+  * type: vehicle
+  * order: 341501
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 

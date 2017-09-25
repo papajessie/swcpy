@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 21
@@ -46,91 +46,95 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 21
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 0.64,0.41,9.27
+  * iconLookatPosition: -0.06,1.53,-0.1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.07,2.85,0.16
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 12.08,15.01,15.66
+  * newRotationSpeed: 7854
+  * bundleName: shotrper_emp-ani
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * assetName: shotrper_emp-ani
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+
 ## Uninterpreted stats
 
-  * unlockedByEvent: true
-  * favoriteTargetType: trap
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * iconCloseupCameraPosition: 0.64,0.41,9.27
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shotCount: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * runThreshold: 0
-  * animationDelay: 0
-  * bundleName: shotrper_emp-ani
-  * iconLookatPosition: -0.06,1.53,-0.1
-  * shieldHealth: 0
-  * reload: 3000
-  * faction: empire
-  * playerFacing: true
-  * armorType: bruiserInfantry
-  * upgradeShardUid: shrd_troopShock
-  * overWalls: false
-  * eventButtonString: hn_open_tat
-  * attackShieldBorder: false
-  * eventButtonAction: planet
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * eventButtonData: planet1
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * retargetingOffset: 18
-  * iconCameraPosition: 12.08,15.01,15.66
-  * iconCloseupLookatPosition: 0.07,2.85,0.16
-  * sizex: 1
-  * clipRetargeting: false
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * unitID: Shock
-  * role: Breacher
-  * targetPreferenceStrength: 90
-  * shotDelay: 250
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
-  * type: infantry
-  * assetName: shotrper_emp-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * xp: 0
+  * favoriteTargetType: trap
+  * shieldRange: 0
+  * retargetingOffset: 18
   * chargeTime: 500
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * role: Breacher
+  * sizex: 1
+  * overWalls: false
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 250
+  * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserInfantry
+  * eventFeaturesString: fragment_obtain_gen
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * targetPreferenceStrength: 90
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * eventButtonAction: planet
   * maxScale: false
+  * eventButtonString: hn_open_tat
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
+  * sizey: 1
+  * reload: 3000
+  * shotCount: 1
   * trap: 90
   * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * faction: empire
   * size: 3
-  * targetLocking: false
-  * maxSpeed: 20
-  * deathAnimation: buffFireBurn:15
-  * acceleration: 0
+  * type: infantry
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * upgradeShardUid: shrd_troopShock
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level             |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements      |['empireBarracks1']  |['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
+|iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|lvl               |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |pathSearchWidth   |15                   |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                   |
-|order             |121201               |121202               |121203               |121204               |121205               |121206               |121207               |121208               |121209               |121210                |
-|lvl               |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |pointValue        |3.000                |3.600                |4.200                |4.800                |5.400                |6.000                |6.600                |7.200                |7.800                |9.000                 |
 |iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|requirements      |['empireBarracks1']  |['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |projectileType    |projectileShockLevel1|projectileShockLevel2|projectileShockLevel3|projectileShockLevel4|projectileShockLevel5|projectileShockLevel6|projectileShockLevel7|projectileShockLevel8|projectileShockLevel9|projectileShockLevel10|
-|iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|order             |121201               |121202               |121203               |121204               |121205               |121206               |121207               |121208               |121209               |121210                |
 

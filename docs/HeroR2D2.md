@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
+  * Target preferences: Heavy vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Other building, Flying infantry, Droideka, Ressource generator, Wall, Flying vehicle, Shield, HQ, Support troop, Storage
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,83 +46,87 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
+  * Target preferences: Heavy vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Other building, Flying infantry, Droideka, Ressource generator, Wall, Flying vehicle, Shield, HQ, Support troop, Storage
   * Turret: 0
   * Vehicle hero: 50
   * View Range: 8
   * Wall: 0
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * iconLookatPosition: 0.21,1.31,0.18
+  * audioPlacement: "sfx_placement_hero_r2d2_1":100
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.04,1.41,0.02
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 8.1,8.48,14.32
+  * newRotationSpeed: 7854
+  * bundleName: r2d2_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunSequence: 1
+  * assetName: r2d2_rbl-ani
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * factoryRotation: 0
+  * decalSize: 160
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_r2d2_1":100
+
 ## Uninterpreted stats
 
-  * chargeTime: 500
-  * favoriteTargetType: vehicles
-  * factoryRotation: 0
-  * targetedType: ALLIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
+  * crushesWalls: false
   * selfCenteredTargeting: true
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * xp: 0
+  * favoriteTargetType: vehicles
+  * shieldRange: 0
+  * retargetingOffset: 4
+  * supportFollowDistance: 5
+  * pathSearchWidth: 15
+  * role: Healer
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * hologramUid: HeroHologramR2D2
+  * sizex: 1
+  * size: 1
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_rbl
+  * shotDelay: 100
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: healerInfantry
+  * armingDelay: 0
+  * targetLocking: true
+  * autoSpawnSpreadingScale: 2
+  * decalBundleName: tac_hero_rbl
+  * targetPreferenceStrength: 90
+  * maxScale: false
+  * targetedType: ALLIES
+  * sizey: 1
+  * reload: 1500
+  * chargeTime: 500
+  * shotCount: 2
+  * trap: 0
+  * faction: rebel
+  * type: hero
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * decalAssetName: tac_hero_rbl
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: healerInfantry
-  * decalSize: 160
-  * bundleName: r2d2_rbl-ani
-  * hologramUid: HeroHologramR2D2
-  * type: hero
-  * iconLookatPosition: 0.21,1.31,0.18
-  * reload: 1500
-  * faction: rebel
-  * playerFacing: true
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 2
-  * retargetingOffset: 4
-  * iconCameraPosition: 8.1,8.48,14.32
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalBundleName: tac_hero_rbl
-  * unitID: HeroR2D2
-  * role: Healer
-  * targetPreferenceStrength: 90
-  * shotDelay: 100
-  * assetName: r2d2_rbl-ani
-  * audioPlacement: "sfx_placement_hero_r2d2_1":100
-  * supportFollowDistance: 5
-  * maxScale: false
-  * animationDelay: 0
-  * acceleration: 0
-  * size: 1
-  * targetLocking: true
-  * maxSpeed: 30
+  * runThreshold: 0
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
 |requirements  |['rebelTacticalCommand5'] |['rebelOffenseLab2']      |['rebelOffenseLab3']      |['rebelOffenseLab4']      |['rebelOffenseLab5']      |['rebelOffenseLab6']      |['rebelOffenseLab7']      |['rebelOffenseLab8']      |['rebelOffenseLab9']      |['rebelOffenseLab10']      |
 |lvl           |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
-|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
 |pointValue    |20.000                    |24.000                    |28.000                    |32.000                    |36.000                    |40.000                    |44.000                    |48.000                    |52.000                    |60.000                     |
-|heroData      |hero1                     |hero2                     |hero3                     |hero4                     |hero5                     |hero6                     |hero7                     |hero8                     |hero9                     |hero10                     |
 |projectileType|projectileHealerR2D2Level1|projectileHealerR2D2Level2|projectileHealerR2D2Level3|projectileHealerR2D2Level4|projectileHealerR2D2Level5|projectileHealerR2D2Level6|projectileHealerR2D2Level7|projectileHealerR2D2Level8|projectileHealerR2D2Level9|projectileHealerR2D2Level10|
+|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
+|heroData      |hero1                     |hero2                     |hero3                     |hero4                     |hero5                     |hero6                     |hero7                     |hero8                     |hero9                     |hero10                     |
 

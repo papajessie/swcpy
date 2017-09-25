@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,83 +46,87 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.02,3.29,0.19
+  * audioPlacement: "sfx_placement_hero":100
+  * playerFacing: true
+  * buffAssetOffset: 0.00,2.83,0.0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 19.84,22.71,46.64
+  * newRotationSpeed: 7854
+  * bundleName: atsthero_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
+  * assetName: atsthero_emp-ani
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * factoryRotation: 0
+  * gunSequence: 1,2
+  * decalSize: 240
+  * animationDelay: 0
+  * audioDeath: "sfx_death_walker_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,2.83,0.0
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2
+  * crushesWalls: false
   * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
+  * shieldRange: 0
+  * retargetingOffset: 16
+  * chargeTime: 1000
+  * pathSearchWidth: 15
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 500
+  * hologramUid: HeroHologramEmpire1
+  * sizex: 1
+  * reload: 2000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_emp
+  * shotDelay: 250
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 0
+  * decalBundleName: tac_hero_emp
+  * targetPreferenceStrength: 90
+  * projectileType: projectileHeroATST
+  * maxScale: false
+  * effectType: 2
+  * targetedType: ENEMIES
+  * sizey: 2
+  * shotCount: 10
+  * trap: 0
+  * faction: empire
+  * size: 1
+  * type: hero
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_walker_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * shotCount: 10
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: vehicle
-  * decalSize: 240
-  * bundleName: atsthero_emp-ani
-  * type: hero
-  * iconLookatPosition: -0.02,3.29,0.19
-  * reload: 2000
-  * faction: empire
-  * playerFacing: true
-  * overWalls: false
-  * hologramUid: HeroHologramEmpire1
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 0
-  * isFlying: false
-  * sizey: 2
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 500
-  * newRotationSpeed: 7854
-  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
-  * retargetingOffset: 16
-  * iconCameraPosition: 19.84,22.71,46.64
-  * factoryScaleFactor: 1
-  * decalAssetName: tac_hero_emp
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * decalBundleName: tac_hero_emp
-  * unitID: HeroATST
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 250
-  * projectileType: projectileHeroATST
-  * assetName: atsthero_emp-ani
-  * audioPlacement: "sfx_placement_hero":100
-  * chargeTime: 1000
-  * maxScale: false
-  * animationDelay: 0
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 30
-  * effectType: 2
+  * runThreshold: 0
 
 |Level       |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements|['empireTacticalCommand1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|order       |110201                    |110202               |110203               |110204               |110205               |110206               |110207               |110208               |110209               |110210                |
 |pointValue  |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
+|order       |110201                    |110202               |110203               |110204               |110205               |110206               |110207               |110208               |110209               |110210                |
 |heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 

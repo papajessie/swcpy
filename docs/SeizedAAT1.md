@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,72 +46,76 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.48,1.51,-0.32
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * playerFacing: false
+  * buffAssetOffset: 0.00,1.75,0.00
+  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
+  * iconCameraPosition: 22.61,26.18,29.65
+  * newRotationSpeed: 2000
+  * bundleName: aat1_rbl-ani
+  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
+  * assetName: aat1_rbl-ani
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,1.75,0.00
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * targetedType: ENEMIES
   * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 2
-  * runThreshold: 0
-  * animationDelay: 0
-  * bundleName: aat1_rbl-ani
-  * iconLookatPosition: -0.48,1.51,-0.32
-  * shieldHealth: 0
-  * reload: 2000
-  * faction: empire
-  * armorType: bruiserVehicle
-  * crushesWalls: false
-  * newRotationSpeed: 2000
-  * clipRetargeting: false
-  * type: vehicle
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 3
-  * overWalls: false
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 4
-  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
-  * retargetingOffset: 12
-  * iconCameraPosition: 22.61,26.18,29.65
-  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * unitID: SeizedAAT1
-  * role: Bruiser
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileSeizedAAT1
-  * assetName: aat1_rbl-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * chargeTime: 250
-  * playerFacing: false
-  * acceleration: 0
-  * size: 9
   * targetLocking: false
+  * autoSpawnSpreadingScale: 2
   * maxScale: false
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * strictCoolDown: false
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
+  * projectileType: projectileSeizedAAT1
+  * shieldRange: 0
+  * retargetingOffset: 12
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * targetedType: ENEMIES
+  * clipRetargeting: false
+  * sizey: 3
+  * reload: 2000
+  * shotCount: 4
+  * attackShieldBorder: false
+  * impactDelay: 1000
+  * role: Bruiser
+  * sizex: 2
+  * overWalls: false
+  * trap: 0
+  * acceleration: 0
+  * shieldCooldown: 0
+  * faction: empire
+  * size: 9
+  * type: vehicle
+  * shotDelay: 200
   * maxSpeed: 20
+  * shieldHealth: 0
+  * isFlying: false
+  * armorType: bruiserVehicle
+  * runThreshold: 0
+  * autoSpawnRateScale: 2
+  * splash: 0
+  * targetInRangeModifier: 1
+  * runSpeed: 0
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|

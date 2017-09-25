@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
+  * Target preferences: Heavy vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Other building, Flying infantry, Droideka, Ressource generator, Wall, Flying vehicle, Shield, HQ, Support troop, Storage
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,87 +46,91 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
+  * Target preferences: Heavy vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Other building, Flying infantry, Droideka, Ressource generator, Wall, Flying vehicle, Shield, HQ, Support troop, Storage
   * Turret: 0
   * Vehicle hero: 50
   * View Range: 8
   * Wall: 0
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.2,0.77,-0.68
+  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
+  * playerFacing: true
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 5.8,11.77,14.32
+  * newRotationSpeed: 7854
+  * bundleName: treadwell_rbl-ani
+  * gunSequence: 1
+  * assetName: treadwell_rbl-ani
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
+
 ## Uninterpreted stats
 
-  * chargeTime: 250
-  * favoriteTargetType: vehicles
-  * factoryRotation: 0
-  * targetedType: ALLIES
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * crushesWalls: false
   * armingDelay: 0
+  * selfCenteredTargeting: true
+  * xp: 0
+  * favoriteTargetType: vehicles
+  * shieldRange: 0
+  * retargetingOffset: 10
+  * supportFollowDistance: 5
+  * role: Healer
+  * clipRetargeting: false
+  * pathSearchWidth: 15
+  * impactDelay: 1000
+  * infoUIType: Healer
+  * sizex: 1
+  * size: 5
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 500
+  * maxSpeed: 30
   * strictCoolDown: false
-  * gunSequence: 1
+  * isFlying: false
+  * splash: 0
+  * armorType: healerInfantry
+  * eventFeaturesString: fragment_obtain_gen
+  * targetLocking: true
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
+  * eventButtonAction: galaxy
+  * maxScale: false
+  * eventButtonString: hn_open_galaxy
+  * targetedType: ALLIES
+  * unlockedByEvent: true
+  * sizey: 1
+  * reload: 2000
+  * chargeTime: 250
+  * shotCount: 1
+  * trap: 0
+  * faction: rebel
+  * type: infantry
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * upgradeShardUid: shrd_troopTreadwell
   * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: healerInfantry
-  * animationDelay: 0
-  * bundleName: treadwell_rbl-ani
-  * type: infantry
-  * iconLookatPosition: -0.2,0.77,-0.68
-  * reload: 2000
-  * faction: rebel
-  * playerFacing: true
-  * upgradeShardUid: shrd_troopTreadwell
-  * overWalls: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: false
-  * eventButtonAction: galaxy
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * newRotationSpeed: 7854
-  * retargetingOffset: 10
-  * iconCameraPosition: 5.8,11.77,14.32
-  * factoryScaleFactor: 1
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * unitID: Treadwell
-  * role: Healer
-  * infoUIType: Healer
-  * targetPreferenceStrength: 90
-  * shotDelay: 500
-  * selfCenteredTargeting: true
-  * assetName: treadwell_rbl-ani
-  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
-  * supportFollowDistance: 5
-  * maxScale: false
-  * eventFeaturesString: fragment_obtain_gen
-  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
-  * size: 5
-  * targetLocking: true
-  * maxSpeed: 30
-  * unlockedByEvent: true
-  * acceleration: 0
+  * runThreshold: 0
 
 |Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |requirements      |['rebelBarracks2']  |['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |lvl               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
+|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |pointValue        |4.000               |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
 |iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |projectileType    |projectileTreadwell1|projectileTreadwell2|projectileTreadwell3|projectileTreadwell4|projectileTreadwell5|projectileTreadwell6|projectileTreadwell7|projectileTreadwell8|projectileTreadwell9|projectileTreadwell10|
-|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
 

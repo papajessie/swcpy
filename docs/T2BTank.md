@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,77 +46,81 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.25,0.58,-0.36
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * playerFacing: true
+  * buffAssetOffset: 0.00,0.51,0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 22.79,25.75,28.69
+  * newRotationSpeed: 3927
+  * bundleName: t2btank_rbl-ani
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * assetName: t2btank_rbl-ani
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryRotation: 0
+  * gunSequence: 1,1,2,2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 100
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.51,0
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,1,2,2
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 3
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * runThreshold: 0
-  * armorType: vehicle
-  * animationDelay: 100
-  * bundleName: t2btank_rbl-ani
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * shieldHealth: 0
-  * reload: 2000
-  * faction: rebel
-  * playerFacing: true
   * crushesWalls: false
-  * newRotationSpeed: 3927
-  * clipRetargeting: false
-  * type: vehicle
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 3
-  * isFlying: false
-  * sizey: 3
-  * overWalls: false
-  * targetInRangeModifier: 1
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
   * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 4
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
   * retargetingOffset: 16
-  * iconCameraPosition: 22.79,25.75,28.69
-  * factoryScaleFactor: 1
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * unitID: T2BTank
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileT2BTank
-  * assetName: t2btank_rbl-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * chargeTime: 250
-  * maxScale: false
+  * pathSearchWidth: 15
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 2000
   * acceleration: 0
-  * size: 7
-  * targetLocking: false
+  * attackShieldBorder: false
+  * shotDelay: 200
   * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 3
+  * targetPreferenceStrength: 90
+  * projectileType: projectileT2BTank
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 3
+  * shotCount: 4
+  * trap: 0
+  * faction: rebel
+  * size: 7
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 3
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelFactory2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |230201           |230202              |230203              |230204              |230205              |230206              |230207              |230208              |230209              |230210               |
 |pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
+|order       |230201           |230202              |230203              |230204              |230205              |230206              |230207              |230208              |230209              |230210               |
 

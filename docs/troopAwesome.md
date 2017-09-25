@@ -20,7 +20,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Infantry, Droideka, Support troop, Flying infantry, Turret, Heavy vehicle, Flying vehicle, Light vehicle, Ressource generator, Shield, Shield generator, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Heavy vehicle, Flying vehicle, Light vehicle, Shield generator, Other building, Ressource generator, Shield, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 3
   * Min. Range: 0
   * View Range: 8
@@ -43,77 +43,81 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 95
-  * Target preferences: Heavy infantry, Infantry, Droideka, Support troop, Flying infantry, Turret, Heavy vehicle, Flying vehicle, Light vehicle, Ressource generator, Shield, Shield generator, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy infantry, Infantry, Flying infantry, Droideka, Support troop, Turret, Heavy vehicle, Flying vehicle, Light vehicle, Shield generator, Other building, Ressource generator, Shield, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 90
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.51,2,0.29
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * playerFacing: true
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 6.91,15.66,23.15
+  * newRotationSpeed: 7854
+  * bundleName: tuskenhero_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunSequence: 1
+  * assetName: tuskenhero_tkn-ani
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * factoryRotation: 0
+  * decalSize: 160
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+
 ## Uninterpreted stats
 
-  * decalSize: 160
-  * favoriteTargetType: infantry
-  * factoryRotation: 0
-  * uiDecalAssetName: HeroDecalNeutral
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
+  * overWalls: false
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: infantry
+  * shieldRange: 0
+  * retargetingOffset: 6
+  * lvl: 1
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * role: Striker
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 1
+  * reload: 2000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_neu
+  * pointValue: 1.000
+  * shotDelay: 500
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * decalBundleName: tac_hero_neu
+  * targetPreferenceStrength: 90
+  * projectileType: projectileTuskenHero
+  * uiDecalAssetName: HeroDecalNeutral
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 1
+  * trap: 100
+  * faction: tusken
+  * size: 1
+  * type: infantry
+  * order: 322601
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 0
-  * bundleName: tuskenhero_tkn-ani
-  * type: infantry
-  * iconLookatPosition: -0.51,2,0.29
-  * lvl: 1
-  * reload: 2000
-  * faction: tusken
-  * playerFacing: true
-  * order: 322601
-  * pointValue: 1.000
   * heroData: hero9
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 100
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 1
-  * retargetingOffset: 6
-  * iconCameraPosition: 6.91,15.66,23.15
-  * factoryScaleFactor: 1
-  * decalAssetName: tac_hero_neu
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * decalBundleName: tac_hero_neu
-  * unitID: troopAwesome
-  * role: Striker
-  * targetPreferenceStrength: 90
-  * shotDelay: 500
-  * projectileType: projectileTuskenHero
-  * assetName: tuskenhero_tkn-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * chargeTime: 250
-  * maxScale: false
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 30
-  * deathAnimation: buffFireBurn:15
+  * runThreshold: 0
 
