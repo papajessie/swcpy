@@ -166,7 +166,8 @@ def main(argv):
         if len(elements)==0:
             elements=sorted(langdata.keys())
         for t in elements:
-            print('{0};{1}'.format(t,_(t)))
+            string=_(t)
+            print('{0};{1}'.format(t,repr(string)))
     xhelp['table']='List all keys from specific tables'
     morehelp['table']={'table':'table to search keys from (cumulative, default: all tables)','':'keys to be searched'}
     if (mode == 'table'):
