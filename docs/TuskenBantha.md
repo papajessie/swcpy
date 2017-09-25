@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Shield, Shield generator, Light vehicle, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _HQ_, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, Heavy infantry, Light vehicle, Infantry, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 60
   * Storage: 40
   * Support troop: 40
-  * Target preferences: Turret, HQ, Shield, Shield generator, Light vehicle, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _HQ_, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, Heavy infantry, Light vehicle, Infantry, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 80
   * Vehicle hero: 1
@@ -63,66 +63,66 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * assetName: bantharaider_tkn-ani
+  * playerFacing: true
+  * iconCameraPosition: 13.7,14.58,24.5
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
   * bundleName: bantharaider_tkn-ani
   * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * factoryScaleFactor: 1
+  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
   * buffAssetOffset: 0.00,0.72,0.0
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: bantharaider_tkn-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.53,2.2,1.05
   * animationDelay: 1000
-  * iconCameraPosition: 13.7,14.58,24.5
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.53,2.2,1.05
   * factoryRotation: 0
-  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: turret
-  * overWalls: false
-  * size: 2
-  * targetInRangeModifier: 1
-  * retargetingOffset: 4
-  * shotDelay: 1250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 0
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 5
-  * pathSearchWidth: 1
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 500
-  * projectileType: projectileTuskenBantha
-  * sizex: 1
   * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * retargetingOffset: 4
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * selfCenteredTargeting: false
+  * size: 2
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * targetLocking: false
   * impactDelay: 0
+  * shotDelay: 1250
+  * shotCount: 5
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileTuskenBantha
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
-|order     |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
 

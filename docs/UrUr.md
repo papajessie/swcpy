@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Droideka, Infantry, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Heavy infantry**, _Droideka_, _Infantry_, _Support troop_, _Heavy vehicle_, _Turret_, _Light vehicle_, _HQ_, Other building, Storage, Ressource generator, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 95
-  * Target preferences: Heavy infantry, Droideka, Infantry, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Heavy infantry**, _Droideka_, _Infantry_, _Support troop_, _Heavy vehicle_, _Turret_, _Light vehicle_, _HQ_, Other building, Storage, Ressource generator, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 80
   * Vehicle hero: 1
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * assetName: ururhero_tkn-ani
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * iconCameraPosition: 9.94,10.08,22.52
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * factoryScaleFactor: 1
   * decalSize: 160
   * bundleName: ururhero_tkn-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * factoryRotation: 0
   * playerFacing: false
-  * assetName: ururhero_tkn-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.28,1.77,-0.31
   * animationDelay: 1000
-  * iconCameraPosition: 9.94,10.08,22.52
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.28,1.77,-0.31
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: infantry
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 4
-  * autoSpawnRateScale: 1
-  * shotDelay: 1250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * pathSearchWidth: 1
   * targetPreferenceStrength: 90
-  * uiDecalAssetName: HeroDecalNeutral
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_neu
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 500
   * armingDelay: 0
-  * projectileType: projectileMeleeUrUr
+  * retargetingOffset: 4
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * autoSpawnRateScale: 1
+  * clipRetargeting: false
+  * decalAssetName: tac_hero_neu
+  * selfCenteredTargeting: false
+  * size: 1
+  * overWalls: false
   * sizex: 1
-  * decalBundleName: tac_hero_neu
+  * maxScale: false
   * reload: 0
-  * splash: 0
+  * chargeTime: 500
+  * shotDelay: 1250
   * impactDelay: 0
-  * targetLocking: false
+  * projectileType: projectileMeleeUrUr
+  * shotCount: 3
+  * decalBundleName: tac_hero_neu
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * uiDecalAssetName: HeroDecalNeutral
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * favoriteTargetType: infantry
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
-|order     |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
-|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

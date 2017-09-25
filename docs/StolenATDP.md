@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 50
@@ -63,66 +63,66 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 10
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 10
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * assetName: atdp_emp-ani
+  * playerFacing: false
+  * iconCameraPosition: 24.3,22.81,41.64
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * bundleName: atdp_emp-ani
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * buffAssetOffset: 0.00,1.89,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: false
-  * assetName: atdp_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * animationDelay: 0
-  * iconCameraPosition: 24.3,22.81,41.64
   * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * factoryRotation: 0
   * audioDeath: "sfx_death_walker_1":100
+  * buffAssetOffset: 0.00,1.89,0.00
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconLookatPosition: -0.85,2.34,-1.34
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * size: 16
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * autoSpawnRateScale: 1
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 2
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * strictCoolDown: false
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 1000
-  * projectileType: projectileBlasterStolenATDP
-  * sizex: 2
+  * armingDelay: 0
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
   * reload: 1000
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 16
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 1000
+  * targetLocking: false
   * impactDelay: 500
+  * shotDelay: 250
+  * shotCount: 2
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileBlasterStolenATDP
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelFactory8']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|order       |480404           |480408              |480412              |480416              |480420              |480424              |480428              |480432              |480436              |480440               |
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |480404           |480408              |480412              |480416              |480420              |480424              |480428              |480432              |480436              |480440               |
 

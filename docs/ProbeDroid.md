@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,68 +63,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: viperprobedroid_emp-ani
+  * playerFacing: true
+  * iconCameraPosition: -18.83,17.64,22.74
+  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
   * bundleName: viperprobedroid_emp-ani
   * audioPlacement: "sfx_placement_empire_probedroid_1":100
-  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
-  * buffAssetOffset: 0.00,2,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: viperprobedroid_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.53,3.67,-0.56
-  * animationDelay: 0
-  * iconCameraPosition: -18.83,17.64,22.74
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
+  * buffAssetOffset: 0.00,2,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: 0.53,3.67,-0.56
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * size: 4
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 4
-  * pathSearchWidth: 15
   * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * splash: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 500
-  * projectileType: projectileProbeDroid
-  * sizex: 1
-  * reload: 500
   * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
+  * retargetingOffset: 14
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 500
+  * clipRetargeting: true
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 4
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * shotDelay: 250
   * impactDelay: 500
+  * projectileType: projectileProbeDroid
+  * shotCount: 4
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: false
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireFactory6']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |4.000             |4.800                |5.600                |6.400                |7.200                |8.000                |8.800                |9.600                |10.400               |12.000                |
-|order       |130601            |130602               |130603               |130604               |130605               |130606               |130607               |130608               |130609               |130610                |
+|requirements|['empireFactory6']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |130601            |130602               |130603               |130604               |130605               |130606               |130607               |130608               |130609               |130610                |
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 70
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,8 +63,8 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
 
 |Level|1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |-----|--|--|--|--|--|--|--|--|--|--|
@@ -74,59 +74,59 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
+  * assetName: speederbike_emp-ani
+  * playerFacing: true
+  * iconCameraPosition: 14.03,11.98,20.6
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
   * bundleName: speederbike_emp-ani
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * buffAssetOffset: 0,1,0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: true
-  * assetName: speederbike_emp-ani
-  * gunSequence: 1,1
-  * iconLookatPosition: -0.26,1.18,-0.59
-  * animationDelay: 0
-  * iconCameraPosition: 14.03,11.98,20.6
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * buffAssetOffset: 0,1,0
+  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconLookatPosition: -0.26,1.18,-0.59
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * gunSequence: 1,1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * size: 6
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
-  * shotDelay: 0
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * attackShieldBorder: false
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 12
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
+  * clipRetargeting: true
+  * autoSpawnRateScale: 2
+  * size: 6
   * overWalls: false
-  * chargeTime: 250
   * sizex: 1
-  * splash: 0
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * targetLocking: false
   * impactDelay: 0
+  * shotDelay: 0
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
 
 |Level         |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|requirements  |['empireFactory1']     |['empireOffenseLab2']  |['empireOffenseLab3']  |['empireOffenseLab4']  |['empireOffenseLab5']  |['empireOffenseLab6']  |['empireOffenseLab7']         |['empireOffenseLab8']         |['empireOffenseLab9']         |['empireOffenseLab10']        |
 |pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
+|requirements  |['empireFactory1']     |['empireOffenseLab2']  |['empireOffenseLab3']  |['empireOffenseLab4']  |['empireOffenseLab5']  |['empireOffenseLab6']  |['empireOffenseLab7']         |['empireOffenseLab8']         |['empireOffenseLab9']         |['empireOffenseLab10']        |
+|lvl           |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
+|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
 |acceleration  |0                      |0                      |0                      |0                      |0                      |0                      |8                             |8                             |8                             |8                             |
 |order         |130101                 |130102                 |130103                 |130104                 |130105                 |130106                 |130107                        |130108                        |130109                        |130110                        |
 |shotCount     |1                      |1                      |1                      |1                      |1                      |1                      |2                             |2                             |2                             |2                             |
-|lvl           |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
 |projectileType|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|
-|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
 

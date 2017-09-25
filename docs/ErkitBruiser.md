@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,28 +63,28 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * bundleName: erkit2_neu-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * assetName: erkit2_neu-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.09,1.4,0.28
-  * animationDelay: 0
   * iconCameraPosition: 8.56,9.58,10.6
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * bundleName: erkit2_neu-ani
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: 0.09,1.4,0.28
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 |Level       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
 |------------|----|----|----|----|----|----|----|----|----|-----|
@@ -92,42 +92,42 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: turret
-  * overWalls: false
-  * size: 5
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * deathAnimation: buffFireBurn:15
   * retargetingOffset: 10
-  * pathSearchWidth: 1
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
   * targetedType: ENEMIES
   * reload: 2000
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * splash: 0
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileWookie
+  * acceleration: 0
+  * size: 5
+  * overWalls: false
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * shotDelay: 500
   * impactDelay: 1000
+  * projectileType: projectileWookie
+  * shotCount: 3
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * favoriteTargetType: turret
 
 |Level       |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|requirements|['syndicateBarracks1']|['syndicateBarracks2']|['syndicateBarracks3']|['syndicateBarracks4']|['syndicateBarracks5']|['syndicateBarracks6']|['syndicateBarracks7']|['syndicateBarracks8']|['syndicateBarracks9']|['syndicateBarracks10']|
 |pointValue  |5.000                 |6.000                 |7.000                 |8.000                 |9.000                 |10.000                |11.000                |12.000                |13.000                |15.000                 |
-|order       |333601                |333602                |333603                |333604                |333605                |333606                |333607                |333608                |333609                |333610                 |
+|requirements|['syndicateBarracks1']|['syndicateBarracks2']|['syndicateBarracks3']|['syndicateBarracks4']|['syndicateBarracks5']|['syndicateBarracks6']|['syndicateBarracks7']|['syndicateBarracks8']|['syndicateBarracks9']|['syndicateBarracks10']|
 |lvl         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|order       |333601                |333602                |333603                |333604                |333605                |333606                |333607                |333608                |333609                |333610                 |
 

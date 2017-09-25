@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Flying infantry, Support troop, Flying vehicle, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, _Flying infantry_, _Flying vehicle_, _Support troop_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Flying infantry, Support troop, Flying vehicle, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, _Flying infantry_, _Flying vehicle_, _Support troop_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,75 +63,75 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * iconCloseupCameraPosition: 4.34,5.86,9.44
-  * bundleName: iakaru_rbl-ani
-  * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
-  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
-  * iconCloseupLookatPosition: -0.52,2.05,-1.33
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: iakaru_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.4,1.38,-0.85
-  * animationDelay: 0
   * iconCameraPosition: 7.64,11.36,18.34
+  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * bundleName: iakaru_rbl-ani
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.52,2.05,-1.33
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 4.34,5.86,9.44
+  * iconLookatPosition: -0.4,1.38,-0.85
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * eventButtonString: hn_open_galaxy
-  * favoriteTargetType: turret
-  * clipRetargeting: true
-  * size: 6
-  * targetInRangeModifier: 1
-  * retargetingOffset: 20
-  * pathSearchWidth: 15
-  * shotDelay: 150
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 7
-  * crushesWalls: false
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
   * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+  * eventButtonAction: galaxy
+  * retargetingOffset: 20
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockedByEvent: true
+  * eventButtonString: hn_open_galaxy
   * autoSpawnRateScale: 1
-  * eventFeaturesString: fragment_obtain_gen
+  * acceleration: 0
+  * size: 6
+  * overWalls: false
+  * clipRetargeting: true
+  * targetLocking: false
   * maxScale: false
   * upgradeShardUid: shrd_troopIakaruWarrior
-  * overWalls: false
-  * chargeTime: 250
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileIakaruWarrior
-  * sizex: 1
-  * eventButtonAction: galaxy
+  * crushesWalls: false
   * reload: 2000
-  * unlockedByEvent: true
-  * splash: 0
+  * chargeTime: 250
+  * shotDelay: 150
   * impactDelay: 1000
-  * targetLocking: false
+  * projectileType: projectileIakaruWarrior
+  * shotCount: 7
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * sizex: 1
+  * targetInRangeModifier: 1
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * favoriteTargetType: turret
 
 |Level          |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements   |['rebelBarracks2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|iconUnlockScale|1.2,1.2,1.2       |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |pointValue     |4.000             |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
-|order          |234301            |234302              |234303              |234304              |234305              |234306              |234307              |234308              |234309              |234310               |
+|requirements   |['rebelBarracks2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl            |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order          |234301            |234302              |234303              |234304              |234305              |234306              |234307              |234308              |234309              |234310               |
+|iconUnlockScale|1.2,1.2,1.2       |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

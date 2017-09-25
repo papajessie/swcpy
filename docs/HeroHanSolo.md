@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Trap, Turret, Shield, Shield generator, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Turret**, **Trap**, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 60
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Trap, Turret, Shield, Shield generator, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Turret**, **Trap**, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Trap: 80
   * Turret: 80
   * Vehicle hero: 1
@@ -63,73 +63,73 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * decalSize: 160
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * bundleName: hansolo_rbl-ani
-  * audioPlacement: "sfx_placement_hero_han":100
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: hansolo_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.01,1.77,0.14
-  * animationDelay: 0
-  * iconCameraPosition: 11.5,12.83,14.14
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_han":100
+  * iconCameraPosition: 11.5,12.83,14.14
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_hero_han":100
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: hansolo_rbl-ani
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * animationDelay: 0
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * iconLookatPosition: -0.01,1.77,0.14
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
   * hologramUid: HeroHologramRebel1
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 2
-  * crushesWalls: false
-  * shotDelay: 200
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 50
-  * projectileType: projectileHeroHanSolo
-  * sizex: 1
-  * decalBundleName: tac_hero_rbl
   * reload: 850
-  * splash: 0
+  * shotDelay: 200
+  * retargetingOffset: 14
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * decalAssetName: tac_hero_rbl
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * selfCenteredTargeting: false
+  * chargeTime: 50
+  * maxScale: false
   * impactDelay: 250
-  * targetLocking: false
+  * projectileType: projectileHeroHanSolo
+  * shotCount: 2
+  * decalBundleName: tac_hero_rbl
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * targetLocking: false
 
 |Level       |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelTacticalCommand2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 |pointValue  |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|requirements|['rebelTacticalCommand2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |210301                   |210302              |210303              |210304              |210305              |210306              |210307              |210308              |210309              |210310               |
+|heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

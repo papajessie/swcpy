@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 50
@@ -60,68 +60,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 10
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 10
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
-  * decalSize: 320
-  * bundleName: atte_rbl-ani
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * buffAssetOffset: 0.00,1.46,0.00
-  * factoryRotation: 0
-  * playerFacing: false
   * assetName: atte_rbl-ani
-  * gunSequence: 1,2,3,4,5
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * animationDelay: 0
-  * iconCameraPosition: 24.47,22.61,37.05
-  * factoryScaleFactor: 1
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
   * audioDeath: "sfx_death_walker_1":100
+  * iconCameraPosition: 24.47,22.61,37.05
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * bundleName: atte_rbl-ani
+  * gunSequence: 1,2,3,4,5
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * factoryScaleFactor: 1
+  * decalSize: 320
+  * buffAssetOffset: 0.00,1.46,0.00
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * playerFacing: false
+  * animationDelay: 0
+  * iconLookatPosition: -0.2,1.23,-0.57
+  * factoryRotation: 0
+  * newRotationSpeed: 982
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
 
 ## Uninterpreted stats
 
-  * requirements: ['rebelOffenseLab10']
-  * spawnEffectUid: effectRebelSpawn
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: false
-  * size: 20
-  * targetInRangeModifier: 1
-  * retargetingOffset: 100
   * pointValue: 48.000
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
+  * armingDelay: 0
+  * reload: 1000
+  * spawnEffectUid: effectRebelSpawn
+  * retargetingOffset: 100
+  * xp: 0
+  * requirements: ['rebelOffenseLab10']
   * autoSpawnSpreadingScale: 2
+  * lvl: 8
+  * targetedType: ENEMIES
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * splash: 0
   * acceleration: 0
-  * attackShieldBorder: false
+  * size: 20
+  * overWalls: true
+  * sizex: 2
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 1000
+  * shotDelay: 500
+  * impactDelay: 500
+  * projectileType: projectileBlasterRebelATTE
   * order: 244808
   * shotCount: 5
-  * pathSearchWidth: 15
-  * lvl: 8
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * decalAssetName: tac_hero_rbl
-  * maxScale: false
-  * overWalls: true
-  * chargeTime: 1000
-  * strictCoolDown: false
-  * projectileType: projectileBlasterRebelATTE
-  * sizex: 2
   * decalBundleName: tac_hero_rbl
-  * reload: 1000
-  * splash: 0
-  * impactDelay: 500
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: false
 

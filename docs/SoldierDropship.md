@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,67 +63,67 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * bundleName: dropshipsoldier_rbl-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: false
   * assetName: dropshipsoldier_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.2,0.03,0.41
-  * animationDelay: 0
+  * playerFacing: false
   * iconCameraPosition: 8.56,9.58,10.6
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * bundleName: dropshipsoldier_rbl-ani
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.2,0.03,0.41
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * requirements: ['rebelOffenseLab2']
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: closest
-  * overWalls: false
-  * size: 2
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
   * retargetingOffset: 14
-  * shotDelay: 200
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * xp: 0
+  * requirements: ['rebelOffenseLab2']
+  * autoSpawnSpreadingScale: 2
   * targetedType: ENEMIES
   * reload: 500
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
+  * clipRetargeting: false
   * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * chargeTime: 500
-  * projectileType: projectileSoldier
+  * acceleration: 0
+  * size: 2
+  * overWalls: false
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * shotDelay: 200
   * impactDelay: 1000
+  * projectileType: projectileSoldier
+  * shotCount: 3
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
-|order     |235301|235302|235303|235304|235305|235306|235307|235308|235309|235310|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |235301|235302|235303|235304|235305|235306|235307|235308|235309|235310|
 

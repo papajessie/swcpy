@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
-  * iconCloseupCameraPosition: 31.02,16.53,48.25
-  * bundleName: hovertankrebel_rbl-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * iconCloseupLookatPosition: -0.49,0.88,-0.24
-  * buffAssetOffset: 0.00,1.75,0.00
-  * factoryRotation: 0
-  * playerFacing: false
   * assetName: hovertankrebel_rbl-ani
-  * gunSequence: 1,1,1,1
-  * iconLookatPosition: -0.49,0.88,-0.24
-  * animationDelay: 0
   * iconCameraPosition: 31.02,16.53,48.25
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * bundleName: hovertankrebel_rbl-ani
+  * gunSequence: 1,1,1,1
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * rotationSpeed: 2
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.00,1.75,0.00
+  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.49,0.88,-0.24
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 31.02,16.53,48.25
+  * iconLookatPosition: -0.49,0.88,-0.24
+  * factoryRotation: 0
+  * newRotationSpeed: 2000
+  * rotationSpeed: 2
 
 ## Uninterpreted stats
 
-  * requirements: ['rebelHQ2']
-  * xp: 0
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * size: 9
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
   * pointValue: 1.000
-  * shotDelay: 800
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 16
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 12
+  * xp: 0
+  * requirements: ['rebelHQ2']
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectileAAT1
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 9
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: turret
+  * crushesWalls: false
+  * chargeTime: 250
+  * shotDelay: 800
   * impactDelay: 1000
+  * projectileType: projectileAAT1
+  * shotCount: 16
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|order|233001|233002|233003|233004|233005|233006|233007|233008|233009|233010|
 |lvl  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order|233001|233002|233003|233004|233005|233006|233007|233008|233009|233010|
 

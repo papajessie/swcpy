@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 60
   * Vehicle hero: 1
@@ -63,65 +63,65 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * bundleName: rancor_neu-ani
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: false
   * assetName: rancor_neu-ani
-  * gunSequence: 2,1
-  * iconLookatPosition: -0.95,2.74,-1.82
-  * animationDelay: 960
+  * playerFacing: false
   * iconCameraPosition: 38.76,41.86,47.24
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_creatures_rancor_1":100
+  * bundleName: rancor_neu-ani
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 960
+  * iconLookatPosition: -0.95,2.74,-1.82
+  * factoryRotation: 0
+  * newRotationSpeed: 2000
+  * gunSequence: 2,1
 
 ## Uninterpreted stats
 
-  * clipRetargeting: true
-  * xp: 0
-  * favoriteTargetType: turret
-  * size: 20
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * shotDelay: 270
-  * selfCenteredTargeting: false
-  * crushesWalls: true
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 2
-  * pathSearchWidth: 1
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: true
-  * chargeTime: 500
-  * sizex: 2
+  * retargetingOffset: 8
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * reload: 1910
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 2
+  * selfCenteredTargeting: false
+  * size: 20
+  * overWalls: true
+  * sizex: 2
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * maxScale: false
   * impactDelay: 0
+  * shotDelay: 270
+  * shotCount: 2
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: true
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |pointValue    |20.000                |24.000                |28.000                |32.000                |36.000                |40.000                |44.000                |48.000                |52.000                |60.000                 |
-|order         |265901                |265902                |265903                |265904                |265905                |265906                |265907                |265908                |265909                |265910                 |
 |lvl           |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|order         |265901                |265902                |265903                |265904                |265905                |265906                |265907                |265908                |265909                |265910                 |
 |projectileType|projectileMeleeRancor1|projectileMeleeRancor2|projectileMeleeRancor3|projectileMeleeRancor4|projectileMeleeRancor5|projectileMeleeRancor6|projectileMeleeRancor7|projectileMeleeRancor8|projectileMeleeRancor9|projectileMeleeRancor10|
 

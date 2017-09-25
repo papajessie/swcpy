@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 75
   * Vehicle hero: 1
@@ -63,30 +63,30 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
-  * decalSize: 320
+  * assetName: atmphero_emp-ani
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * iconCameraPosition: 26.46,27.84,45.96
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
   * bundleName: atmphero_emp-ani
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * buffAssetOffset: 0.00,4.21,0.00
-  * factoryRotation: 0
-  * playerFacing: true
-  * assetName: atmphero_emp-ani
-  * iconLookatPosition: -0.78,3.46,-0.2
-  * animationDelay: 0
-  * iconCameraPosition: 26.46,27.84,45.96
   * factoryScaleFactor: 1
+  * decalSize: 320
+  * buffAssetOffset: 0.00,4.21,0.00
+  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
+  * playerFacing: true
+  * animationDelay: 0
+  * iconLookatPosition: -0.78,3.46,-0.2
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioDeath: "sfx_death_empire_atmp_1":100
 
 |Level      |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9                               |10                              |
 |-----------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
@@ -94,46 +94,46 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * clipRetargeting: false
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 18
   * hologramUid: HeroHologramEmpire3
-  * shotDelay: 50
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 0
-  * acceleration: 0
-  * attackShieldBorder: false
-  * effectType: 2
-  * shotCount: 14
-  * crushesWalls: false
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * decalAssetName: tac_hero_emp
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectileHeroATMP
-  * favoriteTargetType: turret
-  * size: 1
-  * decalBundleName: tac_hero_emp
   * reload: 1000
-  * splash: 0
+  * effectType: 2
+  * shotDelay: 50
+  * retargetingOffset: 18
+  * xp: 0
+  * autoSpawnSpreadingScale: 0
+  * targetedType: ENEMIES
+  * autoSpawnRateScale: 2
+  * clipRetargeting: false
+  * decalAssetName: tac_hero_emp
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * maxScale: false
   * impactDelay: 1000
-  * targetLocking: false
+  * projectileType: projectileHeroATMP
+  * shotCount: 14
+  * decalBundleName: tac_hero_emp
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * targetLocking: false
 
 |Level       |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireTacticalCommand2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 |pointValue  |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
-|order       |110301                    |110302               |110303               |110304               |110305               |110306               |110307               |110308               |110309               |110310                |
+|requirements|['empireTacticalCommand2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |110301                    |110302               |110303               |110304               |110305               |110306               |110307               |110308               |110309               |110310                |
+|heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,71 +63,71 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * iconCloseupCameraPosition: -0.51,3.09,12.25
-  * bundleName: wookiewarrior_rbl-ani
-  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * iconCloseupLookatPosition: 0.08,3,-1.33
-  * buffAssetOffset: 0.00,0.36,0.00
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: wookiewarrior_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.06,1.71,0.07
-  * animationDelay: 0
   * iconCameraPosition: 9.29,13.73,18.65
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * bundleName: wookiewarrior_rbl-ani
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
+  * buffAssetOffset: 0.00,0.36,0.00
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.08,3,-1.33
+  * animationDelay: 0
+  * iconCloseupCameraPosition: -0.51,3.09,12.25
+  * iconLookatPosition: -0.06,1.71,0.07
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: turret
-  * overWalls: false
-  * size: 5
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * pathSearchWidth: 15
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 2000
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
   * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileWookie
-  * sizex: 1
   * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * retargetingOffset: 10
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 2000
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 5
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * crushesWalls: false
+  * chargeTime: 250
+  * shotDelay: 500
   * impactDelay: 1000
+  * projectileType: projectileWookie
+  * shotCount: 3
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * splash: 0
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level       |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelBarracks2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |5.000             |6.000               |7.000               |8.000               |9.000               |10.000              |11.000              |12.000              |13.000              |15.000               |
-|order       |220201            |220202              |220203              |220204              |220205              |220206              |220207              |220208              |220209              |220210               |
+|requirements|['rebelBarracks2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |220201            |220202              |220203              |220204              |220205              |220206              |220207              |220208              |220209              |220210               |
 

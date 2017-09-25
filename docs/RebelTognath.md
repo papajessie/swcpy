@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, Light vehicle, HQ, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, Light vehicle, HQ, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,75 +63,75 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * bundleName: tognath_con-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: tognath_con-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * animationDelay: 0
   * iconCameraPosition: 9.66,10.8,15.86
+  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * bundleName: tognath_con-ani
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
+  * iconLookatPosition: -0.63,1.31,-0.68
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: true
-  * eventButtonString: hn_open_galaxy
-  * favoriteTargetType: champion
-  * size: 7
-  * targetInRangeModifier: 1
-  * retargetingOffset: 20
-  * crushesWalls: false
-  * autoSpawnRateScale: 2
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * pathSearchWidth: 15
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 4
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * strictCoolDown: false
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
-  * eventFeaturesString: fragment_obtain_gen
   * maxScale: false
-  * upgradeShardUid: shrd_troopRebelTognath
-  * overWalls: false
-  * chargeTime: 250
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileRebelTognath
-  * sizex: 1
+  * armingDelay: 0
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
   * eventButtonAction: galaxy
-  * reload: 1500
+  * retargetingOffset: 20
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * unlockedByEvent: true
-  * splash: 0
-  * impactDelay: 1000
+  * eventButtonString: hn_open_galaxy
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 7
+  * overWalls: false
+  * clipRetargeting: true
   * targetLocking: false
+  * eventFeaturesString: fragment_obtain_gen
+  * upgradeShardUid: shrd_troopRebelTognath
+  * selfCenteredTargeting: false
+  * reload: 1500
+  * chargeTime: 250
+  * shotDelay: 500
+  * impactDelay: 1000
+  * projectileType: projectileRebelTognath
+  * shotCount: 4
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * sizex: 1
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * favoriteTargetType: champion
 
 |Level          |1                          |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|---------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements   |['rebelContrabandCantina1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|lvl            |1                          |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |ability        |abilityTognathShot1        |abilityTognathShot2 |abilityTognathShot3 |abilityTognathShot4 |abilityTognathShot5 |abilityTognathShot6 |abilityTognathShot7 |abilityTognathShot8 |abilityTognathShot9 |abilityTognathShot10 |
 |order          |215701                     |215702              |215703              |215704              |215705              |215706              |215707              |215708              |215709              |215710               |
-|lvl            |1                          |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |iconUnlockScale|1.2,1.2,1.2                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

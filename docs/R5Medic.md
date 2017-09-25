@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Trap, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator
+  * Target preferences: **Infantry hero**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Light vehicle, Flying vehicle, Wall, Support troop
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Trap, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator
+  * Target preferences: **Infantry hero**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Light vehicle, Flying vehicle, Wall, Support troop
   * Trap: 0
   * Turret: 0
   * Vehicle hero: 0
@@ -63,77 +63,77 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * bundleName: r5droid_emp-ani
-  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
   * assetName: r5droid_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.19,0.88,-0.37
-  * animationDelay: 0
+  * playerFacing: true
   * iconCameraPosition: 5.21,9.06,13.12
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * bundleName: r5droid_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.19,0.88,-0.37
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * xp: 0
-  * infoUIType: Healer
-  * favoriteTargetType: infantry
-  * retargetingOffset: 10
-  * pathSearchWidth: 15
-  * acceleration: 0
   * armingDelay: 0
-  * targetLocking: true
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 50
-  * supportFollowDistance: 5
-  * size: 5
-  * eventButtonAction: galaxy
-  * reload: 900
-  * splash: 0
-  * sizey: 1
-  * clipRetargeting: false
-  * eventButtonString: hn_open_galaxy
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * selfCenteredTargeting: true
-  * targetedType: ALLIES
-  * autoSpawnSpreadingScale: 1
-  * attackShieldBorder: false
-  * shotCount: 2
-  * shotDelay: 400
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
   * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
-  * upgradeShardUid: shrd_troopR5Medic
-  * sizex: 1
-  * unlockedByEvent: true
-  * impactDelay: 250
+  * eventButtonAction: galaxy
+  * retargetingOffset: 10
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
+  * size: 5
+  * overWalls: false
+  * infoUIType: Healer
+  * targetLocking: true
+  * impactDelay: 250
+  * shotCount: 2
+  * sizey: 1
+  * pathSearchWidth: 15
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: false
+  * crushesWalls: false
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ALLIES
+  * unlockedByEvent: true
+  * eventButtonString: hn_open_galaxy
+  * upgradeShardUid: shrd_troopR5Medic
+  * selfCenteredTargeting: true
+  * sizex: 1
+  * favoriteTargetType: infantry
+  * chargeTime: 50
+  * shotDelay: 400
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * maxScale: false
+  * reload: 900
+  * supportFollowDistance: 5
 
 |Level             |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|-------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements      |['empireBarracks2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |iconUnlockPosition|0,0,0              |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|order             |134401             |134402               |134403               |134404               |134405               |134406               |134407               |134408               |134409               |134410                |
+|requirements      |['empireBarracks2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl               |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|projectileType    |projectileR5Medic1 |projectileR5Medic2   |projectileR5Medic3   |projectileR5Medic4   |projectileR5Medic5   |projectileR5Medic6   |projectileR5Medic7   |projectileR5Medic8   |projectileR5Medic9   |projectileR5Medic10   |
-|iconUnlockRotation|0,0,0              |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|order             |134401             |134402               |134403               |134404               |134405               |134406               |134407               |134408               |134409               |134410                |
 |iconUnlockScale   |1,1,1              |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |pointValue        |5.000              |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
+|projectileType    |projectileR5Medic1 |projectileR5Medic2   |projectileR5Medic3   |projectileR5Medic4   |projectileR5Medic5   |projectileR5Medic6   |projectileR5Medic7   |projectileR5Medic8   |projectileR5Medic9   |projectileR5Medic10   |
+|iconUnlockRotation|0,0,0              |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 

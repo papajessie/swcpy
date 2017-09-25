@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Wall, Heavy vehicular hero, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Wall, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Wall, Heavy vehicular hero, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Wall, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,73 +63,73 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * decalSize: 160
-  * iconCloseupCameraPosition: 10.36,-0.8,9.14
-  * bundleName: brute_con-ani
-  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
-  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
-  * iconCloseupLookatPosition: -0.45,2.74,-0.6
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: brute_con-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.25,1.71,0.52
-  * animationDelay: 460
-  * iconCameraPosition: 22.63,10.75,17.33
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
+  * iconCameraPosition: 22.63,10.75,17.33
+  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
   * tooltipHeightOffset: 1.5
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: brute_con-ani
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.45,2.74,-0.6
+  * animationDelay: 460
+  * iconCloseupCameraPosition: 10.36,-0.8,9.14
+  * iconLookatPosition: -0.25,1.71,0.52
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * spawnEffectUid: effectRebelSpawn
-  * xp: 0
-  * clipRetargeting: true
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * size: 12
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
-  * crushesWalls: false
-  * shotDelay: 1040
-  * selfCenteredTargeting: false
-  * pathSearchWidth: 15
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: true
-  * shotCount: 1
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: true
   * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
-  * autoSpawnRateScale: 1
-  * targetLocking: false
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 0
-  * favoriteTargetType: closest
-  * sizex: 1
+  * spawnEffectUid: effectRebelSpawn
+  * retargetingOffset: 12
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
   * reload: 500
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 1
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 12
+  * overWalls: false
+  * sizex: 1
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * chargeTime: 0
+  * shotDelay: 1040
   * impactDelay: 0
+  * shotCount: 1
   * sizey: 1
+  * strictCoolDown: true
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: true
+  * favoriteTargetType: closest
 
 |Level         |1                          |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|---------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|requirements  |['rebelContrabandCantina7']|['rebelOffenseLab2']  |['rebelOffenseLab3']  |['rebelOffenseLab4']  |['rebelOffenseLab5']  |['rebelOffenseLab6']  |['rebelOffenseLab7']  |['rebelOffenseLab8']  |['rebelOffenseLab9']  |['rebelOffenseLab10']  |
-|ability       |abilityBruteBomb1          |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
 |pointValue    |12.000                     |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
-|order         |215401                     |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
+|requirements  |['rebelContrabandCantina7']|['rebelOffenseLab2']  |['rebelOffenseLab3']  |['rebelOffenseLab4']  |['rebelOffenseLab5']  |['rebelOffenseLab6']  |['rebelOffenseLab7']  |['rebelOffenseLab8']  |['rebelOffenseLab9']  |['rebelOffenseLab10']  |
 |lvl           |1                          |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|ability       |abilityBruteBomb1          |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
 |projectileType|projectileBruteCannon1     |projectileBruteCannon2|projectileBruteCannon3|projectileBruteCannon4|projectileBruteCannon5|projectileBruteCannon6|projectileBruteCannon7|projectileBruteCannon8|projectileBruteCannon9|projectileBruteCannon10|
+|order         |215401                     |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
 

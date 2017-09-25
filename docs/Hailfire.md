@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Wall, Trap
+  * Target preferences: **Turret**, _Vehicle hero_, _Heavy vehicular hero_, _Droideka_, _Infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Heavy infantry hero_, _Infantry_, _Flying vehicle_, _Support troop_, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Wall, Trap
+  * Target preferences: **Turret**, _Vehicle hero_, _Heavy vehicular hero_, _Droideka_, _Infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Heavy infantry hero_, _Infantry_, _Flying vehicle_, _Support troop_, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 60
@@ -63,68 +63,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * assetName: hailfiredroid_rbl-ani
+  * playerFacing: true
+  * iconCameraPosition: 36.69,22.39,29.86
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
   * bundleName: hailfiredroid_rbl-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * buffAssetOffset: 0.00,0.88,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: hailfiredroid_rbl-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: -0.49,1.9,-0.43
-  * animationDelay: 0
-  * iconCameraPosition: 36.69,22.39,29.86
   * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * factoryRotation: 90
   * audioDeath: "sfx_death_rebel_hailfire_1":100
+  * buffAssetOffset: 0.00,0.88,0.00
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.49,1.9,-0.43
+  * factoryRotation: 90
+  * newRotationSpeed: 7854
+  * gunSequence: 1,2
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: true
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * overWalls: false
-  * size: 7
-  * targetInRangeModifier: 1
-  * retargetingOffset: 20
-  * shotDelay: 100
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 6
-  * pathSearchWidth: 15
   * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 20
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
-  * impactDelay: 1000
-  * chargeTime: 1000
-  * projectileType: projectileHailfire
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 2
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 7
+  * overWalls: false
+  * sizex: 2
   * favoriteTargetType: turret
+  * selfCenteredTargeting: false
+  * chargeTime: 1000
+  * shotDelay: 100
+  * impactDelay: 1000
+  * projectileType: projectileHailfire
+  * shotCount: 6
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: false
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
-|order       |230701           |230702              |230703              |230704              |230705              |230706              |230707              |230708              |230709              |230710               |
+|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |230701           |230702              |230703              |230704              |230705              |230706              |230707              |230708              |230709              |230710               |
 

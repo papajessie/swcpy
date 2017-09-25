@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield generator, Heavy vehicular hero, Wall, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield generator, Light vehicle, Infantry, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Shield, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield generator, Heavy vehicular hero, Wall, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield generator, Light vehicle, Infantry, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Shield, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,75 +63,75 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * bundleName: gamorreanguard_con-ani
-  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * iconCloseupLookatPosition: 0.18,2.49,0.11
-  * buffAssetOffset: 0.00,0.43,0.0
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: gamorreanguard_con-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.43,1.85,0.73
-  * animationDelay: 600
   * iconCameraPosition: 9.14,6.79,20.25
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
+  * bundleName: gamorreanguard_con-ani
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+  * buffAssetOffset: 0.00,0.43,0.0
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.18,2.49,0.11
+  * animationDelay: 600
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * iconLookatPosition: 0.43,1.85,0.73
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
-  * overWalls: false
-  * deathProjectileDistance: 17
-  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
   * retargetingOffset: 10
-  * pathSearchWidth: 15
-  * deathProjectile: projectileDeathVibroAx
-  * shotDelay: 0
-  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
   * targetedType: ENEMIES
   * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * size: 6
-  * shotCount: 1
-  * crushesWalls: false
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * strictCoolDown: false
-  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
-  * autoSpawnRateScale: 1
-  * deathProjectileDelay: 3600
-  * maxScale: false
-  * impactDelay: 0
-  * chargeTime: 400
-  * projectileType: projectileMeleeVibroAx
-  * sizex: 1
   * reload: 500
-  * splash: 0
-  * favoriteTargetType: turret
-  * targetLocking: false
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
+  * size: 6
+  * overWalls: false
+  * acceleration: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * deathProjectileDelay: 3600
+  * chargeTime: 400
+  * shotDelay: 0
+  * impactDelay: 0
+  * projectileType: projectileMeleeVibroAx
+  * shotCount: 1
+  * sizex: 1
   * sizey: 1
+  * strictCoolDown: false
+  * deathProjectile: projectileDeathVibroAx
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * deathProjectileDistance: 17
+  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
+  * attackShieldBorder: false
+  * targetLocking: false
 
 |Level                |1                           |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |---------------------|----------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements         |['empireContrabandCantina1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue           |4.000                       |4.800                |5.600                |6.400                |7.200                |8.000                |8.800                |9.600                |10.400               |12.000                |
-|order                |115101                      |115102               |115103               |115104               |115105               |115106               |115107               |115108               |115109               |115110                |
 |deathProjectileDamage|1750                        |2000                 |2250                 |2500                 |2750                 |3000                 |3250                 |3500                 |3750                 |4000                  |
 |lvl                  |1                           |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|requirements         |['empireContrabandCantina1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
+|order                |115101                      |115102               |115103               |115104               |115105               |115106               |115107               |115108               |115109               |115110                |
 

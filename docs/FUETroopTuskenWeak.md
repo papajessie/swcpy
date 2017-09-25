@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Ressource generator, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Other building, Infantry, Support troop, Heavy infantry, Flying vehicle, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Storage**, **Ressource generator**, _Turret_, _Other building_, _Droideka_, _Heavy vehicle_, _Flying infantry_, _HQ_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 50
   * Storage: 66
   * Support troop: 60
-  * Target preferences: Ressource generator, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Other building, Infantry, Support troop, Heavy infantry, Flying vehicle, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Storage**, **Ressource generator**, _Turret_, _Other building_, _Droideka_, _Heavy vehicle_, _Flying infantry_, _HQ_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 60
   * Vehicle hero: 1
@@ -60,62 +60,62 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * bundleName: raiderrifle_tkn-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
   * assetName: raiderrifle_tkn-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.17,1.62,0.41
-  * animationDelay: 0
+  * playerFacing: true
   * iconCameraPosition: 10,11.38,12.75
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * bundleName: raiderrifle_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.17,1.62,0.41
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: none
-  * overWalls: false
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
   * pointValue: 1.000
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
+  * retargetingOffset: 10
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
+  * lvl: 1
   * targetedType: ENEMIES
   * reload: 2000
-  * acceleration: 0
-  * attackShieldBorder: false
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * selfCenteredTargeting: false
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: none
+  * chargeTime: 250
+  * maxScale: false
+  * impactDelay: 1000
+  * shotDelay: 500
   * order: 332101
   * shotCount: 3
-  * pathSearchWidth: 1
-  * lvl: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileTusken
-  * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
-  * impactDelay: 1000
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileTusken
 

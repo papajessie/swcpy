@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Heavy vehicular hero, Heavy infantry hero, Infantry hero, Vehicle hero, Light vehicle, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, _Vehicle hero_, _Heavy vehicular hero_, _Infantry hero_, _Heavy infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Heavy vehicular hero, Heavy infantry hero, Infantry hero, Vehicle hero, Light vehicle, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, _Vehicle hero_, _Heavy vehicular hero_, _Infantry hero_, _Heavy infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 70
@@ -63,84 +63,84 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * decalSize: 160
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
-  * bundleName: forenbrand_neu-ani
-  * audioPlacement: "sfx_placement_foren_1":100
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * iconCloseupLookatPosition: 0,2.54,-0.89
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: forenbrand_neu-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.02,1.59,-0.01
-  * animationDelay: 0
-  * iconCameraPosition: 4.91,10.98,19.43
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_foren_1":100
+  * iconCameraPosition: 4.91,10.98,19.43
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_foren_1":100
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: forenbrand_neu-ani
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0,2.54,-0.89
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * iconLookatPosition: 0.02,1.59,-0.01
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: infantry
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * retargetingOffset: 20
   * hologramUid: HeroHologramJohharKessen
-  * crushesWalls: false
-  * acceleration: 0
   * armingDelay: 0
-  * targetLocking: false
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * eventButtonData: planet6
-  * projectileType: projectileJohharRebel
-  * size: 1
-  * decalBundleName: tac_hero_rbl
-  * reload: 2000
-  * splash: 0
-  * sizey: 1
-  * clipRetargeting: true
-  * decalAssetName: tac_hero_rbl
-  * eventButtonString: hn_open_erk
-  * targetInRangeModifier: 1
-  * pathSearchWidth: 15
   * eventButtonAction: planet
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * attackShieldBorder: false
-  * shotCount: 3
-  * shotDelay: 500
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * upgradeShardUid: shrd_troopRebelJohhar
-  * sizex: 1
-  * unlockedByEvent: true
-  * impactDelay: 1000
+  * retargetingOffset: 20
+  * eventButtonData: planet6
+  * decalAssetName: tac_hero_rbl
+  * clipRetargeting: true
   * autoSpawnRateScale: 2
+  * size: 1
+  * overWalls: false
+  * maxScale: false
+  * impactDelay: 1000
+  * shotCount: 3
+  * sizey: 1
+  * pathSearchWidth: 15
+  * eventFeaturesString: fragment_obtain_gen
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * xp: 0
+  * acceleration: 0
+  * favoriteTargetType: infantry
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
+  * eventButtonString: hn_open_erk
+  * upgradeShardUid: shrd_troopRebelJohhar
+  * selfCenteredTargeting: false
+  * sizex: 1
+  * autoSpawnSpreadingScale: 2
+  * reload: 2000
+  * chargeTime: 250
+  * shotDelay: 500
+  * projectileType: projectileJohharRebel
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * decalBundleName: tac_hero_rbl
+  * strictCoolDown: false
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
 
 |Level             |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements      |['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |iconUnlockPosition|0,0,0                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|ability           |abilityRailGun1Rebel     |abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
+|requirements      |['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|iconUnlockRotation|0,0,0                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|iconUnlockScale   |1,1,1                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
-|pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|ability           |abilityRailGun1Rebel     |abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
 |order             |211101                   |211102              |211103              |211104              |211105              |211106              |211107              |211108              |211109              |211110               |
+|iconUnlockScale   |1,1,1                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|iconUnlockRotation|0,0,0                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

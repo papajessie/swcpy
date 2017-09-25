@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Flying infantry, Support troop, Flying vehicle, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, _Flying infantry_, _Flying vehicle_, _Support troop_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Flying infantry, Support troop, Flying vehicle, Light vehicle, HQ, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Storage, Heavy infantry, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, _Flying infantry_, _Flying vehicle_, _Support troop_, Other building, Droideka, Heavy vehicle, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,75 +63,75 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * bundleName: ig86_emp-ani
-  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: ig86_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * animationDelay: 0
   * iconCameraPosition: 5.5,12.03,13.9
+  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * bundleName: ig86_emp-ani
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * iconLookatPosition: -0.4,1.24,-0.81
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * eventButtonString: hn_open_galaxy
-  * favoriteTargetType: turret
-  * clipRetargeting: true
-  * size: 6
-  * targetInRangeModifier: 1
-  * retargetingOffset: 20
-  * pathSearchWidth: 15
-  * shotDelay: 150
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 7
-  * crushesWalls: false
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
   * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * eventButtonAction: galaxy
+  * retargetingOffset: 20
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockedByEvent: true
+  * eventButtonString: hn_open_galaxy
   * autoSpawnRateScale: 1
-  * eventFeaturesString: fragment_obtain_gen
+  * acceleration: 0
+  * size: 6
+  * overWalls: false
+  * clipRetargeting: true
+  * targetLocking: false
   * maxScale: false
   * upgradeShardUid: shrd_troopIG86Droid
-  * overWalls: false
-  * chargeTime: 250
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileIG86Droid
-  * sizex: 1
-  * eventButtonAction: galaxy
+  * crushesWalls: false
   * reload: 2000
-  * unlockedByEvent: true
-  * splash: 0
+  * chargeTime: 250
+  * shotDelay: 150
   * impactDelay: 1000
-  * targetLocking: false
+  * projectileType: projectileIG86Droid
+  * shotCount: 7
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * sizex: 1
+  * targetInRangeModifier: 1
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * favoriteTargetType: turret
 
 |Level          |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |---------------|-------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements   |['empireBarracks2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|iconUnlockScale|1.2,1.2,1.2        |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |pointValue     |4.000              |4.800                |5.600                |6.400                |7.200                |8.000                |8.800                |9.600                |10.400               |12.000                |
-|order          |134201             |134202               |134203               |134204               |134205               |134206               |134207               |134208               |134209               |134210                |
+|requirements   |['empireBarracks2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl            |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order          |134201             |134202               |134203               |134204               |134205               |134206               |134207               |134208               |134209               |134210                |
+|iconUnlockScale|1.2,1.2,1.2        |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Turret, HQ, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Shield generator
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Droideka**, **Infantry hero**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Heavy infantry hero**, **Infantry**, **Flying vehicle**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Wall, Support troop
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 100
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Turret, HQ, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Shield generator
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Droideka**, **Infantry hero**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Heavy infantry hero**, **Infantry**, **Flying vehicle**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Wall, Support troop
   * Trap: 0
   * Turret: 0
   * Vehicle hero: 50
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 15
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 15
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * decalSize: 160
-  * bundleName: c3po_rbl-ani
-  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: false
   * assetName: c3po_rbl-ani
+  * playerFacing: false
+  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
   * gunSequence: 1
   * tooltipHeightOffset: 1.5
-  * animationDelay: 0
+  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
   * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: c3po_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
   * factoryRotation: 0
-  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * spawnEffectUid: effectRebelSpawn
-  * xp: 0
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
-  * overWalls: true
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 15
-  * shotDelay: 0
-  * selfCenteredTargeting: true
-  * crushesWalls: false
-  * targetedType: ALLIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * pathSearchWidth: 15
   * targetPreferenceStrength: 1
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
+  * spawnEffectUid: effectRebelSpawn
+  * retargetingOffset: 15
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ALLIES
   * maxScale: false
-  * impactDelay: 0
-  * chargeTime: 0
-  * supportFollowDistance: 2
-  * projectileType: projectileC3PO1
-  * ignoresWalls: true
+  * autoSpawnRateScale: 1
+  * clipRetargeting: false
+  * decalAssetName: tac_hero_rbl
+  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
+  * selfCenteredTargeting: true
+  * size: 1
+  * overWalls: true
   * sizex: 1
-  * decalBundleName: tac_hero_rbl
-  * reload: 500
-  * splash: 0
   * favoriteTargetType: closest
-  * targetLocking: true
+  * reload: 500
+  * chargeTime: 0
+  * shotDelay: 0
+  * impactDelay: 0
+  * projectileType: projectileC3PO1
+  * shotCount: 1
+  * decalBundleName: tac_hero_rbl
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: true
+  * supportFollowDistance: 2
+  * attackShieldBorder: false
+  * ignoresWalls: true
 
 |Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|-----|-----|------|------|------|------|------|------|------|------|
-|heroData  |hero1|hero2|hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
 |lvl       |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
+|heroData  |hero1|hero2|hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

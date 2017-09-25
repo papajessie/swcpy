@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Ressource generator, Storage, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Other building, Infantry, Support troop, Heavy infantry, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _Storage_, _Ressource generator_, Vehicle hero, Heavy vehicular hero, Other building, Droideka, Infantry hero, Heavy vehicle, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Support troop, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Turret, Ressource generator, Storage, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Other building, Infantry, Support troop, Heavy infantry, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _Storage_, _Ressource generator_, Vehicle hero, Heavy vehicular hero, Other building, Droideka, Infantry hero, Heavy vehicle, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Support troop, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 50
@@ -63,66 +63,66 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * bundleName: wompratmedium_neu-ani
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * buffAssetOffset: 0.00,0.25,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: false
   * assetName: wompratmedium_neu-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.2,0.39,-0.08
-  * animationDelay: 1000
   * iconCameraPosition: 13.51,14.12,9.05
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * bundleName: wompratmedium_neu-ani
+  * gunSequence: 1
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * buffAssetOffset: 0.00,0.25,0.00
+  * playerFacing: false
+  * animationDelay: 1000
+  * iconLookatPosition: -0.2,0.39,-0.08
+  * factoryRotation: 0
+  * newRotationSpeed: 982
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
 
 ## Uninterpreted stats
 
-  * requirements: ['smugglerBarracks4']
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: closest
-  * overWalls: false
-  * size: 5
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 1000
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * pathSearchWidth: 1
   * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileMeleeWompRatBruiser
-  * sizex: 1
   * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * retargetingOffset: 8
+  * xp: 0
+  * requirements: ['smugglerBarracks4']
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 1000
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 5
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: closest
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * shotDelay: 500
   * impactDelay: 1000
+  * projectileType: projectileMeleeWompRatBruiser
+  * shotCount: 1
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
-|order     |332801|332802|332803|332804|332805|332806|332807|332808|332809|332810|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |332801|332802|332803|332804|332805|332806|332807|332808|332809|332810|
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Turret**, **Other building**, **Droideka**, **Infantry hero**, **Heavy vehicle**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Heavy infantry hero**, **Infantry**, **Support troop**, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Turret**, **Other building**, **Droideka**, **Infantry hero**, **Heavy vehicle**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Heavy infantry hero**, **Infantry**, **Support troop**, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 50
@@ -63,65 +63,65 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 50
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 50
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * bundleName: womprat_neu-ani
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: false
   * assetName: womprat_neu-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * animationDelay: 1000
   * iconCameraPosition: 11.42,11.67,7.56
-  * factoryScaleFactor: 1
+  * gunSequence: 1
   * factoryRotation: 0
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * bundleName: womprat_neu-ani
+  * playerFacing: false
+  * animationDelay: 1000
+  * iconLookatPosition: -0.07,0.16,-0.08
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * requirements: ['smugglerBarracks4']
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: closest
-  * overWalls: false
-  * size: 1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
   * retargetingOffset: 8
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * xp: 0
+  * requirements: ['smugglerBarracks4']
+  * autoSpawnSpreadingScale: 1
   * targetedType: ENEMIES
   * reload: 1000
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 4
-  * pathSearchWidth: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileMeleeWompRatGeneralist
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * shotDelay: 250
   * impactDelay: 1000
+  * projectileType: projectileMeleeWompRatGeneralist
+  * shotCount: 4
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
-|order     |332701|332702|332703|332704|332705|332706|332707|332708|332709|332710|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |332701|332702|332703|332704|332705|332706|332707|332708|332709|332710|
 

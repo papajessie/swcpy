@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Heavy vehicular hero, Heavy vehicle, Vehicle hero, Trap, Turret, HQ, Droideka, Flying infantry, Ressource generator, Other building, Wall, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Heavy infantry hero, Infantry hero, Shield generator
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Heavy vehicle**, **Light vehicle**, Turret, Other building, Droideka, Infantry hero, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Trap, Heavy infantry hero, Infantry, Flying vehicle, Wall, Support troop
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Light vehicle, Heavy vehicular hero, Heavy vehicle, Vehicle hero, Trap, Turret, HQ, Droideka, Flying infantry, Ressource generator, Other building, Wall, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Heavy infantry hero, Infantry hero, Shield generator
+  * Target preferences: **Vehicle hero**, **Heavy vehicular hero**, **Heavy vehicle**, **Light vehicle**, Turret, Other building, Droideka, Infantry hero, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Trap, Heavy infantry hero, Infantry, Flying vehicle, Wall, Support troop
   * Trap: 0
   * Turret: 0
   * Vehicle hero: 50
@@ -63,68 +63,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * bundleName: techniciandroid_emp-ani
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
   * assetName: techniciandroid_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.06,2.6,-0.14
-  * animationDelay: 0
+  * playerFacing: true
   * iconCameraPosition: 7.9,7.91,12.71
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * bundleName: techniciandroid_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: 0.06,2.6,-0.14
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * infoUIType: Healer
-  * favoriteTargetType: vehicles
-  * clipRetargeting: false
-  * size: 4
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * pathSearchWidth: 15
-  * shotDelay: 500
-  * selfCenteredTargeting: true
-  * crushesWalls: false
-  * targetedType: ALLIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: true
-  * splash: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * supportFollowDistance: 5
-  * sizex: 1
-  * reload: 2000
   * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * retargetingOffset: 10
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ALLIES
+  * reload: 2000
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 4
+  * overWalls: false
+  * sizex: 1
+  * infoUIType: Healer
+  * maxScale: false
+  * selfCenteredTargeting: true
+  * chargeTime: 250
+  * shotDelay: 500
   * impactDelay: 1000
+  * shotCount: 1
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetLocking: true
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * supportFollowDistance: 5
+  * attackShieldBorder: false
+  * favoriteTargetType: vehicles
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
-|requirements  |['empireBarracks5']       |['empireOffenseLab2']     |['empireOffenseLab3']     |['empireOffenseLab4']     |['empireOffenseLab5']     |['empireOffenseLab6']     |['empireOffenseLab7']     |['empireOffenseLab8']     |['empireOffenseLab9']     |['empireOffenseLab10']     |
 |pointValue    |4.000                     |4.800                     |5.600                     |6.400                     |7.200                     |8.000                     |8.800                     |9.600                     |10.400                    |12.000                     |
-|order         |120501                    |120502                    |120503                    |120504                    |120505                    |120506                    |120507                    |120508                    |120509                    |120510                     |
+|requirements  |['empireBarracks5']       |['empireOffenseLab2']     |['empireOffenseLab3']     |['empireOffenseLab4']     |['empireOffenseLab5']     |['empireOffenseLab6']     |['empireOffenseLab7']     |['empireOffenseLab8']     |['empireOffenseLab9']     |['empireOffenseLab10']     |
 |lvl           |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |projectileType|projectileTechnicianLevel1|projectileTechnicianLevel2|projectileTechnicianLevel3|projectileTechnicianLevel4|projectileTechnicianLevel5|projectileTechnicianLevel6|projectileTechnicianLevel7|projectileTechnicianLevel8|projectileTechnicianLevel9|projectileTechnicianLevel10|
+|order         |120501                    |120502                    |120503                    |120504                    |120505                    |120506                    |120507                    |120508                    |120509                    |120510                     |
 
