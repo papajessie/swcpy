@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Ressource generator, Other building, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, _Other building_, _Storage_, _Ressource generator_, Turret, Droideka, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 1
   * Min. Range: 0
   * View Range: 8
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 70
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Ressource generator, Other building, Storage, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, _Other building_, _Storage_, _Ressource generator_, Turret, Droideka, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -60,59 +60,59 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 1
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 1
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 1
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * bundleName: jawa_neu-ani
-  * rotationSpeed: 1
-  * playerFacing: false
   * assetName: jawa_neu-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.12,1.34,0.53
-  * animationDelay: 0
   * iconCameraPosition: 4.07,10.49,14.92
+  * gunSequence: 1
   * factoryScaleFactor: 1
+  * bundleName: jawa_neu-ani
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * playerFacing: false
+  * animationDelay: 0
+  * iconLookatPosition: -0.12,1.34,0.53
   * factoryRotation: 0
+  * newRotationSpeed: 1
+  * rotationSpeed: 1
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: closest
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 1
   * pointValue: 0.000
-  * shotDelay: 1
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * retargetingOffset: 1
+  * xp: 0
   * acceleration: 0
-  * attackShieldBorder: false
+  * autoSpawnSpreadingScale: 1
+  * lvl: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 1
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * selfCenteredTargeting: false
+  * size: 4
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: closest
+  * chargeTime: 1
+  * targetLocking: false
+  * impactDelay: 1
+  * shotDelay: 1
   * order: 372001
   * shotCount: 5
-  * pathSearchWidth: 1
-  * lvl: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 1
-  * projectileType: projectileSmugglerSaboteur
-  * size: 4
-  * reload: 1
-  * splash: 0
-  * impactDelay: 1
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileSmugglerSaboteur
 

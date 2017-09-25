@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 70
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,66 +63,66 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * assetName: attacktank_rbl-ani
+  * playerFacing: false
+  * iconCameraPosition: 35.28,24.86,45.37
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
   * bundleName: attacktank_rbl-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * buffAssetOffset: 0.00,1.84,0.00
-  * rotationSpeed: 2
-  * playerFacing: false
-  * assetName: attacktank_rbl-ani
-  * gunSequence: 1,1
-  * iconLookatPosition: -0.89,1.38,-0.23
-  * animationDelay: 0
-  * iconCameraPosition: 35.28,24.86,45.37
   * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.00,1.84,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * iconLookatPosition: -0.89,1.38,-0.23
+  * factoryRotation: 0
+  * newRotationSpeed: 2000
+  * gunSequence: 1,1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
-  * size: 20
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * autoSpawnRateScale: 3
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: true
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 3
-  * acceleration: 0
-  * attackShieldBorder: true
-  * shotCount: 2
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * strictCoolDown: false
   * maxScale: false
-  * overWalls: true
-  * chargeTime: 1000
-  * projectileType: projectileSeizedJuggernaut
-  * sizex: 2
+  * armingDelay: 0
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 3
+  * targetedType: ENEMIES
   * reload: 1000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 3
+  * acceleration: 0
+  * size: 20
+  * overWalls: true
+  * sizex: 2
+  * favoriteTargetType: shieldGenerator
+  * selfCenteredTargeting: false
+  * chargeTime: 1000
+  * targetLocking: false
   * impactDelay: 500
+  * shotDelay: 250
+  * shotCount: 2
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: true
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: true
+  * projectileType: projectileSeizedJuggernaut
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements|['empireFactory5']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|order       |484804            |484808               |484812               |484816               |484820               |484824               |484828               |484832               |484836               |484840                |
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |484804            |484808               |484812               |484816               |484820               |484824               |484828               |484832               |484836               |484840                |
 

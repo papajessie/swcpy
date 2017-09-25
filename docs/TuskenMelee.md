@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Droideka, Infantry, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Heavy infantry**, _Droideka_, _Infantry_, _Support troop_, _Heavy vehicle_, _Turret_, _Light vehicle_, _HQ_, Other building, Storage, Ressource generator, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 95
-  * Target preferences: Heavy infantry, Droideka, Infantry, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Heavy infantry**, _Droideka_, _Infantry_, _Support troop_, _Heavy vehicle_, _Turret_, _Light vehicle_, _HQ_, Other building, Storage, Ressource generator, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 80
   * Vehicle hero: 1
@@ -63,65 +63,65 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * bundleName: raidermelee_tkn-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
   * assetName: raidermelee_tkn-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.1,1.49,0.27
-  * animationDelay: 1000
+  * playerFacing: true
   * iconCameraPosition: 9.5,10.55,11.7
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * bundleName: raidermelee_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * iconLookatPosition: 0.1,1.49,0.27
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * size: 1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
   * retargetingOffset: 4
-  * shotDelay: 1250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * xp: 0
+  * acceleration: 0
+  * autoSpawnSpreadingScale: 1
   * targetedType: ENEMIES
   * reload: 0
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 5
-  * pathSearchWidth: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 500
-  * projectileType: projectileMeleeHeadButtLrg
+  * selfCenteredTargeting: false
+  * size: 1
+  * overWalls: false
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * favoriteTargetType: infantry
+  * chargeTime: 500
+  * maxScale: false
   * impactDelay: 0
+  * shotDelay: 1250
+  * shotCount: 5
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileMeleeHeadButtLrg
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
-|order     |321801|321802|321803|321804|321805|321806|321807|321808|321809|321810|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order     |321801|321802|321803|321804|321805|321806|321807|321808|321809|321810|
 

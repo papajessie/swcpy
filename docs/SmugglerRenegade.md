@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Wall, Trap
+  * Target preferences: **Turret**, _Other building_, _Storage_, _Ressource generator_, _HQ_, _Shield_, _Shield generator_, Vehicle hero, Heavy vehicular hero, Droideka, Infantry hero, Heavy vehicle, Flying infantry, Heavy infantry, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 60
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Wall, Trap
+  * Target preferences: **Turret**, _Other building_, _Storage_, _Ressource generator_, _HQ_, _Shield_, _Shield generator_, Vehicle hero, Heavy vehicular hero, Droideka, Infantry hero, Heavy vehicle, Flying infantry, Heavy infantry, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 50
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 50
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 50
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * assetName: speederbike_smg-ani
+  * playerFacing: true
+  * iconCameraPosition: 14.41,12.49,21.37
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
   * bundleName: speederbike_smg-ani
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * buffAssetOffset: 0,1,0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: speederbike_smg-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * animationDelay: 0
-  * iconCameraPosition: 14.41,12.49,21.37
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * buffAssetOffset: 0,1,0
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1,2
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * size: 2
-  * targetInRangeModifier: 1
-  * retargetingOffset: 100
-  * pathSearchWidth: 1
-  * shotDelay: 125
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 500
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * splash: 0
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * chargeTime: 250
-  * projectileType: projectileSmugglerRenegade
-  * sizex: 1
   * deathAnimation: buffFireBurn:15
+  * retargetingOffset: 100
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 500
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 2
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: infantry
+  * crushesWalls: false
+  * chargeTime: 250
+  * shotDelay: 125
   * impactDelay: 1000
+  * projectileType: projectileSmugglerRenegade
+  * shotCount: 3
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level       |1                                                                                                                      |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|-----------------------------------------------------------------------------------------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['smugglerBarracks1']                                                                                                  |['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 |pointValue  |6.000                                                                                                                  |7.200                |8.400                |9.600                |10.800               |12.000               |13.200               |14.400               |15.600               |18.000                |
-|order       |344301                                                                                                                 |344302               |344303               |344304               |344305               |344306               |344307               |344308               |344309               |344310                |
-|lvl         |1                                                                                                                      |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |audioTrain  |"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|requirements|['smugglerBarracks1']                                                                                                  |['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
+|lvl         |1                                                                                                                      |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |344301                                                                                                                 |344302               |344303               |344304               |344305               |344306               |344307               |344308               |344309               |344310                |
 

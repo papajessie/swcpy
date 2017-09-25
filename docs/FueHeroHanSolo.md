@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, _Turret_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, _Turret_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 60
   * Vehicle hero: 1
@@ -60,69 +60,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
-  * decalSize: 160
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * bundleName: hansolo_rbl-ani
-  * audioPlacement: "sfx_placement_hero_han":100
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: hansolo_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.01,1.77,0.14
-  * animationDelay: 0
-  * iconCameraPosition: 11.5,12.83,14.14
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_han":100
+  * iconCameraPosition: 11.5,12.83,14.14
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_hero_han":100
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: hansolo_rbl-ani
+  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * animationDelay: 0
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * iconLookatPosition: -0.01,1.77,0.14
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: shieldGenerator
-  * heroData: hero2
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
   * pointValue: 20.000
-  * shotDelay: 150
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * retargetingOffset: 8
+  * xp: 0
   * acceleration: 0
-  * attackShieldBorder: false
+  * autoSpawnSpreadingScale: 1
+  * lvl: 1
+  * targetedType: ENEMIES
+  * decalAssetName: tac_hero_rbl
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * splash: 0
+  * selfCenteredTargeting: false
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * maxScale: false
+  * reload: 1870
+  * chargeTime: 150
+  * shotDelay: 150
+  * impactDelay: 1000
+  * projectileType: projectileFUEHeroHanSolo
   * order: 42
   * shotCount: 2
-  * pathSearchWidth: 1
-  * lvl: 1
-  * targetPreferenceStrength: 90
-  * uiDecalAssetName: HeroDecalRebel
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 150
-  * armingDelay: 0
-  * projectileType: projectileFUEHeroHanSolo
-  * sizex: 1
   * decalBundleName: tac_hero_rbl
-  * reload: 1870
-  * splash: 0
-  * impactDelay: 1000
-  * targetLocking: false
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * targetPreferenceStrength: 90
+  * targetLocking: false
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * uiDecalAssetName: HeroDecalRebel
+  * attackShieldBorder: false
+  * heroData: hero2
+  * favoriteTargetType: shieldGenerator
 

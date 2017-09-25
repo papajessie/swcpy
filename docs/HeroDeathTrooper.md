@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Trap, Turret, Shield, Shield generator, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Turret**, **Trap**, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 60
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Trap, Turret, Shield, Shield generator, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Turret**, **Trap**, _Shield_, _Shield generator_, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Trap: 80
   * Turret: 80
   * Vehicle hero: 1
@@ -63,81 +63,81 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
-  * decalSize: 160
-  * iconCloseupCameraPosition: 3.94,6.77,11.83
-  * bundleName: deathtrooper_emp-ani
-  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
-  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
-  * iconCloseupLookatPosition: -0.34,2.08,-1.07
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: deathtrooper_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.34,1.19,-0.78
-  * animationDelay: 0
-  * iconCameraPosition: 6.12,13,15.36
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
+  * iconCameraPosition: 6.12,13,15.36
+  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: deathtrooper_emp-ani
+  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.34,2.08,-1.07
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 3.94,6.77,11.83
+  * iconLookatPosition: -0.34,1.19,-0.78
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: turret
-  * retargetingOffset: 14
   * hologramUid: HeroHologramDeathtrooper
-  * pathSearchWidth: 15
-  * acceleration: 0
   * armingDelay: 0
-  * targetLocking: false
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 50
+  * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
+  * eventButtonAction: galaxy
+  * retargetingOffset: 14
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileHeroHanSolo
-  * size: 1
-  * decalBundleName: tac_hero_emp
-  * reload: 1000
-  * splash: 0
-  * sizey: 1
-  * clipRetargeting: false
   * decalAssetName: tac_hero_emp
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * size: 1
+  * overWalls: false
+  * maxScale: false
+  * impactDelay: 250
+  * shotCount: 2
+  * sizey: 1
+  * pathSearchWidth: 15
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: false
+  * xp: 0
+  * acceleration: 0
+  * favoriteTargetType: turret
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
   * eventButtonString: hn_open_galaxy
+  * upgradeShardUid: shrd_troopHeroDeathTrooper
+  * selfCenteredTargeting: false
+  * sizex: 1
+  * autoSpawnSpreadingScale: 1
+  * reload: 1000
+  * chargeTime: 50
+  * shotDelay: 400
+  * projectileType: projectileHeroHanSolo
+  * decalBundleName: tac_hero_emp
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
   * targetInRangeModifier: 1
   * crushesWalls: false
-  * eventButtonAction: galaxy
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * attackShieldBorder: false
-  * shotCount: 2
-  * shotDelay: 400
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
-  * upgradeShardUid: shrd_troopHeroDeathTrooper
-  * sizex: 1
-  * unlockedByEvent: true
-  * impactDelay: 250
-  * autoSpawnRateScale: 1
+  * targetLocking: false
 
 |Level          |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |---------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements   |['empireTacticalCommand2']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|order          |111201                    |111202               |111203               |111204               |111205               |111206               |111207               |111208               |111209               |111210                |
 |lvl            |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order          |111201                    |111202               |111203               |111204               |111205               |111206               |111207               |111208               |111209               |111210                |
 |iconUnlockScale|1.2,1.2,1.2               |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|heroData       |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 |pointValue     |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
+|heroData       |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 

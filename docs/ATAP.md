@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 70
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,67 +63,67 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * assetName: atap_rbl-ani
+  * playerFacing: true
+  * iconCameraPosition: 20.98,26.07,34.08
+  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
   * bundleName: atap_rbl-ani
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
-  * buffAssetOffset: 0.00,1.94,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: true
-  * assetName: atap_rbl-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: -0.59,2.38,-0.99
-  * animationDelay: 0
-  * iconCameraPosition: 20.98,26.07,34.08
   * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
-  * factoryRotation: 0
   * audioDeath: "sfx_death_rebel_atap_1":100
+  * buffAssetOffset: 0.00,1.94,0.00
+  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconLookatPosition: -0.59,2.38,-0.99
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * gunSequence: 1,2
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
-  * size: 10
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * shotDelay: 200
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: true
-  * shotCount: 4
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectileATAP
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 10
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: shieldGenerator
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * targetLocking: false
   * impactDelay: 1000
+  * shotDelay: 200
+  * shotCount: 4
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: true
+  * projectileType: projectileATAP
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |10.000           |12.000              |14.000              |16.000              |18.000              |20.000              |22.000              |24.000              |26.000              |30.000               |
-|order       |230401           |230402              |230403              |230404              |230405              |230406              |230407              |230408              |230409              |230410               |
+|requirements|['rebelFactory4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |230401           |230402              |230403              |230404              |230405              |230406              |230407              |230408              |230409              |230410               |
 

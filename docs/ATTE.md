@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, Turret, Light vehicle, HQ, Heavy vehicular hero, Heavy vehicle, Ressource generator, Other building, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Droideka**, **Infantry hero**, **Flying infantry**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, **Support troop**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 50
@@ -63,67 +63,67 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 10
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 10
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * assetName: atte_rbl-ani
+  * playerFacing: true
+  * iconCameraPosition: 24.47,22.61,37.05
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * bundleName: atte_rbl-ani
   * audioPlacement: "sfx_placement_empire_atat_1":100
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * buffAssetOffset: 0.00,1.46,0.00
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * playerFacing: true
-  * assetName: atte_rbl-ani
-  * gunSequence: 1,2,3,4,5
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * animationDelay: 0
-  * iconCameraPosition: 24.47,22.61,37.05
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_walker_1":100
+  * buffAssetOffset: 0.00,1.46,0.00
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * animationDelay: 0
+  * iconLookatPosition: -0.2,1.23,-0.57
+  * factoryRotation: 0
+  * newRotationSpeed: 982
+  * gunSequence: 1,2,3,4,5
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * size: 20
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 5
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 1000
-  * projectileType: projectileBlasterRebelATTE
-  * sizex: 2
   * reload: 1000
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 20
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 1000
+  * targetLocking: false
   * impactDelay: 500
+  * shotDelay: 500
+  * shotCount: 5
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileBlasterRebelATTE
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory8']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |20.000           |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
-|order       |230801           |230802              |230803              |230804              |230805              |230806              |230807              |230808              |230809              |230810               |
+|requirements|['rebelFactory8']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |230801           |230802              |230803              |230804              |230805              |230806              |230807              |230808              |230809              |230810               |
 

@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 20
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 55
   * Vehicle hero: 1
@@ -60,64 +60,64 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
+  * assetName: bountyhunter_smg-ani
+  * playerFacing: true
+  * iconCameraPosition: 9,10,11.12
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * bundleName: bountyhunter_smg-ani
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * buffAssetOffset: 0.00,0.08,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: bountyhunter_smg-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: 0.09,1.4,0.28
-  * animationDelay: 0
-  * iconCameraPosition: 9,10,11.12
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * buffAssetOffset: 0.00,0.08,0.00
+  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: 0.09,1.4,0.28
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1,2
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: none
-  * overWalls: false
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
   * pointValue: 1.000
-  * shotDelay: 500
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 1500
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
+  * retargetingOffset: 12
+  * xp: 0
   * acceleration: 0
-  * attackShieldBorder: false
+  * autoSpawnSpreadingScale: 1
+  * lvl: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 1500
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * selfCenteredTargeting: false
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: none
+  * chargeTime: 250
+  * targetLocking: false
+  * impactDelay: 1000
+  * shotDelay: 500
   * order: 331801
   * shotCount: 2
-  * pathSearchWidth: 1
-  * lvl: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileBountyHunter
-  * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
-  * impactDelay: 1000
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileBountyHunter
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 9
   * Min. Range: 1
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,66 +63,66 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 10
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 10
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * assetName: atat_emp-ani
+  * playerFacing: false
+  * iconCameraPosition: 41.83,40.55,52.41
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * bundleName: atat_emp-ani
   * audioPlacement: "sfx_placement_empire_atat_1":100
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * buffAssetOffset: 0,4.00,0.00
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * playerFacing: false
-  * assetName: atat_emp-ani
-  * gunSequence: 1,1,1,1
-  * iconLookatPosition: -2.01,3.9,-0.8
-  * animationDelay: 0
-  * iconCameraPosition: 41.83,40.55,52.41
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_walker_1":100
+  * buffAssetOffset: 0,4.00,0.00
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * animationDelay: 0
+  * iconLookatPosition: -2.01,3.9,-0.8
+  * factoryRotation: 0
+  * newRotationSpeed: 982
+  * gunSequence: 1,1,1,1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
-  * size: 30
-  * targetInRangeModifier: 1
-  * retargetingOffset: 18
-  * autoSpawnRateScale: 2
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: true
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: true
-  * shotCount: 8
-  * pathSearchWidth: 200
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * strictCoolDown: false
   * maxScale: false
-  * overWalls: true
-  * chargeTime: 500
-  * projectileType: projectileStolenATAT
-  * sizex: 2
+  * armingDelay: 0
+  * retargetingOffset: 18
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * reload: 1500
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * acceleration: 0
+  * size: 30
+  * overWalls: true
+  * sizex: 2
+  * favoriteTargetType: shieldGenerator
+  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * targetLocking: false
   * impactDelay: 500
+  * shotDelay: 250
+  * shotCount: 8
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 200
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: true
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: true
+  * projectileType: projectileStolenATAT
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelFactory5']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|order       |481604           |481608              |481612              |481616              |481620              |481624              |481628              |481632              |481636              |481640               |
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |481604           |481608              |481612              |481616              |481620              |481624              |481628              |481632              |481636              |481640               |
 

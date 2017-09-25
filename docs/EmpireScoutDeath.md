@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Ressource generator, Storage, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Other building, Infantry, Support troop, Heavy infantry, Shield, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Storage**, **Ressource generator**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Infantry hero, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 80
   * Support troop: 50
-  * Target preferences: Ressource generator, Storage, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Other building, Infantry, Support troop, Heavy infantry, Shield, Flying vehicle, Heavy infantry hero, Infantry hero, Vehicle hero, Shield generator, Wall, Trap
+  * Target preferences: **Storage**, **Ressource generator**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Infantry hero, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 50
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * bundleName: scotrper_dth-ani
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * factoryRotation: 0
-  * playerFacing: false
   * assetName: scotrper_dth-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.06,1.74,0.02
-  * animationDelay: 0
   * iconCameraPosition: 10.84,12.06,13.07
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * bundleName: scotrper_dth-ani
+  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * iconLookatPosition: 0.06,1.74,0.02
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: resource
-  * overWalls: false
-  * size: 1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * deathAnimation: buffFireBurn:15
   * retargetingOffset: 8
-  * shotDelay: 0
-  * selfCenteredTargeting: false
-  * crushesWalls: false
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
   * targetedType: ENEMIES
   * reload: 800
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * pathSearchWidth: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 250
-  * projectileType: projectileScoutDeath
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
   * sizex: 1
-  * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * favoriteTargetType: resource
+  * crushesWalls: false
+  * chargeTime: 250
+  * maxScale: false
   * impactDelay: 0
+  * projectileType: projectileScoutDeath
+  * shotCount: 1
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * shotDelay: 0
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * targetLocking: false
 
 |Level       |1                   |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireBarracks10']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |1.000               |1.200                |1.400                |1.600                |1.800                |2.000                |2.200                |2.400                |2.600                |3.000                 |
-|order       |133101              |133102               |133103               |133104               |133105               |133106               |133107               |133108               |133109               |133110                |
+|requirements|['empireBarracks10']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                   |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |133101              |133102               |133103               |133104               |133105               |133106               |133107               |133108               |133109               |133110                |
 

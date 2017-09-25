@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,71 +63,71 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * iconCloseupCameraPosition: -0.24,0.29,11.62
-  * bundleName: heavysoldier_rbl-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * iconCloseupLookatPosition: -0.13,2.39,0.83
-  * buffAssetOffset: 0.00,0.30,0.00
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: heavysoldier_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.44,1.75,0.53
-  * animationDelay: 0
   * iconCameraPosition: 3.52,10.26,21.73
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * bundleName: heavysoldier_rbl-ani
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * buffAssetOffset: 0.00,0.30,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.13,2.39,0.83
+  * animationDelay: 0
+  * iconCloseupCameraPosition: -0.24,0.29,11.62
+  * iconLookatPosition: -0.44,1.75,0.53
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: closest
-  * overWalls: false
-  * size: 5
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
-  * pathSearchWidth: 15
-  * shotDelay: 100
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * reload: 2000
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 10
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
   * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * chargeTime: 500
-  * projectileType: projectileHeavyRebel
-  * sizex: 1
   * deathAnimation: buffFireBurn:15
-  * splash: 0
+  * retargetingOffset: 14
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 2000
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 5
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: closest
+  * crushesWalls: false
+  * chargeTime: 500
+  * shotDelay: 100
   * impactDelay: 500
+  * projectileType: projectileHeavyRebel
+  * shotCount: 10
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * splash: 0
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level       |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelBarracks6']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |5.000             |6.000               |7.000               |8.000               |9.000               |10.000              |11.000              |12.000              |13.000              |15.000               |
-|order       |220601            |220602              |220603              |220604              |220605              |220606              |220607              |220608              |220609              |220610               |
+|requirements|['rebelBarracks6']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                 |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |220601            |220602              |220603              |220604              |220605              |220606              |220607              |220608              |220609              |220610               |
 

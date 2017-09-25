@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Trap, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator
+  * Target preferences: **Infantry hero**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Light vehicle, Flying vehicle, Wall, Support troop
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Infantry, Heavy infantry, Heavy infantry hero, Infantry hero, Trap, Turret, Light vehicle, HQ, Heavy vehicular hero, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Wall, Support troop, Storage, Shield, Flying vehicle, Vehicle hero, Shield generator
+  * Target preferences: **Infantry hero**, **Heavy infantry**, **Heavy infantry hero**, **Infantry**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Shield, Shield generator, Trap, Light vehicle, Flying vehicle, Wall, Support troop
   * Trap: 0
   * Turret: 0
   * Vehicle hero: 0
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * bundleName: medicdroid_rbl-ani
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * factoryRotation: 0
-  * playerFacing: false
   * assetName: medicdroid_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.26,1.17,0.34
-  * animationDelay: 0
   * iconCameraPosition: 6.65,6.07,11.15
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * bundleName: medicdroid_rbl-ani
+  * playerFacing: false
+  * iconCloseupLookatPosition: 0.03,1.47,-0.14
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * iconLookatPosition: 0.26,1.17,0.34
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
+  * armingDelay: 0
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * retargetingOffset: 10
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ALLIES
+  * reload: 900
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 5
+  * overWalls: false
+  * sizex: 1
   * infoUIType: Healer
   * favoriteTargetType: infantry
-  * clipRetargeting: false
-  * size: 5
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * autoSpawnRateScale: 1
-  * shotDelay: 400
-  * selfCenteredTargeting: true
   * crushesWalls: false
-  * targetedType: ALLIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 2
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: true
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: false
   * chargeTime: 50
-  * supportFollowDistance: 5
-  * sizex: 1
-  * reload: 900
-  * splash: 0
+  * maxScale: false
   * impactDelay: 250
+  * shotCount: 2
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * shotDelay: 400
+  * targetPreferenceStrength: 90
+  * supportFollowDistance: 5
+  * attackShieldBorder: false
+  * selfCenteredTargeting: true
+  * targetLocking: true
 
 |Level         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |--------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements  |['empireBarracks5']  |['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|order         |484404               |484408               |484412               |484416               |484420               |484424               |484428               |484432               |484436               |484440                |
 |lvl           |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |projectileType|projectileMedicLevel1|projectileMedicLevel2|projectileMedicLevel3|projectileMedicLevel4|projectileMedicLevel5|projectileMedicLevel6|projectileMedicLevel7|projectileMedicLevel8|projectileMedicLevel9|projectileMedicLevel10|
+|order         |484404               |484408               |484412               |484416               |484420               |484424               |484428               |484432               |484436               |484440                |
 

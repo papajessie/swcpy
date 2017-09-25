@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Trap, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Trap**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 21
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Trap, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero
+  * Target preferences: **Trap**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall
   * Trap: 90
   * Turret: 50
   * Vehicle hero: 1
@@ -63,81 +63,81 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * iconCloseupCameraPosition: 0.64,0.41,9.27
-  * bundleName: shotrper_emp-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * iconCloseupLookatPosition: 0.07,2.85,0.16
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: shotrper_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.06,1.53,-0.1
-  * animationDelay: 0
   * iconCameraPosition: 12.08,15.01,15.66
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * bundleName: shotrper_emp-ani
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.07,2.85,0.16
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 0.64,0.41,9.27
+  * iconLookatPosition: -0.06,1.53,-0.1
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * retargetingOffset: 18
-  * acceleration: 0
   * armingDelay: 0
-  * targetLocking: false
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 500
-  * eventButtonData: planet1
-  * size: 3
-  * eventButtonAction: planet
-  * reload: 3000
-  * splash: 0
-  * favoriteTargetType: trap
-  * sizey: 1
-  * clipRetargeting: false
-  * eventButtonString: hn_open_tat
-  * deathAnimation: buffFireBurn:15
-  * crushesWalls: false
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * attackShieldBorder: false
-  * shotCount: 1
-  * shotDelay: 250
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
   * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * upgradeShardUid: shrd_troopShock
-  * targetInRangeModifier: 1
-  * sizex: 1
-  * unlockedByEvent: true
-  * impactDelay: 1000
+  * deathAnimation: buffFireBurn:15
+  * retargetingOffset: 18
+  * eventButtonData: planet1
+  * clipRetargeting: false
   * autoSpawnRateScale: 1
+  * size: 3
+  * overWalls: false
+  * maxScale: false
+  * impactDelay: 1000
+  * eventButtonAction: planet
+  * shotCount: 1
+  * sizey: 1
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: false
+  * xp: 0
+  * acceleration: 0
+  * favoriteTargetType: trap
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
+  * eventButtonString: hn_open_tat
+  * upgradeShardUid: shrd_troopShock
+  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
+  * selfCenteredTargeting: false
+  * sizex: 1
+  * autoSpawnSpreadingScale: 1
+  * reload: 3000
+  * chargeTime: 500
+  * shotDelay: 250
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
 
 |Level             |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements      |['empireBarracks1']  |['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|pathSearchWidth   |15                   |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                   |
 |iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|order             |121201               |121202               |121203               |121204               |121205               |121206               |121207               |121208               |121209               |121210                |
+|requirements      |['empireBarracks1']  |['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl               |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|projectileType    |projectileShockLevel1|projectileShockLevel2|projectileShockLevel3|projectileShockLevel4|projectileShockLevel5|projectileShockLevel6|projectileShockLevel7|projectileShockLevel8|projectileShockLevel9|projectileShockLevel10|
-|iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|order             |121201               |121202               |121203               |121204               |121205               |121206               |121207               |121208               |121209               |121210                |
+|pathSearchWidth   |15                   |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                   |
 |iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |pointValue        |3.000                |3.600                |4.200                |4.800                |5.400                |6.000                |6.600                |7.200                |7.800                |9.000                 |
+|projectileType    |projectileShockLevel1|projectileShockLevel2|projectileShockLevel3|projectileShockLevel4|projectileShockLevel5|projectileShockLevel6|projectileShockLevel7|projectileShockLevel8|projectileShockLevel9|projectileShockLevel10|
+|iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 

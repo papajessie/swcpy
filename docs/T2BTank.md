@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Other building**, **Droideka**, **Heavy vehicle**, **Flying infantry**, **Storage**, **Ressource generator**, **HQ**, **Heavy infantry**, **Shield**, **Shield generator**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,67 +63,67 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * assetName: t2btank_rbl-ani
+  * playerFacing: true
+  * iconCameraPosition: 22.79,25.75,28.69
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * bundleName: t2btank_rbl-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * buffAssetOffset: 0.00,0.51,0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: true
-  * assetName: t2btank_rbl-ani
-  * gunSequence: 1,1,2,2
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * animationDelay: 100
-  * iconCameraPosition: 22.79,25.75,28.69
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.00,0.51,0
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 100
+  * iconLookatPosition: -0.25,0.58,-0.36
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * gunSequence: 1,1,2,2
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: closest
-  * clipRetargeting: false
-  * size: 7
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * shotDelay: 200
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 3
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 4
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 3
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 3
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectileT2BTank
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 3
+  * acceleration: 0
+  * size: 7
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: closest
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * targetLocking: false
   * impactDelay: 1000
+  * shotDelay: 200
+  * shotCount: 4
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileT2BTank
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
-|order       |230201           |230202              |230203              |230204              |230205              |230206              |230207              |230208              |230209              |230210               |
+|requirements|['rebelFactory2']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |230201           |230202              |230203              |230204              |230205              |230206              |230207              |230208              |230209              |230210               |
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -59,67 +59,67 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * assetName: replrtnk_emp-ani
+  * playerFacing: true
+  * iconCameraPosition: 30.83,30.71,28.35
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * bundleName: replrtnk_emp-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * buffAssetOffset: 0.0,1.14,0.0
-  * rotationSpeed: 2
-  * playerFacing: true
-  * assetName: replrtnk_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.22,1.4,-0.74
-  * animationDelay: 0
-  * iconCameraPosition: 30.83,30.71,28.35
   * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.0,1.14,0.0
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * iconLookatPosition: -0.22,1.4,-0.74
+  * factoryRotation: 0
+  * newRotationSpeed: 2000
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * size: 10
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * shotDelay: 200
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 3
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 4
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 3
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 3
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectile2MTank
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 3
+  * acceleration: 0
+  * size: 10
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: turret
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * targetLocking: false
   * impactDelay: 1000
+  * shotDelay: 200
+  * shotCount: 4
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectile2MTank
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireFactory3']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |10.000            |12.000               |14.000               |16.000               |18.000               |20.000               |22.000               |24.000               |26.000               |30.000                |
-|order       |130301            |130302               |130303               |130304               |130305               |130306               |130307               |130308               |130309               |130310                |
+|requirements|['empireFactory3']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |130301            |130302               |130303               |130304               |130305               |130306               |130307               |130308               |130309               |130310                |
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Heavy vehicle, Flying vehicle, Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Heavy vehicle**, **Light vehicle**, **Flying vehicle**, _Droideka_, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 55
-  * Target preferences: Light vehicle, Heavy vehicle, Flying vehicle, Droideka, Flying infantry, Infantry, Support troop, Heavy infantry, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Heavy vehicle**, **Light vehicle**, **Flying vehicle**, _Droideka_, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,68 +63,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: banthabarge_rbl-ani
+  * playerFacing: true
+  * iconCameraPosition: 25.92,23.21,24.67
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
   * bundleName: banthabarge_rbl-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * buffAssetOffset: 0.00,1.7,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * playerFacing: true
-  * assetName: banthabarge_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: -0.09,2.29,-0.96
-  * animationDelay: 0
-  * iconCameraPosition: 25.92,23.21,24.67
   * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
-  * factoryRotation: 0
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.00,1.7,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: -0.09,2.29,-0.96
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: true
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * overWalls: false
-  * size: 7
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * pathSearchWidth: 15
   * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
+  * retargetingOffset: 14
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
   * maxScale: false
-  * impactDelay: 500
-  * chargeTime: 500
-  * projectileType: projectileDesertSkiff
-  * sizex: 1
   * reload: 1500
-  * splash: 0
+  * clipRetargeting: true
+  * autoSpawnRateScale: 1
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 7
+  * overWalls: false
+  * sizex: 1
   * favoriteTargetType: vehicles
+  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * shotDelay: 250
+  * impactDelay: 500
+  * projectileType: projectileDesertSkiff
+  * shotCount: 1
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: false
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory6']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
-|order       |230601           |230602              |230603              |230604              |230605              |230606              |230607              |230608              |230609              |230610               |
+|requirements|['rebelFactory6']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order       |230601           |230602              |230603              |230604              |230605              |230606              |230607              |230608              |230609              |230610               |
 

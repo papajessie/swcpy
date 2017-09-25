@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, HQ, Ressource generator, Other building, Storage, Shield, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _Heavy vehicular hero_, _Droideka_, _Infantry hero_, _Heavy vehicle_, _Heavy infantry_, _Light vehicle_, _Heavy infantry hero_, _Infantry_, _Support troop_, Vehicle hero, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Flying infantry, Trap, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Light vehicle, Heavy vehicular hero, Droideka, Heavy vehicle, Infantry, Support troop, Heavy infantry, Heavy infantry hero, Infantry hero, HQ, Ressource generator, Other building, Storage, Shield, Vehicle hero, Shield generator, Wall, Trap, Flying infantry, Flying vehicle
+  * Target preferences: **Turret**, _Heavy vehicular hero_, _Droideka_, _Infantry hero_, _Heavy vehicle_, _Heavy infantry_, _Light vehicle_, _Heavy infantry hero_, _Infantry_, _Support troop_, Vehicle hero, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Flying infantry, Trap, Flying vehicle
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 50
@@ -63,74 +63,74 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 40
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 40
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * decalSize: 160
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * bundleName: crimsonguard_emp-ani
-  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
-  * buffAssetOffset: 0.00,0.35,0.00
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: crimsonguard_emp-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.06,1.72,0.04
-  * animationDelay: 1000
-  * iconCameraPosition: 7.77,6.46,23.13
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_crimsonguard_1":100
+  * iconCameraPosition: 7.77,6.46,23.13
+  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
+  * bundleName: crimsonguard_emp-ani
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * buffAssetOffset: 0.00,0.35,0.00
+  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.03,2.77,-0.19
+  * animationDelay: 1000
+  * iconCloseupCameraPosition: 0.01,1.3,10.4
+  * iconLookatPosition: 0.06,1.72,0.04
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 4
   * hologramUid: HeroHologramCrimsonGuard
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 1
-  * crushesWalls: false
-  * shotDelay: 100
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_emp
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 100
-  * projectileType: projectileMeleeCrimsonGuard
-  * sizex: 1
-  * decalBundleName: tac_hero_emp
   * reload: 1000
-  * splash: 0
+  * shotDelay: 100
+  * retargetingOffset: 4
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * decalAssetName: tac_hero_emp
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * selfCenteredTargeting: false
+  * chargeTime: 100
+  * maxScale: false
   * impactDelay: 0
-  * targetLocking: false
+  * projectileType: projectileMeleeCrimsonGuard
+  * shotCount: 1
+  * decalBundleName: tac_hero_emp
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * targetLocking: false
 
 |Level       |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireTacticalCommand4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 |pointValue  |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
+|requirements|['empireTacticalCommand4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |110401                    |110402               |110403               |110404               |110405               |110406               |110407               |110408               |110409               |110410                |
+|heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 

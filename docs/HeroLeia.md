@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, Turret, HQ, Ressource generator, Other building, Storage, Shield, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Droideka**, **Heavy vehicle**, **Flying infantry**, **Heavy infantry**, **Light vehicle**, **Infantry**, **Flying vehicle**, **Support troop**, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,73 +63,73 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * decalSize: 160
-  * iconCloseupCameraPosition: 1.49,1.49,7.71
-  * bundleName: princessleia_rbl-ani
-  * audioPlacement: "sfx_placement_hero_leia":100
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * iconCloseupLookatPosition: 0,2.44,-0.3
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: princessleia_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.06,1.58,0.16
-  * animationDelay: 0
-  * iconCameraPosition: 11.91,11.82,11.76
-  * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_hero_leia":100
+  * iconCameraPosition: 11.91,11.82,11.76
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_hero_leia":100
+  * factoryScaleFactor: 1
+  * decalSize: 160
+  * bundleName: princessleia_rbl-ani
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0,2.44,-0.3
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 1.49,1.49,7.71
+  * iconLookatPosition: 0.06,1.58,0.16
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * size: 1
-  * targetInRangeModifier: 1
-  * retargetingOffset: 14
   * hologramUid: HeroHologramRebel3
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 1
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 3
-  * crushesWalls: false
-  * shotDelay: 200
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 500
-  * projectileType: projectileHeroLeia
-  * sizex: 1
-  * decalBundleName: tac_hero_rbl
   * reload: 500
-  * splash: 0
+  * shotDelay: 200
+  * retargetingOffset: 14
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * decalAssetName: tac_hero_rbl
+  * clipRetargeting: true
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 1
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: infantry
+  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * maxScale: false
   * impactDelay: 1000
-  * targetLocking: false
+  * projectileType: projectileHeroLeia
+  * shotCount: 3
+  * decalBundleName: tac_hero_rbl
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * splash: 0
+  * attackShieldBorder: false
+  * targetLocking: false
 
 |Level       |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelTacticalCommand4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 |pointValue  |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|requirements|['rebelTacticalCommand4']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |210401                   |210402              |210403              |210404              |210405              |210406              |210407              |210408              |210409              |210410               |
+|heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

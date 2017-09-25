@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -50,7 +50,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, HQ, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 55
   * Vehicle hero: 1
@@ -60,63 +60,63 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 30
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 30
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * assetName: atst_emp-ani
+  * playerFacing: true
+  * iconCameraPosition: 29.51,14.98,34.56
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * bundleName: atst_emp-ani
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * buffAssetOffset: 0.00,3.16,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * playerFacing: true
-  * assetName: atst_emp-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: 0.17,2.95,0.85
-  * animationDelay: 0
-  * iconCameraPosition: 29.51,14.98,34.56
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_walker_1":100
+  * buffAssetOffset: 0.00,3.16,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconLookatPosition: 0.17,2.95,0.85
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * gunSequence: 1,2
 
 ## Uninterpreted stats
 
-  * clipRetargeting: false
-  * xp: 0
-  * favoriteTargetType: none
-  * size: 10
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
   * pointValue: 14.000
-  * shotDelay: 250
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
+  * armingDelay: 0
+  * retargetingOffset: 16
+  * xp: 0
   * acceleration: 0
-  * attackShieldBorder: false
+  * autoSpawnSpreadingScale: 2
+  * lvl: 3
+  * targetedType: ENEMIES
+  * maxScale: false
+  * reload: 1000
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * selfCenteredTargeting: false
+  * size: 10
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: none
+  * chargeTime: 1000
+  * targetLocking: false
+  * impactDelay: 1000
+  * shotDelay: 250
   * order: 341403
   * shotCount: 2
-  * pathSearchWidth: 1
-  * lvl: 3
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * maxScale: false
-  * overWalls: false
-  * chargeTime: 1000
-  * projectileType: projectileATST
-  * sizex: 2
-  * reload: 1000
-  * splash: 0
-  * impactDelay: 1000
   * sizey: 2
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * projectileType: projectileATST
 

@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 80
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,81 +63,81 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 10
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 10
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 3927
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * decalSize: 320
-  * bundleName: attehero_rbl-ani
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * buffAssetOffset: 0.00,1.46,0.00
-  * factoryRotation: 0
-  * playerFacing: true
   * assetName: attehero_rbl-ani
-  * gunSequence: 1
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * animationDelay: 0
-  * iconCameraPosition: 36.44,26.49,49.08
-  * factoryScaleFactor: 1
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * audioDeath: "sfx_death_hero_walker_1":100
+  * iconCameraPosition: 36.44,26.49,49.08
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * bundleName: attehero_rbl-ani
+  * gunSequence: 1
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * factoryScaleFactor: 1
+  * decalSize: 320
+  * buffAssetOffset: 0.00,1.46,0.00
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * playerFacing: true
+  * animationDelay: 0
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * factoryRotation: 0
+  * newRotationSpeed: 3927
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * favoriteTargetType: shieldGenerator
-  * retargetingOffset: 20
   * hologramUid: HeroHologramATTE
-  * pathSearchWidth: 200
-  * acceleration: 0
-  * effectType: 2
   * armingDelay: 0
-  * targetLocking: false
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * overWalls: true
-  * chargeTime: 500
+  * effectType: 2
+  * eventButtonAction: galaxy
+  * retargetingOffset: 20
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileHeroATTE
-  * size: 1
-  * decalBundleName: tac_hero_rbl
-  * reload: 1000
-  * splash: 0
-  * sizey: 2
+  * autoSpawnRateScale: 2
   * clipRetargeting: false
   * decalAssetName: tac_hero_rbl
+  * size: 1
+  * overWalls: true
+  * maxScale: false
+  * impactDelay: 500
+  * shotCount: 3
+  * sizey: 2
+  * pathSearchWidth: 200
+  * eventFeaturesString: fragment_obtain_gen
+  * splash: 0
+  * attackShieldBorder: true
+  * xp: 0
+  * acceleration: 0
+  * favoriteTargetType: shieldGenerator
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
   * eventButtonString: hn_open_galaxy
+  * upgradeShardUid: shrd_troopHeroATTE
+  * selfCenteredTargeting: false
+  * sizex: 2
+  * autoSpawnSpreadingScale: 0
+  * reload: 1000
+  * chargeTime: 500
+  * shotDelay: 400
+  * projectileType: projectileHeroATTE
+  * decalBundleName: tac_hero_rbl
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
   * targetInRangeModifier: 1
   * crushesWalls: true
-  * eventButtonAction: galaxy
-  * selfCenteredTargeting: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 0
-  * attackShieldBorder: true
-  * shotCount: 3
-  * shotDelay: 400
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * upgradeShardUid: shrd_troopHeroATTE
-  * sizex: 2
-  * unlockedByEvent: true
-  * impactDelay: 500
-  * autoSpawnRateScale: 2
+  * targetLocking: false
 
 |Level             |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements      |['rebelTacticalCommand5']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|order             |211201                   |211202              |211203              |211204              |211205              |211206              |211207              |211208              |211209              |211210               |
 |lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|iconUnlockRotation|0,-20,0                  |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|order             |211201                   |211202              |211203              |211204              |211205              |211206              |211207              |211208              |211209              |211210               |
 |iconUnlockScale   |0.5,0.5,0.5              |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 |pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|iconUnlockRotation|0,-20,0                  |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 

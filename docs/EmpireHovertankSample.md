@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Shield, Flying vehicle, Shield generator, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,69 +63,69 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * iconCloseupCameraPosition: 23.7,17.94,45.6
-  * bundleName: hovertankempire_emp-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * iconCloseupLookatPosition: -0.59,0.62,-0.25
-  * buffAssetOffset: 0.0,1.14,0.0
-  * factoryRotation: 0
-  * playerFacing: false
   * assetName: hovertankempire_emp-ani
-  * gunSequence: 1,1,1,1
-  * iconLookatPosition: -0.59,0.62,-0.25
-  * animationDelay: 0
   * iconCameraPosition: 23.7,17.94,45.6
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * bundleName: hovertankempire_emp-ani
+  * gunSequence: 1,1,1,1
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * rotationSpeed: 2
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * buffAssetOffset: 0.0,1.14,0.0
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * iconLookatPosition: -0.59,0.62,-0.25
+  * factoryRotation: 0
+  * newRotationSpeed: 2000
+  * rotationSpeed: 2
 
 ## Uninterpreted stats
 
-  * requirements: ['empireHQ2']
-  * xp: 0
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * size: 10
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
   * pointValue: 1.000
-  * shotDelay: 800
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 3
-  * acceleration: 0
-  * attackShieldBorder: false
-  * shotCount: 16
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 3
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * requirements: ['empireHQ2']
+  * autoSpawnSpreadingScale: 3
+  * targetedType: ENEMIES
   * maxScale: false
-  * overWalls: false
-  * chargeTime: 250
-  * projectileType: projectile2MTank
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 3
+  * acceleration: 0
+  * size: 10
+  * overWalls: false
+  * sizex: 2
+  * favoriteTargetType: turret
+  * crushesWalls: false
+  * chargeTime: 250
+  * shotDelay: 800
   * impactDelay: 1000
+  * projectileType: projectile2MTank
+  * shotCount: 16
   * sizey: 3
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|order|133001|133002|133003|133004|133005|133006|133007|133008|133009|133010|
 |lvl  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|order|133001|133002|133003|133004|133005|133006|133007|133008|133009|133010|
 

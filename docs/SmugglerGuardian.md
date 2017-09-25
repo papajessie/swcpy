@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Shield, Shield generator, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, HQ, Ressource generator, Other building, Storage, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Shield**, **Shield generator**, _Droideka_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Other building, Storage, Ressource generator, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 70
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Shield, Shield generator, Light vehicle, Droideka, Heavy vehicle, Flying infantry, Infantry, Support troop, Heavy infantry, Flying vehicle, HQ, Ressource generator, Other building, Storage, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Turret**, **Shield**, **Shield generator**, _Droideka_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Other building, Storage, Ressource generator, HQ, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 70
   * Vehicle hero: 1
@@ -63,29 +63,29 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
+  * assetName: bountyhunter_smg-ani
+  * iconCameraPosition: 9,10,11.12
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
   * bundleName: bountyhunter_smg-ani
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * buffAssetOffset: 0.00,0.08,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * assetName: bountyhunter_smg-ani
-  * gunSequence: 1,2
-  * iconLookatPosition: 0.09,1.4,0.28
-  * animationDelay: 0
-  * iconCameraPosition: 9,10,11.12
   * factoryScaleFactor: 1
-  * factoryRotation: 0
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * buffAssetOffset: 0.00,0.08,0.00
+  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconLookatPosition: 0.09,1.4,0.28
+  * factoryRotation: 0
+  * newRotationSpeed: 7854
+  * gunSequence: 1,2
 
 |Level       |1   |2   |3   |4   |5   |6   |7   |8   |9    |10   |
 |------------|----|----|----|----|----|----|----|----|-----|-----|
@@ -93,42 +93,42 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * favoriteTargetType: turret
-  * overWalls: false
-  * size: 10
-  * targetInRangeModifier: 1
-  * retargetingOffset: 100
-  * pathSearchWidth: 15
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * acceleration: 0
-  * attackShieldBorder: false
-  * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * splash: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileSmugglerGuardian
-  * sizex: 1
-  * deathAnimation: buffFireBurn:15
   * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
+  * deathAnimation: buffFireBurn:15
+  * retargetingOffset: 100
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * maxScale: false
+  * clipRetargeting: false
+  * autoSpawnRateScale: 1
+  * acceleration: 0
+  * size: 10
+  * overWalls: false
+  * sizex: 1
+  * favoriteTargetType: turret
+  * crushesWalls: false
   * impactDelay: 1000
+  * projectileType: projectileSmugglerGuardian
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * targetLocking: false
+  * targetPreferenceStrength: 90
+  * attackShieldBorder: false
+  * selfCenteredTargeting: false
 
 |Level       |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['smugglerBarracks1']|['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 |pointValue  |4.000                |4.800                |5.600                |6.400                |7.200                |8.000                |8.800                |9.600                |10.400               |12.000                |
-|shotDelay   |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |500                   |
-|reload      |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |2000                  |
-|shotCount   |1                    |1                    |1                    |1                    |1                    |1                    |1                    |1                    |1                    |3                     |
-|order       |334201               |334202               |334203               |334204               |334205               |334206               |334207               |334208               |334209               |334210                |
+|requirements|['smugglerBarracks1']|['smugglerBarracks2']|['smugglerBarracks3']|['smugglerBarracks4']|['smugglerBarracks5']|['smugglerBarracks6']|['smugglerBarracks7']|['smugglerBarracks8']|['smugglerBarracks9']|['smugglerBarracks10']|
 |lvl         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|reload      |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |1000                 |2000                  |
 |chargeTime  |500                  |500                  |500                  |500                  |500                  |500                  |500                  |500                  |500                  |250                   |
+|shotDelay   |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |200                  |500                   |
+|order       |334201               |334202               |334203               |334204               |334205               |334206               |334207               |334208               |334209               |334210                |
+|shotCount   |1                    |1                    |1                    |1                    |1                    |1                    |1                    |1                    |1                    |3                     |
 

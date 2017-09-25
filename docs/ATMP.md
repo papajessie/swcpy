@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 10
@@ -53,7 +53,7 @@ category: unit
   * Shield generator: 90
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Turret, Light vehicle, HQ, Droideka, Heavy vehicle, Flying infantry, Ressource generator, Other building, Infantry, Support troop, Storage, Heavy infantry, Flying vehicle, Heavy vehicular hero, Wall, Heavy infantry hero, Infantry hero, Vehicle hero, Trap
+  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
   * Trap: 0
   * Turret: 50
   * Vehicle hero: 1
@@ -63,68 +63,68 @@ category: unit
 ## Movement
 
   * Flying unit: No
-  * Speed: 20
-  * Run speed: 0
   * Run Threshold: 0
+  * Run speed: 0
+  * Speed: 20
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: atmp_emp-ani
+  * playerFacing: true
+  * iconCameraPosition: 22.45,15.49,39.24
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
   * bundleName: atmp_emp-ani
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * buffAssetOffset: 0.00,3.0,0.00
-  * rotationSpeed: 2
-  * playerFacing: true
-  * assetName: atmp_emp-ani
-  * gunSequence: 1,3,5,2,4,6
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * animationDelay: 0
-  * iconCameraPosition: 22.45,15.49,39.24
   * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
-  * factoryRotation: -90
   * audioDeath: "sfx_death_empire_atmp_1":100
+  * buffAssetOffset: 0.00,3.0,0.00
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * factoryRotation: -90
+  * newRotationSpeed: 2000
+  * gunSequence: 1,3,5,2,4,6
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * clipRetargeting: false
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * overWalls: false
-  * size: 15
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * shotDelay: 200
-  * selfCenteredTargeting: false
-  * crushesWalls: false
-  * targetedType: ENEMIES
-  * autoSpawnSpreadingScale: 2
-  * acceleration: 0
-  * attackShieldBorder: true
-  * shotCount: 4
-  * pathSearchWidth: 15
   * targetPreferenceStrength: 90
   * armingDelay: 0
-  * targetLocking: false
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
+  * retargetingOffset: 16
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
   * maxScale: false
-  * impactDelay: 1000
-  * chargeTime: 250
-  * projectileType: projectileATMP
-  * sizex: 2
   * reload: 2000
-  * splash: 0
+  * clipRetargeting: false
+  * autoSpawnRateScale: 2
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 15
+  * overWalls: false
+  * sizex: 2
   * favoriteTargetType: shieldGenerator
+  * selfCenteredTargeting: false
+  * chargeTime: 250
+  * shotDelay: 200
+  * impactDelay: 1000
+  * projectileType: projectileATMP
+  * shotCount: 4
   * sizey: 1
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * splash: 0
+  * targetInRangeModifier: 1
+  * crushesWalls: false
+  * targetLocking: false
+  * attackShieldBorder: true
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements|['empireFactory4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |15.000            |18.000               |21.000               |24.000               |27.000               |30.000               |33.000               |36.000               |39.000               |45.000                |
-|order       |130401            |130402               |130403               |130404               |130405               |130406               |130407               |130408               |130409               |130410                |
+|requirements|['empireFactory4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|order       |130401            |130402               |130403               |130404               |130405               |130406               |130407               |130408               |130409               |130410                |
 
