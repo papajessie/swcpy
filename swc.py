@@ -25,6 +25,7 @@ basedata={}
 langdata={}
 data={}
 config={'table':[],'lang':'en-US','output':'list'}
+config['targettranslation']={'HQ':'HQ', 'bruiserInfantry':'Heavy infantry', 'bruiserVehicle':'Heavy vehicle', 'building':'Other building', 'champion':'Droideka', 'flierInfantry':'Flying infantry', 'flierVehicle':'Flying vehicle', 'healerInfantry':'Support troop', 'heroBruiserInfantry':'Heavy infantry hero', 'heroBruiserVehicle':'Heavy vehicular hero', 'heroInfantry':'Infantry hero', 'heroVehicle':'Vehicle hero', 'infantry':'Infantry', 'resource':'Ressource generator', 'shield':'Shield', 'shieldGenerator':'Shield generator', 'storage':'Storage', 'trap':'Trap','turret':'Turret', 'vehicle':'Light vehicle', 'wall':'Wall'}
 xhelp={}
 morehelp={}
 indexdata={}
@@ -60,6 +61,11 @@ def importlangfile(lang):
     global config
     global langdata
     with codecs.open('content/{}/strings/strings_{}.json'.format(config['version'],lang),'r','utf-8') as stringsfile:
+        langdict=json.load(stringsfile)
+        for x in langdict['content']['objects']['LocalizedStrings']:
+            if 'text' in x:
+                langdata[x['uid']]=x['text']
+    with codecs.open('content/{}/strings/strings-hn_{}.json'.format(config['version'],lang),'r','utf-8') as stringsfile:
         langdict=json.load(stringsfile)
         for x in langdict['content']['objects']['LocalizedStrings']:
             if 'text' in x:
@@ -119,6 +125,7 @@ def _(x):
         return langdata[x]
     else:
         return x+' (no text translation)'
+
 def __(x):
     return display_colored(_(x))
 
@@ -143,7 +150,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament,crate'
+        mode='tournament,crate,unit'
         config['begin']='2012-01-01'
         config['output']='md'
     modes=mode.split(",")
@@ -193,22 +200,40 @@ def main(argv):
     objects={}
     displayed={}
     # Acquisition phase
+    ## Tournament
     xhelp['tournament']='Lists all tournaments (conflicts)'
     morehelp['tournament']={'begin':'Start date in format YYYY-MM-DD (default: current day)','end':'End date in format YYYY-MM-DD (default: 9999-12-31)','':'tournament identifier (default: all)'}
     if ('tournament' in modes):
         # do something that adds tournament objects
         for i in data['TournamentData']:
             analyse_tournament(objects,displayed,i)
+    ## Crate
     xhelp['crate']='List the contents of crates'
     morehelp['crate']={'planet':'planet the crate is gained from (default: all planets, as with special value "any")','hq':'hq level (default: 5 and 10)','side':'faction (default: all factions, as with special value "any")','':'crate identifier (default: all)'}
     if ('crate' in modes):
-        # do something that adds tournament objects
+        # do something that adds crates objects
         if len(elements)==0:
             xelements=(data['Crate']).keys()
         else:
             xelements=elements
         for i in xelements:
             analyse_crate(objects,displayed,i)
+    ## Unit
+    xhelp['unit']='List the statistics of units'
+    morehelp['unit']={'':'unit identifier (default: all)'}
+    if ('unit' in modes):
+        # do something that adds tournament objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['TroopData']).keys():
+                uname=data['TroopData'][u]['unitID']
+                if uname not in tmpdict:
+                    tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_unit(objects,displayed,i)
     # Output phase
     out=[]
     outputs=config['output'].split(",")
@@ -240,6 +265,16 @@ def main(argv):
             output_mdheader_crate(out,objects,getdisplayed(displayed,'crate'))
             for crate in getdisplayed(displayed,'crate'):
                 output_md_crate(out,objects,objects[crate])
+    if ('unit' in displayed):
+        if ('list' in outputs):
+            output_listheader_unit(out,objects,getdisplayed(displayed,'unit'))
+            for unit in getdisplayed(displayed,'unit'):
+                output_list_unit(out,objects,objects[unit])            
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','unit')
+            output_mdheader_unit(out,objects,getdisplayed(displayed,'unit'))
+            for unit in getdisplayed(displayed,'unit'):
+                output_md_unit(out,objects,objects[unit])
     if ('index' in displayed):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
@@ -480,11 +515,129 @@ def analyse_tournament(objects,displayed,id):
                         else:
                             del config['planet']
 
+
+def analyse_unit(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    ob['levels']=[]
+    ob['hq']={}
+    ob['uid']=id
+    ob['title']='trp_title_'+id
+    ob['unknown']={}
+    ob['presentation']={}
+    used={'uid':1}
+    uparray={'upgradematerials':' All.','upgradecredits':'$', 'upgradecontraband':' Con.','upgradeshards':' data fragments'}
+    addtodisplay(displayed,'unit',id)
+    for u in (data['TroopData']).keys():
+        uname=data['TroopData'][u]['unitID']
+        if uname==id:
+            subunit=data['TroopData'][u]
+            level=int(subunit['lvl'])
+            ob['levels'].append(level)
+            ob['hq'][level]={}
+            ob['presentation'][level]={}
+            ob['unknown'][level]={}
+            a=ob['hq'][level]
+            a=ob['hq'][level]
+            xup=[]
+            for t in ['upgradeCredits','upgradeMaterials','upgradeContraband','upgradeShards']:
+                if t in subunit.keys():
+                    a[t]=int(subunit[t])
+                else:
+                    a[t]=int(0)
+                if a[t]>0:
+                    xup.append('{0}{1}'.format(a[t],uparray[t.lower()]))
+                used[t]=1
+            if len(xup)==0:
+                a['upgrade']='Nothing'
+            else:
+                a['upgrade']=', '.join(xup)
+            xup=[]
+            for t in ['credits','materials','contraband']:
+                if t in subunit.keys():
+                    a[t]=int(subunit[t])
+                else:
+                    a[t]=int(0)
+                if a[t]>0:
+                    xup.append('{0}{1}'.format(a[t],uparray['upgrade'+t]))
+                used[t]=1
+            if len(xup)==0:
+                a['cost']='Free'
+            else:
+                a['cost']=', '.join(xup)
+            for t in ['health','damage','dps','upgradeTime','trainingTime','minAttackRange','maxAttackRange','viewRange','runThreshold','runSpeed','maxSpeed','shieldHealth','shieldCooldown','shieldRange','acceleration']:
+                if t in subunit.keys():
+                    a[t]=int(round(float(subunit[t])))
+                else:
+                    a[t]=int(0)
+                used[t]=1
+            for t in ['isFlying','crushesWalls','playerFacing']:
+                if t in subunit.keys():
+                    if subunit[t]=='false':
+                        a[t]=False
+                    else:
+                        a[t]=True
+                else:
+                    a[t]=False
+                used[t]=1
+            for t in ['faction','type','armorType','role']:
+                if t in subunit.keys():
+                    a[t]=subunit[t]
+                used[t]=1
+            for t in ['requirements']:
+                if t in subunit.keys():
+                    a[t]=subunit[t]
+                else:
+                    a[t]=[]
+                used[t]=1
+            targets={}
+            for t in config['targettranslation'].keys():
+                if t in subunit.keys():
+                    a[t]=int(subunit[t])
+                else:
+                    a[t]=int(0)
+                targets[t]=a[t]
+                used[t]=1
+            tlist=sorted(targets,key=targets.get,reverse=True)
+            ttlist=[]
+            tmax=targets[tlist[0]]
+            for t in tlist:
+                if targets[t]==tmax:
+                    ttlist.append('**{0} ({1})**'.format(config['targettranslation'][t],targets[t]))
+                else:
+                    if targets[t]<=50:
+                        ttlist.append('{0} ({1})'.format(config['targettranslation'][t],targets[t]))
+                    else:
+                        ttlist.append('_{0} ({1})_'.format(config['targettranslation'][t],targets[t]))
+                a['targets']=', '.join(ttlist)
+            used['targetPreferenceString']=1
+            used['unitID']=1
+            used['lvl']=1
+            for t in ['animationDelay','audioAttack','decalSize','iconCameraPosition','factoryScaleFactor','iconCloseupLookatPosition','iconLookatPosition','factoryRotation','audioPlacement','newRotationSpeed','audioDeath','rotationSpeed','iconCloseupCameraPosition','tooltipHeightOffset','buffAssetOffset','gunPosition','gunSequence','assetName','shieldAssetName','bundleName']:
+                if t in subunit.keys():
+                    ob['presentation'][level][t]=subunit[t]
+                used[t]=1
+            for t in subunit:
+                if t not in used.keys():
+                    ob['unknown'][level][t]=subunit[t]
+    levels=sorted(ob['hq'].keys())
+    ob['firstlevel']=levels[0]
+    if len(levels)==1:
+        levelstring=str(levels[0])
+    else:
+        levelstring='{0}-{1}'.format(levels[0],levels[-1])
+    for level in ob['hq'].keys():
+            ob['hq'][level]['levels']=levelstring
+    if id not in objects:
+        objects[id]=ob
+    
 # This set of functions output objects for various modes
 def output_listheader_crate(out,objects,displayed):
     out.append("There are {0} crates in the selection:".format(len(displayed)))
 
 def output_list_crate(out,objects,item,LINKS=False):
+    global config
     id=item['uid']
     title=__(item['title'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
@@ -537,6 +690,26 @@ def output_list_crate(out,objects,item,LINKS=False):
             myit=item['variantsdefaults'][j][i]
             xout+='\n  * {0}'.format(display_unitbatch(myit,LINKS))
     out[len(out)-1]+=xout
+
+def output_mdheader_crate(out,objects,displayed):
+    with open("docs/crate.md","w") as file:
+        file.write("---\ntitle: Index of crates\n---\n")
+        file.write("# Crates — version {0}\n\n".format(config['version']))
+        for crate in displayed:
+            item=objects[crate]
+            id=item['uid']
+            title=__(item['title'])
+            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+
+def output_md_crate(out,objects,item):
+    id=item['uid']
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,title))
+        lout=['']
+        output_list_crate(lout,objects,item,True)
+        file.write(lout[0])
+
 
 def output_listheader_tournament(out,objects,displayed):
     out.append("There are {0} tournaments in the selection:".format(len(displayed)))
@@ -628,23 +801,105 @@ def output_md_tournament(out,objects,item):
             file.write(rewardsstr)
     
 
-def output_mdheader_crate(out,objects,displayed):
-    with open("docs/crate.md","w") as file:
-        file.write("---\ntitle: Index of crates\n---\n")
-        file.write("# Crates — version {0}\n\n".format(config['version']))
-        for crate in displayed:
-            item=objects[crate]
-            id=item['uid']
-            title=__(item['title'])
-            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+def output_listheader_unit(out,objects,displayed):
+    out.append("There are {0} units in the selection:".format(len(displayed)))
 
-def output_md_crate(out,objects,item):
+def output_list_unit(out,objects,item,LINKS=False):
+    global config
+    id=item['uid']
+    title=__(item['title'])
+    levels=sorted(item['levels'])
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    firstlevel=levels[0]
+    xout+='## Main stats\n\n'
+    handlers={'upgradeTime':display_time,'trainingTime':display_time}
+    handlers['faction']=display_side
+    handlers['playerFacing']=display_boolean
+    xout+=display_leveldata(item['hq'],levels,['faction','playerFacing','type','armorType','role','levels','upgrade','upgradeTime','health','damage','dps','shieldHealth','shieldCooldown','shieldRange'],{'levels':'Levels available','playerFacing': 'Buildable unit','upgrade': 'Upgrade requirements','upgradeTime':'Upgrade time','health':'Health','damage':'Damage*','dps':'Damage per second*','role':'Role','type':'Type','armorType':'Armor type','faction':'Side','shieldHealth':'Shield Health','shieldCooldown':'Shield Cooldown','shieldRange':'Shield Range'},handlers)
+
+    xout+='* These values are not necessarily accurate and may be inconsistent with other values\n\n## Targetting\n\n'
+    translation=config['targettranslation']
+    list=[x for x in sorted(translation,key=translation.get)]
+    list=['targets','maxAttackRange','minAttackRange','viewRange']
+    translation['targets']='Target preferences'
+    translation['maxAttackRange']='Max. Range'
+    translation['minAttackRange']='Min. Range'
+    translation['viewRange']='View Range'
+    xout+=display_leveldata(item['hq'],levels,list,translation,{})
+    xout+='## Recruiting\n\n'
+    translation={'cost':'Training cost','trainingTime': 'Training time'}
+    req=0
+    for l in levels:
+        ll=len(item['hq'][l]['requirements'])
+        if ll>req:
+            req=ll
+    list=['cost','trainingTime']
+    for ll in range(0,req):
+        r='requirement'+str(ll)
+        list.append(r)
+        translation[r]='Building '+str(ll)
+        if req==1:
+            translation[r]='Building'
+        for l in levels:
+            a=item['hq'][l]['requirements']
+            if ll<len(a):
+                item['hq'][l][r]=display_building(a[ll],LINKS)
+            else:
+                item['hq'][l][r]='None'
+    handlers={}
+    xout+=display_leveldata(item['hq'],levels,list,translation,handlers)
+    xout+='## Movement\n\n'
+    translation={'maxSpeed':'Speed','runSpeed':'Run speed','runThreshold':'Run Threshold','isFlying':'Flying unit','acceleration':'Acceleration','crushesWalls':'Crushes walls'}
+    list=['maxSpeed','runSpeed','runThreshold','isFlying','acceleration','crushesWalls']
+    handlers={'isFlying':display_boolean,'crushesWalls':display_boolean}
+    xout+=display_leveldata(item['hq'],levels,list,translation,handlers)
+    xout+='## Presentation stats\n\nThese graphical elements shouldn\'t interfere with gameplay and can safely be ignored.\n\n'
+    items=item['presentation'][firstlevel].keys()
+    translation={}
+    for i in items:
+        translation[i]=i
+    xout+=display_leveldata(item['presentation'],levels,items,{},{})
+    xout+='## Uninterpreted stats\n\n'
+    items=item['unknown'][firstlevel].keys()
+    translation={}
+    for i in items:
+        translation[i]=i
+    xout+=display_leveldata(item['unknown'],levels,items,{},{'pointValue':lambda x:('%.3f' % float(x))})
+#    xout+='{0}'.format(item['hq'][firstlevel])
+    out[len(out)-1]+=xout
+
+def output_mdheader_unit(out,objects,displayed):
+    with open("docs/unit.md","w") as file:
+        file.write("---\ntitle: Index of units\n---\n")
+        file.write("# Units — version {0}\n\n".format(config['version']))
+        pfd={True:'Buildable units',False:'Other units'}
+        for pf in [True, False]:
+            file.write("## {0}\n\n".format(pfd[pf]))
+            sides={}
+            for unit in displayed:
+                item=objects[unit]
+                firstlevel=item['firstlevel']
+                if item['hq'][firstlevel]['playerFacing']==pf:
+                    sides[item['hq'][firstlevel]['faction']]=1
+            for side in sorted(sides):
+                file.write("### {0}\n\n".format(display_side(side)))
+                for unit in displayed:
+                    item=objects[unit]
+                    firstlevel=item['firstlevel']
+                    if item['hq'][firstlevel]['playerFacing']==pf:
+                        if item['hq'][firstlevel]['faction']==side:
+                            id=item['uid']
+                            title=__(item['title'])
+                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+                file.write("\n")
+
+def output_md_unit(out,objects,item):
     id=item['uid']
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
-        file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,title))
+        file.write("---\ntitle: {1} ({0})\ncategory: unit\n---\n".format(id,title))
         lout=['']
-        output_list_crate(lout,objects,item,True)
+        output_list_unit(lout,objects,item,True)
         file.write(lout[0])
 
 
@@ -653,11 +908,22 @@ def output_md_crate(out,objects,item):
 def display_planet(planetId):
     return _('planet_name_'+planetId)
 
+def display_boolean(x):
+    if x:
+        return 'Yes'
+    return 'No'
+
 def display_side(side):
     if (side=='empire'):
         return 'Empire'
     if (side=='rebel'):
         return 'Rebellion'
+    if (side=='smuggler'):
+        return 'Independant units'
+    if (side=='tusken'):
+        return 'Tusken Raiders'
+    if (side=='neutral'):
+        return 'Other units'
     return side
 
 def display_crate_veryshort(crateId):
@@ -684,6 +950,45 @@ def display_expiration(s):
     if minutes>0:
         x+='{0:02d}m'.format(minutes)
     return x
+
+def display_time(s,micro=False):
+    t=[]
+    if micro:
+        hsecs=s%100
+        s=int((s-hsecs)/100)
+    sec=s%60
+    s=int((s-sec)/60)
+    min=s%60
+    s=int((s-min)/60)
+    hour=s%24
+    s=int((s-hour)/24)
+    day=s%7
+    s=int((s-day)/7)
+    out=''
+    if (s>0):
+        out+='{0}w'.format(s)
+    if (day>0):
+        out+='{0}d'.format(day)
+    if (hour>0):
+        out+='{0}h'.format(hour)
+    if (min>0):
+        out+='{0}m'.format(min)
+    if (sec>0):
+        if micro:
+            if hsecs>10:
+                out+='{0}.{1}'.format(sec,hsecs)
+            elif hsecs>0:
+                out+='{0}.0{1}'.format(sec,hsecs)
+            else:
+                out+='{0}s'.format(sec)
+        else:
+            out+='{0}s'.format(sec)
+    if (out==''):
+        return('0s')
+    return(out)
+
+def display_microtime(s):
+    return display_time(s,True)
 
 def display_poolvariant(variants,cap=True):
     variantsarray=variants.split('/')
@@ -834,6 +1139,17 @@ def display_poolvariant(variants,cap=True):
             final='Always'
     return final
 
+def display_building(i,link):
+    global data
+    global config
+    r=data['BuildingData'][i]['buildingID']
+    level=data['BuildingData'][i]['lvl']
+    if link:
+        r='[{0} {2}]({1}.html)'.format(_('bld_title_'+r),r,level)
+    else:
+        r='{0} {2}'.format(_('bld_title_'+r),r,level)
+    return r
+
 def display_unitbatch(item,link):
     count=item['num']
     nature=''
@@ -888,5 +1204,78 @@ def display_things(uid,table,localid,localname):
             return x[localname]
     return uid
 
-if __name__ == "__main__":    
+def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
+    commonvalues=[]
+    variablevalues=[]
+    display={}
+    firstlevel=levels[0]
+    for key in keys:
+        if key in funcs:
+            func=funcs[key]
+        else:
+            func=str
+        display[key]={}
+        identical=True
+        dataitem=data[firstlevel][key]
+        for level in levels:
+            if key in data[level]:
+                display[key][level]=func(data[level][key])
+                if data[level][key]!=dataitem:
+                    identical=False
+            else:
+                display[key][level]='(not found)'
+                identical=False
+        if identical:
+            commonvalues.append(key)
+        else:
+            variablevalues.append(key)
+    output=''
+    for key in commonvalues:
+        t=key
+        if key in titles:
+            t=titles[key]
+        output+='  * {0}: {1}\n'.format(t,display[key][firstlevel])
+    width={}
+    width['label']=5
+    for level in levels:
+        width[level]=2
+        for key in variablevalues:
+            w=len(display[key][level])
+            if w>width[level]:
+                width[level]=w
+    for key in variablevalues:
+        t=key
+        if key in titles:
+            t=titles[key]
+        w=len(t)
+        if w>width['label']:
+            width['label']=w
+    if len(output)>0:
+        output+='\n'
+    if len(variablevalues)>0:
+        line='|'
+        line+='{message: <{width}}|'.format(message='Level',width=width['label'])
+        for level in levels:
+            line+='{message: <{width}}|'.format(message=str(level),width=width[level])
+        line+='\n|'
+        line+=('-'*width['label'])+'|'
+        for level in levels:
+            line+=('-'*width[level])
+            line+='|'
+        line+='\n'
+        for key in variablevalues:
+            t=key
+            if key in titles:
+                t=titles[key]
+            line+='|'
+            line+='{message: <{width}}|'.format(message=t,width=width['label'])
+            for level in levels:
+                line+='{message: <{width}}|'.format(message=display[key][level],width=width[level])
+            line+='\n'
+        output+=line+'\n'
+    return(output)
+
+if __name__ == "__main__":
+#    print(display_leveldata({0:{'speed':50,'val':8,'age':12, 'sex':'M'},1:{'speed':50,'val':8,'age':14,'sex':'M'},2:{'speed':50,'val':9,'age':20,'sex':'M'}},[0,1,2],['val','age','sex','speed'],{'val':'Value','age':'Age','sex':'Gender','speed':'Speed'},{}))
+#    sys.exit(0)
     main(sys.argv)
