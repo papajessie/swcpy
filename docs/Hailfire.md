@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Wall
+  * Target preferences: Turret, Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Flying infantry, Droideka, Flying vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Support troop, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Wall
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -46,78 +46,82 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Infantry, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Wall
+  * Target preferences: Turret, Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Heavy vehicle, Flying infantry, Droideka, Flying vehicle, Vehicle hero, Light vehicle, Heavy vehicular hero, Support troop, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Wall
   * Turret: 70
   * Vehicle hero: 60
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.49,1.9,-0.43
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * playerFacing: true
+  * buffAssetOffset: 0.00,0.88,0.00
+  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
+  * iconCameraPosition: 36.69,22.39,29.86
+  * newRotationSpeed: 7854
+  * bundleName: hailfiredroid_rbl-ani
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * assetName: hailfiredroid_rbl-ani
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
+  * factoryRotation: 90
+  * gunSequence: 1,2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_rebel_hailfire_1":100
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.88,0.00
-  * favoriteTargetType: turret
-  * factoryRotation: 90
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2
+  * overWalls: false
+  * crushesWalls: false
   * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
+  * shieldRange: 0
+  * retargetingOffset: 20
+  * chargeTime: 1000
+  * pathSearchWidth: 15
+  * role: Striker
+  * clipRetargeting: true
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 2000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 100
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: vehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileHailfire
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 2
+  * shotCount: 6
+  * trap: 0
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * faction: rebel
+  * size: 7
+  * type: vehicle
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_rebel_hailfire_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: vehicle
-  * animationDelay: 0
-  * bundleName: hailfiredroid_rbl-ani
-  * type: vehicle
-  * iconLookatPosition: -0.49,1.9,-0.43
-  * reload: 2000
-  * faction: rebel
-  * playerFacing: true
-  * crushesWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: true
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 2
-  * overWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 6
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
-  * retargetingOffset: 20
-  * iconCameraPosition: 36.69,22.39,29.86
-  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * unitID: Hailfire
-  * role: Striker
-  * targetPreferenceStrength: 90
-  * shotDelay: 100
-  * projectileType: projectileHailfire
-  * assetName: hailfiredroid_rbl-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * chargeTime: 1000
-  * maxScale: false
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * acceleration: 0
-  * size: 7
-  * targetLocking: false
-  * maxSpeed: 30
+  * runThreshold: 0
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |230701           |230702              |230703              |230704              |230705              |230706              |230707              |230708              |230709              |230710               |
 |pointValue  |7.000            |8.400               |9.800               |11.200              |12.600              |14.000              |15.400              |16.800              |18.200              |21.000               |
+|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|order       |230701           |230702              |230703              |230704              |230705              |230706              |230707              |230708              |230709              |230710               |
 

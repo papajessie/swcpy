@@ -20,7 +20,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Heavy infantry hero, Heavy infantry, Infantry hero, HQ, Ressource generator, Turret, Heavy vehicular hero, Flying vehicle, Vehicle hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building, Wall
+  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Heavy vehicle, Other building, Ressource generator, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Storage, Wall
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -43,78 +43,82 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Infantry, Droideka, Support troop, Flying infantry, Heavy infantry hero, Heavy infantry, Infantry hero, HQ, Ressource generator, Turret, Heavy vehicular hero, Flying vehicle, Vehicle hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building, Wall
+  * Target preferences: Infantry hero, Heavy infantry, Heavy infantry hero, Infantry, Flying infantry, Droideka, Support troop, Turret, Shield generator, Heavy vehicle, Other building, Ressource generator, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Storage, Wall
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.2,1.23,-0.57
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * playerFacing: false
+  * buffAssetOffset: 0.00,1.46,0.00
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 24.47,22.61,37.05
+  * newRotationSpeed: 982
+  * bundleName: atte_rbl-ani
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * assetName: atte_rbl-ani
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryRotation: 0
+  * gunSequence: 1,2,3,4,5
+  * decalSize: 320
+  * animationDelay: 0
+  * audioDeath: "sfx_death_walker_1":100
+
 ## Uninterpreted stats
 
-  * spawnEffectUid: effectRebelSpawn
-  * buffAssetOffset: 0.00,1.46,0.00
-  * favoriteTargetType: infantry
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2,3,4,5
+  * requirements: ['rebelOffenseLab10']
+  * crushesWalls: false
   * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: infantry
+  * shieldRange: 0
+  * retargetingOffset: 100
+  * lvl: 8
+  * chargeTime: 1000
+  * pathSearchWidth: 15
+  * role: Striker
+  * clipRetargeting: false
+  * impactDelay: 500
+  * sizex: 2
+  * reload: 1000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_rbl
+  * pointValue: 48.000
+  * shotDelay: 500
+  * maxSpeed: 10
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserVehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * decalBundleName: tac_hero_rbl
+  * targetPreferenceStrength: 90
+  * projectileType: projectileBlasterRebelATTE
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 3
+  * shotCount: 5
+  * spawnEffectUid: effectRebelSpawn
+  * trap: 0
+  * faction: rebel
+  * size: 20
+  * type: vehicle
+  * overWalls: true
+  * order: 244808
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_walker_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * requirements: ['rebelOffenseLab10']
-  * runThreshold: 0
-  * armorType: bruiserVehicle
-  * decalSize: 320
-  * bundleName: atte_rbl-ani
-  * type: vehicle
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * lvl: 8
-  * reload: 1000
-  * faction: rebel
-  * playerFacing: false
-  * order: 244808
-  * pointValue: 48.000
-  * crushesWalls: false
-  * newRotationSpeed: 982
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 2
-  * isFlying: false
-  * sizey: 3
-  * overWalls: true
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 500
-  * shotCount: 5
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
-  * retargetingOffset: 100
-  * iconCameraPosition: 24.47,22.61,37.05
-  * factoryScaleFactor: 1
-  * decalAssetName: tac_hero_rbl
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * decalBundleName: tac_hero_rbl
-  * unitID: ATTEFakeHero
-  * role: Striker
-  * targetPreferenceStrength: 90
-  * shotDelay: 500
-  * projectileType: projectileBlasterRebelATTE
-  * assetName: atte_rbl-ani
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * chargeTime: 1000
-  * maxScale: false
-  * animationDelay: 0
-  * acceleration: 0
-  * size: 20
-  * targetLocking: false
-  * maxSpeed: 10
+  * runThreshold: 0
 

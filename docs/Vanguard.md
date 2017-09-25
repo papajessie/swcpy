@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicle, Light vehicle, Support troop, Flying infantry, Flying vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Shield, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy vehicle, Light vehicle, Flying infantry, Flying vehicle, Support troop, Heavy infantry, Turret, Infantry, Shield generator, Other building, Droideka, Ressource generator, Shield, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 21
@@ -46,91 +46,95 @@ category: unit
   * Shield generator: 40
   * Storage: 40
   * Support troop: 50
-  * Target preferences: Heavy vehicle, Light vehicle, Support troop, Flying infantry, Flying vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Shield, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Heavy vehicle, Light vehicle, Flying infantry, Flying vehicle, Support troop, Heavy infantry, Turret, Infantry, Shield generator, Other building, Droideka, Ressource generator, Shield, HQ, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 40
   * Vehicle hero: 1
   * View Range: 21
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 0.65,2.23,9.92
+  * iconLookatPosition: 0.03,1.71,0.04
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.11,2.78,0.04
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 13.24,14.28,16
+  * newRotationSpeed: 7854
+  * bundleName: vanguard_rbl-ani
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * assetName: vanguard_rbl-ani
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+
 ## Uninterpreted stats
 
-  * unlockedByEvent: true
-  * favoriteTargetType: trap
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * iconCloseupCameraPosition: 0.65,2.23,9.92
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * pathSearchWidth: 200
-  * shotCount: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * runThreshold: 0
-  * animationDelay: 0
-  * bundleName: vanguard_rbl-ani
-  * iconLookatPosition: 0.03,1.71,0.04
-  * shieldHealth: 0
-  * reload: 3000
-  * faction: rebel
-  * playerFacing: true
-  * armorType: bruiserInfantry
-  * upgradeShardUid: shrd_troopVanguard
-  * overWalls: false
-  * eventButtonString: hn_open_tat
-  * attackShieldBorder: false
-  * eventButtonAction: planet
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * eventButtonData: planet1
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * retargetingOffset: 18
-  * iconCameraPosition: 13.24,14.28,16
-  * iconCloseupLookatPosition: 0.11,2.78,0.04
-  * sizex: 1
-  * clipRetargeting: false
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * unitID: Vanguard
-  * role: Breacher
-  * targetPreferenceStrength: 100
-  * shotDelay: 500
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
-  * type: infantry
-  * assetName: vanguard_rbl-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * xp: 0
+  * favoriteTargetType: trap
+  * shieldRange: 0
+  * retargetingOffset: 18
   * chargeTime: 250
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * clipRetargeting: false
+  * pathSearchWidth: 200
+  * impactDelay: 1000
+  * role: Breacher
+  * sizex: 1
+  * overWalls: false
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 500
+  * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserInfantry
+  * eventFeaturesString: fragment_obtain_gen
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * targetPreferenceStrength: 100
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * eventButtonAction: planet
   * maxScale: false
+  * eventButtonString: hn_open_tat
+  * targetedType: ENEMIES
+  * unlockedByEvent: true
+  * sizey: 1
+  * reload: 3000
+  * shotCount: 1
   * trap: 90
   * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * faction: rebel
   * size: 3
-  * targetLocking: false
-  * maxSpeed: 20
-  * deathAnimation: buffFireBurn:15
-  * acceleration: 0
+  * type: infantry
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * upgradeShardUid: shrd_troopVanguard
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level             |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
 |------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|iconUnlockRotation|0,0,0                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
-|order             |221201                  |221202                  |221203                  |221204                  |221205                  |221206                  |221207                  |221208                  |221209                  |221210                   |
+|requirements      |['rebelBarracks1']      |['rebelOffenseLab2']    |['rebelOffenseLab3']    |['rebelOffenseLab4']    |['rebelOffenseLab5']    |['rebelOffenseLab6']    |['rebelOffenseLab7']    |['rebelOffenseLab8']    |['rebelOffenseLab9']    |['rebelOffenseLab10']    |
+|iconUnlockScale   |1,1,1                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
 |lvl               |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
+|iconUnlockRotation|0,0,0                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
 |pointValue        |3.000                   |3.600                   |4.200                   |4.800                   |5.400                   |6.000                   |6.600                   |7.200                   |7.800                   |9.000                    |
 |iconUnlockPosition|0,0,0                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
-|requirements      |['rebelBarracks1']      |['rebelOffenseLab2']    |['rebelOffenseLab3']    |['rebelOffenseLab4']    |['rebelOffenseLab5']    |['rebelOffenseLab6']    |['rebelOffenseLab7']    |['rebelOffenseLab8']    |['rebelOffenseLab9']    |['rebelOffenseLab10']    |
 |projectileType    |projectileVanguardLevel1|projectileVanguardLevel2|projectileVanguardLevel3|projectileVanguardLevel4|projectileVanguardLevel5|projectileVanguardLevel6|projectileVanguardLevel7|projectileVanguardLevel8|projectileVanguardLevel9|projectileVanguardLevel10|
-|iconUnlockScale   |1,1,1                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
+|order             |221201                  |221202                  |221203                  |221204                  |221205                  |221206                  |221207                  |221208                  |221209                  |221210                   |
 

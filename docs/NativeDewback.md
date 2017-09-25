@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,78 +46,85 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Heavy infantry, Turret, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: -0.75,0.91,-0.52
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * buffAssetOffset: 0.00,0.60,0.00
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 14.52,11.43,15.95
+  * newRotationSpeed: 7854
+  * bundleName: dewback_neu-ani
+  * gunSequence: 1
+  * assetName: dewback_neu-ani
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+
+|Level       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
+|------------|----|----|----|----|----|----|----|-----|-----|-----|
+|playerFacing|true|true|true|true|true|true|true|false|false|false|
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.60,0.00
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
+  * requirements: ['smugglerBarracks4']
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
+  * shieldRange: 0
+  * retargetingOffset: 4
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * role: Breacher
+  * clipRetargeting: false
+  * impactDelay: 0
+  * sizex: 1
+  * reload: 0
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 750
+  * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * projectileType: projectileDewback
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 5
+  * trap: 0
+  * faction: smuggler
+  * size: 3
+  * type: infantry
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * requirements: ['smugglerBarracks4']
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 1000
-  * bundleName: dewback_neu-ani
-  * type: infantry
-  * iconLookatPosition: -0.75,0.91,-0.52
-  * reload: 0
-  * faction: smuggler
-  * acceleration: 0
-  * crushesWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * overWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 5
-  * retargetingOffset: 4
-  * iconCameraPosition: 14.52,11.43,15.95
-  * factoryScaleFactor: 1
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * unitID: NativeDewback
-  * role: Breacher
-  * targetPreferenceStrength: 90
-  * shotDelay: 750
-  * projectileType: projectileDewback
-  * assetName: dewback_neu-ani
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * chargeTime: 500
-  * maxScale: false
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * size: 3
-  * targetLocking: false
-  * maxSpeed: 30
-  * deathAnimation: buffFireBurn:15
+  * runThreshold: 0
 
-|Level       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|------------|------|------|------|------|------|------|------|------|------|------|
-|lvl         |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|playerFacing|true  |true  |true  |true  |true  |true  |true  |false |false |false |
-|order       |332501|332502|332503|332504|332505|332506|332507|332508|332509|332510|
-|pointValue  |3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|order     |332501|332502|332503|332504|332505|332506|332507|332508|332509|332510|
 

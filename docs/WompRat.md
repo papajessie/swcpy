@@ -51,72 +51,79 @@ category: unit
 
 |Level             |1                                                                                                                                                                                                                                                                                 |2                                                                                                                                                                                                                                                                                 |3                                                                                                                                                                                                                                                                                 |4                                                                                                                                                                                                                                                                                 |5                                                                                                                                                                                                                                                                                 |6                                                                                                                                                                                                                                                                                 |7                                                                                                                                                                                                                                                                                 |8                                                                                                                                                                                                                                                                                 |9                                                                                                                                                                                                                                                                                 |10                                                                                                                                                                                                                                                                                |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|Turret, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|
+|Target preferences|Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|
 |Support troop     |50                                                                                                                                                                                                                                                                                |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |100                                                                                                                                                                                                                                                                               |
-|Target preferences|Turret, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|Support troop, Turret, Ressource generator, Infantry, Droideka, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle|
+|Target preferences|Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Support troop, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|Support troop, Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, Storage, HQ, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle|
 
-## Uninterpreted stats
+## Presentation stats
 
-  * favoriteTargetType: none
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 1000
-  * shieldHealth: 0
-  * reload: 0
-  * faction: smuggler
-  * crushesWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * type: infantry
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * overWalls: false
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 5
-  * retargetingOffset: 4
-  * factoryScaleFactor: 1
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * unitID: WompRat
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 1250
-  * projectileType: projectileWompRat
-  * chargeTime: 500
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
   * playerFacing: true
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxScale: false
-  * deathAnimation: buffFireBurn:15
+  * factoryScaleFactor: 1
+  * newRotationSpeed: 7854
+  * gunSequence: 1
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
 
 |Level             |1               |2                    |3                   |4               |5                    |6                   |7               |8                    |9                   |10                  |
 |------------------|----------------|---------------------|--------------------|----------------|---------------------|--------------------|----------------|---------------------|--------------------|--------------------|
-|bundleName        |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|
-|lvl               |1               |2                    |3                   |4               |5                    |6                   |7               |8                    |9                   |10                  |
 |iconLookatPosition|-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08    |
-|order             |330901          |330902               |330903              |330904          |330905               |330906              |330907          |330908               |330909              |330910              |
-|pointValue        |1.000           |1.200                |1.400               |1.600           |1.800                |2.000               |2.200           |2.400                |2.600               |3.000               |
+|bundleName        |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|
 |iconCameraPosition|11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56    |
 |assetName         |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|
-|maxSpeed          |40              |40                   |50                  |40              |40                   |40                  |40              |40                   |40                  |40                  |
+
+## Uninterpreted stats
+
+  * overWalls: false
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: none
+  * shieldRange: 0
+  * retargetingOffset: 4
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 0
+  * sizex: 1
+  * reload: 0
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 1250
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * projectileType: projectileWompRat
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 5
+  * trap: 0
+  * faction: smuggler
+  * size: 1
+  * type: infantry
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * runThreshold: 0
+
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|maxSpeed  |40    |40    |50    |40    |40    |40    |40    |40    |40    |40    |
+|order     |330901|330902|330903|330904|330905|330906|330907|330908|330909|330910|
 

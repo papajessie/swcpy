@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Max. Range: 3
   * Min. Range: 0
   * View Range: 8
@@ -46,86 +46,90 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Droideka, Ressource generator, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Turret: 80
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 0.17,0.86,11.66
+  * iconLookatPosition: -0.27,1.69,-0.32
+  * audioPlacement: "sfx_placement_hero_vader_1":100
+  * playerFacing: true
+  * iconCloseupLookatPosition: 0.1,2.86,-0.67
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 15.97,7.67,16.77
+  * newRotationSpeed: 7854
+  * bundleName: darthvader_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * assetName: darthvader_emp-ani
+  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
+  * factoryRotation: 0
+  * gunSequence: 1,2
+  * decalSize: 160
+  * animationDelay: 230
+  * audioDeath: "sfx_death_hero_vader_1":100
+
 ## Uninterpreted stats
 
-  * spawnEffectUid: effectEmpireSpawn
-  * decalSize: 160
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,2
-  * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 0.17,0.86,11.66
-  * shieldHealth: 0
-  * ability: abilityHeroDarthDefend
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_hero_vader_1":100
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * decalAssetName: tac_hero_emp
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * animationDelay: 230
-  * bundleName: darthvader_emp-ani
-  * type: hero
-  * iconLookatPosition: -0.27,1.69,-0.32
-  * reload: 750
-  * faction: empire
-  * playerFacing: true
-  * armorType: infantry
-  * overWalls: false
-  * hologramUid: HeroHologramDarthVader
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
   * crushesWalls: false
-  * targetInRangeModifier: 1
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
   * shieldRange: 0
-  * impactDelay: 250
-  * newRotationSpeed: 7854
-  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
   * retargetingOffset: 6
-  * iconCameraPosition: 15.97,7.67,16.77
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: 0.1,2.86,-0.67
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
-  * decalBundleName: tac_hero_emp
-  * unitID: HeroDarthVader
-  * role: Destroyer
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileHeroDarthAttack
-  * assetName: darthvader_emp-ani
-  * audioPlacement: "sfx_placement_hero_vader_1":100
   * chargeTime: 0
-  * maxScale: false
+  * pathSearchWidth: 15
+  * role: Destroyer
+  * clipRetargeting: false
+  * impactDelay: 250
+  * hologramUid: HeroHologramDarthVader
+  * sizex: 1
+  * overWalls: false
   * acceleration: 0
-  * size: 1
-  * targetLocking: false
+  * attackShieldBorder: false
+  * decalAssetName: tac_hero_emp
+  * shotDelay: 200
   * maxSpeed: 30
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * decalBundleName: tac_hero_emp
+  * targetPreferenceStrength: 90
+  * projectileType: projectileHeroDarthAttack
+  * maxScale: false
   * effectType: 2
+  * targetedType: ENEMIES
+  * sizey: 1
+  * reload: 750
+  * shotCount: 2
+  * spawnEffectUid: effectEmpireSpawn
+  * trap: 0
+  * faction: empire
+  * size: 1
+  * type: hero
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * ability: abilityHeroDarthDefend
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level       |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |requirements|['empireTacticalCommand8']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|order       |110601                    |110602               |110603               |110604               |110605               |110606               |110607               |110608               |110609               |110610                |
 |lvl         |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |pointValue  |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
 |heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
+|order       |110601                    |110602               |110603               |110604               |110605               |110606               |110607               |110608               |110609               |110610                |
 

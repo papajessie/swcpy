@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall
+  * Target preferences: Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Support troop, Storage, Wall
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -46,81 +46,85 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall
+  * Target preferences: Infantry hero, Heavy infantry, Turret, Heavy infantry hero, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Vehicle hero, Shield, Light vehicle, HQ, Heavy vehicular hero, Support troop, Storage, Wall
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 12
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 4.5,4.27,7.56
+  * iconLookatPosition: 0.05,1.69,0.14
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 11.27,12.43,13.71
+  * newRotationSpeed: 7854
+  * bundleName: stotrper_dth-ani
+  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
+  * assetName: stotrper_dth-ani
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * factoryRotation: 0
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+
 ## Uninterpreted stats
 
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
+  * crushesWalls: false
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 4.5,4.27,7.56
+  * xp: 0
+  * favoriteTargetType: closest
+  * shieldRange: 0
+  * retargetingOffset: 14
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 1
+  * size: 1
+  * acceleration: 0
+  * attackShieldBorder: false
+  * decalAssetName: troop_stotrper_emp
+  * shotDelay: 200
+  * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: infantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * decalBundleName: troop_stotrper_emp
+  * targetPreferenceStrength: 90
+  * projectileType: projectileStormDeath
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * reload: 500
+  * shotCount: 1
+  * trap: 0
+  * faction: rebel
+  * type: infantry
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * decalAssetName: troop_stotrper_emp
-  * pathSearchWidth: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: infantry
-  * animationDelay: 0
-  * bundleName: stotrper_dth-ani
-  * type: infantry
-  * iconLookatPosition: 0.05,1.69,0.14
-  * reload: 500
-  * faction: rebel
-  * playerFacing: false
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 1
-  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
-  * retargetingOffset: 14
-  * iconCameraPosition: 11.27,12.43,13.71
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: -0.5,2.49,-0.78
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * decalBundleName: troop_stotrper_emp
-  * unitID: RebelStormDeath
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 200
-  * projectileType: projectileStormDeath
-  * assetName: stotrper_dth-ani
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * chargeTime: 500
-  * maxScale: false
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 20
-  * deathAnimation: buffFireBurn:15
+  * runThreshold: 0
 
 |Level       |1                  |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |requirements|['rebelBarracks10']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                  |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |233201             |233202              |233203              |233204              |233205              |233206              |233207              |233208              |233209              |233210               |
 |pointValue  |1.000              |1.200               |1.400               |1.600               |1.800               |2.000               |2.200               |2.400               |2.600               |3.000                |
+|order       |233201             |233202              |233203              |233204              |233205              |233206              |233207              |233208              |233209              |233210               |
 

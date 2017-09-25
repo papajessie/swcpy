@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Shield, Shield generator, Ressource generator, Infantry, Droideka, Support troop, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Shield generator, Shield, HQ, Heavy infantry, Infantry, Heavy vehicle, Other building, Droideka, Ressource generator, Light vehicle, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,76 +46,80 @@ category: unit
   * Shield generator: 60
   * Storage: 40
   * Support troop: 40
-  * Target preferences: Turret, HQ, Shield, Shield generator, Ressource generator, Infantry, Droideka, Support troop, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
+  * Target preferences: Turret, Shield generator, Shield, HQ, Heavy infantry, Infantry, Heavy vehicle, Other building, Droideka, Ressource generator, Light vehicle, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero, Flying infantry, Flying vehicle
   * Turret: 80
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconLookatPosition: 0.53,2.2,1.05
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * playerFacing: true
+  * buffAssetOffset: 0.00,0.72,0.0
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 13.7,14.58,24.5
+  * newRotationSpeed: 7854
+  * bundleName: bantharaider_tkn-ani
+  * gunSequence: 1
+  * assetName: bantharaider_tkn-ani
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.00,0.72,0.0
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 0
-  * armorType: bruiserInfantry
-  * animationDelay: 1000
-  * bundleName: bantharaider_tkn-ani
-  * iconLookatPosition: 0.53,2.2,1.05
-  * shieldHealth: 0
-  * reload: 0
-  * faction: tusken
-  * crushesWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * type: infantry
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 1
-  * isFlying: false
-  * sizey: 1
   * overWalls: false
-  * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 0
-  * shotCount: 5
-  * retargetingOffset: 4
-  * iconCameraPosition: 13.7,14.58,24.5
-  * factoryScaleFactor: 1
-  * sizex: 1
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * unitID: TuskenBantha
-  * role: Breacher
-  * targetPreferenceStrength: 90
-  * shotDelay: 1250
-  * projectileType: projectileTuskenBantha
-  * assetName: bantharaider_tkn-ani
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * chargeTime: 500
-  * playerFacing: true
-  * acceleration: 0
-  * size: 2
-  * targetLocking: false
-  * maxScale: false
-  * maxSpeed: 40
+  * crushesWalls: false
   * deathAnimation: buffFireBurn:15
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: turret
+  * shieldRange: 0
+  * retargetingOffset: 4
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * role: Breacher
+  * clipRetargeting: false
+  * impactDelay: 0
+  * sizex: 1
+  * reload: 0
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 1250
+  * maxSpeed: 40
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserInfantry
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 1
+  * targetPreferenceStrength: 90
+  * projectileType: projectileTuskenBantha
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * shotCount: 5
+  * trap: 0
+  * faction: tusken
+  * size: 2
+  * type: infantry
+  * runSpeed: 0
+  * shieldCooldown: 0
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * runThreshold: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
 |lvl       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|order     |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
 |pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
+|order     |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
 

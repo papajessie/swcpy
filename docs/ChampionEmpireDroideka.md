@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Droideka, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Infantry, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall
+  * Target preferences: Droideka, Infantry hero, Heavy infantry hero, Vehicle hero, Heavy vehicular hero, Heavy infantry, Infantry, Heavy vehicle, Flying infantry, Flying vehicle, Light vehicle, Support troop, Turret, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Wall
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,84 +46,91 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Droideka, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Infantry, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall
+  * Target preferences: Droideka, Infantry hero, Heavy infantry hero, Vehicle hero, Heavy vehicular hero, Heavy infantry, Infantry, Heavy vehicle, Flying infantry, Flying vehicle, Light vehicle, Support troop, Turret, Shield generator, Other building, Ressource generator, Shield, HQ, Storage, Wall
   * Turret: 50
   * Vehicle hero: 70
   * View Range: 8
   * Wall: 1
 
-## Uninterpreted stats
+## Presentation stats
 
-  * spawnEffectUid: effectEmpireSpawn
-  * buffAssetOffset: 0.00,0.65,0.00
-  * favoriteTargetType: closest
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: true
-  * selfCenteredTargeting: false
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
   * iconCloseupCameraPosition: 16.58,12.87,13.86
-  * autoSpawnRateScale: 2
-  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
-  * splash: 0
-  * runSpeed: 100
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * runThreshold: 7
-  * armorType: champion
-  * decalSize: 160
-  * type: champion
   * iconLookatPosition: -0.5,1.23,-0.09
-  * reload: 500
-  * faction: empire
-  * playerFacing: true
-  * overWalls: false
-  * newRotationSpeed: 7854
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 20
-  * autoSpawnSpreadingScale: 2
-  * preventDonation: true
-  * isFlying: false
-  * sizey: 1
-  * crushesWalls: false
-  * targetInRangeModifier: 1
-  * shieldRange: 3
-  * impactDelay: 1000
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
-  * retargetingOffset: 14
-  * iconCameraPosition: 16.58,12.87,13.86
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * iconCloseupLookatPosition: -0.5,1.23,-0.09
-  * sizex: 1
-  * attackShieldBorder: false
-  * tooltipHeightOffset: 1.5
-  * unitID: ChampionEmpireDroideka
-  * role: Generic
-  * targetPreferenceStrength: 90
-  * shotDelay: 233
-  * projectileType: projectileChampionEmpireDroideka
-  * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
   * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
-  * chargeTime: 500
-  * maxScale: false
+  * playerFacing: true
+  * iconCloseupLookatPosition: -0.5,1.23,-0.09
+  * buffAssetOffset: 0.00,0.65,0.00
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconCameraPosition: 16.58,12.87,13.86
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
+  * tooltipHeightOffset: 1.5
+  * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
+  * factoryRotation: 0
+  * decalSize: 160
   * animationDelay: 0
-  * acceleration: 0
-  * size: 1
-  * targetLocking: false
-  * maxSpeed: 30
+  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
 
 |Level          |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |11                          |12                          |13                          |14                          |15                          |16                          |17                          |18                          |19                          |20                          |21                          |22                          |23                          |24                          |25                          |26                          |27                          |28                          |29                          |30                          |31                          |32                          |33                          |34                          |35                          |36                          |37                          |38                          |39                          |40                          |41                          |42                          |43                          |44                          |45                          |46                          |47                          |48                          |49                          |50                          |
 |---------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|bundleName     |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
 |shieldAssetName|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
 |gunSequence    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                    |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,2,2                     |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |1,1,1,2,2,2                 |
-|shieldHealth   |12000                      |12960                      |13440                      |13920                      |14400                      |15360                      |15840                      |16320                      |16800                      |17760                       |18240                       |18720                       |19200                       |19680                       |20160                       |20640                       |21120                       |21600                       |22080                       |22560                       |23040                       |23520                       |24000                       |24480                       |24960                       |25440                       |25920                       |26400                       |26880                       |27360                       |27840                       |28080                       |28560                       |28800                       |29280                       |29520                       |30000                       |30480                       |30960                       |31200                       |31440                       |31680                       |31920                       |32160                       |32400                       |32640                       |32880                       |33120                       |33360                       |33600                       |
-|requirements   |['empirePlatformDroideka1']|['empireHQ6']              |['empireHQ6']              |['empireHQ6']              |['empireHQ6']              |['empireHQ7']              |['empireHQ7']              |['empireHQ7']              |['empireHQ7']              |['empireHQ7']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ8']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |['empireHQ9']               |
-|bundleName     |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|lvl            |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |11                          |12                          |13                          |14                          |15                          |16                          |17                          |18                          |19                          |20                          |21                          |22                          |23                          |24                          |25                          |26                          |27                          |28                          |29                          |30                          |31                          |32                          |33                          |34                          |35                          |36                          |37                          |38                          |39                          |40                          |41                          |42                          |43                          |44                          |45                          |46                          |47                          |48                          |49                          |50                          |
-|order          |114501                     |114502                     |114503                     |114504                     |114505                     |114506                     |114507                     |114508                     |114509                     |114510                      |114511                      |114512                      |114513                      |114514                      |114515                      |114516                      |114517                      |114518                      |114519                      |114520                      |114521                      |114522                      |114523                      |114524                      |114525                      |114526                      |114527                      |114528                      |114529                      |114530                      |114531                      |114532                      |114533                      |114534                      |114535                      |114536                      |114537                      |114538                      |114539                      |114540                      |114541                      |114542                      |114543                      |114544                      |114545                      |114546                      |114547                      |114548                      |114549                      |114550                      |
-|pointValue     |20.000                     |28.000                     |32.000                     |36.000                     |40.000                     |48.000                     |52.000                     |56.000                     |60.000                     |68.000                      |72.000                      |76.000                      |80.000                      |84.000                      |88.000                      |92.000                      |96.000                      |100.000                     |104.000                     |108.000                     |112.000                     |116.000                     |120.000                     |124.000                     |128.000                     |132.000                     |136.000                     |140.000                     |144.000                     |148.000                     |152.000                     |156.000                     |160.000                     |168.000                     |172.000                     |176.000                     |180.000                     |184.000                     |188.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |200.000                     |
-|shotCount      |8                          |8                          |8                          |8                          |8                          |8                          |8                          |8                          |8                          |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |8                           |12                          |12                          |12                          |12                          |12                          |12                          |12                          |12                          |12                          |12                          |12                          |
 |assetName      |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
+
+## Uninterpreted stats
+
+  * crushesWalls: false
+  * selfCenteredTargeting: false
+  * xp: 0
+  * favoriteTargetType: closest
+  * shieldRange: 3
+  * retargetingOffset: 14
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * role: Generic
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 1
+  * reload: 500
+  * acceleration: 0
+  * attackShieldBorder: false
+  * shotDelay: 233
+  * maxSpeed: 30
+  * strictCoolDown: true
+  * isFlying: false
+  * splash: 0
+  * armorType: champion
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 2
+  * targetPreferenceStrength: 90
+  * projectileType: projectileChampionEmpireDroideka
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 1
+  * spawnEffectUid: effectEmpireSpawn
+  * trap: 0
+  * faction: empire
+  * size: 1
+  * type: champion
+  * overWalls: false
+  * runSpeed: 100
+  * shieldCooldown: 20
+  * preventDonation: true
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * runThreshold: 7
+
+|Level       |1                          |2            |3            |4            |5            |6            |7            |8            |9            |10           |11           |12           |13           |14           |15           |16           |17           |18           |19           |20           |21           |22           |23           |24           |25           |26           |27           |28           |29           |30           |31           |32           |33           |34           |35           |36           |37           |38           |39           |40           |41           |42           |43           |44           |45           |46           |47           |48           |49           |50           |
+|------------|---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|requirements|['empirePlatformDroideka1']|['empireHQ6']|['empireHQ6']|['empireHQ6']|['empireHQ6']|['empireHQ7']|['empireHQ7']|['empireHQ7']|['empireHQ7']|['empireHQ7']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ8']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|['empireHQ9']|
+|lvl         |1                          |2            |3            |4            |5            |6            |7            |8            |9            |10           |11           |12           |13           |14           |15           |16           |17           |18           |19           |20           |21           |22           |23           |24           |25           |26           |27           |28           |29           |30           |31           |32           |33           |34           |35           |36           |37           |38           |39           |40           |41           |42           |43           |44           |45           |46           |47           |48           |49           |50           |
+|pointValue  |20.000                     |28.000       |32.000       |36.000       |40.000       |48.000       |52.000       |56.000       |60.000       |68.000       |72.000       |76.000       |80.000       |84.000       |88.000       |92.000       |96.000       |100.000      |104.000      |108.000      |112.000      |116.000      |120.000      |124.000      |128.000      |132.000      |136.000      |140.000      |144.000      |148.000      |152.000      |156.000      |160.000      |168.000      |172.000      |176.000      |180.000      |184.000      |188.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |200.000      |
+|shotCount   |8                          |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |8            |12           |12           |12           |12           |12           |12           |12           |12           |12           |12           |12           |
+|order       |114501                     |114502       |114503       |114504       |114505       |114506       |114507       |114508       |114509       |114510       |114511       |114512       |114513       |114514       |114515       |114516       |114517       |114518       |114519       |114520       |114521       |114522       |114523       |114524       |114525       |114526       |114527       |114528       |114529       |114530       |114531       |114532       |114533       |114534       |114535       |114536       |114537       |114538       |114539       |114540       |114541       |114542       |114543       |114544       |114545       |114546       |114547       |114548       |114549       |114550       |
+|shieldHealth|12000                      |12960        |13440        |13920        |14400        |15360        |15840        |16320        |16800        |17760        |18240        |18720        |19200        |19680        |20160        |20640        |21120        |21600        |22080        |22560        |23040        |23520        |24000        |24480        |24960        |25440        |25920        |26400        |26880        |27360        |27840        |28080        |28560        |28800        |29280        |29520        |30000        |30480        |30960        |31200        |31440        |31680        |31920        |32160        |32400        |32640        |32880        |33120        |33360        |33600        |
 

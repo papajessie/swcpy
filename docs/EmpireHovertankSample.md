@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -46,76 +46,80 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
+  * Target preferences: Turret, Heavy infantry, Infantry, Shield generator, Heavy vehicle, Other building, Flying infantry, Droideka, Ressource generator, Flying vehicle, Shield, Light vehicle, HQ, Support troop, Storage, Infantry hero, Heavy infantry hero, Wall, Vehicle hero, Heavy vehicular hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
   * Wall: 1
 
+## Presentation stats
+
+These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+
+  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * iconLookatPosition: -0.59,0.62,-0.25
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * playerFacing: false
+  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * buffAssetOffset: 0.0,1.14,0.0
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * iconCameraPosition: 23.7,17.94,45.6
+  * newRotationSpeed: 2000
+  * bundleName: hovertankempire_emp-ani
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * assetName: hovertankempire_emp-ani
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryRotation: 0
+  * gunSequence: 1,1,1,1
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+
 ## Uninterpreted stats
 
-  * buffAssetOffset: 0.0,1.14,0.0
-  * favoriteTargetType: turret
-  * factoryRotation: 0
-  * targetedType: ENEMIES
-  * armingDelay: 0
-  * strictCoolDown: false
-  * gunSequence: 1,1,1,1
+  * requirements: ['empireHQ2']
+  * crushesWalls: false
   * selfCenteredTargeting: false
-  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * xp: 0
+  * favoriteTargetType: turret
+  * shieldRange: 0
+  * retargetingOffset: 16
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * role: Bruiser
+  * clipRetargeting: false
+  * impactDelay: 1000
+  * sizex: 2
+  * reload: 2000
+  * acceleration: 0
+  * attackShieldBorder: false
+  * pointValue: 1.000
+  * shotDelay: 800
+  * maxSpeed: 20
+  * strictCoolDown: false
+  * isFlying: false
+  * splash: 0
+  * armorType: bruiserVehicle
+  * armingDelay: 0
+  * targetLocking: false
+  * autoSpawnSpreadingScale: 3
+  * targetPreferenceStrength: 90
+  * projectileType: projectile2MTank
+  * maxScale: false
+  * targetedType: ENEMIES
+  * sizey: 3
+  * shotCount: 16
+  * trap: 0
+  * faction: empire
+  * size: 10
+  * type: vehicle
+  * overWalls: false
+  * runSpeed: 0
+  * shieldCooldown: 0
   * shieldHealth: 0
   * autoSpawnRateScale: 3
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * splash: 0
-  * runSpeed: 0
-  * xp: 0
-  * pathSearchWidth: 15
-  * rotationSpeed: 2
-  * requirements: ['empireHQ2']
-  * runThreshold: 0
-  * armorType: bruiserVehicle
-  * animationDelay: 0
-  * bundleName: hovertankempire_emp-ani
-  * type: vehicle
-  * iconLookatPosition: -0.59,0.62,-0.25
-  * reload: 2000
-  * faction: empire
-  * playerFacing: false
-  * pointValue: 1.000
-  * overWalls: false
-  * newRotationSpeed: 2000
-  * clipRetargeting: false
-  * trap: 0
-  * shieldCooldown: 0
-  * autoSpawnSpreadingScale: 3
-  * isFlying: false
-  * sizey: 3
-  * crushesWalls: false
   * targetInRangeModifier: 1
-  * shieldRange: 0
-  * impactDelay: 1000
-  * shotCount: 16
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * retargetingOffset: 16
-  * iconCameraPosition: 23.7,17.94,45.6
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * iconCloseupLookatPosition: -0.59,0.62,-0.25
-  * sizex: 2
-  * attackShieldBorder: false
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * unitID: EmpireHovertankSample
-  * role: Bruiser
-  * targetPreferenceStrength: 90
-  * shotDelay: 800
-  * projectileType: projectile2MTank
-  * assetName: hovertankempire_emp-ani
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * chargeTime: 250
-  * maxScale: false
-  * acceleration: 0
-  * size: 10
-  * targetLocking: false
-  * maxSpeed: 20
+  * runThreshold: 0
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
