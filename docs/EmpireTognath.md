@@ -18,120 +18,99 @@ category: unit
   * Shield Cooldown: 0
   * Shield Range: 0
 
-|Level             |1      |2      |3       |4       |5       |6       |7       |8       |9       |10      |
-|------------------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Training time     |345    |403    |467     |537     |543     |549     |555     |561     |567     |573     |
-|Training cost     |50 Con.|85 Con.|115 Con.|145 Con.|175 Con.|205 Con.|235 Con.|265 Con.|295 Con.|325 Con.|
-|Health            |6160   |7390   |8620    |9860    |11090   |12320   |13550   |14780   |16020   |18480   |
-|Damage*           |976    |1168   |1361    |1558    |1754    |1947    |2144    |2336    |2529    |2918    |
-|Damage per second*|1200   |1435   |1675    |1915    |2160    |2400    |2640    |2875    |3115    |3590    |
+|Level             |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
+|------------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+|Health            |6160|7390|8620|9860|11090|12320|13550|14780|16020|18480|
+|Damage*           |976 |1168|1361|1558|1754 |1947 |2144 |2336 |2529 |2918 |
+|Damage per second*|1200|1435|1675|1915|2160 |2400 |2640 |2875 |3115 |3590 |
 
-* These values are not necessarily accurate and may be not coherent with other values
+* These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targetting
 
-  * Target preferences: **Droideka**, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
+  * Target preferences: **Droideka (100)**, _Support troop (60)_, _Infantry (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Shield generator (50), Storage (50), HQ (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Turret (50), Light vehicle (50), Heavy vehicle (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
-  * Droideka: 100
-  * Flying infantry: 60
-  * Flying vehicle: 50
-  * HQ: 50
-  * Heavy infantry: 60
-  * Heavy infantry hero: 1
-  * Heavy vehicle: 50
-  * Heavy vehicular hero: 1
-  * Infantry: 60
-  * Infantry hero: 1
-  * Light vehicle: 50
-  * Max. Range: 10
-  * Min. Range: 0
-  * Other building: 50
-  * Ressource generator: 50
-  * Shield: 50
-  * Shield generator: 50
-  * Storage: 50
-  * Support troop: 60
-  * Target preferences: **Droideka**, _Flying infantry_, _Heavy infantry_, _Infantry_, _Support troop_, Turret, Other building, Heavy vehicle, Storage, Ressource generator, HQ, Shield, Shield generator, Light vehicle, Flying vehicle, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
-  * Trap: 0
-  * Turret: 50
-  * Vehicle hero: 1
-  * View Range: 8
-  * Wall: 1
+
+## Recruiting
+
+|Level        |1                                        |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|-------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Training cost|50 Con.                                  |85 Con.                                |115 Con.                               |145 Con.                               |175 Con.                               |205 Con.                               |235 Con.                               |265 Con.                               |295 Con.                               |325 Con.                                |
+|Training time|345                                      |403                                    |467                                    |537                                    |543                                    |549                                    |555                                    |561                                    |567                                    |573                                     |
+|Building 0   |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
-  * Flying unit: No
-  * Run Threshold: 0
-  * Run speed: 0
   * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+  * Flying unit: No
+  * Acceleration: 0
+  * Crushes walls: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: tognath_con-ani
-  * iconCameraPosition: 9.66,10.8,15.86
+  * animationDelay: 0
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * bundleName: tognath_con-ani
+  * iconLookatPosition: -0.63,1.31,-0.68
+  * newRotationSpeed: 7854
+  * playerFacing: true
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
   * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * gunSequence: 1
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * assetName: tognath_con-ani
   * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * bundleName: tognath_con-ani
-  * playerFacing: true
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * factoryRotation: 0
-  * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconCameraPosition: 9.66,10.8,15.86
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * armingDelay: 0
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * sizex: 1
   * eventButtonAction: galaxy
-  * retargetingOffset: 20
-  * xp: 0
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * unlockedByEvent: true
+  * autoSpawnSpreadingScale: 2
+  * reload: 1500
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * xp: 0
   * eventButtonString: hn_open_galaxy
-  * autoSpawnRateScale: 2
-  * acceleration: 0
+  * attackShieldBorder: false
+  * retargetingOffset: 20
   * size: 7
-  * overWalls: false
   * clipRetargeting: true
   * targetLocking: false
-  * eventFeaturesString: fragment_obtain_gen
-  * upgradeShardUid: shrd_troopEmpireTognath
-  * selfCenteredTargeting: false
-  * reload: 1500
-  * chargeTime: 250
-  * shotDelay: 500
-  * impactDelay: 1000
-  * projectileType: projectileEmpireTognath
-  * shotCount: 4
-  * sizey: 1
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * splash: 0
-  * attackShieldBorder: false
+  * projectileType: projectileEmpireTognath
+  * impactDelay: 1000
+  * eventFeaturesString: fragment_obtain_gen
+  * shotCount: 4
+  * overWalls: false
+  * shotDelay: 500
   * favoriteTargetType: champion
+  * armingDelay: 0
+  * splash: 0
+  * autoSpawnRateScale: 2
+  * sizey: 1
+  * pathSearchWidth: 15
+  * upgradeShardUid: shrd_troopEmpireTognath
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * unlockedByEvent: true
+  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
 
-|Level          |1                           |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|---------------|----------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|requirements   |['empireContrabandCantina1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|lvl            |1                           |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|ability        |abilityTognathShot1         |abilityTognathShot2  |abilityTognathShot3  |abilityTognathShot4  |abilityTognathShot5  |abilityTognathShot6  |abilityTognathShot7  |abilityTognathShot8  |abilityTognathShot9  |abilityTognathShot10  |
-|order          |115701                      |115702               |115703               |115704               |115705               |115706               |115707               |115708               |115709               |115710                |
-|iconUnlockScale|1.2,1.2,1.2                 |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|Level          |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
+|---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
+|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
+|ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
+|iconUnlockScale|1.2,1.2,1.2        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)         |
 

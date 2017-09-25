@@ -20,127 +20,106 @@ category: unit
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time     |210  |220  |230  |240  |250  |260  |270  |560  |580  |600  |
-|Training cost     |1000$|1400$|1800$|2200$|2600$|3000$|3400$|4000$|4200$|4600$|
 |Health            |16000|16790|17630|18510|19440|20420|21460|22560|23720|24950|
 |Damage*           |3900 |4130 |4360 |4580 |4800 |5030 |5380 |5760 |6160 |6590 |
 |Damage per second*|2000 |2400 |2800 |3200 |3600 |4000 |4400 |4800 |5200 |6000 |
 
-* These values are not necessarily accurate and may be not coherent with other values
+* These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targetting
 
-  * Target preferences: **Droideka**, _Vehicle hero_, _Heavy vehicular hero_, _Infantry hero_, _Heavy infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
+  * Target preferences: **Droideka (80)**, _Vehicle hero (70)_, _Heavy infantry hero (70)_, _Heavy vehicular hero (70)_, _Infantry hero (70)_, _Flying vehicle (60)_, _Support troop (60)_, _Infantry (60)_, _Flying infantry (60)_, _Light vehicle (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Shield (50), Ressource generator (50), Turret (50), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
-  * Droideka: 80
-  * Flying infantry: 60
-  * Flying vehicle: 60
-  * HQ: 50
-  * Heavy infantry: 60
-  * Heavy infantry hero: 70
-  * Heavy vehicle: 60
-  * Heavy vehicular hero: 70
-  * Infantry: 60
-  * Infantry hero: 70
-  * Light vehicle: 60
-  * Max. Range: 10
-  * Min. Range: 0
-  * Other building: 50
-  * Ressource generator: 50
-  * Shield: 50
-  * Shield generator: 50
-  * Storage: 50
-  * Support troop: 60
-  * Target preferences: **Droideka**, _Vehicle hero_, _Heavy vehicular hero_, _Infantry hero_, _Heavy infantry hero_, _Heavy vehicle_, _Flying infantry_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Turret, Other building, Storage, Ressource generator, HQ, Shield, Shield generator, Wall, Trap
-  * Trap: 0
-  * Turret: 50
-  * Vehicle hero: 70
-  * View Range: 8
-  * Wall: 1
+
+## Recruiting
+
+|Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
+|-------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
+|Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
+|Training time|210                                        |220                                   |230                                   |240                                   |250                                   |260                                   |270                                   |560                                   |580                                   |600                                    |
+|Building 0   |[Hero Command 1](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 ## Movement
 
-  * Flying unit: No
-  * Run Threshold: 0
-  * Run speed: 0
   * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+  * Flying unit: No
+  * Acceleration: 0
+  * Crushes walls: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: forenbrand_neu-ani
-  * audioDeath: "sfx_death_foren_1":100
-  * iconCameraPosition: 4.91,10.98,19.43
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * gunSequence: 1
-  * audioPlacement: "sfx_placement_foren_1":100
-  * factoryScaleFactor: 1
-  * decalSize: 160
+  * animationDelay: 0
+  * iconCloseupLookatPosition: 0,2.54,-0.89
   * bundleName: forenbrand_neu-ani
   * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * playerFacing: true
-  * iconCloseupLookatPosition: 0,2.54,-0.89
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
   * iconLookatPosition: 0.02,1.59,-0.01
-  * factoryRotation: 0
   * newRotationSpeed: 7854
+  * decalSize: 160
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * assetName: forenbrand_neu-ani
+  * factoryScaleFactor: 1
+  * audioDeath: "sfx_death_foren_1":100
+  * audioPlacement: "sfx_placement_foren_1":100
+  * iconCameraPosition: 4.91,10.98,19.43
+  * gunSequence: 1
+  * playerFacing: true
 
 ## Uninterpreted stats
 
-  * hologramUid: HeroHologramJohharKessen
   * armingDelay: 0
   * eventButtonAction: planet
-  * retargetingOffset: 20
+  * chargeTime: 250
   * eventButtonData: planet6
   * decalAssetName: tac_hero_rbl
+  * splash: 0
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * eventButtonString: hn_open_erk
+  * decalBundleName: tac_hero_rbl
+  * retargetingOffset: 20
   * clipRetargeting: true
+  * strictCoolDown: false
+  * hologramUid: HeroHologramJohharKessen
+  * upgradeShardUid: shrd_troopRebelJohhar
   * autoSpawnRateScale: 2
-  * size: 1
-  * overWalls: false
+  * shotDelay: 500
+  * autoSpawnSpreadingScale: 2
   * maxScale: false
-  * impactDelay: 1000
-  * shotCount: 3
-  * sizey: 1
   * pathSearchWidth: 15
-  * eventFeaturesString: fragment_obtain_gen
+  * targetInRangeModifier: 1
   * targetPreferenceStrength: 90
-  * attackShieldBorder: false
-  * xp: 0
-  * acceleration: 0
   * favoriteTargetType: infantry
   * targetedType: ENEMIES
-  * unlockedByEvent: true
-  * eventButtonString: hn_open_erk
-  * upgradeShardUid: shrd_troopRebelJohhar
   * selfCenteredTargeting: false
-  * sizex: 1
-  * autoSpawnSpreadingScale: 2
-  * reload: 2000
-  * chargeTime: 250
-  * shotDelay: 500
-  * projectileType: projectileJohharRebel
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * decalBundleName: tac_hero_rbl
-  * strictCoolDown: false
-  * splash: 0
-  * targetInRangeModifier: 1
-  * crushesWalls: false
+  * attackShieldBorder: false
+  * size: 1
   * targetLocking: false
+  * unlockedByEvent: true
+  * projectileType: projectileJohharRebel
+  * impactDelay: 1000
+  * eventFeaturesString: fragment_obtain_gen
+  * overWalls: false
+  * reload: 2000
+  * sizex: 1
+  * sizey: 1
+  * xp: 0
+  * shotCount: 3
 
-|Level             |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|------------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|iconUnlockPosition|0,0,0                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|requirements      |['rebelTacticalCommand1']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
-|lvl               |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|ability           |abilityRailGun1Rebel     |abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
-|order             |211101                   |211102              |211103              |211104              |211105              |211106              |211107              |211108              |211109              |211110               |
-|iconUnlockScale   |1,1,1                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|pointValue        |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
-|iconUnlockRotation|0,0,0                    |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|heroData          |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
+|Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|ability           |abilityRailGun1Rebel|abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
+|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|heroData          |hero1               |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
+|pointValue        |20.000              |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
+|order             |211101              |211102              |211103              |211104              |211105              |211106              |211107              |211108              |211109              |211110               |
+|iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

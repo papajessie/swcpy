@@ -18,114 +18,93 @@ category: unit
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Training time       |21  |22   |23   |24    |25    |26     |27     |28     |29      |30      |
-|Training cost       |50$ |70$  |90$  |110$  |130$  |150$   |170$   |190$   |210$    |230$    |
 |Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
 |Upgrade time        |0   |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
 |Health              |900 |1080 |1260 |1440  |1620  |1800   |1980   |2160   |2340    |2700    |
 |Damage*             |126 |152  |177  |202   |227   |252    |278    |303    |328     |378     |
 |Damage per second*  |120 |144  |168  |192   |216   |240    |264    |288    |312     |360     |
 
-* These values are not necessarily accurate and may be not coherent with other values
+* These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targetting
 
-  * Target preferences: **Storage**, **Ressource generator**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Infantry hero, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Shield generator (50), HQ (50), Droideka (50), Flying vehicle (50), Vehicle hero (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Flying infantry (50), Heavy infantry hero (50), Heavy vehicular hero (50), Turret (50), Light vehicle (50), Heavy vehicle (50), Infantry hero (50), Heavy infantry (50), Wall (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
-  * Droideka: 50
-  * Flying infantry: 50
-  * Flying vehicle: 50
-  * HQ: 50
-  * Heavy infantry: 50
-  * Heavy infantry hero: 50
-  * Heavy vehicle: 50
-  * Heavy vehicular hero: 50
-  * Infantry: 50
-  * Infantry hero: 50
-  * Light vehicle: 50
-  * Max. Range: 4
-  * Min. Range: 0
-  * Other building: 50
-  * Ressource generator: 80
-  * Shield: 50
-  * Shield generator: 50
-  * Storage: 80
-  * Support troop: 50
-  * Target preferences: **Storage**, **Ressource generator**, Vehicle hero, Heavy vehicular hero, Turret, Other building, Droideka, Infantry hero, Heavy vehicle, Flying infantry, HQ, Heavy infantry, Shield, Shield generator, Light vehicle, Heavy infantry hero, Infantry, Flying vehicle, Support troop, Wall, Trap
-  * Trap: 0
-  * Turret: 50
-  * Vehicle hero: 50
-  * View Range: 8
-  * Wall: 1
+
+## Recruiting
+
+|Level        |1                                 |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|-------------|----------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Training cost|50$                               |70$                                    |90$                                    |110$                                   |130$                                   |150$                                   |170$                                   |190$                                   |210$                                   |230$                                    |
+|Training time|21                                |22                                     |23                                     |24                                     |25                                     |26                                     |27                                     |28                                     |29                                     |30                                      |
+|Building 0   |[Barracks 10](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
-  * Flying unit: No
-  * Run Threshold: 0
-  * Run speed: 0
   * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+  * Flying unit: No
+  * Acceleration: 0
+  * Crushes walls: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: scotrper_dth-ani
-  * iconCameraPosition: 10.84,12.06,13.07
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * gunSequence: 1
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * animationDelay: 0
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
   * bundleName: scotrper_dth-ani
   * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
-  * playerFacing: false
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.94,-0.46,8
   * iconLookatPosition: 0.06,1.74,0.02
-  * factoryRotation: 0
   * newRotationSpeed: 7854
+  * playerFacing: false
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * assetName: scotrper_dth-ani
+  * factoryScaleFactor: 1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * iconCameraPosition: 10.84,12.06,13.07
+  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
   * deathAnimation: buffFireBurn:15
-  * retargetingOffset: 8
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
+  * targetLocking: false
+  * chargeTime: 250
   * targetedType: ENEMIES
   * reload: 800
-  * clipRetargeting: false
-  * autoSpawnRateScale: 1
-  * acceleration: 0
-  * size: 1
-  * overWalls: false
-  * sizex: 1
-  * favoriteTargetType: resource
-  * crushesWalls: false
-  * chargeTime: 250
-  * maxScale: false
-  * impactDelay: 0
-  * projectileType: projectileScoutDeath
-  * shotCount: 1
-  * sizey: 1
-  * strictCoolDown: false
-  * pathSearchWidth: 1
   * splash: 0
-  * targetInRangeModifier: 1
-  * shotDelay: 0
-  * targetPreferenceStrength: 90
-  * attackShieldBorder: false
+  * xp: 0
   * selfCenteredTargeting: false
-  * targetLocking: false
+  * attackShieldBorder: false
+  * retargetingOffset: 8
+  * size: 1
+  * clipRetargeting: false
+  * armingDelay: 0
+  * projectileType: projectileScoutDeath
+  * impactDelay: 0
+  * overWalls: false
+  * favoriteTargetType: resource
+  * sizex: 1
+  * sizey: 1
+  * autoSpawnRateScale: 1
+  * shotDelay: 0
+  * pathSearchWidth: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
 
-|Level       |1                   |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|------------|--------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|pointValue  |1.000               |1.200                |1.400                |1.600                |1.800                |2.000                |2.200                |2.400                |2.600                |3.000                 |
-|requirements|['empireBarracks10']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
-|lvl         |1                   |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|order       |133101              |133102               |133103               |133104               |133105               |133106               |133107               |133108               |133109               |133110                |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|order     |133101|133102|133103|133104|133105|133106|133107|133108|133109|133110|
 
