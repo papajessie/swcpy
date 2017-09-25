@@ -7,12 +7,13 @@ category: unit
 
 ## Main stats
 
-  * Side: Independent units
+  * Side: Independant units
+  * Buildable unit: Yes
   * Type: vehicle
   * Armor type: vehicle
   * Role: Striker
   * Levels available: 1-10
-  * Upgrade time: 0
+  * Upgrade time: 0s
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, _Shield generator (60)_, _Storage (60)_, _HQ (60)_, _Other building (60)_, _Shield (60)_, _Ressource generator (60)_, Droideka (50), Flying vehicle (50), Vehicle hero (50), Support troop (50), Infantry (50), Flying infantry (50), Heavy infantry hero (50), Heavy vehicular hero (50), Light vehicle (50), Heavy vehicle (50), Infantry hero (50), Heavy infantry (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Shield (60)_, _Shield generator (60)_, _Storage (60)_, _HQ (60)_, _Other building (60)_, Light vehicle (50), Heavy vehicular hero (50), Heavy vehicle (50), Heavy infantry hero (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Droideka (50), Vehicle hero (50), Infantry hero (50), Support troop (50), Infantry (50), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
 |Training cost|300$                               |420$                               |540$                               |660$                               |780$                               |900$                               |1020$                              |1140$                              |1260$                              |1380$                               |
 |Training time|126                                |132                                |138                                |144                                |150                                |156                                |162                                |168                                |174                                |180                                 |
-|Building 0   |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
+|Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
 ## Movement
 
@@ -54,57 +55,56 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0,1,0
-  * animationDelay: 0
-  * iconCameraPosition: 14.41,12.49,21.37
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * bundleName: speederbike_smg-ani
+  * newRotationSpeed: 7854
+  * assetName: speederbike_smg-ani
+  * gunSequence: 1,2
+  * buffAssetOffset: 0,1,0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * factoryRotation: 0
+  * animationDelay: 0
   * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
   * iconLookatPosition: -0.42,1.29,-0.61
-  * newRotationSpeed: 7854
-  * playerFacing: true
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * assetName: speederbike_smg-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunSequence: 1,2
+  * iconCameraPosition: 14.41,12.49,21.37
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
-  * chargeTime: 250
-  * targetedType: ENEMIES
-  * reload: 500
-  * xp: 0
-  * selfCenteredTargeting: false
-  * attackShieldBorder: false
-  * retargetingOffset: 100
+  * sizex: 1
+  * targetInRangeModifier: 1
   * size: 2
-  * clipRetargeting: false
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * impactDelay: 1000
+  * reload: 500
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
   * armingDelay: 0
   * projectileType: projectileSmugglerRenegade
-  * impactDelay: 1000
-  * overWalls: false
-  * favoriteTargetType: infantry
-  * splash: 0
-  * sizex: 1
-  * sizey: 1
+  * xp: 0
   * autoSpawnRateScale: 2
-  * shotDelay: 125
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 2
-  * shotCount: 3
+  * retargetingOffset: 100
   * maxScale: false
-  * targetInRangeModifier: 1
+  * shotCount: 3
+  * deathAnimation: buffFireBurn:15
+  * targetLocking: false
+  * attackShieldBorder: false
+  * favoriteTargetType: infantry
+  * clipRetargeting: false
+  * overWalls: false
+  * shotDelay: 125
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * selfCenteredTargeting: false
 
 |Level     |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |----------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|audioTrain|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |pointValue|6.000                                                                                                                  |7.200      |8.400      |9.600      |10.800     |12.000     |13.200     |14.400     |15.600     |18.000     |
 |order     |344301                                                                                                                 |344302     |344303     |344304     |344305     |344306     |344307     |344308     |344309     |344310     |
+|audioTrain|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

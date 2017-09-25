@@ -8,11 +8,12 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: mercenary
   * Armor type: bruiserVehicle
   * Role: Bruiser
   * Levels available: 1-5
-  * Upgrade time: 5
+  * Upgrade time: 5s
   * Damage per second*: 1920
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
 |Training cost|50 Con.                                  |85 Con.                                |115 Con.                               |145 Con.                               |175 Con.                               |
 |Training time|345                                      |403                                    |467                                    |537                                    |613                                    |
-|Building 0   |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
+|Building     |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,64 +55,63 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: securitydroid_con-ani
-  * iconLookatPosition: -0.44,1.26,-0.82
   * newRotationSpeed: 7854
-  * playerFacing: true
+  * assetName: securitydroid_con-ani
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * gunSequence: 1
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 3.46,6.58,11.02
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * assetName: securitydroid_con-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * factoryRotation: 0
+  * animationDelay: 0
+  * iconLookatPosition: -0.44,1.26,-0.82
   * iconCameraPosition: 7.57,15.79,19.1
-  * gunSequence: 1
 
 ## Uninterpreted stats
 
   * sizex: 1
-  * eventButtonAction: galaxy
-  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * pointValue: 4.000
   * targetLocking: false
   * chargeTime: 500
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 1
-  * iconUnlockScale: 1.1,1.1,1.1
+  * pathSearchWidth: 15
+  * selfCenteredTargeting: false
+  * impactDelay: 1000
   * reload: 500
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * iconUnlockScale: 1.1,1.1,1.1
+  * armingDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * xp: 0
   * eventButtonString: hn_open_galaxy
-  * attackShieldBorder: false
-  * retargetingOffset: 10
-  * size: 4
-  * clipRetargeting: false
-  * pointValue: 4.000
-  * strictCoolDown: false
-  * projectileType: projectileStorm
-  * impactDelay: 1000
-  * eventFeaturesString: fragment_obtain_gen
-  * shotCount: 5
-  * overWalls: false
-  * shotDelay: 300
-  * favoriteTargetType: closest
-  * armingDelay: 0
-  * splash: 0
-  * autoSpawnRateScale: 1
-  * sizey: 1
-  * pathSearchWidth: 15
   * upgradeShardUid: shrd_troopSecurityDroid
+  * overWalls: false
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 10
+  * projectileType: projectileStorm
   * maxScale: false
-  * selfCenteredTargeting: false
+  * clipRetargeting: false
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
+  * attackShieldBorder: false
+  * favoriteTargetType: closest
+  * shotCount: 5
+  * eventButtonAction: galaxy
+  * shotDelay: 300
+  * splash: 0
+  * targetPreferenceStrength: 90
   * unlockedByEvent: true
-  * targetedType: ENEMIES
-  * targetInRangeModifier: 1
+  * size: 4
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|order  |115601               |115602               |115603               |115605               |115606               |
 |ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
+|order  |115601               |115602               |115603               |115605               |115606               |
 

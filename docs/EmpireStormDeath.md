@@ -8,6 +8,7 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: No
   * Type: infantry
   * Armor type: infantry
   * Role: Generic
@@ -19,7 +20,7 @@ category: unit
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0   |900  |3600 |12600 |28800 |86400  |172800 |302400 |432000  |691200  |
+|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |1300|1560 |1680 |1920  |2160  |2400   |2640   |2880   |3120    |3600    |
 |Damage*             |141 |169  |182  |208   |234   |260    |286    |312    |338     |390     |
 |Damage per second*  |141 |169  |182  |208   |234   |260    |286    |312    |338     |390     |
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (50)**, **Storage (50)**, **HQ (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Vehicle hero (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Shield (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Heavy vehicular hero (50)**, **Turret (50)**, **Light vehicle (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -39,7 +40,7 @@ category: unit
 |-------------|----------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|50$                               |70$                                    |90$                                    |110$                                   |130$                                   |150$                                   |170$                                   |190$                                   |210$                                   |230$                                    |
 |Training time|20                                |22                                     |23                                     |24                                     |25                                     |26                                     |27                                     |28                                     |29                                     |30                                      |
-|Building 0   |[Barracks 10](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Barracks 10](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,56 +55,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * factoryScaleFactor: 1
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * bundleName: stotrper_dth-ani
-  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
-  * iconLookatPosition: 0.05,1.69,0.14
   * newRotationSpeed: 7854
-  * playerFacing: false
+  * assetName: stotrper_dth-ani
+  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * gunSequence: 1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
   * iconCloseupCameraPosition: 4.5,4.27,7.56
   * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * assetName: stotrper_dth-ani
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * factoryRotation: 0
+  * animationDelay: 0
+  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
+  * iconLookatPosition: 0.05,1.69,0.14
   * iconCameraPosition: 11.27,12.43,13.71
-  * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * deathAnimation: buffFireBurn:15
-  * strictCoolDown: false
-  * targetPreferenceStrength: 90
-  * targetLocking: false
+  * sizex: 1
+  * targetInRangeModifier: 1
   * chargeTime: 500
-  * targetedType: ENEMIES
-  * decalAssetName: troop_stotrper_emp
-  * reload: 500
-  * splash: 0
-  * xp: 0
-  * selfCenteredTargeting: false
-  * decalBundleName: troop_stotrper_emp
-  * retargetingOffset: 14
-  * size: 1
-  * clipRetargeting: false
-  * armingDelay: 0
-  * projectileType: projectileStormDeath
+  * pathSearchWidth: 1
+  * targetLocking: false
   * impactDelay: 1000
-  * overWalls: false
+  * reload: 500
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * sizey: 1
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * xp: 0
+  * shotDelay: 200
+  * decalBundleName: troop_stotrper_emp
+  * decalAssetName: troop_stotrper_emp
+  * autoSpawnRateScale: 1
+  * retargetingOffset: 14
+  * projectileType: projectileStormDeath
+  * deathAnimation: buffFireBurn:15
+  * clipRetargeting: false
   * attackShieldBorder: false
   * favoriteTargetType: closest
-  * sizex: 1
-  * sizey: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 200
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
   * shotCount: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
+  * overWalls: false
+  * selfCenteredTargeting: false
+  * splash: 0
+  * targetPreferenceStrength: 90
+  * size: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

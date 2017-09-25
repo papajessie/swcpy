@@ -8,12 +8,13 @@ category: unit
 ## Main stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Type: infantry
   * Armor type: healerInfantry
   * Role: Healer
   * Levels available: 1-10
   * Upgrade requirements: 32 data fragments
-  * Upgrade time: 5
+  * Upgrade time: 5s
   * Damage*: 0
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -28,7 +29,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Shield generator (0), Storage (0), HQ (0), Droideka (0), Flying vehicle (0), Vehicle hero (0), Support troop (0), Other building (0), Trap (0), Shield (0), Ressource generator (0), Flying infantry (0), Heavy vehicular hero (0), Turret (0), Light vehicle (0), Heavy vehicle (0), Wall (0)
+  * Target preferences: **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, Light vehicle (0), Heavy vehicular hero (0), Ressource generator (0), Heavy vehicle (0), Flying vehicle (0), Trap (0), Turret (0), Flying infantry (0), Shield (0), Shield generator (0), Droideka (0), Storage (0), Vehicle hero (0), HQ (0), Wall (0), Support troop (0), Other building (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -39,7 +40,7 @@ category: unit
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|250$                             |350$                                   |450$                                   |550$                                   |650$                                   |750$                                   |850$                                   |1000$                                  |1050$                                  |1150$                                   |
 |Training time|100                              |110                                    |115                                    |120                                    |125                                    |130                                    |135                                    |140                                    |145                                    |150                                     |
-|Building 0   |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
@@ -54,65 +55,64 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * animationDelay: 0
-  * iconCameraPosition: 5.21,9.06,13.12
-  * bundleName: r5droid_emp-ani
   * iconLookatPosition: -0.19,0.88,-0.37
-  * newRotationSpeed: 7854
-  * playerFacing: true
-  * factoryRotation: 0
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * assetName: r5droid_emp-ani
   * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
   * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
+  * bundleName: r5droid_emp-ani
+  * newRotationSpeed: 7854
+  * assetName: r5droid_emp-ani
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
   * gunSequence: 1
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * iconCameraPosition: 5.21,9.06,13.12
 
 ## Uninterpreted stats
 
-  * supportFollowDistance: 5
   * sizex: 1
-  * eventButtonAction: galaxy
-  * targetPreferenceStrength: 90
+  * targetInRangeModifier: 1
+  * eventFeaturesString: fragment_obtain_gen
   * targetLocking: true
   * chargeTime: 50
+  * pathSearchWidth: 15
+  * selfCenteredTargeting: true
+  * impactDelay: 250
+  * retargetingOffset: 10
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ALLIES
+  * sizey: 1
+  * supportFollowDistance: 5
+  * armingDelay: 0
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * infoUIType: Healer
-  * reload: 900
-  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
+  * overWalls: false
   * xp: 0
   * eventButtonString: hn_open_galaxy
-  * attackShieldBorder: false
-  * retargetingOffset: 10
   * size: 5
-  * clipRetargeting: false
-  * strictCoolDown: false
-  * impactDelay: 250
-  * eventFeaturesString: fragment_obtain_gen
-  * shotCount: 2
-  * overWalls: false
-  * shotDelay: 400
-  * favoriteTargetType: infantry
-  * armingDelay: 0
+  * reload: 900
   * upgradeShardUid: shrd_troopR5Medic
-  * splash: 0
   * autoSpawnRateScale: 1
-  * sizey: 1
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
+  * infoUIType: Healer
   * maxScale: false
-  * selfCenteredTargeting: true
+  * clipRetargeting: false
+  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
+  * attackShieldBorder: false
+  * favoriteTargetType: infantry
+  * shotCount: 2
+  * eventButtonAction: galaxy
+  * shotDelay: 400
+  * splash: 0
+  * targetPreferenceStrength: 90
   * unlockedByEvent: true
-  * targetedType: ALLIES
-  * targetInRangeModifier: 1
+  * strictCoolDown: false
 
 |Level             |1                 |2                 |3                 |4                 |5                 |6                 |7                 |8                 |9                 |10                 |
 |------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
-|projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
-|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
-|iconUnlockRotation|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |pointValue        |5.000             |6.000             |7.000             |8.000             |9.000             |10.000            |11.000            |12.000            |13.000            |15.000             |
 |order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
 |iconUnlockPosition|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|iconUnlockRotation|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
 
