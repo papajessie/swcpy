@@ -12,8 +12,6 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Destroyer
   * Levels available: 8
-  * Training time: 324
-  * Training cost: 4000$
   * Upgrade requirements: 450000$
   * Upgrade time: 518400
   * Health: 48000
@@ -23,105 +21,84 @@ category: unit
   * Shield Cooldown: 0
   * Shield Range: 0
 
-* These values are not necessarily accurate and may be not coherent with other values
+* These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targetting
 
-  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, Storage (50), HQ (50), Droideka (50), Flying vehicle (50), Support troop (50), Infantry (50), Other building (50), Ressource generator (50), Flying infantry (50), Turret (50), Light vehicle (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
-  * Droideka: 50
-  * Flying infantry: 50
-  * Flying vehicle: 50
-  * HQ: 50
-  * Heavy infantry: 50
-  * Heavy infantry hero: 1
-  * Heavy vehicle: 50
-  * Heavy vehicular hero: 1
-  * Infantry: 50
-  * Infantry hero: 1
-  * Light vehicle: 50
-  * Max. Range: 8
-  * Min. Range: 0
-  * Other building: 50
-  * Ressource generator: 50
-  * Shield: 70
-  * Shield generator: 70
-  * Storage: 50
-  * Support troop: 50
-  * Target preferences: **Shield**, **Shield generator**, Turret, Other building, Droideka, Heavy vehicle, Flying infantry, Storage, Ressource generator, HQ, Heavy infantry, Light vehicle, Infantry, Flying vehicle, Support troop, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
-  * Trap: 0
-  * Turret: 50
-  * Vehicle hero: 1
-  * View Range: 8
-  * Wall: 1
+
+## Recruiting
+
+  * Training cost: 4000$
+  * Training time: 324
+  * Building 0: [Research Lab 10](rebelOffenseLab.html)
 
 ## Movement
 
-  * Flying unit: No
-  * Run Threshold: 0
-  * Run speed: 0
   * Speed: 30
+  * Run speed: 0
+  * Run Threshold: 0
+  * Flying unit: No
+  * Acceleration: 0
+  * Crushes walls: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: attacktank_rbl-ani
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * iconCameraPosition: 35.28,24.86,45.37
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * bundleName: attacktank_rbl-ani
-  * gunSequence: 1,1
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * decalSize: 320
   * buffAssetOffset: 0.00,1.84,0.00
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
-  * playerFacing: false
   * animationDelay: 0
-  * iconLookatPosition: -0.89,1.38,-0.23
-  * factoryRotation: 0
-  * newRotationSpeed: 2000
   * rotationSpeed: 2
+  * bundleName: attacktank_rbl-ani
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * iconLookatPosition: -0.89,1.38,-0.23
+  * newRotationSpeed: 2000
+  * decalSize: 320
+  * factoryRotation: 0
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
+  * assetName: attacktank_rbl-ani
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * iconCameraPosition: 35.28,24.86,45.37
+  * gunSequence: 1,1
+  * playerFacing: false
 
 ## Uninterpreted stats
 
+  * strictCoolDown: false
+  * targetPreferenceStrength: 90
+  * targetLocking: false
+  * chargeTime: 1000
+  * maxScale: false
+  * spawnEffectUid: effectRebelSpawn
+  * decalAssetName: tac_hero_rbl
+  * reload: 1000
+  * splash: 0
+  * xp: 0
+  * selfCenteredTargeting: false
+  * decalBundleName: tac_hero_rbl
+  * retargetingOffset: 100
+  * size: 20
+  * clipRetargeting: false
   * pointValue: 48.000
   * armingDelay: 0
-  * reload: 1000
-  * spawnEffectUid: effectRebelSpawn
-  * retargetingOffset: 100
-  * xp: 0
-  * requirements: ['rebelOffenseLab10']
-  * autoSpawnSpreadingScale: 3
-  * lvl: 8
-  * targetedType: ENEMIES
-  * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * clipRetargeting: false
-  * autoSpawnRateScale: 3
-  * splash: 0
-  * acceleration: 0
-  * size: 20
-  * overWalls: true
-  * sizex: 2
-  * favoriteTargetType: shieldGenerator
-  * selfCenteredTargeting: false
-  * chargeTime: 1000
-  * shotDelay: 250
-  * impactDelay: 500
   * projectileType: projectileJuggernaut
+  * impactDelay: 500
+  * overWalls: true
   * order: 244908
-  * shotCount: 2
-  * decalBundleName: tac_hero_rbl
-  * sizey: 2
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * targetPreferenceStrength: 90
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * targetLocking: false
   * attackShieldBorder: false
+  * favoriteTargetType: shieldGenerator
+  * sizex: 2
+  * sizey: 2
+  * autoSpawnRateScale: 3
+  * shotDelay: 250
+  * pathSearchWidth: 15
+  * autoSpawnSpreadingScale: 3
+  * shotCount: 2
+  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
 

@@ -12,8 +12,6 @@ category: unit
   * Armor type: infantry
   * Role: Striker
   * Levels available: 1
-  * Training time: 21
-  * Training cost: 50$
   * Upgrade requirements: 1500$
   * Upgrade time: 10
   * Health: 200
@@ -23,99 +21,78 @@ category: unit
   * Shield Cooldown: 0
   * Shield Range: 0
 
-* These values are not necessarily accurate and may be not coherent with other values
+* These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targetting
 
-  * Target preferences: **Storage**, **Ressource generator**, _Turret_, _Other building_, _Droideka_, _Heavy vehicle_, _Flying infantry_, _HQ_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
+  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _HQ (60)_, _Droideka (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Infantry (60)_, _Other building (60)_, _Flying infantry (60)_, _Turret (60)_, _Light vehicle (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Shield generator (50), Shield (50), Vehicle hero (1), Heavy infantry hero (1), Heavy vehicular hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
-  * Droideka: 60
-  * Flying infantry: 60
-  * Flying vehicle: 60
-  * HQ: 60
-  * Heavy infantry: 60
-  * Heavy infantry hero: 1
-  * Heavy vehicle: 60
-  * Heavy vehicular hero: 1
-  * Infantry: 60
-  * Infantry hero: 1
-  * Light vehicle: 60
-  * Max. Range: 5
-  * Min. Range: 0
-  * Other building: 60
-  * Ressource generator: 66
-  * Shield: 50
-  * Shield generator: 50
-  * Storage: 66
-  * Support troop: 60
-  * Target preferences: **Storage**, **Ressource generator**, _Turret_, _Other building_, _Droideka_, _Heavy vehicle_, _Flying infantry_, _HQ_, _Heavy infantry_, _Light vehicle_, _Infantry_, _Flying vehicle_, _Support troop_, Shield, Shield generator, Vehicle hero, Heavy vehicular hero, Infantry hero, Heavy infantry hero, Wall, Trap
-  * Trap: 0
-  * Turret: 60
-  * Vehicle hero: 1
-  * View Range: 8
-  * Wall: 1
+
+## Recruiting
+
+  * Training cost: 50$
+  * Training time: 21
 
 ## Movement
 
-  * Flying unit: No
-  * Run Threshold: 0
-  * Run speed: 0
   * Speed: 20
+  * Run speed: 0
+  * Run Threshold: 0
+  * Flying unit: No
+  * Acceleration: 0
+  * Crushes walls: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: raiderrifle_tkn-ani
-  * playerFacing: true
+  * animationDelay: 0
   * iconCameraPosition: 10,11.38,12.75
+  * bundleName: raiderrifle_tkn-ani
+  * iconLookatPosition: -0.17,1.62,0.41
+  * newRotationSpeed: 7854
+  * playerFacing: true
+  * factoryRotation: 0
   * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * assetName: raiderrifle_tkn-ani
   * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * bundleName: raiderrifle_tkn-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * animationDelay: 0
-  * iconLookatPosition: -0.17,1.62,0.41
-  * factoryRotation: 0
-  * newRotationSpeed: 7854
   * gunSequence: 1
 
 ## Uninterpreted stats
 
-  * pointValue: 1.000
-  * armingDelay: 0
-  * deathAnimation: buffFireBurn:15
-  * retargetingOffset: 10
-  * xp: 0
-  * acceleration: 0
-  * autoSpawnSpreadingScale: 1
-  * lvl: 1
-  * targetedType: ENEMIES
-  * reload: 2000
-  * clipRetargeting: false
-  * autoSpawnRateScale: 1
-  * selfCenteredTargeting: false
-  * size: 1
-  * overWalls: false
   * sizex: 1
-  * favoriteTargetType: none
-  * chargeTime: 250
-  * maxScale: false
-  * impactDelay: 1000
-  * shotDelay: 500
-  * order: 332101
-  * shotCount: 3
-  * sizey: 1
+  * deathAnimation: buffFireBurn:15
   * strictCoolDown: false
-  * pathSearchWidth: 1
-  * splash: 0
-  * targetLocking: false
-  * targetInRangeModifier: 1
-  * crushesWalls: false
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * targetedType: ENEMIES
+  * pointValue: 1.000
+  * reload: 2000
+  * splash: 0
+  * xp: 0
+  * selfCenteredTargeting: false
   * attackShieldBorder: false
+  * retargetingOffset: 10
+  * size: 1
+  * clipRetargeting: false
+  * targetLocking: false
   * projectileType: projectileTusken
+  * impactDelay: 1000
+  * overWalls: false
+  * order: 332101
+  * favoriteTargetType: none
+  * armingDelay: 0
+  * sizey: 1
+  * autoSpawnRateScale: 1
+  * shotDelay: 500
+  * pathSearchWidth: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 3
+  * maxScale: false
+  * targetInRangeModifier: 1
 
