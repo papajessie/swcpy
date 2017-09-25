@@ -20,7 +20,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Other building, Ressource generator, Storage, Heavy infantry, Turret, Support troop, Heavy vehicle, HQ, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, Ressource generator, Storage, Other building, HQ, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 1
   * Min. Range: 0
   * View Range: 8
@@ -43,7 +43,7 @@ category: unit
   * Shield generator: 70
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Other building, Ressource generator, Storage, Heavy infantry, Turret, Support troop, Heavy vehicle, HQ, Droideka, Flying vehicle, Light vehicle, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, Ressource generator, Storage, Other building, HQ, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 8
@@ -51,61 +51,61 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: smuggler
+  * favoriteTargetType: closest
+  * factoryRotation: 0
   * targetedType: ENEMIES
-  * assetName: jawatalking_neu-ani
-  * pathSearchWidth: 1
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 5
-  * lvl: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
   * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 1
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: jawatalking_neu-ani
+  * lvl: 1
+  * iconLookatPosition: -0.15,0.8,-0.39
+  * shieldHealth: 0
+  * reload: 1
+  * faction: smuggler
+  * order: 372201
+  * pointValue: 0.000
+  * crushesWalls: false
+  * newRotationSpeed: 1
+  * clipRetargeting: false
+  * type: infantry
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1
+  * shotCount: 5
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * retargetingOffset: 1
+  * iconCameraPosition: -1.2,4.65,15.26
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * unitID: SmugglerJawaTalking
+  * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 1
+  * projectileType: projectileSmugglerSaboteur
+  * assetName: jawatalking_neu-ani
   * chargeTime: 1
   * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: -1.2,4.65,15.26
-  * unitID: SmugglerJawaTalking
-  * autoSpawnRateScale: 1
-  * order: 372201
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 4
-  * pointValue: 0.000
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 1
-  * overWalls: false
-  * gunSequence: 1
   * acceleration: 0
-  * iconLookatPosition: -0.15,0.8,-0.39
-  * newRotationSpeed: 1
-  * maxSpeed: 1
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * shieldRange: 0
-  * sizex: 1
-  * bundleName: jawatalking_neu-ani
+  * size: 4
   * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1
-  * shotDelay: 1
-  * type: infantry
-  * reload: 1
-  * rotationSpeed: 1
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * shieldCooldown: 0
-  * projectileType: projectileSmugglerSaboteur
-  * selfCenteredTargeting: false
-  * favoriteTargetType: closest
-  * role: Generic
+  * maxScale: false
+  * maxSpeed: 1
 

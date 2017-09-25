@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Flying infantry, Infantry hero, Infantry, Shield, Wall
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall, Shield
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 12
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Flying infantry, Infantry hero, Infantry, Shield, Wall
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall, Shield
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 12
@@ -54,75 +54,75 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * retargetingOffset: 14
-  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * deathProjectileDistance: 0
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
+  * favoriteTargetType: closest
+  * factoryRotation: 0
+  * deathProjectileDelay: 0
+  * targetedType: ENEMIES
   * armingDelay: 0
-  * chargeTime: 1000
-  * playerFacing: true
-  * armorType: infantry
-  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 1.37,0.41,9.67
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
+  * splash: 0
+  * runSpeed: 0
   * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: twilek_con-ani
+  * type: mercenary
+  * iconLookatPosition: -0.29,1.36,-0.25
+  * reload: 500
+  * faction: rebel
+  * playerFacing: true
+  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * attackShieldBorder: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 1
+  * retargetingOffset: 14
   * iconCameraPosition: 7.27,7.61,17.96
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.06,2.28,-0.53
+  * sizex: 1
+  * clipRetargeting: false
+  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
   * unitID: RebelTwilekIncinerator
+  * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
   * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
   * assetName: twilek_con-ani
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 4
-  * iconLookatPosition: -0.29,1.36,-0.25
-  * deathProjectileDelay: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.06,2.28,-0.53
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 20
-  * splash: 0
-  * shieldRange: 0
   * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
-  * sizex: 1
-  * bundleName: twilek_con-ani
+  * chargeTime: 1000
+  * maxScale: false
+  * acceleration: 0
+  * size: 4
   * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 200
-  * type: mercenary
-  * reload: 500
-  * iconCloseupCameraPosition: 1.37,0.41,9.67
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * selfCenteredTargeting: false
-  * favoriteTargetType: closest
-  * role: Generic
+  * maxSpeed: 20
+  * deathProjectileDistance: 0
 
 |Level                |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
 |---------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
+|requirements         |['rebelContrabandCantina3']                     |['rebelOffenseLab2']                            |['rebelOffenseLab3']                            |['rebelOffenseLab4']                            |['rebelOffenseLab5']                            |['rebelOffenseLab6']                            |['rebelOffenseLab7']                            |['rebelOffenseLab8']                            |['rebelOffenseLab9']                            |['rebelOffenseLab10']                            |
 |lvl                  |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
-|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 |order                |215201                                          |215202                                          |215203                                          |215204                                          |215205                                          |215206                                          |215207                                          |215208                                          |215209                                          |215210                                           |
 |pointValue           |1.000                                           |1.200                                           |1.400                                           |1.600                                           |1.800                                           |2.000                                           |2.200                                           |2.400                                           |2.600                                           |3.000                                            |
 |deathProjectileDamage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
-|requirements         |['rebelContrabandCantina3']                     |['rebelOffenseLab2']                            |['rebelOffenseLab3']                            |['rebelOffenseLab4']                            |['rebelOffenseLab5']                            |['rebelOffenseLab6']                            |['rebelOffenseLab7']                            |['rebelOffenseLab8']                            |['rebelOffenseLab9']                            |['rebelOffenseLab10']                            |
+|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 |projectileType       |projectileFlamethrowerTwiLekIncineratorLvl1     |projectileFlamethrowerTwiLekIncineratorLvl2     |projectileFlamethrowerTwiLekIncineratorLvl3     |projectileFlamethrowerTwiLekIncineratorLvl4     |projectileFlamethrowerTwiLekIncineratorLvl5     |projectileFlamethrowerTwiLekIncineratorLvl6     |projectileFlamethrowerTwiLekIncineratorLvl7     |projectileFlamethrowerTwiLekIncineratorLvl8     |projectileFlamethrowerTwiLekIncineratorLvl9     |projectileFlamethrowerTwiLekIncineratorLvl10     |
 

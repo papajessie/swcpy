@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Light vehicle, Infantry hero, Infantry, Shield, Other building, HQ, Shield generator, Vehicle hero, Ressource generator, Storage, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Infantry, Droideka, Heavy vehicular hero, Support troop, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, HQ, Ressource generator, Vehicle hero, Shield, Shield generator, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 60
-  * Target preferences: Turret, Heavy infantry, Support troop, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Droideka, Light vehicle, Infantry hero, Infantry, Shield, Other building, HQ, Shield generator, Vehicle hero, Ressource generator, Storage, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Infantry, Droideka, Heavy vehicular hero, Support troop, Heavy infantry hero, Heavy vehicle, Light vehicle, Heavy infantry, Infantry hero, HQ, Ressource generator, Vehicle hero, Shield, Shield generator, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Turret: 70
   * Vehicle hero: 50
   * View Range: 8
@@ -54,76 +54,76 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_emp
-  * audioDeath: "sfx_death_hero_crimsonguard_1":100
-  * faction: empire
-  * retargetingOffset: 4
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 1000
-  * chargeTime: 100
-  * playerFacing: true
-  * armorType: bruiserInfantry
-  * xp: 0
-  * iconCameraPosition: 7.77,6.46,23.13
-  * unitID: HeroCrimsonGuard
-  * assetName: crimsonguard_emp-ani
-  * decalSize: 160
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: 0.06,1.72,0.04
-  * splash: 0
-  * trap: 0
-  * hologramUid: HeroHologramCrimsonGuard
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_emp
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
-  * acceleration: 0
+  * buffAssetOffset: 0.00,0.35,0.00
+  * favoriteTargetType: turret
   * factoryRotation: 0
-  * maxSpeed: 40
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
-  * newRotationSpeed: 7854
-  * autoSpawnSpreadingScale: 1
   * targetedType: ENEMIES
   * armingDelay: 0
-  * sizex: 1
-  * bundleName: crimsonguard_emp-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 100
-  * type: hero
-  * reload: 1000
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * buffAssetOffset: 0.00,0.35,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileMeleeCrimsonGuard
+  * strictCoolDown: false
+  * gunSequence: 1
   * selfCenteredTargeting: false
-  * favoriteTargetType: turret
+  * iconCloseupCameraPosition: 0.01,1.3,10.4
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_hero_crimsonguard_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * decalAssetName: tac_hero_emp
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: bruiserInfantry
+  * decalSize: 160
+  * bundleName: crimsonguard_emp-ani
+  * type: hero
+  * iconLookatPosition: 0.06,1.72,0.04
+  * reload: 1000
+  * faction: empire
+  * playerFacing: true
+  * overWalls: false
+  * hologramUid: HeroHologramCrimsonGuard
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * newRotationSpeed: 7854
+  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * retargetingOffset: 4
+  * iconCameraPosition: 7.77,6.46,23.13
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.03,2.77,-0.19
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
+  * decalBundleName: tac_hero_emp
+  * unitID: HeroCrimsonGuard
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 100
+  * projectileType: projectileMeleeCrimsonGuard
+  * assetName: crimsonguard_emp-ani
+  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
+  * chargeTime: 100
+  * maxScale: false
+  * animationDelay: 1000
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 40
 
 |Level       |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|--------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireTacticalCommand4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                         |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |110401                    |110402               |110403               |110404               |110405               |110406               |110407               |110408               |110409               |110410                |
-|requirements|['empireTacticalCommand4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |20.000                    |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
 |heroData    |hero1                     |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 10
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 90
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Shield, Shield generator, Heavy infantry, Turret, Support troop, Heavy vehicle, Other building, HQ, Droideka, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Shield, Shield generator, HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Heavy vehicle, Light vehicle, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 10
@@ -54,70 +54,70 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: empire
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * assetName: atmp_emp-ani
-  * pathSearchWidth: 15
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 4
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: true
-  * armorType: vehicle
-  * xp: 0
-  * iconCameraPosition: 22.45,15.49,39.24
-  * rotationSpeed: 2
-  * unitID: ATMP
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
-  * shieldHealth: 0
-  * size: 15
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 16
-  * overWalls: false
-  * gunSequence: 1,3,5,2,4,6
-  * acceleration: 0
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * newRotationSpeed: 2000
-  * maxSpeed: 20
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * factoryRotation: -90
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_empire_atmp_1":100
-  * sizex: 2
-  * bundleName: atmp_emp-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 200
-  * type: vehicle
-  * reload: 2000
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * buffAssetOffset: 0.00,3.0,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileATMP
-  * selfCenteredTargeting: false
   * favoriteTargetType: shieldGenerator
+  * factoryRotation: -90
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1,3,5,2,4,6
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 2
+  * runThreshold: 0
+  * armorType: vehicle
+  * animationDelay: 0
+  * bundleName: atmp_emp-ani
+  * type: vehicle
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * reload: 2000
+  * faction: empire
+  * playerFacing: true
+  * crushesWalls: false
+  * newRotationSpeed: 2000
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 4
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * retargetingOffset: 16
+  * iconCameraPosition: 22.45,15.49,39.24
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * sizex: 2
+  * attackShieldBorder: true
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * unitID: ATMP
   * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
+  * projectileType: projectileATMP
+  * assetName: atmp_emp-ani
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * chargeTime: 250
+  * maxScale: false
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * acceleration: 0
+  * size: 15
+  * targetLocking: false
+  * maxSpeed: 20
 
 |Level       |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireFactory4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                 |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |130401            |130402               |130403               |130404               |130405               |130406               |130407               |130408               |130409               |130410                |
 |pointValue  |15.000            |18.000               |21.000               |24.000               |27.000               |30.000               |33.000               |36.000               |39.000               |45.000                |
-|requirements|['empireFactory4']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 

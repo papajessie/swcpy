@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Support troop, Droideka, Infantry, Heavy vehicle, Turret, Light vehicle, HQ, Shield, Other building, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Heavy infantry, Infantry, Droideka, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 95
-  * Target preferences: Heavy infantry, Support troop, Droideka, Infantry, Heavy vehicle, Turret, Light vehicle, HQ, Shield, Other building, Shield generator, Ressource generator, Storage, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero, Flying vehicle, Flying infantry
+  * Target preferences: Heavy infantry, Infantry, Droideka, Support troop, Heavy vehicle, Turret, Light vehicle, HQ, Ressource generator, Shield, Shield generator, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero, Flying infantry, Flying vehicle
   * Turret: 80
   * Vehicle hero: 1
   * View Range: 8
@@ -54,66 +54,66 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_neu
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * faction: tusken
+  * decalSize: 160
+  * favoriteTargetType: infantry
+  * factoryRotation: 0
   * uiDecalAssetName: HeroDecalNeutral
   * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 1
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 3
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 1000
-  * chargeTime: 500
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 9.94,10.08,22.52
-  * unitID: UrUr
-  * assetName: ururhero_tkn-ani
-  * decalSize: 160
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: -0.28,1.77,-0.31
-  * splash: 0
-  * trap: 0
-  * targetInRangeModifier: 1
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_neu
-  * retargetingOffset: 4
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 30
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
   * armingDelay: 0
-  * sizex: 1
-  * bundleName: ururhero_tkn-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 0
-  * shotDelay: 1250
-  * type: hero
-  * reload: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * projectileType: projectileMeleeUrUr
+  * strictCoolDown: false
+  * gunSequence: 1
   * selfCenteredTargeting: false
-  * favoriteTargetType: infantry
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 1000
+  * bundleName: ururhero_tkn-ani
+  * iconLookatPosition: -0.28,1.77,-0.31
+  * shieldHealth: 0
+  * reload: 0
+  * faction: tusken
+  * playerFacing: false
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * type: hero
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 0
+  * shotCount: 3
+  * retargetingOffset: 4
+  * iconCameraPosition: 9.94,10.08,22.52
+  * factoryScaleFactor: 1
+  * decalAssetName: tac_hero_neu
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * decalBundleName: tac_hero_neu
+  * unitID: UrUr
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 1250
+  * projectileType: projectileMeleeUrUr
+  * assetName: ururhero_tkn-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 30
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

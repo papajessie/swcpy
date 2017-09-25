@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, HQ, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 5
   * Min. Range: 0
   * Droideka: 50
@@ -45,7 +45,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, HQ, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, HQ, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 55
   * Vehicle hero: 1
   * Wall: 1
@@ -57,69 +57,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: tusken
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: true
-  * armorType: infantry
-  * xp: 0
-  * unitID: FueSmuggler
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * overWalls: false
-  * acceleration: 0
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * sizex: 1
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 500
-  * type: infantry
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * selfCenteredTargeting: false
   * favoriteTargetType: none
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * type: infantry
+  * iconLookatPosition: 0.09,1.4,0.28
+  * faction: tusken
+  * playerFacing: true
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * retargetingOffset: 10
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * unitID: FueSmuggler
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * deathAnimation: buffFireBurn:15
 
 |Level             |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|shotCount         |3                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
+|buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |
+|gunSequence       |1,2                                                                                                                                                |1,2                                                                                                                                                |1                                                                         |
+|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
 |lvl               |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
-|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
+|reload            |2000                                                                                                                                               |1500                                                                                                                                               |2000                                                                      |
 |order             |322601                                                                                                                                             |322602                                                                                                                                             |322603                                                                    |
 |pointValue        |1.000                                                                                                                                              |1.200                                                                                                                                              |1.400                                                                     |
-|gunSequence       |1,2                                                                                                                                                |1,2                                                                                                                                                |1                                                                         |
-|maxSpeed          |30                                                                                                                                                 |30                                                                                                                                                 |20                                                                        |
-|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|reload            |2000                                                                                                                                               |1500                                                                                                                                               |2000                                                                      |
+|shotCount         |3                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
 |gunPosition       |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
-|buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |                                                                          |
+|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 |projectileType    |projectileBountyHunter                                                                                                                             |projectileBountyHunter                                                                                                                             |projectileSmuggler                                                        |
+|assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|maxSpeed          |30                                                                                                                                                 |30                                                                                                                                                 |20                                                                        |
 

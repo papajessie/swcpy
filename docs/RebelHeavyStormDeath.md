@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Flying infantry, Infantry hero, Infantry, Wall
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Flying infantry, Infantry hero, Infantry, Wall
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Storage, Other building, Wall
   * Turret: 50
   * Vehicle hero: 50
   * View Range: 8
@@ -54,73 +54,73 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * retargetingOffset: 10
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * assetName: heavytrooper_dth-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 10
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 4.46,8.55,22.59
-  * unitID: RebelHeavyStormDeath
-  * spawnApplyBuffs: buffReduceHeals2
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 4
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
-  * acceleration: 0
-  * iconLookatPosition: -0.36,1.33,-0.66
-  * newRotationSpeed: 7854
-  * maxSpeed: 10
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * sizex: 1
-  * bundleName: heavytrooper_dth-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 500
-  * shotDelay: 100
-  * type: infantry
-  * reload: 2000
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
   * buffAssetOffset: 0.00,0.27,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileHeavyStormDeath
-  * selfCenteredTargeting: false
   * favoriteTargetType: closest
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: heavytrooper_dth-ani
+  * type: infantry
+  * iconLookatPosition: -0.36,1.33,-0.66
+  * reload: 2000
+  * faction: rebel
+  * playerFacing: false
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * shotCount: 10
+  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
+  * retargetingOffset: 10
+  * iconCameraPosition: 4.46,8.55,22.59
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * unitID: RebelHeavyStormDeath
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 100
+  * spawnApplyBuffs: buffReduceHeals2
+  * projectileType: projectileHeavyStormDeath
+  * assetName: heavytrooper_dth-ani
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * chargeTime: 500
+  * maxScale: false
+  * acceleration: 0
+  * size: 4
+  * targetLocking: false
+  * maxSpeed: 10
+  * deathAnimation: buffFireBurn:15
 
 |Level       |1                  |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|requirements|['rebelBarracks10']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                  |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |233301             |233302              |233303              |233304              |233305              |233306              |233307              |233308              |233309              |233310               |
 |pointValue  |4.000              |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
-|requirements|['rebelBarracks10']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,68 +54,68 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * assetName: hovertankrebel_rbl-ani
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 16
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: false
-  * armorType: bruiserVehicle
-  * xp: 0
-  * iconCameraPosition: 31.02,16.53,48.25
-  * unitID: RebelHovertankSample
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
-  * shieldHealth: 0
-  * size: 9
-  * pointValue: 1.000
-  * splash: 0
-  * requirements: ['rebelHQ2']
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 12
-  * overWalls: false
-  * gunSequence: 1,1,1,1
-  * iconCloseupLookatPosition: -0.49,0.88,-0.24
-  * acceleration: 0
-  * iconLookatPosition: -0.49,0.88,-0.24
-  * newRotationSpeed: 2000
-  * sizex: 2
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * maxSpeed: 20
-  * bundleName: hovertankrebel_rbl-ani
-  * targetLocking: false
-  * sizey: 3
-  * impactDelay: 1000
-  * shotDelay: 800
-  * type: vehicle
-  * reload: 2000
-  * iconCloseupCameraPosition: 31.02,16.53,48.25
-  * rotationSpeed: 2
-  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
   * buffAssetOffset: 0.00,1.75,0.00
-  * shieldCooldown: 0
-  * projectileType: projectileAAT1
-  * selfCenteredTargeting: false
   * favoriteTargetType: turret
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1,1,1,1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 31.02,16.53,48.25
+  * shieldHealth: 0
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 2
+  * requirements: ['rebelHQ2']
+  * runThreshold: 0
+  * armorType: bruiserVehicle
+  * animationDelay: 0
+  * bundleName: hovertankrebel_rbl-ani
+  * type: vehicle
+  * iconLookatPosition: -0.49,0.88,-0.24
+  * reload: 2000
+  * faction: rebel
+  * playerFacing: false
+  * pointValue: 1.000
+  * overWalls: false
+  * newRotationSpeed: 2000
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 3
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 16
+  * gunPosition: "aat1_rbl_rig_MASTER_MOVER/aat1_rbl_rig_locator_gun":1
+  * retargetingOffset: 12
+  * iconCameraPosition: 31.02,16.53,48.25
+  * factoryScaleFactor: 0.81100000000000005417888360170763917267322540283203125
+  * iconCloseupLookatPosition: -0.49,0.88,-0.24
+  * sizex: 2
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * unitID: RebelHovertankSample
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 800
+  * projectileType: projectileAAT1
+  * assetName: hovertankrebel_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 9
+  * targetLocking: false
+  * maxSpeed: 20
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

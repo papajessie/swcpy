@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 80
   * Vehicle hero: 1
   * View Range: 8
@@ -54,78 +54,78 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_rbl
-  * targetInRangeModifier: 1
-  * faction: rebel
-  * retargetingOffset: 14
-  * animationDelay: 0
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * chargeTime: 250
-  * armingDelay: 0
+  * spawnEffectUid: effectRebelSpawn
   * decalSize: 160
+  * favoriteTargetType: turret
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * shieldHealth: 0
+  * ability: abilityHeroLukeDefend
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_hero_luke":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * decalAssetName: tac_hero_rbl
+  * pathSearchWidth: 15
+  * shotCount: 2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * animationDelay: 0
+  * bundleName: lukeskywalker_rbl-ani
+  * type: hero
+  * iconLookatPosition: -0.45,1.28,-0.62
+  * reload: 500
+  * faction: rebel
   * playerFacing: true
   * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 9.95,9.78,16.61
-  * unitID: HeroLukeSkywalker
-  * assetName: lukeskywalker_rbl-ani
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: -0.45,1.28,-0.62
-  * splash: 0
-  * trap: 0
-  * hologramUid: HeroHologramLukeSkywalker
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_rbl
   * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
-  * acceleration: 0
-  * factoryRotation: 0
-  * sizex: 1
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * newRotationSpeed: 7854
-  * autoSpawnSpreadingScale: 0
-  * targetedType: ENEMIES
-  * audioDeath: "sfx_death_hero_luke":100
-  * maxSpeed: 30
-  * bundleName: lukeskywalker_rbl-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 250
-  * shotDelay: 500
-  * type: hero
-  * reload: 500
-  * spawnEffectUid: effectRebelSpawn
-  * ability: abilityHeroLukeDefend
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * hologramUid: HeroHologramLukeSkywalker
+  * clipRetargeting: false
+  * trap: 0
   * shieldCooldown: 0
-  * projectileType: projectileHeroLukeAttack
-  * selfCenteredTargeting: false
-  * favoriteTargetType: turret
+  * autoSpawnSpreadingScale: 0
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 250
+  * newRotationSpeed: 7854
+  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * retargetingOffset: 14
+  * iconCameraPosition: 9.95,9.78,16.61
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.02,2.48,-0.32
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * decalBundleName: tac_hero_rbl
+  * unitID: HeroLukeSkywalker
   * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * projectileType: projectileHeroLukeAttack
+  * assetName: lukeskywalker_rbl-ani
+  * audioPlacement: "sfx_placement_hero_luke":100
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 30
 
 |Level       |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|effectType  |2                        |2                   |1                   |1                   |1                   |1                   |1                   |1                   |1                   |1                    |
-|lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|order       |210601                   |210602              |210603              |210604              |210605              |210606              |210607              |210608              |210609              |210610               |
 |requirements|['rebelTacticalCommand8']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|order       |210601                   |210602              |210603              |210604              |210605              |210606              |210607              |210608              |210609              |210610               |
+|lvl         |1                        |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |pointValue  |20.000                   |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
 |heroData    |hero1                    |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
+|effectType  |2                        |2                   |1                   |1                   |1                   |1                   |1                   |1                   |1                   |1                    |
 

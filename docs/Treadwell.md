@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicular hero, Heavy vehicle, Light vehicle, Vehicle hero, Heavy infantry, Turret, Support troop, Shield, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Ressource generator, Storage, Wall, Flying infantry, Infantry hero, Infantry
+  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Heavy vehicular hero, Heavy vehicle, Light vehicle, Vehicle hero, Heavy infantry, Turret, Support troop, Shield, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Ressource generator, Storage, Wall, Flying infantry, Infantry hero, Infantry
+  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
   * Turret: 0
   * Vehicle hero: 50
   * View Range: 8
@@ -54,79 +54,79 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * retargetingOffset: 10
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * autoSpawnRateScale: 1
-  * infoUIType: Healer
-  * maxScale: false
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * runThreshold: 0
-  * factoryRotation: 0
   * chargeTime: 250
-  * armingDelay: 0
-  * animationDelay: 0
-  * playerFacing: true
-  * armorType: healerInfantry
   * favoriteTargetType: vehicles
-  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
-  * xp: 0
-  * iconCameraPosition: 5.8,11.77,14.32
-  * unitID: Treadwell
+  * factoryRotation: 0
   * targetedType: ALLIES
-  * assetName: treadwell_rbl-ani
-  * isFlying: false
-  * supportFollowDistance: 5
+  * armingDelay: 0
   * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * upgradeShardUid: shrd_troopTreadwell
-  * size: 5
-  * iconLookatPosition: -0.2,0.77,-0.68
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * overWalls: false
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * gunSequence: 1
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 30
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
-  * eventButtonString: hn_open_galaxy
-  * autoSpawnSpreadingScale: 1
-  * unlockedByEvent: true
-  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
-  * sizex: 1
-  * bundleName: treadwell_rbl-ani
-  * targetLocking: true
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 500
-  * type: infantry
-  * reload: 2000
-  * eventFeaturesString: fragment_obtain_gen
   * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * shotCount: 1
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * selfCenteredTargeting: true
+  * runThreshold: 0
+  * armorType: healerInfantry
+  * animationDelay: 0
+  * bundleName: treadwell_rbl-ani
+  * type: infantry
+  * iconLookatPosition: -0.2,0.77,-0.68
+  * reload: 2000
+  * faction: rebel
+  * playerFacing: true
+  * upgradeShardUid: shrd_troopTreadwell
+  * overWalls: false
+  * eventButtonString: hn_open_galaxy
+  * clipRetargeting: false
   * eventButtonAction: galaxy
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * newRotationSpeed: 7854
+  * retargetingOffset: 10
+  * iconCameraPosition: 5.8,11.77,14.32
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * unitID: Treadwell
   * role: Healer
+  * infoUIType: Healer
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * selfCenteredTargeting: true
+  * assetName: treadwell_rbl-ani
+  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
+  * supportFollowDistance: 5
+  * maxScale: false
+  * eventFeaturesString: fragment_obtain_gen
+  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
+  * size: 5
+  * targetLocking: true
+  * maxSpeed: 30
+  * unlockedByEvent: true
+  * acceleration: 0
 
 |Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|lvl               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|iconUnlockScale   |1,1,1               |                    |                    |                    |                    |                    |                    |                    |                    |                     |
-|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
-|iconUnlockPosition|0,0,0               |                    |                    |                    |                    |                    |                    |                    |                    |                     |
-|iconUnlockRotation|0,0,0               |                    |                    |                    |                    |                    |                    |                    |                    |                     |
-|pointValue        |4.000               |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
+|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |requirements      |['rebelBarracks2']  |['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
+|lvl               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
+|pointValue        |4.000               |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
+|iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |projectileType    |projectileTreadwell1|projectileTreadwell2|projectileTreadwell3|projectileTreadwell4|projectileTreadwell5|projectileTreadwell6|projectileTreadwell7|projectileTreadwell8|projectileTreadwell9|projectileTreadwell10|
+|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

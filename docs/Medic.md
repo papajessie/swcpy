@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Heavy infantry hero, Infantry hero, Infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Wall, Flying infantry
+  * Target preferences: Infantry, Heavy infantry hero, Heavy infantry, Infantry hero, HQ, Ressource generator, Turret, Droideka, Wall, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Heavy infantry, Heavy infantry hero, Infantry hero, Infantry, Turret, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Vehicle hero, Ressource generator, Storage, Wall, Flying infantry
+  * Target preferences: Infantry, Heavy infantry hero, Heavy infantry, Infantry hero, HQ, Ressource generator, Turret, Droideka, Wall, Heavy vehicular hero, Support troop, Flying infantry, Flying vehicle, Vehicle hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Storage, Other building
   * Turret: 0
   * Vehicle hero: 0
   * View Range: 8
@@ -54,72 +54,72 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * targetedType: ALLIES
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * autoSpawnRateScale: 1
-  * infoUIType: Healer
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
   * chargeTime: 50
-  * playerFacing: true
-  * armorType: healerInfantry
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * xp: 0
-  * iconCameraPosition: 6.65,6.07,11.15
-  * unitID: Medic
-  * assetName: medicdroid_rbl-ani
-  * isFlying: false
-  * supportFollowDistance: 5
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 5
-  * iconLookatPosition: 0.26,1.17,0.34
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 40
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
-  * sizex: 1
-  * bundleName: medicdroid_rbl-ani
-  * targetLocking: true
-  * sizey: 1
-  * impactDelay: 250
-  * shotDelay: 400
-  * type: infantry
-  * reload: 900
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * selfCenteredTargeting: true
   * favoriteTargetType: infantry
+  * factoryRotation: 0
+  * targetedType: ALLIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: true
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: healerInfantry
+  * animationDelay: 0
+  * bundleName: medicdroid_rbl-ani
+  * type: infantry
+  * iconLookatPosition: 0.26,1.17,0.34
+  * reload: 900
+  * faction: rebel
+  * playerFacing: true
+  * acceleration: 0
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 250
+  * shotCount: 2
+  * retargetingOffset: 10
+  * iconCameraPosition: 6.65,6.07,11.15
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.03,1.47,-0.14
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * unitID: Medic
   * role: Healer
+  * infoUIType: Healer
+  * targetPreferenceStrength: 90
+  * shotDelay: 400
+  * assetName: medicdroid_rbl-ani
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
+  * supportFollowDistance: 5
+  * maxScale: false
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * size: 5
+  * targetLocking: true
+  * maxSpeed: 40
 
 |Level         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |--------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements  |['rebelBarracks5']   |['rebelOffenseLab2'] |['rebelOffenseLab3'] |['rebelOffenseLab4'] |['rebelOffenseLab5'] |['rebelOffenseLab6'] |['rebelOffenseLab7'] |['rebelOffenseLab8'] |['rebelOffenseLab9'] |['rebelOffenseLab10'] |
 |lvl           |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order         |220501               |220502               |220503               |220504               |220505               |220506               |220507               |220508               |220509               |220510                |
 |pointValue    |5.000                |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
-|requirements  |['rebelBarracks5']   |['rebelOffenseLab2'] |['rebelOffenseLab3'] |['rebelOffenseLab4'] |['rebelOffenseLab5'] |['rebelOffenseLab6'] |['rebelOffenseLab7'] |['rebelOffenseLab8'] |['rebelOffenseLab9'] |['rebelOffenseLab10'] |
 |projectileType|projectileMedicLevel1|projectileMedicLevel2|projectileMedicLevel3|projectileMedicLevel4|projectileMedicLevel5|projectileMedicLevel6|projectileMedicLevel7|projectileMedicLevel8|projectileMedicLevel9|projectileMedicLevel10|
 

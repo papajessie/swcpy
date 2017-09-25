@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Turret, Heavy infantry, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: Turret, HQ, Ressource generator, Infantry, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 70
   * Vehicle hero: 1
   * View Range: 8
@@ -54,68 +54,68 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
+  * buffAssetOffset: 0.00,0.90,0
+  * favoriteTargetType: turret
+  * factoryRotation: 90
   * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * assetName: umhc_emp-ani
-  * pathSearchWidth: 200
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
   * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * audioDeath: "sfx_death_empire_umhc_1":100
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 200
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * runThreshold: 0
+  * armorType: vehicle
+  * animationDelay: 0
+  * bundleName: umhc_emp-ani
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * shieldHealth: 0
+  * reload: 900
+  * faction: rebel
+  * crushesWalls: false
+  * newRotationSpeed: 15708
+  * clipRetargeting: true
+  * type: vehicle
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 2
+  * isFlying: false
+  * sizey: 2
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 500
+  * shotCount: 1
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * retargetingOffset: 20
+  * iconCameraPosition: 30.35,41.15,37.35
+  * factoryScaleFactor: 1
+  * sizex: 2
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
+  * unitID: StolenMHC
+  * role: Striker
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
+  * projectileType: projectileMHC
+  * assetName: umhc_emp-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
   * chargeTime: 900
   * playerFacing: false
-  * armorType: vehicle
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * iconCameraPosition: 30.35,41.15,37.35
-  * unitID: StolenMHC
-  * autoSpawnRateScale: 2
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 12
-  * iconLookatPosition: -0.33,0.73,-0.17
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 20
-  * overWalls: false
-  * gunSequence: 1
   * acceleration: 0
-  * newRotationSpeed: 15708
-  * maxSpeed: 10
-  * shieldRange: 0
-  * xp: 0
-  * factoryRotation: 90
-  * autoSpawnSpreadingScale: 2
-  * audioDeath: "sfx_death_empire_umhc_1":100
-  * sizex: 2
-  * bundleName: umhc_emp-ani
+  * size: 12
   * targetLocking: false
-  * sizey: 2
-  * impactDelay: 500
-  * shotDelay: 200
-  * type: vehicle
-  * reload: 900
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.00,0.90,0
-  * shieldCooldown: 0
-  * projectileType: projectileMHC
-  * selfCenteredTargeting: false
-  * favoriteTargetType: turret
-  * role: Striker
+  * maxScale: false
+  * maxSpeed: 10
 
 |Level       |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------|-----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 |lvl         |1                |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |order       |481204           |481208              |481212              |481216              |481220              |481224              |481228              |481232              |481236              |481240               |
-|requirements|['rebelFactory7']|['rebelOffenseLab2']|['rebelOffenseLab3']|['rebelOffenseLab4']|['rebelOffenseLab5']|['rebelOffenseLab6']|['rebelOffenseLab7']|['rebelOffenseLab8']|['rebelOffenseLab9']|['rebelOffenseLab10']|
 

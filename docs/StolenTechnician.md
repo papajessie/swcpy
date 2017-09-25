@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy vehicular hero, Heavy vehicle, Light vehicle, Vehicle hero, Heavy infantry, Turret, Support troop, Shield, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Ressource generator, Storage, Wall, Flying infantry, Infantry hero, Infantry
+  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 0
   * Storage: 0
   * Support troop: 0
-  * Target preferences: Heavy vehicular hero, Heavy vehicle, Light vehicle, Vehicle hero, Heavy infantry, Turret, Support troop, Shield, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Flying vehicle, Ressource generator, Storage, Wall, Flying infantry, Infantry hero, Infantry
+  * Target preferences: Heavy vehicular hero, Vehicle hero, Heavy vehicle, Light vehicle, HQ, Ressource generator, Infantry, Turret, Droideka, Wall, Support troop, Flying infantry, Flying vehicle, Heavy infantry hero, Shield, Shield generator, Heavy infantry, Infantry hero, Storage, Other building
   * Turret: 0
   * Vehicle hero: 50
   * View Range: 8
@@ -54,69 +54,69 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: rebel
-  * targetedType: ALLIES
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * autoSpawnRateScale: 1
-  * infoUIType: Healer
-  * pathSearchWidth: 15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
   * chargeTime: 250
-  * playerFacing: false
-  * armorType: healerInfantry
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * xp: 0
-  * iconCameraPosition: 7.9,7.91,12.71
-  * unitID: StolenTechnician
-  * assetName: techniciandroid_emp-ani
-  * isFlying: false
-  * supportFollowDistance: 5
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 4
-  * iconLookatPosition: 0.06,2.6,-0.14
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 10
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 40
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
-  * sizex: 1
-  * bundleName: techniciandroid_emp-ani
-  * targetLocking: true
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 500
-  * type: infantry
-  * reload: 2000
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * shieldCooldown: 0
-  * selfCenteredTargeting: true
   * favoriteTargetType: vehicles
+  * factoryRotation: 0
+  * targetedType: ALLIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: true
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: healerInfantry
+  * animationDelay: 0
+  * bundleName: techniciandroid_emp-ani
+  * iconLookatPosition: 0.06,2.6,-0.14
+  * shieldHealth: 0
+  * reload: 2000
+  * faction: rebel
+  * acceleration: 0
+  * crushesWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * type: infantry
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 1
+  * retargetingOffset: 10
+  * iconCameraPosition: 7.9,7.91,12.71
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * unitID: StolenTechnician
   * role: Healer
+  * infoUIType: Healer
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * assetName: techniciandroid_emp-ani
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * supportFollowDistance: 5
+  * playerFacing: false
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * size: 4
+  * targetLocking: true
+  * maxScale: false
+  * maxSpeed: 40
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
+|requirements  |['rebelBarracks5']        |['rebelOffenseLab2']      |['rebelOffenseLab3']      |['rebelOffenseLab4']      |['rebelOffenseLab5']      |['rebelOffenseLab6']      |['rebelOffenseLab7']      |['rebelOffenseLab8']      |['rebelOffenseLab9']      |['rebelOffenseLab10']      |
 |lvl           |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |order         |482004                    |482008                    |482012                    |482016                    |482020                    |482024                    |482028                    |482032                    |482036                    |482040                     |
-|requirements  |['rebelBarracks5']        |['rebelOffenseLab2']      |['rebelOffenseLab3']      |['rebelOffenseLab4']      |['rebelOffenseLab5']      |['rebelOffenseLab6']      |['rebelOffenseLab7']      |['rebelOffenseLab8']      |['rebelOffenseLab9']      |['rebelOffenseLab10']      |
 |projectileType|projectileTechnicianLevel1|projectileTechnicianLevel2|projectileTechnicianLevel3|projectileTechnicianLevel4|projectileTechnicianLevel5|projectileTechnicianLevel6|projectileTechnicianLevel7|projectileTechnicianLevel8|projectileTechnicianLevel9|projectileTechnicianLevel10|
 

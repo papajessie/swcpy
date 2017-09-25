@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Support troop, Heavy infantry hero, Droideka, Light vehicle, Infantry hero, Infantry, Heavy infantry, Heavy vehicular hero, Heavy vehicle, Vehicle hero, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Infantry, Droideka, Support troop, Heavy infantry hero, Light vehicle, Infantry hero, Heavy vehicular hero, Vehicle hero, Heavy vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 70
-  * Target preferences: Support troop, Heavy infantry hero, Droideka, Light vehicle, Infantry hero, Infantry, Heavy infantry, Heavy vehicular hero, Heavy vehicle, Vehicle hero, Turret, Shield, Other building, HQ, Shield generator, Ressource generator, Storage, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Infantry, Droideka, Support troop, Heavy infantry hero, Light vehicle, Infantry hero, Heavy vehicular hero, Vehicle hero, Heavy vehicle, Heavy infantry, HQ, Ressource generator, Turret, Shield, Shield generator, Storage, Other building, Wall, Flying infantry, Flying vehicle
   * Turret: 50
   * Vehicle hero: 60
   * View Range: 8
@@ -54,68 +54,68 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_neu
-  * targetInRangeModifier: 1
-  * faction: tusken
-  * uiDecalAssetName: HeroDecalNeutral
-  * retargetingOffset: 8
-  * animationDelay: 1000
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 2
-  * maxScale: false
-  * runThreshold: 0
-  * chargeTime: 150
-  * armingDelay: 0
-  * decalSize: 160
-  * playerFacing: false
-  * armorType: infantry
-  * xp: 0
-  * iconCameraPosition: 11.42,11.67,7.56
-  * unitID: WompRatAlpha
-  * assetName: wompratlarge_neu-ani
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: tac_hero_neu
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * newRotationSpeed: 7854
-  * maxSpeed: 40
-  * shieldRange: 0
+  * buffAssetOffset: 0.00,0.33,0.00
+  * favoriteTargetType: closest
   * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
+  * uiDecalAssetName: HeroDecalNeutral
   * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * sizex: 2
-  * bundleName: wompratlarge_neu-ani
-  * targetLocking: false
-  * sizey: 2
-  * impactDelay: 250
-  * shotDelay: 150
-  * type: hero
-  * reload: 1000
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * requirements: ['smugglerBarracks4']
-  * buffAssetOffset: 0.00,0.33,0.00
+  * runThreshold: 0
+  * armorType: infantry
+  * decalSize: 160
+  * bundleName: wompratlarge_neu-ani
+  * type: hero
+  * iconLookatPosition: -0.07,0.16,-0.08
+  * reload: 1000
+  * faction: tusken
+  * playerFacing: false
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
   * shieldCooldown: 0
-  * projectileType: projectileMeleeWompRatAlpha
-  * selfCenteredTargeting: false
-  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 2
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 250
+  * shotCount: 2
+  * retargetingOffset: 8
+  * iconCameraPosition: 11.42,11.67,7.56
+  * factoryScaleFactor: 1
+  * decalAssetName: tac_hero_neu
+  * sizex: 2
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * decalBundleName: tac_hero_neu
+  * unitID: WompRatAlpha
   * role: Destroyer
+  * targetPreferenceStrength: 90
+  * shotDelay: 150
+  * projectileType: projectileMeleeWompRatAlpha
+  * assetName: wompratlarge_neu-ani
+  * chargeTime: 150
+  * maxScale: false
+  * animationDelay: 1000
+  * acceleration: 0
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 40
+  * deathAnimation: buffFireBurn:15
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

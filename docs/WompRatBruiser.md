@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Turret, Ressource generator, Storage, Heavy infantry, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Light vehicle, Vehicle hero, Infantry hero, Infantry, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Ressource generator, Storage, HQ, Infantry, Droideka, Heavy vehicular hero, Support troop, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Other building, Wall, Flying infantry, Flying vehicle
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 60
   * Support troop: 50
-  * Target preferences: Turret, Ressource generator, Storage, Heavy infantry, Support troop, Shield, Heavy vehicular hero, Heavy vehicle, Heavy infantry hero, Other building, HQ, Droideka, Shield generator, Light vehicle, Vehicle hero, Infantry hero, Infantry, Wall, Flying vehicle, Flying infantry
+  * Target preferences: Turret, Ressource generator, Storage, HQ, Infantry, Droideka, Heavy vehicular hero, Support troop, Vehicle hero, Heavy infantry hero, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Infantry hero, Other building, Wall, Flying infantry, Flying vehicle
   * Turret: 70
   * Vehicle hero: 50
   * View Range: 8
@@ -54,64 +54,64 @@ category: unit
 
 ## Uninterpreted stats
 
-  * faction: tusken
-  * targetedType: ENEMIES
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * assetName: wompratmedium_neu-ani
-  * pathSearchWidth: 1
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 1
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 1000
-  * armingDelay: 0
-  * chargeTime: 250
-  * playerFacing: false
-  * armorType: bruiserInfantry
-  * xp: 0
-  * iconCameraPosition: 13.51,14.12,9.05
-  * unitID: WompRatBruiser
-  * autoSpawnRateScale: 1
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 5
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * targetInRangeModifier: 1
-  * retargetingOffset: 8
-  * overWalls: false
-  * gunSequence: 1
-  * acceleration: 0
-  * iconLookatPosition: -0.2,0.39,-0.08
-  * newRotationSpeed: 982
-  * maxSpeed: 40
-  * shieldRange: 0
+  * buffAssetOffset: 0.00,0.25,0.00
+  * favoriteTargetType: closest
   * factoryRotation: 0
-  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * sizex: 1
-  * bundleName: wompratmedium_neu-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 500
-  * type: infantry
-  * reload: 1000
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * pathSearchWidth: 1
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * requirements: ['smugglerBarracks4']
-  * buffAssetOffset: 0.00,0.25,0.00
+  * runThreshold: 0
+  * armorType: bruiserInfantry
+  * animationDelay: 1000
+  * bundleName: wompratmedium_neu-ani
+  * iconLookatPosition: -0.2,0.39,-0.08
+  * shieldHealth: 0
+  * reload: 1000
+  * faction: tusken
+  * playerFacing: false
+  * crushesWalls: false
+  * newRotationSpeed: 982
+  * clipRetargeting: false
+  * type: infantry
+  * trap: 0
   * shieldCooldown: 0
-  * projectileType: projectileMeleeWompRatBruiser
-  * selfCenteredTargeting: false
-  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * overWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 1
+  * retargetingOffset: 8
+  * iconCameraPosition: 13.51,14.12,9.05
+  * factoryScaleFactor: 1
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * unitID: WompRatBruiser
   * role: Bruiser
+  * targetPreferenceStrength: 90
+  * shotDelay: 500
+  * projectileType: projectileMeleeWompRatBruiser
+  * assetName: wompratmedium_neu-ani
+  * chargeTime: 250
+  * maxScale: false
+  * acceleration: 0
+  * size: 5
+  * targetLocking: false
+  * maxSpeed: 40
+  * deathAnimation: buffFireBurn:15
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -23,7 +23,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -46,7 +46,7 @@ category: unit
   * Shield generator: 50
   * Storage: 50
   * Support troop: 50
-  * Target preferences: Heavy infantry, Turret, Support troop, Shield, Heavy vehicle, Other building, HQ, Droideka, Shield generator, Flying vehicle, Light vehicle, Ressource generator, Storage, Flying infantry, Infantry, Heavy vehicular hero, Heavy infantry hero, Vehicle hero, Wall, Infantry hero
+  * Target preferences: HQ, Ressource generator, Infantry, Turret, Droideka, Support troop, Flying infantry, Flying vehicle, Shield, Heavy vehicle, Light vehicle, Shield generator, Heavy infantry, Storage, Other building, Wall, Heavy vehicular hero, Vehicle hero, Heavy infantry hero, Infantry hero
   * Turret: 50
   * Vehicle hero: 1
   * View Range: 12
@@ -54,74 +54,74 @@ category: unit
 
 ## Uninterpreted stats
 
-  * decalBundleName: troop_stotrper_emp
-  * targetInRangeModifier: 1
-  * faction: empire
-  * retargetingOffset: 14
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * autoSpawnRateScale: 1
-  * pathSearchWidth: 15
-  * deathAnimation: buffFireBurn:15
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetPreferenceStrength: 90
-  * shotCount: 3
-  * maxScale: false
-  * runThreshold: 0
-  * animationDelay: 0
-  * armingDelay: 0
-  * chargeTime: 500
-  * playerFacing: true
-  * armorType: infantry
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * xp: 0
-  * iconCameraPosition: 12.13,10.63,15.32
-  * unitID: Storm
-  * assetName: stotrper_emp-ani
-  * isFlying: false
-  * strictCoolDown: false
-  * factoryScaleFactor: 1
-  * shieldHealth: 0
-  * size: 1
-  * iconLookatPosition: 0.02,1.69,0
-  * splash: 0
-  * trap: 0
-  * crushesWalls: false
-  * runSpeed: 0
-  * decalAssetName: troop_stotrper_emp
-  * overWalls: false
-  * gunSequence: 1
-  * iconCloseupLookatPosition: -0.01,2.73,-0.82
-  * acceleration: 0
-  * factoryRotation: 0
-  * maxSpeed: 20
-  * shieldRange: 0
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * newRotationSpeed: 7854
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * sizex: 1
-  * bundleName: stotrper_emp-ani
-  * targetLocking: false
-  * sizey: 1
-  * impactDelay: 1000
-  * shotDelay: 200
-  * type: infantry
-  * reload: 500
-  * iconCloseupCameraPosition: 1.93,1.69,9.65
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
-  * shieldCooldown: 0
-  * projectileType: projectileStorm
-  * selfCenteredTargeting: false
   * favoriteTargetType: infantry
+  * factoryRotation: 0
+  * targetedType: ENEMIES
+  * armingDelay: 0
+  * strictCoolDown: false
+  * gunSequence: 1
+  * selfCenteredTargeting: false
+  * iconCloseupCameraPosition: 1.93,1.69,9.65
+  * shieldHealth: 0
+  * autoSpawnRateScale: 1
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * splash: 0
+  * runSpeed: 0
+  * xp: 0
+  * decalAssetName: troop_stotrper_emp
+  * pathSearchWidth: 15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * runThreshold: 0
+  * armorType: infantry
+  * animationDelay: 0
+  * bundleName: stotrper_emp-ani
+  * type: infantry
+  * iconLookatPosition: 0.02,1.69,0
+  * reload: 500
+  * faction: empire
+  * playerFacing: true
+  * acceleration: 0
+  * overWalls: false
+  * newRotationSpeed: 7854
+  * clipRetargeting: false
+  * trap: 0
+  * shieldCooldown: 0
+  * autoSpawnSpreadingScale: 1
+  * isFlying: false
+  * sizey: 1
+  * crushesWalls: false
+  * targetInRangeModifier: 1
+  * shieldRange: 0
+  * impactDelay: 1000
+  * shotCount: 3
+  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
+  * retargetingOffset: 14
+  * iconCameraPosition: 12.13,10.63,15.32
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.01,2.73,-0.82
+  * sizex: 1
+  * attackShieldBorder: false
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * decalBundleName: troop_stotrper_emp
+  * unitID: Storm
   * role: Generic
+  * targetPreferenceStrength: 90
+  * shotDelay: 200
+  * projectileType: projectileStorm
+  * assetName: stotrper_emp-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * chargeTime: 500
+  * maxScale: false
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * size: 1
+  * targetLocking: false
+  * maxSpeed: 20
+  * deathAnimation: buffFireBurn:15
 
 |Level       |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------|-------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|requirements|['empireBarracks1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |lvl         |1                  |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |order       |120101             |120102               |120103               |120104               |120105               |120106               |120107               |120108               |120109               |120110                |
-|requirements|['empireBarracks1']|['empireOffenseLab2']|['empireOffenseLab3']|['empireOffenseLab4']|['empireOffenseLab5']|['empireOffenseLab6']|['empireOffenseLab7']|['empireOffenseLab8']|['empireOffenseLab9']|['empireOffenseLab10']|
 |pointValue  |1.000              |1.200                |1.400                |1.600                |1.800                |2.000                |2.200                |2.400                |2.600                |3.000                 |
 
