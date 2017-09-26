@@ -567,12 +567,13 @@ def analyse_unit(objects,displayed,id):
                 a['cost']='Free'
             else:
                 a['cost']=', '.join(xup)
-            for t in ['health','damage','dps','upgradeTime','trainingTime','minAttackRange','maxAttackRange','viewRange','runThreshold','runSpeed','maxSpeed','shieldHealth','shieldCooldown','shieldRange','acceleration']:
+            for t in ['health','damage','dps','upgradeTime','trainingTime','minAttackRange','maxAttackRange','viewRange','runThreshold','runSpeed','maxSpeed','shieldHealth','shieldCooldown','shieldRange','acceleration','size','sizex','sizey']:
                 if t in subunit.keys():
                     a[t]=int(round(float(subunit[t])))
                 else:
                     a[t]=int(0)
                 used[t]=1
+            a['sizes']='{0}x{1}'.format(a['sizex'],a['sizey'])
             for t in ['isFlying','crushesWalls','playerFacing']:
                 if t in subunit.keys():
                     if subunit[t]=='false':
@@ -816,7 +817,7 @@ def output_list_unit(out,objects,item,LINKS=False):
     handlers={'upgradeTime':display_time,'trainingTime':display_time}
     handlers['faction']=display_side
     handlers['playerFacing']=display_boolean
-    xout+=display_leveldata(item['hq'],levels,['faction','playerFacing','type','armorType','role','levels','upgrade','upgradeTime','health','damage','dps','shieldHealth','shieldCooldown','shieldRange'],{'levels':'Levels available','playerFacing': 'Buildable unit','upgrade': 'Upgrade requirements','upgradeTime':'Upgrade time','health':'Health','damage':'Damage*','dps':'Damage per second*','role':'Role','type':'Type','armorType':'Armor type','faction':'Side','shieldHealth':'Shield Health','shieldCooldown':'Shield Cooldown','shieldRange':'Shield Range'},handlers)
+    xout+=display_leveldata(item['hq'],levels,['faction','playerFacing','type','armorType','role','levels','size','upgrade','upgradeTime','health','damage','dps','shieldHealth','shieldCooldown','shieldRange'],{'size':'Unit capacity','levels':'Levels available','playerFacing': 'Buildable unit','upgrade': 'Upgrade requirements','upgradeTime':'Upgrade time','health':'Health','damage':'Damage*','dps':'Damage per second*','role':'Role','type':'Type','armorType':'Armor type','faction':'Side','shieldHealth':'Shield Health','shieldCooldown':'Shield Cooldown','shieldRange':'Shield Range'},handlers)
 
     xout+='* These values are not necessarily accurate and may be inconsistent with other values\n\n## Targetting\n\n'
     translation=config['targettranslation']
@@ -850,8 +851,8 @@ def output_list_unit(out,objects,item,LINKS=False):
     handlers={}
     xout+=display_leveldata(item['hq'],levels,list,translation,handlers)
     xout+='## Movement\n\n'
-    translation={'maxSpeed':'Speed','runSpeed':'Run speed','runThreshold':'Run Threshold','isFlying':'Flying unit','acceleration':'Acceleration','crushesWalls':'Crushes walls'}
-    list=['maxSpeed','runSpeed','runThreshold','isFlying','acceleration','crushesWalls']
+    translation={'maxSpeed':'Speed','runSpeed':'Run speed','runThreshold':'Run Threshold','isFlying':'Flying unit','acceleration':'Acceleration','crushesWalls':'Crushes walls','sizes':'Size'}
+    list=['maxSpeed','runSpeed','runThreshold','sizes','isFlying','acceleration','crushesWalls']
     handlers={'isFlying':display_boolean,'crushesWalls':display_boolean}
     xout+=display_leveldata(item['hq'],levels,list,translation,handlers)
     xout+='## Presentation stats\n\nThese graphical elements shouldn\'t interfere with gameplay and can safely be ignored.\n\n'
