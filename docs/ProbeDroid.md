@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Striker
   * Levels available: 1-10
+  * Unit capacity: 4
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (60)**, **Heavy vehicle (60)**, **Flying vehicle (60)**, **Heavy infantry (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Flying vehicle (60)**, **Light vehicle (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,55 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.53,3.67,-0.56
+  * newRotationSpeed: 7854
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: viperprobedroid_emp-ani
+  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
   * audioPlacement: "sfx_placement_empire_probedroid_1":100
   * bundleName: viperprobedroid_emp-ani
-  * newRotationSpeed: 7854
-  * assetName: viperprobedroid_emp-ani
+  * iconCameraPosition: -18.83,17.64,22.74
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * buffAssetOffset: 0.00,2,0.00
-  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * iconLookatPosition: 0.53,3.67,-0.56
-  * iconCameraPosition: -18.83,17.64,22.74
+  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 4
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * impactDelay: 500
-  * reload: 500
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 1
-  * retargetingOffset: 14
-  * projectileType: projectileProbeDroid
-  * shotCount: 4
-  * maxScale: false
+  * chargeTime: 500
   * targetLocking: false
-  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
-  * attackShieldBorder: false
-  * favoriteTargetType: infantry
-  * clipRetargeting: true
-  * overWalls: false
-  * shotDelay: 250
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: infantry
   * selfCenteredTargeting: false
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
+  * xp: 0
+  * projectileType: projectileProbeDroid
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 4
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * shotDelay: 250
+  * impactDelay: 500
+  * targetPreferenceStrength: 90
+  * reload: 500
+  * clipRetargeting: true
+  * retargetingOffset: 14
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |order     |130601|130602|130603|130604|130605|130606|130607|130608|130609|130610|
+|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 

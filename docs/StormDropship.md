@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserInfantry
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 2
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Shield (50), Shield generator (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -48,6 +49,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -56,56 +58,53 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0,1.43,0.17
+  * newRotationSpeed: 7854
+  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
+  * assetName: dropshiptrooper_emp-ani
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: dropshiptrooper_emp-ani
-  * newRotationSpeed: 7854
-  * assetName: dropshiptrooper_emp-ani
-  * gunSequence: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
-  * iconLookatPosition: 0,1.43,0.17
   * iconCameraPosition: 9.75,8.64,12.5
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 2
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * targetLocking: false
-  * impactDelay: 1000
-  * reload: 500
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * xp: 0
-  * decalBundleName: troop_stotrper_emp
-  * decalAssetName: troop_stotrper_emp
   * autoSpawnRateScale: 2
-  * retargetingOffset: 14
-  * projectileType: projectileStorm
-  * deathAnimation: buffFireBurn:15
-  * clipRetargeting: false
-  * attackShieldBorder: false
-  * favoriteTargetType: infantry
-  * shotCount: 3
-  * overWalls: false
-  * shotDelay: 200
+  * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: infantry
+  * decalAssetName: troop_stotrper_emp
   * selfCenteredTargeting: false
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 200
+  * xp: 0
+  * overWalls: false
+  * projectileType: projectileStorm
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 3
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * decalBundleName: troop_stotrper_emp
+  * impactDelay: 1000
+  * targetPreferenceStrength: 90
+  * reload: 500
+  * clipRetargeting: false
+  * retargetingOffset: 14
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
 |order     |135201|135202|135203|135204|135205|135206|135207|135208|135209|135210|
+|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
 

@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Looter
   * Levels available: 1-10
+  * Unit capacity: 5
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 5s
   * Shield Health: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (80)**, **Storage (80)**, Light vehicle (50), Heavy vehicular hero (50), Heavy vehicle (50), Heavy infantry hero (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Shield (50), Shield generator (50), Droideka (50), Vehicle hero (50), HQ (50), Infantry hero (50), Support troop (50), Other building (50), Infantry (50), Wall (1), Trap (0)
+  * Target preferences: **Ressource generator (80)**, **Storage (80)**, Heavy infantry hero (50), Turret (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Vehicle hero (50), Other building (50), Support troop (50), Heavy vehicular hero (50), Flying infantry (50), Flying vehicle (50), Shield (50), Infantry hero (50), Light vehicle (50), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,66 +57,63 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.49,1.92,-0.68
+  * newRotationSpeed: 7854
+  * gunPosition: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
+  * assetName: atrt_rbl-ani
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atrt_rbl-ani
-  * newRotationSpeed: 7854
-  * assetName: atrt_rbl-ani
+  * iconCameraPosition: 21.25,19.91,26.67
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * buffAssetOffset: 0.00,1.5,0.00
-  * audioDeath: "sfx_death_walker_1":100
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
-  * iconLookatPosition: -0.49,1.92,-0.68
-  * iconCameraPosition: 21.25,19.91,26.67
+  * audioDeath: "sfx_death_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * ability: abilityATRTIonShot
-  * targetLocking: false
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * selfCenteredTargeting: false
-  * impactDelay: 1000
-  * reload: 800
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 1
-  * supportFollowDistance: 0
-  * armingDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * eventButtonData: planet21
-  * overWalls: false
-  * eventButtonString: hn_open_hth
-  * size: 5
-  * upgradeShardUid: shrd_troopATRT
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
   * autoSpawnRateScale: 2
-  * retargetingOffset: 20
-  * projectileType: projectileATRT
-  * shotCount: 1
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: false
-  * favoriteTargetType: resource
-  * autoSpawnSpreadingScale: 2
-  * eventButtonAction: planet
-  * shotDelay: 0
-  * splash: 0
+  * chargeTime: 250
   * targetPreferenceStrength: 90
-  * unlockedByEvent: true
+  * targetedType: ENEMIES
+  * splash: 0
+  * favoriteTargetType: resource
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * shotDelay: 0
+  * xp: 0
+  * eventButtonAction: planet
+  * armingDelay: 0
   * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * eventButtonData: planet21
+  * autoSpawnSpreadingScale: 2
+  * supportFollowDistance: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * unlockedByEvent: true
+  * upgradeShardUid: shrd_troopATRT
+  * impactDelay: 1000
+  * eventButtonString: hn_open_hth
+  * targetLocking: false
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * projectileType: projectileATRT
+  * reload: 800
+  * clipRetargeting: false
+  * ability: abilityATRTIonShot
+  * retargetingOffset: 20
 
 |Level             |1     |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|pointValue        |5.000 |6.000      |7.000      |8.000      |9.000      |10.000     |11.000     |12.000     |13.000     |15.000     |
-|order             |231101|231102     |231103     |231104     |231105     |231106     |231107     |231108     |231109     |231110     |
-|iconUnlockPosition|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|iconUnlockRotation|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |iconUnlockScale   |1,1,1 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|iconUnlockRotation|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|pointValue        |5.000 |6.000      |7.000      |8.000      |9.000      |10.000     |11.000     |12.000     |13.000     |15.000     |
+|iconUnlockPosition|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|order             |231101|231102     |231103     |231104     |231105     |231106     |231107     |231108     |231109     |231110     |
 

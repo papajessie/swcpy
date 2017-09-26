@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Bruiser
   * Levels available: 1-5
+  * Unit capacity: 4
   * Upgrade time: 5s
   * Damage per second*: 1920
   * Shield Health: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,63 +57,60 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: securitydroid_con-ani
+  * iconLookatPosition: -0.44,1.26,-0.82
   * newRotationSpeed: 7854
   * assetName: securitydroid_con-ani
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
-  * gunSequence: 1
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 3.46,6.58,11.02
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * iconLookatPosition: -0.44,1.26,-0.82
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * bundleName: securitydroid_con-ani
   * iconCameraPosition: 7.57,15.79,19.1
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 3.46,6.58,11.02
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * pointValue: 4.000
-  * targetLocking: false
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * selfCenteredTargeting: false
-  * impactDelay: 1000
-  * reload: 500
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * iconUnlockScale: 1.1,1.1,1.1
-  * armingDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * xp: 0
-  * eventButtonString: hn_open_galaxy
-  * upgradeShardUid: shrd_troopSecurityDroid
-  * overWalls: false
   * autoSpawnRateScale: 1
-  * retargetingOffset: 10
-  * projectileType: projectileStorm
-  * maxScale: false
-  * clipRetargeting: false
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * shotCount: 5
-  * eventButtonAction: galaxy
-  * shotDelay: 300
+  * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: closest
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * shotDelay: 300
+  * pointValue: 4.000
+  * xp: 0
+  * eventButtonAction: galaxy
+  * projectileType: projectileStorm
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 5
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * autoSpawnSpreadingScale: 1
+  * upgradeShardUid: shrd_troopSecurityDroid
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
   * unlockedByEvent: true
-  * size: 4
+  * eventFeaturesString: fragment_obtain_gen
+  * impactDelay: 1000
+  * eventButtonString: hn_open_galaxy
+  * targetPreferenceStrength: 90
+  * iconUnlockScale: 1.1,1.1,1.1
+  * reload: 500
+  * clipRetargeting: false
+  * retargetingOffset: 10
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 |order  |115601               |115602               |115603               |115605               |115606               |
+|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 

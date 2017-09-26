@@ -13,6 +13,7 @@ category: unit
   * Armor type: healerInfantry
   * Role: Healer
   * Levels available: 1-10
+  * Unit capacity: 4
   * Damage*: 0
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Vehicle hero (50)**, Ressource generator (0), Heavy infantry hero (0), Flying vehicle (0), Heavy infantry (0), Trap (0), Turret (0), Flying infantry (0), Shield (0), Shield generator (0), Droideka (0), Storage (0), HQ (0), Infantry hero (0), Wall (0), Support troop (0), Other building (0), Infantry (0)
+  * Target preferences: **Heavy vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry hero (0), Ressource generator (0), Turret (0), Storage (0), Heavy infantry (0), Shield generator (0), HQ (0), Infantry (0), Trap (0), Droideka (0), Wall (0), Other building (0), Support troop (0), Flying infantry (0), Flying vehicle (0), Shield (0), Infantry hero (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -56,50 +58,47 @@ category: unit
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
   * iconLookatPosition: 0.06,2.6,-0.14
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * bundleName: techniciandroid_emp-ani
   * newRotationSpeed: 7854
   * assetName: techniciandroid_emp-ani
   * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
-  * gunSequence: 1
-  * animationDelay: 0
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * bundleName: techniciandroid_emp-ani
   * iconCameraPosition: 7.9,7.91,12.71
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 4
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * clipRetargeting: false
-  * impactDelay: 1000
-  * retargetingOffset: 10
-  * reload: 2000
-  * xp: 0
-  * targetedType: ALLIES
-  * sizey: 1
-  * strictCoolDown: false
-  * supportFollowDistance: 5
-  * armingDelay: 0
   * autoSpawnRateScale: 1
-  * infoUIType: Healer
-  * shotCount: 1
-  * maxScale: false
+  * chargeTime: 250
   * targetLocking: true
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * attackShieldBorder: false
-  * favoriteTargetType: vehicles
-  * autoSpawnSpreadingScale: 1
-  * overWalls: false
-  * shotDelay: 500
-  * splash: 0
-  * targetPreferenceStrength: 90
+  * targetedType: ALLIES
+  * infoUIType: Healer
   * selfCenteredTargeting: true
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * favoriteTargetType: vehicles
+  * xp: 0
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * shotDelay: 500
+  * impactDelay: 1000
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * reload: 2000
+  * clipRetargeting: false
+  * supportFollowDistance: 5
+  * retargetingOffset: 10
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|

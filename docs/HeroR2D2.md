@@ -13,6 +13,7 @@ category: unit
   * Armor type: healerInfantry
   * Role: Healer
   * Levels available: 1-10
+  * Unit capacity: 1
   * Damage*: 0
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Vehicle hero (50)**, Ressource generator (0), Heavy infantry hero (0), Flying vehicle (0), Heavy infantry (0), Trap (0), Turret (0), Flying infantry (0), Shield (0), Shield generator (0), Droideka (0), Storage (0), HQ (0), Infantry hero (0), Wall (0), Support troop (0), Other building (0), Infantry (0)
+  * Target preferences: **Heavy vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry hero (0), Ressource generator (0), Turret (0), Storage (0), Heavy infantry (0), Shield generator (0), HQ (0), Infantry (0), Trap (0), Droideka (0), Wall (0), Other building (0), Support troop (0), Flying infantry (0), Flying vehicle (0), Shield (0), Infantry hero (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_hero_r2d2_1":100
-  * bundleName: r2d2_rbl-ani
+  * iconLookatPosition: 0.21,1.31,0.18
   * newRotationSpeed: 7854
   * assetName: r2d2_rbl-ani
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * gunSequence: 1
-  * decalSize: 160
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
   * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * factoryRotation: 0
-  * animationDelay: 0
-  * iconLookatPosition: 0.21,1.31,0.18
+  * audioPlacement: "sfx_placement_hero_r2d2_1":100
+  * bundleName: r2d2_rbl-ani
   * iconCameraPosition: 8.1,8.48,14.32
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * decalSize: 160
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: 0.04,1.41,0.02
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_hero_r2d2_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * targetLocking: true
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * shotDelay: 100
-  * impactDelay: 1000
-  * reload: 1500
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ALLIES
-  * sizey: 1
-  * strictCoolDown: false
-  * supportFollowDistance: 5
-  * armingDelay: 0
-  * hologramUid: HeroHologramR2D2
-  * xp: 0
-  * decalBundleName: tac_hero_rbl
-  * decalAssetName: tac_hero_rbl
   * autoSpawnRateScale: 2
-  * retargetingOffset: 4
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: false
-  * favoriteTargetType: vehicles
-  * shotCount: 2
-  * overWalls: false
-  * selfCenteredTargeting: true
+  * chargeTime: 500
+  * targetLocking: true
+  * targetedType: ALLIES
   * splash: 0
+  * favoriteTargetType: vehicles
+  * decalAssetName: tac_hero_rbl
+  * hologramUid: HeroHologramR2D2
+  * overWalls: false
+  * shotDelay: 100
+  * xp: 0
+  * selfCenteredTargeting: true
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 1000
   * targetPreferenceStrength: 90
-  * size: 1
+  * reload: 1500
+  * clipRetargeting: false
+  * supportFollowDistance: 5
+  * retargetingOffset: 4
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
-|pointValue    |20.000                    |24.000                    |28.000                    |32.000                    |36.000                    |40.000                    |44.000                    |48.000                    |52.000                    |60.000                     |
-|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
-|heroData      |hero1                     |hero2                     |hero3                     |hero4                     |hero5                     |hero6                     |hero7                     |hero8                     |hero9                     |hero10                     |
 |projectileType|projectileHealerR2D2Level1|projectileHealerR2D2Level2|projectileHealerR2D2Level3|projectileHealerR2D2Level4|projectileHealerR2D2Level5|projectileHealerR2D2Level6|projectileHealerR2D2Level7|projectileHealerR2D2Level8|projectileHealerR2D2Level9|projectileHealerR2D2Level10|
+|heroData      |hero1                     |hero2                     |hero3                     |hero4                     |hero5                     |hero6                     |hero7                     |hero8                     |hero9                     |hero10                     |
+|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
+|pointValue    |20.000                    |24.000                    |28.000                    |32.000                    |36.000                    |40.000                    |44.000                    |48.000                    |52.000                    |60.000                     |
 

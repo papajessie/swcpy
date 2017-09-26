@@ -12,6 +12,7 @@ category: unit
   * Armor type: infantry
   * Role: Breacher
   * Levels available: 1-10
+  * Unit capacity: 3
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -48,6 +49,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -56,55 +58,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * bundleName: dewback_neu-ani
+  * iconLookatPosition: -0.75,0.91,-0.52
   * newRotationSpeed: 7854
   * assetName: dewback_neu-ani
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * bundleName: dewback_neu-ani
+  * iconCameraPosition: 14.52,11.43,15.95
+  * animationDelay: 1000
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * buffAssetOffset: 0.00,0.60,0.00
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * factoryRotation: 0
-  * animationDelay: 1000
-  * iconLookatPosition: -0.75,0.91,-0.52
-  * iconCameraPosition: 14.52,11.43,15.95
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 3
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * clipRetargeting: false
-  * impactDelay: 0
-  * reload: 0
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnRateScale: 1
-  * retargetingOffset: 4
-  * projectileType: projectileDewback
-  * shotCount: 5
-  * deathAnimation: buffFireBurn:15
+  * chargeTime: 500
   * targetLocking: false
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * autoSpawnSpreadingScale: 1
-  * overWalls: false
-  * shotDelay: 750
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: closest
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * xp: 0
+  * projectileType: projectileDewback
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 5
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * shotDelay: 750
+  * impactDelay: 0
+  * targetPreferenceStrength: 90
+  * reload: 0
+  * clipRetargeting: false
+  * retargetingOffset: 4
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 |order     |332501|332502|332503|332504|332505|332506|332507|332508|332509|332510|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 

@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 15
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (90)**, **Shield generator (90)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (90)**, **Shield (90)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 10
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,55 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * newRotationSpeed: 2000
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: atmp_emp-ani
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atmp_emp-ani
-  * newRotationSpeed: 2000
-  * assetName: atmp_emp-ani
+  * iconCameraPosition: 22.45,15.49,39.24
+  * animationDelay: 0
+  * factoryRotation: -90
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
   * gunSequence: 1,3,5,2,4,6
   * buffAssetOffset: 0.00,3.0,0.00
-  * audioDeath: "sfx_death_empire_atmp_1":100
   * rotationSpeed: 2
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * factoryRotation: -90
-  * animationDelay: 0
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * iconCameraPosition: 22.45,15.49,39.24
+  * audioDeath: "sfx_death_empire_atmp_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * size: 15
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * impactDelay: 1000
-  * reload: 2000
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * autoSpawnRateScale: 2
-  * retargetingOffset: 16
-  * projectileType: projectileATMP
-  * shotCount: 4
-  * maxScale: false
+  * chargeTime: 250
   * targetLocking: false
-  * attackShieldBorder: true
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 200
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileATMP
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 4
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * impactDelay: 1000
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 16
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|15.000|18.000|21.000|24.000|27.000|30.000|33.000|36.000|39.000|45.000|
 |order     |130401|130402|130403|130404|130405|130406|130407|130408|130409|130410|
+|pointValue|15.000|18.000|21.000|24.000|27.000|30.000|33.000|36.000|39.000|45.000|
 

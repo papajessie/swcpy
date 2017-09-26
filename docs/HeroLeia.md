@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Striker
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (60)**, **Heavy vehicle (60)**, **Flying vehicle (60)**, **Heavy infantry (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Flying vehicle (60)**, **Light vehicle (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.06,1.58,0.16
+  * newRotationSpeed: 7854
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * assetName: princessleia_rbl-ani
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * audioPlacement: "sfx_placement_hero_leia":100
   * bundleName: princessleia_rbl-ani
-  * newRotationSpeed: 7854
-  * assetName: princessleia_rbl-ani
-  * iconCloseupLookatPosition: 0,2.44,-0.3
-  * gunSequence: 1
-  * decalSize: 160
-  * audioDeath: "sfx_death_hero_leia":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 1.49,1.49,7.71
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * iconLookatPosition: 0.06,1.58,0.16
   * iconCameraPosition: 11.91,11.82,11.76
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 1.49,1.49,7.71
+  * decalSize: 160
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: 0,2.44,-0.3
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_hero_leia":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * targetLocking: false
-  * chargeTime: 500
-  * pathSearchWidth: 15
-  * shotDelay: 200
-  * impactDelay: 1000
-  * reload: 500
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * hologramUid: HeroHologramRebel3
-  * xp: 0
-  * decalBundleName: tac_hero_rbl
-  * decalAssetName: tac_hero_rbl
   * autoSpawnRateScale: 1
-  * retargetingOffset: 14
-  * projectileType: projectileHeroLeia
-  * maxScale: false
-  * clipRetargeting: true
-  * attackShieldBorder: false
-  * favoriteTargetType: infantry
-  * shotCount: 3
-  * overWalls: false
-  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
+  * favoriteTargetType: infantry
+  * decalAssetName: tac_hero_rbl
+  * hologramUid: HeroHologramRebel3
+  * overWalls: false
+  * shotDelay: 200
+  * xp: 0
+  * selfCenteredTargeting: false
+  * projectileType: projectileHeroLeia
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 3
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 1000
   * targetPreferenceStrength: 90
-  * size: 1
+  * reload: 500
+  * clipRetargeting: true
+  * retargetingOffset: 14
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|order     |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.02,3.29,0.19
+  * newRotationSpeed: 7854
+  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
+  * assetName: atsthero_emp-ani
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * audioPlacement: "sfx_placement_hero":100
   * bundleName: atsthero_emp-ani
-  * newRotationSpeed: 7854
-  * assetName: atsthero_emp-ani
+  * iconCameraPosition: 19.84,22.71,46.64
+  * animationDelay: 0
+  * decalSize: 240
+  * factoryScaleFactor: 1
   * gunSequence: 1,2
   * buffAssetOffset: 0.00,2.83,0.0
-  * decalSize: 240
-  * audioDeath: "sfx_death_walker_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
-  * iconLookatPosition: -0.02,3.29,0.19
-  * iconCameraPosition: 19.84,22.71,46.64
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * hologramUid: HeroHologramEmpire1
-  * chargeTime: 1000
-  * pathSearchWidth: 15
-  * targetLocking: false
-  * impactDelay: 500
-  * reload: 2000
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * effectType: 2
-  * size: 1
-  * decalBundleName: tac_hero_emp
-  * decalAssetName: tac_hero_emp
   * autoSpawnRateScale: 2
-  * retargetingOffset: 16
-  * projectileType: projectileHeroATST
-  * shotCount: 10
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: false
+  * chargeTime: 1000
+  * targetLocking: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: closest
-  * autoSpawnSpreadingScale: 0
+  * decalAssetName: tac_hero_emp
+  * hologramUid: HeroHologramEmpire1
   * overWalls: false
   * shotDelay: 250
-  * splash: 0
-  * targetPreferenceStrength: 90
+  * xp: 0
   * selfCenteredTargeting: false
+  * projectileType: projectileHeroATST
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 10
+  * autoSpawnSpreadingScale: 0
+  * effectType: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 500
+  * targetPreferenceStrength: 90
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 16
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|order     |110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

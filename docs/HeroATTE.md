@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 10
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
@@ -55,68 +57,65 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * newRotationSpeed: 3927
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * assetName: attehero_rbl-ani
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: attehero_rbl-ani
-  * newRotationSpeed: 3927
-  * assetName: attehero_rbl-ani
+  * iconCameraPosition: 36.44,26.49,49.08
+  * animationDelay: 0
+  * decalSize: 320
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * buffAssetOffset: 0.00,1.46,0.00
-  * decalSize: 320
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * iconCameraPosition: 36.44,26.49,49.08
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioDeath: "sfx_death_hero_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * eventFeaturesString: fragment_obtain_gen
-  * hologramUid: HeroHologramATTE
-  * chargeTime: 500
-  * pathSearchWidth: 200
-  * clipRetargeting: false
-  * overWalls: true
-  * impactDelay: 500
-  * reload: 1000
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * projectileType: projectileHeroATTE
-  * effectType: 2
-  * size: 1
   * autoSpawnRateScale: 2
-  * decalBundleName: tac_hero_rbl
-  * decalAssetName: tac_hero_rbl
-  * upgradeShardUid: shrd_troopHeroATTE
-  * retargetingOffset: 20
-  * eventButtonString: hn_open_galaxy
-  * shotCount: 3
-  * maxScale: false
-  * autoSpawnSpreadingScale: 0
-  * attackShieldBorder: true
-  * favoriteTargetType: shieldGenerator
+  * chargeTime: 500
   * targetLocking: false
-  * eventButtonAction: galaxy
-  * shotDelay: 400
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
-  * unlockedByEvent: true
+  * favoriteTargetType: shieldGenerator
+  * decalAssetName: tac_hero_rbl
+  * hologramUid: HeroHologramATTE
+  * overWalls: true
+  * shotDelay: 400
+  * upgradeShardUid: shrd_troopHeroATTE
+  * xp: 0
   * selfCenteredTargeting: false
+  * eventButtonAction: galaxy
+  * projectileType: projectileHeroATTE
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 200
+  * shotCount: 3
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * autoSpawnSpreadingScale: 0
+  * effectType: 2
+  * decalBundleName: tac_hero_rbl
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * unlockedByEvent: true
+  * eventFeaturesString: fragment_obtain_gen
+  * impactDelay: 500
+  * eventButtonString: hn_open_galaxy
+  * targetPreferenceStrength: 90
+  * reload: 1000
+  * clipRetargeting: false
+  * retargetingOffset: 20
 
 |Level             |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|pointValue        |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
-|iconUnlockScale   |0.5,0.5,0.5|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
-|heroData          |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
 |iconUnlockRotation|0,-20,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|pointValue        |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
+|heroData          |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
+|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
+|iconUnlockScale   |0.5,0.5,0.5|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

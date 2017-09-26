@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 12
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (30), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Wall (30), Heavy infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.25,1.71,0.52
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 1.5
+  * assetName: brute_con-ani
+  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
   * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
   * bundleName: brute_con-ani
-  * newRotationSpeed: 7854
-  * assetName: brute_con-ani
-  * iconCloseupLookatPosition: -0.45,2.74,-0.6
-  * gunSequence: 1
-  * decalSize: 160
-  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 10.36,-0.8,9.14
-  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
-  * factoryRotation: 0
-  * animationDelay: 460
-  * iconLookatPosition: -0.25,1.71,0.52
   * iconCameraPosition: 22.63,10.75,17.33
-  * tooltipHeightOffset: 1.5
+  * animationDelay: 460
+  * iconCloseupCameraPosition: 10.36,-0.8,9.14
+  * decalSize: 160
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: -0.45,2.74,-0.6
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 0
-  * pathSearchWidth: 15
-  * targetLocking: false
-  * impactDelay: 0
-  * reload: 500
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: true
-  * armingDelay: 0
-  * xp: 0
-  * shotDelay: 1040
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * autoSpawnRateScale: 1
-  * retargetingOffset: 12
-  * maxScale: false
-  * spawnEffectUid: effectRebelSpawn
-  * clipRetargeting: true
-  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
-  * attackShieldBorder: true
-  * favoriteTargetType: closest
-  * shotCount: 1
-  * overWalls: false
-  * selfCenteredTargeting: false
+  * chargeTime: 0
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
+  * favoriteTargetType: closest
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * xp: 0
+  * armingDelay: 0
+  * strictCoolDown: true
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * shotDelay: 1040
+  * impactDelay: 0
+  * spawnEffectUid: effectRebelSpawn
   * targetPreferenceStrength: 90
-  * size: 12
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * reload: 500
+  * clipRetargeting: true
+  * retargetingOffset: 12
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|ability       |abilityBruteBomb1     |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
-|pointValue    |12.000                |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
-|order         |215401                |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
 |projectileType|projectileBruteCannon1|projectileBruteCannon2|projectileBruteCannon3|projectileBruteCannon4|projectileBruteCannon5|projectileBruteCannon6|projectileBruteCannon7|projectileBruteCannon8|projectileBruteCannon9|projectileBruteCannon10|
+|order         |215401                |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
+|pointValue    |12.000                |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
+|ability       |abilityBruteBomb1     |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
 

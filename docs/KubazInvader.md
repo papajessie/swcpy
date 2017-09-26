@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 3
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 0s
   * Shield Health: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Ressource generator (60)_, _Storage (60)_, Light vehicle (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Droideka (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Turret (40), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Turret (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 45
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,58 +57,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * bundleName: kubaz_emp-ani
+  * iconLookatPosition: -0.48,1.32,-0.72
   * newRotationSpeed: 7854
   * assetName: kubaz_emp-ani
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
-  * gunSequence: 1
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 4.16,3.05,10.68
   * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * iconLookatPosition: -0.48,1.32,-0.72
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * bundleName: kubaz_emp-ani
   * iconCameraPosition: 8.96,11.37,18.33
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * eventFeaturesString: fragment_obtain_gen
-  * chargeTime: 50
-  * pathSearchWidth: 200
-  * targetLocking: false
-  * impactDelay: 250
-  * reload: 2000
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
   * autoSpawnRateScale: 1
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * spawnApplyBuffs: buffPersonalShieldKubaz
-  * xp: 0
-  * eventButtonString: hn_open_galaxy
-  * shotDelay: 200
-  * overWalls: false
-  * upgradeShardUid: shrd_troopKubazInvader
-  * retargetingOffset: 20
-  * projectileType: projectileKubazInvader
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: false
-  * favoriteTargetType: shieldGenerator
-  * shotCount: 2
-  * eventButtonAction: galaxy
-  * selfCenteredTargeting: false
+  * chargeTime: 50
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: shieldGenerator
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * shotDelay: 200
+  * xp: 0
+  * eventButtonAction: galaxy
+  * spawnApplyBuffs: buffPersonalShieldKubaz
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 200
+  * shotCount: 2
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * autoSpawnSpreadingScale: 1
+  * eventFeaturesString: fragment_obtain_gen
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
   * unlockedByEvent: true
-  * size: 3
+  * upgradeShardUid: shrd_troopKubazInvader
+  * impactDelay: 250
+  * eventButtonString: hn_open_galaxy
+  * targetPreferenceStrength: 90
+  * projectileType: projectileKubazInvader
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 20
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
