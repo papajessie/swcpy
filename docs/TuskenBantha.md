@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserInfantry
   * Role: Breacher
   * Levels available: 1-10
+  * Unit capacity: 2
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (80)**, _Shield (60)_, _Shield generator (60)_, _HQ (60)_, Light vehicle (40), Ressource generator (40), Heavy vehicle (40), Heavy infantry (40), Droideka (40), Storage (40), Support troop (40), Other building (40), Infantry (40), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (80)**, _Shield generator (60)_, _HQ (60)_, _Shield (60)_, Ressource generator (40), Storage (40), Heavy infantry (40), Infantry (40), Heavy vehicle (40), Droideka (40), Other building (40), Support troop (40), Light vehicle (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -46,6 +47,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -54,54 +56,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: bantharaider_tkn-ani
+  * iconLookatPosition: 0.53,2.2,1.05
   * newRotationSpeed: 7854
   * assetName: bantharaider_tkn-ani
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * bundleName: bantharaider_tkn-ani
+  * iconCameraPosition: 13.7,14.58,24.5
+  * animationDelay: 1000
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * buffAssetOffset: 0.00,0.72,0.0
-  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * factoryRotation: 0
-  * animationDelay: 1000
-  * iconLookatPosition: 0.53,2.2,1.05
-  * iconCameraPosition: 13.7,14.58,24.5
+  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 2
-  * chargeTime: 500
-  * pathSearchWidth: 1
-  * clipRetargeting: false
-  * impactDelay: 0
-  * reload: 0
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnRateScale: 1
-  * retargetingOffset: 4
-  * projectileType: projectileTuskenBantha
-  * shotCount: 5
-  * deathAnimation: buffFireBurn:15
+  * chargeTime: 500
   * targetLocking: false
-  * attackShieldBorder: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: turret
-  * autoSpawnSpreadingScale: 1
+  * deathAnimation: buffFireBurn:15
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 1250
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileTuskenBantha
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 5
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 0
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * reload: 0
+  * clipRetargeting: false
+  * retargetingOffset: 4
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
 |order     |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
+|pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
 

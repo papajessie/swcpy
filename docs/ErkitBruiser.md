@@ -12,6 +12,7 @@ category: unit
   * Armor type: bruiserInfantry
   * Role: Bruiser
   * Levels available: 1-10
+  * Unit capacity: 5
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Shield (50), Shield generator (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,55 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.09,1.4,0.28
+  * newRotationSpeed: 7854
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
+  * assetName: erkit2_neu-ani
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: erkit2_neu-ani
-  * newRotationSpeed: 7854
-  * assetName: erkit2_neu-ani
-  * gunSequence: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * iconLookatPosition: 0.09,1.4,0.28
   * iconCameraPosition: 8.56,9.58,10.6
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 5
-  * chargeTime: 250
-  * pathSearchWidth: 1
-  * impactDelay: 1000
-  * reload: 2000
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * projectileType: projectileWookie
-  * xp: 0
   * autoSpawnRateScale: 1
-  * retargetingOffset: 10
-  * maxScale: false
-  * shotCount: 3
-  * deathAnimation: buffFireBurn:15
+  * chargeTime: 250
   * targetLocking: false
-  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
-  * attackShieldBorder: false
-  * favoriteTargetType: turret
-  * clipRetargeting: false
-  * overWalls: false
-  * shotDelay: 500
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: turret
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * xp: 0
+  * projectileType: projectileWookie
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 3
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * shotDelay: 500
+  * impactDelay: 1000
+  * targetPreferenceStrength: 90
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 10
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
 |order     |333601|333602|333603|333604|333605|333606|333607|333608|333609|333610|
+|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
 

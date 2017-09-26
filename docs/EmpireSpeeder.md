@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Striker
   * Levels available: 1-10
+  * Unit capacity: 6
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (70)**, **Heavy vehicle (70)**, **Flying vehicle (70)**, **Heavy infantry (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Droideka (70)**, **Support troop (70)**, **Flying infantry (70)**, **Flying vehicle (70)**, **Light vehicle (70)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 6
   * Min. Range: 0
   * View Range: 8
@@ -46,6 +47,7 @@ category: unit
 
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x2
   * Flying unit: No
   * Crushes walls: No
 
@@ -58,54 +60,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.26,1.18,-0.59
+  * newRotationSpeed: 3927
+  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
+  * assetName: speederbike_emp-ani
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * bundleName: speederbike_emp-ani
-  * newRotationSpeed: 3927
-  * assetName: speederbike_emp-ani
+  * iconCameraPosition: 14.03,11.98,20.6
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1,1
   * buffAssetOffset: 0,1,0
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
-  * iconLookatPosition: -0.26,1.18,-0.59
-  * iconCameraPosition: 14.03,11.98,20.6
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 6
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * impactDelay: 0
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 2
-  * retargetingOffset: 12
-  * maxScale: false
+  * chargeTime: 250
   * targetLocking: false
-  * attackShieldBorder: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: infantry
-  * clipRetargeting: true
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 0
-  * splash: 0
+  * xp: 0
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 0
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * clipRetargeting: true
+  * retargetingOffset: 12
 
 |Level         |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
-|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
-|order         |130101                 |130102                 |130103                 |130104                 |130105                 |130106                 |130107                        |130108                        |130109                        |130110                        |
 |projectileType|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|
 |shotCount     |1                      |1                      |1                      |1                      |1                      |1                      |2                             |2                             |2                             |2                             |
+|order         |130101                 |130102                 |130103                 |130104                 |130105                 |130106                 |130107                        |130108                        |130109                        |130110                        |
+|pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
+|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
 

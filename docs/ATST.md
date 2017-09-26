@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 10
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **HQ (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 30
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,54 +57,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconLookatPosition: 0.17,2.95,0.85
+  * newRotationSpeed: 7854
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * assetName: atst_emp-ani
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atst_emp-ani
-  * newRotationSpeed: 7854
-  * assetName: atst_emp-ani
+  * iconCameraPosition: 29.51,14.98,34.56
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * gunSequence: 1,2
   * buffAssetOffset: 0.00,3.16,0.00
-  * audioDeath: "sfx_death_walker_1":100
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
-  * iconLookatPosition: 0.17,2.95,0.85
-  * iconCameraPosition: 29.51,14.98,34.56
+  * audioDeath: "sfx_death_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 10
-  * chargeTime: 1000
-  * pathSearchWidth: 15
-  * impactDelay: 500
-  * reload: 1000
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 2
-  * retargetingOffset: 16
-  * projectileType: projectileATST
-  * shotCount: 2
-  * maxScale: false
+  * chargeTime: 1000
   * targetLocking: false
-  * attackShieldBorder: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: closest
-  * clipRetargeting: false
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 250
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileATST
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 500
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * reload: 1000
+  * clipRetargeting: false
+  * retargetingOffset: 16
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|10.000|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|30.000|
 |order     |130201|130202|130203|130204|130205|130206|130207|130208|130209|130210|
+|pointValue|10.000|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|30.000|
 

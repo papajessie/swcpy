@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 4
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 10
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,58 +57,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.36,1.33,-0.66
+  * newRotationSpeed: 7854
+  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
+  * assetName: heavytrooper_dth-ani
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * bundleName: heavytrooper_dth-ani
-  * newRotationSpeed: 7854
-  * assetName: heavytrooper_dth-ani
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
-  * gunSequence: 1
-  * buffAssetOffset: 0.00,0.27,0.00
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
-  * iconLookatPosition: -0.36,1.33,-0.66
   * iconCameraPosition: 4.46,8.55,22.59
+  * buffAssetOffset: 0.00,0.27,0.00
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * spawnApplyBuffs: buffReduceHeals2
-  * chargeTime: 500
-  * pathSearchWidth: 1
-  * targetLocking: false
-  * impactDelay: 500
-  * reload: 2000
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * projectileType: projectileHeavyStormDeath
-  * shotDelay: 100
   * autoSpawnRateScale: 1
-  * retargetingOffset: 10
-  * maxScale: false
-  * shotCount: 10
-  * deathAnimation: buffFireBurn:15
-  * clipRetargeting: false
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * autoSpawnSpreadingScale: 1
-  * overWalls: false
-  * selfCenteredTargeting: false
+  * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
+  * favoriteTargetType: closest
+  * deathAnimation: buffFireBurn:15
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * shotDelay: 100
+  * xp: 0
+  * spawnApplyBuffs: buffReduceHeals2
+  * projectileType: projectileHeavyStormDeath
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 10
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 500
   * targetPreferenceStrength: 90
-  * size: 4
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 10
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |order     |133001|133002|133003|133004|133005|133006|133007|133008|133009|133010|
+|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 

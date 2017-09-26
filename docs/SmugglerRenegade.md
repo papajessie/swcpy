@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Striker
   * Levels available: 1-10
+  * Unit capacity: 2
   * Upgrade time: 0s
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Shield (60)_, _Shield generator (60)_, _Storage (60)_, _HQ (60)_, _Other building (60)_, Light vehicle (50), Heavy vehicular hero (50), Heavy vehicle (50), Heavy infantry hero (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Droideka (50), Vehicle hero (50), Infantry hero (50), Support troop (50), Infantry (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, _Shield generator (60)_, _HQ (60)_, _Other building (60)_, _Shield (60)_, Heavy infantry hero (50), Heavy infantry (50), Infantry (50), Heavy vehicle (50), Droideka (50), Vehicle hero (50), Support troop (50), Heavy vehicular hero (50), Flying infantry (50), Flying vehicle (50), Infantry hero (50), Light vehicle (50), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 50
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,56 +57,53 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * newRotationSpeed: 7854
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * assetName: speederbike_smg-ani
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * bundleName: speederbike_smg-ani
-  * newRotationSpeed: 7854
-  * assetName: speederbike_smg-ani
+  * iconCameraPosition: 14.41,12.49,21.37
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1,2
   * buffAssetOffset: 0,1,0
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * iconCameraPosition: 14.41,12.49,21.37
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 2
-  * chargeTime: 250
-  * pathSearchWidth: 1
-  * impactDelay: 1000
-  * reload: 500
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * projectileType: projectileSmugglerRenegade
-  * xp: 0
   * autoSpawnRateScale: 2
-  * retargetingOffset: 100
-  * maxScale: false
-  * shotCount: 3
-  * deathAnimation: buffFireBurn:15
+  * chargeTime: 250
   * targetLocking: false
-  * attackShieldBorder: false
-  * favoriteTargetType: infantry
-  * clipRetargeting: false
-  * overWalls: false
-  * shotDelay: 125
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: infantry
+  * deathAnimation: buffFireBurn:15
   * selfCenteredTargeting: false
+  * overWalls: false
+  * xp: 0
+  * projectileType: projectileSmugglerRenegade
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 3
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * shotDelay: 125
+  * impactDelay: 1000
+  * targetPreferenceStrength: 90
+  * reload: 500
+  * clipRetargeting: false
+  * retargetingOffset: 100
 
 |Level     |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |----------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|pointValue|6.000                                                                                                                  |7.200      |8.400      |9.600      |10.800     |12.000     |13.200     |14.400     |15.600     |18.000     |
-|order     |344301                                                                                                                 |344302     |344303     |344304     |344305     |344306     |344307     |344308     |344309     |344310     |
 |audioTrain|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|order     |344301                                                                                                                 |344302     |344303     |344304     |344305     |344306     |344307     |344308     |344309     |344310     |
+|pointValue|6.000                                                                                                                  |7.200      |8.400      |9.600      |10.800     |12.000     |13.200     |14.400     |15.600     |18.000     |
 

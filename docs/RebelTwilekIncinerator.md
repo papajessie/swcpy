@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 4
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Flying infantry (50)**, **Shield generator (50)**, **Droideka (50)**, **Storage (50)**, **Vehicle hero (50)**, **HQ (50)**, **Infantry hero (50)**, **Support troop (50)**, **Other building (50)**, **Infantry (50)**, Shield (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Shield (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
-  * bundleName: twilek_con-ani
+  * iconLookatPosition: -0.29,1.36,-0.25
   * newRotationSpeed: 7854
   * assetName: twilek_con-ani
-  * iconCloseupLookatPosition: -0.06,2.28,-0.53
-  * gunSequence: 1
-  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 1.37,0.41,9.67
   * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
-  * factoryRotation: 0
-  * animationDelay: 0
-  * iconLookatPosition: -0.29,1.36,-0.25
+  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
+  * bundleName: twilek_con-ani
   * iconCameraPosition: 7.27,7.61,17.96
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 1.37,0.41,9.67
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: -0.06,2.28,-0.53
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
 
 ## Uninterpreted stats
 
-  * sizex: 1
+  * autoSpawnRateScale: 1
   * targetedType: ENEMIES
-  * targetLocking: false
   * chargeTime: 1000
-  * pathSearchWidth: 15
-  * deathProjectileDistance: 0
-  * impactDelay: 1000
-  * deathProjectileDelay: 0
-  * reload: 500
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
-  * xp: 0
+  * targetLocking: false
+  * retargetingOffset: 14
+  * splash: 0
+  * favoriteTargetType: closest
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 200
-  * autoSpawnRateScale: 1
-  * retargetingOffset: 14
-  * maxScale: false
-  * clipRetargeting: false
-  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
+  * xp: 0
+  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
   * shotCount: 1
-  * selfCenteredTargeting: false
-  * splash: 0
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
+  * deathProjectileDelay: 0
+  * impactDelay: 1000
   * targetPreferenceStrength: 90
-  * size: 4
+  * deathProjectileDistance: 0
+  * reload: 500
+  * clipRetargeting: false
 
 |Level                |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
 |---------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
 |pointValue           |1.000                                           |1.200                                           |1.400                                           |1.600                                           |1.800                                           |2.000                                           |2.200                                           |2.400                                           |2.600                                           |3.000                                            |
 |deathProjectileDamage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
+|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 |order                |215201                                          |215202                                          |215203                                          |215204                                          |215205                                          |215206                                          |215207                                          |215208                                          |215209                                          |215210                                           |
 |projectileType       |projectileFlamethrowerTwiLekIncineratorLvl1     |projectileFlamethrowerTwiLekIncineratorLvl2     |projectileFlamethrowerTwiLekIncineratorLvl3     |projectileFlamethrowerTwiLekIncineratorLvl4     |projectileFlamethrowerTwiLekIncineratorLvl5     |projectileFlamethrowerTwiLekIncineratorLvl6     |projectileFlamethrowerTwiLekIncineratorLvl7     |projectileFlamethrowerTwiLekIncineratorLvl8     |projectileFlamethrowerTwiLekIncineratorLvl9     |projectileFlamethrowerTwiLekIncineratorLvl10     |
-|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 

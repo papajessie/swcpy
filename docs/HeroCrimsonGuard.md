@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserInfantry
   * Role: Bruiser
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, _Light vehicle (60)_, _Heavy vehicular hero (60)_, _Heavy vehicle (60)_, _Heavy infantry hero (60)_, _Heavy infantry (60)_, _Droideka (60)_, _Infantry hero (60)_, _Support troop (60)_, _Infantry (60)_, Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Vehicle hero (50), HQ (50), Other building (50), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, _Heavy infantry hero (60)_, _Heavy infantry (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Droideka (60)_, _Support troop (60)_, _Heavy vehicular hero (60)_, _Infantry hero (60)_, _Light vehicle (60)_, Ressource generator (50), Storage (50), Shield generator (50), HQ (50), Vehicle hero (50), Other building (50), Shield (50), Wall (1), Trap (0), Flying infantry (0), Flying vehicle (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,61 +57,58 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.06,1.72,0.04
+  * newRotationSpeed: 7854
+  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * assetName: crimsonguard_emp-ani
+  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
   * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
   * bundleName: crimsonguard_emp-ani
-  * newRotationSpeed: 7854
-  * assetName: crimsonguard_emp-ani
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
-  * gunSequence: 1
-  * buffAssetOffset: 0.00,0.35,0.00
-  * decalSize: 160
-  * audioDeath: "sfx_death_hero_crimsonguard_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * factoryRotation: 0
-  * animationDelay: 1000
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * iconLookatPosition: 0.06,1.72,0.04
   * iconCameraPosition: 7.77,6.46,23.13
+  * buffAssetOffset: 0.00,0.35,0.00
+  * animationDelay: 1000
+  * iconCloseupCameraPosition: 0.01,1.3,10.4
+  * decalSize: 160
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * iconCloseupLookatPosition: 0.03,2.77,-0.19
+  * factoryRotation: 0
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_hero_crimsonguard_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * targetLocking: false
-  * chargeTime: 100
-  * pathSearchWidth: 15
-  * selfCenteredTargeting: false
-  * impactDelay: 0
-  * reload: 1000
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * hologramUid: HeroHologramCrimsonGuard
-  * decalBundleName: tac_hero_emp
-  * decalAssetName: tac_hero_emp
   * autoSpawnRateScale: 1
-  * retargetingOffset: 4
-  * projectileType: projectileMeleeCrimsonGuard
-  * shotCount: 1
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: false
+  * chargeTime: 100
+  * targetLocking: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: turret
-  * autoSpawnSpreadingScale: 1
+  * decalAssetName: tac_hero_emp
+  * hologramUid: HeroHologramCrimsonGuard
   * overWalls: false
   * shotDelay: 100
-  * splash: 0
+  * xp: 0
+  * selfCenteredTargeting: false
+  * projectileType: projectileMeleeCrimsonGuard
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 0
   * targetPreferenceStrength: 90
-  * size: 1
+  * reload: 1000
+  * clipRetargeting: false
+  * retargetingOffset: 4
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |110401|110402|110403|110404|110405|110406|110407|110408|110409|110410|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|order     |110401|110402|110403|110404|110405|110406|110407|110408|110409|110410|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

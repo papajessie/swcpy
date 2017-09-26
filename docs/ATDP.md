@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Striker
   * Levels available: 1-10
+  * Unit capacity: 16
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (60)**, **Heavy infantry (60)**, **Flying infantry (60)**, **Droideka (60)**, **Infantry hero (60)**, **Support troop (60)**, **Infantry (60)**, Light vehicle (50), Heavy vehicular hero (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Turret (50), Shield (50), Shield generator (50), Storage (50), Vehicle hero (50), HQ (50), Other building (50), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry hero (60)**, **Heavy infantry (60)**, **Infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Infantry hero (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Heavy vehicle (50), Vehicle hero (50), Other building (50), Heavy vehicular hero (50), Flying vehicle (50), Shield (50), Light vehicle (50), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 10
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,54 +57,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconLookatPosition: -0.85,2.34,-1.34
+  * newRotationSpeed: 3927
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * assetName: atdp_emp-ani
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atdp_emp-ani
-  * newRotationSpeed: 3927
-  * assetName: atdp_emp-ani
+  * iconCameraPosition: 24.3,22.81,41.64
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * gunSequence: 1
   * buffAssetOffset: 0.00,1.89,0.00
-  * audioDeath: "sfx_death_walker_1":100
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * iconCameraPosition: 24.3,22.81,41.64
+  * audioDeath: "sfx_death_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * size: 16
-  * chargeTime: 1000
-  * pathSearchWidth: 15
-  * impactDelay: 500
-  * reload: 1000
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 1
-  * retargetingOffset: 16
-  * projectileType: projectileBlasterEmpireATDP
-  * shotCount: 2
-  * maxScale: false
+  * chargeTime: 1000
   * targetLocking: false
-  * attackShieldBorder: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: infantry
-  * clipRetargeting: true
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 250
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileBlasterEmpireATDP
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 500
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * reload: 1000
+  * clipRetargeting: true
+  * retargetingOffset: 16
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|16.000|19.200|22.400|25.600|28.800|32.000|35.200|38.400|41.600|48.000|
 |order     |130801|130802|130803|130804|130805|130806|130807|130808|130809|130810|
+|pointValue|16.000|19.200|22.400|25.600|28.800|32.000|35.200|38.400|41.600|48.000|
 

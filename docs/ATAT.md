@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 30
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 9
   * Min. Range: 1
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 10
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
@@ -55,54 +57,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -2.01,3.9,-0.8
+  * newRotationSpeed: 982
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * assetName: atat_emp-ani
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: atat_emp-ani
-  * newRotationSpeed: 982
-  * assetName: atat_emp-ani
+  * iconCameraPosition: 41.83,40.55,52.41
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * gunSequence: 1,1,1,1
   * buffAssetOffset: 0,4.00,0.00
-  * audioDeath: "sfx_death_walker_1":100
   * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
-  * iconLookatPosition: -2.01,3.9,-0.8
-  * iconCameraPosition: 41.83,40.55,52.41
+  * audioDeath: "sfx_death_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * size: 30
-  * chargeTime: 500
-  * pathSearchWidth: 200
-  * impactDelay: 500
-  * reload: 1500
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 2
-  * retargetingOffset: 18
-  * projectileType: projectileATAT
-  * shotCount: 8
-  * maxScale: false
+  * chargeTime: 500
   * targetLocking: false
-  * attackShieldBorder: true
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
+  * selfCenteredTargeting: false
   * overWalls: true
   * shotDelay: 250
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileATAT
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 200
+  * shotCount: 8
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * impactDelay: 500
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * reload: 1500
+  * clipRetargeting: false
+  * retargetingOffset: 18
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|30.000|36.000|42.000|48.000|54.000|60.000|66.000|72.000|78.000|90.000|
 |order     |130501|130502|130503|130504|130505|130506|130507|130508|130509|130510|
+|pointValue|30.000|36.000|42.000|48.000|54.000|60.000|66.000|72.000|78.000|90.000|
 

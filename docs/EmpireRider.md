@@ -13,6 +13,7 @@ category: unit
   * Armor type: healerInfantry
   * Role: Healer
   * Levels available: 1-10
+  * Unit capacity: 7
   * Damage*: 0
   * Shield Health: 0
   * Shield Cooldown: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Infantry hero (50)**, **Infantry (50)**, Ressource generator (0), Trap (0), Turret (0), Shield (0), Shield generator (0), Storage (0), HQ (0), Wall (0), Support troop (0), Other building (0)
+  * Target preferences: **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Ressource generator (0), Turret (0), Storage (0), Shield generator (0), HQ (0), Trap (0), Wall (0), Other building (0), Support troop (0), Shield (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 5
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,61 +57,58 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 1.5
+  * assetName: rider_con-ani
   * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
   * bundleName: rider_con-ani
-  * newRotationSpeed: 7854
-  * assetName: rider_con-ani
+  * iconCameraPosition: 23.58,31.88,32.8
+  * animationDelay: 0
   * decalSize: 160
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
   * gunSequence: 1
   * factoryRotation: 0
-  * animationDelay: 0
-  * iconLookatPosition: -0.52,2.15,-1.3
-  * iconCameraPosition: 23.58,31.88,32.8
-  * tooltipHeightOffset: 1.5
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetedType: ALLIES
-  * targetLocking: true
-  * chargeTime: 0
-  * pathSearchWidth: 15
-  * deathProjectileDistance: 0
-  * impactDelay: 0
-  * retargetingOffset: 15
-  * reload: 5000
-  * autoSpawnSpreadingScale: 1
-  * spawnEffectUid: effectRebelSpawn
-  * sizey: 1
-  * strictCoolDown: false
-  * supportFollowDistance: 4
-  * armingDelay: 0
-  * deathProjectileDamage: 0
-  * xp: 0
-  * overWalls: true
-  * size: 7
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
+  * targetedType: ALLIES
+  * chargeTime: 0
+  * targetLocking: true
+  * retargetingOffset: 15
   * infoUIType: DamageBuff
-  * maxScale: false
-  * clipRetargeting: false
-  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * shotCount: 1
-  * shotDelay: 0
-  * splash: 0
-  * targetPreferenceStrength: 1
-  * deathProjectileDelay: 0
   * selfCenteredTargeting: true
+  * overWalls: true
+  * shotDelay: 0
+  * favoriteTargetType: closest
+  * xp: 0
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
+  * deathProjectileDelay: 0
+  * deathProjectileDistance: 0
+  * spawnEffectUid: effectRebelSpawn
+  * targetPreferenceStrength: 1
+  * splash: 0
+  * deathProjectileDamage: 0
+  * reload: 5000
+  * clipRetargeting: false
+  * supportFollowDistance: 4
 
 |Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
 |order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
-|projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
 |deathProjectile|projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
+|projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
+|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
 

@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Light vehicle (70)**, **Heavy infantry hero (70)**, **Droideka (70)**, **Infantry hero (70)**, **Support troop (70)**, **Infantry (70)**, _Heavy vehicular hero (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Vehicle hero (60)_, Ressource generator (50), Turret (50), Shield (50), Shield generator (50), Storage (50), HQ (50), Other building (50), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry hero (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry hero (70)**, **Light vehicle (70)**, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Vehicle hero (60)_, _Heavy vehicular hero (60)_, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Wall (1), Trap (0), Flying infantry (0), Flying vehicle (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -45,6 +46,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -53,58 +55,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
-  * bundleName: wompratlarge_neu-ani
+  * iconLookatPosition: -0.07,0.16,-0.08
   * newRotationSpeed: 7854
   * assetName: wompratlarge_neu-ani
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryScaleFactor: 1
+  * bundleName: wompratlarge_neu-ani
+  * iconCameraPosition: 11.42,11.67,7.56
+  * animationDelay: 1000
+  * decalSize: 160
   * gunSequence: 1
   * buffAssetOffset: 0.00,0.33,0.00
-  * decalSize: 160
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
   * factoryRotation: 0
-  * animationDelay: 1000
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * iconCameraPosition: 11.42,11.67,7.56
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * size: 1
-  * chargeTime: 150
-  * pathSearchWidth: 1
-  * targetLocking: false
-  * impactDelay: 250
-  * reload: 1000
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
   * autoSpawnRateScale: 1
-  * armingDelay: 0
-  * maxScale: false
-  * decalBundleName: tac_hero_neu
-  * decalAssetName: tac_hero_neu
-  * uiDecalAssetName: HeroDecalNeutral
-  * retargetingOffset: 8
-  * projectileType: projectileMeleeWompRatAlpha
-  * shotCount: 2
-  * deathAnimation: buffFireBurn:15
-  * autoSpawnSpreadingScale: 1
-  * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * clipRetargeting: false
-  * overWalls: false
-  * shotDelay: 150
+  * chargeTime: 150
+  * targetLocking: false
+  * targetedType: ENEMIES
   * splash: 0
-  * targetPreferenceStrength: 90
+  * favoriteTargetType: closest
+  * decalAssetName: tac_hero_neu
   * selfCenteredTargeting: false
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 150
+  * xp: 0
+  * overWalls: false
+  * projectileType: projectileMeleeWompRatAlpha
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * uiDecalAssetName: HeroDecalNeutral
+  * decalBundleName: tac_hero_neu
+  * impactDelay: 250
+  * targetPreferenceStrength: 90
+  * reload: 1000
+  * clipRetargeting: false
+  * retargetingOffset: 8
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|order     |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

@@ -13,6 +13,7 @@ category: unit
   * Armor type: bruiserVehicle
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 1
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -47,6 +48,7 @@ category: unit
   * Speed: 10
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x2
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
@@ -55,60 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -2.41,4.25,-0.65
+  * newRotationSpeed: 3927
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: atathero_emp-ani
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: atathero_emp-ani
-  * newRotationSpeed: 3927
-  * assetName: atathero_emp-ani
+  * iconCameraPosition: 49.18,33.65,54.14
+  * animationDelay: 0
+  * decalSize: 320
+  * factoryScaleFactor: 1
   * gunSequence: 1,1,1,1
   * buffAssetOffset: 0.00,4.96,0.0
-  * decalSize: 320
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * iconLookatPosition: -2.41,4.25,-0.65
-  * iconCameraPosition: 49.18,33.65,54.14
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioDeath: "sfx_death_hero_walker_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * hologramUid: HeroHologramEmpire2
-  * chargeTime: 500
-  * pathSearchWidth: 200
-  * targetLocking: false
-  * impactDelay: 500
-  * reload: 1500
-  * xp: 0
-  * targetedType: ENEMIES
-  * sizey: 2
-  * strictCoolDown: false
-  * armingDelay: 0
-  * effectType: 2
-  * size: 1
-  * decalBundleName: tac_hero_emp
-  * decalAssetName: tac_hero_emp
   * autoSpawnRateScale: 2
-  * retargetingOffset: 20
-  * projectileType: projectileHeroATAT
-  * shotCount: 8
-  * maxScale: false
-  * clipRetargeting: false
-  * attackShieldBorder: true
+  * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: shieldGenerator
-  * autoSpawnSpreadingScale: 0
+  * decalAssetName: tac_hero_emp
+  * hologramUid: HeroHologramEmpire2
   * overWalls: true
   * shotDelay: 250
-  * splash: 0
-  * targetPreferenceStrength: 90
+  * xp: 0
   * selfCenteredTargeting: false
+  * projectileType: projectileHeroATAT
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 200
+  * shotCount: 8
+  * autoSpawnSpreadingScale: 0
+  * effectType: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 500
+  * targetPreferenceStrength: 90
+  * reload: 1500
+  * clipRetargeting: false
+  * retargetingOffset: 20
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|order     |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

@@ -12,6 +12,7 @@ category: unit
   * Armor type: infantry
   * Role: Generic
   * Levels available: 1-10
+  * Unit capacity: 4
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Light vehicle (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), HQ (50), Support troop (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Turret (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 40
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,55 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.12,1.34,0.53
+  * newRotationSpeed: 7854
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * assetName: jawaarmed_neu-ani
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: jawaarmed_neu-ani
-  * newRotationSpeed: 7854
-  * assetName: jawaarmed_neu-ani
-  * gunSequence: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * iconLookatPosition: -0.12,1.34,0.53
   * iconCameraPosition: 4.07,10.49,14.92
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * gunSequence: 1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * size: 4
+  * autoSpawnRateScale: 1
   * chargeTime: 500
+  * targetLocking: false
+  * targetedType: ENEMIES
+  * splash: 0
+  * favoriteTargetType: closest
+  * deathAnimation: buffFireBurn:15
+  * selfCenteredTargeting: false
+  * overWalls: false
+  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
+  * xp: 0
+  * projectileType: projectileSmugglerSaboteur
+  * armingDelay: 0
+  * strictCoolDown: false
   * pathSearchWidth: 15
   * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * projectileType: projectileSmugglerSaboteur
-  * xp: 0
-  * autoSpawnRateScale: 1
-  * retargetingOffset: 100
   * maxScale: false
-  * deathAnimation: buffFireBurn:15
-  * targetLocking: false
-  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
+  * targetInRangeModifier: 1
   * attackShieldBorder: false
-  * favoriteTargetType: closest
-  * clipRetargeting: false
-  * overWalls: false
   * shotDelay: 100
-  * splash: 0
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * clipRetargeting: false
+  * retargetingOffset: 100
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue |5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
-|impactDelay|1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |500   |
-|reload     |500   |500   |500   |500   |500   |500   |500   |500   |500   |2000  |
-|order      |334101|334102|334103|334104|334105|334106|334107|334108|334109|334110|
 |shotCount  |5     |5     |5     |5     |5     |5     |5     |5     |5     |10    |
+|impactDelay|1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |500   |
+|order      |334101|334102|334103|334104|334105|334106|334107|334108|334109|334110|
+|pointValue |5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
+|reload     |500   |500   |500   |500   |500   |500   |500   |500   |500   |2000  |
 

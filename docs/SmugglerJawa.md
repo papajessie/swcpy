@@ -13,6 +13,7 @@ category: unit
   * Armor type: infantry
   * Role: Generic
   * Levels available: 1
+  * Unit capacity: 4
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
   * Health: 1
@@ -26,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Light vehicle (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), HQ (50), Support troop (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Turret (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 1
   * Min. Range: 0
   * View Range: 8
@@ -41,6 +42,7 @@ category: unit
   * Speed: 1
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -49,47 +51,44 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * assetName: jawa_neu-ani
-  * factoryScaleFactor: 1
-  * rotationSpeed: 1
-  * bundleName: jawa_neu-ani
-  * newRotationSpeed: 1
-  * gunSequence: 1
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * iconLookatPosition: -0.12,1.34,0.53
   * iconCameraPosition: 4.07,10.49,14.92
+  * iconLookatPosition: -0.12,1.34,0.53
+  * animationDelay: 0
+  * factoryRotation: 0
+  * gunSequence: 1
+  * assetName: jawa_neu-ani
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * rotationSpeed: 1
+  * newRotationSpeed: 1
+  * factoryScaleFactor: 1
+  * bundleName: jawa_neu-ani
 
 ## Uninterpreted stats
 
-  * sizex: 1
-  * targetInRangeModifier: 1
-  * pointValue: 0.000
-  * size: 4
-  * chargeTime: 1
-  * pathSearchWidth: 1
-  * impactDelay: 1
-  * reload: 1
-  * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
-  * order: 372001
   * autoSpawnRateScale: 1
-  * retargetingOffset: 1
-  * projectileType: projectileSmugglerSaboteur
-  * shotCount: 5
-  * maxScale: false
+  * chargeTime: 1
   * targetLocking: false
-  * attackShieldBorder: false
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: closest
-  * clipRetargeting: false
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 1
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileSmugglerSaboteur
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 1
+  * shotCount: 5
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: false
+  * impactDelay: 1
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * order: 372001
+  * pointValue: 0.000
+  * reload: 1
+  * clipRetargeting: false
+  * retargetingOffset: 1
 

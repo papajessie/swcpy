@@ -13,6 +13,7 @@ category: unit
   * Armor type: vehicle
   * Role: Destroyer
   * Levels available: 1-10
+  * Unit capacity: 10
   * Shield Health: 0
   * Shield Cooldown: 0
   * Shield Range: 0
@@ -29,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, Light vehicle (50), Ressource generator (50), Heavy vehicle (50), Flying vehicle (50), Heavy infantry (50), Turret (50), Flying infantry (50), Droideka (50), Storage (50), HQ (50), Support troop (50), Other building (50), Infantry (50), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -47,6 +48,7 @@ category: unit
   * Speed: 20
   * Run speed: 0
   * Run Threshold: 0
+  * Size: 2x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
@@ -55,54 +57,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
+  * iconLookatPosition: -0.59,2.38,-0.99
+  * newRotationSpeed: 3927
+  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * assetName: atap_rbl-ani
+  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atap_rbl-ani
-  * newRotationSpeed: 3927
-  * assetName: atap_rbl-ani
+  * iconCameraPosition: 20.98,26.07,34.08
+  * animationDelay: 0
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
   * gunSequence: 1,2
   * buffAssetOffset: 0.00,1.94,0.00
-  * audioDeath: "sfx_death_rebel_atap_1":100
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
-  * factoryRotation: 0
-  * animationDelay: 0
-  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
-  * iconLookatPosition: -0.59,2.38,-0.99
-  * iconCameraPosition: 20.98,26.07,34.08
+  * audioDeath: "sfx_death_rebel_atap_1":100
 
 ## Uninterpreted stats
 
-  * sizex: 2
-  * targetInRangeModifier: 1
-  * size: 10
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * impactDelay: 1000
-  * reload: 2000
-  * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
-  * sizey: 1
-  * strictCoolDown: false
-  * armingDelay: 0
-  * xp: 0
   * autoSpawnRateScale: 2
-  * retargetingOffset: 16
-  * projectileType: projectileATAP
-  * shotCount: 4
-  * maxScale: false
+  * chargeTime: 250
   * targetLocking: false
-  * attackShieldBorder: true
+  * targetedType: ENEMIES
+  * splash: 0
   * favoriteTargetType: shieldGenerator
-  * clipRetargeting: false
+  * selfCenteredTargeting: false
   * overWalls: false
   * shotDelay: 200
-  * splash: 0
+  * xp: 0
+  * projectileType: projectileATAP
+  * armingDelay: 0
+  * strictCoolDown: false
+  * pathSearchWidth: 15
+  * shotCount: 4
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * attackShieldBorder: true
+  * impactDelay: 1000
   * targetPreferenceStrength: 90
-  * selfCenteredTargeting: false
+  * reload: 2000
+  * clipRetargeting: false
+  * retargetingOffset: 16
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|10.000|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|30.000|
 |order     |230401|230402|230403|230404|230405|230406|230407|230408|230409|230410|
+|pointValue|10.000|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|30.000|
 
