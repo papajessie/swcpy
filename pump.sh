@@ -75,7 +75,7 @@ cat $MANIFESTJSON |sed -ne '/^   "paths"/,/^   },/ p'|grep '^         "v"'|cut -
 paste -d: $MANIFESTJSON.ids $MANIFESTJSON.versions > $MANIFESTJSON.lines
 M=$(wc -l < $MANIFESTJSON.lines)
 
-cat $MANIFESTJSON.lines|while read line; do
+cat $MANIFESTJSON.lines|sort -r|while read line; do
     N=$((N+1))
     XPATH=$(echo "$line"|cut -f1 -d:)
     if [ $(echo "$XPATH"| grep "^${PREFIX}.*${SUFFIX}$"|wc -l) -gt 0 ]; then
