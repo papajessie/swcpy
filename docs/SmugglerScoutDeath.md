@@ -3,7 +3,7 @@ title: Scout Undead Trooper (SmugglerScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (SmugglerScoutDeath) — version 1080
+# Scout Undead Trooper (SmugglerScoutDeath) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (60)**, **Heavy infantry (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Droideka (60)**, **Vehicle hero (60)**, **Support troop (60)**, **Heavy vehicular hero (60)**, **Flying infantry (60)**, **Flying vehicle (60)**, **Infantry hero (60)**, **Light vehicle (60)**, _Ressource generator (51)_, _Storage (51)_, Turret (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Heavy vehicular hero (60)**, **Light vehicle (60)**, **Vehicle hero (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Flying infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, **Heavy vehicle (60)**, **Infantry (60)**, **Infantry hero (60)**, _Storage (51)_, _Ressource generator (51)_, HQ (50), Turret (50), Shield generator (50), Shield (50), Other building (50), Wall (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -56,50 +56,50 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.06,1.74,0.02
-  * newRotationSpeed: 7854
-  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
-  * assetName: scotrper_dth-ani
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * bundleName: scotrper_dth-ani
-  * iconCameraPosition: 10.84,12.06,13.07
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 10.84,12.06,13.07
   * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: 0.06,1.74,0.02
+  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * bundleName: scotrper_dth-ani
+  * animationDelay: 0
+  * assetName: scotrper_dth-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 8
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 225
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: infantry
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 225
-  * xp: 0
-  * projectileType: projectileSmugglerScoutDeath
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 4
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
   * reload: 800
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 8
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileSmugglerScoutDeath
+  * shotCount: 4
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: trp_title_FueSmuggler (no text translation) (FueSmuggler)
 category: unit
 ---
 
-# trp_title_FueSmuggler (no text translation) (FueSmuggler) — version 1080
+# trp_title_FueSmuggler (no text translation) (FueSmuggler) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (55)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), HQ (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
 
@@ -63,55 +63,55 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
   * factoryRotation: 0
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: 0.09,1.4,0.28
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * factoryScaleFactor: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * animationDelay: 0
 
 |Level             |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|gunPosition       |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
-|assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 |gunSequence       |1,2                                                                                                                                                |1,2                                                                                                                                                |1                                                                         |
+|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
+|gunPosition       |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
 |buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |
+|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 10
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 500
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: none
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 500
-  * xp: 0
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
   * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
   * clipRetargeting: false
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
 
 |Level         |1                     |2                     |3                 |
 |--------------|----------------------|----------------------|------------------|
-|projectileType|projectileBountyHunter|projectileBountyHunter|projectileSmuggler|
-|shotCount     |3                     |2                     |3                 |
 |order         |322601                |322602                |322603            |
 |pointValue    |1.000                 |1.200                 |1.400             |
 |reload        |2000                  |1500                  |2000              |
+|projectileType|projectileBountyHunter|projectileBountyHunter|projectileSmuggler|
+|shotCount     |3                     |2                     |3                 |
 

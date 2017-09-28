@@ -3,7 +3,7 @@ title: Smuggler (fueTroopSmuggler)
 category: unit
 ---
 
-# Smuggler (fueTroopSmuggler) — version 1080
+# Smuggler (fueTroopSmuggler) — version 1084
 
 ## Main stats
 
@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (55)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), HQ (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -51,48 +51,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * assetName: generalpurpose_smg-ani
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: generalpurpose_smg-ani
-  * iconCameraPosition: 8.56,9.58,10.6
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 8.56,9.58,10.6
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: 0.09,1.4,0.28
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: generalpurpose_smg-ani
+  * animationDelay: 0
+  * assetName: generalpurpose_smg-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 10
+  * armingDelay: 0
+  * maxScale: false
+  * order: 332001
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 500
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pointValue: 1.000
+  * chargeTime: 250
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: none
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 500
-  * xp: 0
-  * projectileType: projectileSmuggler
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * order: 332001
-  * pointValue: 1.000
   * reload: 2000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileSmuggler
+  * shotCount: 3
+  * targetedType: ENEMIES
 

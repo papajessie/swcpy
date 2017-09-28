@@ -3,7 +3,7 @@ title: trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking)
 category: unit
 ---
 
-# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1080
+# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1084
 
 ## Main stats
 
@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Turret (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Storage (60)_, _Ressource generator (60)_, _Other building (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Infantry (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 1
   * Min. Range: 0
   * View Range: 8
@@ -51,44 +51,44 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: -1.2,4.65,15.26
-  * iconLookatPosition: -0.15,0.8,-0.39
-  * animationDelay: 0
-  * factoryRotation: 0
   * gunSequence: 1
-  * assetName: jawatalking_neu-ani
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * rotationSpeed: 1
-  * newRotationSpeed: 1
   * factoryScaleFactor: 1
+  * iconCameraPosition: -1.2,4.65,15.26
+  * rotationSpeed: 1
+  * factoryRotation: 0
+  * newRotationSpeed: 1
+  * iconLookatPosition: -0.15,0.8,-0.39
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
   * bundleName: jawatalking_neu-ani
+  * animationDelay: 0
+  * assetName: jawatalking_neu-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 1
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 1
+  * armingDelay: 0
+  * maxScale: false
+  * order: 372201
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 1
+  * impactDelay: 1
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pointValue: 0.000
+  * chargeTime: 1
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: closest
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 1
-  * xp: 0
-  * projectileType: projectileSmugglerSaboteur
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 5
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 1
-  * targetPreferenceStrength: 90
-  * order: 372201
-  * pointValue: 0.000
   * reload: 1
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 1
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * targetedType: ENEMIES
+  * shotCount: 5
+  * projectileType: projectileSmugglerSaboteur
 

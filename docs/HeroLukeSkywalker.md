@@ -3,7 +3,7 @@ title: Luke Skywalker (HeroLukeSkywalker)
 category: unit
 ---
 
-# Luke Skywalker (HeroLukeSkywalker) — version 1080
+# Luke Skywalker (HeroLukeSkywalker) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (80)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,60 +57,60 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.45,1.28,-0.62
-  * newRotationSpeed: 7854
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
-  * assetName: lukeskywalker_rbl-ani
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * bundleName: lukeskywalker_rbl-ani
-  * iconCameraPosition: 9.95,9.78,16.61
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 9.95,9.78,16.61
+  * iconCloseupLookatPosition: 0.02,2.48,-0.32
+  * iconLookatPosition: -0.45,1.28,-0.62
+  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * decalSize: 160
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_luke":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_hero_luke":100
+  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * bundleName: lukeskywalker_rbl-ani
+  * animationDelay: 0
+  * assetName: lukeskywalker_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * decalAssetName: tac_hero_rbl
-  * hologramUid: HeroHologramLukeSkywalker
-  * overWalls: false
-  * shotDelay: 500
-  * xp: 0
-  * selfCenteredTargeting: false
-  * projectileType: projectileHeroLukeAttack
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 0
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_rbl
-  * impactDelay: 250
-  * spawnEffectUid: effectRebelSpawn
-  * targetPreferenceStrength: 90
-  * reload: 500
-  * clipRetargeting: false
-  * ability: abilityHeroLukeDefend
   * retargetingOffset: 14
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 500
+  * impactDelay: 250
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * decalAssetName: tac_hero_rbl
+  * ability: abilityHeroLukeDefend
+  * favoriteTargetType: turret
+  * overWalls: false
+  * reload: 500
+  * hologramUid: HeroHologramLukeSkywalker
+  * spawnEffectUid: effectRebelSpawn
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileHeroLukeAttack
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
-|effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
 |order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
+|effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

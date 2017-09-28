@@ -3,7 +3,7 @@ title: Gamorrean Warrior (EmpireGamorreanWarrior)
 category: unit
 ---
 
-# Gamorrean Warrior (EmpireGamorreanWarrior) — version 1080
+# Gamorrean Warrior (EmpireGamorreanWarrior) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Shield (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Shield (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -57,59 +57,59 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.43,1.85,0.73
-  * newRotationSpeed: 7854
-  * assetName: gamorreanguard_con-ani
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
-  * bundleName: gamorreanguard_con-ani
-  * iconCameraPosition: 9.14,6.79,20.25
-  * buffAssetOffset: 0.00,0.43,0.0
-  * animationDelay: 600
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 9.14,6.79,20.25
   * iconCloseupLookatPosition: 0.18,2.49,0.11
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: 0.43,1.85,0.73
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.43,0.0
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * bundleName: gamorreanguard_con-ani
+  * animationDelay: 600
+  * assetName: gamorreanguard_con-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * targetedType: ENEMIES
-  * chargeTime: 400
+  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
   * targetLocking: false
-  * retargetingOffset: 10
-  * splash: 0
-  * favoriteTargetType: turret
-  * selfCenteredTargeting: false
-  * overWalls: false
+  * deathProjectileDistance: 17
   * strictCoolDown: false
-  * shotDelay: 0
-  * xp: 0
-  * deathProjectile: projectileDeathVibroAx
-  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
+  * retargetingOffset: 10
   * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
+  * shotDelay: 0
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 400
   * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
   * pathSearchWidth: 15
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
-  * deathProjectileDelay: 3600
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
-  * deathProjectileDistance: 17
-  * projectileType: projectileMeleeVibroAx
+  * splash: 0
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 500
+  * deathProjectileDelay: 3600
+  * deathProjectile: projectileDeathVibroAx
+  * attackShieldBorder: false
   * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileMeleeVibroAx
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level                |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------------|------|------|------|------|------|------|------|------|------|------|
-|pointValue           |4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |deathProjectileDamage|1750  |2000  |2250  |2500  |2750  |3000  |3250  |3500  |3750  |4000  |
 |order                |115101|115102|115103|115104|115105|115106|115107|115108|115109|115110|
+|pointValue           |4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 

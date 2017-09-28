@@ -3,7 +3,7 @@ title: UrUr (UrUr)
 category: unit
 ---
 
-# UrUr (UrUr) — version 1080
+# UrUr (UrUr) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _HQ (60)_, Ressource generator (50), Storage (50), Shield generator (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Droideka (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -56,54 +56,54 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.28,1.77,-0.31
-  * newRotationSpeed: 7854
-  * assetName: ururhero_tkn-ani
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: ururhero_tkn-ani
-  * iconCameraPosition: 9.94,10.08,22.52
-  * animationDelay: 1000
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 9.94,10.08,22.52
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: -0.28,1.77,-0.31
+  * decalSize: 160
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: ururhero_tkn-ani
+  * animationDelay: 1000
+  * assetName: ururhero_tkn-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: infantry
-  * decalAssetName: tac_hero_neu
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 1250
-  * xp: 0
-  * projectileType: projectileMeleeUrUr
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
   * uiDecalAssetName: HeroDecalNeutral
-  * decalBundleName: tac_hero_neu
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
-  * reload: 0
-  * clipRetargeting: false
+  * strictCoolDown: false
   * retargetingOffset: 4
+  * decalBundleName: tac_hero_neu
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 1250
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * decalAssetName: tac_hero_neu
+  * favoriteTargetType: infantry
+  * overWalls: false
+  * reload: 0
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileMeleeUrUr
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

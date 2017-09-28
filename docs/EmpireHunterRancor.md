@@ -3,7 +3,7 @@ title: Hunter Rancor (EmpireHunterRancor)
 category: unit
 ---
 
-# Hunter Rancor (EmpireHunterRancor) — version 1080
+# Hunter Rancor (EmpireHunterRancor) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (70)**, **Heavy infantry (70)**, **Infantry (70)**, **Infantry hero (70)**, _Heavy vehicle (60)_, _Droideka (60)_, _Vehicle hero (60)_, _Heavy vehicular hero (60)_, _Light vehicle (60)_, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), Other building (50), Support troop (50), Shield (50), HQ (40), Wall (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry (70)**, **Infantry hero (70)**, _Heavy vehicular hero (60)_, _Light vehicle (60)_, _Vehicle hero (60)_, _Droideka (60)_, _Heavy vehicle (60)_, Turret (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), HQ (40), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 16
@@ -54,50 +54,50 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.58,2.75,-1.64
-  * newRotationSpeed: 2000
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * assetName: rancorhunter_neu-ani
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: rancorhunter_neu-ani
-  * iconCameraPosition: 32.55,42.31,46.76
-  * animationDelay: 960
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 2,1
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
+  * iconCameraPosition: 32.55,42.31,46.76
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconLookatPosition: -0.58,2.75,-1.64
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_creatures_rancor_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * newRotationSpeed: 2000
+  * bundleName: rancorhunter_neu-ani
+  * animationDelay: 960
+  * assetName: rancorhunter_neu-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 270
-  * xp: 0
-  * projectileType: projectileMeleeHunterRancor
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
-  * reload: 1910
-  * clipRetargeting: true
   * retargetingOffset: 8
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 270
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * splash: 0
+  * overWalls: false
+  * reload: 1910
+  * attackShieldBorder: false
+  * clipRetargeting: true
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileMeleeHunterRancor
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level             |1       |2       |3       |4       |5       |6       |7       |8       |9       |10     |
 |------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-------|
-|favoriteTargetType|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|closest|
 |order             |125301  |125302  |125303  |125304  |125305  |125306  |125307  |125308  |125309  |125310 |
 |pointValue        |20.000  |24.000  |28.000  |32.000  |36.000  |40.000  |44.000  |48.000  |52.000  |60.000 |
+|favoriteTargetType|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|closest|
 

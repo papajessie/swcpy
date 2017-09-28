@@ -3,7 +3,7 @@ title: Stolen AT-DP Walker (StolenATDP)
 category: unit
 ---
 
-# Stolen AT-DP Walker (StolenATDP) — version 1080
+# Stolen AT-DP Walker (StolenATDP) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (60)**, **Heavy infantry (60)**, **Infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Infantry hero (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Heavy vehicle (50), Vehicle hero (50), Other building (50), Heavy vehicular hero (50), Flying vehicle (50), Shield (50), Light vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, **Infantry (60)**, **Infantry hero (60)**, Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Heavy vehicle (50), Other building (50), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * newRotationSpeed: 3927
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
-  * assetName: atdp_emp-ani
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atdp_emp-ani
-  * iconCameraPosition: 24.3,22.81,41.64
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * gunSequence: 1
-  * buffAssetOffset: 0.00,1.89,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
+  * iconCameraPosition: 24.3,22.81,41.64
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: -0.85,2.34,-1.34
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,1.89,0.00
+  * newRotationSpeed: 3927
+  * bundleName: atdp_emp-ani
+  * animationDelay: 0
+  * assetName: atdp_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 1000
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: infantry
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 250
-  * xp: 0
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * projectileType: projectileBlasterStolenATDP
   * reload: 1000
+  * attackShieldBorder: false
   * clipRetargeting: true
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileBlasterStolenATDP
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

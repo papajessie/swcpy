@@ -3,7 +3,7 @@ title: Phase II Dark Trooper (Dark)
 category: unit
 ---
 
-# Phase II Dark Trooper (Dark) — version 1080
+# Phase II Dark Trooper (Dark) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,52 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.02,1.7,0.06
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: darktrooper_emp-ani
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: darktrooper_emp-ani
-  * iconCameraPosition: 11.04,12.38,13.5
-  * buffAssetOffset: 0.00,0.42,0.00
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 0.77,1.01,11.04
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 11.04,12.38,13.5
   * iconCloseupLookatPosition: -0.03,3.09,-1.21
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: -0.02,1.7,0.06
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.42,0.00
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconCloseupCameraPosition: 0.77,1.01,11.04
+  * bundleName: darktrooper_emp-ani
+  * animationDelay: 0
+  * assetName: darktrooper_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
-  * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
-  * xp: 0
-  * projectileType: projectileDark
-  * armingDelay: 0
+  * targetLocking: false
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 10
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
   * shotDelay: 500
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * splash: 0
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 2000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileDark
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

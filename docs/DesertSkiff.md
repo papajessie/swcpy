@@ -3,7 +3,7 @@ title: Anti-Vehicle Skiff (DesertSkiff)
 category: unit
 ---
 
-# Anti-Vehicle Skiff (DesertSkiff) — version 1080
+# Anti-Vehicle Skiff (DesertSkiff) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy vehicle (60)**, **Flying vehicle (60)**, **Light vehicle (60)**, _Heavy infantry (55)_, _Infantry (55)_, _Droideka (55)_, _Support troop (55)_, _Flying infantry (55)_, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Light vehicle (60)**, **Flying vehicle (60)**, **Heavy vehicle (60)**, _Heavy infantry (55)_, _Support troop (55)_, _Flying infantry (55)_, _Droideka (55)_, _Infantry (55)_, HQ (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,49 +57,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.09,2.29,-0.96
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: banthabarge_rbl-ani
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * bundleName: banthabarge_rbl-ani
-  * iconCameraPosition: 25.92,23.21,24.67
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
   * gunSequence: 1
-  * buffAssetOffset: 0.00,1.7,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 25.92,23.21,24.67
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * iconLookatPosition: -0.09,2.29,-0.96
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,1.7,0.00
+  * newRotationSpeed: 7854
+  * bundleName: banthabarge_rbl-ani
+  * animationDelay: 0
+  * assetName: banthabarge_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 14
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: vehicles
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 250
-  * xp: 0
-  * projectileType: projectileDesertSkiff
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * reload: 1500
+  * attackShieldBorder: false
   * clipRetargeting: true
-  * retargetingOffset: 14
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileDesertSkiff
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

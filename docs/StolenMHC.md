@@ -3,7 +3,7 @@ title: Stolen Mobile Heavy Cannon (StolenMHC)
 category: unit
 ---
 
-# Stolen Mobile Heavy Cannon (StolenMHC) — version 1080
+# Stolen Mobile Heavy Cannon (StolenMHC) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.33,0.73,-0.17
-  * newRotationSpeed: 15708
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
-  * assetName: umhc_emp-ani
-  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: umhc_emp-ani
-  * iconCameraPosition: 30.35,41.15,37.35
-  * animationDelay: 0
-  * factoryRotation: 90
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,0.90,0
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * factoryRotation: 90
+  * iconCameraPosition: 30.35,41.15,37.35
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_empire_umhc_1":100
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * buffAssetOffset: 0.00,0.90,0
+  * newRotationSpeed: 15708
+  * bundleName: umhc_emp-ani
+  * animationDelay: 0
+  * assetName: umhc_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 900
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 20
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 200
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 900
+  * pathSearchWidth: 200
   * splash: 0
   * favoriteTargetType: turret
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * projectileType: projectileMHC
   * reload: 900
+  * attackShieldBorder: false
   * clipRetargeting: true
-  * retargetingOffset: 20
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileMHC
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Elite AT-AT (HeroATAT)
 category: unit
 ---
 
-# Elite AT-AT (HeroATAT) — version 1080
+# Elite AT-AT (HeroATAT) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -2.41,4.25,-0.65
-  * newRotationSpeed: 3927
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: atathero_emp-ani
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: atathero_emp-ani
-  * iconCameraPosition: 49.18,33.65,54.14
-  * animationDelay: 0
-  * decalSize: 320
-  * factoryScaleFactor: 1
   * gunSequence: 1,1,1,1
-  * buffAssetOffset: 0.00,4.96,0.0
   * factoryRotation: 0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCameraPosition: 49.18,33.65,54.14
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconLookatPosition: -2.41,4.25,-0.65
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * decalSize: 320
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_walker_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,4.96,0.0
+  * newRotationSpeed: 3927
+  * bundleName: atathero_emp-ani
+  * animationDelay: 0
+  * assetName: atathero_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: shieldGenerator
-  * decalAssetName: tac_hero_emp
-  * hologramUid: HeroHologramEmpire2
-  * overWalls: true
-  * shotDelay: 250
-  * xp: 0
-  * selfCenteredTargeting: false
-  * projectileType: projectileHeroATAT
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 8
-  * autoSpawnSpreadingScale: 0
-  * effectType: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: true
-  * decalBundleName: tac_hero_emp
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * reload: 1500
-  * clipRetargeting: false
   * retargetingOffset: 20
+  * decalBundleName: tac_hero_emp
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * effectType: 2
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 500
+  * pathSearchWidth: 200
+  * decalAssetName: tac_hero_emp
+  * favoriteTargetType: shieldGenerator
+  * overWalls: true
+  * reload: 1500
+  * hologramUid: HeroHologramEmpire2
+  * attackShieldBorder: true
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileHeroATAT
+  * shotCount: 8
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

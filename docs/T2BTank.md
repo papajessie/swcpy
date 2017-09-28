@@ -3,7 +3,7 @@ title: T2-B Repulsor Tank (T2BTank)
 category: unit
 ---
 
-# T2-B Repulsor Tank (T2BTank) — version 1080
+# T2-B Repulsor Tank (T2BTank) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * newRotationSpeed: 3927
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
-  * assetName: t2btank_rbl-ani
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * bundleName: t2btank_rbl-ani
-  * iconCameraPosition: 22.79,25.75,28.69
-  * animationDelay: 100
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1,1,2,2
-  * buffAssetOffset: 0.00,0.51,0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
+  * iconCameraPosition: 22.79,25.75,28.69
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * iconLookatPosition: -0.25,0.58,-0.36
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,0.51,0
+  * newRotationSpeed: 3927
+  * bundleName: t2btank_rbl-ani
+  * animationDelay: 100
+  * assetName: t2btank_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 3
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 3
+  * shotDelay: 200
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: closest
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * projectileType: projectileT2BTank
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 4
-  * autoSpawnSpreadingScale: 3
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
   * reload: 2000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 3
+  * projectileType: projectileT2BTank
+  * shotCount: 4
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

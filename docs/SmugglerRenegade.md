@@ -3,7 +3,7 @@ title: Smuggler Renegade (SmugglerRenegade)
 category: unit
 ---
 
-# Smuggler Renegade (SmugglerRenegade) — version 1080
+# Smuggler Renegade (SmugglerRenegade) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, _Shield generator (60)_, _HQ (60)_, _Other building (60)_, _Shield (60)_, Heavy infantry hero (50), Heavy infantry (50), Infantry (50), Heavy vehicle (50), Droideka (50), Vehicle hero (50), Support troop (50), Heavy vehicular hero (50), Flying infantry (50), Flying vehicle (50), Infantry hero (50), Light vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _HQ (60)_, _Storage (60)_, _Ressource generator (60)_, _Shield generator (60)_, _Shield (60)_, _Other building (60)_, Heavy infantry (50), Heavy vehicular hero (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Heavy infantry hero (50), Droideka (50), Heavy vehicle (50), Infantry (50), Infantry hero (50), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,49 +57,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * newRotationSpeed: 7854
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
-  * assetName: speederbike_smg-ani
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * bundleName: speederbike_smg-ani
-  * iconCameraPosition: 14.41,12.49,21.37
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1,2
-  * buffAssetOffset: 0,1,0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 14.41,12.49,21.37
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0,1,0
+  * newRotationSpeed: 7854
+  * bundleName: speederbike_smg-ani
+  * animationDelay: 0
+  * assetName: speederbike_smg-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: infantry
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * xp: 0
-  * projectileType: projectileSmugglerRenegade
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 2
+  * retargetingOffset: 100
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * deathAnimation: buffFireBurn:15
   * shotDelay: 125
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * splash: 0
+  * favoriteTargetType: infantry
+  * overWalls: false
   * reload: 500
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 100
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileSmugglerRenegade
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |----------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|

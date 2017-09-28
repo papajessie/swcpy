@@ -3,7 +3,7 @@ title: Drabatan Saboteur (BigMouthAlien)
 category: unit
 ---
 
-# Drabatan Saboteur (BigMouthAlien) — version 1080
+# Drabatan Saboteur (BigMouthAlien) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.48,1.28,-0.82
-  * newRotationSpeed: 7854
-  * assetName: bigmouthalien_con-ani
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: bigmouthalien_con-ani
-  * iconCameraPosition: 7.8,9.8,16.43
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 2.94,5.03,8.98
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 7.8,9.8,16.43
   * iconCloseupLookatPosition: -0.32,2.05,-1.04
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: -0.48,1.28,-0.82
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconCloseupCameraPosition: 2.94,5.03,8.98
+  * bundleName: bigmouthalien_con-ani
+  * animationDelay: 0
+  * assetName: bigmouthalien_con-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: closest
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 400
-  * pointValue: 4.000
-  * xp: 0
-  * eventButtonAction: galaxy
-  * projectileType: projectileSoldier
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 5
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 1
-  * upgradeShardUid: shrd_troopBigMouthAlien
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
-  * unlockedByEvent: true
-  * eventFeaturesString: fragment_obtain_gen
-  * impactDelay: 1000
   * eventButtonString: hn_open_galaxy
-  * targetPreferenceStrength: 90
-  * iconUnlockScale: 1.2,1.2,1.2
-  * reload: 500
   * clipRetargeting: false
   * retargetingOffset: 10
+  * armingDelay: 0
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 400
+  * targetedType: ENEMIES
+  * impactDelay: 1000
+  * xp: 0
+  * chargeTime: 500
+  * pointValue: 4.000
+  * targetPreferenceStrength: 90
+  * strictCoolDown: false
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 15
+  * splash: 0
+  * unlockedByEvent: true
+  * favoriteTargetType: closest
+  * overWalls: false
+  * reload: 500
+  * attackShieldBorder: false
+  * iconUnlockScale: 1.2,1.2,1.2
+  * upgradeShardUid: shrd_troopBigMouthAlien
+  * eventButtonAction: galaxy
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileSoldier
+  * shotCount: 5
+  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|

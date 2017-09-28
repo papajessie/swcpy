@@ -3,7 +3,7 @@ title: AT-ST (fue_ATST)
 category: unit
 ---
 
-# AT-ST (fue_ATST) — version 1080
+# AT-ST (fue_ATST) — version 1084
 
 ## Main stats
 
@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (55)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), HQ (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -51,48 +51,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.17,2.95,0.85
-  * newRotationSpeed: 3927
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
-  * assetName: atst_emp-ani
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atst_emp-ani
-  * iconCameraPosition: 29.51,14.98,34.56
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1,2
-  * buffAssetOffset: 0.00,3.16,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
+  * iconCameraPosition: 29.51,14.98,34.56
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: 0.17,2.95,0.85
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,3.16,0.00
+  * newRotationSpeed: 3927
+  * bundleName: atst_emp-ani
+  * animationDelay: 0
+  * assetName: atst_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * order: 341403
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 250
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pointValue: 14.000
+  * chargeTime: 1000
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: none
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 250
-  * xp: 0
-  * projectileType: projectileATST
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * order: 341403
-  * pointValue: 14.000
   * reload: 1000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileATST
+  * shotCount: 2
+  * targetedType: ENEMIES
 

@@ -3,7 +3,7 @@ title: Luggabeast Munitioneer (RebelRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (RebelRider) — version 1080
+# Luggabeast Munitioneer (RebelRider) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Ressource generator (0), Turret (0), Storage (0), Shield generator (0), HQ (0), Trap (0), Wall (0), Other building (0), Support troop (0), Shield (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, HQ (0), Turret (0), Support troop (0), Storage (0), Ressource generator (0), Shield generator (0), Shield (0), Trap (0), Other building (0), Wall (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 5
@@ -57,58 +57,58 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.52,2.15,-1.3
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * assetName: rider_con-ani
-  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
-  * bundleName: rider_con-ani
-  * iconCameraPosition: 23.58,31.88,32.8
-  * animationDelay: 0
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 23.58,31.88,32.8
+  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * decalSize: 160
+  * tooltipHeightOffset: 1.5
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: rider_con-ani
+  * animationDelay: 0
+  * assetName: rider_con-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * targetedType: ALLIES
-  * chargeTime: 0
-  * targetLocking: true
-  * retargetingOffset: 15
-  * infoUIType: DamageBuff
-  * selfCenteredTargeting: true
-  * overWalls: true
-  * shotDelay: 0
-  * favoriteTargetType: closest
-  * xp: 0
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 0
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
   * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
-  * deathProjectileDelay: 0
-  * deathProjectileDistance: 0
-  * spawnEffectUid: effectEmpireSpawn
-  * targetPreferenceStrength: 1
-  * splash: 0
-  * deathProjectileDamage: 0
-  * reload: 5000
-  * clipRetargeting: false
   * supportFollowDistance: 4
+  * deathProjectileDistance: 0
+  * strictCoolDown: false
+  * retargetingOffset: 15
+  * armingDelay: 0
+  * deathProjectileDamage: 0
+  * maxScale: false
+  * targetLocking: true
+  * selfCenteredTargeting: true
+  * autoSpawnRateScale: 1
+  * shotDelay: 0
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 1
+  * chargeTime: 0
+  * reload: 5000
+  * pathSearchWidth: 15
+  * splash: 0
+  * favoriteTargetType: closest
+  * overWalls: true
+  * infoUIType: DamageBuff
+  * spawnEffectUid: effectEmpireSpawn
+  * deathProjectileDelay: 0
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
+  * targetedType: ALLIES
 
 |Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |order          |215301              |215302              |215303              |215304              |215305              |215306              |215307              |215308              |215309              |215310               |
+|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
 |deathProjectile|projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
 |projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
-|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
 

@@ -3,7 +3,7 @@ title: MTV-7 (MTV7)
 category: unit
 ---
 
-# MTV-7 (MTV7) — version 1080
+# MTV-7 (MTV7) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (80)**, **Storage (80)**, Heavy infantry hero (50), Turret (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Vehicle hero (50), Other building (50), Support troop (50), Heavy vehicular hero (50), Flying infantry (50), Flying vehicle (50), Shield (50), Infantry hero (50), Light vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Heavy infantry hero (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Infantry hero (50), Other building (50), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 0
   * View Range: 8
@@ -57,62 +57,62 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.04,1.16,0.04
-  * newRotationSpeed: 7854
-  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
-  * assetName: mtv7_emp-ani
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * bundleName: mtv7_emp-ani
-  * iconCameraPosition: 17.7,17.49,19.17
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,0.41,0.0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 17.7,17.49,19.17
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * iconLookatPosition: 0.04,1.16,0.04
+  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.41,0.0
+  * newRotationSpeed: 7854
+  * bundleName: mtv7_emp-ani
+  * animationDelay: 0
+  * assetName: mtv7_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
-  * targetPreferenceStrength: 90
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: resource
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 0
-  * xp: 0
-  * eventButtonAction: planet
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * eventButtonData: planet21
-  * autoSpawnSpreadingScale: 2
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * unlockedByEvent: true
-  * upgradeShardUid: shrd_troopMTV7
-  * impactDelay: 1000
-  * eventButtonString: hn_open_hth
   * targetLocking: false
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * projectileType: projectileMTV7
-  * reload: 800
+  * eventButtonString: hn_open_hth
   * clipRetargeting: false
-  * ability: abilityMTVIonShot
   * retargetingOffset: 20
+  * armingDelay: 0
+  * eventButtonData: planet21
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * impactDelay: 1000
+  * shotDelay: 0
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * autoSpawnRateScale: 2
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * strictCoolDown: false
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 15
+  * splash: 0
+  * unlockedByEvent: true
+  * ability: abilityMTVIonShot
+  * favoriteTargetType: resource
+  * overWalls: false
+  * reload: 800
+  * attackShieldBorder: false
+  * upgradeShardUid: shrd_troopMTV7
+  * eventButtonAction: planet
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * targetedType: ENEMIES
+  * shotCount: 1
+  * projectileType: projectileMTV7
 
 |Level             |1     |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|iconUnlockScale   |1,1,1 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |iconUnlockRotation|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|order             |131101|131102     |131103     |131104     |131105     |131106     |131107     |131108     |131109     |131110     |
 |pointValue        |5.000 |6.000      |7.000      |8.000      |9.000      |10.000     |11.000     |12.000     |13.000     |15.000     |
 |iconUnlockPosition|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|order             |131101|131102     |131103     |131104     |131105     |131106     |131107     |131108     |131109     |131110     |
+|iconUnlockScale   |1,1,1 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

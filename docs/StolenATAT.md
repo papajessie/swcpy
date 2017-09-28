@@ -3,7 +3,7 @@ title: Stolen AT-AT Walker (StolenATAT)
 category: unit
 ---
 
-# Stolen AT-AT Walker (StolenATAT) — version 1080
+# Stolen AT-AT Walker (StolenATAT) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 9
   * Min. Range: 1
   * View Range: 12
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -2.01,3.9,-0.8
-  * newRotationSpeed: 982
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
-  * assetName: atat_emp-ani
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: atat_emp-ani
-  * iconCameraPosition: 41.83,40.55,52.41
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1,1,1,1
-  * buffAssetOffset: 0,4.00,0.00
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * factoryRotation: 0
+  * iconCameraPosition: 41.83,40.55,52.41
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconLookatPosition: -2.01,3.9,-0.8
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * buffAssetOffset: 0,4.00,0.00
+  * newRotationSpeed: 982
+  * bundleName: atat_emp-ani
+  * animationDelay: 0
+  * assetName: atat_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 18
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 200
   * splash: 0
   * favoriteTargetType: shieldGenerator
-  * selfCenteredTargeting: false
   * overWalls: true
-  * shotDelay: 250
-  * xp: 0
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 8
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: true
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * projectileType: projectileStolenATAT
   * reload: 1500
+  * attackShieldBorder: true
   * clipRetargeting: false
-  * retargetingOffset: 18
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileStolenATAT
+  * shotCount: 8
+  * targetedType: ENEMIES
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

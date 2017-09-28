@@ -3,7 +3,7 @@ title: Smuggler Guardian (SmugglerGuardian)
 category: unit
 ---
 
-# Smuggler Guardian (SmugglerGuardian) — version 1080
+# Smuggler Guardian (SmugglerGuardian) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, **Shield generator (70)**, **Shield (70)**, _Heavy infantry (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Droideka (60)_, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, _Light vehicle (60)_, Ressource generator (50), Storage (50), HQ (50), Other building (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, **Shield generator (70)**, **Shield (70)**, _Heavy infantry (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy vehicle (60)_, _Infantry (60)_, HQ (50), Storage (50), Ressource generator (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,53 +57,53 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
-  * assetName: bountyhunter_smg-ani
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: bountyhunter_smg-ani
-  * iconCameraPosition: 9,10,11.12
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1,2
-  * buffAssetOffset: 0.00,0.08,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 9,10,11.12
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: 0.09,1.4,0.28
+  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.08,0.00
+  * newRotationSpeed: 7854
+  * bundleName: bountyhunter_smg-ani
+  * animationDelay: 0
+  * assetName: bountyhunter_smg-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
+  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 100
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: turret
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
-  * xp: 0
-  * projectileType: projectileSmugglerGuardian
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
   * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
   * clipRetargeting: false
-  * retargetingOffset: 100
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileSmugglerGuardian
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|chargeTime|500   |500   |500   |500   |500   |500   |500   |500   |500   |250   |
-|shotCount |1     |1     |1     |1     |1     |1     |1     |1     |1     |3     |
-|shotDelay |200   |200   |200   |200   |200   |200   |200   |200   |200   |500   |
 |order     |334201|334202|334203|334204|334205|334206|334207|334208|334209|334210|
+|shotDelay |200   |200   |200   |200   |200   |200   |200   |200   |200   |500   |
 |pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|chargeTime|500   |500   |500   |500   |500   |500   |500   |500   |500   |250   |
 |reload    |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |2000  |
+|shotCount |1     |1     |1     |1     |1     |1     |1     |1     |1     |3     |
 

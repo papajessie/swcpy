@@ -3,7 +3,7 @@ title: AT-ST Walker (ATST)
 category: unit
 ---
 
-# AT-ST Walker (ATST) — version 1080
+# AT-ST Walker (ATST) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.17,2.95,0.85
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
-  * assetName: atst_emp-ani
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atst_emp-ani
-  * iconCameraPosition: 29.51,14.98,34.56
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * gunSequence: 1,2
-  * buffAssetOffset: 0.00,3.16,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 29.51,14.98,34.56
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: 0.17,2.95,0.85
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
   * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,3.16,0.00
+  * newRotationSpeed: 7854
+  * bundleName: atst_emp-ani
+  * animationDelay: 0
+  * assetName: atst_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 1000
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: closest
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 250
-  * xp: 0
-  * projectileType: projectileATST
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
   * reload: 1000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileATST
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

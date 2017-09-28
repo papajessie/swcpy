@@ -3,7 +3,7 @@ title: Dewback Trooper (Dewback)
 category: unit
 ---
 
-# Dewback Trooper (Dewback) — version 1080
+# Dewback Trooper (Dewback) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -57,53 +57,53 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.75,1.05,-0.6
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: dewback_emp-ani
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * bundleName: dewback_emp-ani
-  * iconCameraPosition: 17.06,13.27,18.62
-  * animationDelay: 1000
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,1.01,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 17.06,13.27,18.62
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * iconLookatPosition: -0.75,1.05,-0.6
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,1.01,0.00
+  * newRotationSpeed: 7854
+  * bundleName: dewback_emp-ani
+  * animationDelay: 1000
+  * assetName: dewback_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
-  * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * xp: 0
-  * armingDelay: 0
+  * targetLocking: false
   * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 5
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 4
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
   * shotDelay: 750
   * impactDelay: 0
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 200
+  * splash: 0
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 0
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 4
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 5
+  * targetedType: ENEMIES
 
 |Level         |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |--------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
-|projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
 |order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
 |pointValue    |3.000                       |3.600                       |4.200                       |4.800                       |5.400                       |6.000                       |6.600                       |7.200                       |7.800                       |9.000                        |
+|projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
 

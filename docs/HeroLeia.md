@@ -3,7 +3,7 @@ title: Leia Organa (HeroLeia)
 category: unit
 ---
 
-# Leia Organa (HeroLeia) — version 1080
+# Leia Organa (HeroLeia) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Flying vehicle (60)**, **Light vehicle (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Other building (50), Shield (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Light vehicle (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy vehicle (60)**, **Infantry (60)**, HQ (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.06,1.58,0.16
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * assetName: princessleia_rbl-ani
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * audioPlacement: "sfx_placement_hero_leia":100
-  * bundleName: princessleia_rbl-ani
-  * iconCameraPosition: 11.91,11.82,11.76
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 1.49,1.49,7.71
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * iconCloseupLookatPosition: 0,2.44,-0.3
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 11.91,11.82,11.76
+  * iconCloseupLookatPosition: 0,2.44,-0.3
+  * iconLookatPosition: 0.06,1.58,0.16
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * decalSize: 160
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_leia":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_hero_leia":100
+  * iconCloseupCameraPosition: 1.49,1.49,7.71
+  * bundleName: princessleia_rbl-ani
+  * animationDelay: 0
+  * assetName: princessleia_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: infantry
-  * decalAssetName: tac_hero_rbl
-  * hologramUid: HeroHologramRebel3
-  * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * selfCenteredTargeting: false
-  * projectileType: projectileHeroLeia
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_rbl
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * reload: 500
-  * clipRetargeting: true
   * retargetingOffset: 14
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 200
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * decalAssetName: tac_hero_rbl
+  * favoriteTargetType: infantry
+  * overWalls: false
+  * reload: 500
+  * hologramUid: HeroHologramRebel3
+  * attackShieldBorder: false
+  * clipRetargeting: true
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileHeroLeia
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

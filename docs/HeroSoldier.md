@@ -3,7 +3,7 @@ title: Oto Vans (HeroSoldier)
 category: unit
 ---
 
-# Oto Vans (HeroSoldier) — version 1080
+# Oto Vans (HeroSoldier) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Other building (50)**, **Support troop (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Light vehicle (50)**, Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.2,1.46,0.41
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * assetName: soldierhero_rbl-ani
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * audioPlacement: "sfx_placement_hero_oto":100
-  * bundleName: soldierhero_rbl-ani
-  * iconCameraPosition: 7.18,10.31,13.72
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 0.23,1.56,8.6
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * iconCloseupLookatPosition: -0.05,2.03,-0.84
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 7.18,10.31,13.72
+  * iconCloseupLookatPosition: -0.05,2.03,-0.84
+  * iconLookatPosition: -0.2,1.46,0.41
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * decalSize: 160
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_oto":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_hero_oto":100
+  * iconCloseupCameraPosition: 0.23,1.56,8.6
+  * bundleName: soldierhero_rbl-ani
+  * animationDelay: 0
+  * assetName: soldierhero_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: closest
-  * decalAssetName: tac_hero_rbl
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * projectileType: projectileHeroLeia
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 0
-  * effectType: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_rbl
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * reload: 500
-  * clipRetargeting: false
   * retargetingOffset: 14
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * effectType: 1
+  * shotDelay: 200
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 500
+  * pathSearchWidth: 15
+  * decalAssetName: tac_hero_rbl
+  * favoriteTargetType: closest
+  * overWalls: false
+  * reload: 500
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileHeroLeia
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |210801|210802|210803|210804|210805|210806|210807|210808|210809|210810|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

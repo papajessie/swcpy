@@ -3,7 +3,7 @@ title: Er'Kit Militia Sniper (ErkitSniper)
 category: unit
 ---
 
-# Er'Kit Militia Sniper (ErkitSniper) — version 1080
+# Er'Kit Militia Sniper (ErkitSniper) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry (60)**, **Infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Heavy vehicle (50), Other building (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Infantry (60)**, HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Heavy vehicle (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 8
@@ -57,49 +57,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * assetName: erkit3_neu-ani
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: erkit3_neu-ani
-  * iconCameraPosition: 8.56,9.58,10.6
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 8.56,9.58,10.6
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: 0.09,1.4,0.28
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: erkit3_neu-ani
+  * animationDelay: 0
+  * assetName: erkit3_neu-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
-  * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: heroes
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * xp: 0
-  * projectileType: projectileMarksman
-  * armingDelay: 0
+  * targetLocking: false
   * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 3
-  * autoSpawnSpreadingScale: 2
+  * retargetingOffset: 18
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * deathAnimation: buffFireBurn:15
   * shotDelay: 500
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
+  * splash: 0
+  * favoriteTargetType: heroes
+  * overWalls: false
   * reload: 2000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 18
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileMarksman
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
