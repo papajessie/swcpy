@@ -3,7 +3,7 @@ title: AT-MP (ATMP)
 category: unit
 ---
 
-# AT-MP (ATMP) — version 1080
+# AT-MP (ATMP) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (90)**, **Shield (90)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (90)**, **Shield (90)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 10
@@ -57,49 +57,49 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * newRotationSpeed: 2000
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: atmp_emp-ani
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atmp_emp-ani
-  * iconCameraPosition: 22.45,15.49,39.24
-  * animationDelay: 0
-  * factoryRotation: -90
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
   * gunSequence: 1,3,5,2,4,6
-  * buffAssetOffset: 0.00,3.0,0.00
-  * rotationSpeed: 2
+  * factoryRotation: -90
+  * iconCameraPosition: 22.45,15.49,39.24
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
   * audioDeath: "sfx_death_empire_atmp_1":100
+  * rotationSpeed: 2
+  * buffAssetOffset: 0.00,3.0,0.00
+  * newRotationSpeed: 2000
+  * bundleName: atmp_emp-ani
+  * animationDelay: 0
+  * assetName: atmp_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 200
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: shieldGenerator
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * projectileType: projectileATMP
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 4
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: true
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * reload: 2000
+  * attackShieldBorder: true
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileATMP
+  * shotCount: 4
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Han Solo (HeroHanSolo)
 category: unit
 ---
 
-# Han Solo (HeroHanSolo) — version 1080
+# Han Solo (HeroHanSolo) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield generator (60)_, _Shield (60)_, Ressource generator (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1)
+  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield generator (60)_, _Shield (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.01,1.77,0.14
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * assetName: hansolo_rbl-ani
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * audioPlacement: "sfx_placement_hero_han":100
-  * bundleName: hansolo_rbl-ani
-  * iconCameraPosition: 11.5,12.83,14.14
-  * animationDelay: 0
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 11.5,12.83,14.14
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * iconLookatPosition: -0.01,1.77,0.14
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * decalSize: 160
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_han":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_hero_han":100
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * bundleName: hansolo_rbl-ani
+  * animationDelay: 0
+  * assetName: hansolo_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 50
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * decalAssetName: tac_hero_rbl
-  * hologramUid: HeroHologramRebel1
-  * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * selfCenteredTargeting: false
-  * projectileType: projectileHeroHanSolo
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_rbl
-  * impactDelay: 250
-  * targetPreferenceStrength: 90
-  * reload: 850
-  * clipRetargeting: false
   * retargetingOffset: 14
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * shotDelay: 200
+  * impactDelay: 250
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 50
+  * pathSearchWidth: 15
+  * decalAssetName: tac_hero_rbl
+  * favoriteTargetType: turret
+  * overWalls: false
+  * reload: 850
+  * hologramUid: HeroHologramRebel1
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileHeroHanSolo
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |210301|210302|210303|210304|210305|210306|210307|210308|210309|210310|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

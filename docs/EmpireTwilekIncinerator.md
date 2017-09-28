@@ -3,7 +3,7 @@ title: Twi'lek Incinerator (EmpireTwilekIncinerator)
 category: unit
 ---
 
-# Twi'lek Incinerator (EmpireTwilekIncinerator) — version 1080
+# Twi'lek Incinerator (EmpireTwilekIncinerator) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Shield (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Shield (1), Wall (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 12
@@ -57,57 +57,57 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.29,1.36,-0.25
-  * newRotationSpeed: 7854
-  * assetName: twilek_con-ani
-  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
-  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
-  * bundleName: twilek_con-ani
-  * iconCameraPosition: 7.27,7.61,17.96
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 1.37,0.41,9.67
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 7.27,7.61,17.96
   * iconCloseupLookatPosition: -0.06,2.28,-0.53
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: -0.29,1.36,-0.25
+  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
+  * iconCloseupCameraPosition: 1.37,0.41,9.67
+  * bundleName: twilek_con-ani
+  * animationDelay: 0
+  * assetName: twilek_con-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * targetedType: ENEMIES
-  * chargeTime: 1000
+  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
   * targetLocking: false
+  * strictCoolDown: false
   * retargetingOffset: 14
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
+  * deathProjectileDistance: 0
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 1000
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: closest
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
-  * deathProjectileDelay: 0
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
-  * deathProjectileDistance: 0
   * reload: 500
+  * deathProjectileDelay: 0
+  * attackShieldBorder: false
   * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotDelay: 200
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level                |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
 |---------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
-|pointValue           |1.000                                           |1.200                                           |1.400                                           |1.600                                           |1.800                                           |2.000                                           |2.200                                           |2.400                                           |2.600                                           |3.000                                            |
 |deathProjectileDamage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
-|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 |order                |115201                                          |115202                                          |115203                                          |115204                                          |115205                                          |115206                                          |115207                                          |115208                                          |115209                                          |115210                                           |
+|pointValue           |1.000                                           |1.200                                           |1.400                                           |1.600                                           |1.800                                           |2.000                                           |2.200                                           |2.400                                           |2.600                                           |3.000                                            |
+|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
 |projectileType       |projectileFlamethrowerTwiLekIncineratorLvl1     |projectileFlamethrowerTwiLekIncineratorLvl2     |projectileFlamethrowerTwiLekIncineratorLvl3     |projectileFlamethrowerTwiLekIncineratorLvl4     |projectileFlamethrowerTwiLekIncineratorLvl5     |projectileFlamethrowerTwiLekIncineratorLvl6     |projectileFlamethrowerTwiLekIncineratorLvl7     |projectileFlamethrowerTwiLekIncineratorLvl8     |projectileFlamethrowerTwiLekIncineratorLvl9     |projectileFlamethrowerTwiLekIncineratorLvl10     |
 

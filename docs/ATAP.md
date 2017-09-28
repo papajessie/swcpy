@@ -3,7 +3,7 @@ title: AT-AP Walker (ATAP)
 category: unit
 ---
 
-# AT-AP Walker (ATAP) — version 1080
+# AT-AP Walker (ATAP) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.59,2.38,-0.99
-  * newRotationSpeed: 3927
-  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
-  * assetName: atap_rbl-ani
-  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atap_rbl-ani
-  * iconCameraPosition: 20.98,26.07,34.08
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
   * gunSequence: 1,2
-  * buffAssetOffset: 0.00,1.94,0.00
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
+  * iconCameraPosition: 20.98,26.07,34.08
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: -0.59,2.38,-0.99
+  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
+  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
   * audioDeath: "sfx_death_rebel_atap_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,1.94,0.00
+  * newRotationSpeed: 3927
+  * bundleName: atap_rbl-ani
+  * animationDelay: 0
+  * assetName: atap_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 16
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 200
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 15
   * splash: 0
   * favoriteTargetType: shieldGenerator
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 200
-  * xp: 0
-  * projectileType: projectileATAP
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 4
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: true
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
   * reload: 2000
+  * attackShieldBorder: true
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileATAP
+  * shotCount: 4
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

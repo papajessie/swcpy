@@ -3,7 +3,7 @@ title: trp_title_ATTEFakeHero (no text translation) (ATTEFakeHero)
 category: unit
 ---
 
-# trp_title_ATTEFakeHero (no text translation) (ATTEFakeHero) — version 1080
+# trp_title_ATTEFakeHero (no text translation) (ATTEFakeHero) — version 1084
 
 ## Main stats
 
@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (60)**, **Heavy infantry (60)**, **Infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Flying infantry (60)**, **Infantry hero (60)**, Ressource generator (50), Turret (50), Storage (50), Shield generator (50), HQ (50), Heavy vehicle (50), Vehicle hero (50), Other building (50), Heavy vehicular hero (50), Flying vehicle (50), Shield (50), Light vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, **Infantry (60)**, **Infantry hero (60)**, Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Heavy vehicle (50), Other building (50), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -52,52 +52,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * newRotationSpeed: 982
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
-  * assetName: atte_rbl-ani
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: atte_rbl-ani
-  * iconCameraPosition: 24.47,22.61,37.05
-  * animationDelay: 0
-  * decalSize: 320
-  * factoryScaleFactor: 1
   * gunSequence: 1,2,3,4,5
-  * buffAssetOffset: 0.00,1.46,0.00
   * factoryRotation: 0
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * iconCameraPosition: 24.47,22.61,37.05
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconLookatPosition: -0.2,1.23,-0.57
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * decalSize: 320
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_walker_1":100
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * buffAssetOffset: 0.00,1.46,0.00
+  * newRotationSpeed: 982
+  * bundleName: atte_rbl-ani
+  * animationDelay: 0
+  * assetName: atte_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: infantry
-  * decalAssetName: tac_hero_rbl
-  * selfCenteredTargeting: false
-  * overWalls: true
-  * shotDelay: 500
-  * xp: 0
-  * projectileType: projectileBlasterRebelATTE
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 5
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_rbl
-  * impactDelay: 500
-  * spawnEffectUid: effectRebelSpawn
-  * targetPreferenceStrength: 90
-  * order: 244808
-  * pointValue: 48.000
-  * reload: 1000
-  * clipRetargeting: false
   * retargetingOffset: 100
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * maxScale: false
+  * order: 244808
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * shotDelay: 500
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pointValue: 48.000
+  * chargeTime: 1000
+  * pathSearchWidth: 15
+  * splash: 0
+  * decalAssetName: tac_hero_rbl
+  * favoriteTargetType: infantry
+  * overWalls: true
+  * reload: 1000
+  * spawnEffectUid: effectRebelSpawn
+  * attackShieldBorder: false
+  * clipRetargeting: false
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * projectileType: projectileBlasterRebelATTE
+  * shotCount: 5
+  * targetedType: ENEMIES
 

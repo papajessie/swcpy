@@ -3,7 +3,7 @@ title: Tusken Chieftain (TuskenHero)
 category: unit
 ---
 
-# Tusken Chieftain (TuskenHero) — version 1080
+# Tusken Chieftain (TuskenHero) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Flying infantry (95)_, _Heavy vehicle (90)_, _Flying vehicle (80)_, _Light vehicle (80)_, _Turret (55)_, Ressource generator (50), Storage (50), Shield generator (50), Other building (50), Shield (50), HQ (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Flying infantry (95)_, _Droideka (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -54,53 +54,53 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.51,2,0.29
-  * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * assetName: tuskenhero_tkn-ani
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: tuskenhero_tkn-ani
-  * iconCameraPosition: 6.91,15.66,23.15
-  * animationDelay: 350
-  * decalSize: 160
-  * factoryScaleFactor: 1
   * gunSequence: 1
   * factoryRotation: 0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 6.91,15.66,23.15
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconLookatPosition: -0.51,2,0.29
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * decalSize: 160
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: tuskenhero_tkn-ani
+  * animationDelay: 350
+  * assetName: tuskenhero_tkn-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: infantry
-  * decalAssetName: tac_hero_neu
+  * uiDecalAssetName: HeroDecalNeutral
+  * strictCoolDown: false
+  * retargetingOffset: 10
+  * decalBundleName: tac_hero_neu
+  * armingDelay: 0
+  * maxScale: false
   * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
   * deathAnimation: buffFireBurn:15
   * shotDelay: 500
-  * xp: 0
-  * overWalls: false
-  * projectileType: projectileTuskenHero
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * heroData: hero9
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * uiDecalAssetName: HeroDecalNeutral
-  * decalBundleName: tac_hero_neu
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 1000
+  * pathSearchWidth: 1
+  * heroData: hero9
+  * decalAssetName: tac_hero_neu
+  * favoriteTargetType: infantry
+  * overWalls: false
   * reload: 0
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileTuskenHero
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

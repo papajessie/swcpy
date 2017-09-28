@@ -3,7 +3,7 @@ title: Imperial Astromedic (R5Medic)
 category: unit
 ---
 
-# Imperial Astromedic (R5Medic) — version 1080
+# Imperial Astromedic (R5Medic) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Infantry (50)**, **Infantry hero (50)**, Ressource generator (0), Turret (0), Storage (0), Shield generator (0), HQ (0), Trap (0), Heavy vehicle (0), Droideka (0), Vehicle hero (0), Wall (0), Other building (0), Support troop (0), Heavy vehicular hero (0), Flying infantry (0), Flying vehicle (0), Shield (0), Light vehicle (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy infantry hero (50)**, **Infantry (50)**, **Infantry hero (50)**, Heavy vehicular hero (0), HQ (0), Light vehicle (0), Vehicle hero (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Shield generator (0), Shield (0), Droideka (0), Heavy vehicle (0), Trap (0), Other building (0), Wall (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,61 +57,61 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.19,0.88,-0.37
-  * newRotationSpeed: 7854
-  * assetName: r5droid_emp-ani
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
-  * bundleName: r5droid_emp-ani
-  * iconCameraPosition: 5.21,9.06,13.12
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 5.21,9.06,13.12
+  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
+  * iconLookatPosition: -0.19,0.88,-0.37
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: r5droid_emp-ani
+  * animationDelay: 0
+  * assetName: r5droid_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 50
-  * targetPreferenceStrength: 90
-  * targetedType: ALLIES
-  * infoUIType: Healer
-  * selfCenteredTargeting: true
-  * overWalls: false
-  * shotDelay: 400
-  * favoriteTargetType: infantry
-  * xp: 0
-  * eventButtonAction: galaxy
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 1
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
-  * unlockedByEvent: true
-  * upgradeShardUid: shrd_troopR5Medic
-  * impactDelay: 250
-  * eventButtonString: hn_open_galaxy
-  * targetLocking: true
-  * splash: 0
-  * reload: 900
-  * clipRetargeting: false
   * supportFollowDistance: 5
+  * reload: 900
+  * eventButtonString: hn_open_galaxy
+  * clipRetargeting: false
   * retargetingOffset: 10
+  * armingDelay: 0
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * maxScale: false
+  * targetLocking: true
+  * selfCenteredTargeting: true
+  * splash: 0
+  * shotDelay: 400
+  * targetedType: ALLIES
+  * autoSpawnRateScale: 1
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 50
+  * strictCoolDown: false
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 15
+  * unlockedByEvent: true
+  * favoriteTargetType: infantry
+  * overWalls: false
+  * infoUIType: Healer
+  * attackShieldBorder: false
+  * upgradeShardUid: shrd_troopR5Medic
+  * eventButtonAction: galaxy
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 250
+  * shotCount: 2
+  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
 
 |Level             |1                 |2                 |3                 |4                 |5                 |6                 |7                 |8                 |9                 |10                 |
 |------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
-|order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
-|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |iconUnlockRotation|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
 |pointValue        |5.000             |6.000             |7.000             |8.000             |9.000             |10.000            |11.000            |12.000            |13.000            |15.000             |
 |iconUnlockPosition|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
 

@@ -1,8 +1,14 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1080
+# Conflicts — version 1084
 
+  * [Conflict on Yavin 4 (conflict_yav_20170928)](conflict_yav_20170928.html)
+  * [Conflict on Er'Kit (conflict_erk_20170928)](conflict_erk_20170928.html)
+  * [Conflict on Dandoran (conflict_dan_20170928)](conflict_dan_20170928.html)
+  * [Conflict on Takodana (conflict_tak_20170928)](conflict_tak_20170928.html)
+  * [Conflict on Hoth (conflict_hth_20170928)](conflict_hth_20170928.html)
+  * [Conflict on Tatooine (conflict_tat_20170928)](conflict_tat_20170928.html)
   * [Conflict on Dandoran (conf_dan_20170923)](conf_dan_20170923.html)
   * [Conflict on Tatooine (conf_tat_20170921)](conf_tat_20170921.html)
   * [Conflict on Er'Kit (conf_erk_20170921)](conf_erk_20170921.html)

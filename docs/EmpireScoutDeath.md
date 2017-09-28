@@ -3,7 +3,7 @@ title: Scout Undead Trooper (EmpireScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (EmpireScoutDeath) — version 1080
+# Scout Undead Trooper (EmpireScoutDeath) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Ressource generator (80)**, **Storage (80)**, Heavy infantry hero (50), Turret (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Vehicle hero (50), Other building (50), Support troop (50), Heavy vehicular hero (50), Flying infantry (50), Flying vehicle (50), Shield (50), Infantry hero (50), Light vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Heavy infantry hero (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Infantry hero (50), Other building (50), Wall (1), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -57,50 +57,50 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.06,1.74,0.02
-  * newRotationSpeed: 7854
-  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
-  * assetName: scotrper_dth-ani
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * bundleName: scotrper_dth-ani
-  * iconCameraPosition: 10.84,12.06,13.07
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 10.84,12.06,13.07
   * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: 0.06,1.74,0.02
+  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * bundleName: scotrper_dth-ani
+  * animationDelay: 0
+  * assetName: scotrper_dth-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 8
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 0
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: resource
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 0
-  * xp: 0
-  * projectileType: projectileScoutDeath
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
   * reload: 800
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 8
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileScoutDeath
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

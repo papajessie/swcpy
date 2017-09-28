@@ -3,7 +3,7 @@ title: TX-225 (EmpireHovertankSample)
 category: unit
 ---
 
-# TX-225 (EmpireHovertankSample) — version 1080
+# TX-225 (EmpireHovertankSample) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 8
   * Min. Range: 0
   * View Range: 8
@@ -58,51 +58,51 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.59,0.62,-0.25
-  * newRotationSpeed: 2000
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * assetName: hovertankempire_emp-ani
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * bundleName: hovertankempire_emp-ani
-  * iconCameraPosition: 23.7,17.94,45.6
-  * buffAssetOffset: 0.0,1.14,0.0
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 23.7,17.94,45.6
-  * factoryRotation: 0
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
   * gunSequence: 1,1,1,1
+  * factoryRotation: 0
+  * iconCameraPosition: 23.7,17.94,45.6
   * iconCloseupLookatPosition: -0.59,0.62,-0.25
-  * rotationSpeed: 2
+  * iconLookatPosition: -0.59,0.62,-0.25
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
   * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * rotationSpeed: 2
+  * buffAssetOffset: 0.0,1.14,0.0
+  * newRotationSpeed: 2000
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * bundleName: hovertankempire_emp-ani
+  * animationDelay: 0
+  * assetName: hovertankempire_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 3
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * selfCenteredTargeting: false
-  * overWalls: false
-  * shotDelay: 800
-  * xp: 0
-  * projectileType: projectile2MTank
-  * armingDelay: 0
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 16
-  * autoSpawnSpreadingScale: 3
+  * retargetingOffset: 16
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 3
+  * shotDelay: 800
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
   * pointValue: 1.000
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * splash: 0
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 2000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 16
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 3
+  * projectileType: projectile2MTank
+  * shotCount: 16
+  * targetedType: ENEMIES
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

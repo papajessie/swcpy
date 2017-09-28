@@ -3,7 +3,7 @@ title: WED Treadwell Repair Droid (Treadwell)
 category: unit
 ---
 
-# WED Treadwell Repair Droid (Treadwell) — version 1080
+# WED Treadwell Repair Droid (Treadwell) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry hero (0), Ressource generator (0), Turret (0), Storage (0), Heavy infantry (0), Shield generator (0), HQ (0), Infantry (0), Trap (0), Droideka (0), Wall (0), Other building (0), Support troop (0), Flying infantry (0), Flying vehicle (0), Shield (0), Infantry hero (0)
+  * Target preferences: **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, Heavy infantry (0), HQ (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Heavy infantry hero (0), Shield generator (0), Shield (0), Droideka (0), Trap (0), Infantry (0), Infantry hero (0), Other building (0), Wall (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,61 +57,61 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.2,0.77,-0.68
-  * newRotationSpeed: 7854
-  * assetName: treadwell_rbl-ani
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
-  * bundleName: treadwell_rbl-ani
-  * iconCameraPosition: 5.8,11.77,14.32
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 5.8,11.77,14.32
+  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
+  * iconLookatPosition: -0.2,0.77,-0.68
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: treadwell_rbl-ani
+  * animationDelay: 0
+  * assetName: treadwell_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
-  * targetPreferenceStrength: 90
-  * targetedType: ALLIES
-  * infoUIType: Healer
-  * selfCenteredTargeting: true
-  * overWalls: false
-  * shotDelay: 500
-  * favoriteTargetType: vehicles
-  * xp: 0
-  * eventButtonAction: galaxy
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 1
-  * eventFeaturesString: fragment_obtain_gen
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
-  * unlockedByEvent: true
-  * upgradeShardUid: shrd_troopTreadwell
-  * impactDelay: 1000
-  * eventButtonString: hn_open_galaxy
-  * targetLocking: true
-  * splash: 0
-  * reload: 2000
-  * clipRetargeting: false
   * supportFollowDistance: 5
+  * reload: 2000
+  * eventButtonString: hn_open_galaxy
+  * clipRetargeting: false
   * retargetingOffset: 10
+  * armingDelay: 0
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * maxScale: false
+  * targetLocking: true
+  * selfCenteredTargeting: true
+  * splash: 0
+  * shotDelay: 500
+  * targetedType: ALLIES
+  * autoSpawnRateScale: 1
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * strictCoolDown: false
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 15
+  * unlockedByEvent: true
+  * favoriteTargetType: vehicles
+  * overWalls: false
+  * infoUIType: Healer
+  * attackShieldBorder: false
+  * upgradeShardUid: shrd_troopTreadwell
+  * eventButtonAction: galaxy
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * shotCount: 1
+  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
 
 |Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
-|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
 |pointValue        |4.000               |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
 |iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |projectileType    |projectileTreadwell1|projectileTreadwell2|projectileTreadwell3|projectileTreadwell4|projectileTreadwell5|projectileTreadwell6|projectileTreadwell7|projectileTreadwell8|projectileTreadwell9|projectileTreadwell10|
 

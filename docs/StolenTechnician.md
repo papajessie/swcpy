@@ -3,7 +3,7 @@ title: Stolen Repair Droid (StolenTechnician)
 category: unit
 ---
 
-# Stolen Repair Droid (StolenTechnician) — version 1080
+# Stolen Repair Droid (StolenTechnician) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry hero (0), Ressource generator (0), Turret (0), Storage (0), Heavy infantry (0), Shield generator (0), HQ (0), Infantry (0), Trap (0), Droideka (0), Wall (0), Other building (0), Support troop (0), Flying infantry (0), Flying vehicle (0), Shield (0), Infantry hero (0)
+  * Target preferences: **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, Heavy infantry (0), HQ (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Heavy infantry hero (0), Shield generator (0), Shield (0), Droideka (0), Trap (0), Infantry (0), Infantry hero (0), Other building (0), Wall (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.06,2.6,-0.14
-  * newRotationSpeed: 7854
-  * assetName: techniciandroid_emp-ani
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * bundleName: techniciandroid_emp-ani
-  * iconCameraPosition: 7.9,7.91,12.71
-  * animationDelay: 0
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 7.9,7.91,12.71
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * iconLookatPosition: 0.06,2.6,-0.14
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: techniciandroid_emp-ani
+  * animationDelay: 0
+  * assetName: techniciandroid_emp-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
-  * targetLocking: true
-  * targetedType: ALLIES
-  * infoUIType: Healer
-  * selfCenteredTargeting: true
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * favoriteTargetType: vehicles
-  * xp: 0
-  * armingDelay: 0
+  * supportFollowDistance: 5
+  * reload: 2000
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 10
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * targetLocking: true
+  * selfCenteredTargeting: true
+  * autoSpawnRateScale: 1
   * shotDelay: 500
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 15
   * splash: 0
-  * reload: 2000
+  * favoriteTargetType: vehicles
+  * overWalls: false
+  * infoUIType: Healer
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * supportFollowDistance: 5
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
+  * targetedType: ALLIES
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|

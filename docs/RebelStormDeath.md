@@ -3,7 +3,7 @@ title: Undead Trooper (RebelStormDeath)
 category: unit
 ---
 
-# Undead Trooper (RebelStormDeath) — version 1080
+# Undead Trooper (RebelStormDeath) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 12
@@ -57,52 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.05,1.69,0.14
-  * newRotationSpeed: 7854
-  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
-  * assetName: stotrper_dth-ani
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * bundleName: stotrper_dth-ani
-  * iconCameraPosition: 11.27,12.43,13.71
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.5,4.27,7.56
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 11.27,12.43,13.71
   * iconCloseupLookatPosition: -0.5,2.49,-0.78
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: 0.05,1.69,0.14
+  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * iconCloseupCameraPosition: 4.5,4.27,7.56
+  * bundleName: stotrper_dth-ani
+  * animationDelay: 0
+  * assetName: stotrper_dth-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: closest
-  * decalAssetName: troop_stotrper_emp
+  * strictCoolDown: false
+  * retargetingOffset: 14
+  * decalBundleName: troop_stotrper_emp
+  * armingDelay: 0
+  * maxScale: false
   * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
   * deathAnimation: buffFireBurn:15
   * shotDelay: 200
-  * xp: 0
-  * overWalls: false
-  * projectileType: projectileStormDeath
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: troop_stotrper_emp
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 1
+  * splash: 0
+  * decalAssetName: troop_stotrper_emp
+  * favoriteTargetType: closest
+  * overWalls: false
   * reload: 500
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 14
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileStormDeath
+  * shotCount: 1
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

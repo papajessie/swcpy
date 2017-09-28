@@ -3,7 +3,7 @@ title: Jetpack Trooper (RebelJetpackTrooper)
 category: unit
 ---
 
-# Jetpack Trooper (RebelJetpackTrooper) — version 1080
+# Jetpack Trooper (RebelJetpackTrooper) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Flying vehicle (50)**, **Shield (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -57,48 +57,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.05,4.6,-0.18
-  * newRotationSpeed: 7854
-  * gunPosition: "hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun1":1,"hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun2":1
-  * assetName: hoversoldier_rbl-ani
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
-  * bundleName: hoversoldier_rbl-ani
-  * iconCameraPosition: 11.88,12.47,16.37
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 0.9,3.32,13.24
   * gunSequence: 1,1
-  * iconCloseupLookatPosition: 0.08,5.11,0.16
+  * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 11.88,12.47,16.37
+  * iconCloseupLookatPosition: 0.08,5.11,0.16
+  * iconLookatPosition: -0.05,4.6,-0.18
+  * iconCloseupCameraPosition: 0.9,3.32,13.24
   * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
+  * gunPosition: "hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun1":1,"hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun2":1
+  * newRotationSpeed: 7854
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * bundleName: hoversoldier_rbl-ani
+  * animationDelay: 0
+  * assetName: hoversoldier_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
-  * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: closest
-  * selfCenteredTargeting: false
-  * overWalls: true
   * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * xp: 0
-  * projectileType: projectileBlasterRebelJetpackTrooper
-  * armingDelay: 0
+  * targetLocking: false
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 14
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
   * shotDelay: 750
   * impactDelay: 1000
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 15
+  * splash: 0
+  * favoriteTargetType: closest
+  * overWalls: true
   * reload: 1500
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 14
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileBlasterRebelJetpackTrooper
+  * shotCount: 2
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Elite AT-TE Walker (HeroATTE)
 category: unit
 ---
 
-# Elite AT-TE Walker (HeroATTE) — version 1080
+# Elite AT-TE Walker (HeroATTE) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Turret (50), Storage (50), Heavy infantry (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 10
   * Min. Range: 1
   * View Range: 12
@@ -57,65 +57,65 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * newRotationSpeed: 3927
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * assetName: attehero_rbl-ani
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: attehero_rbl-ani
-  * iconCameraPosition: 36.44,26.49,49.08
-  * animationDelay: 0
-  * decalSize: 320
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,1.46,0.00
   * factoryRotation: 0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCameraPosition: 36.44,26.49,49.08
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * decalSize: 320
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_hero_walker_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,1.46,0.00
+  * newRotationSpeed: 3927
+  * bundleName: attehero_rbl-ani
+  * animationDelay: 0
+  * assetName: attehero_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: shieldGenerator
-  * decalAssetName: tac_hero_rbl
-  * hologramUid: HeroHologramATTE
-  * overWalls: true
-  * shotDelay: 400
-  * upgradeShardUid: shrd_troopHeroATTE
-  * xp: 0
-  * selfCenteredTargeting: false
-  * eventButtonAction: galaxy
-  * projectileType: projectileHeroATTE
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 3
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * autoSpawnSpreadingScale: 0
-  * effectType: 2
-  * decalBundleName: tac_hero_rbl
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: true
-  * unlockedByEvent: true
-  * eventFeaturesString: fragment_obtain_gen
-  * impactDelay: 500
   * eventButtonString: hn_open_galaxy
-  * targetPreferenceStrength: 90
-  * reload: 1000
   * clipRetargeting: false
   * retargetingOffset: 20
+  * decalBundleName: tac_hero_rbl
+  * armingDelay: 0
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * impactDelay: 500
+  * effectType: 2
+  * shotDelay: 400
+  * decalAssetName: tac_hero_rbl
+  * autoSpawnRateScale: 2
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 500
+  * strictCoolDown: false
+  * eventFeaturesString: fragment_obtain_gen
+  * pathSearchWidth: 200
+  * unlockedByEvent: true
+  * favoriteTargetType: shieldGenerator
+  * overWalls: true
+  * reload: 1000
+  * hologramUid: HeroHologramATTE
+  * attackShieldBorder: true
+  * upgradeShardUid: shrd_troopHeroATTE
+  * eventButtonAction: galaxy
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileHeroATTE
+  * shotCount: 3
+  * targetedType: ENEMIES
 
 |Level             |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |iconUnlockRotation|0,-20,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
 |pointValue        |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
 |heroData          |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
-|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
 |iconUnlockScale   |0.5,0.5,0.5|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

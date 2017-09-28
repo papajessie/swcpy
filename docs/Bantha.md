@@ -3,7 +3,7 @@ title: Bantha Rider (Bantha)
 category: unit
 ---
 
-# Bantha Rider (Bantha) — version 1080
+# Bantha Rider (Bantha) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (70)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -57,52 +57,52 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.48,2.52,0.88
-  * newRotationSpeed: 7854
-  * assetName: bantha_rbl-ani
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: bantha_rbl-ani
-  * iconCameraPosition: 16.54,17.6,29.53
-  * animationDelay: 1250
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,0.68,0.0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 16.54,17.6,29.53
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconLookatPosition: 0.48,2.52,0.88
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.68,0.0
+  * newRotationSpeed: 7854
+  * bundleName: bantha_rbl-ani
+  * animationDelay: 1250
+  * assetName: bantha_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
-  * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
-  * xp: 0
-  * armingDelay: 0
+  * targetLocking: false
   * strictCoolDown: false
-  * pathSearchWidth: 200
-  * shotCount: 5
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 4
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
   * shotDelay: 500
   * impactDelay: 0
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 200
+  * splash: 0
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 0
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 4
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 5
+  * targetedType: ENEMIES
 
 |Level         |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
 |--------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|projectileType|projectileMeleeBanthaLevel1|projectileMeleeBanthaLevel2|projectileMeleeBanthaLevel3|projectileMeleeBanthaLevel4|projectileMeleeBanthaLevel5|projectileMeleeBanthaLevel6|projectileMeleeBanthaLevel7|projectileMeleeBanthaLevel8|projectileMeleeBanthaLevel9|projectileMeleeBanthaLevel10|
 |order         |220301                     |220302                     |220303                     |220304                     |220305                     |220306                     |220307                     |220308                     |220309                     |220310                      |
 |pointValue    |2.000                      |2.400                      |2.800                      |3.200                      |3.600                      |4.000                      |4.400                      |4.800                      |5.200                      |6.000                       |
+|projectileType|projectileMeleeBanthaLevel1|projectileMeleeBanthaLevel2|projectileMeleeBanthaLevel3|projectileMeleeBanthaLevel4|projectileMeleeBanthaLevel5|projectileMeleeBanthaLevel6|projectileMeleeBanthaLevel7|projectileMeleeBanthaLevel8|projectileMeleeBanthaLevel9|projectileMeleeBanthaLevel10|
 

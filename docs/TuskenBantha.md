@@ -3,7 +3,7 @@ title: Tusken Bantha Rider (TuskenBantha)
 category: unit
 ---
 
-# Tusken Bantha Rider (TuskenBantha) — version 1080
+# Tusken Bantha Rider (TuskenBantha) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (80)**, _Shield generator (60)_, _HQ (60)_, _Shield (60)_, Ressource generator (40), Storage (40), Heavy infantry (40), Infantry (40), Heavy vehicle (40), Droideka (40), Other building (40), Support troop (40), Light vehicle (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Turret (80)**, _HQ (60)_, _Shield generator (60)_, _Shield (60)_, Heavy infantry (40), Light vehicle (40), Support troop (40), Storage (40), Ressource generator (40), Droideka (40), Heavy vehicle (40), Infantry (40), Other building (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 2
   * Min. Range: 0
   * View Range: 8
@@ -56,48 +56,48 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.53,2.2,1.05
-  * newRotationSpeed: 7854
-  * assetName: bantharaider_tkn-ani
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: bantharaider_tkn-ani
-  * iconCameraPosition: 13.7,14.58,24.5
-  * animationDelay: 1000
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
-  * buffAssetOffset: 0.00,0.72,0.0
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCameraPosition: 13.7,14.58,24.5
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconLookatPosition: 0.53,2.2,1.05
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,0.72,0.0
+  * newRotationSpeed: 7854
+  * bundleName: bantharaider_tkn-ani
+  * animationDelay: 1000
+  * assetName: bantharaider_tkn-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 500
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 4
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 1250
+  * impactDelay: 0
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 500
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: turret
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 1250
-  * xp: 0
-  * projectileType: projectileTuskenBantha
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 5
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 0
-  * targetPreferenceStrength: 90
   * reload: 0
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 4
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileTuskenBantha
+  * shotCount: 5
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Medic Droid (Medic)
 category: unit
 ---
 
-# Medic Droid (Medic) — version 1080
+# Medic Droid (Medic) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Heavy infantry (50)**, **Infantry (50)**, **Infantry hero (50)**, Ressource generator (0), Turret (0), Storage (0), Shield generator (0), HQ (0), Trap (0), Heavy vehicle (0), Droideka (0), Vehicle hero (0), Wall (0), Other building (0), Support troop (0), Heavy vehicular hero (0), Flying infantry (0), Flying vehicle (0), Shield (0), Light vehicle (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy infantry hero (50)**, **Infantry (50)**, **Infantry hero (50)**, Heavy vehicular hero (0), HQ (0), Light vehicle (0), Vehicle hero (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Shield generator (0), Shield (0), Droideka (0), Heavy vehicle (0), Trap (0), Other building (0), Wall (0)
   * Max. Range: 5
   * Min. Range: 0
   * View Range: 8
@@ -57,54 +57,54 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.26,1.17,0.34
-  * newRotationSpeed: 7854
-  * assetName: medicdroid_rbl-ani
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * bundleName: medicdroid_rbl-ani
-  * iconCameraPosition: 6.65,6.07,11.15
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
   * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 6.65,6.07,11.15
   * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconLookatPosition: 0.26,1.17,0.34
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * bundleName: medicdroid_rbl-ani
+  * animationDelay: 0
+  * assetName: medicdroid_rbl-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 50
-  * targetLocking: true
-  * targetedType: ALLIES
-  * infoUIType: Healer
-  * selfCenteredTargeting: true
-  * overWalls: false
   * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * favoriteTargetType: infantry
-  * xp: 0
-  * armingDelay: 0
+  * supportFollowDistance: 5
+  * reload: 900
   * strictCoolDown: false
-  * pathSearchWidth: 15
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 1
+  * retargetingOffset: 10
+  * armingDelay: 0
   * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
+  * targetLocking: true
+  * selfCenteredTargeting: true
+  * autoSpawnRateScale: 1
   * shotDelay: 400
   * impactDelay: 250
+  * xp: 0
   * targetPreferenceStrength: 90
+  * chargeTime: 50
+  * pathSearchWidth: 15
   * splash: 0
-  * reload: 900
+  * favoriteTargetType: infantry
+  * overWalls: false
+  * infoUIType: Healer
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * supportFollowDistance: 5
-  * retargetingOffset: 10
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 2
+  * targetedType: ALLIES
 
 |Level         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |--------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |order         |220501               |220502               |220503               |220504               |220505               |220506               |220507               |220508               |220509               |220510                |
-|projectileType|projectileMedicLevel1|projectileMedicLevel2|projectileMedicLevel3|projectileMedicLevel4|projectileMedicLevel5|projectileMedicLevel6|projectileMedicLevel7|projectileMedicLevel8|projectileMedicLevel9|projectileMedicLevel10|
 |pointValue    |5.000                |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
+|projectileType|projectileMedicLevel1|projectileMedicLevel2|projectileMedicLevel3|projectileMedicLevel4|projectileMedicLevel5|projectileMedicLevel6|projectileMedicLevel7|projectileMedicLevel8|projectileMedicLevel9|projectileMedicLevel10|
 

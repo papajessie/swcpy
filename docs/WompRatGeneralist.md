@@ -3,7 +3,7 @@ title: Womp Rat (WompRatGeneralist)
 category: unit
 ---
 
-# Womp Rat (WompRatGeneralist) — version 1080
+# Womp Rat (WompRatGeneralist) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Ressource generator (50)**, **Turret (50)**, **Storage (50)**, **Heavy infantry (50)**, **Shield generator (50)**, **HQ (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Droideka (50)**, **Vehicle hero (50)**, **Other building (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Shield (50)**, **Infantry hero (50)**, **Light vehicle (50)**, Wall (1), Trap (0), Flying infantry (0), Flying vehicle (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Turret (50)**, **Support troop (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * Max. Range: 4
   * Min. Range: 0
   * View Range: 8
@@ -55,46 +55,46 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * gunSequence: 1
+  * factoryRotation: 0
+  * iconCameraPosition: 11.42,11.67,7.56
   * iconLookatPosition: -0.07,0.16,-0.08
-  * newRotationSpeed: 7854
-  * assetName: womprat_neu-ani
   * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
   * factoryScaleFactor: 1
-  * bundleName: womprat_neu-ani
-  * iconCameraPosition: 11.42,11.67,7.56
-  * animationDelay: 1000
-  * factoryRotation: 0
-  * gunSequence: 1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
+  * bundleName: womprat_neu-ani
+  * animationDelay: 1000
+  * assetName: womprat_neu-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 1
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 8
+  * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 1
+  * deathAnimation: buffFireBurn:15
+  * shotDelay: 250
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * chargeTime: 250
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: closest
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: false
-  * shotDelay: 250
-  * xp: 0
-  * projectileType: projectileMeleeWompRatGeneralist
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 4
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
   * reload: 1000
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 8
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * projectileType: projectileMeleeWompRatGeneralist
+  * shotCount: 4
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

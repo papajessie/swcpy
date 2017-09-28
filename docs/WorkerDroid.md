@@ -3,7 +3,7 @@ title: trp_title_WorkerDroid (no text translation) (WorkerDroid)
 category: unit
 ---
 
-# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1080
+# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1084
 
 ## Main stats
 
@@ -27,7 +27,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Support troop (100)**, **Flying infantry (100)**, **Flying vehicle (100)**, _Turret (55)_, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Shield (50), Light vehicle (50), HQ (40), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying vehicle (100)**, **Support troop (100)**, **Flying infantry (100)**, _Turret (55)_, Heavy infantry (50), Light vehicle (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 7
   * Min. Range: 0
   * View Range: 8
@@ -51,47 +51,47 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: 0.14,2.49,0.44
-  * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: workerdroid_neu-ani
-  * factoryScaleFactor: 1
-  * bundleName: workerdroid_neu-ani
-  * iconCameraPosition: 6.58,9.98,15.5
-  * animationDelay: 0
-  * factoryRotation: 0
   * gunSequence: 1,2
-  * buffAssetOffset: 0.00,0.34,0.00
+  * factoryRotation: 0
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCameraPosition: 6.58,9.98,15.5
+  * iconLookatPosition: 0.14,2.49,0.44
+  * factoryScaleFactor: 1
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * buffAssetOffset: 0.00,0.34,0.00
+  * newRotationSpeed: 7854
+  * bundleName: workerdroid_neu-ani
+  * animationDelay: 0
+  * assetName: workerdroid_neu-ani
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 1000
   * targetLocking: false
-  * targetedType: ENEMIES
+  * strictCoolDown: false
+  * retargetingOffset: 14
+  * armingDelay: 0
+  * maxScale: false
+  * order: 320001
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * effectType: 2
+  * shotDelay: 250
+  * impactDelay: 500
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * pointValue: 1.000
+  * chargeTime: 1000
+  * pathSearchWidth: 1
   * splash: 0
   * favoriteTargetType: none
-  * deathAnimation: buffFireBurn:15
-  * selfCenteredTargeting: false
   * overWalls: true
-  * shotDelay: 250
-  * xp: 0
-  * projectileType: projectileWorkerDroid
-  * armingDelay: 0
-  * strictCoolDown: false
-  * pathSearchWidth: 1
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 0
-  * effectType: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * impactDelay: 500
-  * targetPreferenceStrength: 90
-  * order: 320001
-  * pointValue: 1.000
   * reload: 1000
+  * deathAnimation: buffFireBurn:15
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 14
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileWorkerDroid
+  * shotCount: 2
+  * targetedType: ENEMIES
 

@@ -3,7 +3,7 @@ title: AT-MP Mark III (HeroATMP)
 category: unit
 ---
 
-# AT-MP Mark III (HeroATMP) — version 1080
+# AT-MP Mark III (HeroATMP) — version 1084
 
 ## Main stats
 
@@ -30,7 +30,7 @@ category: unit
 
 ## Targetting
 
-  * Target preferences: **Turret (75)**, Ressource generator (50), Storage (50), Heavy infantry (50), Shield generator (50), HQ (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Support troop (50), Flying infantry (50), Flying vehicle (50), Shield (50), Light vehicle (50), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (75)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
   * Max. Range: 9
   * Min. Range: 0
   * View Range: 12
@@ -57,21 +57,21 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconLookatPosition: -0.78,3.46,-0.2
-  * newRotationSpeed: 3927
-  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
-  * assetName: atmphero_emp-ani
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atmphero_emp-ani
-  * iconCameraPosition: 26.46,27.84,45.96
-  * animationDelay: 0
-  * decalSize: 320
-  * factoryScaleFactor: 1
-  * buffAssetOffset: 0.00,4.21,0.00
   * factoryRotation: 0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCameraPosition: 26.46,27.84,45.96
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconLookatPosition: -0.78,3.46,-0.2
+  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
+  * decalSize: 320
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * factoryScaleFactor: 1
   * audioDeath: "sfx_death_empire_atmp_1":100
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,4.21,0.00
+  * newRotationSpeed: 3927
+  * bundleName: atmphero_emp-ani
+  * animationDelay: 0
+  * assetName: atmphero_emp-ani
 
 |Level      |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9                               |10                              |
 |-----------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
@@ -79,39 +79,39 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * autoSpawnRateScale: 2
-  * chargeTime: 250
   * targetLocking: false
-  * targetedType: ENEMIES
-  * splash: 0
-  * favoriteTargetType: turret
-  * decalAssetName: tac_hero_emp
-  * hologramUid: HeroHologramEmpire3
-  * overWalls: false
-  * shotDelay: 50
-  * xp: 0
-  * selfCenteredTargeting: false
-  * projectileType: projectileHeroATMP
+  * strictCoolDown: false
+  * retargetingOffset: 18
+  * decalBundleName: tac_hero_emp
   * armingDelay: 0
+  * maxScale: false
+  * selfCenteredTargeting: false
+  * autoSpawnRateScale: 2
+  * effectType: 2
+  * shotDelay: 50
+  * impactDelay: 1000
+  * xp: 0
+  * targetPreferenceStrength: 90
+  * splash: 0
+  * chargeTime: 250
   * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * pathSearchWidth: 15
-  * shotCount: 14
-  * autoSpawnSpreadingScale: 0
-  * effectType: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * attackShieldBorder: false
-  * decalBundleName: tac_hero_emp
-  * strictCoolDown: false
-  * impactDelay: 1000
-  * targetPreferenceStrength: 90
+  * decalAssetName: tac_hero_emp
+  * favoriteTargetType: turret
+  * overWalls: false
   * reload: 1000
+  * hologramUid: HeroHologramEmpire3
+  * attackShieldBorder: false
   * clipRetargeting: false
-  * retargetingOffset: 18
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * projectileType: projectileHeroATMP
+  * shotCount: 14
+  * targetedType: ENEMIES
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |order     |110301|110302|110303|110304|110305|110306|110307|110308|110309|110310|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 
