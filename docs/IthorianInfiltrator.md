@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Light vehicle (50), Support troop (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -67,50 +67,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: shieldGenerator
+  * assetName: ithorian_rbl-ani
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
+  * iconLookatPosition: 0,1.73,-0.07
+  * iconCloseupCameraPosition: 4.79,2.66,11.07
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.26,2.61,-0.85
+  * animationDelay: 0
+  * iconCameraPosition: 17.05,12.75,14.83
   * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
   * bundleName: ithorian_rbl-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
-  * factoryRotation: 0
-  * assetName: ithorian_rbl-ani
-  * iconCloseupLookatPosition: -0.26,2.61,-0.85
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.79,2.66,11.07
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 17.05,12.75,14.83
-  * iconLookatPosition: 0,1.73,-0.07
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 2
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 50
   * pathSearchWidth: 200
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: shieldGenerator
-  * strictCoolDown: false
-  * upgradeShardUid: shrd_troopIthorianInfiltrator
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
   * impactDelay: 250
-  * autoSpawnRateScale: 1
+  * strictCoolDown: false
+  * chargeTime: 50
+  * armingDelay: 0
   * projectileType: projectileIthorianInfiltrator
-  * reload: 2000
-  * gunSequence: 1
   * shotDelay: 200
   * spawnApplyBuffs: buffPersonalShieldIthorian
-  * xp: 0
+  * shotCount: 2
+  * maxScale: false
+  * upgradeShardUid: shrd_troopIthorianInfiltrator
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * unlockedByEvent: true
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 |order     |234101|234102|234103|234104|234105|234106|234107|234108|234109|234110|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 

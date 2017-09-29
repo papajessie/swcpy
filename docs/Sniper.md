@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Infantry (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, **Support troop (60)**, Flying vehicle (50), Shield generator (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Support troop (60)**, **Droideka (60)**, **Infantry (60)**, **Flying infantry (60)**, Light vehicle (50), Shield generator (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,43 +67,43 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: heroes
+  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * assetName: snipertrooper_emp-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * iconLookatPosition: -0.36,1.69,0.24
+  * iconCloseupCameraPosition: -0.07,3.69,9.81
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.08,2.6,-0.81
+  * animationDelay: 0
+  * iconCameraPosition: 8.4,11.02,18.74
   * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
   * bundleName: snipertrooper_emp-ani
-  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryRotation: 0
-  * assetName: snipertrooper_emp-ani
-  * iconCloseupLookatPosition: 0.08,2.6,-0.81
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * deathAnimation: buffFireBurn:15
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: -0.07,3.69,9.81
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 8.4,11.02,18.74
-  * iconLookatPosition: -0.36,1.69,0.24
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 3
-  * projectileType: projectileSniper
-  * reload: 2000
-  * shotDelay: 500
-  * autoSpawnSpreadingScale: 2
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: heroes
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectileSniper
+  * shotDelay: 500
+  * shotCount: 3
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

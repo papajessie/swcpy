@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicular hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Vehicle hero (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (12), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Droideka (50)**, **Light vehicle (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Vehicle hero (50)**, **Infantry (50)**, **Storage (50)**, **Heavy vehicle (50)**, **HQ (50)**, **Flying vehicle (50)**, **Other building (50)**, **Flying infantry (50)**, **Ressource generator (50)**, **Shield (50)**, **Turret (50)**, Retargeting offset (12), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -66,43 +66,43 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * buffAssetOffset: 0.00,0.27,0.00
-  * bundleName: heavytrooper_dth-ani
-  * gunPosition: "deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt":1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * factoryRotation: 0
-  * assetName: heavytrooper_dth-ani
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,0.27,0.00
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: closest
+  * gunPosition: "deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt":1
+  * assetName: heavytrooper_dth-ani
   * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 4.46,8.55,22.59
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * iconLookatPosition: -0.36,1.33,-0.66
+  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * animationDelay: 0
+  * iconCameraPosition: 4.46,8.55,22.59
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * bundleName: heavytrooper_dth-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
-  * maxScale: false
-  * shotCount: 10
-  * projectileType: projectileSmugglerHeavyStormDeath
-  * reload: 2000
-  * shotDelay: 100
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: closest
-  * chargeTime: 500
-  * strictCoolDown: false
-  * spawnApplyBuffs: buffReduceHeals2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 500
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileSmugglerHeavyStormDeath
+  * splash: 0
+  * spawnApplyBuffs: buffReduceHeals2
+  * shotCount: 10
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * shotDelay: 100
   * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

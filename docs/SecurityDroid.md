@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Storage (50)**, **Heavy vehicle (50)**, **HQ (50)**, **Flying vehicle (50)**, **Other building (50)**, **Flying infantry (50)**, **Ressource generator (50)**, **Shield (50)**, **Turret (50)**, Retargeting offset (10), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,52 +67,52 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: closest
+  * assetName: securitydroid_con-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
+  * iconLookatPosition: -0.44,1.26,-0.82
+  * iconCloseupCameraPosition: 3.46,6.58,11.02
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * animationDelay: 0
+  * iconCameraPosition: 7.57,15.79,19.1
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * bundleName: securitydroid_con-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * factoryRotation: 0
-  * assetName: securitydroid_con-ani
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 3.46,6.58,11.02
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 7.57,15.79,19.1
-  * iconLookatPosition: -0.44,1.26,-0.82
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 5
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * pointValue: 4.000
-  * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: closest
-  * strictCoolDown: false
   * upgradeShardUid: shrd_troopSecurityDroid
-  * impactDelay: 1000
-  * autoSpawnRateScale: 1
-  * projectileType: projectileStorm
+  * chargeTime: 500
+  * unlockedByEvent: true
+  * shotCount: 5
   * reload: 500
   * gunSequence: 1
-  * shotDelay: 300
-  * iconUnlockScale: 1.1,1.1,1.1
+  * splash: 0
+  * pathSearchWidth: 15
   * xp: 0
+  * iconUnlockScale: 1.1,1.1,1.1
+  * impactDelay: 1000
+  * maxScale: false
+  * projectileType: projectileStorm
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * pointValue: 4.000
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * shotDelay: 300
+  * autoSpawnRateScale: 1
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 |order  |115601               |115602               |115603               |115605               |115606               |
+|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 

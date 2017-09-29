@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Turret (50), Light vehicle (50), Support troop (50), Retargeting offset (8), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Shield (50), Turret (50), Retargeting offset (8), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -70,43 +70,43 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: resource
+  * gunPosition: "scotrper_emp_rig_MASTER_MOVER/scotrper_emp_rig_joint1/scotrper_emp_rig_joint2/scotrper_emp_rig_joint27/scotrper_emp_rig_joint28/scotrper_emp_rig_joint29/scotrper_emp_rig_guMesh":1
+  * assetName: scotrper_emp-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * iconLookatPosition: 0.2,1.71,0.02
+  * iconCloseupCameraPosition: 2.23,1.18,9.57
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.05,2.58,-0.59
+  * animationDelay: 0
+  * iconCameraPosition: 11.49,12.45,13.64
   * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * bundleName: scotrper_emp-ani
-  * gunPosition: "scotrper_emp_rig_MASTER_MOVER/scotrper_emp_rig_joint1/scotrper_emp_rig_joint2/scotrper_emp_rig_joint27/scotrper_emp_rig_joint28/scotrper_emp_rig_joint29/scotrper_emp_rig_guMesh":1
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryRotation: 0
-  * assetName: scotrper_emp-ani
-  * iconCloseupLookatPosition: -0.05,2.58,-0.59
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * deathAnimation: buffFireBurn:15
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 2.23,1.18,9.57
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 11.49,12.45,13.64
-  * iconLookatPosition: 0.2,1.71,0.02
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
-  * maxScale: false
-  * shotCount: 1
-  * projectileType: projectileScout
-  * reload: 800
-  * shotDelay: 0
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: resource
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectileScout
+  * shotDelay: 0
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 800
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

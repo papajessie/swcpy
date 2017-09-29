@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (60)**, **Heavy vehicle (60)**, **Light vehicle (60)**, _Infantry (55)_, _Flying infantry (55)_, _Droideka (55)_, _Heavy infantry (55)_, _Support troop (55)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (60)**, **Heavy vehicle (60)**, **Flying vehicle (60)**, _Heavy infantry (55)_, _Support troop (55)_, _Droideka (55)_, _Infantry (55)_, _Flying infantry (55)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (14), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,41 +67,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryRotation: 0
-  * assetName: banthabarge_rbl-ani
+  * buffAssetOffset: 0.00,1.7,0.00
   * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,1.7,0.00
-  * animationDelay: 0
-  * bundleName: banthabarge_rbl-ani
-  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
-  * iconCameraPosition: 25.92,23.21,24.67
+  * favoriteTargetType: vehicles
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: banthabarge_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
   * iconLookatPosition: -0.09,2.29,-0.96
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.90000000000000002220446049250313080847263336181640625
+  * animationDelay: 0
+  * iconCameraPosition: 25.92,23.21,24.67
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * bundleName: banthabarge_rbl-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
-  * maxScale: false
-  * shotCount: 1
-  * projectileType: projectileDesertSkiff
-  * reload: 1500
-  * shotDelay: 250
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: vehicles
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 500
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileDesertSkiff
+  * shotDelay: 250
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 1500
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

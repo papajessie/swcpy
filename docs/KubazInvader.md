@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Light vehicle (50), Support troop (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -67,50 +67,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: shieldGenerator
+  * assetName: kubaz_emp-ani
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
+  * iconLookatPosition: -0.48,1.32,-0.72
+  * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
+  * animationDelay: 0
+  * iconCameraPosition: 8.96,11.37,18.33
   * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
   * bundleName: kubaz_emp-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * factoryRotation: 0
-  * assetName: kubaz_emp-ani
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.16,3.05,10.68
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 8.96,11.37,18.33
-  * iconLookatPosition: -0.48,1.32,-0.72
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 2
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 50
   * pathSearchWidth: 200
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: shieldGenerator
-  * strictCoolDown: false
-  * upgradeShardUid: shrd_troopKubazInvader
+  * xp: 0
+  * autoSpawnSpreadingScale: 1
   * impactDelay: 250
-  * autoSpawnRateScale: 1
+  * strictCoolDown: false
+  * chargeTime: 50
+  * armingDelay: 0
   * projectileType: projectileKubazInvader
-  * reload: 2000
-  * gunSequence: 1
   * shotDelay: 200
   * spawnApplyBuffs: buffPersonalShieldKubaz
-  * xp: 0
+  * shotCount: 2
+  * maxScale: false
+  * upgradeShardUid: shrd_troopKubazInvader
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * unlockedByEvent: true
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 |order     |134001|134002|134003|134004|134005|134006|134007|134008|134009|134010|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 

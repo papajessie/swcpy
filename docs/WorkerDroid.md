@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (100)**, **Flying infantry (100)**, **Support troop (100)**, _Turret (55)_, Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Ressource generator (50), HQ (40), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Support troop (100)**, **Flying vehicle (100)**, **Flying infantry (100)**, _Turret (55)_, Heavy infantry (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), Other building (50), Ressource generator (50), Shield (50), HQ (40), Retargeting offset (14), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -61,39 +61,39 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * buffAssetOffset: 0.00,0.34,0.00
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: none
+  * assetName: workerdroid_neu-ani
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: 0.14,2.49,0.44
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 0
   * iconCameraPosition: 6.58,9.98,15.5
   * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * bundleName: workerdroid_neu-ani
-  * factoryRotation: 0
-  * assetName: workerdroid_neu-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * deathAnimation: buffFireBurn:15
-  * buffAssetOffset: 0.00,0.34,0.00
-  * animationDelay: 0
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.14,2.49,0.44
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
-  * maxScale: false
-  * order: 320001
-  * shotCount: 2
-  * projectileType: projectileWorkerDroid
-  * reload: 1000
-  * shotDelay: 250
-  * pointValue: 1.000
-  * autoSpawnSpreadingScale: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1,2
-  * favoriteTargetType: none
-  * chargeTime: 1000
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * order: 320001
+  * autoSpawnSpreadingScale: 0
+  * impactDelay: 500
+  * chargeTime: 1000
+  * armingDelay: 0
+  * projectileType: projectileWorkerDroid
+  * shotDelay: 250
+  * shotCount: 2
+  * maxScale: false
+  * pointValue: 1.000
   * effectType: 2
+  * strictCoolDown: false
+  * reload: 1000
+  * gunSequence: 1,2
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
 

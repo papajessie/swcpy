@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Flying infantry (60)_, _Support troop (60)_, Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Heavy infantry (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -67,51 +67,51 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: turret
+  * assetName: ig86_emp-ani
+  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
+  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * iconLookatPosition: -0.4,1.24,-0.81
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
+  * animationDelay: 0
+  * iconCameraPosition: 5.5,12.03,13.9
   * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
   * bundleName: ig86_emp-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
-  * factoryRotation: 0
-  * assetName: ig86_emp-ani
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 5.5,12.03,13.9
-  * iconLookatPosition: -0.4,1.24,-0.81
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 7
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 250
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: turret
-  * strictCoolDown: false
+  * xp: 0
+  * shotCount: 7
   * upgradeShardUid: shrd_troopIG86Droid
-  * impactDelay: 1000
-  * autoSpawnRateScale: 1
+  * strictCoolDown: false
+  * chargeTime: 250
+  * armingDelay: 0
   * projectileType: projectileIG86Droid
+  * splash: 0
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * impactDelay: 1000
   * reload: 2000
   * gunSequence: 1
+  * targetInRangeModifier: 1
+  * unlockedByEvent: true
   * shotDelay: 150
-  * xp: 0
+  * autoSpawnRateScale: 1
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
 |order          |134201     |134202     |134203     |134204     |134205     |134206     |134207     |134208     |134209     |134210     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
 

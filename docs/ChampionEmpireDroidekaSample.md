@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Infantry hero (70)_, _Heavy infantry hero (70)_, _Vehicle hero (70)_, _Flying vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Support troop (60)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (14), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy infantry (60)_, _Support troop (60)_, _Light vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (14), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,45 +68,45 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
   * buffAssetOffset: 0.00,0.65,0.00
-  * decalSize: 160
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
-  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
-  * factoryRotation: 0
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * tooltipHeightOffset: 1.5
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
+  * decalSize: 160
   * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
-  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
+  * favoriteTargetType: closest
+  * factoryRotation: 0
   * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * animationDelay: 0
+  * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
+  * newRotationSpeed: 7854
 
 |Level             |1                          |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                          |
 |------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|bundleName        |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
 |assetName         |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|shieldAssetName   |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
-|iconCameraPosition|18.67,14.16,15.1           |15.43,14.67,18.88           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.91,14.58,19.08           |21.79,18.39,13.58           |21.79,18.39,13.58           |21.79,18.39,13.58           |
+|bundleName        |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
 |iconLookatPosition|-0.39,1.23,-0.21           |-0.32,1.71,0.09             |-0.32,1.71,0.09             |-0.19,1.6,0                 |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.1,1.43,0.08              |-0.35,1.49,0.26             |-0.35,1.49,0.26             |-0.35,1.49,0.26             |
+|iconCameraPosition|18.67,14.16,15.1           |15.43,14.67,18.88           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.91,14.58,19.08           |21.79,18.39,13.58           |21.79,18.39,13.58           |21.79,18.39,13.58           |
+|shieldAssetName   |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * spawnEffectUid: effectEmpireSpawn
-  * projectileType: projectileChampionEmpireDroideka
-  * reload: 500
-  * shotDelay: 233
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: closest
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileChampionEmpireDroideka
+  * splash: 0
+  * maxScale: false
+  * spawnEffectUid: effectEmpireSpawn
+  * strictCoolDown: false
+  * reload: 500
+  * targetInRangeModifier: 1
+  * shotDelay: 233
+  * autoSpawnRateScale: 2
 
 |Level      |1      |2      |3      |4      |5      |6      |7      |8          |9          |10         |
 |-----------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|-----------|

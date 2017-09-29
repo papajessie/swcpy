@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy vehicular hero (50), Flying vehicle (50), Infantry hero (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Heavy infantry hero (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Turret (50), Vehicle hero (50), Light vehicle (50), Support troop (50), Retargeting offset (8), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Support troop (50), Heavy vehicular hero (50), Droideka (50), Light vehicle (50), Heavy infantry hero (50), Infantry hero (50), Shield generator (50), Vehicle hero (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Shield (50), Turret (50), Retargeting offset (8), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,42 +67,42 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: resource
+  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
+  * assetName: scotrper_dth-ani
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * iconLookatPosition: 0.06,1.74,0.02
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
+  * animationDelay: 0
+  * iconCameraPosition: 10.84,12.06,13.07
   * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * bundleName: scotrper_dth-ani
-  * gunPosition: scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt:1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * factoryRotation: 0
-  * assetName: scotrper_dth-ani
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * deathAnimation: buffFireBurn:15
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 10.84,12.06,13.07
-  * iconLookatPosition: 0.06,1.74,0.02
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
-  * maxScale: false
-  * shotCount: 1
-  * projectileType: projectileScoutDeath
-  * reload: 800
-  * shotDelay: 0
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: resource
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectileScoutDeath
+  * shotDelay: 0
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 800
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

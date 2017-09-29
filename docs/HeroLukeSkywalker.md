@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (80)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Shield (50), Retargeting offset (14), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,52 +67,52 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: turret
+  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * assetName: lukeskywalker_rbl-ani
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_hero_luke":100
+  * audioDeath: "sfx_death_hero_luke":100
+  * iconLookatPosition: -0.45,1.28,-0.62
+  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.02,2.48,-0.32
+  * animationDelay: 0
+  * iconCameraPosition: 9.95,9.78,16.61
   * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * bundleName: lukeskywalker_rbl-ani
-  * decalSize: 160
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
-  * audioDeath: "sfx_death_hero_luke":100
-  * factoryRotation: 0
-  * assetName: lukeskywalker_rbl-ani
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.95,9.78,16.61
-  * iconLookatPosition: -0.45,1.28,-0.62
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 0
-  * shotCount: 2
-  * spawnEffectUid: effectRebelSpawn
   * hologramUid: HeroHologramLukeSkywalker
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * ability: abilityHeroLukeDefend
-  * favoriteTargetType: turret
-  * strictCoolDown: false
   * decalBundleName: tac_hero_rbl
-  * impactDelay: 250
-  * decalAssetName: tac_hero_rbl
-  * projectileType: projectileHeroLukeAttack
+  * chargeTime: 250
+  * spawnEffectUid: effectRebelSpawn
+  * shotCount: 2
   * reload: 500
   * gunSequence: 1
+  * splash: 0
+  * pathSearchWidth: 15
+  * xp: 0
+  * decalAssetName: tac_hero_rbl
+  * impactDelay: 250
+  * armingDelay: 0
+  * projectileType: projectileHeroLukeAttack
+  * autoSpawnSpreadingScale: 0
+  * maxScale: false
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * ability: abilityHeroLukeDefend
   * shotDelay: 500
   * autoSpawnRateScale: 1
-  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
+|order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

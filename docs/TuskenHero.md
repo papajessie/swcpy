@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Flying infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Flying vehicle (80)_, _Light vehicle (80)_, _Turret (55)_, Shield generator (50), Other building (50), Shield (50), Storage (50), Ressource generator (50), HQ (40), Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Droideka (95)_, _Infantry (95)_, _Flying infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Shield generator (50), Storage (50), Other building (50), Ressource generator (50), Shield (50), HQ (40), Retargeting offset (10), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -64,48 +64,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * decalSize: 160
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryRotation: 0
-  * assetName: tuskenhero_tkn-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: infantry
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * assetName: tuskenhero_tkn-ani
+  * decalSize: 160
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 350
-  * bundleName: tuskenhero_tkn-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 6.91,15.66,23.15
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
   * iconLookatPosition: -0.51,2,0.29
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 350
+  * iconCameraPosition: 6.91,15.66,23.15
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * bundleName: tuskenhero_tkn-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: infantry
-  * strictCoolDown: false
   * decalBundleName: tac_hero_neu
-  * impactDelay: 1000
+  * chargeTime: 1000
+  * shotCount: 1
+  * gunSequence: 1
+  * reload: 0
+  * heroData: hero9
+  * splash: 0
+  * pathSearchWidth: 1
+  * xp: 0
   * decalAssetName: tac_hero_neu
   * uiDecalAssetName: HeroDecalNeutral
+  * impactDelay: 1000
+  * maxScale: false
   * projectileType: projectileTuskenHero
-  * reload: 0
-  * gunSequence: 1
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
   * shotDelay: 500
-  * heroData: hero9
   * autoSpawnRateScale: 1
-  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

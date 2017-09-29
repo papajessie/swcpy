@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Turret (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (18), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Turret (50), Retargeting offset (18), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -67,40 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryRotation: 0
-  * assetName: atat_emp-ani
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
   * buffAssetOffset: 0,4.00,0.00
-  * animationDelay: 0
-  * bundleName: atat_emp-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 41.83,40.55,52.41
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * favoriteTargetType: shieldGenerator
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * assetName: atat_emp-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * audioDeath: "sfx_death_walker_1":100
   * iconLookatPosition: -2.01,3.9,-0.8
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 0
+  * iconCameraPosition: 41.83,40.55,52.41
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * bundleName: atat_emp-ani
+  * newRotationSpeed: 982
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
-  * maxScale: false
-  * shotCount: 8
-  * projectileType: projectileATAT
-  * reload: 1500
-  * shotDelay: 250
-  * autoSpawnSpreadingScale: 2
   * pathSearchWidth: 200
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1,1,1,1
-  * favoriteTargetType: shieldGenerator
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 500
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileATAT
+  * shotDelay: 250
+  * shotCount: 8
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 1500
+  * gunSequence: 1,1,1,1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

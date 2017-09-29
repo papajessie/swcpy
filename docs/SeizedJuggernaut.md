@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Turret (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (16), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Turret (50), Retargeting offset (16), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,40 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryRotation: 0
-  * assetName: attacktank_rbl-ani
-  * rotationSpeed: 2
   * buffAssetOffset: 0.00,1.84,0.00
-  * animationDelay: 0
-  * bundleName: attacktank_rbl-ani
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * iconCameraPosition: 35.28,24.86,45.37
+  * rotationSpeed: 2
+  * favoriteTargetType: shieldGenerator
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * assetName: attacktank_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
   * iconLookatPosition: -0.89,1.38,-0.23
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * animationDelay: 0
+  * iconCameraPosition: 35.28,24.86,45.37
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
+  * bundleName: attacktank_rbl-ani
+  * newRotationSpeed: 2000
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
-  * maxScale: false
-  * shotCount: 2
-  * projectileType: projectileSeizedJuggernaut
-  * reload: 1000
-  * shotDelay: 250
-  * autoSpawnSpreadingScale: 3
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1,1
-  * favoriteTargetType: shieldGenerator
-  * chargeTime: 1000
-  * strictCoolDown: false
-  * autoSpawnRateScale: 3
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 3
+  * impactDelay: 500
+  * chargeTime: 1000
+  * armingDelay: 0
+  * projectileType: projectileSeizedJuggernaut
+  * shotDelay: 250
+  * shotCount: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 1000
+  * gunSequence: 1,1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 3
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

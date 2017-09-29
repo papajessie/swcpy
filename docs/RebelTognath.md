@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (100)**, _Infantry (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, _Support troop (60)_, Flying vehicle (50), Shield generator (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Flying infantry (60)_, Light vehicle (50), Shield generator (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,51 +67,51 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: champion
+  * assetName: tognath_con-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * iconLookatPosition: -0.63,1.31,-0.68
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * animationDelay: 0
+  * iconCameraPosition: 9.66,10.8,15.86
   * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
   * bundleName: tognath_con-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * factoryRotation: 0
-  * assetName: tognath_con-ani
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.66,10.8,15.86
-  * iconLookatPosition: -0.63,1.31,-0.68
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * shotCount: 4
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 250
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: champion
+  * xp: 0
+  * shotCount: 4
   * upgradeShardUid: shrd_troopRebelTognath
   * strictCoolDown: false
-  * impactDelay: 1000
-  * autoSpawnRateScale: 2
+  * chargeTime: 250
+  * armingDelay: 0
   * projectileType: projectileRebelTognath
+  * splash: 0
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * impactDelay: 1000
   * reload: 1500
   * gunSequence: 1
+  * targetInRangeModifier: 1
+  * unlockedByEvent: true
   * shotDelay: 500
-  * xp: 0
+  * autoSpawnRateScale: 2
 
 |Level          |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 |order          |215701             |215702             |215703             |215704             |215705             |215706             |215707             |215708             |215709             |215710              |
 |iconUnlockScale|1.2,1.2,1.2        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)         |
+|ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 
