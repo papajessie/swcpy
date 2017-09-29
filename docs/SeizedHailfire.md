@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Heavy vehicular hero (60)_, _Flying vehicle (60)_, _Infantry hero (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry hero (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy infantry (60)_, _Vehicle hero (60)_, _Light vehicle (60)_, _Support troop (60)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Storage (50), Ressource generator (50), Retargeting offset (20), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Heavy infantry (60)_, _Support troop (60)_, _Heavy vehicular hero (60)_, _Droideka (60)_, _Light vehicle (60)_, _Heavy infantry hero (60)_, _Infantry hero (60)_, _Vehicle hero (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Retargeting offset (20), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,41 +67,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
-  * audioDeath: "sfx_death_rebel_hailfire_1":100
-  * factoryRotation: 90
-  * assetName: hailfiredroid_rbl-ani
+  * buffAssetOffset: 0.00,0.88,0.00
   * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.88,0.00
-  * animationDelay: 0
-  * bundleName: hailfiredroid_rbl-ani
-  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * iconCameraPosition: 36.69,22.39,29.86
+  * favoriteTargetType: turret
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * assetName: hailfiredroid_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * audioDeath: "sfx_death_rebel_hailfire_1":100
   * iconLookatPosition: -0.49,1.9,-0.43
+  * factoryRotation: 90
+  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
+  * animationDelay: 0
+  * iconCameraPosition: 36.69,22.39,29.86
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
+  * bundleName: hailfiredroid_rbl-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 6
-  * projectileType: projectileHailfire
-  * reload: 2000
-  * shotDelay: 100
-  * autoSpawnSpreadingScale: 2
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1,2
-  * favoriteTargetType: turret
-  * chargeTime: 1000
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
+  * chargeTime: 1000
+  * armingDelay: 0
+  * projectileType: projectileHailfire
+  * shotDelay: 100
+  * shotCount: 6
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1,2
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

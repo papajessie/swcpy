@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Retargeting offset (100)**, _Flying vehicle (70)_, _Infantry (70)_, _Heavy vehicle (70)_, _Flying infantry (70)_, _Droideka (70)_, _Heavy infantry (70)_, _Light vehicle (70)_, _Support troop (70)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Retargeting offset (100)**, _Heavy infantry (70)_, _Support troop (70)_, _Droideka (70)_, _Light vehicle (70)_, _Infantry (70)_, _Heavy vehicle (70)_, _Flying vehicle (70)_, _Flying infantry (70)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,40 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryRotation: 0
-  * assetName: generalpurpose_smg-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: none
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * assetName: generalpurpose_smg-ani
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * bundleName: generalpurpose_smg-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 8.56,9.58,10.6
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
   * iconLookatPosition: 0.09,1.4,0.28
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 0
+  * iconCameraPosition: 8.56,9.58,10.6
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * bundleName: generalpurpose_smg-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 2
-  * projectileType: projectileSmugglerPistoleer
-  * reload: 500
-  * shotDelay: 125
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: none
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileSmugglerPistoleer
+  * shotDelay: 125
+  * shotCount: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 500
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Heavy infantry (70)**, _Heavy vehicular hero (60)_, _Heavy vehicle (60)_, _Droideka (60)_, _Vehicle hero (60)_, _Light vehicle (60)_, Shield generator (50), Other building (50), Shield (50), Turret (50), Storage (50), Support troop (50), Ressource generator (50), HQ (40), Retargeting offset (8), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Infantry (70)**, _Heavy vehicular hero (60)_, _Droideka (60)_, _Light vehicle (60)_, _Vehicle hero (60)_, _Heavy vehicle (60)_, Support troop (50), Shield generator (50), Storage (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), HQ (40), Retargeting offset (8), Wall (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
@@ -64,44 +64,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * assetName: kraytdragonfast_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * audioDeath: "sfx_death_krayt_1":100
+  * iconLookatPosition: 0.73,1.52,-0.71
+  * iconCloseupCameraPosition: 39.19,48.81,48.9
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.73,1.52,-0.71
+  * animationDelay: 1500
+  * iconCameraPosition: 39.19,48.81,48.9
   * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
   * bundleName: kraytdragonfast_neu-ani
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * audioDeath: "sfx_death_krayt_1":100
-  * factoryRotation: 0
-  * assetName: kraytdragonfast_neu-ani
-  * iconCloseupLookatPosition: 0.73,1.52,-0.71
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * animationDelay: 1500
-  * iconCloseupCameraPosition: 39.19,48.81,48.9
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 39.19,48.81,48.9
-  * iconLookatPosition: 0.73,1.52,-0.71
-
-## Uninterpreted stats
-
-  * impactDelay: 0
-  * maxScale: false
-  * shotCount: 1
-  * projectileType: projectileMeleeKraytDragon
-  * reload: 0
-  * shotDelay: 1000
-  * autoSpawnSpreadingScale: 2
-  * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 2,1
-  * chargeTime: 750
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * xp: 0
+  * newRotationSpeed: 2000
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|order             |332401|332402  |332403  |332404  |332405  |332406  |332407  |332408  |332409  |332410  |
-|pointValue        |20.000|24.000  |28.000  |32.000  |36.000  |40.000  |44.000  |48.000  |52.000  |60.000  |
 |favoriteTargetType|turret|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
+
+## Uninterpreted stats
+
+  * pathSearchWidth: 1
+  * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 0
+  * chargeTime: 750
+  * armingDelay: 0
+  * projectileType: projectileMeleeKraytDragon
+  * shotDelay: 1000
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 0
+  * gunSequence: 2,1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
+
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|order     |332401|332402|332403|332404|332405|332406|332407|332408|332409|332410|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

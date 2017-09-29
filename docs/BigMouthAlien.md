@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Storage (50)**, **Heavy vehicle (50)**, **HQ (50)**, **Flying vehicle (50)**, **Other building (50)**, **Flying infantry (50)**, **Ressource generator (50)**, **Shield (50)**, **Turret (50)**, Retargeting offset (10), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,52 +67,52 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * eventFeaturesString: fragment_obtain_gen
+  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: closest
+  * assetName: bigmouthalien_con-ani
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
+  * iconLookatPosition: -0.48,1.28,-0.82
+  * iconCloseupCameraPosition: 2.94,5.03,8.98
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.32,2.05,-1.04
+  * animationDelay: 0
+  * iconCameraPosition: 7.8,9.8,16.43
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * bundleName: bigmouthalien_con-ani
-  * eventButtonString: hn_open_galaxy
-  * eventFeaturesString: fragment_obtain_gen
-  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
-  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
-  * factoryRotation: 0
-  * assetName: bigmouthalien_con-ani
-  * iconCloseupLookatPosition: -0.32,2.05,-1.04
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * newRotationSpeed: 7854
   * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 2.94,5.03,8.98
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 7.8,9.8,16.43
-  * iconLookatPosition: -0.48,1.28,-0.82
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 5
-  * unlockedByEvent: true
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * pointValue: 4.000
-  * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: closest
-  * strictCoolDown: false
   * upgradeShardUid: shrd_troopBigMouthAlien
-  * impactDelay: 1000
-  * autoSpawnRateScale: 1
-  * projectileType: projectileSoldier
+  * chargeTime: 500
+  * unlockedByEvent: true
+  * shotCount: 5
   * reload: 500
   * gunSequence: 1
-  * shotDelay: 400
-  * iconUnlockScale: 1.2,1.2,1.2
+  * splash: 0
+  * pathSearchWidth: 15
   * xp: 0
+  * iconUnlockScale: 1.2,1.2,1.2
+  * impactDelay: 1000
+  * maxScale: false
+  * projectileType: projectileSoldier
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * pointValue: 4.000
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * shotDelay: 400
+  * autoSpawnRateScale: 1
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|ability|abilityBigMouthAlien1|abilityBigMouthAlien2|abilityBigMouthAlien3|abilityBigMouthAlien4|abilityBigMouthAlien5|
 |order  |215601               |215602               |215603               |215604               |215605               |
+|ability|abilityBigMouthAlien1|abilityBigMouthAlien2|abilityBigMouthAlien3|abilityBigMouthAlien4|abilityBigMouthAlien5|
 

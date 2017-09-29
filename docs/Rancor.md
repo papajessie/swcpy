@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (55)**, Shield generator (50), Infantry (50), Heavy vehicle (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), HQ (40), Retargeting offset (8), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), Other building (50), Ressource generator (50), Shield (50), HQ (40), Retargeting offset (8), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
@@ -64,41 +64,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * factoryRotation: 0
-  * assetName: rancor_neu-ani
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * deathAnimation: buffFireBurn:15
   * buffAssetOffset: 0.00,4.30,0.00
-  * animationDelay: 960
-  * bundleName: rancor_neu-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 38.76,41.86,47.24
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * favoriteTargetType: vehicles
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * assetName: rancor_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * audioDeath: "sfx_death_creatures_rancor_1":100
   * iconLookatPosition: -0.95,2.74,-1.82
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 960
+  * iconCameraPosition: 38.76,41.86,47.24
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * bundleName: rancor_neu-ani
+  * newRotationSpeed: 2000
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
-  * maxScale: false
-  * shotCount: 2
-  * projectileType: projectileMeleeRancor
-  * reload: 1910
-  * shotDelay: 270
-  * autoSpawnSpreadingScale: 2
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 2,1
-  * favoriteTargetType: vehicles
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 0
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileMeleeRancor
+  * shotDelay: 270
+  * shotCount: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 1910
+  * gunSequence: 2,1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

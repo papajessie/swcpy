@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Turret (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (8), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Turret (60)_, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Retargeting offset (8), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -61,46 +61,46 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: shieldGenerator
+  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
+  * assetName: hansolo_rbl-ani
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_hero_han":100
+  * audioDeath: "sfx_death_hero_han":100
+  * iconLookatPosition: -0.01,1.77,0.14
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * animationDelay: 0
+  * iconCameraPosition: 11.5,12.83,14.14
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * bundleName: hansolo_rbl-ani
-  * decalSize: 160
-  * gunPosition: "hansolo_rbl_rig_MASTER_MOVER/hansolo_rbl_rig_locator_gun_Rt":1
-  * audioDeath: "sfx_death_hero_han":100
-  * factoryRotation: 0
-  * assetName: hansolo_rbl-ani
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioPlacement: "sfx_placement_hero_han":100
-  * animationDelay: 0
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 11.5,12.83,14.14
-  * iconLookatPosition: -0.01,1.77,0.14
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * shotCount: 2
-  * targetInRangeModifier: 1
-  * chargeTime: 150
-  * pointValue: 24.000
-  * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: shieldGenerator
-  * strictCoolDown: false
   * decalBundleName: tac_hero_rbl
-  * impactDelay: 1000
+  * chargeTime: 150
+  * shotCount: 2
+  * reload: 1870
+  * gunSequence: 1
+  * splash: 0
+  * pathSearchWidth: 1
+  * xp: 0
   * decalAssetName: tac_hero_rbl
   * order: 42
   * uiDecalAssetName: HeroDecalRebel
+  * impactDelay: 1000
+  * maxScale: false
   * projectileType: projectileFUEHeroHanSolo
-  * reload: 1870
-  * gunSequence: 1
-  * shotDelay: 150
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * pointValue: 24.000
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
   * heroData: hero2
+  * shotDelay: 150
   * autoSpawnRateScale: 1
-  * xp: 0
 

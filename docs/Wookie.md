@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Shield (50), Retargeting offset (10), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -67,44 +67,44 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * buffAssetOffset: 0.00,0.36,0.00
-  * bundleName: wookiewarrior_rbl-ani
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
-  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
-  * factoryRotation: 0
-  * assetName: wookiewarrior_rbl-ani
-  * iconCloseupLookatPosition: 0.08,3,-1.33
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,0.36,0.00
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: turret
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
+  * assetName: wookiewarrior_rbl-ani
   * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
-  * animationDelay: 0
-  * iconCloseupCameraPosition: -0.51,3.09,12.25
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.29,13.73,18.65
+  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
   * iconLookatPosition: -0.06,1.71,0.07
+  * iconCloseupCameraPosition: -0.51,3.09,12.25
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.08,3,-1.33
+  * animationDelay: 0
+  * iconCameraPosition: 9.29,13.73,18.65
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * bundleName: wookiewarrior_rbl-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 3
-  * projectileType: projectileWookie
-  * reload: 2000
-  * shotDelay: 500
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: turret
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectileWookie
+  * shotDelay: 500
+  * shotCount: 3
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (16), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Shield (50), Retargeting offset (16), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,43 +68,43 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 2000
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * buffAssetOffset: 0.0,1.14,0.0
-  * bundleName: hovertankempire_emp-ani
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryRotation: 0
-  * assetName: hovertankempire_emp-ani
-  * iconCloseupLookatPosition: -0.59,0.62,-0.25
   * rotationSpeed: 2
+  * favoriteTargetType: turret
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * assetName: hovertankempire_emp-ani
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 23.7,17.94,45.6
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * iconCameraPosition: 23.7,17.94,45.6
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
   * iconLookatPosition: -0.59,0.62,-0.25
+  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * factoryRotation: 0
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * animationDelay: 0
+  * iconCameraPosition: 23.7,17.94,45.6
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * bundleName: hovertankempire_emp-ani
+  * newRotationSpeed: 2000
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 16
-  * projectileType: projectile2MTank
-  * reload: 2000
-  * shotDelay: 800
-  * pointValue: 1.000
-  * autoSpawnSpreadingScale: 3
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1,1,1,1
-  * favoriteTargetType: turret
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 3
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 3
+  * impactDelay: 1000
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectile2MTank
+  * shotDelay: 800
+  * shotCount: 16
+  * maxScale: false
+  * pointValue: 1.000
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1,1,1,1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 3
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

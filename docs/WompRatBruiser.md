@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Heavy vehicular hero (50), Infantry hero (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Heavy infantry hero (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Vehicle hero (50), Light vehicle (50), Support troop (50), Retargeting offset (8), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Support troop (50), Heavy vehicular hero (50), Droideka (50), Light vehicle (50), Heavy infantry hero (50), Infantry hero (50), Shield generator (50), Vehicle hero (50), Infantry (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Retargeting offset (8), Wall (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -65,39 +65,39 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 982
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * factoryRotation: 0
-  * assetName: wompratmedium_neu-ani
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * deathAnimation: buffFireBurn:15
   * buffAssetOffset: 0.00,0.25,0.00
-  * animationDelay: 1000
-  * bundleName: wompratmedium_neu-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 13.51,14.12,9.05
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * favoriteTargetType: closest
+  * assetName: wompratmedium_neu-ani
+  * deathAnimation: buffFireBurn:15
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
   * iconLookatPosition: -0.2,0.39,-0.08
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 1000
+  * iconCameraPosition: 13.51,14.12,9.05
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * bundleName: wompratmedium_neu-ani
+  * newRotationSpeed: 982
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 1
-  * projectileType: projectileMeleeWompRatBruiser
-  * reload: 1000
-  * shotDelay: 500
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: closest
-  * chargeTime: 250
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * chargeTime: 250
+  * armingDelay: 0
+  * projectileType: projectileMeleeWompRatBruiser
+  * shotDelay: 500
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 1000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

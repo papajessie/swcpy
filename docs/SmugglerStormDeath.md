@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicular hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Vehicle hero (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (14), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Droideka (50)**, **Light vehicle (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Vehicle hero (50)**, **Infantry (50)**, **Storage (50)**, **Heavy vehicle (50)**, **HQ (50)**, **Flying vehicle (50)**, **Other building (50)**, **Flying infantry (50)**, **Ressource generator (50)**, **Shield (50)**, **Turret (50)**, Retargeting offset (14), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -66,44 +66,44 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: closest
+  * gunPosition: "stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun":1
+  * assetName: stotrper_dth-ani
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * iconLookatPosition: 0.05,1.69,0.14
+  * iconCloseupCameraPosition: 4.5,4.27,7.56
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: -0.5,2.49,-0.78
+  * animationDelay: 0
+  * iconCameraPosition: 11.27,12.43,13.71
   * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
   * bundleName: stotrper_dth-ani
-  * gunPosition: "stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun":1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * factoryRotation: 0
-  * assetName: stotrper_dth-ani
-  * iconCloseupLookatPosition: -0.5,2.49,-0.78
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * deathAnimation: buffFireBurn:15
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 4.5,4.27,7.56
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 11.27,12.43,13.71
-  * iconLookatPosition: 0.05,1.69,0.14
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * decalAssetName: troop_stotrper_emp
-  * shotCount: 3
-  * projectileType: projectileSmugglerStormDeath
-  * reload: 650
-  * shotDelay: 350
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * maxScale: false
-  * gunSequence: 1
-  * favoriteTargetType: closest
+  * xp: 0
+  * decalAssetName: troop_stotrper_emp
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * strictCoolDown: false
   * chargeTime: 250
   * armingDelay: 0
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
+  * projectileType: projectileSmugglerStormDeath
+  * shotDelay: 350
+  * shotCount: 3
+  * maxScale: false
   * decalBundleName: troop_stotrper_emp
+  * reload: 650
+  * gunSequence: 1
   * targetInRangeModifier: 1
-  * xp: 0
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

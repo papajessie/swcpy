@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, Retargeting offset (10), Heavy vehicular hero (0), Flying vehicle (0), Trap (0), Shield generator (0), Heavy vehicle (0), Flying infantry (0), HQ (0), Droideka (0), Other building (0), Shield (0), Turret (0), Vehicle hero (0), Storage (0), Wall (0), Light vehicle (0), Support troop (0), Ressource generator (0)
+  * Target preferences: **Heavy infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Infantry (50)**, Retargeting offset (10), Support troop (0), Heavy vehicular hero (0), Droideka (0), Light vehicle (0), Wall (0), Shield generator (0), Vehicle hero (0), Storage (0), Heavy vehicle (0), HQ (0), Trap (0), Flying vehicle (0), Other building (0), Flying infantry (0), Ressource generator (0), Shield (0), Turret (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,41 +67,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: infantry
+  * assetName: medicdroid_rbl-ani
+  * infoUIType: Healer
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
+  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * iconLookatPosition: 0.26,1.17,0.34
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * factoryRotation: 0
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0.03,1.47,-0.14
+  * animationDelay: 0
+  * iconCameraPosition: 6.65,6.07,11.15
   * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
   * bundleName: medicdroid_rbl-ani
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
-  * factoryRotation: 0
-  * assetName: medicdroid_rbl-ani
-  * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 6.65,6.07,11.15
-  * iconLookatPosition: 0.26,1.17,0.34
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 250
-  * maxScale: false
-  * shotCount: 2
-  * reload: 900
-  * shotDelay: 400
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * infoUIType: Healer
-  * favoriteTargetType: infantry
-  * chargeTime: 50
-  * strictCoolDown: false
-  * supportFollowDistance: 5
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 250
+  * chargeTime: 50
+  * armingDelay: 0
+  * splash: 0
+  * shotCount: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 900
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * supportFollowDistance: 5
+  * shotDelay: 400
   * autoSpawnRateScale: 1
 
 |Level         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |

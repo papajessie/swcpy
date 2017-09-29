@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Vehicle hero (50)**, **Light vehicle (50)**, Retargeting offset (10), Flying vehicle (0), Infantry hero (0), Trap (0), Shield generator (0), Infantry (0), Heavy infantry hero (0), Flying infantry (0), HQ (0), Droideka (0), Other building (0), Heavy infantry (0), Shield (0), Turret (0), Storage (0), Wall (0), Support troop (0), Ressource generator (0)
+  * Target preferences: **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, Retargeting offset (10), Heavy infantry (0), Support troop (0), Droideka (0), Heavy infantry hero (0), Wall (0), Infantry hero (0), Shield generator (0), Infantry (0), Storage (0), HQ (0), Trap (0), Flying vehicle (0), Other building (0), Flying infantry (0), Ressource generator (0), Shield (0), Turret (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,39 +67,39 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
-  * factoryRotation: 0
-  * assetName: techniciandroid_emp-ani
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: vehicles
+  * assetName: techniciandroid_emp-ani
+  * infoUIType: Healer
   * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * animationDelay: 0
-  * bundleName: techniciandroid_emp-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 7.9,7.91,12.71
+  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
   * iconLookatPosition: 0.06,2.6,-0.14
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * animationDelay: 0
+  * iconCameraPosition: 7.9,7.91,12.71
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * bundleName: techniciandroid_emp-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * shotCount: 1
-  * reload: 2000
-  * shotDelay: 500
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * infoUIType: Healer
-  * favoriteTargetType: vehicles
-  * chargeTime: 250
-  * strictCoolDown: false
-  * supportFollowDistance: 5
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * chargeTime: 250
+  * armingDelay: 0
+  * splash: 0
+  * shotCount: 1
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 2000
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * supportFollowDistance: 5
+  * shotDelay: 500
   * autoSpawnRateScale: 1
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |

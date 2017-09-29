@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Infantry hero (70)_, _Heavy infantry hero (70)_, _Vehicle hero (70)_, _Flying vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Support troop (60)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (20), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy infantry (60)_, _Support troop (60)_, _Light vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (20), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,60 +67,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * eventButtonAction: planet
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * bundleName: forenbrand_neu-ani
-  * decalSize: 160
-  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
-  * eventFeaturesString: fragment_obtain_gen
-  * audioDeath: "sfx_death_foren_1":100
-  * factoryRotation: 0
   * assetName: forenbrand_neu-ani
-  * eventButtonString: hn_open_erk
-  * iconCloseupLookatPosition: 0,2.54,-0.89
+  * eventButtonAction: planet
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * eventButtonData: planet6
-  * audioPlacement: "sfx_placement_foren_1":100
-  * animationDelay: 0
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 4.91,10.98,19.43
+  * favoriteTargetType: infantry
+  * eventButtonString: hn_open_erk
+  * decalSize: 160
+  * eventFeaturesString: fragment_obtain_gen
   * iconLookatPosition: 0.02,1.59,-0.01
+  * factoryScaleFactor: 1
+  * iconCloseupLookatPosition: 0,2.54,-0.89
+  * iconCameraPosition: 4.91,10.98,19.43
+  * bundleName: forenbrand_neu-ani
+  * newRotationSpeed: 7854
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * audioPlacement: "sfx_placement_foren_1":100
+  * audioDeath: "sfx_death_foren_1":100
+  * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * animationDelay: 0
+  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * factoryRotation: 0
+  * eventButtonData: planet6
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * shotCount: 3
-  * unlockedByEvent: true
   * hologramUid: HeroHologramJohharKessen
-  * shotDelay: 500
-  * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * favoriteTargetType: infantry
-  * strictCoolDown: false
   * upgradeShardUid: shrd_troopEmpireJohhar
-  * decalBundleName: tac_hero_emp
-  * impactDelay: 1000
-  * decalAssetName: tac_hero_emp
-  * autoSpawnRateScale: 2
-  * projectileType: projectileJohharEmpire
+  * chargeTime: 250
+  * unlockedByEvent: true
+  * shotCount: 3
   * reload: 2000
   * gunSequence: 1
-  * chargeTime: 250
-  * targetInRangeModifier: 1
+  * splash: 0
+  * pathSearchWidth: 15
   * xp: 0
+  * decalAssetName: tac_hero_emp
+  * impactDelay: 1000
+  * armingDelay: 0
+  * projectileType: projectileJohharEmpire
+  * decalBundleName: tac_hero_emp
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * shotDelay: 500
+  * autoSpawnRateScale: 2
 
 |Level             |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|pointValue        |20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
-|ability           |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
 |iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |order             |111101               |111102               |111103               |111104               |111105               |111106               |111107               |111108               |111109               |111110                |
-|heroData          |hero1                |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 |iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|pointValue        |20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
+|heroData          |hero1                |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
+|ability           |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
 

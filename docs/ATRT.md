@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy vehicular hero (50), Flying vehicle (50), Infantry hero (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Heavy infantry hero (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Turret (50), Vehicle hero (50), Light vehicle (50), Support troop (50), Retargeting offset (20), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Support troop (50), Heavy vehicular hero (50), Droideka (50), Light vehicle (50), Heavy infantry hero (50), Infantry hero (50), Shield generator (50), Vehicle hero (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Shield (50), Turret (50), Retargeting offset (20), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -67,55 +67,55 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * eventButtonAction: planet
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * eventButtonString: hn_open_hth
-  * gunPosition: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
   * eventFeaturesString: fragment_obtain_gen
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryRotation: 0
-  * assetName: atrt_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * eventButtonData: planet21
   * buffAssetOffset: 0.00,1.5,0.00
-  * animationDelay: 0
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * bundleName: atrt_rbl-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 21.25,19.91,26.67
+  * eventButtonString: hn_open_hth
+  * eventButtonAction: planet
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: resource
+  * gunPosition: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
+  * assetName: atrt_rbl-ani
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * audioDeath: "sfx_death_walker_1":100
   * iconLookatPosition: -0.49,1.92,-0.68
+  * factoryRotation: 0
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * factoryScaleFactor: 1
+  * animationDelay: 0
+  * iconCameraPosition: 21.25,19.91,26.67
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * bundleName: atrt_rbl-ani
+  * newRotationSpeed: 7854
+  * eventButtonData: planet21
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * shotCount: 1
-  * unlockedByEvent: true
-  * chargeTime: 250
-  * pathSearchWidth: 15
-  * splash: 0
-  * armingDelay: 0
-  * ability: abilityATRTIonShot
-  * favoriteTargetType: resource
-  * strictCoolDown: false
   * upgradeShardUid: shrd_troopATRT
+  * chargeTime: 250
   * supportFollowDistance: 0
-  * impactDelay: 1000
-  * autoSpawnRateScale: 2
-  * projectileType: projectileATRT
+  * shotCount: 1
   * reload: 800
   * gunSequence: 1
-  * shotDelay: 0
-  * targetInRangeModifier: 1
+  * unlockedByEvent: true
+  * splash: 0
+  * pathSearchWidth: 15
   * xp: 0
+  * impactDelay: 1000
+  * armingDelay: 0
+  * projectileType: projectileATRT
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * ability: abilityATRTIonShot
+  * shotDelay: 0
+  * autoSpawnRateScale: 2
 
 |Level             |1     |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|iconUnlockPosition|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|pointValue        |5.000 |6.000      |7.000      |8.000      |9.000      |10.000     |11.000     |12.000     |13.000     |15.000     |
 |iconUnlockRotation|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |order             |231101|231102     |231103     |231104     |231105     |231106     |231107     |231108     |231109     |231110     |
 |iconUnlockScale   |1,1,1 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|iconUnlockPosition|0,0,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|pointValue        |5.000 |6.000      |7.000      |8.000      |9.000      |10.000     |11.000     |12.000     |13.000     |15.000     |
 

@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _HQ (60)_, Shield generator (50), Other building (50), Shield (50), Storage (50), Ressource generator (50), Retargeting offset (4), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Droideka (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Shield generator (50), Storage (50), Other building (50), Ressource generator (50), Shield (50), Retargeting offset (4), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -64,39 +64,39 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * newRotationSpeed: 7854
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryRotation: 0
-  * assetName: raidermelee_tkn-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * deathAnimation: buffFireBurn:15
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * favoriteTargetType: infantry
+  * assetName: raidermelee_tkn-ani
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * animationDelay: 1000
-  * bundleName: raidermelee_tkn-ani
-  * factoryScaleFactor: 1
-  * iconCameraPosition: 9.5,10.55,11.7
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
   * iconLookatPosition: 0.1,1.49,0.27
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
+  * animationDelay: 1000
+  * iconCameraPosition: 9.5,10.55,11.7
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * bundleName: raidermelee_tkn-ani
+  * newRotationSpeed: 7854
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
-  * maxScale: false
-  * shotCount: 5
-  * projectileType: projectileMeleeHeadButtLrg
-  * reload: 0
-  * shotDelay: 1250
-  * autoSpawnSpreadingScale: 1
   * pathSearchWidth: 1
-  * splash: 0
-  * armingDelay: 0
-  * gunSequence: 1
-  * favoriteTargetType: infantry
-  * chargeTime: 500
-  * strictCoolDown: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
   * xp: 0
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * chargeTime: 500
+  * armingDelay: 0
+  * projectileType: projectileMeleeHeadButtLrg
+  * shotDelay: 1250
+  * shotCount: 5
+  * maxScale: false
+  * strictCoolDown: false
+  * reload: 0
+  * gunSequence: 1
+  * targetInRangeModifier: 1
+  * splash: 0
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
