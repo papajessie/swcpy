@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Flying infantry (60)_, _Support troop (60)_, Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,48 +67,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * eventButtonAction: galaxy
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
   * newRotationSpeed: 7854
-  * iconCameraPosition: 5.5,12.03,13.9
-  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
-  * factoryScaleFactor: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * assetName: ig86_emp-ani
+  * eventButtonAction: galaxy
+  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
   * bundleName: ig86_emp-ani
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * animationDelay: 0
   * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
   * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * factoryRotation: 0
+  * assetName: ig86_emp-ani
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 5.5,12.03,13.9
+  * iconLookatPosition: -0.4,1.24,-0.81
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 150
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 7
+  * unlockedByEvent: true
   * targetInRangeModifier: 1
   * chargeTime: 250
+  * pathSearchWidth: 15
   * splash: 0
-  * impactDelay: 1000
-  * unlockedByEvent: true
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * upgradeShardUid: shrd_troopIG86Droid
-  * projectileType: projectileIG86Droid
-  * targetPreferenceStrength: 90
-  * reload: 2000
-  * shotCount: 7
+  * armingDelay: 0
   * favoriteTargetType: turret
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopIG86Droid
+  * impactDelay: 1000
+  * autoSpawnRateScale: 1
+  * projectileType: projectileIG86Droid
+  * reload: 2000
+  * gunSequence: 1
+  * shotDelay: 150
+  * xp: 0
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|

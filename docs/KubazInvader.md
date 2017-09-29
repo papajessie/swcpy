@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Ressource generator (60)_, _Storage (60)_, Support troop (50), Heavy vehicle (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Other building (50), Turret (40), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Light vehicle (50), Support troop (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 4
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,48 +67,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
   * newRotationSpeed: 7854
-  * iconCameraPosition: 8.96,11.37,18.33
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * factoryScaleFactor: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconLookatPosition: -0.48,1.32,-0.72
-  * assetName: kubaz_emp-ani
-  * bundleName: kubaz_emp-ani
-  * iconCloseupCameraPosition: 4.16,3.05,10.68
-  * animationDelay: 0
-  * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
+  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * bundleName: kubaz_emp-ani
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
+  * factoryRotation: 0
+  * assetName: kubaz_emp-ani
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 8.96,11.37,18.33
+  * iconLookatPosition: -0.48,1.32,-0.72
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 200
-  * armingDelay: 0
-  * shotDelay: 200
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 2
+  * unlockedByEvent: true
   * targetInRangeModifier: 1
   * chargeTime: 50
+  * pathSearchWidth: 200
   * splash: 0
-  * impactDelay: 250
-  * unlockedByEvent: true
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * spawnApplyBuffs: buffPersonalShieldKubaz
-  * upgradeShardUid: shrd_troopKubazInvader
-  * projectileType: projectileKubazInvader
-  * targetPreferenceStrength: 90
-  * reload: 2000
-  * shotCount: 2
+  * armingDelay: 0
   * favoriteTargetType: shieldGenerator
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopKubazInvader
+  * impactDelay: 250
+  * autoSpawnRateScale: 1
+  * projectileType: projectileKubazInvader
+  * reload: 2000
+  * gunSequence: 1
+  * shotDelay: 200
+  * spawnApplyBuffs: buffPersonalShieldKubaz
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (16), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,50 +67,49 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 19.84,22.71,46.64
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * factoryRotation: 0
   * newRotationSpeed: 7854
-  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 240
-  * audioPlacement: "sfx_placement_hero":100
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.02,3.29,0.19
-  * assetName: atsthero_emp-ani
-  * bundleName: atsthero_emp-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
   * buffAssetOffset: 0.00,2.83,0.0
+  * decalSize: 240
+  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryRotation: 0
+  * assetName: atsthero_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_hero":100
+  * animationDelay: 0
+  * bundleName: atsthero_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 19.84,22.71,46.64
+  * iconLookatPosition: -0.02,3.29,0.19
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 250
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 0
+  * shotCount: 10
+  * hologramUid: HeroHologramEmpire1
   * targetInRangeModifier: 1
   * chargeTime: 1000
-  * decalBundleName: tac_hero_emp
+  * pathSearchWidth: 15
   * splash: 0
-  * hologramUid: HeroHologramEmpire1
-  * impactDelay: 500
-  * autoSpawnSpreadingScale: 0
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_emp
-  * gunSequence: 1,2
-  * autoSpawnRateScale: 2
-  * effectType: 2
-  * projectileType: projectileHeroATST
-  * targetPreferenceStrength: 90
-  * reload: 2000
-  * shotCount: 10
+  * armingDelay: 0
   * favoriteTargetType: closest
+  * strictCoolDown: false
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 500
+  * decalAssetName: tac_hero_emp
+  * projectileType: projectileHeroATST
+  * reload: 2000
+  * gunSequence: 1,2
+  * shotDelay: 250
+  * autoSpawnRateScale: 2
+  * xp: 0
+  * effectType: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

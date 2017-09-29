@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (80)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,53 +67,52 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 9.95,9.78,16.61
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * factoryRotation: 0
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
   * newRotationSpeed: 7854
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * audioDeath: "sfx_death_hero_luke":100
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.45,1.28,-0.62
-  * assetName: lukeskywalker_rbl-ani
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * bundleName: lukeskywalker_rbl-ani
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * decalSize: 160
+  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * audioDeath: "sfx_death_hero_luke":100
+  * factoryRotation: 0
+  * assetName: lukeskywalker_rbl-ani
+  * iconCloseupLookatPosition: 0.02,2.48,-0.32
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_hero_luke":100
   * animationDelay: 0
+  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.95,9.78,16.61
+  * iconLookatPosition: -0.45,1.28,-0.62
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 500
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 0
+  * shotCount: 2
+  * spawnEffectUid: effectRebelSpawn
+  * hologramUid: HeroHologramLukeSkywalker
   * targetInRangeModifier: 1
   * chargeTime: 250
-  * decalBundleName: tac_hero_rbl
+  * pathSearchWidth: 15
   * splash: 0
-  * hologramUid: HeroHologramLukeSkywalker
-  * impactDelay: 250
-  * autoSpawnSpreadingScale: 0
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * projectileType: projectileHeroLukeAttack
-  * targetPreferenceStrength: 90
-  * reload: 500
-  * shotCount: 2
+  * armingDelay: 0
   * ability: abilityHeroLukeDefend
   * favoriteTargetType: turret
-  * spawnEffectUid: effectRebelSpawn
+  * strictCoolDown: false
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 250
+  * decalAssetName: tac_hero_rbl
+  * projectileType: projectileHeroLukeAttack
+  * reload: 500
+  * gunSequence: 1
+  * shotDelay: 500
+  * autoSpawnRateScale: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
 |order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
 

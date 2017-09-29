@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (16), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 30.83,30.71,28.35
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * factoryRotation: 0
   * newRotationSpeed: 2000
-  * rotationSpeed: 2
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.0,1.14,0.0
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * iconLookatPosition: -0.22,1.4,-0.74
-  * assetName: replrtnk_emp-ani
-  * bundleName: replrtnk_emp-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * factoryRotation: 0
+  * assetName: replrtnk_emp-ani
+  * rotationSpeed: 2
+  * buffAssetOffset: 0.0,1.14,0.0
+  * animationDelay: 0
+  * bundleName: replrtnk_emp-ani
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * iconCameraPosition: 30.83,30.71,28.35
+  * iconLookatPosition: -0.22,1.4,-0.74
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 3
-  * shotDelay: 200
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 4
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * splash: 0
-  * projectileType: projectile2MTank
   * impactDelay: 1000
+  * maxScale: false
+  * shotCount: 4
+  * projectileType: projectile2MTank
   * reload: 2000
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * shotDelay: 200
   * autoSpawnSpreadingScale: 3
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: turret
+  * chargeTime: 250
+  * strictCoolDown: false
+  * autoSpawnRateScale: 3
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

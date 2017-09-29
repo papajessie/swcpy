@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (10), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,45 +67,44 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 0.08,3,-1.33
   * newRotationSpeed: 7854
-  * iconCameraPosition: 9.29,13.73,18.65
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
-  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.06,1.71,0.07
-  * assetName: wookiewarrior_rbl-ani
-  * bundleName: wookiewarrior_rbl-ani
-  * iconCloseupCameraPosition: -0.51,3.09,12.25
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
   * buffAssetOffset: 0.00,0.36,0.00
+  * bundleName: wookiewarrior_rbl-ani
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
   * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
+  * factoryRotation: 0
+  * assetName: wookiewarrior_rbl-ani
+  * iconCloseupLookatPosition: 0.08,3,-1.33
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
+  * animationDelay: 0
+  * iconCloseupCameraPosition: -0.51,3.09,12.25
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.29,13.73,18.65
+  * iconLookatPosition: -0.06,1.71,0.07
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 500
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 3
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * splash: 0
-  * projectileType: projectileWookie
   * impactDelay: 1000
+  * maxScale: false
+  * shotCount: 3
+  * projectileType: projectileWookie
   * reload: 2000
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * shotDelay: 500
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: turret
+  * chargeTime: 250
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Support troop (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Light vehicle (60)_, _Infantry (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Infantry hero (70)_, _Heavy infantry hero (70)_, _Vehicle hero (70)_, _Flying vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Support troop (60)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (20), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 10
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,61 +67,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * iconCameraPosition: 4.91,10.98,19.43
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * iconCloseupLookatPosition: 0,2.54,-0.89
   * newRotationSpeed: 7854
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_foren_1":100
-  * audioDeath: "sfx_death_foren_1":100
-  * factoryScaleFactor: 1
-  * eventButtonData: planet6
-  * iconLookatPosition: 0.02,1.59,-0.01
-  * assetName: forenbrand_neu-ani
-  * bundleName: forenbrand_neu-ani
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
-  * animationDelay: 0
-  * eventButtonString: hn_open_erk
   * eventButtonAction: planet
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * bundleName: forenbrand_neu-ani
+  * decalSize: 160
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * eventFeaturesString: fragment_obtain_gen
+  * audioDeath: "sfx_death_foren_1":100
+  * factoryRotation: 0
+  * assetName: forenbrand_neu-ani
+  * eventButtonString: hn_open_erk
+  * iconCloseupLookatPosition: 0,2.54,-0.89
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet6
+  * audioPlacement: "sfx_placement_foren_1":100
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 4.91,10.98,19.43
+  * iconLookatPosition: 0.02,1.59,-0.01
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 500
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * decalBundleName: tac_hero_rbl
-  * splash: 0
-  * hologramUid: HeroHologramJohharKessen
-  * impactDelay: 1000
-  * autoSpawnSpreadingScale: 2
-  * strictCoolDown: false
   * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * gunSequence: 1
-  * autoSpawnRateScale: 2
-  * upgradeShardUid: shrd_troopRebelJohhar
-  * unlockedByEvent: true
-  * projectileType: projectileJohharRebel
-  * targetPreferenceStrength: 90
-  * reload: 2000
+  * autoSpawnSpreadingScale: 2
   * shotCount: 3
+  * unlockedByEvent: true
+  * hologramUid: HeroHologramJohharKessen
+  * shotDelay: 500
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
   * favoriteTargetType: infantry
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopRebelJohhar
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 1000
+  * decalAssetName: tac_hero_rbl
+  * autoSpawnRateScale: 2
+  * projectileType: projectileJohharRebel
+  * reload: 2000
+  * gunSequence: 1
+  * chargeTime: 250
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|heroData          |hero1               |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 |iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |pointValue        |20.000              |24.000              |28.000              |32.000              |36.000              |40.000              |44.000              |48.000              |52.000              |60.000               |
-|order             |211101              |211102              |211103              |211104              |211105              |211106              |211107              |211108              |211109              |211110               |
-|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |ability           |abilityRailGun1Rebel|abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
+|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+|order             |211101              |211102              |211103              |211104              |211105              |211106              |211107              |211108              |211109              |211110               |
+|heroData          |hero1               |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
+|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 

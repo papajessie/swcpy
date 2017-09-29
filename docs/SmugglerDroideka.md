@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Retargeting offset (100)**, _Support troop (60)_, _Flying infantry (60)_, _Infantry (60)_, _Heavy infantry (60)_, _Droideka (60)_, Turret (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Flying vehicle (50), Storage (50), Shield generator (50), Other building (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Retargeting offset (100)**, _Infantry (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy infantry (60)_, _Support troop (60)_, Flying vehicle (50), Shield generator (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Light vehicle (50), Ressource generator (50), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 100
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -68,51 +68,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 18.67,14.16,15.1
-  * factoryRotation: 0
-  * tooltipHeightOffset: 1.5
   * newRotationSpeed: 7854
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * iconLookatPosition: -0.39,1.23,-0.21
-  * assetName: droideka_con-ani-up1
-  * bundleName: droideka_con-ani-up1
-  * shieldAssetName: effectRebelDroidekaShield1
-  * animationDelay: 0
+  * tooltipHeightOffset: 1.5
   * buffAssetOffset: 0.00,0.65,0.00
+  * bundleName: droideka_con-ani-up1
+  * decalSize: 160
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
+  * factoryRotation: 0
+  * assetName: droideka_con-ani-up1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * shieldAssetName: effectRebelDroidekaShield1
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconCameraPosition: 18.67,14.16,15.1
+  * iconLookatPosition: -0.39,1.23,-0.21
 
 |Level         |1                                                                                                                                      |2                                                                                                                                      |3                                                                                                                                      |4                                                                                                                                      |5                                                                                                                                      |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 |audioAttack   |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
-|audioPlacement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
 |audioDeath    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
+|audioPlacement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 200
+  * maxScale: false
+  * autoSpawnSpreadingScale: 2
+  * shotCount: 6
+  * spawnEffectUid: effectRebelSpawn
   * targetInRangeModifier: 1
   * chargeTime: 500
-  * decalBundleName: tac_hero_neu
+  * pathSearchWidth: 15
   * splash: 0
-  * impactDelay: 1000
-  * autoSpawnSpreadingScale: 2
+  * armingDelay: 0
+  * favoriteTargetType: closest
   * strictCoolDown: false
-  * maxScale: false
+  * decalBundleName: tac_hero_neu
+  * impactDelay: 1000
   * decalAssetName: tac_hero_neu
-  * gunSequence: 1,1,2,2
-  * autoSpawnRateScale: 2
   * uiDecalAssetName: HeroDecalNeutral
   * projectileType: projectileChampionRebelDroideka
-  * targetPreferenceStrength: 90
   * reload: 500
-  * shotCount: 6
-  * favoriteTargetType: closest
-  * spawnEffectUid: effectRebelSpawn
+  * gunSequence: 1,1,2,2
+  * shotDelay: 200
+  * autoSpawnRateScale: 2
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8      |9      |10     |
 |----------|------|------|------|------|------|------|------|-------|-------|-------|

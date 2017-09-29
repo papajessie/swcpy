@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, _Shield (60)_, _HQ (60)_, _Shield generator (60)_, Support troop (40), Heavy vehicle (40), Ressource generator (40), Light vehicle (40), Infantry (40), Heavy infantry (40), Droideka (40), Storage (40), Other building (40), Retargeting offset (4), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (80)**, _Shield generator (60)_, _HQ (60)_, _Shield (60)_, Infantry (40), Heavy vehicle (40), Droideka (40), Other building (40), Heavy infantry (40), Storage (40), Light vehicle (40), Support troop (40), Ressource generator (40), Retargeting offset (4), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -66,41 +66,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 13.7,14.58,24.5
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.72,0.0
-  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.53,2.2,1.05
-  * assetName: bantharaider_tkn-ani
-  * bundleName: bantharaider_tkn-ani
-  * animationDelay: 1000
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
   * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
+  * factoryRotation: 0
+  * assetName: bantharaider_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,0.72,0.0
+  * animationDelay: 1000
+  * bundleName: bantharaider_tkn-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 13.7,14.58,24.5
+  * iconLookatPosition: 0.53,2.2,1.05
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 1250
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 1
-  * xp: 0
-  * shotCount: 5
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * splash: 0
-  * projectileType: projectileTuskenBantha
   * impactDelay: 0
+  * maxScale: false
+  * shotCount: 5
+  * projectileType: projectileTuskenBantha
   * reload: 0
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * shotDelay: 1250
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 1
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

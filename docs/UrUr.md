@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Infantry (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _HQ (60)_, Ressource generator (50), Shield (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (4), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _HQ (60)_, Shield generator (50), Other building (50), Shield (50), Storage (50), Ressource generator (50), Retargeting offset (4), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -66,47 +66,46 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 9.94,10.08,22.52
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * factoryRotation: 0
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
   * decalSize: 160
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.28,1.77,-0.31
+  * factoryRotation: 0
   * assetName: ururhero_tkn-ani
-  * bundleName: ururhero_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * animationDelay: 1000
+  * bundleName: ururhero_tkn-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.94,10.08,22.52
+  * iconLookatPosition: -0.28,1.77,-0.31
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 1250
-  * armingDelay: 0
-  * pathSearchWidth: 1
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 3
   * targetInRangeModifier: 1
   * chargeTime: 500
-  * decalBundleName: tac_hero_neu
+  * pathSearchWidth: 1
   * splash: 0
-  * impactDelay: 0
-  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * favoriteTargetType: infantry
   * strictCoolDown: false
-  * maxScale: false
+  * decalBundleName: tac_hero_neu
+  * impactDelay: 0
   * decalAssetName: tac_hero_neu
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
   * uiDecalAssetName: HeroDecalNeutral
   * projectileType: projectileMeleeUrUr
-  * targetPreferenceStrength: 90
   * reload: 0
-  * shotCount: 3
-  * favoriteTargetType: infantry
+  * gunSequence: 1
+  * shotDelay: 1250
+  * autoSpawnRateScale: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

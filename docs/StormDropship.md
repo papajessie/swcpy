@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -68,46 +68,45 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 9.75,8.64,12.5
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
   * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0,1.43,0.17
+  * factoryRotation: 0
   * assetName: dropshiptrooper_emp-ani
-  * bundleName: dropshiptrooper_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * animationDelay: 0
+  * bundleName: dropshiptrooper_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.75,8.64,12.5
+  * iconLookatPosition: 0,1.43,0.17
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 200
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * decalBundleName: troop_stotrper_emp
-  * splash: 0
   * impactDelay: 1000
-  * autoSpawnSpreadingScale: 2
-  * strictCoolDown: false
-  * maxScale: false
   * decalAssetName: troop_stotrper_emp
-  * gunSequence: 1
-  * autoSpawnRateScale: 2
-  * projectileType: projectileStorm
-  * targetPreferenceStrength: 90
-  * reload: 500
   * shotCount: 3
+  * projectileType: projectileStorm
+  * reload: 500
+  * shotDelay: 200
+  * autoSpawnSpreadingScale: 2
+  * pathSearchWidth: 15
+  * splash: 0
+  * maxScale: false
+  * gunSequence: 1
   * favoriteTargetType: infantry
+  * chargeTime: 500
+  * armingDelay: 0
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * decalBundleName: troop_stotrper_emp
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
 |order     |135201|135202|135203|135204|135205|135206|135207|135208|135209|135210|
+|pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
 

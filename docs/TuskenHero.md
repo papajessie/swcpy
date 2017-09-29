@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Flying infantry (95)_, _Infantry (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Ressource generator (50), Shield (50), Storage (50), Shield generator (50), Other building (50), HQ (40), Retargeting offset (10), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Flying infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Flying vehicle (80)_, _Light vehicle (80)_, _Turret (55)_, Shield generator (50), Other building (50), Shield (50), Storage (50), Ressource generator (50), HQ (40), Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -64,46 +64,45 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 6.91,15.66,23.15
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
   * decalSize: 160
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
   * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.51,2,0.29
+  * factoryRotation: 0
   * assetName: tuskenhero_tkn-ani
-  * bundleName: tuskenhero_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * animationDelay: 350
+  * bundleName: tuskenhero_tkn-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 6.91,15.66,23.15
+  * iconLookatPosition: -0.51,2,0.29
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 500
-  * armingDelay: 0
-  * pathSearchWidth: 1
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
   * targetInRangeModifier: 1
   * chargeTime: 1000
-  * decalBundleName: tac_hero_neu
+  * pathSearchWidth: 1
   * splash: 0
-  * impactDelay: 1000
-  * heroData: hero9
-  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * favoriteTargetType: infantry
   * strictCoolDown: false
-  * maxScale: false
+  * decalBundleName: tac_hero_neu
+  * impactDelay: 1000
   * decalAssetName: tac_hero_neu
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
   * uiDecalAssetName: HeroDecalNeutral
   * projectileType: projectileTuskenHero
-  * targetPreferenceStrength: 90
   * reload: 0
-  * shotCount: 1
-  * favoriteTargetType: infantry
+  * gunSequence: 1
+  * shotDelay: 500
+  * heroData: hero9
+  * autoSpawnRateScale: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

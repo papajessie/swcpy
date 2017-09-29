@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (75)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (18), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (75)**, Flying vehicle (50), Shield generator (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (18), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 18
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 9
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,51 +67,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 26.46,27.84,45.96
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * factoryRotation: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * newRotationSpeed: 3927
-  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * decalSize: 320
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioDeath: "sfx_death_empire_atmp_1":100
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.78,3.46,-0.2
-  * assetName: atmphero_emp-ani
-  * bundleName: atmphero_emp-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
   * buffAssetOffset: 0.00,4.21,0.00
+  * decalSize: 320
+  * gunPosition: "atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun1":1,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun2":2,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun3":3,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun4":4,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun5":5,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun6":6,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun7":7,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun8":8,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun9":9,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun10":10,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun11":11,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun12":12,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun13":13,"atmphero_emp_rig_MASTER_MOVER/atmphero_emp_rig_locator_gun14":14
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * factoryRotation: 0
+  * assetName: atmphero_emp-ani
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * animationDelay: 0
+  * bundleName: atmphero_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 26.46,27.84,45.96
+  * iconLookatPosition: -0.78,3.46,-0.2
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 50
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 0
+  * shotCount: 14
+  * hologramUid: HeroHologramEmpire3
   * targetInRangeModifier: 1
   * chargeTime: 250
-  * decalBundleName: tac_hero_emp
+  * pathSearchWidth: 15
   * splash: 0
-  * hologramUid: HeroHologramEmpire3
-  * impactDelay: 1000
-  * autoSpawnSpreadingScale: 0
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_emp
-  * autoSpawnRateScale: 2
-  * effectType: 2
-  * projectileType: projectileHeroATMP
-  * targetPreferenceStrength: 90
-  * reload: 1000
-  * shotCount: 14
+  * armingDelay: 0
   * favoriteTargetType: turret
+  * strictCoolDown: false
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 1000
+  * decalAssetName: tac_hero_emp
+  * projectileType: projectileHeroATMP
+  * reload: 1000
+  * shotDelay: 50
+  * autoSpawnRateScale: 2
+  * xp: 0
+  * effectType: 2
 
 |Level      |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9                               |10                              |
 |-----------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|heroData   |hero1                           |hero2                           |hero3                           |hero4                           |hero5                           |hero6                           |hero7                           |hero8                           |hero9                           |hero10                          |
 |pointValue |20.000                          |24.000                          |28.000                          |32.000                          |36.000                          |40.000                          |44.000                          |48.000                          |52.000                          |60.000                          |
-|gunSequence|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|14,13,12,11,10,9,8,7,6,5,4,3,2,1|1,2,3,8,9,10,4,5,11,12,6,7,13,14|
 |order      |110301                          |110302                          |110303                          |110304                          |110305                          |110306                          |110307                          |110308                          |110309                          |110310                          |
+|gunSequence|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|1,2,3,4,5,6,7,8,9,10,11,12,13,14|14,13,12,11,10,9,8,7,6,5,4,3,2,1|1,2,3,8,9,10,4,5,11,12,6,7,13,14|
+|heroData   |hero1                           |hero2                           |hero3                           |hero4                           |hero5                           |hero6                           |hero7                           |hero8                           |hero9                           |hero10                          |
 
