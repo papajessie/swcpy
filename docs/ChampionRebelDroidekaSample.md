@@ -3,7 +3,9 @@ title: Droideka Sentinal (ChampionRebelDroidekaSample)
 category: unit
 ---
 
-# Droideka Sentinal (ChampionRebelDroidekaSample) — version 1084
+# Droideka Sentinal (ChampionRebelDroidekaSample) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 12
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
-  * Shield Cooldown: 20
+  * Shield Cooldown: 20s
   * Shield Range: 3
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Droideka (80)**, _Heavy vehicular hero (70)_, _Vehicle hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Infantry (60)_, HQ (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Support troop (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Light vehicle (60)_, _Infantry (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (14), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -53,62 +62,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * factoryRotation: 0
-  * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
-  * decalSize: 160
   * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.65,0.00
-  * newRotationSpeed: 7854
-  * animationDelay: 0
+  * factoryRotation: 0
   * tooltipHeightOffset: 1.5
+  * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
+  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * animationDelay: 0
+  * buffAssetOffset: 0.00,0.65,0.00
 
 |Level             |1                                                                                                                                                                                      |2                                                                                                                                                                                      |3                                                                                                                                                                                      |4                                                                                                                                                                                      |5                                                                                                                                                                                      |6                                                                                                                                                                                      |7                                                                                                                                                                                      |8                                                                                                                                                                                                    |9                                                                                                                                                                                                    |10                                                                                                                                                                                                   |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|gunSequence       |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,2,2                                                                                                                                                                                |1,1,1,2,2,2                                                                                                                                                                                          |1,1,1,2,2,2                                                                                                                                                                                          |1,1,1,2,2,2                                                                                                                                                                                          |
 |iconCameraPosition|18.67,14.16,15.1                                                                                                                                                                       |15.43,14.67,18.88                                                                                                                                                                      |15.43,14.67,18.88                                                                                                                                                                      |15.88,14.81,19.14                                                                                                                                                                      |15.88,14.81,19.14                                                                                                                                                                      |15.91,14.58,19.08                                                                                                                                                                      |15.91,14.58,19.08                                                                                                                                                                      |21.79,18.39,13.58                                                                                                                                                                                    |21.79,18.39,13.58                                                                                                                                                                                    |21.79,18.39,13.58                                                                                                                                                                                    |
-|iconLookatPosition|-0.39,1.23,-0.21                                                                                                                                                                       |-0.32,1.71,0.09                                                                                                                                                                        |-0.32,1.71,0.09                                                                                                                                                                        |-0.19,1.6,0                                                                                                                                                                            |-0.19,1.6,0                                                                                                                                                                            |-0.1,1.43,0.08                                                                                                                                                                         |-0.1,1.43,0.08                                                                                                                                                                         |-0.35,1.49,0.26                                                                                                                                                                                      |-0.35,1.49,0.26                                                                                                                                                                                      |-0.35,1.49,0.26                                                                                                                                                                                      |
 |gunPosition       |"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|
+|iconLookatPosition|-0.39,1.23,-0.21                                                                                                                                                                       |-0.32,1.71,0.09                                                                                                                                                                        |-0.32,1.71,0.09                                                                                                                                                                        |-0.19,1.6,0                                                                                                                                                                            |-0.19,1.6,0                                                                                                                                                                            |-0.1,1.43,0.08                                                                                                                                                                         |-0.1,1.43,0.08                                                                                                                                                                         |-0.35,1.49,0.26                                                                                                                                                                                      |-0.35,1.49,0.26                                                                                                                                                                                      |-0.35,1.49,0.26                                                                                                                                                                                      |
+|assetName         |droideka_con-ani-up1                                                                                                                                                                   |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |
 |bundleName        |droideka_con-ani-up1                                                                                                                                                                   |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |
 |shieldAssetName   |effectRebelDroidekaShield1                                                                                                                                                             |effectRebelDroidekaShield10                                                                                                                                                            |effectRebelDroidekaShield10                                                                                                                                                            |effectRebelDroidekaShield20                                                                                                                                                            |effectRebelDroidekaShield20                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |
-|assetName         |droideka_con-ani-up1                                                                                                                                                                   |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 14
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
   * autoSpawnRateScale: 2
   * shotDelay: 233
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 500
-  * spawnEffectUid: effectRebelSpawn
-  * attackShieldBorder: false
-  * clipRetargeting: false
+  * xp: 0
   * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
+  * chargeTime: 500
+  * splash: 0
   * projectileType: projectileChampionRebelDroideka
-  * targetedType: ENEMIES
+  * impactDelay: 1000
+  * spawnEffectUid: effectRebelSpawn
+  * reload: 500
+  * strictCoolDown: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 2
 
-|Level     |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
-|----------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
-|pointValue|40.000|68.000|88.000|108.000|128.000|148.000|172.000|200.000|200.000|200.000|
-|shotCount |8     |8     |8     |8      |8      |8      |8      |12     |12     |12     |
+|Level      |1      |2      |3      |4      |5      |6      |7      |8          |9          |10         |
+|-----------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|-----------|
+|gunSequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
+|shotCount  |8      |8      |8      |8      |8      |8      |8      |12         |12         |12         |
+|pointValue |40.000 |68.000 |88.000 |108.000|128.000|148.000|172.000|200.000    |200.000    |200.000    |
 

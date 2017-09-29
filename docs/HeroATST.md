@@ -3,7 +3,9 @@ title: Veteran AT-ST (HeroATST)
 category: unit
 ---
 
-# Veteran AT-ST (HeroATST) — version 1084
+# Veteran AT-ST (HeroATST) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 16
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,62 +61,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,2
-  * factoryRotation: 0
   * iconCameraPosition: 19.84,22.71,46.64
-  * audioPlacement: "sfx_placement_hero":100
-  * iconLookatPosition: -0.02,3.29,0.19
-  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
-  * decalSize: 240
   * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_walker_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,2.83,0.0
+  * factoryRotation: 0
   * newRotationSpeed: 7854
+  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 240
+  * audioPlacement: "sfx_placement_hero":100
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.02,3.29,0.19
+  * assetName: atsthero_emp-ani
   * bundleName: atsthero_emp-ani
   * animationDelay: 0
-  * assetName: atsthero_emp-ani
+  * buffAssetOffset: 0.00,2.83,0.0
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 16
-  * decalBundleName: tac_hero_emp
+  * xp: 0
+  * shotDelay: 250
   * armingDelay: 0
+  * pathSearchWidth: 15
+  * targetInRangeModifier: 1
+  * chargeTime: 1000
+  * decalBundleName: tac_hero_emp
+  * splash: 0
+  * hologramUid: HeroHologramEmpire1
+  * impactDelay: 500
+  * autoSpawnSpreadingScale: 0
+  * strictCoolDown: false
   * maxScale: false
-  * selfCenteredTargeting: false
+  * decalAssetName: tac_hero_emp
+  * gunSequence: 1,2
   * autoSpawnRateScale: 2
   * effectType: 2
-  * shotDelay: 250
-  * impactDelay: 500
-  * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 1000
-  * pathSearchWidth: 15
-  * decalAssetName: tac_hero_emp
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 2000
-  * hologramUid: HeroHologramEmpire1
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 0
   * projectileType: projectileHeroATST
+  * targetPreferenceStrength: 90
+  * reload: 2000
   * shotCount: 10
-  * targetedType: ENEMIES
+  * favoriteTargetType: closest
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
 

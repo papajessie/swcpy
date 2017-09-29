@@ -3,7 +3,9 @@ title: Stolen Mobile Heavy Cannon (StolenMHC)
 category: unit
 ---
 
-# Stolen Mobile Heavy Cannon (StolenMHC) — version 1084
+# Stolen Mobile Heavy Cannon (StolenMHC) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 12
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 20
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 10
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,53 +61,47 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 90
   * iconCameraPosition: 30.35,41.15,37.35
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * iconLookatPosition: -0.33,0.73,-0.17
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
   * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_empire_umhc_1":100
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
-  * buffAssetOffset: 0.00,0.90,0
+  * factoryRotation: 90
   * newRotationSpeed: 15708
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * buffAssetOffset: 0.00,0.90,0
+  * audioDeath: "sfx_death_empire_umhc_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * assetName: umhc_emp-ani
   * bundleName: umhc_emp-ani
   * animationDelay: 0
-  * assetName: umhc_emp-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 20
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 2
   * shotDelay: 200
-  * impactDelay: 500
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 900
+  * armingDelay: 0
   * pathSearchWidth: 200
-  * splash: 0
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 900
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
-  * projectileType: projectileMHC
+  * xp: 0
   * shotCount: 1
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 900
+  * splash: 0
+  * projectileType: projectileMHC
+  * impactDelay: 500
+  * reload: 900
+  * strictCoolDown: false
+  * favoriteTargetType: turret
+  * autoSpawnSpreadingScale: 2
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,9 @@ title: Repair Droid (Technician)
 category: unit
 ---
 
-# Repair Droid (Technician) — version 1084
+# Repair Droid (Technician) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 4
   * Damage*: 0
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, Heavy infantry (0), HQ (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Heavy infantry hero (0), Shield generator (0), Shield (0), Droideka (0), Trap (0), Infantry (0), Infantry hero (0), Other building (0), Wall (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, Retargeting offset (10), Turret (0), Support troop (0), Ressource generator (0), Flying infantry (0), Shield (0), HQ (0), Infantry (0), Infantry hero (0), Heavy infantry (0), Flying vehicle (0), Heavy infantry hero (0), Trap (0), Wall (0), Droideka (0), Storage (0), Shield generator (0), Other building (0)
+  * Targeted type: ALLIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 10
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: True
 
 ## Recruiting
 
@@ -52,57 +61,51 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: Yes
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 7.9,7.91,12.71
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * iconLookatPosition: 0.06,2.6,-0.14
   * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
   * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.06,2.6,-0.14
+  * assetName: techniciandroid_emp-ani
   * bundleName: techniciandroid_emp-ani
   * animationDelay: 0
-  * assetName: techniciandroid_emp-ani
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * supportFollowDistance: 5
-  * reload: 2000
-  * strictCoolDown: false
-  * retargetingOffset: 10
-  * armingDelay: 0
-  * maxScale: false
-  * targetLocking: true
-  * selfCenteredTargeting: true
-  * autoSpawnRateScale: 1
-  * shotDelay: 500
-  * impactDelay: 1000
   * xp: 0
-  * targetPreferenceStrength: 90
-  * chargeTime: 250
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: vehicles
-  * overWalls: false
-  * infoUIType: Healer
-  * attackShieldBorder: false
-  * clipRetargeting: false
+  * supportFollowDistance: 5
+  * armingDelay: 0
+  * shotDelay: 500
   * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * impactDelay: 1000
   * autoSpawnSpreadingScale: 1
+  * infoUIType: Healer
+  * strictCoolDown: false
+  * maxScale: false
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * targetPreferenceStrength: 90
+  * reload: 2000
   * shotCount: 1
-  * targetedType: ALLIES
+  * favoriteTargetType: vehicles
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
-|order         |120501                    |120502                    |120503                    |120504                    |120505                    |120506                    |120507                    |120508                    |120509                    |120510                     |
 |pointValue    |4.000                     |4.800                     |5.600                     |6.400                     |7.200                     |8.000                     |8.800                     |9.600                     |10.400                    |12.000                     |
+|order         |120501                    |120502                    |120503                    |120504                    |120505                    |120506                    |120507                    |120508                    |120509                    |120510                     |
 |projectileType|projectileTechnicianLevel1|projectileTechnicianLevel2|projectileTechnicianLevel3|projectileTechnicianLevel4|projectileTechnicianLevel5|projectileTechnicianLevel6|projectileTechnicianLevel7|projectileTechnicianLevel8|projectileTechnicianLevel9|projectileTechnicianLevel10|
 

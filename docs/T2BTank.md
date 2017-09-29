@@ -3,7 +3,9 @@ title: T2-B Repulsor Tank (T2BTank)
 category: unit
 ---
 
-# T2-B Repulsor Tank (T2BTank) — version 1084
+# T2-B Repulsor Tank (T2BTank) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 7
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 16
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,53 +61,47 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,1,2,2
-  * factoryRotation: 0
   * iconCameraPosition: 22.79,25.75,28.69
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
   * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0.00,0.51,0
+  * factoryRotation: 0
   * newRotationSpeed: 3927
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * buffAssetOffset: 0.00,0.51,0
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.25,0.58,-0.36
+  * assetName: t2btank_rbl-ani
   * bundleName: t2btank_rbl-ani
   * animationDelay: 100
-  * assetName: t2btank_rbl-ani
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 16
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1,1,2,2
   * autoSpawnRateScale: 3
   * shotDelay: 200
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 250
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 3
-  * projectileType: projectileT2BTank
+  * xp: 0
   * shotCount: 4
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * projectileType: projectileT2BTank
+  * impactDelay: 1000
+  * reload: 2000
+  * strictCoolDown: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 3
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

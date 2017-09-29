@@ -3,7 +3,9 @@ title: Smuggler Renegade (SmugglerRenegade)
 category: unit
 ---
 
-# Smuggler Renegade (SmugglerRenegade) — version 1084
+# Smuggler Renegade (SmugglerRenegade) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 2
   * Upgrade time: 0s
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1   |2   |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, _HQ (60)_, _Storage (60)_, _Ressource generator (60)_, _Shield generator (60)_, _Shield (60)_, _Other building (60)_, Heavy infantry (50), Heavy vehicular hero (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Heavy infantry hero (50), Droideka (50), Heavy vehicle (50), Infantry (50), Infantry hero (50), Wall (1), Trap (0)
+  * Target preferences: **Retargeting offset (100)**, _Turret (70)_, _Ressource generator (60)_, _Shield (60)_, _HQ (60)_, _Storage (60)_, _Shield generator (60)_, _Other building (60)_, Support troop (50), Heavy vehicle (50), Flying infantry (50), Light vehicle (50), Infantry (50), Infantry hero (50), Vehicle hero (50), Heavy infantry (50), Flying vehicle (50), Heavy vehicular hero (50), Heavy infantry hero (50), Droideka (50), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 100
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,58 +61,55 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,2
-  * factoryRotation: 0
   * iconCameraPosition: 14.41,12.49,21.37
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
   * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0,1,0
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * buffAssetOffset: 0,1,0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * assetName: speederbike_smg-ani
   * bundleName: speederbike_smg-ani
   * animationDelay: 0
-  * assetName: speederbike_smg-ani
-
-## Uninterpreted stats
-
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 100
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * deathAnimation: buffFireBurn:15
-  * shotDelay: 125
-  * impactDelay: 1000
-  * xp: 0
-  * targetPreferenceStrength: 90
-  * chargeTime: 250
-  * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * reload: 500
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
-  * projectileType: projectileSmugglerRenegade
-  * shotCount: 3
-  * targetedType: ENEMIES
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
 
 |Level     |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |----------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |audioTrain|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|order     |344301                                                                                                                 |344302     |344303     |344304     |344305     |344306     |344307     |344308     |344309     |344310     |
-|pointValue|6.000                                                                                                                  |7.200      |8.400      |9.600      |10.800     |12.000     |13.200     |14.400     |15.600     |18.000     |
+
+## Uninterpreted stats
+
+  * maxScale: false
+  * gunSequence: 1,2
+  * autoSpawnRateScale: 2
+  * shotDelay: 125
+  * targetPreferenceStrength: 90
+  * armingDelay: 0
+  * pathSearchWidth: 1
+  * xp: 0
+  * shotCount: 3
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * projectileType: projectileSmugglerRenegade
+  * impactDelay: 1000
+  * reload: 500
+  * strictCoolDown: false
+  * favoriteTargetType: infantry
+  * autoSpawnSpreadingScale: 2
+
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|order     |344301|344302|344303|344304|344305|344306|344307|344308|344309|344310|
+|pointValue|6.000 |7.200 |8.400 |9.600 |10.800|12.000|13.200|14.400|15.600|18.000|
 

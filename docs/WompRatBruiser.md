@@ -3,7 +3,9 @@ title: Heavy Womp Rat (WompRatBruiser)
 category: unit
 ---
 
-# Heavy Womp Rat (WompRatBruiser) — version 1084
+# Heavy Womp Rat (WompRatBruiser) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 5
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Support troop (50), Heavy infantry hero (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Infantry hero (50), Other building (50), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, Support troop (50), Heavy vehicle (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Infantry hero (50), Vehicle hero (50), Heavy infantry (50), Heavy vehicular hero (50), Heavy infantry hero (50), Droideka (50), Shield generator (50), Other building (50), Retargeting offset (8), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 8
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 4
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -50,52 +59,46 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 13.51,14.12,9.05
-  * iconLookatPosition: -0.2,0.39,-0.08
   * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
+  * newRotationSpeed: 982
   * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * buffAssetOffset: 0.00,0.25,0.00
-  * newRotationSpeed: 982
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.2,0.39,-0.08
+  * assetName: wompratmedium_neu-ani
   * bundleName: wompratmedium_neu-ani
   * animationDelay: 1000
-  * assetName: wompratmedium_neu-ani
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 8
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
-  * deathAnimation: buffFireBurn:15
   * shotDelay: 500
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 250
+  * armingDelay: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 1000
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileMeleeWompRatBruiser
+  * xp: 0
   * shotCount: 1
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * projectileType: projectileMeleeWompRatBruiser
+  * impactDelay: 1000
+  * reload: 1000
+  * strictCoolDown: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

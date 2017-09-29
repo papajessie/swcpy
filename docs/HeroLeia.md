@@ -3,7 +3,9 @@ title: Leia Organa (HeroLeia)
 category: unit
 ---
 
-# Leia Organa (HeroLeia) — version 1084
+# Leia Organa (HeroLeia) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (60)**, **Light vehicle (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy vehicle (60)**, **Infantry (60)**, HQ (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Support troop (60)**, **Heavy vehicle (60)**, **Flying infantry (60)**, **Light vehicle (60)**, **Infantry (60)**, **Heavy infantry (60)**, **Flying vehicle (60)**, **Droideka (60)**, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,62 +61,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 11.91,11.82,11.76
-  * iconCloseupLookatPosition: 0,2.44,-0.3
-  * iconLookatPosition: 0.06,1.58,0.16
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * decalSize: 160
   * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_leia":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupLookatPosition: 0,2.44,-0.3
   * newRotationSpeed: 7854
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
   * audioPlacement: "sfx_placement_hero_leia":100
-  * iconCloseupCameraPosition: 1.49,1.49,7.71
-  * bundleName: princessleia_rbl-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_leia":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.06,1.58,0.16
   * assetName: princessleia_rbl-ani
+  * bundleName: princessleia_rbl-ani
+  * iconCloseupCameraPosition: 1.49,1.49,7.71
+  * animationDelay: 0
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 14
-  * decalBundleName: tac_hero_rbl
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 200
-  * impactDelay: 1000
   * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 500
+  * shotDelay: 200
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * decalAssetName: tac_hero_rbl
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * reload: 500
-  * hologramUid: HeroHologramRebel3
-  * attackShieldBorder: false
-  * clipRetargeting: true
   * targetInRangeModifier: 1
+  * chargeTime: 500
+  * decalBundleName: tac_hero_rbl
+  * splash: 0
+  * hologramUid: HeroHologramRebel3
+  * impactDelay: 1000
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
   * projectileType: projectileHeroLeia
+  * targetPreferenceStrength: 90
+  * reload: 500
   * shotCount: 3
-  * targetedType: ENEMIES
+  * favoriteTargetType: infantry
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
 

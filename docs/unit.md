@@ -1,9 +1,11 @@
 ---
 title: Index of units
 ---
-# Units — version 1084
+# Units — version 1085
 
 ## Buildable units
+
+The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
@@ -127,6 +129,8 @@ title: Index of units
   * [trp_title_troopAwesome (no text translation) (troopAwesome)](troopAwesome.html)
 
 ## Other units
+
+The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 

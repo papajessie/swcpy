@@ -3,7 +3,9 @@ title: Undead Trooper (EmpireStormDeath)
 category: unit
 ---
 
-# Undead Trooper (EmpireStormDeath) — version 1084
+# Undead Trooper (EmpireStormDeath) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (14), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 12
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,60 +61,54 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 11.27,12.43,13.71
-  * iconCloseupLookatPosition: -0.5,2.49,-0.78
-  * iconLookatPosition: 0.05,1.69,0.14
-  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: -0.5,2.49,-0.78
   * newRotationSpeed: 7854
+  * iconCameraPosition: 11.27,12.43,13.71
+  * gunPosition: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
   * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * iconCloseupCameraPosition: 4.5,4.27,7.56
-  * bundleName: stotrper_dth-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.05,1.69,0.14
   * assetName: stotrper_dth-ani
+  * bundleName: stotrper_dth-ani
+  * iconCloseupCameraPosition: 4.5,4.27,7.56
+  * animationDelay: 0
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 14
-  * decalBundleName: troop_stotrper_emp
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * deathAnimation: buffFireBurn:15
-  * shotDelay: 200
-  * impactDelay: 1000
   * xp: 0
-  * targetPreferenceStrength: 90
-  * chargeTime: 500
   * pathSearchWidth: 1
-  * splash: 0
-  * decalAssetName: troop_stotrper_emp
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 500
-  * attackShieldBorder: false
-  * clipRetargeting: false
+  * armingDelay: 0
+  * shotDelay: 200
   * targetInRangeModifier: 1
+  * chargeTime: 500
+  * decalBundleName: troop_stotrper_emp
+  * splash: 0
+  * impactDelay: 1000
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: troop_stotrper_emp
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
   * projectileType: projectileStormDeath
+  * targetPreferenceStrength: 90
+  * reload: 500
   * shotCount: 1
-  * targetedType: ENEMIES
+  * favoriteTargetType: closest
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |132901|132902|132903|132904|132905|132906|132907|132908|132909|132910|
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|order     |132901|132902|132903|132904|132905|132906|132907|132908|132909|132910|
 

@@ -3,7 +3,9 @@ title: Han Solo (HeroHanSolo)
 category: unit
 ---
 
-# Han Solo (HeroHanSolo) — version 1084
+# Han Solo (HeroHanSolo) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield generator (60)_, _Shield (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1)
+  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield (60)_, _Shield generator (60)_, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,62 +61,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 11.5,12.83,14.14
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * iconLookatPosition: -0.01,1.77,0.14
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * decalSize: 160
   * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_han":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
   * newRotationSpeed: 7854
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
   * audioPlacement: "sfx_placement_hero_han":100
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * bundleName: hansolo_rbl-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_han":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.01,1.77,0.14
   * assetName: hansolo_rbl-ani
+  * bundleName: hansolo_rbl-ani
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * animationDelay: 0
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 14
-  * decalBundleName: tac_hero_rbl
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 200
-  * impactDelay: 250
   * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 50
+  * shotDelay: 200
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * decalAssetName: tac_hero_rbl
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 850
-  * hologramUid: HeroHologramRebel1
-  * attackShieldBorder: false
-  * clipRetargeting: false
   * targetInRangeModifier: 1
+  * chargeTime: 50
+  * decalBundleName: tac_hero_rbl
+  * splash: 0
+  * hologramUid: HeroHologramRebel1
+  * impactDelay: 250
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
   * projectileType: projectileHeroHanSolo
+  * targetPreferenceStrength: 90
+  * reload: 850
   * shotCount: 2
-  * targetedType: ENEMIES
+  * favoriteTargetType: turret
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |210301|210302|210303|210304|210305|210306|210307|210308|210309|210310|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |210301|210302|210303|210304|210305|210306|210307|210308|210309|210310|
 

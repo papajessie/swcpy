@@ -3,7 +3,9 @@ title: AT-AP Walker (ATAP)
 category: unit
 ---
 
-# AT-AP Walker (ATAP) — version 1084
+# AT-AP Walker (ATAP) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 10
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, Turret (50), Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 16
+  * Clip retargeting: No
+  * Target shield border: Yes
   * Max. Range: 8
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,53 +61,47 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,2
-  * factoryRotation: 0
   * iconCameraPosition: 20.98,26.07,34.08
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * iconLookatPosition: -0.59,2.38,-0.99
-  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
   * audioAttack: "sfx_attack_rebel_atap_1":30,"sfx_attack_rebel_atap_2":35,"sfx_attack_rebel_atap_3":35
-  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
-  * audioDeath: "sfx_death_rebel_atap_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0.00,1.94,0.00
+  * factoryRotation: 0
   * newRotationSpeed: 3927
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "atap_rbl_rig_locator_gun1":1,"atap_rbl_rig_locator_gun2":2
+  * buffAssetOffset: 0.00,1.94,0.00
+  * audioDeath: "sfx_death_rebel_atap_1":100
+  * factoryScaleFactor: 0.85199999999999997957189634689711965620517730712890625
+  * iconLookatPosition: -0.59,2.38,-0.99
+  * assetName: atap_rbl-ani
   * bundleName: atap_rbl-ani
   * animationDelay: 0
-  * assetName: atap_rbl-ani
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 16
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1,2
   * autoSpawnRateScale: 2
   * shotDelay: 200
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 250
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: shieldGenerator
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
-  * projectileType: projectileATAP
+  * xp: 0
   * shotCount: 4
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * projectileType: projectileATAP
+  * impactDelay: 1000
+  * reload: 2000
+  * strictCoolDown: false
+  * favoriteTargetType: shieldGenerator
+  * autoSpawnSpreadingScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

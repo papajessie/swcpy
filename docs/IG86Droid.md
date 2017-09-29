@@ -3,7 +3,9 @@ title: IG-86 Assassin Droid (IG86Droid)
 category: unit
 ---
 
-# IG-86 Assassin Droid (IG86Droid) — version 1084
+# IG-86 Assassin Droid (IG86Droid) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 0s
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 20
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 12
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,64 +61,58 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 5.5,12.03,13.9
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * eventButtonAction: galaxy
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
   * newRotationSpeed: 7854
+  * iconCameraPosition: 5.5,12.03,13.9
   * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * bundleName: ig86_emp-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: -0.4,1.24,-0.81
   * assetName: ig86_emp-ani
+  * bundleName: ig86_emp-ani
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * animationDelay: 0
+  * eventButtonString: hn_open_galaxy
+  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: true
-  * retargetingOffset: 20
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 150
-  * targetedType: ENEMIES
-  * impactDelay: 1000
   * xp: 0
-  * chargeTime: 250
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
   * pathSearchWidth: 15
-  * splash: 0
-  * unlockedByEvent: true
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: false
-  * upgradeShardUid: shrd_troopIG86Droid
-  * eventButtonAction: galaxy
+  * armingDelay: 0
+  * shotDelay: 150
   * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * impactDelay: 1000
+  * unlockedByEvent: true
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * upgradeShardUid: shrd_troopIG86Droid
   * projectileType: projectileIG86Droid
+  * targetPreferenceStrength: 90
+  * reload: 2000
   * shotCount: 7
-  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * favoriteTargetType: turret
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|order          |134201     |134202     |134203     |134204     |134205     |134206     |134207     |134208     |134209     |134210     |
 |pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
+|order          |134201     |134202     |134203     |134204     |134205     |134206     |134207     |134208     |134209     |134210     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

@@ -3,7 +3,9 @@ title: Luggabeast Munitioneer (EmpireRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (EmpireRider) — version 1084
+# Luggabeast Munitioneer (EmpireRider) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 7
   * Damage*: 0
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1      |2        |3         |4         |5         |6          |7          |8          |9          |10         |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, HQ (0), Turret (0), Support troop (0), Storage (0), Ressource generator (0), Shield generator (0), Shield (0), Trap (0), Other building (0), Wall (0)
+  * Target preferences: **Heavy vehicle (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, Retargeting offset (15), Turret (0), Support troop (0), Ressource generator (0), Shield (0), HQ (0), Trap (0), Wall (0), Storage (0), Shield generator (0), Other building (0)
+  * Targeted type: ALLIES
+  * View Range: 5
+  * Target preferences strength: 0
+  * Retargeting offset: 15
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 5
+  * Can shoot over walls: Yes
+  * Self-centered targeting: True
 
 ## Recruiting
 
@@ -52,63 +61,57 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: Yes
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 23.58,31.88,32.8
-  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
-  * iconLookatPosition: -0.52,2.15,-1.3
-  * decalSize: 160
+  * factoryRotation: 0
   * tooltipHeightOffset: 1.5
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * assetName: rider_con-ani
   * bundleName: rider_con-ani
   * animationDelay: 0
-  * assetName: rider_con-ani
+  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
+  * xp: 0
   * supportFollowDistance: 4
-  * deathProjectileDistance: 0
-  * strictCoolDown: false
-  * retargetingOffset: 15
   * armingDelay: 0
+  * shotDelay: 0
+  * targetInRangeModifier: 1
+  * chargeTime: 0
+  * splash: 0
+  * impactDelay: 0
+  * autoSpawnSpreadingScale: 1
+  * infoUIType: DamageBuff
+  * strictCoolDown: false
   * deathProjectileDamage: 0
   * maxScale: false
-  * targetLocking: true
-  * selfCenteredTargeting: true
+  * gunSequence: 1
   * autoSpawnRateScale: 1
-  * shotDelay: 0
-  * impactDelay: 0
-  * xp: 0
-  * targetPreferenceStrength: 1
-  * chargeTime: 0
-  * reload: 5000
-  * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: true
-  * infoUIType: DamageBuff
   * spawnEffectUid: effectRebelSpawn
-  * deathProjectileDelay: 0
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
+  * deathProjectileDistance: 0
+  * targetPreferenceStrength: 1
+  * pathSearchWidth: 15
+  * reload: 5000
   * shotCount: 1
-  * targetedType: ALLIES
+  * favoriteTargetType: closest
+  * deathProjectileDelay: 0
 
 |Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
-|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
 |deathProjectile|projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
+|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
+|order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
 |projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
 

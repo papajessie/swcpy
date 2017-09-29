@@ -3,7 +3,9 @@ title: Speeder Bike (EmpireSpeeder)
 category: unit
 ---
 
-# Speeder Bike (EmpireSpeeder) — version 1084
+# Speeder Bike (EmpireSpeeder) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 6
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (70)**, **Light vehicle (70)**, **Flying vehicle (70)**, **Support troop (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy vehicle (70)**, **Infantry (70)**, HQ (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Support troop (70)**, **Heavy vehicle (70)**, **Flying infantry (70)**, **Light vehicle (70)**, **Infantry (70)**, **Heavy infantry (70)**, **Flying vehicle (70)**, **Droideka (70)**, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (12), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 12
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 6
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -50,6 +59,7 @@ category: unit
   * Size: 1x2
   * Flying unit: No
   * Crushes walls: No
+  * Target locking: No
 
 |Level       |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------|--|--|--|--|--|--|--|--|--|--|
@@ -60,51 +70,44 @@ category: unit
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,1
-  * factoryRotation: 0
   * iconCameraPosition: 14.03,11.98,20.6
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * iconLookatPosition: -0.26,1.18,-0.59
-  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
   * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0,1,0
+  * factoryRotation: 0
   * newRotationSpeed: 3927
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
+  * buffAssetOffset: 0,1,0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.26,1.18,-0.59
+  * assetName: speederbike_emp-ani
   * bundleName: speederbike_emp-ani
   * animationDelay: 0
-  * assetName: speederbike_emp-ani
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 12
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1,1
   * autoSpawnRateScale: 2
   * shotDelay: 0
-  * impactDelay: 0
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 250
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * attackShieldBorder: false
-  * clipRetargeting: true
+  * xp: 0
   * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * impactDelay: 0
+  * strictCoolDown: false
+  * favoriteTargetType: infantry
   * autoSpawnSpreadingScale: 2
-  * targetedType: ENEMIES
 
 |Level         |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------------|------------------------------|------------------------------|------------------------------|
 |order         |130101                 |130102                 |130103                 |130104                 |130105                 |130106                 |130107                        |130108                        |130109                        |130110                        |
-|pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
-|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
-|projectileType|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|
 |shotCount     |1                      |1                      |1                      |1                      |1                      |1                      |2                             |2                             |2                             |2                             |
+|projectileType|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|
+|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
+|pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
 

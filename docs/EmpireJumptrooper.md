@@ -3,7 +3,9 @@ title: Jump Trooper (EmpireJumptrooper)
 category: unit
 ---
 
-# Jump Trooper (EmpireJumptrooper) — version 1084
+# Jump Trooper (EmpireJumptrooper) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 7
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (14), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: Yes
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,56 +61,50 @@ category: unit
   * Flying unit: Yes
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 8.7,15.21,13.03
-  * iconCloseupLookatPosition: 0.13,5.28,0.42
-  * iconLookatPosition: 0.12,4.78,0.33
-  * gunPosition: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.0,0.3,0.0
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * factoryRotation: 0
+  * iconCloseupLookatPosition: 0.13,5.28,0.42
   * newRotationSpeed: 7854
+  * iconCameraPosition: 8.7,15.21,13.03
+  * gunPosition: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
   * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
-  * iconCloseupCameraPosition: 2.26,2.95,10.77
-  * bundleName: jumptrooper_emp-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.12,4.78,0.33
   * assetName: jumptrooper_emp-ani
+  * bundleName: jumptrooper_emp-ani
+  * iconCloseupCameraPosition: 2.26,2.95,10.77
+  * animationDelay: 0
+  * buffAssetOffset: 0.0,0.3,0.0
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 14
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
   * shotDelay: 500
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 150
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: true
-  * reload: 2000
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileBlasterEmpireJumptrooper
+  * xp: 0
   * shotCount: 1
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 150
+  * splash: 0
+  * projectileType: projectileBlasterEmpireJumptrooper
+  * impactDelay: 1000
+  * reload: 2000
+  * strictCoolDown: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
