@@ -3,7 +3,9 @@ title: R2-D2 (HeroR2D2)
 category: unit
 ---
 
-# R2-D2 (HeroR2D2) — version 1084
+# R2-D2 (HeroR2D2) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 1
   * Damage*: 0
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, Heavy infantry (0), HQ (0), Flying vehicle (0), Turret (0), Support troop (0), Flying infantry (0), Storage (0), Ressource generator (0), Heavy infantry hero (0), Shield generator (0), Shield (0), Droideka (0), Trap (0), Infantry (0), Infantry hero (0), Other building (0), Wall (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, Retargeting offset (4), Turret (0), Support troop (0), Ressource generator (0), Flying infantry (0), Shield (0), HQ (0), Infantry (0), Infantry hero (0), Heavy infantry (0), Flying vehicle (0), Heavy infantry hero (0), Trap (0), Wall (0), Droideka (0), Storage (0), Shield generator (0), Other building (0)
+  * Targeted type: ALLIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 4
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: True
 
 ## Recruiting
 
@@ -52,62 +61,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: Yes
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 8.1,8.48,14.32
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * iconLookatPosition: 0.21,1.31,0.18
-  * decalSize: 160
   * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * iconCloseupLookatPosition: 0.04,1.41,0.02
   * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
   * audioPlacement: "sfx_placement_hero_r2d2_1":100
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
-  * bundleName: r2d2_rbl-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_r2d2_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.21,1.31,0.18
   * assetName: r2d2_rbl-ani
+  * bundleName: r2d2_rbl-ani
+  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * animationDelay: 0
 
 ## Uninterpreted stats
 
-  * supportFollowDistance: 5
-  * strictCoolDown: false
-  * retargetingOffset: 4
-  * decalBundleName: tac_hero_rbl
-  * armingDelay: 0
-  * maxScale: false
-  * targetLocking: true
-  * selfCenteredTargeting: true
-  * autoSpawnRateScale: 2
-  * shotDelay: 100
-  * impactDelay: 1000
   * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 500
   * pathSearchWidth: 15
-  * decalAssetName: tac_hero_rbl
-  * favoriteTargetType: vehicles
-  * overWalls: false
-  * reload: 1500
-  * hologramUid: HeroHologramR2D2
-  * attackShieldBorder: false
-  * clipRetargeting: false
+  * supportFollowDistance: 5
+  * armingDelay: 0
+  * shotDelay: 100
   * targetInRangeModifier: 1
+  * chargeTime: 500
+  * decalBundleName: tac_hero_rbl
+  * splash: 0
+  * hologramUid: HeroHologramR2D2
+  * impactDelay: 1000
   * autoSpawnSpreadingScale: 2
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * gunSequence: 1
+  * autoSpawnRateScale: 2
+  * targetPreferenceStrength: 90
+  * reload: 1500
   * shotCount: 2
-  * targetedType: ALLIES
+  * favoriteTargetType: vehicles
 
 |Level         |1                         |2                         |3                         |4                         |5                         |6                         |7                         |8                         |9                         |10                         |
 |--------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
-|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
-|pointValue    |20.000                    |24.000                    |28.000                    |32.000                    |36.000                    |40.000                    |44.000                    |48.000                    |52.000                    |60.000                     |
 |heroData      |hero1                     |hero2                     |hero3                     |hero4                     |hero5                     |hero6                     |hero7                     |hero8                     |hero9                     |hero10                     |
+|pointValue    |20.000                    |24.000                    |28.000                    |32.000                    |36.000                    |40.000                    |44.000                    |48.000                    |52.000                    |60.000                     |
+|order         |210501                    |210502                    |210503                    |210504                    |210505                    |210506                    |210507                    |210508                    |210509                    |210510                     |
 |projectileType|projectileHealerR2D2Level1|projectileHealerR2D2Level2|projectileHealerR2D2Level3|projectileHealerR2D2Level4|projectileHealerR2D2Level5|projectileHealerR2D2Level6|projectileHealerR2D2Level7|projectileHealerR2D2Level8|projectileHealerR2D2Level9|projectileHealerR2D2Level10|
 

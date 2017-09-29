@@ -3,7 +3,9 @@ title: Heavy Undead Trooper (RebelHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1084
+# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 4
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **HQ (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Other building (50)**, Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (10), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 10
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,57 +61,51 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 4.46,8.55,22.59
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
-  * iconLookatPosition: -0.36,1.33,-0.66
-  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.27,0.00
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
   * newRotationSpeed: 7854
+  * iconCameraPosition: 4.46,8.55,22.59
+  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
   * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
-  * bundleName: heavytrooper_dth-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.36,1.33,-0.66
   * assetName: heavytrooper_dth-ani
+  * bundleName: heavytrooper_dth-ani
+  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * animationDelay: 0
+  * buffAssetOffset: 0.00,0.27,0.00
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 10
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
-  * deathAnimation: buffFireBurn:15
-  * spawnApplyBuffs: buffReduceHeals2
   * shotDelay: 100
-  * impactDelay: 500
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * spawnApplyBuffs: buffReduceHeals2
+  * armingDelay: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileHeavyStormDeath
+  * xp: 0
   * shotCount: 10
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * splash: 0
+  * projectileType: projectileHeavyStormDeath
+  * impactDelay: 500
+  * reload: 2000
+  * strictCoolDown: false
+  * favoriteTargetType: closest
+  * autoSpawnSpreadingScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

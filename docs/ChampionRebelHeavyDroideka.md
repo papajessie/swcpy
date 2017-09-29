@@ -3,7 +3,9 @@ title: Droideka Oppressor (ChampionRebelHeavyDroideka)
 category: unit
 ---
 
-# Droideka Oppressor (ChampionRebelHeavyDroideka) — version 1084
+# Droideka Oppressor (ChampionRebelHeavyDroideka) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -16,7 +18,7 @@ category: unit
   * Unit capacity: 1
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
-  * Shield Cooldown: 20
+  * Shield Cooldown: 20s
   * Shield Range: 3
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |11   |12   |13   |14   |15   |16   |17   |18   |19   |20   |21   |22   |23   |24   |25   |26   |27   |28   |29   |30   |31   |32   |33   |34   |35   |36   |37   |38   |39   |40   |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Storage (50)**, **Ressource generator (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Shield generator (5), Shield (5), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Light vehicle (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Droideka (50)**, **Storage (50)**, **Other building (50)**, Retargeting offset (14), Shield (5), Shield generator (5), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 10
   * Min. Range: 0
-  * View Range: 12
+  * Can shoot over walls: Yes
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -53,65 +62,59 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,2
-  * factoryRotation: 0
-  * audioPlacement: "sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":50
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2
-  * decalSize: 160
   * audioAttack: "sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":30
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioDeath: "sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.65,0.00
-  * newRotationSpeed: 7854
-  * animationDelay: 250
+  * factoryRotation: 0
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * tooltipHeightOffset: 1.5
+  * newRotationSpeed: 7854
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":50
+  * audioDeath: "sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":50
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * animationDelay: 250
+  * buffAssetOffset: 0.00,0.65,0.00
 
 |Level             |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |11                              |12                              |13                              |14                              |15                              |16                              |17                              |18                              |19                              |20                              |21                              |22                              |23                              |24                              |25                              |26                              |27                              |28                              |29                              |30                              |31                              |32                              |33                              |34                              |35                              |36                              |37                              |38                              |39                              |40                              |41                              |42                              |43                              |44                              |45                              |46                              |47                              |48                              |49                              |50                              |
 |------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 |iconCameraPosition|-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |
 |iconLookatPosition|0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |
+|assetName         |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |
 |bundleName        |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10 |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |
 |shieldAssetName   |effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|
-|assetName         |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * preventDonation: true
-  * strictCoolDown: true
-  * retargetingOffset: 14
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * shotDelay: 750
-  * impactDelay: 0
   * xp: 0
-  * targetPreferenceStrength: 90
-  * chargeTime: 650
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: true
-  * reload: 1000
-  * spawnEffectUid: effectRebelSpawn
-  * attackShieldBorder: false
-  * clipRetargeting: false
+  * armingDelay: 0
+  * shotDelay: 750
   * targetInRangeModifier: 1
+  * chargeTime: 650
+  * splash: 0
+  * impactDelay: 0
   * autoSpawnSpreadingScale: 2
+  * strictCoolDown: true
+  * maxScale: false
+  * gunSequence: 1,2
+  * autoSpawnRateScale: 2
+  * targetPreferenceStrength: 90
+  * reload: 1000
+  * preventDonation: true
   * shotCount: 2
-  * targetedType: ENEMIES
+  * favoriteTargetType: closest
+  * spawnEffectUid: effectRebelSpawn
 
 |Level         |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                      |11                      |12                      |13                      |14                      |15                      |16                      |17                      |18                      |19                      |20                      |21                      |22                      |23                      |24                      |25                      |26                      |27                      |28                      |29                      |30                      |31                      |32                      |33                      |34                      |35                      |36                      |37                       |38                       |39                       |40                       |41                       |42                       |43                       |44                       |45                       |46                       |47                       |48                       |49                       |50                       |
 |--------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
-|order         |214801                  |214802                  |214803                  |214804                  |214805                  |214806                  |214807                  |214808                  |214809                  |214810                  |214811                  |214812                  |214813                  |214814                  |214815                  |214816                  |214817                  |214818                  |214819                  |214820                  |214821                  |214822                  |214823                  |214824                  |214825                  |214826                  |214827                  |214828                  |214829                  |214830                  |214831                  |214832                  |214833                  |214834                  |214835                  |214836                  |214837                   |214838                   |214839                   |214840                   |214841                   |214842                   |214843                   |214844                   |214845                   |214846                   |214847                   |214848                   |214849                   |214850                   |
 |pointValue    |20.000                  |28.000                  |32.000                  |36.000                  |40.000                  |48.000                  |52.000                  |56.000                  |60.000                  |68.000                  |72.000                  |76.000                  |80.000                  |84.000                  |88.000                  |92.000                  |96.000                  |100.000                 |104.000                 |108.000                 |112.000                 |116.000                 |120.000                 |124.000                 |128.000                 |132.000                 |136.000                 |140.000                 |144.000                 |148.000                 |152.000                 |156.000                 |160.000                 |168.000                 |172.000                 |176.000                 |180.000                  |184.000                  |188.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |200.000                  |
+|order         |214801                  |214802                  |214803                  |214804                  |214805                  |214806                  |214807                  |214808                  |214809                  |214810                  |214811                  |214812                  |214813                  |214814                  |214815                  |214816                  |214817                  |214818                  |214819                  |214820                  |214821                  |214822                  |214823                  |214824                  |214825                  |214826                  |214827                  |214828                  |214829                  |214830                  |214831                  |214832                  |214833                  |214834                  |214835                  |214836                  |214837                   |214838                   |214839                   |214840                   |214841                   |214842                   |214843                   |214844                   |214845                   |214846                   |214847                   |214848                   |214849                   |214850                   |
 |projectileType|projectileHeavyDroideka1|projectileHeavyDroideka1|projectileHeavyDroideka1|projectileHeavyDroideka1|projectileHeavyDroideka2|projectileHeavyDroideka2|projectileHeavyDroideka2|projectileHeavyDroideka2|projectileHeavyDroideka3|projectileHeavyDroideka3|projectileHeavyDroideka3|projectileHeavyDroideka3|projectileHeavyDroideka4|projectileHeavyDroideka4|projectileHeavyDroideka4|projectileHeavyDroideka4|projectileHeavyDroideka5|projectileHeavyDroideka5|projectileHeavyDroideka5|projectileHeavyDroideka5|projectileHeavyDroideka6|projectileHeavyDroideka6|projectileHeavyDroideka6|projectileHeavyDroideka6|projectileHeavyDroideka7|projectileHeavyDroideka7|projectileHeavyDroideka7|projectileHeavyDroideka7|projectileHeavyDroideka8|projectileHeavyDroideka8|projectileHeavyDroideka8|projectileHeavyDroideka8|projectileHeavyDroideka9|projectileHeavyDroideka9|projectileHeavyDroideka9|projectileHeavyDroideka9|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|projectileHeavyDroideka10|
 

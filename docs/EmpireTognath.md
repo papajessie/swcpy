@@ -3,7 +3,9 @@ title: Tognath Marksman (EmpireTognath)
 category: unit
 ---
 
-# Tognath Marksman (EmpireTognath) — version 1084
+# Tognath Marksman (EmpireTognath) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 0s
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Support troop (60)_, _Flying infantry (60)_, _Infantry (60)_, HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Heavy vehicle (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Support troop (60)_, _Flying infantry (60)_, _Infantry (60)_, _Heavy infantry (60)_, Turret (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Flying vehicle (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 20
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 10
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,64 +61,58 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 9.66,10.8,15.86
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * eventButtonAction: galaxy
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
   * newRotationSpeed: 7854
+  * iconCameraPosition: 9.66,10.8,15.86
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * bundleName: tognath_con-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: -0.63,1.31,-0.68
   * assetName: tognath_con-ani
+  * bundleName: tognath_con-ani
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
+  * animationDelay: 0
+  * eventButtonString: hn_open_galaxy
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: true
-  * retargetingOffset: 20
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 2
-  * shotDelay: 500
-  * targetedType: ENEMIES
-  * impactDelay: 1000
   * xp: 0
-  * chargeTime: 250
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
   * pathSearchWidth: 15
-  * splash: 0
-  * unlockedByEvent: true
-  * favoriteTargetType: champion
-  * overWalls: false
-  * reload: 1500
-  * attackShieldBorder: false
-  * upgradeShardUid: shrd_troopEmpireTognath
-  * eventButtonAction: galaxy
+  * armingDelay: 0
+  * shotDelay: 500
   * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * impactDelay: 1000
+  * unlockedByEvent: true
   * autoSpawnSpreadingScale: 2
+  * strictCoolDown: false
+  * maxScale: false
+  * gunSequence: 1
+  * autoSpawnRateScale: 2
+  * upgradeShardUid: shrd_troopEmpireTognath
   * projectileType: projectileEmpireTognath
+  * targetPreferenceStrength: 90
+  * reload: 1500
   * shotCount: 4
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * favoriteTargetType: champion
 
 |Level          |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
 |ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
+|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
 |iconUnlockScale|1.2,1.2,1.2        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)         |
 

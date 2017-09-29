@@ -3,7 +3,9 @@ title: Drabatan Saboteur (BigMouthAlien)
 category: unit
 ---
 
-# Drabatan Saboteur (BigMouthAlien) — version 1084
+# Drabatan Saboteur (BigMouthAlien) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade time: 5s
   * Damage per second*: 1920
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1                |2                |3                |4                 |5                 |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (10), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 10
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,65 +61,59 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 7.8,9.8,16.43
-  * iconCloseupLookatPosition: -0.32,2.05,-1.04
-  * iconLookatPosition: -0.48,1.28,-0.82
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
+  * eventButtonAction: galaxy
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * iconCloseupLookatPosition: -0.32,2.05,-1.04
   * newRotationSpeed: 7854
+  * iconCameraPosition: 7.8,9.8,16.43
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * iconCloseupCameraPosition: 2.94,5.03,8.98
-  * bundleName: bigmouthalien_con-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: -0.48,1.28,-0.82
   * assetName: bigmouthalien_con-ani
+  * bundleName: bigmouthalien_con-ani
+  * iconCloseupCameraPosition: 2.94,5.03,8.98
+  * animationDelay: 0
+  * eventButtonString: hn_open_galaxy
+  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: false
-  * retargetingOffset: 10
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 400
-  * targetedType: ENEMIES
-  * impactDelay: 1000
   * xp: 0
-  * chargeTime: 500
-  * pointValue: 4.000
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
   * pathSearchWidth: 15
-  * splash: 0
-  * unlockedByEvent: true
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 500
-  * attackShieldBorder: false
-  * iconUnlockScale: 1.2,1.2,1.2
-  * upgradeShardUid: shrd_troopBigMouthAlien
-  * eventButtonAction: galaxy
+  * armingDelay: 0
+  * shotDelay: 400
   * targetInRangeModifier: 1
+  * chargeTime: 500
+  * splash: 0
+  * impactDelay: 1000
+  * unlockedByEvent: true
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * pointValue: 4.000
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * upgradeShardUid: shrd_troopBigMouthAlien
   * projectileType: projectileSoldier
+  * targetPreferenceStrength: 90
+  * iconUnlockScale: 1.2,1.2,1.2
+  * reload: 500
   * shotCount: 5
-  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * favoriteTargetType: closest
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|order  |215601               |215602               |215603               |215604               |215605               |
 |ability|abilityBigMouthAlien1|abilityBigMouthAlien2|abilityBigMouthAlien3|abilityBigMouthAlien4|abilityBigMouthAlien5|
+|order  |215601               |215602               |215603               |215604               |215605               |
 

@@ -3,7 +3,9 @@ title: Elite AT-TE Walker (HeroATTE)
 category: unit
 ---
 
-# Elite AT-TE Walker (HeroATTE) — version 1084
+# Elite AT-TE Walker (HeroATTE) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Turret (50), Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 20
+  * Clip retargeting: No
+  * Target shield border: Yes
   * Max. Range: 10
   * Min. Range: 1
-  * View Range: 12
+  * Can shoot over walls: Yes
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,70 +61,64 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 36.44,26.49,49.08
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * iconLookatPosition: 0.12,2.66,-0.82
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * decalSize: 320
   * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0.00,1.46,0.00
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
   * newRotationSpeed: 3927
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * decalSize: 320
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * assetName: attehero_rbl-ani
   * bundleName: attehero_rbl-ani
   * animationDelay: 0
-  * assetName: attehero_rbl-ani
+  * buffAssetOffset: 0.00,1.46,0.00
+  * eventButtonString: hn_open_galaxy
+  * eventButtonAction: galaxy
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: false
-  * retargetingOffset: 20
-  * decalBundleName: tac_hero_rbl
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * impactDelay: 500
-  * effectType: 2
-  * shotDelay: 400
-  * decalAssetName: tac_hero_rbl
-  * autoSpawnRateScale: 2
   * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 500
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
+  * shotDelay: 400
+  * armingDelay: 0
   * pathSearchWidth: 200
-  * unlockedByEvent: true
-  * favoriteTargetType: shieldGenerator
-  * overWalls: true
-  * reload: 1000
-  * hologramUid: HeroHologramATTE
-  * attackShieldBorder: true
-  * upgradeShardUid: shrd_troopHeroATTE
-  * eventButtonAction: galaxy
   * targetInRangeModifier: 1
+  * chargeTime: 500
+  * decalBundleName: tac_hero_rbl
+  * splash: 0
+  * hologramUid: HeroHologramATTE
+  * impactDelay: 500
   * autoSpawnSpreadingScale: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * gunSequence: 1
+  * autoSpawnRateScale: 2
+  * effectType: 2
+  * upgradeShardUid: shrd_troopHeroATTE
+  * unlockedByEvent: true
   * projectileType: projectileHeroATTE
+  * targetPreferenceStrength: 90
+  * reload: 1000
   * shotCount: 3
-  * targetedType: ENEMIES
+  * favoriteTargetType: shieldGenerator
 
 |Level             |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|iconUnlockRotation|0,-20,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
-|pointValue        |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
 |heroData          |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
+|pointValue        |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
+|order             |211201     |211202     |211203     |211204     |211205     |211206     |211207     |211208     |211209     |211210     |
+|iconUnlockRotation|0,-20,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |iconUnlockScale   |0.5,0.5,0.5|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

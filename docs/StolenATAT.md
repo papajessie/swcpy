@@ -3,7 +3,9 @@ title: Stolen AT-AT Walker (StolenATAT)
 category: unit
 ---
 
-# Stolen AT-AT Walker (StolenATAT) — version 1084
+# Stolen AT-AT Walker (StolenATAT) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 30
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Turret (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Turret (50), Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (18), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 18
+  * Clip retargeting: No
+  * Target shield border: Yes
   * Max. Range: 9
   * Min. Range: 1
-  * View Range: 12
+  * Can shoot over walls: Yes
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,53 +61,47 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1,1,1,1
-  * factoryRotation: 0
   * iconCameraPosition: 41.83,40.55,52.41
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * iconLookatPosition: -2.01,3.9,-0.8
-  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
   * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_walker_1":100
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * buffAssetOffset: 0,4.00,0.00
+  * factoryRotation: 0
   * newRotationSpeed: 982
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * gunPosition: "atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun1":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun2":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun3":1,"atat_emp_rig_falseMaster/atat_emp_rig_MASTER_MOVER/atat_emp_rig_locator_gun4":1
+  * buffAssetOffset: 0,4.00,0.00
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -2.01,3.9,-0.8
+  * assetName: atat_emp-ani
   * bundleName: atat_emp-ani
   * animationDelay: 0
-  * assetName: atat_emp-ani
+  * audioPlacement: "sfx_placement_empire_atat_1":100
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 18
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1,1,1,1
   * autoSpawnRateScale: 2
   * shotDelay: 250
-  * impactDelay: 500
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * armingDelay: 0
   * pathSearchWidth: 200
-  * splash: 0
-  * favoriteTargetType: shieldGenerator
-  * overWalls: true
-  * reload: 1500
-  * attackShieldBorder: true
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
-  * projectileType: projectileStolenATAT
+  * xp: 0
   * shotCount: 8
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * splash: 0
+  * projectileType: projectileStolenATAT
+  * impactDelay: 500
+  * reload: 1500
+  * strictCoolDown: false
+  * favoriteTargetType: shieldGenerator
+  * autoSpawnSpreadingScale: 2
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

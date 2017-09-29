@@ -3,7 +3,9 @@ title: Tusken Raider (TuskenMelee)
 category: unit
 ---
 
-# Tusken Raider (TuskenMelee) — version 1084
+# Tusken Raider (TuskenMelee) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -18,7 +20,7 @@ category: unit
   * Upgrade time: 4d
   * Health: 24000
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Droideka (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Support troop (95)_, _Infantry (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _HQ (60)_, Ressource generator (50), Shield (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (4), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 4
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -49,52 +58,46 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 9.5,10.55,11.7
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * iconLookatPosition: 0.1,1.49,0.27
   * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * factoryScaleFactor: 1
+  * iconLookatPosition: 0.1,1.49,0.27
+  * assetName: raidermelee_tkn-ani
   * bundleName: raidermelee_tkn-ani
   * animationDelay: 1000
-  * assetName: raidermelee_tkn-ani
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 4
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
-  * deathAnimation: buffFireBurn:15
   * shotDelay: 1250
-  * impactDelay: 0
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * armingDelay: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * reload: 0
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileMeleeHeadButtLrg
+  * xp: 0
   * shotCount: 5
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * splash: 0
+  * projectileType: projectileMeleeHeadButtLrg
+  * impactDelay: 0
+  * reload: 0
+  * strictCoolDown: false
+  * favoriteTargetType: infantry
+  * autoSpawnSpreadingScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

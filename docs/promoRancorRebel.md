@@ -3,7 +3,9 @@ title: Rancor (promoRancorRebel)
 category: unit
 ---
 
-# Rancor (promoRancorRebel) — version 1084
+# Rancor (promoRancorRebel) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9     |10    |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (60)**, Heavy infantry (50), Light vehicle (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Turret (60)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), HQ (40), Retargeting offset (8), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 16
+  * Target preferences strength: 0
+  * Retargeting offset: 8
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 4
   * Min. Range: 0
-  * View Range: 16
+  * Can shoot over walls: Yes
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -49,55 +58,49 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: Yes
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 2,1
-  * factoryRotation: 0
   * iconCameraPosition: 38.76,41.86,47.24
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * iconLookatPosition: -0.95,2.74,-1.82
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryRotation: 0
   * newRotationSpeed: 2000
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.95,2.74,-1.82
+  * assetName: rancor_neu-ani
   * bundleName: rancor_neu-ani
   * animationDelay: 960
-  * assetName: rancor_neu-ani
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 8
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 2,1
   * autoSpawnRateScale: 2
   * shotDelay: 270
-  * impactDelay: 0
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * armingDelay: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: turret
-  * overWalls: true
-  * reload: 1910
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
+  * xp: 0
   * shotCount: 2
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * splash: 0
+  * impactDelay: 0
+  * reload: 1910
+  * strictCoolDown: false
+  * maxScale: false
+  * autoSpawnSpreadingScale: 2
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |order         |265901                |265902                |265903                |265904                |265905                |265906                |265907                |265908                |265909                |265910                 |
-|pointValue    |20.000                |24.000                |28.000                |32.000                |36.000                |40.000                |44.000                |48.000                |52.000                |60.000                 |
 |projectileType|projectileMeleeRancor1|projectileMeleeRancor2|projectileMeleeRancor3|projectileMeleeRancor4|projectileMeleeRancor5|projectileMeleeRancor6|projectileMeleeRancor7|projectileMeleeRancor8|projectileMeleeRancor9|projectileMeleeRancor10|
+|pointValue    |20.000                |24.000                |28.000                |32.000                |36.000                |40.000                |44.000                |48.000                |52.000                |60.000                 |
 

@@ -3,7 +3,9 @@ title: trp_title_HeroC3PO (no text translation) (HeroC3PO)
 category: unit
 ---
 
-# trp_title_HeroC3PO (no text translation) (HeroC3PO) — version 1084
+# trp_title_HeroC3PO (no text translation) (HeroC3PO) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -19,7 +21,7 @@ category: unit
   * Damage*: 0
   * Damage per second*: 0
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, HQ (0), Turret (0), Support troop (0), Storage (0), Ressource generator (0), Shield generator (0), Shield (0), Trap (0), Other building (0), Wall (0)
+  * Target preferences: **Heavy vehicle (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, Retargeting offset (15), Turret (0), Support troop (0), Ressource generator (0), Shield (0), HQ (0), Trap (0), Wall (0), Storage (0), Shield generator (0), Other building (0)
+  * Targeted type: ALLIES
+  * View Range: 100
+  * Target preferences strength: 0
+  * Retargeting offset: 15
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
-  * View Range: 100
+  * Can shoot over walls: Yes
+  * Self-centered targeting: True
 
 ## Recruiting
 
@@ -49,59 +58,53 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: Yes
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
-  * decalSize: 160
+  * factoryRotation: 0
+  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
   * tooltipHeightOffset: 1.5
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
-  * assetName: c3po_rbl-ani
   * newRotationSpeed: 7854
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
+  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
+  * factoryScaleFactor: 1
+  * assetName: c3po_rbl-ani
   * bundleName: c3po_rbl-ani
   * animationDelay: 0
 
 ## Uninterpreted stats
 
-  * supportFollowDistance: 2
-  * ignoresWalls: true
-  * retargetingOffset: 15
-  * decalBundleName: tac_hero_rbl
-  * armingDelay: 0
-  * maxScale: false
-  * targetLocking: true
-  * selfCenteredTargeting: true
-  * autoSpawnRateScale: 1
-  * shotDelay: 0
-  * impactDelay: 0
   * xp: 0
-  * targetPreferenceStrength: 1
-  * splash: 0
-  * chargeTime: 0
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
-  * strictCoolDown: false
+  * shotDelay: 0
+  * supportFollowDistance: 2
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * decalAssetName: tac_hero_rbl
-  * favoriteTargetType: closest
-  * overWalls: true
-  * reload: 500
-  * spawnEffectUid: effectRebelSpawn
-  * attackShieldBorder: false
-  * clipRetargeting: false
   * targetInRangeModifier: 1
+  * chargeTime: 0
+  * decalBundleName: tac_hero_rbl
+  * splash: 0
+  * impactDelay: 0
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_rbl
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
   * autoSpawnSpreadingScale: 1
+  * ignoresWalls: true
   * projectileType: projectileC3PO1
+  * targetPreferenceStrength: 1
+  * reload: 500
   * shotCount: 1
-  * targetedType: ALLIES
+  * favoriteTargetType: closest
+  * spawnEffectUid: effectRebelSpawn
 
 |Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|-----|-----|------|------|------|------|------|------|------|------|
-|pointValue|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
 |heroData  |hero1|hero2|hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
+|pointValue|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
 

@@ -3,7 +3,9 @@ title: Rancor (Rancor)
 category: unit
 ---
 
-# Rancor (Rancor) — version 1084
+# Rancor (Rancor) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade requirements: 14000$
   * Upgrade time: 2h
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (55)**, Heavy infantry (50), Light vehicle (50), Support troop (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), HQ (40), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Turret (55)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), HQ (40), Retargeting offset (8), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 16
+  * Target preferences strength: 0
+  * Retargeting offset: 8
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 4
   * Min. Range: 0
-  * View Range: 16
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -49,54 +58,48 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 2,1
-  * factoryRotation: 0
   * iconCameraPosition: 38.76,41.86,47.24
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * iconLookatPosition: -0.95,2.74,-1.82
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0.00,4.30,0.00
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 2000
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * buffAssetOffset: 0.00,4.30,0.00
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.95,2.74,-1.82
+  * assetName: rancor_neu-ani
   * bundleName: rancor_neu-ani
   * animationDelay: 960
-  * assetName: rancor_neu-ani
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 8
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 2,1
   * autoSpawnRateScale: 2
-  * deathAnimation: buffFireBurn:15
   * shotDelay: 270
-  * impactDelay: 0
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 500
+  * armingDelay: 0
   * pathSearchWidth: 1
-  * splash: 0
-  * favoriteTargetType: vehicles
-  * overWalls: false
-  * reload: 1910
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 2
-  * projectileType: projectileMeleeRancor
+  * xp: 0
   * shotCount: 2
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * splash: 0
+  * projectileType: projectileMeleeRancor
+  * impactDelay: 0
+  * reload: 1910
+  * strictCoolDown: false
+  * favoriteTargetType: vehicles
+  * autoSpawnSpreadingScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

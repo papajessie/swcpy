@@ -3,7 +3,9 @@ title: Death Trooper (HeroDeathTrooper)
 category: unit
 ---
 
-# Death Trooper (HeroDeathTrooper) — version 1084
+# Death Trooper (HeroDeathTrooper) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 1
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield generator (60)_, _Shield (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Flying vehicle (50), Support troop (50), Flying infantry (50), Storage (50), Ressource generator (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1)
+  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield (60)_, _Shield generator (60)_, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 14
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,70 +61,64 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
+  * eventButtonAction: galaxy
   * iconCameraPosition: 6.12,13,15.36
-  * iconCloseupLookatPosition: -0.34,2.08,-1.07
-  * iconLookatPosition: -0.34,1.19,-0.78
-  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
-  * decalSize: 160
   * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * iconCloseupLookatPosition: -0.34,2.08,-1.07
   * newRotationSpeed: 7854
+  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
   * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
-  * iconCloseupCameraPosition: 3.94,6.77,11.83
-  * bundleName: deathtrooper_emp-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: -0.34,1.19,-0.78
   * assetName: deathtrooper_emp-ani
+  * bundleName: deathtrooper_emp-ani
+  * iconCloseupCameraPosition: 3.94,6.77,11.83
+  * animationDelay: 0
+  * eventButtonString: hn_open_galaxy
+  * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: false
-  * retargetingOffset: 14
-  * decalBundleName: tac_hero_emp
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * impactDelay: 250
-  * shotDelay: 400
-  * decalAssetName: tac_hero_emp
-  * autoSpawnRateScale: 1
   * xp: 0
-  * targetPreferenceStrength: 90
-  * splash: 0
-  * chargeTime: 50
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
+  * shotDelay: 400
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * unlockedByEvent: true
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 1000
-  * hologramUid: HeroHologramDeathtrooper
-  * attackShieldBorder: false
-  * upgradeShardUid: shrd_troopHeroDeathTrooper
-  * eventButtonAction: galaxy
   * targetInRangeModifier: 1
+  * chargeTime: 50
+  * decalBundleName: tac_hero_emp
+  * splash: 0
+  * hologramUid: HeroHologramDeathtrooper
+  * impactDelay: 250
   * autoSpawnSpreadingScale: 1
-  * targetedType: ENEMIES
-  * shotCount: 2
+  * strictCoolDown: false
+  * maxScale: false
+  * decalAssetName: tac_hero_emp
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * upgradeShardUid: shrd_troopHeroDeathTrooper
+  * unlockedByEvent: true
   * projectileType: projectileHeroHanSolo
+  * targetPreferenceStrength: 90
+  * reload: 1000
+  * shotCount: 2
+  * favoriteTargetType: turret
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|order          |111201     |111202     |111203     |111204     |111205     |111206     |111207     |111208     |111209     |111210     |
-|pointValue     |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
 |heroData       |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
+|pointValue     |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
+|order          |111201     |111202     |111203     |111204     |111205     |111206     |111207     |111208     |111209     |111210     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

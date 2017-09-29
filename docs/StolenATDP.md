@@ -3,7 +3,9 @@ title: Stolen AT-DP Walker (StolenATDP)
 category: unit
 ---
 
-# Stolen AT-DP Walker (StolenATDP) — version 1084
+# Stolen AT-DP Walker (StolenATDP) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 16
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, **Infantry (60)**, **Infantry hero (60)**, Heavy vehicular hero (50), HQ (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), Turret (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Heavy vehicle (50), Other building (50), Wall (1), Trap (0)
+  * Target preferences: **Support troop (60)**, **Flying infantry (60)**, **Infantry (60)**, **Infantry hero (60)**, **Heavy infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, Turret (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Vehicle hero (50), Flying vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (16), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 16
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,53 +61,47 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 24.3,22.81,41.64
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
   * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioDeath: "sfx_death_walker_1":100
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * buffAssetOffset: 0.00,1.89,0.00
+  * factoryRotation: 0
   * newRotationSpeed: 3927
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * buffAssetOffset: 0.00,1.89,0.00
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconLookatPosition: -0.85,2.34,-1.34
+  * assetName: atdp_emp-ani
   * bundleName: atdp_emp-ani
   * animationDelay: 0
-  * assetName: atdp_emp-ani
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 16
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
   * shotDelay: 250
-  * impactDelay: 500
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 1000
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: infantry
-  * overWalls: false
-  * reload: 1000
-  * attackShieldBorder: false
-  * clipRetargeting: true
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileBlasterStolenATDP
+  * xp: 0
   * shotCount: 2
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 1000
+  * splash: 0
+  * projectileType: projectileBlasterStolenATDP
+  * impactDelay: 500
+  * reload: 1000
+  * strictCoolDown: false
+  * favoriteTargetType: infantry
+  * autoSpawnSpreadingScale: 1
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

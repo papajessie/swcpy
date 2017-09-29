@@ -3,7 +3,9 @@ title: Dowutin Hunter (RebelBrute)
 category: unit
 ---
 
-# Dowutin Hunter (RebelBrute) — version 1084
+# Dowutin Hunter (RebelBrute) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 12
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1      |2         |3         |4         |5         |6          |7          |8          |9          |10         |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **HQ (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Turret (50)**, **Support troop (50)**, **Flying infantry (50)**, **Storage (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Shield (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Other building (50)**, Wall (30), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Wall (30), Retargeting offset (12), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 12
+  * Clip retargeting: Yes
+  * Target shield border: Yes
   * Max. Range: 6
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,62 +61,56 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
   * iconCameraPosition: 22.63,10.75,17.33
-  * iconCloseupLookatPosition: -0.45,2.74,-0.6
-  * iconLookatPosition: -0.25,1.71,0.52
-  * decalSize: 160
   * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
-  * bundleName: brute_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryRotation: 0
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * iconCloseupLookatPosition: -0.45,2.74,-0.6
   * newRotationSpeed: 7854
-  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
-  * iconCloseupCameraPosition: 10.36,-0.8,9.14
   * assetName: brute_con-ani
-  * animationDelay: 460
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * decalSize: 160
+  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
+  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.25,1.71,0.52
   * tooltipHeightOffset: 1.5
+  * bundleName: brute_con-ani
+  * iconCloseupCameraPosition: 10.36,-0.8,9.14
+  * animationDelay: 460
+  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
-  * targetLocking: false
-  * strictCoolDown: true
-  * retargetingOffset: 12
-  * armingDelay: 0
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 1040
-  * impactDelay: 0
   * xp: 0
-  * targetPreferenceStrength: 90
-  * chargeTime: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: closest
-  * overWalls: false
-  * reload: 500
-  * spawnEffectUid: effectRebelSpawn
-  * attackShieldBorder: true
-  * clipRetargeting: true
+  * armingDelay: 0
+  * shotDelay: 1040
   * targetInRangeModifier: 1
+  * chargeTime: 0
+  * splash: 0
+  * impactDelay: 0
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: true
+  * maxScale: false
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * targetPreferenceStrength: 90
+  * reload: 500
   * shotCount: 1
-  * targetedType: ENEMIES
+  * favoriteTargetType: closest
+  * spawnEffectUid: effectRebelSpawn
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|order         |215401                |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
-|pointValue    |12.000                |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
 |ability       |abilityBruteBomb1     |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
+|pointValue    |12.000                |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
+|order         |215401                |215402                |215403                |215404                |215405                |215406                |215407                |215408                |215409                |215410                 |
 |projectileType|projectileBruteCannon1|projectileBruteCannon2|projectileBruteCannon3|projectileBruteCannon4|projectileBruteCannon5|projectileBruteCannon6|projectileBruteCannon7|projectileBruteCannon8|projectileBruteCannon9|projectileBruteCannon10|
 

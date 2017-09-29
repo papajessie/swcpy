@@ -3,7 +3,9 @@ title: Iakaru Warrior (IakaruWarrior)
 category: unit
 ---
 
-# Iakaru Warrior (IakaruWarrior) — version 1084
+# Iakaru Warrior (IakaruWarrior) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -17,7 +19,7 @@ category: unit
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 0s
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (20), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 12
+  * Target preferences strength: 0
+  * Retargeting offset: 20
+  * Clip retargeting: Yes
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 12
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,64 +61,58 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 7.64,11.36,18.34
-  * iconCloseupLookatPosition: -0.52,2.05,-1.33
-  * iconLookatPosition: -0.4,1.38,-0.85
-  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * eventButtonAction: galaxy
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
+  * factoryRotation: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * iconCloseupLookatPosition: -0.52,2.05,-1.33
   * newRotationSpeed: 7854
+  * iconCameraPosition: 7.64,11.36,18.34
   * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
-  * iconCloseupCameraPosition: 4.34,5.86,9.44
-  * bundleName: iakaru_rbl-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconLookatPosition: -0.4,1.38,-0.85
   * assetName: iakaru_rbl-ani
+  * bundleName: iakaru_rbl-ani
+  * iconCloseupCameraPosition: 4.34,5.86,9.44
+  * animationDelay: 0
+  * eventButtonString: hn_open_galaxy
+  * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
 
 ## Uninterpreted stats
 
-  * targetLocking: false
-  * eventButtonString: hn_open_galaxy
-  * clipRetargeting: true
-  * retargetingOffset: 20
-  * armingDelay: 0
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * maxScale: false
-  * selfCenteredTargeting: false
-  * autoSpawnRateScale: 1
-  * shotDelay: 150
-  * targetedType: ENEMIES
-  * impactDelay: 1000
   * xp: 0
-  * chargeTime: 250
-  * targetPreferenceStrength: 90
-  * strictCoolDown: false
-  * eventFeaturesString: fragment_obtain_gen
   * pathSearchWidth: 15
-  * splash: 0
-  * unlockedByEvent: true
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: false
-  * upgradeShardUid: shrd_troopIakaruWarrior
-  * eventButtonAction: galaxy
+  * armingDelay: 0
+  * shotDelay: 150
   * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * impactDelay: 1000
+  * unlockedByEvent: true
   * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * maxScale: false
+  * gunSequence: 1
+  * autoSpawnRateScale: 1
+  * upgradeShardUid: shrd_troopIakaruWarrior
   * projectileType: projectileIakaruWarrior
+  * targetPreferenceStrength: 90
+  * reload: 2000
   * shotCount: 7
-  * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+  * favoriteTargetType: turret
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|order          |234301     |234302     |234303     |234304     |234305     |234306     |234307     |234308     |234309     |234310     |
 |pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
+|order          |234301     |234302     |234303     |234304     |234305     |234306     |234307     |234308     |234309     |234310     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

@@ -3,7 +3,9 @@ title: Phase II Dark Trooper (Dark)
 category: unit
 ---
 
-# Phase II Dark Trooper (Dark) — version 1084
+# Phase II Dark Trooper (Dark) — version 1085
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
@@ -15,7 +17,7 @@ category: unit
   * Levels available: 1-10
   * Unit capacity: 4
   * Shield Health: 0
-  * Shield Cooldown: 0
+  * Shield Cooldown: 0s
   * Shield Range: 0
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -28,12 +30,19 @@ category: unit
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
-## Targetting
+## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, Heavy infantry (50), HQ (50), Light vehicle (50), Storage (50), Ressource generator (50), Shield generator (50), Shield (50), Droideka (50), Heavy vehicle (50), Infantry (50), Other building (50), Heavy vehicular hero (1), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (10), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Targeted type: ENEMIES
+  * View Range: 8
+  * Target preferences strength: 0
+  * Retargeting offset: 10
+  * Clip retargeting: No
+  * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
-  * View Range: 8
+  * Can shoot over walls: No
+  * Self-centered targeting: False
 
 ## Recruiting
 
@@ -52,57 +61,51 @@ category: unit
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
+  * Target locking: No
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * gunSequence: 1
-  * factoryRotation: 0
-  * iconCameraPosition: 11.04,12.38,13.5
-  * iconCloseupLookatPosition: -0.03,3.09,-1.21
-  * iconLookatPosition: -0.02,1.7,0.06
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * factoryScaleFactor: 1
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
   * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.42,0.00
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
+  * factoryRotation: 0
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: -0.03,3.09,-1.21
   * newRotationSpeed: 7854
+  * iconCameraPosition: 11.04,12.38,13.5
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * iconCloseupCameraPosition: 0.77,1.01,11.04
-  * bundleName: darktrooper_emp-ani
-  * animationDelay: 0
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * factoryScaleFactor: 1
+  * iconLookatPosition: -0.02,1.7,0.06
   * assetName: darktrooper_emp-ani
+  * bundleName: darktrooper_emp-ani
+  * iconCloseupCameraPosition: 0.77,1.01,11.04
+  * animationDelay: 0
+  * buffAssetOffset: 0.00,0.42,0.00
+  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
 
 ## Uninterpreted stats
 
-  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
-  * targetLocking: false
-  * strictCoolDown: false
-  * retargetingOffset: 10
-  * armingDelay: 0
   * maxScale: false
-  * selfCenteredTargeting: false
+  * gunSequence: 1
   * autoSpawnRateScale: 1
-  * deathAnimation: buffFireBurn:15
   * shotDelay: 500
-  * impactDelay: 1000
-  * xp: 0
   * targetPreferenceStrength: 90
-  * chargeTime: 250
+  * armingDelay: 0
   * pathSearchWidth: 15
-  * splash: 0
-  * favoriteTargetType: turret
-  * overWalls: false
-  * reload: 2000
-  * attackShieldBorder: false
-  * clipRetargeting: false
-  * targetInRangeModifier: 1
-  * autoSpawnSpreadingScale: 1
-  * projectileType: projectileDark
+  * xp: 0
   * shotCount: 3
-  * targetedType: ENEMIES
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * splash: 0
+  * projectileType: projectileDark
+  * impactDelay: 1000
+  * reload: 2000
+  * strictCoolDown: false
+  * favoriteTargetType: turret
+  * autoSpawnSpreadingScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
