@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, Retargeting offset (15), Turret (0), Support troop (0), Ressource generator (0), Shield (0), HQ (0), Trap (0), Wall (0), Storage (0), Shield generator (0), Other building (0)
+  * Target preferences: **Heavy vehicular hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy infantry (50)**, **Vehicle hero (50)**, **Light vehicle (50)**, Retargeting offset (15), Trap (0), Shield generator (0), HQ (0), Other building (0), Shield (0), Turret (0), Storage (0), Wall (0), Support troop (0), Ressource generator (0)
   * Targeted type: ALLIES
   * View Range: 100
-  * Target preferences strength: 0
+  * Target preferences strength: 1
   * Retargeting offset: 15
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: Yes
-  * Self-centered targeting: True
+  * Self-centered targeting: Yes
 
 ## Recruiting
 
@@ -64,47 +64,46 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryRotation: 0
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
-  * tooltipHeightOffset: 1.5
   * newRotationSpeed: 7854
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
+  * tooltipHeightOffset: 1.5
   * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
-  * factoryScaleFactor: 1
-  * assetName: c3po_rbl-ani
+  * decalSize: 160
   * bundleName: c3po_rbl-ani
+  * factoryRotation: 0
+  * assetName: c3po_rbl-ani
+  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
   * animationDelay: 0
+  * factoryScaleFactor: 1
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 0
-  * supportFollowDistance: 2
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
+  * spawnEffectUid: effectRebelSpawn
   * targetInRangeModifier: 1
   * chargeTime: 0
-  * decalBundleName: tac_hero_rbl
+  * pathSearchWidth: 15
   * splash: 0
-  * impactDelay: 0
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_rbl
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * ignoresWalls: true
-  * projectileType: projectileC3PO1
-  * targetPreferenceStrength: 1
-  * reload: 500
-  * shotCount: 1
+  * armingDelay: 0
   * favoriteTargetType: closest
-  * spawnEffectUid: effectRebelSpawn
+  * ignoresWalls: true
+  * strictCoolDown: false
+  * supportFollowDistance: 2
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 0
+  * decalAssetName: tac_hero_rbl
+  * projectileType: projectileC3PO1
+  * reload: 500
+  * gunSequence: 1
+  * shotDelay: 0
+  * autoSpawnRateScale: 1
+  * xp: 0
 
 |Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|-----|-----|------|------|------|------|------|------|------|------|
-|heroData  |hero1|hero2|hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
+|heroData  |hero1|hero2|hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

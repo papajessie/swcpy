@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Support troop (70)**, **Heavy vehicle (70)**, **Flying infantry (70)**, **Light vehicle (70)**, **Infantry (70)**, **Heavy infantry (70)**, **Flying vehicle (70)**, **Droideka (70)**, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (12), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, **Light vehicle (70)**, **Support troop (70)**, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (12), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 12
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 6
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -70,44 +70,43 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 14.18,12.02,20.78
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * factoryRotation: 0
   * newRotationSpeed: 3927
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
-  * buffAssetOffset: 0,1,0
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.23,1.14,-0.58
-  * assetName: speederbike_rbl-ani
-  * bundleName: speederbike_rbl-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryRotation: 0
+  * assetName: speederbike_rbl-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0,1,0
+  * animationDelay: 0
+  * bundleName: speederbike_rbl-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 14.18,12.02,20.78
+  * iconLookatPosition: -0.23,1.14,-0.58
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1,2
-  * autoSpawnRateScale: 2
-  * shotDelay: 250
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 2
-  * targetInRangeModifier: 1
-  * splash: 0
   * impactDelay: 500
+  * maxScale: false
+  * shotCount: 2
   * reload: 1000
-  * strictCoolDown: false
-  * favoriteTargetType: infantry
+  * shotDelay: 250
   * autoSpawnSpreadingScale: 2
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1,2
+  * favoriteTargetType: infantry
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                            |8                            |9                            |10                           |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
 |order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
-|chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
 |projectileType|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|
 |pointValue    |5.000                 |6.000                 |7.000                 |8.000                 |9.000                 |10.000                |11.000                       |12.000                       |13.000                       |15.000                       |
+|chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
 

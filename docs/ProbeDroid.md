@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Support troop (60)**, **Heavy vehicle (60)**, **Flying infantry (60)**, **Light vehicle (60)**, **Infantry (60)**, **Heavy infantry (60)**, **Flying vehicle (60)**, **Droideka (60)**, Turret (50), Ressource generator (50), Shield (50), HQ (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, **Light vehicle (60)**, **Support troop (60)**, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Storage (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,42 +67,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: -18.83,17.64,22.74
-  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
-  * factoryRotation: 0
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.00,2,0.00
-  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.53,3.67,-0.56
-  * assetName: viperprobedroid_emp-ani
-  * bundleName: viperprobedroid_emp-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
   * audioPlacement: "sfx_placement_empire_probedroid_1":100
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
+  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
+  * factoryRotation: 0
+  * assetName: viperprobedroid_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * buffAssetOffset: 0.00,2,0.00
+  * animationDelay: 0
+  * bundleName: viperprobedroid_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: -18.83,17.64,22.74
+  * iconLookatPosition: 0.53,3.67,-0.56
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 250
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 4
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * splash: 0
-  * projectileType: projectileProbeDroid
   * impactDelay: 500
+  * maxScale: false
+  * shotCount: 4
+  * projectileType: projectileProbeDroid
   * reload: 500
-  * strictCoolDown: false
-  * favoriteTargetType: infantry
+  * shotDelay: 250
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: infantry
+  * chargeTime: 500
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

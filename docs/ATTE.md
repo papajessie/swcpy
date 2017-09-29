@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Support troop (60)**, **Flying infantry (60)**, **Infantry (60)**, **Infantry hero (60)**, **Heavy infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, Turret (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Vehicle hero (50), Flying vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (16), Wall (1), Trap (0)
+  * Target preferences: **Infantry hero (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, **Support troop (60)**, Heavy vehicular hero (50), Flying vehicle (50), Shield generator (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Turret (50), Vehicle hero (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (16), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 24.47,22.61,37.05
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * factoryRotation: 0
   * newRotationSpeed: 982
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
-  * buffAssetOffset: 0.00,1.46,0.00
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * assetName: atte_rbl-ani
-  * bundleName: atte_rbl-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
   * audioPlacement: "sfx_placement_empire_atat_1":100
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryRotation: 0
+  * assetName: atte_rbl-ani
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * buffAssetOffset: 0.00,1.46,0.00
+  * animationDelay: 0
+  * bundleName: atte_rbl-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 24.47,22.61,37.05
+  * iconLookatPosition: -0.2,1.23,-0.57
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1,2,3,4,5
-  * autoSpawnRateScale: 2
-  * shotDelay: 500
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 5
-  * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * splash: 0
-  * projectileType: projectileBlasterRebelATTE
   * impactDelay: 500
+  * maxScale: false
+  * shotCount: 5
+  * projectileType: projectileBlasterRebelATTE
   * reload: 1000
-  * strictCoolDown: false
-  * favoriteTargetType: infantry
+  * shotDelay: 500
   * autoSpawnSpreadingScale: 2
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1,2,3,4,5
+  * favoriteTargetType: infantry
+  * chargeTime: 1000
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

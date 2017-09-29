@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (16), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (16), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 22.79,25.75,28.69
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * factoryRotation: 0
   * newRotationSpeed: 3927
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
-  * buffAssetOffset: 0.00,0.51,0
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * assetName: t2btank_rbl-ani
-  * bundleName: t2btank_rbl-ani
-  * animationDelay: 100
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * factoryRotation: 0
+  * assetName: t2btank_rbl-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,0.51,0
+  * animationDelay: 100
+  * bundleName: t2btank_rbl-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 22.79,25.75,28.69
+  * iconLookatPosition: -0.25,0.58,-0.36
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1,1,2,2
-  * autoSpawnRateScale: 3
-  * shotDelay: 200
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 4
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * splash: 0
-  * projectileType: projectileT2BTank
   * impactDelay: 1000
+  * maxScale: false
+  * shotCount: 4
+  * projectileType: projectileT2BTank
   * reload: 2000
-  * strictCoolDown: false
-  * favoriteTargetType: closest
+  * shotDelay: 200
   * autoSpawnSpreadingScale: 3
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1,1,2,2
+  * favoriteTargetType: closest
+  * chargeTime: 250
+  * strictCoolDown: false
+  * autoSpawnRateScale: 3
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

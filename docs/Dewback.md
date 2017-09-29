@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (4), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (4), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,42 +67,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 17.06,13.27,18.62
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.00,1.01,0.00
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.75,1.05,-0.6
-  * assetName: dewback_emp-ani
-  * bundleName: dewback_emp-ani
-  * animationDelay: 1000
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
   * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * factoryRotation: 0
+  * assetName: dewback_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,1.01,0.00
+  * animationDelay: 1000
+  * bundleName: dewback_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 17.06,13.27,18.62
+  * iconLookatPosition: -0.75,1.05,-0.6
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 750
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 200
-  * xp: 0
-  * shotCount: 5
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * splash: 0
   * impactDelay: 0
+  * maxScale: false
+  * shotCount: 5
   * reload: 0
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * shotDelay: 750
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 200
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level         |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |--------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|

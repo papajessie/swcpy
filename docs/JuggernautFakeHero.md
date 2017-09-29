@@ -29,17 +29,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Retargeting offset (100)**, _Shield (70)_, _Shield generator (70)_, Turret (50), Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Retargeting offset (100)**, _Shield generator (70)_, _Shield (70)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Turret (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 100
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: Yes
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -62,45 +62,44 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 35.28,24.86,45.37
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * factoryRotation: 0
   * newRotationSpeed: 2000
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
-  * rotationSpeed: 2
-  * decalSize: 320
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * iconLookatPosition: -0.89,1.38,-0.23
-  * assetName: attacktank_rbl-ani
-  * bundleName: attacktank_rbl-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
   * buffAssetOffset: 0.00,1.84,0.00
+  * decalSize: 320
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * factoryRotation: 0
+  * assetName: attacktank_rbl-ani
+  * rotationSpeed: 2
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * animationDelay: 0
+  * bundleName: attacktank_rbl-ani
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * iconCameraPosition: 35.28,24.86,45.37
+  * iconLookatPosition: -0.89,1.38,-0.23
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 250
+  * maxScale: false
+  * autoSpawnSpreadingScale: 3
+  * shotCount: 2
+  * spawnEffectUid: effectRebelSpawn
   * targetInRangeModifier: 1
   * chargeTime: 1000
-  * decalBundleName: tac_hero_rbl
-  * splash: 0
-  * impactDelay: 500
-  * autoSpawnSpreadingScale: 3
-  * strictCoolDown: false
-  * maxScale: false
   * pointValue: 48.000
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * favoriteTargetType: shieldGenerator
+  * strictCoolDown: false
+  * decalBundleName: tac_hero_rbl
+  * impactDelay: 500
   * decalAssetName: tac_hero_rbl
-  * gunSequence: 1,1
-  * autoSpawnRateScale: 3
   * order: 244908
   * projectileType: projectileJuggernaut
-  * targetPreferenceStrength: 90
   * reload: 1000
-  * shotCount: 2
-  * favoriteTargetType: shieldGenerator
-  * spawnEffectUid: effectRebelSpawn
+  * gunSequence: 1,1
+  * shotDelay: 250
+  * autoSpawnRateScale: 3
+  * xp: 0
 

@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield (60)_, _Shield generator (60)_, Support troop (50), Heavy vehicle (50), Ressource generator (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Storage (50), Other building (50), Retargeting offset (14), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
+  * Target preferences: **Trap (80)**, **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (14), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,58 +67,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * eventButtonAction: galaxy
-  * iconCameraPosition: 6.12,13,15.36
-  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * iconCloseupLookatPosition: -0.34,2.08,-1.07
   * newRotationSpeed: 7854
-  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
-  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
-  * factoryScaleFactor: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconLookatPosition: -0.34,1.19,-0.78
-  * assetName: deathtrooper_emp-ani
+  * eventButtonAction: galaxy
+  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
   * bundleName: deathtrooper_emp-ani
-  * iconCloseupCameraPosition: 3.94,6.77,11.83
-  * animationDelay: 0
+  * decalSize: 160
+  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
+  * eventFeaturesString: fragment_obtain_gen
+  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
+  * factoryRotation: 0
+  * assetName: deathtrooper_emp-ani
   * eventButtonString: hn_open_galaxy
+  * iconCloseupLookatPosition: -0.34,2.08,-1.07
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
+  * animationDelay: 0
   * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
+  * iconCloseupCameraPosition: 3.94,6.77,11.83
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 6.12,13,15.36
+  * iconLookatPosition: -0.34,1.19,-0.78
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 400
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 2
+  * unlockedByEvent: true
+  * hologramUid: HeroHologramDeathtrooper
   * targetInRangeModifier: 1
   * chargeTime: 50
-  * decalBundleName: tac_hero_emp
+  * pathSearchWidth: 15
   * splash: 0
-  * hologramUid: HeroHologramDeathtrooper
-  * impactDelay: 250
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_emp
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * upgradeShardUid: shrd_troopHeroDeathTrooper
-  * unlockedByEvent: true
-  * projectileType: projectileHeroHanSolo
-  * targetPreferenceStrength: 90
-  * reload: 1000
-  * shotCount: 2
+  * armingDelay: 0
   * favoriteTargetType: turret
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopHeroDeathTrooper
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 250
+  * decalAssetName: tac_hero_emp
+  * autoSpawnRateScale: 1
+  * projectileType: projectileHeroHanSolo
+  * reload: 1000
+  * gunSequence: 1
+  * shotDelay: 400
+  * xp: 0
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|heroData       |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
 |pointValue     |20.000     |24.000     |28.000     |32.000     |36.000     |40.000     |44.000     |48.000     |52.000     |60.000     |
 |order          |111201     |111202     |111203     |111204     |111205     |111206     |111207     |111208     |111209     |111210     |
+|heroData       |hero1      |hero2      |hero3      |hero4      |hero5      |hero6      |hero7      |hero8      |hero9      |hero10     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

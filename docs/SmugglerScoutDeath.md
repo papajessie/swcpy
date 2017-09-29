@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Support troop (60)**, **Heavy vehicle (60)**, **Flying infantry (60)**, **Light vehicle (60)**, **Infantry (60)**, **Infantry hero (60)**, **Vehicle hero (60)**, **Heavy infantry (60)**, **Flying vehicle (60)**, **Heavy vehicular hero (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, _Ressource generator (51)_, _Storage (51)_, Turret (50), Shield (50), HQ (50), Shield generator (50), Other building (50), Retargeting offset (8), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicular hero (60)**, **Flying vehicle (60)**, **Infantry hero (60)**, **Infantry (60)**, **Heavy vehicle (60)**, **Heavy infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, **Vehicle hero (60)**, **Light vehicle (60)**, **Support troop (60)**, _Storage (51)_, _Ressource generator (51)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Turret (50), Retargeting offset (8), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 8
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 4
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -66,43 +66,42 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
   * newRotationSpeed: 7854
-  * iconCameraPosition: 10.84,12.06,13.07
-  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.06,1.74,0.02
-  * assetName: scotrper_dth-ani
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
   * bundleName: scotrper_dth-ani
-  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * factoryRotation: 0
+  * assetName: scotrper_dth-ani
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * animationDelay: 0
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 10.84,12.06,13.07
+  * iconLookatPosition: 0.06,1.74,0.02
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 225
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 1
-  * xp: 0
-  * shotCount: 4
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * splash: 0
-  * projectileType: projectileSmugglerScoutDeath
   * impactDelay: 0
+  * maxScale: false
+  * shotCount: 4
+  * projectileType: projectileSmugglerScoutDeath
   * reload: 800
-  * strictCoolDown: false
-  * favoriteTargetType: infantry
+  * shotDelay: 225
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 1
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: infantry
+  * chargeTime: 250
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

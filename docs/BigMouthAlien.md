@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (10), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,50 +67,49 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * eventButtonAction: galaxy
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * iconCloseupLookatPosition: -0.32,2.05,-1.04
   * newRotationSpeed: 7854
-  * iconCameraPosition: 7.8,9.8,16.43
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
-  * factoryScaleFactor: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconLookatPosition: -0.48,1.28,-0.82
-  * assetName: bigmouthalien_con-ani
+  * eventButtonAction: galaxy
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * bundleName: bigmouthalien_con-ani
-  * iconCloseupCameraPosition: 2.94,5.03,8.98
-  * animationDelay: 0
   * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
   * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * audioDeath: "sfx_death_bigmouth_01":34,"sfx_death_bigmouth_02":50,"sfx_death_bigmouth_02":33,"sfx_death_bigmouth_03":33
+  * factoryRotation: 0
+  * assetName: bigmouthalien_con-ani
+  * iconCloseupLookatPosition: -0.32,2.05,-1.04
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * animationDelay: 0
+  * iconCloseupCameraPosition: 2.94,5.03,8.98
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 7.8,9.8,16.43
+  * iconLookatPosition: -0.48,1.28,-0.82
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 400
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 5
+  * unlockedByEvent: true
   * targetInRangeModifier: 1
   * chargeTime: 500
-  * splash: 0
-  * impactDelay: 1000
-  * unlockedByEvent: true
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
-  * maxScale: false
   * pointValue: 4.000
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * upgradeShardUid: shrd_troopBigMouthAlien
-  * projectileType: projectileSoldier
-  * targetPreferenceStrength: 90
-  * iconUnlockScale: 1.2,1.2,1.2
-  * reload: 500
-  * shotCount: 5
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
   * favoriteTargetType: closest
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopBigMouthAlien
+  * impactDelay: 1000
+  * autoSpawnRateScale: 1
+  * projectileType: projectileSoldier
+  * reload: 500
+  * gunSequence: 1
+  * shotDelay: 400
+  * iconUnlockScale: 1.2,1.2,1.2
+  * xp: 0
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|

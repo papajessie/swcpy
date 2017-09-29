@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Support troop (60)**, **Flying infantry (60)**, **Infantry (60)**, **Infantry hero (60)**, **Heavy infantry (60)**, **Heavy infantry hero (60)**, **Droideka (60)**, Turret (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Vehicle hero (50), Flying vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (16), Wall (1), Trap (0)
+  * Target preferences: **Infantry hero (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, **Support troop (60)**, Heavy vehicular hero (50), Flying vehicle (50), Shield generator (50), Heavy vehicle (50), HQ (50), Other building (50), Shield (50), Turret (50), Vehicle hero (50), Storage (50), Light vehicle (50), Ressource generator (50), Retargeting offset (16), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: Yes
   * Target shield border: No
   * Max. Range: 8
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 24.3,22.81,41.64
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * factoryRotation: 0
   * newRotationSpeed: 3927
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
-  * buffAssetOffset: 0.00,1.89,0.00
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * assetName: atdp_emp-ani
-  * bundleName: atdp_emp-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryRotation: 0
+  * assetName: atdp_emp-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * buffAssetOffset: 0.00,1.89,0.00
+  * animationDelay: 0
+  * bundleName: atdp_emp-ani
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * iconCameraPosition: 24.3,22.81,41.64
+  * iconLookatPosition: -0.85,2.34,-1.34
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 250
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 2
-  * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * splash: 0
-  * projectileType: projectileBlasterEmpireATDP
   * impactDelay: 500
+  * maxScale: false
+  * shotCount: 2
+  * projectileType: projectileBlasterEmpireATDP
   * reload: 1000
-  * strictCoolDown: false
-  * favoriteTargetType: infantry
+  * shotDelay: 250
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: infantry
+  * chargeTime: 1000
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

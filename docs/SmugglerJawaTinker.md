@@ -29,17 +29,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Turret (50), Support troop (50), Heavy vehicle (50), Flying infantry (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Retargeting offset (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Other building (60)_, _Storage (60)_, _Ressource generator (60)_, Flying vehicle (50), Infantry (50), Heavy vehicle (50), Flying infantry (50), HQ (50), Droideka (50), Heavy infantry (50), Turret (50), Light vehicle (50), Support troop (50), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Retargeting offset (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 1
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 1
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -61,37 +61,36 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: -1.8,2.32,15.85
-  * factoryScaleFactor: 1
-  * factoryRotation: 0
+  * newRotationSpeed: 1
+  * rotationSpeed: 1
   * assetName: jawatinker_neu-ani
   * bundleName: jawatinker_neu-ani
   * animationDelay: 0
-  * rotationSpeed: 1
-  * newRotationSpeed: 1
   * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * iconCameraPosition: -1.8,2.32,15.85
+  * factoryRotation: 0
+  * factoryScaleFactor: 1
   * iconLookatPosition: -0.48,0.9,-0.38
 
 ## Uninterpreted stats
 
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 1
+  * impactDelay: 1
+  * maxScale: false
   * order: 372301
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 1
-  * xp: 0
   * shotCount: 5
-  * targetInRangeModifier: 1
+  * projectileType: projectileSmugglerSaboteur
+  * reload: 1
+  * shotDelay: 1
+  * pointValue: 0.000
+  * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 1
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
   * favoriteTargetType: closest
   * chargeTime: 1
-  * splash: 0
-  * projectileType: projectileSmugglerSaboteur
-  * impactDelay: 1
-  * reload: 1
   * strictCoolDown: false
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * pointValue: 0.000
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 

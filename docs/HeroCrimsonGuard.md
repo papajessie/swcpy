@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Support troop (60)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Infantry (60)_, _Infantry hero (60)_, _Heavy infantry (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Droideka (60)_, Ressource generator (50), Shield (50), HQ (50), Vehicle hero (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (4), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, _Heavy vehicular hero (60)_, _Infantry hero (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry hero (60)_, _Droideka (60)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Support troop (60)_, Shield generator (50), HQ (50), Other building (50), Shield (50), Vehicle hero (50), Storage (50), Ressource generator (50), Retargeting offset (4), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,51 +67,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 7.77,6.46,23.13
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * factoryRotation: 0
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
   * newRotationSpeed: 7854
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
-  * audioDeath: "sfx_death_hero_crimsonguard_1":100
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.06,1.72,0.04
-  * assetName: crimsonguard_emp-ani
-  * bundleName: crimsonguard_emp-ani
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * animationDelay: 1000
+  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
   * buffAssetOffset: 0.00,0.35,0.00
+  * bundleName: crimsonguard_emp-ani
+  * decalSize: 160
+  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * audioDeath: "sfx_death_hero_crimsonguard_1":100
+  * factoryRotation: 0
+  * assetName: crimsonguard_emp-ani
+  * iconCloseupLookatPosition: 0.03,2.77,-0.19
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
+  * animationDelay: 1000
+  * iconCloseupCameraPosition: 0.01,1.3,10.4
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 7.77,6.46,23.13
+  * iconLookatPosition: 0.06,1.72,0.04
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * shotDelay: 100
-  * armingDelay: 0
-  * pathSearchWidth: 15
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 1
+  * hologramUid: HeroHologramCrimsonGuard
   * targetInRangeModifier: 1
   * chargeTime: 100
-  * decalBundleName: tac_hero_emp
+  * pathSearchWidth: 15
   * splash: 0
-  * hologramUid: HeroHologramCrimsonGuard
-  * impactDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
-  * maxScale: false
-  * decalAssetName: tac_hero_emp
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * projectileType: projectileMeleeCrimsonGuard
-  * targetPreferenceStrength: 90
-  * reload: 1000
-  * shotCount: 1
+  * armingDelay: 0
   * favoriteTargetType: turret
+  * strictCoolDown: false
+  * decalBundleName: tac_hero_emp
+  * impactDelay: 0
+  * decalAssetName: tac_hero_emp
+  * projectileType: projectileMeleeCrimsonGuard
+  * reload: 1000
+  * gunSequence: 1
+  * shotDelay: 100
+  * autoSpawnRateScale: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |110401|110402|110403|110404|110405|110406|110407|110408|110409|110410|
+|heroData  |hero1 |hero2 |hero3 |hero4 |hero5 |hero6 |hero7 |hero8 |hero9 |hero10|
 

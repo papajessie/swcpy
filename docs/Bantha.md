@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), Shield (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (4), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Shield (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (4), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 16.54,17.6,29.53
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * buffAssetOffset: 0.00,0.68,0.0
-  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.48,2.52,0.88
-  * assetName: bantha_rbl-ani
-  * bundleName: bantha_rbl-ani
-  * animationDelay: 1250
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
   * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
+  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
+  * factoryRotation: 0
+  * assetName: bantha_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,0.68,0.0
+  * animationDelay: 1250
+  * bundleName: bantha_rbl-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 16.54,17.6,29.53
+  * iconLookatPosition: 0.48,2.52,0.88
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * shotDelay: 500
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 200
-  * xp: 0
-  * shotCount: 5
-  * targetInRangeModifier: 1
-  * chargeTime: 500
-  * splash: 0
   * impactDelay: 0
+  * maxScale: false
+  * shotCount: 5
   * reload: 0
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * shotDelay: 500
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 200
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * favoriteTargetType: turret
+  * chargeTime: 500
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level         |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
 |--------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|

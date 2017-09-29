@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Support troop (50), Heavy vehicle (50), Ressource generator (50), Light vehicle (50), HQ (50), Infantry (50), Heavy infantry (50), Droideka (50), Storage (50), Shield generator (50), Other building (50), Retargeting offset (10), Shield (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, Shield generator (50), Infantry (50), Heavy vehicle (50), HQ (50), Droideka (50), Other building (50), Heavy infantry (50), Storage (50), Light vehicle (50), Support troop (50), Ressource generator (50), Retargeting offset (10), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Shield (1), Vehicle hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 2
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,52 +67,51 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * factoryRotation: 0
-  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
-  * iconCloseupLookatPosition: 0.18,2.49,0.11
   * newRotationSpeed: 7854
-  * iconCameraPosition: 9.14,6.79,20.25
-  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
-  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.43,1.85,0.73
-  * assetName: gamorreanguard_con-ani
-  * bundleName: gamorreanguard_con-ani
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * animationDelay: 600
+  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
   * buffAssetOffset: 0.00,0.43,0.0
+  * bundleName: gamorreanguard_con-ani
   * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
+  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+  * factoryRotation: 0
+  * assetName: gamorreanguard_con-ani
+  * iconCloseupLookatPosition: 0.18,2.49,0.11
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
+  * animationDelay: 600
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9.14,6.79,20.25
+  * iconLookatPosition: 0.43,1.85,0.73
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * deathProjectile: projectileDeathVibroAx
-  * armingDelay: 0
-  * shotDelay: 0
-  * targetInRangeModifier: 1
-  * chargeTime: 400
-  * splash: 0
-  * impactDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: false
   * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
-  * deathProjectileDistance: 17
-  * projectileType: projectileMeleeVibroAx
-  * targetPreferenceStrength: 90
-  * pathSearchWidth: 15
-  * reload: 500
+  * autoSpawnSpreadingScale: 1
   * shotCount: 1
   * favoriteTargetType: turret
+  * targetInRangeModifier: 1
+  * chargeTime: 400
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * deathProjectileDistance: 17
+  * strictCoolDown: false
   * deathProjectileDelay: 3600
+  * deathProjectile: projectileDeathVibroAx
+  * impactDelay: 0
+  * autoSpawnRateScale: 1
+  * projectileType: projectileMeleeVibroAx
+  * reload: 500
+  * gunSequence: 1
+  * shotDelay: 0
+  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
+  * xp: 0
 
 |Level                |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------------|------|------|------|------|------|------|------|------|------|------|
-|deathProjectileDamage|1750  |2000  |2250  |2500  |2750  |3000  |3250  |3500  |3750  |4000  |
 |pointValue           |4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |order                |115101|115102|115103|115104|115105|115106|115107|115108|115109|115110|
+|deathProjectileDamage|1750  |2000  |2250  |2500  |2750  |3000  |3250  |3500  |3750  |4000  |
 

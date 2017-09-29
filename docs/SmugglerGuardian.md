@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Retargeting offset (100)**, _Turret (70)_, _Shield (70)_, _Shield generator (70)_, _Support troop (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Light vehicle (60)_, _Infantry (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, _Droideka (60)_, Ressource generator (50), HQ (50), Storage (50), Other building (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Retargeting offset (100)**, _Shield generator (70)_, _Shield (70)_, _Turret (70)_, _Flying vehicle (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy infantry (60)_, _Light vehicle (60)_, _Support troop (60)_, HQ (50), Other building (50), Storage (50), Ressource generator (50), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 100
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,46 +67,45 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 9,10,11.12
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * factoryRotation: 0
-  * deathAnimation: buffFireBurn:15
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
-  * buffAssetOffset: 0.00,0.08,0.00
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * iconLookatPosition: 0.09,1.4,0.28
-  * assetName: bountyhunter_smg-ani
-  * bundleName: bountyhunter_smg-ani
-  * animationDelay: 0
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * gunPosition: "bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2
   * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * factoryRotation: 0
+  * assetName: bountyhunter_smg-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * deathAnimation: buffFireBurn:15
+  * buffAssetOffset: 0.00,0.08,0.00
+  * animationDelay: 0
+  * bundleName: bountyhunter_smg-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 9,10,11.12
+  * iconLookatPosition: 0.09,1.4,0.28
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1,2
-  * autoSpawnRateScale: 1
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * targetInRangeModifier: 1
-  * splash: 0
-  * projectileType: projectileSmugglerGuardian
   * impactDelay: 1000
-  * strictCoolDown: false
-  * favoriteTargetType: turret
+  * maxScale: false
+  * projectileType: projectileSmugglerGuardian
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1,2
+  * favoriteTargetType: turret
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|shotDelay |200   |200   |200   |200   |200   |200   |200   |200   |200   |500   |
 |order     |334201|334202|334203|334204|334205|334206|334207|334208|334209|334210|
 |shotCount |1     |1     |1     |1     |1     |1     |1     |1     |1     |3     |
-|chargeTime|500   |500   |500   |500   |500   |500   |500   |500   |500   |250   |
 |reload    |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |2000  |
+|shotDelay |200   |200   |200   |200   |200   |200   |200   |200   |200   |500   |
 |pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|chargeTime|500   |500   |500   |500   |500   |500   |500   |500   |500   |250   |
 

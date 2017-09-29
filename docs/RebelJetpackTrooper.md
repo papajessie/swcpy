@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Infantry hero (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Retargeting offset (14), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicular hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry hero (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Vehicle hero (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Retargeting offset (14), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 7
   * Min. Range: 0
   * Can shoot over walls: Yes
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,41 +67,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 11.88,12.47,16.37
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * iconCloseupLookatPosition: 0.08,5.11,0.16
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * gunPosition: "hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun1":1,"hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun2":1
-  * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
-  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
-  * iconLookatPosition: -0.05,4.6,-0.18
-  * assetName: hoversoldier_rbl-ani
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
   * bundleName: hoversoldier_rbl-ani
-  * iconCloseupCameraPosition: 0.9,3.32,13.24
+  * gunPosition: "hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun1":1,"hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun2":1
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
+  * assetName: hoversoldier_rbl-ani
+  * iconCloseupLookatPosition: 0.08,5.11,0.16
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
   * animationDelay: 0
+  * iconCloseupCameraPosition: 0.9,3.32,13.24
+  * iconCameraPosition: 11.88,12.47,16.37
+  * iconLookatPosition: -0.05,4.6,-0.18
 
 ## Uninterpreted stats
 
-  * maxScale: false
-  * gunSequence: 1,1
-  * autoSpawnRateScale: 1
-  * shotDelay: 750
-  * targetPreferenceStrength: 90
-  * armingDelay: 0
-  * pathSearchWidth: 15
-  * xp: 0
-  * shotCount: 2
-  * targetInRangeModifier: 1
-  * chargeTime: 250
-  * splash: 0
-  * projectileType: projectileBlasterRebelJetpackTrooper
   * impactDelay: 1000
+  * maxScale: false
+  * shotCount: 2
+  * projectileType: projectileBlasterRebelJetpackTrooper
   * reload: 1500
-  * strictCoolDown: false
-  * favoriteTargetType: closest
+  * shotDelay: 750
   * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1,1
+  * favoriteTargetType: closest
+  * chargeTime: 250
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

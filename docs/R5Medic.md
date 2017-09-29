@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Infantry (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, **Heavy infantry hero (50)**, Retargeting offset (10), Turret (0), Support troop (0), Heavy vehicle (0), Ressource generator (0), Flying infantry (0), Light vehicle (0), Shield (0), HQ (0), Vehicle hero (0), Flying vehicle (0), Heavy vehicular hero (0), Trap (0), Wall (0), Droideka (0), Storage (0), Shield generator (0), Other building (0)
+  * Target preferences: **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, Retargeting offset (10), Heavy vehicular hero (0), Flying vehicle (0), Trap (0), Shield generator (0), Heavy vehicle (0), Flying infantry (0), HQ (0), Droideka (0), Other building (0), Shield (0), Turret (0), Vehicle hero (0), Storage (0), Wall (0), Light vehicle (0), Support troop (0), Ressource generator (0)
   * Targeted type: ALLIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
   * Max. Range: 5
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: True
+  * Self-centered targeting: Yes
 
 ## Recruiting
 
@@ -67,54 +67,53 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * eventButtonAction: galaxy
-  * iconCameraPosition: 5.21,9.06,13.12
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * factoryRotation: 0
-  * eventFeaturesString: fragment_obtain_gen
   * newRotationSpeed: 7854
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
-  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
-  * factoryScaleFactor: 1
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconLookatPosition: -0.19,0.88,-0.37
-  * assetName: r5droid_emp-ani
-  * bundleName: r5droid_emp-ani
-  * animationDelay: 0
+  * eventButtonAction: galaxy
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
   * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
   * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
+  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * factoryRotation: 0
+  * assetName: r5droid_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
+  * animationDelay: 0
+  * bundleName: r5droid_emp-ani
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 5.21,9.06,13.12
+  * iconLookatPosition: -0.19,0.88,-0.37
 
 ## Uninterpreted stats
 
-  * xp: 0
+  * maxScale: false
+  * autoSpawnSpreadingScale: 1
+  * shotCount: 2
+  * unlockedByEvent: true
+  * chargeTime: 50
   * pathSearchWidth: 15
-  * supportFollowDistance: 5
+  * splash: 0
   * armingDelay: 0
+  * favoriteTargetType: infantry
+  * strictCoolDown: false
+  * upgradeShardUid: shrd_troopR5Medic
+  * supportFollowDistance: 5
+  * impactDelay: 250
+  * autoSpawnRateScale: 1
+  * reload: 900
+  * gunSequence: 1
+  * infoUIType: Healer
   * shotDelay: 400
   * targetInRangeModifier: 1
-  * chargeTime: 50
-  * splash: 0
-  * impactDelay: 250
-  * unlockedByEvent: true
-  * autoSpawnSpreadingScale: 1
-  * infoUIType: Healer
-  * strictCoolDown: false
-  * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * upgradeShardUid: shrd_troopR5Medic
-  * targetPreferenceStrength: 90
-  * reload: 900
-  * shotCount: 2
-  * favoriteTargetType: infantry
+  * xp: 0
 
 |Level             |1                 |2                 |3                 |4                 |5                 |6                 |7                 |8                 |9                 |10                 |
 |------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
 |iconUnlockPosition|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |pointValue        |5.000             |6.000             |7.000             |8.000             |9.000             |10.000            |11.000            |12.000            |13.000            |15.000             |
-|order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
 |iconUnlockRotation|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
 |projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
 |iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 

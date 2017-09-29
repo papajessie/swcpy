@@ -32,17 +32,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Ressource generator (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield (50)**, **HQ (50)**, **Infantry (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Storage (50)**, **Shield generator (50)**, **Other building (50)**, Wall (30), Retargeting offset (12), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Trap (0)
+  * Target preferences: **Flying vehicle (50)**, **Shield generator (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Flying infantry (50)**, **HQ (50)**, **Droideka (50)**, **Other building (50)**, **Heavy infantry (50)**, **Shield (50)**, **Turret (50)**, **Storage (50)**, **Light vehicle (50)**, **Support troop (50)**, **Ressource generator (50)**, Wall (30), Retargeting offset (12), Heavy vehicular hero (1), Infantry hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
-  * Target preferences strength: 0
+  * Target preferences strength: 90
   * Retargeting offset: 12
   * Clip retargeting: Yes
   * Target shield border: Yes
   * Max. Range: 6
   * Min. Range: 0
   * Can shoot over walls: No
-  * Self-centered targeting: False
+  * Self-centered targeting: No
 
 ## Recruiting
 
@@ -67,50 +67,49 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * iconCameraPosition: 22.63,10.75,17.33
-  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
-  * factoryRotation: 0
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * iconCloseupLookatPosition: -0.45,2.74,-0.6
   * newRotationSpeed: 7854
-  * assetName: brute_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * decalSize: 160
-  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
-  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
-  * factoryScaleFactor: 1
-  * iconLookatPosition: -0.25,1.71,0.52
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * tooltipHeightOffset: 1.5
+  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
   * bundleName: brute_con-ani
-  * iconCloseupCameraPosition: 10.36,-0.8,9.14
-  * animationDelay: 460
+  * decalSize: 160
   * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
+  * factoryRotation: 0
+  * assetName: brute_con-ani
+  * iconCloseupLookatPosition: -0.45,2.74,-0.6
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
+  * animationDelay: 460
+  * iconCloseupCameraPosition: 10.36,-0.8,9.14
+  * factoryScaleFactor: 1
+  * iconCameraPosition: 22.63,10.75,17.33
+  * iconLookatPosition: -0.25,1.71,0.52
 
 ## Uninterpreted stats
 
-  * xp: 0
-  * pathSearchWidth: 15
-  * armingDelay: 0
-  * shotDelay: 1040
-  * targetInRangeModifier: 1
-  * chargeTime: 0
-  * splash: 0
   * impactDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * strictCoolDown: true
   * maxScale: false
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * targetPreferenceStrength: 90
-  * reload: 500
   * shotCount: 1
-  * favoriteTargetType: closest
   * spawnEffectUid: effectEmpireSpawn
+  * reload: 500
+  * shotDelay: 1040
+  * autoSpawnSpreadingScale: 1
+  * pathSearchWidth: 15
+  * splash: 0
+  * armingDelay: 0
+  * gunSequence: 1
+  * strictCoolDown: true
+  * favoriteTargetType: closest
+  * chargeTime: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|order         |115401                |115402                |115403                |115404                |115405                |115406                |115407                |115408                |115409                |115410                 |
 |ability       |abilityBruteBomb1     |abilityBruteBomb2     |abilityBruteBomb3     |abilityBruteBomb4     |abilityBruteBomb5     |abilityBruteBomb6     |abilityBruteBomb7     |abilityBruteBomb8     |abilityBruteBomb9     |abilityBruteBomb10     |
 |pointValue    |12.000                |14.000                |17.000                |19.000                |22.000                |24.000                |26.000                |29.000                |31.000                |36.000                 |
-|order         |115401                |115402                |115403                |115404                |115405                |115406                |115407                |115408                |115409                |115410                 |
 |projectileType|projectileBruteCannon1|projectileBruteCannon2|projectileBruteCannon3|projectileBruteCannon4|projectileBruteCannon5|projectileBruteCannon6|projectileBruteCannon7|projectileBruteCannon8|projectileBruteCannon9|projectileBruteCannon10|
 
