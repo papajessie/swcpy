@@ -26,13 +26,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade time        |0s      |15m     |1h      |3h30m   |8h      |1d      |2d             |3d12h          |5d             |1w1d           |
 |Health              |10800   |11420   |12080   |12780   |13520   |14320   |15160          |16070          |17030          |18050          |
 |Damage*             |950     |1000    |1060    |1120    |1190    |1260    |1330           |1410           |1490           |1580           |
-|Damage per second*  |1360    |1430    |1510    |1600    |1700    |1800    |1900           |2010           |2130           |2260           |
+|Damage per shot     |1360.0  |1430.0  |1510.0  |1600.0  |1700.0  |1800.0  |1900.0         |2010.0         |2130.0         |2260.0         |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Shield generator (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Retargeting offset (4), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, Other building (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -49,63 +49,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|330$                             |340$                                   |350$                                   |370$                                   |390$                                   |450$                                   |510$                                   |600$                                   |630$                                   |690$                                    |
-|Training time|45                               |46                                     |47                                     |48                                     |50                                     |52                                     |54                                     |84                                     |87                                     |90                                      |
+|Training time|45s                              |46s                                    |47s                                    |48s                                    |50s                                    |52s                                    |54s                                    |1m24s                                  |1m27s                                  |1m30s                                   |
 |Building     |[Barracks 4](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
   * Speed: 30
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 200
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * decalSize: 
   * deathAnimation: buffFireBurn:15
-  * buffAssetOffset: 0.00,1.01,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * favoriteTargetType: turret
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: dewback_emp-ani
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * iconLookatPosition: -0.75,1.05,-0.6
+  * newRotationSpeed: 7854
+  * infoUIType: 
   * factoryRotation: 0
-  * factoryScaleFactor: 1
   * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * eventFeaturesString: 
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * unlockPlanet: 
+  * buffAssetOffset: 0.00,1.01,0.00
+  * eventButtonString: 
+  * eventButtonAction: 
   * animationDelay: 1000
+  * iconCloseupLookatPosition: 
+  * eventButtonData: 
   * iconCameraPosition: 17.06,13.27,18.62
   * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioImpact: 
+  * iconLookatPosition: -0.75,1.05,-0.6
+  * iconCloseupCameraPosition: 
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
   * bundleName: dewback_emp-ani
-  * newRotationSpeed: 7854
+  * factoryScaleFactor: 1
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: dewback_emp-ani
+  * favoriteTargetType: turret
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 200
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
   * impactDelay: 0
-  * chargeTime: 500
-  * armingDelay: 0
   * shotDelay: 750
-  * shotCount: 5
-  * maxScale: false
+  * splash: 0
   * strictCoolDown: false
   * reload: 0
+  * xp: 0
+  * maxScale: false
   * gunSequence: 1
-  * targetInRangeModifier: 1
-  * splash: 0
+  * shotCount: 5
+  * autoSpawnSpreadingScale: 1
   * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * armingDelay: 0
 
 |Level         |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |--------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
-|order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
 |projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
+|order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
 |pointValue    |3.000                       |3.600                       |4.200                       |4.800                       |5.400                       |6.000                       |6.600                       |7.200                       |7.800                       |9.000                        |
 

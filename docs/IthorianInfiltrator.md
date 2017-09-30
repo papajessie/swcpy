@@ -22,17 +22,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield Cooldown: 0s
   * Shield Range: 0
 
-|Level             |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
-|------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Health            |1350|1600|1850|2100|2350|2600|2850 |3100 |3350 |3600 |
-|Damage*           |2500|3775|5050|6325|7600|8875|10150|11425|12700|13975|
-|Damage per second*|4700|2545|3090|3454|3818|4363|4909 |5272 |5636 |6545 |
+|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|---------------|------|------|------|------|------|------|------|------|------|------|
+|Health         |1350  |1600  |1850  |2100  |2350  |2600  |2850  |3100  |3350  |3600  |
+|Damage*        |2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
+|Damage per shot|4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Turret (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -49,65 +49,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Training cost|1000$                           |1052$                                 |1137$                                 |1242$                                 |1361$                                 |1494$                                 |1638$                                 |1791$                                 |1954$                                 |2125$                                  |
-|Training time|160                             |168                                   |182                                   |199                                   |218                                   |239                                   |262                                   |287                                   |313                                   |340                                    |
+|Training time|2m40s                           |2m48s                                 |3m2s                                  |3m19s                                 |3m38s                                 |3m59s                                 |4m22s                                 |4m47s                                 |5m13s                                 |5m40s                                  |
 |Building     |[Barracks 4](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 ## Movement
 
   * Speed: 45
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 200
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * decalSize: 
+  * deathAnimation: 
+  * newRotationSpeed: 7854
+  * infoUIType: 
+  * factoryRotation: 0
+  * audioTrain: 
   * eventFeaturesString: fragment_obtain_gen
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
+  * unlockPlanet: 
+  * buffAssetOffset: 
   * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * favoriteTargetType: shieldGenerator
-  * assetName: ithorian_rbl-ani
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
-  * iconLookatPosition: 0,1.73,-0.07
-  * iconCloseupCameraPosition: 4.79,2.66,11.07
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: -0.26,2.61,-0.85
   * animationDelay: 0
+  * iconCloseupLookatPosition: -0.26,2.61,-0.85
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * iconCameraPosition: 17.05,12.75,14.83
   * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioImpact: 
+  * iconLookatPosition: 0,1.73,-0.07
+  * iconCloseupCameraPosition: 4.79,2.66,11.07
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
   * bundleName: ithorian_rbl-ani
-  * newRotationSpeed: 7854
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * factoryScaleFactor: 1
+  * gunPosition: 
+  * assetName: ithorian_rbl-ani
+  * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 200
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
   * impactDelay: 250
+  * shotDelay: 200
+  * splash: 0
   * strictCoolDown: false
+  * reload: 2000
+  * projectileType: projectileIthorianInfiltrator
+  * unlockedByEvent: true
+  * xp: 0
+  * upgradeShardUid: shrd_troopIthorianInfiltrator
+  * gunSequence: 1
+  * maxScale: false
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 1
+  * spawnApplyBuffs: buffPersonalShieldIthorian
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
   * chargeTime: 50
   * armingDelay: 0
-  * projectileType: projectileIthorianInfiltrator
-  * shotDelay: 200
-  * spawnApplyBuffs: buffPersonalShieldIthorian
-  * shotCount: 2
-  * maxScale: false
-  * upgradeShardUid: shrd_troopIthorianInfiltrator
-  * reload: 2000
-  * gunSequence: 1
-  * targetInRangeModifier: 1
-  * unlockedByEvent: true
-  * splash: 0
-  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

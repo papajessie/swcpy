@@ -20,19 +20,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield Cooldown: 0s
   * Shield Range: 0
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Health              |8625 |10350|12075|13800 |15525 |17250  |18975  |20700  |22425   |25875   |
-|Damage*             |170  |204  |238  |272   |306   |340    |374    |408    |442     |510     |
-|Damage per second*  |650  |782  |911  |1040  |1172  |1301   |1430   |1562   |1690    |1951    |
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade requirements|3000$|3000$|6000$ |12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Upgrade time        |0s   |15m  |1h    |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Health              |8625 |10350|12075 |13800 |15525 |17250  |18975  |20700  |22425   |25875   |
+|Damage*             |170  |204  |238   |272   |306   |340    |374    |408    |442     |510     |
+|Damage per shot     |650.0|782.5|911.25|1040.0|1172.5|1301.25|1430.0 |1562.5 |1690.0  |1951.25 |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Support troop (50)**, **Heavy vehicular hero (50)**, **Droideka (50)**, **Light vehicle (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Vehicle hero (50)**, **Infantry (50)**, **Storage (50)**, **Heavy vehicle (50)**, **HQ (50)**, **Flying vehicle (50)**, **Other building (50)**, **Flying infantry (50)**, **Ressource generator (50)**, **Shield (50)**, **Turret (50)**, Retargeting offset (12), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry hero (50)**, **Other building (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Support troop (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Turret (50)**, **Heavy infantry (50)**, **Vehicle hero (50)**, **HQ (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Storage (50)**, Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -46,64 +46,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Recruiting
 
-|Level        |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|-------------|----|----|----|----|----|----|----|----|----|----|
-|Training cost|200$|280$|360$|440$|520$|600$|680$|760$|840$|920$|
-|Training time|80  |88  |92  |96  |100 |104 |108 |112 |116 |120 |
+|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10  |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|----|
+|Training cost|200$ |280$ |360$ |440$ |520$ |600$ |680$ |760$ |840$ |920$|
+|Training time|1m20s|1m28s|1m32s|1m36s|1m40s|1m44s|1m48s|1m52s|1m56s|2m  |
 
 ## Movement
 
   * Speed: 13
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 1
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * decalSize: 
   * deathAnimation: buffFireBurn:15
-  * buffAssetOffset: 0.00,0.27,0.00
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * favoriteTargetType: closest
-  * gunPosition: "deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt":1
-  * assetName: heavytrooper_dth-ani
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * iconLookatPosition: -0.36,1.33,-0.66
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * newRotationSpeed: 7854
+  * infoUIType: 
   * factoryRotation: 0
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * audioTrain: 
+  * eventFeaturesString: 
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * unlockPlanet: 
+  * buffAssetOffset: 0.00,0.27,0.00
+  * eventButtonString: 
+  * eventButtonAction: 
   * animationDelay: 0
+  * iconCloseupLookatPosition: -0.05,2.29,-0.46
+  * eventButtonData: 
   * iconCameraPosition: 4.46,8.55,22.59
   * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioImpact: 
+  * iconLookatPosition: -0.36,1.33,-0.66
+  * iconCloseupCameraPosition: 3.27,3.36,10.55
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
   * bundleName: heavytrooper_dth-ani
-  * newRotationSpeed: 7854
+  * factoryScaleFactor: 1
+  * gunPosition: "deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt":1
+  * assetName: heavytrooper_dth-ani
+  * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 1
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
   * impactDelay: 500
-  * chargeTime: 500
-  * armingDelay: 0
-  * projectileType: projectileSmugglerHeavyStormDeath
+  * shotDelay: 100
   * splash: 0
-  * spawnApplyBuffs: buffReduceHeals2
-  * shotCount: 10
-  * maxScale: false
   * strictCoolDown: false
   * reload: 2000
+  * projectileType: projectileSmugglerHeavyStormDeath
+  * xp: 0
+  * maxScale: false
   * gunSequence: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 100
+  * shotCount: 10
+  * autoSpawnSpreadingScale: 1
+  * spawnApplyBuffs: buffReduceHeals2
   * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

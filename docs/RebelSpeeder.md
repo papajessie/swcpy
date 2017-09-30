@@ -26,13 +26,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Health              |9000 |9700 |10450|11280 |12170 |13140  |14210  |15360  |16620   |18000   |
 |Damage*             |1010 |1050 |1090 |1140  |1180  |1230   |1280   |1330   |1380    |1440    |
-|Damage per second*  |900  |930  |970  |1010  |1050  |1090   |1460   |1520   |1580    |1650    |
+|Damage per shot     |900.0|930.0|970.0|1010.0|1050.0|1090.0 |1460.0 |1520.0 |1580.0  |1650.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (70)**, **Support troop (70)**, **Droideka (70)**, **Light vehicle (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Flying vehicle (70)**, **Flying infantry (70)**, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Retargeting offset (12), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Flying vehicle (70)**, **Support troop (70)**, **Droideka (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Heavy infantry (70)**, **Flying infantry (70)**, **Light vehicle (70)**, Other building (50), Turret (50), HQ (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -49,17 +49,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Training cost|550$                          |570$                                  |590$                                  |620$                                  |650$                                  |750$                                  |850$                                  |1000$                                 |1050$                                 |1150$                                  |
-|Training time|144                           |145                                   |146                                   |148                                   |150                                   |156                                   |162                                   |168                                   |174                                   |180                                    |
+|Training time|2m24s                         |2m25s                                 |2m26s                                 |2m28s                                 |2m30s                                 |2m36s                                 |2m42s                                 |2m48s                                 |2m54s                                 |3m                                     |
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 ## Movement
 
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 15
 
 |Level       |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------|--|--|--|--|--|--|--|--|--|--|
@@ -70,43 +71,56 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0,1,0
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * favoriteTargetType: infantry
-  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
-  * assetName: speederbike_rbl-ani
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * iconLookatPosition: -0.23,1.14,-0.58
+  * decalSize: 
+  * deathAnimation: 
+  * newRotationSpeed: 3927
+  * infoUIType: 
   * factoryRotation: 0
-  * factoryScaleFactor: 1
+  * audioTrain: 
+  * eventFeaturesString: 
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * unlockPlanet: 
+  * buffAssetOffset: 0,1,0
+  * eventButtonString: 
+  * eventButtonAction: 
   * animationDelay: 0
+  * iconCloseupLookatPosition: 
+  * eventButtonData: 
   * iconCameraPosition: 14.18,12.02,20.78
   * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * audioImpact: 
+  * iconLookatPosition: -0.23,1.14,-0.58
+  * iconCloseupCameraPosition: 
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * bundleName: speederbike_rbl-ani
-  * newRotationSpeed: 3927
+  * factoryScaleFactor: 1
+  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
+  * assetName: speederbike_rbl-ani
+  * favoriteTargetType: infantry
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * autoSpawnSpreadingScale: 2
   * impactDelay: 500
-  * armingDelay: 0
   * shotDelay: 250
-  * shotCount: 2
-  * maxScale: false
+  * splash: 0
   * strictCoolDown: false
   * reload: 1000
+  * xp: 0
+  * maxScale: false
   * gunSequence: 1,2
-  * targetInRangeModifier: 1
-  * splash: 0
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 2
   * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * armingDelay: 0
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                            |8                            |9                            |10                           |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-|order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
-|chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
 |projectileType|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|
+|order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
 |pointValue    |5.000                 |6.000                 |7.000                 |8.000                 |9.000                 |10.000                |11.000                       |12.000                       |13.000                       |15.000                       |
+|chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
 

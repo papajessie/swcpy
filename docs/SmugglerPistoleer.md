@@ -26,13 +26,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|1500$|5000$|14000$|25000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
 |Health              |7200 |8640 |10080 |11520 |12960 |14400  |15840  |17280  |18720   |21600   |
 |Damage*             |405  |486  |567   |648   |729   |810    |891    |972    |1053    |1215    |
-|Damage per second*  |373  |448  |523   |598   |672   |747    |822    |897    |971     |1121    |
+|Damage per shot     |373.0|448.0|523.0 |598.0 |672.0 |747.0  |822.0  |897.0  |971.0   |1121.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Retargeting offset (100)**, _Heavy infantry (70)_, _Support troop (70)_, _Droideka (70)_, _Light vehicle (70)_, _Infantry (70)_, _Heavy vehicle (70)_, _Flying vehicle (70)_, _Flying infantry (70)_, Shield generator (50), Storage (50), HQ (50), Other building (50), Ressource generator (50), Shield (50), Turret (50), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Flying vehicle (70)**, **Support troop (70)**, **Droideka (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Heavy infantry (70)**, **Flying infantry (70)**, **Light vehicle (70)**, Other building (50), Turret (50), HQ (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -49,58 +49,72 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
 |-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
 |Training cost|50$                                |70$                                |90$                                |110$                               |130$                               |150$                               |170$                               |190$                               |210$                               |230$                                |
-|Training time|4                                  |4                                  |5                                  |5                                  |5                                  |5                                  |5                                  |6                                  |6                                  |6                                   |
+|Training time|4s                                 |4s                                 |5s                                 |5s                                 |5s                                 |5s                                 |5s                                 |6s                                 |6s                                 |6s                                  |
 |Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
 ## Movement
 
   * Speed: 30
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 1
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * decalSize: 
   * deathAnimation: buffFireBurn:15
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * favoriteTargetType: none
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * assetName: generalpurpose_smg-ani
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * iconLookatPosition: 0.09,1.4,0.28
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
-  * animationDelay: 0
-  * iconCameraPosition: 8.56,9.58,10.6
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * bundleName: generalpurpose_smg-ani
   * newRotationSpeed: 7854
+  * infoUIType: 
+  * factoryRotation: 0
+  * audioTrain: 
+  * eventFeaturesString: 
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: 
+  * buffAssetOffset: 
+  * eventButtonString: 
+  * eventButtonAction: 
+  * animationDelay: 0
+  * iconCloseupLookatPosition: 
+  * eventButtonData: 
+  * iconCameraPosition: 8.56,9.58,10.6
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioImpact: 
+  * iconLookatPosition: 0.09,1.4,0.28
+  * iconCloseupCameraPosition: 
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * bundleName: generalpurpose_smg-ani
+  * factoryScaleFactor: 1
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * assetName: generalpurpose_smg-ani
+  * favoriteTargetType: none
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 1
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
   * impactDelay: 1000
-  * chargeTime: 500
-  * armingDelay: 0
-  * projectileType: projectileSmugglerPistoleer
   * shotDelay: 125
-  * shotCount: 2
-  * maxScale: false
+  * splash: 0
   * strictCoolDown: false
   * reload: 500
+  * projectileType: projectileSmugglerPistoleer
+  * xp: 0
+  * maxScale: false
   * gunSequence: 1
-  * targetInRangeModifier: 1
-  * splash: 0
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 1
   * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * chargeTime: 500
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
