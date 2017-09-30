@@ -574,7 +574,7 @@ def analyse_unit(objects,displayed,id):
                 a['cost']='Free'
             else:
                 a['cost']=', '.join(xup)
-            for t in ['health','damage','dps','upgradeTime','trainingTime','minAttackRange','maxAttackRange','viewRange','runThreshold','runSpeed','maxSpeed','shieldHealth','shieldCooldown','shieldRange','acceleration','size','sizex','sizey','targetPreferencesStrength']:
+            for t in ['health','damage','dps','upgradeTime','trainingTime','minAttackRange','maxAttackRange','viewRange','runThreshold','runSpeed','maxSpeed','shieldHealth','shieldCooldown','shieldRange','acceleration','size','sizex','sizey','targetPreferenceStrength']:
                 if t in subunit.keys():
                     a[t]=int(round(float(subunit[t])))
                 else:
@@ -623,7 +623,7 @@ def analyse_unit(objects,displayed,id):
             used['targetPreferenceString']=1
             used['unitID']=1
             used['lvl']=1
-            for t in ['animationDelay','audioAttack','decalSize','iconCameraPosition','factoryScaleFactor','iconCloseupLookatPosition','iconLookatPosition','factoryRotation','audioPlacement','newRotationSpeed','audioDeath','rotationSpeed','iconCloseupCameraPosition','tooltipHeightOffset','buffAssetOffset','gunPosition','assetName','shieldAssetName','bundleName','audioImpact','eventFeaturesString','audioTrain','eventButtonString','eventButtonAction','eventButtonData','unlockPlanet','deathAnimation']:
+            for t in ['animationDelay','audioAttack','decalSize','iconCameraPosition','factoryScaleFactor','iconCloseupLookatPosition','iconLookatPosition','factoryRotation','audioPlacement','newRotationSpeed','audioDeath','rotationSpeed','iconCloseupCameraPosition','tooltipHeightOffset','buffAssetOffset','gunPosition','assetName','shieldAssetName','bundleName','audioImpact','eventFeaturesString','audioTrain','eventButtonString','eventButtonAction','eventButtonData','unlockPlanet','deathAnimation','infoUIType','favoriteTargetType']:
                 if t in subunit.keys():
                     ob['presentation'][level][t]=subunit[t]
                 used[t]=1
@@ -830,19 +830,19 @@ def output_list_unit(out,objects,item,LINKS=False):
     xout+='* These values are not necessarily accurate and may be inconsistent with other values\n\n## Targeting\n\n'
     translation=config['targettranslation']
     list=[x for x in sorted(translation,key=translation.get)]
-    list=['targets','targetedType','viewRange','targetPreferencesStrength','retargetingOffset','clipRetargeting','attackShieldBorder','maxAttackRange','minAttackRange','overWalls','selfCenteredTargeting']
+    list=['targets','targetedType','viewRange','targetPreferenceStrength','retargetingOffset','clipRetargeting','attackShieldBorder','maxAttackRange','minAttackRange','overWalls','selfCenteredTargeting']
     translation['targets']='Target preferences'
     translation['maxAttackRange']='Max. Range'
     translation['minAttackRange']='Min. Range'
     translation['viewRange']='View Range'    
     translation['overWalls']='Can shoot over walls'
     translation['clipRetargeting']='Clip retargeting'
-    translation['targetPreferencesStrength']='Target preferences strength'
+    translation['targetPreferenceStrength']='Target preferences strength'
     translation['targetedType']='Targeted type'
     translation['attackShieldBorder']='Target shield border'
     translation['selfCenteredTargeting']='Self-centered targeting'
 
-    xout+=display_leveldata(item['hq'],levels,list,translation,{'clipRetargeting':display_boolean,'overWalls':display_boolean,'attackShieldBorder':display_boolean})
+    xout+=display_leveldata(item['hq'],levels,list,translation,{'clipRetargeting':display_boolean,'overWalls':display_boolean,'attackShieldBorder':display_boolean,'selfCenteredTargeting':display_boolean})
     xout+='## Recruiting\n\n'
     translation={'cost':'Training cost','trainingTime': 'Training time'}
     req=0
