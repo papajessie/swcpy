@@ -22,17 +22,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield Cooldown: 0s
   * Shield Range: 0
 
-|Level             |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
-|------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Health            |1350|1600|1850|2100|2350|2600|2850 |3100 |3350 |3600 |
-|Damage*           |2500|3775|5050|6325|7600|8875|10150|11425|12700|13975|
-|Damage per second*|4700|2545|3090|3454|3818|4363|4909 |5272 |5636 |6545 |
+|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|---------------|------|------|------|------|------|------|------|------|------|------|
+|Health         |1350  |1600  |1850  |2100  |2350  |2600  |2850  |3100  |3350  |3600  |
+|Damage*        |2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
+|Damage per shot|4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Turret (40), Retargeting offset (20), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Turret (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -49,65 +49,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|1000$                            |1052$                                  |1137$                                  |1242$                                  |1361$                                  |1494$                                  |1638$                                  |1791$                                  |1954$                                  |2125$                                   |
-|Training time|160                              |168                                    |182                                    |199                                    |218                                    |239                                    |262                                    |287                                    |313                                    |340                                     |
+|Training time|2m40s                            |2m48s                                  |3m2s                                   |3m19s                                  |3m38s                                  |3m59s                                  |4m22s                                  |4m47s                                  |5m13s                                  |5m40s                                   |
 |Building     |[Barracks 4](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
   * Speed: 45
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 1x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 200
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
+  * decalSize: 
+  * deathAnimation: 
+  * newRotationSpeed: 7854
+  * infoUIType: 
+  * factoryRotation: 0
+  * audioTrain: 
   * eventFeaturesString: fragment_obtain_gen
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
+  * unlockPlanet: 
+  * buffAssetOffset: 
   * eventButtonString: hn_open_galaxy
   * eventButtonAction: galaxy
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * favoriteTargetType: shieldGenerator
-  * assetName: kubaz_emp-ani
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * iconLookatPosition: -0.48,1.32,-0.72
-  * iconCloseupCameraPosition: 4.16,3.05,10.68
-  * factoryRotation: 0
-  * factoryScaleFactor: 1
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
   * animationDelay: 0
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
   * iconCameraPosition: 8.96,11.37,18.33
   * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * audioImpact: 
+  * iconLookatPosition: -0.48,1.32,-0.72
+  * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
   * bundleName: kubaz_emp-ani
-  * newRotationSpeed: 7854
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * factoryScaleFactor: 1
+  * gunPosition: 
+  * assetName: kubaz_emp-ani
+  * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 200
-  * xp: 0
-  * autoSpawnSpreadingScale: 1
   * impactDelay: 250
+  * shotDelay: 200
+  * splash: 0
   * strictCoolDown: false
+  * reload: 2000
+  * projectileType: projectileKubazInvader
+  * unlockedByEvent: true
+  * xp: 0
+  * upgradeShardUid: shrd_troopKubazInvader
+  * gunSequence: 1
+  * maxScale: false
+  * shotCount: 2
+  * autoSpawnSpreadingScale: 1
+  * spawnApplyBuffs: buffPersonalShieldKubaz
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
   * chargeTime: 50
   * armingDelay: 0
-  * projectileType: projectileKubazInvader
-  * shotDelay: 200
-  * spawnApplyBuffs: buffPersonalShieldKubaz
-  * shotCount: 2
-  * maxScale: false
-  * upgradeShardUid: shrd_troopKubazInvader
-  * reload: 2000
-  * gunSequence: 1
-  * targetInRangeModifier: 1
-  * unlockedByEvent: true
-  * splash: 0
-  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

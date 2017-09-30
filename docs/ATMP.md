@@ -20,19 +20,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield Cooldown: 0s
   * Shield Range: 0
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|5000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |2w      |
-|Health              |10800|11420|12080 |12780 |13520 |14320  |15160  |16070  |17030   |18050   |
-|Damage*             |2310 |2440 |2580  |2730  |2890  |3060   |3240   |3430   |3630    |3850    |
-|Damage per second*  |3240 |3420 |3620  |3830  |4060  |4290   |4550   |4810   |5090    |5400    |
+|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade requirements|5000$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+|Upgrade time        |0s    |1h    |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |2w      |
+|Health              |10800 |11420 |12080 |12780 |13520 |14320  |15160  |16070  |17030   |18050   |
+|Damage*             |2310  |2440  |2580  |2730  |2890  |3060   |3240   |3430   |3630    |3850    |
+|Damage per shot     |3240.0|3420.0|3620.0|3830.0|4060.0|4290.0 |4550.0 |4810.0 |5090.0  |5400.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (90)**, **Shield (90)**, Heavy infantry (50), Support troop (50), Droideka (50), Light vehicle (50), Infantry (50), Storage (50), Heavy vehicle (50), HQ (50), Flying vehicle (50), Other building (50), Flying infantry (50), Ressource generator (50), Turret (50), Retargeting offset (16), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield generator (90)**, **Shield (90)**, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Turret (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 10
   * Target preferences strength: 90
@@ -49,59 +49,72 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training cost|1650$                          |1720$                                  |1790$                                  |1870$                                  |1950$                                  |2250$                                  |2550$                                  |3000$                                  |3150$                                  |3450$                                   |
-|Training time|240                            |242                                    |244                                    |247                                    |250                                    |260                                    |270                                    |420                                    |435                                    |450                                     |
+|Training time|4m                             |4m2s                                   |4m4s                                   |4m7s                                   |4m10s                                  |4m20s                                  |4m30s                                  |7m                                     |7m15s                                  |7m30s                                   |
 |Building     |[Factory 4](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 ## Movement
 
   * Speed: 20
   * Run speed: 0
-  * Run Threshold: 0
+  * Run threshold: 0
   * Size: 2x1
   * Flying unit: No
   * Acceleration: 0
   * Crushes walls: No
   * Target locking: No
+  * Propensity to go around obstacles: 15
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * buffAssetOffset: 0.00,3.0,0.00
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * rotationSpeed: 2
-  * favoriteTargetType: shieldGenerator
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * assetName: atmp_emp-ani
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioDeath: "sfx_death_empire_atmp_1":100
-  * iconLookatPosition: -0.73,2.62,-0.75
+  * decalSize: 
+  * deathAnimation: 
+  * newRotationSpeed: 2000
+  * infoUIType: 
   * factoryRotation: -90
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * audioTrain: 
+  * eventFeaturesString: 
+  * tooltipHeightOffset: 
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * unlockPlanet: 
+  * buffAssetOffset: 0.00,3.0,0.00
+  * eventButtonString: 
+  * eventButtonAction: 
   * animationDelay: 0
+  * iconCloseupLookatPosition: 
+  * eventButtonData: 
   * iconCameraPosition: 22.45,15.49,39.24
   * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * rotationSpeed: 2
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * iconCloseupCameraPosition: 
+  * shieldAssetName: 
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * bundleName: atmp_emp-ani
-  * newRotationSpeed: 2000
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * assetName: atmp_emp-ani
+  * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * pathSearchWidth: 15
-  * xp: 0
-  * autoSpawnSpreadingScale: 2
   * impactDelay: 1000
-  * chargeTime: 250
-  * armingDelay: 0
-  * projectileType: projectileATMP
   * shotDelay: 200
-  * shotCount: 4
-  * maxScale: false
+  * splash: 0
   * strictCoolDown: false
   * reload: 2000
+  * projectileType: projectileATMP
+  * xp: 0
+  * maxScale: false
   * gunSequence: 1,3,5,2,4,6
-  * targetInRangeModifier: 1
-  * splash: 0
+  * shotCount: 4
+  * autoSpawnSpreadingScale: 2
   * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
+  * chargeTime: 250
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
