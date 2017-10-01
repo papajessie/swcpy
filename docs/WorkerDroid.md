@@ -19,8 +19,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
   * Health: 1
-  * Damage*: 0
-  * Damage per shot: 0.0
+  * Damage per shot: 0
+  * Damage*: 0.0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (100)**, **Support troop (100)**, **Flying infantry (100)**, _Turret (55)_, Other building (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), HQ (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying vehicle (100)**, **Flying infantry (100)**, **Support troop (100)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Infantry (50), Shield (50), HQ (40), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -62,54 +62,55 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: buffFireBurn:15
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: 
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,0.34,0.00
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 6.58,9.98,15.5
-  * audioAttack: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: 0.14,2.49,0.44
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: 
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: 
   * audioPlacement: 
   * bundleName: workerdroid_neu-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 6.58,9.98,15.5
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: workerdroid_neu-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: none
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
   * shotDelay: 250
-  * splash: 0
+  * impactDelay: 500
+  * pointValue: 1.000
+  * effectType: 2
   * strictCoolDown: false
+  * shotCount: 2
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnSpreadingScale: 0
+  * gunSequence: 1,2
+  * splash: 0
+  * order: 320001
   * reload: 1000
   * projectileType: projectileWorkerDroid
-  * xp: 0
-  * maxScale: false
-  * order: 320001
-  * pointValue: 1.000
-  * gunSequence: 1,2
-  * shotCount: 2
-  * autoSpawnSpreadingScale: 0
+  * chargeTime: 1000
   * autoSpawnRateScale: 2
   * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * effectType: 2
-  * armingDelay: 0
+  * xp: 0
 

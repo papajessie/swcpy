@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------|------|------|------|------|------|------|------|------|------|------|
 |Health         |16000 |16790 |17630 |18510 |19440 |20420 |21460 |22560 |23720 |24950 |
-|Damage*        |3900  |4130  |4360  |4580  |4800  |5030  |5380  |5760  |6160  |6590  |
-|Damage per shot|2000.0|2400.0|2800.0|3200.0|3599.0|4000.0|4400.0|4800.0|5200.0|6000.0|
+|Damage per shot|3900  |4130  |4360  |4580  |4800  |5030  |5380  |5760  |6160  |6590  |
+|Damage*        |2000.0|2400.0|2800.0|3200.0|3599.0|4000.0|4400.0|4800.0|5200.0|6000.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Flying vehicle (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Light vehicle (60)_, Other building (50), Turret (50), HQ (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,65 +68,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 160
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: fragment_obtain_gen
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_foren_1":100
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
   * buffAssetOffset: 
-  * eventButtonString: hn_open_erk
-  * eventButtonAction: planet
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 0,2.54,-0.89
-  * eventButtonData: planet6
-  * iconCameraPosition: 4.91,10.98,19.43
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: 0.02,1.59,-0.01
   * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * eventButtonString: hn_open_erk
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * decalSize: 160
   * shieldAssetName: 
+  * audioDeath: "sfx_death_foren_1":100
+  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 0,2.54,-0.89
   * audioPlacement: "sfx_placement_foren_1":100
   * bundleName: forenbrand_neu-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * infoUIType: 
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * iconCameraPosition: 4.91,10.98,19.43
+  * eventButtonAction: planet
+  * tooltipHeightOffset: 
   * assetName: forenbrand_neu-ani
+  * eventButtonData: planet6
+  * hologramUid: HeroHologramJohharKessen
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: infantry
 
 ## Uninterpreted stats
 
-  * shotDelay: 500
-  * projectileType: projectileJohharEmpire
-  * autoSpawnSpreadingScale: 2
   * decalBundleName: tac_hero_emp
-  * decalAssetName: tac_hero_emp
-  * upgradeShardUid: shrd_troopEmpireJohhar
-  * gunSequence: 1
+  * shotDelay: 500
+  * impactDelay: 1000
   * maxScale: false
+  * unlockedByEvent: true
   * autoSpawnRateScale: 2
   * targetInRangeModifier: 1
-  * chargeTime: 250
-  * armingDelay: 0
-  * impactDelay: 1000
-  * splash: 0
-  * strictCoolDown: false
+  * decalAssetName: tac_hero_emp
   * reload: 2000
-  * unlockedByEvent: true
-  * xp: 0
+  * strictCoolDown: false
+  * armingDelay: 0
+  * upgradeShardUid: shrd_troopEmpireJohhar
+  * autoSpawnSpreadingScale: 2
+  * gunSequence: 1
+  * splash: 0
+  * projectileType: projectileJohharEmpire
+  * chargeTime: 250
   * shotCount: 3
-  * hologramUid: HeroHologramJohharKessen
+  * xp: 0
 
 |Level             |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|pointValue        |20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
 |iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|ability           |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
+|iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 |order             |111101               |111102               |111103               |111104               |111105               |111106               |111107               |111108               |111109               |111110                |
+|ability           |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
+|pointValue        |20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
+|iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 

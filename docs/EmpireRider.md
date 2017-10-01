@@ -16,7 +16,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Role: Healer
   * Levels available: 1-10
   * Unit capacity: 7
-  * Damage*: 0
+  * Damage per shot: 0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
@@ -26,13 +26,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|Nothing|7000 Con.|15000 Con.|30000 Con.|58000 Con.|110000 Con.|140000 Con.|160000 Con.|165000 Con.|168000 Con.|
 |Upgrade time        |0s     |4d       |5d        |6d        |1w        |1w1d       |1w2d       |1w3d       |1w4d       |1w5d       |
 |Health              |13000  |15600    |16800     |19200     |21600     |24000      |26400      |28800      |31200      |36000      |
-|Damage per shot     |12.0   |14.0     |16.0      |18.0      |20.0      |22.0       |24.0       |26.0       |28.0       |30.0       |
+|Damage*             |12.0   |14.0     |16.0      |18.0      |20.0      |22.0       |24.0       |26.0       |28.0       |30.0       |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Light vehicle (50)**, Other building (0), Support troop (0), Turret (0), Trap (0), HQ (0), Wall (0), Shield generator (0), Shield (0), Ressource generator (0), Storage (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Flying infantry (50)**, **Infantry (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, HQ (0), Wall (0), Ressource generator (0), Shield generator (0), Trap (0), Turret (0), Storage (0), Other building (0), Support troop (0), Shield (0)
   * Targeted type: ALLIES
   * View Range: 5
   * Target preferences strength: 1
@@ -68,62 +68,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 160
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: DamageBuff
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
   * eventFeaturesString: 
-  * tooltipHeightOffset: 1.5
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 23.58,31.88,32.8
-  * audioAttack: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.52,2.15,-1.3
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: 
+  * decalSize: 160
   * shieldAssetName: 
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * gunPosition: 
+  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
   * bundleName: rider_con-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: DamageBuff
+  * unlockPlanet: 
+  * iconCameraPosition: 23.58,31.88,32.8
+  * eventButtonAction: 
+  * tooltipHeightOffset: 1.5
   * assetName: rider_con-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * shotDelay: 0
-  * supportFollowDistance: 4
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * spawnEffectUid: effectRebelSpawn
-  * gunSequence: 1
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 0
-  * armingDelay: 0
-  * impactDelay: 0
-  * deathProjectileDelay: 0
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 5000
-  * deathProjectileDistance: 0
-  * xp: 0
-  * shotCount: 1
   * deathProjectileDamage: 0
+  * deathProjectileDelay: 0
+  * impactDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
+  * spawnEffectUid: effectRebelSpawn
+  * targetInRangeModifier: 1
+  * shotDelay: 0
+  * reload: 5000
+  * supportFollowDistance: 4
+  * strictCoolDown: false
+  * shotCount: 1
+  * armingDelay: 0
+  * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * deathProjectileDistance: 0
+  * chargeTime: 0
+  * xp: 0
 
 |Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
-|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
-|order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
 |deathProjectile|projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
+|order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
+|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
+|projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
 

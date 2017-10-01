@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level          |1    |2   |3    |
 |---------------|-----|----|-----|
 |Upgrade time   |1m40s|10s |1m40s|
-|Damage*        |50   |50  |434  |
-|Damage per shot|46.0 |44.0|400.0|
+|Damage per shot|50   |50  |434  |
+|Damage*        |46.0 |44.0|400.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (55)**, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), Flying infantry (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), HQ (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), Ressource generator (50), Droideka (50), Shield generator (50), Flying infantry (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), HQ (40), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * Target preferences strength: 90
   * Retargeting offset: 10
@@ -74,59 +74,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: buffFireBurn:15
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * unlockPlanet: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: 0.09,1.4,0.28
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 
   * shieldAssetName: 
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * factoryScaleFactor: 1
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * infoUIType: 
+  * unlockPlanet: 
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: none
 
 |Level             |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 |buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |                                                                          |
-|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
-|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
 |gunPosition       |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
+|bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 |assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 500
-  * splash: 0
+  * impactDelay: 1000
   * strictCoolDown: false
-  * xp: 0
+  * armingDelay: 0
   * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * splash: 0
+  * chargeTime: 250
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 250
-  * armingDelay: 0
+  * xp: 0
 
 |Level         |1                     |2                     |3                 |
 |--------------|----------------------|----------------------|------------------|
-|reload        |2000                  |1500                  |2000              |
-|projectileType|projectileBountyHunter|projectileBountyHunter|projectileSmuggler|
-|order         |322601                |322602                |322603            |
 |pointValue    |1.000                 |1.200                 |1.400             |
-|gunSequence   |1,2                   |1,2                   |1                 |
+|reload        |2000                  |1500                  |2000              |
 |shotCount     |3                     |2                     |3                 |
+|gunSequence   |1,2                   |1,2                   |1                 |
+|order         |322601                |322602                |322603            |
+|projectileType|projectileBountyHunter|projectileBountyHunter|projectileSmuggler|
 

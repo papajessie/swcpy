@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|Nothing|75000$|150000$|300000$|600000$|900000$|1050000$|1200000$|3200000$|4800000$|
 |Upgrade time        |1h     |1h    |5h     |21h    |2d     |4d     |6d      |1w2d    |1w5d    |2w      |
 |Health              |28000  |33600 |39200  |44800  |50400  |56000  |61600   |67200   |72800   |84000   |
-|Damage*             |3900   |4680  |5460   |6240   |7020   |7800   |8580    |9360    |10140   |11700   |
-|Damage per shot     |8210.0 |9852.0|11494.0|13136.0|14778.0|16421.0|18063.0 |19705.0 |21347.0 |24631.0 |
+|Damage per shot     |3900   |4680  |5460   |6240   |7020   |7800   |8580    |9360    |10140   |11700   |
+|Damage*             |8210.0 |9852.0|11494.0|13136.0|14778.0|16421.0|18063.0 |19705.0 |21347.0 |24631.0 |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, Other building (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (80)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,62 +68,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 160
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_hero_vader_1":100
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 230
-  * iconCloseupLookatPosition: 0.1,2.86,-0.67
-  * eventButtonData: 
-  * iconCameraPosition: 15.97,7.67,16.77
-  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.27,1.69,-0.32
   * iconCloseupCameraPosition: 0.17,0.86,11.66
+  * eventButtonString: 
+  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
+  * decalSize: 160
   * shieldAssetName: 
+  * audioDeath: "sfx_death_hero_vader_1":100
+  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 0.1,2.86,-0.67
   * audioPlacement: "sfx_placement_hero_vader_1":100
   * bundleName: darthvader_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 15.97,7.67,16.77
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: darthvader_emp-ani
+  * eventButtonData: 
+  * hologramUid: HeroHologramDarthVader
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 230
   * favoriteTargetType: turret
 
 ## Uninterpreted stats
 
-  * shotDelay: 200
-  * projectileType: projectileHeroDarthAttack
-  * maxScale: false
   * decalBundleName: tac_hero_emp
-  * decalAssetName: tac_hero_emp
-  * autoSpawnSpreadingScale: 1
-  * spawnEffectUid: effectEmpireSpawn
-  * gunSequence: 1,2
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 0
   * effectType: 2
-  * armingDelay: 0
+  * shotDelay: 200
   * impactDelay: 250
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 750
-  * xp: 0
+  * maxScale: false
   * ability: abilityHeroDarthDefend
+  * autoSpawnRateScale: 1
+  * spawnEffectUid: effectEmpireSpawn
+  * targetInRangeModifier: 1
+  * decalAssetName: tac_hero_emp
+  * reload: 750
+  * strictCoolDown: false
   * shotCount: 2
-  * hologramUid: HeroHologramDarthVader
+  * armingDelay: 0
+  * autoSpawnSpreadingScale: 1
+  * gunSequence: 1,2
+  * splash: 0
+  * projectileType: projectileHeroDarthAttack
+  * chargeTime: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |110601|110602|110603|110604|110605|110606|110607|110608|110609|110610|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

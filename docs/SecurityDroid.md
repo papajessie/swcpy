@@ -17,7 +17,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Levels available: 1-5
   * Unit capacity: 4
   * Upgrade time: 5s
-  * Damage per shot: 1920.0
+  * Damage*: 1920.0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
@@ -26,13 +26,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |--------------------|-----------------|-----------------|-----------------|------------------|------------------|
 |Upgrade requirements|30 data fragments|45 data fragments|75 data fragments|105 data fragments|135 data fragments|
 |Health              |19200            |19800            |20480            |21240             |22080             |
-|Damage*             |345              |388              |428              |468               |508               |
+|Damage per shot     |345              |388              |428              |468               |508               |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Other building (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Turret (50)**, **Heavy infantry (50)**, **HQ (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Storage (50)**, Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,60 +68,61 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
   * eventFeaturesString: fragment_obtain_gen
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: hn_open_galaxy
-  * eventButtonAction: galaxy
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconCameraPosition: 7.57,15.79,19.1
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.44,1.26,-0.82
   * iconCloseupCameraPosition: 3.46,6.58,11.02
+  * eventButtonString: hn_open_galaxy
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
+  * gunPosition: 
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: securitydroid_con-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 7.57,15.79,19.1
+  * eventButtonAction: galaxy
+  * tooltipHeightOffset: 
   * assetName: securitydroid_con-ani
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * iconUnlockScale: 1.1,1.1,1.1
   * shotDelay: 300
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 500
-  * projectileType: projectileStorm
   * unlockedByEvent: true
-  * xp: 0
-  * upgradeShardUid: shrd_troopSecurityDroid
   * pointValue: 4.000
-  * gunSequence: 1
-  * maxScale: false
+  * reload: 500
+  * strictCoolDown: false
   * shotCount: 5
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 500
   * armingDelay: 0
+  * impactDelay: 1000
+  * maxScale: false
+  * gunSequence: 1
+  * splash: 0
+  * iconUnlockScale: 1.1,1.1,1.1
+  * upgradeShardUid: shrd_troopSecurityDroid
+  * projectileType: projectileStorm
+  * chargeTime: 500
+  * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|order  |115601               |115602               |115603               |115605               |115606               |
 |ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
+|order  |115601               |115602               |115603               |115605               |115606               |
 

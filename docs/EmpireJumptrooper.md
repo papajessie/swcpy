@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|600$ |1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|2000000$|
 |Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w3d    |
 |Health              |5600 |6720 |7840 |8960  |10080 |11200  |12320  |13440  |14560   |16800   |
-|Damage*             |1204 |1445 |1686 |1927  |2168  |2408   |2649   |2890   |3131    |3612    |
-|Damage per shot     |560.0|672.0|784.0|896.0 |1008.0|1120.0 |1232.0 |1344.0 |1456.0  |1680.0  |
+|Damage per shot     |1204 |1445 |1686 |1927  |2168  |2408   |2649   |2890   |3131    |3612    |
+|Damage*             |560.0|672.0|784.0|896.0 |1008.0|1120.0 |1232.0 |1344.0 |1456.0  |1680.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Other building (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Support troop (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Turret (50)**, **Heavy infantry (50)**, **Vehicle hero (50)**, **HQ (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Storage (50)**, Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,56 +68,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
-  * unlockPlanet: 
   * buffAssetOffset: 0.0,0.3,0.0
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 0.13,5.28,0.42
-  * eventButtonData: 
-  * iconCameraPosition: 8.7,15.21,13.03
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: 0.12,4.78,0.33
   * iconCloseupCameraPosition: 2.26,2.95,10.77
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
+  * gunPosition: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 0.13,5.28,0.42
   * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
   * bundleName: jumptrooper_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 8.7,15.21,13.03
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: jumptrooper_emp-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 500
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 1000
   * reload: 2000
-  * projectileType: projectileBlasterEmpireJumptrooper
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1
+  * strictCoolDown: false
   * shotCount: 1
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * projectileType: projectileBlasterEmpireJumptrooper
+  * chargeTime: 150
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 150
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |121101|121102|121103|121104|121105|121106|121107|121108|121109|121110|
 |pointValue|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+|order     |121101|121102|121103|121104|121105|121106|121107|121108|121109|121110|
 

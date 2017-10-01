@@ -18,8 +18,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
-  * Damage*: 0
-  * Damage per shot: 0.0
+  * Damage per shot: 0
+  * Damage*: 0.0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Infantry hero (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Flying infantry (50)**, **Light vehicle (50)**, Other building (0), Support troop (0), Turret (0), Trap (0), HQ (0), Wall (0), Shield generator (0), Shield (0), Ressource generator (0), Storage (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Flying infantry (50)**, **Infantry (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, HQ (0), Wall (0), Ressource generator (0), Shield generator (0), Trap (0), Turret (0), Storage (0), Other building (0), Support troop (0), Shield (0)
   * Targeted type: ALLIES
   * View Range: 100
   * Target preferences strength: 1
@@ -65,58 +65,59 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 160
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 1.5
-  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 
-  * audioAttack: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
   * iconLookatPosition: 
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: 
+  * decalSize: 160
   * shieldAssetName: 
+  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
+  * gunPosition: 
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
   * bundleName: c3po_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 
+  * eventButtonAction: 
+  * tooltipHeightOffset: 1.5
   * assetName: c3po_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
-  * shotDelay: 0
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 500
-  * projectileType: projectileC3PO1
-  * xp: 0
-  * maxScale: false
-  * ignoresWalls: true
-  * supportFollowDistance: 2
-  * decalBundleName: tac_hero_rbl
   * decalAssetName: tac_hero_rbl
-  * spawnEffectUid: effectRebelSpawn
-  * gunSequence: 1
+  * decalBundleName: tac_hero_rbl
+  * reload: 500
+  * supportFollowDistance: 2
+  * strictCoolDown: false
   * shotCount: 1
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 0
   * armingDelay: 0
+  * impactDelay: 0
+  * maxScale: false
+  * gunSequence: 1
+  * ignoresWalls: true
+  * splash: 0
+  * xp: 0
+  * shotDelay: 0
+  * projectileType: projectileC3PO1
+  * autoSpawnSpreadingScale: 1
+  * chargeTime: 0
+  * autoSpawnRateScale: 1
+  * spawnEffectUid: effectRebelSpawn
+  * targetInRangeModifier: 1
 
 |Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|-----|-----|------|------|------|------|------|------|------|------|

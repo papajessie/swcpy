@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|6500$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
 |Upgrade time        |0s    |1h30m |3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Health              |24000 |28800 |33600 |38400 |43200 |48000  |52800  |57600  |62400   |72000   |
-|Damage*             |844   |1013  |1182  |1350  |1519  |1688   |1857   |2025   |2194    |2532    |
-|Damage per shot     |1800.0|2161.0|2521.0|2880.0|3240.0|3601.0 |3961.0 |4320.0 |4680.0  |5401.0  |
+|Damage per shot     |844   |1013  |1182  |1350  |1519  |1688   |1857   |2025   |2194    |2532    |
+|Damage*             |1800.0|2161.0|2521.0|2880.0|3240.0|3601.0 |3961.0 |4320.0 |4680.0  |5401.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Turret (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Flying infantry (50), Turret (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -68,60 +68,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 320
-  * deathAnimation: 
-  * newRotationSpeed: 3927
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,4.96,0.0
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 49.18,33.65,54.14
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioImpact: 
   * iconLookatPosition: -2.41,4.25,-0.65
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * decalSize: 320
   * shieldAssetName: 
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioTrain: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: atathero_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 49.18,33.65,54.14
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: atathero_emp-ani
+  * eventButtonData: 
+  * hologramUid: HeroHologramEmpire2
+  * newRotationSpeed: 3927
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * hologramUid: HeroHologramEmpire2
-  * impactDelay: 500
-  * shotDelay: 250
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 1500
-  * projectileType: projectileHeroATAT
-  * xp: 0
-  * maxScale: false
-  * decalBundleName: tac_hero_emp
   * decalAssetName: tac_hero_emp
-  * gunSequence: 1,1,1,1
-  * shotCount: 8
-  * autoSpawnSpreadingScale: 0
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * chargeTime: 500
+  * decalBundleName: tac_hero_emp
   * effectType: 2
+  * shotDelay: 250
+  * strictCoolDown: false
+  * shotCount: 8
   * armingDelay: 0
+  * impactDelay: 500
+  * maxScale: false
+  * gunSequence: 1,1,1,1
+  * splash: 0
+  * projectileType: projectileHeroATAT
+  * reload: 1500
+  * chargeTime: 500
+  * autoSpawnRateScale: 2
+  * autoSpawnSpreadingScale: 0
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
 
