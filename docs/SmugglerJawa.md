@@ -19,8 +19,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Upgrade requirements: Nothing
   * Upgrade time: 0s
   * Health: 1
-  * Damage*: 1
-  * Damage per shot: 1.0
+  * Damage per shot: 1
+  * Damage*: 1.0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Other building (60)_, _Ressource generator (60)_, _Storage (60)_, Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Turret (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Droideka (50), Flying infantry (50), Turret (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -62,53 +62,54 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 1
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: 
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 4.07,10.49,14.92
-  * audioAttack: 
-  * rotationSpeed: 1
-  * audioImpact: 
   * iconLookatPosition: -0.12,1.34,0.53
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: 
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: 
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * audioTrain: 
+  * rotationSpeed: 1
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: 
   * bundleName: jawa_neu-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 4.07,10.49,14.92
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: jawa_neu-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 1
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 1
   * shotDelay: 1
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 1
-  * projectileType: projectileSmugglerSaboteur
-  * xp: 0
-  * maxScale: false
-  * order: 372001
+  * impactDelay: 1
   * pointValue: 0.000
-  * gunSequence: 1
+  * reload: 1
+  * strictCoolDown: false
   * shotCount: 5
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * order: 372001
+  * projectileType: projectileSmugglerSaboteur
+  * chargeTime: 1
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 1
-  * armingDelay: 0
+  * xp: 0
 

@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|Nothing|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
 |Upgrade time        |0s     |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |2700   |2820 |2940 |3180  |3300  |3420   |3540   |3720   |3900    |4500    |
-|Damage*             |293    |306  |319  |345   |358   |371    |384    |403    |423     |488     |
-|Damage per shot     |302.0  |362.0|390.0|445.0 |501.0 |557.0  |612.0  |668.0  |724.0   |835.0   |
+|Damage per shot     |293    |306  |319  |345   |358   |371    |384    |403    |423     |488     |
+|Damage*             |302.0  |362.0|390.0|445.0 |501.0 |557.0  |612.0  |668.0  |724.0   |835.0   |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Other building (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Turret (50)**, **Heavy infantry (50)**, **HQ (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Storage (50)**, Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -69,56 +69,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: buffFireBurn:15
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 8.56,9.58,10.6
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.2,0.03,0.41
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: dropshipsoldier_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 8.56,9.58,10.6
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: dropshipsoldier_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 200
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 1000
   * reload: 500
-  * projectileType: projectileSoldier
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1
+  * strictCoolDown: false
   * shotCount: 3
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * projectileType: projectileSoldier
+  * chargeTime: 500
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 500
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |235501|235502|235503|235504|235505|235506|235507|235508|235509|235510|
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|order     |235501|235502|235503|235504|235505|235506|235507|235508|235509|235510|
 

@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------|------|------|------|------|------|------|------|------|------|------|
 |Health         |1350  |1600  |1850  |2100  |2350  |2600  |2850  |3100  |3350  |3600  |
-|Damage*        |2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
-|Damage per shot|4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
+|Damage per shot|2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
+|Damage*        |4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Turret (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Droideka (50), Flying infantry (50), Other building (50), Support troop (50), Infantry (50), Turret (40), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -68,59 +68,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: fragment_obtain_gen
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: hn_open_galaxy
-  * eventButtonAction: galaxy
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconCameraPosition: 8.96,11.37,18.33
-  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.48,1.32,-0.72
   * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * eventButtonString: hn_open_galaxy
+  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
+  * gunPosition: 
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
   * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
   * bundleName: kubaz_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 8.96,11.37,18.33
+  * eventButtonAction: galaxy
+  * tooltipHeightOffset: 
   * assetName: kubaz_emp-ani
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * impactDelay: 250
   * shotDelay: 200
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 2000
-  * projectileType: projectileKubazInvader
   * unlockedByEvent: true
-  * xp: 0
-  * upgradeShardUid: shrd_troopKubazInvader
-  * gunSequence: 1
-  * maxScale: false
+  * reload: 2000
+  * strictCoolDown: false
   * shotCount: 2
-  * autoSpawnSpreadingScale: 1
-  * spawnApplyBuffs: buffPersonalShieldKubaz
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 50
   * armingDelay: 0
+  * impactDelay: 250
+  * xp: 0
+  * maxScale: false
+  * gunSequence: 1
+  * splash: 0
+  * spawnApplyBuffs: buffPersonalShieldKubaz
+  * upgradeShardUid: shrd_troopKubazInvader
+  * projectileType: projectileKubazInvader
+  * chargeTime: 50
+  * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |134001|134002|134003|134004|134005|134006|134007|134008|134009|134010|
 |pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|order     |134001|134002|134003|134004|134005|134006|134007|134008|134009|134010|
 

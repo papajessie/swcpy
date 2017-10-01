@@ -18,21 +18,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Upgrade requirements: 32 data fragments
   * Upgrade time: 5s
-  * Damage*: 0
+  * Damage per shot: 0
   * Shield Health: 0
   * Shield Cooldown: 0s
   * Shield Range: 0
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |11700 |12400 |13100 |13900 |14600 |15300 |16000 |16800 |18100 |19500 |
-|Damage per shot|1550.0|1710.0|1810.0|1910.0|2010.0|2110.0|2210.0|2310.0|2490.0|2690.0|
+|Level  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-------|------|------|------|------|------|------|------|------|------|------|
+|Health |11700 |12400 |13100 |13900 |14600 |15300 |16000 |16800 |18100 |19500 |
+|Damage*|1550.0|1710.0|1810.0|1910.0|2010.0|2110.0|2210.0|2310.0|2490.0|2690.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry hero (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry (50)**, Other building (0), Flying vehicle (0), Support troop (0), Droideka (0), Heavy vehicle (0), Turret (0), Trap (0), Vehicle hero (0), HQ (0), Heavy vehicular hero (0), Wall (0), Flying infantry (0), Light vehicle (0), Shield generator (0), Shield (0), Ressource generator (0), Storage (0)
+  * Target preferences: **Heavy infantry (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, Heavy vehicle (0), Light vehicle (0), Vehicle hero (0), Flying vehicle (0), HQ (0), Wall (0), Ressource generator (0), Droideka (0), Shield generator (0), Trap (0), Flying infantry (0), Turret (0), Storage (0), Other building (0), Support troop (0), Shield (0), Heavy vehicular hero (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,62 +68,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: Healer
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
   * eventFeaturesString: fragment_obtain_gen
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: hn_open_galaxy
-  * eventButtonAction: galaxy
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconCameraPosition: 5.21,9.06,13.12
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.19,0.88,-0.37
   * iconCloseupCameraPosition: 
+  * eventButtonString: hn_open_galaxy
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * gunPosition: 
+  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
   * bundleName: r5droid_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: Healer
+  * unlockPlanet: 
+  * iconCameraPosition: 5.21,9.06,13.12
+  * eventButtonAction: galaxy
+  * tooltipHeightOffset: 
   * assetName: r5droid_emp-ani
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: infantry
 
 ## Uninterpreted stats
 
-  * shotDelay: 400
-  * supportFollowDistance: 5
-  * autoSpawnSpreadingScale: 1
-  * upgradeShardUid: shrd_troopR5Medic
-  * gunSequence: 1
+  * unlockedByEvent: true
+  * impactDelay: 250
   * maxScale: false
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 50
-  * armingDelay: 0
-  * impactDelay: 250
-  * splash: 0
-  * strictCoolDown: false
+  * shotDelay: 400
   * reload: 900
-  * unlockedByEvent: true
-  * xp: 0
+  * supportFollowDistance: 5
+  * strictCoolDown: false
   * shotCount: 2
+  * armingDelay: 0
+  * upgradeShardUid: shrd_troopR5Medic
+  * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * chargeTime: 50
+  * xp: 0
 
 |Level             |1                 |2                 |3                 |4                 |5                 |6                 |7                 |8                 |9                 |10                 |
 |------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
-|projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
+|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |iconUnlockPosition|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |iconUnlockRotation|0,0,0             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
-|pointValue        |5.000             |6.000             |7.000             |8.000             |9.000             |10.000            |11.000            |12.000            |13.000            |15.000             |
-|iconUnlockScale   |1,1,1             |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
 |order             |134401            |134402            |134403            |134404            |134405            |134406            |134407            |134408            |134409            |134410             |
+|pointValue        |5.000             |6.000             |7.000             |8.000             |9.000             |10.000            |11.000            |12.000            |13.000            |15.000             |
+|projectileType    |projectileR5Medic1|projectileR5Medic2|projectileR5Medic3|projectileR5Medic4|projectileR5Medic5|projectileR5Medic6|projectileR5Medic7|projectileR5Medic8|projectileR5Medic9|projectileR5Medic10|
 

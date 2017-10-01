@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
 |Upgrade time        |0s   |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
 |Health              |2800 |3360 |3920 |4480  |5040  |5600   |6160   |6720   |7280    |8400    |
-|Damage*             |368  |441  |515  |588   |662   |735    |809    |882    |956     |1103    |
-|Damage per shot     |630.0|756.0|882.0|1008.0|1134.0|1260.0 |1386.0 |1512.0 |1638.0  |1890.0  |
+|Damage per shot     |368  |441  |515  |588   |662   |735    |809    |882    |956     |1103    |
+|Damage*             |630.0|756.0|882.0|1008.0|1134.0|1260.0 |1386.0 |1512.0 |1638.0  |1890.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Heavy infantry hero (60)_, _Flying vehicle (60)_, _Infantry hero (60)_, _Support troop (60)_, _Droideka (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Vehicle hero (60)_, _Heavy vehicular hero (60)_, _Flying infantry (60)_, _Light vehicle (60)_, Other building (50), HQ (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Vehicle hero (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, _Droideka (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Infantry hero (60)_, HQ (50), Ressource generator (50), Shield generator (50), Storage (50), Other building (50), Shield (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,56 +68,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 90
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_rebel_hailfire_1":100
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,0.88,0.00
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 36.69,22.39,29.86
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
   * iconLookatPosition: -0.49,1.9,-0.43
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_rebel_hailfire_1":100
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * bundleName: hailfiredroid_rbl-ani
-  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 36.69,22.39,29.86
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: hailfiredroid_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 90
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * animationDelay: 0
   * favoriteTargetType: turret
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 100
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 1000
   * reload: 2000
-  * projectileType: projectileHailfire
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1,2
+  * strictCoolDown: false
   * shotCount: 6
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 2
+  * gunSequence: 1,2
+  * splash: 0
+  * projectileType: projectileHailfire
+  * chargeTime: 1000
   * autoSpawnRateScale: 2
   * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |230701|230702|230703|230704|230705|230706|230707|230708|230709|230710|
 |pointValue|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+|order     |230701|230702|230703|230704|230705|230706|230707|230708|230709|230710|
 

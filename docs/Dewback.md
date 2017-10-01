@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|5000$   |7000$   |9000$   |12500$  |25000$  |100000$ |160000$        |320000$        |1000000$       |1750000$       |
 |Upgrade time        |0s      |15m     |1h      |3h30m   |8h      |1d      |2d             |3d12h          |5d             |1w1d           |
 |Health              |10800   |11420   |12080   |12780   |13520   |14320   |15160          |16070          |17030          |18050          |
-|Damage*             |950     |1000    |1060    |1120    |1190    |1260    |1330           |1410           |1490           |1580           |
-|Damage per shot     |1360.0  |1430.0  |1510.0  |1600.0  |1700.0  |1800.0  |1900.0         |2010.0         |2130.0         |2260.0         |
+|Damage per shot     |950     |1000    |1060    |1120    |1190    |1260    |1330           |1410           |1490           |1580           |
+|Damage*             |1360.0  |1430.0  |1510.0  |1600.0  |1700.0  |1800.0  |1900.0         |2010.0         |2130.0         |2260.0         |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Other building (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,56 +68,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: buffFireBurn:15
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,1.01,0.00
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 1000
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 17.06,13.27,18.62
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.75,1.05,-0.6
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
   * bundleName: dewback_emp-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 17.06,13.27,18.62
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: dewback_emp-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 1000
   * favoriteTargetType: turret
 
 ## Uninterpreted stats
 
-  * impactDelay: 0
   * shotDelay: 750
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 0
   * reload: 0
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1
+  * strictCoolDown: false
   * shotCount: 5
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * chargeTime: 500
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 500
-  * armingDelay: 0
+  * xp: 0
 
 |Level         |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
 |--------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
-|projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
-|order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
 |pointValue    |3.000                       |3.600                       |4.200                       |4.800                       |5.400                       |6.000                       |6.600                       |7.200                       |7.800                       |9.000                        |
+|order         |120401                      |120402                      |120403                      |120404                      |120405                      |120406                      |120407                      |120408                      |120409                      |120410                       |
+|projectileType|projectileMeleeDewbackLevel1|projectileMeleeDewbackLevel2|projectileMeleeDewbackLevel3|projectileMeleeDewbackLevel4|projectileMeleeDewbackLevel5|projectileMeleeDewbackLevel6|projectileMeleeDewbackLevel7|projectileMeleeDewbackLevel8|projectileMeleeDewbackLevel9|projectileMeleeDewbackLevel10|
 

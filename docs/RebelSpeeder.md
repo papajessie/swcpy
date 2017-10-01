@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Health              |9000 |9700 |10450|11280 |12170 |13140  |14210  |15360  |16620   |18000   |
-|Damage*             |1010 |1050 |1090 |1140  |1180  |1230   |1280   |1330   |1380    |1440    |
-|Damage per shot     |900.0|930.0|970.0|1010.0|1050.0|1090.0 |1460.0 |1520.0 |1580.0  |1650.0  |
+|Damage per shot     |1010 |1050 |1090 |1140  |1180  |1230   |1280   |1330   |1380    |1440    |
+|Damage*             |900.0|930.0|970.0|1010.0|1050.0|1090.0 |1460.0 |1520.0 |1580.0  |1650.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Flying vehicle (70)**, **Support troop (70)**, **Droideka (70)**, **Infantry (70)**, **Heavy vehicle (70)**, **Heavy infantry (70)**, **Flying infantry (70)**, **Light vehicle (70)**, Other building (50), Turret (50), HQ (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicle (70)**, **Light vehicle (70)**, **Heavy infantry (70)**, **Flying vehicle (70)**, **Droideka (70)**, **Flying infantry (70)**, **Support troop (70)**, **Infantry (70)**, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -71,56 +71,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 3927
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * unlockPlanet: 
   * buffAssetOffset: 0,1,0
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 14.18,12.02,20.78
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioImpact: 
   * iconLookatPosition: -0.23,1.14,-0.58
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
+  * audioTrain: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * bundleName: speederbike_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 14.18,12.02,20.78
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: speederbike_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 3927
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: infantry
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
   * shotDelay: 250
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 500
   * reload: 1000
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1,2
+  * strictCoolDown: false
   * shotCount: 2
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 2
+  * gunSequence: 1,2
+  * splash: 0
   * autoSpawnRateScale: 2
   * targetInRangeModifier: 1
-  * armingDelay: 0
+  * xp: 0
 
 |Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                            |8                            |9                            |10                           |
 |--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-|projectileType|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|
-|order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
 |pointValue    |5.000                 |6.000                 |7.000                 |8.000                 |9.000                 |10.000                |11.000                       |12.000                       |13.000                       |15.000                       |
+|order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
+|projectileType|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|
 |chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
 

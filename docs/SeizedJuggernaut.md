@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|4000$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
 |Upgrade time        |0s    |1h    |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Health              |20000 |24000 |28000 |32000 |36000 |40000  |44000  |48000  |52000   |60000   |
-|Damage*             |2250  |2700  |3150  |3600  |4050  |4500   |4950   |5400   |5850    |6750    |
-|Damage per shot     |2000.0|2400.0|2800.0|3200.0|3600.0|4000.0 |4400.0 |4800.0 |5200.0  |6000.0  |
+|Damage per shot     |2250  |2700  |3150  |3600  |4050  |4500   |4950   |5400   |5850    |6750    |
+|Damage*             |2000.0|2400.0|2800.0|3200.0|3600.0|4000.0 |4400.0 |4800.0 |5200.0  |6000.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Turret (50), Heavy infantry (50), HQ (50), Flying infantry (50), Light vehicle (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield generator (70)**, **Shield (70)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Flying infantry (50), Turret (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,53 +68,54 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 2000
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,1.84,0.00
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 35.28,24.86,45.37
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * rotationSpeed: 2
-  * audioImpact: 
   * iconLookatPosition: -0.89,1.38,-0.23
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * audioTrain: 
+  * rotationSpeed: 2
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * bundleName: attacktank_rbl-ani
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 35.28,24.86,45.37
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: attacktank_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 2000
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: shieldGenerator
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
   * shotDelay: 250
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 500
   * reload: 1000
-  * projectileType: projectileSeizedJuggernaut
-  * maxScale: false
-  * xp: 0
-  * gunSequence: 1,1
+  * strictCoolDown: false
   * shotCount: 2
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 3
+  * gunSequence: 1,1
+  * splash: 0
+  * projectileType: projectileSeizedJuggernaut
+  * chargeTime: 1000
   * autoSpawnRateScale: 3
   * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * armingDelay: 0
+  * xp: 0
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

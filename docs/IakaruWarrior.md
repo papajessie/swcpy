@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level          |1                 |2                 |3                |4                 |5                 |6                |7                 |8                |9     |10                |
 |---------------|------------------|------------------|-----------------|------------------|------------------|-----------------|------------------|-----------------|------|------------------|
 |Health         |10570             |12310             |12060            |13520             |14970             |16430            |17950             |19440            |20930 |23880             |
-|Damage*        |1230              |1235              |1263             |1271              |1280              |1288             |1346              |1380             |1413  |1454              |
-|Damage per shot|2733.3333333333335|2744.4444444444443|2806.666666666667|2824.4444444444443|2844.4444444444443|2862.222222222222|2991.1111111111113|3066.666666666667|3140.0|3231.1111111111113|
+|Damage per shot|1230              |1235              |1263             |1271              |1280              |1288             |1346              |1380             |1413  |1454              |
+|Damage*        |2733.3333333333335|2744.4444444444443|2806.666666666667|2824.4444444444443|2844.4444444444443|2862.222222222222|2991.1111111111113|3066.666666666667|3140.0|3231.1111111111113|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Support troop (60)_, _Flying infantry (60)_, Other building (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), HQ (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Flying infantry (60)_, _Support troop (60)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -68,59 +68,60 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
   * eventFeaturesString: fragment_obtain_gen
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: hn_open_galaxy
-  * eventButtonAction: galaxy
-  * animationDelay: 0
-  * iconCloseupLookatPosition: -0.52,2.05,-1.33
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconCameraPosition: 7.64,11.36,18.34
-  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.4,1.38,-0.85
   * iconCloseupCameraPosition: 4.34,5.86,9.44
+  * eventButtonString: hn_open_galaxy
+  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * gunPosition: 
+  * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: -0.52,2.05,-1.33
   * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
   * bundleName: iakaru_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 7.64,11.36,18.34
+  * eventButtonAction: galaxy
+  * tooltipHeightOffset: 
   * assetName: iakaru_rbl-ani
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: turret
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 150
-  * splash: 0
-  * strictCoolDown: false
-  * reload: 2000
-  * projectileType: projectileIakaruWarrior
   * unlockedByEvent: true
-  * xp: 0
-  * upgradeShardUid: shrd_troopIakaruWarrior
-  * gunSequence: 1
-  * maxScale: false
+  * reload: 2000
+  * strictCoolDown: false
   * shotCount: 7
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * chargeTime: 250
   * armingDelay: 0
+  * impactDelay: 1000
+  * maxScale: false
+  * gunSequence: 1
+  * splash: 0
+  * upgradeShardUid: shrd_troopIakaruWarrior
+  * projectileType: projectileIakaruWarrior
+  * chargeTime: 250
+  * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * targetInRangeModifier: 1
+  * xp: 0
 
 |Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
 |iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |order          |234301     |234302     |234303     |234304     |234305     |234306     |234307     |234308     |234309     |234310     |
-|pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
 

@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
 |Upgrade time        |0s   |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
 |Health              |15120|15990|16910|17890 |18930 |20040  |21230  |22490  |23830   |25260   |
-|Damage*             |450  |490  |540  |590   |640   |700    |770    |850    |940     |1030    |
-|Damage per shot     |630.0|690.0|760.0|830.0 |900.0 |980.0  |1260.0 |1390.0 |1530.0  |1680.0  |
+|Damage per shot     |450  |490  |540  |590   |640   |700    |770    |850    |940     |1030    |
+|Damage*             |630.0|690.0|760.0|830.0 |900.0 |980.0  |1260.0 |1390.0 |1530.0  |1680.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Other building (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **Infantry (50)**, **Heavy vehicle (50)**, **Turret (50)**, **Heavy infantry (50)**, **HQ (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Storage (50)**, Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)
+  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,56 +68,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 3927
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,0.51,0
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 100
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 22.79,25.75,28.69
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * audioImpact: 
   * iconLookatPosition: -0.25,0.58,-0.36
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * audioTrain: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * bundleName: t2btank_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 22.79,25.75,28.69
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: t2btank_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 3927
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 100
   * favoriteTargetType: closest
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 200
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 1000
   * reload: 2000
-  * projectileType: projectileT2BTank
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1,1,2,2
+  * strictCoolDown: false
   * shotCount: 4
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 3
+  * gunSequence: 1,1,2,2
+  * splash: 0
+  * projectileType: projectileT2BTank
+  * chargeTime: 250
   * autoSpawnRateScale: 3
   * targetInRangeModifier: 1
-  * chargeTime: 250
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |230201|230202|230203|230204|230205|230206|230207|230208|230209|230210|
 |pointValue|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+|order     |230201|230202|230203|230204|230205|230206|230207|230208|230209|230210|
 

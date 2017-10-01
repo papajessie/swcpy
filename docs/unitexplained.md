@@ -18,7 +18,8 @@ This is an explanation as far as we know (since we do not have access to the sou
   * **Shield health:** the health of the shield (obviously). Remark that the value show in-game is wrong.
   * **Shield range:** the size of the shield _(unsure)_.
   * **Shield cooldown:** the time after which a still and untouched shield goes up again (with full health).
-  * **Damage:** This is the value displayed in-game for the damage. However, it comes in fact from other parameters. It may be correct, but for some units is not. See below for [the damage explanation](#damage)
+  * **Damage:** This is the value displayed in-game for the damage, and it is supposed to be the damage per second of the unit. However, it comes in fact from other parameters. It may be correct, but for some units is not. See below for [the damage explanation](#damage)
+  * **Damage per shot:** This is the damage per shot for the damage. This one is correct. See below for [the damage explanation](#damage)
 
 ## Targeting
 

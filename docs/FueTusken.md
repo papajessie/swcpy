@@ -25,8 +25,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1  |2   |
 |---------------|---|----|
-|Damage*        |2  |75  |
-|Damage per shot|1.0|69.0|
+|Damage per shot|2  |75  |
+|Damage*        |1.0|69.0|
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
@@ -45,7 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level             |1                                                                                                                                                                                                                                                                                                                                                                                                                        |2                                                                                                                                                                                                                                                                                                                                                                                              |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Ressource generator (66)**, **Storage (66)**, _Other building (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Droideka (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Turret (60)_, _Heavy infantry (60)_, _HQ (60)_, _Flying infantry (60)_, _Light vehicle (60)_, Shield generator (50), Shield (50), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)|**Turret (55)**, Other building (50), Flying vehicle (50), Support troop (50), Droideka (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), Flying infantry (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), HQ (40), Heavy infantry hero (1), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Wall (1), Trap (0)|
+|Target preferences|**Ressource generator (66)**, **Storage (66)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, _HQ (60)_, _Droideka (60)_, _Flying infantry (60)_, _Turret (60)_, _Other building (60)_, _Support troop (60)_, _Infantry (60)_, Shield generator (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)|**Turret (55)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), Ressource generator (50), Droideka (50), Shield generator (50), Flying infantry (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), HQ (40), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)|
 
 ## Recruiting
 
@@ -71,56 +71,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: buffFireBurn:15
-  * newRotationSpeed: 7854
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * unlockPlanet: 
   * buffAssetOffset: 
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 10,11.38,12.75
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * audioImpact: 
   * iconLookatPosition: -0.17,1.62,0.41
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * gunPosition: 
+  * audioTrain: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * factoryScaleFactor: 1
+  * deathAnimation: buffFireBurn:15
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * bundleName: raiderrifle_tkn-ani
-  * factoryScaleFactor: 1
-  * gunPosition: 
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 10,11.38,12.75
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: raiderrifle_tkn-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 7854
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: none
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
   * shotDelay: 500
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 1000
   * reload: 2000
-  * projectileType: projectileTusken
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1
+  * strictCoolDown: false
   * shotCount: 3
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 1
+  * gunSequence: 1
+  * splash: 0
+  * projectileType: projectileTusken
+  * chargeTime: 250
   * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * chargeTime: 250
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |
 |----------|------|------|
-|order     |320501|320502|
 |pointValue|1.000 |1.200 |
+|order     |320501|320502|
 

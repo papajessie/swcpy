@@ -25,14 +25,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Upgrade requirements|600$  |1500$ |4000$ |12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
 |Upgrade time        |0s    |15m   |1h    |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Health              |76800 |78710 |80670 |82690 |84760 |86890  |89080  |91320  |93630   |96000   |
-|Damage*             |3070  |3150  |3230  |3310  |3390  |3470   |3560   |3650   |3740    |3840    |
-|Damage per shot     |3840.0|3940.0|4040.0|4140.0|4240.0|4340.0 |4450.0 |4560.0 |4680.0  |4800.0  |
+|Damage per shot     |3070  |3150  |3230  |3310  |3390  |3470   |3560   |3650   |3740    |3840    |
+|Damage*             |3840.0|3940.0|4040.0|4140.0|4240.0|4340.0 |4450.0 |4560.0 |4680.0  |4800.0  |
 
 * These values are not necessarily accurate and may be inconsistent with other values
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry hero (60)**, **Infantry hero (60)**, **Support troop (60)**, **Droideka (60)**, **Infantry (60)**, **Heavy infantry (60)**, **Flying infantry (60)**, Other building (50), Flying vehicle (50), Heavy vehicle (50), Turret (50), Vehicle hero (50), HQ (50), Heavy vehicular hero (50), Light vehicle (50), Shield generator (50), Shield (50), Ressource generator (50), Storage (50), Wall (1), Trap (0)
+  * Target preferences: **Heavy infantry (60)**, **Droideka (60)**, **Flying infantry (60)**, **Support troop (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, **Infantry hero (60)**, Heavy vehicle (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Heavy vehicular hero (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -68,56 +68,57 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can safely be ignored.
 
-  * decalSize: 
-  * deathAnimation: 
-  * newRotationSpeed: 982
-  * infoUIType: 
-  * factoryRotation: 0
-  * audioTrain: 
   * eventFeaturesString: 
-  * tooltipHeightOffset: 
-  * audioDeath: "sfx_death_walker_1":100
-  * unlockPlanet: 
   * buffAssetOffset: 0.00,1.46,0.00
-  * eventButtonString: 
-  * eventButtonAction: 
-  * animationDelay: 0
-  * iconCloseupLookatPosition: 
-  * eventButtonData: 
-  * iconCameraPosition: 24.47,22.61,37.05
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * audioImpact: 
   * iconLookatPosition: -0.2,1.23,-0.57
   * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * decalSize: 
   * shieldAssetName: 
+  * audioDeath: "sfx_death_walker_1":100
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * audioTrain: 
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * factoryScaleFactor: 1
+  * deathAnimation: 
+  * iconCloseupLookatPosition: 
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * bundleName: atte_rbl-ani
-  * factoryScaleFactor: 1
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * infoUIType: 
+  * unlockPlanet: 
+  * iconCameraPosition: 24.47,22.61,37.05
+  * eventButtonAction: 
+  * tooltipHeightOffset: 
   * assetName: atte_rbl-ani
+  * eventButtonData: 
+  * hologramUid: 
+  * newRotationSpeed: 982
+  * factoryRotation: 0
+  * audioImpact: 
+  * animationDelay: 0
   * favoriteTargetType: infantry
 
 ## Uninterpreted stats
 
-  * impactDelay: 500
   * shotDelay: 500
-  * splash: 0
-  * strictCoolDown: false
+  * impactDelay: 500
   * reload: 1000
-  * projectileType: projectileBlasterRebelATTE
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1,2,3,4,5
+  * strictCoolDown: false
   * shotCount: 5
+  * armingDelay: 0
+  * maxScale: false
   * autoSpawnSpreadingScale: 2
+  * gunSequence: 1,2,3,4,5
+  * splash: 0
+  * projectileType: projectileBlasterRebelATTE
+  * chargeTime: 1000
   * autoSpawnRateScale: 2
   * targetInRangeModifier: 1
-  * chargeTime: 1000
-  * armingDelay: 0
+  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |230801|230802|230803|230804|230805|230806|230807|230808|230809|230810|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |230801|230802|230803|230804|230805|230806|230807|230808|230809|230810|
 
