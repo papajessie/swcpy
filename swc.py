@@ -122,7 +122,6 @@ def getdisplayed(displayed,category):
         return ()
     return sorted(displayed[category].keys())
         
-
 def initstat():
     global config
     config['stattranslation']={
@@ -154,8 +153,8 @@ def initstat():
         'upgrade': 'Upgrade requirements',
         'upgradeTime':'Upgrade time',
         'health':'Health',
-        'damage':'Damage*',
-        'dps':'Damage per shot',
+        'damage':'Damage per shot',
+        'dps':'Damage*',
         'role':'Role',
         'type':'Type',
         'armorType':'Armor type',
@@ -193,15 +192,17 @@ def initstat():
         config['stathandler'][k]=display_boolean
     for k in ['HQ', 'bruiserInfantry', 'bruiserVehicle', 'building', 'champion', 'flierInfantry', 'flierVehicle', 'healerInfantry', 'heroBruiserInfantry', 'heroBruiserVehicle', 'heroInfantry', 'heroVehicle', 'infantry', 'resource', 'shield', 'shieldGenerator', 'storage', 'trap', 'turret', 'vehicle', 'wall']:
         config['stattype'][k]='target'
-    for k in ['animationDelay','audioAttack','decalSize','iconCameraPosition','factoryScaleFactor','iconCloseupLookatPosition','iconLookatPosition','factoryRotation','audioPlacement','newRotationSpeed','audioDeath','rotationSpeed','iconCloseupCameraPosition','tooltipHeightOffset','buffAssetOffset','gunPosition','assetName','shieldAssetName','bundleName','audioImpact','eventFeaturesString','audioTrain','eventButtonString','eventButtonAction','eventButtonData','unlockPlanet','deathAnimation','infoUIType','favoriteTargetType']:
+    for k in ['animationDelay', 'assetName', 'audioAttack', 'audioDeath', 'audioImpact', 'audioPlacement', 'audioTrain', 'buffAssetOffset', 'bundleName', 'deathAnimation', 'decalSize', 'eventButtonAction', 'eventButtonData', 'eventButtonString', 'eventFeaturesString', 'factoryRotation', 'factoryScaleFactor', 'favoriteTargetType', 'gunPosition', 'hologramUid','iconCameraPosition', 'iconCloseupCameraPosition', 'iconCloseupLookatPosition', 'iconLookatPosition', 'iconUnlockPosition', 'iconUnlockRotation', 'iconUnlockScale', 'infoUIType', 'newRotationSpeed', 'rotationSpeed', 'shieldAssetName', 'tooltipHeightOffset', 'unlockedByEvent', 'unlockPlanet', 'upgradeShardUid']:
         config['stattype'][k]='presentation'
     for k in ['credits','materials','contraband']:
         config['stattype'][k]='train'
     for k in ['upgradeTime','shieldCooldown','trainingTime']:
         config['stattype'][k]='time'
         config['stathandler'][k]=display_time
-    for k in ['sizex','sizey','size','health','damage','dps','shieldHealth','shieldRange','viewRange','maxAttackRange','minAttackRange','targetPreferenceStrength','retargetingOffset','maxSpeed','runSpeed','runThreshold','acceleration','pathSearchWidth']:
+    for k in ['sizex','sizey','size','health','damage','shieldHealth','shieldRange','viewRange','maxAttackRange','minAttackRange','targetPreferenceStrength','retargetingOffset','maxSpeed','runSpeed','runThreshold','acceleration','pathSearchWidth']:
         config['stattype'][k]='int'
+    for k in ['dps']:
+        config['stattype'][k]='float'
     for k in ['upgradeCredits','upgradeMaterials','upgradeContraband','upgradeShards']:
         config['stattype'][k]='upgrade'
     for k in ['targetPreferenceString','uid','lvl','heroData']:
@@ -633,7 +634,12 @@ def analyse_unit(objects,displayed,id):
     for u in (data['TroopData']).keys():
         uname=data['TroopData'][u]['unitID']
         if uname==id:
-            subunit=data['TroopData'][u]
+            subunit={}
+            for k,v in data['TroopData'][u]:
+                subunit[k]=v
+            if 'projectileType' in subunit:
+                ## Do something with projectiles ; append stats with prefix 'projectile'
+                pass
             level=int(subunit['lvl'])
             ob['levels'].append(level)
             ob['hq'][level]={}
@@ -672,6 +678,12 @@ def analyse_unit(objects,displayed,id):
                         a[t]=int(subunit[t])
                     else:
                         a[t]=int(0)
+                    used[t]=1
+                elif config['stattype'][t]=='float':
+                    if t in subunit.keys():
+                        a[t]=float(subunit[t])
+                    else:
+                        a[t]=float(0)
                     used[t]=1
                 elif config['stattype'][t]=='boolean':
                     if t in subunit.keys():
@@ -733,7 +745,7 @@ def analyse_unit(objects,displayed,id):
                     else:
                         ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
                 a['targets']=', '.join(ttlist)
-            for t in subunit:
+            for t in sorted(subunit.keys()):
                 if t not in used.keys():
                     ob['unknown'][level][t]=subunit[t]
     levels=sorted(ob['hq'].keys())
