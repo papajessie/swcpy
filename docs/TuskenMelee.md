@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Droideka (95)_, _Support troop (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Ressource generator (50), Shield generator (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 2
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -61,58 +59,120 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : Melee HeadButt Large
+
+### Basic info
+
+  * Shot count: 5
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 1.250s
+  * Time between last shot and reload: 0s
+  * Time between two clips: 0s
+  * Salvos per clip: 5
+
+|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot             |195  |239  |260  |282  |304  |325  |347  |369  |390  |434  |
+|Calculated damage per second|177  |217  |236  |256  |276  |295  |315  |335  |354  |394  |
+|Damage*                     |177.0|217.0|236.0|256.0|276.0|295.0|315.0|335.0|354.0|394.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 5.500s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 20%
+  * Heavy vehicle: 20%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 20%
+  * Heavy infantry hero: 20%
+  * Heavy vehicular hero: 20%
+  * Infantry hero: 20%
+  * Vehicle hero: 20%
+  * Infantry: 20%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 20%
+  * Wall: 300%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: 0.1,1.49,0.27
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * gunPosition: 
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: raidermelee_tkn-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 9.5,10.55,11.7
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: raidermelee_tkn-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1000
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 9.5,10.55,11.7
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: raidermelee_tkn-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: 0.1,1.49,0.27
+  * assetName: raidermelee_tkn-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 1250
-  * impactDelay: 0
-  * reload: 0
-  * strictCoolDown: false
-  * shotCount: 5
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileMeleeHeadButtLrg
-  * chargeTime: 500
-  * autoSpawnRateScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 0
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

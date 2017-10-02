@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying vehicle (50), Flying infantry (50), Support troop (50), Heavy infantry (40), HQ (40), Ressource generator (40), Droideka (40), Shield generator (40), Turret (40), Storage (40), Other building (40), Infantry (40), Shield (40), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1)
+  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying infantry (50), Flying vehicle (50), Support troop (50), Heavy infantry (40), Turret (40), Shield (40), Storage (40), Other building (40), Shield generator (40), Ressource generator (40), Infantry (40), Droideka (40), HQ (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1)
   * Targeted type: ENEMIES
   * View Range: 21
   * Target preferences strength: 100
   * Retargeting offset: 18
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 9
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,66 +62,127 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 200
 
+## Attack : Vanguard Rocket
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 3s
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |2340  |2532  |2742  |2970  |3222  |3492  |3792  |4122  |4482  |4872  |
+|Calculated damage per second|720   |779   |843   |913   |991   |1074  |1166  |1268  |1379  |1499  |
+|Damage*                     |2340.0|2532.0|2742.0|2970.0|3222.0|3492.0|3792.0|4122.0|4482.0|4872.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 3.250s
+  * Projectile passes through shields: Yes
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 200%
+  * Heavy infantry: 25%
+  * Heavy vehicle: 90%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 100%
+  * Support troop: 50%
+  * Heavy infantry hero: 25%
+  * Heavy vehicular hero: 75%
+  * Infantry hero: 50%
+  * Vehicle hero: 100%
+  * Infantry: 50%
+  * Ressource generator: 75%
+  * Shield: 75%
+  * Shield generator: 75%
+  * Storage: 75%
+  * Trap: 500%
+  * Turret: 75%
+  * Light vehicle: 100%
+  * Wall: 700%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_shocktrooper_vanguard_hit
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: 0.03,1.71,0.04
-  * iconCloseupCameraPosition: 0.65,2.23,9.92
-  * eventButtonString: hn_open_tat
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 0.11,2.78,0.04
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: vanguard_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * iconCameraPosition: 13.24,14.28,16
-  * eventButtonAction: planet
-  * tooltipHeightOffset: 
-  * assetName: vanguard_rbl-ani
-  * eventButtonData: planet1
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * animationDelay: 0
   * favoriteTargetType: trap
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: shrd_troopVanguard
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: planet1
+  * decalSize: 
+  * eventButtonString: hn_open_tat
+  * iconCloseupCameraPosition: 0.65,2.23,9.92
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * iconCameraPosition: 13.24,14.28,16
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * newRotationSpeed: 7854
+  * bundleName: vanguard_rbl-ani
+  * iconCloseupLookatPosition: 0.11,2.78,0.04
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
+  * hologramUid: 
+  * iconLookatPosition: 0.03,1.71,0.04
+  * assetName: vanguard_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+
+|Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|------------------|-----|--|--|--|--|--|--|--|--|--|
+|iconUnlockRotation|0,0,0|  |  |  |  |  |  |  |  |  |
+|iconUnlockScale   |1,1,1|  |  |  |  |  |  |  |  |  |
+|iconUnlockPosition|0,0,0|  |  |  |  |  |  |  |  |  |
 
 ## Uninterpreted stats
 
-  * unlockedByEvent: true
-  * impactDelay: 1000
-  * maxScale: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 500
-  * reload: 3000
-  * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * upgradeShardUid: shrd_troopVanguard
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * chargeTime: 250
-  * xp: 0
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 1
+  * projectilebullet: fx_rocket_projectile_r_sm
 
-|Level             |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
-|------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|iconUnlockPosition|0,0,0                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
-|iconUnlockScale   |1,1,1                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
-|order             |221201                  |221202                  |221203                  |221204                  |221205                  |221206                  |221207                  |221208                  |221209                  |221210                   |
-|projectileType    |projectileVanguardLevel1|projectileVanguardLevel2|projectileVanguardLevel3|projectileVanguardLevel4|projectileVanguardLevel5|projectileVanguardLevel6|projectileVanguardLevel7|projectileVanguardLevel8|projectileVanguardLevel9|projectileVanguardLevel10|
-|pointValue        |3.000                   |3.600                   |4.200                   |4.800                   |5.400                   |6.000                   |6.600                   |7.200                   |7.800                   |9.000                    |
-|iconUnlockRotation|0,0,0                   |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|order     |221201|221202|221203|221204|221205|221206|221207|221208|221209|221210|
 

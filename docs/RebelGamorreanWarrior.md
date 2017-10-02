@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Shield (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Heavy infantry (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Shield (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 2
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,66 +62,128 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Melee Vibro Ax
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 400ms
+  * Time between shots: 0s
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |1720  |1752  |1784  |1816  |1848  |1880  |1976  |2040  |2104  |2200  |
+|Calculated damage per second|1911  |1946  |1982  |2017  |2053  |2088  |2195  |2266  |2337  |2444  |
+|Damage*                     |1920.0|1952.0|1984.0|2016.0|2048.0|2080.0|2176.0|2240.0|2304.0|2400.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 900ms
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: No
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 100%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 50%
+  * Infantry hero: 75%
+  * Vehicle hero: 75%
+  * Infantry: 75%
+  * Ressource generator: 50%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 50%
+  * Trap: 0%
+  * Turret: 100%
+  * Light vehicle: 75%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_gamGuard_melee
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 2
+  * projectilearcs: true
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.43,0.0
-  * iconLookatPosition: 0.43,1.85,0.73
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.18,2.49,0.11
-  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
-  * bundleName: gamorreanguard_con-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 9.14,6.79,20.25
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: gamorreanguard_con-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
-  * animationDelay: 600
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
+  * iconCameraPosition: 9.14,6.79,20.25
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: gamorreanguard_con-ani
+  * iconCloseupLookatPosition: 0.18,2.49,0.11
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
+  * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
+  * hologramUid: 
+  * iconLookatPosition: 0.43,1.85,0.73
+  * assetName: gamorreanguard_con-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 600
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * deathProjectile: projectileDeathVibroAx
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
   * deathProjectileDelay: 3600
   * impactDelay: 0
-  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 0
-  * reload: 500
-  * strictCoolDown: false
-  * shotCount: 1
   * armingDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
-  * projectileType: projectileMeleeVibroAx
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
+  * deathProjectile: projectileDeathVibroAx
   * deathProjectileDistance: 17
-  * chargeTime: 400
-  * xp: 0
 
 |Level                |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------------|------|------|------|------|------|------|------|------|------|------|
+|pointValue           |4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |deathProjectileDamage|1750  |2000  |2250  |2500  |2750  |3000  |3250  |3500  |3750  |4000  |
 |order                |215101|215102|215103|215104|215105|215106|215107|215108|215109|215110|
-|pointValue           |4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 

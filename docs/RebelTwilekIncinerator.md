@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, Wall (1), Shield (1), Trap (0)
+  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Heavy vehicular hero (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Heavy infantry hero (50)**, **Vehicle hero (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Shield (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 4
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,66 +62,130 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Flamethrower
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 1s
+  * Time between shots: 200ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Calculated damage per second|0     |1     |2     |2     |3     |4     |4     |5     |6     |6     |
+|Damage*                     |3744.0|3857.0|3917.0|3973.0|4032.0|4089.0|4145.0|4205.0|4261.0|4320.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 1.500s
+  * Projectile passes through shields: Yes
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 75%
+  * Heavy vehicle: 75%
+  * Other building: 125%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 50%
+  * Support troop: 100%
+  * Heavy infantry hero: 75%
+  * Heavy vehicular hero: 50%
+  * Infantry hero: 100%
+  * Vehicle hero: 75%
+  * Infantry: 100%
+  * Ressource generator: 125%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 125%
+  * Trap: 0%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_flamethrower_projectile
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.29,1.36,-0.25
-  * iconCloseupCameraPosition: 1.37,0.41,9.67
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: -0.06,2.28,-0.53
-  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
-  * bundleName: twilek_con-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 7.27,7.61,17.96
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: twilek_con-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_twilekincinerator_01":35,"sfx_death_twilekincinerator_02":35,"sfx_death_twilekincinerator_03":30
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 1.37,0.41,9.67
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_twilekincinerator_01":50,"sfx_ui_unitcomplete_twilekincinerator_02":50
+  * iconCameraPosition: 7.27,7.61,17.96
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: twilek_con-ani
+  * iconCloseupLookatPosition: -0.06,2.28,-0.53
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_twilekincinerator_01":35,"sfx_placement_twilekincinerator_02":35,"sfx_placement_twilekincinerator_03":30
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.29,1.36,-0.25
+  * assetName: twilek_con-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
   * deathProjectileDelay: 0
   * impactDelay: 1000
-  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 200
-  * reload: 500
   * strictCoolDown: false
-  * shotCount: 1
+  * projectilemuzzleFlashFadeTime: 1.5
   * armingDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * spawnApplyBuffs: buffReduceHeals1,buffDefendSplash2
+  * targetInRangeModifier: 1
   * deathProjectileDistance: 0
-  * chargeTime: 1000
-  * xp: 0
 
 |Level                |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
 |---------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
-|deathProjectileDamage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
-|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
-|order                |215201                                          |215202                                          |215203                                          |215204                                          |215205                                          |215206                                          |215207                                          |215208                                          |215209                                          |215210                                           |
 |pointValue           |1.000                                           |1.200                                           |1.400                                           |1.600                                           |1.800                                           |2.000                                           |2.200                                           |2.400                                           |2.600                                           |3.000                                            |
-|projectileType       |projectileFlamethrowerTwiLekIncineratorLvl1     |projectileFlamethrowerTwiLekIncineratorLvl2     |projectileFlamethrowerTwiLekIncineratorLvl3     |projectileFlamethrowerTwiLekIncineratorLvl4     |projectileFlamethrowerTwiLekIncineratorLvl5     |projectileFlamethrowerTwiLekIncineratorLvl6     |projectileFlamethrowerTwiLekIncineratorLvl7     |projectileFlamethrowerTwiLekIncineratorLvl8     |projectileFlamethrowerTwiLekIncineratorLvl9     |projectileFlamethrowerTwiLekIncineratorLvl10     |
+|projectileapplyBuffs |buffFireBurn1,buffFireBurst1                    |buffFireBurn2,buffFireBurst2                    |buffFireBurn3,buffFireBurst3                    |buffFireBurn4,buffFireBurst4                    |buffFireBurn5,buffFireBurst5                    |buffFireBurn6,buffFireBurst6                    |buffFireBurn7,buffFireBurst7                    |buffFireBurn8,buffFireBurst8                    |buffFireBurn9,buffFireBurst9                    |buffFireBurn10,buffFireBurst10                   |
+|deathProjectile      |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
+|deathProjectileDamage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
+|order                |215201                                          |215202                                          |215203                                          |215204                                          |215205                                          |215206                                          |215207                                          |215208                                          |215209                                          |215210                                           |
 

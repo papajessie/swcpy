@@ -29,15 +29,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (60)**, **Droideka (60)**, **Flying infantry (60)**, **Support troop (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, **Infantry hero (60)**, Heavy vehicle (50), Light vehicle (50), Vehicle hero (50), Flying vehicle (50), HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Heavy vehicular hero (50), Wall (1), Trap (0)
+  * Target preferences: **Flying infantry (60)**, **Heavy infantry (60)**, **Infantry hero (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, **Support troop (60)**, **Droideka (60)**, Light vehicle (50), Turret (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Heavy vehicular hero (50), Flying vehicle (50), Vehicle hero (50), HQ (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 100
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 8
-  * Min. Range: 0
   * Can shoot over walls: Yes
   * Self-centered targeting: No
 
@@ -59,61 +57,121 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : ATTE Blaster
+
+### Basic info
+
+  * Damage per shot: 3840
+  * Shot count: 5
+  * Time between start of clip and first shot: 1s
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1s
+  * Salvos per clip: 5
+  * Calculated damage per second: 4800
+  * Damage*: 4800.0
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2,3,4,5
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 4s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 25
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 5
+  * Cannons shot per gun sequence: 5
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 75%
+  * Heavy vehicle: 75%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 75%
+  * Heavy vehicular hero: 75%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_b_med
+  * projectilemuzzleFlash: fx_blaster_flash_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,1.46,0.00
-  * iconLookatPosition: -0.2,1.23,-0.57
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * decalSize: 320
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_walker_1":100
-  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
-  * audioTrain: 
-  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: atte_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 24.47,22.61,37.05
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: atte_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 982
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 320
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 24.47,22.61,37.05
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun1":1,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun2":2,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun3":3,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun4":4,"atte_rbl_rig_MASTER_MOVER/atte_rbl_rig_locator_gun5":5
+  * newRotationSpeed: 982
+  * bundleName: atte_rbl-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.2,1.23,-0.57
+  * assetName: atte_rbl-ani
+  * rotationSpeed: 0.9817468750000000188293824976426549255847930908203125
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 2
+  * autoSpawnRateScale: 2
   * decalAssetName: tac_hero_rbl
-  * decalBundleName: tac_hero_rbl
   * pointValue: 48.000
-  * reload: 1000
-  * shotDelay: 500
-  * strictCoolDown: false
-  * shotCount: 5
   * armingDelay: 0
   * impactDelay: 500
+  * projectilestreams: no
+  * decalBundleName: tac_hero_rbl
   * maxScale: false
-  * gunSequence: 1,2,3,4,5
-  * splash: 0
-  * order: 244808
-  * projectileType: projectileBlasterRebelATTE
-  * autoSpawnSpreadingScale: 2
-  * chargeTime: 1000
-  * autoSpawnRateScale: 2
+  * projectilebullet: fx_blaster_beam_b_med
   * spawnEffectUid: effectRebelSpawn
+  * strictCoolDown: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * order: 244808
 

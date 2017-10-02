@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (70)**, **Light vehicle (70)**, **Heavy infantry (70)**, **Flying vehicle (70)**, **Droideka (70)**, **Flying infantry (70)**, **Support troop (70)**, **Infantry (70)**, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (70)**, **Light vehicle (70)**, **Heavy infantry (70)**, **Heavy vehicle (70)**, **Infantry (70)**, **Flying vehicle (70)**, **Support troop (70)**, **Droideka (70)**, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 12
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 6
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -67,61 +65,130 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Speed       |40|40|40|40|40|40|80|80|80|80|
 |Acceleration|0 |0 |0 |0 |0 |0 |8 |8 |8 |8 |
 
+## Attack : T7-E Speederbike / Empire Speeder Bike Upgrade
+
+### Basic info
+
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 0s
+  * Time between last shot and reload: 0s
+  * Salvos per clip: 1
+
+|Level                       |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|-----|-----|------|------|------|------|------|------|------|------|
+|Damage per shot             |970  |1030 |1100  |1170  |1250  |1330  |1420  |1520  |1620  |1730  |
+|Shot count                  |1    |1    |1     |1     |1     |1     |2     |2     |2     |2     |
+|Time between two clips      |800ms|800ms|800ms |800ms |800ms |800ms |625ms |625ms |625ms |625ms |
+|Calculated damage per second|923  |980  |1047  |1114  |1190  |1266  |3245  |3474  |3702  |3954  |
+|Damage*                     |920.0|980.0|1050.0|1110.0|1190.0|1270.0|1620.0|1740.0|1850.0|1980.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 2
+
+|Level       |1     |2     |3     |4     |5     |6     |7    |8    |9    |10   |
+|------------|------|------|------|------|------|------|-----|-----|-----|-----|
+|Clips period|1.050s|1.050s|1.050s|1.050s|1.050s|1.050s|875ms|875ms|875ms|875ms|
+
+### Multipliers
+
+  * Droideka: 100%
+
+|Level               |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|--------------------|----|----|----|----|----|----|----|----|----|----|
+|HQ                  |100%|100%|100%|100%|100%|100%|50% |50% |50% |50% |
+|Heavy infantry      |125%|125%|125%|125%|125%|125%|175%|175%|175%|175%|
+|Heavy vehicle       |50% |50% |50% |50% |50% |50% |200%|200%|200%|200%|
+|Other building      |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Flying infantry     |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Flying vehicle      |75% |75% |75% |75% |75% |75% |225%|225%|225%|225%|
+|Support troop       |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Heavy infantry hero |125%|125%|125%|125%|125%|125%|100%|100%|100%|100%|
+|Heavy vehicular hero|50% |50% |50% |50% |50% |50% |100%|100%|100%|100%|
+|Infantry hero       |150%|150%|150%|150%|150%|150%|100%|100%|100%|100%|
+|Vehicle hero        |75% |75% |75% |75% |75% |75% |100%|100%|100%|100%|
+|Infantry            |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Ressource generator |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Shield              |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Shield generator    |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Storage             |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Trap                |100%|100%|100%|100%|100%|100%|0%  |0%  |0%  |0%  |
+|Turret              |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Light vehicle       |75% |75% |75% |75% |75% |75% |225%|225%|225%|225%|
+|Wall                |100%|100%|100%|100%|100%|100%|75% |75% |75% |75% |
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0,1,0
-  * iconLookatPosition: -0.26,1.18,-0.59
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
-  * audioTrain: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * bundleName: speederbike_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 14.03,11.98,20.6
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: speederbike_emp-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 3927
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 14.03,11.98,20.6
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun1":1,"speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_MASTER_MOVER/speederbike_emp_rig_locator_gun2":1
+  * newRotationSpeed: 3927
+  * bundleName: speederbike_emp-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.26,1.18,-0.59
+  * assetName: speederbike_emp-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 0
+  * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * targetInRangeModifier: 1
   * impactDelay: 0
+  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
-  * maxScale: false
-  * autoSpawnSpreadingScale: 2
-  * gunSequence: 1,1
-  * splash: 0
-  * chargeTime: 250
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
-  * xp: 0
+  * projectilebullet: fx_blaster_beam_r_sm
 
-|Level         |1                      |2                      |3                      |4                      |5                      |6                      |7                             |8                             |9                             |10                            |
-|--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|pointValue    |6.000                  |7.200                  |8.400                  |9.600                  |10.800                 |12.000                 |13.200                        |14.400                        |15.600                        |18.000                        |
-|reload        |800                    |800                    |800                    |800                    |800                    |800                    |625                           |625                           |625                           |625                           |
-|shotCount     |1                      |1                      |1                      |1                      |1                      |1                      |2                             |2                             |2                             |2                             |
-|order         |130101                 |130102                 |130103                 |130104                 |130105                 |130106                 |130107                        |130108                        |130109                        |130110                        |
-|projectileType|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeeder|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|projectileEmpireSpeederUpgrade|
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|6.000 |7.200 |8.400 |9.600 |10.800|12.000|13.200|14.400|15.600|18.000|
+|order     |130101|130102|130103|130104|130105|130106|130107|130108|130109|130110|
 

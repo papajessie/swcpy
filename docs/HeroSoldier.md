@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 7
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,61 +62,124 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : HeroLeia
+
+### Basic info
+
+  * Shot count: 3
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 200ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 3
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |934   |1120  |1307  |1494  |1680  |1867  |2054  |2240  |2427  |2800  |
+|Calculated damage per second|2001  |2400  |2800  |3201  |3600  |4000  |4401  |4800  |5200  |6000  |
+|Damage*                     |2001.0|2400.0|2800.0|3201.0|3600.0|4000.0|4401.0|4800.0|5200.0|6000.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 3
+  * Number of cannons: 0
+  * Clips period: 1.400s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 125%
+  * Heavy vehicle: 125%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 150%
+  * Flying vehicle: 150%
+  * Support troop: 150%
+  * Heavy infantry hero: 125%
+  * Heavy vehicular hero: 125%
+  * Infantry hero: 150%
+  * Vehicle hero: 150%
+  * Infantry: 150%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 150%
+  * Wall: 80%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_b_sm
+  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.2,1.46,0.41
-  * iconCloseupCameraPosition: 0.23,1.56,8.6
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_hero_oto":100
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: -0.05,2.03,-0.84
-  * audioPlacement: "sfx_placement_hero_oto":100
-  * bundleName: soldierhero_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 7.18,10.31,13.72
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: soldierhero_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_hero_oto":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 0.23,1.56,8.6
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 7.18,10.31,13.72
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * newRotationSpeed: 7854
+  * bundleName: soldierhero_rbl-ani
+  * iconCloseupLookatPosition: -0.05,2.03,-0.84
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_oto":100
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.2,1.46,0.41
+  * assetName: soldierhero_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 0
+  * autoSpawnRateScale: 1
   * decalAssetName: tac_hero_rbl
-  * decalBundleName: tac_hero_rbl
-  * effectType: 1
-  * shotDelay: 200
-  * strictCoolDown: false
-  * shotCount: 3
   * armingDelay: 0
   * impactDelay: 1000
+  * projectilestreams: no
+  * effectType: 1
+  * decalBundleName: tac_hero_rbl
   * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileHeroLeia
-  * reload: 500
-  * chargeTime: 500
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 0
+  * projectilebullet: fx_blaster_beam_b_sm
+  * strictCoolDown: false
   * targetInRangeModifier: 1
-  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

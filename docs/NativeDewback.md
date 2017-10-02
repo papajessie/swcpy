@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 2
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -65,58 +63,120 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Dewback
+
+### Basic info
+
+  * Shot count: 5
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 750ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 0s
+  * Salvos per clip: 5
+
+|Level                       |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|-----|-----|------|------|------|------|------|------|------|------|
+|Damage per shot             |528  |634  |740   |845   |951   |1056  |1162  |1268  |1373  |1584  |
+|Calculated damage per second|754  |905  |1057  |1207  |1358  |1508  |1660  |1811  |1961  |2262  |
+|Damage*                     |754.0|905.0|1057.0|1207.0|1358.0|1508.0|1660.0|1811.0|1961.0|2262.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 3.500s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 20%
+  * Heavy vehicle: 20%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 20%
+  * Heavy infantry hero: 20%
+  * Heavy vehicular hero: 20%
+  * Infantry hero: 20%
+  * Vehicle hero: 20%
+  * Infantry: 20%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 20%
+  * Wall: 300%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.60,0.00
-  * iconLookatPosition: -0.75,0.91,-0.52
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
-  * bundleName: dewback_neu-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 14.52,11.43,15.95
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: dewback_neu-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1000
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_creatures_dewback_1":25,"sfx_death_creatures_dewback_2":25,"sfx_death_creatures_dewback_3":25,"sfx_death_creatures_dewback_4":25
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_dewback_1":35,"sfx_ui_unitcomplete_dewback_2":35,"sfx_ui_unitcomplete_dewback_3":30
+  * iconCameraPosition: 14.52,11.43,15.95
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: dewback_neu-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_dewback_1":35,"sfx_placement_creatures_dewback_2":35,"sfx_placement_creatures_dewback_3":30
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.75,0.91,-0.52
+  * assetName: dewback_neu-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 750
-  * impactDelay: 0
-  * reload: 0
-  * strictCoolDown: false
-  * shotCount: 5
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileDewback
-  * chargeTime: 500
-  * autoSpawnRateScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 0
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

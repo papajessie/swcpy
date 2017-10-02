@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 2
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,61 +62,126 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 200
 
+## Attack : Bantha
+
+### Basic info
+
+  * Shot count: 5
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 0s
+  * Salvos per clip: 5
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |560   |590   |630   |680   |730   |780   |840   |900   |970   |1040  |
+|Calculated damage per second|1120  |1180  |1260  |1360  |1460  |1560  |1680  |1800  |1940  |2080  |
+|Damage*                     |1120.0|1180.0|1260.0|1360.0|1460.0|1560.0|1680.0|1800.0|1940.0|2080.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 2.500s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 20%
+  * Heavy vehicle: 20%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 20%
+  * Heavy infantry hero: 20%
+  * Heavy vehicular hero: 20%
+  * Infantry hero: 20%
+  * Vehicle hero: 20%
+  * Infantry: 20%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 0%
+  * Turret: 100%
+  * Light vehicle: 20%
+
+|Level|1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|-----|----|----|----|----|----|----|----|----|----|----|
+|Wall |560%|670%|760%|950%|940%|930%|900%|880%|840%|760%|
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.68,0.0
-  * iconLookatPosition: 0.48,2.52,0.88
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: bantha_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 16.54,17.6,29.53
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: bantha_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1250
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
+  * iconCameraPosition: 16.54,17.6,29.53
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: bantha_rbl-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: 0.48,2.52,0.88
+  * assetName: bantha_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1250
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 500
-  * impactDelay: 0
-  * reload: 0
-  * strictCoolDown: false
-  * shotCount: 5
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * chargeTime: 500
-  * autoSpawnRateScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 0
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * armingDelay: 0
 
-|Level         |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
-|--------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|pointValue    |2.000                      |2.400                      |2.800                      |3.200                      |3.600                      |4.000                      |4.400                      |4.800                      |5.200                      |6.000                       |
-|order         |220301                     |220302                     |220303                     |220304                     |220305                     |220306                     |220307                     |220308                     |220309                     |220310                      |
-|projectileType|projectileMeleeBanthaLevel1|projectileMeleeBanthaLevel2|projectileMeleeBanthaLevel3|projectileMeleeBanthaLevel4|projectileMeleeBanthaLevel5|projectileMeleeBanthaLevel6|projectileMeleeBanthaLevel7|projectileMeleeBanthaLevel8|projectileMeleeBanthaLevel9|projectileMeleeBanthaLevel10|
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|2.000 |2.400 |2.800 |3.200 |3.600 |4.000 |4.400 |4.800 |5.200 |6.000 |
+|order     |220301|220302|220303|220304|220305|220306|220307|220308|220309|220310|
 

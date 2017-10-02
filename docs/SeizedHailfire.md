@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Vehicle hero (60)_, _Heavy infantry (60)_, _Flying vehicle (60)_, _Droideka (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Infantry hero (60)_, HQ (50), Ressource generator (50), Shield generator (50), Storage (50), Other building (50), Shield (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry hero (60)_, _Heavy vehicular hero (60)_, _Infantry (60)_, _Flying vehicle (60)_, _Heavy infantry hero (60)_, _Vehicle hero (60)_, _Support troop (60)_, _Droideka (60)_, Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 10
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,58 +62,121 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : projectileHailfire
+
+### Basic info
+
+  * Shot count: 6
+  * Time between start of clip and first shot: 1s
+  * Time between shots: 100ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 2s
+  * Salvos per clip: 6
+
+|Level                       |1    |2    |3    |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|-----|-----|-----|------|------|------|------|------|------|------|
+|Damage per shot             |368  |441  |515  |588   |662   |735   |809   |882   |956   |1103  |
+|Calculated damage per second|630  |756  |882  |1008  |1134  |1260  |1386  |1512  |1638  |1890  |
+|Damage*                     |630.0|756.0|882.0|1008.0|1134.0|1260.0|1386.0|1512.0|1638.0|1890.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2
+  * Salvos per clip: 6
+  * Number of cannons: 0
+  * Clips period: 3.500s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 12
+  * Projectile is directional: No
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+### Multipliers
+
+  * HQ: 25%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 250%
+  * Other building: 25%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 300%
+  * Support troop: 50%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 250%
+  * Infantry hero: 50%
+  * Vehicle hero: 300%
+  * Infantry: 50%
+  * Ressource generator: 25%
+  * Shield: 25%
+  * Shield generator: 25%
+  * Storage: 25%
+  * Trap: 200%
+  * Turret: 200%
+  * Light vehicle: 300%
+  * Wall: 80%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_rocket_hit_b_sm
+  * projectilemuzzleFlash: fx_rocket_muzzle_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.88,0.00
-  * iconLookatPosition: -0.49,1.9,-0.43
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_rebel_hailfire_1":100
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * bundleName: hailfiredroid_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 36.69,22.39,29.86
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: hailfiredroid_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 90
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * animationDelay: 0
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_rebel_hailfire_1":100
+  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 36.69,22.39,29.86
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * newRotationSpeed: 7854
+  * bundleName: hailfiredroid_rbl-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
+  * eventButtonAction: 
+  * factoryRotation: 90
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * hologramUid: 
+  * iconLookatPosition: -0.49,1.9,-0.43
+  * assetName: hailfiredroid_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 100
-  * impactDelay: 1000
-  * reload: 2000
-  * strictCoolDown: false
-  * shotCount: 6
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 1,2
-  * splash: 0
-  * projectileType: projectileHailfire
-  * chargeTime: 1000
-  * autoSpawnRateScale: 2
+  * maxScale: false
+  * armingDelay: 0
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_rocket_projectile_b_sm
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

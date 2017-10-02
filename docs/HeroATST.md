@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 8
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,61 +62,123 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : HeroATST
+
+### Basic info
+
+  * Shot count: 10
+  * Time between start of clip and first shot: 1s
+  * Time between shots: 250ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 2s
+  * Salvos per clip: 10
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |1575  |1890  |2205  |2520  |2835  |3150  |3465  |3780  |4095  |4725  |
+|Calculated damage per second|3000  |3600  |4200  |4800  |5400  |6000  |6600  |7200  |7800  |9000  |
+|Damage*                     |3000.0|3600.0|4200.0|4800.0|5400.0|6000.0|6600.0|7200.0|7800.0|9000.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2
+  * Salvos per clip: 10
+  * Number of cannons: 0
+  * Clips period: 5.250s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicular hero: 100%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 80%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_gatling_hit_r_lrg
+  * projectilemuzzleFlash: fx_gatling_muzzle_r_lrg
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,2.83,0.0
-  * iconLookatPosition: -0.02,3.29,0.19
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * decalSize: 240
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_walker_1":100
-  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_hero":100
-  * bundleName: atsthero_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 19.84,22.71,46.64
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: atsthero_emp-ani
-  * eventButtonData: 
-  * hologramUid: HeroHologramEmpire1
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_walker_1":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 240
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 19.84,22.71,46.64
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun1":1,"atsthero_emp_rig_MASTER_MOVER/atsthero_emp_rig_locator_gun2":2
+  * newRotationSpeed: 7854
+  * bundleName: atsthero_emp-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero":100
+  * audioImpact: 
+  * hologramUid: HeroHologramEmpire1
+  * iconLookatPosition: -0.02,3.29,0.19
+  * assetName: atsthero_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * decalAssetName: tac_hero_emp
-  * decalBundleName: tac_hero_emp
-  * effectType: 2
-  * shotDelay: 250
-  * strictCoolDown: false
-  * shotCount: 10
+  * autoSpawnSpreadingScale: 0
+  * autoSpawnRateScale: 2
   * armingDelay: 0
   * impactDelay: 500
-  * maxScale: false
-  * gunSequence: 1,2
-  * splash: 0
-  * projectileType: projectileHeroATST
-  * reload: 2000
-  * chargeTime: 1000
-  * autoSpawnRateScale: 2
-  * autoSpawnSpreadingScale: 0
+  * projectilestreams: no
+  * effectType: 2
+  * decalBundleName: tac_hero_emp
+  * decalAssetName: tac_hero_emp
+  * strictCoolDown: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * maxScale: false
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

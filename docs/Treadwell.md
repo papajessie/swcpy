@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, Heavy infantry (0), Flying vehicle (0), HQ (0), Wall (0), Ressource generator (0), Droideka (0), Shield generator (0), Trap (0), Flying infantry (0), Turret (0), Storage (0), Other building (0), Support troop (0), Infantry (0), Shield (0), Heavy infantry hero (0), Infantry hero (0)
+  * Target preferences: **Light vehicle (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Vehicle hero (50)**, Flying infantry (0), Wall (0), Heavy infantry (0), Turret (0), Shield (0), Storage (0), Other building (0), Infantry hero (0), Shield generator (0), Trap (0), Ressource generator (0), Infantry (0), Flying vehicle (0), Heavy infantry hero (0), Support troop (0), Droideka (0), HQ (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 5
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: Yes
 
@@ -64,67 +62,128 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: Yes
   * Propensity to go around obstacles: 15
 
+## Attack : Technician
+
+### Basic info
+
+  * Damage per shot: 0
+  * Shot count: 1
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 2s
+  * Salvos per clip: 1
+  * Calculated damage per second: 0
+
+|Level  |1    |2    |3    |4     |5     |6     |7     |8     |9     |10    |
+|-------|-----|-----|-----|------|------|------|------|------|------|------|
+|Damage*|860.0|910.0|970.0|1020.0|1070.0|1130.0|1180.0|1230.0|1330.0|1440.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 2.250s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 0%
+  * Heavy infantry: 0%
+  * Heavy vehicle: 0%
+  * Other building: 0%
+  * Droideka: 0%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 0%
+  * Heavy infantry hero: 0%
+  * Heavy vehicular hero: 0%
+  * Infantry hero: 0%
+  * Vehicle hero: 0%
+  * Infantry: 0%
+  * Ressource generator: 0%
+  * Shield: 0%
+  * Shield generator: 0%
+  * Storage: 0%
+  * Trap: 0%
+  * Turret: 0%
+  * Light vehicle: 0%
+  * Wall: 0%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: -0.2,0.77,-0.68
-  * iconCloseupCameraPosition: 
-  * eventButtonString: hn_open_galaxy
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
-  * bundleName: treadwell_rbl-ani
-  * infoUIType: Healer
-  * unlockPlanet: 
-  * iconCameraPosition: 5.8,11.77,14.32
-  * eventButtonAction: galaxy
-  * tooltipHeightOffset: 
-  * assetName: treadwell_rbl-ani
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: vehicles
+  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
+  * factoryScaleFactor: 1
+  * infoUIType: Healer
+  * upgradeShardUid: shrd_troopTreadwell
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * decalSize: 
+  * eventButtonString: hn_open_galaxy
+  * iconCloseupCameraPosition: 
+  * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
+  * iconCameraPosition: 5.8,11.77,14.32
+  * unlockPlanet: 
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: treadwell_rbl-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.2,0.77,-0.68
+  * assetName: treadwell_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+
+|Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|------------------|-----|--|--|--|--|--|--|--|--|--|
+|iconUnlockRotation|0,0,0|  |  |  |  |  |  |  |  |  |
+|iconUnlockScale   |1,1,1|  |  |  |  |  |  |  |  |  |
+|iconUnlockPosition|0,0,0|  |  |  |  |  |  |  |  |  |
 
 ## Uninterpreted stats
 
-  * unlockedByEvent: true
-  * impactDelay: 1000
+  * autoSpawnSpreadingScale: 1
   * maxScale: false
+  * armingDelay: 0
+  * impactDelay: 1000
+  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 500
-  * reload: 2000
   * supportFollowDistance: 5
   * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * upgradeShardUid: shrd_troopTreadwell
-  * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * chargeTime: 250
-  * xp: 0
+  * targetInRangeModifier: 1
 
-|Level             |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|iconUnlockScale   |1,1,1               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|iconUnlockPosition|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|iconUnlockRotation|0,0,0               |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|order             |234501              |234502              |234503              |234504              |234505              |234506              |234507              |234508              |234509              |234510               |
-|pointValue        |4.000               |4.800               |5.600               |6.400               |7.200               |8.000               |8.800               |9.600               |10.400              |12.000               |
-|projectileType    |projectileTreadwell1|projectileTreadwell2|projectileTreadwell3|projectileTreadwell4|projectileTreadwell5|projectileTreadwell6|projectileTreadwell7|projectileTreadwell8|projectileTreadwell9|projectileTreadwell10|
+|Level               |1             |2             |3             |4             |5             |6             |7             |8             |9             |10             |
+|--------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|---------------|
+|pointValue          |4.000         |4.800         |5.600         |6.400         |7.200         |8.000         |8.800         |9.600         |10.400        |12.000         |
+|projectileapplyBuffs|buffAdvRepair1|buffAdvRepair2|buffAdvRepair3|buffAdvRepair4|buffAdvRepair5|buffAdvRepair6|buffAdvRepair7|buffAdvRepair8|buffAdvRepair9|buffAdvRepair10|
+|order               |234501        |234502        |234503        |234504        |234505        |234506        |234507        |234508        |234509        |234510         |
 
