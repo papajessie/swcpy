@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (70)**, **Light vehicle (70)**, **Heavy infantry (70)**, **Flying vehicle (70)**, **Droideka (70)**, **Flying infantry (70)**, **Support troop (70)**, **Infantry (70)**, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (70)**, **Light vehicle (70)**, **Heavy infantry (70)**, **Heavy vehicle (70)**, **Infantry (70)**, **Flying vehicle (70)**, **Support troop (70)**, **Droideka (70)**, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 12
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 6
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -67,61 +65,130 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Speed       |40|40|40|40|40|40|80|80|80|80|
 |Acceleration|0 |0 |0 |0 |0 |0 |8 |8 |8 |8 |
 
+## Attack : T7-V Speederbike / Rebel Speeder Bike Upgrade
+
+### Basic info
+
+  * Shot count: 2
+  * Time between shots: 250ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1s
+  * Salvos per clip: 2
+
+|Level                                    |1    |2    |3    |4     |5     |6     |7     |8     |9     |10    |
+|-----------------------------------------|-----|-----|-----|------|------|------|------|------|------|------|
+|Damage per shot                          |1010 |1050 |1090 |1140  |1180  |1230  |1280  |1330  |1380  |1440  |
+|Time between start of clip and first shot|1s   |1s   |1s   |1s    |1s    |1s    |500ms |500ms |500ms |500ms |
+|Calculated damage per second             |897  |933  |968  |1013  |1048  |1093  |1462  |1520  |1577  |1645  |
+|Damage*                                  |900.0|930.0|970.0|1010.0|1050.0|1090.0|1460.0|1520.0|1580.0|1650.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2
+  * Salvos per clip: 2
+  * Number of cannons: 0
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+|Level       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|------------|------|------|------|------|------|------|------|------|------|------|
+|Clips period|2.250s|2.250s|2.250s|2.250s|2.250s|2.250s|1.750s|1.750s|1.750s|1.750s|
+
+### Multipliers
+
+  * Droideka: 100%
+
+|Level               |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|--------------------|----|----|----|----|----|----|----|----|----|----|
+|HQ                  |100%|100%|100%|100%|100%|100%|50% |50% |50% |50% |
+|Heavy infantry      |125%|125%|125%|125%|125%|125%|175%|175%|175%|175%|
+|Heavy vehicle       |50% |50% |50% |50% |50% |50% |200%|200%|200%|200%|
+|Other building      |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Flying infantry     |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Flying vehicle      |75% |75% |75% |75% |75% |75% |225%|225%|225%|225%|
+|Support troop       |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Heavy infantry hero |125%|125%|125%|125%|125%|125%|100%|100%|100%|100%|
+|Heavy vehicular hero|50% |50% |50% |50% |50% |50% |100%|100%|100%|100%|
+|Infantry hero       |150%|150%|150%|150%|150%|150%|100%|100%|100%|100%|
+|Vehicle hero        |75% |75% |75% |75% |75% |75% |100%|100%|100%|100%|
+|Infantry            |150%|150%|150%|150%|150%|150%|250%|250%|250%|250%|
+|Ressource generator |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Shield              |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Shield generator    |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Storage             |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Trap                |100%|100%|100%|100%|100%|100%|0%  |0%  |0%  |0%  |
+|Turret              |100%|100%|100%|100%|100%|100%|25% |25% |25% |25% |
+|Light vehicle       |75% |75% |75% |75% |75% |75% |225%|225%|225%|225%|
+|Wall                |100%|100%|100%|100%|100%|100%|75% |75% |75% |75% |
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_b_med
+  * projectilemuzzleFlash: fx_blaster_flash_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0,1,0
-  * iconLookatPosition: -0.23,1.14,-0.58
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
-  * audioTrain: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * bundleName: speederbike_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 14.18,12.02,20.78
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: speederbike_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 3927
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 14.18,12.02,20.78
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun1":1,"speederbike_rbl_rig_MASTER_MOVER/speederbike_rbl_rig_locator_gun2":2
+  * newRotationSpeed: 3927
+  * bundleName: speederbike_rbl-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.23,1.14,-0.58
+  * assetName: speederbike_rbl-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 250
-  * impactDelay: 500
-  * reload: 1000
-  * strictCoolDown: false
-  * shotCount: 2
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 1,2
-  * splash: 0
-  * autoSpawnRateScale: 2
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 500
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_blaster_beam_b_med
 
-|Level         |1                     |2                     |3                     |4                     |5                     |6                     |7                            |8                            |9                            |10                           |
-|--------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-|pointValue    |5.000                 |6.000                 |7.000                 |8.000                 |9.000                 |10.000                |11.000                       |12.000                       |13.000                       |15.000                       |
-|order         |230101                |230102                |230103                |230104                |230105                |230106                |230107                       |230108                       |230109                       |230110                       |
-|projectileType|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeeder|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|projectileRebelSpeederUpgrade|
-|chargeTime    |1000                  |1000                  |1000                  |1000                  |1000                  |1000                  |500                          |500                          |500                          |500                          |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
+|order     |230101|230102|230103|230104|230105|230106|230107|230108|230109|230110|
 

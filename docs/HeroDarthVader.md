@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (80)**, Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 6
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 3
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,66 +62,129 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : HERO Darth ATtack
+
+### Basic info
+
+  * Shot count: 2
+  * Time between start of clip and first shot: 0s
+  * Time between shots: 200ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 750ms
+  * Salvos per clip: 2
+
+|Level                       |1     |2     |3      |4      |5      |6      |7      |8      |9      |10     |
+|----------------------------|------|------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Damage per shot             |3900  |4680  |5460   |6240   |7020   |7800   |8580   |9360   |10140  |11700  |
+|Calculated damage per second|8210  |9852  |11494  |13136  |14778  |16421  |18063  |19705  |21347  |24631  |
+|Damage*                     |8210.0|9852.0|11494.0|13136.0|14778.0|16421.0|18063.0|19705.0|21347.0|24631.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2
+  * Salvos per clip: 2
+  * Number of cannons: 0
+  * Clips period: 950ms
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 25
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 60%
+  * Heavy vehicle: 100%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 60%
+  * Heavy vehicular hero: 60%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 85%
+  * Shield: 150%
+  * Shield generator: 100%
+  * Storage: 85%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_darthsaber_hit
+  * projectilemuzzleFlash: 
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.27,1.69,-0.32
-  * iconCloseupCameraPosition: 0.17,0.86,11.66
-  * eventButtonString: 
-  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_hero_vader_1":100
-  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.1,2.86,-0.67
-  * audioPlacement: "sfx_placement_hero_vader_1":100
-  * bundleName: darthvader_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 15.97,7.67,16.77
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: darthvader_emp-ani
-  * eventButtonData: 
-  * hologramUid: HeroHologramDarthVader
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 230
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_hero_vader_1":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 0.17,0.86,11.66
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 15.97,7.67,16.77
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * newRotationSpeed: 7854
+  * bundleName: darthvader_emp-ani
+  * iconCloseupLookatPosition: 0.1,2.86,-0.67
+  * unlockedByEvent: 
+  * audioAttack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_vader_1":100
+  * audioImpact: 
+  * hologramUid: HeroHologramDarthVader
+  * iconLookatPosition: -0.27,1.69,-0.32
+  * assetName: darthvader_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 230
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_emp
-  * effectType: 2
-  * shotDelay: 200
-  * impactDelay: 250
-  * maxScale: false
-  * ability: abilityHeroDarthDefend
-  * autoSpawnRateScale: 1
-  * spawnEffectUid: effectEmpireSpawn
-  * targetInRangeModifier: 1
-  * decalAssetName: tac_hero_emp
-  * reload: 750
-  * strictCoolDown: false
-  * shotCount: 2
-  * armingDelay: 0
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1,2
-  * splash: 0
-  * projectileType: projectileHeroDarthAttack
-  * chargeTime: 0
-  * xp: 0
+  * autoSpawnRateScale: 1
+  * decalAssetName: tac_hero_emp
+  * ability: abilityHeroDarthDefend
+  * armingDelay: 0
+  * impactDelay: 250
+  * projectilestreams: no
+  * effectType: 2
+  * decalBundleName: tac_hero_emp
+  * maxScale: false
+  * projectilebullet: fx_darthsaber_hit
+  * spawnEffectUid: effectEmpireSpawn
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |110601|110602|110603|110604|110605|110606|110607|110608|110609|110610|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |110601|110602|110603|110604|110605|110606|110607|110608|110609|110610|
 

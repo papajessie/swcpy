@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Vehicle hero (60)_, _Droideka (60)_, _Heavy vehicular hero (60)_, Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Support troop (50), Shield (50), HQ (40), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Heavy infantry (70)**, **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Light vehicle (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Vehicle hero (60)_, _Droideka (60)_, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), Support troop (50), HQ (40), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
   * Retargeting offset: 8
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 4
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -61,39 +59,108 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : Krayt Dragon Blaster
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 750ms
+  * Time between shots: 1s
+  * Time between last shot and reload: 0s
+  * Time between two clips: 0s
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |4613  |4763  |4925  |5088  |5263  |5438  |5625  |5813  |6013  |6225  |
+|Calculated damage per second|6150  |6350  |6566  |6784  |7017  |7250  |7500  |7750  |8017  |8300  |
+|Damage*                     |4613.0|2928.0|2928.0|2928.0|2928.0|2928.0|2928.0|2928.0|2928.0|2928.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 2,1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 750ms
+  * Projectile passes through shields: Yes
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 200%
+  * Heavy vehicle: 100%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicular hero: 100%
+  * Infantry hero: 200%
+  * Vehicle hero: 200%
+  * Infantry: 200%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 125%
+  * Turret: 125%
+  * Light vehicle: 200%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: 0.73,1.52,-0.71
-  * iconCloseupCameraPosition: 39.19,48.81,48.9
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
-  * decalSize: 
-  * shieldAssetName: 
   * audioDeath: "sfx_death_krayt_1":100
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * audioTrain: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.73,1.52,-0.71
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * bundleName: kraytdragonfast_neu-ani
   * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 39.19,48.81,48.9
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: kraytdragonfast_neu-ani
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
   * eventButtonData: 
-  * hologramUid: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 39.19,48.81,48.9
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 39.19,48.81,48.9
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * newRotationSpeed: 2000
+  * bundleName: kraytdragonfast_neu-ani
+  * iconCloseupLookatPosition: 0.73,1.52,-0.71
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
+  * eventButtonAction: 
   * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: 0.73,1.52,-0.71
+  * assetName: kraytdragonfast_neu-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * animationDelay: 1500
+  * iconUnlockPosition: 
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -101,21 +168,14 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * shotDelay: 1000
-  * impactDelay: 0
-  * reload: 0
-  * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 2,1
-  * splash: 0
-  * projectileType: projectileMeleeKraytDragon
-  * chargeTime: 750
-  * autoSpawnRateScale: 2
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 0
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

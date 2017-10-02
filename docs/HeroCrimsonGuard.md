@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Droideka (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Infantry hero (60)_, Vehicle hero (50), HQ (50), Ressource generator (50), Shield generator (50), Storage (50), Other building (50), Shield (50), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, _Light vehicle (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry hero (60)_, _Heavy vehicular hero (60)_, _Infantry (60)_, _Heavy infantry hero (60)_, _Support troop (60)_, _Droideka (60)_, Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), Vehicle hero (50), HQ (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 4
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 2
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,60 +62,122 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Melee Crimson Guard Slice
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 100ms
+  * Time between shots: 100ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1s
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |2860  |3432  |4004  |4576  |5148  |5720  |6292  |6864  |7436  |8580  |
+|Calculated damage per second|2600  |3120  |3640  |4160  |4680  |5200  |5720  |6240  |6760  |7800  |
+|Damage*                     |2600.0|3120.0|3640.0|4160.0|4680.0|5200.0|5720.0|6240.0|6760.0|7800.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 1.0100s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 125%
+  * Heavy vehicle: 75%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 150%
+  * Heavy infantry hero: 125%
+  * Heavy vehicular hero: 75%
+  * Infantry hero: 150%
+  * Vehicle hero: 100%
+  * Infantry: 150%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 80%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_headbutt_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.35,0.00
-  * iconLookatPosition: 0.06,1.72,0.04
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_hero_crimsonguard_1":100
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
-  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
-  * bundleName: crimsonguard_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 7.77,6.46,23.13
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: crimsonguard_emp-ani
-  * eventButtonData: 
-  * hologramUid: HeroHologramCrimsonGuard
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1000
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_hero_crimsonguard_1":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 0.01,1.3,10.4
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 7.77,6.46,23.13
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * newRotationSpeed: 7854
+  * bundleName: crimsonguard_emp-ani
+  * iconCloseupLookatPosition: 0.03,2.77,-0.19
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
+  * audioImpact: 
+  * hologramUid: HeroHologramCrimsonGuard
+  * iconLookatPosition: 0.06,1.72,0.04
+  * assetName: crimsonguard_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 1
+  * autoSpawnRateScale: 1
   * decalAssetName: tac_hero_emp
-  * decalBundleName: tac_hero_emp
-  * reload: 1000
-  * shotDelay: 100
-  * strictCoolDown: false
-  * shotCount: 1
   * armingDelay: 0
   * impactDelay: 0
+  * projectilestreams: no
+  * decalBundleName: tac_hero_emp
   * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileMeleeCrimsonGuard
-  * chargeTime: 100
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
   * targetInRangeModifier: 1
-  * xp: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

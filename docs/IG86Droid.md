@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying vehicle (60)_, _Flying infantry (60)_, _Support troop (60)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Storage (50), Other building (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 5
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,64 +62,127 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : IG-86 Droid
+
+### Basic info
+
+  * Shot count: 7
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 150ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 2s
+  * Salvos per clip: 7
+
+|Level                       |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
+|----------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
+|Damage per shot             |1236             |1243             |1268             |1277             |1286             |1295             |1354             |1387             |1421             |1464              |
+|Calculated damage per second|2746             |2762             |2817             |2837             |2857             |2877             |3008             |3082             |3157             |3253              |
+|Damage*                     |2746.666666666667|2762.222222222222|2817.777777777778|2837.777777777778|2857.777777777778|2877.777777777778|3008.888888888889|3082.222222222222|3157.777777777778|3253.3333333333335|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 7
+  * Number of cannons: 0
+  * Clips period: 3.150s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 25%
+  * Heavy vehicle: 25%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 50%
+  * Support troop: 50%
+  * Heavy infantry hero: 25%
+  * Heavy vehicular hero: 25%
+  * Infantry hero: 50%
+  * Vehicle hero: 50%
+  * Infantry: 50%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 50%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * eventButtonString: hn_open_galaxy
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * bundleName: ig86_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 5.5,12.03,13.9
-  * eventButtonAction: galaxy
-  * tooltipHeightOffset: 
-  * assetName: ig86_emp-ani
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: shrd_troopIG86Droid
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * decalSize: 
+  * eventButtonString: hn_open_galaxy
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * iconCameraPosition: 5.5,12.03,13.9
+  * unlockPlanet: 
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: ig86_emp-ani
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.4,1.24,-0.81
+  * assetName: ig86_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
+
+|Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|---------------|-----------|--|--|--|--|--|--|--|--|--|
+|iconUnlockScale|1.2,1.2,1.2|  |  |  |  |  |  |  |  |  |
 
 ## Uninterpreted stats
 
-  * shotDelay: 150
-  * unlockedByEvent: true
-  * reload: 2000
-  * strictCoolDown: false
-  * shotCount: 7
-  * armingDelay: 0
-  * impactDelay: 1000
-  * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * upgradeShardUid: shrd_troopIG86Droid
-  * projectileType: projectileIG86Droid
-  * chargeTime: 250
-  * autoSpawnRateScale: 1
   * autoSpawnSpreadingScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 1
+  * projectilebullet: fx_blaster_beam_r_sm
 
-|Level          |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|pointValue     |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000     |
-|iconUnlockScale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|order          |134201     |134202     |134203     |134204     |134205     |134206     |134207     |134208     |134209     |134210     |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|order     |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
 

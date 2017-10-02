@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **HQ (50)**, **Ressource generator (50)**, **Droideka (50)**, **Shield generator (50)**, **Flying infantry (50)**, **Turret (50)**, **Storage (50)**, **Other building (50)**, **Support troop (50)**, **Infantry (50)**, **Shield (50)**, Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 7
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,62 +62,122 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Storm
+
+### Basic info
+
+  * Shot count: 5
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 300ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 5
+  * Damage*: 1920.0
+
+|Level                       |1  |2  |3  |4   |5   |
+|----------------------------|---|---|---|----|----|
+|Damage per shot             |345|388|428|468 |508 |
+|Calculated damage per second|784|881|972|1063|1154|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 2.200s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 15
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicular hero: 100%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: -0.44,1.26,-0.82
-  * iconCloseupCameraPosition: 3.46,6.58,11.02
-  * eventButtonString: hn_open_galaxy
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: securitydroid_con-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 7.57,15.79,19.1
-  * eventButtonAction: galaxy
-  * tooltipHeightOffset: 
-  * assetName: securitydroid_con-ani
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: shrd_troopSecurityDroid
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * decalSize: 
+  * eventButtonString: hn_open_galaxy
+  * iconCloseupCameraPosition: 3.46,6.58,11.02
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
+  * iconCameraPosition: 7.57,15.79,19.1
+  * iconUnlockScale: 1.1,1.1,1.1
+  * unlockPlanet: 
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: securitydroid_con-ani
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.44,1.26,-0.82
+  * assetName: securitydroid_con-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 300
-  * unlockedByEvent: true
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
   * pointValue: 4.000
-  * reload: 500
-  * strictCoolDown: false
-  * shotCount: 5
   * armingDelay: 0
   * impactDelay: 1000
-  * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * iconUnlockScale: 1.1,1.1,1.1
-  * upgradeShardUid: shrd_troopSecurityDroid
-  * projectileType: projectileStorm
-  * chargeTime: 500
+  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
+  * projectilebullet: fx_blaster_beam_r_sm
+  * strictCoolDown: false
   * targetInRangeModifier: 1
-  * xp: 0
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|

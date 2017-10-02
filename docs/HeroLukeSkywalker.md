@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Flying infantry (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (80)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 7
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,66 +62,129 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : HERO Luke Attack
+
+### Basic info
+
+  * Shot count: 2
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 2
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |1500  |1800  |2100  |2400  |2700  |3000  |3300  |3600  |3900  |4500  |
+|Calculated damage per second|2400  |2880  |3360  |3840  |4320  |4800  |5280  |5760  |6240  |7200  |
+|Damage*                     |2400.0|2880.0|3360.0|3840.0|4320.0|4800.0|5280.0|5760.0|6240.0|7200.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 2
+  * Number of cannons: 0
+  * Clips period: 1.250s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 25
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 60%
+  * Heavy vehicle: 100%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 60%
+  * Heavy vehicular hero: 60%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 85%
+  * Shield: 200%
+  * Shield generator: 100%
+  * Storage: 85%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 75%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_b_sm
+  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.45,1.28,-0.62
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_hero_luke":100
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * bundleName: lukeskywalker_rbl-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 9.95,9.78,16.61
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: lukeskywalker_rbl-ani
-  * eventButtonData: 
-  * hologramUid: HeroHologramLukeSkywalker
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_hero_luke":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 0.34,1.87,9.02
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 9.95,9.78,16.61
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * newRotationSpeed: 7854
+  * bundleName: lukeskywalker_rbl-ani
+  * iconCloseupLookatPosition: 0.02,2.48,-0.32
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_luke":100
+  * audioImpact: 
+  * hologramUid: HeroHologramLukeSkywalker
+  * iconLookatPosition: -0.45,1.28,-0.62
+  * assetName: lukeskywalker_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * decalBundleName: tac_hero_rbl
-  * shotDelay: 500
-  * impactDelay: 250
-  * maxScale: false
-  * ability: abilityHeroLukeDefend
-  * autoSpawnRateScale: 1
-  * spawnEffectUid: effectRebelSpawn
-  * targetInRangeModifier: 1
-  * decalAssetName: tac_hero_rbl
-  * reload: 500
-  * strictCoolDown: false
-  * shotCount: 2
-  * armingDelay: 0
   * autoSpawnSpreadingScale: 0
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileHeroLukeAttack
-  * chargeTime: 250
-  * xp: 0
+  * autoSpawnRateScale: 1
+  * decalAssetName: tac_hero_rbl
+  * ability: abilityHeroLukeDefend
+  * armingDelay: 0
+  * impactDelay: 250
+  * projectilestreams: no
+  * decalBundleName: tac_hero_rbl
+  * maxScale: false
+  * projectilebullet: fx_blaster_beam_b_sm
+  * spawnEffectUid: effectRebelSpawn
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
 |order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

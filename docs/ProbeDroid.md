@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (60)**, **Light vehicle (60)**, **Heavy infantry (60)**, **Flying vehicle (60)**, **Droideka (60)**, **Flying infantry (60)**, **Support troop (60)**, **Infantry (60)**, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Flying infantry (60)**, **Light vehicle (60)**, **Heavy infantry (60)**, **Heavy vehicle (60)**, **Infantry (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Droideka (60)**, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 14
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 7
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,58 +62,121 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : ProbeDroid
+
+### Basic info
+
+  * Shot count: 4
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 250ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 4
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |490   |510   |540   |560   |590   |610   |640   |670   |710   |740   |
+|Calculated damage per second|1120  |1165  |1234  |1280  |1348  |1394  |1462  |1531  |1622  |1691  |
+|Damage*                     |1120.0|1170.0|1230.0|1280.0|1350.0|1390.0|1460.0|1530.0|1620.0|1690.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 4
+  * Number of cannons: 0
+  * Clips period: 1.750s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 15
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 75%
+  * Heavy infantry: 200%
+  * Heavy vehicle: 125%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 400%
+  * Flying vehicle: 150%
+  * Support troop: 400%
+  * Heavy infantry hero: 200%
+  * Heavy vehicular hero: 125%
+  * Infantry hero: 400%
+  * Vehicle hero: 150%
+  * Infantry: 400%
+  * Ressource generator: 75%
+  * Shield: 75%
+  * Shield generator: 75%
+  * Storage: 75%
+  * Trap: 75%
+  * Turret: 75%
+  * Light vehicle: 150%
+  * Wall: 75%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,2,0.00
-  * iconLookatPosition: 0.53,3.67,-0.56
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_probedroid_1":100
-  * bundleName: viperprobedroid_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: -18.83,17.64,22.74
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: viperprobedroid_emp-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_empire_probedroid_1":50,"sfx_death_empire_probedroid_2":50
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_probedroid_1":100
+  * iconCameraPosition: -18.83,17.64,22.74
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * newRotationSpeed: 7854
+  * bundleName: viperprobedroid_emp-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_probedroid_1":30,"sfx_attack_empire_probedroid_2":35,"sfx_attack_empire_probedroid_3":35
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_probedroid_1":100
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: 0.53,3.67,-0.56
+  * assetName: viperprobedroid_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 250
-  * impactDelay: 500
-  * reload: 500
-  * strictCoolDown: false
-  * shotCount: 4
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileProbeDroid
-  * chargeTime: 500
-  * autoSpawnRateScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 500
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 1
+  * projectilebullet: fx_blaster_beam_r_sm
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

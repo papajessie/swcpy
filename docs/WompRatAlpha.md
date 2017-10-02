@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Light vehicle (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, _Heavy vehicle (60)_, _Vehicle hero (60)_, _Heavy infantry (60)_, _Heavy vehicular hero (60)_, HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Light vehicle (70)**, **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Support troop (70)**, **Droideka (70)**, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Vehicle hero (60)_, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 8
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 4
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -62,61 +60,123 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : WompRatAlpha
+
+### Basic info
+
+  * Shot count: 2
+  * Time between start of clip and first shot: 150ms
+  * Time between shots: 150ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1s
+  * Salvos per clip: 2
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9      |10     |
+|----------------------------|------|------|------|------|------|------|------|------|-------|-------|
+|Damage per shot             |2530  |3036  |3542  |4048  |4554  |5060  |5566  |6072  |6578   |7590   |
+|Calculated damage per second|3892  |4670  |5449  |6227  |7006  |7784  |8563  |9341  |10120  |11676  |
+|Damage*                     |3892.0|4670.0|5449.0|6227.0|7006.0|7784.0|8563.0|9341.0|10120.0|11676.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 2
+  * Number of cannons: 0
+  * Clips period: 1.300s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 75%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 50%
+  * Infantry hero: 75%
+  * Vehicle hero: 75%
+  * Infantry: 75%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 50%
+  * Turret: 50%
+  * Light vehicle: 75%
+  * Wall: 50%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_scratch_lrg
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.33,0.00
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * gunPosition: 
-  * audioTrain: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: 
-  * bundleName: wompratlarge_neu-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 11.42,11.67,7.56
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: wompratlarge_neu-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1000
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 11.42,11.67,7.56
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: wompratlarge_neu-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.07,0.16,-0.08
+  * assetName: wompratlarge_neu-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 1000
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 1
+  * autoSpawnRateScale: 1
   * decalAssetName: tac_hero_neu
-  * decalBundleName: tac_hero_neu
-  * reload: 1000
-  * shotDelay: 150
-  * strictCoolDown: false
-  * shotCount: 2
   * armingDelay: 0
   * impactDelay: 250
-  * xp: 0
-  * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileMeleeWompRatAlpha
-  * chargeTime: 150
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+  * projectilestreams: no
   * uiDecalAssetName: HeroDecalNeutral
+  * decalBundleName: tac_hero_neu
+  * maxScale: false
+  * strictCoolDown: false
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

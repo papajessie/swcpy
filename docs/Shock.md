@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (90)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Flying infantry (50), Turret (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1)
+  * Target preferences: **Trap (90)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1)
   * Targeted type: ENEMIES
   * View Range: 21
   * Target preferences strength: 90
   * Retargeting offset: 18
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 9
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -67,66 +65,127 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------------------------|--|---|---|---|---|---|---|---|---|---|
 |Propensity to go around obstacles|15|200|200|200|200|200|200|200|200|200|
 
+## Attack : Shock Rocket
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 500ms
+  * Time between shots: 250ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 3s
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |2340  |2512  |2692  |2892  |3100  |3332  |3580  |3852  |4152  |4470  |
+|Calculated damage per second|668   |717   |769   |826   |885   |952   |1022  |1100  |1186  |1277  |
+|Damage*                     |2340.0|2512.0|2692.0|2892.0|3100.0|3332.0|3580.0|3852.0|4152.0|4470.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 3.500s
+  * Projectile passes through shields: Yes
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 200%
+  * Heavy infantry: 25%
+  * Heavy vehicle: 75%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 100%
+  * Support troop: 50%
+  * Heavy infantry hero: 25%
+  * Heavy vehicular hero: 75%
+  * Infantry hero: 50%
+  * Vehicle hero: 100%
+  * Infantry: 50%
+  * Ressource generator: 75%
+  * Shield: 75%
+  * Shield generator: 75%
+  * Storage: 75%
+  * Trap: 500%
+  * Turret: 75%
+  * Light vehicle: 100%
+  * Wall: 700%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_shocktrooper_vanguard_hit
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: -0.06,1.53,-0.1
-  * iconCloseupCameraPosition: 0.64,0.41,9.27
-  * eventButtonString: hn_open_tat
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 0.07,2.85,0.16
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: shotrper_emp-ani
-  * infoUIType: 
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * iconCameraPosition: 12.08,15.01,15.66
-  * eventButtonAction: planet
-  * tooltipHeightOffset: 
-  * assetName: shotrper_emp-ani
-  * eventButtonData: planet1
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * animationDelay: 0
   * favoriteTargetType: trap
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: shrd_troopShock
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: planet1
+  * decalSize: 
+  * eventButtonString: hn_open_tat
+  * iconCloseupCameraPosition: 0.64,0.41,9.27
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * iconCameraPosition: 12.08,15.01,15.66
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * newRotationSpeed: 7854
+  * bundleName: shotrper_emp-ani
+  * iconCloseupLookatPosition: 0.07,2.85,0.16
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
+  * hologramUid: 
+  * iconLookatPosition: -0.06,1.53,-0.1
+  * assetName: shotrper_emp-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+
+|Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|------------------|-----|--|--|--|--|--|--|--|--|--|
+|iconUnlockRotation|0,0,0|  |  |  |  |  |  |  |  |  |
+|iconUnlockScale   |1,1,1|  |  |  |  |  |  |  |  |  |
+|iconUnlockPosition|0,0,0|  |  |  |  |  |  |  |  |  |
 
 ## Uninterpreted stats
 
-  * unlockedByEvent: true
-  * impactDelay: 1000
-  * maxScale: false
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
-  * shotDelay: 250
-  * reload: 3000
-  * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * upgradeShardUid: shrd_troopShock
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * chargeTime: 500
-  * xp: 0
+  * maxScale: false
+  * targetInRangeModifier: 1
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 1
+  * projectilebullet: fx_rocket_projectile_r_sm
 
-|Level             |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|iconUnlockPosition|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|iconUnlockScale   |1,1,1                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
-|order             |121201               |121202               |121203               |121204               |121205               |121206               |121207               |121208               |121209               |121210                |
-|projectileType    |projectileShockLevel1|projectileShockLevel2|projectileShockLevel3|projectileShockLevel4|projectileShockLevel5|projectileShockLevel6|projectileShockLevel7|projectileShockLevel8|projectileShockLevel9|projectileShockLevel10|
-|pointValue        |3.000                |3.600                |4.200                |4.800                |5.400                |6.000                |6.600                |7.200                |7.800                |9.000                 |
-|iconUnlockRotation|0,0,0                |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
+|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------|------|------|------|------|------|------|------|------|------|------|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|order     |121201|121202|121203|121204|121205|121206|121207|121208|121209|121210|
 

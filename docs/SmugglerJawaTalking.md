@@ -29,15 +29,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (70)**, **Shield (70)**, _Ressource generator (60)_, _Storage (60)_, _Other building (60)_, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Droideka (50), Flying infantry (50), Turret (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Storage (60)_, _Other building (60)_, _Ressource generator (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Heavy vehicle (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 1
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 1
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -58,58 +56,118 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : SmugglerSaboteur
+
+### Basic info
+
+  * Damage per shot: 1
+  * Shot count: 5
+  * Time between start of clip and first shot: 1ms
+  * Time between shots: 1ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1ms
+  * Salvos per clip: 5
+  * Calculated damage per second: 833
+  * Damage*: 1.0
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 5
+  * Number of cannons: 0
+  * Clips period: 6ms
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 30
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicular hero: 100%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 100%
+  * Shield: 175%
+  * Shield generator: 250%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 150%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_y_sm
+  * projectilemuzzleFlash: fx_blaster_flash_y_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.15,0.8,-0.39
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: 
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: 
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 1
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: 
-  * bundleName: jawatalking_neu-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: -1.2,4.65,15.26
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: jawatalking_neu-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 1
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: 
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: -1.2,4.65,15.26
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * newRotationSpeed: 1
+  * bundleName: jawatalking_neu-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: 
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.15,0.8,-0.39
+  * assetName: jawatalking_neu-ani
+  * rotationSpeed: 1
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 1
-  * impactDelay: 1
-  * pointValue: 0.000
-  * reload: 1
-  * strictCoolDown: false
-  * shotCount: 5
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * order: 372201
-  * projectileType: projectileSmugglerSaboteur
-  * chargeTime: 1
-  * autoSpawnRateScale: 1
+  * maxScale: false
+  * pointValue: 0.000
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * order: 372201
+  * autoSpawnRateScale: 1
+  * projectilebullet: fx_blaster_beam_y_sm
 

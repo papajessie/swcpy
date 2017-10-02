@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield generator (90)**, **Shield (90)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Flying infantry (50), Turret (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Shield (90)**, **Shield generator (90)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Storage (50), Other building (50), Heavy vehicle (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 10
   * Target preferences strength: 90
   * Retargeting offset: 16
   * Clip retargeting: No
   * Target shield border: Yes
-  * Max. Range: 8
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,58 +62,121 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : ATMP
+
+### Basic info
+
+  * Shot count: 4
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 200ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 2s
+  * Salvos per clip: 4
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |2310  |2440  |2580  |2730  |2890  |3060  |3240  |3430  |3630  |3850  |
+|Calculated damage per second|3242  |3424  |3621  |3831  |4056  |4294  |4547  |4814  |5094  |5403  |
+|Damage*                     |3240.0|3420.0|3620.0|3830.0|4060.0|4290.0|4550.0|4810.0|5090.0|5400.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,3,5,2,4,6
+  * Salvos per clip: 4
+  * Number of cannons: 0
+  * Clips period: 2.850s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 12
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 6
+  * Cannons shot per gun sequence: 6
+
+### Multipliers
+
+  * HQ: 75%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicular hero: 100%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 75%
+  * Shield: 400%
+  * Shield generator: 400%
+  * Storage: 75%
+  * Trap: 75%
+  * Turret: 75%
+  * Light vehicle: 100%
+  * Wall: 60%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_rocket_hit_r_sm
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,3.0,0.00
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_atmp_1":100
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 2
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * bundleName: atmp_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 22.45,15.49,39.24
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: atmp_emp-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 2000
-  * factoryRotation: -90
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * animationDelay: 0
   * favoriteTargetType: shieldGenerator
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 22.45,15.49,39.24
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * newRotationSpeed: 2000
+  * bundleName: atmp_emp-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * eventButtonAction: 
+  * factoryRotation: -90
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * hologramUid: 
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * assetName: atmp_emp-ani
+  * rotationSpeed: 2
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 200
-  * impactDelay: 1000
-  * reload: 2000
-  * strictCoolDown: false
-  * shotCount: 4
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 1,3,5,2,4,6
-  * splash: 0
-  * projectileType: projectileATMP
-  * chargeTime: 250
-  * autoSpawnRateScale: 2
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_rocket_projectile_r_sm
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _HQ (60)_, _Ressource generator (60)_, _Shield generator (60)_, _Storage (60)_, _Other building (60)_, _Shield (60)_, Heavy vehicle (50), Light vehicle (50), Vehicle hero (50), Heavy infantry (50), Flying vehicle (50), Droideka (50), Flying infantry (50), Support troop (50), Infantry (50), Heavy vehicular hero (50), Heavy infantry hero (50), Infantry hero (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Shield (60)_, _Storage (60)_, _Other building (60)_, _Shield generator (60)_, _Ressource generator (60)_, _HQ (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry hero (50), Heavy vehicular hero (50), Infantry (50), Flying vehicle (50), Heavy infantry hero (50), Vehicle hero (50), Support troop (50), Droideka (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 100
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 7
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,39 +62,108 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : SmugglerRenegade
+
+### Basic info
+
+  * Shot count: 3
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 125ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 500ms
+  * Salvos per clip: 3
+
+|Level                       |1   |2    |3    |4    |5     |6     |7     |8     |9     |10    |
+|----------------------------|----|-----|-----|-----|------|------|------|------|------|------|
+|Damage per shot             |114 |136  |159  |182  |204   |227   |250   |272   |295   |340   |
+|Calculated damage per second|342 |408  |477  |546  |612   |681   |750   |816   |885   |1020  |
+|Damage*                     |93.0|112.0|130.0|149.0|1008.0|1120.0|1232.0|1344.0|1456.0|1680.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1,2
+  * Salvos per clip: 3
+  * Number of cannons: 0
+  * Clips period: 1s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 2
+  * Cannons shot per gun sequence: 2
+
+### Multipliers
+
+  * HQ: 125%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 125%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 50%
+  * Infantry hero: 100%
+  * Vehicle hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 125%
+  * Shield: 100%
+  * Shield generator: 75%
+  * Storage: 125%
+  * Trap: 300%
+  * Turret: 300%
+  * Light vehicle: 100%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_y_med
+  * projectilemuzzleFlash: fx_blaster_flash_y_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0,1,0
-  * iconLookatPosition: -0.42,1.29,-0.61
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * bundleName: speederbike_smg-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 14.41,12.49,21.37
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: speederbike_smg-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * iconCameraPosition: 14.41,12.49,21.37
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * newRotationSpeed: 7854
+  * bundleName: speederbike_smg-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * assetName: speederbike_smg-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 |Level     |1                                                                                                                      |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |----------|-----------------------------------------------------------------------------------------------------------------------|--|--|--|--|--|--|--|--|--|
@@ -104,21 +171,15 @@ These graphical elements shouldn't interfere with gameplay and can safely be ign
 
 ## Uninterpreted stats
 
-  * shotDelay: 125
-  * impactDelay: 1000
-  * reload: 500
-  * strictCoolDown: false
-  * shotCount: 3
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 1,2
-  * splash: 0
-  * projectileType: projectileSmugglerRenegade
-  * chargeTime: 250
-  * autoSpawnRateScale: 2
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * armingDelay: 0
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_blaster_beam_y_med
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

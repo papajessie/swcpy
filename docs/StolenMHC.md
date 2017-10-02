@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy vehicle (50), Light vehicle (50), Heavy infantry (50), Flying vehicle (50), HQ (50), Ressource generator (50), Droideka (50), Shield generator (50), Flying infantry (50), Storage (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 10
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,58 +62,121 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 200
 
+## Attack : projectileMHC
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 900ms
+  * Time between shots: 200ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 900ms
+  * Salvos per clip: 1
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |2160  |2592  |3024  |3456  |3888  |4320  |4752  |5184  |5616  |6480  |
+|Calculated damage per second|1200  |1440  |1680  |1920  |2160  |2400  |2640  |2880  |3120  |3600  |
+|Damage*                     |1200.0|1440.0|1680.0|1920.0|2160.0|2400.0|2640.0|2880.0|3120.0|3600.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 1.800s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 12
+  * Projectile is directional: No
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 25%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 250%
+  * Other building: 25%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 300%
+  * Support troop: 50%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 250%
+  * Infantry hero: 50%
+  * Vehicle hero: 300%
+  * Infantry: 50%
+  * Ressource generator: 25%
+  * Shield: 25%
+  * Shield generator: 25%
+  * Storage: 25%
+  * Trap: 200%
+  * Turret: 200%
+  * Light vehicle: 300%
+  * Wall: 80%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_UMHC_hit_r_lrg
+  * projectilemuzzleFlash: fx_UMHC_muzzle_r_lrg
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.90,0
-  * iconLookatPosition: -0.33,0.73,-0.17
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_empire_umhc_1":100
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
-  * audioTrain: 
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * bundleName: umhc_emp-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 30.35,41.15,37.35
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: umhc_emp-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 15708
-  * factoryRotation: 90
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: turret
+  * audioDeath: "sfx_death_empire_umhc_1":100
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 30.35,41.15,37.35
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * newRotationSpeed: 15708
+  * bundleName: umhc_emp-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
+  * eventButtonAction: 
+  * factoryRotation: 90
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * assetName: umhc_emp-ani
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 200
-  * impactDelay: 500
-  * reload: 900
-  * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 2
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileMHC
-  * chargeTime: 900
-  * autoSpawnRateScale: 2
+  * maxScale: false
+  * armingDelay: 0
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 500
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_UMHC_projectile_r_lrg
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

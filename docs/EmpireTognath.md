@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, Heavy vehicle (50), Light vehicle (50), Flying vehicle (50), HQ (50), Ressource generator (50), Shield generator (50), Turret (50), Storage (50), Other building (50), Shield (50), Vehicle hero (1), Wall (1), Heavy vehicular hero (1), Heavy infantry hero (1), Infantry hero (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Flying infantry (60)_, _Heavy infantry (60)_, _Infantry (60)_, _Support troop (60)_, Light vehicle (50), Turret (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Flying vehicle (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 20
   * Clip retargeting: Yes
   * Target shield border: No
-  * Max. Range: 10
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -64,64 +62,127 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 15
 
+## Attack : Tognath
+
+### Basic info
+
+  * Shot count: 4
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1.500s
+  * Salvos per clip: 4
+
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Damage per shot             |976   |1168  |1361  |1558  |1754  |1947  |2144  |2336  |2529  |2918  |
+|Calculated damage per second|1201  |1437  |1675  |1917  |2158  |2396  |2638  |2875  |3112  |3591  |
+|Damage*                     |1200.0|1435.0|1675.0|1915.0|2160.0|2400.0|2640.0|2875.0|3115.0|3590.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 4
+  * Number of cannons: 0
+  * Clips period: 3.250s
+  * Projectile passes through shields: No
+  * Projectile deflectable: Yes
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 250%
+  * Heavy vehicle: 150%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 300%
+  * Flying vehicle: 200%
+  * Support troop: 300%
+  * Heavy infantry hero: 250%
+  * Heavy vehicular hero: 150%
+  * Infantry hero: 300%
+  * Vehicle hero: 200%
+  * Infantry: 300%
+  * Ressource generator: 100%
+  * Shield: 50%
+  * Shield generator: 50%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 200%
+  * Wall: 40%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: fragment_obtain_gen
   * buffAssetOffset: 
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * eventButtonString: hn_open_galaxy
-  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * bundleName: tognath_con-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 9.66,10.8,15.86
-  * eventButtonAction: galaxy
-  * tooltipHeightOffset: 
-  * assetName: tognath_con-ani
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: champion
+  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: shrd_troopEmpireTognath
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * decalSize: 
+  * eventButtonString: hn_open_galaxy
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * iconCameraPosition: 9.66,10.8,15.86
+  * unlockPlanet: 
+  * eventFeaturesString: fragment_obtain_gen
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: tognath_con-ani
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * unlockedByEvent: true
+  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.63,1.31,-0.68
+  * assetName: tognath_con-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
+
+|Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|---------------|-----------|--|--|--|--|--|--|--|--|--|
+|iconUnlockScale|1.2,1.2,1.2|  |  |  |  |  |  |  |  |  |
 
 ## Uninterpreted stats
 
-  * shotDelay: 500
-  * unlockedByEvent: true
-  * reload: 1500
-  * strictCoolDown: false
-  * shotCount: 4
-  * armingDelay: 0
-  * impactDelay: 1000
-  * maxScale: false
-  * gunSequence: 1
-  * splash: 0
-  * upgradeShardUid: shrd_troopEmpireTognath
-  * projectileType: projectileEmpireTognath
-  * chargeTime: 250
-  * autoSpawnRateScale: 2
   * autoSpawnSpreadingScale: 2
+  * maxScale: false
+  * armingDelay: 0
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 2
+  * projectilebullet: fx_blaster_beam_r_sm
 
-|Level          |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
-|---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|ability        |abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
-|iconUnlockScale|1.2,1.2,1.2        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)         |
-|order          |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
+|Level  |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
+|-------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
+|ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
+|order  |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
 

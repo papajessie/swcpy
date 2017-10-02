@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy infantry (50)**, **Flying vehicle (50)**, **Droideka (50)**, **Flying infantry (50)**, **Infantry (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, HQ (0), Wall (0), Ressource generator (0), Shield generator (0), Trap (0), Turret (0), Storage (0), Other building (0), Support troop (0), Shield (0)
+  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy vehicular hero (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Heavy infantry hero (50)**, **Vehicle hero (50)**, **Droideka (50)**, Wall (0), Turret (0), Shield (0), Storage (0), Other building (0), Shield generator (0), Trap (0), Ressource generator (0), Support troop (0), HQ (0)
   * Targeted type: ALLIES
   * View Range: 5
   * Target preferences strength: 1
   * Retargeting offset: 15
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 5
-  * Min. Range: 0
   * Can shoot over walls: Yes
   * Self-centered targeting: Yes
 
@@ -64,67 +62,130 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: Yes
   * Propensity to go around obstacles: 15
 
+## Attack : Rider Buff
+
+### Basic info
+
+  * Damage per shot: 0
+  * Shot count: 1
+  * Time between start of clip and first shot: 0s
+  * Time between shots: 0s
+  * Time between last shot and reload: 0s
+  * Time between two clips: 5s
+  * Salvos per clip: 1
+  * Calculated damage per second: 0
+
+|Level  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|-------|----|----|----|----|----|----|----|----|----|----|
+|Damage*|12.0|14.0|16.0|18.0|20.0|22.0|24.0|26.0|28.0|30.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 5s
+  * Projectile passes through shields: Yes
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 0%
+  * Heavy infantry: 0%
+  * Heavy vehicle: 0%
+  * Other building: 0%
+  * Droideka: 0%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 0%
+  * Heavy infantry hero: 0%
+  * Heavy vehicular hero: 0%
+  * Infantry hero: 0%
+  * Vehicle hero: 0%
+  * Infantry: 0%
+  * Ressource generator: 0%
+  * Shield: 0%
+  * Shield generator: 0%
+  * Storage: 0%
+  * Trap: 0%
+  * Turret: 0%
+  * Light vehicle: 0%
+  * Wall: 0%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_rider_buff
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: -0.52,2.15,-1.3
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: 
-  * decalSize: 160
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 
-  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
-  * bundleName: rider_con-ani
-  * infoUIType: DamageBuff
-  * unlockPlanet: 
-  * iconCameraPosition: 23.58,31.88,32.8
-  * eventButtonAction: 
-  * tooltipHeightOffset: 1.5
-  * assetName: rider_con-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * factoryScaleFactor: 1
+  * infoUIType: DamageBuff
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 160
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
+  * iconCameraPosition: 23.58,31.88,32.8
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: rider_con-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: 
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 1.5
+  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * assetName: rider_con-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * deathProjectileDamage: 0
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
   * deathProjectileDelay: 0
   * impactDelay: 0
-  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * spawnEffectUid: effectRebelSpawn
-  * targetInRangeModifier: 1
-  * shotDelay: 0
-  * reload: 5000
-  * supportFollowDistance: 4
   * strictCoolDown: false
-  * shotCount: 1
+  * supportFollowDistance: 4
   * armingDelay: 0
-  * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
+  * targetInRangeModifier: 1
   * deathProjectileDistance: 0
-  * chargeTime: 0
-  * xp: 0
+  * deathProjectileDamage: 0
+  * spawnEffectUid: effectRebelSpawn
 
-|Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|deathProjectile|projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
-|order          |115301              |115302              |115303              |115304              |115305              |115306              |115307              |115308              |115309              |115310               |
-|pointValue     |7.000               |8.000               |10.000              |11.000              |13.000              |14.000              |15.000              |17.000              |18.000              |21.000               |
-|projectileType |projectileRiderBuff1|projectileRiderBuff2|projectileRiderBuff3|projectileRiderBuff4|projectileRiderBuff5|projectileRiderBuff6|projectileRiderBuff7|projectileRiderBuff8|projectileRiderBuff9|projectileRiderBuff10|
+|Level               |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|pointValue          |7.000                 |8.000                 |10.000                |11.000                |13.000                |14.000                |15.000                |17.000                |18.000                |21.000                 |
+|projectileapplyBuffs|buffUnitDamageSteroid1|buffUnitDamageSteroid2|buffUnitDamageSteroid3|buffUnitDamageSteroid4|buffUnitDamageSteroid5|buffUnitDamageSteroid6|buffUnitDamageSteroid7|buffUnitDamageSteroid8|buffUnitDamageSteroid9|buffUnitDamageSteroid10|
+|deathProjectile     |projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
+|order               |115301                |115302                |115303                |115304                |115305                |115306                |115307                |115308                |115309                |115310                 |
 

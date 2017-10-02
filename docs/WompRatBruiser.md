@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, Heavy vehicle (50), Light vehicle (50), Vehicle hero (50), Heavy infantry (50), HQ (50), Droideka (50), Shield generator (50), Other building (50), Support troop (50), Infantry (50), Shield (50), Heavy vehicular hero (50), Heavy infantry hero (50), Infantry hero (50), Wall (1), Flying vehicle (0), Trap (0), Flying infantry (0)
+  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Light vehicle (50), Heavy infantry (50), Shield (50), Other building (50), Heavy vehicle (50), Infantry hero (50), Shield generator (50), Heavy vehicular hero (50), Infantry (50), Heavy infantry hero (50), Vehicle hero (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 8
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 4
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: No
 
@@ -62,58 +60,120 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * Propensity to go around obstacles: 1
 
+## Attack : WompRatBruiser
+
+### Basic info
+
+  * Shot count: 1
+  * Time between start of clip and first shot: 250ms
+  * Time between shots: 500ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 1s
+  * Salvos per clip: 1
+
+|Level                       |1    |2    |3    |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|-----|-----|-----|------|------|------|------|------|------|------|
+|Damage per shot             |788  |945  |1103 |1260  |1418  |1575  |1733  |1890  |2048  |2363  |
+|Calculated damage per second|630  |756  |882  |1008  |1134  |1260  |1386  |1512  |1638  |1890  |
+|Damage*                     |630.0|756.0|882.0|1008.0|1134.0|1260.0|1386.0|1512.0|1638.0|1890.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 1
+  * Number of cannons: 0
+  * Clips period: 1.250s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 100%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 75%
+  * Heavy infantry hero: 50%
+  * Heavy vehicular hero: 50%
+  * Infantry hero: 75%
+  * Vehicle hero: 75%
+  * Infantry: 75%
+  * Ressource generator: 200%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 75%
+  * Wall: 100%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_melee_scratch_med
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 0.00,0.25,0.00
-  * iconLookatPosition: -0.2,0.39,-0.08
-  * iconCloseupCameraPosition: 
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * gunPosition: 
-  * audioTrain: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * factoryScaleFactor: 1
-  * deathAnimation: buffFireBurn:15
-  * iconCloseupLookatPosition: 
-  * audioPlacement: 
-  * bundleName: wompratmedium_neu-ani
-  * infoUIType: 
-  * unlockPlanet: 
-  * iconCameraPosition: 13.51,14.12,9.05
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: wompratmedium_neu-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 982
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 1000
   * favoriteTargetType: closest
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * factoryScaleFactor: 1
+  * infoUIType: 
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: buffFireBurn:15
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 
+  * iconUnlockRotation: 
+  * audioTrain: 
+  * iconCameraPosition: 13.51,14.12,9.05
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 982
+  * bundleName: wompratmedium_neu-ani
+  * iconCloseupLookatPosition: 
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: -0.2,0.39,-0.08
+  * assetName: wompratmedium_neu-ani
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * animationDelay: 1000
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 500
-  * impactDelay: 1000
-  * reload: 1000
-  * strictCoolDown: false
-  * shotCount: 1
-  * armingDelay: 0
-  * maxScale: false
   * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * projectileType: projectileMeleeWompRatBruiser
-  * chargeTime: 250
-  * autoSpawnRateScale: 1
+  * maxScale: false
   * targetInRangeModifier: 1
-  * xp: 0
+  * impactDelay: 1000
+  * projectilestreams: no
+  * strictCoolDown: false
+  * autoSpawnRateScale: 1
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

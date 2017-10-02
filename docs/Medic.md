@@ -32,15 +32,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, Heavy vehicle (0), Light vehicle (0), Vehicle hero (0), Flying vehicle (0), HQ (0), Wall (0), Ressource generator (0), Droideka (0), Shield generator (0), Trap (0), Flying infantry (0), Turret (0), Storage (0), Other building (0), Support troop (0), Shield (0), Heavy vehicular hero (0)
+  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, Flying infantry (0), Light vehicle (0), Wall (0), Turret (0), Shield (0), Storage (0), Other building (0), Heavy vehicle (0), Shield generator (0), Trap (0), Ressource generator (0), Heavy vehicular hero (0), Flying vehicle (0), Vehicle hero (0), Support troop (0), Droideka (0), HQ (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
   * Retargeting offset: 10
   * Clip retargeting: No
   * Target shield border: No
-  * Max. Range: 5
-  * Min. Range: 0
   * Can shoot over walls: No
   * Self-centered targeting: Yes
 
@@ -64,62 +62,125 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: Yes
   * Propensity to go around obstacles: 15
 
+## Attack : Medic
+
+### Basic info
+
+  * Damage per shot: 0
+  * Shot count: 2
+  * Time between start of clip and first shot: 50ms
+  * Time between shots: 400ms
+  * Time between last shot and reload: 0s
+  * Time between two clips: 900ms
+  * Salvos per clip: 2
+  * Calculated damage per second: 0
+
+|Level  |1    |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-------|-----|------|------|------|------|------|------|------|------|------|
+|Damage*|865.0|1078.0|1257.0|1437.0|1616.0|1795.0|1976.0|2155.0|2334.0|2693.0|
+
+### Secondary info
+
+  * Gun shooting sequence: 1
+  * Salvos per clip: 2
+  * Number of cannons: 0
+  * Clips period: 1.350s
+  * Projectile passes through shields: No
+  * Projectile deflectable: No
+  * Projectile speed: 18
+  * Projectile is directional: Yes
+  * Salvos per gun sequence: 1
+  * Cannons shot per gun sequence: 1
+
+### Multipliers
+
+  * HQ: 0%
+  * Heavy infantry: 0%
+  * Heavy vehicle: 0%
+  * Other building: 0%
+  * Droideka: 0%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 0%
+  * Heavy infantry hero: 0%
+  * Heavy vehicular hero: 0%
+  * Infantry hero: 0%
+  * Vehicle hero: 0%
+  * Infantry: 0%
+  * Ressource generator: 0%
+  * Shield: 0%
+  * Shield generator: 0%
+  * Storage: 0%
+  * Trap: 0%
+  * Turret: 0%
+  * Light vehicle: 0%
+  * Wall: 0%
+
+### Presentation
+
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+
+  * projectilehitSpark: 
+  * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
+  * projectilearcs: false
+
 ## Presentation stats
 
-These graphical elements shouldn't interfere with gameplay and can safely be ignored.
+These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * eventFeaturesString: 
   * buffAssetOffset: 
-  * iconLookatPosition: 0.26,1.17,0.34
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * eventButtonString: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalSize: 
-  * shieldAssetName: 
-  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
-  * gunPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * factoryScaleFactor: 1
-  * deathAnimation: 
-  * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * bundleName: medicdroid_rbl-ani
-  * infoUIType: Healer
-  * unlockPlanet: 
-  * iconCameraPosition: 6.65,6.07,11.15
-  * eventButtonAction: 
-  * tooltipHeightOffset: 
-  * assetName: medicdroid_rbl-ani
-  * eventButtonData: 
-  * hologramUid: 
-  * newRotationSpeed: 7854
-  * factoryRotation: 0
-  * audioImpact: 
-  * animationDelay: 0
   * favoriteTargetType: infantry
+  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * factoryScaleFactor: 1
+  * infoUIType: Healer
+  * upgradeShardUid: 
+  * shieldAssetName: 
+  * deathAnimation: 
+  * eventButtonData: 
+  * decalSize: 
+  * eventButtonString: 
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * iconUnlockRotation: 
+  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * iconCameraPosition: 6.65,6.07,11.15
+  * iconUnlockScale: 
+  * unlockPlanet: 
+  * eventFeaturesString: 
+  * gunPosition: 
+  * newRotationSpeed: 7854
+  * bundleName: medicdroid_rbl-ani
+  * iconCloseupLookatPosition: 0.03,1.47,-0.14
+  * unlockedByEvent: 
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
+  * audioImpact: 
+  * hologramUid: 
+  * iconLookatPosition: 0.26,1.17,0.34
+  * assetName: medicdroid_rbl-ani
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * animationDelay: 0
+  * iconUnlockPosition: 
 
 ## Uninterpreted stats
 
-  * shotDelay: 400
+  * autoSpawnSpreadingScale: 1
+  * maxScale: false
+  * armingDelay: 0
   * impactDelay: 250
-  * reload: 900
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
   * supportFollowDistance: 5
   * strictCoolDown: false
-  * shotCount: 2
-  * armingDelay: 0
-  * maxScale: false
-  * autoSpawnSpreadingScale: 1
-  * gunSequence: 1
-  * splash: 0
-  * chargeTime: 50
-  * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
-  * xp: 0
 
-|Level         |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|--------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|pointValue    |5.000                |6.000                |7.000                |8.000                |9.000                |10.000               |11.000               |12.000               |13.000               |15.000                |
-|order         |220501               |220502               |220503               |220504               |220505               |220506               |220507               |220508               |220509               |220510                |
-|projectileType|projectileMedicLevel1|projectileMedicLevel2|projectileMedicLevel3|projectileMedicLevel4|projectileMedicLevel5|projectileMedicLevel6|projectileMedicLevel7|projectileMedicLevel8|projectileMedicLevel9|projectileMedicLevel10|
+|Level               |1        |2        |3        |4        |5        |6        |7        |8        |9        |10        |
+|--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------|
+|pointValue          |5.000    |6.000    |7.000    |8.000    |9.000    |10.000   |11.000   |12.000   |13.000   |15.000    |
+|projectileapplyBuffs|buffHeal1|buffHeal2|buffHeal3|buffHeal4|buffHeal5|buffHeal6|buffHeal7|buffHeal8|buffHeal9|buffHeal10|
+|order               |220501   |220502   |220503   |220504   |220505   |220506   |220507   |220508   |220509   |220510    |
 
