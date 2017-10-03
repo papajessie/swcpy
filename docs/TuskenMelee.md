@@ -3,7 +3,7 @@ title: Tusken Raider (TuskenMelee)
 category: unit
 ---
 
-# Tusken Raider (TuskenMelee) — version 1085
+# Tusken Raider (TuskenMelee) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Heavy infantry (100)**, _Droideka (95)_, _Support troop (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Other building (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 0s
   * Salvos per clip: 5
+  * Max. Range: 2
+  * Min. Range: 0
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -117,62 +119,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_melee_headbutt_lrg
-  * projectilemaxScale: 300
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 300
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: infantry
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 9.5,10.55,11.7
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: raidermelee_tkn-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.1,1.49,0.27
-  * assetName: raidermelee_tkn-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 1000
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: raidermelee_tkn-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: infantry
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 9.5,10.55,11.7
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: raidermelee_tkn-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.1,1.49,0.27
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 0
-  * projectilestreams: no
   * strictCoolDown: false
-  * autoSpawnRateScale: 1
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

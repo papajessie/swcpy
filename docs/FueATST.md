@@ -3,7 +3,7 @@ title: AT-ST (FueATST)
 category: unit
 ---
 
-# AT-ST (FueATST) — version 1085
+# AT-ST (FueATST) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (55)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos per clip: 2
   * Calculated damage per second: 1920
   * Damage*: 1920.0
+  * Max. Range: 8
+  * Min. Range: 0
 
 ### Secondary info
 
@@ -111,63 +113,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilemuzzleFlash: fx_blaster_flash_r_med
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_med
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_med
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,3.16,0.00
-  * favoriteTargetType: none
-  * audioDeath: "sfx_death_walker_1":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 29.51,14.98,34.56
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
-  * newRotationSpeed: 3927
-  * bundleName: atst_emp-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.17,2.95,0.85
-  * assetName: atst_emp-ani
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * decalSize: 
+  * newRotationSpeed: 3927
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * infoUIType: 
+  * bundleName: atst_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: none
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_walker_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 29.51,14.98,34.56
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,3.16,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCloseupLookatPosition: 
+  * assetName: atst_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.17,2.95,0.85
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
+  * strictCoolDown: false
+  * order: 341501
+  * armingDelay: 0
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 2
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
+  * projectilebullet: fx_blaster_beam_r_med
   * pointValue: 10.000
   * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
-  * strictCoolDown: false
-  * armingDelay: 0
-  * order: 341501
-  * autoSpawnRateScale: 2
-  * projectilebullet: fx_blaster_beam_r_med
 

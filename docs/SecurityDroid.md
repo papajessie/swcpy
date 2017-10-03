@@ -3,7 +3,7 @@ title: Security Droid (SecurityDroid)
 category: unit
 ---
 
-# Security Droid (SecurityDroid) — version 1085
+# Security Droid (SecurityDroid) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -73,6 +73,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between two clips: 500ms
   * Salvos per clip: 5
   * Damage*: 1920.0
+  * Max. Range: 7
+  * Min. Range: 0
 
 |Level                       |1  |2  |3  |4   |5   |
 |----------------------------|---|---|---|----|----|
@@ -120,67 +122,67 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopSecurityDroid
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * decalSize: 
-  * eventButtonString: hn_open_galaxy
-  * iconCloseupCameraPosition: 3.46,6.58,11.02
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
-  * iconCameraPosition: 7.57,15.79,19.1
-  * iconUnlockScale: 1.1,1.1,1.1
-  * unlockPlanet: 
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: securitydroid_con-ani
-  * iconCloseupLookatPosition: -0.6,2.47,-1.47
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.44,1.26,-0.82
-  * assetName: securitydroid_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_galaxy
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: securitydroid_con-ani
+  * deathAnimation: 
+  * favoriteTargetType: closest
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_securitydroid_01":50,"sfx_death_securitydroid_02":50
+  * unlockPlanet: 
+  * upgradeShardUid: shrd_troopSecurityDroid
+  * iconUnlockScale: 1.1,1.1,1.1
+  * iconCameraPosition: 7.57,15.79,19.1
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 3.46,6.58,11.02
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.6,2.47,-1.47
+  * assetName: securitydroid_con-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.44,1.26,-0.82
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_securitydroid_01":100
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
   * pointValue: 4.000
-  * armingDelay: 0
   * impactDelay: 1000
+  * maxScale: false
   * projectilestreams: no
   * autoSpawnRateScale: 1
+  * armingDelay: 0
   * projectilebullet: fx_blaster_beam_r_sm
   * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
 
 |Level  |1                    |2                    |3                    |4                    |5                    |
 |-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 |order  |115601               |115602               |115603               |115605               |115606               |
+|ability|abilitySecurityDroid1|abilitySecurityDroid2|abilitySecurityDroid3|abilitySecurityDroid4|abilitySecurityDroid5|
 

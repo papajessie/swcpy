@@ -3,7 +3,7 @@ title: Stormtrooper (Storm)
 category: unit
 ---
 
-# Stormtrooper (Storm) — version 1085
+# Stormtrooper (Storm) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 500ms
   * Salvos per clip: 3
+  * Max. Range: 7
+  * Min. Range: 0
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -120,64 +122,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: infantry
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 1.93,1.69,9.65
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * iconCameraPosition: 12.13,10.63,15.32
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: stotrper_emp-ani
-  * iconCloseupLookatPosition: -0.01,2.73,-0.82
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.02,1.69,0
-  * assetName: stotrper_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "stotrper_emp_rig_MASTER_MOVER/stotrper_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: stotrper_emp-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: infantry
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 12.13,10.63,15.32
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 1.93,1.69,9.65
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.01,2.73,-0.82
+  * assetName: stotrper_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.02,1.69,0
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * decalAssetName: troop_stotrper_emp
   * armingDelay: 0
-  * impactDelay: 1000
-  * projectilestreams: no
-  * decalBundleName: troop_stotrper_emp
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_r_sm
+  * decalAssetName: troop_stotrper_emp
   * strictCoolDown: false
+  * decalBundleName: troop_stotrper_emp
+  * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

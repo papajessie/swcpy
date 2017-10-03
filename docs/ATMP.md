@@ -3,7 +3,7 @@ title: AT-MP (ATMP)
 category: unit
 ---
 
-# AT-MP (ATMP) — version 1085
+# AT-MP (ATMP) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (90)**, **Shield generator (90)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Storage (50), Other building (50), Heavy vehicle (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (90)**, **Shield generator (90)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 10
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 4
+  * Max. Range: 8
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,66 +122,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_rocket_hit_r_sm
-  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_rocket_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,3.0,0.00
-  * favoriteTargetType: shieldGenerator
-  * audioDeath: "sfx_death_empire_atmp_1":100
-  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 22.45,15.49,39.24
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * newRotationSpeed: 2000
-  * bundleName: atmp_emp-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
-  * eventButtonAction: 
-  * factoryRotation: -90
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * hologramUid: 
-  * iconLookatPosition: -0.73,2.62,-0.75
-  * assetName: atmp_emp-ani
-  * rotationSpeed: 2
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30
+  * decalSize: 
+  * newRotationSpeed: 2000
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: atmp_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: shieldGenerator
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_empire_atmp_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 22.45,15.49,39.24
+  * eventButtonAction: 
+  * factoryRotation: -90
+  * buffAssetOffset: 0.00,3.0,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 2
+  * iconCloseupLookatPosition: 
+  * assetName: atmp_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.73,2.62,-0.75
+  * factoryScaleFactor: 0.8910000000000000142108547152020037174224853515625
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 2
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
   * projectilebullet: fx_rocket_projectile_r_sm
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|15.000|18.000|21.000|24.000|27.000|30.000|33.000|36.000|39.000|45.000|
 |order     |130401|130402|130403|130404|130405|130406|130407|130408|130409|130410|
+|pointValue|15.000|18.000|21.000|24.000|27.000|30.000|33.000|36.000|39.000|45.000|
 

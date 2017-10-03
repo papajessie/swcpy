@@ -3,7 +3,7 @@ title: Cold-weather Heavy Soldier (EchoBaseHeavySoldier)
 category: unit
 ---
 
-# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1085
+# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 17
+  * Max. Range: 7
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,63 +122,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_gatling_hit_b_lrg
-  * projectilemuzzleFlash: fx_gatling_muzzle_b_lrg
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_gatling_hit_b_lrg
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_gatling_muzzle_b_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.30,0.00
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: -0.24,0.29,11.62
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * iconCameraPosition: 3.52,10.26,21.73
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: echobaseheavysoldier_rbl-ani
-  * iconCloseupLookatPosition: -0.13,2.39,0.83
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.44,1.75,0.53
-  * assetName: echobaseheavysoldier_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: echobaseheavysoldier_rbl-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 3.52,10.26,21.73
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.30,0.00
+  * iconCloseupCameraPosition: -0.24,0.29,11.62
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.13,2.39,0.83
+  * assetName: echobaseheavysoldier_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.44,1.75,0.53
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * pointValue: 1.000
-  * targetInRangeModifier: 1
-  * impactDelay: 500
-  * projectilestreams: no
   * strictCoolDown: false
-  * autoSpawnRateScale: 1
+  * pointValue: 1.000
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 500
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

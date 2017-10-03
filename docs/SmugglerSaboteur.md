@@ -3,7 +3,7 @@ title: Jawa Saboteur (SmugglerSaboteur)
 category: unit
 ---
 
-# Jawa Saboteur (SmugglerSaboteur) — version 1085
+# Jawa Saboteur (SmugglerSaboteur) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Storage (60)_, _Other building (60)_, _Ressource generator (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Heavy vehicle (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Other building (60)_, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Turret (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between start of clip and first shot: 500ms
   * Time between shots: 100ms
   * Time between last shot and reload: 0s
+  * Max. Range: 4
+  * Min. Range: 0
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -123,66 +125,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_y_sm
-  * projectilemuzzleFlash: fx_blaster_flash_y_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_y_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_y_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
-  * iconCameraPosition: 4.07,10.49,14.92
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: jawaarmed_neu-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.12,1.34,0.53
-  * assetName: jawaarmed_neu-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: jawaarmed_neu-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 4.07,10.49,14.92
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: jawaarmed_neu-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.12,1.34,0.53
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
   * projectilebullet: fx_blaster_beam_y_sm
+  * targetInRangeModifier: 1
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue |5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
-|impactDelay|1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |500   |
 |order      |334101|334102|334103|334104|334105|334106|334107|334108|334109|334110|
+|impactDelay|1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |1000  |500   |
+|pointValue |5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
 

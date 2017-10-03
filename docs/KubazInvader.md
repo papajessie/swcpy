@@ -3,7 +3,7 @@ title: Kubaz Invader (KubazInvader)
 category: unit
 ---
 
-# Kubaz Invader (KubazInvader) — version 1085
+# Kubaz Invader (KubazInvader) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Storage (60)_, _Ressource generator (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Other building (50), Heavy vehicle (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Turret (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Flying vehicle (50), Turret (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 2
+  * Max. Range: 4
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,63 +122,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: shieldGenerator
-  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopKubazInvader
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * decalSize: 
-  * eventButtonString: hn_open_galaxy
-  * iconCloseupCameraPosition: 4.16,3.05,10.68
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 8.96,11.37,18.33
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: kubaz_emp-ani
-  * iconCloseupLookatPosition: 0.04,2.7,-0.25
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.48,1.32,-0.72
-  * assetName: kubaz_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_galaxy
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: kubaz_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: shieldGenerator
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_kubaz_1":50,"sfx_death_kubaz_2":50
+  * unlockPlanet: 
+  * upgradeShardUid: shrd_troopKubazInvader
+  * iconUnlockScale: 
+  * iconCameraPosition: 8.96,11.37,18.33
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 4.16,3.05,10.68
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.04,2.7,-0.25
+  * assetName: kubaz_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.48,1.32,-0.72
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
+  * impactDelay: 250
   * maxScale: false
   * spawnApplyBuffs: buffPersonalShieldKubaz
-  * armingDelay: 0
-  * impactDelay: 250
-  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * armingDelay: 0
   * projectilebullet: fx_blaster_beam_r_sm
   * strictCoolDown: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

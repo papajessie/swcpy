@@ -3,7 +3,7 @@ title: TX-225 (EmpireHovertankSample)
 category: unit
 ---
 
-# TX-225 (EmpireHovertankSample) — version 1085
+# TX-225 (EmpireHovertankSample) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -73,6 +73,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 4
+  * Max. Range: 8
+  * Min. Range: 0
 
 |Level                       |1    |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|-----|------|------|------|------|------|------|------|------|------|
@@ -121,64 +123,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_lrg
-  * projectilemuzzleFlash: fx_blaster_flash_r_lrg
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_lrg
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.0,1.14,0.0
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 23.7,17.94,45.6
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 23.7,17.94,45.6
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
-  * newRotationSpeed: 2000
-  * bundleName: hovertankempire_emp-ani
-  * iconCloseupLookatPosition: -0.59,0.62,-0.25
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.59,0.62,-0.25
-  * assetName: hovertankempire_emp-ani
-  * rotationSpeed: 2
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * decalSize: 
+  * newRotationSpeed: 2000
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "replrtnk_emp_rig_MASTER_MOVER/replrtnk_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: hovertankempire_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: turret
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 23.7,17.94,45.6
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.0,1.14,0.0
+  * iconCloseupCameraPosition: 23.7,17.94,45.6
+  * hologramUid: 
+  * rotationSpeed: 2
+  * iconCloseupLookatPosition: -0.59,0.62,-0.25
+  * assetName: hovertankempire_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.59,0.62,-0.25
+  * factoryScaleFactor: 0.842999999999999971578290569595992565155029296875
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 3
-  * maxScale: false
-  * pointValue: 1.000
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 3
+  * autoSpawnSpreadingScale: 3
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_r_lrg
+  * pointValue: 1.000
+  * targetInRangeModifier: 1
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

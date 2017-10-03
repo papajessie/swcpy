@@ -3,7 +3,7 @@ title: Krayt Dragon (KraytDragon)
 category: unit
 ---
 
-# Krayt Dragon (KraytDragon) — version 1085
+# Krayt Dragon (KraytDragon) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (70)**, **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Light vehicle (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Vehicle hero (60)_, _Droideka (60)_, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), Support troop (50), HQ (40), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Heavy infantry (70)**, **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Droideka (60)_, _Vehicle hero (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Light vehicle (60)_, Support troop (50), Other building (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), HQ (40), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 0s
   * Salvos per clip: 1
+  * Max. Range: 4
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -117,50 +119,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_melee_headbutt_lrg
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * audioDeath: "sfx_death_krayt_1":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 39.19,48.81,48.9
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 39.19,48.81,48.9
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * newRotationSpeed: 2000
-  * bundleName: kraytdragonfast_neu-ani
-  * iconCloseupLookatPosition: 0.73,1.52,-0.71
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.73,1.52,-0.71
-  * assetName: kraytdragonfast_neu-ani
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * animationDelay: 1500
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
+  * decalSize: 
+  * newRotationSpeed: 2000
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * infoUIType: 
+  * bundleName: kraytdragonfast_neu-ani
+  * deathAnimation: 
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_krayt_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 39.19,48.81,48.9
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 39.19,48.81,48.9
+  * hologramUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCloseupLookatPosition: 0.73,1.52,-0.71
+  * assetName: kraytdragonfast_neu-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.73,1.52,-0.71
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 |Level             |1     |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |------------------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -168,17 +170,17 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 0
-  * projectilestreams: no
   * strictCoolDown: false
-  * autoSpawnRateScale: 2
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 0
+  * autoSpawnRateScale: 2
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |332401|332402|332403|332404|332405|332406|332407|332408|332409|332410|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

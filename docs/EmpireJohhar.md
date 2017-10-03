@@ -3,7 +3,7 @@ title: Johhar Kessen (EmpireJohhar)
 category: unit
 ---
 
-# Johhar Kessen (EmpireJohhar) — version 1085
+# Johhar Kessen (EmpireJohhar) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Vehicle hero (70)_, _Flying infantry (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 3
+  * Max. Range: 10
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,48 +122,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilemuzzleFlash: fx_blaster_flash_r_med
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_med
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_med
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: infantry
-  * audioDeath: "sfx_death_foren_1":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopEmpireJohhar
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet6
-  * decalSize: 160
-  * eventButtonString: hn_open_erk
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
-  * audioTrain: 
-  * iconCameraPosition: 4.91,10.98,19.43
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
-  * newRotationSpeed: 7854
-  * bundleName: forenbrand_neu-ani
-  * iconCloseupLookatPosition: 0,2.54,-0.89
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_foren_1":100
   * audioImpact: 
-  * hologramUid: HeroHologramJohharKessen
-  * iconLookatPosition: 0.02,1.59,-0.01
-  * assetName: forenbrand_neu-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_erk
+  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * infoUIType: 
+  * bundleName: forenbrand_neu-ani
+  * deathAnimation: 
+  * favoriteTargetType: infantry
+  * eventButtonData: planet6
+  * audioDeath: "sfx_death_foren_1":100
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
+  * upgradeShardUid: shrd_troopEmpireJohhar
+  * iconCameraPosition: 4.91,10.98,19.43
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 2.21,4.06,9.34
+  * hologramUid: HeroHologramJohharKessen
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0,2.54,-0.89
+  * assetName: forenbrand_neu-ani
+  * unlockedByEvent: true
+  * iconLookatPosition: 0.02,1.59,-0.01
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -171,21 +173,21 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * autoSpawnRateScale: 2
-  * maxScale: false
-  * decalBundleName: tac_hero_emp
   * armingDelay: 0
-  * impactDelay: 1000
+  * maxScale: false
   * projectilestreams: no
-  * decalAssetName: tac_hero_emp
+  * autoSpawnRateScale: 2
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_r_med
+  * decalAssetName: tac_hero_emp
   * strictCoolDown: false
+  * decalBundleName: tac_hero_emp
+  * autoSpawnSpreadingScale: 2
   * targetInRangeModifier: 1
 
 |Level     |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |----------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |pointValue|20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
-|ability   |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
 |order     |111101               |111102               |111103               |111104               |111105               |111106               |111107               |111108               |111109               |111110                |
+|ability   |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
 

@@ -3,7 +3,7 @@ title: Seized Hailfire Droid (SeizedHailfire)
 category: unit
 ---
 
-# Seized Hailfire Droid (SeizedHailfire) — version 1085
+# Seized Hailfire Droid (SeizedHailfire) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry hero (60)_, _Heavy vehicular hero (60)_, _Infantry (60)_, _Flying vehicle (60)_, _Heavy infantry hero (60)_, _Vehicle hero (60)_, _Support troop (60)_, _Droideka (60)_, Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Heavy infantry (60)_, _Infantry hero (60)_, _Flying infantry (60)_, _Droideka (60)_, _Support troop (60)_, _Infantry (60)_, _Vehicle hero (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 6
+  * Max. Range: 10
+  * Min. Range: 0
 
 |Level                       |1    |2    |3    |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|-----|-----|-----|------|------|------|------|------|------|------|
@@ -120,63 +122,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_rocket_hit_b_sm
-  * projectilemuzzleFlash: fx_rocket_muzzle_b_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_rocket_hit_b_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_rocket_muzzle_b_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.88,0.00
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_rebel_hailfire_1":100
-  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 36.69,22.39,29.86
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
-  * newRotationSpeed: 7854
-  * bundleName: hailfiredroid_rbl-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
-  * eventButtonAction: 
-  * factoryRotation: 90
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * hologramUid: 
-  * iconLookatPosition: -0.49,1.9,-0.43
-  * assetName: hailfiredroid_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "hailfiredroid_rbl_rig_locator_gun1":1,"hailfiredroid_rbl_rig_locator_gun2":2
+  * infoUIType: 
+  * bundleName: hailfiredroid_rbl-ani
+  * deathAnimation: 
+  * favoriteTargetType: turret
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_rebel_hailfire_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 36.69,22.39,29.86
+  * eventButtonAction: 
+  * factoryRotation: 90
+  * buffAssetOffset: 0.00,0.88,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: hailfiredroid_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.49,1.9,-0.43
+  * factoryScaleFactor: 0.71499999999999996891375531049561686813831329345703125
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * armingDelay: 0
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 2
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
   * projectilebullet: fx_rocket_projectile_b_sm
+  * targetInRangeModifier: 1
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

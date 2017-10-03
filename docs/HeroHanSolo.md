@@ -3,7 +3,7 @@ title: Han Solo (HeroHanSolo)
 category: unit
 ---
 
-# Han Solo (HeroHanSolo) — version 1085
+# Han Solo (HeroHanSolo) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield (60)_, _Shield generator (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Storage (50), Other building (50), Heavy vehicle (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1)
+  * Target preferences: **Trap (80)**, **Turret (80)**, _Shield (60)_, _Shield generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 850ms
   * Salvos per clip: 2
+  * Max. Range: 7
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,64 +122,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilemuzzleFlash: fx_blaster_flash_r_med
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_med
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_med
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_hero_han":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 160
-  * eventButtonString: 
-  * iconCloseupCameraPosition: -0.48,1.56,9.22
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 11.5,12.83,14.14
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: hansolo_rbl-ani
-  * iconCloseupLookatPosition: 0.11,2.8,-0.41
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_hero_han":100
   * audioImpact: 
-  * hologramUid: HeroHologramRebel1
-  * iconLookatPosition: -0.01,1.77,0.14
-  * assetName: hansolo_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: hansolo_rbl-ani
+  * deathAnimation: 
+  * favoriteTargetType: turret
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_hero_han":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 11.5,12.83,14.14
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: -0.48,1.56,9.22
+  * hologramUid: HeroHologramRebel1
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.11,2.8,-0.41
+  * assetName: hansolo_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.01,1.77,0.14
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
   * armingDelay: 0
-  * impactDelay: 250
-  * projectilestreams: no
-  * decalBundleName: tac_hero_rbl
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
+  * impactDelay: 250
   * projectilebullet: fx_blaster_beam_r_med
+  * decalAssetName: tac_hero_rbl
   * strictCoolDown: false
+  * decalBundleName: tac_hero_rbl
+  * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

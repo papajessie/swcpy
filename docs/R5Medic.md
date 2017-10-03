@@ -3,7 +3,7 @@ title: Imperial Astromedic (R5Medic)
 category: unit
 ---
 
-# Imperial Astromedic (R5Medic) — version 1085
+# Imperial Astromedic (R5Medic) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, Flying infantry (0), Light vehicle (0), Wall (0), Turret (0), Shield (0), Storage (0), Other building (0), Heavy vehicle (0), Shield generator (0), Trap (0), Ressource generator (0), Heavy vehicular hero (0), Flying vehicle (0), Vehicle hero (0), Support troop (0), Droideka (0), HQ (0)
+  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, Flying infantry (0), Droideka (0), Support troop (0), Other building (0), Vehicle hero (0), HQ (0), Trap (0), Shield (0), Heavy vehicle (0), Heavy vehicular hero (0), Storage (0), Shield generator (0), Light vehicle (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -74,6 +74,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between two clips: 900ms
   * Salvos per clip: 2
   * Calculated damage per second: 0
+  * Max. Range: 5
+  * Min. Range: 0
 
 |Level  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-------|------|------|------|------|------|------|------|------|------|------|
@@ -120,48 +122,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_healing_ring
-  * projectilemaxScale: 200
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 200
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_healing_ring
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: infantry
-  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
-  * factoryScaleFactor: 1
-  * infoUIType: Healer
-  * upgradeShardUid: shrd_troopR5Medic
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * decalSize: 
-  * eventButtonString: hn_open_galaxy
-  * iconCloseupCameraPosition: 
-  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
-  * iconCameraPosition: 5.21,9.06,13.12
-  * unlockPlanet: 
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: r5droid_emp-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.19,0.88,-0.37
-  * assetName: r5droid_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_galaxy
+  * gunPosition: 
+  * infoUIType: Healer
+  * bundleName: r5droid_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: infantry
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * unlockPlanet: 
+  * upgradeShardUid: shrd_troopR5Medic
+  * iconCameraPosition: 5.21,9.06,13.12
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: r5droid_emp-ani
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.19,0.88,-0.37
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -171,14 +173,14 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * armingDelay: 0
   * impactDelay: 250
+  * maxScale: false
   * projectilestreams: no
+  * armingDelay: 0
   * autoSpawnRateScale: 1
-  * supportFollowDistance: 5
   * strictCoolDown: false
+  * supportFollowDistance: 5
+  * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
 
 |Level               |1           |2           |3           |4           |5           |6           |7           |8           |9           |10           |

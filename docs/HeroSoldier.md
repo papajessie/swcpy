@@ -3,7 +3,7 @@ title: Oto Vans (HeroSoldier)
 category: unit
 ---
 
-# Oto Vans (HeroSoldier) — version 1085
+# Oto Vans (HeroSoldier) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Turret (50)**, **Shield (50)**, **Storage (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Droideka (50)**, **HQ (50)**, Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 500ms
   * Salvos per clip: 3
+  * Max. Range: 7
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,65 +122,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_b_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_b_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_hero_oto":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 160
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 0.23,1.56,8.6
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 7.18,10.31,13.72
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: soldierhero_rbl-ani
-  * iconCloseupLookatPosition: -0.05,2.03,-0.84
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_hero_oto":100
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.2,1.46,0.41
-  * assetName: soldierhero_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: soldierhero_rbl-ani
+  * deathAnimation: 
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_hero_oto":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 7.18,10.31,13.72
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 0.23,1.56,8.6
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.05,2.03,-0.84
+  * assetName: soldierhero_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.2,1.46,0.41
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 0
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_rbl
   * armingDelay: 0
-  * impactDelay: 1000
-  * projectilestreams: no
   * effectType: 1
-  * decalBundleName: tac_hero_rbl
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_b_sm
+  * decalAssetName: tac_hero_rbl
   * strictCoolDown: false
+  * decalBundleName: tac_hero_rbl
+  * autoSpawnSpreadingScale: 0
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

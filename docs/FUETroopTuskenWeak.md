@@ -3,7 +3,7 @@ title: Tusken (FUETroopTuskenWeak)
 category: unit
 ---
 
-# Tusken (FUETroopTuskenWeak) — version 1085
+# Tusken (FUETroopTuskenWeak) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _Flying infantry (60)_, _Light vehicle (60)_, _Heavy infantry (60)_, _Turret (60)_, _Other building (60)_, _Heavy vehicle (60)_, _Infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Droideka (60)_, _HQ (60)_, Shield (50), Shield generator (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Droideka (60)_, _Support troop (60)_, _Infantry (60)_, _Other building (60)_, _HQ (60)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Turret (60)_, _Flying vehicle (60)_, Shield (50), Shield generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos per clip: 3
   * Calculated damage per second: 1
   * Damage*: 1.0
+  * Max. Range: 5
+  * Min. Range: 0
 
 ### Secondary info
 
@@ -111,63 +113,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_slugthrower_hit
-  * projectilemuzzleFlash: fx_slugthrower_muzzle
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_slugthrower_hit
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_slugthrower_muzzle
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: none
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 10,11.38,12.75
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: raiderrifle_tkn-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.17,1.62,0.41
-  * assetName: raiderrifle_tkn-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: raiderrifle_tkn-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: none
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 10,11.38,12.75
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: raiderrifle_tkn-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.17,1.62,0.41
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * order: 332101
+  * armingDelay: 0
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
+  * projectilebullet: fx_slugthrower_projectile
   * pointValue: 1.000
   * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
-  * strictCoolDown: false
-  * armingDelay: 0
-  * order: 332101
-  * autoSpawnRateScale: 1
-  * projectilebullet: fx_slugthrower_projectile
 

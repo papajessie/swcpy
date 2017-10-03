@@ -3,7 +3,7 @@ title: MTV-7 (MTV7)
 category: unit
 ---
 
-# MTV-7 (MTV7) — version 1085
+# MTV-7 (MTV7) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Shield (50), Other building (50), Heavy vehicle (50), Infantry hero (50), Shield generator (50), Heavy vehicular hero (50), Infantry (50), Flying vehicle (50), Heavy infantry hero (50), Vehicle hero (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Infantry hero (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Heavy infantry hero (50), Shield generator (50), Light vehicle (50), Turret (50), Flying vehicle (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 800ms
   * Salvos per clip: 1
+  * Max. Range: 10
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,48 +122,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.41,0.0
-  * favoriteTargetType: resource
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopMTV7
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet21
-  * decalSize: 
-  * eventButtonString: hn_open_hth
-  * iconCloseupCameraPosition: 
-  * audioTrain: 
-  * iconCameraPosition: 17.7,17.49,19.17
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: mtv7_emp-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.04,1.16,0.04
-  * assetName: mtv7_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_hth
+  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: mtv7_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: resource
+  * eventButtonData: planet21
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * upgradeShardUid: shrd_troopMTV7
+  * iconCameraPosition: 17.7,17.49,19.17
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.41,0.0
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: mtv7_emp-ani
+  * unlockedByEvent: true
+  * iconLookatPosition: 0.04,1.16,0.04
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -171,15 +173,15 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * armingDelay: 0
   * impactDelay: 1000
+  * maxScale: false
   * projectilestreams: no
-  * ability: abilityMTVIonShot
   * autoSpawnRateScale: 2
+  * armingDelay: 0
   * projectilebullet: fx_blaster_beam_r_sm
   * strictCoolDown: false
+  * ability: abilityMTVIonShot
+  * autoSpawnSpreadingScale: 2
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

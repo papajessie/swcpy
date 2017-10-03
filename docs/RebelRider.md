@@ -3,7 +3,7 @@ title: Luggabeast Munitioneer (RebelRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (RebelRider) — version 1085
+# Luggabeast Munitioneer (RebelRider) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry (50)**, **Heavy vehicle (50)**, **Infantry hero (50)**, **Heavy vehicular hero (50)**, **Infantry (50)**, **Flying vehicle (50)**, **Heavy infantry hero (50)**, **Vehicle hero (50)**, **Droideka (50)**, Wall (0), Turret (0), Shield (0), Storage (0), Other building (0), Shield generator (0), Trap (0), Ressource generator (0), Support troop (0), HQ (0)
+  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Infantry (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, Support troop (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0)
   * Targeted type: ALLIES
   * View Range: 5
   * Target preferences strength: 1
@@ -74,6 +74,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between two clips: 5s
   * Salvos per clip: 1
   * Calculated damage per second: 0
+  * Max. Range: 5
+  * Min. Range: 0
 
 |Level  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |-------|----|----|----|----|----|----|----|----|----|----|
@@ -120,72 +122,72 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_rider_buff
-  * projectilemaxScale: 200
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 200
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_rider_buff
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * factoryScaleFactor: 1
-  * infoUIType: DamageBuff
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 160
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
-  * iconCameraPosition: 23.58,31.88,32.8
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: rider_con-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: 
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 1.5
   * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.52,2.15,-1.3
-  * assetName: rider_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: 
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 1.5
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: DamageBuff
+  * bundleName: rider_con-ani
+  * deathAnimation: 
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 23.58,31.88,32.8
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: rider_con-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
   * maxScale: false
   * deathProjectileDelay: 0
-  * impactDelay: 0
   * projectilestreams: no
+  * impactDelay: 0
   * autoSpawnRateScale: 1
+  * deathProjectileDamage: 0
+  * deathProjectileDistance: 0
   * strictCoolDown: false
   * supportFollowDistance: 4
-  * armingDelay: 0
   * targetInRangeModifier: 1
-  * deathProjectileDistance: 0
-  * deathProjectileDamage: 0
+  * autoSpawnSpreadingScale: 1
   * spawnEffectUid: effectEmpireSpawn
 
 |Level               |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|deathProjectile     |projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
 |pointValue          |7.000                 |8.000                 |10.000                |11.000                |13.000                |14.000                |15.000                |17.000                |18.000                |21.000                 |
 |projectileapplyBuffs|buffUnitDamageSteroid1|buffUnitDamageSteroid2|buffUnitDamageSteroid3|buffUnitDamageSteroid4|buffUnitDamageSteroid5|buffUnitDamageSteroid6|buffUnitDamageSteroid7|buffUnitDamageSteroid8|buffUnitDamageSteroid9|buffUnitDamageSteroid10|
-|deathProjectile     |projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
 |order               |215301                |215302                |215303                |215304                |215305                |215306                |215307                |215308                |215309                |215310                 |
 

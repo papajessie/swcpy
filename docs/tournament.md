@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1085
+# Conflicts — version 1086
 
   * [Conflict on Yavin 4 (conflict_yav_20170928)](conflict_yav_20170928.html)
   * [Conflict on Er'Kit (conflict_erk_20170928)](conflict_erk_20170928.html)

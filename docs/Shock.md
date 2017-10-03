@@ -3,7 +3,7 @@ title: Shock Trooper (Shock)
 category: unit
 ---
 
-# Shock Trooper (Shock) — version 1085
+# Shock Trooper (Shock) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (90)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1)
+  * Target preferences: **Trap (90)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
   * Targeted type: ENEMIES
   * View Range: 21
   * Target preferences strength: 90
@@ -75,6 +75,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 3s
   * Salvos per clip: 1
+  * Max. Range: 9
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -123,48 +125,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_shocktrooper_vanguard_hit
-  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_shocktrooper_vanguard_hit
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: trap
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopShock
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: planet1
-  * decalSize: 
-  * eventButtonString: hn_open_tat
-  * iconCloseupCameraPosition: 0.64,0.41,9.27
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
-  * iconCameraPosition: 12.08,15.01,15.66
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * newRotationSpeed: 7854
-  * bundleName: shotrper_emp-ani
-  * iconCloseupLookatPosition: 0.07,2.85,0.16
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * hologramUid: 
-  * iconLookatPosition: -0.06,1.53,-0.1
-  * assetName: shotrper_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_tat
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * infoUIType: 
+  * bundleName: shotrper_emp-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: trap
+  * eventButtonData: planet1
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * upgradeShardUid: shrd_troopShock
+  * iconCameraPosition: 12.08,15.01,15.66
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 0.64,0.41,9.27
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.07,2.85,0.16
+  * assetName: shotrper_emp-ani
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.06,1.53,-0.1
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -174,15 +176,15 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_rocket_projectile_r_sm
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
