@@ -3,7 +3,7 @@ title: Gamorrean Warrior (RebelGamorreanWarrior)
 category: unit
 ---
 
-# Gamorrean Warrior (RebelGamorreanWarrior) — version 1085
+# Gamorrean Warrior (RebelGamorreanWarrior) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Light vehicle (50), Heavy infantry (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Shield (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, Heavy infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Shield (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 500ms
   * Salvos per clip: 1
+  * Max. Range: 2
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,66 +122,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_gamGuard_melee
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 2
   * projectilearcs: true
+  * projectilemaxScale: 100
+  * projectilehitSpark: 
+  * projectilespinSpeed: 2
+  * projectilemuzzleFlash: fx_gamGuard_melee
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.43,0.0
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 1.9,1.83,14.68
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
-  * iconCameraPosition: 9.14,6.79,20.25
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: gamorreanguard_con-ani
-  * iconCloseupLookatPosition: 0.18,2.49,0.11
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":35,"sfx_placement_gamorreanwarrior_01":30
   * audioImpact: "sfx_impact_gamoreanwarrior_01":25,"sfx_impact_gamoreanwarrior_02":25,"sfx_impact_gamoreanwarrior_03":25,"sfx_impact_gamoreanwarrior_04":25
-  * hologramUid: 
-  * iconLookatPosition: 0.43,1.85,0.73
-  * assetName: gamorreanguard_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 600
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: gamorreanguard_con-ani
+  * deathAnimation: 
+  * favoriteTargetType: turret
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_gamorreanwarrior_01":35,"sfx_death_gamorreanwarrior_02":35,"sfx_death_gamorreanwarrior_03":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 9.14,6.79,20.25
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.43,0.0
+  * iconCloseupCameraPosition: 1.9,1.83,14.68
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.18,2.49,0.11
+  * assetName: gamorreanguard_con-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.43,1.85,0.73
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_gamorreanwarrior_01":35,"sfx_ui_unitcomplete_gamorreanwarrior_02":35,"sfx_ui_unitcomplete_gamorreanwarrior_03":30
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
-  * deathProjectileDelay: 3600
-  * impactDelay: 0
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * armingDelay: 0
-  * strictCoolDown: false
-  * targetInRangeModifier: 1
   * deathProjectile: projectileDeathVibroAx
+  * armingDelay: 0
+  * maxScale: false
+  * deathProjectileDelay: 3600
+  * projectilestreams: no
+  * impactDelay: 0
+  * autoSpawnRateScale: 1
   * deathProjectileDistance: 17
+  * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
+  * spawnApplyBuffs: buffDefendSplash1,buffReduceHeals1
+  * targetInRangeModifier: 1
 
 |Level                |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |---------------------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Tusken Bantha Rider (TuskenBantha)
 category: unit
 ---
 
-# Tusken Bantha Rider (TuskenBantha) — version 1085
+# Tusken Bantha Rider (TuskenBantha) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (80)**, _Shield (60)_, _Shield generator (60)_, _HQ (60)_, Light vehicle (40), Heavy infantry (40), Storage (40), Other building (40), Heavy vehicle (40), Ressource generator (40), Infantry (40), Support troop (40), Droideka (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Turret (80)**, _HQ (60)_, _Shield (60)_, _Shield generator (60)_, Heavy infantry (40), Droideka (40), Support troop (40), Infantry (40), Other building (40), Heavy vehicle (40), Storage (40), Light vehicle (40), Ressource generator (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -71,6 +71,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 0s
   * Salvos per clip: 5
+  * Max. Range: 2
+  * Min. Range: 0
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -119,62 +121,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_melee_headbutt_lrg
-  * projectilemaxScale: 300
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 300
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_melee_headbutt_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.72,0.0
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 13.7,14.58,24.5
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: bantharaider_tkn-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.53,2.2,1.05
-  * assetName: bantharaider_tkn-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 1000
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: bantharaider_tkn-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: turret
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tuskenraiders_bantharider_1":25,"sfx_death_tuskenraiders_bantharider_2":25,"sfx_death_tuskenraiders_bantharider_3":25,"sfx_death_tuskenraiders_bantharider_4":25
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 13.7,14.58,24.5
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.72,0.0
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: bantharaider_tkn-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.53,2.2,1.05
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 0
-  * projectilestreams: no
   * strictCoolDown: false
-  * autoSpawnRateScale: 1
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

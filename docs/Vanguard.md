@@ -3,7 +3,7 @@ title: Rebel Vanguard (Vanguard)
 category: unit
 ---
 
-# Rebel Vanguard (Vanguard) — version 1085
+# Rebel Vanguard (Vanguard) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying infantry (50), Flying vehicle (50), Support troop (50), Heavy infantry (40), Turret (40), Shield (40), Storage (40), Other building (40), Shield generator (40), Ressource generator (40), Infantry (40), Droideka (40), HQ (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1)
+  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying infantry (50), Support troop (50), Flying vehicle (50), Heavy infantry (40), Droideka (40), Infantry (40), Other building (40), HQ (40), Shield (40), Storage (40), Shield generator (40), Turret (40), Ressource generator (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
   * Targeted type: ENEMIES
   * View Range: 21
   * Target preferences strength: 100
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 3s
   * Salvos per clip: 1
+  * Max. Range: 9
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,48 +122,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_shocktrooper_vanguard_hit
-  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_shocktrooper_vanguard_hit
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_rocket_muzzle_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: trap
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopVanguard
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: planet1
-  * decalSize: 
-  * eventButtonString: hn_open_tat
-  * iconCloseupCameraPosition: 0.65,2.23,9.92
-  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
-  * iconCameraPosition: 13.24,14.28,16
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
-  * newRotationSpeed: 7854
-  * bundleName: vanguard_rbl-ani
-  * iconCloseupLookatPosition: 0.11,2.78,0.04
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: "sfx_impact_rocket_01":35,"sfx_impact_rocket_02":35,"sfx_impact_rocket_03":30
-  * hologramUid: 
-  * iconLookatPosition: 0.03,1.71,0.04
-  * assetName: vanguard_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_tat
+  * gunPosition: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
+  * infoUIType: 
+  * bundleName: vanguard_rbl-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: trap
+  * eventButtonData: planet1
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_TAT
+  * upgradeShardUid: shrd_troopVanguard
+  * iconCameraPosition: 13.24,14.28,16
+  * eventButtonAction: planet
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 0.65,2.23,9.92
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.11,2.78,0.04
+  * assetName: vanguard_rbl-ani
+  * unlockedByEvent: true
+  * iconLookatPosition: 0.03,1.71,0.04
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -171,15 +173,15 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_rocket_projectile_r_sm
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

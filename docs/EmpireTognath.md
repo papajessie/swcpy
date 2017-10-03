@@ -3,7 +3,7 @@ title: Tognath Marksman (EmpireTognath)
 category: unit
 ---
 
-# Tognath Marksman (EmpireTognath) — version 1085
+# Tognath Marksman (EmpireTognath) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (100)**, _Flying infantry (60)_, _Heavy infantry (60)_, _Infantry (60)_, _Support troop (60)_, Light vehicle (50), Turret (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Flying vehicle (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 1.500s
   * Salvos per clip: 4
+  * Max. Range: 10
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,50 +122,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: champion
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopEmpireTognath
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * decalSize: 
-  * eventButtonString: hn_open_galaxy
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
-  * iconCameraPosition: 9.66,10.8,15.86
-  * unlockPlanet: 
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: tognath_con-ani
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * assetName: tognath_con-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_galaxy
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: tognath_con-ani
+  * deathAnimation: 
+  * favoriteTargetType: champion
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * unlockPlanet: 
+  * upgradeShardUid: shrd_troopEmpireTognath
+  * iconCameraPosition: 9.66,10.8,15.86
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 5.7,5.61,10.18
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.79,2.2,-1.16
+  * assetName: tognath_con-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.63,1.31,-0.68
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
 
 |Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |---------------|-----------|--|--|--|--|--|--|--|--|--|
@@ -171,18 +173,18 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * maxScale: false
-  * armingDelay: 0
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
+  * armingDelay: 0
+  * projectilestreams: no
+  * maxScale: false
   * autoSpawnRateScale: 2
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_r_sm
+  * targetInRangeModifier: 1
 
 |Level  |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
 |-------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 |order  |115701             |115702             |115703             |115704             |115705             |115706             |115707             |115708             |115709             |115710              |
+|ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 

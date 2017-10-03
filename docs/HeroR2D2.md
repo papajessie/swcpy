@@ -3,7 +3,7 @@ title: R2-D2 (HeroR2D2)
 category: unit
 ---
 
-# R2-D2 (HeroR2D2) — version 1085
+# R2-D2 (HeroR2D2) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Light vehicle (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Vehicle hero (50)**, Flying infantry (0), Wall (0), Heavy infantry (0), Turret (0), Shield (0), Storage (0), Other building (0), Infantry hero (0), Shield generator (0), Trap (0), Ressource generator (0), Infantry (0), Flying vehicle (0), Heavy infantry hero (0), Support troop (0), Droideka (0), HQ (0)
+  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -74,6 +74,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between two clips: 1.500s
   * Salvos per clip: 2
   * Calculated damage per second: 0
+  * Max. Range: 2
+  * Min. Range: 0
 
 |Level  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-------|------|------|------|------|------|------|------|------|------|------|
@@ -120,69 +122,69 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_healing_ring
-  * projectilemaxScale: 200
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 200
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_healing_ring
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: vehicles
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 160
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 8.1,8.48,14.32
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: r2d2_rbl-ani
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_hero_r2d2_1":100
   * audioImpact: 
-  * hologramUid: HeroHologramR2D2
-  * iconLookatPosition: 0.21,1.31,0.18
-  * assetName: r2d2_rbl-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: r2d2_rbl-ani
+  * deathAnimation: 
+  * favoriteTargetType: vehicles
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_hero_r2d2_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 8.1,8.48,14.32
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * hologramUid: HeroHologramR2D2
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 0.04,1.41,0.02
+  * assetName: r2d2_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.21,1.31,0.18
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 2
-  * autoSpawnRateScale: 2
-  * decalAssetName: tac_hero_rbl
   * armingDelay: 0
-  * impactDelay: 1000
-  * projectilestreams: no
-  * decalBundleName: tac_hero_rbl
   * maxScale: false
-  * supportFollowDistance: 5
+  * projectilestreams: no
+  * impactDelay: 1000
+  * autoSpawnRateScale: 2
   * strictCoolDown: false
+  * decalAssetName: tac_hero_rbl
+  * supportFollowDistance: 5
+  * decalBundleName: tac_hero_rbl
+  * autoSpawnSpreadingScale: 2
   * targetInRangeModifier: 1
 
 |Level               |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
 |--------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
 |pointValue          |20.000         |24.000         |28.000         |32.000         |36.000         |40.000         |44.000         |48.000         |52.000         |60.000          |
-|projectileapplyBuffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
 |order               |210501         |210502         |210503         |210504         |210505         |210506         |210507         |210508         |210509         |210510          |
+|projectileapplyBuffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
 

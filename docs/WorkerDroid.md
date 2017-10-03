@@ -3,7 +3,7 @@ title: trp_title_WorkerDroid (no text translation) (WorkerDroid)
 category: unit
 ---
 
-# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1085
+# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (100)**, **Flying vehicle (100)**, **Support troop (100)**, _Turret (55)_, Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Droideka (50), HQ (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Flying infantry (100)**, **Support troop (100)**, **Flying vehicle (100)**, _Turret (55)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos per clip: 2
   * Calculated damage per second: 0
   * Damage*: 0.0
+  * Max. Range: 7
+  * Min. Range: 0
 
 ### Secondary info
 
@@ -111,63 +113,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: 
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: 
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.34,0.00
-  * favoriteTargetType: none
-  * audioDeath: 
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 6.58,9.98,15.5
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * newRotationSpeed: 7854
-  * bundleName: workerdroid_neu-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: 
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: 
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.14,2.49,0.44
-  * assetName: workerdroid_neu-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: 
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: workerdroid_neu-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: none
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: 
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 6.58,9.98,15.5
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.34,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: workerdroid_neu-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.14,2.49,0.44
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 0
+  * strictCoolDown: false
+  * order: 320001
+  * armingDelay: 0
+  * effectType: 2
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnSpreadingScale: 0
+  * impactDelay: 500
+  * autoSpawnRateScale: 2
   * pointValue: 1.000
   * targetInRangeModifier: 1
-  * impactDelay: 500
-  * projectilestreams: no
-  * strictCoolDown: false
-  * effectType: 2
-  * order: 320001
-  * autoSpawnRateScale: 2
-  * armingDelay: 0
 

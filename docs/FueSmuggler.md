@@ -3,7 +3,7 @@ title: trp_title_FueSmuggler (no text translation) (FueSmuggler)
 category: unit
 ---
 
-# trp_title_FueSmuggler (no text translation) (FueSmuggler) — version 1085
+# trp_title_FueSmuggler (no text translation) (FueSmuggler) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (55)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (40), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * Target preferences strength: 90
   * Retargeting offset: 10
@@ -75,6 +75,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between start of clip and first shot: 250ms
   * Time between shots: 500ms
   * Time between last shot and reload: 0s
+  * Max. Range: 5
+  * Min. Range: 0
 
 |Level                       |1   |2     |3    |
 |----------------------------|----|------|-----|
@@ -132,69 +134,69 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_y_sm
-  * projectilemuzzleFlash: fx_blaster_flash_y_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_y_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_y_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * favoriteTargetType: none
-  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * newRotationSpeed: 7854
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.09,1.4,0.28
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * infoUIType: 
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: none
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.09,1.4,0.28
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 |Level             |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |                                                                          |
-|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 |gunPosition       |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
 |bundleName        |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|iconCameraPosition|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
+|buffAssetOffset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |                                                                          |
 |assetName         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_y_sm
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |
 |----------|------|------|------|
-|pointValue|1.000 |1.200 |1.400 |
 |order     |322601|322602|322603|
+|pointValue|1.000 |1.200 |1.400 |
 

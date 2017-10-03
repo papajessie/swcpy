@@ -3,7 +3,7 @@ title: Elite AT-AT (HeroATAT)
 category: unit
 ---
 
-# Elite AT-AT (HeroATAT) — version 1085
+# Elite AT-AT (HeroATAT) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Storage (50), Other building (50), Heavy vehicle (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 1.500s
   * Salvos per clip: 2
+  * Max. Range: 10
+  * Min. Range: 1
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------------------------|------|------|------|------|------|------|------|------|------|------|
@@ -120,65 +122,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilemuzzleFlash: fx_blaster_flash_r_med
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_med
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_med
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,4.96,0.0
-  * favoriteTargetType: shieldGenerator
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 320
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 49.18,33.65,54.14
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * newRotationSpeed: 3927
-  * bundleName: atathero_emp-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * audioImpact: 
-  * hologramUid: HeroHologramEmpire2
-  * iconLookatPosition: -2.41,4.25,-0.65
-  * assetName: atathero_emp-ani
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * decalSize: 320
+  * newRotationSpeed: 3927
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: atathero_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: shieldGenerator
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 49.18,33.65,54.14
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,4.96,0.0
+  * iconCloseupCameraPosition: 
+  * hologramUid: HeroHologramEmpire2
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconCloseupLookatPosition: 
+  * assetName: atathero_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -2.41,4.25,-0.65
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 0
-  * autoSpawnRateScale: 2
-  * decalAssetName: tac_hero_emp
   * armingDelay: 0
-  * impactDelay: 500
-  * projectilestreams: no
   * effectType: 2
-  * decalBundleName: tac_hero_emp
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 2
+  * impactDelay: 500
   * projectilebullet: fx_blaster_beam_r_med
+  * decalAssetName: tac_hero_emp
   * strictCoolDown: false
+  * decalBundleName: tac_hero_emp
+  * autoSpawnSpreadingScale: 0
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

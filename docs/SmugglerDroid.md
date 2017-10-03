@@ -3,7 +3,7 @@ title: Worker Droid (SmugglerDroid)
 category: unit
 ---
 
-# Worker Droid (SmugglerDroid) — version 1085
+# Worker Droid (SmugglerDroid) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Storage (60)_, _Other building (60)_, _Ressource generator (60)_, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Heavy vehicle (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Other building (60)_, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Turret (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -69,6 +69,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos per clip: 5
   * Calculated damage per second: 833
   * Damage*: 1.0
+  * Max. Range: 1
+  * Min. Range: 0
 
 ### Secondary info
 
@@ -111,63 +113,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_y_sm
-  * projectilemuzzleFlash: fx_blaster_flash_y_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_y_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_y_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: closest
-  * audioDeath: 
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 6.08,9.4,14.05
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * newRotationSpeed: 1
-  * bundleName: workerdroid_neu-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: 
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: 
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: 0.2,2.55,0.35
-  * assetName: workerdroid_neu-ani
-  * rotationSpeed: 1
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: 
+  * decalSize: 
+  * newRotationSpeed: 1
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * infoUIType: 
+  * bundleName: workerdroid_neu-ani
+  * deathAnimation: 
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: 
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 6.08,9.4,14.05
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 1
+  * iconCloseupLookatPosition: 
+  * assetName: workerdroid_neu-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: 0.2,2.55,0.35
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
+  * strictCoolDown: false
+  * order: 372101
+  * armingDelay: 0
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1
+  * projectilebullet: fx_blaster_beam_y_sm
   * pointValue: 0.000
   * targetInRangeModifier: 1
-  * impactDelay: 1
-  * projectilestreams: no
-  * strictCoolDown: false
-  * armingDelay: 0
-  * order: 372101
-  * autoSpawnRateScale: 1
-  * projectilebullet: fx_blaster_beam_y_sm
 

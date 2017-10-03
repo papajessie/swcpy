@@ -3,7 +3,7 @@ title: IG-86 Assassin Droid (IG86Droid)
 category: unit
 ---
 
-# IG-86 Assassin Droid (IG86Droid) — version 1085
+# IG-86 Assassin Droid (IG86Droid) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, Light vehicle (50), Heavy infantry (50), Shield (50), Storage (50), Other building (50), Heavy vehicle (50), Shield generator (50), Ressource generator (50), Infantry (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -72,6 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 2s
   * Salvos per clip: 7
+  * Max. Range: 5
+  * Min. Range: 0
 
 |Level                       |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
 |----------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
@@ -120,50 +122,50 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_r_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_r_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 
-  * favoriteTargetType: turret
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: shrd_troopIG86Droid
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * decalSize: 
-  * eventButtonString: hn_open_galaxy
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * iconUnlockRotation: 
-  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
-  * iconCameraPosition: 5.5,12.03,13.9
-  * unlockPlanet: 
-  * eventFeaturesString: fragment_obtain_gen
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: ig86_emp-ani
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * unlockedByEvent: true
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * assetName: ig86_emp-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 0
+  * eventFeaturesString: fragment_obtain_gen
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
+  * decalSize: 
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: hn_open_galaxy
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: ig86_emp-ani
+  * deathAnimation: 
+  * favoriteTargetType: turret
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * unlockPlanet: 
+  * upgradeShardUid: shrd_troopIG86Droid
+  * iconCameraPosition: 5.5,12.03,13.9
+  * eventButtonAction: galaxy
+  * factoryRotation: 0
+  * buffAssetOffset: 
+  * iconCloseupCameraPosition: 3.74,7.49,9.45
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: -0.45,1.94,-1.14
+  * assetName: ig86_emp-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: true
+  * iconLookatPosition: -0.4,1.24,-0.81
+  * factoryScaleFactor: 1
+  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
 
 |Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |---------------|-----------|--|--|--|--|--|--|--|--|--|
@@ -171,18 +173,18 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * maxScale: false
-  * targetInRangeModifier: 1
-  * impactDelay: 1000
-  * projectilestreams: no
   * strictCoolDown: false
   * armingDelay: 0
+  * maxScale: false
+  * projectilestreams: no
   * autoSpawnRateScale: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
   * projectilebullet: fx_blaster_beam_r_sm
+  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 |order     |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
+|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
 

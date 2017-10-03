@@ -3,7 +3,7 @@ title: Alpha Womp Rat (WompRatAlpha)
 category: unit
 ---
 
-# Alpha Womp Rat (WompRatAlpha) — version 1085
+# Alpha Womp Rat (WompRatAlpha) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Light vehicle (70)**, **Infantry hero (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Support troop (70)**, **Droideka (70)**, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Vehicle hero (60)_, Turret (50), Shield (50), Storage (50), Other building (50), Shield generator (50), Ressource generator (50), HQ (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Infantry hero (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Light vehicle (70)**, _Heavy infantry (60)_, _Vehicle hero (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -70,6 +70,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between last shot and reload: 0s
   * Time between two clips: 1s
   * Salvos per clip: 2
+  * Max. Range: 4
+  * Min. Range: 0
 
 |Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9      |10     |
 |----------------------------|------|------|------|------|------|------|------|------|-------|-------|
@@ -118,64 +120,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: 
-  * projectilemuzzleFlash: fx_melee_scratch_lrg
-  * projectilemaxScale: 300
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 300
+  * projectilehitSpark: 
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_melee_scratch_lrg
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,0.33,0.00
-  * favoriteTargetType: closest
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * factoryScaleFactor: 1
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: buffFireBurn:15
-  * eventButtonData: 
-  * decalSize: 160
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 11.42,11.67,7.56
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: 
-  * newRotationSpeed: 7854
-  * bundleName: wompratlarge_neu-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: 
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * assetName: wompratlarge_neu-ani
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * animationDelay: 1000
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * decalSize: 160
+  * newRotationSpeed: 7854
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: 
+  * infoUIType: 
+  * bundleName: wompratlarge_neu-ani
+  * deathAnimation: buffFireBurn:15
+  * favoriteTargetType: closest
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 11.42,11.67,7.56
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,0.33,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconCloseupLookatPosition: 
+  * assetName: wompratlarge_neu-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.07,0.16,-0.08
+  * factoryScaleFactor: 1
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 1
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_neu
   * armingDelay: 0
-  * impactDelay: 250
-  * projectilestreams: no
-  * uiDecalAssetName: HeroDecalNeutral
-  * decalBundleName: tac_hero_neu
   * maxScale: false
+  * projectilestreams: no
+  * impactDelay: 250
+  * autoSpawnRateScale: 1
   * strictCoolDown: false
+  * decalAssetName: tac_hero_neu
+  * decalBundleName: tac_hero_neu
+  * autoSpawnSpreadingScale: 1
+  * uiDecalAssetName: HeroDecalNeutral
   * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |

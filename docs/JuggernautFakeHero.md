@@ -3,7 +3,7 @@ title: trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero)
 category: unit
 ---
 
-# trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero) — version 1085
+# trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero) — version 1086
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, Flying infantry (50), Light vehicle (50), Heavy infantry (50), Turret (50), Storage (50), Other building (50), Heavy vehicle (50), Ressource generator (50), Infantry (50), Flying vehicle (50), Support troop (50), Droideka (50), HQ (50), Wall (1), Infantry hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Vehicle hero (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -70,6 +70,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos per clip: 1
   * Calculated damage per second: 5400
   * Damage*: 4800.0
+  * Max. Range: 8
+  * Min. Range: 0
 
 ### Secondary info
 
@@ -112,66 +114,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
-  * projectilemaxScale: 100
-  * projectilespinSpeed: 0
   * projectilearcs: false
+  * projectilemaxScale: 100
+  * projectilehitSpark: fx_blaster_hit_b_sm
+  * projectilespinSpeed: 0
+  * projectilemuzzleFlash: fx_blaster_flash_b_sm
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * buffAssetOffset: 0.00,1.84,0.00
-  * favoriteTargetType: shieldGenerator
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
-  * infoUIType: 
-  * upgradeShardUid: 
-  * shieldAssetName: 
-  * deathAnimation: 
-  * eventButtonData: 
-  * decalSize: 320
-  * eventButtonString: 
-  * iconCloseupCameraPosition: 
-  * iconUnlockRotation: 
-  * audioTrain: 
-  * iconCameraPosition: 35.28,24.86,45.37
-  * iconUnlockScale: 
-  * unlockPlanet: 
-  * eventFeaturesString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
-  * newRotationSpeed: 2000
-  * bundleName: attacktank_rbl-ani
-  * iconCloseupLookatPosition: 
-  * unlockedByEvent: 
-  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * audioImpact: 
-  * hologramUid: 
-  * iconLookatPosition: -0.89,1.38,-0.23
-  * assetName: attacktank_rbl-ani
-  * rotationSpeed: 2
   * animationDelay: 0
+  * eventFeaturesString: 
+  * shieldAssetName: 
+  * audioAttack: "sfx_attack_rebel_attacktank_1":30,"sfx_attack_rebel_attacktank_2":35,"sfx_attack_rebel_attacktank_3":35
+  * decalSize: 320
+  * newRotationSpeed: 2000
+  * tooltipHeightOffset: 
+  * eventButtonString: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1, "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":1
+  * infoUIType: 
+  * bundleName: attacktank_rbl-ani
+  * deathAnimation: 
+  * favoriteTargetType: shieldGenerator
+  * eventButtonData: 
+  * iconUnlockRotation: 
+  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * unlockPlanet: 
+  * upgradeShardUid: 
+  * iconUnlockScale: 
+  * iconCameraPosition: 35.28,24.86,45.37
+  * eventButtonAction: 
+  * factoryRotation: 0
+  * buffAssetOffset: 0.00,1.84,0.00
+  * iconCloseupCameraPosition: 
+  * hologramUid: 
+  * rotationSpeed: 2
+  * iconCloseupLookatPosition: 
+  * assetName: attacktank_rbl-ani
   * iconUnlockPosition: 
+  * unlockedByEvent: 
+  * iconLookatPosition: -0.89,1.38,-0.23
+  * factoryScaleFactor: 0.72299999999999997601918266809661872684955596923828125
+  * audioTrain: 
 
 ## Uninterpreted stats
 
-  * autoSpawnSpreadingScale: 3
-  * autoSpawnRateScale: 3
-  * decalAssetName: tac_hero_rbl
   * pointValue: 48.000
   * armingDelay: 0
-  * impactDelay: 500
-  * projectilestreams: no
-  * decalBundleName: tac_hero_rbl
   * maxScale: false
+  * projectilestreams: no
+  * autoSpawnRateScale: 3
+  * impactDelay: 500
   * projectilebullet: fx_blaster_beam_b_sm
-  * spawnEffectUid: effectRebelSpawn
+  * decalAssetName: tac_hero_rbl
   * strictCoolDown: false
-  * targetInRangeModifier: 1
   * order: 244908
+  * spawnEffectUid: effectRebelSpawn
+  * decalBundleName: tac_hero_rbl
+  * autoSpawnSpreadingScale: 3
+  * targetInRangeModifier: 1
 
