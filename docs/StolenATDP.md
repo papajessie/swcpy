@@ -3,7 +3,7 @@ title: Stolen AT-DP Walker (StolenATDP)
 category: unit
 ---
 
-# Stolen AT-DP Walker (StolenATDP) — version 1086
+# Stolen AT-DP Walker (StolenATDP) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (60)**, **Infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Flying infantry (60)**, **Infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Heavy infantry hero (60)**, **Infantry hero (60)**, **Heavy infantry (60)**, Light vehicle (50), Storage (50), Vehicle hero (50), HQ (50), Flying vehicle (50), Other building (50), Turret (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,62 +123,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_beam_b_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_beam_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * decalSize: 
-  * newRotationSpeed: 3927
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: atdp_emp-ani
-  * deathAnimation: 
   * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_walker_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 24.3,22.81,41.64
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,1.89,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: atdp_emp-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * iconCameraPosition: 24.3,22.81,41.64
+  * newRotationSpeed: 3927
   * unlockedByEvent: 
-  * iconLookatPosition: -0.85,2.34,-1.34
+  * animationDelay: 0
+  * audioDeath: "sfx_death_walker_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.85,2.34,-1.34
+  * iconUnlockScale: 
+  * bundleName: atdp_emp-ani
+  * assetName: atdp_emp-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
   * autoSpawnSpreadingScale: 1
-  * impactDelay: 500
-  * projectilebullet: fx_blaster_beam_b_med
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * projectilebullet: fx_blaster_beam_b_med
+  * autoSpawnRateScale: 1
+  * impactDelay: 500
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Stolen Mobile Heavy Cannon (StolenMHC)
 category: unit
 ---
 
-# Stolen Mobile Heavy Cannon (StolenMHC) — version 1086
+# Stolen Mobile Heavy Cannon (StolenMHC) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,62 +123,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_UMHC_hit_r_lrg
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_UMHC_muzzle_r_lrg
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_empire_atat_1":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
-  * decalSize: 
-  * newRotationSpeed: 15708
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: umhc_emp-ani
-  * deathAnimation: 
   * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_empire_umhc_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 30.35,41.15,37.35
-  * eventButtonAction: 
-  * factoryRotation: 90
   * buffAssetOffset: 0.00,0.90,0
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
-  * iconCloseupLookatPosition: 
-  * assetName: umhc_emp-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "umhc_emp_rig_MASTER_MOVER/umhc_emp_rig_locator_gun":1
+  * iconCameraPosition: 30.35,41.15,37.35
+  * newRotationSpeed: 15708
   * unlockedByEvent: 
-  * iconLookatPosition: -0.33,0.73,-0.17
+  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_umhc_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_atat_1":100
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 90
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.33,0.73,-0.17
+  * iconUnlockScale: 
+  * bundleName: umhc_emp-ani
+  * assetName: umhc_emp-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_empire_umhc_1":33,"sfx_attack_empire_umhc_2":33,"sfx_attack_empire_umhc_3":34
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 31.41590000000000060254023992456495761871337890625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
   * autoSpawnSpreadingScale: 2
-  * impactDelay: 500
-  * projectilebullet: fx_UMHC_projectile_r_lrg
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * projectilebullet: fx_UMHC_projectile_r_lrg
+  * autoSpawnRateScale: 2
+  * impactDelay: 500
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|

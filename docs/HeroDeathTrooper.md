@@ -3,7 +3,7 @@ title: Death Trooper (HeroDeathTrooper)
 category: unit
 ---
 
-# Death Trooper (HeroDeathTrooper) — version 1086
+# Death Trooper (HeroDeathTrooper) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -22,7 +22,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
 |--------------------|------------------------|------------------------|-------------------------|-------------------------|-------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
-|Upgrade requirements|3000$, 32 data fragments|5000$, 32 data fragments|10000$, 32 data fragments|20000$, 32 data fragments|50000$, 32 data fragments|135000$, 32 data fragments|225000$, 32 data fragments|450000$, 32 data fragments|1500000$, 32 data fragments|2500000$, 32 data fragments|
+|Upgrade requirements|32 data fragments, 3000$|32 data fragments, 5000$|32 data fragments, 10000$|32 data fragments, 20000$|32 data fragments, 50000$|32 data fragments, 135000$|32 data fragments, 225000$|32 data fragments, 450000$|32 data fragments, 1500000$|32 data fragments, 2500000$|
 |Upgrade time        |0s                      |1h                      |2h30m                    |7h                       |20h                      |2d12h                     |4d                        |6d                        |1w1d                       |1w5d                       |
 |Health              |16000                   |17330                   |18660                    |20000                    |21330                    |22660                     |24000                     |25330                     |27330                      |30000                      |
 |Damage per shot     |2630                    |2810                    |3040                     |3320                     |3590                     |3830                      |4010                      |4190                      |4520                       |4980                       |
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (80)**, **Turret (80)**, _Shield (60)_, _Shield generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
+  * Target preferences: **Turret (80)**, **Trap (80)**, _Shield (60)_, _Shield generator (60)_, Light vehicle (50), Storage (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Ressource generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,49 +123,49 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_r_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
-  * infoUIType: 
-  * bundleName: deathtrooper_emp-ani
-  * deathAnimation: 
   * favoriteTargetType: turret
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopHeroDeathTrooper
-  * iconCameraPosition: 6.12,13,15.36
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 3.94,6.77,11.83
-  * hologramUid: HeroHologramDeathtrooper
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.34,2.08,-1.07
-  * assetName: deathtrooper_emp-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: galaxy
+  * gunPosition: soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun:1
+  * iconCameraPosition: 6.12,13,15.36
+  * newRotationSpeed: 7854
   * unlockedByEvent: true
-  * iconLookatPosition: -0.34,1.19,-0.78
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_deathtrooper_01":50,"sfx_death_hero_deathtrooper_02":50
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_deathtrooper_01":33,"sfx_placement_hero_deathtrooper_02":33,"sfx_placement_hero_deathtrooper_03":34
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.34,1.19,-0.78
+  * bundleName: deathtrooper_emp-ani
+  * assetName: deathtrooper_emp-ani
   * audioTrain: "sfx_ui_unitcomplete_deathtrooper_01":50,"sfx_ui_unitcomplete_deathtrooper_02":50
+  * decalSize: 160
+  * hologramUid: HeroHologramDeathtrooper
+  * iconCloseupCameraPosition: 3.94,6.77,11.83
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33
+  * iconCloseupLookatPosition: -0.34,2.08,-1.07
+  * upgradeShardUid: shrd_troopHeroDeathTrooper
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 |Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |---------------|-----------|--|--|--|--|--|--|--|--|--|
@@ -173,17 +173,17 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
-  * maxScale: false
+  * autoSpawnSpreadingScale: 1
   * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * impactDelay: 250
-  * projectilebullet: fx_blaster_beam_r_med
   * decalAssetName: tac_hero_emp
   * strictCoolDown: false
-  * decalBundleName: tac_hero_emp
-  * autoSpawnSpreadingScale: 1
+  * projectilebullet: fx_blaster_beam_r_med
   * targetInRangeModifier: 1
+  * impactDelay: 250
+  * decalBundleName: tac_hero_emp
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

@@ -3,7 +3,7 @@ title: Luggabeast Munitioneer (RebelRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (RebelRider) — version 1086
+# Luggabeast Munitioneer (RebelRider) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Infantry (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, Support troop (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0)
+  * Target preferences: **Light vehicle (50)**, **Flying infantry (50)**, **Vehicle hero (50)**, **Infantry (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Storage (0), HQ (0), Support troop (0), Other building (0), Turret (0), Shield (0), Ressource generator (0), Wall (0), Shield generator (0), Trap (0)
   * Targeted type: ALLIES
   * View Range: 5
   * Target preferences strength: 1
@@ -123,71 +123,71 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_rider_buff
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: 
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: DamageBuff
-  * bundleName: rider_con-ani
-  * deathAnimation: 
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 23.58,31.88,32.8
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: rider_con-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 23.58,31.88,32.8
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.52,2.15,-1.3
+  * animationDelay: 0
+  * audioDeath: "sfx_death_rider_01":50,"sfx_death_rider_02":50
+  * tooltipHeightOffset: 1.5
+  * audioPlacement: "sfx_placement_rider_01":50,"sfx_placement_rider_02":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: DamageBuff
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.52,2.15,-1.3
+  * iconUnlockScale: 
+  * bundleName: rider_con-ani
+  * assetName: rider_con-ani
   * audioTrain: "sfx_ui_unitcomplete_rider_01":50,"sfx_ui_unitcomplete_rider_02":50
+  * decalSize: 160
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: 
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * deathProjectileDelay: 0
   * projectilestreams: no
-  * impactDelay: 0
-  * autoSpawnRateScale: 1
-  * deathProjectileDamage: 0
-  * deathProjectileDistance: 0
-  * strictCoolDown: false
-  * supportFollowDistance: 4
+  * deathProjectileDelay: 0
   * targetInRangeModifier: 1
   * autoSpawnSpreadingScale: 1
+  * deathProjectileDistance: 0
   * spawnEffectUid: effectEmpireSpawn
+  * strictCoolDown: false
+  * deathProjectileDamage: 0
+  * supportFollowDistance: 4
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
+  * impactDelay: 0
 
 |Level               |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |deathProjectile     |projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
-|pointValue          |7.000                 |8.000                 |10.000                |11.000                |13.000                |14.000                |15.000                |17.000                |18.000                |21.000                 |
-|projectileapplyBuffs|buffUnitDamageSteroid1|buffUnitDamageSteroid2|buffUnitDamageSteroid3|buffUnitDamageSteroid4|buffUnitDamageSteroid5|buffUnitDamageSteroid6|buffUnitDamageSteroid7|buffUnitDamageSteroid8|buffUnitDamageSteroid9|buffUnitDamageSteroid10|
 |order               |215301                |215302                |215303                |215304                |215305                |215306                |215307                |215308                |215309                |215310                 |
+|projectileapplyBuffs|buffUnitDamageSteroid1|buffUnitDamageSteroid2|buffUnitDamageSteroid3|buffUnitDamageSteroid4|buffUnitDamageSteroid5|buffUnitDamageSteroid6|buffUnitDamageSteroid7|buffUnitDamageSteroid8|buffUnitDamageSteroid9|buffUnitDamageSteroid10|
+|pointValue          |7.000                 |8.000                 |10.000                |11.000                |13.000                |14.000                |15.000                |17.000                |18.000                |21.000                 |
 

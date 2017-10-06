@@ -3,7 +3,7 @@ title: Scout Undead Trooper (SmugglerScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (SmugglerScoutDeath) — version 1086
+# Scout Undead Trooper (SmugglerScoutDeath) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (60)**, **Infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, **Vehicle hero (60)**, **Heavy vehicle (60)**, **Heavy vehicular hero (60)**, **Heavy infantry hero (60)**, **Light vehicle (60)**, **Flying vehicle (60)**, _Storage (51)_, _Ressource generator (51)_, Other building (50), HQ (50), Shield (50), Shield generator (50), Turret (50), Wall (1), Trap (0)
+  * Target preferences: **Light vehicle (60)**, **Flying infantry (60)**, **Vehicle hero (60)**, **Infantry (60)**, **Droideka (60)**, **Flying vehicle (60)**, **Support troop (60)**, **Heavy infantry hero (60)**, **Infantry hero (60)**, **Heavy vehicular hero (60)**, **Heavy vehicle (60)**, **Heavy infantry (60)**, _Storage (51)_, _Ressource generator (51)_, HQ (50), Other building (50), Turret (50), Shield (50), Shield generator (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -122,65 +122,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_g_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_g_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
-  * infoUIType: 
-  * bundleName: scotrper_dth-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 10.84,12.06,13.07
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 4.94,-0.46,8
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.15,2.51,-0.51
-  * assetName: scotrper_dth-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "scotrper_dth_rig_MASTER_MOVER/scotrper_dth_rig_locator_gun_Rt":1
+  * iconCameraPosition: 10.84,12.06,13.07
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.06,1.74,0.02
+  * animationDelay: 0
+  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: 0.06,1.74,0.02
+  * iconUnlockScale: 
+  * bundleName: scotrper_dth-ani
+  * assetName: scotrper_dth-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 4.94,-0.46,8
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * iconCloseupLookatPosition: -0.15,2.51,-0.51
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
   * autoSpawnSpreadingScale: 1
-  * impactDelay: 0
-  * projectilebullet: fx_blaster_beam_g_sm
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * projectilebullet: fx_blaster_beam_g_sm
+  * autoSpawnRateScale: 1
+  * impactDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |333701|333702|333703|333704|333705|333706|333707|333708|333709|333710|
 |pointValue|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|order     |333701|333702|333703|333704|333705|333706|333707|333708|333709|333710|
 

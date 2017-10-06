@@ -3,7 +3,7 @@ title: Stolen Repair Droid (StolenTechnician)
 category: unit
 ---
 
-# Stolen Repair Droid (StolenTechnician) — version 1086
+# Stolen Repair Droid (StolenTechnician) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
+  * Target preferences: **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, Storage (0), Flying infantry (0), HQ (0), Infantry (0), Droideka (0), Flying vehicle (0), Support troop (0), Other building (0), Heavy infantry hero (0), Turret (0), Shield (0), Ressource generator (0), Infantry hero (0), Wall (0), Shield generator (0), Trap (0), Heavy infantry (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,65 +123,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: Healer
-  * bundleName: techniciandroid_emp-ani
-  * deathAnimation: 
   * favoriteTargetType: vehicles
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 7.9,7.91,12.71
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: techniciandroid_emp-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 7.9,7.91,12.71
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.06,2.6,-0.14
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: Healer
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0.06,2.6,-0.14
+  * iconUnlockScale: 
+  * bundleName: techniciandroid_emp-ani
+  * assetName: techniciandroid_emp-ani
   * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * autoSpawnRateScale: 1
   * targetInRangeModifier: 1
+  * projectilestreams: no
+  * armingDelay: 0
+  * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
   * supportFollowDistance: 5
+  * maxScale: false
+  * autoSpawnRateScale: 1
+  * impactDelay: 1000
 
 |Level               |1          |2          |3          |4          |5          |6          |7          |8          |9          |10          |
 |--------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
-|order               |482004     |482008     |482012     |482016     |482020     |482024     |482028     |482032     |482036     |482040      |
 |projectileapplyBuffs|buffRepair1|buffRepair2|buffRepair3|buffRepair4|buffRepair5|buffRepair6|buffRepair7|buffRepair8|buffRepair9|buffRepair10|
+|order               |482004     |482008     |482012     |482016     |482020     |482024     |482028     |482032     |482036     |482040      |
 

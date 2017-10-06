@@ -3,7 +3,7 @@ title: Dowutin Hunter (RebelBrute)
 category: unit
 ---
 
-# Dowutin Hunter (RebelBrute) — version 1086
+# Dowutin Hunter (RebelBrute) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Wall (30), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Storage (50)**, **Flying infantry (50)**, **HQ (50)**, **Infantry (50)**, **Droideka (50)**, **Flying vehicle (50)**, **Support troop (50)**, **Other building (50)**, **Turret (50)**, **Shield (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (30), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,67 +123,67 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_brute_hit
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_brute_muzzle
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
-  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
-  * animationDelay: 460
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: brute_con-ani
-  * deathAnimation: 
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 22.63,10.75,17.33
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 10.36,-0.8,9.14
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.45,2.74,-0.6
-  * assetName: brute_con-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 22.63,10.75,17.33
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.25,1.71,0.52
+  * animationDelay: 460
+  * audioDeath: "sfx_death_brute_01":50,"sfx_death_brute_02":50
+  * tooltipHeightOffset: 1.5
+  * audioPlacement: "sfx_placement_brute_01":50,"sfx_placement_brute_02":50
+  * iconUnlockRotation: 
+  * audioImpact: "sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.25,1.71,0.52
+  * iconUnlockScale: 
+  * bundleName: brute_con-ani
+  * assetName: brute_con-ani
   * audioTrain: "sfx_ui_unitcomplete_brute_01":50,"sfx_ui_unitcomplete_brute_02":50
+  * decalSize: 160
+  * hologramUid: 
+  * iconCloseupCameraPosition: 10.36,-0.8,9.14
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
+  * iconCloseupLookatPosition: -0.45,2.74,-0.6
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * projectilestreams: no
+  * projectilebullet: fx_brute_projectile
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 0
+  * spawnEffectUid: effectRebelSpawn
+  * strictCoolDown: true
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
   * autoSpawnRateScale: 1
-  * impactDelay: 0
-  * projectilebullet: fx_brute_projectile
-  * strictCoolDown: true
-  * spawnEffectUid: effectRebelSpawn
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
 
 |Level     |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
 |----------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
-|pointValue|12.000           |14.000           |17.000           |19.000           |22.000           |24.000           |26.000           |29.000           |31.000           |36.000            |
-|order     |215401           |215402           |215403           |215404           |215405           |215406           |215407           |215408           |215409           |215410            |
 |ability   |abilityBruteBomb1|abilityBruteBomb2|abilityBruteBomb3|abilityBruteBomb4|abilityBruteBomb5|abilityBruteBomb6|abilityBruteBomb7|abilityBruteBomb8|abilityBruteBomb9|abilityBruteBomb10|
+|order     |215401           |215402           |215403           |215404           |215405           |215406           |215407           |215408           |215409           |215410            |
+|pointValue|12.000           |14.000           |17.000           |19.000           |22.000           |24.000           |26.000           |29.000           |31.000           |36.000            |
 

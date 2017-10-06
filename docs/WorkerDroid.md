@@ -3,7 +3,7 @@ title: trp_title_WorkerDroid (no text translation) (WorkerDroid)
 category: unit
 ---
 
-# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1086
+# trp_title_WorkerDroid (no text translation) (WorkerDroid) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Flying infantry (100)**, **Support troop (100)**, **Flying vehicle (100)**, _Turret (55)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Flying infantry (100)**, **Flying vehicle (100)**, **Support troop (100)**, _Turret (55)_, Light vehicle (50), Storage (50), Infantry (50), Droideka (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -114,62 +114,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: 
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: 
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: 
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: workerdroid_neu-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: none
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: 
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 6.58,9.98,15.5
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.34,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: workerdroid_neu-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
+  * iconCameraPosition: 6.58,9.98,15.5
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.14,2.49,0.44
+  * animationDelay: 0
+  * audioDeath: 
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: 0.14,2.49,0.44
+  * iconUnlockScale: 
+  * bundleName: workerdroid_neu-ani
+  * assetName: workerdroid_neu-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: 
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * order: 320001
-  * armingDelay: 0
-  * effectType: 2
-  * maxScale: false
-  * projectilestreams: no
   * autoSpawnSpreadingScale: 0
-  * impactDelay: 500
-  * autoSpawnRateScale: 2
   * pointValue: 1.000
+  * projectilestreams: no
+  * effectType: 2
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * order: 320001
+  * maxScale: false
+  * autoSpawnRateScale: 2
+  * impactDelay: 500
 

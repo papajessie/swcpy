@@ -3,7 +3,7 @@ title: WED Treadwell Repair Droid (Treadwell)
 category: unit
 ---
 
-# WED Treadwell Repair Droid (Treadwell) — version 1086
+# WED Treadwell Repair Droid (Treadwell) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
+  * Target preferences: **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, Storage (0), Flying infantry (0), HQ (0), Infantry (0), Droideka (0), Flying vehicle (0), Support troop (0), Other building (0), Heavy infantry hero (0), Turret (0), Shield (0), Ressource generator (0), Infantry hero (0), Wall (0), Shield generator (0), Trap (0), Heavy infantry (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,47 +123,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
+  * favoriteTargetType: vehicles
+  * buffAssetOffset: 
+  * eventButtonAction: galaxy
+  * gunPosition: 
+  * iconCameraPosition: 5.8,11.77,14.32
+  * newRotationSpeed: 7854
+  * unlockedByEvent: true
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
+  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_droid_treadwell_01":50,"sfx_placement_droid_treadwell_02":50
   * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: Healer
-  * bundleName: treadwell_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: vehicles
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioDeath: "sfx_death_droid_treadwell_01":50,"sfx_death_droid_treadwell_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopTreadwell
-  * iconCameraPosition: 5.8,11.77,14.32
-  * eventButtonAction: galaxy
   * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: treadwell_rbl-ani
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.2,0.77,-0.68
+  * infoUIType: Healer
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.2,0.77,-0.68
+  * bundleName: treadwell_rbl-ani
+  * assetName: treadwell_rbl-ani
   * audioTrain: "sfx_ui_unitcomplete_treadwell_01":50,"sfx_ui_unitcomplete_treadwell_02":50
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: shrd_troopTreadwell
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * shieldAssetName: 
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -173,19 +173,19 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
   * projectilestreams: no
-  * armingDelay: 0
-  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 1000
   * strictCoolDown: false
   * supportFollowDistance: 5
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level               |1             |2             |3             |4             |5             |6             |7             |8             |9             |10             |
 |--------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|---------------|
-|pointValue          |4.000         |4.800         |5.600         |6.400         |7.200         |8.000         |8.800         |9.600         |10.400        |12.000         |
 |projectileapplyBuffs|buffAdvRepair1|buffAdvRepair2|buffAdvRepair3|buffAdvRepair4|buffAdvRepair5|buffAdvRepair6|buffAdvRepair7|buffAdvRepair8|buffAdvRepair9|buffAdvRepair10|
 |order               |234501        |234502        |234503        |234504        |234505        |234506        |234507        |234508        |234509        |234510         |
+|pointValue          |4.000         |4.800         |5.600         |6.400         |7.200         |8.000         |8.800         |9.600         |10.400        |12.000         |
 

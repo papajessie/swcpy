@@ -3,7 +3,7 @@ title: Rage Rancor (EmpireRageRancor)
 category: unit
 ---
 
-# Rage Rancor (EmpireRageRancor) — version 1086
+# Rage Rancor (EmpireRageRancor) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Light vehicle (50)**, **Storage (50)**, **HQ (50)**, **Infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Other building (50)**, **Turret (50)**, **Shield (50)**, **Ressource generator (50)**, **Shield generator (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
@@ -120,64 +120,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_gamGuard_deathblow
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: 
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioImpact: 
-  * animationDelay: 960
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * decalSize: 
-  * newRotationSpeed: 2000
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * infoUIType: 
-  * bundleName: rancorrage_neu-ani
-  * deathAnimation: 
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 33.71,44.06,48.37
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: rancorrage_neu-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * iconCameraPosition: 33.71,44.06,48.37
+  * newRotationSpeed: 2000
   * unlockedByEvent: 
-  * iconLookatPosition: -0.61,3.05,-1.83
+  * animationDelay: 960
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.61,3.05,-1.83
+  * iconUnlockScale: 
+  * bundleName: rancorrage_neu-ani
+  * assetName: rancorrage_neu-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 2
+  * projectilestreams: no
   * strictCoolDown: false
+  * targetInRangeModifier: 1
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 2
-  * impactDelay: 0
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
+  * impactDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6      |7      |8      |9      |10     |
 |----------|------|------|------|------|------|-------|-------|-------|-------|-------|
-|order     |125101|125102|125103|125104|125105|125106 |125107 |125108 |125109 |125110 |
 |pointValue|50.000|60.000|70.000|80.000|90.000|100.000|110.000|120.000|130.000|150.000|
+|order     |125101|125102|125103|125104|125105|125106 |125107 |125108 |125109 |125110 |
 

@@ -3,7 +3,7 @@ title: trp_title_SmugglerJawaTinker (no text translation) (SmugglerJawaTinker)
 category: unit
 ---
 
-# trp_title_SmugglerJawaTinker (no text translation) (SmugglerJawaTinker) — version 1086
+# trp_title_SmugglerJawaTinker (no text translation) (SmugglerJawaTinker) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Other building (60)_, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Turret (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (70)**, **Shield generator (70)**, _Storage (60)_, _Other building (60)_, _Ressource generator (60)_, Light vehicle (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Turret (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -114,62 +114,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_y_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_y_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: 
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: 
-  * decalSize: 
-  * newRotationSpeed: 1
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: jawatinker_neu-ani
-  * deathAnimation: 
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: 
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: -1.8,2.32,15.85
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 1
-  * iconCloseupLookatPosition: 
-  * assetName: jawatinker_neu-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1
+  * iconCameraPosition: -1.8,2.32,15.85
+  * newRotationSpeed: 1
   * unlockedByEvent: 
-  * iconLookatPosition: -0.48,0.9,-0.38
+  * animationDelay: 0
+  * audioDeath: 
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.48,0.9,-0.38
+  * iconUnlockScale: 
+  * bundleName: jawatinker_neu-ani
+  * assetName: jawatinker_neu-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: 
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 1
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * order: 372301
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
   * autoSpawnSpreadingScale: 1
-  * impactDelay: 1
-  * projectilebullet: fx_blaster_beam_y_sm
   * pointValue: 0.000
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * order: 372301
+  * projectilebullet: fx_blaster_beam_y_sm
+  * autoSpawnRateScale: 1
+  * impactDelay: 1
 
