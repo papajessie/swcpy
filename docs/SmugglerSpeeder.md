@@ -3,7 +3,7 @@ title: Mercenary Renegade (SmugglerSpeeder)
 category: unit
 ---
 
-# Mercenary Renegade (SmugglerSpeeder) — version 1086
+# Mercenary Renegade (SmugglerSpeeder) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -42,7 +42,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level             |1                                                                                                                                                                                                                                                                                                                                                                                                     |2                                                                                                                                                                                                                                                                                                                                                                                                     |3                                                                                                                                                                                                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                                                                                                                                                                                     |5                                                                                                                                                                                                                                                                                                                                                                                                                            |6                                                                                                                                                                                                                                                                                                                                                                                                                            |7                                                                                                                                                                                                                                                                                                                                                                                                                            |8                                                                                                                                                                                                                                                                                                                                                                                                                            |9                                                                                                                                                                                                                                                                                                                                                                                                                            |10                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Heavy infantry (70)**, **Droideka (70)**, **Infantry (70)**, _Turret (55)_, Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Support troop (0), Trap (0), Flying vehicle (0)|**Heavy infantry (70)**, **Droideka (70)**, **Infantry (70)**, _Turret (55)_, Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Support troop (0), Trap (0), Flying vehicle (0)|**Heavy infantry (70)**, **Droideka (70)**, **Infantry (70)**, _Turret (55)_, Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Support troop (0), Trap (0), Flying vehicle (0)|**Heavy infantry (70)**, **Droideka (70)**, **Infantry (70)**, _Turret (55)_, Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Support troop (0), Trap (0), Flying vehicle (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|**Heavy infantry (70)**, **Infantry hero (70)**, **Flying infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, _Turret (55)_, Other building (50), Vehicle hero (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Wall (1), Trap (0)|
+|Target preferences|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Support troop (0), Trap (0)|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Support troop (0), Trap (0)|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Support troop (0), Trap (0)|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Support troop (0), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|**Flying infantry (70)**, **Infantry (70)**, **Droideka (70)**, **Support troop (70)**, **Heavy infantry hero (70)**, **Infantry hero (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Vehicle hero (50), Flying vehicle (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), HQ (40), Wall (1), Trap (0)|
 |Retargeting offset|8                                                                                                                                                                                                                                                                                                                                                                                                     |12                                                                                                                                                                                                                                                                                                                                                                                                    |12                                                                                                                                                                                                                                                                                                                                                                                                    |12                                                                                                                                                                                                                                                                                                                                                                                                    |12                                                                                                                                                                                                                                                                                                                                                                                                                           |12                                                                                                                                                                                                                                                                                                                                                                                                                           |12                                                                                                                                                                                                                                                                                                                                                                                                                           |12                                                                                                                                                                                                                                                                                                                                                                                                                           |12                                                                                                                                                                                                                                                                                                                                                                                                                           |12                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ## Recruiting
@@ -125,65 +125,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
-  * infoUIType: 
-  * bundleName: speederbike_smg-ani
-  * deathAnimation: 
   * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 14.41,12.49,21.37
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0,1,0
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: speederbike_smg-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun1":1,"speederbike_smg_rig_MASTER_MOVER/speederbike_smg_rig_locator_gun2":1
+  * iconCameraPosition: 14.41,12.49,21.37
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.42,1.29,-0.61
+  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.42,1.29,-0.61
+  * iconUnlockScale: 
+  * bundleName: speederbike_smg-ani
+  * assetName: speederbike_smg-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
   * autoSpawnSpreadingScale: 2
-  * impactDelay: 500
-  * projectilebullet: fx_blaster_beam_b_med
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * projectilebullet: fx_blaster_beam_b_med
+  * autoSpawnRateScale: 2
+  * impactDelay: 500
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |341201|341202|341203|341204|341205|341206|341207|341208|341209|341210|
 |pointValue|6.000 |7.200 |8.400 |9.600 |10.800|12.000|13.200|14.400|15.600|18.000|
+|order     |341201|341202|341203|341204|341205|341206|341207|341208|341209|341210|
 

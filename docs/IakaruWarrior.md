@@ -3,7 +3,7 @@ title: Iakaru Warrior (IakaruWarrior)
 category: unit
 ---
 
-# Iakaru Warrior (IakaruWarrior) — version 1086
+# Iakaru Warrior (IakaruWarrior) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, Light vehicle (50), Storage (50), HQ (50), Infantry (50), Droideka (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -123,49 +123,49 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: iakaru_rbl-ani
-  * deathAnimation: 
   * favoriteTargetType: turret
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopIakaruWarrior
-  * iconCameraPosition: 7.64,11.36,18.34
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 4.34,5.86,9.44
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.52,2.05,-1.33
-  * assetName: iakaru_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: galaxy
+  * gunPosition: 
+  * iconCameraPosition: 7.64,11.36,18.34
+  * newRotationSpeed: 7854
   * unlockedByEvent: true
-  * iconLookatPosition: -0.4,1.38,-0.85
+  * animationDelay: 0
+  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.4,1.38,-0.85
+  * bundleName: iakaru_rbl-ani
+  * assetName: iakaru_rbl-ani
   * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 4.34,5.86,9.44
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
+  * iconCloseupLookatPosition: -0.52,2.05,-1.33
+  * upgradeShardUid: shrd_troopIakaruWarrior
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 |Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |---------------|-----------|--|--|--|--|--|--|--|--|--|
@@ -173,18 +173,18 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_b_sm
   * targetInRangeModifier: 1
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * projectilebullet: fx_blaster_beam_b_sm
+  * autoSpawnRateScale: 1
+  * impactDelay: 1000
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |234301|234302|234303|234304|234305|234306|234307|234308|234309|234310|
 |pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|order     |234301|234302|234303|234304|234305|234306|234307|234308|234309|234310|
 

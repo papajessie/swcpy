@@ -3,7 +3,7 @@ title: Bantha Rider (Bantha)
 category: unit
 ---
 
-# Bantha Rider (Bantha) — version 1086
+# Bantha Rider (Bantha) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), HQ (50), Infantry (50), Droideka (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -126,61 +126,61 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 300
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioImpact: 
-  * animationDelay: 1250
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: bantha_rbl-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 16.54,17.6,29.53
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.68,0.0
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: bantha_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 16.54,17.6,29.53
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.48,2.52,0.88
+  * animationDelay: 1250
+  * audioDeath: "sfx_death_rebel_banthasoldier_1":50,"sfx_death_rebel_banthasoldier_2":50
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: 0.48,2.52,0.88
+  * iconUnlockScale: 
+  * bundleName: bantha_rbl-ani
+  * assetName: bantha_rbl-ani
   * audioTrain: "sfx_ui_unitcomplete_bantha_1":35,"sfx_ui_unitcomplete_bantha_2":35,"sfx_ui_unitcomplete_bantha_3":30
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * targetInRangeModifier: 1
+  * projectilestreams: no
   * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 0
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
+  * impactDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

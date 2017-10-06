@@ -3,7 +3,7 @@ title: Ithorian Infiltrator (IthorianInfiltrator)
 category: unit
 ---
 
-# Ithorian Infiltrator (IthorianInfiltrator) — version 1086
+# Ithorian Infiltrator (IthorianInfiltrator) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Flying vehicle (50), Turret (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Storage (60)_, _Ressource generator (60)_, Light vehicle (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Turret (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -123,66 +123,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: ithorian_rbl-ani
-  * deathAnimation: 
   * favoriteTargetType: shieldGenerator
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopIthorianInfiltrator
-  * iconUnlockScale: 
-  * iconCameraPosition: 17.05,12.75,14.83
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 4.79,2.66,11.07
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.26,2.61,-0.85
-  * assetName: ithorian_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: galaxy
+  * gunPosition: 
+  * iconCameraPosition: 17.05,12.75,14.83
+  * newRotationSpeed: 7854
   * unlockedByEvent: true
-  * iconLookatPosition: 0,1.73,-0.07
+  * animationDelay: 0
+  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0,1.73,-0.07
+  * iconUnlockScale: 
+  * bundleName: ithorian_rbl-ani
+  * assetName: ithorian_rbl-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 4.79,2.66,11.07
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * iconCloseupLookatPosition: -0.26,2.61,-0.85
+  * upgradeShardUid: shrd_troopIthorianInfiltrator
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * impactDelay: 250
-  * maxScale: false
-  * spawnApplyBuffs: buffPersonalShieldIthorian
-  * autoSpawnRateScale: 1
-  * armingDelay: 0
-  * projectilebullet: fx_blaster_beam_b_sm
-  * strictCoolDown: false
-  * projectilestreams: no
   * autoSpawnSpreadingScale: 1
+  * projectilestreams: no
+  * spawnApplyBuffs: buffPersonalShieldIthorian
+  * projectilebullet: fx_blaster_beam_b_sm
   * targetInRangeModifier: 1
+  * impactDelay: 250
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 |order     |234101|234102|234103|234104|234105|234106|234107|234108|234109|234110|
+|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
 

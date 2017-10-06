@@ -3,7 +3,7 @@ title: Elite AT-TE Walker (HeroATTE)
 category: unit
 ---
 
-# Elite AT-TE Walker (HeroATTE) — version 1086
+# Elite AT-TE Walker (HeroATTE) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -22,7 +22,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
 |--------------------|------------------------|------------------------|-------------------------|-------------------------|-------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
-|Upgrade requirements|6500$, 32 data fragments|5000$, 32 data fragments|10000$, 32 data fragments|20000$, 32 data fragments|50000$, 32 data fragments|135000$, 32 data fragments|225000$, 32 data fragments|450000$, 32 data fragments|1500000$, 32 data fragments|2500000$, 32 data fragments|
+|Upgrade requirements|32 data fragments, 6500$|32 data fragments, 5000$|32 data fragments, 10000$|32 data fragments, 20000$|32 data fragments, 50000$|32 data fragments, 135000$|32 data fragments, 225000$|32 data fragments, 450000$|32 data fragments, 1500000$|32 data fragments, 2500000$|
 |Upgrade time        |0s                      |1h30m                   |3h                       |8h                       |1d                       |3d                        |5d                        |1w                        |1w3d                       |2w                         |
 |Health              |38400                   |41600                   |44800                    |48000                    |51200                    |54400                     |57600                     |60800                     |65600                      |72000                      |
 |Damage per shot     |2430                    |2917                    |3404                     |3888                     |4374                     |4861                      |5348                      |5832                      |6318                       |7292                       |
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Storage (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Light vehicle (50), Storage (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Turret (50), Ressource generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -123,48 +123,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
+  * favoriteTargetType: shieldGenerator
+  * buffAssetOffset: 0.00,1.46,0.00
+  * eventButtonAction: galaxy
+  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
+  * iconCameraPosition: 36.44,26.49,49.08
+  * newRotationSpeed: 3927
+  * unlockedByEvent: true
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_walker_1":100
+  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_empire_atat_1":100
   * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
-  * decalSize: 320
-  * newRotationSpeed: 3927
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun:1
-  * infoUIType: 
-  * bundleName: attehero_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: shieldGenerator
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioDeath: "sfx_death_hero_walker_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopHeroATTE
-  * iconCameraPosition: 36.44,26.49,49.08
-  * eventButtonAction: galaxy
   * factoryRotation: 0
-  * buffAssetOffset: 0.00,1.46,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: HeroHologramATTE
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: attehero_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: true
-  * iconLookatPosition: 0.12,2.66,-0.82
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0.12,2.66,-0.82
+  * bundleName: attehero_rbl-ani
+  * assetName: attehero_rbl-ani
   * audioTrain: 
+  * decalSize: 320
+  * hologramUid: HeroHologramATTE
+  * iconCloseupCameraPosition: 
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: shrd_troopHeroATTE
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 |Level             |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----------|--|--|--|--|--|--|--|--|--|
@@ -173,21 +173,21 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
-  * effectType: 2
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
-  * impactDelay: 500
-  * projectilebullet: fx_blaster_beam_b_med
-  * decalAssetName: tac_hero_rbl
-  * strictCoolDown: false
   * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 0
+  * projectilestreams: no
+  * effectType: 2
+  * decalAssetName: tac_hero_rbl
+  * projectilebullet: fx_blaster_beam_b_med
   * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * impactDelay: 500
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |211201|211202|211203|211204|211205|211206|211207|211208|211209|211210|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 

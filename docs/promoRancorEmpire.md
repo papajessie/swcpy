@@ -3,7 +3,7 @@ title: Rancor (promoRancorEmpire)
 category: unit
 ---
 
-# Rancor (promoRancorEmpire) — version 1086
+# Rancor (promoRancorEmpire) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (60)**, Heavy infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Turret (60)**, Light vehicle (50), Storage (50), Infantry (50), Droideka (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 16
   * Target preferences strength: 90
@@ -120,64 +120,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_melee_headbutt_lrg
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioImpact: 
-  * animationDelay: 960
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * decalSize: 
-  * newRotationSpeed: 2000
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * infoUIType: 
-  * bundleName: rancor_neu-ani
-  * deathAnimation: 
   * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 38.76,41.86,47.24
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: rancor_neu-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * iconCameraPosition: 38.76,41.86,47.24
+  * newRotationSpeed: 2000
   * unlockedByEvent: 
-  * iconLookatPosition: -0.95,2.74,-1.82
+  * animationDelay: 960
+  * audioDeath: "sfx_death_creatures_rancor_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.95,2.74,-1.82
+  * iconUnlockScale: 
+  * bundleName: rancor_neu-ani
+  * assetName: rancor_neu-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 2
+  * projectilestreams: no
   * strictCoolDown: false
+  * targetInRangeModifier: 1
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 2
-  * impactDelay: 0
   * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
+  * impactDelay: 0
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |165801|165802|165803|165804|165805|165806|165807|165808|165809|165810|
 |pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|order     |165801|165802|165803|165804|165805|165806|165807|165808|165809|165810|
 

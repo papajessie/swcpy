@@ -3,7 +3,7 @@ title: Droideka Oppressor (ChampionEmpireHeavyDroidekaSample)
 category: unit
 ---
 
-# Droideka Oppressor (ChampionEmpireHeavyDroidekaSample) — version 1086
+# Droideka Oppressor (ChampionEmpireHeavyDroidekaSample) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, Shield (5), Shield generator (5), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Light vehicle (50)**, **Storage (50)**, **HQ (50)**, **Infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Other building (50)**, **Turret (50)**, **Ressource generator (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Shield (5), Shield generator (5), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Flying infantry (0), Flying vehicle (0), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -124,72 +124,72 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: true
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_artilleryDroideka_hit
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_artilleryDroideka_muzzle
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * animationDelay: 250
-  * eventFeaturesString: 
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * eventButtonString: 
-  * gunPosition: atst_emp_rig_MASTER_MOVER/locator_gun_Lt1:1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2
-  * infoUIType: 
-  * deathAnimation: 
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.65,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: atst_emp_rig_MASTER_MOVER/locator_gun_Lt1:1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
+  * animationDelay: 250
+  * tooltipHeightOffset: 1.5
+  * iconUnlockRotation: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconUnlockScale: 
   * audioTrain: 
+  * decalSize: 160
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
 
 |Level             |1                                                                                                             |2                                                                                                             |3                                                                                                             |4                                                                                                             |5                                                                                                             |6                                                                                                             |7                                                                                                             |8                                                                                                             |9                                                                                                             |10                                                                                                            |
 |------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+|iconCameraPosition|-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-10.52,17.22,25.24                                                                                            |-10.52,17.22,25.24                                                                                            |-11.59,19.02,28.21                                                                                            |-11.59,19.02,28.21                                                                                            |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |
+|audioDeath        |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":50                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":51                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":52                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":53                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":54                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":55                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":56                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":57                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":58                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":59                                       |
 |audioPlacement    |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":50                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":51                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":52                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":53                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":54                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":55                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":56                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":57                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":58                               |"sfx_placement_artillerydroideka_01":50,"sfx_placement_artillerydroideka_02":59                               |
 |audioImpact       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":50                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":51                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":52                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":53                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":54                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":55                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":56                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":57                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":58                                                       |"sfx_explosion_impact_1":50,"sfx_explosion_impact_2":59                                                       |
-|shieldAssetName   |effectEmpireHeavyDroidekaShield1                                                                              |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |
-|audioAttack       |"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":30|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":31|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":32|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":33|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":34|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":35|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":36|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":37|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":38|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":39|
-|bundleName        |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
-|audioDeath        |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":50                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":51                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":52                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":53                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":54                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":55                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":56                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":57                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":58                                       |"sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":59                                       |
-|iconCameraPosition|-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-10.52,17.22,25.24                                                                                            |-10.52,17.22,25.24                                                                                            |-11.59,19.02,28.21                                                                                            |-11.59,19.02,28.21                                                                                            |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |
-|assetName         |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
 |iconLookatPosition|0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.4,1.52,-0.26                                                                                                |0.4,1.52,-0.26                                                                                                |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |
+|bundleName        |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
+|assetName         |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
+|audioAttack       |"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":30|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":31|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":32|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":33|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":34|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":35|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":36|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":37|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":38|"sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":39|
+|shieldAssetName   |effectEmpireHeavyDroidekaShield1                                                                              |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |
 
 ## Uninterpreted stats
 
   * projectiles1Time: 300
   * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
-  * impactDelay: 0
   * projectilebullet: fx_artilleryDroideka_projectile
-  * armingDelay: 0
-  * strictCoolDown: false
-  * spawnEffectUid: effectEmpireSpawn
-  * projectilesTransition: 100
+  * projectilestreams: no
   * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
+  * impactDelay: 0
+  * spawnEffectUid: effectEmpireSpawn
+  * strictCoolDown: false
+  * projectilesTransition: 100
   * projectiles2Time: 300
+  * targetInRangeModifier: 1
+  * autoSpawnRateScale: 2
+  * armingDelay: 0
 
 |Level     |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
 |----------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
-|pointValue|40.000|68.000|88.000|108.000|128.000|148.000|172.000|200.000|200.000|200.000|
 |order     |114705|114710|114715|114720 |114725 |114730 |114735 |114740 |114745 |114750 |
+|pointValue|40.000|68.000|88.000|108.000|128.000|148.000|172.000|200.000|200.000|200.000|
 

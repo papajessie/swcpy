@@ -3,7 +3,7 @@ title: Medic Droid (Medic)
 category: unit
 ---
 
-# Medic Droid (Medic) — version 1086
+# Medic Droid (Medic) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, Flying infantry (0), Droideka (0), Support troop (0), Other building (0), Vehicle hero (0), HQ (0), Trap (0), Shield (0), Heavy vehicle (0), Heavy vehicular hero (0), Storage (0), Shield generator (0), Light vehicle (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
+  * Target preferences: **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Light vehicle (0), Storage (0), Flying infantry (0), Vehicle hero (0), HQ (0), Droideka (0), Flying vehicle (0), Support troop (0), Other building (0), Turret (0), Shield (0), Ressource generator (0), Wall (0), Shield generator (0), Heavy vehicular hero (0), Trap (0), Heavy vehicle (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,66 +123,66 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: Healer
-  * bundleName: medicdroid_rbl-ani
-  * deathAnimation: 
   * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 6.65,6.07,11.15
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 1.36,0.58,8.63
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.03,1.47,-0.14
-  * assetName: medicdroid_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 6.65,6.07,11.15
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.26,1.17,0.34
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_medic_1":50,"sfx_death_droid_medic_2":50
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_droid_medic_1":50,"sfx_placement_droid_medic_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: Healer
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0.26,1.17,0.34
+  * iconUnlockScale: 
+  * bundleName: medicdroid_rbl-ani
+  * assetName: medicdroid_rbl-ani
   * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 1.36,0.58,8.63
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * iconCloseupLookatPosition: 0.03,1.47,-0.14
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * impactDelay: 250
-  * maxScale: false
   * projectilestreams: no
-  * armingDelay: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * supportFollowDistance: 5
   * autoSpawnSpreadingScale: 1
   * targetInRangeModifier: 1
+  * impactDelay: 250
+  * strictCoolDown: false
+  * supportFollowDistance: 5
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level               |1        |2        |3        |4        |5        |6        |7        |8        |9        |10        |
 |--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------|
-|pointValue          |5.000    |6.000    |7.000    |8.000    |9.000    |10.000   |11.000   |12.000   |13.000   |15.000    |
 |projectileapplyBuffs|buffHeal1|buffHeal2|buffHeal3|buffHeal4|buffHeal5|buffHeal6|buffHeal7|buffHeal8|buffHeal9|buffHeal10|
 |order               |220501   |220502   |220503   |220504   |220505   |220506   |220507   |220508   |220509   |220510    |
+|pointValue          |5.000    |6.000    |7.000    |8.000    |9.000    |10.000   |11.000   |12.000   |13.000   |15.000    |
 

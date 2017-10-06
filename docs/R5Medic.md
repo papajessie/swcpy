@@ -3,7 +3,7 @@ title: Imperial Astromedic (R5Medic)
 category: unit
 ---
 
-# Imperial Astromedic (R5Medic) — version 1086
+# Imperial Astromedic (R5Medic) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, Flying infantry (0), Droideka (0), Support troop (0), Other building (0), Vehicle hero (0), HQ (0), Trap (0), Shield (0), Heavy vehicle (0), Heavy vehicular hero (0), Storage (0), Shield generator (0), Light vehicle (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
+  * Target preferences: **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Heavy infantry (50)**, Light vehicle (0), Storage (0), Flying infantry (0), Vehicle hero (0), HQ (0), Droideka (0), Flying vehicle (0), Support troop (0), Other building (0), Turret (0), Shield (0), Ressource generator (0), Wall (0), Shield generator (0), Heavy vehicular hero (0), Trap (0), Heavy vehicle (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,47 +123,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
+  * favoriteTargetType: infantry
+  * buffAssetOffset: 
+  * eventButtonAction: galaxy
+  * gunPosition: 
+  * iconCameraPosition: 5.21,9.06,13.12
+  * newRotationSpeed: 7854
+  * unlockedByEvent: true
+  * animationDelay: 0
+  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
+  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_droid_r5_01":50,"sfx_placement_droid_r5_02":50
   * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: Healer
-  * bundleName: r5droid_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: infantry
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * audioDeath: "sfx_death_droid_r5_01":50,"sfx_death_droid_r5_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopR5Medic
-  * iconCameraPosition: 5.21,9.06,13.12
-  * eventButtonAction: galaxy
   * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: r5droid_emp-ani
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.19,0.88,-0.37
+  * infoUIType: Healer
   * factoryScaleFactor: 1
+  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.19,0.88,-0.37
+  * bundleName: r5droid_emp-ani
+  * assetName: r5droid_emp-ani
   * audioTrain: "sfx_ui_unitcomplete_r5droid_01":50,"sfx_ui_unitcomplete_r5droid_02":50
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: hn_open_galaxy
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: shrd_troopR5Medic
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * shieldAssetName: 
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -173,19 +173,19 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * impactDelay: 250
-  * maxScale: false
   * projectilestreams: no
-  * armingDelay: 0
-  * autoSpawnRateScale: 1
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
+  * impactDelay: 250
   * strictCoolDown: false
   * supportFollowDistance: 5
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level               |1           |2           |3           |4           |5           |6           |7           |8           |9           |10           |
 |--------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|-------------|
-|pointValue          |5.000       |6.000       |7.000       |8.000       |9.000       |10.000      |11.000      |12.000      |13.000      |15.000       |
 |projectileapplyBuffs|buffAdvHeal1|buffAdvHeal2|buffAdvHeal3|buffAdvHeal4|buffAdvHeal5|buffAdvHeal6|buffAdvHeal7|buffAdvHeal8|buffAdvHeal9|buffAdvHeal10|
 |order               |134401      |134402      |134403      |134404      |134405      |134406      |134407      |134408      |134409      |134410       |
+|pointValue          |5.000       |6.000       |7.000       |8.000       |9.000       |10.000      |11.000      |12.000      |13.000      |15.000       |
 

@@ -3,7 +3,7 @@ title: Wookiee Warrior (Wookie)
 category: unit
 ---
 
-# Wookiee Warrior (Wookie) — version 1086
+# Wookiee Warrior (Wookie) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 12
   * Target preferences strength: 90
@@ -123,65 +123,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: wookiewarrior_rbl-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 9.29,13.73,18.65
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.36,0.00
-  * iconCloseupCameraPosition: -0.51,3.09,12.25
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.08,3,-1.33
-  * assetName: wookiewarrior_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "wookiewarrior_rbl_rig_MASTER_MOVER/wookiewarrior_rbl_rig_locator_gun":1
+  * iconCameraPosition: 9.29,13.73,18.65
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.06,1.71,0.07
+  * animationDelay: 0
+  * audioDeath: "sfx_death_rebel_wookie_1":35,"sfx_death_rebel_wookie_2":35,"sfx_death_rebel_wookie_3":30
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_rebel_wookie_1":50,"sfx_placement_rebel_wookie_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: -0.06,1.71,0.07
+  * iconUnlockScale: 
+  * bundleName: wookiewarrior_rbl-ani
+  * assetName: wookiewarrior_rbl-ani
   * audioTrain: "sfx_ui_unitcomplete_wookie_1":35,"sfx_ui_unitcomplete_wookie_2":35,"sfx_ui_unitcomplete_wookie_3":30
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: -0.51,3.09,12.25
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * iconCloseupLookatPosition: 0.08,3,-1.33
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_b_sm
   * targetInRangeModifier: 1
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
+  * armingDelay: 0
+  * projectilebullet: fx_blaster_beam_b_sm
+  * autoSpawnRateScale: 1
+  * impactDelay: 1000
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|order     |220201|220202|220203|220204|220205|220206|220207|220208|220209|220210|
 |pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
+|order     |220201|220202|220203|220204|220205|220206|220207|220208|220209|220210|
 

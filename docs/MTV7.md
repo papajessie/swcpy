@@ -3,7 +3,7 @@ title: MTV-7 (MTV7)
 category: unit
 ---
 
-# MTV-7 (MTV7) — version 1086
+# MTV-7 (MTV7) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Infantry hero (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Heavy infantry hero (50), Shield generator (50), Light vehicle (50), Turret (50), Flying vehicle (50), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Flying infantry (50), Vehicle hero (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Heavy infantry hero (50), Turret (50), Shield (50), Infantry hero (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), Heavy infantry (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,47 +123,47 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_r_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
+  * favoriteTargetType: resource
+  * buffAssetOffset: 0.00,0.41,0.0
+  * eventButtonAction: planet
+  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
+  * iconCameraPosition: 17.7,17.49,19.17
+  * newRotationSpeed: 7854
+  * unlockedByEvent: true
+  * animationDelay: 0
+  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
+  * tooltipHeightOffset: 
   * audioPlacement: "sfx_placement_empire_mtv7_1":50,"sfx_placement_empire_mtv7_2":50
   * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_hth
-  * gunPosition: "mtv7_emp_rig_MASTER_MOVER/mtv7_emp_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: mtv7_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: resource
-  * eventButtonData: planet21
-  * audioDeath: "sfx_death_empire_mtv7_1":33,"sfx_death_empire_mtv7_2":33,"sfx_death_empire_mtv7_3":34
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * upgradeShardUid: shrd_troopMTV7
-  * iconCameraPosition: 17.7,17.49,19.17
-  * eventButtonAction: planet
   * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.41,0.0
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: mtv7_emp-ani
-  * unlockedByEvent: true
-  * iconLookatPosition: 0.04,1.16,0.04
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: planet21
+  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
+  * deathAnimation: 
+  * iconLookatPosition: 0.04,1.16,0.04
+  * bundleName: mtv7_emp-ani
+  * assetName: mtv7_emp-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: hn_open_hth
+  * eventFeaturesString: fragment_obtain_gen
+  * audioAttack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: shrd_troopMTV7
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * shieldAssetName: 
 
 |Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------------|-----|--|--|--|--|--|--|--|--|--|
@@ -173,19 +173,19 @@ These graphical elements shouldn't interfere with gameplay and can be safely ign
 
 ## Uninterpreted stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
-  * armingDelay: 0
-  * projectilebullet: fx_blaster_beam_r_sm
-  * strictCoolDown: false
   * ability: abilityMTVIonShot
+  * projectilestreams: no
   * autoSpawnSpreadingScale: 2
+  * projectilebullet: fx_blaster_beam_r_sm
   * targetInRangeModifier: 1
+  * impactDelay: 1000
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 2
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
 |order     |131101|131102|131103|131104|131105|131106|131107|131108|131109|131110|
+|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
 

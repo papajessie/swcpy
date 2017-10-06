@@ -3,7 +3,7 @@ title: AT-ST (FueATST)
 category: unit
 ---
 
-# AT-ST (FueATST) — version 1086
+# AT-ST (FueATST) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (55)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (55)**, Light vehicle (50), Storage (50), Flying infantry (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -114,62 +114,62 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_r_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * decalSize: 
-  * newRotationSpeed: 3927
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
-  * infoUIType: 
-  * bundleName: atst_emp-ani
-  * deathAnimation: 
   * favoriteTargetType: none
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_walker_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 29.51,14.98,34.56
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,3.16,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: atst_emp-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun1":1,"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun2":2
+  * iconCameraPosition: 29.51,14.98,34.56
+  * newRotationSpeed: 3927
   * unlockedByEvent: 
-  * iconLookatPosition: 0.17,2.95,0.85
+  * animationDelay: 0
+  * audioDeath: "sfx_death_walker_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0.17,2.95,0.85
+  * iconUnlockScale: 
+  * bundleName: atst_emp-ani
+  * assetName: atst_emp-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * strictCoolDown: false
-  * order: 341501
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
   * autoSpawnSpreadingScale: 2
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_r_med
   * pointValue: 10.000
+  * projectilestreams: no
+  * maxScale: false
+  * strictCoolDown: false
   * targetInRangeModifier: 1
+  * armingDelay: 0
+  * order: 341501
+  * projectilebullet: fx_blaster_beam_r_med
+  * autoSpawnRateScale: 2
+  * impactDelay: 1000
 

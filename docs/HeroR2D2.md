@@ -3,7 +3,7 @@ title: R2-D2 (HeroR2D2)
 category: unit
 ---
 
-# R2-D2 (HeroR2D2) — version 1086
+# R2-D2 (HeroR2D2) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
+  * Target preferences: **Light vehicle (50)**, **Vehicle hero (50)**, **Heavy vehicular hero (50)**, **Heavy vehicle (50)**, Storage (0), Flying infantry (0), HQ (0), Infantry (0), Droideka (0), Flying vehicle (0), Support troop (0), Other building (0), Heavy infantry hero (0), Turret (0), Shield (0), Ressource generator (0), Infantry hero (0), Wall (0), Shield generator (0), Trap (0), Heavy infantry (0)
   * Targeted type: ALLIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,68 +123,68 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 200
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_healing_ring
+  * projectilemaxScale: 200
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_hero_r2d2_1":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: r2d2_rbl-ani
-  * deathAnimation: 
   * favoriteTargetType: vehicles
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 8.1,8.48,14.32
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
-  * hologramUid: HeroHologramR2D2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * assetName: r2d2_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 8.1,8.48,14.32
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: 0.21,1.31,0.18
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_r2d2_1":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_r2d2_1":100
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: 0.21,1.31,0.18
+  * iconUnlockScale: 
+  * bundleName: r2d2_rbl-ani
+  * assetName: r2d2_rbl-ani
   * audioTrain: 
+  * decalSize: 160
+  * hologramUid: HeroHologramR2D2
+  * iconCloseupCameraPosition: 2.91,1.08,9.21
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * iconCloseupLookatPosition: 0.04,1.41,0.02
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * decalBundleName: tac_hero_rbl
+  * projectilestreams: no
+  * decalAssetName: tac_hero_rbl
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 2
+  * impactDelay: 1000
+  * strictCoolDown: false
+  * supportFollowDistance: 5
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
-  * impactDelay: 1000
   * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_rbl
-  * supportFollowDistance: 5
-  * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
 
 |Level               |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
 |--------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
-|pointValue          |20.000         |24.000         |28.000         |32.000         |36.000         |40.000         |44.000         |48.000         |52.000         |60.000          |
-|order               |210501         |210502         |210503         |210504         |210505         |210506         |210507         |210508         |210509         |210510          |
 |projectileapplyBuffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
+|order               |210501         |210502         |210503         |210504         |210505         |210506         |210507         |210508         |210509         |210510          |
+|pointValue          |20.000         |24.000         |28.000         |32.000         |36.000         |40.000         |44.000         |48.000         |52.000         |60.000          |
 

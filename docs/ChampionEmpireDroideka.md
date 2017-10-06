@@ -3,7 +3,7 @@ title: Droideka Sentinel (ChampionEmpireDroideka)
 category: unit
 ---
 
-# Droideka Sentinel (ChampionEmpireDroideka) — version 1086
+# Droideka Sentinel (ChampionEmpireDroideka) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Vehicle hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Heavy vehicular hero (70)_, _Light vehicle (60)_, _Flying infantry (60)_, _Infantry (60)_, _Flying vehicle (60)_, _Support troop (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Storage (50), HQ (50), Other building (50), Turret (50), Shield (50), Ressource generator (50), Shield generator (50), Wall (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -127,70 +127,70 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_y_sm
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_y_sm
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
-  * audioImpact: 
+  * favoriteTargetType: closest
+  * buffAssetOffset: 0.00,0.65,0.00
+  * eventButtonAction: 
+  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
+  * iconCameraPosition: 16.58,12.87,13.86
+  * newRotationSpeed: 7854
+  * unlockedByEvent: 
   * animationDelay: 0
+  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
+  * tooltipHeightOffset: 1.5
+  * audioPlacement: "sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
+  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.5,1.23,-0.09
+  * iconUnlockScale: 
+  * audioTrain: 
+  * decalSize: 160
+  * hologramUid: 
+  * iconCloseupCameraPosition: 16.58,12.87,13.86
+  * eventButtonString: 
   * eventFeaturesString: 
   * audioAttack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * eventButtonString: 
-  * gunPosition: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
-  * infoUIType: 
-  * deathAnimation: 
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 16.58,12.87,13.86
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.65,0.00
-  * iconCloseupCameraPosition: 16.58,12.87,13.86
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * iconCloseupLookatPosition: -0.5,1.23,-0.09
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
   * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.5,1.23,-0.09
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioTrain: 
 
 |Level          |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |11                          |12                          |13                          |14                          |15                          |16                          |17                          |18                          |19                          |20                          |21                          |22                          |23                          |24                          |25                          |26                          |27                          |28                          |29                          |30                          |31                          |32                          |33                          |34                          |35                          |36                          |37                          |38                          |39                          |40                          |41                          |42                          |43                          |44                          |45                          |46                          |47                          |48                          |49                          |50                          |
 |---------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|shieldAssetName|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
 |bundleName     |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
 |assetName      |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
+|shieldAssetName|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
 
 ## Uninterpreted stats
 
+  * autoSpawnSpreadingScale: 2
+  * projectilestreams: no
+  * projectilebullet: fx_blaster_beam_r_sm
+  * targetInRangeModifier: 1
+  * impactDelay: 1000
+  * spawnEffectUid: effectEmpireSpawn
+  * strictCoolDown: true
+  * preventDonation: true
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
   * autoSpawnRateScale: 2
-  * preventDonation: true
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_r_sm
-  * strictCoolDown: true
-  * spawnEffectUid: effectEmpireSpawn
-  * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |11    |12    |13    |14    |15    |16    |17    |18     |19     |20     |21     |22     |23     |24     |25     |26     |27     |28     |29     |30     |31     |32     |33     |34     |35     |36     |37     |38     |39     |40     |41     |42     |43     |44     |45     |46     |47     |48     |49     |50     |
 |----------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|pointValue|20.000|28.000|32.000|36.000|40.000|48.000|52.000|56.000|60.000|68.000|72.000|76.000|80.000|84.000|88.000|92.000|96.000|100.000|104.000|108.000|112.000|116.000|120.000|124.000|128.000|132.000|136.000|140.000|144.000|148.000|152.000|156.000|160.000|168.000|172.000|176.000|180.000|184.000|188.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|
 |order     |114501|114502|114503|114504|114505|114506|114507|114508|114509|114510|114511|114512|114513|114514|114515|114516|114517|114518 |114519 |114520 |114521 |114522 |114523 |114524 |114525 |114526 |114527 |114528 |114529 |114530 |114531 |114532 |114533 |114534 |114535 |114536 |114537 |114538 |114539 |114540 |114541 |114542 |114543 |114544 |114545 |114546 |114547 |114548 |114549 |114550 |
+|pointValue|20.000|28.000|32.000|36.000|40.000|48.000|52.000|56.000|60.000|68.000|72.000|76.000|80.000|84.000|88.000|92.000|96.000|100.000|104.000|108.000|112.000|116.000|120.000|124.000|128.000|132.000|136.000|140.000|144.000|148.000|152.000|156.000|160.000|168.000|172.000|176.000|180.000|184.000|188.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|
 

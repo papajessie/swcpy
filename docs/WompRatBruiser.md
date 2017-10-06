@@ -3,7 +3,7 @@ title: Heavy Womp Rat (WompRatBruiser)
 category: unit
 ---
 
-# Heavy Womp Rat (WompRatBruiser) — version 1086
+# Heavy Womp Rat (WompRatBruiser) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Infantry hero (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Heavy infantry hero (50), Shield generator (50), Light vehicle (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
+  * Target preferences: **Turret (70)**, _Storage (60)_, _Ressource generator (60)_, Light vehicle (50), Vehicle hero (50), HQ (50), Infantry (50), Droideka (50), Support troop (50), Other building (50), Heavy infantry hero (50), Shield (50), Infantry hero (50), Shield generator (50), Heavy vehicular hero (50), Heavy vehicle (50), Heavy infantry (50), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -121,61 +121,61 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 300
   * projectilehitSpark: 
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_melee_scratch_med
+  * projectilemaxScale: 300
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: 
-  * audioImpact: 
-  * animationDelay: 1000
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * decalSize: 
-  * newRotationSpeed: 982
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: wompratmedium_neu-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 13.51,14.12,9.05
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.25,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: wompratmedium_neu-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 13.51,14.12,9.05
+  * newRotationSpeed: 982
   * unlockedByEvent: 
-  * iconLookatPosition: -0.2,0.39,-0.08
+  * animationDelay: 1000
+  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * tooltipHeightOffset: 
+  * audioPlacement: 
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: -0.2,0.39,-0.08
+  * iconUnlockScale: 
+  * bundleName: wompratmedium_neu-ani
+  * assetName: wompratmedium_neu-ani
   * audioTrain: 
+  * decalSize: 
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * targetInRangeModifier: 1
+  * projectilestreams: no
   * strictCoolDown: false
+  * autoSpawnSpreadingScale: 1
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
   * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
+  * impactDelay: 1000
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|

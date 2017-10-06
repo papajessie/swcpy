@@ -3,7 +3,7 @@ title: trp_title_troopAwesome (no text translation) (troopAwesome)
 category: unit
 ---
 
-# trp_title_troopAwesome (no text translation) (troopAwesome) — version 1086
+# trp_title_troopAwesome (no text translation) (troopAwesome) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -29,7 +29,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Trap (100)**, _Heavy infantry (99)_, _Flying infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Turret (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, Other building (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1)
+  * Target preferences: **Trap (100)**, _Heavy infantry (99)_, _Flying infantry (95)_, _Infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Turret (90)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, Storage (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), HQ (40), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -114,65 +114,65 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_slugthrower_hit
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_slugthrower_muzzle
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: tuskenhero_tkn-ani
-  * deathAnimation: buffFireBurn:15
   * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 6.91,15.66,23.15
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: tuskenhero_tkn-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: 
+  * iconCameraPosition: 6.91,15.66,23.15
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.51,2,0.29
+  * animationDelay: 0
+  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: buffFireBurn:15
+  * iconLookatPosition: -0.51,2,0.29
+  * iconUnlockScale: 
+  * bundleName: tuskenhero_tkn-ani
+  * assetName: tuskenhero_tkn-ani
   * audioTrain: 
+  * decalSize: 160
+  * hologramUid: 
+  * iconCloseupCameraPosition: 
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * iconCloseupLookatPosition: 
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
+  * decalBundleName: tac_hero_neu
+  * projectilestreams: no
+  * order: 322601
+  * decalAssetName: tac_hero_neu
+  * projectilebullet: fx_slugthrower_projectile
+  * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 1
   * pointValue: 1.000
+  * uiDecalAssetName: HeroDecalNeutral
+  * strictCoolDown: false
   * armingDelay: 0
   * maxScale: false
-  * projectilestreams: no
   * autoSpawnRateScale: 1
   * impactDelay: 1000
-  * projectilebullet: fx_slugthrower_projectile
-  * decalAssetName: tac_hero_neu
-  * strictCoolDown: false
-  * order: 322601
-  * decalBundleName: tac_hero_neu
-  * autoSpawnSpreadingScale: 1
-  * uiDecalAssetName: HeroDecalNeutral
-  * targetInRangeModifier: 1
 

@@ -3,7 +3,7 @@ title: Chewbacca (HeroChewbacca)
 category: unit
 ---
 
-# Chewbacca (HeroChewbacca) — version 1086
+# Chewbacca (HeroChewbacca) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -32,7 +32,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Targeting
 
-  * Target preferences: **Turret (70)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
+  * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Flying infantry (50), HQ (50), Infantry (50), Droideka (50), Flying vehicle (50), Support troop (50), Other building (50), Shield (50), Ressource generator (50), Shield generator (50), Heavy vehicle (50), Heavy infantry (50), Vehicle hero (1), Heavy infantry hero (1), Infantry hero (1), Wall (1), Heavy vehicular hero (1), Trap (0)
   * Targeted type: ENEMIES
   * View Range: 8
   * Target preferences strength: 90
@@ -123,68 +123,68 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
   * projectilearcs: false
-  * projectilemaxScale: 100
   * projectilehitSpark: fx_blaster_hit_b_med
-  * projectilespinSpeed: 0
   * projectilemuzzleFlash: fx_blaster_flash_b_med
+  * projectilemaxScale: 100
+  * projectilespinSpeed: 0
 
 ## Presentation stats
 
 These graphical elements shouldn't interfere with gameplay and can be safely ignored.
 
-  * audioPlacement: "sfx_placement_hero_chewbacca":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: chewbacca_rbl-ani
-  * deathAnimation: 
   * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_chewbacca":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 11.26,10.46,19.03
-  * eventButtonAction: 
-  * factoryRotation: 0
   * buffAssetOffset: 0.00,0.43,0.00
-  * iconCloseupCameraPosition: 1.37,3.04,11.84
-  * hologramUid: HeroHologramRebel2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.23,3.05,-1.49
-  * assetName: chewbacca_rbl-ani
-  * iconUnlockPosition: 
+  * eventButtonAction: 
+  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * iconCameraPosition: 11.26,10.46,19.03
+  * newRotationSpeed: 7854
   * unlockedByEvent: 
-  * iconLookatPosition: -0.16,1.83,-0.03
+  * animationDelay: 0
+  * audioDeath: "sfx_death_hero_chewbacca":100
+  * tooltipHeightOffset: 
+  * audioPlacement: "sfx_placement_hero_chewbacca":100
+  * iconUnlockRotation: 
+  * audioImpact: 
+  * factoryRotation: 0
+  * infoUIType: 
   * factoryScaleFactor: 1
+  * eventButtonData: 
+  * unlockPlanet: 
+  * deathAnimation: 
+  * iconLookatPosition: -0.16,1.83,-0.03
+  * iconUnlockScale: 
+  * bundleName: chewbacca_rbl-ani
+  * assetName: chewbacca_rbl-ani
   * audioTrain: 
+  * decalSize: 160
+  * hologramUid: HeroHologramRebel2
+  * iconCloseupCameraPosition: 1.37,3.04,11.84
+  * eventButtonString: 
+  * eventFeaturesString: 
+  * audioAttack: "sfx_attack_rebel_wookie_1":50,"sfx_attack_rebel_wookie_2":50
+  * iconCloseupLookatPosition: -0.23,3.05,-1.49
+  * upgradeShardUid: 
+  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
+  * iconUnlockPosition: 
+  * shieldAssetName: 
 
 ## Uninterpreted stats
 
-  * armingDelay: 0
-  * effectType: 1
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * impactDelay: 250
-  * projectilebullet: fx_blaster_beam_b_med
-  * decalAssetName: tac_hero_rbl
-  * strictCoolDown: false
   * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 0
+  * projectilestreams: no
+  * effectType: 1
+  * decalAssetName: tac_hero_rbl
+  * projectilebullet: fx_blaster_beam_b_med
   * targetInRangeModifier: 1
+  * autoSpawnSpreadingScale: 0
+  * impactDelay: 250
+  * strictCoolDown: false
+  * armingDelay: 0
+  * maxScale: false
+  * autoSpawnRateScale: 1
 
 |Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 |order     |210201|210202|210203|210204|210205|210206|210207|210208|210209|210210|
+|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
 
