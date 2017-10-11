@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
   * Unlock planet: Unlock on Er'kit
-  * _Not found: Can be given, Shield asset name_
+  * _Not found: Can be given_
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Droideka (80)**, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Vehicule hero (70)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Infantry (60)_, _Support troop (60)_, Storage (50), Turret (50), Other building (50), Ressource generator (50), Shield (50), Headquarters (50), Shield generator (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -72,12 +72,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 33m20s
+  * Time between end of clip and start of clip: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 3
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -126,12 +125,92 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 3
   * _Not found: Length segments, Width segments_
 
+## Secondary attack : Rail Gun
+
+  * Auto: No
+  * Cooldown on spawn: No
+  * Supplementary time between last shot and reload: 45s
+  * Description: Rail Gun
+  * Duration: 1ms
+  * Recast ability: No
+  * Target self: No
+
+### Targeting
+
+  * Max attack range: 60
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 50
+  * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
+  * View range: 10
+  * _Not found: Attack shield border_
+
+### Shooting
+
+  * Time between start of clip and first shot: 1.200s
+  * Clip retargeting: No
+  * Gun shooting sequence: 1
+  * Impact delay: 1ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 2.500s
+  * Retargeting offset: 12
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 1ms
+  * Target locking: No
+  * _Not found: New target on reload_
+
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
+
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level|1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|DPS  |277.207|289.528|301.848|314.168|326.489|350.924|377.207|405.544|435.934|468.583|
+
+  * Headquarters: 50%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 75%
+  * Flying vehicle: 75%
+  * Support troop: 90%
+  * Heavy infantry hero: 100%
+  * Heavy vehicule hero: 75%
+  * Infantry hero: 100%
+  * Vehicule hero: 75%
+  * Infantry: 55%
+  * Ressource generator: 50%
+  * Shield: 25%
+  * Shield generator: 50%
+  * Storage: 50%
+  * Trap: 100%
+  * Turret: 55%
+  * Light vehicle: 40%
+  * Wall: 85%
+
+  * Cannons per sequence: 1
+  * Cliptime: 48.700s
+  * Directional: Yes
+  * Is deflectable: No
+  * Length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
+  * Max speed: 58
+  * Pass through shield: Yes
+  * Salvos: 1
+  * Width segments: 100,90,80
+
 ## Other stats
 
 ### Internal stats
 
 These stats internal to the system link different parts of data together.
 
+  * Projectile type: projectileRailGunEmpire
   * Unit ID: EmpireJohhar
   * Upgrade shard uid: shrd_troopEmpireJohhar
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs_
@@ -140,6 +219,10 @@ These stats internal to the system link different parts of data together.
 |---------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |Ability  |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
 |Hero data|hero1                |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
+
+Internal values for secondary attack:
+
+  * _Not found: Apply buffs_
 
 ### Presentation stats
 
@@ -167,7 +250,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.02,1.59,-0.01
   * Targeted type: ENEMIES
   * Unlocked by event: true
-  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -177,22 +260,25 @@ These are all sorts of user interface settings, that should not interfere with g
 
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Favorite target type: infantry
+### Secondary attack presentation stats
+
+  * Alt gun locators: 1
+  * Animation delay: 1
+  * Audio ability activate: "sfx_charge_railcannon_01":35,"sfx_charge_railcannon_02":35,"sfx_charge_railcannon_03":30
+  * Audio ability attack: "sfx_attack_railcannon_01":35,"sfx_attack_railcannon_02":35,"sfx_attack_railcannon_03":30
+  * Displayed damage per second: 1000.000
+  * Favorite target type: generic
+  * Name: Rail Gun
+  * Persistent scaling: 0
   * Arcs: No
-  * Bullet: fx_blaster_beam_r_med
-  * Hit spark: fx_blaster_hit_r_med
+  * Hit spark: fx_rail_gun_hit
   * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_r_med
-  * Name: JohharEmpire
+  * Muzzle flash: fx_rail_gun_muzzle
+  * Muzzle flash fade time: 1.5
+  * Name: Rail Gun
+  * Projectile length: 6
   * Spin speed: 0
-  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
-
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2000.000|2400.000|2800.000|3200.000|3599.000|4000.000|4400.000|4800.000|5200.000|6000.000|
-
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+  * _Not found: Audio ability loop, Bullet, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
 
 ### Uninterpreted stats
 
@@ -201,6 +287,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -217,4 +304,14 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+### Uninterpreted secondary attack stats
+
+  * Arming delay: 1
+  * Clip count: 1
+  * Kill cooldown reset: No
+  * Max speed: 20
+  * Strict cool down: Yes
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

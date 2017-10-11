@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: infantry
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 ### Training stats
 
@@ -55,7 +55,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Turret (60)_, _Other building (60)_, _Infantry (60)_, _Support troop (60)_, _Headquarters (60)_, _Droideka (60)_, Shield (50), Shield generator (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
+  * Target preferences: **Storage (66)**, **Ressource generator (66)**, _Light vehicle (60)_, _Turret (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Droideka (60)_, _Other building (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Headquarters (60)_, Shield generator (50), Shield (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -66,12 +66,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 33m20s
+  * Time between end of clip and start of clip: 2s
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 3
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -119,7 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: FUETroopTuskenWeak
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 ### Presentation stats
 
@@ -136,7 +135,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 10,11.38,12.75
   * Icon lookat position: -0.17,1.62,0.41
   * Targeted type: ENEMIES
-  * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+  * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
 ### Attack presentation stats
 
@@ -152,8 +151,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -163,6 +160,7 @@ Seriously, we don't really know what to do with these.
   * Max scale: No
   * Order: 332101
   * Point value: 1.000
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -174,4 +172,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

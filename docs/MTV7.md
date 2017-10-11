@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: vehicle
   * Unlock planet: Unlock on Hoth
-  * _Not found: Can be given, Shield asset name_
+  * _Not found: Can be given_
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy vehicle (50), Light vehicle (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicule hero (50), Flying infantry (50), Turret (50), Other building (50), Infantry (50), Heavy infantry hero (50), Support troop (50), Shield (50), Headquarters (50), Infantry hero (50), Vehicule hero (50), Shield generator (50), Droideka (50), Wall (1), Trap (0)
+  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -72,12 +72,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 13m20s
+  * Time between end of clip and start of clip: 800ms
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 1
   * Time between shots: 0s
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -125,6 +124,78 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 1
   * _Not found: Length segments, Width segments_
 
+## Secondary attack : MTV7_Ion
+
+  * Auto: Yes
+  * Cooldown on spawn: No
+  * Supplementary time between last shot and reload: 2m10s
+  * Description: MTVIon_Shot
+  * Duration: 5s
+  * Recast ability: No
+  * Target self: No
+
+### Targeting
+
+  * Max attack range: 20
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 100
+  * Target preferences: **Turret (100)**, Wall (0), Light vehicle (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Vehicule hero (0), Infantry hero (0), Heavy vehicule hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Heavy infantry (0), Headquarters (0)
+  * View range: 20
+  * _Not found: Attack shield border_
+
+### Shooting
+
+  * Time between start of clip and first shot: 1s
+  * Clip retargeting: Yes
+  * Damage per shot: 0
+  * Gun shooting sequence: 1
+  * Impact delay: 0s
+  * Can shoot over walls: Yes
+  * Time between end of clip and start of clip: 300ms
+  * Retargeting offset: 12
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 790ms
+  * Target locking: No
+  * _Not found: New target on reload_
+
+### Projectile
+
+  * DPS: 0.000
+  * _Not found: Beam damage, Splash damage percentages_
+
+  * Headquarters: 50%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 50%
+  * Droideka: 100%
+  * Flying infantry: 75%
+  * Flying vehicle: 75%
+  * Support troop: 75%
+  * Heavy infantry hero: 50%
+  * Heavy vehicule hero: 50%
+  * Infantry hero: 75%
+  * Vehicule hero: 75%
+  * Infantry: 75%
+  * Ressource generator: 50%
+  * Shield: 50%
+  * Shield generator: 50%
+  * Storage: 50%
+  * Trap: 400%
+  * Turret: 400%
+  * Light vehicle: 75%
+  * Wall: 50%
+
+  * Cannons per sequence: 1
+  * Cliptime: 2m11.300s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 24
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -132,9 +203,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Ability: abilityMTVIonShot
+  * Projectile type: projectileMTV7Ion
   * Unit ID: MTV7
   * Upgrade shard uid: shrd_troopMTV7
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+
+Internal values for secondary attack:
+
+  * Apply buffs: buffTurretDamageDebuff1
 
 ### Presentation stats
 
@@ -157,7 +233,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.04,1.16,0.04
   * Targeted type: ENEMIES
   * Unlocked by event: true
-  * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -167,22 +243,25 @@ These are all sorts of user interface settings, that should not interfere with g
 
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Favorite target type: resource
+### Secondary attack presentation stats
+
+  * Alt gun locators: 1
+  * Animation delay: 810
+  * Audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":51
+  * Audio ability attack: "sfx_attack_ion_01":35,"sfx_attack_ion_02":35,"sfx_attack_ion_03":30
+  * Displayed damage per second: 75.000
+  * Favorite target type: vehicles
+  * Name: MTVIon_Shot
+  * Persistent scaling: 0
   * Arcs: No
-  * Bullet: fx_blaster_beam_r_sm
-  * Hit spark: fx_blaster_hit_r_sm
+  * Bullet: fx_mtv7-atrt_projectile
+  * Charge asset name: fx_mtv7-atrt_muzzle
+  * Hit spark: fx_blaster_hit_b_med
   * Max scale: 100
   * Muzzle flash: fx_blaster_flash_r_sm
-  * Name: MTV7
+  * Name: MTV7_Ion
   * Spin speed: 0
-  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
-
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2184.000|2280.000|2380.000|2490.000|2610.000|2730.000|2860.000|3000.000|3140.000|3290.000|
-
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+  * _Not found: Audio ability loop, Ground bullet, Muzzle flash fade time, Persistent effect, Projectile length, S transition, Weapon trail FX params_
 
 ### Uninterpreted stats
 
@@ -191,6 +270,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -207,4 +287,14 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+### Uninterpreted secondary attack stats
+
+  * Arming delay: 0
+  * Clip count: 1
+  * Kill cooldown reset: No
+  * Max speed: 30
+  * Strict cool down: Yes
+  * Seeks target: Yes
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

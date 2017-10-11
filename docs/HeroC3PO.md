@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: hero
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 |Level |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |------|------|------|------|------|------|------|------|------|------|------|
@@ -59,7 +59,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 1
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Heavy vehicule hero (50)**, **Flying infantry (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, **Vehicule hero (50)**, **Droideka (50)**, Storage (0), Wall (0), Turret (0), Other building (0), Trap (0), Ressource generator (0), Support troop (0), Shield (0), Headquarters (0), Shield generator (0)
+  * Target preferences: **Light vehicle (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Support troop (0), Other building (0), Headquarters (0)
   * View range: 100
 
 ### Shooting
@@ -70,12 +70,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 8m20s
+  * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 15
   * Self-centered targeting: Yes
   * Shot count: 1
   * Time between shots: 0s
-  * Splash: 0
   * Target locking: Yes
   * _Not found: New target on reload_
 
@@ -123,7 +122,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroC3PO
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
@@ -146,7 +145,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spawn effect uid: effectRebelSpawn
   * Targeted type: ALLIES
   * Tooltip height offset: 1.5
-  * _Not found: Audio attack, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon camera position, Icon closeup camera position, Icon closeup lookat position, Icon lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+  * _Not found: Audio attack, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon camera position, Icon closeup camera position, Icon closeup lookat position, Icon lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
 ### Attack presentation stats
 
@@ -158,8 +157,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Displayed damage per second, Ground bullet, Hit spark, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -167,6 +164,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
   * _Not found: Order_
@@ -183,4 +181,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: hero
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -63,7 +63,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Turret (80)**, Heavy vehicle (50), Light vehicle (50), Storage (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Other building (50), Infantry (50), Ressource generator (50), Support troop (50), Shield (50), Headquarters (50), Shield generator (50), Droideka (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
+  * Target preferences: **Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -73,12 +73,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 8m20s
+  * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -127,6 +126,79 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 2
   * _Not found: Length segments, Width segments_
 
+## Secondary attack : HERO Luke Defend
+
+  * Auto: No
+  * Cooldown on spawn: No
+  * Supplementary time between last shot and reload: 15s
+  * Description: Lightsaber Defend
+  * Duration: 10s
+  * Recast ability: No
+  * Target self: Yes
+
+### Targeting
+
+  * Max attack range: 7
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Light vehicle (50), Storage (50), Ressource generator (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
+  * View range: 8
+  * _Not found: Attack shield border_
+
+### Shooting
+
+  * Time between start of clip and first shot: 100ms
+  * Clip retargeting: No
+  * Damage per shot: 1200
+  * Gun shooting sequence: 1
+  * Impact delay: 0s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 0s
+  * Retargeting offset: 12
+  * Self-centered targeting: Yes
+  * Shot count: 5
+  * Time between shots: 1.900s
+  * Target locking: No
+  * _Not found: New target on reload_
+
+### Projectile
+
+  * DPS: 264.317
+  * Splash damage percentages: 100,100,100
+  * _Not found: Beam damage_
+
+  * Headquarters: 100%
+  * Heavy infantry: 60%
+  * Heavy vehicle: 100%
+  * Other building: 75%
+  * Droideka: 100%
+  * Flying infantry: 100%
+  * Flying vehicle: 100%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicule hero: 100%
+  * Infantry hero: 100%
+  * Vehicule hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 95%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 95%
+  * Trap: 100%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 75%
+
+  * Cannons per sequence: 1
+  * Cliptime: 22.700s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 5
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -134,12 +206,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Ability: abilityHeroLukeDefend
+  * Projectile type: projectileHeroLukeDefend
+  * Self buff: buffDeflect
   * Unit ID: HeroLukeSkywalker
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+
+Internal values for secondary attack:
+
+  * _Not found: Apply buffs_
 
 ### Presentation stats
 
@@ -163,7 +241,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.45,1.28,-0.62
   * Spawn effect uid: effectRebelSpawn
   * Targeted type: ENEMIES
-  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
 |Level      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |-----------|--|--|--|--|--|--|--|--|--|--|
@@ -171,22 +249,22 @@ These are all sorts of user interface settings, that should not interfere with g
 
 ### Attack presentation stats
 
+### Secondary attack presentation stats
+
   * Animation delay: 0
-  * Favorite target type: turret
+  * Audio ability activate: "sfx_lightsaber_luke_activate_1":100
+  * Audio ability attack: "sfx_lightsaber_luke_swing_1":30,"sfx_lightsaber_luke_swing_2":35,"sfx_lightsaber_luke_swing_3":35
+  * Audio ability loop: "sfx_lightsaber_luke_whirlwind":100
+  * Displayed damage per second: 1000.000
+  * Name: Lightsaber Defend Luke
+  * Persistent effect: fx_aura_rbl
+  * Persistent scaling: 0
+  * Weapon trail FX params: 0.17,0.10
   * Arcs: No
-  * Bullet: fx_blaster_beam_b_sm
-  * Hit spark: fx_blaster_hit_b_sm
-  * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_b_sm
-  * Name: HERO Luke Attack
+  * Max scale: 200
+  * Name: HERO Luke Defend
   * Spin speed: 0
-  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
-
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
-
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+  * _Not found: Alt gun locators, Bullet, Charge asset name, Favorite target type, Ground bullet, Hit spark, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
 
 ### Uninterpreted stats
 
@@ -195,6 +273,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 0
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -211,4 +290,14 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+### Uninterpreted secondary attack stats
+
+  * Arming delay: 0
+  * Clip count: 1
+  * Kill cooldown reset: Yes
+  * Max speed: 3
+  * Strict cool down: No
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

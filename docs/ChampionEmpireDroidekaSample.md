@@ -21,11 +21,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
 
-|Level            |1                          |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                          |
-|-----------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Health           |19200                      |23680                       |26880                       |30080                       |33280                       |36480                       |39040                       |41600                       |43840                       |46080                       |
-|Shield asset name|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
-|Shield health    |14400                      |17760                       |20160                       |22560                       |24960                       |27360                       |29280                       |31200                       |32400                       |33600                       |
+|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health       |19200|23680|26880|30080|33280|36480|39040|41600|43840|46080|
+|Shield health|14400|17760|20160|22560|24960|27360|29280|31200|32400|33600|
 
 ### Training stats
 
@@ -63,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Droideka (80)**, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Infantry hero (70)_, _Vehicule hero (70)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Infantry (60)_, _Support troop (60)_, Storage (50), Turret (50), Other building (50), Ressource generator (50), Shield (50), Headquarters (50), Shield generator (50), Wall (1), Trap (0)
+  * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -72,11 +71,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Clip retargeting: No
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 8m20s
+  * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Time between shots: 233ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -136,7 +134,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionEmpireDroidekaSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 ### Presentation stats
 
@@ -155,12 +153,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Tooltip height offset: 1.5
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level               |1                   |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                   |
-|--------------------|--------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Asset name          |droideka_con-ani-up1|droideka_con-ani-up10|droideka_con-ani-up10|droideka_con-ani-up20|droideka_con-ani-up20|droideka_con-ani-up30|droideka_con-ani-up30|droideka_con-ani-up40|droideka_con-ani-up40|droideka_con-ani-up40|
-|Bundle name         |droideka_con-ani-up1|droideka_con-ani-up10|droideka_con-ani-up10|droideka_con-ani-up20|droideka_con-ani-up20|droideka_con-ani-up30|droideka_con-ani-up30|droideka_con-ani-up40|droideka_con-ani-up40|droideka_con-ani-up40|
-|Icon camera position|18.67,14.16,15.1    |15.43,14.67,18.88    |15.43,14.67,18.88    |15.88,14.81,19.14    |15.88,14.81,19.14    |15.91,14.58,19.08    |15.91,14.58,19.08    |21.79,18.39,13.58    |21.79,18.39,13.58    |21.79,18.39,13.58    |
-|Icon lookat position|-0.39,1.23,-0.21    |-0.32,1.71,0.09      |-0.32,1.71,0.09      |-0.19,1.6,0          |-0.19,1.6,0          |-0.1,1.43,0.08       |-0.1,1.43,0.08       |-0.35,1.49,0.26      |-0.35,1.49,0.26      |-0.35,1.49,0.26      |
+|Level               |1                          |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                          |
+|--------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name          |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
+|Bundle name         |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
+|Icon camera position|18.67,14.16,15.1           |15.43,14.67,18.88           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.91,14.58,19.08           |21.79,18.39,13.58           |21.79,18.39,13.58           |21.79,18.39,13.58           |
+|Icon lookat position|-0.39,1.23,-0.21           |-0.32,1.71,0.09             |-0.32,1.71,0.09             |-0.19,1.6,0                 |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.1,1.43,0.08              |-0.35,1.49,0.26             |-0.35,1.49,0.26             |-0.35,1.49,0.26             |
+|Shield asset name   |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
 
 ### Attack presentation stats
 
@@ -179,8 +178,6 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|2640.000|3260.000|3699.000|4136.000|4578.000|5019.000|5370.000|5721.000|6216.000|6636.000|
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +185,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
   * _Not found: Order_
@@ -204,4 +202,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

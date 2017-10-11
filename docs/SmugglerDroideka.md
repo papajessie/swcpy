@@ -15,7 +15,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Independant units
   * Buildable unit: Yes
   * Role: Generic
-  * Shield asset name: effectRebelDroidekaShield1
   * Shield cooldown: 20s
   * Shield range: 3
   * Unit capacity: 1
@@ -63,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Heavy infantry (60)**, **Flying infantry (60)**, **Infantry (60)**, **Support troop (60)**, **Droideka (60)**, Heavy vehicle (50), Light vehicle (50), Storage (50), Flying vehicle (50), Turret (50), Other building (50), Ressource generator (50), Shield (50), Headquarters (50), Shield generator (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
+  * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -73,12 +72,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1,1,2,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 8m20s
+  * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 100
   * Self-centered targeting: No
   * Shot count: 6
   * Time between shots: 200ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -133,7 +131,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerDroideka
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 ### Presentation stats
 
@@ -150,6 +148,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Gun position: "atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2
   * Icon camera position: 18.67,14.16,15.1
   * Icon lookat position: -0.39,1.23,-0.21
+  * Shield asset name: effectRebelDroidekaShield1
   * Spawn effect uid: effectRebelSpawn
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
@@ -179,8 +178,6 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|2202.000|2202.000|2202.000|2202.000|2202.000|1320.000|3258.000|5019.000|6075.000|6600.000|
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +185,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -204,4 +202,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult
