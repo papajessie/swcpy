@@ -41,6 +41,12 @@ def log(string):
     if 'verbose' in outputs:
         print(string)
 
+def die(string,item=None):
+    print(string)
+    if item is not None:
+        pprint(item)
+    sys.exit(0)
+    
 def importfile(filename):
     global config
     global data
@@ -58,9 +64,7 @@ def importfile(filename):
                         for v in item:
                             data[table][uid][v]=item[v]
                     else:
-                        print('Warning: item has no uid')
-                        pprint(item)
-                        sys.exit(0)
+                        die('Item has no uid',item=item)
             
 def importlangfile(lang):
     global config
@@ -75,6 +79,45 @@ def importlangfile(lang):
         for x in langdict['content']['objects']['LocalizedStrings']:
             if 'text' in x:
                 langdata[x['uid']]=x['text']
+
+
+def camel_case_to_phrase(s):
+    prev = None
+    t = []
+    n = len(s)
+    i = 0
+    while i < n:
+        next_char = s[i+1] if i < n -1 else ''
+        c = s[i]
+        if prev is None:
+            t.append(c.upper())
+        elif c.isupper() and prev.isupper():
+            if next_char.islower():
+                t.append(' ')
+                t.append(c.lower())
+            else:
+                t.append(c)
+        elif c.isupper() and not prev.isupper():
+            t.append(' ')
+            if next_char.islower():
+                t.append(c.lower())
+            else:
+                t.append(c)
+        else:
+            t.append(c)
+        prev = c
+        i = i +1
+    return "".join(t)
+
+
+def dget(array,key,default):
+    a=default
+    try:
+        a=array[key]
+        return a
+    except KeyError:
+        return default
+
 
 def setconfig(x,y):
     global config
@@ -124,8 +167,8 @@ def getdisplayed(displayed,category):
         
 def initstat():
     global config
+    config['statopt']={}
     config['stattranslation']={
-        'HQ':'HQ',
         'bruiserInfantry':'Heavy infantry',
         'bruiserVehicle':'Heavy vehicle',
         'building':'Other building',
@@ -134,84 +177,453 @@ def initstat():
         'flierVehicle':'Flying vehicle',
         'healerInfantry':'Support troop',
         'heroBruiserInfantry':'Heavy infantry hero',
-        'heroBruiserVehicle':'Heavy vehicular hero',
+        'heroBruiserVehicle':'Heavy vehicule hero',
         'heroInfantry':'Infantry hero',
-        'heroVehicle':'Vehicle hero',
+        'heroVehicle':'Vehicule hero',
+        'HQ':'Headquarters',
         'infantry':'Infantry',
-        'resource':'Ressource generator',
-        'shield':'Shield',
-        'shieldGenerator':'Shield generator',
-        'storage':'Storage',
-        'trap':'Trap',
         'turret':'Turret',
+        'trap':'Trap',
+        'shield':'Shield',
+        'resource':'Ressource generator',
         'vehicle':'Light vehicle',
-        'wall':'Wall',
-        'retargetingOffset':'Retargeting offset',
         'size':'Unit capacity',
         'levels':'Levels available',
         'playerFacing': 'Buildable unit',
         'upgrade': 'Upgrade requirements',
-        'upgradeTime':'Upgrade time',
-        'health':'Health',
         'damage':'Damage per shot',
-        'dps':'Damage*',
-        'role':'Role',
-        'type':'Type',
-        'armorType':'Armor type',
+        'dps':'Displayed damage per second',
         'faction':'Side',
-        'shieldHealth':'Shield Health',
-        'shieldCooldown':'Shield Cooldown',
-        'shieldRange':'Shield Range',
-        'upgrades':'Upgrade requirements',
-        'sizes':'Unit size on map',
-        'targets':'Target preferences',
-        'maxAttackRange':'Max. Range',
-        'minAttackRange':'Min. Range',
-        'viewRange':'View Range',
         'overWalls':'Can shoot over walls',
-        'clipRetargeting':'Clip retargeting',
-        'targetPreferenceStrength':'Target preferences strength',
-        'targetedType':'Targeted type',
-        'attackShieldBorder':'Target shield border',
         'selfCenteredTargeting':'Self-centered targeting',
         'trains':'Training cost',
-        'trainingTime': 'Training time',
-        'maxSpeed':'Speed',
-        'runSpeed':'Run speed',
-        'runThreshold':'Run threshold',
         'isFlying':'Flying unit',
-        'acceleration':'Acceleration',
-        'crushesWalls':'Crushes walls',
         'sizes':'Size',
-        'targetLocking':'Target locking',
         'pathSearchWidth':'Propensity to go around obstacles',
-        'unitID':'Unit ID'
+        'gunSequence':'Gun shooting sequence',
+        'shotDelay':'Time between shots',
+        'chargeTime':'Time between start of clip and first shot',
+        'cooldownTime':'Supplementary time between last shot and reload',
+        'reload':'Time between end of clip and start of clip',
+        'preventDonation': 'Can be given',
+        'targets':'Target preferences',
+        'upgrades':'Upgrade requirements',
+        'sizes':'Unit size on map',
+        'uiDecalAssetName': 'UI decal asset name',
+        'projectile:DPS': 'Calculated damage per second',
+        '':''
     }
-    for k in ['isFlying','crushesWalls','playerFacing','clipRetargeting','overWalls','attackShieldBorder','targetLocking','selfCenteredTargeting']:
-        config['stattype'][k]='boolean'
-        config['stathandler'][k]=display_boolean
-    for k in ['HQ', 'bruiserInfantry', 'bruiserVehicle', 'building', 'champion', 'flierInfantry', 'flierVehicle', 'healerInfantry', 'heroBruiserInfantry', 'heroBruiserVehicle', 'heroInfantry', 'heroVehicle', 'infantry', 'resource', 'shield', 'shieldGenerator', 'storage', 'trap', 'turret', 'vehicle', 'wall']:
-        config['stattype'][k]='target'
-    for k in ['animationDelay', 'assetName', 'audioAttack', 'audioDeath', 'audioImpact', 'audioPlacement', 'audioTrain', 'buffAssetOffset', 'bundleName', 'deathAnimation', 'decalSize', 'eventButtonAction', 'eventButtonData', 'eventButtonString', 'eventFeaturesString', 'factoryRotation', 'factoryScaleFactor', 'favoriteTargetType', 'gunPosition', 'hologramUid','iconCameraPosition', 'iconCloseupCameraPosition', 'iconCloseupLookatPosition', 'iconLookatPosition', 'iconUnlockPosition', 'iconUnlockRotation', 'iconUnlockScale', 'infoUIType', 'newRotationSpeed', 'rotationSpeed', 'shieldAssetName', 'tooltipHeightOffset', 'unlockedByEvent', 'unlockPlanet', 'upgradeShardUid']:
-        config['stattype'][k]='presentation'
-    for k in ['credits','materials','contraband']:
-        config['stattype'][k]='train'
-    for k in ['upgradeTime','shieldCooldown','trainingTime']:
-        config['stattype'][k]='time'
-        config['stathandler'][k]=display_time
-    for k in ['sizex','sizey','size','health','damage','shieldHealth','shieldRange','viewRange','maxAttackRange','minAttackRange','targetPreferenceStrength','retargetingOffset','maxSpeed','runSpeed','runThreshold','acceleration','pathSearchWidth']:
-        config['stattype'][k]='int'
-    for k in ['dps']:
-        config['stattype'][k]='float'
-    for k in ['upgradeCredits','upgradeMaterials','upgradeContraband','upgradeShards']:
-        config['stattype'][k]='upgrade'
-    for k in ['targetPreferenceString','uid','lvl','heroData']:
-        config['stattype'][k]='ignore'
-    for k in ['faction','type','armorType','role','targetedType','unitID']:
-        config['stattype'][k]='string'
-    for k in ['requirements']:
-        config['stattype'][k]='array'
+    config['statrole']={
+        # Below are synthetic values
+        'sizes': 'move',
+        'targets': 'attackmove',
+        'trains': 'xtrain',
+        'upgrades': 'xupgrade',
+        # Below are values reserved to units
+        'ability': 'internal',
+        'acceleration': 'move',
+        'armorType': 'basic',
+        'assetName': 'presentation',
+        'attackShieldBorder': 'attackmove',
+        'audioAttack': 'presentation',
+        'audioDeath': 'presentation',
+        'audioImpact': 'presentation',
+        'audioPlacement': 'presentation',
+        'audioTrain': 'presentation',
+        'autoSpawnRateScale': 'unknown',
+        'autoSpawnSpreadingScale': 'unknown',
+        'buffAssetOffset': 'presentation',
+        'bundleName': 'presentation',
+        'contraband': 'train',
+        'credits': 'train',
+        'crushesWalls': 'move',
+        'deathAnimation': 'presentation',
+        'deathProjectile': 'internal',
+        'deathProjectileDamage': 'internal',
+        'deathProjectileDelay': 'internal',
+        'deathProjectileDistance': 'internal',
+        'decalAssetName': 'presentation',
+        'decalBundleName': 'presentation',
+        'decalSize': 'presentation',
+        'effectType': 'presentation',
+        'eventButtonAction': 'presentation',
+        'eventButtonData': 'presentation',
+        'eventButtonString': 'presentation',
+        'eventFeaturesString': 'presentation',
+        'faction': 'basic',
+        'factoryRotation': 'presentation',
+        'factoryScaleFactor': 'presentation',
+        'gunPosition': 'presentation',
+        'health': 'basic',
+        'heroData': 'internal',
+        'hologramUid': 'presentation',
+        'iconCameraPosition': 'presentation',
+        'iconCloseupCameraPosition': 'presentation',
+        'iconCloseupLookatPosition': 'presentation',
+        'iconLookatPosition': 'presentation',
+        'iconUnlockPosition': 'presentation',
+        'iconUnlockRotation': 'presentation',
+        'iconUnlockScale': 'presentation',
+        'ignoresWalls': 'move',
+        'infoUIType': 'presentation',
+        'isFlying': 'move',
+        'lvl': 'nodisplay',
+        'materials': 'train',
+        'maxScale': 'unknown',
+        'order': 'unknown',
+        'pathSearchWidth': 'move',
+        'playerFacing': 'basic',
+        'pointValue': 'unknown',
+        'preventDonation': 'basic',
+        'requirements': 'nodisplay',
+        'role': 'basic',
+        'rotationSpeed': 'move',
+        'runSpeed': 'move',
+        'runThreshold': 'move',
+        'shieldAssetName': 'presentation',
+        'shieldCooldown': 'basic',
+        'shieldHealth': 'basic',
+        'shieldRange': 'basic',
+        'size': 'basic',
+        'sizex': 'nodisplay',
+        'sizey': 'nodisplay',
+        'spawnApplyBuffs': 'internal',
+        'spawnEffectUid': 'presentation',
+        'splash': 'unknown',
+        'supportFollowDistance': 'move',
+        'targetedType': 'presentation',
+        'targetInRangeModifier': 'unknown',
+        'targetPreferenceString': 'nodisplay',
+        'tooltipHeightOffset': 'presentation',
+        'trainingTime': 'xtrain',
+        'type': 'basic',
+        'uiDecalAssetName': 'presentation',
+        'unitID': 'internal',
+        'unlockedByEvent': 'presentation',
+        'unlockedByCampaign': 'presentation',
+        'unlockedByTournament': 'presentation',
+        'unlockPlanet': 'basic',
+        'upgradeContraband': 'upgrade',
+        'upgradeCredits': 'upgrade',
+        'upgradeMaterials': 'upgrade',
+        'upgradeShards': 'upgrade',
+        'upgradeShardUid': 'internal',
+        'upgradeTime': 'xupgrade',
+        'xp': 'unknown',
+        # Below are values reserved to abilities or units
+        'animationDelay': 'attackpresentation',
+        'armingDelay': 'attackunknown',
+        'bruiserInfantry': 'attackprefs',
+        'bruiserVehicle': 'attackprefs',
+        'building': 'attackprefs',
+        'champion': 'attackprefs',
+        'chargeTime': 'attackstats',
+        'clipRetargeting': 'attackstats',
+        'damage': 'attackstats',
+        'dps': 'attackpresentation',
+        'favoriteTargetType': 'attackpresentation',
+        'flierInfantry': 'attackprefs',
+        'flierVehicle': 'attackprefs',
+        'gunSequence': 'attackstats',
+        'healerInfantry': 'attackprefs',
+        'heroBruiserInfantry': 'attackprefs',
+        'heroBruiserVehicle': 'attackprefs',
+        'heroInfantry': 'attackprefs',
+        'heroVehicle': 'attackprefs',
+        'HQ': 'attackprefs',
+        'impactDelay': 'attackstats',
+        'infantry': 'attackprefs',
+        'maxAttackRange': 'attackmove',
+        'maxSpeed': 'move',
+        'minAttackRange': 'attackmove',
+        'newTargetOnReload': 'attackstats',
+        'newRotationSpeed': 'attackmove',
+        'overWalls': 'attackstats',
+        'projectileType': 'nodisplay',
+        'reload': 'attackstats',
+        'resource': 'attackprefs',
+        'retargetingOffset': 'attackstats',
+        'selfCenteredTargeting': 'attackstats',
+        'shield': 'attackprefs',
+        'shieldGenerator': 'attackprefs',
+        'shotCount': 'attackstats',
+        'shotDelay': 'attackstats',
+        'storage': 'attackprefs',
+        'strictCoolDown': 'attackunknown',
+        'targetLocking': 'attackstats',
+        'targetPreferenceStrength': 'attackmove',
+        'trap': 'attackprefs',
+        'turret': 'attackprefs',
+        'uid': 'nodisplay',
+        'vehicle': 'attackprefs',
+        'viewRange': 'attackmove',
+        'wall': 'attackprefs',
+        # below are values reserved to abilities
+        'ability:uid': 'nodisplay',
+        'ability:projectileType': 'internal',
+        'ability:altGunLocators': 'abilitypresentation',
+        'ability:audioAbilityActivate': 'abilitypresentation',
+        'ability:audioAbilityAttack': 'abilitypresentation',
+        'ability:audioAbilityLoop': 'abilitypresentation',
+        'ability:auto': 'abilityonly',
+        'ability:clipCount': 'abilityunknown',
+        'ability:cooldownOnSpawn': 'abilityonly',
+        'ability:cooldownTime': 'abilityonly',
+        'ability:description': 'abilityonly',
+        'ability:duration': 'abilityonly',
+        'ability:killCooldownReset': 'abilityunknown',
+        'ability:maxSpeed': 'abilityunknown',
+        'ability:name': 'abilitypresentation',
+        'ability:persistentEffect': 'abilitypresentation',
+        'ability:persistentScaling': 'abilitypresentation',
+        'ability:selfBuff': 'internal',
+        'ability:recastAbility': 'abilityonly',
+        'ability:targetSelf': 'abilityonly',
+        'ability:weaponTrailFXParams': 'abilitypresentation',
+        # below are roles for projectiles
+        'projectile:applyBuffs': 'internal',
+        'projectile:arcs': 'projectilepresentation',
+        'projectile:beamDamage': 'projectilebasic',
+        'projectile:bruiserInfantry': 'projectilemult',
+        'projectile:bruiserVehicle': 'projectilemult',
+        'projectile:building': 'projectilemult',
+        'projectile:bullet': 'projectilepresentation',
+        'projectile:champion': 'projectilemult',
+        'projectile:chargeAssetName': 'projectilepresentation',
+        'projectile:directional': 'projectilemisc',
+        'projectile:flierInfantry': 'projectilemult',
+        'projectile:flierVehicle': 'projectilemult',
+        'projectile:groundBullet': 'projectilepresentation',
+        'projectile:healerInfantry': 'projectilemult',
+        'projectile:heroBruiserInfantry': 'projectilemult',
+        'projectile:heroBruiserVehicle': 'projectilemult',
+        'projectile:heroInfantry': 'projectilemult',
+        'projectile:heroVehicle': 'projectilemult',
+        'projectile:hitSpark': 'projectilepresentation',
+        'projectile:HQ': 'projectilemult',
+        'projectile:infantry': 'projectilemult',
+        'projectile:isDeflectable': 'projectilemisc',
+        'projectile:lengthSegments': 'projectilemisc',
+        'projectile:maxScale': 'projectilepresentation',
+        'projectile:maxSpeed': 'projectilemisc',
+        'projectile:muzzleFlash': 'projectilepresentation',
+        'projectile:muzzleFlashFadeTime': 'projectilepresentation',
+        'projectile:name': 'projectilepresentation',
+        'projectile:passThroughShield': 'projectilemisc',
+        'projectile:projectileDamagePercentString': 'nodisplay',
+        'projectile:projectileLength': 'projectilepresentation',
+        'projectile:resource': 'projectilemult',
+        'projectile:s1Time': 'projectileunknown',
+        'projectile:s2Time': 'projectileunknown',
+        'projectile:seeksTarget': 'projectileunknown',
+        'projectile:shield': 'projectilemult',
+        'projectile:shieldGenerator': 'projectilemult',
+        'projectile:spinSpeed': 'projectilepresentation',
+        'projectile:splashDamagePercentages': 'projectilebasic',
+        'projectile:storage': 'projectilemult',
+        'projectile:sTransition': 'projectilepresentation',
+        'projectile:streams': 'projectileunknown',
+        'projectile:trap': 'projectilemult',
+        'projectile:turret': 'projectilemult',
+        'projectile:uid': 'nodisplay',
+        'projectile:vehicle': 'projectilemult',
+        'projectile:wall': 'projectilemult',
+        'projectile:widthSegments': 'projectilemisc',
+        'projectile:cannonsPerSequence': 'projectilemisc',
+        'projectile:salvos': 'projectilemisc',
+        'projectile:cliptime': 'projectilemisc',
+        'projectile:DPS': 'projectilebasic',
+        # placeholder
+        '':''
+        }
+    keys=[x for x in config['statrole'].keys()]
+    config['stattype']={
+        'acceleration': 'int',
+        'attackShieldBorder': 'boolean',
+        'autoSpawnRateScale': 'int',
+        'autoSpawnSpreadingScale': 'int',
+        'contraband': 'int',
+        'credits': 'int',
+        'crushesWalls': 'boolean',
+        'deathProjectileDamage': 'int',
+        'deathProjectileDelay': 'microtime',
+        'deathProjectileDistance': 'int',
+        'faction': 'side',
+        'health': 'int',
+        'ignoresWalls': 'boolean',
+        'isFlying': 'boolean',
+        'lvl': 'int',
+        'materials': 'int',
+        'maxScale': 'boolean',
+        'pathSearchWidth': 'int',
+        'playerFacing': 'boolean',
+        'pointValue': 'float',
+        'preventDonation': 'boolean',
+        'requirements': 'array',
+        'rotationSpeed': 'float',
+        'runSpeed': 'int',
+        'runThreshold': 'int',
+        'shieldCooldown': 'time',
+        'shieldHealth': 'int',
+        'shieldRange': 'int',
+        'size': 'int',
+        'sizex': 'int',
+        'sizey': 'int',
+        'supportFollowDistance': 'int',
+        'targetInRangeModifier': 'int',
+        'trainingTime': 'time',
+        'unlockPlanet': 'translate',
+        'upgradeContraband': 'int',
+        'upgradeCredits': 'int',
+        'upgradeMaterials': 'int',
+        'upgradeShards': 'int',
+        'upgradeTime': 'time',
+        'xp': 'int',
+        'armingDelay': 'int',
+        'chargeTime': 'microtime',
+        'clipRetargeting': 'boolean',
+        'damage': 'int',
+        'dps': 'float',
+        'maxAttackRange': 'int',
+        'maxSpeed': 'int',
+        'minAttackRange': 'int',
+        'newRotationSpeed': 'float',
+        'overWalls': 'boolean',
+        'reload': 'microtime',
+        'retargetingOffset': 'int',
+        'selfCenteredTargeting': 'boolean',
+        'shotCount': 'int',
+        'shotDelay': 'microtime',
+        'impactDelay': 'microtime',
+        'strictCoolDown': 'boolean',
+        'targetLocking': 'boolean',
+        'targetPreferenceStrength': 'int',
+        'viewRange': 'int',
+        'newTargetOnReload': 'boolean',
+        'unlockedByCampaign': 'boolean',
+        'unlockedByTournament': 'boolean',
+        'ability:auto': 'boolean',
+        'ability:clipCount': 'int',
+        'ability:cooldownOnSpawn': 'boolean',
+        'ability:cooldownTime': 'microtime',
+        'ability:duration': 'microtime',
+        'ability:killCooldownReset': 'boolean',
+        'ability:maxSpeed': 'int',
+        'ability:persistentScaling': 'int',
+        'ability:recastAbility': 'boolean',
+        'ability:targetSelf': 'boolean',
+        'projectile:arcs': 'boolean',
+        'projectile:beamDamage': 'int',
+        'projectile:bruiserInfantry': 'percentage',
+        'projectile:bruiserVehicle': 'percentage',
+        'projectile:building': 'percentage',
+        'projectile:champion': 'percentage',
+        'projectile:directional': 'boolean',
+        'projectile:flierInfantry': 'percentage',
+        'projectile:flierVehicle': 'percentage',
+        'projectile:healerInfantry': 'percentage',
+        'projectile:heroBruiserInfantry': 'percentage',
+        'projectile:heroBruiserVehicle': 'percentage',
+        'projectile:heroInfantry': 'percentage',
+        'projectile:heroVehicle': 'percentage',
+        'projectile:HQ': 'percentage',
+        'projectile:infantry': 'percentage',
+        'projectile:isDeflectable': 'boolean',
+        'projectile:maxScale': 'int',
+        'projectile:maxSpeed': 'int',
+        'projectile:passThroughShield': 'boolean',
+        'projectile:projectileLength': 'int',
+        'projectile:resource': 'percentage',
+        'projectile:s1Time': 'microtime',
+        'projectile:s2Time': 'microtime',
+        'projectile:seeksTarget': 'boolean',
+        'projectile:shield': 'percentage',
+        'projectile:shieldGenerator': 'percentage',
+        'projectile:spinSpeed': 'int',
+        'projectile:storage': 'percentage',
+        'projectile:trap': 'percentage',
+        'projectile:turret': 'percentage',
+        'projectile:vehicle': 'percentage',
+        'projectile:wall': 'percentage',
+        'projectile:cannonsPerSequence': 'int',
+        'projectile:salvos': 'int',
+        'projectile:cliptime': 'microtime',
+        'projectile:DPS': 'float',
+        '':''
+        }
+    for k in keys:
+        if k.startswith('projectile:'):
+            config['statrole']['abilityprojectile:'+k[11:]]='ability'+config['statrole'][k]
+            if k in config['stattype']:
+                config['stattype']['abilityprojectile:'+k[11:]]=config['stattype'][k]
+        if config['statrole'][k].startswith('attack'):
+            config['statrole']['ability:'+k]='ability'+config['statrole'][k][6:]
+            if k in config['stattype']:
+                config['stattype']['ability:'+k]=config['stattype'][k]
+    for k in config['stattype'].keys():
+        type=dget(config['stattype'],k,'string')
+        if type=='string':
+            continue
+        elif type=='int':
+            continue
+        elif type=='array':
+            continue
+        elif type=='':
+            continue
+        elif type=='float':
+            config['stathandler'][k]=lambda x:('%.3f' % float(x))
+        elif type=='boolean':
+            config['stathandler'][k]=display_boolean
+        elif type=='time':
+            config['stathandler'][k]=display_time
+        elif type=='microtime':
+            config['stathandler'][k]=display_microtime
+        elif type=='planet':
+            config['stathandler'][k]=display_planet
+        elif type=='percentage':
+            config['stathandler'][k]=display_percent
+        elif type=='translate':
+            config['stathandler'][k]=_
+        elif type=='side':
+            config['stathandler'][k]=display_side
+        else:
+            die('{} is an unknown type. Stopping'.format(type))
+    for k in config['statrole'].keys():
+        if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
+            config['stattranslation'][k]=config['stattranslation'][k[(k.find(':')+1):]]
+    for k in config['statrole'].keys():
+        if k not in config['stattranslation']:
+            if k.find(':')>-1:
+                config['stattranslation'][k]=camel_case_to_phrase(k[(k.find(':')+1):])
+            else:
+                config['stattranslation'][k]=camel_case_to_phrase(k)
 
+#     tr={'Salvos':'Salvos per clip','Cannons':'Number of cannons','cliptime':'Clips period','DPS':'Calculated damage per second','SalvosPerSequence':'Salvos per gun sequence','CannonsPerSequence':'Cannons shot per gun sequence','seeksTarget':'Projectile seeks target','isDeflectable':'Projectile deflectable','maxSpeed':'Projectile speed','passThroughShield':'Projectile passes through shields','directional':'Projectile is directional','splashDamagePercentages':'Area damage percentage'}
+#     for prefix in projlist:
+#         for k in ['Salvos','Cannons','DPS','SalvosPerSequence','CannonsPerSequence','maxSpeed']:
+#             config['statopt'][prefix+k]=True
+#             config['stattype'][prefix+k]='int'
+# #            config['stattranslation'][prefix+k]=tr[k]
+#         for k in ['seeksTarget','isDeflectable','passThroughShield','directional']:
+#             config['statopt'][prefix+k]=True
+#             config['stattype'][prefix+k]='boolean'
+# #            config['stattranslation'][prefix+k]=tr[k]
+#             config['stathandler'][prefix+k]=display_boolean
+#         for k in ['cliptime']:
+#             config['statopt'][prefix+k]=True
+#             config['stattype'][prefix+k]='microtime'
+# #            config['stattranslation'][prefix+k]=tr[k]
+#             config['stathandler'][prefix+k]=display_microtime
+#         for k in ['splashDamagePercentages']:
+#             config['statopt'][prefix+k]=True
+#             config['stattype'][prefix+k]='string'
+# #            config['stattranslation'][prefix+k]=tr[k]
+#     for prefix in projlist:
+#         for k in ['hitSpark','spinSpeed','arcs','maxScale','muzzleFlash']:
+#             config['statopt'][prefix+k]=True
+#             config['stattype'][prefix+k]='presentation'
+# #            config['stattranslation'][prefix+k]=k
+#         config['stathandler'][prefix+'arcs']=display_boolean
 
 
 def _(x):
@@ -628,112 +1040,131 @@ def analyse_unit(objects,displayed,id):
     ob['title']='trp_title_'+id
     ob['unknown']={}
     ob['presentation']={}
+    ob['projectileTypes']={}
+    ob['options']={}
+    levels=ob['levels']
     used={}
+    projectiles={}
+    def addprojectile(prefix,ob,subunit,data):
+        damage=int(dget(data,'damage',0))
+        sc=int(dget(data,'shotCount',1))
+        ctime=int(dget(data,'chargeTime',0))
+        cdtime=int(dget(data,'cooldownTime',0))
+        stime=int(dget(data,'shotDelay',0))
+        rtime=int(dget(data,'reload',0))
+        gs=[ int(x) for x in data['gunSequence'].split(',') ]
+        gs=sorted(gs)
+        subunit[prefix+'cannonsPerSequence']=len(gs)
+        salvos=(sc//len(gs))*gs[-1]
+        if sc%(len(gs))>0:
+            salvos+=gs[sc%(len(gs))-1]
+        subunit[prefix+'salvos']=salvos
+        cliptime=ctime+stime*(salvos-1)+cdtime+rtime
+        subunit[prefix+'cliptime']=cliptime
+        if cliptime!=0:
+            subunit[prefix+'DPS']=(1000*sc*damage)/cliptime
+
     uparray={'upgradematerials':' All.','upgradecredits':'$', 'upgradecontraband':' Con.','upgradeshards':' data fragments'}
     addtodisplay(displayed,'unit',id)
     for u in (data['TroopData']).keys():
         uname=data['TroopData'][u]['unitID']
-        if uname==id:
-            subunit={}
-            for k,v in data['TroopData'][u]:
-                subunit[k]=v
-            if 'projectileType' in subunit:
-                ## Do something with projectiles ; append stats with prefix 'projectile'
-                pass
-            level=int(subunit['lvl'])
-            ob['levels'].append(level)
-            ob['hq'][level]={}
-            ob['presentation'][level]={}
-            ob['unknown'][level]={}
-            a=ob['hq'][level]
-            xup=[]
-            xxup=[]
-            targets={}
-            for t in config['stattype'].keys():
-                if config['stattype'][t]=='target':
-                    if t in subunit.keys():
-                        a[t]=int(subunit[t])
-                    else:
-                        a[t]=int(0)
-                    targets[t]=a[t]
-                    used[t]=1
-                elif config['stattype'][t]=='upgrade':
-                    if t in subunit.keys():
-                        a[t]=int(subunit[t])
-                    else:
-                        a[t]=int(0)
-                    if a[t]>0:
-                        xup.append('{0}{1}'.format(a[t],uparray[t.lower()]))
-                    used[t]=1
-                elif config['stattype'][t]=='train':
-                    if t in subunit.keys():
-                        a[t]=int(subunit[t])
-                    else:
-                        a[t]=int(0)
-                    if a[t]>0:
-                        xxup.append('{0}{1}'.format(a[t],uparray['upgrade'+t.lower()]))
-                    used[t]=1
-                elif config['stattype'][t]=='int':
-                    if t in subunit.keys():
-                        a[t]=int(subunit[t])
-                    else:
-                        a[t]=int(0)
-                    used[t]=1
-                elif config['stattype'][t]=='float':
-                    if t in subunit.keys():
-                        a[t]=float(subunit[t])
-                    else:
-                        a[t]=float(0)
-                    used[t]=1
-                elif config['stattype'][t]=='boolean':
-                    if t in subunit.keys():
-                        a[t]=subunit[t]=='true'
-                    else:
-                        a[t]=False
-                    used[t]=1
-                elif config['stattype'][t]=='string':
-                    if t in subunit.keys():
-                        a[t]=subunit[t]
-                    else:
-                        a[t]=''
-                    used[t]=1
-                elif config['stattype'][t]=='array':
-                    if t in subunit.keys():
-                        a[t]=subunit[t]
-                    else:
-                        a[t]=[]
-                    used[t]=1
-                elif config['stattype'][t]=='presentation':
-                    if t in subunit.keys():
-                        a[t]=subunit[t]
-                    else:
-                        a[t]=''
-                    used[t]=1
-                elif config['stattype'][t]=='time':
-                    if t in subunit.keys():
-                        a[t]=int(subunit[t])
-                    else:
-                        a[t]=int(0)
-                    used[t]=1
-                elif config['stattype'][t]=='ignore':
-                    used[t]=1
-                else:
-                    print('No handler for {}'.format(config['stattype'][t]))
-                    sys.exit(0)
-            for t in subunit:
-                if t not in used.keys():
-                    ob['unknown'][level][t]=subunit[t]
-    # Special treatments : targets, upgrades, trains
-            a['sizes']='{0}x{1}'.format(a['sizex'],a['sizey'])
-            if len(xup)==0:
-                a['upgrades']='Nothing'
+        if uname!=id:
+            continue
+        subunit={}
+        # subunit is a flattened version of the CSV data
+        for k,v in data['TroopData'][u].items():
+            subunit[k]=v
+        level=int(subunit['lvl'])
+        levels.append(level)
+        if 'projectileType' in subunit:
+            ## Do something with projectiles ; append stats with prefix 'projectile'
+            ob['options']['projectile']=True
+            proj=subunit['projectileType']
+            pproj=data['ProjectileData'][proj]
+            for kk,vv in pproj.items():
+                subunit['projectile:'+kk]=vv
+            addprojectile('projectile:',ob,subunit,subunit)
+        if 'ability' in subunit:
+            ob['options']['ability']=True
+            proj=subunit['ability']
+            pproj=data['HeroAbilities'][proj]
+            for kk,vv in pproj.items():
+                subunit['ability:'+kk]=vv
+        if 'ability:projectileType' in subunit:
+            ## Do something with projectiles ; append stats with prefix 'projectile'
+            ob['options']['abilityprojectile']=True
+            proj=subunit['ability:projectileType']
+            pproj=data['ProjectileData'][proj]
+            for kk,vv in pproj.items():
+                subunit['abilityprojectile:'+kk]=vv
+            fakearray={}
+            for k in ['shotCount','gunSequence']:
+                fakearray[k]=dget(subunit,'ability:'+k,'1')
+            for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
+                fakearray[k]=dget(subunit,'ability:'+k,'0')
+            addprojectile('abilityprojectile:',ob,subunit,fakearray)
+        # ob['hq'] is a clean version of subunit
+        ob['hq'][level]={}
+        a=ob['hq'][level]
+        trains=[]
+        targets={}
+        atargets={}
+        upgrades=[]
+        for k,v in subunit.items():
+            type=dget(config['stattype'],k,'string')
+            if type=='string':
+                a[k]=v
+            elif type=='int':
+                a[k]=int(v)
+            elif type=='percentage':
+                a[k]=int(v)
+            elif type=='array':
+                a[k]=v
+            elif type=='':
+                continue
+            elif type=='float':
+                a[k]=float(v)
+            elif type=='boolean':
+                a[k]=v=='true'
+            elif type=='time':
+                a[k]=int(v)
+            elif type=='microtime':
+                a[k]=int(v)
+            elif type=='planet':
+                a[k]=v
+            elif type=='translate':
+                a[k]=v
+            elif type=='side':
+                a[k]=v
             else:
-                a['upgrades']=', '.join(xup)
-            if len(xxup)==0:
-                a['trains']='Free'
+                print('{} is an unknown type. Stopping'.format(type))
+                sys.exit(0)
+            role=dget(config['statrole'],k,'missing')
+            if role=='train':
+                if a[k]>0:
+                    trains.append('{0}{1}'.format(a[k],uparray['upgrade'+k.lower()]))
+            elif role=='upgrade':
+                if a[k]>0:
+                    upgrades.append('{0}{1}'.format(a[k],uparray[k.lower()]))
+            elif role=='attackprefs':
+                targets[k]=int(a[k])
+            elif role=='abilityprefs':
+                atargets[k]=int(a[k])
+            elif role=='missing':
+                die('Stat {} is unknown and has no role'.format(k),item=id)
             else:
-                a['trains']=', '.join(xxup)
-            tlist=sorted(targets,key=targets.get,reverse=True)
+                True
+        a['sizes']='{0}x{1}'.format(a['sizex'],a['sizey'])
+        if len(upgrades)==0:
+            a['upgrades']='Nothing'
+        else:
+            a['upgrades']=', '.join(upgrades)
+        if len(trains)==0:
+            a['trains']='Free'
+        else:
+            a['trains']=', '.join(trains)
+        def gettargets(targets):
+            tlist=sorted(targets,key=(lambda x:'{0:03d} {1}'.format(targets.get(x),x)),reverse=True)
             ttlist=[]
             tmax=targets[tlist[0]]
             for t in tlist:
@@ -744,11 +1175,10 @@ def analyse_unit(objects,displayed,id):
                         ttlist.append('{0} ({1})'.format(config['stattranslation'][t],targets[t]))
                     else:
                         ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
-                a['targets']=', '.join(ttlist)
-            for t in sorted(subunit.keys()):
-                if t not in used.keys():
-                    ob['unknown'][level][t]=subunit[t]
-    levels=sorted(ob['hq'].keys())
+            return(', '.join(ttlist))
+        a['targets']=gettargets(targets)
+        if len(atargets)>0:
+            a['ability:targets']=gettargets(atargets)
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -937,63 +1367,155 @@ def output_list_unit(out,objects,item,LINKS=False):
     title=__(item['title'])
     levels=sorted(item['levels'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
-    xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    roles={}
+    allkeys=config['statrole']
+    for k in allkeys:
+        roles[allkeys[k]]=1
+    tosee=[x for x in roles.keys()]
+    tosee.remove('')
+    tosee.remove('nodisplay')
+    tosee.remove('abilitynodisplay')
+    def datadump(somelist):
+        return display_leveldata(item['hq'],levels,somelist,config['stattranslation'],config['stathandler'])
     firstlevel=levels[0]
     xout+='## Main stats\n\n'
-    mainlist=['faction','playerFacing','type','armorType','role','levels','size','upgrades','upgradeTime','health','damage','dps','shieldHealth','shieldCooldown','shieldRange']
-    handlers=config['stathandler']
-    handlers['faction']=display_side
-    translation=config['stattranslation']
-    xout+=display_leveldata(item['hq'],levels,mainlist,translation,handlers)
-    xout+='* These values are not necessarily accurate and may be inconsistent with other values\n\n## Targeting\n\n'
-    targetlist=['targets','targetedType','viewRange','targetPreferenceStrength','retargetingOffset','clipRetargeting','attackShieldBorder','maxAttackRange','minAttackRange','overWalls','selfCenteredTargeting']
-    xout+=display_leveldata(item['hq'],levels,targetlist,translation,handlers)
-    xout+='## Recruiting\n\n'
+    xout+='### Unit stats\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='basic']))
+    tosee.remove('basic')
+    xout+='### Training stats\n\n'
     req=0
+    trainlist=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
+    tosee.remove('train')
+    tosee.remove('xtrain')
     for l in levels:
-        ll=len(item['hq'][l]['requirements'])
+        if 'requirements' in item['hq'][l]:
+            ll=len(item['hq'][l]['requirements'])
+        else:
+            ll=0
         if ll>req:
             req=ll
-    trainlist=['trains','trainingTime']
     for ll in range(0,req):
         r='requirement'+str(ll)
         trainlist.append(r)
-        translation[r]='Building '+str(ll)
+        config['stattranslation'][r]='Building '+str(ll)
         if req==1:
-            translation[r]='Building'
+            config['stattranslation'][r]='Building'
         for l in levels:
-            a=item['hq'][l]['requirements']
+            if 'requirements' in item['hq'][l]:
+                a=item['hq'][l]['requirements']
+            else:
+                a=[]
             if ll<len(a):
                 item['hq'][l][r]=display_building(a[ll],LINKS)
             else:
                 item['hq'][l][r]='None'
-    xout+=display_leveldata(item['hq'],levels,trainlist,translation,handlers)
-    xout+='## Movement\n\n'
-    movelist=['maxSpeed','runSpeed','runThreshold','sizes','isFlying','acceleration','crushesWalls','targetLocking','pathSearchWidth']
-    xout+=display_leveldata(item['hq'],levels,movelist,translation,handlers)
-    xout+='## Presentation stats\n\nThese graphical elements shouldn\'t interfere with gameplay and can safely be ignored.\n\n'
-    preslist=[x for x in config['stattype'] if config['stattype'][x]=='presentation']
-    xout+=display_leveldata(item['hq'],levels,preslist,{},{})
-    # totallist=mainlist+targetlist+trainlist+movelist+preslist
-    # for k in item['hq'][firstlevel].keys():
-    #     if k not in totallist:
-    #         print('Key {} was not used'.format(k))
-    xout+='## Uninterpreted stats\n\n'
-    items=item['unknown'][firstlevel].keys()
-    translation={}
-    for i in items:
-        translation[i]=i
-    xout+=display_leveldata(item['unknown'],levels,items,{},{'pointValue':lambda x:('%.3f' % float(x))})
+    xout+=datadump(trainlist)
+    xout+='### Upgrading stats\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='xupgrade']))
+    tosee.remove('upgrade')
+    tosee.remove('xupgrade')
+    xout+='### Move stats\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='move']))
+    tosee.remove('move')
+    attacknames=[]
+    for l in sorted(levels):
+        if 'projectile:name' in item['hq'][l]:
+            n=item['hq'][l]['projectile:name']
+            if n not in attacknames:
+                attacknames.append(n)
+    xout+='## Main attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
+    xout+='### Targeting\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackmove']))
+    tosee.remove('attackmove')
+    tosee.remove('attackprefs')
+    xout+='### Shooting\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackstats']))
+    tosee.remove('attackstats')
+    if 'projectile' in item['options']:
+        xout+='### Projectile\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilebasic']+['dps']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilemult']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilemisc']))
+        tosee.remove('projectilebasic')
+        tosee.remove('projectilemult')
+        tosee.remove('projectilemisc')
+    if 'ability' in item['options']:
+        attacknames=[]
+        for l in sorted(levels):
+            if 'abilityprojectile:name' in item['hq'][l]:
+                n=item['hq'][l]['abilityprojectile:name']
+                if n not in attacknames:
+                    attacknames.append(n)
+        xout+='## Secondary attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityonly']))
+        xout+='### Targeting\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitymove']))
+        xout+='### Shooting\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitystats']))
+    tosee.remove('abilityonly')
+    tosee.remove('abilitymove')
+    tosee.remove('abilityprefs')
+    tosee.remove('abilitystats')
+    if 'abilityprojectile' in item['options']:
+        xout+='### Projectile\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilebasic']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemult']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemisc']))
+        tosee.remove('abilityprojectilebasic')
+        tosee.remove('abilityprojectilemult')
+        tosee.remove('abilityprojectilemisc')
+    xout+='## Other stats\n\n'
+    xout+='### Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='internal']))
+    tosee.remove('internal')
+    if 'ability' in item['options']:
+        xout+='Internal values for secondary attack:\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
+    tosee.remove('abilityinternal')
+    xout+='### Presentation stats\n\nThese are all sorts of user interface settings, that should not interfere with gameplay.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='presentation']))
+    tosee.remove('presentation')
+    xout+='### Attack presentation stats\n\n'
+    plist=[x for x in allkeys if allkeys[x]=='attackpresentation']
+    tosee.remove('attackpresentation')
+    if 'projectile' in item['options']:
+        plist=[x for x in allkeys if allkeys[x]=='attackpresentation' or allkeys[x]=='projectilepresentation']
+    tosee.remove('projectilepresentation')
+    if 'ability' in item['options']:
+        xout+='### Secondary attack presentation stats\n\n'
+        plist=[x for x in allkeys if allkeys[x]=='abilitypresentation']
+        if 'abilityprojectile' in item['options']:
+            plist=[x for x in allkeys if allkeys[x]=='abilitypresentation' or allkeys[x]=='abilityprojectilepresentation']
+    tosee.remove('abilitypresentation')
+    tosee.remove('abilityprojectilepresentation')
+    xout+=datadump(sorted(plist))
+    xout+='### Uninterpreted stats\n\nSeriously, we don\'t really know what to do with these.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='unknown']))
+    xout+='### Uninterpreted attack stats\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackunknown' or allkeys[x]=='projectileunknown']))
+    tosee.remove('unknown')
+    tosee.remove('attackunknown')
+    tosee.remove('projectileunknown')
+    if 'ability' in item['options']:
+        xout+='### Uninterpreted secondary attack stats\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityunknown' or allkeys[x]=='abilityprojectileunknown']))
+        tosee.remove('abilityunknown')
+        tosee.remove('abilityprojectileunknown')
+    if len(tosee)>0:
+        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)
     out[len(out)-1]+=xout
+    return
 
 def output_mdheader_unit(out,objects,displayed):
     with open("docs/unit.md","w") as file:
         file.write("---\ntitle: Index of units\n---\n")
         file.write("# Units — version {0}\n\n".format(config['version']))
+        file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
         pfd={True:'Buildable units',False:'Other units'}
         for pf in [True, False]:
             file.write("## {0}\n\n".format(pfd[pf]))
-            file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
             sides={}
             for unit in displayed:
                 item=objects[unit]
@@ -1072,9 +1594,10 @@ def display_expiration(s):
 
 def display_time(s,micro=False):
     t=[]
+    hsecs=0
     if micro:
-        hsecs=s%100
-        s=int((s-hsecs)/100)
+        hsecs=s%1000
+        s=int((s-hsecs)/1000)
     sec=s%60
     s=int((s-sec)/60)
     min=s%60
@@ -1092,14 +1615,19 @@ def display_time(s,micro=False):
         out+='{0}h'.format(hour)
     if (min>0):
         out+='{0}m'.format(min)
-    if (sec>0):
+    if (sec>0 or hsecs>0):
         if micro:
-            if hsecs>10:
-                out+='{0}.{1}'.format(sec,hsecs)
-            elif hsecs>0:
-                out+='{0}.0{1}'.format(sec,hsecs)
+            if sec==0:
+                out+='{0}ms'.format(hsecs)
             else:
-                out+='{0}s'.format(sec)
+                if hsecs>100:
+                    out+='{0}.{1}s'.format(sec,hsecs)
+                elif hsecs>10:
+                    out+='{0}.0{1}s'.format(sec,hsecs)
+                elif hsecs>0:
+                    out+='{0}.00{1}s'.format(sec,hsecs)
+                else:
+                    out+='{0}s'.format(sec)
         else:
             out+='{0}s'.format(sec)
     if (out==''):
@@ -1108,6 +1636,9 @@ def display_time(s,micro=False):
 
 def display_microtime(s):
     return display_time(s,True)
+
+def display_percent(s):
+    return '{}%'.format(s)
 
 def display_poolvariant(variants,cap=True):
     variantsarray=variants.split('/')
@@ -1324,7 +1855,9 @@ def display_things(uid,table,localid,localname):
     return uid
 
 def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
+    notfound='(not found)'
     commonvalues=[]
+    notfoundvalues=[]
     variablevalues=[]
     display={}
     firstlevel=levels[0]
@@ -1335,17 +1868,20 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
             func=str
         display[key]={}
         identical=True
-        dataitem=data[firstlevel][key]
+        dataitem=dget(data[firstlevel],key,notfound)
         for level in levels:
+            v=dget(data[level],key,notfound)
             if key in data[level]:
-                display[key][level]=func(data[level][key])
-                if data[level][key]!=dataitem:
-                    identical=False
+                display[key][level]=func(v)
             else:
-                display[key][level]='(not found)'
+                display[key][level]=v
+            if v!=dataitem:
                 identical=False
         if identical:
-            commonvalues.append(key)
+            if (dataitem==notfound):
+                notfoundvalues.append(key)
+            else:
+                commonvalues.append(key)
         else:
             variablevalues.append(key)
     output=''
@@ -1354,6 +1890,13 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
         if key in titles:
             t=titles[key]
         output+='  * {0}: {1}\n'.format(t,display[key][firstlevel])
+    if len(notfoundvalues)>0:
+        output+='  * _Not found: {0}_\n'.format(', '.join(sorted(map(lambda x:titles[x],notfoundvalues))))
+    # for key in notfoundvalues:
+    #     t=key
+    #     if key in titles:
+    #         t=titles[key]
+    #     output+='  * {0}: _{1}_\n'.format(t,display[key][firstlevel])
     width={}
     width['label']=5
     for level in levels:
@@ -1399,6 +1942,4 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
 
 
 if __name__ == "__main__":
-#    print(display_leveldata({0:{'speed':50,'val':8,'age':12, 'sex':'M'},1:{'speed':50,'val':8,'age':14,'sex':'M'},2:{'speed':50,'val':9,'age':20,'sex':'M'}},[0,1,2],['val','age','sex','speed'],{'val':'Value','age':'Age','sex':'Gender','speed':'Speed'},{}))
-#    sys.exit(0)
     main(sys.argv)
