@@ -3,100 +3,100 @@ title: Jump Trooper (EmpireJumptrooper)
 category: unit
 ---
 
-# Jump Trooper (EmpireJumptrooper) — version 1086
+# Jump Trooper (EmpireJumptrooper) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: flierInfantry
   * Side: Empire
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: flierInfantry
   * Role: Generic
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 7
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|600$ |1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|2000000$|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w3d    |
-|Health              |5600 |6720 |7840 |8960  |10080 |11200  |12320  |13440  |14560   |16800   |
-|Damage per shot     |1204 |1445 |1686 |1927  |2168  |2408   |2649   |2890   |3131    |3612    |
-|Damage*             |560.0|672.0|784.0|896.0 |1008.0|1120.0 |1232.0 |1344.0 |1456.0  |1680.0  |
+|Level |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
+|------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+|Health|5600|6720|7840|8960|10080|11200|12320|13440|14560|16800|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Vehicle hero (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Storage (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 14
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: Yes
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|385$                             |539$                                   |693$                                   |847$                                   |1001$                                  |1155$                                  |1309$                                  |1540$                                  |1617$                                  |1771$                                   |
 |Training time|2m20s                            |2m34s                                  |2m41s                                  |2m48s                                  |2m55s                                  |3m2s                                   |3m9s                                   |3m16s                                  |3m23s                                  |3m30s                                   |
+|Training cost|385$                             |539$                                   |693$                                   |847$                                   |1001$                                  |1155$                                  |1309$                                  |1540$                                  |1617$                                  |1771$                                   |
 |Building     |[Barracks 8](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 40
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: Yes
+|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w3d    |
+|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|2000000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: Yes
+  * Max speed: 40
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Empire Jumptrooper Blaster
+## Main attack : Empire Jumptrooper Blaster
 
-### Basic info
+### Targeting
 
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 7
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Ressource generator (50)**, **Headquarters (50)**, **Other building (50)**, **Infantry (50)**, **Shield generator (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Droideka (50)**, **Infantry hero (50)**, **Turret (50)**, **Heavy vehicule hero (50)**, **Flying infantry (50)**, **Storage (50)**, **Light vehicle (50)**, **Heavy infantry hero (50)**, **Vehicule hero (50)**, **Shield (50)**, **Flying vehicle (50)**, Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 150ms
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 1
-  * Max. Range: 7
-  * Min. Range: 0
-
-|Level                       |1    |2    |3    |4    |5     |6     |7     |8     |9     |10    |
-|----------------------------|-----|-----|-----|-----|------|------|------|------|------|------|
-|Damage per shot             |1204 |1445 |1686 |1927 |2168  |2408  |2649  |2890  |3131  |3612  |
-|Calculated damage per second|560  |672  |784  |896  |1008  |1120  |1232  |1344  |1456  |1680  |
-|Damage*                     |560.0|672.0|784.0|896.0|1008.0|1120.0|1232.0|1344.0|1456.0|1680.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 2.150s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 15
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: Yes
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 14
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1204|1445|1686|1927|2168|2408|2649|2890|3131|3612|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100
+  * _Not found: Beam damage_
+
+|Level                       |1      |2      |3      |4      |5       |6       |7       |8       |9       |10      |
+|----------------------------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |560.000|672.000|784.000|896.000|1008.000|1120.000|1232.000|1344.000|1456.000|1680.000|
+|Calculated damage per second|560.000|672.093|784.186|896.279|1008.372|1120.000|1232.093|1344.186|1456.279|1680.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
   * Other building: 100%
@@ -105,9 +105,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 100%
-  * Heavy vehicular hero: 100%
+  * Heavy vehicule hero: 100%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,70 +118,85 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 2.150s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 15
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: EmpireJumptrooper
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
-  * infoUIType: 
-  * bundleName: jumptrooper_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 8.7,15.21,13.03
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.0,0.3,0.0
-  * iconCloseupCameraPosition: 2.26,2.95,10.77
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.13,5.28,0.42
-  * assetName: jumptrooper_emp-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: 0.12,4.78,0.33
-  * factoryScaleFactor: 1
-  * audioTrain: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_r_sm
-  * targetInRangeModifier: 1
+  * Asset name: jumptrooper_emp-ani
+  * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
+  * Audio death: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
+  * Audio placement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
+  * Audio train: "sfx_ui_unitcomplete_stormtrooper_01":35,"sfx_ui_unitcomplete_stormtrooper_02":35,"sfx_ui_unitcomplete_stormtrooper_03":30
+  * Buff asset offset: 0.0,0.3,0.0
+  * Bundle name: jumptrooper_emp-ani
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "jumptrooper_emp_rig_MASTER_MOVER/jumptrooper_emp_rig_locator_gun_Rt":1
+  * Icon camera position: 8.7,15.21,13.03
+  * Icon closeup camera position: 2.26,2.95,10.77
+  * Icon closeup lookat position: 0.13,5.28,0.42
+  * Icon lookat position: 0.12,4.78,0.33
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|order     |121101|121102|121103|121104|121105|121106|121107|121108|121109|121110|
-|pointValue|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: closest
+  * Arcs: No
+  * Bullet: fx_blaster_beam_r_sm
+  * Hit spark: fx_blaster_hit_r_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_r_sm
+  * Name: Empire Jumptrooper Blaster
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1      |2      |3      |4      |5       |6       |7       |8       |9       |10      |
+|---------------------------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|560.000|672.000|784.000|896.000|1008.000|1120.000|1232.000|1344.000|1456.000|1680.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |121101|121102|121103|121104|121105|121106|121107|121108|121109|121110|
+|Point value|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

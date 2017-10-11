@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1086
+# Crates — version 1090
 
   * [Amazon Exclusive Deal! (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -92,6 +92,18 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_losalamosStarfighterSample_tier6)](lc_conf_losalamosStarfighterSample_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_losalamosStarfighterSample_tier7)](lc_conf_losalamosStarfighterSample_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_losalamosStarfighterSample_tier8)](lc_conf_losalamosStarfighterSample_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_evtUnit_tier5)](lc_conf_navalEvt_evtUnit_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_evtUnit_tier6)](lc_conf_navalEvt_evtUnit_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_navalEvt_evtUnit_tier7)](lc_conf_navalEvt_evtUnit_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_navalEvt_evtUnit_tier8)](lc_conf_navalEvt_evtUnit_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_heroEqp_tier5)](lc_conf_navalEvt_heroEqp_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_heroEqp_tier6)](lc_conf_navalEvt_heroEqp_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_navalEvt_heroEqp_tier7)](lc_conf_navalEvt_heroEqp_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_navalEvt_heroEqp_tier8)](lc_conf_navalEvt_heroEqp_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_sniperEqp_tier5)](lc_conf_navalEvt_sniperEqp_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_navalEvt_sniperEqp_tier6)](lc_conf_navalEvt_sniperEqp_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_navalEvt_sniperEqp_tier7)](lc_conf_navalEvt_sniperEqp_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_navalEvt_sniperEqp_tier8)](lc_conf_navalEvt_sniperEqp_tier8.html)
   * [Bronzium Conflict Crate (lc_conf_newHeroEvent_tier5)](lc_conf_newHeroEvent_tier5.html)
   * [Bronzium Conflict Crate (lc_conf_newHeroEvent_tier6)](lc_conf_newHeroEvent_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_newHeroEvent_tier7)](lc_conf_newHeroEvent_tier7.html)
@@ -140,6 +152,7 @@ title: Index of crates
   * [Daily Desert Ops Crate (lc_daily_desBiome)](lc_daily_desBiome.html)
   * [Daily Forest Ops Crate (lc_daily_forBiome)](lc_daily_forBiome.html)
   * [Daily Crate (lc_daily_mraid)](lc_daily_mraid.html)
+  * [Daily Naval Assault Crate (lc_daily_navalEvt)](lc_daily_navalEvt.html)
   * [Daily Weapons Research Crate (lc_daily_newHeroEvent)](lc_daily_newHeroEvent.html)
   * [Daily Weapons Research Crate (lc_daily_rogue1v3)](lc_daily_rogue1v3.html)
   * [Daily Crate (lc_daily_stolenVehicle)](lc_daily_stolenVehicle.html)
@@ -162,6 +175,10 @@ title: Index of crates
   * [Carbonite Crate (lc_mraid_tier1)](lc_mraid_tier1.html)
   * [Durasteel Crate (lc_mraid_tier2)](lc_mraid_tier2.html)
   * [Bronzium Crate (lc_mraid_tier3)](lc_mraid_tier3.html)
+  * [Premium Naval Assault Crate (lc_navalEvtStore)](lc_navalEvtStore.html)
+  * [Ultra Naval Assault Crate (lc_navalEvt_SPD_v1)](lc_navalEvt_SPD_v1.html)
+  * [Ultra Naval Assault Crate (lc_navalEvt_SPD_v2)](lc_navalEvt_SPD_v2.html)
+  * [Elite Naval Assault Crate (lc_navalEvt_SPD_v3)](lc_navalEvt_SPD_v3.html)
   * [Premium Weapons Research Crate (lc_newHeroEventStore)](lc_newHeroEventStore.html)
   * [Ultra Weapons Research Crate (lc_newHeroEvent_SPD_v1)](lc_newHeroEvent_SPD_v1.html)
   * [Ultra Weapons Research Crate (lc_newHeroEvent_SPD_v2)](lc_newHeroEvent_SPD_v2.html)
@@ -171,6 +188,7 @@ title: Index of crates
   * [Desert Ops Crate (lc_obje_desBiome_tier3)](lc_obje_desBiome_tier3.html)
   * [Forest Ops Crate (lc_obje_forBiome_tier3)](lc_obje_forBiome_tier3.html)
   * [Weapons Research Crate (lc_obje_kada_tier3)](lc_obje_kada_tier3.html)
+  * [Naval Assault Crate (lc_obje_navalEvt_tier3)](lc_obje_navalEvt_tier3.html)
   * [Weapons Research Crate (lc_obje_newHeroEvent_tier1)](lc_obje_newHeroEvent_tier1.html)
   * [Weapons Research Crate (lc_obje_newHeroEvent_tier2)](lc_obje_newHeroEvent_tier2.html)
   * [Weapons Research Crate (lc_obje_newHeroEvent_tier3)](lc_obje_newHeroEvent_tier3.html)

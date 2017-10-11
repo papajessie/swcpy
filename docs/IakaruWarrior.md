@@ -3,100 +3,97 @@ title: Iakaru Warrior (IakaruWarrior)
 category: unit
 ---
 
-# Iakaru Warrior (IakaruWarrior) — version 1086
+# Iakaru Warrior (IakaruWarrior) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: bruiserInfantry
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: bruiserInfantry
   * Role: Bruiser
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 6
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 0s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1                 |2                 |3                |4                 |5                 |6                |7                 |8                |9     |10                |
-|---------------|------------------|------------------|-----------------|------------------|------------------|-----------------|------------------|-----------------|------|------------------|
-|Health         |10570             |12310             |12060            |13520             |14970             |16430            |17950             |19440            |20930 |23880             |
-|Damage per shot|1230              |1235              |1263             |1271              |1280              |1288             |1346              |1380             |1413  |1454              |
-|Damage*        |2733.3333333333335|2744.4444444444443|2806.666666666667|2824.4444444444443|2844.4444444444443|2862.222222222222|2991.1111111111113|3066.666666666667|3140.0|3231.1111111111113|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|10570|12310|12060|13520|14970|16430|17950|19440|20930|23880|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 12
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: Yes
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|625$                            |875$                                  |1125$                                 |1375$                                 |1625$                                 |1875$                                 |2125$                                 |2500$                                 |2625$                                 |2875$                                  |
 |Training time|1m45s                           |1m50s                                 |1m55s                                 |2m                                    |2m5s                                  |2m10s                                 |2m15s                                 |2m20s                                 |2m25s                                 |2m30s                                  |
+|Training cost|625$                            |875$                                  |1125$                                 |1375$                                 |1625$                                 |1875$                                 |2125$                                 |2500$                                 |2625$                                 |2875$                                  |
 |Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 0s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Iakaru Warrior
+## Main attack : Iakaru Warrior
 
-### Basic info
+### Targeting
 
-  * Shot count: 7
+  * Attack shield border: No
+  * Max attack range: 5
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Ressource generator (50), Headquarters (50), Other building (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Storage (50), Light vehicle (50), Shield generator (50), Shield (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 12
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 150ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 7
-  * Max. Range: 5
-  * Min. Range: 0
-
-|Level                       |1                 |2                 |3                |4                 |5                 |6                |7                 |8                |9     |10                |
-|----------------------------|------------------|------------------|-----------------|------------------|------------------|-----------------|------------------|-----------------|------|------------------|
-|Damage per shot             |1230              |1235              |1263             |1271              |1280              |1288             |1346              |1380             |1413  |1454              |
-|Calculated damage per second|2733              |2744              |2806             |2824              |2844              |2862             |2991              |3066             |3140  |3231              |
-|Damage*                     |2733.3333333333335|2744.4444444444443|2806.666666666667|2824.4444444444443|2844.4444444444443|2862.222222222222|2991.1111111111113|3066.666666666667|3140.0|3231.1111111111113|
-
-### Secondary info
-
+  * Clip retargeting: Yes
   * Gun shooting sequence: 1
-  * Salvos per clip: 7
-  * Number of cannons: 0
-  * Clips period: 3.150s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 7
+  * Time between shots: 150ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1230|1235|1263|1271|1280|1288|1346|1380|1413|1454|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140.000|3231.111|
+|Calculated damage per second|2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140.000|3231.111|
+
+  * Headquarters: 100%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
   * Other building: 100%
@@ -105,9 +102,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 75%
   * Support troop: 75%
   * Heavy infantry hero: 50%
-  * Heavy vehicular hero: 50%
+  * Heavy vehicule hero: 50%
   * Infantry hero: 75%
-  * Vehicle hero: 75%
+  * Vehicule hero: 75%
   * Infantry: 75%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,73 +115,93 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 75%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3.150s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 7
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: IakaruWarrior
+  * Upgrade shard uid: shrd_troopIakaruWarrior
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-  * audioPlacement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: iakaru_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: turret
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopIakaruWarrior
-  * iconCameraPosition: 7.64,11.36,18.34
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 4.34,5.86,9.44
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.52,2.05,-1.33
-  * assetName: iakaru_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.4,1.38,-0.85
-  * factoryScaleFactor: 1
-  * audioTrain: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+### Presentation stats
 
-|Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|---------------|-----------|--|--|--|--|--|--|--|--|--|
-|iconUnlockScale|1.2,1.2,1.2|  |  |  |  |  |  |  |  |  |
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-## Uninterpreted stats
+  * Asset name: iakaru_rbl-ani
+  * Audio attack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34
+  * Audio death: "sfx_death_iakaru_01":33,"sfx_death_iakaru_02":33,"sfx_death_iakaru_03":34
+  * Audio placement: "sfx_placement_iakaru_01":33,"sfx_placement_iakaru_02":33,"sfx_placement_iakaru_03":34
+  * Audio train: "sfx_ui_unitcomplete_iakaru_01":50,"sfx_ui_unitcomplete_iakaru_02":50
+  * Bundle name: iakaru_rbl-ani
+  * Event button action: galaxy
+  * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
+  * Event button string: hn_open_galaxy
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 7.64,11.36,18.34
+  * Icon closeup camera position: 4.34,5.86,9.44
+  * Icon closeup lookat position: -0.52,2.05,-1.33
+  * Icon lookat position: -0.4,1.38,-0.85
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_b_sm
-  * targetInRangeModifier: 1
+|Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Icon unlock scale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|order     |234301|234302|234303|234304|234305|234306|234307|234308|234309|234310|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: turret
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_sm
+  * Hit spark: fx_blaster_hit_b_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_sm
+  * Name: Iakaru Warrior
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140.000|3231.111|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |234301|234302|234303|234304|234305|234306|234307|234308|234309|234310|
+|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

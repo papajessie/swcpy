@@ -3,98 +3,98 @@ title: Alpha Womp Rat (WompRatAlpha)
 category: unit
 ---
 
-# Alpha Womp Rat (WompRatAlpha) — version 1086
+# Alpha Womp Rat (WompRatAlpha) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Tusken Raiders
   * Buildable unit: No
-  * Type: hero
-  * Armor type: infantry
   * Role: Destroyer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|5000$ |7000$ |9000$ |12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s    |15m   |1h    |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Health              |18000 |21600 |25200 |28800 |32400 |36000  |39600  |43200  |46800   |54000   |
-|Damage per shot     |2530  |3036  |3542  |4048  |4554  |5060   |5566   |6072   |6578    |7590    |
-|Damage*             |3892.0|4670.0|5449.0|6227.0|7006.0|7784.0 |8563.0 |9341.0 |10120.0 |11676.0 |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|18000|21600|25200|28800|32400|36000|39600|43200|46800|54000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
+### Training stats
 
-## Targeting
-
-  * Target preferences: **Infantry hero (70)**, **Droideka (70)**, **Support troop (70)**, **Infantry (70)**, **Heavy infantry hero (70)**, **Light vehicle (70)**, _Heavy infantry (60)_, _Vehicle hero (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 8
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
-
-  * Training cost: 690$
   * Training time: 1m
+  * Training cost: 690$
   * Building: [Barracks 4](smugglerBarracks.html)
 
-## Movement
+### Upgrading stats
 
-  * Speed: 40
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 2x2
-  * Flying unit: No
+|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 40
   * Propensity to go around obstacles: 1
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 2x2
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : WompRatAlpha
+## Main attack : WompRatAlpha
 
-### Basic info
+### Targeting
 
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 4
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Infantry (70)**, **Support troop (70)**, **Droideka (70)**, **Infantry hero (70)**, **Light vehicle (70)**, **Heavy infantry hero (70)**, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Heavy vehicule hero (60)_, _Vehicule hero (60)_, Ressource generator (50), Headquarters (50), Other building (50), Shield generator (50), Turret (50), Storage (50), Shield (50), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 150ms
-  * Time between shots: 150ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1s
-  * Salvos per clip: 2
-  * Max. Range: 4
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9      |10     |
-|----------------------------|------|------|------|------|------|------|------|------|-------|-------|
-|Damage per shot             |2530  |3036  |3542  |4048  |4554  |5060  |5566  |6072  |6578   |7590   |
-|Calculated damage per second|3892  |4670  |5449  |6227  |7006  |7784  |8563  |9341  |10120  |11676  |
-|Damage*                     |3892.0|4670.0|5449.0|6227.0|7006.0|7784.0|8563.0|9341.0|10120.0|11676.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 1.300s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 250ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 16m40s
+  * Retargeting offset: 8
+  * Self-centered targeting: No
+  * Shot count: 2
+  * Time between shots: 150ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|2530|3036|3542|4048|4554|5060|5566|6072|6578|7590|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100,75,50
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9        |10       |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|---------|---------|
+|Displayed damage per second |3892.000|4670.000|5449.000|6227.000|7006.000|7784.000|8563.000|9341.000|10120.000|11676.000|
+|Calculated damage per second|3892.308|4670.769|5449.231|6227.692|7006.154|7784.615|8563.077|9341.538|10120.000|11676.923|
+
+  * Headquarters: 100%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
   * Other building: 100%
@@ -103,9 +103,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 75%
   * Heavy infantry hero: 50%
-  * Heavy vehicular hero: 50%
+  * Heavy vehicule hero: 50%
   * Infantry hero: 75%
-  * Vehicle hero: 75%
+  * Vehicule hero: 75%
   * Infantry: 75%
   * Ressource generator: 100%
   * Shield: 100%
@@ -116,72 +116,87 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 75%
   * Wall: 50%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 1.300s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 300
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_melee_scratch_lrg
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: WompRatAlpha
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: 
-  * audioImpact: 
-  * animationDelay: 1000
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: wompratlarge_neu-ani
-  * deathAnimation: buffFireBurn:15
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 11.42,11.67,7.56
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.33,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: wompratlarge_neu-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.07,0.16,-0.08
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * impactDelay: 250
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_neu
-  * decalBundleName: tac_hero_neu
-  * autoSpawnSpreadingScale: 1
-  * uiDecalAssetName: HeroDecalNeutral
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
+  * Asset name: wompratlarge_neu-ani
+  * Audio attack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * Audio death: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
+  * Buff asset offset: 0.00,0.33,0.00
+  * Bundle name: wompratlarge_neu-ani
+  * Death animation: buffFireBurn:15
+  * Decal asset name: tac_hero_neu
+  * Decal bundle name: tac_hero_neu
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 11.42,11.67,7.56
+  * Icon lookat position: -0.07,0.16,-0.08
+  * Targeted type: ENEMIES
+  * UI decal asset name: HeroDecalNeutral
+  * _Not found: Audio impact, Audio placement, Audio train, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 1000
+  * Favorite target type: closest
+  * Arcs: No
+  * Max scale: 300
+  * Muzzle flash: fx_melee_scratch_lrg
+  * Name: WompRatAlpha
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9        |10       |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|---------|---------|
+|Displayed damage per second|3892.000|4670.000|5449.000|6227.000|7006.000|7784.000|8563.000|9341.000|10120.000|11676.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

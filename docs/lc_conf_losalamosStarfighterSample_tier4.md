@@ -3,7 +3,7 @@ title: Durasteel Conflict Crate (lc_conf_losalamosStarfighterSample_tier4)
 category: crate
 ---
 
-# Durasteel Conflict Crate (lc_conf_losalamosStarfighterSample_tier4) — version 1086
+# Durasteel Conflict Crate (lc_conf_losalamosStarfighterSample_tier4) — version 1090
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -162,9 +162,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (1/82) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (1/82) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/82) 6 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (1/82) 6 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (1/82) 6 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
   * (3/82) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
@@ -175,9 +175,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (3/82) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
+  * (9/82) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (9/82) 10 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (9/82) 10 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (9/82) 10 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
 

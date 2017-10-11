@@ -3,100 +3,97 @@ title: IG-86 Assassin Droid (IG86Droid)
 category: unit
 ---
 
-# IG-86 Assassin Droid (IG86Droid) — version 1086
+# IG-86 Assassin Droid (IG86Droid) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: bruiserInfantry
   * Side: Empire
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: bruiserInfantry
   * Role: Bruiser
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 6
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 0s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
-|---------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
-|Health         |8860             |10260            |11130            |12450            |13780            |15100            |16490            |17840            |19200            |21880             |
-|Damage per shot|1236             |1243             |1268             |1277             |1286             |1295             |1354             |1387             |1421             |1464              |
-|Damage*        |2746.666666666667|2762.222222222222|2817.777777777778|2837.777777777778|2857.777777777778|2877.777777777778|3008.888888888889|3082.222222222222|3157.777777777778|3253.3333333333335|
+|Level |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|8860|10260|11130|12450|13780|15100|16490|17840|19200|21880|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Turret (70)**, _Flying infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, Heavy infantry (50), Droideka (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 12
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: Yes
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|500$                             |700$                                   |900$                                   |1100$                                  |1300$                                  |1500$                                  |1700$                                  |2000$                                  |2100$                                  |2300$                                   |
 |Training time|42s                              |44s                                    |46s                                    |48s                                    |50s                                    |52s                                    |54s                                    |1m52s                                  |1m56s                                  |2m                                      |
+|Training cost|500$                             |700$                                   |900$                                   |1100$                                  |1300$                                  |1500$                                  |1700$                                  |2000$                                  |2100$                                  |2300$                                   |
 |Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 0s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : IG-86 Droid
+## Main attack : IG-86 Droid
 
-### Basic info
+### Targeting
 
-  * Shot count: 7
+  * Attack shield border: No
+  * Max attack range: 5
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, Ressource generator (50), Headquarters (50), Other building (50), Infantry (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Storage (50), Light vehicle (50), Shield generator (50), Shield (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 12
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 150ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 7
-  * Max. Range: 5
-  * Min. Range: 0
-
-|Level                       |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
-|----------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
-|Damage per shot             |1236             |1243             |1268             |1277             |1286             |1295             |1354             |1387             |1421             |1464              |
-|Calculated damage per second|2746             |2762             |2817             |2837             |2857             |2877             |3008             |3082             |3157             |3253              |
-|Damage*                     |2746.666666666667|2762.222222222222|2817.777777777778|2837.777777777778|2857.777777777778|2877.777777777778|3008.888888888889|3082.222222222222|3157.777777777778|3253.3333333333335|
-
-### Secondary info
-
+  * Clip retargeting: Yes
   * Gun shooting sequence: 1
-  * Salvos per clip: 7
-  * Number of cannons: 0
-  * Clips period: 3.150s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 7
+  * Time between shots: 150ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1236|1243|1268|1277|1286|1295|1354|1387|1421|1464|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
+|Calculated damage per second|2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
+
+  * Headquarters: 100%
   * Heavy infantry: 25%
   * Heavy vehicle: 25%
   * Other building: 100%
@@ -105,9 +102,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 50%
   * Support troop: 50%
   * Heavy infantry hero: 25%
-  * Heavy vehicular hero: 25%
+  * Heavy vehicule hero: 25%
   * Infantry hero: 50%
-  * Vehicle hero: 50%
+  * Vehicule hero: 50%
   * Infantry: 50%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,73 +115,93 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 50%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3.150s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 7
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_r_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_r_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: IG86Droid
+  * Upgrade shard uid: shrd_troopIG86Droid
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-  * audioPlacement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: ig86_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: turret
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopIG86Droid
-  * iconCameraPosition: 5.5,12.03,13.9
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 3.74,7.49,9.45
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.45,1.94,-1.14
-  * assetName: ig86_emp-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.4,1.24,-0.81
-  * factoryScaleFactor: 1
-  * audioTrain: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+### Presentation stats
 
-|Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|---------------|-----------|--|--|--|--|--|--|--|--|--|
-|iconUnlockScale|1.2,1.2,1.2|  |  |  |  |  |  |  |  |  |
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-## Uninterpreted stats
+  * Asset name: ig86_emp-ani
+  * Audio attack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34
+  * Audio death: "sfx_death_ig86_01":50,"sfx_death_ig86_02":50
+  * Audio placement: "sfx_placement_ig86_01":33,"sfx_placement_ig86_02":33,"sfx_placement_ig86_03":34
+  * Audio train: "sfx_ui_unitcomplete_ig86_01":50,"sfx_ui_unitcomplete_ig86_02":50
+  * Bundle name: ig86_emp-ani
+  * Event button action: galaxy
+  * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
+  * Event button string: hn_open_galaxy
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 5.5,12.03,13.9
+  * Icon closeup camera position: 3.74,7.49,9.45
+  * Icon closeup lookat position: -0.45,1.94,-1.14
+  * Icon lookat position: -0.4,1.24,-0.81
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_r_sm
-  * targetInRangeModifier: 1
+|Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Icon unlock scale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|order     |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: turret
+  * Arcs: No
+  * Bullet: fx_blaster_beam_r_sm
+  * Hit spark: fx_blaster_hit_r_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_r_sm
+  * Name: IG-86 Droid
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
+|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

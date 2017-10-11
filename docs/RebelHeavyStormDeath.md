@@ -3,100 +3,99 @@ title: Heavy Undead Trooper (RebelHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1086
+# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Rebellion
   * Buildable unit: No
-  * Type: infantry
-  * Armor type: infantry
   * Role: Generic
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 4
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Health              |7500 |9000 |10500|12000 |13500 |15000  |16500  |18000  |19500   |22500   |
-|Damage per shot     |170  |204  |238  |272   |306   |340    |374    |408    |442     |510     |
-|Damage*             |500.0|600.0|700.0|800.0 |900.0 |1000.0 |1100.0 |1200.0 |1300.0  |1500.0  |
+|Level |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|7500|9000|10500|12000|13500|15000|16500|18000|19500|22500|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **Vehicle hero (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Storage (50)**, **Heavy infantry hero (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 10
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|---------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|200$                             |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |760$                                  |840$                                  |920$                                   |
 |Training time|1m20s                            |1m28s                                 |1m32s                                 |1m36s                                 |1m40s                                 |1m44s                                 |1m48s                                 |1m52s                                 |1m56s                                 |2m                                     |
+|Training cost|200$                             |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |760$                                  |840$                                  |920$                                   |
 |Building     |[Barracks 10](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 10
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 10
   * Propensity to go around obstacles: 1
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : HeavyStormDeath
+## Main attack : HeavyStormDeath
 
-### Basic info
+### Targeting
 
-  * Shot count: 10
+  * Attack shield border: No
+  * Max attack range: 5
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Ressource generator (50)**, **Headquarters (50)**, **Other building (50)**, **Infantry (50)**, **Infantry hero (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Droideka (50)**, **Turret (50)**, **Heavy vehicule hero (50)**, **Flying infantry (50)**, **Storage (50)**, **Light vehicle (50)**, **Shield generator (50)**, **Heavy infantry hero (50)**, **Vehicule hero (50)**, **Shield (50)**, **Flying vehicle (50)**, Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 500ms
-  * Time between shots: 100ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 10
-  * Max. Range: 5
-  * Min. Range: 0
-
-|Level                       |1    |2    |3    |4    |5    |6     |7     |8     |9     |10    |
-|----------------------------|-----|-----|-----|-----|-----|------|------|------|------|------|
-|Damage per shot             |170  |204  |238  |272  |306  |340   |374   |408   |442   |510   |
-|Calculated damage per second|500  |600  |700  |800  |900  |1000  |1100  |1200  |1300  |1500  |
-|Damage*                     |500.0|600.0|700.0|800.0|900.0|1000.0|1100.0|1200.0|1300.0|1500.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 10
-  * Number of cannons: 0
-  * Clips period: 3.400s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 30
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 500ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 10
+  * Self-centered targeting: No
+  * Shot count: 10
+  * Time between shots: 100ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|---------------|---|---|---|---|---|---|---|---|---|---|
+|Damage per shot|170|204|238|272|306|340|374|408|442|510|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1      |2      |3      |4      |5      |6       |7       |8       |9       |10      |
+|----------------------------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|
+|Displayed damage per second |500.000|600.000|700.000|800.000|900.000|1000.000|1100.000|1200.000|1300.000|1500.000|
+|Calculated damage per second|500.000|600.000|700.000|800.000|900.000|1000.000|1100.000|1200.000|1300.000|1500.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
   * Other building: 100%
@@ -105,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 100%
-  * Heavy vehicular hero: 100%
+  * Heavy vehicule hero: 100%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,70 +117,85 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 80%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3.400s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 30
+  * Pass through shield: No
+  * Salvos: 10
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_gatling_hit_r_lrg
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_gatling_muzzle_r_lrg
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Spawn apply buffs: buffReduceHeals2
+  * Unit ID: RebelHeavyStormDeath
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
-  * infoUIType: 
-  * bundleName: heavytrooper_dth-ani
-  * deathAnimation: buffFireBurn:15
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 4.46,8.55,22.59
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.27,0.00
-  * iconCloseupCameraPosition: 3.27,3.36,10.55
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.05,2.29,-0.46
-  * assetName: heavytrooper_dth-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.36,1.33,-0.66
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * strictCoolDown: false
-  * spawnApplyBuffs: buffReduceHeals2
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 500
-  * autoSpawnRateScale: 1
-  * targetInRangeModifier: 1
+  * Asset name: heavytrooper_dth-ani
+  * Audio attack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35
+  * Audio death: "sfx_death_deathtrooper_1":35,"sfx_death_deathtrooper_2":35,"sfx_death_deathtrooper_3":30
+  * Audio placement: "sfx_placement_deathtrooper_1":35,"sfx_placement_deathtrooper_2":35,"sfx_placement_deathtrooper_3":30
+  * Buff asset offset: 0.00,0.27,0.00
+  * Bundle name: heavytrooper_dth-ani
+  * Death animation: buffFireBurn:15
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
+  * Icon camera position: 4.46,8.55,22.59
+  * Icon closeup camera position: 3.27,3.36,10.55
+  * Icon closeup lookat position: -0.05,2.29,-0.46
+  * Icon lookat position: -0.36,1.33,-0.66
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
-|order     |233301|233302|233303|233304|233305|233306|233307|233308|233309|233310|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: closest
+  * Arcs: No
+  * Hit spark: fx_gatling_hit_r_lrg
+  * Max scale: 100
+  * Muzzle flash: fx_gatling_muzzle_r_lrg
+  * Name: HeavyStormDeath
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1      |2      |3      |4      |5      |6       |7       |8       |9       |10      |
+|---------------------------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|
+|Displayed damage per second|500.000|600.000|700.000|800.000|900.000|1000.000|1100.000|1200.000|1300.000|1500.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |233301|233302|233303|233304|233305|233306|233307|233308|233309|233310|
+|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

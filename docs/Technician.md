@@ -3,100 +3,98 @@ title: Repair Droid (Technician)
 category: unit
 ---
 
-# Repair Droid (Technician) — version 1086
+# Repair Droid (Technician) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: healerInfantry
   * Side: Empire
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: healerInfantry
   * Role: Healer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 4
-  * Damage per shot: 0
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
-|Health              |2000 |2400 |2800 |3200  |3600  |4000   |4400   |4800   |5200    |6000    |
-|Damage*             |480.0|576.0|672.0|768.0 |864.0 |960.0  |1056.0 |1152.0 |1248.0  |1440.0  |
+|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|------|----|----|----|----|----|----|----|----|----|----|
+|Health|2000|2400|2800|3200|3600|4000|4400|4800|5200|6000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
-  * Targeted type: ALLIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 10
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: Yes
-
-## Recruiting
+### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|200$                             |280$                                   |360$                                   |440$                                   |520$                                   |600$                                   |680$                                   |800$                                   |840$                                   |920$                                    |
 |Training time|1m20s                            |1m28s                                  |1m32s                                  |1m36s                                  |1m40s                                  |1m44s                                  |1m48s                                  |1m52s                                  |1m56s                                  |2m                                      |
+|Training cost|200$                             |280$                                   |360$                                   |440$                                   |520$                                   |600$                                   |680$                                   |800$                                   |840$                                   |920$                                    |
 |Building     |[Barracks 5](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 40
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
+|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: Yes
+  * Flying unit: No
+  * Max speed: 40
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * Support follow distance: 5
+  * _Not found: Ignores walls_
 
-## Attack : Technician
+## Main attack : Technician
 
-### Basic info
+### Targeting
 
-  * Damage per shot: 0
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 5
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Heavy vehicle (50)**, **Heavy vehicule hero (50)**, **Light vehicle (50)**, **Vehicule hero (50)**, Ressource generator (0), Headquarters (0), Other building (0), Infantry (0), Shield generator (0), Support troop (0), Heavy infantry (0), Droideka (0), Infantry hero (0), Turret (0), Flying infantry (0), Storage (0), Heavy infantry hero (0), Shield (0), Flying vehicle (0), Wall (0), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 1
-  * Calculated damage per second: 0
-  * Max. Range: 5
-  * Min. Range: 0
-
-|Level  |1    |2    |3    |4    |5    |6    |7     |8     |9     |10    |
-|-------|-----|-----|-----|-----|-----|-----|------|------|------|------|
-|Damage*|480.0|576.0|672.0|768.0|864.0|960.0|1056.0|1152.0|1248.0|1440.0|
-
-### Secondary info
-
+  * Clip retargeting: No
+  * Damage per shot: 0
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 2.250s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 10
+  * Self-centered targeting: Yes
+  * Shot count: 1
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: Yes
+  * _Not found: New target on reload_
 
-### Multipliers
+### Projectile
 
-  * HQ: 0%
+  * Calculated damage per second: 0.000
+  * Splash damage percentages: 100,100,100,100
+  * _Not found: Beam damage_
+
+|Level                      |1      |2      |3      |4      |5      |6      |7       |8       |9       |10      |
+|---------------------------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|
+|Displayed damage per second|480.000|576.000|672.000|768.000|864.000|960.000|1056.000|1152.000|1248.000|1440.000|
+
+  * Headquarters: 0%
   * Heavy infantry: 0%
   * Heavy vehicle: 0%
   * Other building: 0%
@@ -105,9 +103,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 0%
   * Heavy infantry hero: 0%
-  * Heavy vehicular hero: 0%
+  * Heavy vehicule hero: 0%
   * Infantry hero: 0%
-  * Vehicle hero: 0%
+  * Vehicule hero: 0%
   * Infantry: 0%
   * Ressource generator: 0%
   * Shield: 0%
@@ -118,71 +116,84 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 0%
   * Wall: 0%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 2.250s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 200
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_healing_ring
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: Technician
+  * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: Healer
-  * bundleName: techniciandroid_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: vehicles
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 7.9,7.91,12.71
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: techniciandroid_emp-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: 0.06,2.6,-0.14
-  * factoryScaleFactor: 1
-  * audioTrain: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+|Level      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10          |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
+|Apply buffs|buffRepair1|buffRepair2|buffRepair3|buffRepair4|buffRepair5|buffRepair6|buffRepair7|buffRepair8|buffRepair9|buffRepair10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * impactDelay: 1000
-  * maxScale: false
-  * projectilestreams: no
-  * armingDelay: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * supportFollowDistance: 5
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level               |1          |2          |3          |4          |5          |6          |7          |8          |9          |10          |
-|--------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
-|pointValue          |4.000      |4.800      |5.600      |6.400      |7.200      |8.000      |8.800      |9.600      |10.400     |12.000      |
-|projectileapplyBuffs|buffRepair1|buffRepair2|buffRepair3|buffRepair4|buffRepair5|buffRepair6|buffRepair7|buffRepair8|buffRepair9|buffRepair10|
-|order               |120501     |120502     |120503     |120504     |120505     |120506     |120507     |120508     |120509     |120510      |
+  * Asset name: techniciandroid_emp-ani
+  * Audio attack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50
+  * Audio death: "sfx_death_droid_technician_1":50,"sfx_death_droid_technician_2":50
+  * Audio placement: "sfx_placement_droid_technician_1":50,"sfx_placement_droid_technician_2":50
+  * Audio train: "sfx_ui_unitcomplete_droid_01":50,"sfx_ui_unitcomplete_droid_02":50
+  * Bundle name: techniciandroid_emp-ani
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 7.9,7.91,12.71
+  * Icon lookat position: 0.06,2.6,-0.14
+  * Info UI type: Healer
+  * Targeted type: ALLIES
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: vehicles
+  * Arcs: No
+  * Max scale: 200
+  * Muzzle flash: fx_healing_ring
+  * Name: Technician
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1      |2      |3      |4      |5      |6      |7       |8       |9       |10      |
+|---------------------------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|
+|Displayed damage per second|480.000|576.000|672.000|768.000|864.000|960.000|1056.000|1152.000|1248.000|1440.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |120501|120502|120503|120504|120505|120506|120507|120508|120509|120510|
+|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: No
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

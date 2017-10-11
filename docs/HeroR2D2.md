@@ -3,100 +3,98 @@ title: R2-D2 (HeroR2D2)
 category: unit
 ---
 
-# R2-D2 (HeroR2D2) — version 1086
+# R2-D2 (HeroR2D2) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: healerInfantry
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: hero
-  * Armor type: healerInfantry
   * Role: Healer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Damage per shot: 0
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0s    |1h    |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
-|Health              |8000  |9600  |11200 |12800 |14400 |16000  |17600  |19200  |20800   |24000   |
-|Damage*             |2200.0|2640.0|3080.0|3520.0|3960.0|4400.0 |4840.0 |5280.0 |5720.0  |6600.0  |
+|Level |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|8000|9600|11200|12800|14400|16000|17600|19200|20800|24000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Light vehicle (50)**, Heavy infantry (0), Infantry hero (0), Flying infantry (0), Droideka (0), Support troop (0), Infantry (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Heavy infantry hero (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0), Flying vehicle (0)
-  * Targeted type: ALLIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 4
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: Yes
-
-## Recruiting
+### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Training time|3m30s                                      |3m40s                                 |3m50s                                 |4m                                    |4m10s                                 |4m20s                                 |4m30s                                 |9m20s                                 |9m40s                                 |10m                                    |
+|Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Building     |[Hero Command 5](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 30
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
+|Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: Yes
+  * Flying unit: No
+  * Max speed: 30
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * Support follow distance: 5
+  * _Not found: Ignores walls_
 
-## Attack : R2D2 Healing Aura
+## Main attack : R2D2 Healing Aura
 
-### Basic info
+### Targeting
 
-  * Damage per shot: 0
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 2
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Heavy vehicle (50)**, **Heavy vehicule hero (50)**, **Light vehicle (50)**, **Vehicule hero (50)**, Ressource generator (0), Headquarters (0), Other building (0), Infantry (0), Shield generator (0), Support troop (0), Heavy infantry (0), Droideka (0), Infantry hero (0), Turret (0), Flying infantry (0), Storage (0), Heavy infantry hero (0), Shield (0), Flying vehicle (0), Wall (0), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 500ms
-  * Time between shots: 100ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1.500s
-  * Salvos per clip: 2
-  * Calculated damage per second: 0
-  * Max. Range: 2
-  * Min. Range: 0
-
-|Level  |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-------|------|------|------|------|------|------|------|------|------|------|
-|Damage*|2200.0|2640.0|3080.0|3520.0|3960.0|4400.0|4840.0|5280.0|5720.0|6600.0|
-
-### Secondary info
-
+  * Clip retargeting: No
+  * Damage per shot: 0
   * Gun shooting sequence: 1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 2.0100s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 25m
+  * Retargeting offset: 4
+  * Self-centered targeting: Yes
+  * Shot count: 2
+  * Time between shots: 100ms
+  * Splash: 0
+  * Target locking: Yes
+  * _Not found: New target on reload_
 
-### Multipliers
+### Projectile
 
-  * HQ: 0%
+  * Calculated damage per second: 0.000
+  * Splash damage percentages: 100,100,100,100
+  * _Not found: Beam damage_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2200.000|2640.000|3080.000|3520.000|3960.000|4400.000|4840.000|5280.000|5720.000|6600.000|
+
+  * Headquarters: 0%
   * Heavy infantry: 0%
   * Heavy vehicle: 0%
   * Other building: 0%
@@ -105,9 +103,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 0%
   * Heavy infantry hero: 0%
-  * Heavy vehicular hero: 0%
+  * Heavy vehicule hero: 0%
   * Infantry hero: 0%
-  * Vehicle hero: 0%
+  * Vehicule hero: 0%
   * Infantry: 0%
   * Ressource generator: 0%
   * Shield: 0%
@@ -118,73 +116,89 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 0%
   * Wall: 0%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 2.0100s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 200
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_healing_ring
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: HeroR2D2
+  * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_hero_r2d2_1":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: r2d2_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: vehicles
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_r2d2_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 8.1,8.48,14.32
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 2.91,1.08,9.21
-  * hologramUid: HeroHologramR2D2
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.04,1.41,0.02
-  * assetName: r2d2_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: 0.21,1.31,0.18
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level      |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
+|-----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
+|Hero data  |hero1          |hero2          |hero3          |hero4          |hero5          |hero6          |hero7          |hero8          |hero9          |hero10          |
+|Apply buffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * impactDelay: 1000
-  * autoSpawnRateScale: 2
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_rbl
-  * supportFollowDistance: 5
-  * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level               |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
-|--------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
-|pointValue          |20.000         |24.000         |28.000         |32.000         |36.000         |40.000         |44.000         |48.000         |52.000         |60.000          |
-|order               |210501         |210502         |210503         |210504         |210505         |210506         |210507         |210508         |210509         |210510          |
-|projectileapplyBuffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
+  * Asset name: r2d2_rbl-ani
+  * Audio attack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50
+  * Audio death: "sfx_death_hero_r2d2_1":100
+  * Audio placement: "sfx_placement_hero_r2d2_1":100
+  * Bundle name: r2d2_rbl-ani
+  * Decal asset name: tac_hero_rbl
+  * Decal bundle name: tac_hero_rbl
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Hologram uid: HeroHologramR2D2
+  * Icon camera position: 8.1,8.48,14.32
+  * Icon closeup camera position: 2.91,1.08,9.21
+  * Icon closeup lookat position: 0.04,1.41,0.02
+  * Icon lookat position: 0.21,1.31,0.18
+  * Targeted type: ALLIES
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: vehicles
+  * Arcs: No
+  * Max scale: 200
+  * Muzzle flash: fx_healing_ring
+  * Name: R2D2 Healing Aura
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2200.000|2640.000|3080.000|3520.000|3960.000|4400.000|4840.000|5280.000|5720.000|6600.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 2
+  * Auto spawn spreading scale: 2
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |210501|210502|210503|210504|210505|210506|210507|210508|210509|210510|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: No
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove
