@@ -63,7 +63,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Turret (70)**, Ressource generator (50), Headquarters (50), Other building (50), Infantry (50), Shield generator (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Storage (50), Light vehicle (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Shield (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, Heavy vehicle (50), Light vehicle (50), Storage (50), Heavy infantry (50), Other building (50), Infantry (50), Ressource generator (50), Support troop (50), Headquarters (50), Shield generator (50), Droideka (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Shield (1), Infantry hero (1), Vehicule hero (1), Flying vehicle (0), Flying infantry (0), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -204,4 +204,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove
+I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation

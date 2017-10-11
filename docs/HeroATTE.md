@@ -39,7 +39,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
 |--------------------|------------------------|------------------------|-------------------------|-------------------------|-------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
 |Upgrade time        |0s                      |1h30m                   |3h                       |8h                       |1d                       |3d                        |5d                        |1w                        |1w3d                       |2w                         |
-|Upgrade requirements|6500$, 32 data fragments|5000$, 32 data fragments|10000$, 32 data fragments|20000$, 32 data fragments|50000$, 32 data fragments|135000$, 32 data fragments|225000$, 32 data fragments|450000$, 32 data fragments|1500000$, 32 data fragments|2500000$, 32 data fragments|
+|Upgrade requirements|32 data fragments, 6500$|32 data fragments, 5000$|32 data fragments, 10000$|32 data fragments, 20000$|32 data fragments, 50000$|32 data fragments, 135000$|32 data fragments, 225000$|32 data fragments, 450000$|32 data fragments, 1500000$|32 data fragments, 2500000$|
 
 ### Move stats
 
@@ -63,7 +63,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 1
   * New rotation speed: 3927.000
   * Target preference strength: 90
-  * Target preferences: **Shield generator (80)**, **Shield (80)**, Ressource generator (50), Headquarters (50), Other building (50), Infantry (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Turret (50), Flying infantry (50), Storage (50), Light vehicle (50), Flying vehicle (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * Target preferences: **Shield (80)**, **Shield generator (80)**, Heavy vehicle (50), Light vehicle (50), Storage (50), Flying vehicle (50), Heavy infantry (50), Flying infantry (50), Turret (50), Other building (50), Infantry (50), Ressource generator (50), Support troop (50), Headquarters (50), Droideka (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
   * View range: 12
 
 ### Shooting
@@ -215,4 +215,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove
+I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
