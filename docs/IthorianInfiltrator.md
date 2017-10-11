@@ -3,100 +3,97 @@ title: Ithorian Infiltrator (IthorianInfiltrator)
 category: unit
 ---
 
-# Ithorian Infiltrator (IthorianInfiltrator) — version 1086
+# Ithorian Infiltrator (IthorianInfiltrator) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: infantry
   * Role: Destroyer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 3
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 0s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |1350  |1600  |1850  |2100  |2350  |2600  |2850  |3100  |3350  |3600  |
-|Damage per shot|2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
-|Damage*        |4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
+|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|------|----|----|----|----|----|----|----|----|----|----|
+|Health|1350|1600|1850|2100|2350|2600|2850|3100|3350|3600|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Shield (80)**, **Shield generator (80)**, _Storage (60)_, _Ressource generator (60)_, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Heavy vehicle (50), Light vehicle (50), Flying vehicle (50), Turret (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 12
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|1000$                           |1052$                                 |1137$                                 |1242$                                 |1361$                                 |1494$                                 |1638$                                 |1791$                                 |1954$                                 |2125$                                  |
 |Training time|2m40s                           |2m48s                                 |3m2s                                  |3m19s                                 |3m38s                                 |3m59s                                 |4m22s                                 |4m47s                                 |5m13s                                 |5m40s                                  |
+|Training cost|1000$                           |1052$                                 |1137$                                 |1242$                                 |1361$                                 |1494$                                 |1638$                                 |1791$                                 |1954$                                 |2125$                                  |
 |Building     |[Barracks 4](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 45
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 0s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 45
   * Propensity to go around obstacles: 200
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : IthorianInfiltrator
+## Main attack : IthorianInfiltrator
 
-### Basic info
+### Targeting
 
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 4
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Shield generator (80)**, **Shield (80)**, _Ressource generator (60)_, _Storage (60)_, Headquarters (50), Other building (50), Infantry (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Flying infantry (50), Light vehicle (50), Flying vehicle (50), Turret (40), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 12
+
+### Shooting
+
   * Time between start of clip and first shot: 50ms
-  * Time between shots: 200ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 2
-  * Max. Range: 4
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |2500  |3775  |5050  |6325  |7600  |8875  |10150 |11425 |12700 |13975 |
-|Calculated damage per second|2222  |3355  |4488  |5622  |6755  |7888  |9022  |10155 |11288 |12422 |
-|Damage*                     |4700.0|2545.0|3090.0|3454.0|3818.0|4363.0|4909.0|5272.0|5636.0|6545.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 2.250s
-  * Projectile passes through shields: Yes
-  * Projectile deflectable: Yes
-  * Projectile speed: 15
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 250ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 2
+  * Time between shots: 200ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
+|---------------|----|----|----|----|----|----|-----|-----|-----|-----|
+|Damage per shot|2500|3775|5050|6325|7600|8875|10150|11425|12700|13975|
 
-  * HQ: 10%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8        |9        |10       |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|---------|---------|---------|
+|Displayed damage per second |4700.000|2545.000|3090.000|3454.000|3818.000|4363.000|4909.000|5272.000 |5636.000 |6545.000 |
+|Calculated damage per second|2222.222|3355.556|4488.889|5622.222|6755.556|7888.889|9022.222|10155.556|11288.889|12422.222|
+
+  * Headquarters: 10%
   * Heavy infantry: 10%
   * Heavy vehicle: 10%
   * Other building: 10%
@@ -105,9 +102,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 10%
   * Support troop: 10%
   * Heavy infantry hero: 10%
-  * Heavy vehicular hero: 10%
+  * Heavy vehicule hero: 10%
   * Infantry hero: 10%
-  * Vehicle hero: 10%
+  * Vehicule hero: 10%
   * Infantry: 10%
   * Ressource generator: 60%
   * Shield: 100%
@@ -118,71 +115,89 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 10%
   * Wall: 50%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 2.250s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 15
+  * Pass through shield: Yes
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Spawn apply buffs: buffPersonalShieldIthorian
+  * Unit ID: IthorianInfiltrator
+  * Upgrade shard uid: shrd_troopIthorianInfiltrator
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff_
 
-  * audioPlacement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: ithorian_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: shieldGenerator
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopIthorianInfiltrator
-  * iconUnlockScale: 
-  * iconCameraPosition: 17.05,12.75,14.83
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 4.79,2.66,11.07
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.26,2.61,-0.85
-  * assetName: ithorian_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: true
-  * iconLookatPosition: 0,1.73,-0.07
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * impactDelay: 250
-  * maxScale: false
-  * spawnApplyBuffs: buffPersonalShieldIthorian
-  * autoSpawnRateScale: 1
-  * armingDelay: 0
-  * projectilebullet: fx_blaster_beam_b_sm
-  * strictCoolDown: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+  * Asset name: ithorian_rbl-ani
+  * Audio attack: "sfx_attack_ionblaster_1":25,"sfx_attack_ionblaster_2":25,"sfx_attack_ionblaster_3":25,"sfx_attack_ionblaster_4":25
+  * Audio death: "sfx_death_ithorian_1":50,"sfx_death_ithorian_2":50
+  * Audio placement: "sfx_placement_troop_1":33,"sfx_placement_troop_2":33,"sfx_placement_troop_3":33
+  * Bundle name: ithorian_rbl-ani
+  * Event button action: galaxy
+  * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
+  * Event button string: hn_open_galaxy
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 17.05,12.75,14.83
+  * Icon closeup camera position: 4.79,2.66,11.07
+  * Icon closeup lookat position: -0.26,2.61,-0.85
+  * Icon lookat position: 0,1.73,-0.07
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
-|order     |234101|234102|234103|234104|234105|234106|234107|234108|234109|234110|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: shieldGenerator
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_sm
+  * Hit spark: fx_blaster_hit_b_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_sm
+  * Name: IthorianInfiltrator
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|4700.000|2545.000|3090.000|3454.000|3818.000|4363.000|4909.000|5272.000|5636.000|6545.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |234101|234102|234103|234104|234105|234106|234107|234108|234109|234110|
+|Point value|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

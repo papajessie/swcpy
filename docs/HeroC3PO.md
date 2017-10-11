@@ -3,94 +3,89 @@ title: trp_title_HeroC3PO (no text translation) (HeroC3PO)
 category: unit
 ---
 
-# trp_title_HeroC3PO (no text translation) (HeroC3PO) — version 1086
+# trp_title_HeroC3PO (no text translation) (HeroC3PO) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: healerInfantry
   * Side: Rebellion
   * Buildable unit: No
-  * Type: hero
-  * Armor type: healerInfantry
   * Role: Healer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Upgrade requirements: Nothing
-  * Upgrade time: 0s
-  * Damage per shot: 0
-  * Damage*: 0.0
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
 |Level |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |------|------|------|------|------|------|------|------|------|------|------|
 |Health|100000|123833|147667|171500|195333|219167|243000|266833|290667|314500|
 
-* These values are not necessarily accurate and may be inconsistent with other values
+### Training stats
 
-## Targeting
-
-  * Target preferences: **Heavy infantry (50)**, **Infantry hero (50)**, **Flying infantry (50)**, **Droideka (50)**, **Infantry (50)**, **Vehicle hero (50)**, **Heavy vehicle (50)**, **Heavy vehicular hero (50)**, **Heavy infantry hero (50)**, **Light vehicle (50)**, **Flying vehicle (50)**, Support troop (0), Other building (0), HQ (0), Trap (0), Shield (0), Storage (0), Shield generator (0), Turret (0), Wall (0), Ressource generator (0)
-  * Targeted type: ALLIES
-  * View Range: 100
-  * Target preferences strength: 1
-  * Retargeting offset: 15
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: Yes
-  * Self-centered targeting: Yes
-
-## Recruiting
-
-  * Training cost: Free
   * Training time: 0s
+  * Training cost: Free
 
-## Movement
+### Upgrading stats
 
-  * Speed: 15
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 0s
+  * Upgrade requirements: Nothing
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: Yes
+  * Ignores walls: Yes
+  * Flying unit: No
+  * Max speed: 15
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * Support follow distance: 2
 
-## Attack : Threepio Aggro
+## Main attack : Threepio Aggro
 
-### Basic info
+### Targeting
 
-  * Damage per shot: 0
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 2
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 1
+  * Target preferences: **Infantry (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Droideka (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Flying infantry (50)**, **Light vehicle (50)**, **Heavy infantry hero (50)**, **Vehicule hero (50)**, **Flying vehicle (50)**, Ressource generator (0), Headquarters (0), Other building (0), Shield generator (0), Support troop (0), Turret (0), Storage (0), Shield (0), Wall (0), Trap (0)
+  * View range: 100
+
+### Shooting
+
   * Time between start of clip and first shot: 0s
-  * Time between shots: 0s
-  * Time between last shot and reload: 0s
-  * Time between two clips: 500ms
-  * Salvos per clip: 1
-  * Calculated damage per second: 0
-  * Damage*: 0.0
-  * Max. Range: 2
-  * Min. Range: 0
-
-### Secondary info
-
+  * Clip retargeting: No
+  * Damage per shot: 0
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 500ms
-  * Projectile passes through shields: Yes
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 0s
+  * Can shoot over walls: Yes
+  * Time between end of clip and start of clip: 8m20s
+  * Retargeting offset: 15
+  * Self-centered targeting: Yes
+  * Shot count: 1
+  * Time between shots: 0s
+  * Splash: 0
+  * Target locking: Yes
+  * _Not found: New target on reload_
 
-### Multipliers
+### Projectile
 
-  * HQ: 0%
+  * Calculated damage per second: 0.000
+  * Splash damage percentages: 100
+  * _Not found: Beam damage, Displayed damage per second_
+
+  * Headquarters: 0%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
   * Other building: 0%
@@ -99,9 +94,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 0%
   * Heavy infantry hero: 100%
-  * Heavy vehicular hero: 100%
+  * Heavy vehicule hero: 100%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 0%
   * Shield: 0%
@@ -112,73 +107,80 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 0%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 500ms
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: Yes
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 200
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: 
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: HeroC3PO
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
-  * audioImpact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: 
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 1.5
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: c3po_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: c3po_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: 
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * impactDelay: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_rbl
-  * ignoresWalls: true
-  * spawnEffectUid: effectRebelSpawn
-  * supportFollowDistance: 2
-  * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level     |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|-----|-----|------|------|------|------|------|------|------|------|
-|pointValue|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
+  * Asset name: c3po_rbl-ani
+  * Audio death: "sfx_death_c3po_01":25,"sfx_death_c3po_02":25,"sfx_death_c3po_03":25,"sfx_death_c3po_04":25
+  * Audio impact: "sfx_attack_c3po_01":3,"sfx_attack_c3po_04":3,"sfx_attack_c3po_05":3,"sfx_attack_c3po_06":3,"sfx_silence":88
+  * Audio placement: "sfx_placement_c3po_01":25,"sfx_placement_c3po_02":25,"sfx_placement_c3po_03":25,"sfx_placement_c3po_04":25
+  * Bundle name: c3po_rbl-ani
+  * Decal asset name: tac_hero_rbl
+  * Decal bundle name: tac_hero_rbl
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Spawn effect uid: effectRebelSpawn
+  * Targeted type: ALLIES
+  * Tooltip height offset: 1.5
+  * _Not found: Audio attack, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon camera position, Icon closeup camera position, Icon closeup lookat position, Icon lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: closest
+  * Arcs: No
+  * Max scale: 200
+  * Name: Threepio Aggro
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Displayed damage per second, Ground bullet, Hit spark, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+  * _Not found: Order_
+
+|Level      |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|-----|-----|------|------|------|------|------|------|------|------|
+|Point value|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: No
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

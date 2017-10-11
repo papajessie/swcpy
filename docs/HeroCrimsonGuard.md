@@ -3,100 +3,99 @@ title: Royal Guard (HeroCrimsonGuard)
 category: unit
 ---
 
-# Royal Guard (HeroCrimsonGuard) — version 1086
+# Royal Guard (HeroCrimsonGuard) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: bruiserInfantry
   * Side: Empire
   * Buildable unit: Yes
-  * Type: hero
-  * Armor type: bruiserInfantry
   * Role: Bruiser
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0s    |1h    |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
-|Health              |30000 |36000 |42000 |48000 |54000 |60000  |66000  |72000  |78000   |90000   |
-|Damage per shot     |2860  |3432  |4004  |4576  |5148  |5720   |6292   |6864   |7436    |8580    |
-|Damage*             |2600.0|3120.0|3640.0|4160.0|4680.0|5200.0 |5720.0 |6240.0 |6760.0  |7800.0  |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|30000|36000|42000|48000|54000|60000|66000|72000|78000|90000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Turret (70)**, _Heavy infantry (60)_, _Infantry hero (60)_, _Droideka (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Heavy vehicular hero (60)_, _Heavy infantry hero (60)_, _Light vehicle (60)_, Other building (50), Vehicle hero (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 4
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |4000$                                  |4200$                                  |4600$                                   |
 |Training time|3m30s                                       |3m40s                                  |3m50s                                  |4m                                     |4m10s                                  |4m20s                                  |4m30s                                  |9m20s                                  |9m40s                                  |10m                                     |
+|Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |4000$                                  |4200$                                  |4600$                                   |
 |Building     |[Hero Command 4](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 40
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
+|Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 40
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Melee Crimson Guard Slice
+## Main attack : Melee Crimson Guard Slice
 
-### Basic info
+### Targeting
 
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 2
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (70)**, _Infantry (60)_, _Support troop (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Droideka (60)_, _Infantry hero (60)_, _Heavy vehicule hero (60)_, _Light vehicle (60)_, _Heavy infantry hero (60)_, Ressource generator (50), Headquarters (50), Other building (50), Shield generator (50), Storage (50), Vehicule hero (50), Shield (50), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 100ms
-  * Time between shots: 100ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1s
-  * Salvos per clip: 1
-  * Max. Range: 2
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |2860  |3432  |4004  |4576  |5148  |5720  |6292  |6864  |7436  |8580  |
-|Calculated damage per second|2600  |3120  |3640  |4160  |4680  |5200  |5720  |6240  |6760  |7800  |
-|Damage*                     |2600.0|3120.0|3640.0|4160.0|4680.0|5200.0|5720.0|6240.0|6760.0|7800.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 1.0100s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 0s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 16m40s
+  * Retargeting offset: 4
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 100ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|2860|3432|4004|4576|5148|5720|6292|6864|7436|8580|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2600.000|3120.000|3640.000|4160.000|4680.000|5200.000|5720.000|6240.000|6760.000|7800.000|
+|Calculated damage per second|2600.000|3120.000|3640.000|4160.000|4680.000|5200.000|5720.000|6240.000|6760.000|7800.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 125%
   * Heavy vehicle: 75%
   * Other building: 100%
@@ -105,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 150%
   * Heavy infantry hero: 125%
-  * Heavy vehicular hero: 75%
+  * Heavy vehicule hero: 75%
   * Infantry hero: 150%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 150%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,71 +117,90 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 80%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 1.0100s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_melee_headbutt_med
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: HeroCrimsonGuard
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_hero_crimsonguard_1":100
-  * audioImpact: 
-  * animationDelay: 1000
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
-  * infoUIType: 
-  * bundleName: crimsonguard_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_crimsonguard_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 7.77,6.46,23.13
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.35,0.00
-  * iconCloseupCameraPosition: 0.01,1.3,10.4
-  * hologramUid: HeroHologramCrimsonGuard
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.03,2.77,-0.19
-  * assetName: crimsonguard_emp-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: 0.06,1.72,0.04
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * impactDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * armingDelay: 0
-  * autoSpawnRateScale: 1
-  * strictCoolDown: false
-  * decalAssetName: tac_hero_emp
-  * decalBundleName: tac_hero_emp
-  * autoSpawnSpreadingScale: 1
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |110401|110402|110403|110404|110405|110406|110407|110408|110409|110410|
+  * Asset name: crimsonguard_emp-ani
+  * Audio attack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30
+  * Audio death: "sfx_death_hero_crimsonguard_1":100
+  * Audio placement: "sfx_placement_hero_crimsonguard_1":100
+  * Buff asset offset: 0.00,0.35,0.00
+  * Bundle name: crimsonguard_emp-ani
+  * Decal asset name: tac_hero_emp
+  * Decal bundle name: tac_hero_emp
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "crimsonguard_emp_rig_MASTER_MOVER/crimsonguard_emp_rig_locator_gun_Rt":1
+  * Hologram uid: HeroHologramCrimsonGuard
+  * Icon camera position: 7.77,6.46,23.13
+  * Icon closeup camera position: 0.01,1.3,10.4
+  * Icon closeup lookat position: 0.03,2.77,-0.19
+  * Icon lookat position: 0.06,1.72,0.04
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 1000
+  * Favorite target type: turret
+  * Arcs: No
+  * Max scale: 100
+  * Muzzle flash: fx_melee_headbutt_med
+  * Name: Melee Crimson Guard Slice
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2600.000|3120.000|3640.000|4160.000|4680.000|5200.000|5720.000|6240.000|6760.000|7800.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |110401|110402|110403|110404|110405|110406|110407|110408|110409|110410|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

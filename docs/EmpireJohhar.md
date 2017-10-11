@@ -3,100 +3,99 @@ title: Johhar Kessen (EmpireJohhar)
 category: unit
 ---
 
-# Johhar Kessen (EmpireJohhar) — version 1086
+# Johhar Kessen (EmpireJohhar) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Empire
   * Buildable unit: Yes
-  * Type: hero
-  * Armor type: infantry
   * Role: Striker
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 5s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * Unlock planet: Unlock on Er'kit
+  * _Not found: Can be given, Shield asset name_
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |16000 |16790 |17630 |18510 |19440 |20420 |21460 |22560 |23720 |24950 |
-|Damage per shot|3900  |4130  |4360  |4580  |4800  |5030  |5380  |5760  |6160  |6590  |
-|Damage*        |2000.0|2400.0|2800.0|3200.0|3599.0|4000.0|4400.0|4800.0|5200.0|6000.0|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|16000|16790|17630|18510|19440|20420|21460|22560|23720|24950|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Vehicle hero (70)_, _Heavy vehicular hero (70)_, _Heavy infantry hero (70)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, _Heavy vehicle (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, Other building (50), HQ (50), Shield (50), Storage (50), Shield generator (50), Turret (50), Ressource generator (50), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: Yes
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |4000$                                  |4200$                                  |4600$                                   |
 |Training time|3m30s                                       |3m40s                                  |3m50s                                  |4m                                     |4m10s                                  |4m20s                                  |4m30s                                  |4m40s                                  |4m50s                                  |5m                                      |
+|Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |4000$                                  |4200$                                  |4600$                                   |
 |Building     |[Hero Command 1](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 5s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : JohharEmpire
+## Main attack : JohharEmpire
 
-### Basic info
+### Targeting
 
-  * Shot count: 3
+  * Attack shield border: No
+  * Max attack range: 10
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Droideka (80)**, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Vehicule hero (70)_, _Infantry (60)_, _Support troop (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, _Light vehicle (60)_, _Flying vehicle (60)_, Ressource generator (50), Headquarters (50), Other building (50), Shield generator (50), Turret (50), Storage (50), Shield (50), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 3
-  * Max. Range: 10
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |3900  |4130  |4360  |4580  |4800  |5030  |5380  |5760  |6160  |6590  |
-|Calculated damage per second|3600  |3812  |4024  |4227  |4430  |4643  |4966  |5316  |5686  |6083  |
-|Damage*                     |2000.0|2400.0|2800.0|3200.0|3599.0|4000.0|4400.0|4800.0|5200.0|6000.0|
-
-### Secondary info
-
+  * Clip retargeting: Yes
   * Gun shooting sequence: 1
-  * Salvos per clip: 3
-  * Number of cannons: 0
-  * Clips period: 3.250s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 3
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|3900|4130|4360|4580|4800|5030|5380|5760|6160|6590|
 
-  * HQ: 50%
+### Projectile
+
+  * Splash damage percentages: 100
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2000.000|2400.000|2800.000|3200.000|3599.000|4000.000|4400.000|4800.000|5200.000|6000.000|
+|Calculated damage per second|3600.000|3812.308|4024.615|4227.692|4430.769|4643.077|4966.154|5316.923|5686.154|6083.077|
+
+  * Headquarters: 50%
   * Heavy infantry: 150%
   * Heavy vehicle: 250%
   * Other building: 50%
@@ -105,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 300%
   * Support troop: 200%
   * Heavy infantry hero: 150%
-  * Heavy vehicular hero: 250%
+  * Heavy vehicule hero: 250%
   * Infantry hero: 200%
-  * Vehicle hero: 300%
+  * Vehicule hero: 300%
   * Infantry: 200%
   * Ressource generator: 50%
   * Shield: 75%
@@ -118,76 +117,104 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 300%
   * Wall: 60%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3.250s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 3
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_r_med
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_r_med
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: EmpireJohhar
+  * Upgrade shard uid: shrd_troopEmpireJohhar
+  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs_
 
-  * audioPlacement: "sfx_placement_foren_1":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_erk
-  * gunPosition: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
-  * infoUIType: 
-  * bundleName: forenbrand_neu-ani
-  * deathAnimation: 
-  * favoriteTargetType: infantry
-  * eventButtonData: planet6
-  * audioDeath: "sfx_death_foren_1":100
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_ERK
-  * upgradeShardUid: shrd_troopEmpireJohhar
-  * iconCameraPosition: 4.91,10.98,19.43
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 2.21,4.06,9.34
-  * hologramUid: HeroHologramJohharKessen
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0,2.54,-0.89
-  * assetName: forenbrand_neu-ani
-  * unlockedByEvent: true
-  * iconLookatPosition: 0.02,1.59,-0.01
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|---------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|Ability  |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
+|Hero data|hero1                |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 
-|Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|------------------|-----|--|--|--|--|--|--|--|--|--|
-|iconUnlockRotation|0,0,0|  |  |  |  |  |  |  |  |  |
-|iconUnlockScale   |1,1,1|  |  |  |  |  |  |  |  |  |
-|iconUnlockPosition|0,0,0|  |  |  |  |  |  |  |  |  |
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_r_med
-  * decalAssetName: tac_hero_emp
-  * strictCoolDown: false
-  * decalBundleName: tac_hero_emp
-  * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
+  * Asset name: forenbrand_neu-ani
+  * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * Audio death: "sfx_death_foren_1":100
+  * Audio placement: "sfx_placement_foren_1":100
+  * Bundle name: forenbrand_neu-ani
+  * Decal asset name: tac_hero_emp
+  * Decal bundle name: tac_hero_emp
+  * Decal size: 160
+  * Event button action: planet
+  * Event button data: planet6
+  * Event button string: hn_open_erk
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
+  * Hologram uid: HeroHologramJohharKessen
+  * Icon camera position: 4.91,10.98,19.43
+  * Icon closeup camera position: 2.21,4.06,9.34
+  * Icon closeup lookat position: 0,2.54,-0.89
+  * Icon lookat position: 0.02,1.59,-0.01
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-|Level     |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|----------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|pointValue|20.000               |24.000               |28.000               |32.000               |36.000               |40.000               |44.000               |48.000               |52.000               |60.000                |
-|order     |111101               |111102               |111103               |111104               |111105               |111106               |111107               |111108               |111109               |111110                |
-|ability   |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
+|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: infantry
+  * Arcs: No
+  * Bullet: fx_blaster_beam_r_med
+  * Hit spark: fx_blaster_hit_r_med
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_r_med
+  * Name: JohharEmpire
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2000.000|2400.000|2800.000|3200.000|3599.000|4000.000|4400.000|4800.000|5200.000|6000.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 2
+  * Auto spawn spreading scale: 2
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |111101|111102|111103|111104|111105|111106|111107|111108|111109|111110|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

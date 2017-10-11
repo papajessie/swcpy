@@ -3,97 +3,95 @@ title: Rancor (Rancor)
 category: unit
 ---
 
-# Rancor (Rancor) — version 1086
+# Rancor (Rancor) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: bruiserInfantry
   * Side: Independant units
   * Buildable unit: No
-  * Type: infantry
-  * Armor type: bruiserInfantry
   * Role: Bruiser
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 20
-  * Upgrade requirements: 14000$
-  * Upgrade time: 2h
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |16500 |39600 |46200 |52800 |59400 |66000 |72600 |79200 |85800 |99000 |
-|Damage per shot|1200  |2880  |3360  |3840  |4320  |4800  |5280  |5760  |6240  |7200  |
-|Damage*        |1066.0|2560.0|2986.0|3413.0|3840.0|4266.0|4693.0|5120.0|5546.0|6400.0|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|16500|39600|46200|52800|59400|66000|72600|79200|85800|99000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
+### Training stats
 
-## Targeting
-
-  * Target preferences: **Turret (55)**, Heavy infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
-  * Targeted type: ENEMIES
-  * View Range: 16
-  * Target preferences strength: 90
-  * Retargeting offset: 8
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
-
-  * Training cost: 3250$
   * Training time: 3m50s
+  * Training cost: 3250$
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 2x2
-  * Flying unit: No
+  * Upgrade time: 2h
+  * Upgrade requirements: 14000$
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 1
+  * Rotation speed: 3.927
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 2x2
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Rancor Blaster
+## Main attack : Rancor Blaster
 
-### Basic info
+### Targeting
 
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 4
+  * Min attack range: 0
+  * New rotation speed: 2000.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (55)**, Ressource generator (50), Other building (50), Infantry (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Storage (50), Light vehicle (50), Shield generator (50), Shield (50), Headquarters (40), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * View range: 16
+
+### Shooting
+
   * Time between start of clip and first shot: 500ms
-  * Time between shots: 270ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1.910s
-  * Salvos per clip: 2
-  * Max. Range: 4
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |1200  |2880  |3360  |3840  |4320  |4800  |5280  |5760  |6240  |7200  |
-|Calculated damage per second|895   |2149  |2507  |2865  |3223  |3582  |3940  |4298  |4656  |5373  |
-|Damage*                     |1066.0|2560.0|2986.0|3413.0|3840.0|4266.0|4693.0|5120.0|5546.0|6400.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 2,1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 2.680s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 2
-  * Cannons shot per gun sequence: 2
+  * Impact delay: 0s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 31m50s
+  * Retargeting offset: 8
+  * Self-centered targeting: No
+  * Shot count: 2
+  * Time between shots: 270ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1200|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100,25
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |1066.000|2560.000|2986.000|3413.000|3840.000|4266.000|4693.000|5120.000|5546.000|6400.000|
+|Calculated damage per second|895.522 |2149.254|2507.463|2865.672|3223.881|3582.090|3940.299|4298.507|4656.716|5373.134|
+
+  * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 25%
   * Other building: 100%
@@ -102,9 +100,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 100%
   * Heavy infantry hero: 75%
-  * Heavy vehicular hero: 25%
+  * Heavy vehicule hero: 25%
   * Infantry hero: 100%
-  * Vehicle hero: 50%
+  * Vehicule hero: 50%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -115,69 +113,81 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 50%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 2
+  * Cliptime: 2.680s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: Rancor
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
-  * audioImpact: 
-  * animationDelay: 960
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
-  * decalSize: 
-  * newRotationSpeed: 2000
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
-  * infoUIType: 
-  * bundleName: rancor_neu-ani
-  * deathAnimation: buffFireBurn:15
-  * favoriteTargetType: vehicles
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_creatures_rancor_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 38.76,41.86,47.24
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,4.30,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: rancor_neu-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.95,2.74,-1.82
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnSpreadingScale: 2
-  * impactDelay: 0
-  * autoSpawnRateScale: 2
-  * targetInRangeModifier: 1
+  * Asset name: rancor_neu-ani
+  * Audio attack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * Audio death: "sfx_death_creatures_rancor_1":100
+  * Audio placement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * Buff asset offset: 0.00,4.30,0.00
+  * Bundle name: rancor_neu-ani
+  * Death animation: buffFireBurn:15
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
+  * Icon camera position: 38.76,41.86,47.24
+  * Icon lookat position: -0.95,2.74,-1.82
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |332301|332302|332303|332304|332305|332306|332307|332308|332309|332310|
+### Attack presentation stats
 
+  * Animation delay: 960
+  * Favorite target type: vehicles
+  * Arcs: No
+  * Max scale: 100
+  * Muzzle flash: fx_melee_headbutt_lrg
+  * Name: Rancor Blaster
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|1066.000|2560.000|2986.000|3413.000|3840.000|4266.000|4693.000|5120.000|5546.000|6400.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 2
+  * Auto spawn spreading scale: 2
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |332301|332302|332303|332304|332305|332306|332307|332308|332309|332310|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

@@ -3,97 +3,94 @@ title: Tusken Chieftain (TuskenHero)
 category: unit
 ---
 
-# Tusken Chieftain (TuskenHero) — version 1086
+# Tusken Chieftain (TuskenHero) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Tusken Raiders
   * Buildable unit: Yes
-  * Type: infantry
-  * Armor type: infantry
   * Role: Striker
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Upgrade requirements: 4000000$
-  * Upgrade time: 4d
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: infantry
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|-----|-----|------|------|------|------|------|------|------|------|
-|Health         |10000|20000|22000 |24000 |27000 |30000 |33000 |36000 |39000 |45000 |
-|Damage per shot|543  |950  |1519  |1736  |1953  |2170  |2387  |2604  |2821  |3255  |
-|Damage*        |543.0|950.0|1519.0|1736.0|1953.0|2170.0|2387.0|2604.0|2821.0|3255.0|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|10000|20000|22000|24000|27000|30000|33000|36000|39000|45000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
+### Training stats
 
-## Targeting
-
-  * Target preferences: **Heavy infantry (100)**, _Flying infantry (95)_, _Droideka (95)_, _Support troop (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Other building (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), HQ (40), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 10
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
-
-  * Training cost: 95$
   * Training time: 30s
+  * Training cost: 95$
 
-## Movement
+### Upgrading stats
 
-  * Speed: 30
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 4d
+  * Upgrade requirements: 4000000$
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 30
   * Propensity to go around obstacles: 1
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : TuskenHero
+## Main attack : TuskenHero
 
-### Basic info
+### Targeting
 
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 5
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Flying infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Ressource generator (50), Other building (50), Storage (50), Shield generator (50), Shield (50), Headquarters (40), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 1s
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 0s
-  * Salvos per clip: 1
-  * Max. Range: 5
-  * Min. Range: 0
-
-|Level                       |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|-----|-----|------|------|------|------|------|------|------|------|
-|Damage per shot             |543  |950  |1519  |1736  |1953  |2170  |2387  |2604  |2821  |3255  |
-|Calculated damage per second|543  |950  |1519  |1736  |1953  |2170  |2387  |2604  |2821  |3255  |
-|Damage*                     |543.0|950.0|1519.0|1736.0|1953.0|2170.0|2387.0|2604.0|2821.0|3255.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 1s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 0s
+  * Retargeting offset: 10
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|---|---|----|----|----|----|----|----|----|----|
+|Damage per shot|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1      |2      |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |543.000|950.000|1519.000|1736.000|1953.000|2170.000|2387.000|2604.000|2821.000|3255.000|
+|Calculated damage per second|543.000|950.000|1519.000|1736.000|1953.000|2170.000|2387.000|2604.000|2821.000|3255.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
   * Other building: 100%
@@ -102,9 +99,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 100%
-  * Heavy vehicular hero: 100%
+  * Heavy vehicule hero: 100%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -115,73 +112,87 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 1s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_slugthrower_hit
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_slugthrower_muzzle
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Hero data: hero9
+  * Unit ID: TuskenHero
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioImpact: 
-  * animationDelay: 350
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: tuskenhero_tkn-ani
-  * deathAnimation: buffFireBurn:15
-  * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 6.91,15.66,23.15
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: tuskenhero_tkn-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.51,2,0.29
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * impactDelay: 1000
-  * projectilebullet: fx_slugthrower_projectile
-  * decalAssetName: tac_hero_neu
-  * strictCoolDown: false
-  * decalBundleName: tac_hero_neu
-  * autoSpawnSpreadingScale: 1
-  * uiDecalAssetName: HeroDecalNeutral
-  * targetInRangeModifier: 1
+  * Asset name: tuskenhero_tkn-ani
+  * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
+  * Audio death: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * Bundle name: tuskenhero_tkn-ani
+  * Death animation: buffFireBurn:15
+  * Decal asset name: tac_hero_neu
+  * Decal bundle name: tac_hero_neu
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "soldier_rbl_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
+  * Icon camera position: 6.91,15.66,23.15
+  * Icon lookat position: -0.51,2,0.29
+  * Targeted type: ENEMIES
+  * UI decal asset name: HeroDecalNeutral
+  * _Not found: Audio impact, Audio train, Buff asset offset, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
+### Attack presentation stats
 
+  * Animation delay: 350
+  * Favorite target type: infantry
+  * Arcs: No
+  * Bullet: fx_slugthrower_projectile
+  * Hit spark: fx_slugthrower_hit
+  * Max scale: 100
+  * Muzzle flash: fx_slugthrower_muzzle
+  * Name: TuskenHero
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1      |2      |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|543.000|950.000|1519.000|1736.000|1953.000|2170.000|2387.000|2604.000|2821.000|3255.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

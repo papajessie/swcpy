@@ -3,100 +3,98 @@ title: Tognath Marksman (RebelTognath)
 category: unit
 ---
 
-# Tognath Marksman (RebelTognath) — version 1086
+# Tognath Marksman (RebelTognath) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: mercenary
-  * Armor type: infantry
   * Role: Striker
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 7
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 0s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: mercenary
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |6160  |7390  |8620  |9860  |11090 |12320 |13550 |14780 |16020 |18480 |
-|Damage per shot|976   |1168  |1361  |1558  |1754  |1947  |2144  |2336  |2529  |2918  |
-|Damage*        |1200.0|1435.0|1675.0|1915.0|2160.0|2400.0|2640.0|2875.0|3115.0|3590.0|
+|Level |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
+|------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+|Health|6160|7390|8620|9860|11090|12320|13550|14780|16020|18480|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Support troop (60)_, _Infantry (60)_, Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: Yes
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|----------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|50 Con.                                 |85 Con.                               |115 Con.                              |145 Con.                              |175 Con.                              |205 Con.                              |235 Con.                              |265 Con.                              |295 Con.                              |325 Con.                               |
 |Training time|5m45s                                   |6m43s                                 |7m47s                                 |8m57s                                 |9m3s                                  |9m9s                                  |9m15s                                 |9m21s                                 |9m27s                                 |9m33s                                  |
+|Training cost|50 Con.                                 |85 Con.                               |115 Con.                              |145 Con.                              |175 Con.                              |205 Con.                              |235 Con.                              |265 Con.                              |295 Con.                              |325 Con.                               |
 |Building     |[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 0s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Tognath
+## Main attack : Tognath
 
-### Basic info
+### Targeting
 
-  * Shot count: 4
+  * Attack shield border: No
+  * Max attack range: 10
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Droideka (100)**, _Infantry (60)_, _Support troop (60)_, _Heavy infantry (60)_, _Flying infantry (60)_, Ressource generator (50), Headquarters (50), Other building (50), Heavy vehicle (50), Turret (50), Storage (50), Light vehicle (50), Shield generator (50), Shield (50), Flying vehicle (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1.500s
-  * Salvos per clip: 4
-  * Max. Range: 10
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |976   |1168  |1361  |1558  |1754  |1947  |2144  |2336  |2529  |2918  |
-|Calculated damage per second|1201  |1437  |1675  |1917  |2158  |2396  |2638  |2875  |3112  |3591  |
-|Damage*                     |1200.0|1435.0|1675.0|1915.0|2160.0|2400.0|2640.0|2875.0|3115.0|3590.0|
-
-### Secondary info
-
+  * Clip retargeting: Yes
   * Gun shooting sequence: 1
-  * Salvos per clip: 4
-  * Number of cannons: 0
-  * Clips period: 3.250s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 25m
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 4
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|---|----|----|----|----|----|----|----|----|----|
+|Damage per shot|976|1168|1361|1558|1754|1947|2144|2336|2529|2918|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |1200.000|1435.000|1675.000|1915.000|2160.000|2400.000|2640.000|2875.000|3115.000|3590.000|
+|Calculated damage per second|1201.231|1437.538|1675.077|1917.538|2158.769|2396.308|2638.769|2875.077|3112.615|3591.385|
+
+  * Headquarters: 100%
   * Heavy infantry: 250%
   * Heavy vehicle: 150%
   * Other building: 100%
@@ -105,9 +103,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 200%
   * Support troop: 300%
   * Heavy infantry hero: 250%
-  * Heavy vehicular hero: 150%
+  * Heavy vehicule hero: 150%
   * Infantry hero: 300%
-  * Vehicle hero: 200%
+  * Vehicule hero: 200%
   * Infantry: 300%
   * Ressource generator: 100%
   * Shield: 50%
@@ -118,73 +116,97 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 200%
   * Wall: 40%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3.250s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 4
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
-
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_galaxy
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: tognath_con-ani
-  * deathAnimation: 
-  * favoriteTargetType: champion
-  * eventButtonData: planet1 planet3 planet6 planet8 planet21 planet23
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
-  * unlockPlanet: 
-  * upgradeShardUid: shrd_troopRebelTognath
-  * iconCameraPosition: 9.66,10.8,15.86
-  * eventButtonAction: galaxy
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 5.7,5.61,10.18
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: -0.79,2.2,-1.16
-  * assetName: tognath_con-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.63,1.31,-0.68
-  * factoryScaleFactor: 1
-  * audioTrain: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
-
-|Level          |1          |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|---------------|-----------|--|--|--|--|--|--|--|--|--|
-|iconUnlockScale|1.2,1.2,1.2|  |  |  |  |  |  |  |  |  |
-
-## Uninterpreted stats
-
-  * strictCoolDown: false
-  * armingDelay: 0
-  * projectilestreams: no
-  * maxScale: false
-  * autoSpawnRateScale: 2
-  * autoSpawnSpreadingScale: 2
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_b_sm
-  * targetInRangeModifier: 1
+  * Unit ID: RebelTognath
+  * Upgrade shard uid: shrd_troopRebelTognath
+  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
 |Level  |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
 |-------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|order  |215701             |215702             |215703             |215704             |215705             |215706             |215707             |215708             |215709             |215710              |
-|ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
+|Ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
 
+### Presentation stats
+
+These are all sorts of user interface settings, that should not interfere with gameplay.
+
+  * Asset name: tognath_con-ani
+  * Audio attack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
+  * Audio death: "sfx_death_tognath_01":25,"sfx_death_tognath_02":25,"sfx_death_tognath_03":25,"sfx_death_tognath_04":25
+  * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * Audio train: "sfx_ui_unitcomplete_tognath_01":50,"sfx_ui_unitcomplete_tognath_02":50
+  * Bundle name: tognath_con-ani
+  * Event button action: galaxy
+  * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
+  * Event button string: hn_open_galaxy
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 9.66,10.8,15.86
+  * Icon closeup camera position: 5.7,5.61,10.18
+  * Icon closeup lookat position: -0.79,2.2,-1.16
+  * Icon lookat position: -0.63,1.31,-0.68
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+
+|Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Icon unlock scale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: champion
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_sm
+  * Hit spark: fx_blaster_hit_b_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_sm
+  * Name: Tognath
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|1200.000|1435.000|1675.000|1915.000|2160.000|2400.000|2640.000|2875.000|3115.000|3590.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 2
+  * Auto spawn spreading scale: 2
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+  * _Not found: Point value_
+
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----|------|------|------|------|------|------|------|------|------|------|
+|Order|215701|215702|215703|215704|215705|215706|215707|215708|215709|215710|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: No
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

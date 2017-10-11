@@ -3,99 +3,99 @@ title: UrUr (UrUr)
 category: unit
 ---
 
-# UrUr (UrUr) — version 1086
+# UrUr (UrUr) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Tusken Raiders
   * Buildable unit: No
-  * Type: hero
-  * Armor type: infantry
   * Role: Bruiser
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|3000$ |5000$ |10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-|Upgrade time        |0s    |1h    |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
-|Health              |24000 |36000 |42000 |48000 |54000 |60000  |66000  |72000  |78000   |90000   |
-|Damage per shot     |2000  |2400  |2800  |3200  |3600  |4000   |4400   |4800   |5200    |6000    |
-|Damage*             |2000.0|2400.0|2800.0|3200.0|3600.0|4000.0 |4400.0 |4800.0 |5200.0  |6000.0  |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|24000|36000|42000|48000|54000|60000|66000|72000|78000|90000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Heavy infantry (100)**, _Droideka (95)_, _Support troop (95)_, _Infantry (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _HQ (60)_, Other building (50), Shield (50), Storage (50), Shield generator (50), Ressource generator (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Flying infantry (0), Trap (0), Flying vehicle (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 4
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training cost|1000$|1400$|1800$|2200$|2600$|3000$|3400$|4000$|4200$|4600$|
 |Training time|3m30s|3m40s|3m50s|4m   |4m10s|4m20s|4m30s|4m40s|4m50s|5m   |
+|Training cost|1000$|1400$|1800$|2200$|2600$|3000$|3400$|4000$|4200$|4600$|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 30
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
+|Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 30
   * Propensity to go around obstacles: 1
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : Ur Ur Blaster
+## Main attack : Ur Ur Blaster
 
-### Basic info
+### Targeting
 
-  * Shot count: 3
+  * Attack shield border: No
+  * Max attack range: 2
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Turret (80)_, _Light vehicle (80)_, _Headquarters (60)_, Ressource generator (50), Other building (50), Shield generator (50), Storage (50), Shield (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 500ms
-  * Time between shots: 1.250s
-  * Time between last shot and reload: 0s
-  * Time between two clips: 0s
-  * Salvos per clip: 3
-  * Max. Range: 2
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |2000  |2400  |2800  |3200  |3600  |4000  |4400  |4800  |5200  |6000  |
-|Calculated damage per second|2000  |2400  |2800  |3200  |3600  |4000  |4400  |4800  |5200  |6000  |
-|Damage*                     |2000.0|2400.0|2800.0|3200.0|3600.0|4000.0|4400.0|4800.0|5200.0|6000.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 3
-  * Number of cannons: 0
-  * Clips period: 3s
-  * Projectile passes through shields: No
-  * Projectile deflectable: No
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 0s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 0s
+  * Retargeting offset: 4
+  * Self-centered targeting: No
+  * Shot count: 3
+  * Time between shots: 1.250s
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|2000|2400|2800|3200|3600|4000|4400|4800|5200|6000|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100,25
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2000.000|2400.000|2800.000|3200.000|3600.000|4000.000|4400.000|4800.000|5200.000|6000.000|
+|Calculated damage per second|2000.000|2400.000|2800.000|3200.000|3600.000|4000.000|4400.000|4800.000|5200.000|6000.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 25%
   * Other building: 100%
@@ -104,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 0%
   * Support troop: 100%
   * Heavy infantry hero: 75%
-  * Heavy vehicular hero: 25%
+  * Heavy vehicule hero: 25%
   * Infantry hero: 100%
-  * Vehicle hero: 50%
+  * Vehicule hero: 50%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -117,72 +117,86 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 50%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 3s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 3
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: 
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_melee_headbutt_lrg
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: UrUr
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * audioImpact: 
-  * animationDelay: 1000
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: 
-  * infoUIType: 
-  * bundleName: ururhero_tkn-ani
-  * deathAnimation: 
-  * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 9.94,10.08,22.52
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: ururhero_tkn-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.28,1.77,-0.31
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * impactDelay: 0
-  * autoSpawnRateScale: 1
-  * decalAssetName: tac_hero_neu
-  * strictCoolDown: false
-  * decalBundleName: tac_hero_neu
-  * autoSpawnSpreadingScale: 1
-  * uiDecalAssetName: HeroDecalNeutral
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|order     |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
+  * Asset name: ururhero_tkn-ani
+  * Audio attack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30
+  * Audio death: "sfx_death_tuskenraiders_raider_1":35,"sfx_death_tuskenraiders_raider_2":35,"sfx_death_tuskenraiders_raider_3":30
+  * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
+  * Bundle name: ururhero_tkn-ani
+  * Decal asset name: tac_hero_neu
+  * Decal bundle name: tac_hero_neu
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Icon camera position: 9.94,10.08,22.52
+  * Icon lookat position: -0.28,1.77,-0.31
+  * Targeted type: ENEMIES
+  * UI decal asset name: HeroDecalNeutral
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+### Attack presentation stats
+
+  * Animation delay: 1000
+  * Favorite target type: infantry
+  * Arcs: No
+  * Max scale: 100
+  * Muzzle flash: fx_melee_headbutt_lrg
+  * Name: Ur Ur Blaster
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2000.000|2400.000|2800.000|3200.000|3600.000|4000.000|4400.000|4800.000|5200.000|6000.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |310601|310602|310603|310604|310605|310606|310607|310608|310609|310610|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

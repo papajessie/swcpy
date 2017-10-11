@@ -3,100 +3,99 @@ title: T2-B Repulsor Tank (T2BTank)
 category: unit
 ---
 
-# T2-B Repulsor Tank (T2BTank) — version 1086
+# T2-B Repulsor Tank (T2BTank) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: vehicle
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: vehicle
-  * Armor type: vehicle
   * Role: Generic
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 7
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: vehicle
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|700$ |3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
-|Upgrade time        |0s   |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
-|Health              |15120|15990|16910|17890 |18930 |20040  |21230  |22490  |23830   |25260   |
-|Damage per shot     |450  |490  |540  |590   |640   |700    |770    |850    |940     |1030    |
-|Damage*             |630.0|690.0|760.0|830.0 |900.0 |980.0  |1260.0 |1390.0 |1530.0  |1680.0  |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|15120|15990|16910|17890|18930|20040|21230|22490|23830|25260|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Heavy infantry (50)**, **Flying infantry (50)**, **Droideka (50)**, **Support troop (50)**, **Infantry (50)**, **Other building (50)**, **HQ (50)**, **Shield (50)**, **Heavy vehicle (50)**, **Storage (50)**, **Shield generator (50)**, **Light vehicle (50)**, **Turret (50)**, **Ressource generator (50)**, **Flying vehicle (50)**, Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 16
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|770$                          |800$                                  |830$                                  |870$                                  |910$                                  |1050$                                 |1190$                                 |1400$                                 |1470$                                 |1610$                                  |
 |Training time|3m12s                         |3m13s                                 |3m15s                                 |3m17s                                 |3m19s                                 |3m22s                                 |3m25s                                 |3m28s                                 |3m32s                                 |3m36s                                  |
+|Training cost|770$                          |800$                                  |830$                                  |870$                                  |910$                                  |1050$                                 |1190$                                 |1400$                                 |1470$                                 |1610$                                  |
 |Building     |[Factory 2](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 20
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 2x3
-  * Flying unit: No
+|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s  |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
+|Upgrade requirements|700$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 20
   * Propensity to go around obstacles: 15
+  * Rotation speed: 3.927
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 2x3
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : T2BTank
+## Main attack : T2BTank
 
-### Basic info
+### Targeting
 
-  * Shot count: 4
+  * Attack shield border: No
+  * Max attack range: 8
+  * Min attack range: 0
+  * New rotation speed: 3927.000
+  * Target preference strength: 90
+  * Target preferences: **Ressource generator (50)**, **Headquarters (50)**, **Other building (50)**, **Infantry (50)**, **Shield generator (50)**, **Support troop (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Droideka (50)**, **Turret (50)**, **Flying infantry (50)**, **Storage (50)**, **Light vehicle (50)**, **Shield (50)**, **Flying vehicle (50)**, Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 200ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 2s
-  * Salvos per clip: 2
-  * Max. Range: 8
-  * Min. Range: 0
-
-|Level                       |1    |2    |3    |4    |5    |6    |7     |8     |9     |10    |
-|----------------------------|-----|-----|-----|-----|-----|-----|------|------|------|------|
-|Damage per shot             |450  |490  |540  |590  |640  |700  |770   |850   |940   |1030  |
-|Calculated damage per second|734  |800  |881  |963  |1044 |1142 |1257  |1387  |1534  |1681  |
-|Damage*                     |630.0|690.0|760.0|830.0|900.0|980.0|1260.0|1390.0|1530.0|1680.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1,1,2,2
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 2.450s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 2
-  * Cannons shot per gun sequence: 4
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 33m20s
+  * Retargeting offset: 16
+  * Self-centered targeting: No
+  * Shot count: 4
+  * Time between shots: 200ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
+|---------------|---|---|---|---|---|---|---|---|---|----|
+|Damage per shot|450|490|540|590|640|700|770|850|940|1030|
 
-  * HQ: 100%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1      |2      |3      |4      |5       |6       |7       |8       |9       |10      |
+|----------------------------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |630.000|690.000|760.000|830.000|900.000 |980.000 |1260.000|1390.000|1530.000|1680.000|
+|Calculated damage per second|734.694|800.000|881.633|963.265|1044.898|1142.857|1257.143|1387.755|1534.694|1681.633|
+
+  * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
   * Other building: 100%
@@ -105,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 100%
-  * Heavy vehicular hero: 100%
+  * Heavy vehicule hero: 100%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,70 +117,82 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 4
+  * Cliptime: 2.450s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_lrg
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_lrg
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: T2BTank
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
-  * audioImpact: 
-  * animationDelay: 100
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
-  * decalSize: 
-  * newRotationSpeed: 3927
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
-  * infoUIType: 
-  * bundleName: t2btank_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: closest
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 22.79,25.75,28.69
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,0.51,0
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: t2btank_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.25,0.58,-0.36
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 3
-  * autoSpawnSpreadingScale: 3
-  * impactDelay: 1000
-  * projectilebullet: fx_blaster_beam_b_lrg
-  * targetInRangeModifier: 1
+  * Asset name: t2btank_rbl-ani
+  * Audio attack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * Audio death: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
+  * Audio placement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
+  * Buff asset offset: 0.00,0.51,0
+  * Bundle name: t2btank_rbl-ani
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun1":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun2":1,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun3":2,"t2btank_rbl_rig_MASTER_MOVER/t2btank_rbl_rig_locator_gun4":2
+  * Icon camera position: 22.79,25.75,28.69
+  * Icon lookat position: -0.25,0.58,-0.36
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|order     |230201|230202|230203|230204|230205|230206|230207|230208|230209|230210|
-|pointValue|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+### Attack presentation stats
 
+  * Animation delay: 100
+  * Favorite target type: closest
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_lrg
+  * Hit spark: fx_blaster_hit_b_lrg
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_lrg
+  * Name: T2BTank
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1      |2      |3      |4      |5      |6      |7       |8       |9       |10      |
+|---------------------------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|
+|Displayed damage per second|630.000|690.000|760.000|830.000|900.000|980.000|1260.000|1390.000|1530.000|1680.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 3
+  * Auto spawn spreading scale: 3
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |230201|230202|230203|230204|230205|230206|230207|230208|230209|230210|
+|Point value|7.000 |8.400 |9.800 |11.200|12.600|14.000|15.400|16.800|18.200|21.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

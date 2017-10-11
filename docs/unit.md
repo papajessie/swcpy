@@ -1,11 +1,11 @@
 ---
 title: Index of units
 ---
-# Units — version 1086
-
-## Buildable units
+# Units — version 1090
 
 The site contains an [explanation of the unit stats](unitexplained.md).
+
+## Buildable units
 
 ### Empire
 
@@ -45,6 +45,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Sniper Trooper (Sniper)](Sniper.html)
   * [Stormtrooper (Storm)](Storm.html)
   * [Repair Droid (Technician)](Technician.html)
+  * [Imperial Starfighter Pilot (TiePilot)](TiePilot.html)
 
 ### Other units
 
@@ -88,11 +89,11 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [WED Treadwell Repair Droid (Treadwell)](Treadwell.html)
   * [Rebel Vanguard (Vanguard)](Vanguard.html)
   * [Wookiee Warrior (Wookie)](Wookie.html)
+  * [Alliance Starfighter Pilot (XWingPilot)](XWingPilot.html)
 
 ### Independant units
 
   * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
-  * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
   * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
   * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Han Solo (FUETroopHeroHanSolo)](FUETroopHeroHanSolo.html)
@@ -130,8 +131,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ## Other units
 
-The site contains an [explanation of the unit stats](unitexplained.md).
-
 ### Empire
 
   * [Droideka Sentinal (ChampionEmpireDroidekaSample)](ChampionEmpireDroidekaSample.html)
@@ -148,6 +147,10 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [trp_title_HeavyStormDropshipTrap (no text translation) (HeavyStormDropshipTrap)](HeavyStormDropshipTrap.html)
   * [Heavy Shoretrooper (PentagonHeavyTrooper)](PentagonHeavyTrooper.html)
   * [Shoretrooper (PentagonTrooper)](PentagonTrooper.html)
+  * [trp_title_PhantomNavalStrike (no text translation) (PhantomNavalStrike)](PhantomNavalStrike.html)
+  * [trp_title_PhantomTieBomber (no text translation) (PhantomTieBomber)](PhantomTieBomber.html)
+  * [trp_title_PhantomTieFighter (no text translation) (PhantomTieFighter)](PhantomTieFighter.html)
+  * [Rodian Recon Sniper (RodianSample)](RodianSample.html)
   * [Sandtrooper (Sandtrooper)](Sandtrooper.html)
   * [Seized AAT-1 Hover Tank (SeizedAAT1)](SeizedAAT1.html)
   * [Seized AT-TE Walker (SeizedATTE)](SeizedATTE.html)
@@ -173,6 +176,9 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Oto Vans (HeroSoldier)](HeroSoldier.html)
   * [trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero)](JuggernautFakeHero.html)
   * [Rebel Commando (PentagonSoldier)](PentagonSoldier.html)
+  * [trp_title_PhantomMilleniumFalcon (no text translation) (PhantomMilleniumFalcon)](PhantomMilleniumFalcon.html)
+  * [trp_title_PhantomXWing (no text translation) (PhantomXWing)](PhantomXWing.html)
+  * [trp_title_PhantomYWing (no text translation) (PhantomYWing)](PhantomYWing.html)
   * [Heavy Undead Trooper (RebelHeavyStormDeath)](RebelHeavyStormDeath.html)
   * [Stolen TX-225 (RebelHovertankSample)](RebelHovertankSample.html)
   * [Hunter Rancor (RebelHunterRancor)](RebelHunterRancor.html)
@@ -189,10 +195,12 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Stolen AT-ST Walker (StolenATST)](StolenATST.html)
   * [Stolen Mobile Heavy Cannon (StolenMHC)](StolenMHC.html)
   * [Stolen Repair Droid (StolenTechnician)](StolenTechnician.html)
+  * [Sullustan Recon Sharpshooter (SullustanSample)](SullustanSample.html)
   * [Rancor (promoRancorRebel)](promoRancorRebel.html)
 
 ### Independant units
 
+  * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)

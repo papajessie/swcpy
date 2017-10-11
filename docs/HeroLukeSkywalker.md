@@ -3,100 +3,100 @@ title: Luke Skywalker (HeroLukeSkywalker)
 category: unit
 ---
 
-# Luke Skywalker (HeroLukeSkywalker) — version 1086
+# Luke Skywalker (HeroLukeSkywalker) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: infantry
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: hero
-  * Armor type: infantry
   * Role: Destroyer
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 1
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: hero
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1      |2     |3      |4      |5      |6      |7       |8       |9       |10      |
-|--------------------|-------|------|-------|-------|-------|-------|--------|--------|--------|--------|
-|Upgrade requirements|Nothing|75000$|150000$|300000$|600000$|900000$|1050000$|1200000$|3200000$|4800000$|
-|Upgrade time        |1h     |1h    |5h     |21h    |2d     |4d     |6d      |1w2d    |1w5d    |2w      |
-|Health              |18000  |21600 |25200  |28800  |32400  |36000  |39600   |43200   |46800   |54000   |
-|Damage per shot     |1500   |1800  |2100   |2400   |2700   |3000   |3300    |3600    |3900    |4500    |
-|Damage*             |2400.0 |2880.0|3360.0 |3840.0 |4320.0 |4800.0 |5280.0  |5760.0  |6240.0  |7200.0  |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|18000|21600|25200|28800|32400|36000|39600|43200|46800|54000|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Turret (80)**, Heavy infantry (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), HQ (50), Shield (50), Heavy vehicle (50), Storage (50), Shield generator (50), Light vehicle (50), Ressource generator (50), Flying vehicle (50), Infantry hero (1), Vehicle hero (1), Heavy vehicular hero (1), Heavy infantry hero (1), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 14
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|1500$                                      |2100$                                 |2700$                                 |3300$                                 |3900$                                 |4500$                                 |5100$                                 |5700$                                 |6300$                                 |6900$                                  |
 |Training time|7m                                         |7m20s                                 |7m40s                                 |8m                                    |8m20s                                 |8m40s                                 |9m                                    |9m20s                                 |9m40s                                 |10m                                    |
+|Training cost|1500$                                      |2100$                                 |2700$                                 |3300$                                 |3900$                                 |4500$                                 |5100$                                 |5700$                                 |6300$                                 |6900$                                  |
 |Building     |[Hero Command 8](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 30
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+|Level               |1      |2     |3      |4      |5      |6      |7       |8       |9       |10      |
+|--------------------|-------|------|-------|-------|-------|-------|--------|--------|--------|--------|
+|Upgrade time        |1h     |1h    |5h     |21h    |2d     |4d     |6d      |1w2d    |1w5d    |2w      |
+|Upgrade requirements|Nothing|75000$|150000$|300000$|600000$|900000$|1050000$|1200000$|3200000$|4800000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 30
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 1x1
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : HERO Luke Attack
+## Main attack : HERO Luke Attack
 
-### Basic info
+### Targeting
 
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 7
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Turret (80)**, Ressource generator (50), Headquarters (50), Other building (50), Infantry (50), Shield generator (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Flying infantry (50), Storage (50), Light vehicle (50), Shield (50), Flying vehicle (50), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 500ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 500ms
-  * Salvos per clip: 2
-  * Max. Range: 7
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |1500  |1800  |2100  |2400  |2700  |3000  |3300  |3600  |3900  |4500  |
-|Calculated damage per second|2400  |2880  |3360  |3840  |4320  |4800  |5280  |5760  |6240  |7200  |
-|Damage*                     |2400.0|2880.0|3360.0|3840.0|4320.0|4800.0|5280.0|5760.0|6240.0|7200.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 1.250s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 25
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 250ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 8m20s
+  * Retargeting offset: 14
+  * Self-centered targeting: No
+  * Shot count: 2
+  * Time between shots: 500ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1500|1800|2100|2400|2700|3000|3300|3600|3900|4500|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 0
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
+|Calculated damage per second|2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 60%
   * Heavy vehicle: 100%
   * Other building: 75%
@@ -105,9 +105,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 60%
-  * Heavy vehicular hero: 60%
+  * Heavy vehicule hero: 60%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 85%
   * Shield: 200%
@@ -118,75 +118,97 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 75%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 1.250s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 25
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_sm
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_sm
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Ability: abilityHeroLukeDefend
+  * Unit ID: HeroLukeSkywalker
+  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_hero_luke":100
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
-  * decalSize: 160
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: lukeskywalker_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: turret
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_hero_luke":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 9.95,9.78,16.61
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 
-  * iconCloseupCameraPosition: 0.34,1.87,9.02
-  * hologramUid: HeroHologramLukeSkywalker
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 0.02,2.48,-0.32
-  * assetName: lukeskywalker_rbl-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.45,1.28,-0.62
-  * factoryScaleFactor: 1
-  * audioTrain: 
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
-## Uninterpreted stats
+### Presentation stats
 
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * impactDelay: 250
-  * projectilebullet: fx_blaster_beam_b_sm
-  * decalAssetName: tac_hero_rbl
-  * strictCoolDown: false
-  * spawnEffectUid: effectRebelSpawn
-  * ability: abilityHeroLukeDefend
-  * decalBundleName: tac_hero_rbl
-  * autoSpawnSpreadingScale: 0
-  * targetInRangeModifier: 1
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
-|effectType|2     |2     |1     |1     |1     |1     |1     |1     |1     |1     |
-|order     |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
+  * Asset name: lukeskywalker_rbl-ani
+  * Audio attack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
+  * Audio death: "sfx_death_hero_luke":100
+  * Audio placement: "sfx_placement_hero_luke":100
+  * Bundle name: lukeskywalker_rbl-ani
+  * Decal asset name: tac_hero_rbl
+  * Decal bundle name: tac_hero_rbl
+  * Decal size: 160
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "lukeskywalker_rbl_rig_MASTER_MOVER/lukeskywalker_rbl_rig_locator_gun":1
+  * Hologram uid: HeroHologramLukeSkywalker
+  * Icon camera position: 9.95,9.78,16.61
+  * Icon closeup camera position: 0.34,1.87,9.02
+  * Icon closeup lookat position: 0.02,2.48,-0.32
+  * Icon lookat position: -0.45,1.28,-0.62
+  * Spawn effect uid: effectRebelSpawn
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
+|Level      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|-----------|--|--|--|--|--|--|--|--|--|--|
+|Effect type|2 |2 |1 |1 |1 |1 |1 |1 |1 |1 |
+
+### Attack presentation stats
+
+  * Animation delay: 0
+  * Favorite target type: turret
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_sm
+  * Hit spark: fx_blaster_hit_b_sm
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_sm
+  * Name: HERO Luke Attack
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 0
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
+|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

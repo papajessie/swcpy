@@ -3,100 +3,97 @@ title: AT-RT Walker (ATRT)
 category: unit
 ---
 
-# AT-RT Walker (ATRT) — version 1086
+# AT-RT Walker (ATRT) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: vehicle
   * Side: Rebellion
   * Buildable unit: Yes
-  * Type: vehicle
-  * Armor type: vehicle
   * Role: Looter
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 5
-  * Upgrade requirements: 32 data fragments
-  * Upgrade time: 5s
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: vehicle
+  * Unlock planet: Unlock on Hoth
+  * _Not found: Can be given, Shield asset name_
 
-|Level          |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------|------|------|------|------|------|------|------|------|------|------|
-|Health         |19200 |19800 |20480 |21040 |21850 |22610 |23720 |25290 |26920 |28820 |
-|Damage per shot|2184  |2280  |2380  |2490  |2610  |2730  |2860  |3000  |3140  |3290  |
-|Damage*        |2184.0|2280.0|2380.0|2490.0|2610.0|2730.0|2860.0|3000.0|3140.0|3290.0|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|19200|19800|20480|21040|21850|22610|23720|25290|26920|28820|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Storage (80)**, **Ressource generator (80)**, Heavy infantry (50), Infantry hero (50), Flying infantry (50), Droideka (50), Support troop (50), Infantry (50), Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Heavy infantry hero (50), Shield generator (50), Light vehicle (50), Turret (50), Flying vehicle (50), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 20
-  * Clip retargeting: No
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training cost|400$                          |560$                                  |720$                                  |880$                                  |1040$                                 |1200$                                 |1360$                                 |1600$                                 |1680$                                 |1840$                                  |
 |Training time|2m40s                         |2m56s                                 |3m4s                                  |3m12s                                 |3m20s                                 |3m28s                                 |3m36s                                 |3m44s                                 |3m52s                                 |4m                                     |
+|Training cost|400$                          |560$                                  |720$                                  |880$                                  |1040$                                 |1200$                                 |1360$                                 |1600$                                 |1680$                                 |1840$                                  |
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 30
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 1x1
-  * Flying unit: No
+  * Upgrade time: 5s
+  * Upgrade requirements: 32 data fragments
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 30
   * Propensity to go around obstacles: 15
+  * Rotation speed: 7.854
+  * Unit size on map: 1x1
+  * Support follow distance: 0
+  * _Not found: Ignores walls, Run speed, Run threshold_
 
-## Attack : ATRT
+## Main attack : ATRT
 
-### Basic info
+### Targeting
 
-  * Shot count: 1
+  * Attack shield border: No
+  * Max attack range: 10
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Ressource generator (80)**, **Storage (80)**, Headquarters (50), Flying infantry (50), Infantry hero (50), Support troop (50), Heavy vehicle (50), Heavy infantry (50), Droideka (50), Turret (50), Heavy vehicule hero (50), Other building (50), Light vehicle (50), Shield generator (50), Heavy infantry hero (50), Vehicule hero (50), Shield (50), Infantry (50), Flying vehicle (50), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 250ms
-  * Time between shots: 0s
-  * Time between last shot and reload: 0s
-  * Time between two clips: 800ms
-  * Salvos per clip: 1
-  * Max. Range: 10
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |2184  |2280  |2380  |2490  |2610  |2730  |2860  |3000  |3140  |3290  |
-|Calculated damage per second|2080  |2171  |2266  |2371  |2485  |2600  |2723  |2857  |2990  |3133  |
-|Damage*                     |2184.0|2280.0|2380.0|2490.0|2610.0|2730.0|2860.0|3000.0|3140.0|3290.0|
-
-### Secondary info
-
+  * Clip retargeting: No
   * Gun shooting sequence: 1
-  * Salvos per clip: 1
-  * Number of cannons: 0
-  * Clips period: 1.050s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 18
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 13m20s
+  * Retargeting offset: 20
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 0s
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 
-  * HQ: 50%
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2184.000|2280.000|2380.000|2490.000|2610.000|2730.000|2860.000|3000.000|3140.000|3290.000|
+|Calculated damage per second|2080.000|2171.429|2266.667|2371.429|2485.714|2600.000|2723.810|2857.143|2990.476|3133.333|
+
+  * Headquarters: 50%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
   * Other building: 50%
@@ -105,9 +102,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 75%
   * Support troop: 75%
   * Heavy infantry hero: 50%
-  * Heavy vehicular hero: 50%
+  * Heavy vehicule hero: 50%
   * Infantry hero: 75%
-  * Vehicle hero: 75%
+  * Vehicule hero: 75%
   * Infantry: 75%
   * Ressource generator: 400%
   * Shield: 50%
@@ -118,75 +115,95 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 75%
   * Wall: 50%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 1.050s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 18
+  * Pass through shield: No
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_hit_b_med
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_flash_b_med
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Ability: abilityATRTIonShot
+  * Unit ID: ATRT
+  * Upgrade shard uid: shrd_troopATRT
+  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: fragment_obtain_gen
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * decalSize: 
-  * newRotationSpeed: 7854
-  * tooltipHeightOffset: 
-  * eventButtonString: hn_open_hth
-  * gunPosition: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: atrt_rbl-ani
-  * deathAnimation: 
-  * favoriteTargetType: resource
-  * eventButtonData: planet21
-  * audioDeath: "sfx_death_walker_1":100
-  * unlockPlanet: FUTURE_EVENT_UNLOCK_HTH
-  * upgradeShardUid: shrd_troopATRT
-  * iconCameraPosition: 21.25,19.91,26.67
-  * eventButtonAction: planet
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,1.5,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 7.8539750000000001506350599811412394046783447265625
-  * iconCloseupLookatPosition: 
-  * assetName: atrt_rbl-ani
-  * unlockedByEvent: true
-  * iconLookatPosition: -0.49,1.92,-0.68
-  * factoryScaleFactor: 1
-  * audioTrain: 
+### Presentation stats
 
-|Level             |1    |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|------------------|-----|--|--|--|--|--|--|--|--|--|
-|iconUnlockRotation|0,0,0|  |  |  |  |  |  |  |  |  |
-|iconUnlockScale   |1,1,1|  |  |  |  |  |  |  |  |  |
-|iconUnlockPosition|0,0,0|  |  |  |  |  |  |  |  |  |
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-## Uninterpreted stats
+  * Asset name: atrt_rbl-ani
+  * Audio attack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * Audio death: "sfx_death_walker_1":100
+  * Audio placement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * Buff asset offset: 0.00,1.5,0.00
+  * Bundle name: atrt_rbl-ani
+  * Event button action: planet
+  * Event button data: planet21
+  * Event button string: hn_open_hth
+  * Event features string: fragment_obtain_gen
+  * Factory rotation: 0
+  * Factory scale factor: 1
+  * Gun position: "atrt_rbl_rig_MASTER_MOVER/atrt_rbl_rig_locator_gun":1
+  * Icon camera position: 21.25,19.91,26.67
+  * Icon lookat position: -0.49,1.92,-0.68
+  * Targeted type: ENEMIES
+  * Unlocked by event: true
+  * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-  * impactDelay: 1000
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 2
-  * armingDelay: 0
-  * projectilebullet: fx_blaster_beam_b_med
-  * strictCoolDown: false
-  * supportFollowDistance: 0
-  * ability: abilityATRTIonShot
-  * autoSpawnSpreadingScale: 2
-  * targetInRangeModifier: 1
+|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|pointValue|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
-|order     |231101|231102|231103|231104|231105|231106|231107|231108|231109|231110|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: resource
+  * Arcs: No
+  * Bullet: fx_blaster_beam_b_med
+  * Hit spark: fx_blaster_hit_b_med
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_med
+  * Name: ATRT
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|2184.000|2280.000|2380.000|2490.000|2610.000|2730.000|2860.000|3000.000|3140.000|3290.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 2
+  * Auto spawn spreading scale: 2
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |231101|231102|231103|231104|231105|231106|231107|231108|231109|231110|
+|Point value|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove

@@ -3,100 +3,100 @@ title: AT-DP (ATDP)
 category: unit
 ---
 
-# AT-DP (ATDP) — version 1086
+# AT-DP (ATDP) — version 1090
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ## Main stats
 
+### Unit stats
+
+  * Armor type: bruiserVehicle
   * Side: Empire
   * Buildable unit: Yes
-  * Type: vehicle
-  * Armor type: bruiserVehicle
   * Role: Striker
-  * Levels available: 1-10
+  * Shield cooldown: 0s
+  * Shield health: 0
+  * Shield range: 0
   * Unit capacity: 16
-  * Shield Health: 0
-  * Shield Cooldown: 0s
-  * Shield Range: 0
+  * Type: vehicle
+  * _Not found: Can be given, Shield asset name, Unlock planet_
 
-|Level               |1     |2     |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|------|------|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|600$  |1500$ |4000$ |12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
-|Upgrade time        |0s    |15m   |1h    |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Health              |61440 |62970 |64540 |66150 |67810 |69510  |71260  |73060  |74900   |76800   |
-|Damage per shot     |3460  |3540  |3630  |3720  |3810  |3910   |4010   |4110   |4210    |4320    |
-|Damage*             |3080.0|3150.0|3230.0|3310.0|3390.0|3480.0 |3560.0 |3650.0 |3740.0  |3840.0  |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|61440|62970|64540|66150|67810|69510|71260|73060|74900|76800|
 
-* These values are not necessarily accurate and may be inconsistent with other values
-
-## Targeting
-
-  * Target preferences: **Heavy infantry (60)**, **Infantry hero (60)**, **Flying infantry (60)**, **Droideka (60)**, **Support troop (60)**, **Infantry (60)**, **Heavy infantry hero (60)**, Other building (50), Vehicle hero (50), HQ (50), Shield (50), Heavy vehicle (50), Heavy vehicular hero (50), Storage (50), Shield generator (50), Light vehicle (50), Turret (50), Ressource generator (50), Flying vehicle (50), Wall (1), Trap (0)
-  * Targeted type: ENEMIES
-  * View Range: 8
-  * Target preferences strength: 90
-  * Retargeting offset: 16
-  * Clip retargeting: Yes
-  * Target shield border: No
-  * Can shoot over walls: No
-  * Self-centered targeting: No
-
-## Recruiting
+### Training stats
 
 |Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training cost|3520$                          |3540$                                  |3560$                                  |3580$                                  |3600$                                  |3620$                                  |3640$                                  |3660$                                  |3696$                                  |4048$                                   |
 |Training time|7m28s                          |7m29s                                  |7m30s                                  |7m32s                                  |7m34s                                  |7m36s                                  |7m38s                                  |7m40s                                  |7m44s                                  |8m                                      |
+|Training cost|3520$                          |3540$                                  |3560$                                  |3580$                                  |3600$                                  |3620$                                  |3640$                                  |3660$                                  |3696$                                  |4048$                                   |
 |Building     |[Factory 8](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
-## Movement
+### Upgrading stats
 
-  * Speed: 10
-  * Run speed: 0
-  * Run threshold: 0
-  * Size: 2x2
-  * Flying unit: No
+|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+### Move stats
+
   * Acceleration: 0
   * Crushes walls: No
-  * Target locking: No
+  * Flying unit: No
+  * Max speed: 10
   * Propensity to go around obstacles: 15
+  * Rotation speed: 3.927
+  * Run speed: 0
+  * Run threshold: 0
+  * Unit size on map: 2x2
+  * _Not found: Ignores walls, Support follow distance_
 
-## Attack : ATDP Blaster
+## Main attack : ATDP Blaster
 
-### Basic info
+### Targeting
 
-  * Shot count: 2
+  * Attack shield border: No
+  * Max attack range: 8
+  * Min attack range: 0
+  * New rotation speed: 3927.000
+  * Target preference strength: 90
+  * Target preferences: **Infantry (60)**, **Support troop (60)**, **Heavy infantry (60)**, **Droideka (60)**, **Infantry hero (60)**, **Flying infantry (60)**, **Heavy infantry hero (60)**, Ressource generator (50), Headquarters (50), Other building (50), Shield generator (50), Heavy vehicle (50), Turret (50), Heavy vehicule hero (50), Storage (50), Light vehicle (50), Vehicule hero (50), Shield (50), Flying vehicle (50), Wall (1), Trap (0)
+  * View range: 8
+
+### Shooting
+
   * Time between start of clip and first shot: 1s
-  * Time between shots: 250ms
-  * Time between last shot and reload: 0s
-  * Time between two clips: 1s
-  * Salvos per clip: 2
-  * Max. Range: 8
-  * Min. Range: 0
-
-|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|------|------|------|------|------|------|------|------|------|------|
-|Damage per shot             |3460  |3540  |3630  |3720  |3810  |3910  |4010  |4110  |4210  |4320  |
-|Calculated damage per second|3075  |3146  |3226  |3306  |3386  |3475  |3564  |3653  |3742  |3840  |
-|Damage*                     |3080.0|3150.0|3230.0|3310.0|3390.0|3480.0|3560.0|3650.0|3740.0|3840.0|
-
-### Secondary info
-
+  * Clip retargeting: Yes
   * Gun shooting sequence: 1
-  * Salvos per clip: 2
-  * Number of cannons: 0
-  * Clips period: 2.250s
-  * Projectile passes through shields: No
-  * Projectile deflectable: Yes
-  * Projectile speed: 25
-  * Projectile is directional: Yes
-  * Salvos per gun sequence: 1
-  * Cannons shot per gun sequence: 1
+  * Impact delay: 500ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 16m40s
+  * Retargeting offset: 16
+  * Self-centered targeting: No
+  * Shot count: 2
+  * Time between shots: 250ms
+  * Splash: 0
+  * Target locking: No
+  * _Not found: New target on reload_
 
-### Multipliers
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|3460|3540|3630|3720|3810|3910|4010|4110|4210|4320|
 
-  * HQ: 100%
+### Projectile
+
+  * Splash damage percentages: 100
+  * _Not found: Beam damage_
+
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |3080.000|3150.000|3230.000|3310.000|3390.000|3480.000|3560.000|3650.000|3740.000|3840.000|
+|Calculated damage per second|3075.556|3146.667|3226.667|3306.667|3386.667|3475.556|3564.444|3653.333|3742.222|3840.000|
+
+  * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 75%
   * Other building: 100%
@@ -105,9 +105,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying vehicle: 100%
   * Support troop: 100%
   * Heavy infantry hero: 75%
-  * Heavy vehicular hero: 75%
+  * Heavy vehicule hero: 75%
   * Infantry hero: 100%
-  * Vehicle hero: 100%
+  * Vehicule hero: 100%
   * Infantry: 100%
   * Ressource generator: 100%
   * Shield: 100%
@@ -118,70 +118,82 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Light vehicle: 100%
   * Wall: 100%
 
-### Presentation
+  * Cannons per sequence: 1
+  * Cliptime: 2.250s
+  * Directional: Yes
+  * Is deflectable: Yes
+  * Max speed: 25
+  * Pass through shield: No
+  * Salvos: 2
+  * _Not found: Length segments, Width segments_
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+## Other stats
 
-  * projectilearcs: false
-  * projectilemaxScale: 100
-  * projectilehitSpark: fx_blaster_beam_r_med
-  * projectilespinSpeed: 0
-  * projectilemuzzleFlash: fx_blaster_beam_r_med
+### Internal stats
 
-## Presentation stats
+These stats internal to the system link different parts of data together.
 
-These graphical elements shouldn't interfere with gameplay and can be safely ignored.
+  * Unit ID: ATDP
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-  * audioPlacement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
-  * audioImpact: 
-  * animationDelay: 0
-  * eventFeaturesString: 
-  * shieldAssetName: 
-  * audioAttack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
-  * decalSize: 
-  * newRotationSpeed: 3927
-  * tooltipHeightOffset: 
-  * eventButtonString: 
-  * gunPosition: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
-  * infoUIType: 
-  * bundleName: atdp_emp-ani
-  * deathAnimation: 
-  * favoriteTargetType: infantry
-  * eventButtonData: 
-  * iconUnlockRotation: 
-  * audioDeath: "sfx_death_walker_1":100
-  * unlockPlanet: 
-  * upgradeShardUid: 
-  * iconUnlockScale: 
-  * iconCameraPosition: 24.3,22.81,41.64
-  * eventButtonAction: 
-  * factoryRotation: 0
-  * buffAssetOffset: 0.00,1.89,0.00
-  * iconCloseupCameraPosition: 
-  * hologramUid: 
-  * rotationSpeed: 3.92698750000000007531752999057061970233917236328125
-  * iconCloseupLookatPosition: 
-  * assetName: atdp_emp-ani
-  * iconUnlockPosition: 
-  * unlockedByEvent: 
-  * iconLookatPosition: -0.85,2.34,-1.34
-  * factoryScaleFactor: 0.8689999999999999946709294817992486059665679931640625
-  * audioTrain: 
+### Presentation stats
 
-## Uninterpreted stats
+These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * strictCoolDown: false
-  * armingDelay: 0
-  * maxScale: false
-  * projectilestreams: no
-  * autoSpawnRateScale: 1
-  * autoSpawnSpreadingScale: 1
-  * impactDelay: 500
-  * projectilebullet: fx_blaster_beam_r_med
-  * targetInRangeModifier: 1
+  * Asset name: atdp_emp-ani
+  * Audio attack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * Audio death: "sfx_death_walker_1":100
+  * Audio placement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
+  * Buff asset offset: 0.00,1.89,0.00
+  * Bundle name: atdp_emp-ani
+  * Factory rotation: 0
+  * Factory scale factor: 0.8689999999999999946709294817992486059665679931640625
+  * Gun position: "atdp_emp_rig_MASTER_MOVER/atdp_emp_rig_locator_gun":1
+  * Icon camera position: 24.3,22.81,41.64
+  * Icon lookat position: -0.85,2.34,-1.34
+  * Targeted type: ENEMIES
+  * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level     |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------|------|------|------|------|------|------|------|------|------|------|
-|order     |130801|130802|130803|130804|130805|130806|130807|130808|130809|130810|
-|pointValue|16.000|19.200|22.400|25.600|28.800|32.000|35.200|38.400|41.600|48.000|
+### Attack presentation stats
 
+  * Animation delay: 0
+  * Favorite target type: infantry
+  * Arcs: No
+  * Bullet: fx_blaster_beam_r_med
+  * Hit spark: fx_blaster_beam_r_med
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_beam_r_med
+  * Name: ATDP Blaster
+  * Spin speed: 0
+  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
+|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|3080.000|3150.000|3230.000|3310.000|3390.000|3480.000|3560.000|3650.000|3740.000|3840.000|
+
+* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+
+### Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Auto spawn rate scale: 1
+  * Auto spawn spreading scale: 1
+  * Max scale: No
+  * Target in range modifier: 1
+  * Xp: 0
+
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |130801|130802|130803|130804|130805|130806|130807|130808|130809|130810|
+|Point value|16.000|19.200|22.400|25.600|28.800|32.000|35.200|38.400|41.600|48.000|
+
+### Uninterpreted attack stats
+
+  * Arming delay: 0
+  * Seeks target: Yes
+  * Streams: no
+  * Strict cool down: No
+  * _Not found: S1 time, S2 time_
+
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprefs, abilitystats, abilityonly, projectilemisc, abilitypresentation, abilitymove
