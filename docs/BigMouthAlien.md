@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 4
   * Type: mercenary
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 |Level |1    |2    |3    |4    |5    |
 |------|-----|-----|-----|-----|-----|
@@ -64,7 +64,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Storage (50)**, **Flying vehicle (50)**, **Heavy infantry (50)**, **Flying infantry (50)**, **Turret (50)**, **Other building (50)**, **Infantry (50)**, **Ressource generator (50)**, **Support troop (50)**, **Shield (50)**, **Headquarters (50)**, **Shield generator (50)**, **Droideka (50)**, Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -74,12 +74,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 8m20s
+  * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 5
   * Time between shots: 400ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -127,6 +126,79 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 5
   * _Not found: Length segments, Width segments_
 
+## Secondary attack : EMP Grenade
+
+  * Auto: Yes
+  * Cooldown on spawn: No
+  * Supplementary time between last shot and reload: 15s
+  * Description: Grenade
+  * Duration: 3.500s
+  * Recast ability: Yes
+  * Target self: No
+
+### Targeting
+
+  * Max attack range: 8
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 90
+  * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
+  * View range: 12
+  * _Not found: Attack shield border_
+
+### Shooting
+
+  * Time between start of clip and first shot: 0s
+  * Clip retargeting: No
+  * Damage per shot: 0
+  * Gun shooting sequence: 1
+  * Impact delay: 1s
+  * Can shoot over walls: Yes
+  * Time between end of clip and start of clip: 1s
+  * Retargeting offset: 12
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 790ms
+  * Target locking: No
+  * _Not found: New target on reload_
+
+### Projectile
+
+  * DPS: 0.000
+  * Splash damage percentages: 100,100,100
+  * _Not found: Beam damage_
+
+  * Headquarters: 100%
+  * Heavy infantry: 50%
+  * Heavy vehicle: 50%
+  * Other building: 100%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 100%
+  * Heavy infantry hero: 50%
+  * Heavy vehicule hero: 50%
+  * Infantry hero: 75%
+  * Vehicule hero: 75%
+  * Infantry: 75%
+  * Ressource generator: 50%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 50%
+  * Trap: 0%
+  * Turret: 100%
+  * Light vehicle: 75%
+  * Wall: 100%
+
+  * Cannons per sequence: 1
+  * Cliptime: 16s
+  * Directional: No
+  * Is deflectable: No
+  * Max speed: 6
+  * Pass through shield: Yes
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -137,9 +209,16 @@ These stats internal to the system link different parts of data together.
   * Upgrade shard uid: shrd_troopBigMouthAlien
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-|Level  |1                    |2                    |3                    |4                    |5                    |
-|-------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Ability|abilityBigMouthAlien1|abilityBigMouthAlien2|abilityBigMouthAlien3|abilityBigMouthAlien4|abilityBigMouthAlien5|
+|Level          |1                     |2                     |3                     |4                     |5                     |
+|---------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+|Ability        |abilityBigMouthAlien1 |abilityBigMouthAlien2 |abilityBigMouthAlien3 |abilityBigMouthAlien4 |abilityBigMouthAlien5 |
+|Projectile type|projectileMercGrenade1|projectileMercGrenade2|projectileMercGrenade3|projectileMercGrenade4|projectileMercGrenade5|
+
+Internal values for secondary attack:
+
+|Level      |1                    |2                    |3                    |4                    |5                    |
+|-----------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|Apply buffs|buffDefenseReduction1|buffDefenseReduction2|buffDefenseReduction3|buffDefenseReduction4|buffDefenseReduction5|
 
 ### Presentation stats
 
@@ -164,23 +243,27 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon unlock scale: 1.2,1.2,1.2
   * Targeted type: ENEMIES
   * Unlocked by event: true
-  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Displayed damage per second: 1920.000
-  * Favorite target type: closest
-  * Arcs: No
-  * Bullet: fx_blaster_beam_b_sm
-  * Hit spark: fx_blaster_hit_b_sm
-  * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_b_sm
-  * Name: Soldier
-  * Spin speed: 0
-  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+### Secondary attack presentation stats
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+  * Alt gun locators: 1
+  * Animation delay: 810
+  * Audio ability activate: "sfx_attack_bigmouth_ability_02":40,"sfx_attack_bigmouth_ability_03":30,"sfx_attack_bigmouth_ability_04":30
+  * Audio ability attack: "sfx_explosion_sonicgrenade_01":34,"sfx_explosion_sonicgrenade_02":33,"sfx_explosion_sonicgrenade_03":33
+  * Displayed damage per second: 75.000
+  * Favorite target type: generic
+  * Name: BigMouthAlienSpecial
+  * Persistent scaling: 0
+  * Arcs: Yes
+  * Bullet: fx_grenade_emp_projectile
+  * Hit spark: fx_grenade_sonic_hit_01
+  * Max scale: 300
+  * Name: EMP Grenade
+  * Spin speed: 0
+  * _Not found: Audio ability loop, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Persistent effect, Projectile length, S transition, Weapon trail FX params_
 
 ### Uninterpreted stats
 
@@ -190,6 +273,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn spreading scale: 1
   * Max scale: No
   * Point value: 4.000
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -205,4 +289,14 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+### Uninterpreted secondary attack stats
+
+  * Arming delay: 0
+  * Clip count: 1
+  * Kill cooldown reset: No
+  * Max speed: 20
+  * Strict cool down: Yes
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

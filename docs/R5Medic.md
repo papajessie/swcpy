@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 5
   * Type: infantry
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Heavy infantry (50)**, **Infantry (50)**, **Heavy infantry hero (50)**, **Infantry hero (50)**, Heavy vehicle (0), Light vehicle (0), Storage (0), Flying vehicle (0), Wall (0), Heavy vehicule hero (0), Flying infantry (0), Turret (0), Other building (0), Trap (0), Ressource generator (0), Support troop (0), Shield (0), Headquarters (0), Vehicule hero (0), Shield generator (0), Droideka (0)
+  * Target preferences: **Infantry (50)**, **Infantry hero (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, Wall (0), Light vehicle (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Vehicule hero (0), Heavy vehicule hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Headquarters (0)
   * View range: 8
 
 ### Shooting
@@ -73,12 +73,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 15m
+  * Time between end of clip and start of clip: 900ms
   * Retargeting offset: 10
   * Self-centered targeting: Yes
   * Shot count: 2
   * Time between shots: 400ms
-  * Splash: 0
   * Target locking: Yes
   * _Not found: New target on reload_
 
@@ -131,7 +130,7 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: R5Medic
   * Upgrade shard uid: shrd_troopR5Medic
-  * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+  * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs_
 
 |Level      |1           |2           |3           |4           |5           |6           |7           |8           |9           |10           |
 |-----------|------------|------------|------------|------------|------------|------------|------------|------------|------------|-------------|
@@ -158,7 +157,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Info UI type: Healer
   * Targeted type: ALLIES
   * Unlocked by event: true
-  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -181,8 +180,6 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|1550.000|1710.000|1810.000|1910.000|2010.000|2110.000|2210.000|2310.000|2490.000|2690.000|
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -190,6 +187,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -206,4 +204,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

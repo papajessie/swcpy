@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: infantry
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 ### Training stats
 
@@ -55,7 +55,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Trap (100)**, _Heavy infantry (99)_, _Flying infantry (95)_, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Turret (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, Storage (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Headquarters (40), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1)
+  * Target preferences: **Trap (100)**, _Heavy infantry (99)_, _Infantry (95)_, _Support troop (95)_, _Flying infantry (95)_, _Droideka (95)_, _Turret (90)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1)
   * View range: 8
 
 ### Shooting
@@ -66,12 +66,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 33m20s
+  * Time between end of clip and start of clip: 2s
   * Retargeting offset: 6
   * Self-centered targeting: No
   * Shot count: 1
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -120,7 +119,7 @@ These stats internal to the system link different parts of data together.
 
   * Hero data: hero9
   * Unit ID: troopAwesome
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 ### Presentation stats
 
@@ -141,7 +140,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.51,2,0.29
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
-  * _Not found: Audio impact, Audio train, Buff asset offset, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+  * _Not found: Audio impact, Audio train, Buff asset offset, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
 ### Attack presentation stats
 
@@ -157,8 +156,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -168,6 +165,7 @@ Seriously, we don't really know what to do with these.
   * Max scale: No
   * Order: 322601
   * Point value: 1.000
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -179,4 +177,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

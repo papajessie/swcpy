@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 7
   * Type: mercenary
-  * _Not found: Can be given, Shield asset name, Unlock planet_
+  * _Not found: Can be given, Unlock planet_
 
 |Level |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
 |------|----|----|----|----|-----|-----|-----|-----|-----|-----|
@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Droideka (100)**, _Heavy infantry (60)_, _Flying infantry (60)_, _Infantry (60)_, _Support troop (60)_, Heavy vehicle (50), Light vehicle (50), Storage (50), Flying vehicle (50), Turret (50), Other building (50), Ressource generator (50), Shield (50), Headquarters (50), Shield generator (50), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Trap (0)
+  * Target preferences: **Droideka (100)**, _Infantry (60)_, _Support troop (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -71,12 +71,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 25m
+  * Time between end of clip and start of clip: 1.500s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 4
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -125,6 +124,85 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 4
   * _Not found: Length segments, Width segments_
 
+## Secondary attack : Tognath Sniper Shot
+
+  * Auto: Yes
+  * Cooldown on spawn: No
+  * Supplementary time between last shot and reload: 20s
+  * Description: Enhanced Shot
+  * Duration: 1ms
+  * Recast ability: Yes
+  * Target self: No
+
+### Targeting
+
+  * Max attack range: 12
+  * Min attack range: 0
+  * New rotation speed: 7854.000
+  * Target preference strength: 50
+  * Target preferences: **Droideka (255)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
+  * View range: 8
+  * _Not found: Attack shield border_
+
+### Shooting
+
+  * Time between start of clip and first shot: 500ms
+  * Clip retargeting: No
+  * Gun shooting sequence: 1
+  * Impact delay: 1ms
+  * Can shoot over walls: No
+  * Time between end of clip and start of clip: 1s
+  * Retargeting offset: 12
+  * Self-centered targeting: No
+  * Shot count: 1
+  * Time between shots: 433ms
+  * Target locking: No
+  * _Not found: New target on reload_
+
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|3110|3360|3480|3610|3730|3980|4110|4230|4360|4600|
+
+### Projectile
+
+  * _Not found: Beam damage, Splash damage percentages_
+
+|Level|1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|DPS  |144.651|156.279|161.860|167.907|173.488|185.116|191.163|196.744|202.791|213.953|
+
+  * Headquarters: 10%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 30%
+  * Droideka: 300%
+  * Flying infantry: 75%
+  * Flying vehicle: 75%
+  * Support troop: 90%
+  * Heavy infantry hero: 100%
+  * Heavy vehicule hero: 75%
+  * Infantry hero: 100%
+  * Vehicule hero: 75%
+  * Infantry: 55%
+  * Ressource generator: 30%
+  * Shield: 0%
+  * Shield generator: 50%
+  * Storage: 30%
+  * Trap: 0%
+  * Turret: 40%
+  * Light vehicle: 40%
+  * Wall: 10%
+
+  * Cannons per sequence: 1
+  * Cliptime: 21.500s
+  * Directional: Yes
+  * Is deflectable: No
+  * Length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
+  * Max speed: 18
+  * Pass through shield: Yes
+  * Salvos: 1
+  * Width segments: 100,90,80
+
 ## Other stats
 
 ### Internal stats
@@ -135,9 +213,16 @@ These stats internal to the system link different parts of data together.
   * Upgrade shard uid: shrd_troopEmpireTognath
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-|Level  |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
-|-------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|Ability|abilityTognathShot1|abilityTognathShot2|abilityTognathShot3|abilityTognathShot4|abilityTognathShot5|abilityTognathShot6|abilityTognathShot7|abilityTognathShot8|abilityTognathShot9|abilityTognathShot10|
+|Level          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|---------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|Ability        |abilityTognathShot1   |abilityTognathShot2   |abilityTognathShot3   |abilityTognathShot4   |abilityTognathShot5   |abilityTognathShot6   |abilityTognathShot7   |abilityTognathShot8   |abilityTognathShot9   |abilityTognathShot10   |
+|Projectile type|projectileTognathRail1|projectileTognathRail2|projectileTognathRail3|projectileTognathRail4|projectileTognathRail5|projectileTognathRail6|projectileTognathRail7|projectileTognathRail8|projectileTognathRail9|projectileTognathRail10|
+
+Internal values for secondary attack:
+
+|Level      |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
+|-----------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
+|Apply buffs|buffTagonathRail1|buffTagonathRail2|buffTagonathRail3|buffTagonathRail4|buffTagonathRail5|buffTagonathRail6|buffTagonathRail7|buffTagonathRail8|buffTagonathRail9|buffTagonathRail10|
 
 ### Presentation stats
 
@@ -161,7 +246,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.63,1.31,-0.68
   * Targeted type: ENEMIES
   * Unlocked by event: true
-  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 |Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -169,22 +254,25 @@ These are all sorts of user interface settings, that should not interfere with g
 
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Favorite target type: champion
+### Secondary attack presentation stats
+
+  * Alt gun locators: 1
+  * Animation delay: 250
+  * Audio ability attack: "sfx_attack_tognath_ability_01":33,"sfx_attack_tognath_ability_02":33,"sfx_attack_tognath_ability_03":34
+  * Displayed damage per second: 1000.000
+  * Favorite target type: generic
+  * Name: TognathShot
+  * Persistent scaling: 0
   * Arcs: No
-  * Bullet: fx_blaster_beam_r_sm
-  * Hit spark: fx_blaster_hit_r_sm
+  * Bullet: fx_tognath_projectile
+  * Hit spark: fx_tognath_hit
   * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_r_sm
-  * Name: Tognath
+  * Muzzle flash: fx_sonicTurret_muzzle
+  * Muzzle flash fade time: 1.5
+  * Name: Tognath Sniper Shot
+  * Projectile length: 6
   * Spin speed: 0
-  * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
-
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|1200.000|1435.000|1675.000|1915.000|2160.000|2400.000|2640.000|2875.000|3115.000|3590.000|
-
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
+  * _Not found: Audio ability activate, Audio ability loop, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
 
 ### Uninterpreted stats
 
@@ -193,6 +281,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
   * _Not found: Point value_
@@ -209,4 +298,14 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+### Uninterpreted secondary attack stats
+
+  * Arming delay: 1
+  * Clip count: 1
+  * Kill cooldown reset: No
+  * Max speed: 20
+  * Strict cool down: Yes
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

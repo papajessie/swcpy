@@ -21,11 +21,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
 
-|Level            |1                              |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9                               |10                              |
-|-----------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Health           |23040                          |28416                           |32256                           |36096                           |39936                           |43776                           |46848                           |49920                           |52160                           |54400                           |
-|Shield asset name|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|
-|Shield health    |8640                           |10656                           |12096                           |13536                           |14976                           |16416                           |17568                           |18720                           |19920                           |21120                           |
+|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health       |23040|28416|32256|36096|39936|43776|46848|49920|52160|54400|
+|Shield health|8640 |10656|12096|13536|14976|16416|17568|18720|19920|21120|
 
 ### Training stats
 
@@ -63,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 90
-  * Target preferences: **Heavy vehicle (50)**, **Light vehicle (50)**, **Storage (50)**, **Heavy infantry (50)**, **Turret (50)**, **Other building (50)**, **Infantry (50)**, **Ressource generator (50)**, **Support troop (50)**, **Headquarters (50)**, **Droideka (50)**, Shield (5), Shield generator (5), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1), Flying vehicle (0), Flying infantry (0), Trap (0)
+  * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Shield generator (5), Shield (5), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 12
 
 ### Shooting
@@ -73,12 +72,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1,2
   * Impact delay: 0s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 16m40s
+  * Time between end of clip and start of clip: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
   * Time between shots: 750ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -134,7 +132,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionRebelHeavyDroidekaSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 ### Presentation stats
 
@@ -160,6 +158,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name         |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
 |Icon camera position|-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-9.81,16.18,23.56                                                                                             |-10.52,17.22,25.24                                                                                            |-10.52,17.22,25.24                                                                                            |-11.59,19.02,28.21                                                                                            |-11.59,19.02,28.21                                                                                            |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |-5.03,18.08,36.98                                                                                             |
 |Icon lookat position|0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.4,1.52,-0.26                                                                                                |0.4,1.52,-0.26                                                                                                |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |
+|Shield asset name   |effectRebelHeavyDroidekaShield1                                                                               |effectRebelHeavyDroidekaShield10                                                                              |effectRebelHeavyDroidekaShield10                                                                              |effectRebelHeavyDroidekaShield20                                                                              |effectRebelHeavyDroidekaShield20                                                                              |effectRebelHeavyDroidekaShield30                                                                              |effectRebelHeavyDroidekaShield30                                                                              |effectRebelHeavyDroidekaShield40                                                                              |effectRebelHeavyDroidekaShield40                                                                              |effectRebelHeavyDroidekaShield40                                                                              |
 
 ### Attack presentation stats
 
@@ -179,8 +178,6 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|
 |Displayed damage per second|7000.000|7500.000|8000.000|8500.000|9000.000|9500.000|10000.000|10500.000|11000.000|11500.000|
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +185,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 2
   * Auto spawn spreading scale: 2
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -205,4 +203,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult

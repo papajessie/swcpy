@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 3
   * Type: infantry
   * Unlock planet: Unlock on Tatooine
-  * _Not found: Can be given, Shield asset name_
+  * _Not found: Can be given_
 
 |Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854.000
   * Target preference strength: 100
-  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying vehicle (50), Flying infantry (50), Support troop (50), Storage (40), Heavy infantry (40), Turret (40), Other building (40), Infantry (40), Ressource generator (40), Shield (40), Headquarters (40), Shield generator (40), Droideka (40), Wall (1), Heavy vehicule hero (1), Heavy infantry hero (1), Infantry hero (1), Vehicule hero (1)
+  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Support troop (50), Flying vehicle (50), Flying infantry (50), Turret (40), Storage (40), Shield generator (40), Shield (40), Ressource generator (40), Infantry (40), Droideka (40), Other building (40), Heavy infantry (40), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1)
   * View range: 21
 
 ### Shooting
@@ -72,12 +72,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 50m
+  * Time between end of clip and start of clip: 3s
   * Retargeting offset: 18
   * Self-centered targeting: No
   * Shot count: 1
   * Time between shots: 500ms
-  * Splash: 0
   * Target locking: No
   * _Not found: New target on reload_
 
@@ -134,7 +133,7 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: Vanguard
   * Upgrade shard uid: shrd_troopVanguard
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs_
 
 ### Presentation stats
 
@@ -161,7 +160,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.03,1.71,0.04
   * Targeted type: ENEMIES
   * Unlocked by event: true
-  * _Not found: Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Info UI type, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+  * _Not found: Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -186,8 +185,6 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|2340.000|2532.000|2742.000|2970.000|3222.000|3492.000|3792.000|4122.000|4482.000|4872.000|
 
-* This is the damage per second displayed in-game, but may not be the same as the real damage per second.
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -195,6 +192,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
   * Max scale: No
+  * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
 
@@ -211,4 +209,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilitymove, abilityprefs, projectilemisc, abilitystats, abilityunknown, abilityonly, abilitypresentation
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult
