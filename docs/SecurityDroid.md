@@ -3,7 +3,7 @@ title: Security Droid (SecurityDroid)
 category: unit
 ---
 
-# Security Droid (SecurityDroid) — version 1090
+# Security Droid (SecurityDroid) — version 1092
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

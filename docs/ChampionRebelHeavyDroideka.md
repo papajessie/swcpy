@@ -3,7 +3,7 @@ title: Droideka Oppressor (ChampionRebelHeavyDroideka)
 category: unit
 ---
 
-# Droideka Oppressor (ChampionRebelHeavyDroideka) — version 1090
+# Droideka Oppressor (ChampionRebelHeavyDroideka) — version 1092
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -204,4 +204,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: Yes
 
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
