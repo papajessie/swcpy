@@ -3,7 +3,7 @@ title: Bonus Starfighter Unlock Crate (lc_rogue1v3_unitUnlock)
 category: crate
 ---
 
-# Bonus Starfighter Unlock Crate (lc_rogue1v3_unitUnlock) — version 1090
+# Bonus Starfighter Unlock Crate (lc_rogue1v3_unitUnlock) — version 1092
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 

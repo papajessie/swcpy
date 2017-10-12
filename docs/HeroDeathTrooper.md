@@ -3,7 +3,7 @@ title: Death Trooper (HeroDeathTrooper)
 category: unit
 ---
 
-# Death Trooper (HeroDeathTrooper) — version 1090
+# Death Trooper (HeroDeathTrooper) — version 1092
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -36,10 +36,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1                       |2                       |3                        |4                        |5                        |6                         |7                         |8                         |9                          |10                         |
-|--------------------|------------------------|------------------------|-------------------------|-------------------------|-------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
-|Upgrade time        |0s                      |1h                      |2h30m                    |7h                       |20h                      |2d12h                     |4d                        |6d                        |1w1d                       |1w5d                       |
-|Upgrade requirements|32 data fragments, 3000$|32 data fragments, 5000$|32 data fragments, 10000$|32 data fragments, 20000$|32 data fragments, 50000$|32 data fragments, 135000$|32 data fragments, 225000$|32 data fragments, 450000$|32 data fragments, 1500000$|32 data fragments, 2500000$|
+  * Upgrade time: 5s
+  * Upgrade requirements: 32 data fragments
 
 ### Move stats
 
@@ -213,4 +211,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult

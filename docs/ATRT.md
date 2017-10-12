@@ -3,7 +3,7 @@ title: AT-RT Walker (ATRT)
 category: unit
 ---
 
-# AT-RT Walker (ATRT) — version 1090
+# AT-RT Walker (ATRT) — version 1092
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

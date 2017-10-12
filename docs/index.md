@@ -2,7 +2,7 @@
 title: Main index page (index)
 category: crate
 ---
-# Main index page (index) — version 1090
+# Main index page (index) — version 1092
 
  * [Index of objects of type "crate"](crate.html)
  * [Index of objects of type "tournament"](tournament.html)

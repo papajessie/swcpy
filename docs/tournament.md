@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1090
+# Conflicts — version 1092
 
   * [Conflict on Dandoran (conflict_dan_20171022)](conflict_dan_20171022.html)
   * [Conflict on Takodana (conflict_tak_20171021)](conflict_tak_20171021.html)

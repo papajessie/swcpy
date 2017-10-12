@@ -3,7 +3,7 @@ title: Tusken Raider (Tusken)
 category: unit
 ---
 
-# Tusken Raider (Tusken) — version 1090
+# Tusken Raider (Tusken) — version 1092
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -192,4 +192,4 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
 
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectilemisc, abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
