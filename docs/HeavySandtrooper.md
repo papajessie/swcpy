@@ -190,4 +190,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityunknown, abilityprojectileunknown, abilityprojectilemult, abilityprojectilemisc
