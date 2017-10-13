@@ -409,4 +409,3 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * Strict cool down: Yes
-I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityprojectileunknown, abilityunknown, abilityprojectilemisc, abilityprojectilemult
