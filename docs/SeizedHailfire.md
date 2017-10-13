@@ -53,7 +53,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : projectileHailfire
 
 ### Targeting
@@ -65,7 +64,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Light vehicle (60)_, _Infantry (60)_, _Vehicule hero (60)_, _Infantry hero (60)_, _Heavy vehicule hero (60)_, _Heavy infantry hero (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -89,6 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,75,50
   * _Not found: Beam damage_
+
 
 |Level                       |1      |2      |3      |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
@@ -116,7 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 200%
   * Light vehicle: 300%
   * Wall: 80%
-
   * Cannons per sequence: 2
   * Cliptime: 3.500s
   * Directional: No
@@ -125,7 +123,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 6
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -134,7 +131,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SeizedHailfire
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -153,7 +149,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.49,1.9,-0.43
   * Targeted type: ENEMIES
   * _Not found: Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -194,5 +189,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

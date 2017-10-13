@@ -54,7 +54,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : Scout
 
 ### Targeting
@@ -93,6 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
+
 |Level                       |1      |2      |3      |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |190.000|210.000|220.000|240.000 |250.000 |270.000 |280.000 |310.000 |330.000 |360.000 |
@@ -119,7 +119,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 1.450s
   * Directional: Yes
@@ -128,7 +127,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -170,6 +168,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by tournament: No
   * _Not found: Audio impact, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name_
 
+
+
 |Level               |1             |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Icon unlock position|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
@@ -204,6 +204,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |314900|314901|314902|314903|314904|314905|314906|314907|314908|314909|
@@ -216,5 +217,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

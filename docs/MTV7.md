@@ -39,7 +39,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
-
 ### Move stats
 
   * Acceleration: 0
@@ -52,7 +51,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x2
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : MTV7
 
 ### Targeting
@@ -64,7 +62,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -87,6 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -114,7 +112,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 1.050s
   * Directional: Yes
@@ -123,7 +120,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
-
 ## Secondary attack : MTV7_Ion
 
   * Auto: Yes
@@ -133,7 +129,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 5s
   * Recast ability: No
   * Target self: No
-
 ### Targeting
 
   * Max attack range: 20
@@ -143,7 +138,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Turret (100)**, Wall (0), Light vehicle (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Vehicule hero (0), Infantry hero (0), Heavy vehicule hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Heavy infantry (0), Headquarters (0)
   * View range: 20
   * _Not found: Attack shield border_
-
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -159,12 +153,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 790ms
   * Target locking: No
   * _Not found: New target on reload_
-
 ### Projectile
 
   * DPS: 0.000
   * _Not found: Beam damage, Splash damage percentages_
-
   * Headquarters: 50%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
@@ -186,7 +178,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 400%
   * Light vehicle: 75%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 2m11.300s
   * Directional: Yes
@@ -195,7 +186,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -207,11 +197,9 @@ These stats internal to the system link different parts of data together.
   * Unit ID: MTV7
   * Upgrade shard uid: shrd_troopMTV7
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
-
 Internal values for secondary attack:
 
   * Apply buffs: buffTurretDamageDebuff1
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -234,6 +222,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+
+
 
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -262,7 +252,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: MTV7_Ion
   * Spin speed: 0
   * _Not found: Audio ability loop, Ground bullet, Muzzle flash fade time, Persistent effect, Projectile length, S transition, Weapon trail FX params_
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -273,6 +262,7 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
+
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
@@ -286,7 +276,6 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 0
@@ -297,4 +286,3 @@ Seriously, we don't really know what to do with these.
   * Seeks target: Yes
   * Streams: no
   * _Not found: S1 time, S2 time_
-

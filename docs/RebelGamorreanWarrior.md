@@ -53,7 +53,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : Melee Vibro Ax
 
 ### Targeting
@@ -65,7 +64,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Shield (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 400ms
@@ -88,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -115,7 +114,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
-
   * Cannons per sequence: 1
   * Cliptime: 900ms
   * Directional: No
@@ -124,7 +122,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -162,7 +159,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,1.85,0.73
   * Targeted type: ENEMIES
   * _Not found: Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 600
@@ -189,6 +185,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |215101|215102|215103|215104|215105|215106|215107|215108|215109|215110|
@@ -201,5 +198,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

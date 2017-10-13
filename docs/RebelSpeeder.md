@@ -52,6 +52,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
 
+
 |Level       |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |------------|--|--|--|--|--|--|--|--|--|--|
 |Acceleration|0 |0 |0 |0 |0 |0 |8 |8 |8 |8 |
@@ -68,7 +69,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (70)**, **Infantry (70)**, **Support troop (70)**, **Flying vehicle (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy vehicle (70)**, **Heavy infantry (70)**, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Clip retargeting: Yes
@@ -83,6 +83,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
+
 |Level                                    |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
 |-----------------------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
 |Time between start of clip and first shot|1s  |1s  |1s  |1s  |1s  |1s  |500ms|500ms|500ms|500ms|
@@ -92,12 +93,32 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
+
 |Level                       |1      |2      |3      |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |900.000|930.000|970.000|1010.000|1050.000|1090.000|1460.000|1520.000|1580.000|1650.000|
 |Calculated damage per second|897.778|933.333|968.889|1013.333|1048.889|1093.333|1462.857|1520.000|1577.143|1645.714|
 
   * Droideka: 100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 |Level              |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |-------------------|----|----|----|----|----|----|----|----|----|----|
@@ -142,7 +163,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelSpeeder
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -160,7 +180,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.23,1.14,-0.58
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -172,6 +191,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_b_med
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
 
 |Level                      |1               |2               |3               |4               |5               |6               |7                         |8                         |9                         |10                        |
 |---------------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------|--------------------------|--------------------------|--------------------------|
@@ -189,6 +209,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |230101|230102|230103|230104|230105|230106|230107|230108|230109|230110|
@@ -201,5 +222,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

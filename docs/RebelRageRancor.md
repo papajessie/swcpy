@@ -30,12 +30,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Training time: 5s
   * Training cost: Free
-
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
-
 ### Move stats
 
   * Acceleration: 0
@@ -48,7 +46,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : Rancor Blaster AOE
 
 ### Targeting
@@ -60,7 +57,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 16
-
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -111,7 +107,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 125%
   * Light vehicle: 75%
   * Wall: 200%
-
   * Cannons per sequence: 2
   * Cliptime: 2.410s
   * Directional: Yes
@@ -120,7 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -129,7 +123,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelRageRancor
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -146,7 +139,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.61,3.05,-1.83
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 960
@@ -158,7 +150,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Rancor Blaster AOE
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -169,6 +160,7 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
+
 
 |Level      |1     |2     |3     |4     |5     |6      |7      |8      |9      |10     |
 |-----------|------|------|------|------|------|-------|-------|-------|-------|-------|
@@ -182,5 +174,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

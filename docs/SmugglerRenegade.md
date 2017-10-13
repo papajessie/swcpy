@@ -54,7 +54,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : SmugglerRenegade
 
 ### Targeting
@@ -66,7 +65,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Storage (60)_, _Shield generator (60)_, _Shield (60)_, _Ressource generator (60)_, _Other building (60)_, _Headquarters (60)_, Light vehicle (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -89,6 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1      |2      |3      |4      |5       |6       |7       |8       |9       |10      |
 |----------------------------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
@@ -116,7 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 300%
   * Light vehicle: 100%
   * Wall: 100%
-
   * Cannons per sequence: 2
   * Cliptime: 1s
   * Directional: Yes
@@ -125,7 +123,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -134,7 +131,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerRenegade
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -186,6 +182,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |344301|344302|344303|344304|344305|344306|344307|344308|344309|344310|
@@ -198,5 +195,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

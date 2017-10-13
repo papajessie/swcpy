@@ -21,6 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
 
+
 |Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health       |23040|28416|32256|36096|39936|43776|46848|49920|52160|54400|
@@ -29,6 +30,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Training stats
 
   * Training cost: Free
+
 
 |Level        |1                             |2                             |3                             |4                             |5                              |6                              |7                              |8                              |9                              |10                             |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
@@ -39,7 +41,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
-
 ### Move stats
 
   * Acceleration: 0
@@ -52,7 +53,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 6
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : HeavyDroidekaShell
 
 ### Targeting
@@ -64,7 +64,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Shield generator (5), Shield (5), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 12
-
 ### Shooting
 
   * Time between start of clip and first shot: 650ms
@@ -88,6 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,65,50,25
   * _Not found: Beam damage_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7        |8        |9        |10       |
 |----------------------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|
@@ -115,7 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
-
   * Cannons per sequence: 2
   * Cliptime: 2.400s
   * Directional: No
@@ -124,7 +123,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -133,7 +131,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionRebelHeavyDroidekaSample
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -147,6 +144,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
   * _Not found: Audio train, Death animation, Decal asset name, Decal bundle name, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
+
+
+
+
+
+
+
 
 |Level               |1                                                                                                             |2                                                                                                             |3                                                                                                             |4                                                                                                             |5                                                                                                             |6                                                                                                             |7                                                                                                             |8                                                                                                             |9                                                                                                             |10                                                                                                            |
 |--------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -189,6 +194,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
 |-----------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
 |Order      |214805|214810|214815|214820 |214825 |214830 |214835 |214840 |214845 |214850 |
@@ -202,5 +208,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * Strict cool down: No
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

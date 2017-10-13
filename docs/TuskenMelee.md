@@ -22,17 +22,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
-
 ### Training stats
 
   * Training time: 30s
   * Training cost: 95$
-
 ### Upgrading stats
 
   * Upgrade time: 4d
   * Upgrade requirements: 4000000$
-
 ### Move stats
 
   * Acceleration: 0
@@ -45,7 +42,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : Melee HeadButt Large
 
 ### Targeting
@@ -57,7 +53,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _Headquarters (60)_, Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -81,6 +76,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,75
   * _Not found: Beam damage_
+
 
 |Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -108,7 +104,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 20%
   * Wall: 300%
-
   * Cannons per sequence: 1
   * Cliptime: 5.500s
   * Directional: Yes
@@ -117,7 +112,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -126,7 +120,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: TuskenMelee
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -143,7 +136,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.1,1.49,0.27
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 1000
@@ -170,6 +162,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |321801|321802|321803|321804|321805|321806|321807|321808|321809|321810|
@@ -182,5 +175,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

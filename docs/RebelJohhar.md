@@ -39,7 +39,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
-
 ### Move stats
 
   * Acceleration: 0
@@ -52,7 +51,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : JohharRebel
 
 ### Targeting
@@ -64,7 +62,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -88,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
   * _Not found: Beam damage_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -115,7 +113,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 75%
   * Light vehicle: 200%
   * Wall: 60%
-
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -124,7 +121,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
-
 ## Secondary attack : Rail Gun
 
   * Auto: No
@@ -134,7 +130,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 1ms
   * Recast ability: No
   * Target self: No
-
 ### Targeting
 
   * Max attack range: 60
@@ -144,7 +139,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 10
   * _Not found: Attack shield border_
-
 ### Shooting
 
   * Time between start of clip and first shot: 1.200s
@@ -193,7 +187,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 55%
   * Light vehicle: 100%
   * Wall: 85%
-
   * Cannons per sequence: 1
   * Cliptime: 48.700s
   * Directional: Yes
@@ -203,7 +196,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * Width segments: 100,90,80
-
 ## Other stats
 
 ### Internal stats
@@ -215,6 +207,7 @@ These stats internal to the system link different parts of data together.
   * Upgrade shard uid: shrd_troopRebelJohhar
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs_
 
+
 |Level    |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |Ability  |abilityRailGun1Rebel|abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
@@ -223,7 +216,6 @@ These stats internal to the system link different parts of data together.
 Internal values for secondary attack:
 
   * _Not found: Apply buffs_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -252,6 +244,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
+
+
 |Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
@@ -279,7 +273,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Projectile length: 6
   * Spin speed: 0
   * _Not found: Audio ability loop, Bullet, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -290,6 +283,7 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
+
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
@@ -303,7 +297,6 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 1
@@ -314,4 +307,3 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
-

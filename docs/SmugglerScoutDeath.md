@@ -52,7 +52,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : ScoutDeath
 
 ### Targeting
@@ -64,7 +63,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (60)**, **Infantry (60)**, **Vehicule hero (60)**, **Infantry hero (60)**, **Heavy vehicule hero (60)**, **Heavy infantry hero (60)**, **Support troop (60)**, **Flying vehicle (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy vehicle (60)**, **Heavy infantry (60)**, _Storage (51)_, _Ressource generator (51)_, Turret (50), Shield generator (50), Shield (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -87,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -114,7 +113,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 200%
   * Wall: 500%
-
   * Cannons per sequence: 1
   * Cliptime: 1.725s
   * Directional: Yes
@@ -123,7 +121,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -132,7 +129,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerScoutDeath
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -152,7 +148,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.06,1.74,0.02
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -181,6 +176,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |333701|333702|333703|333704|333705|333706|333707|333708|333709|333710|
@@ -193,5 +189,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

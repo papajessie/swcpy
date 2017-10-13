@@ -53,7 +53,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : T7-S Speederbike
 
 ### Targeting
@@ -63,6 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * New rotation speed: 7854.000
   * Target preference strength: 90
   * View range: 8
+
 
 |Level             |1                                                                                                                                                                                                                                                                                                                                                   |2                                                                                                                                                                                                                                                                                                                                                   |3                                                                                                                                                                                                                                                                                                                                                   |4                                                                                                                                                                                                                                                                                                                                                   |5                                                                                                                                                                                                                                                                                                                                                                                                                                      |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |7                                                                                                                                                                                                                                                                                                                                                                                                                                      |8                                                                                                                                                                                                                                                                                                                                                                                                                                      |9                                                                                                                                                                                                                                                                                                                                                                                                                                      |10                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -83,6 +83,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
+
 |Level             |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |------------------|---|---|---|---|----|----|----|----|----|----|
 |Damage per shot   |105|126|147|168|1134|1260|1386|1512|1638|1890|
@@ -91,6 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1     |2      |3      |4      |5       |6       |7       |8       |9       |10      |
 |----------------------------|------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
@@ -118,7 +120,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
-
   * Cannons per sequence: 2
   * Cliptime: 2.250s
   * Directional: Yes
@@ -127,7 +128,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -136,7 +136,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerSpeeder
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -154,7 +153,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.42,1.29,-0.61
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -183,6 +181,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |341201|341202|341203|341204|341205|341206|341207|341208|341209|341210|
@@ -195,5 +194,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

@@ -31,7 +31,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training time: 1m
   * Training cost: 690$
   * Building: [Barracks 4](smugglerBarracks.html)
-
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
@@ -51,7 +50,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : WompRatAlpha
 
 ### Targeting
@@ -63,7 +61,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (70)**, **Infantry (70)**, **Infantry hero (70)**, **Heavy infantry hero (70)**, **Support troop (70)**, **Droideka (70)**, _Vehicule hero (60)_, _Heavy vehicule hero (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 150ms
@@ -87,6 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,75,50
   * _Not found: Beam damage_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9        |10       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|---------|---------|
@@ -114,7 +112,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 1.300s
   * Directional: Yes
@@ -123,7 +120,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -157,7 +153,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
   * _Not found: Audio impact, Audio placement, Audio train, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 1000
@@ -184,6 +179,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
@@ -196,5 +192,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

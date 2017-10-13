@@ -21,6 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
 
+
 |Level         |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------|----|----|----|----|----|----|----|----|----|----|
 |Health        |3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
@@ -53,7 +54,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : SmugglerSaboteur
 
 ### Targeting
@@ -65,7 +65,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Shield generator (70)**, **Shield (70)**, _Storage (60)_, _Ressource generator (60)_, _Other building (60)_, Light vehicle (50), Turret (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -78,6 +77,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
+
+
+
 |Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Damage per shot                           |112  |135  |157  |180  |202  |224  |247  |269  |292  |336  |
@@ -88,6 +90,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9       |10     |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|--------|-------|
@@ -115,13 +118,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 150%
-
   * Cannons per sequence: 1
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 30
   * Pass through shield: No
   * _Not found: Length segments, Width segments_
+
 
 |Level   |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |--------|------|------|------|------|------|------|------|------|------|------|
@@ -136,7 +139,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerSaboteur
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -155,7 +157,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.12,1.34,0.53
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -184,6 +185,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |334101|334102|334103|334104|334105|334106|334107|334108|334109|334110|
@@ -196,5 +198,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

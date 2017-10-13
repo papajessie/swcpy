@@ -22,18 +22,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
-
 ### Training stats
 
   * Training time: 9m20s
   * Training cost: 4400$
   * Building: [Research Lab 10](rebelOffenseLab.html)
-
 ### Upgrading stats
 
   * Upgrade time: 3d12h
   * Upgrade requirements: 320000$
-
 ### Move stats
 
   * Acceleration: 0
@@ -46,7 +43,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x3
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : ATTE Blaster
 
 ### Targeting
@@ -58,7 +54,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Infantry hero (60)**, **Heavy infantry hero (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Vehicule hero (50), Heavy vehicule hero (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -74,14 +69,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
   * _Not found: New target on reload_
-
 ### Projectile
 
   * Displayed damage per second: 4800.000
   * Calculated damage per second: 4800.000
   * Splash damage percentages: 100
   * _Not found: Beam damage_
-
   * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 75%
@@ -103,7 +96,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
-
   * Cannons per sequence: 5
   * Cliptime: 4s
   * Directional: Yes
@@ -112,7 +104,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -121,7 +112,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: ATTEFakeHero
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -143,7 +133,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spawn effect uid: effectRebelSpawn
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -157,7 +146,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: ATTE Blaster
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -170,7 +158,6 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
-
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -178,5 +165,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

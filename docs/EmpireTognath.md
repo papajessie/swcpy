@@ -38,7 +38,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
-
 ### Move stats
 
   * Acceleration: 0
@@ -51,7 +50,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : Tognath
 
 ### Targeting
@@ -63,7 +61,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (100)**, _Infantry (60)_, _Support troop (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -87,6 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
   * _Not found: Beam damage_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -114,7 +112,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 200%
   * Wall: 40%
-
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -123,7 +120,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
   * _Not found: Length segments, Width segments_
-
 ## Secondary attack : Tognath Sniper Shot
 
   * Auto: Yes
@@ -133,7 +129,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 1ms
   * Recast ability: Yes
   * Target self: No
-
 ### Targeting
 
   * Max attack range: 12
@@ -143,7 +138,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Droideka (255)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
   * _Not found: Attack shield border_
-
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -192,7 +186,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 40%
   * Light vehicle: 40%
   * Wall: 10%
-
   * Cannons per sequence: 1
   * Cliptime: 21.500s
   * Directional: Yes
@@ -202,7 +195,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * Width segments: 100,90,80
-
 ## Other stats
 
 ### Internal stats
@@ -212,6 +204,7 @@ These stats internal to the system link different parts of data together.
   * Unit ID: EmpireTognath
   * Upgrade shard uid: shrd_troopEmpireTognath
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+
 
 |Level          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |---------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
@@ -273,7 +266,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Projectile length: 6
   * Spin speed: 0
   * _Not found: Audio ability activate, Audio ability loop, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
-
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -297,7 +289,6 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 1
@@ -308,4 +299,3 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
-

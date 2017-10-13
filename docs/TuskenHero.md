@@ -30,12 +30,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Training time: 30s
   * Training cost: 95$
-
 ### Upgrading stats
 
   * Upgrade time: 4d
   * Upgrade requirements: 4000000$
-
 ### Move stats
 
   * Acceleration: 0
@@ -48,7 +46,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : TuskenHero
 
 ### Targeting
@@ -60,7 +57,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Heavy infantry (100)**, _Infantry (95)_, _Support troop (95)_, _Flying infantry (95)_, _Droideka (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Flying vehicle (80)_, _Turret (55)_, Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -83,6 +79,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1      |2      |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -110,7 +107,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
-
   * Cannons per sequence: 1
   * Cliptime: 1s
   * Directional: Yes
@@ -119,7 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -129,7 +124,6 @@ These stats internal to the system link different parts of data together.
   * Hero data: hero9
   * Unit ID: TuskenHero
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -151,7 +145,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
   * _Not found: Audio impact, Audio train, Buff asset offset, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 350
@@ -180,6 +173,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
@@ -192,5 +186,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

@@ -38,7 +38,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
-
 ### Move stats
 
   * Acceleration: 0
@@ -51,7 +50,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
-
 ## Main attack : IthorianInfiltrator
 
 ### Targeting
@@ -63,7 +61,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Light vehicle (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Turret (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
-
 ### Shooting
 
   * Time between start of clip and first shot: 50ms
@@ -86,6 +83,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
+
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8        |9        |10       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|---------|---------|---------|
@@ -113,7 +111,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 10%
   * Light vehicle: 10%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 2.250s
   * Directional: Yes
@@ -122,7 +119,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 2
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -133,7 +129,6 @@ These stats internal to the system link different parts of data together.
   * Unit ID: IthorianInfiltrator
   * Upgrade shard uid: shrd_troopIthorianInfiltrator
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -156,7 +151,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -185,6 +179,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |234101|234102|234103|234104|234105|234106|234107|234108|234109|234110|
@@ -197,5 +192,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

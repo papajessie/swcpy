@@ -54,7 +54,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * Support follow distance: 5
   * _Not found: Ignores walls_
-
 ## Main attack : Medic
 
 ### Targeting
@@ -66,7 +65,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Infantry (50)**, **Infantry hero (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, Wall (0), Light vehicle (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Vehicule hero (0), Heavy vehicule hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Headquarters (0)
   * View range: 8
-
 ### Shooting
 
   * Time between start of clip and first shot: 50ms
@@ -82,7 +80,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 400ms
   * Target locking: Yes
   * _Not found: New target on reload_
-
 ### Projectile
 
   * Calculated damage per second: 0.000
@@ -114,7 +111,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 0%
   * Light vehicle: 0%
   * Wall: 0%
-
   * Cannons per sequence: 1
   * Cliptime: 1.350s
   * Directional: Yes
@@ -123,7 +119,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -156,7 +151,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Info UI type: Healer
   * Targeted type: ALLIES
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
-
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -195,5 +189,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult

@@ -95,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
+
 |Level                       |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
 |----------------------------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
 |Displayed damage per second |50.000|59.000|69.000|397.000|447.000|496.000|546.000|596.000|645.000|744.000|
@@ -121,7 +122,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 20%
   * Wall: 50%
-
   * Cannons per sequence: 1
   * Cliptime: 5.500s
   * Directional: Yes
@@ -130,7 +130,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
-
 ## Other stats
 
 ### Internal stats
@@ -139,7 +138,6 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: WompRat
   * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
-
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -151,6 +149,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory scale factor: 1
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio placement, Audio train, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
+
+
+
 
 |Level               |1               |2                    |3                   |4               |5                    |6                   |7               |8                    |9                   |10                  |
 |--------------------|----------------|---------------------|--------------------|----------------|---------------------|--------------------|----------------|---------------------|--------------------|--------------------|
@@ -185,6 +187,7 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
+
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |330901|330902|330903|330904|330905|330906|330907|330908|330909|330910|
@@ -197,5 +200,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
-
-I could not show the following roles, because I was not programmed to : abilityprojectileunknown, abilityprojectilebasic, abilityprojectilemisc, abilityunknown, abilityprojectilemult
+I could not show the following roles, because I was not programmed to : abilityunknown, abilityprojectileunknown, abilityprojectilemisc, abilityprojectilebasic, abilityprojectilemult
