@@ -49,6 +49,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |44544|44928|45696|46080|46848|47232|48000|48768|49536|49920|
 |Shield health|16704|16848|17136|17280|17568|17712|18000|18288|18576|18720|
 
+
+
+|Level        |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health       |50560|50880|51200|51840|52160|52480|53120|53440|53760|54400|
+|Shield health|18960|19200|19440|19680|19920|20160|20400|20640|20880|21120|
+
 ### Training stats
 
   * Training cost: Free
@@ -78,6 +85,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |31                             |32                             |33                             |34                             |35                             |36                             |37                             |38                             |39                             |40                             |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
 |Training time|2h                             |2h3m                           |2h4m                           |2h6m                           |2h8m                           |2h11m                          |2h12m                          |2h14m                          |2h16m                          |2h19m                          |
+|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+
+
+
+|Level        |41                             |42                             |43                             |44                             |45                             |46                             |47                             |48                             |49                             |50                             |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training time|2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |2h19m                          |
 |Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 
 ### Upgrading stats
@@ -141,6 +155,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|4800|4850|4900|4950|5000|5050|5100|5150|5200|5250|
 
+
+|Level          |41  |42  |43  |44  |45  |46  |47  |48  |49  |50  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|5300|5350|5400|5450|5500|5550|5600|5650|5700|5750|
+
 ### Projectile
 
   * Splash damage percentages: 100,65,50,25
@@ -172,6 +191,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|---------|---------|---------|---------|---------|---------|
 |Displayed damage per second |9600.000|9700.000|9800.000|9900.000|10000.000|10100.000|10200.000|10300.000|10400.000|10500.000|
 |Calculated damage per second|4000.000|4041.667|4083.333|4125.000|4166.667 |4208.333 |4250.000 |4291.667 |4333.333 |4375.000 |
+
+
+
+|Level                       |41       |42       |43       |44       |45       |46       |47       |48       |49       |50       |
+|----------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|Displayed damage per second |10600.000|10700.000|10800.000|10900.000|11000.000|11100.000|11200.000|11300.000|11400.000|11500.000|
+|Calculated damage per second|4416.667 |4458.333 |4500.000 |4541.667 |4583.333 |4625.000 |4666.667 |4708.333 |4750.000 |4791.667 |
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -279,6 +305,19 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon lookat position|0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |
 |Shield asset name   |effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|
 
+
+
+
+
+
+|Level               |41                              |42                              |43                              |44                              |45                              |46                              |47                              |48                              |49                              |50                              |
+|--------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+|Asset name          |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |
+|Bundle name         |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |
+|Icon camera position|-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |
+|Icon lookat position|0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |
+|Shield asset name   |effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|
+
 ### Attack presentation stats
 
   * Animation delay: 250
@@ -311,6 +350,11 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |31      |32      |33      |34      |35       |36       |37       |38       |39       |40       |
 |---------------------------|--------|--------|--------|--------|---------|---------|---------|---------|---------|---------|
 |Displayed damage per second|9600.000|9700.000|9800.000|9900.000|10000.000|10100.000|10200.000|10300.000|10400.000|10500.000|
+
+
+|Level                      |41       |42       |43       |44       |45       |46       |47       |48       |49       |50       |
+|---------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|Displayed damage per second|10600.000|10700.000|10800.000|10900.000|11000.000|11100.000|11200.000|11300.000|11400.000|11500.000|
 
 ### Uninterpreted stats
 
@@ -350,6 +394,13 @@ Seriously, we don't really know what to do with these.
 |Order      |214831 |214832 |214833 |214834 |214835 |214836 |214837 |214838 |214839 |214840 |
 |Point value|152.000|156.000|160.000|168.000|172.000|176.000|180.000|184.000|188.000|200.000|
 
+
+
+|Level      |41     |42     |43     |44     |45     |46     |47     |48     |49     |50     |
+|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Order      |214841 |214842 |214843 |214844 |214845 |214846 |214847 |214848 |214849 |214850 |
+|Point value|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -358,4 +409,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * Strict cool down: Yes
-I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityunknown, abilityprojectileunknown, abilityprojectilemult, abilityprojectilemisc
+I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityprojectileunknown, abilityunknown, abilityprojectilemisc, abilityprojectilemult

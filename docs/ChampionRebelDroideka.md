@@ -49,6 +49,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |37120|37440|38080|38400|39040|39360|40000|40640|41280|41600|
 |Shield health|27840|28080|28560|28800|29280|29520|30000|30480|30960|31200|
 
+
+
+|Level        |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health       |42240|42560|42880|43520|43840|44160|44800|45120|45440|46080|
+|Shield health|31440|31680|31920|32160|32400|32640|32880|33120|33360|33600|
+
 ### Training stats
 
   * Training cost: Free
@@ -78,6 +85,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level        |31                            |32                            |33                            |34                            |35                            |36                            |37                            |38                            |39                            |40                            |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
 |Training time|2h                            |2h3m                          |2h4m                          |2h6m                          |2h8m                          |2h11m                         |2h12m                         |2h14m                         |2h16m                         |2h19m                         |
+|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+
+
+
+|Level        |41                            |42                            |43                            |44                            |45                            |46                            |47                            |48                            |49                            |50                            |
+|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Training time|2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |2h19m                         |
 |Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
 
 ### Upgrading stats
@@ -155,6 +169,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|
 |Shot count           |8      |8      |8      |8      |8      |8      |8      |8      |8      |12         |
 
+
+
+
+|Level                |41         |42         |43         |44         |45         |46         |47         |48         |49         |50         |
+|---------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Damage per shot      |980        |994        |1008       |1022       |1036       |1050       |1064       |1078       |1092       |1106       |
+|Gun shooting sequence|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
+|Shot count           |12         |12         |12         |12         |12         |12         |12         |12         |12         |12         |
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -185,6 +208,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |5106.000|5148.000|5238.000|5280.000|5370.000|5412.000|5502.000|5589.000|5679.000|5721.000|
 |Calculated damage per second|6012.949|6060.035|6168.334|6215.421|6323.720|6370.806|6479.105|6577.987|6686.286|6815.774|
+
+
+
+|Level                       |41      |42      |43      |44      |45      |46      |47      |48      |49      |50      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |5880.000|5964.000|6048.000|6132.000|6216.000|6300.000|6384.000|6468.000|6552.000|6636.000|
+|Calculated damage per second|6921.719|7020.600|7119.482|7218.364|7317.245|7416.127|7515.009|7613.891|7712.772|7811.654|
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -233,6 +263,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |31|32|33|34|35|36|37|38|39|40|
 |--------------------|--|--|--|--|--|--|--|--|--|--|
 |Cannons per sequence|4 |4 |4 |4 |4 |4 |4 |4 |4 |6 |
+
+
+|Level               |41|42|43|44|45|46|47|48|49|50|
+|--------------------|--|--|--|--|--|--|--|--|--|--|
+|Cannons per sequence|6 |6 |6 |6 |6 |6 |6 |6 |6 |6 |
 
 ## Other stats
 
@@ -305,6 +340,17 @@ These are all sorts of user interface settings, that should not interfere with g
 |Gun position     |"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|
 |Shield asset name|effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield40                                                                                                                                                                          |
 
+
+
+
+
+|Level            |41                                                                                                                                                                                                   |42                                                                                                                                                                                                   |43                                                                                                                                                                                                   |44                                                                                                                                                                                                   |45                                                                                                                                                                                                   |46                                                                                                                                                                                                   |47                                                                                                                                                                                                   |48                                                                                                                                                                                                   |49                                                                                                                                                                                                   |50                                                                                                                                                                                                   |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Asset name       |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |
+|Bundle name      |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |droideka_con-ani-up40                                                                                                                                                                                |
+|Gun position     |"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|
+|Shield asset name|effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |effectRebelDroidekaShield40                                                                                                                                                                          |
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -336,6 +382,11 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |31      |32      |33      |34      |35      |36      |37      |38      |39      |40      |
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|5106.000|5148.000|5238.000|5280.000|5370.000|5412.000|5502.000|5589.000|5679.000|5721.000|
+
+
+|Level                      |41      |42      |43      |44      |45      |46      |47      |48      |49      |50      |
+|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second|5880.000|5964.000|6048.000|6132.000|6216.000|6300.000|6384.000|6468.000|6552.000|6636.000|
 
 ### Uninterpreted stats
 
@@ -375,6 +426,13 @@ Seriously, we don't really know what to do with these.
 |Order      |214631 |214632 |214633 |214634 |214635 |214636 |214637 |214638 |214639 |214640 |
 |Point value|152.000|156.000|160.000|168.000|172.000|176.000|180.000|184.000|188.000|200.000|
 
+
+
+|Level      |41     |42     |43     |44     |45     |46     |47     |48     |49     |50     |
+|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Order      |214641 |214642 |214643 |214644 |214645 |214646 |214647 |214648 |214649 |214650 |
+|Point value|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|200.000|
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -382,4 +440,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: Yes
   * _Not found: S1 time, S2 time_
-I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityunknown, abilityprojectileunknown, abilityprojectilemult, abilityprojectilemisc
+I could not show the following roles, because I was not programmed to : abilityprojectilebasic, abilityprojectileunknown, abilityunknown, abilityprojectilemisc, abilityprojectilemult
