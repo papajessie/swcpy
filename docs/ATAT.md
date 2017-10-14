@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: Yes
   * Max attack range: 9
   * Min attack range: 1
-  * New rotation speed: 982.000
+  * New rotation speed: 982
   * Target preference strength: 90
   * Target preferences: **Shield generator (80)**, **Shield (80)**, Light vehicle (50), Turret (50), Storage (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
@@ -87,11 +87,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1600.000|1920.000|2240.000|2560.000|2880.000|3200.000|3520.000|3840.000|4160.000|4800.000|
-|Calculated damage per second|2666.667|3200.000|3733.333|4266.667|4800.000|5333.333|5866.667|6400.000|6933.333|8000.000|
+|Level                       |1       |2   |3       |4       |5   |6       |7       |8   |9       |10  |
+|----------------------------|--------|----|--------|--------|----|--------|--------|----|--------|----|
+|Displayed damage per second |1600    |1920|2240    |2560    |2880|3200    |3520    |3840|4160    |4800|
+|Calculated damage per second|2666.667|3200|3733.333|4266.667|4800|5333.333|5866.667|6400|6933.333|8000|
 
   * Headquarters: 75%
   * Heavy infantry: 100%
@@ -160,9 +159,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|1600.000|1920.000|2240.000|2560.000|2880.000|3200.000|3520.000|3840.000|4160.000|4800.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|1600|1920|2240|2560|2880|3200|3520|3840|4160|4800|
 
 ### Uninterpreted stats
 
@@ -175,11 +174,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |130501|130502|130503|130504|130505|130506|130507|130508|130509|130510|
-|Point value|30.000|36.000|42.000|48.000|54.000|60.000|66.000|72.000|78.000|90.000|
+|Point value|30    |36    |42    |48    |54    |60    |66    |72    |78    |90    |
 
 ### Uninterpreted attack stats
 

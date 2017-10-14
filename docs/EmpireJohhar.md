@@ -58,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 10
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -86,11 +86,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100
   * _Not found: Beam damage_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2000.000|2400.000|2800.000|3200.000|3599.000|4000.000|4400.000|4800.000|5200.000|6000.000|
-|Calculated damage per second|3600.000|3812.308|4024.615|4227.692|4430.769|4643.077|4966.154|5316.923|5686.154|6083.077|
+|Level                       |1   |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|----|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2000|2400    |2800    |3200    |3599    |4000    |4400    |4800    |5200    |6000    |
+|Calculated damage per second|3600|3812.308|4024.615|4227.692|4430.769|4643.077|4966.154|5316.923|5686.154|6083.077|
 
   * Headquarters: 50%
   * Heavy infantry: 150%
@@ -134,7 +133,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 60
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 50
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 10
@@ -207,7 +206,6 @@ These stats internal to the system link different parts of data together.
   * Upgrade shard uid: shrd_troopEmpireJohhar
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs_
 
-
 |Level    |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |---------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |Ability  |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
@@ -244,13 +242,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-
-
-|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level               |1    |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|--------------------|-----|--------------------------|
+|Icon unlock position|0,0,0|(not found)               |
+|Icon unlock rotation|0,0,0|(not found)               |
+|Icon unlock scale   |1,1,1|(not found)               |
 
 ### Attack presentation stats
 
@@ -260,7 +256,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Animation delay: 1
   * Audio ability activate: "sfx_charge_railcannon_01":35,"sfx_charge_railcannon_02":35,"sfx_charge_railcannon_03":30
   * Audio ability attack: "sfx_attack_railcannon_01":35,"sfx_attack_railcannon_02":35,"sfx_attack_railcannon_03":30
-  * Displayed damage per second: 1000.000
+  * Displayed damage per second: 1000
   * Favorite target type: generic
   * Name: Rail Gun
   * Persistent scaling: 0
@@ -284,11 +280,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |111101|111102|111103|111104|111105|111106|111107|111108|111109|111110|
-|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 ### Uninterpreted attack stats
 

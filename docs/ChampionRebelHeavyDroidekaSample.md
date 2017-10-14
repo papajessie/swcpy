@@ -21,7 +21,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
 
-
 |Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health       |23040|28416|32256|36096|39936|43776|46848|49920|52160|54400|
@@ -31,11 +30,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Training cost: Free
 
-
-|Level        |1                             |2                             |3                             |4                             |5                              |6                              |7                              |8                              |9                              |10                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|1h8m                          |1h18m                         |1h28m                         |1h39m                         |1h48m                          |1h58m                          |2h8m                           |2h19m                          |2h19m                          |2h19m                          |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level        |1                             |2                             |3                             |4                             |5                              |6                              |7                              |8, 9, 10                       |
+|-------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training time|1h8m                          |1h18m                         |1h28m                         |1h39m                         |1h48m                          |1h58m                          |2h8m                           |2h19m                          |
+|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 
 ### Upgrading stats
 
@@ -60,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 10
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Shield generator (5), Shield (5), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 12
@@ -88,11 +86,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100,65,50,25
   * _Not found: Beam damage_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7        |8        |9        |10       |
-|----------------------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|
-|Displayed damage per second |7000.000|7500.000|8000.000|8500.000|9000.000|9500.000|10000.000|10500.000|11000.000|11500.000|
-|Calculated damage per second|2916.667|3125.000|3333.333|3541.667|3750.000|3958.333|4166.667 |4375.000 |4583.333 |4791.667 |
+|Level                       |1       |2   |3       |4       |5   |6       |7       |8    |9       |10      |
+|----------------------------|--------|----|--------|--------|----|--------|--------|-----|--------|--------|
+|Displayed damage per second |7000    |7500|8000    |8500    |9000|9500    |10000   |10500|11000   |11500   |
+|Calculated damage per second|2916.667|3125|3333.333|3541.667|3750|3958.333|4166.667|4375 |4583.333|4791.667|
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -145,14 +142,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Tooltip height offset: 1.5
   * _Not found: Audio train, Death animation, Decal asset name, Decal bundle name, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-
-
-
-
-
-
-
-
 |Level               |1                                                                                                             |2                                                                                                             |3                                                                                                             |4                                                                                                             |5                                                                                                             |6                                                                                                             |7                                                                                                             |8                                                                                                             |9                                                                                                             |10                                                                                                            |
 |--------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 |Asset name          |artillerydroideka_con-ani-up1                                                                                 |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up10                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up20                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up30                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |artillerydroideka_con-ani-up40                                                                                |
@@ -179,9 +168,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7        |8        |9        |10       |
-|---------------------------|--------|--------|--------|--------|--------|--------|---------|---------|---------|---------|
-|Displayed damage per second|7000.000|7500.000|8000.000|8500.000|9000.000|9500.000|10000.000|10500.000|11000.000|11500.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
+|---------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
+|Displayed damage per second|7000|7500|8000|8500|9000|9500|10000|10500|11000|11500|
 
 ### Uninterpreted stats
 
@@ -194,11 +183,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
-|Level      |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
-|-----------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
-|Order      |214805|214810|214815|214820 |214825 |214830 |214835 |214840 |214845 |214850 |
-|Point value|40.000|68.000|88.000|108.000|128.000|148.000|172.000|200.000|200.000|200.000|
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |214805|214810|214815|214820|214825|214830|214835|214840|214845|214850|
+|Point value|40    |68    |88    |108   |128   |148   |172   |200   |200   |200   |
 
 ### Uninterpreted attack stats
 

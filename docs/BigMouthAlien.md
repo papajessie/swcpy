@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -86,12 +86,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 1920.000
+  * Displayed damage per second: 1920
   * _Not found: Beam damage, Splash damage percentages_
 
-|Level                       |1      |2      |3      |4       |5       |
-|----------------------------|-------|-------|-------|--------|--------|
-|Calculated damage per second|780.769|875.000|969.231|1063.462|1157.692|
+|Level                       |1      |2  |3      |4       |5       |
+|----------------------------|-------|---|-------|--------|--------|
+|Calculated damage per second|780.769|875|969.231|1063.462|1157.692|
 
   * Headquarters: 100%
   * Heavy infantry: 100%
@@ -135,7 +135,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 8
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
@@ -157,7 +157,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * DPS: 0.000
+  * DPS: 0
   * Splash damage percentages: 100,100,100
   * _Not found: Beam damage_
   * Headquarters: 100%
@@ -198,7 +198,6 @@ These stats internal to the system link different parts of data together.
   * Unit ID: BigMouthAlien
   * Upgrade shard uid: shrd_troopBigMouthAlien
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
-
 
 |Level          |1                     |2                     |3                     |4                     |5                     |
 |---------------|----------------------|----------------------|----------------------|----------------------|----------------------|
@@ -243,7 +242,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Animation delay: 810
   * Audio ability activate: "sfx_attack_bigmouth_ability_02":40,"sfx_attack_bigmouth_ability_03":30,"sfx_attack_bigmouth_ability_04":30
   * Audio ability attack: "sfx_explosion_sonicgrenade_01":34,"sfx_explosion_sonicgrenade_02":33,"sfx_explosion_sonicgrenade_03":33
-  * Displayed damage per second: 75.000
+  * Displayed damage per second: 75
   * Favorite target type: generic
   * Name: BigMouthAlienSpecial
   * Persistent scaling: 0
@@ -261,7 +260,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
   * Max scale: No
-  * Point value: 4.000
+  * Point value: 4
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0

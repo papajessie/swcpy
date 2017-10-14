@@ -57,7 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
@@ -83,7 +83,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
-
 
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -152,9 +151,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-|Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock scale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level            |1          |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|-----------------|-----------|--------------------------|
+|Icon unlock scale|1.2,1.2,1.2|(not found)               |
 
 ### Attack presentation stats
 
@@ -184,11 +183,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
-|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
 ### Uninterpreted attack stats
 

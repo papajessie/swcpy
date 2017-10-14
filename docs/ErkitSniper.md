@@ -21,7 +21,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
 
-
 |Level         |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------|----|----|----|----|----|----|----|----|----|----|
 |Health        |3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
@@ -61,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 9
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -89,11 +88,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100
   * _Not found: Beam damage_
 
-
-|Level                       |1      |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |877.000|1052.000|1228.000|1403.000|1578.000|1754.000|1930.000|2104.000|2280.000|2631.000|
-|Calculated damage per second|880.615|1056.000|1232.308|1408.615|1584.000|1760.308|1936.615|2112.000|2288.308|2640.000|
+|Level                       |1      |2   |3       |4       |5   |6       |7       |8   |9       |10  |
+|----------------------------|-------|----|--------|--------|----|--------|--------|----|--------|----|
+|Displayed damage per second |877    |1052|1228    |1403    |1578|1754    |1930    |2104|2280    |2631|
+|Calculated damage per second|880.615|1056|1232.308|1408.615|1584|1760.308|1936.615|2112|2288.308|2640|
 
   * Headquarters: 100%
   * Heavy infantry: 150%
@@ -163,9 +161,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1      |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|877.000|1052.000|1228.000|1403.000|1578.000|1754.000|1930.000|2104.000|2280.000|2631.000|
+|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|---|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|877|1052|1228|1403|1578|1754|1930|2104|2280|2631|
 
 ### Uninterpreted stats
 
@@ -178,11 +176,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |333701|333702|333703|333704|333705|333706|333707|333708|333709|333710|
-|Point value|8.000 |9.600 |11.200|12.800|14.400|16.000|17.600|19.200|20.800|24.000|
+|Point value|8     |9.600 |11.200|12.800|14.400|16    |17.600|19.200|20.800|24    |
 
 ### Uninterpreted attack stats
 

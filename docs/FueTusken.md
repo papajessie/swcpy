@@ -53,7 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * View range: 8
 
@@ -76,18 +76,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
-|Level          |1 |2 |
-|---------------|--|--|
-|Damage per shot|2 |75|
+|Level          |1|2 |
+|---------------|-|--|
+|Damage per shot|2|75|
 
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
 |Level                       |1    |2     |
 |----------------------------|-----|------|
-|Displayed damage per second |1.000|69.000|
+|Displayed damage per second |1    |69    |
 |Calculated damage per second|1.846|69.231|
 
   * Headquarters: 100%
@@ -156,9 +155,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1    |2     |
-|---------------------------|-----|------|
-|Displayed damage per second|1.000|69.000|
+|Level                      |1|2 |
+|---------------------------|-|--|
+|Displayed damage per second|1|69|
 
 ### Uninterpreted stats
 
@@ -171,11 +170,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |
 |-----------|------|------|
 |Order      |320501|320502|
-|Point value|1.000 |1.200 |
+|Point value|1     |1.200 |
 
 ### Uninterpreted attack stats
 

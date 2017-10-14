@@ -58,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 10
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -85,11 +85,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2184.000|2280.000|2380.000|2490.000|2610.000|2730.000|2860.000|3000.000|3140.000|3290.000|
-|Calculated damage per second|2080.000|2171.429|2266.667|2371.429|2485.714|2600.000|2723.810|2857.143|2990.476|3133.333|
+|Level                       |1   |2       |3       |4       |5       |6   |7       |8       |9       |10      |
+|----------------------------|----|--------|--------|--------|--------|----|--------|--------|--------|--------|
+|Displayed damage per second |2184|2280    |2380    |2490    |2610    |2730|2860    |3000    |3140    |3290    |
+|Calculated damage per second|2080|2171.429|2266.667|2371.429|2485.714|2600|2723.810|2857.143|2990.476|3133.333|
 
   * Headquarters: 50%
   * Heavy infantry: 50%
@@ -133,7 +132,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 20
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 100
   * Target preferences: **Turret (100)**, Wall (0), Light vehicle (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Vehicule hero (0), Infantry hero (0), Heavy vehicule hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Heavy infantry (0), Headquarters (0)
   * View range: 20
@@ -155,7 +154,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * DPS: 0.000
+  * DPS: 0
   * _Not found: Beam damage, Splash damage percentages_
   * Headquarters: 50%
   * Heavy infantry: 50%
@@ -223,13 +222,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-
-
-|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level               |1    |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|--------------------|-----|--------------------------|
+|Icon unlock position|0,0,0|(not found)               |
+|Icon unlock rotation|0,0,0|(not found)               |
+|Icon unlock scale   |1,1,1|(not found)               |
 
 ### Attack presentation stats
 
@@ -239,7 +236,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Animation delay: 810
   * Audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":51
   * Audio ability attack: "sfx_attack_ion_01":35,"sfx_attack_ion_02":35,"sfx_attack_ion_03":30
-  * Displayed damage per second: 75.000
+  * Displayed damage per second: 75
   * Favorite target type: vehicles
   * Name: MTVIon_Shot
   * Persistent scaling: 0
@@ -263,11 +260,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |131101|131102|131103|131104|131105|131106|131107|131108|131109|131110|
-|Point value|5.000 |6.000 |7.000 |8.000 |9.000 |10.000|11.000|12.000|13.000|15.000|
+|Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
 
 ### Uninterpreted attack stats
 

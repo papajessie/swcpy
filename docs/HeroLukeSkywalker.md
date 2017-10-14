@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -88,11 +88,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 0
   * _Not found: Beam damage_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
-|Calculated damage per second|2400.000|2880.000|3360.000|3840.000|4320.000|4800.000|5280.000|5760.000|6240.000|7200.000|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
+|Calculated damage per second|2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 
   * Headquarters: 100%
   * Heavy infantry: 60%
@@ -136,7 +135,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Light vehicle (50), Storage (50), Ressource generator (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -233,9 +232,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-|Level      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|-----------|--|--|--|--|--|--|--|--|--|--|
-|Effect type|2 |2 |1 |1 |1 |1 |1 |1 |1 |1 |
+|Level      |1, 2|3, 4, 5, 6, 7, 8, 9, 10|
+|-----------|----|-----------------------|
+|Effect type|2   |1                      |
 
 ### Attack presentation stats
 
@@ -245,7 +244,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Audio ability activate: "sfx_lightsaber_luke_activate_1":100
   * Audio ability attack: "sfx_lightsaber_luke_swing_1":30,"sfx_lightsaber_luke_swing_2":35,"sfx_lightsaber_luke_swing_3":35
   * Audio ability loop: "sfx_lightsaber_luke_whirlwind":100
-  * Displayed damage per second: 1000.000
+  * Displayed damage per second: 1000
   * Name: Lightsaber Defend Luke
   * Persistent effect: fx_aura_rbl
   * Persistent scaling: 0
@@ -266,11 +265,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
-|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 ### Uninterpreted attack stats
 

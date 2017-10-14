@@ -53,7 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 4
   * Min attack range: 0
-  * New rotation speed: 2000.000
+  * New rotation speed: 2000
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 16
@@ -78,7 +78,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 2928.000
+  * Displayed damage per second: 2928
   * Splash damage percentages: 100,100,75,50,25
   * _Not found: Beam damage_
 
@@ -142,7 +142,7 @@ These are all sorts of user interface settings, that should not interfere with g
 ### Attack presentation stats
 
   * Animation delay: 960
-  * Displayed damage per second: 2928.000
+  * Displayed damage per second: 2928
   * Favorite target type: closest
   * Arcs: No
   * Hit spark: fx_gamGuard_deathblow
@@ -161,11 +161,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
-|Level      |1     |2     |3     |4     |5     |6      |7      |8      |9      |10     |
-|-----------|------|------|------|------|------|-------|-------|-------|-------|-------|
-|Order      |225401|225402|225403|225404|225405|225406 |225407 |225408 |225409 |225410 |
-|Point value|50.000|60.000|70.000|80.000|90.000|100.000|110.000|120.000|130.000|150.000|
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |225401|225402|225403|225404|225405|225406|225407|225408|225409|225410|
+|Point value|50    |60    |70    |80    |90    |100   |110   |120   |130   |150   |
 
 ### Uninterpreted attack stats
 

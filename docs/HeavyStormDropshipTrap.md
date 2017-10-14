@@ -22,14 +22,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|------|----|----|----|----|----|----|----|----|----|----|
-|Health|7040|7040|7040|7040|7040|7040|7040|7680|8320|9600|
+|Level |1, 2, 3, 4, 5, 6, 7|8   |9   |10  |
+|------|-------------------|----|----|----|
+|Health|7040               |7680|8320|9600|
 
 ### Training stats
 
   * Building: [Research Lab 2](empireOffenseLab.html)
-
 
 |Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10  |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|----|
@@ -62,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -81,19 +80,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|389|389|389|389|389|389|389|425|460|531|
+|Level          |1, 2, 3, 4, 5, 6, 7|8  |9  |10 |
+|---------------|-------------------|---|---|---|
+|Damage per shot|389                |425|460|531|
 
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |520.000 |626.000 |729.000 |832.000 |938.000 |1041.000|1144.000|1250.000|1352.000|1561.000|
-|Calculated damage per second|1144.118|1144.118|1144.118|1144.118|1144.118|1144.118|1144.118|1250.000|1352.941|1561.765|
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8   |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|----|--------|--------|
+|Displayed damage per second |520     |626     |729     |832     |938     |1041    |1144    |1250|1352    |1561    |
+|Calculated damage per second|1144.118|1144.118|1144.118|1144.118|1144.118|1144.118|1144.118|1250|1352.941|1561.765|
 
   * Headquarters: 100%
   * Heavy infantry: 100%
@@ -165,9 +163,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1      |2      |3      |4      |5      |6       |7       |8       |9       |10      |
-|---------------------------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|
-|Displayed damage per second|520.000|626.000|729.000|832.000|938.000|1041.000|1144.000|1250.000|1352.000|1561.000|
+|Level                      |1  |2  |3  |4  |5  |6   |7   |8   |9   |10  |
+|---------------------------|---|---|---|---|---|----|----|----|----|----|
+|Displayed damage per second|520|626|729|832|938|1041|1144|1250|1352|1561|
 
 ### Uninterpreted stats
 
@@ -180,11 +178,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |135401|135402|135403|135404|135405|135406|135407|135408|135409|135410|
-|Point value|1.000 |1.200 |1.400 |1.600 |1.800 |2.000 |2.200 |2.400 |2.600 |3.000 |
+|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 ### Uninterpreted attack stats
 

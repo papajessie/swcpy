@@ -21,21 +21,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: champion
   * _Not found: Can be given, Unlock planet_
 
-
-|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |16000|16000|16000|16000|16000|19200|23680|36480|44160|48000|
-|Shield health|12000|12000|12000|12000|12000|14400|17760|27360|33120|36000|
+|Level        |1, 2, 3, 4, 5|6    |7    |8    |9    |10   |
+|-------------|-------------|-----|-----|-----|-----|-----|
+|Health       |16000        |19200|23680|36480|44160|48000|
+|Shield health|12000        |14400|17760|27360|33120|36000|
 
 ### Training stats
 
   * Training cost: Free
 
-
-|Level        |1                                                                                          |2                                                                                          |3                                                                                          |4                                                                                          |5                                                                                          |6                                                                                          |7                                                                                          |8                                                                                          |9                                                                                          |10                                                                                          |
-|-------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-|Training time|1h                                                                                         |1h                                                                                         |1h                                                                                         |1h                                                                                         |1h                                                                                         |1h8m                                                                                       |1h18m                                                                                      |1h58m                                                                                      |2h16m                                                                                      |2h19m                                                                                       |
-|Building     |[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 7](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 8](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 9](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 10](smugglerPlatformDroideka.html)|
+|Level        |1, 2, 3, 4, 5                                                                              |6                                                                                          |7                                                                                          |8                                                                                          |9                                                                                          |10                                                                                          |
+|-------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+|Training time|1h                                                                                         |1h8m                                                                                       |1h18m                                                                                      |1h58m                                                                                      |2h16m                                                                                      |2h19m                                                                                       |
+|Building     |[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 7](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 8](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 9](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 10](smugglerPlatformDroideka.html)|
 
 ### Upgrading stats
 
@@ -60,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -79,19 +77,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
-|Level          |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|---------------|---|---|---|---|---|---|----|----|----|----|
-|Damage per shot|734|734|734|734|734|440|1086|1673|2025|2200|
+|Level          |1, 2, 3, 4, 5|6  |7   |8   |9   |10  |
+|---------------|-------------|---|----|----|----|----|
+|Damage per shot|734          |440|1086|1673|2025|2200|
 
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2202.000|2202.000|2202.000|2202.000|2202.000|1320.000|3258.000|5019.000|6075.000|6600.000|
-|Calculated damage per second|3145.714|3145.714|3145.714|3145.714|3145.714|1885.714|4654.286|7170.000|8678.571|9428.571|
+|Level                       |1, 2, 3, 4, 5|6       |7       |8   |9       |10      |
+|----------------------------|-------------|--------|--------|----|--------|--------|
+|Displayed damage per second |2202         |1320    |3258    |5019|6075    |6600    |
+|Calculated damage per second|3145.714     |1885.714|4654.286|7170|8678.571|9428.571|
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -152,13 +149,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * UI decal asset name: HeroDecalNeutral
   * _Not found: Audio impact, Audio train, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-
-
-|Level          |1                                                                                                                                      |2                                                                                                                                      |3                                                                                                                                      |4                                                                                                                                      |5                                                                                                                                      |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|Audio attack   |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
-|Audio death    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
-|Audio placement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
+|Level          |1, 2, 3, 4, 5, 6                                                                                                                       |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|Audio attack   |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
+|Audio death    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
+|Audio placement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
 
 ### Attack presentation stats
 
@@ -173,9 +168,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2202.000|2202.000|2202.000|2202.000|2202.000|1320.000|3258.000|5019.000|6075.000|6600.000|
+|Level                      |1, 2, 3, 4, 5|6   |7   |8   |9   |10  |
+|---------------------------|-------------|----|----|----|----|----|
+|Displayed damage per second|2202         |1320|3258|5019|6075|6600|
 
 ### Uninterpreted stats
 
@@ -188,11 +183,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
-|Level      |1     |2     |3     |4     |5     |6     |7     |8      |9      |10     |
-|-----------|------|------|------|------|------|------|------|-------|-------|-------|
-|Order      |314701|314702|314703|314704|314705|314706|314707|314708 |314709 |314710 |
-|Point value|20.000|20.000|20.000|20.000|20.000|40.000|68.000|148.000|188.000|200.000|
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |314701|314702|314703|314704|314705|314706|314707|314708|314709|314710|
+|Point value|20    |20    |20    |20    |20    |40    |68    |148   |188   |200   |
 
 ### Uninterpreted attack stats
 

@@ -57,7 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 10
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Droideka (100)**, _Infantry (60)_, _Support troop (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -85,10 +85,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100
   * _Not found: Beam damage_
 
-
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1200.000|1435.000|1675.000|1915.000|2160.000|2400.000|2640.000|2875.000|3115.000|3590.000|
+|Displayed damage per second |1200    |1435    |1675    |1915    |2160    |2400    |2640    |2875    |3115    |3590    |
 |Calculated damage per second|1201.231|1437.538|1675.077|1917.538|2158.769|2396.308|2638.769|2875.077|3112.615|3591.385|
 
   * Headquarters: 100%
@@ -133,7 +132,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 12
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 50
   * Target preferences: **Droideka (255)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -205,7 +204,6 @@ These stats internal to the system link different parts of data together.
   * Upgrade shard uid: shrd_troopEmpireTognath
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
 
-
 |Level          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |---------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Ability        |abilityTognathShot1   |abilityTognathShot2   |abilityTognathShot3   |abilityTognathShot4   |abilityTognathShot5   |abilityTognathShot6   |abilityTognathShot7   |abilityTognathShot8   |abilityTognathShot9   |abilityTognathShot10   |
@@ -241,9 +239,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-|Level            |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|-----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock scale|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level            |1          |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|-----------------|-----------|--------------------------|
+|Icon unlock scale|1.2,1.2,1.2|(not found)               |
 
 ### Attack presentation stats
 
@@ -252,7 +250,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Alt gun locators: 1
   * Animation delay: 250
   * Audio ability attack: "sfx_attack_tognath_ability_01":33,"sfx_attack_tognath_ability_02":33,"sfx_attack_tognath_ability_03":34
-  * Displayed damage per second: 1000.000
+  * Displayed damage per second: 1000
   * Favorite target type: generic
   * Name: TognathShot
   * Persistent scaling: 0

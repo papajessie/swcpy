@@ -50,9 +50,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
 
-|Level    |1 |2 |3 |
-|---------|--|--|--|
-|Max speed|30|30|20|
+|Level    |1, 2|3 |
+|---------|----|--|
+|Max speed|30  |20|
 
 ## Main attack : BountyHunter / Smuggler
 
@@ -61,13 +61,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (55)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
 
-|Level     |1 |2 |3 |
-|----------|--|--|--|
-|View range|20|20|8 |
+|Level     |1, 2|3|
+|----------|----|-|
+|View range|20  |8|
 
 ### Shooting
 
@@ -81,9 +81,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
-
-
-
 |Level                                     |1  |2     |3  |
 |------------------------------------------|---|------|---|
 |Damage per shot                           |50 |50    |434|
@@ -95,61 +92,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
 |Level                       |1     |2     |3      |
 |----------------------------|------|------|-------|
-|Displayed damage per second |46.000|44.000|400.000|
+|Displayed damage per second |46    |44    |400    |
 |Calculated damage per second|46.154|44.444|400.615|
 
   * Droideka: 100%
   * Shield: 100%
   * Storage: 100%
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|Level              |1   |2   |3   |
-|-------------------|----|----|----|
-|Headquarters       |50% |50% |100%|
-|Heavy infantry     |20% |20% |100%|
-|Heavy vehicle      |20% |20% |100%|
-|Other building     |50% |50% |100%|
-|Flying infantry    |20% |20% |100%|
-|Flying vehicle     |20% |20% |100%|
-|Support troop      |20% |20% |100%|
-|Heavy infantry hero|20% |20% |100%|
-|Heavy vehicule hero|20% |20% |100%|
-|Infantry hero      |20% |20% |100%|
-|Vehicule hero      |20% |20% |100%|
-|Infantry           |20% |20% |100%|
-|Ressource generator|50% |50% |100%|
-|Shield generator   |50% |50% |100%|
-|Trap               |50% |50% |100%|
-|Turret             |50% |50% |100%|
-|Light vehicle      |20% |20% |100%|
-|Wall               |200%|200%|100%|
+|Level              |1, 2|3   |
+|-------------------|----|----|
+|Headquarters       |50% |100%|
+|Heavy infantry     |20% |100%|
+|Heavy vehicle      |20% |100%|
+|Other building     |50% |100%|
+|Flying infantry    |20% |100%|
+|Flying vehicle     |20% |100%|
+|Support troop      |20% |100%|
+|Heavy infantry hero|20% |100%|
+|Heavy vehicule hero|20% |100%|
+|Infantry hero      |20% |100%|
+|Vehicule hero      |20% |100%|
+|Infantry           |20% |100%|
+|Ressource generator|50% |100%|
+|Shield generator   |50% |100%|
+|Trap               |50% |100%|
+|Turret             |50% |100%|
+|Light vehicle      |20% |100%|
+|Wall               |200%|100%|
 
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
   * Pass through shield: No
   * _Not found: Length segments, Width segments_
-
-
 
 |Level               |1     |2     |3     |
 |--------------------|------|------|------|
@@ -179,17 +156,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-
-
-
-
-|Level               |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|Asset name          |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|Buff asset offset   |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |
-|Bundle name         |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|Gun position        |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
-|Icon camera position|9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
+|Level               |1, 2                                                                                                                                               |3                                                                         |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|Asset name          |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|Buff asset offset   |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |
+|Bundle name         |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
+|Gun position        |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
+|Icon camera position|9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 
 ### Attack presentation stats
 
@@ -203,10 +176,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-
 |Level                      |1           |2           |3       |
 |---------------------------|------------|------------|--------|
-|Displayed damage per second|46.000      |44.000      |400.000 |
+|Displayed damage per second|46          |44          |400     |
 |Name                       |BountyHunter|BountyHunter|Smuggler|
 
 ### Uninterpreted stats
@@ -220,11 +192,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |
 |-----------|------|------|------|
 |Order      |322601|322602|322603|
-|Point value|1.000 |1.200 |1.400 |
+|Point value|1     |1.200 |1.400 |
 
 ### Uninterpreted attack stats
 

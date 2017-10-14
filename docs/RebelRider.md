@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 1
   * Target preferences: **Light vehicle (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Support troop (0), Other building (0), Headquarters (0)
   * View range: 5
@@ -82,13 +82,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Calculated damage per second: 0.000
+  * Calculated damage per second: 0
   * Splash damage percentages: 100,100,100,100,100
   * _Not found: Beam damage_
 
-|Level                      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------------------|------|------|------|------|------|------|------|------|------|------|
-|Displayed damage per second|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|28.000|30.000|
+|Level                      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|---------------------------|--|--|--|--|--|--|--|--|--|--|
+|Displayed damage per second|12|14|16|18|20|22|24|26|28|30|
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -131,7 +131,6 @@ These stats internal to the system link different parts of data together.
   * Unit ID: RebelRider
   * _Not found: Ability, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-
 |Level           |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |----------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Death projectile|projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
@@ -167,9 +166,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|---------------------------|------|------|------|------|------|------|------|------|------|------|
-|Displayed damage per second|12.000|14.000|16.000|18.000|20.000|22.000|24.000|26.000|28.000|30.000|
+|Level                      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|---------------------------|--|--|--|--|--|--|--|--|--|--|
+|Displayed damage per second|12|14|16|18|20|22|24|26|28|30|
 
 ### Uninterpreted stats
 
@@ -182,11 +181,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |215301|215302|215303|215304|215305|215306|215307|215308|215309|215310|
-|Point value|7.000 |8.000 |10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
+|Point value|7     |8     |10    |11    |13    |14    |15    |17    |18    |21    |
 
 ### Uninterpreted attack stats
 

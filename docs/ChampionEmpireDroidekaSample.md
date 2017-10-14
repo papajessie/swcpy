@@ -21,7 +21,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
 
-
 |Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health       |19200|23680|26880|30080|33280|36480|39040|41600|43840|46080|
@@ -32,9 +31,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training cost: Free
   * Building: [Headquarters 1](empireHQ.html)
 
-|Level        |1   |2    |3    |4    |5    |6    |7   |8    |9    |10   |
-|-------------|----|-----|-----|-----|-----|-----|----|-----|-----|-----|
-|Training time|1h8m|1h18m|1h28m|1h39m|1h48m|1h58m|2h8m|2h19m|2h19m|2h19m|
+|Level        |1   |2    |3    |4    |5    |6    |7   |8, 9, 10|
+|-------------|----|-----|-----|-----|-----|-----|----|--------|
+|Training time|1h8m|1h18m|1h28m|1h39m|1h48m|1h58m|2h8m|2h19m   |
 
 ### Upgrading stats
 
@@ -59,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -76,8 +75,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target locking: No
   * _Not found: New target on reload_
 
-
-
 |Level                |1      |2      |3      |4      |5      |6      |7      |8          |9          |10         |
 |---------------------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|-----------|
 |Damage per shot      |660    |815    |925    |1034   |1145   |1255   |1343   |965        |1036       |1106       |
@@ -88,10 +85,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2640.000|3260.000|3699.000|4136.000|4578.000|5019.000|5370.000|5721.000|6216.000|6636.000|
+|Displayed damage per second |2640    |3260    |3699    |4136    |4578    |5019    |5370    |5721    |6216    |6636    |
 |Calculated damage per second|3107.710|3837.552|4355.503|4868.746|5391.407|5909.358|6323.720|6815.774|7317.245|7811.654|
 
   * Headquarters: 100%
@@ -123,9 +119,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Salvos: 4
   * _Not found: Length segments, Width segments_
 
-|Level               |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|--------------------|--|--|--|--|--|--|--|--|--|--|
-|Cannons per sequence|4 |4 |4 |4 |4 |4 |4 |6 |6 |6 |
+|Level               |1, 2, 3, 4, 5, 6, 7|8, 9, 10|
+|--------------------|-------------------|--------|
+|Cannons per sequence|4                  |6       |
 
 ## Other stats
 
@@ -152,17 +148,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Tooltip height offset: 1.5
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
 
-
-
-
-
-|Level               |1                          |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                          |
-|--------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name          |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Bundle name         |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Icon camera position|18.67,14.16,15.1           |15.43,14.67,18.88           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.91,14.58,19.08           |21.79,18.39,13.58           |21.79,18.39,13.58           |21.79,18.39,13.58           |
-|Icon lookat position|-0.39,1.23,-0.21           |-0.32,1.71,0.09             |-0.32,1.71,0.09             |-0.19,1.6,0                 |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.1,1.43,0.08              |-0.35,1.49,0.26             |-0.35,1.49,0.26             |-0.35,1.49,0.26             |
-|Shield asset name   |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
+|Level               |1                          |2, 3                        |4, 5                        |6, 7                        |8, 9, 10                    |
+|--------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name          |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up40       |
+|Bundle name         |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up40       |
+|Icon camera position|18.67,14.16,15.1           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.91,14.58,19.08           |21.79,18.39,13.58           |
+|Icon lookat position|-0.39,1.23,-0.21           |-0.32,1.71,0.09             |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.35,1.49,0.26             |
+|Shield asset name   |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|
 
 ### Attack presentation stats
 
@@ -177,9 +169,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2640.000|3260.000|3699.000|4136.000|4578.000|5019.000|5370.000|5721.000|6216.000|6636.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|2640|3260|3699|4136|4578|5019|5370|5721|6216|6636|
 
 ### Uninterpreted stats
 
@@ -193,9 +185,9 @@ Seriously, we don't really know what to do with these.
   * Xp: 0
   * _Not found: Order_
 
-|Level      |1     |2     |3     |4      |5      |6      |7      |8      |9      |10     |
-|-----------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
-|Point value|40.000|68.000|88.000|108.000|128.000|148.000|172.000|200.000|200.000|200.000|
+|Level      |1 |2 |3 |4  |5  |6  |7  |8, 9, 10|
+|-----------|--|--|--|---|---|---|---|--------|
+|Point value|40|68|88|108|128|148|172|200     |
 
 ### Uninterpreted attack stats
 

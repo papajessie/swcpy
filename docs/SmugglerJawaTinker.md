@@ -37,7 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 1
   * Propensity to go around obstacles: 1
-  * Rotation speed: 1.000
+  * Rotation speed: 1
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -49,7 +49,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 1
   * Min attack range: 0
-  * New rotation speed: 1.000
+  * New rotation speed: 1
   * Target preference strength: 90
   * Target preferences: **Shield generator (70)**, **Shield (70)**, _Storage (60)_, _Ressource generator (60)_, _Other building (60)_, Light vehicle (50), Turret (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -70,7 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Displayed damage per second: 1.000
+  * Displayed damage per second: 1
   * Calculated damage per second: 833.333
   * _Not found: Beam damage, Splash damage percentages_
   * Headquarters: 100%
@@ -126,7 +126,7 @@ These are all sorts of user interface settings, that should not interfere with g
 ### Attack presentation stats
 
   * Animation delay: 0
-  * Displayed damage per second: 1.000
+  * Displayed damage per second: 1
   * Favorite target type: closest
   * Arcs: No
   * Bullet: fx_blaster_beam_y_sm
@@ -144,7 +144,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn spreading scale: 1
   * Max scale: No
   * Order: 372301
-  * Point value: 0.000
+  * Point value: 0
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0

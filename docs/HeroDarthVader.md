@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 3
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
@@ -88,10 +88,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 0
   * _Not found: Beam damage_
 
-
 |Level                       |1       |2       |3        |4        |5        |6        |7        |8        |9        |10       |
 |----------------------------|--------|--------|---------|---------|---------|---------|---------|---------|---------|---------|
-|Displayed damage per second |8210.000|9852.000|11494.000|13136.000|14778.000|16421.000|18063.000|19705.000|21347.000|24631.000|
+|Displayed damage per second |8210    |9852    |11494    |13136    |14778    |16421    |18063    |19705    |21347    |24631    |
 |Calculated damage per second|8210.526|9852.632|11494.737|13136.842|14778.947|16421.053|18063.158|19705.263|21347.368|24631.579|
 
   * Headquarters: 100%
@@ -136,7 +135,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 7
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Light vehicle (50), Storage (50), Ressource generator (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
@@ -241,7 +240,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Audio ability activate: "sfx_lightsaber_vader_activate_1":100
   * Audio ability attack: "sfx_lightsaber_vader_swing_1":30,"sfx_lightsaber_vader_swing_2":35,"sfx_lightsaber_vader_swing_3":35
   * Audio ability loop: "sfx_lightsaber_vader_whirlwind":100
-  * Displayed damage per second: 1000.000
+  * Displayed damage per second: 1000
   * Name: Lightsaber Defend Darth
   * Persistent effect: fx_aura_emp
   * Persistent scaling: 0
@@ -262,11 +261,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |110601|110602|110603|110604|110605|110606|110607|110608|110609|110610|
-|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 ### Uninterpreted attack stats
 

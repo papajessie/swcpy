@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: Yes
   * Max attack range: 6
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (30), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
@@ -87,11 +87,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * _Not found: Beam damage, Splash damage percentages_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2125.000|2150.000|2175.000|2200.000|2225.000|2250.000|2275.000|2300.000|2325.000|2350.000|
-|Calculated damage per second|6800.000|6880.000|6960.000|7040.000|7120.000|7200.000|7280.000|7360.000|7440.000|7520.000|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
+|Calculated damage per second|6800|6880|6960|7040|7120|7200|7280|7360|7440|7520|
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -135,7 +134,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Max attack range: 10
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Shield (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 10
@@ -206,7 +205,6 @@ These stats internal to the system link different parts of data together.
   * Unit ID: EmpireBrute
   * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-
 |Level          |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |Ability        |abilityBruteBomb1   |abilityBruteBomb2   |abilityBruteBomb3   |abilityBruteBomb4   |abilityBruteBomb5   |abilityBruteBomb6   |abilityBruteBomb7   |abilityBruteBomb8   |abilityBruteBomb9   |abilityBruteBomb10   |
@@ -245,7 +243,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Animation delay: 810
   * Audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":50
   * Audio ability attack: "sfx_explosion_brute_01":50,"sfx_explosion_brute_02":50
-  * Displayed damage per second: 1000.000
+  * Displayed damage per second: 1000
   * Favorite target type: vehicles
   * Name: BruteSpecial
   * Persistent scaling: 0
@@ -267,11 +265,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |115401|115402|115403|115404|115405|115406|115407|115408|115409|115410|
-|Point value|12.000|14.000|17.000|19.000|22.000|24.000|26.000|29.000|31.000|36.000|
+|Point value|12    |14    |17    |19    |22    |24    |26    |29    |31    |36    |
 
 ### Uninterpreted attack stats
 

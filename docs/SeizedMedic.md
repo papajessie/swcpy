@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Infantry (50)**, **Infantry hero (50)**, **Heavy infantry hero (50)**, **Heavy infantry (50)**, Wall (0), Light vehicle (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Vehicule hero (0), Heavy vehicule hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Headquarters (0)
   * View range: 8
@@ -82,13 +82,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Calculated damage per second: 0.000
+  * Calculated damage per second: 0
   * Splash damage percentages: 100,100,100,100
   * _Not found: Beam damage_
 
-|Level                      |1      |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|865.000|1078.000|1257.000|1437.000|1616.000|1795.000|1976.000|2155.000|2334.000|2693.000|
+|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|---|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|865|1078|1257|1437|1616|1795|1976|2155|2334|2693|
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -162,9 +162,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1      |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|865.000|1078.000|1257.000|1437.000|1616.000|1795.000|1976.000|2155.000|2334.000|2693.000|
+|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|---|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|865|1078|1257|1437|1616|1795|1976|2155|2334|2693|
 
 ### Uninterpreted stats
 

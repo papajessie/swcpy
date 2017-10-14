@@ -58,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 5
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Vehicule hero (50)**, **Heavy vehicule hero (50)**, **Heavy vehicle (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Infantry hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy infantry (0), Headquarters (0)
   * View range: 8
@@ -79,13 +79,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Calculated damage per second: 0.000
+  * Calculated damage per second: 0
   * Splash damage percentages: 100,100,100,100
   * _Not found: Beam damage_
 
-|Level                      |1      |2      |3      |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|860.000|910.000|970.000|1020.000|1070.000|1130.000|1180.000|1230.000|1330.000|1440.000|
+|Level                      |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|---|---|---|----|----|----|----|----|----|----|
+|Displayed damage per second|860|910|970|1020|1070|1130|1180|1230|1330|1440|
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -153,13 +153,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-
-
-|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level               |1    |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|--------------------|-----|--------------------------|
+|Icon unlock position|0,0,0|(not found)               |
+|Icon unlock rotation|0,0,0|(not found)               |
+|Icon unlock scale   |1,1,1|(not found)               |
 
 ### Attack presentation stats
 
@@ -172,9 +170,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1      |2      |3      |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|860.000|910.000|970.000|1020.000|1070.000|1130.000|1180.000|1230.000|1330.000|1440.000|
+|Level                      |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|---|---|---|----|----|----|----|----|----|----|
+|Displayed damage per second|860|910|970|1020|1070|1130|1180|1230|1330|1440|
 
 ### Uninterpreted stats
 
@@ -187,11 +185,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |234501|234502|234503|234504|234505|234506|234507|234508|234509|234510|
-|Point value|4.000 |4.800 |5.600 |6.400 |7.200 |8.000 |8.800 |9.600 |10.400|12.000|
+|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
 ### Uninterpreted attack stats
 

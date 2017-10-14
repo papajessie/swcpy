@@ -51,9 +51,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
 
-|Level                            |1 |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|---------------------------------|--|---|---|---|---|---|---|---|---|---|
-|Propensity to go around obstacles|15|200|200|200|200|200|200|200|200|200|
+|Level                            |1 |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|---------------------------------|--|--------------------------|
+|Propensity to go around obstacles|15|200                       |
 
 ## Main attack : Shock Rocket
 
@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 9
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Trap (90)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1)
   * View range: 21
@@ -90,11 +90,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100,50,10,5
   * _Not found: Beam damage_
 
-
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2340.000|2512.000|2692.000|2892.000|3100.000|3332.000|3580.000|3852.000|4152.000|4470.000|
-|Calculated damage per second|668.571 |717.714 |769.143 |826.286 |885.714 |952.000 |1022.857|1100.571|1186.286|1277.143|
+|Level                       |1      |2      |3      |4      |5      |6   |7       |8       |9       |10      |
+|----------------------------|-------|-------|-------|-------|-------|----|--------|--------|--------|--------|
+|Displayed damage per second |2340   |2512   |2692   |2892   |3100   |3332|3580    |3852    |4152    |4470    |
+|Calculated damage per second|668.571|717.714|769.143|826.286|885.714|952 |1022.857|1100.571|1186.286|1277.143|
 
   * Headquarters: 200%
   * Heavy infantry: 25%
@@ -161,13 +160,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * _Not found: Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Hologram uid, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
 
-
-
-|Level               |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|--------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Icon unlock position|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale   |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level               |1    |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|--------------------|-----|--------------------------|
+|Icon unlock position|0,0,0|(not found)               |
+|Icon unlock rotation|0,0,0|(not found)               |
+|Icon unlock scale   |1,1,1|(not found)               |
 
 ### Attack presentation stats
 
@@ -182,9 +179,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2340.000|2512.000|2692.000|2892.000|3100.000|3332.000|3580.000|3852.000|4152.000|4470.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|2340|2512|2692|2892|3100|3332|3580|3852|4152|4470|
 
 ### Uninterpreted stats
 
@@ -197,11 +194,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |121201|121202|121203|121204|121205|121206|121207|121208|121209|121210|
-|Point value|3.000 |3.600 |4.200 |4.800 |5.400 |6.000 |6.600 |7.200 |7.800 |9.000 |
+|Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
 
 ### Uninterpreted attack stats
 

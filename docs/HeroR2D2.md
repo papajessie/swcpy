@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 2
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Vehicule hero (50)**, **Heavy vehicule hero (50)**, **Heavy vehicle (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Infantry hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy infantry (0), Headquarters (0)
   * View range: 8
@@ -82,13 +82,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Calculated damage per second: 0.000
+  * Calculated damage per second: 0
   * Splash damage percentages: 100,100,100,100
   * _Not found: Beam damage_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2200.000|2640.000|3080.000|3520.000|3960.000|4400.000|4840.000|5280.000|5720.000|6600.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -128,7 +128,6 @@ These stats internal to the system link different parts of data together.
   * Unit ID: HeroR2D2
   * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
-
 |Level      |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
 |-----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
 |Hero data  |hero1          |hero2          |hero3          |hero4          |hero5          |hero6          |hero7          |hero8          |hero9          |hero10          |
@@ -166,9 +165,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
 
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|2200.000|2640.000|3080.000|3520.000|3960.000|4400.000|4840.000|5280.000|5720.000|6600.000|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
 
 ### Uninterpreted stats
 
@@ -181,11 +180,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |210501|210502|210503|210504|210505|210506|210507|210508|210509|210510|
-|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 ### Uninterpreted attack stats
 

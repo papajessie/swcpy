@@ -53,7 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 4
   * Min attack range: 0
-  * New rotation speed: 2000.000
+  * New rotation speed: 2000
   * Target preference strength: 90
   * Target preferences: **Infantry (70)**, **Infantry hero (70)**, **Heavy infantry hero (70)**, **Heavy infantry (70)**, _Light vehicle (60)_, _Vehicule hero (60)_, _Heavy vehicule hero (60)_, _Droideka (60)_, _Heavy vehicle (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Support troop (50), Other building (50), Headquarters (40), Wall (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 16
@@ -81,10 +81,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100,50
   * _Not found: Beam damage_
 
-
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |3690.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|
+|Displayed damage per second |3690    |2928    |2928    |2928    |2928    |2928    |2928    |2928    |2928    |2928    |
 |Calculated damage per second|2753.731|2843.284|2940.299|3037.313|3141.791|3570.896|3694.030|4164.179|4307.463|4645.522|
 
   * Headquarters: 75%
@@ -150,11 +149,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
 
-
-|Level                      |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
-|---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second|3690.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|2928.000|
-|Favorite target type       |turret  |infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|infantry|
+|Level                      |1     |2, 3, 4, 5, 6, 7, 8, 9, 10|
+|---------------------------|------|--------------------------|
+|Displayed damage per second|3690  |2928                      |
+|Favorite target type       |turret|infantry                  |
 
 ### Uninterpreted stats
 
@@ -167,11 +165,10 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
 |Order      |225601|225602|225603|225604|225605|225606|225607|225608|225609|225610|
-|Point value|20.000|24.000|28.000|32.000|36.000|40.000|44.000|48.000|52.000|60.000|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 ### Uninterpreted attack stats
 

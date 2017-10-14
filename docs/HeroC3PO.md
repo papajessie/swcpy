@@ -54,7 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: No
   * Max attack range: 2
   * Min attack range: 0
-  * New rotation speed: 7854.000
+  * New rotation speed: 7854
   * Target preference strength: 1
   * Target preferences: **Light vehicle (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Support troop (0), Other building (0), Headquarters (0)
   * View range: 100
@@ -75,7 +75,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * _Not found: New target on reload_
 ### Projectile
 
-  * Calculated damage per second: 0.000
+  * Calculated damage per second: 0
   * Splash damage percentages: 100
   * _Not found: Beam damage, Displayed damage per second_
   * Headquarters: 0%
@@ -159,9 +159,9 @@ Seriously, we don't really know what to do with these.
   * Xp: 0
   * _Not found: Order_
 
-|Level      |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|-----|-----|------|------|------|------|------|------|------|------|
-|Point value|7.000|8.000|10.000|11.000|13.000|14.000|15.000|17.000|18.000|21.000|
+|Level      |1|2|3 |4 |5 |6 |7 |8 |9 |10|
+|-----------|-|-|--|--|--|--|--|--|--|--|
+|Point value|7|8|10|11|13|14|15|17|18|21|
 
 ### Uninterpreted attack stats
 
