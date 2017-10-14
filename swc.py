@@ -571,7 +571,7 @@ def initstat():
         elif type=='':
             continue
         elif type=='float':
-            config['stathandler'][k]=lambda x:('%.3f' % float(x))
+            config['stathandler'][k]=display_float
         elif type=='boolean':
             config['stathandler'][k]=display_boolean
         elif type=='time':
@@ -1463,9 +1463,9 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilebasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemisc']))
-        tosee.remove('abilityprojectilebasic')
-        tosee.remove('abilityprojectilemult')
-        tosee.remove('abilityprojectilemisc')
+    tosee.remove('abilityprojectilebasic')
+    tosee.remove('abilityprojectilemult')
+    tosee.remove('abilityprojectilemisc')
     xout+='## Other stats\n\n'
     xout+='### Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='internal']))
@@ -1501,10 +1501,10 @@ def output_list_unit(out,objects,item,LINKS=False):
     if 'ability' in item['options']:
         xout+='### Uninterpreted secondary attack stats\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityunknown' or allkeys[x]=='abilityprojectileunknown']))
-        tosee.remove('abilityunknown')
-        tosee.remove('abilityprojectileunknown')
+    tosee.remove('abilityunknown')
+    tosee.remove('abilityprojectileunknown')
     if len(tosee)>0:
-        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)
+        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)+'\n'
     out[len(out)-1]+=xout
     return
 
@@ -1547,6 +1547,14 @@ def output_md_unit(out,objects,item):
 # This set of functions take an Id and return the adequate string for it
 
 def display_planet(planetId):
+    return _('planet_name_'+planetId)
+
+def display_float(xx):
+    x=float(xx)
+    if x%1<0.001:
+        return(str(int(x)))
+    else:
+        return '%.3f' % x
     return _('planet_name_'+planetId)
 
 def display_boolean(x):
@@ -1897,44 +1905,80 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
     #     if key in titles:
     #         t=titles[key]
     #     output+='  * {0}: _{1}_\n'.format(t,display[key][firstlevel])
-    width={}
-    width['label']=5
-    for level in levels:
-        width[level]=2
-        for key in variablevalues:
-            w=len(display[key][level])
-            if w>width[level]:
-                width[level]=w
-    for key in variablevalues:
-        t=key
-        if key in titles:
-            t=titles[key]
-        w=len(t)
-        if w>width['label']:
-            width['label']=w
-    if len(output)>0:
-        output+='\n'
+    old=''
+    displevel={}
+    newlevs=[]
+    newdisp={}
     if len(variablevalues)>0:
-        line='|'
-        line+='{message: <{width}}|'.format(message='Level',width=width['label'])
-        for level in levels:
-            line+='{message: <{width}}|'.format(message=str(level),width=width[level])
-        line+='\n|'
-        line+=('-'*width['label'])+'|'
-        for level in levels:
-            line+=('-'*width[level])
-            line+='|'
-        line+='\n'
         for key in variablevalues:
-            t=key
-            if key in titles:
-                t=titles[key]
-            line+='|'
-            line+='{message: <{width}}|'.format(message=t,width=width['label'])
+            newdisp[key]={}
+        for level in levels:
+            newlevel='{}'.format(level)
+            new=''
+            for key in variablevalues:
+                new+='ABCDEFGHIJKL'+display[key][level]
+            if new==old:
+                oldlev=newlevs[-1]
+                newlev=oldlev+', '+newlevel
+                for key in variablevalues:
+                    newdisp[key][newlev]=newdisp[key][oldlev]
+                    del newdisp[key][oldlev]
+                newlevs[-1]=newlev
+            else:
+                newlev=newlevel
+                newlevs.append(newlevel)
+            for key in variablevalues:
+                newdisp[key][newlev]=display[key][level]
+            old=new 
+        levels=newlevs
+        display=newdisp
+        if len(levels)>10:
+            sublevels=[]
+            while len(levels)>10:
+                sublevels.append(levels[0:10])
+                levels=levels[10:]
+            sublevels.append(levels)
+        else:
+            sublevels=[levels]
+        for levels in sublevels:
+            width={}
+            width['label']=5
             for level in levels:
-                line+='{message: <{width}}|'.format(message=display[key][level],width=width[level])
-            line+='\n'
-        output+=line+'\n'
+                width[level]=len(level)
+                for key in variablevalues:
+                    w=len(display[key][level])
+                    if w>width[level]:
+                        width[level]=w
+            for key in variablevalues:
+                t=key
+                if key in titles:
+                    t=titles[key]
+                w=len(t)
+                if w>width['label']:
+                    width['label']=w
+            if len(output)>0:
+                output+='\n'
+            if len(variablevalues)>0:
+                line='|'
+                line+='{message: <{width}}|'.format(message='Level',width=width['label'])
+                for level in levels:
+                    line+='{message: <{width}}|'.format(message=str(level),width=width[level])
+                line+='\n|'
+                line+=('-'*width['label'])+'|'
+                for level in levels:
+                    line+=('-'*width[level])
+                    line+='|'
+                line+='\n'
+                for key in variablevalues:
+                    t=key
+                    if key in titles:
+                        t=titles[key]
+                    line+='|'
+                    line+='{message: <{width}}|'.format(message=t,width=width['label'])
+                    for level in levels:
+                        line+='{message: <{width}}|'.format(message=display[key][level],width=width[level])
+                    line+='\n'
+                output+=line+'\n'
     return(output)
 
 
