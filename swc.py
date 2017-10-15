@@ -239,9 +239,9 @@ def initstat():
         'crushesWalls': 'move',
         'deathAnimation': 'presentation',
         'deathProjectile': 'internal',
-        'deathProjectileDamage': 'internal',
-        'deathProjectileDelay': 'internal',
-        'deathProjectileDistance': 'internal',
+        'deathProjectileDamage': 'deathprojectilebasic',
+        'deathProjectileDelay': 'deathbasic',
+        'deathProjectileDistance': 'deathbasic',
         'decalAssetName': 'presentation',
         'decalBundleName': 'presentation',
         'decalSize': 'presentation',
@@ -554,8 +554,10 @@ def initstat():
     for k in keys:
         if k.startswith('projectile:'):
             config['statrole']['abilityprojectile:'+k[11:]]='ability'+config['statrole'][k]
+            config['statrole']['deathprojectile:'+k[11:]]='death'+config['statrole'][k]
             if k in config['stattype']:
                 config['stattype']['abilityprojectile:'+k[11:]]=config['stattype'][k]
+                config['stattype']['deathprojectile:'+k[11:]]=config['stattype'][k]
         if config['statrole'][k].startswith('attack'):
             config['statrole']['ability:'+k]='ability'+config['statrole'][k][6:]
             if k in config['stattype']:
@@ -588,6 +590,7 @@ def initstat():
             config['stathandler'][k]=display_side
         else:
             die('{} is an unknown type. Stopping'.format(type))
+    # Handle automatic translations
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
             config['stattranslation'][k]=config['stattranslation'][k[(k.find(':')+1):]]
@@ -1103,6 +1106,20 @@ def analyse_unit(objects,displayed,id):
             for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
                 fakearray[k]=dget(subunit,'ability:'+k,'0')
             addprojectile('abilityprojectile:',ob,subunit,fakearray)
+        if 'deathProjectile' in subunit:
+            ob['options']['death']=True
+            proj=subunit['deathProjectile']
+            pproj=data['ProjectileData'][proj]
+            for kk,vv in pproj.items():
+                subunit['deathprojectile:'+kk]=vv
+            fakearray={}
+            for k in ['shotCount','gunSequence']:
+                fakearray[k]='1'
+            fakearray['damage']=dget(subunit,'deathProjectileDamage','0')
+            fakearray['chargeTime']=dget(subunit,'deathProjectileDelay','0')
+            for k in ['cooldownTime','shotDelay','reload']:
+                fakearray[k]='0'
+            addprojectile('deathprojectile:',ob,subunit,fakearray)                
         # ob['hq'] is a clean version of subunit
         ob['hq'][level]={}
         a=ob['hq'][level]
@@ -1377,6 +1394,7 @@ def output_list_unit(out,objects,item,LINKS=False):
     tosee.remove('')
     tosee.remove('nodisplay')
     tosee.remove('abilitynodisplay')
+    tosee.remove('deathnodisplay')
     def datadump(somelist):
         return display_leveldata(item['hq'],levels,somelist,config['stattranslation'],config['stathandler'])
     firstlevel=levels[0]
@@ -1456,16 +1474,31 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitystats']))
     tosee.remove('abilityonly')
     tosee.remove('abilitymove')
-    tosee.remove('abilityprefs')
     tosee.remove('abilitystats')
+    tosee.remove('abilityprefs')
     if 'abilityprojectile' in item['options']:
-        xout+='### Projectile\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilebasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemisc']))
     tosee.remove('abilityprojectilebasic')
     tosee.remove('abilityprojectilemult')
     tosee.remove('abilityprojectilemisc')
+    if 'death' in item['options']:
+        attacknames=[]
+        for l in sorted(levels):
+            if 'deathprojectile:name' in item['hq'][l]:
+                n=item['hq'][l]['deathprojectile:name']
+                if n not in attacknames:
+                    attacknames.append(n)
+        xout+='## Death attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathbasic']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilebasic']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemult']))
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemisc']))
+    tosee.remove('deathbasic')
+    tosee.remove('deathprojectilebasic')
+    tosee.remove('deathprojectilemult')
+    tosee.remove('deathprojectilemisc')
     xout+='## Other stats\n\n'
     xout+='### Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='internal']))
@@ -1474,6 +1507,10 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+='Internal values for secondary attack:\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
     tosee.remove('abilityinternal')
+    if 'death' in item['options']:
+        xout+='Internal values for death attack:\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
+    tosee.remove('deathinternal')
     xout+='### Presentation stats\n\nThese are all sorts of user interface settings, that should not interfere with gameplay.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='presentation']))
     tosee.remove('presentation')
@@ -1490,6 +1527,10 @@ def output_list_unit(out,objects,item,LINKS=False):
             plist=[x for x in allkeys if allkeys[x]=='abilitypresentation' or allkeys[x]=='abilityprojectilepresentation']
     tosee.remove('abilitypresentation')
     tosee.remove('abilityprojectilepresentation')
+    if 'death' in item['options']:
+        xout+='### Death attack presentation stats\n\n'
+        plist=[x for x in allkeys if allkeys[x]=='deathprojectilepresentation']
+    tosee.remove('deathprojectilepresentation')
     xout+=datadump(sorted(plist))
     xout+='### Uninterpreted stats\n\nSeriously, we don\'t really know what to do with these.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='unknown']))
@@ -1503,6 +1544,10 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityunknown' or allkeys[x]=='abilityprojectileunknown']))
     tosee.remove('abilityunknown')
     tosee.remove('abilityprojectileunknown')
+    if 'death' in item['options']:
+        xout+='### Uninterpreted death attack stats\n\n'
+        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathunknown' or allkeys[x]=='deathprojectileunknown']))
+    tosee.remove('deathprojectileunknown')
     if len(tosee)>0:
         xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)+'\n'
     out[len(out)-1]+=xout
@@ -1979,6 +2024,7 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
                         line+='{message: <{width}}|'.format(message=display[key][level],width=width[level])
                     line+='\n'
                 output+=line+'\n'
+    output+='\n'
     return(output)
 
 
