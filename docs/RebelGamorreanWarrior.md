@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|40400|41040|41680|42320|42960|43600|45520|46800|48080|50000|
 
+
 ### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|15 Con.                                 |25 Con.                               |50 Con.                               |85 Con.                               |95 Con.                               |145 Con.                              |190 Con.                              |265 Con.                              |360 Con.                              |720 Con.                               |
 |Building     |[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1      |2        |3         |4         |5         |6         |7         |8          |9          |10         |
 |--------------------|-------|---------|----------|----------|----------|----------|----------|-----------|-----------|-----------|
 |Upgrade time        |0s     |4d       |5d        |6d        |1w        |1w1d      |1w2d      |1w3d       |1w4d       |1w5d       |
 |Upgrade requirements|Nothing|6000 Con.|13000 Con.|25000 Con.|50000 Con.|75000 Con.|85000 Con.|135000 Con.|140000 Con.|190000 Con.|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Melee Vibro Ax
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Shield generator (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Shield (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 400ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1720|1752|1784|1816|1848|1880|1976|2040|2104|2200|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |1920    |1952    |1984    |2016    |2048    |2080    |2176    |2240    |2304    |2400    |
 |Calculated damage per second|1911.111|1946.667|1982.222|2017.778|2053.333|2088.889|2195.556|2266.667|2337.778|2444.444|
+
 
   * Headquarters: 100%
   * Heavy infantry: 50%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 900ms
   * Directional: No
@@ -121,6 +129,52 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
+## Death attack : Death Ax
+
+  * Death projectile delay: 3.600s
+  * Death projectile distance: 17
+
+  * Splash damage percentages: 100,100,100,100
+  * _Not found: Beam damage_
+
+|Level                  |1      |2      |3   |4      |5      |6      |7      |8      |9       |10      |
+|-----------------------|-------|-------|----|-------|-------|-------|-------|-------|--------|--------|
+|Death projectile damage|1750   |2000   |2250|2500   |2750   |3000   |3250   |3500   |3750    |4000    |
+|DPS                    |486.111|555.556|625 |694.444|763.889|833.333|902.778|972.222|1041.667|1111.111|
+
+
+  * Headquarters: 100%
+  * Heavy infantry: 100%
+  * Heavy vehicle: 100%
+  * Other building: 200%
+  * Droideka: 100%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 100%
+  * Heavy infantry hero: 100%
+  * Heavy vehicule hero: 100%
+  * Infantry hero: 100%
+  * Vehicule hero: 100%
+  * Infantry: 100%
+  * Ressource generator: 100%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 100%
+  * Trap: 100%
+  * Turret: 200%
+  * Light vehicle: 100%
+  * Wall: 300%
+
+  * Cannons per sequence: 1
+  * Cliptime: 3.600s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 4
+  * Pass through shield: Yes
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,15 +182,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Death projectile: projectileDeathVibroAx
-  * Death projectile delay: 3.600s
-  * Death projectile distance: 17
   * Spawn apply buffs: buffDefendSplash1,buffReduceHeals1
   * Unit ID: RebelGamorreanWarrior
   * _Not found: Ability, Apply buffs, Hero data, Projectile type, Self buff, Upgrade shard uid_
 
-|Level                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|-----------------------|----|----|----|----|----|----|----|----|----|----|
-|Death projectile damage|1750|2000|2250|2500|2750|3000|3250|3500|3750|4000|
+Internal values for death attack:
+
+  * _Not found: Apply buffs_
 
 ### Presentation stats
 
@@ -158,20 +210,17 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,1.85,0.73
   * Targeted type: ENEMIES
   * _Not found: Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
-  * Animation delay: 600
-  * Favorite target type: turret
-  * Arcs: Yes
-  * Max scale: 100
-  * Muzzle flash: fx_gamGuard_melee
-  * Name: Melee Vibro Ax
-  * Spin speed: 2
-  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
+### Death attack presentation stats
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1920|1952|1984|2016|2048|2080|2176|2240|2304|2400|
+  * Arcs: No
+  * Hit spark: fx_gamGuard_deathblow
+  * Max scale: 100
+  * Name: Death Ax
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
 
 ### Uninterpreted stats
 
@@ -189,6 +238,7 @@ Seriously, we don't really know what to do with these.
 |Order      |215101|215102|215103|215104|215105|215106|215107|215108|215109|215110|
 |Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -196,3 +246,10 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
+### Uninterpreted death attack stats
+
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

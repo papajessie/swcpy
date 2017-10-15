@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|38880|41104|43456|45968|48640|51488|54512|57728|61152|64800|
 
+
 ### Training stats
 
   * Building: [Headquarters 2](rebelHQ.html)
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|4m  |4m2s |4m4s |4m7s |4m10s|4m13s|4m16s|4m20s|4m24s|4m30s|
 |Training cost|990$|1030$|1070$|1120$|1170$|1350$|1530$|1800$|1890$|2070$|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x3
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : AAT1
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1296|1360|1440|1536|1616|1712|1824|1920|2048|2176|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,50
@@ -90,6 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |1450    |1550    |1650    |1750    |1850    |1950    |2100    |2200    |2350    |2500    |
 |Calculated damage per second|4459.355|4679.570|4954.839|5285.161|5560.430|5890.753|6276.129|6606.452|7046.882|7487.312|
+
 
   * Headquarters: 100%
   * Heavy infantry: 25%
@@ -112,6 +119,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 50%
   * Wall: 100%
+
   * Cannons per sequence: 4
   * Cliptime: 4.650s
   * Directional: Yes
@@ -120,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -127,7 +136,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelHovertankSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -147,6 +157,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.49,0.88,-0.24
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -164,6 +175,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|1450|1550|1650|1750|1850|1950|2100|2200|2350|2500|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -180,6 +192,7 @@ Seriously, we don't really know what to do with these.
 |-----|------|------|------|------|------|------|------|------|------|------|
 |Order|233001|233002|233003|233004|233005|233006|233007|233008|233009|233010|
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -187,3 +200,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

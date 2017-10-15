@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |23040|28416|32256|36096|39936|43776|46848|49920|52160|54400|
 |Shield health|8640 |10656|12096|13536|14976|16416|17568|18720|19920|21120|
 
+
 ### Training stats
 
   * Training cost: Free
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|1h8m                           |1h18m                          |1h28m                          |1h39m                          |1h48m                           |1h58m                           |2h8m                            |2h19m                           |
 |Building     |[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 6
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : HeavyDroidekaShell
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Shield generator (5), Shield (5), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 650ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|3500|3750|4000|4250|4500|4750|5000|5250|5500|5750|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,65,50,25
@@ -90,6 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|----|--------|--------|----|--------|--------|-----|--------|--------|
 |Displayed damage per second |7000    |7500|8000    |8500    |9000|9500    |10000   |10500|11000   |11500   |
 |Calculated damage per second|2916.667|3125|3333.333|3541.667|3750|3958.333|4166.667|4375 |4583.333|4791.667|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -112,6 +119,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 2.400s
   * Directional: No
@@ -120,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -127,7 +136,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionEmpireHeavyDroidekaSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -154,6 +164,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon lookat position|0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.23,1.51,-0.32                                                                                               |0.4,1.52,-0.26                                                                                                |0.4,1.52,-0.26                                                                                                |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |0.27,1.61,-0.25                                                                                               |
 |Shield asset name   |effectEmpireHeavyDroidekaShield1                                                                              |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield10                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield20                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield30                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |effectEmpireHeavyDroidekaShield40                                                                             |
 
+
 ### Attack presentation stats
 
   * Animation delay: 250
@@ -172,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
 |Displayed damage per second|7000|7500|8000|8500|9000|9500|10000|10500|11000|11500|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +200,7 @@ Seriously, we don't really know what to do with these.
 |Order      |114705|114710|114715|114720|114725|114730|114735|114740|114745|114750|
 |Point value|40    |68    |88    |108   |128   |148   |172   |200   |200   |200   |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -196,3 +209,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * Strict cool down: No
+

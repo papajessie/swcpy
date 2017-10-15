@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|8000|9600|11200|12800|14400|16000|17600|19200|20800|24000|
 
+
 ### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Building     |[Hero Command 5](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * Support follow distance: 5
   * _Not found: Ignores walls_
+
 ## Main attack : R2D2 Healing Aura
 
 ### Targeting
@@ -65,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Vehicule hero (50)**, **Heavy vehicule hero (50)**, **Heavy vehicle (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Infantry hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy infantry (0), Headquarters (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: Yes
   * _Not found: New target on reload_
+
 ### Projectile
 
   * Calculated damage per second: 0
@@ -89,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
+
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -111,6 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 0%
   * Light vehicle: 0%
   * Wall: 0%
+
   * Cannons per sequence: 1
   * Cliptime: 2.0100s
   * Directional: Yes
@@ -119,6 +127,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -126,12 +135,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroR2D2
-  * _Not found: Ability, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Death projectile, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 |Level      |1              |2              |3              |4              |5              |6              |7              |8              |9              |10              |
 |-----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
 |Hero data  |hero1          |hero2          |hero3          |hero4          |hero5          |hero6          |hero7          |hero8          |hero9          |hero10          |
 |Apply buffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
+
 
 ### Presentation stats
 
@@ -154,6 +164,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.21,1.31,0.18
   * Targeted type: ALLIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -168,6 +179,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
+
 
 ### Uninterpreted stats
 
@@ -185,6 +197,7 @@ Seriously, we don't really know what to do with these.
 |Order      |210501|210502|210503|210504|210505|210506|210507|210508|210509|210510|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -192,3 +205,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

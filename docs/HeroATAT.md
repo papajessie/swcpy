@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|24000|28800|33600|38400|43200|48000|52800|57600|62400|72000|
 
+
 ### Training stats
 
 |Level        |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |3800$                                  |4200$                                  |4600$                                   |
 |Building     |[Hero Command 5](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Upgrade requirements|6500$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : HeroATAT
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Shield generator (80)**, **Shield (80)**, Light vehicle (50), Turret (50), Storage (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|----|----|----|----|----|----|----|----|----|
 |Damage per shot|844|1013|1182|1350|1519|1688|1857|2025|2194|2532|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|----|--------|--------|--------|----|--------|--------|
 |Displayed damage per second |1800    |2161    |2521    |2880|3240    |3601    |3961    |4320|4680    |5401    |
 |Calculated damage per second|3000.889|3601.778|4202.667|4800|5400.889|6001.778|6602.667|7200|7800.889|9002.667|
+
 
   * Headquarters: 75%
   * Heavy infantry: 100%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 75%
   * Light vehicle: 100%
   * Wall: 75%
+
   * Cannons per sequence: 4
   * Cliptime: 2.250s
   * Directional: Yes
@@ -121,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,11 +137,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroATAT
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+
 
 ### Presentation stats
 
@@ -156,6 +166,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -2.41,4.25,-0.65
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Event button action, Event button data, Event button string, Event features string, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -173,6 +184,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|1800|2161|2521|2880|3240|3601|3961|4320|4680|5401|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -189,6 +201,7 @@ Seriously, we don't really know what to do with these.
 |Order      |110501|110502|110503|110504|110505|110506|110507|110508|110509|110510|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -196,3 +209,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

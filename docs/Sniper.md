@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|2800|3360|3920|4480|5040|5600|6160|6720|7280|8400|
 
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|350$                             |490$                                   |630$                                   |770$                                   |910$                                   |1050$                                  |1190$                                  |1400$                                  |1470$                                  |1610$                                   |
 |Building     |[Barracks 7](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s  |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
 |Upgrade requirements|700$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : projectileSniper
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|----|----|----|----|----|----|----|----|----|
 |Damage per shot|835|1001|1168|1335|1502|1669|1836|2002|2169|2503|
 
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -92,6 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|---|--------|--------|--------|--------|--------|----|--------|--------|
 |Displayed damage per second |770    |924|1078    |1232    |1386    |1540    |1694    |1848|2002    |2310    |
 |Calculated damage per second|770.769|924|1078.154|1232.308|1386.462|1540.615|1694.769|1848|2002.154|2310.462|
+
 
   * Headquarters: 100%
   * Heavy infantry: 250%
@@ -114,6 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 200%
   * Wall: 40%
+
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -122,6 +130,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -129,7 +138,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: Sniper
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -150,6 +160,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.36,1.69,0.24
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -167,6 +178,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second|770|924|1078|1232|1386|1540|1694|1848|2002|2310|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -183,6 +195,7 @@ Seriously, we don't really know what to do with these.
 |Order      |120701|120702|120703|120704|120705|120706|120707|120708|120709|120710|
 |Point value|7     |8.400 |9.800 |11.200|12.600|14    |15.400|16.800|18.200|21    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -190,3 +203,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

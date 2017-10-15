@@ -26,12 +26,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|---|---|---|----|----|----|----|----|----|----|
 |Health|500|600|700|1920|2160|2400|2640|2880|3120|3600|
 
+
 ### Training stats
 
 |Level        |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
 |-------------|---|---|---|----|----|----|----|----|----|----|
 |Training time|4s |4s |5s |5s  |5s  |5s  |5s  |6s  |6s  |6s  |
 |Training cost|50$|70$|90$|110$|130$|150$|170$|190$|210$|230$|
+
 
 ### Upgrading stats
 
@@ -40,6 +42,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|1500$|5000$|14000$|24000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
+
 
 ### Move stats
 
@@ -57,6 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------|----|--|--------------------|
 |Max speed|40  |50|40                  |
 
+
 ## Main attack : WompRat
 
 ### Targeting
@@ -71,6 +75,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1                                                                                                                                                                                                                                                                                                                                                                                                      |2, 3, 4, 5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Target preferences|**Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)|**Support troop (100)**, _Turret (80)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)|
+
 
 ### Shooting
 
@@ -91,6 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|--|--|--|---|---|---|---|---|---|---|
 |Damage per shot|55|65|76|437|492|546|601|656|710|819|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -99,6 +105,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--|------|------|-------|-------|-------|-------|-------|-------|-------|
 |Displayed damage per second |50|59    |69    |397    |447    |496    |546    |596    |645    |744    |
 |Calculated damage per second|50|59.091|69.091|397.273|447.273|496.364|546.364|596.364|645.455|744.545|
+
 
   * Headquarters: 100%
   * Heavy infantry: 20%
@@ -121,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 20%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 5.500s
   * Directional: Yes
@@ -129,6 +137,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -136,7 +145,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: WompRat
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -157,6 +167,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon camera position|11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |
 |Icon lookat position|-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |
 
+
 ### Attack presentation stats
 
   * Animation delay: 1000
@@ -170,6 +181,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1 |2 |3 |4  |5  |6  |7  |8  |9  |10 |
 |---------------------------|--|--|--|---|---|---|---|---|---|---|
 |Displayed damage per second|50|59|69|397|447|496|546|596|645|744|
+
 
 ### Uninterpreted stats
 
@@ -187,6 +199,7 @@ Seriously, we don't really know what to do with these.
 |Order      |330901|330902|330903|330904|330905|330906|330907|330908|330909|330910|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -194,3 +207,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

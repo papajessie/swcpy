@@ -26,14 +26,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|------|------|------|------|------|------|------|------|------|------|
 |Health|100000|123833|147667|171500|195333|219167|243000|266833|290667|314500|
 
+
 ### Training stats
 
   * Training time: 0s
   * Training cost: Free
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -47,6 +50,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * Support follow distance: 2
+
 ## Main attack : Threepio Aggro
 
 ### Targeting
@@ -58,6 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 1
   * Target preferences: **Light vehicle (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Support troop (0), Other building (0), Headquarters (0)
   * View range: 100
+
 ### Shooting
 
   * Time between start of clip and first shot: 0s
@@ -73,11 +78,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 0s
   * Target locking: Yes
   * _Not found: New target on reload_
+
 ### Projectile
 
   * Calculated damage per second: 0
   * Splash damage percentages: 100
   * _Not found: Beam damage, Displayed damage per second_
+
   * Headquarters: 0%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
@@ -99,6 +106,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 0%
+
   * Cannons per sequence: 1
   * Cliptime: 500ms
   * Directional: Yes
@@ -107,6 +115,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -114,11 +123,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroC3PO
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+
 
 ### Presentation stats
 
@@ -138,6 +148,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ALLIES
   * Tooltip height offset: 1.5
   * _Not found: Audio attack, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon camera position, Icon closeup camera position, Icon closeup lookat position, Icon lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -147,6 +158,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Threepio Aggro
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Displayed damage per second, Ground bullet, Hit spark, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -163,6 +175,7 @@ Seriously, we don't really know what to do with these.
 |-----------|-|-|--|--|--|--|--|--|--|--|
 |Point value|7|8|10|11|13|14|15|17|18|21|
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -170,3 +183,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

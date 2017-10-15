@@ -26,14 +26,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|------|------|------|------|------|------|------|------|------|------|
 |Health|178200|190910|204610|219380|235310|277750|298155|349296|375264|393125|
 
+
 ### Training stats
 
   * Training time: 5s
   * Training cost: Free
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -46,6 +49,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Rancor Blaster AOE
 
 ### Targeting
@@ -57,6 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 16
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -76,6 +81,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Damage per shot|15360|15700|16060|16420|16800|18898|19338|21576|22080|23525|
 
+
 ### Projectile
 
   * Displayed damage per second: 2928
@@ -85,6 +91,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Calculated damage per second|6373.444|6514.523|6663.900|6813.278|6970.954|7841.494|8024.066|8952.697|9161.826|9761.411|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -107,6 +114,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 125%
   * Light vehicle: 75%
   * Wall: 200%
+
   * Cannons per sequence: 2
   * Cliptime: 2.410s
   * Directional: Yes
@@ -115,6 +123,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -122,7 +131,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelRageRancor
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -139,6 +149,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.61,3.05,-1.83
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 960
@@ -150,6 +161,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Rancor Blaster AOE
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -166,6 +178,7 @@ Seriously, we don't really know what to do with these.
 |Order      |225401|225402|225403|225404|225405|225406|225407|225408|225409|225410|
 |Point value|50    |60    |70    |80    |90    |100   |110   |120   |130   |150   |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -173,3 +186,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

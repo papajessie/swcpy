@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|16000|19200|22400|25600|28800|32000|35200|38400|41600|48000|
 
+
 ### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Building     |[Hero Command 4](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : HeroLeia
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (60)**, **Infantry (60)**, **Support troop (60)**, **Flying vehicle (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy vehicle (60)**, **Heavy infantry (60)**, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|----|----|----|----|----|----|----|----|----|
 |Damage per shot|934|1120|1307|1494|1680|1867|2054|2240|2427|2800|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|----|--------|--------|----|--------|--------|----|--------|----|
 |Displayed damage per second |2001    |2400|2800    |3201    |3600|4000    |4401    |4800|5200    |6000|
 |Calculated damage per second|2001.429|2400|2800.714|3201.429|3600|4000.714|4401.429|4800|5200.714|6000|
+
 
   * Headquarters: 100%
   * Heavy infantry: 125%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 150%
   * Wall: 80%
+
   * Cannons per sequence: 1
   * Cliptime: 1.400s
   * Directional: Yes
@@ -121,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,11 +137,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroLeia
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+
 
 ### Presentation stats
 
@@ -156,6 +166,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.06,1.58,0.16
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Effect type, Event button action, Event button data, Event button string, Event features string, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -173,6 +184,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|2001|2400|2800|3201|3600|4000|4401|4800|5200|6000|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -189,6 +201,7 @@ Seriously, we don't really know what to do with these.
 |Order      |210401|210402|210403|210404|210405|210406|210407|210408|210409|210410|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -196,3 +209,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

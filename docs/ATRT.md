@@ -27,6 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|19200|19800|20480|21040|21850|22610|23720|25290|26920|28820|
 
+
 ### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|400$                          |560$                                  |720$                                  |880$                                  |1040$                                 |1200$                                 |1360$                                 |1600$                                 |1680$                                 |1840$                                  |
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * Support follow distance: 0
   * _Not found: Ignores walls, Run speed, Run threshold_
+
 ## Main attack : ATRT
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -88,6 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|--------|--------|--------|--------|----|--------|--------|--------|--------|
 |Displayed damage per second |2184|2280    |2380    |2490    |2610    |2730|2860    |3000    |3140    |3290    |
 |Calculated damage per second|2080|2171.429|2266.667|2371.429|2485.714|2600|2723.810|2857.143|2990.476|3133.333|
+
 
   * Headquarters: 50%
   * Heavy infantry: 50%
@@ -110,6 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 1.050s
   * Directional: Yes
@@ -118,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Secondary attack : ATRT_Ion
 
   * Auto: Yes
@@ -127,6 +136,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 5s
   * Recast ability: No
   * Target self: No
+
 ### Targeting
 
   * Max attack range: 20
@@ -136,6 +146,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Turret (100)**, Wall (0), Light vehicle (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Infantry (0), Vehicule hero (0), Infantry hero (0), Heavy vehicule hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Other building (0), Heavy vehicle (0), Heavy infantry (0), Headquarters (0)
   * View range: 20
   * _Not found: Attack shield border_
+
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -151,10 +162,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 790ms
   * Target locking: No
   * _Not found: New target on reload_
-### Projectile
 
   * DPS: 0
   * _Not found: Beam damage, Splash damage percentages_
+
   * Headquarters: 50%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
@@ -176,6 +187,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 400%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 2m11.300s
   * Directional: Yes
@@ -184,6 +196,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -194,10 +207,12 @@ These stats internal to the system link different parts of data together.
   * Projectile type: projectileATRTIon
   * Unit ID: ATRT
   * Upgrade shard uid: shrd_troopATRT
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+  * _Not found: Apply buffs, Death projectile, Hero data, Self buff, Spawn apply buffs_
+
 Internal values for secondary attack:
 
   * Apply buffs: buffTurretDamageDebuff1
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -227,6 +242,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock rotation|0,0,0|(not found)               |
 |Icon unlock scale   |1,1,1|(not found)               |
 
+
 ### Attack presentation stats
 
 ### Secondary attack presentation stats
@@ -248,6 +264,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: ATRT_Ion
   * Spin speed: 0
   * _Not found: Audio ability loop, Ground bullet, Muzzle flash fade time, Persistent effect, Projectile length, S transition, Weapon trail FX params_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -264,6 +281,7 @@ Seriously, we don't really know what to do with these.
 |Order      |231101|231102|231103|231104|231105|231106|231107|231108|231109|231110|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -271,6 +289,7 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 0
@@ -281,3 +300,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: Yes
   * Streams: no
   * _Not found: S1 time, S2 time_
+

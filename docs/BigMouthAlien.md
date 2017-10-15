@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|
 |Health|19200|19800|20480|21240|22080|
 
+
 ### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |
@@ -34,6 +35,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|50 Con.                                 |85 Con.                               |115 Con.                              |145 Con.                              |175 Con.                              |
 |Building     |[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 5s
@@ -41,6 +43,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                |2                |3                |4                 |5                 |
 |--------------------|-----------------|-----------------|-----------------|------------------|------------------|
 |Upgrade requirements|30 data fragments|45 data fragments|75 data fragments|105 data fragments|135 data fragments|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Soldier
 
 ### Targeting
@@ -65,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -84,6 +89,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|
 |Damage per shot|406|455|504|553|602|
 
+
 ### Projectile
 
   * Displayed damage per second: 1920
@@ -92,6 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1      |2  |3      |4       |5       |
 |----------------------------|-------|---|-------|--------|--------|
 |Calculated damage per second|780.769|875|969.231|1063.462|1157.692|
+
 
   * Headquarters: 100%
   * Heavy infantry: 100%
@@ -114,6 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 2.600s
   * Directional: Yes
@@ -122,6 +130,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Secondary attack : EMP Grenade
 
   * Auto: Yes
@@ -131,6 +140,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 3.500s
   * Recast ability: Yes
   * Target self: No
+
 ### Targeting
 
   * Max attack range: 8
@@ -140,6 +150,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
   * _Not found: Attack shield border_
+
 ### Shooting
 
   * Time between start of clip and first shot: 0s
@@ -155,11 +166,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 790ms
   * Target locking: No
   * _Not found: New target on reload_
-### Projectile
 
   * DPS: 0
   * Splash damage percentages: 100,100,100
   * _Not found: Beam damage_
+
   * Headquarters: 100%
   * Heavy infantry: 50%
   * Heavy vehicle: 50%
@@ -181,6 +192,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 16s
   * Directional: No
@@ -189,6 +201,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -197,18 +210,20 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: BigMouthAlien
   * Upgrade shard uid: shrd_troopBigMouthAlien
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+  * _Not found: Apply buffs, Death projectile, Hero data, Self buff, Spawn apply buffs_
 
 |Level          |1                     |2                     |3                     |4                     |5                     |
 |---------------|----------------------|----------------------|----------------------|----------------------|----------------------|
 |Ability        |abilityBigMouthAlien1 |abilityBigMouthAlien2 |abilityBigMouthAlien3 |abilityBigMouthAlien4 |abilityBigMouthAlien5 |
 |Projectile type|projectileMercGrenade1|projectileMercGrenade2|projectileMercGrenade3|projectileMercGrenade4|projectileMercGrenade5|
 
+
 Internal values for secondary attack:
 
 |Level      |1                    |2                    |3                    |4                    |5                    |
 |-----------|---------------------|---------------------|---------------------|---------------------|---------------------|
 |Apply buffs|buffDefenseReduction1|buffDefenseReduction2|buffDefenseReduction3|buffDefenseReduction4|buffDefenseReduction5|
+
 
 ### Presentation stats
 
@@ -234,6 +249,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+
 ### Attack presentation stats
 
 ### Secondary attack presentation stats
@@ -253,6 +269,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: EMP Grenade
   * Spin speed: 0
   * _Not found: Audio ability loop, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Persistent effect, Projectile length, S transition, Weapon trail FX params_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -269,6 +286,7 @@ Seriously, we don't really know what to do with these.
 |-----|------|------|------|------|------|
 |Order|215601|215602|215603|215604|215605|
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -276,6 +294,7 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 0
@@ -286,3 +305,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
+

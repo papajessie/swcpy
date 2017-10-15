@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|13000|15600|16800|19200|21600|24000|26400|28800|31200|36000|
 
+
 ### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|10 Con.                                 |20 Con.                               |40 Con.                               |75 Con.                               |85 Con.                               |125 Con.                              |170 Con.                              |230 Con.                              |310 Con.                              |525 Con.                               |
 |Building     |[Cantina 5](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1      |2        |3         |4         |5         |6          |7          |8          |9          |10         |
 |--------------------|-------|---------|----------|----------|----------|-----------|-----------|-----------|-----------|-----------|
 |Upgrade time        |0s     |4d       |5d        |6d        |1w        |1w1d       |1w2d       |1w3d       |1w4d       |1w5d       |
 |Upgrade requirements|Nothing|7000 Con.|15000 Con.|30000 Con.|58000 Con.|110000 Con.|140000 Con.|160000 Con.|165000 Con.|168000 Con.|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit size on map: 1x1
   * Support follow distance: 4
   * _Not found: Ignores walls_
+
 ## Main attack : Rider Buff
 
 ### Targeting
@@ -65,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 1
   * Target preferences: **Light vehicle (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, Wall (0), Turret (0), Trap (0), Storage (0), Shield generator (0), Shield (0), Ressource generator (0), Support troop (0), Other building (0), Headquarters (0)
   * View range: 5
+
 ### Shooting
 
   * Time between start of clip and first shot: 0s
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 0s
   * Target locking: Yes
   * _Not found: New target on reload_
+
 ### Projectile
 
   * Calculated damage per second: 0
@@ -89,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |---------------------------|--|--|--|--|--|--|--|--|--|--|
 |Displayed damage per second|12|14|16|18|20|22|24|26|28|30|
+
 
   * Headquarters: 0%
   * Heavy infantry: 0%
@@ -111,6 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 0%
   * Light vehicle: 0%
   * Wall: 0%
+
   * Cannons per sequence: 1
   * Cliptime: 5s
   * Directional: Yes
@@ -119,15 +127,53 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
+## Death attack : Rider Buff
+
+  * Death projectile delay: 0s
+  * Death projectile distance: 0
+
+  * Death projectile damage: 0
+  * Splash damage percentages: 100,100,100,100,100
+  * _Not found: Beam damage, DPS_
+
+  * Headquarters: 0%
+  * Heavy infantry: 0%
+  * Heavy vehicle: 0%
+  * Other building: 0%
+  * Droideka: 0%
+  * Flying infantry: 0%
+  * Flying vehicle: 0%
+  * Support troop: 0%
+  * Heavy infantry hero: 0%
+  * Heavy vehicule hero: 0%
+  * Infantry hero: 0%
+  * Vehicule hero: 0%
+  * Infantry: 0%
+  * Ressource generator: 0%
+  * Shield: 0%
+  * Shield generator: 0%
+  * Storage: 0%
+  * Trap: 0%
+  * Turret: 0%
+  * Light vehicle: 0%
+  * Wall: 0%
+
+  * Cannons per sequence: 1
+  * Cliptime: 0s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 18
+  * Pass through shield: Yes
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
 
 These stats internal to the system link different parts of data together.
 
-  * Death projectile damage: 0
-  * Death projectile delay: 0s
-  * Death projectile distance: 0
   * Unit ID: RebelRider
   * _Not found: Ability, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
 
@@ -135,6 +181,11 @@ These stats internal to the system link different parts of data together.
 |----------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Death projectile|projectileRiderBuff1  |projectileRiderBuff2  |projectileRiderBuff3  |projectileRiderBuff4  |projectileRiderBuff5  |projectileRiderBuff6  |projectileRiderBuff7  |projectileRiderBuff8  |projectileRiderBuff9  |projectileRiderBuff10  |
 |Apply buffs     |buffUnitDamageSteroid1|buffUnitDamageSteroid2|buffUnitDamageSteroid3|buffUnitDamageSteroid4|buffUnitDamageSteroid5|buffUnitDamageSteroid6|buffUnitDamageSteroid7|buffUnitDamageSteroid8|buffUnitDamageSteroid9|buffUnitDamageSteroid10|
+
+
+Internal values for death attack:
+
+  * _Not found: Apply buffs_
 
 ### Presentation stats
 
@@ -155,20 +206,17 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ALLIES
   * Tooltip height offset: 1.5
   * _Not found: Audio attack, Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Shield asset name, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Favorite target type: closest
+### Death attack presentation stats
+
   * Arcs: No
   * Max scale: 200
   * Muzzle flash: fx_rider_buff
   * Name: Rider Buff
   * Spin speed: 0
   * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Muzzle flash fade time, Projectile length, S transition_
-
-|Level                      |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|---------------------------|--|--|--|--|--|--|--|--|--|--|
-|Displayed damage per second|12|14|16|18|20|22|24|26|28|30|
 
 ### Uninterpreted stats
 
@@ -186,6 +234,7 @@ Seriously, we don't really know what to do with these.
 |Order      |215301|215302|215303|215304|215305|215306|215307|215308|215309|215310|
 |Point value|7     |8     |10    |11    |13    |14    |15    |17    |18    |21    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -193,3 +242,10 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
+### Uninterpreted death attack stats
+
+  * Seeks target: No
+  * Streams: no
+  * _Not found: S1 time, S2 time_
+

@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|---|----|----|----|----|----|----|----|----|----|
 |Health|900|1080|1260|1440|1620|1800|1980|2160|2340|2700|
 
+
 ### Training stats
 
 |Level        |1                                |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|50$                              |70$                                   |90$                                   |110$                                  |130$                                  |150$                                  |170$                                  |190$                                  |210$                                  |230$                                   |
 |Building     |[Barracks 10](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : ScoutDeath
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|---|---|
 |Damage per shot|126|152|177|202|227|252|278|303|328|378|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|-------|-------|-------|-------|---|-------|-------|-------|---|
 |Displayed damage per second |120|144    |168    |192    |216    |240|264    |288    |312    |360|
 |Calculated damage per second|120|144.762|168.571|192.381|216.190|240|264.762|288.571|312.381|360|
+
 
   * Headquarters: 50%
   * Heavy infantry: 75%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 1.050s
   * Directional: Yes
@@ -121,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,7 +137,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelScoutDeath
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -148,6 +158,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.06,1.74,0.02
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -165,6 +176,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second|120|144|168|192|216|240|264|288|312|360|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -181,6 +193,7 @@ Seriously, we don't really know what to do with these.
 |Order      |233401|233402|233403|233404|233405|233406|233407|233408|233409|233410|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -188,3 +201,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

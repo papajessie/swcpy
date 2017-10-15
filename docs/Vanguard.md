@@ -27,6 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|5760|6090|6440|6810|7210|7630|8080|8560|9070|9610|
 
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|200$                            |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |800$                                  |840$                                  |920$                                   |
 |Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Vanguard Rocket
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 100
   * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Support troop (50), Flying vehicle (50), Flying infantry (50), Turret (40), Storage (40), Shield generator (40), Shield (40), Ressource generator (40), Infantry (40), Droideka (40), Other building (40), Heavy infantry (40), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1)
   * View range: 21
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|2340|2532|2742|2970|3222|3492|3792|4122|4482|4872|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,50,10,5
@@ -90,6 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|-------|-------|-------|-------|--------|--------|--------|--------|--------|
 |Displayed damage per second |2340|2532   |2742   |2970   |3222   |3492    |3792    |4122    |4482    |4872    |
 |Calculated damage per second|720 |779.077|843.692|913.846|991.385|1074.462|1166.769|1268.308|1379.077|1499.077|
+
 
   * Headquarters: 200%
   * Heavy infantry: 25%
@@ -112,6 +119,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 75%
   * Light vehicle: 100%
   * Wall: 700%
+
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -120,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,7 +137,8 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: Vanguard
   * Upgrade shard uid: shrd_troopVanguard
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -162,6 +172,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock rotation|0,0,0|(not found)               |
 |Icon unlock scale   |1,1,1|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -179,6 +190,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|2340|2532|2742|2970|3222|3492|3792|4122|4482|4872|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -195,6 +207,7 @@ Seriously, we don't really know what to do with these.
 |Order      |221201|221202|221203|221204|221205|221206|221207|221208|221209|221210|
 |Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -202,3 +215,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

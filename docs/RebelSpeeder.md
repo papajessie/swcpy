@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|9000|9700|10450|11280|12170|13140|14210|15360|16620|18000|
 
+
 ### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|550$                          |570$                                  |590$                                  |620$                                  |650$                                  |750$                                  |850$                                  |1000$                                 |1050$                                 |1150$                                  |
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
 
 ### Move stats
 
@@ -57,6 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Acceleration|0               |8          |
 |Max speed   |40              |80         |
 
+
 ## Main attack : T7-V Speederbike / Rebel Speeder Bike Upgrade
 
 ### Targeting
@@ -68,6 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (70)**, **Infantry (70)**, **Support troop (70)**, **Flying vehicle (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy vehicle (70)**, **Heavy infantry (70)**, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Clip retargeting: Yes
@@ -87,6 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time between start of clip and first shot|1s  |1s  |1s  |1s  |1s  |1s  |500ms|500ms|500ms|500ms|
 |Damage per shot                          |1010|1050|1090|1140|1180|1230|1280 |1330 |1380 |1440 |
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -95,6 +101,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|-------|-------|--------|--------|--------|--------|----|--------|--------|
 |Displayed damage per second |900    |930    |970    |1010    |1050    |1090    |1460    |1520|1580    |1650    |
 |Calculated damage per second|897.778|933.333|968.889|1013.333|1048.889|1093.333|1462.857|1520|1577.143|1645.714|
+
 
   * Droideka: 100%
 
@@ -121,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Light vehicle      |75%             |225%       |
 |Wall               |100%            |75%        |
 
+
   * Cannons per sequence: 2
   * Directional: Yes
   * Is deflectable: Yes
@@ -133,6 +141,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |--------|----------------|-----------|
 |Cliptime|2.250s          |1.750s     |
 
+
 ## Other stats
 
 ### Internal stats
@@ -140,7 +149,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelSpeeder
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -158,6 +168,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.23,1.14,-0.58
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -175,6 +186,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Displayed damage per second|900             |930             |970             |1010            |1050            |1090            |1460                      |1520                      |1580                      |1650                      |
 |Name                       |T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -191,6 +203,7 @@ Seriously, we don't really know what to do with these.
 |Order      |230101|230102|230103|230104|230105|230106|230107|230108|230109|230110|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -198,3 +211,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

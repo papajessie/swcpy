@@ -22,14 +22,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 10
   * Type: vehicle
   * _Not found: Can be given, Unlock planet_
+
 ### Training stats
 
   * Training time: 3m50s
   * Training cost: 3250$
+
 ### Upgrading stats
 
   * Upgrade time: 2h
   * Upgrade requirements: 14000$
+
 ### Move stats
 
   * Acceleration: 0
@@ -42,6 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : ATST
 
 ### Targeting
@@ -53,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (55)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -68,11 +73,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
   * _Not found: New target on reload_
+
 ### Projectile
 
   * Displayed damage per second: 1920
   * Calculated damage per second: 1920
   * _Not found: Beam damage, Splash damage percentages_
+
   * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
@@ -94,6 +101,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 2.250s
   * Directional: Yes
@@ -102,6 +110,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -109,7 +118,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: fue_ATST
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -127,6 +137,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.17,2.95,0.85
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -140,6 +151,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: ATST
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -152,6 +164,7 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -159,3 +172,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|---|---|---|---|----|----|----|----|----|----|
 |Health|500|600|700|800|4320|4800|5280|5760|6240|7200|
 
+
 ### Training stats
 
 |Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
@@ -34,6 +35,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|100$                               |140$                               |180$                               |220$                               |260$                               |300$                               |340$                               |380$                               |420$                               |460$                                |
 |Building     |[Barracks 3](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
@@ -41,6 +43,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|1500$|5000$|14000$|24000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : SmugglerLooter
 
 ### Targeting
@@ -68,6 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1, 2, 3, 4                                                                                                                                                                                                                                                                                                                                                                                                     |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Target preferences|**Storage (80)**, **Ressource generator (80)**, _Turret (70)_, Light vehicle (50), Shield generator (50), Shield (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Storage (80)**, **Ressource generator (80)**, _Turret (70)_, Light vehicle (50), Shield generator (50), Shield (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Trap (0)|
+
 
 ### Shooting
 
@@ -88,6 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|----|----|
 |Damage per shot|105|126|147|168|738|819|901|983|1065|1229|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -96,6 +102,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|---|---|-------|---|-------|-------|--------|--------|
 |Displayed damage per second |100|120|140|160|702    |780|858    |936    |1014    |1170    |
 |Calculated damage per second|100|120|140|160|702.857|780|858.095|936.190|1014.286|1170.476|
+
 
   * Headquarters: 50%
   * Heavy infantry: 100%
@@ -118,6 +125,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 1.050s
   * Directional: Yes
@@ -126,6 +134,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -133,7 +142,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerLooter
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -151,6 +161,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.18,1.32,0.32
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -168,6 +179,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|---|---|---|---|---|----|----|
 |Displayed damage per second|100|120|140|160|702|780|858|936|1014|1170|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -184,6 +196,7 @@ Seriously, we don't really know what to do with these.
 |Order      |331001|331002|331003|331004|331005|331006|331007|331008|331009|331010|
 |Point value|2     |2.400 |2.800 |3.200 |3.600 |4     |4.400 |4.800 |5.200 |6     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -191,3 +204,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

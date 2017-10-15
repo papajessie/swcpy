@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|8860|10260|11130|12450|13780|15100|16490|17840|19200|21880|
 
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -34,10 +35,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|500$                             |700$                                   |900$                                   |1100$                                  |1300$                                  |1500$                                  |1700$                                  |2000$                                  |2100$                                  |2300$                                   |
 |Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : IG-86 Droid
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1236|1243|1268|1277|1286|1295|1354|1387|1421|1464|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -88,6 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
 |Calculated damage per second|2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
+
 
   * Headquarters: 100%
   * Heavy infantry: 25%
@@ -110,6 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 50%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 3.150s
   * Directional: Yes
@@ -118,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 7
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -126,7 +135,8 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: IG86Droid
   * Upgrade shard uid: shrd_troopIG86Droid
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -155,6 +165,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |-----------------|-----------|--------------------------|
 |Icon unlock scale|1.2,1.2,1.2|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -172,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second|2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +200,7 @@ Seriously, we don't really know what to do with these.
 |Order      |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
 |Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -195,3 +208,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

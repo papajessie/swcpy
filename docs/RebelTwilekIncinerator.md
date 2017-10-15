@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|19640|20152|20408|20664|20920|21176|21432|21688|21944|22200|
 
+
 ### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|15 Con.                                 |25 Con.                               |50 Con.                               |85 Con.                               |95 Con.                               |145 Con.                              |190 Con.                              |265 Con.                              |360 Con.                              |720 Con.                               |
 |Building     |[Cantina 3](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1      |2        |3        |4         |5         |6         |7         |8         |9         |10         |
 |--------------------|-------|---------|---------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s     |5d       |6d       |1w        |1w1d      |1w2d      |1w3d      |1w4d      |1w5d      |1w6d       |
 |Upgrade requirements|Nothing|4000 Con.|8000 Con.|17000 Con.|35000 Con.|65000 Con.|85000 Con.|90000 Con.|95000 Con.|127000 Con.|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Flamethrower
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Ressource generator (50)**, **Infantry (50)**, **Vehicule hero (50)**, **Infantry hero (50)**, **Heavy vehicule hero (50)**, **Heavy infantry hero (50)**, **Support troop (50)**, **Flying vehicle (50)**, **Flying infantry (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Shield (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 1s
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|-|-|-|-|-|-|-|-|-|--|
 |Damage per shot|1|2|3|4|5|6|7|8|9|10|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,100,100
@@ -92,6 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-----|-----|----|-----|-----|----|-----|-----|----|-----|
 |Displayed damage per second |3744 |3857 |3917|3973 |4032 |4089|4145 |4205 |4261|4320 |
 |Calculated damage per second|0.667|1.333|2   |2.667|3.333|4   |4.667|5.333|6   |6.667|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -114,6 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 1.500s
   * Directional: Yes
@@ -122,23 +130,70 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_
+
+## Death attack : Death Explosion
+
+  * Death projectile delay: 0s
+  * Death projectile distance: 0
+
+  * Splash damage percentages: 200,200,200,150
+  * _Not found: Beam damage, DPS_
+
+|Level                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|-----------------------|----|----|----|----|----|----|----|----|----|----|
+|Death projectile damage|4800|4896|4992|5088|5184|5280|5376|5760|6240|7200|
+
+
+  * Headquarters: 100%
+  * Heavy infantry: 75%
+  * Heavy vehicle: 75%
+  * Other building: 125%
+  * Droideka: 100%
+  * Flying infantry: 50%
+  * Flying vehicle: 50%
+  * Support troop: 100%
+  * Heavy infantry hero: 75%
+  * Heavy vehicule hero: 50%
+  * Infantry hero: 100%
+  * Vehicule hero: 75%
+  * Infantry: 100%
+  * Ressource generator: 125%
+  * Shield: 100%
+  * Shield generator: 100%
+  * Storage: 125%
+  * Trap: 0%
+  * Turret: 100%
+  * Light vehicle: 100%
+  * Wall: 225%
+
+  * Cannons per sequence: 1
+  * Cliptime: 0s
+  * Directional: No
+  * Is deflectable: No
+  * Max speed: 4
+  * Pass through shield: Yes
+  * Salvos: 1
+  * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
 
 These stats internal to the system link different parts of data together.
 
-  * Death projectile delay: 0s
-  * Death projectile distance: 0
   * Spawn apply buffs: buffReduceHeals1,buffDefendSplash2
   * Unit ID: RebelTwilekIncinerator
   * _Not found: Ability, Hero data, Projectile type, Self buff, Upgrade shard uid_
 
-|Level                  |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
-|-----------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
-|Death projectile       |projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
-|Death projectile damage|4800                                            |4896                                            |4992                                            |5088                                            |5184                                            |5280                                            |5376                                            |5760                                            |6240                                            |7200                                             |
-|Apply buffs            |buffFireBurn1,buffFireBurst1                    |buffFireBurn2,buffFireBurst2                    |buffFireBurn3,buffFireBurst3                    |buffFireBurn4,buffFireBurst4                    |buffFireBurn5,buffFireBurst5                    |buffFireBurn6,buffFireBurst6                    |buffFireBurn7,buffFireBurst7                    |buffFireBurn8,buffFireBurst8                    |buffFireBurn9,buffFireBurst9                    |buffFireBurn10,buffFireBurst10                   |
+|Level           |1                                               |2                                               |3                                               |4                                               |5                                               |6                                               |7                                               |8                                               |9                                               |10                                               |
+|----------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-------------------------------------------------|
+|Death projectile|projectileDeathFlamethrowerTwiLekIncineratorLvl1|projectileDeathFlamethrowerTwiLekIncineratorLvl2|projectileDeathFlamethrowerTwiLekIncineratorLvl3|projectileDeathFlamethrowerTwiLekIncineratorLvl4|projectileDeathFlamethrowerTwiLekIncineratorLvl5|projectileDeathFlamethrowerTwiLekIncineratorLvl6|projectileDeathFlamethrowerTwiLekIncineratorLvl7|projectileDeathFlamethrowerTwiLekIncineratorLvl8|projectileDeathFlamethrowerTwiLekIncineratorLvl9|projectileDeathFlamethrowerTwiLekIncineratorLvl10|
+|Apply buffs     |buffFireBurn1,buffFireBurst1                    |buffFireBurn2,buffFireBurst2                    |buffFireBurn3,buffFireBurst3                    |buffFireBurn4,buffFireBurst4                    |buffFireBurn5,buffFireBurst5                    |buffFireBurn6,buffFireBurst6                    |buffFireBurn7,buffFireBurst7                    |buffFireBurn8,buffFireBurst8                    |buffFireBurn9,buffFireBurst9                    |buffFireBurn10,buffFireBurst10                   |
+
+
+Internal values for death attack:
+
+  * _Not found: Apply buffs_
 
 ### Presentation stats
 
@@ -158,21 +213,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.29,1.36,-0.25
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
-  * Animation delay: 0
-  * Favorite target type: closest
-  * Arcs: No
-  * Max scale: 100
-  * Muzzle flash: fx_flamethrower_projectile
-  * Muzzle flash fade time: 1.5
-  * Name: Flamethrower
-  * Spin speed: 0
-  * _Not found: Bullet, Charge asset name, Ground bullet, Hit spark, Projectile length, S transition_
+### Death attack presentation stats
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|3744|3857|3917|3973|4032|4089|4145|4205|4261|4320|
+  * Arcs: No
+  * Hit spark: fx_twilekDeathExpl
+  * Max scale: 100
+  * Name: Death Explosion
+  * S transition: 100
+  * Spin speed: 0
+  * _Not found: Bullet, Charge asset name, Ground bullet, Muzzle flash, Muzzle flash fade time, Projectile length_
 
 ### Uninterpreted stats
 
@@ -190,6 +242,7 @@ Seriously, we don't really know what to do with these.
 |Order      |215201|215202|215203|215204|215205|215206|215207|215208|215209|215210|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -197,3 +250,11 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
+### Uninterpreted death attack stats
+
+  * S1 time: 300ms
+  * S2 time: 300ms
+  * Seeks target: No
+  * Streams: no
+

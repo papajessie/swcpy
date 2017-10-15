@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|--|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|90|8100|18900|21600|27000|30000|33000|36000|39000|45000|
 
+
 ### Training stats
 
 |Level        |1                                                                        |2                                                                        |3                                                                        |4                                                                        |5                                                                        |6                                                                        |7                                                                        |8                                                                        |9                                                                        |10                                                                        |
@@ -34,6 +35,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|500$                                                                     |700$                                                                     |900$                                                                     |1100$                                                                    |1300$                                                                    |1500$                                                                    |1700$                                                                    |1900$                                                                    |2100$                                                                    |2300$                                                                     |
 |Building     |[bld_title_smugglerFactory (no text translation) 3](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 3](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 3](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 4](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 5](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 6](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 7](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 8](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 9](smugglerFactory.html)|[bld_title_smugglerFactory (no text translation) 10](smugglerFactory.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
@@ -41,6 +43,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|1500$|5000$|14000$|24000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
+
 
 ### Move stats
 
@@ -58,6 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------|--|--------------------------|
 |Max speed|40|30                        |
 
+
 ## Main attack : SmugglerTank
 
 ### Targeting
@@ -72,6 +76,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1, 2, 3, 4                                                                                                                                                                                                                                                                                                                                                                                               |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Target preferences|**Turret (60)**, Light vehicle (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Storage (40), Shield generator (40), Shield (40), Ressource generator (40), Other building (40), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Turret (60)**, Light vehicle (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Storage (40), Shield generator (40), Shield (40), Ressource generator (40), Other building (40), Headquarters (40), Wall (1), Trap (0)|
+
 
 ### Shooting
 
@@ -92,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|--|--|---|---|----|----|----|----|----|----|
 |Damage per shot|72|86|629|719|1283|1425|1568|1710|1853|2138|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -100,6 +106,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|-------|-------|--------|--------|----|--------|----|--------|--------|
 |Displayed damage per second |101    |120    |882    |1009    |1800    |2000|2200    |2400|2600    |3000    |
 |Calculated damage per second|101.053|120.702|882.807|1009.123|1800.702|2000|2200.702|2400|2600.702|3000.702|
+
 
   * Headquarters: 100%
   * Heavy infantry: 100%
@@ -122,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 2.850s
   * Directional: Yes
@@ -130,6 +138,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -137,7 +146,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerTank
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -155,6 +165,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.48,1.51,-0.32
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -172,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|----|----|----|----|----|----|----|
 |Displayed damage per second|101|120|882|1009|1800|2000|2200|2400|2600|3000|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +200,7 @@ Seriously, we don't really know what to do with these.
 |Order      |341301|341302|341303|341304|341305|341306|341307|341308|341309|341310|
 |Point value|10    |12    |14    |16    |18    |20    |22    |24    |26    |30    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -195,3 +208,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

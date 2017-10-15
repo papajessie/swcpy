@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|18000|21600|25200|28800|32400|36000|39600|43200|46800|54000|
 
+
 ### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1500$                                      |2100$                                 |2700$                                 |3300$                                 |3900$                                 |4500$                                 |5100$                                 |5700$                                 |6300$                                 |6900$                                  |
 |Building     |[Hero Command 8](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
 |Level               |1      |2     |3      |4      |5      |6      |7       |8       |9       |10      |
 |--------------------|-------|------|-------|-------|-------|-------|--------|--------|--------|--------|
 |Upgrade time        |1h     |1h    |5h     |21h    |2d     |4d     |6d      |1w2d    |1w5d    |2w      |
 |Upgrade requirements|Nothing|75000$|150000$|300000$|600000$|900000$|1050000$|1200000$|3200000$|4800000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : HERO Luke Attack
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1500|1800|2100|2400|2700|3000|3300|3600|3900|4500|
 
+
 ### Projectile
 
   * Splash damage percentages: 0
@@ -92,6 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 |Calculated damage per second|2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
+
 
   * Headquarters: 100%
   * Heavy infantry: 60%
@@ -114,6 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 75%
+
   * Cannons per sequence: 1
   * Cliptime: 1.250s
   * Directional: Yes
@@ -122,6 +130,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Secondary attack : HERO Luke Defend
 
   * Auto: No
@@ -131,6 +140,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 10s
   * Recast ability: No
   * Target self: Yes
+
 ### Targeting
 
   * Max attack range: 7
@@ -140,6 +150,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Light vehicle (50), Storage (50), Ressource generator (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
   * _Not found: Attack shield border_
+
 ### Shooting
 
   * Time between start of clip and first shot: 100ms
@@ -155,11 +166,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.900s
   * Target locking: No
   * _Not found: New target on reload_
-### Projectile
 
   * DPS: 264.317
   * Splash damage percentages: 100,100,100
   * _Not found: Beam damage_
+
   * Headquarters: 100%
   * Heavy infantry: 60%
   * Heavy vehicle: 100%
@@ -181,6 +192,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 75%
+
   * Cannons per sequence: 1
   * Cliptime: 22.700s
   * Directional: Yes
@@ -189,6 +201,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -199,15 +212,17 @@ These stats internal to the system link different parts of data together.
   * Projectile type: projectileHeroLukeDefend
   * Self buff: buffDeflect
   * Unit ID: HeroLukeSkywalker
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Apply buffs, Death projectile, Spawn apply buffs, Upgrade shard uid_
 
 |Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
+
 Internal values for secondary attack:
 
   * _Not found: Apply buffs_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -236,6 +251,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |-----------|----|-----------------------|
 |Effect type|2   |1                      |
 
+
 ### Attack presentation stats
 
 ### Secondary attack presentation stats
@@ -254,6 +270,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: HERO Luke Defend
   * Spin speed: 0
   * _Not found: Alt gun locators, Bullet, Charge asset name, Favorite target type, Ground bullet, Hit spark, Muzzle flash, Muzzle flash fade time, Projectile length, S transition_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -270,6 +287,7 @@ Seriously, we don't really know what to do with these.
 |Order      |210601|210602|210603|210604|210605|210606|210607|210608|210609|210610|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -277,6 +295,7 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 0
@@ -287,3 +306,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
+

@@ -51,6 +51,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |50560|50880|51200|51840|52160|52480|53120|53440|53760|54400|
 |Shield health|18960|19200|19440|19680|19920|20160|20400|20640|20880|21120|
 
+
 ### Training stats
 
   * Training cost: Free
@@ -78,10 +79,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|2h                             |2h3m                           |2h4m                           |2h6m                           |2h8m                           |2h11m                          |2h12m                          |2h14m                          |2h16m                          |2h19m                                     |
 |Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)           |
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -94,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 6
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : HeavyDroidekaShell
 
 ### Targeting
@@ -105,6 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Shield generator (5), Shield (5), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 650ms
@@ -144,6 +149,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|5300|5350|5400|5450|5500|5550|5600|5650|5700|5750|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,65,50,25
@@ -178,6 +184,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |10600   |10700   |10800|10900   |11000   |11100|11200   |11300   |11400|11500   |
 |Calculated damage per second|4416.667|4458.333|4500 |4541.667|4583.333|4625 |4666.667|4708.333|4750 |4791.667|
 
+
   * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 75%
@@ -199,6 +206,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 2.400s
   * Directional: No
@@ -207,6 +215,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -214,7 +223,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionRebelHeavyDroideka
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -240,6 +250,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon camera position|-9.81,16.18,23.56              |-9.81,16.18,23.56              |-9.81,16.18,23.56                     |-10.52,17.22,25.24                    |-11.59,19.02,28.21                    |-5.03,18.08,36.98                         |
 |Icon lookat position|0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                       |0.23,1.51,-0.32                       |0.4,1.52,-0.26                        |0.27,1.61,-0.25                           |
 |Shield asset name   |effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10      |effectRebelHeavyDroidekaShield20      |effectRebelHeavyDroidekaShield30      |effectRebelHeavyDroidekaShield40          |
+
 
 ### Attack presentation stats
 
@@ -278,6 +289,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
 |---------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second|10600|10700|10800|10900|11000|11100|11200|11300|11400|11500|
+
 
 ### Uninterpreted stats
 
@@ -319,6 +331,7 @@ Seriously, we don't really know what to do with these.
 |Order      |214841|214842|214843|214844|214845|214846|214847|214848|214849|214850|
 |Point value|200   |200   |200   |200   |200   |200   |200   |200   |200   |200   |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -327,3 +340,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * Strict cool down: Yes
+

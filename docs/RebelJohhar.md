@@ -27,6 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|16000|16790|17630|18510|19440|20420|21460|22560|23720|24950|
 
+
 ### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1000$                                      |1400$                                 |1800$                                 |2200$                                 |2600$                                 |3000$                                 |3400$                                 |4000$                                 |4200$                                 |4600$                                  |
 |Building     |[Hero Command 1](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : JohharRebel
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|3900|4130|4360|4580|4800|5030|5380|5760|6160|6590|
 
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -90,6 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |2000|2400    |2800    |3200    |3600    |4000    |4400    |4800    |5200    |6000    |
 |Calculated damage per second|3600|3812.308|4024.615|4227.692|4430.769|4643.077|4966.154|5316.923|5686.154|6083.077|
+
 
   * Headquarters: 50%
   * Heavy infantry: 250%
@@ -112,6 +119,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 75%
   * Light vehicle: 200%
   * Wall: 60%
+
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -120,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Secondary attack : Rail Gun
 
   * Auto: No
@@ -129,6 +138,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 1ms
   * Recast ability: No
   * Target self: No
+
 ### Targeting
 
   * Max attack range: 60
@@ -138,6 +148,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 10
   * _Not found: Attack shield border_
+
 ### Shooting
 
   * Time between start of clip and first shot: 1.200s
@@ -157,13 +168,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Damage per shot|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
-### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
 
 |Level|1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 |DPS  |277.207|289.528|301.848|314.168|326.489|350.924|377.207|405.544|435.934|468.583|
+
 
   * Headquarters: 50%
   * Heavy infantry: 95%
@@ -186,6 +197,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 55%
   * Light vehicle: 100%
   * Wall: 85%
+
   * Cannons per sequence: 1
   * Cliptime: 48.700s
   * Directional: Yes
@@ -195,6 +207,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * Width segments: 100,90,80
+
 ## Other stats
 
 ### Internal stats
@@ -204,16 +217,18 @@ These stats internal to the system link different parts of data together.
   * Projectile type: projectileRailGunRebel
   * Unit ID: RebelJohhar
   * Upgrade shard uid: shrd_troopRebelJohhar
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Self buff, Spawn apply buffs_
+  * _Not found: Apply buffs, Death projectile, Self buff, Spawn apply buffs_
 
 |Level    |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
 |---------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
 |Ability  |abilityRailGun1Rebel|abilityRailGun2Rebel|abilityRailGun3Rebel|abilityRailGun4Rebel|abilityRailGun5Rebel|abilityRailGun6Rebel|abilityRailGun7Rebel|abilityRailGun8Rebel|abilityRailGun9Rebel|abilityRailGun10Rebel|
 |Hero data|hero1               |hero2               |hero3               |hero4               |hero5               |hero6               |hero7               |hero8               |hero9               |hero10               |
 
+
 Internal values for secondary attack:
 
   * _Not found: Apply buffs_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -248,6 +263,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock rotation|0,0,0|(not found)               |
 |Icon unlock scale   |1,1,1|(not found)               |
 
+
 ### Attack presentation stats
 
 ### Secondary attack presentation stats
@@ -269,6 +285,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Projectile length: 6
   * Spin speed: 0
   * _Not found: Audio ability loop, Bullet, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -285,6 +302,7 @@ Seriously, we don't really know what to do with these.
 |Order      |211101|211102|211103|211104|211105|211106|211107|211108|211109|211110|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -292,6 +310,7 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 1
@@ -302,3 +321,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
+

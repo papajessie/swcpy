@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health        |9000|10800|10500|12000|13500|15000|16500|18000|19500|22500|
 |Buildable unit|Yes |Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |No   |
 
+
 ### Training stats
 
 |Level        |1                                                                            |2                                                                            |3                                                                            |4                                                                            |5                                                                            |6                                                                            |7                                                                            |8                                                                            |9                                                                            |10                                                                            |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|250$                                                                         |350$                                                                         |450$                                                                         |550$                                                                         |650$                                                                         |750$                                                                         |850$                                                                         |950$                                                                         |1050$                                                                        |1150$                                                                         |
 |Building     |[bld_title_syndicateBarracks (no text translation) 1](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 2](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 3](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 4](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 5](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 6](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 7](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 8](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 9](syndicateBarracks.html)|[bld_title_syndicateBarracks (no text translation) 10](syndicateBarracks.html)|
 
+
 ### Upgrading stats
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s  |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|700$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Wookie
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|---|---|
 |Damage per shot|325|390|380|434|488|542|596|650|705|813|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|-------|-------|-------|-------|-------|---|-------|-------|
 |Displayed damage per second |299|358|349    |399    |448    |498    |548    |598|648    |747    |
 |Calculated damage per second|300|360|350.769|400.615|450.462|500.308|550.154|600|650.769|750.462|
+
 
   * Headquarters: 100%
   * Heavy infantry: 50%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -121,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -128,7 +137,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ErkitBruiser
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -147,6 +157,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.09,1.4,0.28
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -164,6 +175,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second|299|358|349|399|448|498|548|598|648|747|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -180,6 +192,7 @@ Seriously, we don't really know what to do with these.
 |Order      |333601|333602|333603|333604|333605|333606|333607|333608|333609|333610|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -187,3 +200,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

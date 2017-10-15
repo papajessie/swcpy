@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health        |17000|20400|23800|27200|30600|34000|37400|40800|44200|51000|
 |Buildable unit|Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |Yes  |No   |No   |
 
+
 ### Training stats
 
 |Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
@@ -34,12 +35,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|200$                               |280$                               |360$                               |440$                               |520$                               |600$                               |680$                               |760$                               |840$                               |920$                                |
 |Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |3d12h  |5d      |1w1d    |
 |Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : SmugglerGuardian
 
 ### Targeting
@@ -64,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, **Shield generator (70)**, **Shield (70)**, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Droideka (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Storage (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Clip retargeting: No
@@ -83,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Shot count                                |1    |1    |1    |1    |1    |1    |1    |1    |1    |3    |
 |Time between shots                        |200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|500ms|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -91,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|---|---|---|----|----|----|----|--------|
 |Displayed damage per second |280|336|336|384|432|480 |528 |576 |624 |720     |
 |Calculated damage per second|500|600|700|800|900|1000|1100|1200|1300|2076.923|
+
 
   * Headquarters: 100%
   * Heavy infantry: 50%
@@ -113,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 50%
+
   * Cannons per sequence: 2
   * Directional: Yes
   * Is deflectable: Yes
@@ -125,6 +133,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Cliptime|1.500s                   |3.250s|
 |Salvos  |1                        |3     |
 
+
 ## Other stats
 
 ### Internal stats
@@ -132,7 +141,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerGuardian
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -152,6 +162,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.09,1.4,0.28
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -169,6 +180,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|----|---|---|---|---|---|---|---|
 |Displayed damage per second|280|336 |384|432|480|528|576|624|720|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -185,6 +197,7 @@ Seriously, we don't really know what to do with these.
 |Order      |334201|334202|334203|334204|334205|334206|334207|334208|334209|334210|
 |Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -192,3 +205,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

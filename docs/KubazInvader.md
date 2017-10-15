@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|1350|1600|1850|2100|2350|2600|2850|3100|3350|3600|
 
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -34,10 +35,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|1000$                            |1052$                                  |1137$                                  |1242$                                  |1361$                                  |1494$                                  |1638$                                  |1791$                                  |1954$                                  |2125$                                   |
 |Building     |[Barracks 4](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : KubazInvader
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Shield generator (80)**, **Shield (80)**, _Storage (60)_, _Ressource generator (60)_, Light vehicle (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Turret (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 50ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|-----|-----|-----|-----|
 |Damage per shot|2500|3775|5050|6325|7600|8875|10150|11425|12700|13975|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -88,6 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|---------|---------|---------|
 |Displayed damage per second |4700    |2545    |3090    |3454    |3818    |4363    |4909    |5272     |5636     |6545     |
 |Calculated damage per second|2222.222|3355.556|4488.889|5622.222|6755.556|7888.889|9022.222|10155.556|11288.889|12422.222|
+
 
   * Headquarters: 10%
   * Heavy infantry: 10%
@@ -110,6 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 10%
   * Light vehicle: 10%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 2.250s
   * Directional: Yes
@@ -118,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -127,7 +136,8 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffPersonalShieldKubaz
   * Unit ID: KubazInvader
   * Upgrade shard uid: shrd_troopKubazInvader
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -150,6 +160,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
   * _Not found: Audio impact, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -167,6 +178,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|4700|2545|3090|3454|3818|4363|4909|5272|5636|6545|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -183,6 +195,7 @@ Seriously, we don't really know what to do with these.
 |Order      |134001|134002|134003|134004|134005|134006|134007|134008|134009|134010|
 |Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -190,3 +203,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

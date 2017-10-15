@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health        |6000|7200|8400|9600|10800|12000|13200|14400|15600|18000|
 |Buildable unit|Yes |Yes |Yes |Yes |Yes  |Yes  |Yes  |No   |No   |No   |
 
+
 ### Training stats
 
   * Building: [Barracks 4](smugglerBarracks.html)
@@ -35,12 +36,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|42s |44s |46s |48s |50s |52s |54s |56s |58s |1m  |
 |Training cost|150$|210$|270$|330$|390$|450$|510$|570$|630$|690$|
 
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Dewback
 
 ### Targeting
@@ -65,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Light vehicle (50)**, **Turret (50)**, **Storage (50)**, **Shield generator (50)**, **Shield (50)**, **Ressource generator (50)**, **Infantry (50)**, **Support troop (50)**, **Droideka (50)**, **Other building (50)**, **Heavy vehicle (50)**, **Heavy infantry (50)**, **Headquarters (50)**, Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -84,6 +89,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|----|----|----|----|----|
 |Damage per shot|528|634|740|845|951|1056|1162|1268|1373|1584|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,75
@@ -93,6 +99,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|-------|--------|--------|--------|--------|----|--------|--------|--------|
 |Displayed damage per second |754    |905    |1057    |1207    |1358    |1508    |1660|1811    |1961    |2262    |
 |Calculated damage per second|754.286|905.714|1057.143|1207.143|1358.571|1508.571|1660|1811.429|1961.429|2262.857|
+
 
   * Headquarters: 100%
   * Heavy infantry: 20%
@@ -115,6 +122,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 20%
   * Wall: 300%
+
   * Cannons per sequence: 1
   * Cliptime: 3.500s
   * Directional: Yes
@@ -123,6 +131,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -130,7 +139,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: NativeDewback
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -149,6 +159,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.75,0.91,-0.52
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 1000
@@ -163,6 +174,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second|754|905|1057|1207|1358|1508|1660|1811|1961|2262|
+
 
 ### Uninterpreted stats
 
@@ -180,6 +192,7 @@ Seriously, we don't really know what to do with these.
 |Order      |332501|332502|332503|332504|332505|332506|332507|332508|332509|332510|
 |Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -187,3 +200,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

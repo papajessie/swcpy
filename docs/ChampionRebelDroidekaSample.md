@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |19200|23680|26880|30080|33280|36480|39040|41600|43840|46080|
 |Shield health|14400|17760|20160|22560|24960|27360|29280|31200|32400|33600|
 
+
 ### Training stats
 
   * Training cost: Free
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |-------------|----|-----|-----|-----|-----|-----|----|--------|
 |Training time|1h8m|1h18m|1h28m|1h39m|1h48m|1h58m|2h8m|2h19m   |
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 7
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Rebel Droideka Blaster
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
 |Shot count           |8      |8      |8      |8      |8      |8      |8      |12         |12         |12         |
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -89,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |2640    |3258    |3699    |4137    |4578    |5019    |5370    |5721    |6216    |6636    |
 |Calculated damage per second|3107.710|3837.552|4355.503|4868.746|5391.407|5909.358|6323.720|6815.774|7317.245|7811.654|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -111,6 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 80%
+
   * Cliptime: 1.699s
   * Directional: Yes
   * Is deflectable: Yes
@@ -123,6 +131,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |--------------------|-------------------|--------|
 |Cannons per sequence|4                  |6       |
 
+
 ## Other stats
 
 ### Internal stats
@@ -130,7 +139,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionRebelDroidekaSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -156,6 +166,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon lookat position|-0.39,1.23,-0.21                                                                                                                                                                       |-0.32,1.71,0.09                                                                                                                                                                        |-0.19,1.6,0                                                                                                                                                                            |-0.1,1.43,0.08                                                                                                                                                                         |-0.35,1.49,0.26                                                                                                                                                                                      |
 |Shield asset name   |effectRebelDroidekaShield1                                                                                                                                                             |effectRebelDroidekaShield10                                                                                                                                                            |effectRebelDroidekaShield20                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield40                                                                                                                                                                          |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -173,6 +184,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|2640|3258|3699|4137|4578|5019|5370|5721|6216|6636|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -189,6 +201,7 @@ Seriously, we don't really know what to do with these.
 |-----------|--|--|--|---|---|---|---|--------|
 |Point value|40|68|88|108|128|148|172|200     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -196,3 +209,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

@@ -22,6 +22,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
+
 ### Training stats
 
   * Training cost: 100$
@@ -30,6 +31,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |-------------|--|---|--|
 |Training time|4s|21s|4s|
 
+
 ### Upgrading stats
 
   * Upgrade requirements: 1500$
@@ -37,6 +39,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level       |1    |2  |3    |
 |------------|-----|---|-----|
 |Upgrade time|1m40s|10s|1m40s|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------|----|--|
 |Max speed|30  |20|
 
+
 ## Main attack : BountyHunter / Smuggler
 
 ### Targeting
@@ -68,6 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level     |1, 2|3|
 |----------|----|-|
 |View range|20  |8|
+
 
 ### Shooting
 
@@ -88,6 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time between end of clip and start of clip|2s |1.500s|2s |
 |Shot count                                |3  |2     |3  |
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -96,6 +102,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|------|------|-------|
 |Displayed damage per second |46    |44    |400    |
 |Calculated damage per second|46.154|44.444|400.615|
+
 
   * Droideka: 100%
   * Shield: 100%
@@ -122,6 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Light vehicle      |20% |100%|
 |Wall               |200%|100%|
 
+
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -134,6 +142,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Cliptime            |3.250s|2.250s|3.250s|
 |Salvos              |3     |2     |3     |
 
+
 ## Other stats
 
 ### Internal stats
@@ -141,7 +150,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: FueSmuggler
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -164,6 +174,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Gun position        |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
 |Icon camera position|9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -181,6 +192,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Displayed damage per second|46          |44          |400     |
 |Name                       |BountyHunter|BountyHunter|Smuggler|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -197,6 +209,7 @@ Seriously, we don't really know what to do with these.
 |Order      |322601|322602|322603|
 |Point value|1     |1.200 |1.400 |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -204,3 +217,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

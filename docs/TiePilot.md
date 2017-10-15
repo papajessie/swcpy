@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|6810|7070|7350|7630|7930|8240|8560|8900|9250|9610|
 
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -34,10 +35,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|150$                             |160$                                   |170$                                   |190$                                   |200$                                   |200$                                   |210$                                   |210$                                   |220$                                   |230$                                    |
 |Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Scout
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|---|---|
 |Damage per shot|420|440|460|480|510|530|560|590|620|650|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -88,6 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |190    |210    |220    |240    |250     |270     |280     |310     |330     |360     |
 |Calculated damage per second|868.966|910.345|951.724|993.103|1055.172|1096.552|1158.621|1220.690|1282.759|1344.828|
+
 
   * Headquarters: 50%
   * Heavy infantry: 75%
@@ -110,6 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 1.450s
   * Directional: Yes
@@ -118,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -126,11 +135,12 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: TiePilot
   * Upgrade shard uid: shrd_troopTiePilot
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff_
 
 |Level            |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |-----------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Spawn apply buffs|buffSumPhtmTieFighter1|buffSumPhtmTieFighter2|buffSumPhtmTieFighter3|buffSumPhtmTieFighter4|buffSumPhtmTieFighter5|buffSumPhtmTieFighter6|buffSumPhtmTieFighter7|buffSumPhtmTieFighter8|buffSumPhtmTieFighter9|buffSumPhtmTieFighter10|
+
 
 ### Presentation stats
 
@@ -165,6 +175,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock rotation|0,0,0         |(not found)               |
 |Icon unlock scale   |1.25,1.25,1.25|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -182,6 +193,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second|190|210|220|240|250|270|280|310|330|360|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -198,6 +210,7 @@ Seriously, we don't really know what to do with these.
 |Order      |314800|314801|314802|314803|314804|314805|314806|314807|314808|314809|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -205,3 +218,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

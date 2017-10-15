@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|1000|1200|1400|1600|1800|2000|2200|2400|2600|3000|
 
+
 ### Training stats
 
 |Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
@@ -34,6 +35,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|300$                               |420$                               |540$                               |660$                               |780$                               |900$                               |1020$                              |1140$                              |1260$                              |1380$                               |
 |Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
@@ -41,6 +43,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1   |2   |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|500$|900$|5000$|14000$|19000$|119000$|186000$|363000$|1130000$|1947000$|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : SmugglerRenegade
 
 ### Targeting
@@ -65,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Storage (60)_, _Shield generator (60)_, _Shield (60)_, _Ressource generator (60)_, _Other building (60)_, _Headquarters (60)_, Light vehicle (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -84,6 +89,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|---|---|
 |Damage per shot|114|136|159|182|204|227|250|272|295|340|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -92,6 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|1680|
 |Calculated damage per second|342|408|477|546|612 |681 |750 |816 |885 |1020|
+
 
   * Headquarters: 125%
   * Heavy infantry: 50%
@@ -114,6 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 300%
   * Light vehicle: 100%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 1s
   * Directional: Yes
@@ -122,6 +130,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -129,7 +138,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerRenegade
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -153,6 +163,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |-----------|-----------------------------------------------------------------------------------------------------------------------|--------------------------|
 |Audio train|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -170,6 +181,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second|93|112|130|149|1008|1120|1232|1344|1456|1680|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -186,6 +198,7 @@ Seriously, we don't really know what to do with these.
 |Order      |344301|344302|344303|344304|344305|344306|344307|344308|344309|344310|
 |Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -193,3 +206,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

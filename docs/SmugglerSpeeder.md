@@ -26,12 +26,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|--|---|---|---|-----|-----|-----|-----|-----|-----|
 |Health|90|110|120|130|11880|13200|14520|15840|17160|19800|
 
+
 ### Training stats
 
 |Level        |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |-------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Training time|2m6s|2m12s|2m18s|2m24s|2m30s|2m36s|2m42s|2m48s|2m54s|3m   |
 |Training cost|300$|420$ |540$ |660$ |780$ |900$ |1020$|1140$|1260$|1380$|
+
 
 ### Upgrading stats
 
@@ -40,6 +42,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1   |2   |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade requirements|500$|900$|5000$|14000$|19000$|119000$|186000$|363000$|1130000$|1947000$|
+
 
 ### Move stats
 
@@ -53,6 +56,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : T7-S Speederbike
 
 ### Targeting
@@ -67,6 +71,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Max attack range  |4                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |Target preferences|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Infantry (70)**, **Infantry hero (70)**, **Heavy infantry hero (70)**, **Support troop (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Vehicule hero (50), Heavy vehicule hero (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Trap (0)|
+
 
 ### Shooting
 
@@ -87,6 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot   |105|126|147|168|1134|1260|1386|1512|1638|1890|
 |Retargeting offset|8  |12 |12 |12 |12  |12  |12  |12  |12  |12  |
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -95,6 +101,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|------|---|-------|-------|----|----|----|----|----|----|
 |Displayed damage per second |93    |112|130    |149    |1008|1120|1232|1344|1456|1680|
 |Calculated damage per second|93.333|112|130.667|149.333|1008|1120|1232|1344|1456|1680|
+
 
   * Headquarters: 100%
   * Heavy infantry: 125%
@@ -117,6 +124,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 2.250s
   * Directional: Yes
@@ -125,6 +133,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -132,7 +141,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerSpeeder
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -150,6 +160,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.42,1.29,-0.61
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -167,6 +178,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second|93|112|130|149|1008|1120|1232|1344|1456|1680|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -183,6 +195,7 @@ Seriously, we don't really know what to do with these.
 |Order      |341201|341202|341203|341204|341205|341206|341207|341208|341209|341210|
 |Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -190,3 +203,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

@@ -23,14 +23,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
 
+
 ### Training stats
 
   * Training time: 0s
   * Training cost: Free
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -43,6 +46,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : projectileMarksman
 
 ### Targeting
@@ -54,6 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -73,6 +78,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|----|----|----|----|----|----|----|----|----|
 |Damage per shot|954|1144|1335|1526|1716|1907|2098|2288|2479|2860|
 
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -82,6 +88,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|--------|----|--------|----|--------|--------|--------|--------|--------|
 |Displayed damage per second |2505|3140    |3845|4620    |5445|6360    |7325    |8360    |9455    |11400   |
 |Calculated damage per second|1272|1525.333|1780|2034.667|2288|2542.667|2797.333|3050.667|3305.333|3813.333|
+
 
   * Headquarters: 100%
   * Heavy infantry: 150%
@@ -104,6 +111,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 300%
   * Wall: 40%
+
   * Cannons per sequence: 1
   * Cliptime: 3.750s
   * Directional: Yes
@@ -112,6 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -119,11 +128,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SullustanSample
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Upgrade shard uid_
 
 |Level            |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                          |
 |-----------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|
 |Spawn apply buffs|buffMarksmanHealth1,buffMarksmanDamage1,buffSumPhtmYWing1|buffMarksmanHealth2,buffMarksmanDamage2,buffSumPhtmYWing2|buffMarksmanHealth3,buffMarksmanDamage3,buffSumPhtmYWing3|buffMarksmanHealth4,buffMarksmanDamage4,buffSumPhtmYWing4|buffMarksmanHealth5,buffMarksmanDamage5,buffSumPhtmYWing5|buffMarksmanHealth6,buffMarksmanDamage6,buffSumPhtmYWing6|buffMarksmanHealth7,buffMarksmanDamage7,buffSumPhtmYWing7|buffMarksmanHealth8,buffMarksmanDamage8,buffSumPhtmYWing8|buffMarksmanHealth9,buffMarksmanDamage9,buffSumPhtmYWing9|buffMarksmanHealth10,buffMarksmanDamage10,buffSumPhtmYWing10|
+
 
 ### Presentation stats
 
@@ -144,6 +154,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.56,1.32,-0.71
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Buff asset offset, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Gun position, Hologram uid, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -161,6 +172,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|----|----|----|----|----|----|----|----|----|-----|
 |Displayed damage per second|2505|3140|3845|4620|5445|6360|7325|8360|9455|11400|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -176,6 +188,7 @@ Seriously, we don't really know what to do with these.
 |-----|------|------|------|------|------|------|------|------|------|------|
 |Order|314700|314701|314702|314703|314704|314705|314706|314707|314708|314709|
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -183,3 +196,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

@@ -22,14 +22,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
   * _Not found: Can be given, Unlock planet_
+
 ### Training stats
 
   * Training time: 1s
   * Training cost: Free
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -42,6 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : SmugglerSaboteur
 
 ### Targeting
@@ -53,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Shield generator (70)**, **Shield (70)**, _Storage (60)_, _Ressource generator (60)_, _Other building (60)_, Light vehicle (50), Turret (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 1ms
@@ -68,11 +73,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1ms
   * Target locking: No
   * _Not found: New target on reload_
+
 ### Projectile
 
   * Displayed damage per second: 1
   * Calculated damage per second: 833.333
   * _Not found: Beam damage, Splash damage percentages_
+
   * Headquarters: 100%
   * Heavy infantry: 100%
   * Heavy vehicle: 100%
@@ -94,6 +101,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 150%
+
   * Cannons per sequence: 1
   * Cliptime: 6ms
   * Directional: Yes
@@ -102,6 +110,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -109,7 +118,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerJawa
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -123,6 +133,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.12,1.34,0.53
   * Targeted type: ENEMIES
   * _Not found: Audio attack, Audio death, Audio impact, Audio placement, Audio train, Buff asset offset, Death animation, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -136,6 +147,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: SmugglerSaboteur
   * Spin speed: 0
   * _Not found: Charge asset name, Ground bullet, Muzzle flash fade time, Projectile length, S transition_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -148,6 +160,7 @@ Seriously, we don't really know what to do with these.
   * Splash: 0
   * Target in range modifier: 1
   * Xp: 0
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -155,3 +168,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

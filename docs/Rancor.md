@@ -26,14 +26,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|16500|39600|46200|52800|59400|66000|72600|79200|85800|99000|
 
+
 ### Training stats
 
   * Training time: 3m50s
   * Training cost: 3250$
+
 ### Upgrading stats
 
   * Upgrade time: 2h
   * Upgrade requirements: 14000$
+
 ### Move stats
 
   * Acceleration: 0
@@ -46,6 +49,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Rancor Blaster
 
 ### Targeting
@@ -57,6 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (55)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0), Flying vehicle (0), Flying infantry (0)
   * View range: 16
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -76,6 +81,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1200|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 
+
 ### Projectile
 
   * Splash damage percentages: 100,25
@@ -85,6 +91,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |1066   |2560    |2986    |3413    |3840    |4266    |4693    |5120    |5546    |6400    |
 |Calculated damage per second|895.522|2149.254|2507.463|2865.672|3223.881|3582.090|3940.299|4298.507|4656.716|5373.134|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -107,6 +114,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 50%
   * Wall: 100%
+
   * Cannons per sequence: 2
   * Cliptime: 2.680s
   * Directional: Yes
@@ -115,6 +123,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -122,7 +131,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: Rancor
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -141,6 +151,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.95,2.74,-1.82
   * Targeted type: ENEMIES
   * _Not found: Audio impact, Audio train, Decal asset name, Decal bundle name, Decal size, Effect type, Event button action, Event button data, Event button string, Event features string, Hologram uid, Icon closeup camera position, Icon closeup lookat position, Icon unlock position, Icon unlock rotation, Icon unlock scale, Info UI type, Shield asset name, Spawn effect uid, Tooltip height offset, UI decal asset name, Unlocked by campaign, Unlocked by event, Unlocked by tournament_
+
 ### Attack presentation stats
 
   * Animation delay: 960
@@ -155,6 +166,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|1066|2560|2986|3413|3840|4266|4693|5120|5546|6400|
+
 
 ### Uninterpreted stats
 
@@ -172,6 +184,7 @@ Seriously, we don't really know what to do with these.
 |Order      |332301|332302|332303|332304|332305|332306|332307|332308|332309|332310|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -179,3 +192,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

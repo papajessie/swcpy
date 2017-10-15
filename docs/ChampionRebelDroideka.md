@@ -51,6 +51,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |42240|42560|42880|43520|43840|44160|44800|45120|45440|46080|
 |Shield health|31440|31680|31920|32160|32400|32640|32880|33120|33360|33600|
 
+
 ### Training stats
 
   * Training cost: Free
@@ -78,10 +79,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|2h                            |2h3m                          |2h4m                          |2h6m                          |2h8m                          |2h11m                         |2h12m                         |2h14m                         |2h16m                         |2h19m                                     |
 |Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)            |
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -94,6 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 7
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Rebel Droideka Blaster
 
 ### Targeting
@@ -105,6 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (80)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -152,6 +157,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Gun shooting sequence|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
 |Shot count           |12         |12         |12         |12         |12         |12         |12         |12         |12         |12         |
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -185,6 +191,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |5880    |5964    |6048    |6132    |6216    |6300    |6384    |6468    |6552    |6636    |
 |Calculated damage per second|6921.719|7020.600|7119.482|7218.364|7317.245|7416.127|7515.009|7613.891|7712.772|7811.654|
 
+
   * Headquarters: 100%
   * Heavy infantry: 75%
   * Heavy vehicle: 75%
@@ -206,6 +213,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 80%
+
   * Cliptime: 1.699s
   * Directional: Yes
   * Is deflectable: Yes
@@ -218,6 +226,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 |Cannons per sequence|4                                                                                                                                                |6                                         |
 
+
 ## Other stats
 
 ### Internal stats
@@ -225,7 +234,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: ChampionRebelDroideka
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -252,6 +262,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name      |droideka_con-ani-up1                                                                                                                                                                   |droideka_con-ani-up10                                                                                                                                                                  |droideka_con-ani-up20                                                                                                                                                                  |droideka_con-ani-up30                                                                                                                                                                  |droideka_con-ani-up40                                                                                                                                                                                |
 |Gun position     |"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"atst_emp_rig_MASTER_MOVER/locator_gun_Lt1":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Lt2":1,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt1":2,"atst_emp_rig_MASTER_MOVER/locator_gun_Rt2":2|"MASTER_MOVER/locator_gun_Lt1":1,"MASTER_MOVER/locator_gun_Lt2":1,"MASTER_MOVER/locator_gun_Lt3":1,"MASTER_MOVER/locator_gun_Rt1":2,"MASTER_MOVER/locator_gun_Rt2":2,"MASTER_MOVER/locator_gun_Rt3":2|
 |Shield asset name|effectRebelDroidekaShield1                                                                                                                                                             |effectRebelDroidekaShield10                                                                                                                                                            |effectRebelDroidekaShield20                                                                                                                                                            |effectRebelDroidekaShield30                                                                                                                                                            |effectRebelDroidekaShield40                                                                                                                                                                          |
+
 
 ### Attack presentation stats
 
@@ -289,6 +300,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |41  |42  |43  |44  |45  |46  |47  |48  |49  |50  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second|5880|5964|6048|6132|6216|6300|6384|6468|6552|6636|
+
 
 ### Uninterpreted stats
 
@@ -330,6 +342,7 @@ Seriously, we don't really know what to do with these.
 |Order      |214641|214642|214643|214644|214645|214646|214647|214648|214649|214650|
 |Point value|200   |200   |200   |200   |200   |200   |200   |200   |200   |200   |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -337,3 +350,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: Yes
   * _Not found: S1 time, S2 time_
+

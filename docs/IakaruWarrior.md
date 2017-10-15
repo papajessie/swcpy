@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|10570|12310|12060|13520|14970|16430|17950|19440|20930|23880|
 
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,10 +35,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|625$                            |875$                                  |1125$                                 |1375$                                 |1625$                                 |1875$                                 |2125$                                 |2500$                                 |2625$                                 |2875$                                  |
 |Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Iakaru Warrior
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (70)**, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 12
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|1230|1235|1263|1271|1280|1288|1346|1380|1413|1454|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -88,6 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|----|--------|
 |Displayed damage per second |2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140|3231.111|
 |Calculated damage per second|2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140|3231.111|
+
 
   * Headquarters: 100%
   * Heavy infantry: 50%
@@ -110,6 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 75%
   * Wall: 100%
+
   * Cannons per sequence: 1
   * Cliptime: 3.150s
   * Directional: Yes
@@ -118,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 7
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -126,7 +135,8 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: IakaruWarrior
   * Upgrade shard uid: shrd_troopIakaruWarrior
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -155,6 +165,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |-----------------|-----------|--------------------------|
 |Icon unlock scale|1.2,1.2,1.2|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -172,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------|--------|--------|--------|--------|--------|--------|--------|----|--------|
 |Displayed damage per second|2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140|3231.111|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +200,7 @@ Seriously, we don't really know what to do with these.
 |Order      |234301|234302|234303|234304|234305|234306|234307|234308|234309|234310|
 |Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -195,3 +208,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

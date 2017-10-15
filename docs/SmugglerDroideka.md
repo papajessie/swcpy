@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health       |16000        |19200|23680|36480|44160|48000|
 |Shield health|12000        |14400|17760|27360|33120|36000|
 
+
 ### Training stats
 
   * Training cost: Free
@@ -35,10 +36,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|1h                                                                                         |1h8m                                                                                       |1h18m                                                                                      |1h58m                                                                                      |2h16m                                                                                      |2h19m                                                                                       |
 |Building     |[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 6](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 7](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 8](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 9](smugglerPlatformDroideka.html)|[bld_title_smugglerPlatformDroideka (no text translation) 10](smugglerPlatformDroideka.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: Nothing
+
 ### Move stats
 
   * Acceleration: 0
@@ -51,6 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 7
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Rebel Droideka Blaster
 
 ### Targeting
@@ -62,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Infantry (60)**, **Support troop (60)**, **Flying infantry (60)**, **Droideka (60)**, **Heavy infantry (60)**, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -81,6 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|-------------|---|----|----|----|----|
 |Damage per shot|734          |440|1086|1673|2025|2200|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -89,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------------|--------|--------|----|--------|--------|
 |Displayed damage per second |2202         |1320    |3258    |5019|6075    |6600    |
 |Calculated damage per second|3145.714     |1885.714|4654.286|7170|8678.571|9428.571|
+
 
   * Headquarters: 100%
   * Heavy infantry: 75%
@@ -111,6 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 100%
   * Wall: 80%
+
   * Cannons per sequence: 4
   * Cliptime: 1.400s
   * Directional: Yes
@@ -119,6 +127,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -126,7 +135,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Unit ID: SmugglerDroideka
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff, Spawn apply buffs, Upgrade shard uid_
+
 ### Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -155,6 +165,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Audio death    |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
 |Audio placement|"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -172,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|-------------|----|----|----|----|----|
 |Displayed damage per second|2202         |1320|3258|5019|6075|6600|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -188,6 +200,7 @@ Seriously, we don't really know what to do with these.
 |Order      |314701|314702|314703|314704|314705|314706|314707|314708|314709|314710|
 |Point value|20    |20    |20    |20    |20    |40    |68    |148   |188   |200   |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -195,3 +208,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+

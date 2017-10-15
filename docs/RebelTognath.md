@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|-----|-----|-----|-----|-----|-----|
 |Health|6160|7390|8620|9860|11090|12320|13550|14780|16020|18480|
 
+
 ### Training stats
 
 |Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,10 +35,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|50 Con.                                 |85 Con.                               |115 Con.                              |145 Con.                              |175 Con.                              |205 Con.                              |235 Con.                              |265 Con.                              |295 Con.                              |325 Con.                               |
 |Building     |[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade time: 0s
   * Upgrade requirements: 32 data fragments
+
 ### Move stats
 
   * Acceleration: 0
@@ -50,6 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Tognath
 
 ### Targeting
@@ -61,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Droideka (100)**, _Infantry (60)_, _Support troop (60)_, _Flying infantry (60)_, _Heavy infantry (60)_, Light vehicle (50), Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
   * View range: 8
+
 ### Shooting
 
   * Time between start of clip and first shot: 250ms
@@ -80,6 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|----|----|----|----|----|----|----|----|----|
 |Damage per shot|976|1168|1361|1558|1754|1947|2144|2336|2529|2918|
 
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -89,6 +95,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |1200    |1435    |1675    |1915    |2160    |2400    |2640    |2875    |3115    |3590    |
 |Calculated damage per second|1201.231|1437.538|1675.077|1917.538|2158.769|2396.308|2638.769|2875.077|3112.615|3591.385|
+
 
   * Headquarters: 100%
   * Heavy infantry: 250%
@@ -111,6 +118,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 100%
   * Light vehicle: 200%
   * Wall: 40%
+
   * Cannons per sequence: 1
   * Cliptime: 3.250s
   * Directional: Yes
@@ -119,6 +127,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
   * _Not found: Length segments, Width segments_
+
 ## Secondary attack : Tognath Sniper Shot
 
   * Auto: Yes
@@ -128,6 +137,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Duration: 1ms
   * Recast ability: Yes
   * Target self: No
+
 ### Targeting
 
   * Max attack range: 12
@@ -137,6 +147,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preferences: **Droideka (255)**, _Vehicule hero (70)_, _Infantry hero (70)_, _Heavy vehicule hero (70)_, _Heavy infantry hero (70)_, _Light vehicle (60)_, _Infantry (60)_, _Support troop (60)_, _Flying vehicle (60)_, _Flying infantry (60)_, _Heavy vehicle (60)_, _Heavy infantry (60)_, Turret (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Headquarters (50), Wall (1), Trap (0)
   * View range: 8
   * _Not found: Attack shield border_
+
 ### Shooting
 
   * Time between start of clip and first shot: 500ms
@@ -156,13 +167,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|----|----|----|----|----|----|----|----|----|----|
 |Damage per shot|3110|3360|3480|3610|3730|3980|4110|4230|4360|4600|
 
-### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
 
 |Level|1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 |DPS  |144.651|156.279|161.860|167.907|173.488|185.116|191.163|196.744|202.791|213.953|
+
 
   * Headquarters: 10%
   * Heavy infantry: 100%
@@ -185,6 +196,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 40%
   * Light vehicle: 40%
   * Wall: 10%
+
   * Cannons per sequence: 1
   * Cliptime: 21.500s
   * Directional: Yes
@@ -194,6 +206,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: Yes
   * Salvos: 1
   * Width segments: 100,90,80
+
 ## Other stats
 
 ### Internal stats
@@ -202,18 +215,20 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelTognath
   * Upgrade shard uid: shrd_troopRebelTognath
-  * _Not found: Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Self buff, Spawn apply buffs_
+  * _Not found: Apply buffs, Death projectile, Hero data, Self buff, Spawn apply buffs_
 
 |Level          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
 |---------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Ability        |abilityTognathShot1   |abilityTognathShot2   |abilityTognathShot3   |abilityTognathShot4   |abilityTognathShot5   |abilityTognathShot6   |abilityTognathShot7   |abilityTognathShot8   |abilityTognathShot9   |abilityTognathShot10   |
 |Projectile type|projectileTognathRail1|projectileTognathRail2|projectileTognathRail3|projectileTognathRail4|projectileTognathRail5|projectileTognathRail6|projectileTognathRail7|projectileTognathRail8|projectileTognathRail9|projectileTognathRail10|
 
+
 Internal values for secondary attack:
 
 |Level      |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
 |-----------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
 |Apply buffs|buffTagonathRail1|buffTagonathRail2|buffTagonathRail3|buffTagonathRail4|buffTagonathRail5|buffTagonathRail6|buffTagonathRail7|buffTagonathRail8|buffTagonathRail9|buffTagonathRail10|
+
 
 ### Presentation stats
 
@@ -243,6 +258,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |-----------------|-----------|--------------------------|
 |Icon unlock scale|1.2,1.2,1.2|(not found)               |
 
+
 ### Attack presentation stats
 
 ### Secondary attack presentation stats
@@ -264,6 +280,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Projectile length: 6
   * Spin speed: 0
   * _Not found: Audio ability activate, Audio ability loop, Charge asset name, Ground bullet, Persistent effect, S transition, Weapon trail FX params_
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -280,6 +297,7 @@ Seriously, we don't really know what to do with these.
 |-----|------|------|------|------|------|------|------|------|------|------|
 |Order|215701|215702|215703|215704|215705|215706|215707|215708|215709|215710|
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -287,6 +305,7 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
 ### Uninterpreted secondary attack stats
 
   * Arming delay: 1
@@ -297,3 +316,4 @@ Seriously, we don't really know what to do with these.
   * Seeks target: No
   * Streams: no
   * _Not found: S1 time, S2 time_
+

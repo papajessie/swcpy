@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|6810|7070|7350|7630|7930|8240|8560|8900|9250|9610|
 
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,6 +35,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training cost|150$                            |160$                                  |170$                                  |190$                                  |200$                                  |200$                                  |210$                                  |210$                                  |220$                                  |230$                                   |
 |Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
+
 ### Upgrading stats
 
   * Upgrade requirements: 32 data fragments
@@ -41,6 +43,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level       |1     |2     |3  |4     |5     |6     |7  |8     |9     |10    |
 |------------|------|------|---|------|------|------|---|------|------|------|
 |Upgrade time|34m10s|35m45s|37m|38m15s|39m30s|40m45s|42m|43m15s|44m35s|45m50s|
+
 
 ### Move stats
 
@@ -54,6 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
   * _Not found: Ignores walls, Support follow distance_
+
 ## Main attack : Scout
 
 ### Targeting
@@ -68,6 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1, 2, 3, 4                                                                                                                                                                                                                                                                                                                                                                                                   |5                                                                                                                                                                                                                                                                                                                                                                                                             |6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                               |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Target preferences|**Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Turret (100)**, _Storage (80)_, _Ressource generator (80)_, Light vehicle (50), Shield generator (50), Shield (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Storage (80)**, **Ressource generator (80)**, Light vehicle (50), Turret (50), Shield generator (50), Shield (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|
+
 
 ### Shooting
 
@@ -88,6 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------|---|---|---|---|---|---|---|---|---|---|
 |Damage per shot|430|450|480|510|540|570|600|630|670|710|
 
+
 ### Projectile
 
   * _Not found: Beam damage, Splash damage percentages_
@@ -96,6 +102,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |190    |210    |220    |240     |250     |270     |280     |310     |330     |360     |
 |Calculated damage per second|889.655|931.034|993.103|1055.172|1117.241|1179.310|1241.379|1303.448|1386.207|1468.966|
+
 
   * Headquarters: 50%
   * Heavy infantry: 75%
@@ -118,6 +125,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret: 50%
   * Light vehicle: 75%
   * Wall: 50%
+
   * Cannons per sequence: 1
   * Cliptime: 1.450s
   * Directional: Yes
@@ -126,6 +134,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
   * _Not found: Length segments, Width segments_
+
 ## Other stats
 
 ### Internal stats
@@ -134,11 +143,12 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: XWingPilot
   * Upgrade shard uid: shrd_troopXWingPilot
-  * _Not found: Ability, Apply buffs, Death projectile, Death projectile damage, Death projectile delay, Death projectile distance, Hero data, Projectile type, Self buff_
+  * _Not found: Ability, Apply buffs, Death projectile, Hero data, Projectile type, Self buff_
 
 |Level            |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
 |Spawn apply buffs|buffSumPhtmXWing1|buffSumPhtmXWing2|buffSumPhtmXWing3|buffSumPhtmXWing4|buffSumPhtmXWing5|buffSumPhtmXWing6|buffSumPhtmXWing7|buffSumPhtmXWing8|buffSumPhtmXWing9|buffSumPhtmXWing10|
+
 
 ### Presentation stats
 
@@ -173,6 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock rotation|0,0,0         |(not found)               |
 |Icon unlock scale   |1.25,1.25,1.25|(not found)               |
 
+
 ### Attack presentation stats
 
   * Animation delay: 0
@@ -190,6 +201,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second|190|210|220|240|250|270|280|310|330|360|
 
+
 ### Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -206,6 +218,7 @@ Seriously, we don't really know what to do with these.
 |Order      |314900|314901|314902|314903|314904|314905|314906|314907|314908|314909|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
+
 ### Uninterpreted attack stats
 
   * Arming delay: 0
@@ -213,3 +226,4 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * _Not found: S1 time, S2 time_
+
