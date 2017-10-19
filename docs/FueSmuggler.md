@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: infantry
-  * _Not found: Can be given, Unlock planet_
+  * _Not found: Buff health, Can be given, Unlock planet_
 
 ### Training stats
 
@@ -67,7 +67,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
-  * Target preferences: **Turret (55)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
+  * Target preferences: **Turret (55)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
 
 |Level     |1, 2|3|
 |----------|----|-|
@@ -104,43 +104,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per second|46.154|44.444|400.615|
 
 
-  * Droideka: 100%
-  * Shield: 100%
-  * Storage: 100%
-
-|Level              |1, 2|3   |
-|-------------------|----|----|
-|Headquarters       |50% |100%|
-|Heavy infantry     |20% |100%|
-|Heavy vehicle      |20% |100%|
-|Other building     |50% |100%|
-|Flying infantry    |20% |100%|
-|Flying vehicle     |20% |100%|
-|Support troop      |20% |100%|
-|Heavy infantry hero|20% |100%|
-|Heavy vehicule hero|20% |100%|
-|Infantry hero      |20% |100%|
-|Vehicule hero      |20% |100%|
-|Infantry           |20% |100%|
-|Ressource generator|50% |100%|
-|Shield generator   |50% |100%|
-|Trap               |50% |100%|
-|Turret             |50% |100%|
-|Light vehicle      |20% |100%|
-|Wall               |200%|100%|
-
-
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
   * Pass through shield: No
   * _Not found: Length segments, Width segments_
 
-|Level               |1     |2     |3     |
-|--------------------|------|------|------|
-|Cannons per sequence|2     |2     |1     |
-|Cliptime            |3.250s|2.250s|3.250s|
-|Salvos              |3     |2     |3     |
+|Level               |1                                                                                                                                                                                                                                                                                                                                               |2                                                                                                                                                                                                                                                                                                                                               |3                                                                                                                                                                                                                                                                                                             |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Cannons per sequence|2                                                                                                                                                                                                                                                                                                                                               |2                                                                                                                                                                                                                                                                                                                                               |1                                                                                                                                                                                                                                                                                                             |
+|Cliptime            |3.250s                                                                                                                                                                                                                                                                                                                                          |2.250s                                                                                                                                                                                                                                                                                                                                          |3.250s                                                                                                                                                                                                                                                                                                        |
+|Damage multipliers  |**(200%)**: Wall, **(100%)**: Droideka, Shield, Storage, **(50%)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20%)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(200%)**: Wall, **(100%)**: Droideka, Shield, Storage, **(50%)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20%)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(100%)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall|
+|Salvos              |3                                                                                                                                                                                                                                                                                                                                               |2                                                                                                                                                                                                                                                                                                                                               |3                                                                                                                                                                                                                                                                                                             |
 
 
 ## Other stats

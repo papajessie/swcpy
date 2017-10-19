@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 6
   * Type: vehicle
-  * _Not found: Can be given, Unlock planet_
+  * _Not found: Buff health, Can be given, Unlock planet_
 
 |Level |1 |2  |3  |4  |5    |6    |7    |8    |9    |10   |
 |------|--|---|---|---|-----|-----|-----|-----|-----|-----|
@@ -70,7 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1                                                                                                                                                                                                                                                                                                                                                   |2, 3, 4                                                                                                                                                                                                                                                                                                                                             |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Max attack range  |4                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|Target preferences|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)|**Infantry (70)**, **Infantry hero (70)**, **Heavy infantry hero (70)**, **Support troop (70)**, **Flying infantry (70)**, **Droideka (70)**, **Heavy infantry (70)**, _Turret (55)_, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Vehicule hero (50), Heavy vehicule hero (50), Flying vehicle (50), Other building (50), Heavy vehicle (50), Headquarters (40), Wall (1), Trap (0)|
+|Target preferences|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Flying infantry (70)**, **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry (70)**, **Infantry hero (70)**, **Support troop (70)**, _Turret (55)_, Flying vehicle (50), Heavy vehicle (50), Heavy vehicule hero (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Vehicule hero (50), Headquarters (40), Wall (1), Trap (0)|
 
 
 ### Shooting
@@ -103,33 +103,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per second|93.333|112|130.667|149.333|1008|1120|1232|1344|1456|1680|
 
 
-  * Headquarters: 100%
-  * Heavy infantry: 125%
-  * Heavy vehicle: 50%
-  * Other building: 100%
-  * Droideka: 100%
-  * Flying infantry: 150%
-  * Flying vehicle: 75%
-  * Support troop: 150%
-  * Heavy infantry hero: 125%
-  * Heavy vehicule hero: 50%
-  * Infantry hero: 150%
-  * Vehicule hero: 75%
-  * Infantry: 150%
-  * Ressource generator: 100%
-  * Shield: 100%
-  * Shield generator: 100%
-  * Storage: 100%
-  * Trap: 100%
-  * Turret: 100%
-  * Light vehicle: 75%
-  * Wall: 100%
-
   * Cannons per sequence: 2
   * Cliptime: 2.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
+  * Damage multipliers: **(150%)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125%)**: Heavy infantry, Heavy infantry hero, **(100%)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75%)**: Flying vehicle, Light vehicle, Vehicule hero, **(50%)**: Heavy vehicle, Heavy vehicule hero
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_

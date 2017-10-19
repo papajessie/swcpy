@@ -19,7 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Role: Generic
   * Unit capacity: 1
   * Type: phantom
-  * _Not found: Shield cooldown, Shield health, Shield range, Unlock planet_
+  * _Not found: Buff health, Shield cooldown, Shield health, Shield range, Unlock planet_
 
 ### Training stats
 
@@ -54,7 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 100
-  * Target preferences: **Turret (100)**, **Storage (100)**, **Ressource generator (100)**, Shield generator (50), Shield (50), Other building (25), Headquarters (25), Wall (0), Light vehicle (0), Trap (0), Infantry (0), Vehicule hero (0), Infantry hero (0), Heavy vehicule hero (0), Heavy infantry hero (0), Support troop (0), Flying vehicle (0), Flying infantry (0), Droideka (0), Heavy vehicle (0), Heavy infantry (0)
+  * Target preferences: **Ressource generator (100)**, **Storage (100)**, **Turret (100)**, Shield (50), Shield generator (50), Headquarters (25), Other building (25), Droideka (0), Flying infantry (0), Flying vehicle (0), Heavy infantry (0), Heavy infantry hero (0), Heavy vehicle (0), Heavy vehicule hero (0), Infantry (0), Infantry hero (0), Light vehicle (0), Support troop (0), Trap (0), Vehicule hero (0), Wall (0)
   * View range: 4
 
 ### Shooting
@@ -79,33 +79,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per second: 0
   * _Not found: Beam damage, Splash damage percentages_
 
-  * Headquarters: 100%
-  * Heavy infantry: 0%
-  * Heavy vehicle: 0%
-  * Other building: 100%
-  * Droideka: 0%
-  * Flying infantry: 0%
-  * Flying vehicle: 0%
-  * Support troop: 0%
-  * Heavy infantry hero: 0%
-  * Heavy vehicule hero: 0%
-  * Infantry hero: 0%
-  * Vehicule hero: 0%
-  * Infantry: 0%
-  * Ressource generator: 100%
-  * Shield: 100%
-  * Shield generator: 100%
-  * Storage: 100%
-  * Trap: 0%
-  * Turret: 100%
-  * Light vehicle: 0%
-  * Wall: 0%
-
   * Cannons per sequence: 1
   * Cliptime: 3.500s
   * Directional: No
   * Is deflectable: No
   * Max speed: 60
+  * Damage multipliers: **(100%)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0%)**: Droideka, Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Trap, Vehicule hero, Wall
   * Pass through shield: Yes
   * Salvos: 1
   * _Not found: Length segments, Width segments_

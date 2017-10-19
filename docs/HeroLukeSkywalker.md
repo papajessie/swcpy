@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield range: 0
   * Unit capacity: 1
   * Type: hero
-  * _Not found: Can be given, Unlock planet_
+  * _Not found: Buff health, Can be given, Unlock planet_
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
-  * Target preferences: **Turret (80)**, Light vehicle (50), Storage (50), Shield generator (50), Shield (50), Ressource generator (50), Infantry (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Vehicule hero (1), Infantry hero (1), Heavy vehicule hero (1), Heavy infantry hero (1), Trap (0)
+  * Target preferences: **Turret (80)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting
@@ -100,33 +100,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per second|2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 
 
-  * Headquarters: 100%
-  * Heavy infantry: 60%
-  * Heavy vehicle: 100%
-  * Other building: 75%
-  * Droideka: 100%
-  * Flying infantry: 100%
-  * Flying vehicle: 100%
-  * Support troop: 100%
-  * Heavy infantry hero: 60%
-  * Heavy vehicule hero: 60%
-  * Infantry hero: 100%
-  * Vehicule hero: 100%
-  * Infantry: 100%
-  * Ressource generator: 85%
-  * Shield: 200%
-  * Shield generator: 100%
-  * Storage: 85%
-  * Trap: 100%
-  * Turret: 100%
-  * Light vehicle: 100%
-  * Wall: 75%
-
   * Cannons per sequence: 1
   * Cliptime: 1.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
+  * Damage multipliers: **(200%)**: Shield, **(100%)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy vehicle, Infantry, Infantry hero, Light vehicle, Shield generator, Support troop, Trap, Turret, Vehicule hero, **(85%)**: Ressource generator, Storage, **(75%)**: Other building, Wall, **(60%)**: Heavy infantry, Heavy infantry hero, Heavy vehicule hero
   * Pass through shield: No
   * Salvos: 2
   * _Not found: Length segments, Width segments_
@@ -147,7 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
-  * Target preferences: **Turret (80)**, _Shield generator (60)_, _Shield (60)_, Light vehicle (50), Storage (50), Ressource generator (50), Infantry (50), Vehicule hero (50), Infantry hero (50), Heavy vehicule hero (50), Heavy infantry hero (50), Support troop (50), Flying vehicle (50), Flying infantry (50), Droideka (50), Other building (50), Heavy vehicle (50), Heavy infantry (50), Headquarters (50), Wall (1), Trap (0)
+  * Target preferences: **Turret (80)**, _Shield (60)_, _Shield generator (60)_, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Other building (50), Ressource generator (50), Storage (50), Support troop (50), Vehicule hero (50), Wall (1), Trap (0)
   * View range: 8
   * _Not found: Attack shield border_
 
@@ -171,33 +150,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Splash damage percentages: 100,100,100
   * _Not found: Beam damage_
 
-  * Headquarters: 100%
-  * Heavy infantry: 60%
-  * Heavy vehicle: 100%
-  * Other building: 75%
-  * Droideka: 100%
-  * Flying infantry: 100%
-  * Flying vehicle: 100%
-  * Support troop: 100%
-  * Heavy infantry hero: 100%
-  * Heavy vehicule hero: 100%
-  * Infantry hero: 100%
-  * Vehicule hero: 100%
-  * Infantry: 100%
-  * Ressource generator: 95%
-  * Shield: 100%
-  * Shield generator: 100%
-  * Storage: 95%
-  * Trap: 100%
-  * Turret: 100%
-  * Light vehicle: 100%
-  * Wall: 75%
-
   * Cannons per sequence: 1
   * Cliptime: 22.700s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
+  * Secondary attack damage multipliers: **(100%)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Shield, Shield generator, Support troop, Trap, Turret, Vehicule hero, **(95%)**: Ressource generator, Storage, **(75%)**: Other building, Wall, **(60%)**: Heavy infantry
   * Pass through shield: No
   * Salvos: 5
   * _Not found: Length segments, Width segments_
