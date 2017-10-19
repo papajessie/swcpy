@@ -212,6 +212,8 @@ def initstat():
         'uiDecalAssetName': 'UI decal asset name',
         'projectile:DPS': 'Calculated damage per second',
         'projectile:mults': 'Damage multipliers',
+        'abilityprojectile:mults': 'Secondary attack damage multipliers',
+        'deathprojectile:mults': 'Death attack damage multipliers',
         '':''
     }
     config['statrole']={
@@ -1176,7 +1178,7 @@ def analyse_unit(objects,displayed,id):
         else:
             a['trains']=', '.join(trains)
         def gettargets(targets):
-            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),x)))
+            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
             ttlist=[]
             tmax=targets[tlist[0]]
             for t in tlist:
@@ -1189,7 +1191,7 @@ def analyse_unit(objects,displayed,id):
                         ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
             return(', '.join(ttlist))
         def getmults(targets):
-            tlist=sorted(targets,key=(lambda x:'{0:03d} {1}'.format(targets.get(x),x)),reverse=True)
+            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
             ttlist=[]
             tmax=-1
             for t in tlist:
