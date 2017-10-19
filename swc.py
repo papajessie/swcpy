@@ -211,6 +211,7 @@ def initstat():
         'sizes':'Unit size on map',
         'uiDecalAssetName': 'UI decal asset name',
         'projectile:DPS': 'Calculated damage per second',
+        'projectile:mults': 'Damage multipliers',
         '':''
     }
     config['statrole']={
@@ -219,6 +220,8 @@ def initstat():
         'targets': 'attackmove',
         'trains': 'xtrain',
         'upgrades': 'xupgrade',
+        'buffHealth': 'basic',
+        'projectile:mults': 'projectilemisc',
         # Below are values reserved to units
         'ability': 'internal',
         'acceleration': 'move',
@@ -381,27 +384,35 @@ def initstat():
         'ability:targetSelf': 'abilityonly',
         'ability:weaponTrailFXParams': 'abilitypresentation',
         # below are roles for projectiles
-        'projectile:applyBuffs': 'internal',
-        'projectile:arcs': 'projectilepresentation',
-        'projectile:beamDamage': 'projectilebasic',
         'projectile:bruiserInfantry': 'projectilemult',
         'projectile:bruiserVehicle': 'projectilemult',
         'projectile:building': 'projectilemult',
-        'projectile:bullet': 'projectilepresentation',
         'projectile:champion': 'projectilemult',
-        'projectile:chargeAssetName': 'projectilepresentation',
-        'projectile:directional': 'projectilemisc',
         'projectile:flierInfantry': 'projectilemult',
         'projectile:flierVehicle': 'projectilemult',
-        'projectile:groundBullet': 'projectilepresentation',
         'projectile:healerInfantry': 'projectilemult',
         'projectile:heroBruiserInfantry': 'projectilemult',
         'projectile:heroBruiserVehicle': 'projectilemult',
         'projectile:heroInfantry': 'projectilemult',
         'projectile:heroVehicle': 'projectilemult',
-        'projectile:hitSpark': 'projectilepresentation',
         'projectile:HQ': 'projectilemult',
         'projectile:infantry': 'projectilemult',
+        'projectile:resource': 'projectilemult',
+        'projectile:shield': 'projectilemult',
+        'projectile:shieldGenerator': 'projectilemult',
+        'projectile:storage': 'projectilemult',
+        'projectile:trap': 'projectilemult',
+        'projectile:turret': 'projectilemult',
+        'projectile:vehicle': 'projectilemult',
+        'projectile:wall': 'projectilemult',
+        'projectile:applyBuffs': 'internal',
+        'projectile:arcs': 'projectilepresentation',
+        'projectile:beamDamage': 'projectilebasic',
+        'projectile:bullet': 'projectilepresentation',
+        'projectile:chargeAssetName': 'projectilepresentation',
+        'projectile:directional': 'projectilemisc',
+        'projectile:groundBullet': 'projectilepresentation',
+        'projectile:hitSpark': 'projectilepresentation',
         'projectile:isDeflectable': 'projectilemisc',
         'projectile:lengthSegments': 'projectilemisc',
         'projectile:maxScale': 'projectilepresentation',
@@ -412,22 +423,14 @@ def initstat():
         'projectile:passThroughShield': 'projectilemisc',
         'projectile:projectileDamagePercentString': 'nodisplay',
         'projectile:projectileLength': 'projectilepresentation',
-        'projectile:resource': 'projectilemult',
         'projectile:s1Time': 'projectileunknown',
         'projectile:s2Time': 'projectileunknown',
         'projectile:seeksTarget': 'projectileunknown',
-        'projectile:shield': 'projectilemult',
-        'projectile:shieldGenerator': 'projectilemult',
         'projectile:spinSpeed': 'projectilepresentation',
         'projectile:splashDamagePercentages': 'projectilebasic',
-        'projectile:storage': 'projectilemult',
         'projectile:sTransition': 'projectilepresentation',
         'projectile:streams': 'projectileunknown',
-        'projectile:trap': 'projectilemult',
-        'projectile:turret': 'projectilemult',
         'projectile:uid': 'nodisplay',
-        'projectile:vehicle': 'projectilemult',
-        'projectile:wall': 'projectilemult',
         'projectile:widthSegments': 'projectilemisc',
         'projectile:cannonsPerSequence': 'projectilemisc',
         'projectile:salvos': 'projectilemisc',
@@ -450,6 +453,7 @@ def initstat():
         'deathProjectileDistance': 'int',
         'faction': 'side',
         'health': 'int',
+        'buffHealth': 'int',
         'ignoresWalls': 'boolean',
         'isFlying': 'boolean',
         'lvl': 'int',
@@ -512,13 +516,10 @@ def initstat():
         'ability:persistentScaling': 'int',
         'ability:recastAbility': 'boolean',
         'ability:targetSelf': 'boolean',
-        'projectile:arcs': 'boolean',
-        'projectile:beamDamage': 'int',
         'projectile:bruiserInfantry': 'percentage',
         'projectile:bruiserVehicle': 'percentage',
         'projectile:building': 'percentage',
         'projectile:champion': 'percentage',
-        'projectile:directional': 'boolean',
         'projectile:flierInfantry': 'percentage',
         'projectile:flierVehicle': 'percentage',
         'projectile:healerInfantry': 'percentage',
@@ -528,23 +529,26 @@ def initstat():
         'projectile:heroVehicle': 'percentage',
         'projectile:HQ': 'percentage',
         'projectile:infantry': 'percentage',
-        'projectile:isDeflectable': 'boolean',
-        'projectile:maxScale': 'int',
-        'projectile:maxSpeed': 'int',
-        'projectile:passThroughShield': 'boolean',
-        'projectile:projectileLength': 'int',
         'projectile:resource': 'percentage',
-        'projectile:s1Time': 'microtime',
-        'projectile:s2Time': 'microtime',
-        'projectile:seeksTarget': 'boolean',
         'projectile:shield': 'percentage',
         'projectile:shieldGenerator': 'percentage',
-        'projectile:spinSpeed': 'int',
         'projectile:storage': 'percentage',
         'projectile:trap': 'percentage',
         'projectile:turret': 'percentage',
         'projectile:vehicle': 'percentage',
         'projectile:wall': 'percentage',
+        'projectile:arcs': 'boolean',
+        'projectile:beamDamage': 'int',
+        'projectile:directional': 'boolean',
+        'projectile:isDeflectable': 'boolean',
+        'projectile:maxScale': 'int',
+        'projectile:maxSpeed': 'int',
+        'projectile:passThroughShield': 'boolean',
+        'projectile:projectileLength': 'int',
+        'projectile:s1Time': 'microtime',
+        'projectile:s2Time': 'microtime',
+        'projectile:seeksTarget': 'boolean',
+        'projectile:spinSpeed': 'int',
         'projectile:cannonsPerSequence': 'int',
         'projectile:salvos': 'int',
         'projectile:cliptime': 'microtime',
@@ -601,33 +605,19 @@ def initstat():
             else:
                 config['stattranslation'][k]=camel_case_to_phrase(k)
 
-#     tr={'Salvos':'Salvos per clip','Cannons':'Number of cannons','cliptime':'Clips period','DPS':'Calculated damage per second','SalvosPerSequence':'Salvos per gun sequence','CannonsPerSequence':'Cannons shot per gun sequence','seeksTarget':'Projectile seeks target','isDeflectable':'Projectile deflectable','maxSpeed':'Projectile speed','passThroughShield':'Projectile passes through shields','directional':'Projectile is directional','splashDamagePercentages':'Area damage percentage'}
-#     for prefix in projlist:
-#         for k in ['Salvos','Cannons','DPS','SalvosPerSequence','CannonsPerSequence','maxSpeed']:
-#             config['statopt'][prefix+k]=True
-#             config['stattype'][prefix+k]='int'
-# #            config['stattranslation'][prefix+k]=tr[k]
-#         for k in ['seeksTarget','isDeflectable','passThroughShield','directional']:
-#             config['statopt'][prefix+k]=True
-#             config['stattype'][prefix+k]='boolean'
-# #            config['stattranslation'][prefix+k]=tr[k]
-#             config['stathandler'][prefix+k]=display_boolean
-#         for k in ['cliptime']:
-#             config['statopt'][prefix+k]=True
-#             config['stattype'][prefix+k]='microtime'
-# #            config['stattranslation'][prefix+k]=tr[k]
-#             config['stathandler'][prefix+k]=display_microtime
-#         for k in ['splashDamagePercentages']:
-#             config['statopt'][prefix+k]=True
-#             config['stattype'][prefix+k]='string'
-# #            config['stattranslation'][prefix+k]=tr[k]
-#     for prefix in projlist:
-#         for k in ['hitSpark','spinSpeed','arcs','maxScale','muzzleFlash']:
-#             config['statopt'][prefix+k]=True
-#             config['stattype'][prefix+k]='presentation'
-# #            config['stattranslation'][prefix+k]=k
-#         config['stathandler'][prefix+'arcs']=display_boolean
 
+def initstatbuff(buffprefix,buffstring):
+    global config
+    keys=[x for x in config['statrole'].keys()]
+    bp='buff'+buffprefix
+    for k in keys:
+        if k.startswith('buff:'):
+            nk=bp+':'+k[5:]
+            config['statrole'][nk]=bp+config['statrole'][k]
+            for h in ['stattype','stathandler']:
+                if k in config[h]:
+                    config[h][nk]=config[h][k]
+            config['stattranslation'][nk]=buffstring+' '+config['stattranslation'][k]
 
 def _(x):
     global langdata
@@ -1045,6 +1035,7 @@ def analyse_unit(objects,displayed,id):
     ob['presentation']={}
     ob['projectileTypes']={}
     ob['options']={}
+    ob['roles']={}
     levels=ob['levels']
     used={}
     projectiles={}
@@ -1125,7 +1116,7 @@ def analyse_unit(objects,displayed,id):
         a=ob['hq'][level]
         trains=[]
         targets={}
-        atargets={}
+        mults={}
         upgrades=[]
         for k,v in subunit.items():
             type=dget(config['stattype'],k,'string')
@@ -1163,10 +1154,14 @@ def analyse_unit(objects,displayed,id):
             elif role=='upgrade':
                 if a[k]>0:
                     upgrades.append('{0}{1}'.format(a[k],uparray[k.lower()]))
-            elif role=='attackprefs':
-                targets[k]=int(a[k])
-            elif role=='abilityprefs':
-                atargets[k]=int(a[k])
+            elif role.endswith('prefs'):
+                if role[:-5] not in targets:
+                    targets[role[:-5]]={}
+                targets[role[:-5]][k]=int(a[k])
+            elif role.endswith('mult'):
+                if role[:-4] not in mults:
+                    mults[role[:-4]]={}
+                mults[role[:-4]][k]=int(a[k])
             elif role=='missing':
                 die('Stat {} is unknown and has no role'.format(k),item=id)
             else:
@@ -1181,7 +1176,7 @@ def analyse_unit(objects,displayed,id):
         else:
             a['trains']=', '.join(trains)
         def gettargets(targets):
-            tlist=sorted(targets,key=(lambda x:'{0:03d} {1}'.format(targets.get(x),x)),reverse=True)
+            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),x)))
             ttlist=[]
             tmax=targets[tlist[0]]
             for t in tlist:
@@ -1193,9 +1188,24 @@ def analyse_unit(objects,displayed,id):
                     else:
                         ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
             return(', '.join(ttlist))
-        a['targets']=gettargets(targets)
-        if len(atargets)>0:
-            a['ability:targets']=gettargets(atargets)
+        def getmults(targets):
+            tlist=sorted(targets,key=(lambda x:'{0:03d} {1}'.format(targets.get(x),x)),reverse=True)
+            ttlist=[]
+            tmax=-1
+            for t in tlist:
+                if targets[t]!=tmax:
+                    ttlist.append('**({1}%)**: {0}'.format(config['stattranslation'][t],targets[t]))
+                    tmax=targets[t]
+                else:
+                    ttlist.append('{0}'.format(config['stattranslation'][t],targets[t]))
+            return(', '.join(ttlist))
+        a['targets']=gettargets(targets['attack'])
+        if 'ability' in targets:
+            a['ability:targets']=gettargets(targets['ability'])
+        for k in mults.keys():
+            a[k+':mults']=getmults(mults[k])
+        for k in a.keys():
+            ob['roles'][config['statrole'][k]]=True
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -1383,30 +1393,30 @@ def output_list_unit(out,objects,item,LINKS=False):
     id=item['uid']
     title=__(item['title'])
     levels=sorted(item['levels'])
+    allkeys=config['statrole']
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
-    roles={}
-    allkeys=config['statrole']
-    for k in allkeys:
-        roles[allkeys[k]]=1
-    tosee=[x for x in roles.keys()]
-    tosee.remove('')
-    tosee.remove('nodisplay')
-    tosee.remove('abilitynodisplay')
-    tosee.remove('deathnodisplay')
+    tosee=[x for x in item['roles'].keys()]
+    def remove(tosee,x):
+        if x in tosee:
+            tosee.remove(x)
+    remove(tosee,'')
+    remove(tosee,'nodisplay')
+    remove(tosee,'abilitynodisplay')
+    remove(tosee,'deathnodisplay')
     def datadump(somelist):
         return display_leveldata(item['hq'],levels,somelist,config['stattranslation'],config['stathandler'])
     firstlevel=levels[0]
     xout+='## Main stats\n\n'
     xout+='### Unit stats\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='basic']))
-    tosee.remove('basic')
+    remove(tosee,'basic')
     xout+='### Training stats\n\n'
     req=0
     trainlist=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
-    tosee.remove('train')
-    tosee.remove('xtrain')
+    remove(tosee,'train')
+    remove(tosee,'xtrain')
     for l in levels:
         if 'requirements' in item['hq'][l]:
             ll=len(item['hq'][l]['requirements'])
@@ -1432,11 +1442,11 @@ def output_list_unit(out,objects,item,LINKS=False):
     xout+=datadump(trainlist)
     xout+='### Upgrading stats\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='xupgrade']))
-    tosee.remove('upgrade')
-    tosee.remove('xupgrade')
+    remove(tosee,'upgrade')
+    remove(tosee,'xupgrade')
     xout+='### Move stats\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='move']))
-    tosee.remove('move')
+    remove(tosee,'move')
     attacknames=[]
     for l in sorted(levels):
         if 'projectile:name' in item['hq'][l]:
@@ -1446,19 +1456,18 @@ def output_list_unit(out,objects,item,LINKS=False):
     xout+='## Main attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
     xout+='### Targeting\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackmove']))
-    tosee.remove('attackmove')
-    tosee.remove('attackprefs')
+    remove(tosee,'attackmove')
+    remove(tosee,'attackprefs')
     xout+='### Shooting\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackstats']))
-    tosee.remove('attackstats')
+    remove(tosee,'attackstats')
     if 'projectile' in item['options']:
         xout+='### Projectile\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilebasic']+['dps']))
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='projectilemisc']))
-        tosee.remove('projectilebasic')
-        tosee.remove('projectilemult')
-        tosee.remove('projectilemisc')
+        remove(tosee,'projectilebasic')
+        remove(tosee,'projectilemult')
+        remove(tosee,'projectilemisc')
     if 'ability' in item['options']:
         attacknames=[]
         for l in sorted(levels):
@@ -1472,17 +1481,16 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitymove']))
         xout+='### Shooting\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitystats']))
-    tosee.remove('abilityonly')
-    tosee.remove('abilitymove')
-    tosee.remove('abilitystats')
-    tosee.remove('abilityprefs')
+    remove(tosee,'abilityonly')
+    remove(tosee,'abilitymove')
+    remove(tosee,'abilitystats')
+    remove(tosee,'abilityprefs')
     if 'abilityprojectile' in item['options']:
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilebasic']))
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemisc']))
-    tosee.remove('abilityprojectilebasic')
-    tosee.remove('abilityprojectilemult')
-    tosee.remove('abilityprojectilemisc')
+    remove(tosee,'abilityprojectilebasic')
+    remove(tosee,'abilityprojectilemult')
+    remove(tosee,'abilityprojectilemisc')
     if 'death' in item['options']:
         attacknames=[]
         for l in sorted(levels):
@@ -1495,59 +1503,59 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilebasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemisc']))
-    tosee.remove('deathbasic')
-    tosee.remove('deathprojectilebasic')
-    tosee.remove('deathprojectilemult')
-    tosee.remove('deathprojectilemisc')
+    remove(tosee,'deathbasic')
+    remove(tosee,'deathprojectilebasic')
+    remove(tosee,'deathprojectilemult')
+    remove(tosee,'deathprojectilemisc')
     xout+='## Other stats\n\n'
     xout+='### Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='internal']))
-    tosee.remove('internal')
+    remove(tosee,'internal')
     if 'ability' in item['options']:
         xout+='Internal values for secondary attack:\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
-    tosee.remove('abilityinternal')
+    remove(tosee,'abilityinternal')
     if 'death' in item['options']:
         xout+='Internal values for death attack:\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
-    tosee.remove('deathinternal')
+    remove(tosee,'deathinternal')
     xout+='### Presentation stats\n\nThese are all sorts of user interface settings, that should not interfere with gameplay.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='presentation']))
-    tosee.remove('presentation')
+    remove(tosee,'presentation')
     xout+='### Attack presentation stats\n\n'
     plist=[x for x in allkeys if allkeys[x]=='attackpresentation']
-    tosee.remove('attackpresentation')
+    remove(tosee,'attackpresentation')
     if 'projectile' in item['options']:
         plist=[x for x in allkeys if allkeys[x]=='attackpresentation' or allkeys[x]=='projectilepresentation']
-    tosee.remove('projectilepresentation')
+    remove(tosee,'projectilepresentation')
     if 'ability' in item['options']:
         xout+='### Secondary attack presentation stats\n\n'
         plist=[x for x in allkeys if allkeys[x]=='abilitypresentation']
         if 'abilityprojectile' in item['options']:
             plist=[x for x in allkeys if allkeys[x]=='abilitypresentation' or allkeys[x]=='abilityprojectilepresentation']
-    tosee.remove('abilitypresentation')
-    tosee.remove('abilityprojectilepresentation')
+    remove(tosee,'abilitypresentation')
+    remove(tosee,'abilityprojectilepresentation')
     if 'death' in item['options']:
         xout+='### Death attack presentation stats\n\n'
         plist=[x for x in allkeys if allkeys[x]=='deathprojectilepresentation']
-    tosee.remove('deathprojectilepresentation')
+    remove(tosee,'deathprojectilepresentation')
     xout+=datadump(sorted(plist))
     xout+='### Uninterpreted stats\n\nSeriously, we don\'t really know what to do with these.\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='unknown']))
     xout+='### Uninterpreted attack stats\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackunknown' or allkeys[x]=='projectileunknown']))
-    tosee.remove('unknown')
-    tosee.remove('attackunknown')
-    tosee.remove('projectileunknown')
+    remove(tosee,'unknown')
+    remove(tosee,'attackunknown')
+    remove(tosee,'projectileunknown')
     if 'ability' in item['options']:
         xout+='### Uninterpreted secondary attack stats\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityunknown' or allkeys[x]=='abilityprojectileunknown']))
-    tosee.remove('abilityunknown')
-    tosee.remove('abilityprojectileunknown')
+    remove(tosee,'abilityunknown')
+    remove(tosee,'abilityprojectileunknown')
     if 'death' in item['options']:
         xout+='### Uninterpreted death attack stats\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathunknown' or allkeys[x]=='deathprojectileunknown']))
-    tosee.remove('deathprojectileunknown')
+    remove(tosee,'deathprojectileunknown')
     if len(tosee)>0:
         xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)+'\n'
     out[len(out)-1]+=xout
