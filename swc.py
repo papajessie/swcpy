@@ -689,7 +689,7 @@ def main(argv):
     if (mode == 'table'):
         tables=config['table']
         if len(tables)==0:
-            tables=data.keys()
+            tables=sorted(data.keys())
         for table in tables:
             if (not(table) in data):
                 print('Table unknown {0}'.format(table))
@@ -700,18 +700,18 @@ def main(argv):
     if (mode == 'tableitem'):
         tables=config['table']
         if len(tables)==0:
-            tables=data.keys()
+            tables=sorted(data.keys())
         for table in tables:
             if (not(table) in data):
                 print('Table unknown {0}'.format(config[table]))
                 sys.exit(1)
             if len(elements)==0:
-                xelements=(data[table]).keys()
+                xelements=sorted((data[table]).keys())
             else:
                 xelements=elements
-            for item in xelements:
+            for item in sorted(xelements):
                 if (item in data[table]):
-                    for t in data[table][item]:
+                    for t in sorted(data[table][item]):
                         print('{0};{1};{2};{3}'.format(table,item,t,data[table][item][t]))
     # Modes in two phases
     objects={}
