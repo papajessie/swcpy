@@ -30,6 +30,7 @@ config={'table':[],'lang':'en-US','output':'list'}
 config['stattranslation']={}
 config['stattype']={}
 config['stathandler']={}
+config['buffs']={}
 
 xhelp={}
 morehelp={}
@@ -212,8 +213,6 @@ def initstat():
         'uiDecalAssetName': 'UI decal asset name',
         'projectile:DPS': 'Calculated damage per second',
         'projectile:mults': 'Damage multipliers',
-        'abilityprojectile:mults': 'Secondary attack damage multipliers',
-        'deathprojectile:mults': 'Death attack damage multipliers',
         '':''
     }
     config['statrole']={
@@ -438,6 +437,55 @@ def initstat():
         'projectile:salvos': 'projectilemisc',
         'projectile:cliptime': 'projectilemisc',
         'projectile:DPS': 'projectilebasic',
+        # below are roles for buffs
+        'buff:applyValueAs': 'basic',
+        'buff:buffID': 'basic',
+        'buff:duration': 'basic',
+        'buff:lvl': 'basic',
+        'buff:modifier': 'basic',
+        'buff:msFirstProc': 'basic',
+        'buff:msPerProc': 'basic',
+        'buff:stack': 'basic',
+        'buff:target': 'basic',
+        'buff:uid': 'basic',
+        'buff:value': 'basic',
+        'buff:bruiserInfantry': 'mult',
+        'buff:bruiserVehicle': 'mult',
+        'buff:building': 'mult',
+        'buff:champion': 'mult',
+        'buff:flierInfantry': 'mult',
+        'buff:flierVehicle': 'mult',
+        'buff:healerInfantry': 'mult',
+        'buff:heroBruiserInfantry': 'mult',
+        'buff:heroBruiserVehicle': 'mult',
+        'buff:heroInfantry': 'mult',
+        'buff:heroVehicle': 'mult',
+        'buff:HQ': 'mult',
+        'buff:infantry': 'mult',
+        'buff:resource': 'mult',
+        'buff:shield': 'mult',
+        'buff:shieldGenerator': 'mult',
+        'buff:storage': 'mult',
+        'buff:trap': 'mult',
+        'buff:turret': 'mult',
+        'buff:vehicle': 'mult',
+        'buff:wall': 'mult',
+        'buff:tags': 'unknown',
+        'buff:isRefreshing': 'unknown',
+        'buff:details': 'unknown',
+        'buff:shaderOverride': 'unknown',
+        'buff:assetOffsetType': 'unknown',
+        'buff:bundleName': 'presentation',
+        'buff:assetName': 'presentation',
+        'buff:cancelTags': 'unknown',
+        'buff:audioAbilityEvent': 'presentation',
+        'buff:assetProfile': 'presentation',
+        'buff:projectileAttachmentBundle': 'presentation',
+        'buff:preventTags': 'unknown',
+        'buff:impactAssetNameRebel': 'presentation',
+        'buff:impactAssetNameEmpire': 'presentation',
+        'buff:muzzleAssetNameRebel': 'presentation',
+        'buff:muzzleAssetNameEmpire': 'presentation',
         # placeholder
         '':''
         }
@@ -597,21 +645,41 @@ def initstat():
         else:
             die('{} is an unknown type. Stopping'.format(type))
     # Handle automatic translations
+    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack ','ability':'Secondary attack '}
+    def prependlower(pr,c):
+        if len(pr)>0:
+            if len(c)<2:
+                c=pr+c
+            elif c[:2].upper()==c[:2]:
+                c=pr+c
+            else:
+                c=pr+c[:1].lower()+c[1:]
+        return(c)
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
-            config['stattranslation'][k]=config['stattranslation'][k[(k.find(':')+1):]]
+            pr=''
+            if k[:k.find(':')] in trans:
+                pr=trans[k[:k.find(':')]]
+            c=config['stattranslation'][k[(k.find(':')+1):]]
+            config['stattranslation'][k]=prependlower(pr,c)
     for k in config['statrole'].keys():
         if k not in config['stattranslation']:
             if k.find(':')>-1:
-                config['stattranslation'][k]=camel_case_to_phrase(k[(k.find(':')+1):])
+                pr=''
+                if k[:k.find(':')] in trans:
+                    pr=trans[k[:k.find(':')]]
+                config['stattranslation'][k]=prependlower(pr,camel_case_to_phrase(k[(k.find(':')+1):]))
             else:
                 config['stattranslation'][k]=camel_case_to_phrase(k)
 
 
 def initstatbuff(buffprefix,buffstring):
     global config
+    if buffprefix in config['buffs']:
+        return
+    config['buffs'][buffprefix]=True
     keys=[x for x in config['statrole'].keys()]
-    bp='buff'+buffprefix
+    bp=buffprefix
     for k in keys:
         if k.startswith('buff:'):
             nk=bp+':'+k[5:]
@@ -1112,7 +1180,15 @@ def analyse_unit(objects,displayed,id):
             fakearray['chargeTime']=dget(subunit,'deathProjectileDelay','0')
             for k in ['cooldownTime','shotDelay','reload']:
                 fakearray[k]='0'
-            addprojectile('deathprojectile:',ob,subunit,fakearray)                
+            addprojectile('deathprojectile:',ob,subunit,fakearray)
+        if 'spawnApplyBuffs' in subunit:
+            ob['options']['spawn']=True
+            lbuff=subunit['spawnApplyBuffs'].split(',')
+            for buff in lbuff:
+                bid=data['BuffData'][buff]['buffID']
+                initstatbuff(bid,bid)
+                for kk in data['BuffData'][buff]:
+                    subunit[bid+':'+kk]=data['BuffData'][buff][kk]
         # ob['hq'] is a clean version of subunit
         ob['hq'][level]={}
         a=ob['hq'][level]
@@ -1218,6 +1294,7 @@ def analyse_unit(objects,displayed,id):
     if id not in objects:
         objects[id]=ob
     
+
 # This set of functions output objects for various modes
 def output_listheader_crate(out,objects,displayed):
     out.append("There are {0} crates in the selection:".format(len(displayed)))
@@ -1404,9 +1481,6 @@ def output_list_unit(out,objects,item,LINKS=False):
         if x in tosee:
             tosee.remove(x)
     remove(tosee,'')
-    remove(tosee,'nodisplay')
-    remove(tosee,'abilitynodisplay')
-    remove(tosee,'deathnodisplay')
     def datadump(somelist):
         return display_leveldata(item['hq'],levels,somelist,config['stattranslation'],config['stathandler'])
     firstlevel=levels[0]
@@ -1503,61 +1577,28 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+='## Death attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathbasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilebasic']))
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemult']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemisc']))
     remove(tosee,'deathbasic')
     remove(tosee,'deathprojectilebasic')
     remove(tosee,'deathprojectilemult')
     remove(tosee,'deathprojectilemisc')
-    xout+='## Other stats\n\n'
-    xout+='### Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
-    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='internal']))
-    remove(tosee,'internal')
-    if 'ability' in item['options']:
-        xout+='Internal values for secondary attack:\n\n'
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
-    remove(tosee,'abilityinternal')
-    if 'death' in item['options']:
-        xout+='Internal values for death attack:\n\n'
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityinternal']))
-    remove(tosee,'deathinternal')
-    xout+='### Presentation stats\n\nThese are all sorts of user interface settings, that should not interfere with gameplay.\n\n'
-    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='presentation']))
-    remove(tosee,'presentation')
-    xout+='### Attack presentation stats\n\n'
-    plist=[x for x in allkeys if allkeys[x]=='attackpresentation']
-    remove(tosee,'attackpresentation')
-    if 'projectile' in item['options']:
-        plist=[x for x in allkeys if allkeys[x]=='attackpresentation' or allkeys[x]=='projectilepresentation']
-    remove(tosee,'projectilepresentation')
-    if 'ability' in item['options']:
-        xout+='### Secondary attack presentation stats\n\n'
-        plist=[x for x in allkeys if allkeys[x]=='abilitypresentation']
-        if 'abilityprojectile' in item['options']:
-            plist=[x for x in allkeys if allkeys[x]=='abilitypresentation' or allkeys[x]=='abilityprojectilepresentation']
-    remove(tosee,'abilitypresentation')
-    remove(tosee,'abilityprojectilepresentation')
-    if 'death' in item['options']:
-        xout+='### Death attack presentation stats\n\n'
-        plist=[x for x in allkeys if allkeys[x]=='deathprojectilepresentation']
-    remove(tosee,'deathprojectilepresentation')
-    xout+=datadump(sorted(plist))
-    xout+='### Uninterpreted stats\n\nSeriously, we don\'t really know what to do with these.\n\n'
-    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='unknown']))
-    xout+='### Uninterpreted attack stats\n\n'
-    xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackunknown' or allkeys[x]=='projectileunknown']))
-    remove(tosee,'unknown')
-    remove(tosee,'attackunknown')
-    remove(tosee,'projectileunknown')
-    if 'ability' in item['options']:
-        xout+='### Uninterpreted secondary attack stats\n\n'
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityunknown' or allkeys[x]=='abilityprojectileunknown']))
-    remove(tosee,'abilityunknown')
-    remove(tosee,'abilityprojectileunknown')
-    if 'death' in item['options']:
-        xout+='### Uninterpreted death attack stats\n\n'
-        xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathunknown' or allkeys[x]=='deathprojectileunknown']))
-    remove(tosee,'deathprojectileunknown')
+    # All other stats
+    def removebysuffix(tosee,s):
+        x=[y for y in tosee]
+        for rem in tosee:
+            if rem.endswith(s) or rem==s:
+                remove(x,rem)
+        return x
+    tosee=removebysuffix(tosee,'nodisplay')
+    xout+='## Internal stats\n\nThese stats internal to the system link different parts of data together.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x].endswith('internal')],key=config['stattranslation'].get))
+    tosee=removebysuffix(tosee,'internal')
+    xout+='## Presentation stats\n\nThese are all sorts of user interface settings, that should not interfere with gameplay.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x].endswith('presentation')],key=config['stattranslation'].get))
+    tosee=removebysuffix(tosee,'presentation')
+    xout+='## Uninterpreted stats\n\nSeriously, we don\'t really know what to do with these.\n\n'
+    xout+=datadump(sorted([x for x in allkeys if allkeys[x].endswith('unknown')],key=config['stattranslation'].get))
+    tosee=removebysuffix(tosee,'unknown')
     if len(tosee)>0:
         xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)+'\n'
     out[len(out)-1]+=xout
