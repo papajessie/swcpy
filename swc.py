@@ -110,6 +110,15 @@ def camel_case_to_phrase(s):
         i = i +1
     return "".join(t)
 
+def prependlower(pr,c):
+    if len(pr)>0:
+        if len(c)<2:
+            c=pr+c
+        elif c[:2].upper()==c[:2]:
+            c=pr+c
+        else:
+            c=pr+c[:1].lower()+c[1:]
+    return(c)
 
 def dget(array,key,default):
     a=default
@@ -221,8 +230,10 @@ def initstat():
         'targets': 'attackmove',
         'trains': 'xtrain',
         'upgrades': 'xupgrade',
-        'buffHealth': 'basic',
+        'buffHealth': 'buffbasic',
         'projectile:mults': 'projectilemisc',
+        'buff:name': 'buffbasic',
+        'buff:summon visitors': 'buffbasic',
         # Below are values reserved to units
         'ability': 'internal',
         'acceleration': 'move',
@@ -438,57 +449,69 @@ def initstat():
         'projectile:cliptime': 'projectilemisc',
         'projectile:DPS': 'projectilebasic',
         # below are roles for buffs
-        'buff:applyValueAs': 'basic',
-        'buff:buffID': 'basic',
-        'buff:duration': 'basic',
-        'buff:lvl': 'basic',
-        'buff:modifier': 'basic',
-        'buff:msFirstProc': 'basic',
-        'buff:msPerProc': 'basic',
-        'buff:stack': 'basic',
-        'buff:target': 'basic',
-        'buff:uid': 'basic',
-        'buff:value': 'basic',
-        'buff:bruiserInfantry': 'mult',
-        'buff:bruiserVehicle': 'mult',
-        'buff:building': 'mult',
-        'buff:champion': 'mult',
-        'buff:flierInfantry': 'mult',
-        'buff:flierVehicle': 'mult',
-        'buff:healerInfantry': 'mult',
-        'buff:heroBruiserInfantry': 'mult',
-        'buff:heroBruiserVehicle': 'mult',
-        'buff:heroInfantry': 'mult',
-        'buff:heroVehicle': 'mult',
-        'buff:HQ': 'mult',
-        'buff:infantry': 'mult',
-        'buff:resource': 'mult',
-        'buff:shield': 'mult',
-        'buff:shieldGenerator': 'mult',
-        'buff:storage': 'mult',
-        'buff:trap': 'mult',
-        'buff:turret': 'mult',
-        'buff:vehicle': 'mult',
-        'buff:wall': 'mult',
-        'buff:tags': 'unknown',
-        'buff:isRefreshing': 'unknown',
-        'buff:details': 'unknown',
-        'buff:shaderOverride': 'unknown',
-        'buff:assetOffsetType': 'unknown',
-        'buff:bundleName': 'presentation',
-        'buff:assetName': 'presentation',
-        'buff:cancelTags': 'unknown',
-        'buff:audioAbilityEvent': 'presentation',
-        'buff:assetProfile': 'presentation',
-        'buff:projectileAttachmentBundle': 'presentation',
-        'buff:preventTags': 'unknown',
-        'buff:impactAssetNameRebel': 'presentation',
-        'buff:impactAssetNameEmpire': 'presentation',
-        'buff:muzzleAssetNameRebel': 'presentation',
-        'buff:muzzleAssetNameEmpire': 'presentation',
+        'buff:applyValueAs': 'buffbasic',
+        'buff:buffID': 'buffbasic',
+        'buff:duration': 'buffbasic',
+        'buff:lvl': 'buffbasic',
+        'buff:modifier': 'buffbasic',
+        'buff:msFirstProc': 'buffbasic',
+        'buff:msPerProc': 'buffbasic',
+        'buff:stack': 'buffbasic',
+        'buff:target': 'buffbasic',
+        'buff:mults': 'buffbasic',
+        'buff:uid': 'buffnodisplay',
+        'buff:value': 'buffbasic',
+        'buff:bruiserInfantry': 'buffmult',
+        'buff:bruiserVehicle': 'buffmult',
+        'buff:building': 'buffmult',
+        'buff:champion': 'buffmult',
+        'buff:flierInfantry': 'buffmult',
+        'buff:flierVehicle': 'buffmult',
+        'buff:healerInfantry': 'buffmult',
+        'buff:heroBruiserInfantry': 'buffmult',
+        'buff:heroBruiserVehicle': 'buffmult',
+        'buff:heroInfantry': 'buffmult',
+        'buff:heroVehicle': 'buffmult',
+        'buff:HQ': 'buffmult',
+        'buff:infantry': 'buffmult',
+        'buff:resource': 'buffmult',
+        'buff:shield': 'buffmult',
+        'buff:shieldGenerator': 'buffmult',
+        'buff:storage': 'buffmult',
+        'buff:trap': 'buffmult',
+        'buff:turret': 'buffmult',
+        'buff:vehicle': 'buffmult',
+        'buff:wall': 'buffmult',
+        'buff:tags': 'buffunknown',
+        'buff:isRefreshing': 'buffunknown',
+        'buff:details': 'buffinternal',
+        'buff:shaderOverride': 'buffunknown',
+        'buff:assetOffsetType': 'buffunknown',
+        'buff:bundleName': 'buffpresentation',
+        'buff:assetName': 'buffpresentation',
+        'buff:cancelTags': 'buffunknown',
+        'buff:audioAbilityEvent': 'buffpresentation',
+        'buff:assetProfile': 'buffpresentation',
+        'buff:projectileAttachmentBundle': 'buffpresentation',
+        'buff:preventTags': 'buffunknown',
+        'buff:impactAssetNameRebel': 'buffpresentation',
+        'buff:impactAssetNameEmpire': 'buffpresentation',
+        'buff:muzzleAssetNameRebel': 'buffpresentation',
+        'buff:muzzleAssetNameEmpire': 'buffpresentation',
+        # below are roles for summon details
+        'buff:summon dieWithSummoner': 'buffdetails',
+        'buff:summon maxProc': 'buffdetails',
+        'buff:summon randomSpawnRadius': 'buffdetails',
+        'buff:summon sameTeam': 'buffdetails',
+        'buff:summon spawnPoints': 'buffdetails',
+        'buff:summon targetSummoner': 'buffdetails',
+        'buff:summon uid': 'buffinternal',
+        'buff:summon visitorType': 'buffdetails',
+        'buff:summon visitorUids': 'buffdetails',
         # placeholder
         '':''
         }
+
     keys=[x for x in config['statrole'].keys()]
     config['stattype']={
         'acceleration': 'int',
@@ -566,27 +589,6 @@ def initstat():
         'ability:persistentScaling': 'int',
         'ability:recastAbility': 'boolean',
         'ability:targetSelf': 'boolean',
-        'projectile:bruiserInfantry': 'percentage',
-        'projectile:bruiserVehicle': 'percentage',
-        'projectile:building': 'percentage',
-        'projectile:champion': 'percentage',
-        'projectile:flierInfantry': 'percentage',
-        'projectile:flierVehicle': 'percentage',
-        'projectile:healerInfantry': 'percentage',
-        'projectile:heroBruiserInfantry': 'percentage',
-        'projectile:heroBruiserVehicle': 'percentage',
-        'projectile:heroInfantry': 'percentage',
-        'projectile:heroVehicle': 'percentage',
-        'projectile:HQ': 'percentage',
-        'projectile:infantry': 'percentage',
-        'projectile:resource': 'percentage',
-        'projectile:shield': 'percentage',
-        'projectile:shieldGenerator': 'percentage',
-        'projectile:storage': 'percentage',
-        'projectile:trap': 'percentage',
-        'projectile:turret': 'percentage',
-        'projectile:vehicle': 'percentage',
-        'projectile:wall': 'percentage',
         'projectile:arcs': 'boolean',
         'projectile:beamDamage': 'int',
         'projectile:directional': 'boolean',
@@ -603,9 +605,26 @@ def initstat():
         'projectile:salvos': 'int',
         'projectile:cliptime': 'microtime',
         'projectile:DPS': 'float',
+        # below are roles for buffs
+        'buff:duration': 'microtime',
+        'buff:lvl': 'int',
+        'buff:msFirstProc': 'microtime',
+        'buff:msPerProc': 'microtime',
+        'buff:stack': 'int',
+        'buff:value': 'int',
+        'buff:isRefreshing': 'boolean',
+        'buff:summon dieWithSummoner': 'boolean',
+        'buff:summon maxProc': 'int',
+        'buff:summon randomSpawnRadius': 'int',
+        'buff:summon sameTeam': 'boolean',
+        'buff:summon targetSummoner': 'boolean',
+        'buff:summon visitorUids': 'array',
+        # placeholder
         '':''
         }
     for k in keys:
+        if k.endswith('mult'):
+            config['stattype'][k]='percentage'
         if k.startswith('projectile:'):
             config['statrole']['abilityprojectile:'+k[11:]]='ability'+config['statrole'][k]
             config['statrole']['deathprojectile:'+k[11:]]='death'+config['statrole'][k]
@@ -623,7 +642,7 @@ def initstat():
         elif type=='int':
             continue
         elif type=='array':
-            continue
+            config['stathandler'][k]=display_array
         elif type=='':
             continue
         elif type=='float':
@@ -646,15 +665,6 @@ def initstat():
             die('{} is an unknown type. Stopping'.format(type))
     # Handle automatic translations
     trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack ','ability':'Secondary attack '}
-    def prependlower(pr,c):
-        if len(pr)>0:
-            if len(c)<2:
-                c=pr+c
-            elif c[:2].upper()==c[:2]:
-                c=pr+c
-            else:
-                c=pr+c[:1].lower()+c[1:]
-        return(c)
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
             pr=''
@@ -683,11 +693,11 @@ def initstatbuff(buffprefix,buffstring):
     for k in keys:
         if k.startswith('buff:'):
             nk=bp+':'+k[5:]
-            config['statrole'][nk]=bp+config['statrole'][k]
+            config['statrole'][nk]=bp+(config['statrole'][k])[4:]
             for h in ['stattype','stathandler']:
                 if k in config[h]:
                     config[h][nk]=config[h][k]
-            config['stattranslation'][nk]=buffstring+' '+config['stattranslation'][k]
+            config['stattranslation'][nk]=prependlower(buffstring+' ',config['stattranslation'][k])
 
 def _(x):
     global langdata
@@ -846,7 +856,7 @@ def main(argv):
         if ('list' in outputs):
             output_listheader_unit(out,objects,getdisplayed(displayed,'unit'))
             for unit in getdisplayed(displayed,'unit'):
-                output_list_unit(out,objects,objects[unit])            
+                output_list_unit(out,objects,objects[unit])
         if ('md' in outputs):
             addtodisplay(displayed,'index','unit')
             output_mdheader_unit(out,objects,getdisplayed(displayed,'unit'))
@@ -885,7 +895,7 @@ def main(argv):
             if k in morehelp:
                 for kk,vv in morehelp[k].items():
                     print("\n".join(wrapper.wrap(' - {0}{2} {1}'.format(kk,vv,('items with no xxx= specifier:' if (kk=='') else '=xxx:')))))
-            
+
     for xmode in modes:
         if (xmode not in xhelp.keys()):
             print('Mode unknown {0}'.format(xmode))
@@ -906,7 +916,7 @@ def variantspace():
         else:
             sides=[config['side']]
     else:
-            sides=['empire','rebel']        
+            sides=['empire','rebel']
     if 'hq' in config:
         hqs=[config['hq']]
     else:
@@ -929,7 +939,7 @@ def variantspace():
     else:
             planets=defaultplanet
     return (sides,hqs,planets)
-    
+
 def analyse_crate(objects,displayed,id):
     global data
     global config
@@ -972,7 +982,7 @@ def analyse_crate(objects,displayed,id):
     addtodisplay(displayed,'crate',id)
     if id not in objects:
         objects[id]=ob
-    
+
 def analyse_crate_variant(objects,displayed,id,ob,variant,planet,hq,side):
     global data
     global config
@@ -1106,9 +1116,29 @@ def analyse_unit(objects,displayed,id):
     ob['projectileTypes']={}
     ob['options']={}
     ob['roles']={}
+    ob['buffs']={}
     levels=ob['levels']
     used={}
     projectiles={}
+    def dobuff(bufftype,where):
+        ob['options'][bufftype]=True
+        lbuff=subunit[where].split(',')
+        for buff in lbuff:
+            bid=data['BuffData'][buff]['buffID']
+            bname=bid
+            if bname.startswith('buff'):
+                bname=bname[4:]
+            bname=camel_case_to_phrase(bname)
+            ob['buffs'][bid]=bufftype
+            initstatbuff(bid,bname)
+            for kk in data['BuffData'][buff]:
+                subunit[bid+':'+kk]=data['BuffData'][buff][kk]
+            subunit[bid+':name']=bname
+            if 'summon' == subunit[bid+':modifier']:
+                summoned=subunit[bid+':details']
+                for kk in data['SummonDetails'][summoned]:
+                    subunit[bid+':summon '+kk]=data['SummonDetails'][summoned][kk]
+                subunit[bid+':summon visitors']=display_unitarray(subunit,bid)
     def addprojectile(prefix,ob,subunit,data):
         damage=int(dget(data,'damage',0))
         sc=int(dget(data,'shotCount',1))
@@ -1127,6 +1157,8 @@ def analyse_unit(objects,displayed,id):
         subunit[prefix+'cliptime']=cliptime
         if cliptime!=0:
             subunit[prefix+'DPS']=(1000*sc*damage)/cliptime
+        if prefix+'applyBuffs' in subunit:
+            dobuff(prefix[:-1],prefix+'applyBuffs')
 
     uparray={'upgradematerials':' All.','upgradecredits':'$', 'upgradecontraband':' Con.','upgradeshards':' data fragments'}
     addtodisplay(displayed,'unit',id)
@@ -1154,6 +1186,8 @@ def analyse_unit(objects,displayed,id):
             pproj=data['HeroAbilities'][proj]
             for kk,vv in pproj.items():
                 subunit['ability:'+kk]=vv
+            if 'ability:selfBuff' in subunit:
+                dobuff('ability','ability:selfBuff')
         if 'ability:projectileType' in subunit:
             ## Do something with projectiles ; append stats with prefix 'projectile'
             ob['options']['abilityprojectile']=True
@@ -1181,14 +1215,9 @@ def analyse_unit(objects,displayed,id):
             for k in ['cooldownTime','shotDelay','reload']:
                 fakearray[k]='0'
             addprojectile('deathprojectile:',ob,subunit,fakearray)
+
         if 'spawnApplyBuffs' in subunit:
-            ob['options']['spawn']=True
-            lbuff=subunit['spawnApplyBuffs'].split(',')
-            for buff in lbuff:
-                bid=data['BuffData'][buff]['buffID']
-                initstatbuff(bid,bid)
-                for kk in data['BuffData'][buff]:
-                    subunit[bid+':'+kk]=data['BuffData'][buff][kk]
+            dobuff('spawn','spawnApplyBuffs')
         # ob['hq'] is a clean version of subunit
         ob['hq'][level]={}
         a=ob['hq'][level]
@@ -1293,7 +1322,7 @@ def analyse_unit(objects,displayed,id):
             ob['hq'][level]['levels']=levelstring
     if id not in objects:
         objects[id]=ob
-    
+
 
 # This set of functions output objects for various modes
 def output_listheader_crate(out,objects,displayed):
@@ -1462,7 +1491,7 @@ def output_md_tournament(out,objects,item):
                         file.write(head+'{0} "{1}"'.format(k,display_crate_mdlink(j,'s')))
                 file.write('\n')
             file.write(rewardsstr)
-    
+
 
 def output_listheader_unit(out,objects,displayed):
     out.append("There are {0} units in the selection:".format(len(displayed)))
@@ -1520,15 +1549,30 @@ def output_list_unit(out,objects,item,LINKS=False):
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='xupgrade']))
     remove(tosee,'upgrade')
     remove(tosee,'xupgrade')
-    xout+='### Move stats\n\n'
+    xout+='### Movement stats\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='move']))
     remove(tosee,'move')
     attacknames=[]
+    def display_modifiers(item,s):
+        xout=''
+        notfound=True
+        for k in item['buffs']:
+            if item['buffs'][k]==s:
+                notfound=False
+                xout+='#### Modifier "{}"\n\n'.format(item['hq'][firstlevel][k+':name'])
+                xout+=datadump(sorted([x for x in allkeys if allkeys[x]==k+'basic']))
+                xout+=datadump(sorted([x for x in allkeys if allkeys[x]==k+'details']))
+                remove(tosee,k+'basic')
+                remove(tosee,k+'details')
+        return(xout)
     for l in sorted(levels):
         if 'projectile:name' in item['hq'][l]:
             n=item['hq'][l]['projectile:name']
             if n not in attacknames:
                 attacknames.append(n)
+    if ('spawn' in item['options']):
+        xout+='### Modifiers\n\n'
+        xout+=display_modifiers(item,'spawn')
     xout+='## Main attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
     xout+='### Targeting\n\n'
     xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='attackmove']))
@@ -1544,6 +1588,7 @@ def output_list_unit(out,objects,item,LINKS=False):
         remove(tosee,'projectilebasic')
         remove(tosee,'projectilemult')
         remove(tosee,'projectilemisc')
+        xout+=display_modifiers(item,'projectile')
     if 'ability' in item['options']:
         attacknames=[]
         for l in sorted(levels):
@@ -1557,6 +1602,7 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitymove']))
         xout+='### Shooting\n\n'
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilitystats']))
+        xout+=display_modifiers(item,'ability')
     remove(tosee,'abilityonly')
     remove(tosee,'abilitymove')
     remove(tosee,'abilitystats')
@@ -1564,6 +1610,7 @@ def output_list_unit(out,objects,item,LINKS=False):
     if 'abilityprojectile' in item['options']:
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilebasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='abilityprojectilemisc']))
+        xout+=display_modifiers(item,'abilityprojectile')
     remove(tosee,'abilityprojectilebasic')
     remove(tosee,'abilityprojectilemult')
     remove(tosee,'abilityprojectilemisc')
@@ -1658,6 +1705,9 @@ def display_boolean(x):
         return 'Yes'
     return 'No'
 
+def display_array(x):
+    return ', '.join(map(str,x))
+
 def display_side(side):
     if (side=='empire'):
         return 'Empire'
@@ -1698,6 +1748,9 @@ def display_expiration(s):
 
 def display_time(s,micro=False):
     t=[]
+    s=int(s)
+    if (s<0):
+        return 'permanent'
     hsecs=0
     if micro:
         hsecs=s%1000
@@ -1780,7 +1833,7 @@ def display_poolvariant(variants,cap=True):
             sentence+=' level '
         sentence+=', '.join(pairs)
         return sentence
-    
+
     def describeplanet(space,planets,cap):
         if planets==':'.join(space):
             return ''
@@ -1795,7 +1848,7 @@ def display_poolvariant(variants,cap=True):
         for p in planetsarr:
             planetnames.append(display_planet(p))
         return sentence+' or '.join(sorted(planetnames))
-    
+
     def describefaction(space,factions,cap):
         if factions==':'.join(space):
             return ''
@@ -1904,6 +1957,10 @@ def display_building(i,link):
         r='{0} {2}'.format(_('bld_title_'+r),r,level)
     return r
 
+def display_unitarray(item,bid,link=True):
+    if item[bid+':summon visitorType']=='specialAttack':
+        True
+    return ''
 def display_unitbatch(item,link):
     count=item['num']
     nature=''
@@ -1995,7 +2052,8 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
             t=titles[key]
         output+='  * {0}: {1}\n'.format(t,display[key][firstlevel])
     if len(notfoundvalues)>0:
-        output+='  * _Not found: {0}_\n'.format(', '.join(sorted(map(lambda x:titles[x],notfoundvalues))))
+        True
+    #    output+='  * _Not found: {0}_\n'.format(', '.join(sorted(map(lambda x:titles[x],notfoundvalues))))
     # for key in notfoundvalues:
     #     t=key
     #     if key in titles:
@@ -2025,7 +2083,7 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
                 newlevs.append(newlevel)
             for key in variablevalues:
                 newdisp[key][newlev]=display[key][level]
-            old=new 
+            old=new
         levels=newlevs
         display=newdisp
         if len(levels)>10:
@@ -2078,7 +2136,30 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
     output+='\n'
     return(output)
 
-
+def display_leveldataunique(data,levels,key,funcs,LINKS=False):
+    firstlevel=levels[0]
+    if key in funcs:
+        func=funcs[key]
+    else:
+        func=str
+    display={}
+    identical=True
+    dataitem=dget(data[firstlevel],key,notfound)
+    for level in levels:
+        v=dget(data[level],key,notfound)
+        if key in data[level]:
+            display[level]=func(v)
+        else:
+            display[level]=v
+        if v!=dataitem:
+            identical=False
+    if identical:
+        if (dataitem==notfound):
+            return None
+        else:
+            return display[firstlevel]
+    else:
+        return ''
 
 
 
