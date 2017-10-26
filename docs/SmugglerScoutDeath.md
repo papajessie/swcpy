@@ -3,7 +3,7 @@ title: Scout Undead Trooper (SmugglerScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (SmugglerScoutDeath) — version 1092
+# Scout Undead Trooper (SmugglerScoutDeath) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -23,7 +23,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|1350|1620|1890|2160|2430|2700|2970|3240|3510|4050|
+|Health|1690|2025|2365|2700|3040|3375|3715|4050|4390|5065|
 
 
 ### Training stats
@@ -82,15 +82,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|126|152|177|202|227|252|278|303|328|378|
+|Damage per shot|160|190|220|255|285|315|350|380|410|475|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |332.500|367.500|385    |420    |437.500|472.500|490    |542.500|577.500|630    |
-|Calculated damage per second|292.174|352.464|410.435|468.406|526.377|584.348|644.638|702.609|760.580|876.522|
+|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10      |
+|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
+|Displayed damage per second |332.500|367.500|385    |420    |437.500|472.500|490    |542.500|577.500|630     |
+|Calculated damage per second|371.014|440.580|510.145|591.304|660.870|730.435|811.594|881.159|950.725|1101.449|
 
 
   * Cannons per sequence: 1

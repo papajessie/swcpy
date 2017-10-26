@@ -3,7 +3,7 @@ title: Tusken Raider (Tusken)
 category: unit
 ---
 
-# Tusken Raider (Tusken) — version 1092
+# Tusken Raider (Tusken) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

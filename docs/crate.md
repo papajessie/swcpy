@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1092
+# Crates — version 1093
 
   * [Amazon Exclusive Deal! (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -144,6 +144,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_tier6)](lc_conf_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_tier7)](lc_conf_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_tier8)](lc_conf_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_undeadEvt_unit_tier5)](lc_conf_undeadEvt_unit_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_undeadEvt_unit_tier6)](lc_conf_undeadEvt_unit_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_undeadEvt_unit_tier7)](lc_conf_undeadEvt_unit_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_undeadEvt_unit_tier8)](lc_conf_undeadEvt_unit_tier8.html)
   * [Daily Crate (lc_daily)](lc_daily.html)
   * [Daily Death Star Crate (lc_daily_anh40)](lc_daily_anh40.html)
   * [Daily Anniversary Crate (lc_daily_anniversary)](lc_daily_anniversary.html)
@@ -156,6 +160,7 @@ title: Index of crates
   * [Daily Weapons Research Crate (lc_daily_newHeroEvent)](lc_daily_newHeroEvent.html)
   * [Daily Weapons Research Crate (lc_daily_rogue1v3)](lc_daily_rogue1v3.html)
   * [Daily Crate (lc_daily_stolenVehicle)](lc_daily_stolenVehicle.html)
+  * [Daily Undead Offensive Crate (lc_daily_undeadEvt)](lc_daily_undeadEvt.html)
   * [Ultra Death Star Crate (lc_deathstar_spd_v1)](lc_deathstar_spd_v1.html)
   * [Ultra Death Star Crate (lc_deathstar_spd_v2)](lc_deathstar_spd_v2.html)
   * [Death Star Crate: Bonus Reward (lc_deathstar_spdbonus_v1)](lc_deathstar_spdbonus_v1.html)
@@ -196,6 +201,7 @@ title: Index of crates
   * [Carbonite Objectives Crate (lc_obje_tier1)](lc_obje_tier1.html)
   * [Durasteel Objectives Crate (lc_obje_tier2)](lc_obje_tier2.html)
   * [Bronzium Objectives Crate (lc_obje_tier3)](lc_obje_tier3.html)
+  * [Undead Offensive Crate (lc_obje_undeadEvt_tier3)](lc_obje_undeadEvt_tier3.html)
   * [Compensation Crate (lc_playerCredit)](lc_playerCredit.html)
   * [Gratuity Crate (lc_playerCredit_1000)](lc_playerCredit_1000.html)
   * [Gratuity Crate (lc_playerCredit_2000)](lc_playerCredit_2000.html)
@@ -210,6 +216,7 @@ title: Index of crates
   * [Carbonite Heroic Defense Crate (lc_raid_tier1)](lc_raid_tier1.html)
   * [Durasteel Heroic Defense Crate (lc_raid_tier2)](lc_raid_tier2.html)
   * [Bronzium Heroic Defense Crate (lc_raid_tier3)](lc_raid_tier3.html)
+  * [Undead Offensive Crate (lc_raid_undeadEvt_tier3)](lc_raid_undeadEvt_tier3.html)
   * [Premium Weapons Research Crate (lc_rogue1Store)](lc_rogue1Store.html)
   * [Premium Weapons Research Crate (lc_rogue1v3Store)](lc_rogue1v3Store.html)
   * [Supreme Weapons Research Crate (lc_rogue1v3Store_2x)](lc_rogue1v3Store_2x.html)
@@ -227,6 +234,11 @@ title: Index of crates
   * [Victory Crate (lc_sqwar_unitMAX)](lc_sqwar_unitMAX.html)
   * [crate_title_lc_testCrate (no text translation) (lc_testCrate)](lc_testCrate.html)
   * [crate_title_lc_testCrate_noExpire (no text translation) (lc_testCrate_noExpire)](lc_testCrate_noExpire.html)
+  * [crate_title_lc_test_maxShards (no text translation) (lc_test_maxShards)](lc_test_maxShards.html)
+  * [Premium Undead Offensive Crate (lc_undeadEvtStore)](lc_undeadEvtStore.html)
+  * [Undead Special Pack (lc_undeadEvt_SPD_v1)](lc_undeadEvt_SPD_v1.html)
+  * [Undead Special Pack (lc_undeadEvt_SPD_v2)](lc_undeadEvt_SPD_v2.html)
+  * [Undead Special Pack (lc_undeadEvt_SPD_v3)](lc_undeadEvt_SPD_v3.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_A)](lc_vertCrateHero_A.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_B)](lc_vertCrateHero_B.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_C)](lc_vertCrateHero_C.html)

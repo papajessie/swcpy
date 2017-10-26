@@ -3,7 +3,7 @@ title: Undead Trooper (RebelStormDeath)
 category: unit
 ---
 
-# Undead Trooper (RebelStormDeath) — version 1092
+# Undead Trooper (RebelStormDeath) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

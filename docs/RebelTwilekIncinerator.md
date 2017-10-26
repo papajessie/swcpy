@@ -3,7 +3,7 @@ title: Twi'lek Incinerator (RebelTwilekIncinerator)
 category: unit
 ---
 
-# Twi'lek Incinerator (RebelTwilekIncinerator) — version 1092
+# Twi'lek Incinerator (RebelTwilekIncinerator) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -245,4 +245,4 @@ Seriously, we don't really know what to do with these.
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 
-I could not show the following roles, because I was not programmed to : buffFireBurstmult, buffFireBurnbasic, buffFireBurstbasic, buffFireBurnmult
+I could not show the following roles, because I was not programmed to : buffFireBurnmult, buffFireBurnbasic, buffFireBurstbasic, buffFireBurstmult

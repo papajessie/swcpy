@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1092
+# Units — version 1093
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -33,6 +33,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Royal Guard (HeroCrimsonGuard)](HeroCrimsonGuard.html)
   * [Darth Vader (HeroDarthVader)](HeroDarthVader.html)
   * [Death Trooper (HeroDeathTrooper)](HeroDeathTrooper.html)
+  * [SD-K4 (HeroEmpireSpiderDroid)](HeroEmpireSpiderDroid.html)
   * [IG-86 Assassin Droid (IG86Droid)](IG86Droid.html)
   * [Kubaz Invader (KubazInvader)](KubazInvader.html)
   * [Mobile Heavy Cannon (MHC)](MHC.html)
@@ -70,6 +71,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Leia Organa (HeroLeia)](HeroLeia.html)
   * [Luke Skywalker (HeroLukeSkywalker)](HeroLukeSkywalker.html)
   * [R2-D2 (HeroR2D2)](HeroR2D2.html)
+  * [Modified SD-K4 (HeroRebelSpiderDroid)](HeroRebelSpiderDroid.html)
   * [Iakaru Warrior (IakaruWarrior)](IakaruWarrior.html)
   * [Ithorian Infiltrator (IthorianInfiltrator)](IthorianInfiltrator.html)
   * [Juggernaut (Juggernaut)](Juggernaut.html)
@@ -93,17 +95,15 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
-  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
   * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
-  * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
   * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Han Solo (FUETroopHeroHanSolo)](FUETroopHeroHanSolo.html)
   * [AT-ST (FueATST)](FueATST.html)
   * [Han Solo (FueHeroHanSolo)](FueHeroHanSolo.html)
+  * [Dewback (NativeDewback)](NativeDewback.html)
   * [Mercenary (Smuggler)](Smuggler.html)
   * [Mercenary Bruiser (SmugglerBruiser)](SmugglerBruiser.html)
   * [Smuggler Droideka (SmugglerDroideka)](SmugglerDroideka.html)
-  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Smuggler Looter (SmugglerLooter)](SmugglerLooter.html)
   * [Mercenary Pistoleer (SmugglerPistoleer)](SmugglerPistoleer.html)
   * [Smuggler Renegade (SmugglerRenegade)](SmugglerRenegade.html)
@@ -141,6 +141,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Rage Rancor (EmpireRageRancor)](EmpireRageRancor.html)
   * [Scout Undead Trooper (EmpireScoutDeath)](EmpireScoutDeath.html)
   * [Shadow Rancor (EmpireShadowRancor)](EmpireShadowRancor.html)
+  * [trp_title_EmpireSpiderlingDroid (no text translation) (EmpireSpiderlingDroid)](EmpireSpiderlingDroid.html)
   * [Undead Trooper (EmpireStormDeath)](EmpireStormDeath.html)
   * [Heavy Sandtrooper (HeavySandtrooper)](HeavySandtrooper.html)
   * [Heavy Snowtrooper (HeavySnowtrooper)](HeavySnowtrooper.html)
@@ -185,6 +186,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Rage Rancor (RebelRageRancor)](RebelRageRancor.html)
   * [Scout Undead Trooper (RebelScoutDeath)](RebelScoutDeath.html)
   * [Shadow Rancor (RebelShadowRancor)](RebelShadowRancor.html)
+  * [trp_title_RebelSpiderlingDroid (no text translation) (RebelSpiderlingDroid)](RebelSpiderlingDroid.html)
   * [Undead Trooper (RebelStormDeath)](RebelStormDeath.html)
   * [Desert Soldier (SandSoldier)](SandSoldier.html)
   * [Gigoran Fighter (ShaggyAlien)](ShaggyAlien.html)
@@ -200,10 +202,12 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
+  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
+  * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
-  * [Dewback (NativeDewback)](NativeDewback.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)
+  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Heavy Undead Trooper (SmugglerHeavyStormDeath)](SmugglerHeavyStormDeath.html)
   * [Mercenary Saboteur (SmugglerJawa)](SmugglerJawa.html)
   * [trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking)](SmugglerJawaTalking.html)

@@ -3,7 +3,7 @@ title: Heavy Undead Trooper (SmugglerHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (SmugglerHeavyStormDeath) — version 1092
+# Heavy Undead Trooper (SmugglerHeavyStormDeath) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|8625|10350|12075|13800|15525|17250|18975|20700|22425|25875|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|10780|12940|15095|17250|19405|21565|23720|25875|28030|32345|
 
 
 ### Training stats
@@ -99,15 +99,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|170|204|238|272|306|340|374|408|442|510|
+|Damage per shot|215|255|300|340|385|425|470|510|555|640|
 
 
 ### Projectile
 
-|Level                       |1  |2      |3      |4   |5       |6       |7   |8       |9   |10      |
-|----------------------------|---|-------|-------|----|--------|--------|----|--------|----|--------|
-|Displayed damage per second |650|782.500|911.250|1040|1172.500|1301.250|1430|1562.500|1690|1951.250|
-|Calculated damage per second|500|600    |700    |800 |900     |1000    |1100|1200    |1300|1500    |
+|Level                       |1      |2      |3      |4   |5       |6       |7       |8       |9       |10      |
+|----------------------------|-------|-------|-------|----|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |650    |782.500|911.250|1040|1172.500|1301.250|1430    |1562.500|1690    |1951.250|
+|Calculated damage per second|632.353|750    |882.353|1000|1132.353|1250    |1382.353|1500    |1632.353|1882.353|
 
 
   * Cannons per sequence: 1

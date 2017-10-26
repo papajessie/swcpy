@@ -3,7 +3,7 @@ title: trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking)
 category: unit
 ---
 
-# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1092
+# trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

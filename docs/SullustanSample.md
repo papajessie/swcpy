@@ -3,7 +3,7 @@ title: Sullustan Recon Sharpshooter (SullustanSample)
 category: unit
 ---
 
-# Sullustan Recon Sharpshooter (SullustanSample) — version 1092
+# Sullustan Recon Sharpshooter (SullustanSample) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -47,25 +47,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Marksman damage"
-
-  * Marksman damage apply value as: relativePercent
-  * Marksman damage buff ID: buffMarksmanDamage
-  * Marksman damage duration: permanent
-  * Marksman damage modifier: damage
-  * Marksman damage ms first proc: 0s
-  * Marksman damage ms per proc: permanent
-  * Marksman damage name: Marksman damage
-  * Marksman damage stack: 0
-  * Marksman damage target: self
-
-|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman damage lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
-
-
-
 #### Modifier "Marksman health"
 
   * Marksman health apply value as: relativePercentOfMax
@@ -82,6 +63,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------------|--|--|--|--|--|--|--|--|--|---|
 |Marksman health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
 |Marksman health value|49|53|58|64|69|75|81|87|93|100|
+
+
+
+#### Modifier "Marksman damage"
+
+  * Marksman damage apply value as: relativePercent
+  * Marksman damage buff ID: buffMarksmanDamage
+  * Marksman damage duration: permanent
+  * Marksman damage modifier: damage
+  * Marksman damage ms first proc: 0s
+  * Marksman damage ms per proc: permanent
+  * Marksman damage name: Marksman damage
+  * Marksman damage stack: 0
+  * Marksman damage target: self
+
+|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|---------------------|--|--|--|--|--|--|--|--|--|---|
+|Marksman damage lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
 
 
 

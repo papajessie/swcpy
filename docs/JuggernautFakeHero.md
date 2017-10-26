@@ -3,7 +3,7 @@ title: trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero)
 category: unit
 ---
 
-# trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero) — version 1092
+# trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

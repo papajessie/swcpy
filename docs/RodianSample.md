@@ -3,7 +3,7 @@ title: Rodian Recon Sniper (RodianSample)
 category: unit
 ---
 
-# Rodian Recon Sniper (RodianSample) — version 1092
+# Rodian Recon Sniper (RodianSample) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -66,6 +66,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
 
+#### Modifier "Sniper health"
+
+  * Sniper health apply value as: relativePercentOfMax
+  * Sniper health buff ID: buffSniperHealth
+  * Sniper health duration: permanent
+  * Sniper health modifier: maxHealth
+  * Sniper health ms first proc: 0s
+  * Sniper health ms per proc: permanent
+  * Sniper health name: Sniper health
+  * Sniper health stack: 0
+  * Sniper health target: self
+
+|Level              |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|-------------------|--|--|--|--|--|--|--|--|--|---|
+|Sniper health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|Sniper health value|49|53|58|64|69|75|81|87|93|100|
+
+
+
 #### Modifier "Sum phtm tie bomber"
 
   * Sum phtm tie bomber apply value as: absolute
@@ -96,25 +115,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                  |1                        |2                        |3                        |4                        |5                        |6                        |7                        |8                        |9                        |10                        |
 |---------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|--------------------------|
 |Sum phtm tie bomber summon visitor uids|troopEmpPhantomTieBomber1|troopEmpPhantomTieBomber2|troopEmpPhantomTieBomber3|troopEmpPhantomTieBomber4|troopEmpPhantomTieBomber5|troopEmpPhantomTieBomber6|troopEmpPhantomTieBomber7|troopEmpPhantomTieBomber8|troopEmpPhantomTieBomber9|troopEmpPhantomTieBomber10|
-
-
-#### Modifier "Sniper health"
-
-  * Sniper health apply value as: relativePercentOfMax
-  * Sniper health buff ID: buffSniperHealth
-  * Sniper health duration: permanent
-  * Sniper health modifier: maxHealth
-  * Sniper health ms first proc: 0s
-  * Sniper health ms per proc: permanent
-  * Sniper health name: Sniper health
-  * Sniper health stack: 0
-  * Sniper health target: self
-
-|Level              |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|-------------------|--|--|--|--|--|--|--|--|--|---|
-|Sniper health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|Sniper health value|49|53|58|64|69|75|81|87|93|100|
-
 
 
 ## Main attack : projectileSniper

@@ -3,7 +3,7 @@ title: Jawa Saboteur (SmugglerSaboteur)
 category: unit
 ---
 
-# Jawa Saboteur (SmugglerSaboteur) — version 1092
+# Jawa Saboteur (SmugglerSaboteur) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

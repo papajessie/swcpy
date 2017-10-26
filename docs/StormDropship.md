@@ -3,7 +3,7 @@ title: Stormtrooper (StormDropship)
 category: unit
 ---
 
-# Stormtrooper (StormDropship) — version 1092
+# Stormtrooper (StormDropship) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

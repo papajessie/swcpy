@@ -3,7 +3,7 @@ title: trp_title_HeavyStormDropshipTrap (no text translation) (HeavyStormDropshi
 category: unit
 ---
 
-# trp_title_HeavyStormDropshipTrap (no text translation) (HeavyStormDropshipTrap) — version 1092
+# trp_title_HeavyStormDropshipTrap (no text translation) (HeavyStormDropshipTrap) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Tusken Chieftain (TuskenHero)
 category: unit
 ---
 
-# Tusken Chieftain (TuskenHero) — version 1092
+# Tusken Chieftain (TuskenHero) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

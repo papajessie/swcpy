@@ -3,7 +3,7 @@ title: Shadow Rancor (EmpireShadowRancor)
 category: unit
 ---
 
-# Shadow Rancor (EmpireShadowRancor) — version 1092
+# Shadow Rancor (EmpireShadowRancor) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

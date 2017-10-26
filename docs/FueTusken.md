@@ -3,7 +3,7 @@ title: trp_title_FueTusken (no text translation) (FueTusken)
 category: unit
 ---
 
-# trp_title_FueTusken (no text translation) (FueTusken) — version 1092
+# trp_title_FueTusken (no text translation) (FueTusken) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

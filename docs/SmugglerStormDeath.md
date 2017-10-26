@@ -3,7 +3,7 @@ title: Undead Trooper (SmugglerStormDeath)
 category: unit
 ---
 
-# Undead Trooper (SmugglerStormDeath) — version 1092
+# Undead Trooper (SmugglerStormDeath) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -23,7 +23,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|2275|2730|2940|3360|3780|4200|4620|5040|5460|6300|
+|Health|2845|3415|3675|4200|4725|5250|5775|6300|6825|7875|
 
 
 ### Training stats
@@ -82,15 +82,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|190|228|245|280|315|351|386|421|456|526|
+|Damage per shot|240|285|305|350|395|440|485|525|570|660|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9  |10      |
-|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|---|--------|
-|Displayed damage per second |377.500|452.500|487.500|556.250|626.250|696.250|765    |835    |905|1043.750|
-|Calculated damage per second|356.250|427.500|459.375|525    |590.625|658.125|723.750|789.375|855|986.250 |
+|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9       |10      |
+|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|--------|--------|
+|Displayed damage per second |377.500|452.500|487.500|556.250|626.250|696.250|765    |835    |905     |1043.750|
+|Calculated damage per second|450    |534.375|571.875|656.250|740.625|825    |909.375|984.375|1068.750|1237.500|
 
 
   * Cannons per sequence: 1
