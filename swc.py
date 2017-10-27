@@ -704,7 +704,7 @@ def _(x):
     if x in langdata:
         return langdata[x]
     else:
-        return x+' (no text translation)'
+        return '"'+x+'"'
 
 def __(x):
     return display_colored(_(x))
@@ -1958,9 +1958,19 @@ def display_building(i,link):
     return r
 
 def display_unitarray(item,bid,link=True):
+    prefix='trp_title_'
+    stat='unitID'
+    table='TroopData'
     if item[bid+':summon visitorType']=='specialAttack':
-        True
-    return ''
+        prefix='shp_title_'
+        stat='specialAttackID'
+        table='SpecialAttackData'
+    visitors=[]
+    for i in item[bid+':summon visitorUids']:
+        itemx=display_things(i,table,'uid',stat)
+        visitors.append('[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx))
+    return ', '.join(visitors)
+
 def display_unitbatch(item,link):
     count=item['num']
     nature=''
