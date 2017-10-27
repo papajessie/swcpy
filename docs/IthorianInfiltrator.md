@@ -59,7 +59,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Personal shield ithorian apply value as: absolutePercent
   * Personal shield ithorian buff ID: buffPersonalShieldIthorian
   * Personal shield ithorian duration: 5s
-  * Personal shield ithorian lvl: 1
   * Personal shield ithorian modifier: defense
   * Personal shield ithorian ms first proc: 0s
   * Personal shield ithorian ms per proc: permanent

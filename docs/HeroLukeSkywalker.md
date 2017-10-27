@@ -144,7 +144,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Deflect apply value as: absolutePercent
   * Deflect buff ID: buffDeflect
   * Deflect duration: permanent
-  * Deflect lvl: 1
   * Deflect modifier: defense
   * Deflect ms first proc: 0s
   * Deflect ms per proc: permanent

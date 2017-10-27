@@ -62,7 +62,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Reduce heals apply value as: absolutePercent
   * Reduce heals buff ID: buffReduceHeals
   * Reduce heals duration: permanent
-  * Reduce heals lvl: 1
   * Reduce heals modifier: healDefense
   * Reduce heals ms first proc: 0s
   * Reduce heals ms per proc: permanent

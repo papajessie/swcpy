@@ -59,7 +59,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Personal shield kubaz apply value as: absolutePercent
   * Personal shield kubaz buff ID: buffPersonalShieldKubaz
   * Personal shield kubaz duration: 5s
-  * Personal shield kubaz lvl: 1
   * Personal shield kubaz modifier: defense
   * Personal shield kubaz ms first proc: 0s
   * Personal shield kubaz ms per proc: permanent

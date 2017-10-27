@@ -195,4 +195,4 @@ Seriously, we don't really know what to do with these.
 |Point value|7     |8     |10    |11    |13    |14    |15    |17    |18    |21    |
 
 
-I could not show the following roles, because I was not programmed to : buffUnitDamageSteroidmult, buffUnitDamageSteroidbasic
+I could not show the following roles, because I was not programmed to : buffUnitDamageSteroidbasic, buffUnitDamageSteroidmult

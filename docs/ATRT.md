@@ -150,7 +150,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret damage debuff apply value as: relativePercent
   * Turret damage debuff buff ID: buffTurretDamageDebuff
   * Turret damage debuff duration: 15s
-  * Turret damage debuff lvl: 1
   * Turret damage debuff modifier: damage
   * Turret damage debuff ms first proc: 0s
   * Turret damage debuff ms per proc: permanent

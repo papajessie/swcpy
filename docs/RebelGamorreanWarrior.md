@@ -57,27 +57,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Reduce heals"
-
-  * Reduce heals apply value as: absolutePercent
-  * Reduce heals buff ID: buffReduceHeals
-  * Reduce heals duration: permanent
-  * Reduce heals lvl: 1
-  * Reduce heals modifier: healDefense
-  * Reduce heals ms first proc: 0s
-  * Reduce heals ms per proc: permanent
-  * Reduce heals name: Reduce heals
-  * Reduce heals stack: 0
-  * Reduce heals target: self
-  * Reduce heals value: 25
-
-
 #### Modifier "Defend splash"
 
   * Defend splash apply value as: relativePercent
   * Defend splash buff ID: buffDefendSplash
   * Defend splash duration: permanent
-  * Defend splash lvl: 1
   * Defend splash modifier: splashDefense
   * Defend splash ms first proc: 0s
   * Defend splash ms per proc: permanent
@@ -85,6 +69,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Defend splash stack: 1
   * Defend splash target: self
   * Defend splash value: -50
+
+
+#### Modifier "Reduce heals"
+
+  * Reduce heals apply value as: absolutePercent
+  * Reduce heals buff ID: buffReduceHeals
+  * Reduce heals duration: permanent
+  * Reduce heals modifier: healDefense
+  * Reduce heals ms first proc: 0s
+  * Reduce heals ms per proc: permanent
+  * Reduce heals name: Reduce heals
+  * Reduce heals stack: 0
+  * Reduce heals target: self
+  * Reduce heals value: 25
 
 
 ## Main attack : Melee Vibro Ax

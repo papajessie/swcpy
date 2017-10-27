@@ -47,25 +47,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Marksman damage"
-
-  * Marksman damage apply value as: relativePercent
-  * Marksman damage buff ID: buffMarksmanDamage
-  * Marksman damage duration: permanent
-  * Marksman damage modifier: damage
-  * Marksman damage ms first proc: 0s
-  * Marksman damage ms per proc: permanent
-  * Marksman damage name: Marksman damage
-  * Marksman damage stack: 0
-  * Marksman damage target: self
-
-|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman damage lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
-
-
-
 #### Modifier "Marksman health"
 
   * Marksman health apply value as: relativePercentOfMax
@@ -80,7 +61,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
 |---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
 |Marksman health value|49|53|58|64|69|75|81|87|93|100|
 
 
@@ -100,7 +80,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
 |-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
-|Sum phtm Y wing lvl            |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
 |Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|
 
 
@@ -115,6 +94,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                              |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |-----------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
+
+
+#### Modifier "Marksman damage"
+
+  * Marksman damage apply value as: relativePercent
+  * Marksman damage buff ID: buffMarksmanDamage
+  * Marksman damage duration: permanent
+  * Marksman damage modifier: damage
+  * Marksman damage ms first proc: 0s
+  * Marksman damage ms per proc: permanent
+  * Marksman damage name: Marksman damage
+  * Marksman damage stack: 0
+  * Marksman damage target: self
+
+|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|---------------------|--|--|--|--|--|--|--|--|--|---|
+|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
+
 
 
 ## Main attack : projectileMarksman
