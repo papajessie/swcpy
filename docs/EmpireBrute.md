@@ -205,8 +205,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack favorite target type: vehicles
   * Secondary attack hit spark: fx_brute_ability_hit
   * Secondary attack max scale: 100
-  * Secondary attack name: Brute Bomb
   * Secondary attack name: BruteSpecial
+  * Secondary attack name: Brute Bomb
   * Secondary attack persistent scaling: 0
   * Secondary attack spin speed: 21
   * Spawn effect uid: effectEmpireSpawn

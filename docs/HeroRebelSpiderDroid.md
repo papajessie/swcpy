@@ -143,13 +143,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum rebel spiderling droid ms per proc: 20ms
   * Sum rebel spiderling droid name: Sum rebel spiderling droid
   * Sum rebel spiderling droid stack: 1
-  * Sum rebel spiderling droid summon visitors: 
   * Sum rebel spiderling droid target: self
   * Sum rebel spiderling droid value: 1
 
-|Level                         |1|2|3|4|5|6|7|8|9|10|
-|------------------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum rebel spiderling droid lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                                     |1                                                                    |2                                                                    |3                                                                    |4                                                                    |5                                                                    |6                                                                    |7                                                                    |8                                                                    |9                                                                    |10                                                                    |
+|------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------|
+|Sum rebel spiderling droid lvl            |1                                                                    |2                                                                    |3                                                                    |4                                                                    |5                                                                    |6                                                                    |7                                                                    |8                                                                    |9                                                                    |10                                                                    |
+|Sum rebel spiderling droid summon visitors|["trp_title_RebelSpiderlingDroid" level 1](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 2](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 3](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 4](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 5](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 6](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 7](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 8](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 9](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 10](RebelSpiderlingDroid.html)|
 
 
   * Sum rebel spiderling droid summon die with summoner: No
@@ -224,8 +224,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack animation delay: 0
   * Secondary attack arcs: No
   * Secondary attack max scale: 100
-  * Secondary attack name: EmptyProjectile
   * Secondary attack name: Rebel Spider Droid Summon
+  * Secondary attack name: EmptyProjectile
   * Secondary attack spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES

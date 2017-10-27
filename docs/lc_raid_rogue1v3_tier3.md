@@ -112,8 +112,17 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/20) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (4/20) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/20) 1 data fragments of unlockable air support ["shp_title_shrd_troopSecurityDroid"](shrd_troopSecurityDroid)
   * (5/20) 1 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (5/20) 1 data fragments of unlockable air support [shp_title_shrd_troopSecurityDroid (no text translation)](shrd_troopSecurityDroid)
+
+### Rebellion for HQ level 5
+
+  * (2/20) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/20) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (4/20) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (5/20) 1 data fragments of unlockable air support ["shp_title_shrd_troopBigMouthAlien"](shrd_troopBigMouthAlien)
+  * (5/20) 1 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
 ### Rebellion for HQ levels 6-10
 
@@ -144,15 +153,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/18) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/18) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (4/18) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
-
-### Rebellion for HQ level 5
-
-  * (2/20) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/20) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/20) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (5/20) 1 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (5/20) 1 data fragments of unlockable air support [shp_title_shrd_troopBigMouthAlien (no text translation)](shrd_troopBigMouthAlien)
 
 ### Fallback for HQ level 10
 

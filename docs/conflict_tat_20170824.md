@@ -1,8 +1,8 @@
 ---
-title: tournament_title_conflict_tat_20170824 (no text translation) (conflict_tat_20170824)
+title: "tournament_title_conflict_tat_20170824" (conflict_tat_20170824)
 category: tournament
 ---
-# tournament_title_conflict_tat_20170824 (no text translation)
+# "tournament_title_conflict_tat_20170824"
 
   * Start date: 2017-08-24
   * End date: 2017-08-30

@@ -1,9 +1,9 @@
 ---
-title: trp_title_SoldierDropshipTrap (no text translation) (SoldierDropshipTrap)
+title: "trp_title_SoldierDropshipTrap" (SoldierDropshipTrap)
 category: unit
 ---
 
-# trp_title_SoldierDropshipTrap (no text translation) (SoldierDropshipTrap) — version 1093
+# "trp_title_SoldierDropshipTrap" (SoldierDropshipTrap) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

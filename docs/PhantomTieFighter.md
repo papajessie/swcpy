@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomTieFighter (no text translation) (PhantomTieFighter)
+title: "trp_title_PhantomTieFighter" (PhantomTieFighter)
 category: unit
 ---
 
-# trp_title_PhantomTieFighter (no text translation) (PhantomTieFighter) — version 1093
+# "trp_title_PhantomTieFighter" (PhantomTieFighter) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie fighter ms per proc: permanent
   * Sum tie fighter name: Sum tie fighter
   * Sum tie fighter stack: 1
-  * Sum tie fighter summon visitors: 
   * Sum tie fighter target: enemies
   * Sum tie fighter value: 1
 
-|Level              |1|2|3|4|5|6|7|8|9|10|
-|-------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum tie fighter lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                          |1                                                                                                   |2                                                                                                   |3                                                                                                   |4                                                                                                   |5                                                                                                   |6                                                                                                   |7                                                                                                   |8                                                                                                   |9                                                                                                   |10                                                                                                     |
+|-------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+|Sum tie fighter lvl            |1                                                                                                   |2                                                                                                   |3                                                                                                   |4                                                                                                   |5                                                                                                   |6                                                                                                   |7                                                                                                   |8                                                                                                   |9                                                                                                   |10                                                                                                     |
+|Sum tie fighter summon visitors|["trp_title_specialAttackTieFighter6" level specialAttackTieFighter6](specialAttackTieFighter6.html)|["trp_title_specialAttackTieFighter6" level specialAttackTieFighter6](specialAttackTieFighter6.html)|["trp_title_specialAttackTieFighter6" level specialAttackTieFighter6](specialAttackTieFighter6.html)|["trp_title_specialAttackTieFighter7" level specialAttackTieFighter7](specialAttackTieFighter7.html)|["trp_title_specialAttackTieFighter7" level specialAttackTieFighter7](specialAttackTieFighter7.html)|["trp_title_specialAttackTieFighter8" level specialAttackTieFighter8](specialAttackTieFighter8.html)|["trp_title_specialAttackTieFighter8" level specialAttackTieFighter8](specialAttackTieFighter8.html)|["trp_title_specialAttackTieFighter9" level specialAttackTieFighter9](specialAttackTieFighter9.html)|["trp_title_specialAttackTieFighter9" level specialAttackTieFighter9](specialAttackTieFighter9.html)|["trp_title_specialAttackTieFighter10" level specialAttackTieFighter10](specialAttackTieFighter10.html)|
 
 
   * Sum tie fighter summon die with summoner: No

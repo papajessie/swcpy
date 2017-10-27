@@ -216,8 +216,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack audio ability loop: "sfx_lightsaber_luke_whirlwind":100
   * Secondary attack displayed damage per second: 1000
   * Secondary attack max scale: 200
-  * Secondary attack name: HERO Luke Defend
   * Secondary attack name: Lightsaber Defend Luke
+  * Secondary attack name: HERO Luke Defend
   * Secondary attack persistent effect: fx_aura_rbl
   * Secondary attack persistent scaling: 0
   * Secondary attack spin speed: 0

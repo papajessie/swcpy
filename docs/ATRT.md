@@ -210,8 +210,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack hit spark: fx_blaster_hit_b_med
   * Secondary attack max scale: 100
   * Secondary attack muzzle flash: fx_blaster_flash_b_med
-  * Secondary attack name: ATRT_Ion
   * Secondary attack name: ATRTIon_Shot
+  * Secondary attack name: ATRT_Ion
   * Secondary attack persistent scaling: 0
   * Secondary attack spin speed: 0
   * Spin speed: 0

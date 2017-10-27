@@ -64,13 +64,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm tie fighter ms per proc: permanent
   * Sum phtm tie fighter name: Sum phtm tie fighter
   * Sum phtm tie fighter stack: 1
-  * Sum phtm tie fighter summon visitors: 
   * Sum phtm tie fighter target: self
   * Sum phtm tie fighter value: 1
 
-|Level                   |1|2|3|4|5|6|7|8|9|10|
-|------------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum phtm tie fighter lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                               |1                                                              |2                                                              |3                                                              |4                                                              |5                                                              |6                                                              |7                                                              |8                                                              |9                                                              |10                                                              |
+|------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
+|Sum phtm tie fighter lvl            |1                                                              |2                                                              |3                                                              |4                                                              |5                                                              |6                                                              |7                                                              |8                                                              |9                                                              |10                                                              |
+|Sum phtm tie fighter summon visitors|["trp_title_PhantomTieFighter" level 1](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 2](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 3](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 4](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 5](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 6](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 7](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 8](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 9](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 10](PhantomTieFighter.html)|
 
 
   * Sum phtm tie fighter summon die with summoner: Yes

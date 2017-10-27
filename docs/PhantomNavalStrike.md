@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomNavalStrike (no text translation) (PhantomNavalStrike)
+title: "trp_title_PhantomNavalStrike" (PhantomNavalStrike)
 category: unit
 ---
 
-# trp_title_PhantomNavalStrike (no text translation) (PhantomNavalStrike) — version 1093
+# "trp_title_PhantomNavalStrike" (PhantomNavalStrike) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum naval strike ms per proc: permanent
   * Sum naval strike name: Sum naval strike
   * Sum naval strike stack: 1
-  * Sum naval strike summon visitors: 
   * Sum naval strike target: enemies
   * Sum naval strike value: 1
 
-|Level               |1|2|3|4|5|6|7|8|9|10|
-|--------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum naval strike lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                           |1                                                                                                      |2                                                                                                      |3                                                                                                      |4                                                                                                      |5                                                                                                      |6                                                                                                      |7                                                                                                      |8                                                                                                      |9                                                                                                      |10                                                                                                        |
+|--------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+|Sum naval strike lvl            |1                                                                                                      |2                                                                                                      |3                                                                                                      |4                                                                                                      |5                                                                                                      |6                                                                                                      |7                                                                                                      |8                                                                                                      |9                                                                                                      |10                                                                                                        |
+|Sum naval strike summon visitors|["trp_title_specialAttackNavalStrike1" level specialAttackNavalStrike1](specialAttackNavalStrike1.html)|["trp_title_specialAttackNavalStrike2" level specialAttackNavalStrike2](specialAttackNavalStrike2.html)|["trp_title_specialAttackNavalStrike3" level specialAttackNavalStrike3](specialAttackNavalStrike3.html)|["trp_title_specialAttackNavalStrike4" level specialAttackNavalStrike4](specialAttackNavalStrike4.html)|["trp_title_specialAttackNavalStrike5" level specialAttackNavalStrike5](specialAttackNavalStrike5.html)|["trp_title_specialAttackNavalStrike6" level specialAttackNavalStrike6](specialAttackNavalStrike6.html)|["trp_title_specialAttackNavalStrike7" level specialAttackNavalStrike7](specialAttackNavalStrike7.html)|["trp_title_specialAttackNavalStrike8" level specialAttackNavalStrike8](specialAttackNavalStrike8.html)|["trp_title_specialAttackNavalStrike9" level specialAttackNavalStrike9](specialAttackNavalStrike9.html)|["trp_title_specialAttackNavalStrike10" level specialAttackNavalStrike10](specialAttackNavalStrike10.html)|
 
 
   * Sum naval strike summon die with summoner: No

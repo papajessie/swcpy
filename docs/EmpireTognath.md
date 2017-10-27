@@ -229,8 +229,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack max scale: 100
   * Secondary attack muzzle flash: fx_sonicTurret_muzzle
   * Secondary attack muzzle flash fade time: 1.5
-  * Secondary attack name: Tognath Sniper Shot
   * Secondary attack name: TognathShot
+  * Secondary attack name: Tognath Sniper Shot
   * Secondary attack persistent scaling: 0
   * Secondary attack projectile length: 6
   * Secondary attack spin speed: 0

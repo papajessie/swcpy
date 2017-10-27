@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomMilleniumFalcon (no text translation) (PhantomMilleniumFalcon)
+title: "trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon)
 category: unit
 ---
 
-# trp_title_PhantomMilleniumFalcon (no text translation) (PhantomMilleniumFalcon) — version 1093
+# "trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum millenium falcon ms per proc: permanent
   * Sum millenium falcon name: Sum millenium falcon
   * Sum millenium falcon stack: 1
-  * Sum millenium falcon summon visitors: 
   * Sum millenium falcon target: enemies
   * Sum millenium falcon value: 1
 
-|Level                   |1|2|3|4|5|6|7|8|9|10|
-|------------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum millenium falcon lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                               |1                                                                                                                  |2                                                                                                                  |3                                                                                                                  |4                                                                                                                  |5                                                                                                                  |6                                                                                                                  |7                                                                                                                  |8                                                                                                                  |9                                                                                                                  |10                                                                                                                    |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|Sum millenium falcon lvl            |1                                                                                                                  |2                                                                                                                  |3                                                                                                                  |4                                                                                                                  |5                                                                                                                  |6                                                                                                                  |7                                                                                                                  |8                                                                                                                  |9                                                                                                                  |10                                                                                                                    |
+|Sum millenium falcon summon visitors|["trp_title_specialAttackMilleniumFalcon1" level specialAttackMilleniumFalcon1](specialAttackMilleniumFalcon1.html)|["trp_title_specialAttackMilleniumFalcon2" level specialAttackMilleniumFalcon2](specialAttackMilleniumFalcon2.html)|["trp_title_specialAttackMilleniumFalcon3" level specialAttackMilleniumFalcon3](specialAttackMilleniumFalcon3.html)|["trp_title_specialAttackMilleniumFalcon4" level specialAttackMilleniumFalcon4](specialAttackMilleniumFalcon4.html)|["trp_title_specialAttackMilleniumFalcon5" level specialAttackMilleniumFalcon5](specialAttackMilleniumFalcon5.html)|["trp_title_specialAttackMilleniumFalcon6" level specialAttackMilleniumFalcon6](specialAttackMilleniumFalcon6.html)|["trp_title_specialAttackMilleniumFalcon7" level specialAttackMilleniumFalcon7](specialAttackMilleniumFalcon7.html)|["trp_title_specialAttackMilleniumFalcon8" level specialAttackMilleniumFalcon8](specialAttackMilleniumFalcon8.html)|["trp_title_specialAttackMilleniumFalcon9" level specialAttackMilleniumFalcon9](specialAttackMilleniumFalcon9.html)|["trp_title_specialAttackMilleniumFalcon10" level specialAttackMilleniumFalcon10](specialAttackMilleniumFalcon10.html)|
 
 
   * Sum millenium falcon summon die with summoner: No

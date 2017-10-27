@@ -50,7 +50,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Other units
 
-  * [trp_title_WorkerDroid (no text translation) (WorkerDroid)](WorkerDroid.html)
+  * ["trp_title_WorkerDroid" (WorkerDroid)](WorkerDroid.html)
 
 ### Rebellion
 
@@ -95,12 +95,11 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
-  * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
-  * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
+  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
+  * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
   * [Han Solo (FUETroopHeroHanSolo)](FUETroopHeroHanSolo.html)
   * [AT-ST (FueATST)](FueATST.html)
   * [Han Solo (FueHeroHanSolo)](FueHeroHanSolo.html)
-  * [Dewback (NativeDewback)](NativeDewback.html)
   * [Mercenary (Smuggler)](Smuggler.html)
   * [Mercenary Bruiser (SmugglerBruiser)](SmugglerBruiser.html)
   * [Smuggler Droideka (SmugglerDroideka)](SmugglerDroideka.html)
@@ -117,8 +116,8 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Tusken Raiders
 
   * [Tusken (FUETroopTuskenWeak)](FUETroopTuskenWeak.html)
-  * [trp_title_FueSmuggler (no text translation) (FueSmuggler)](FueSmuggler.html)
-  * [trp_title_FueTusken (no text translation) (FueTusken)](FueTusken.html)
+  * ["trp_title_FueSmuggler" (FueSmuggler)](FueSmuggler.html)
+  * ["trp_title_FueTusken" (FueTusken)](FueTusken.html)
   * [Tusken Raider (Tusken)](Tusken.html)
   * [Tusken Bantha Rider (TuskenBantha)](TuskenBantha.html)
   * [Tusken Chieftain (TuskenHero)](TuskenHero.html)
@@ -127,7 +126,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Tusken Warrior (fueTroopTusken)](fueTroopTusken.html)
   * [Smuggler (fue_troop_attackingSmuggler)](fue_troop_attackingSmuggler.html)
   * [Smuggler (fue_troop_smuggler)](fue_troop_smuggler.html)
-  * [trp_title_troopAwesome (no text translation) (troopAwesome)](troopAwesome.html)
+  * ["trp_title_troopAwesome" (troopAwesome)](troopAwesome.html)
 
 ## Other units
 
@@ -141,16 +140,16 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Rage Rancor (EmpireRageRancor)](EmpireRageRancor.html)
   * [Scout Undead Trooper (EmpireScoutDeath)](EmpireScoutDeath.html)
   * [Shadow Rancor (EmpireShadowRancor)](EmpireShadowRancor.html)
-  * [trp_title_EmpireSpiderlingDroid (no text translation) (EmpireSpiderlingDroid)](EmpireSpiderlingDroid.html)
+  * ["trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid)](EmpireSpiderlingDroid.html)
   * [Undead Trooper (EmpireStormDeath)](EmpireStormDeath.html)
   * [Heavy Sandtrooper (HeavySandtrooper)](HeavySandtrooper.html)
   * [Heavy Snowtrooper (HeavySnowtrooper)](HeavySnowtrooper.html)
-  * [trp_title_HeavyStormDropshipTrap (no text translation) (HeavyStormDropshipTrap)](HeavyStormDropshipTrap.html)
+  * ["trp_title_HeavyStormDropshipTrap" (HeavyStormDropshipTrap)](HeavyStormDropshipTrap.html)
   * [Heavy Shoretrooper (PentagonHeavyTrooper)](PentagonHeavyTrooper.html)
   * [Shoretrooper (PentagonTrooper)](PentagonTrooper.html)
-  * [trp_title_PhantomNavalStrike (no text translation) (PhantomNavalStrike)](PhantomNavalStrike.html)
-  * [trp_title_PhantomTieBomber (no text translation) (PhantomTieBomber)](PhantomTieBomber.html)
-  * [trp_title_PhantomTieFighter (no text translation) (PhantomTieFighter)](PhantomTieFighter.html)
+  * ["trp_title_PhantomNavalStrike" (PhantomNavalStrike)](PhantomNavalStrike.html)
+  * ["trp_title_PhantomTieBomber" (PhantomTieBomber)](PhantomTieBomber.html)
+  * ["trp_title_PhantomTieFighter" (PhantomTieFighter)](PhantomTieFighter.html)
   * [Rodian Recon Sniper (RodianSample)](RodianSample.html)
   * [Sandtrooper (Sandtrooper)](Sandtrooper.html)
   * [Seized AAT-1 Hover Tank (SeizedAAT1)](SeizedAAT1.html)
@@ -160,38 +159,38 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Seized Medic Droid (SeizedMedic)](SeizedMedic.html)
   * [Snowtrooper (Snowtrooper)](Snowtrooper.html)
   * [Stormtrooper (StormDropship)](StormDropship.html)
-  * [trp_title_StormDropshipTrap (no text translation) (StormDropshipTrap)](StormDropshipTrap.html)
+  * ["trp_title_StormDropshipTrap" (StormDropshipTrap)](StormDropshipTrap.html)
   * [Rancor (promoRancorEmpire)](promoRancorEmpire.html)
 
 ### Rebellion
 
-  * [trp_title_ATTEFakeHero (no text translation) (ATTEFakeHero)](ATTEFakeHero.html)
+  * ["trp_title_ATTEFakeHero" (ATTEFakeHero)](ATTEFakeHero.html)
   * [Droideka Sentinal (ChampionRebelDroidekaSample)](ChampionRebelDroidekaSample.html)
   * [Droideka Oppressor (ChampionRebelHeavyDroidekaSample)](ChampionRebelHeavyDroidekaSample.html)
   * [Cold-weather Heavy Soldier (EchoBaseHeavySoldier)](EchoBaseHeavySoldier.html)
   * [Cold-weather Soldier (EchoBaseSoldier)](EchoBaseSoldier.html)
   * [Heavy Desert Soldier (HeavySandSoldier)](HeavySandSoldier.html)
-  * [trp_title_HeavySoldierDropshipTrap (no text translation) (HeavySoldierDropshipTrap)](HeavySoldierDropshipTrap.html)
+  * ["trp_title_HeavySoldierDropshipTrap" (HeavySoldierDropshipTrap)](HeavySoldierDropshipTrap.html)
   * [AT-AP Veteran (HeroATAP)](HeroATAP.html)
-  * [trp_title_HeroC3PO (no text translation) (HeroC3PO)](HeroC3PO.html)
+  * ["trp_title_HeroC3PO" (HeroC3PO)](HeroC3PO.html)
   * [Oto Vans (HeroSoldier)](HeroSoldier.html)
-  * [trp_title_JuggernautFakeHero (no text translation) (JuggernautFakeHero)](JuggernautFakeHero.html)
+  * ["trp_title_JuggernautFakeHero" (JuggernautFakeHero)](JuggernautFakeHero.html)
   * [Rebel Commando (PentagonSoldier)](PentagonSoldier.html)
-  * [trp_title_PhantomMilleniumFalcon (no text translation) (PhantomMilleniumFalcon)](PhantomMilleniumFalcon.html)
-  * [trp_title_PhantomXWing (no text translation) (PhantomXWing)](PhantomXWing.html)
-  * [trp_title_PhantomYWing (no text translation) (PhantomYWing)](PhantomYWing.html)
+  * ["trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon)](PhantomMilleniumFalcon.html)
+  * ["trp_title_PhantomXWing" (PhantomXWing)](PhantomXWing.html)
+  * ["trp_title_PhantomYWing" (PhantomYWing)](PhantomYWing.html)
   * [Heavy Undead Trooper (RebelHeavyStormDeath)](RebelHeavyStormDeath.html)
   * [Stolen TX-225 (RebelHovertankSample)](RebelHovertankSample.html)
   * [Hunter Rancor (RebelHunterRancor)](RebelHunterRancor.html)
   * [Rage Rancor (RebelRageRancor)](RebelRageRancor.html)
   * [Scout Undead Trooper (RebelScoutDeath)](RebelScoutDeath.html)
   * [Shadow Rancor (RebelShadowRancor)](RebelShadowRancor.html)
-  * [trp_title_RebelSpiderlingDroid (no text translation) (RebelSpiderlingDroid)](RebelSpiderlingDroid.html)
+  * ["trp_title_RebelSpiderlingDroid" (RebelSpiderlingDroid)](RebelSpiderlingDroid.html)
   * [Undead Trooper (RebelStormDeath)](RebelStormDeath.html)
   * [Desert Soldier (SandSoldier)](SandSoldier.html)
   * [Gigoran Fighter (ShaggyAlien)](ShaggyAlien.html)
   * [Rebel Soldier (SoldierDropship)](SoldierDropship.html)
-  * [trp_title_SoldierDropshipTrap (no text translation) (SoldierDropshipTrap)](SoldierDropshipTrap.html)
+  * ["trp_title_SoldierDropshipTrap" (SoldierDropshipTrap)](SoldierDropshipTrap.html)
   * [Stolen AT-AT Walker (StolenATAT)](StolenATAT.html)
   * [Stolen AT-DP Walker (StolenATDP)](StolenATDP.html)
   * [Stolen AT-ST Walker (StolenATST)](StolenATST.html)
@@ -202,16 +201,17 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
-  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
-  * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
+  * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
+  * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
+  * [Dewback (NativeDewback)](NativeDewback.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)
   * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Heavy Undead Trooper (SmugglerHeavyStormDeath)](SmugglerHeavyStormDeath.html)
   * [Mercenary Saboteur (SmugglerJawa)](SmugglerJawa.html)
-  * [trp_title_SmugglerJawaTalking (no text translation) (SmugglerJawaTalking)](SmugglerJawaTalking.html)
-  * [trp_title_SmugglerJawaTinker (no text translation) (SmugglerJawaTinker)](SmugglerJawaTinker.html)
+  * ["trp_title_SmugglerJawaTalking" (SmugglerJawaTalking)](SmugglerJawaTalking.html)
+  * ["trp_title_SmugglerJawaTinker" (SmugglerJawaTinker)](SmugglerJawaTinker.html)
   * [Scout Undead Trooper (SmugglerScoutDeath)](SmugglerScoutDeath.html)
   * [Undead Trooper (SmugglerStormDeath)](SmugglerStormDeath.html)
 

@@ -47,25 +47,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Marksman health"
-
-  * Marksman health apply value as: relativePercentOfMax
-  * Marksman health buff ID: buffMarksmanHealth
-  * Marksman health duration: permanent
-  * Marksman health modifier: maxHealth
-  * Marksman health ms first proc: 0s
-  * Marksman health ms per proc: permanent
-  * Marksman health name: Marksman health
-  * Marksman health stack: 0
-  * Marksman health target: self
-
-|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|Marksman health value|49|53|58|64|69|75|81|87|93|100|
-
-
-
 #### Modifier "Marksman damage"
 
   * Marksman damage apply value as: relativePercent
@@ -85,6 +66,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
 
+#### Modifier "Marksman health"
+
+  * Marksman health apply value as: relativePercentOfMax
+  * Marksman health buff ID: buffMarksmanHealth
+  * Marksman health duration: permanent
+  * Marksman health modifier: maxHealth
+  * Marksman health ms first proc: 0s
+  * Marksman health ms per proc: permanent
+  * Marksman health name: Marksman health
+  * Marksman health stack: 0
+  * Marksman health target: self
+
+|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|---------------------|--|--|--|--|--|--|--|--|--|---|
+|Marksman health lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|Marksman health value|49|53|58|64|69|75|81|87|93|100|
+
+
+
 #### Modifier "Sum phtm Y wing"
 
   * Sum phtm Y wing apply value as: absolute
@@ -95,13 +95,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm Y wing ms per proc: permanent
   * Sum phtm Y wing name: Sum phtm Y wing
   * Sum phtm Y wing stack: 1
-  * Sum phtm Y wing summon visitors: 
   * Sum phtm Y wing target: self
   * Sum phtm Y wing value: 1
 
-|Level              |1|2|3|4|5|6|7|8|9|10|
-|-------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum phtm Y wing lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
+|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
+|Sum phtm Y wing lvl            |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
+|Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|
 
 
   * Sum phtm Y wing summon die with summoner: Yes

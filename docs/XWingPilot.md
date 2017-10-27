@@ -68,13 +68,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm X wing ms per proc: permanent
   * Sum phtm X wing name: Sum phtm X wing
   * Sum phtm X wing stack: 1
-  * Sum phtm X wing summon visitors: 
   * Sum phtm X wing target: self
   * Sum phtm X wing value: 1
 
-|Level              |1|2|3|4|5|6|7|8|9|10|
-|-------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum phtm X wing lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
+|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
+|Sum phtm X wing lvl            |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
+|Sum phtm X wing summon visitors|["trp_title_PhantomXWing" level 1](PhantomXWing.html)|["trp_title_PhantomXWing" level 2](PhantomXWing.html)|["trp_title_PhantomXWing" level 3](PhantomXWing.html)|["trp_title_PhantomXWing" level 4](PhantomXWing.html)|["trp_title_PhantomXWing" level 5](PhantomXWing.html)|["trp_title_PhantomXWing" level 6](PhantomXWing.html)|["trp_title_PhantomXWing" level 7](PhantomXWing.html)|["trp_title_PhantomXWing" level 8](PhantomXWing.html)|["trp_title_PhantomXWing" level 9](PhantomXWing.html)|["trp_title_PhantomXWing" level 10](PhantomXWing.html)|
 
 
   * Sum phtm X wing summon die with summoner: Yes

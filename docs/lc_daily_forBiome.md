@@ -91,9 +91,9 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_forBiome_Jetpack_daily" (x1 draw)
 
-### Rebellion for HQ level 5
+### Empire for HQ level 5
 
-  * (1/1) 1 data fragments of unlockable troop [trp_title_shrd_specialAttackAWing (no text translation)](shrd_specialAttackAWing)
+  * (1/1) 1 data fragments of unlockable troop ["trp_title_shrd_specialAttackTieAdvanced"](shrd_specialAttackTieAdvanced)
 
 ### Rebellion for HQ levels 6-10
 
@@ -103,9 +103,9 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
   * (1/1) 1 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
 
-### Empire for HQ level 5
+### Rebellion for HQ level 5
 
-  * (1/1) 1 data fragments of unlockable troop [trp_title_shrd_specialAttackTieAdvanced (no text translation)](shrd_specialAttackTieAdvanced)
+  * (1/1) 1 data fragments of unlockable troop ["trp_title_shrd_specialAttackAWing"](shrd_specialAttackAWing)
 
 ### Fallback for HQ level 10
 

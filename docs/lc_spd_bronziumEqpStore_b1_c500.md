@@ -57,6 +57,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/74) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (3/74) 4 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
 
+### For HQ level 5
+
+  * No items, see the fallback option below
+
 ### Empire for HQ levels 6-10
 
   * (1/74) 6 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
@@ -86,10 +90,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (2/74) 4 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
   * (2/74) 4 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
   * (2/74) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (2/74) 4 data fragments of unlockable troop ["trp_title_shrd_specialAttackTieAdvanced"](shrd_specialAttackTieAdvanced)
   * (2/74) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (2/74) 4 data fragments of unlockable troop [MTV-7](MTV7)
   * (2/74) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/74) 4 data fragments of unlockable troop [trp_title_shrd_specialAttackTieAdvanced (no text translation)](shrd_specialAttackTieAdvanced)
   * (3/74) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (3/74) 4 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
   * (3/74) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -100,10 +104,6 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/74) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
   * (3/74) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
   * (3/74) 4 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
-
-### For HQ level 5
-
-  * No items, see the fallback option below
 
 ### Fallback for HQ level 10
 

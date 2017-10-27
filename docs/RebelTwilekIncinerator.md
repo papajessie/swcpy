@@ -57,21 +57,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Defend splash"
-
-  * Defend splash apply value as: relativePercent
-  * Defend splash buff ID: buffDefendSplash
-  * Defend splash duration: permanent
-  * Defend splash lvl: 1
-  * Defend splash modifier: splashDefense
-  * Defend splash ms first proc: 0s
-  * Defend splash ms per proc: permanent
-  * Defend splash name: Defend splash
-  * Defend splash stack: 1
-  * Defend splash target: self
-  * Defend splash value: -30
-
-
 #### Modifier "Reduce heals"
 
   * Reduce heals apply value as: absolutePercent
@@ -85,6 +70,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Reduce heals stack: 0
   * Reduce heals target: self
   * Reduce heals value: 25
+
+
+#### Modifier "Defend splash"
+
+  * Defend splash apply value as: relativePercent
+  * Defend splash buff ID: buffDefendSplash
+  * Defend splash duration: permanent
+  * Defend splash lvl: 1
+  * Defend splash modifier: splashDefense
+  * Defend splash ms first proc: 0s
+  * Defend splash ms per proc: permanent
+  * Defend splash name: Defend splash
+  * Defend splash stack: 1
+  * Defend splash target: self
+  * Defend splash value: -30
 
 
 ## Main attack : Flamethrower
@@ -245,4 +245,4 @@ Seriously, we don't really know what to do with these.
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 
-I could not show the following roles, because I was not programmed to : buffFireBurnmult, buffFireBurnbasic, buffFireBurstbasic, buffFireBurstmult
+I could not show the following roles, because I was not programmed to : buffFireBurnmult, buffFireBurnbasic, buffFireBurstmult, buffFireBurstbasic

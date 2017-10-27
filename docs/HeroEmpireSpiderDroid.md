@@ -143,13 +143,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum empire spiderling droid ms per proc: 20ms
   * Sum empire spiderling droid name: Sum empire spiderling droid
   * Sum empire spiderling droid stack: 1
-  * Sum empire spiderling droid summon visitors: 
   * Sum empire spiderling droid target: self
   * Sum empire spiderling droid value: 1
 
-|Level                          |1|2|3|4|5|6|7|8|9|10|
-|-------------------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum empire spiderling droid lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                                      |1                                                                      |2                                                                      |3                                                                      |4                                                                      |5                                                                      |6                                                                      |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
+|-------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
+|Sum empire spiderling droid lvl            |1                                                                      |2                                                                      |3                                                                      |4                                                                      |5                                                                      |6                                                                      |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
+|Sum empire spiderling droid summon visitors|["trp_title_EmpireSpiderlingDroid" level 1](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 2](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 3](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 4](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 5](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 6](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 7](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 8](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 9](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 10](EmpireSpiderlingDroid.html)|
 
 
   * Sum empire spiderling droid summon die with summoner: No
@@ -224,8 +224,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack animation delay: 0
   * Secondary attack arcs: No
   * Secondary attack max scale: 100
-  * Secondary attack name: EmptyProjectile
   * Secondary attack name: Empire Spider Droid Summon
+  * Secondary attack name: EmptyProjectile
   * Secondary attack spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES

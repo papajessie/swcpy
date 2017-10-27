@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomYWing (no text translation) (PhantomYWing)
+title: "trp_title_PhantomYWing" (PhantomYWing)
 category: unit
 ---
 
-# trp_title_PhantomYWing (no text translation) (PhantomYWing) — version 1093
+# "trp_title_PhantomYWing" (PhantomYWing) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum Y wing ms per proc: permanent
   * Sum Y wing name: Sum Y wing
   * Sum Y wing stack: 1
-  * Sum Y wing summon visitors: 
   * Sum Y wing target: enemies
   * Sum Y wing value: 1
 
-|Level         |1|2|3|4|5|6|7|8|9|10|
-|--------------|-|-|-|-|-|-|-|-|-|--|
-|Sum Y wing lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                     |1                                                                                    |2                                                                                    |3                                                                                    |4                                                                                    |5                                                                                    |6                                                                                    |7                                                                                    |8                                                                                    |9                                                                                    |10                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+|Sum Y wing lvl            |1                                                                                    |2                                                                                    |3                                                                                    |4                                                                                    |5                                                                                    |6                                                                                    |7                                                                                    |8                                                                                    |9                                                                                    |10                                                                                      |
+|Sum Y wing summon visitors|["trp_title_specialAttackYWing6" level specialAttackYWing6](specialAttackYWing6.html)|["trp_title_specialAttackYWing6" level specialAttackYWing6](specialAttackYWing6.html)|["trp_title_specialAttackYWing6" level specialAttackYWing6](specialAttackYWing6.html)|["trp_title_specialAttackYWing7" level specialAttackYWing7](specialAttackYWing7.html)|["trp_title_specialAttackYWing7" level specialAttackYWing7](specialAttackYWing7.html)|["trp_title_specialAttackYWing8" level specialAttackYWing8](specialAttackYWing8.html)|["trp_title_specialAttackYWing8" level specialAttackYWing8](specialAttackYWing8.html)|["trp_title_specialAttackYWing9" level specialAttackYWing9](specialAttackYWing9.html)|["trp_title_specialAttackYWing9" level specialAttackYWing9](specialAttackYWing9.html)|["trp_title_specialAttackYWing10" level specialAttackYWing10](specialAttackYWing10.html)|
 
 
   * Sum Y wing summon die with summoner: No

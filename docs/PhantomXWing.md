@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomXWing (no text translation) (PhantomXWing)
+title: "trp_title_PhantomXWing" (PhantomXWing)
 category: unit
 ---
 
-# trp_title_PhantomXWing (no text translation) (PhantomXWing) — version 1093
+# "trp_title_PhantomXWing" (PhantomXWing) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum X wing ms per proc: permanent
   * Sum X wing name: Sum X wing
   * Sum X wing stack: 1
-  * Sum X wing summon visitors: 
   * Sum X wing target: enemies
   * Sum X wing value: 1
 
-|Level         |1|2|3|4|5|6|7|8|9|10|
-|--------------|-|-|-|-|-|-|-|-|-|--|
-|Sum X wing lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                     |1                                                                                    |2                                                                                    |3                                                                                    |4                                                                                    |5                                                                                    |6                                                                                    |7                                                                                    |8                                                                                    |9                                                                                    |10                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+|Sum X wing lvl            |1                                                                                    |2                                                                                    |3                                                                                    |4                                                                                    |5                                                                                    |6                                                                                    |7                                                                                    |8                                                                                    |9                                                                                    |10                                                                                      |
+|Sum X wing summon visitors|["trp_title_specialAttackXWing6" level specialAttackXWing6](specialAttackXWing6.html)|["trp_title_specialAttackXWing6" level specialAttackXWing6](specialAttackXWing6.html)|["trp_title_specialAttackXWing6" level specialAttackXWing6](specialAttackXWing6.html)|["trp_title_specialAttackXWing7" level specialAttackXWing7](specialAttackXWing7.html)|["trp_title_specialAttackXWing7" level specialAttackXWing7](specialAttackXWing7.html)|["trp_title_specialAttackXWing8" level specialAttackXWing8](specialAttackXWing8.html)|["trp_title_specialAttackXWing8" level specialAttackXWing8](specialAttackXWing8.html)|["trp_title_specialAttackXWing9" level specialAttackXWing9](specialAttackXWing9.html)|["trp_title_specialAttackXWing9" level specialAttackXWing9](specialAttackXWing9.html)|["trp_title_specialAttackXWing10" level specialAttackXWing10](specialAttackXWing10.html)|
 
 
   * Sum X wing summon die with summoner: No

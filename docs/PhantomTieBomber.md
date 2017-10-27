@@ -1,9 +1,9 @@
 ---
-title: trp_title_PhantomTieBomber (no text translation) (PhantomTieBomber)
+title: "trp_title_PhantomTieBomber" (PhantomTieBomber)
 category: unit
 ---
 
-# trp_title_PhantomTieBomber (no text translation) (PhantomTieBomber) — version 1093
+# "trp_title_PhantomTieBomber" (PhantomTieBomber) — version 1093
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -113,13 +113,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber ms per proc: permanent
   * Sum tie bomber name: Sum tie bomber
   * Sum tie bomber stack: 1
-  * Sum tie bomber summon visitors: 
   * Sum tie bomber target: enemies
   * Sum tie bomber value: 1
 
-|Level             |1|2|3|4|5|6|7|8|9|10|
-|------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum tie bomber lvl|1|2|3|4|5|6|7|8|9|10|
+|Level                         |1                                                                                                |2                                                                                                |3                                                                                                |4                                                                                                |5                                                                                                |6                                                                                                |7                                                                                                |8                                                                                                |9                                                                                                |10                                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+|Sum tie bomber lvl            |1                                                                                                |2                                                                                                |3                                                                                                |4                                                                                                |5                                                                                                |6                                                                                                |7                                                                                                |8                                                                                                |9                                                                                                |10                                                                                                  |
+|Sum tie bomber summon visitors|["trp_title_specialAttackTieBomber6" level specialAttackTieBomber6](specialAttackTieBomber6.html)|["trp_title_specialAttackTieBomber6" level specialAttackTieBomber6](specialAttackTieBomber6.html)|["trp_title_specialAttackTieBomber6" level specialAttackTieBomber6](specialAttackTieBomber6.html)|["trp_title_specialAttackTieBomber7" level specialAttackTieBomber7](specialAttackTieBomber7.html)|["trp_title_specialAttackTieBomber7" level specialAttackTieBomber7](specialAttackTieBomber7.html)|["trp_title_specialAttackTieBomber8" level specialAttackTieBomber8](specialAttackTieBomber8.html)|["trp_title_specialAttackTieBomber8" level specialAttackTieBomber8](specialAttackTieBomber8.html)|["trp_title_specialAttackTieBomber9" level specialAttackTieBomber9](specialAttackTieBomber9.html)|["trp_title_specialAttackTieBomber9" level specialAttackTieBomber9](specialAttackTieBomber9.html)|["trp_title_specialAttackTieBomber10" level specialAttackTieBomber10](specialAttackTieBomber10.html)|
 
 
   * Sum tie bomber summon die with summoner: No

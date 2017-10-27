@@ -47,23 +47,36 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Sniper damage"
+#### Modifier "Sum phtm tie bomber"
 
-  * Sniper damage apply value as: relativePercent
-  * Sniper damage buff ID: buffSniperDamage
-  * Sniper damage duration: permanent
-  * Sniper damage modifier: damage
-  * Sniper damage ms first proc: 0s
-  * Sniper damage ms per proc: permanent
-  * Sniper damage name: Sniper damage
-  * Sniper damage stack: 0
-  * Sniper damage target: self
+  * Sum phtm tie bomber apply value as: absolute
+  * Sum phtm tie bomber buff ID: buffSumPhtmTieBomber
+  * Sum phtm tie bomber duration: permanent
+  * Sum phtm tie bomber modifier: summon
+  * Sum phtm tie bomber ms first proc: 0s
+  * Sum phtm tie bomber ms per proc: permanent
+  * Sum phtm tie bomber name: Sum phtm tie bomber
+  * Sum phtm tie bomber stack: 1
+  * Sum phtm tie bomber target: self
+  * Sum phtm tie bomber value: 1
 
-|Level              |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|-------------------|--|--|--|--|--|--|--|--|--|---|
-|Sniper damage lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|Sniper damage value|49|53|58|64|69|75|81|87|93|100|
+|Level                              |1                                                            |2                                                            |3                                                            |4                                                            |5                                                            |6                                                            |7                                                            |8                                                            |9                                                            |10                                                            |
+|-----------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|
+|Sum phtm tie bomber lvl            |1                                                            |2                                                            |3                                                            |4                                                            |5                                                            |6                                                            |7                                                            |8                                                            |9                                                            |10                                                            |
+|Sum phtm tie bomber summon visitors|["trp_title_PhantomTieBomber" level 1](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 2](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 3](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 4](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 5](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 6](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 7](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 8](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 9](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 10](PhantomTieBomber.html)|
 
+
+  * Sum phtm tie bomber summon die with summoner: Yes
+  * Sum phtm tie bomber summon max proc: 1
+  * Sum phtm tie bomber summon random spawn radius: 5
+  * Sum phtm tie bomber summon same team: Yes
+  * Sum phtm tie bomber summon spawn points: 0,0,0
+  * Sum phtm tie bomber summon target summoner: No
+  * Sum phtm tie bomber summon visitor type: Troop
+
+|Level                                  |1                        |2                        |3                        |4                        |5                        |6                        |7                        |8                        |9                        |10                        |
+|---------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|--------------------------|
+|Sum phtm tie bomber summon visitor uids|troopEmpPhantomTieBomber1|troopEmpPhantomTieBomber2|troopEmpPhantomTieBomber3|troopEmpPhantomTieBomber4|troopEmpPhantomTieBomber5|troopEmpPhantomTieBomber6|troopEmpPhantomTieBomber7|troopEmpPhantomTieBomber8|troopEmpPhantomTieBomber9|troopEmpPhantomTieBomber10|
 
 
 #### Modifier "Sniper health"
@@ -85,36 +98,23 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
 
-#### Modifier "Sum phtm tie bomber"
+#### Modifier "Sniper damage"
 
-  * Sum phtm tie bomber apply value as: absolute
-  * Sum phtm tie bomber buff ID: buffSumPhtmTieBomber
-  * Sum phtm tie bomber duration: permanent
-  * Sum phtm tie bomber modifier: summon
-  * Sum phtm tie bomber ms first proc: 0s
-  * Sum phtm tie bomber ms per proc: permanent
-  * Sum phtm tie bomber name: Sum phtm tie bomber
-  * Sum phtm tie bomber stack: 1
-  * Sum phtm tie bomber summon visitors: 
-  * Sum phtm tie bomber target: self
-  * Sum phtm tie bomber value: 1
+  * Sniper damage apply value as: relativePercent
+  * Sniper damage buff ID: buffSniperDamage
+  * Sniper damage duration: permanent
+  * Sniper damage modifier: damage
+  * Sniper damage ms first proc: 0s
+  * Sniper damage ms per proc: permanent
+  * Sniper damage name: Sniper damage
+  * Sniper damage stack: 0
+  * Sniper damage target: self
 
-|Level                  |1|2|3|4|5|6|7|8|9|10|
-|-----------------------|-|-|-|-|-|-|-|-|-|--|
-|Sum phtm tie bomber lvl|1|2|3|4|5|6|7|8|9|10|
+|Level              |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|-------------------|--|--|--|--|--|--|--|--|--|---|
+|Sniper damage lvl  |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
+|Sniper damage value|49|53|58|64|69|75|81|87|93|100|
 
-
-  * Sum phtm tie bomber summon die with summoner: Yes
-  * Sum phtm tie bomber summon max proc: 1
-  * Sum phtm tie bomber summon random spawn radius: 5
-  * Sum phtm tie bomber summon same team: Yes
-  * Sum phtm tie bomber summon spawn points: 0,0,0
-  * Sum phtm tie bomber summon target summoner: No
-  * Sum phtm tie bomber summon visitor type: Troop
-
-|Level                                  |1                        |2                        |3                        |4                        |5                        |6                        |7                        |8                        |9                        |10                        |
-|---------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|--------------------------|
-|Sum phtm tie bomber summon visitor uids|troopEmpPhantomTieBomber1|troopEmpPhantomTieBomber2|troopEmpPhantomTieBomber3|troopEmpPhantomTieBomber4|troopEmpPhantomTieBomber5|troopEmpPhantomTieBomber6|troopEmpPhantomTieBomber7|troopEmpPhantomTieBomber8|troopEmpPhantomTieBomber9|troopEmpPhantomTieBomber10|
 
 
 ## Main attack : projectileSniper
