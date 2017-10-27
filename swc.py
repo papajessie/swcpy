@@ -452,7 +452,7 @@ def initstat():
         'buff:applyValueAs': 'buffbasic',
         'buff:buffID': 'buffbasic',
         'buff:duration': 'buffbasic',
-        'buff:lvl': 'buffbasic',
+        'buff:lvl': 'buffnodisplay',
         'buff:modifier': 'buffbasic',
         'buff:msFirstProc': 'buffbasic',
         'buff:msPerProc': 'buffbasic',
@@ -1961,7 +1961,7 @@ def display_unitarray(item,bid,link=True):
     prefix='trp_title_'
     stat='unitID'
     table='TroopData'
-    if item[bid+':summon visitorType']=='specialAttack':
+    if item[bid+':summon visitorType']=='SpecialAttack':
         prefix='shp_title_'
         stat='specialAttackID'
         table='SpecialAttackData'
