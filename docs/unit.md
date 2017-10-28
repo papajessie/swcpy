@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1093
+# Units — version 1094
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -104,6 +104,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Mercenary (Smuggler)](Smuggler.html)
   * [Mercenary Bruiser (SmugglerBruiser)](SmugglerBruiser.html)
   * [Smuggler Droideka (SmugglerDroideka)](SmugglerDroideka.html)
+  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Smuggler Looter (SmugglerLooter)](SmugglerLooter.html)
   * [Mercenary Pistoleer (SmugglerPistoleer)](SmugglerPistoleer.html)
   * [Smuggler Renegade (SmugglerRenegade)](SmugglerRenegade.html)
@@ -207,7 +208,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Dewback (NativeDewback)](NativeDewback.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)
-  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Heavy Undead Trooper (SmugglerHeavyStormDeath)](SmugglerHeavyStormDeath.html)
   * [Mercenary Saboteur (SmugglerJawa)](SmugglerJawa.html)
   * ["trp_title_SmugglerJawaTalking" (SmugglerJawaTalking)](SmugglerJawaTalking.html)

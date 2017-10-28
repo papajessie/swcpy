@@ -3,7 +3,7 @@ title: Scout Undead Trooper (EmpireScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (EmpireScoutDeath) — version 1093
+# Scout Undead Trooper (EmpireScoutDeath) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

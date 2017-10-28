@@ -3,7 +3,7 @@ title: SD-K4 (HeroEmpireSpiderDroid)
 category: unit
 ---
 
-# SD-K4 (HeroEmpireSpiderDroid) — version 1093
+# SD-K4 (HeroEmpireSpiderDroid) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -223,8 +223,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack animation delay: 0
   * Secondary attack arcs: No
   * Secondary attack max scale: 100
-  * Secondary attack name: Empire Spider Droid Summon
   * Secondary attack name: EmptyProjectile
+  * Secondary attack name: Empire Spider Droid Summon
   * Secondary attack spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES

@@ -3,7 +3,7 @@ title: WED Treadwell Repair Droid (Treadwell)
 category: unit
 ---
 
-# WED Treadwell Repair Droid (Treadwell) — version 1093
+# WED Treadwell Repair Droid (Treadwell) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

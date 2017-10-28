@@ -3,7 +3,7 @@ title: Modified SD-K4 (HeroRebelSpiderDroid)
 category: unit
 ---
 
-# Modified SD-K4 (HeroRebelSpiderDroid) — version 1093
+# Modified SD-K4 (HeroRebelSpiderDroid) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -223,8 +223,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack animation delay: 0
   * Secondary attack arcs: No
   * Secondary attack max scale: 100
-  * Secondary attack name: Rebel Spider Droid Summon
   * Secondary attack name: EmptyProjectile
+  * Secondary attack name: Rebel Spider Droid Summon
   * Secondary attack spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES

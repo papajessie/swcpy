@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1093
+# Conflicts — version 1094
 
   * [Conflict on Dandoran (conflict_dan_20171105)](conflict_dan_20171105.html)
   * [Conflict on Er'Kit (conflict_erk_20171104)](conflict_erk_20171104.html)

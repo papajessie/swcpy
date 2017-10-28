@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1093
+# Crates — version 1094
 
   * [Amazon Exclusive Deal! (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)

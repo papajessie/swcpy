@@ -3,7 +3,7 @@ title: Dewback (NativeDewback)
 category: unit
 ---
 
-# Dewback (NativeDewback) — version 1093
+# Dewback (NativeDewback) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Sullustan Recon Sharpshooter (SullustanSample)
 category: unit
 ---
 
-# Sullustan Recon Sharpshooter (SullustanSample) — version 1093
+# Sullustan Recon Sharpshooter (SullustanSample) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -47,21 +47,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Marksman health"
+#### Modifier "Marksman damage"
 
-  * Marksman health apply value as: relativePercentOfMax
-  * Marksman health buff ID: buffMarksmanHealth
-  * Marksman health duration: permanent
-  * Marksman health modifier: maxHealth
-  * Marksman health ms first proc: 0s
-  * Marksman health ms per proc: permanent
-  * Marksman health name: Marksman health
-  * Marksman health stack: 0
-  * Marksman health target: self
+  * Marksman damage apply value as: relativePercent
+  * Marksman damage buff ID: buffMarksmanDamage
+  * Marksman damage duration: permanent
+  * Marksman damage modifier: damage
+  * Marksman damage ms first proc: 0s
+  * Marksman damage ms per proc: permanent
+  * Marksman damage name: Marksman damage
+  * Marksman damage stack: 0
+  * Marksman damage target: self
 
 |Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
 |---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman health value|49|53|58|64|69|75|81|87|93|100|
+|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
 
 
 
@@ -96,21 +96,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
 
 
-#### Modifier "Marksman damage"
+#### Modifier "Marksman health"
 
-  * Marksman damage apply value as: relativePercent
-  * Marksman damage buff ID: buffMarksmanDamage
-  * Marksman damage duration: permanent
-  * Marksman damage modifier: damage
-  * Marksman damage ms first proc: 0s
-  * Marksman damage ms per proc: permanent
-  * Marksman damage name: Marksman damage
-  * Marksman damage stack: 0
-  * Marksman damage target: self
+  * Marksman health apply value as: relativePercentOfMax
+  * Marksman health buff ID: buffMarksmanHealth
+  * Marksman health duration: permanent
+  * Marksman health modifier: maxHealth
+  * Marksman health ms first proc: 0s
+  * Marksman health ms per proc: permanent
+  * Marksman health name: Marksman health
+  * Marksman health stack: 0
+  * Marksman health target: self
 
 |Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
 |---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
+|Marksman health value|49|53|58|64|69|75|81|87|93|100|
 
 
 

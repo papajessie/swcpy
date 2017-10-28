@@ -3,7 +3,7 @@ title: "trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid)
 category: unit
 ---
 
-# "trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid) — version 1093
+# "trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -51,20 +51,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Spiderling auto death"
-
-  * Spiderling auto death apply value as: relativePercent
-  * Spiderling auto death buff ID: buffSpiderlingAutoDeath
-  * Spiderling auto death duration: permanent
-  * Spiderling auto death modifier: health
-  * Spiderling auto death ms first proc: 10.250s
-  * Spiderling auto death ms per proc: permanent
-  * Spiderling auto death name: Spiderling auto death
-  * Spiderling auto death stack: 1
-  * Spiderling auto death target: self
-  * Spiderling auto death value: -100
-
-
 #### Modifier "Spiderling invulnerable"
 
   * Spiderling invulnerable apply value as: absolutePercent
@@ -77,6 +63,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Spiderling invulnerable stack: 1
   * Spiderling invulnerable target: self
   * Spiderling invulnerable value: 0
+
+
+#### Modifier "Spiderling auto death"
+
+  * Spiderling auto death apply value as: relativePercent
+  * Spiderling auto death buff ID: buffSpiderlingAutoDeath
+  * Spiderling auto death duration: permanent
+  * Spiderling auto death modifier: health
+  * Spiderling auto death ms first proc: 10.250s
+  * Spiderling auto death ms per proc: permanent
+  * Spiderling auto death name: Spiderling auto death
+  * Spiderling auto death stack: 1
+  * Spiderling auto death target: self
+  * Spiderling auto death value: -100
 
 
 ## Main attack : EmpireSpiderlingDroid

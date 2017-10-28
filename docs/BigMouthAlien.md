@@ -3,7 +3,7 @@ title: Drabatan Saboteur (BigMouthAlien)
 category: unit
 ---
 
-# Drabatan Saboteur (BigMouthAlien) — version 1093
+# Drabatan Saboteur (BigMouthAlien) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -226,8 +226,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack favorite target type: generic
   * Secondary attack hit spark: fx_grenade_sonic_hit_01
   * Secondary attack max scale: 300
-  * Secondary attack name: BigMouthAlienSpecial
   * Secondary attack name: EMP Grenade
+  * Secondary attack name: BigMouthAlienSpecial
   * Secondary attack persistent scaling: 0
   * Secondary attack spin speed: 0
   * Spin speed: 0

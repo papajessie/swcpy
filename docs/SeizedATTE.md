@@ -3,7 +3,7 @@ title: Seized AT-TE Walker (SeizedATTE)
 category: unit
 ---
 
-# Seized AT-TE Walker (SeizedATTE) — version 1093
+# Seized AT-TE Walker (SeizedATTE) — version 1094
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
