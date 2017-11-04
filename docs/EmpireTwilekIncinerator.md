@@ -3,7 +3,7 @@ title: Twi'lek Incinerator (EmpireTwilekIncinerator)
 category: unit
 ---
 
-# Twi'lek Incinerator (EmpireTwilekIncinerator) — version 1094
+# Twi'lek Incinerator (EmpireTwilekIncinerator) — version 1096
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -57,20 +57,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Reduce heals"
-
-  * Reduce heals apply value as: absolutePercent
-  * Reduce heals buff ID: buffReduceHeals
-  * Reduce heals duration: permanent
-  * Reduce heals modifier: healDefense
-  * Reduce heals ms first proc: 0s
-  * Reduce heals ms per proc: permanent
-  * Reduce heals name: Reduce heals
-  * Reduce heals stack: 0
-  * Reduce heals target: self
-  * Reduce heals value: 25
-
-
 #### Modifier "Defend splash"
 
   * Defend splash apply value as: relativePercent
@@ -83,6 +69,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Defend splash stack: 1
   * Defend splash target: self
   * Defend splash value: -30
+
+
+#### Modifier "Reduce heals"
+
+  * Reduce heals apply value as: absolutePercent
+  * Reduce heals buff ID: buffReduceHeals
+  * Reduce heals duration: permanent
+  * Reduce heals modifier: healDefense
+  * Reduce heals ms first proc: 0s
+  * Reduce heals ms per proc: permanent
+  * Reduce heals name: Reduce heals
+  * Reduce heals stack: 0
+  * Reduce heals target: self
+  * Reduce heals value: 25
 
 
 ## Main attack : Flamethrower
@@ -243,4 +243,4 @@ Seriously, we don't really know what to do with these.
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 
-I could not show the following roles, because I was not programmed to : buffFireBurstbasic, buffFireBurstmult, buffFireBurnmult, buffFireBurnbasic
+I could not show the following roles, because I was not programmed to : buffFireBurnbasic, buffFireBurnmult, buffFireBurstbasic, buffFireBurstmult

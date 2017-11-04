@@ -3,7 +3,7 @@ title: Ithorian Infiltrator (IthorianInfiltrator)
 category: unit
 ---
 
-# Ithorian Infiltrator (IthorianInfiltrator) — version 1094
+# Ithorian Infiltrator (IthorianInfiltrator) — version 1096
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Veteran AT-ST (HeroATST)
 category: unit
 ---
 
-# Veteran AT-ST (HeroATST) — version 1094
+# Veteran AT-ST (HeroATST) — version 1096
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

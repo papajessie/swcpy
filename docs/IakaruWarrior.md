@@ -3,7 +3,7 @@ title: Iakaru Warrior (IakaruWarrior)
 category: unit
 ---
 
-# Iakaru Warrior (IakaruWarrior) — version 1094
+# Iakaru Warrior (IakaruWarrior) — version 1096
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

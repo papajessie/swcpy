@@ -3,7 +3,7 @@ title: Darth Vader (HeroDarthVader)
 category: unit
 ---
 
-# Darth Vader (HeroDarthVader) — version 1094
+# Darth Vader (HeroDarthVader) — version 1096
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -215,8 +215,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Secondary attack audio ability loop: "sfx_lightsaber_vader_whirlwind":100
   * Secondary attack displayed damage per second: 1000
   * Secondary attack max scale: 200
-  * Secondary attack name: HERO Darth Defend
   * Secondary attack name: Lightsaber Defend Darth
+  * Secondary attack name: HERO Darth Defend
   * Secondary attack persistent effect: fx_aura_emp
   * Secondary attack persistent scaling: 0
   * Secondary attack spin speed: 0
