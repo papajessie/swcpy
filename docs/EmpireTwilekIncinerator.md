@@ -243,4 +243,4 @@ Seriously, we don't really know what to do with these.
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 
-I could not show the following roles, because I was not programmed to : buffFireBurnbasic, buffFireBurnmult, buffFireBurstbasic, buffFireBurstmult
+I could not show the following roles, because I was not programmed to : buffFireBurnbasic, buffFireBurstbasic, buffFireBurstmult, buffFireBurnmult

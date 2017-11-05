@@ -141,21 +141,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Secondary attack damage per shot|4250|4300|4350|4400|4450|4500|4550|4600|4650|4700|
 
 
-  * Secondary attack splash damage percentages: 100,90,75,25
+  * Secondary attack shot splash damage percentages: 100,90,75,25
 
-|Level               |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|--------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack DPS|512.048|518.072|524.096|530.120|536.145|542.169|548.193|554.217|560.241|566.265|
+|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Secondary attack shot DPS|512.048|518.072|524.096|530.120|536.145|542.169|548.193|554.217|560.241|566.265|
 
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 8.300s
-  * Secondary attack directional: No
-  * Secondary attack is deflectable: No
-  * Secondary attack max speed: 6
-  * Secondary attack mults: **(125%)**: Secondary attack light vehicle, **(100%)**: Secondary attack droideka, Secondary attack headquarters, Secondary attack infantry, Secondary attack infantry hero, Secondary attack other building, Secondary attack ressource generator, Secondary attack shield generator, Secondary attack storage, Secondary attack support troop, Secondary attack turret, Secondary attack vehicule hero, Secondary attack wall, **(75%)**: Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack heavy vehicule hero, **(50%)**: Secondary attack shield, **(0%)**: Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack trap
-  * Secondary attack pass through shield: Yes
-  * Secondary attack salvos: 1
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 8.300s
+  * Secondary attack shot directional: No
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot max speed: 6
+  * Secondary attack shot mults: **(125%)**: Secondary attack shot light vehicle, **(100%)**: Secondary attack shot droideka, Secondary attack shot headquarters, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall, **(75%)**: Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, **(50%)**: Secondary attack shot shield, **(0%)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot trap
+  * Secondary attack shot pass through shield: Yes
+  * Secondary attack shot salvos: 1
 
 ## Internal stats
 
@@ -197,18 +197,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Brute Cannon
   * Secondary attack alt gun locators: 1
   * Secondary attack animation delay: 810
-  * Secondary attack arcs: Yes
   * Secondary attack audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":50
   * Secondary attack audio ability attack: "sfx_explosion_brute_01":50,"sfx_explosion_brute_02":50
-  * Secondary attack bullet: fx_brute_ability
   * Secondary attack displayed damage per second: 1000
   * Secondary attack favorite target type: vehicles
-  * Secondary attack hit spark: fx_brute_ability_hit
-  * Secondary attack max scale: 100
   * Secondary attack name: BruteSpecial
-  * Secondary attack name: Brute Bomb
   * Secondary attack persistent scaling: 0
-  * Secondary attack spin speed: 21
+  * Secondary attack shot arcs: Yes
+  * Secondary attack shot bullet: fx_brute_ability
+  * Secondary attack shot hit spark: fx_brute_ability_hit
+  * Secondary attack shot max scale: 100
+  * Secondary attack shot name: Brute Bomb
+  * Secondary attack shot spin speed: 21
   * Spawn effect uid: effectEmpireSpawn
   * Spin speed: 0
   * Targeted type: ENEMIES
@@ -231,8 +231,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 20
-  * Secondary attack seeks target: No
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: No
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: Yes
   * Seeks target: Yes
   * Splash: 0

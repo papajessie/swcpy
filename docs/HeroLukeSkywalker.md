@@ -153,17 +153,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Deflect value: 0
 
 
-  * Secondary attack DPS: 264.317
-  * Secondary attack splash damage percentages: 100,100,100
+  * Secondary attack shot DPS: 264.317
+  * Secondary attack shot splash damage percentages: 100,100,100
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 22.700s
-  * Secondary attack directional: Yes
-  * Secondary attack is deflectable: No
-  * Secondary attack max speed: 18
-  * Secondary attack mults: **(100%)**: Secondary attack droideka, Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack headquarters, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack heavy vehicule hero, Secondary attack infantry, Secondary attack infantry hero, Secondary attack light vehicle, Secondary attack shield, Secondary attack shield generator, Secondary attack support troop, Secondary attack trap, Secondary attack turret, Secondary attack vehicule hero, **(95%)**: Secondary attack ressource generator, Secondary attack storage, **(75%)**: Secondary attack other building, Secondary attack wall, **(60%)**: Secondary attack heavy infantry
-  * Secondary attack pass through shield: No
-  * Secondary attack salvos: 5
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 22.700s
+  * Secondary attack shot directional: Yes
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot max speed: 18
+  * Secondary attack shot mults: **(100%)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, **(95%)**: Secondary attack shot ressource generator, Secondary attack shot storage, **(75%)**: Secondary attack shot other building, Secondary attack shot wall, **(60%)**: Secondary attack shot heavy infantry
+  * Secondary attack shot pass through shield: No
+  * Secondary attack shot salvos: 5
 
 ## Internal stats
 
@@ -209,17 +209,17 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_b_sm
   * Name: HERO Luke Attack
   * Secondary attack animation delay: 0
-  * Secondary attack arcs: No
   * Secondary attack audio ability activate: "sfx_lightsaber_luke_activate_1":100
   * Secondary attack audio ability attack: "sfx_lightsaber_luke_swing_1":30,"sfx_lightsaber_luke_swing_2":35,"sfx_lightsaber_luke_swing_3":35
   * Secondary attack audio ability loop: "sfx_lightsaber_luke_whirlwind":100
   * Secondary attack displayed damage per second: 1000
-  * Secondary attack max scale: 200
   * Secondary attack name: Lightsaber Defend Luke
-  * Secondary attack name: HERO Luke Defend
   * Secondary attack persistent effect: fx_aura_rbl
   * Secondary attack persistent scaling: 0
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: No
+  * Secondary attack shot max scale: 200
+  * Secondary attack shot name: HERO Luke Defend
+  * Secondary attack shot spin speed: 0
   * Secondary attack weapon trail FX params: 0.17,0.10
   * Spawn effect uid: effectRebelSpawn
   * Spin speed: 0
@@ -246,8 +246,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: Yes
   * Secondary attack max speed: 3
-  * Secondary attack seeks target: No
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: No
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: No
   * Seeks target: Yes
   * Splash: 0

@@ -98,6 +98,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
   * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
   * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
+  * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Han Solo (FUETroopHeroHanSolo)](FUETroopHeroHanSolo.html)
   * [AT-ST (FueATST)](FueATST.html)
   * [Han Solo (FueHeroHanSolo)](FueHeroHanSolo.html)
@@ -204,7 +205,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
-  * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)

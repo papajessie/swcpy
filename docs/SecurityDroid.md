@@ -139,17 +139,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 790ms
   * Secondary attack target locking: No
 
-  * Secondary attack DPS: 0
-  * Secondary attack splash damage percentages: 100,100,100
+  * Secondary attack shot DPS: 0
+  * Secondary attack shot splash damage percentages: 100,100,100
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 16s
-  * Secondary attack directional: No
-  * Secondary attack is deflectable: No
-  * Secondary attack max speed: 6
-  * Secondary attack mults: **(100%)**: Secondary attack droideka, Secondary attack headquarters, Secondary attack other building, Secondary attack shield, Secondary attack shield generator, Secondary attack support troop, Secondary attack turret, Secondary attack wall, **(75%)**: Secondary attack infantry, Secondary attack infantry hero, Secondary attack light vehicle, Secondary attack vehicule hero, **(50%)**: Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack heavy vehicule hero, Secondary attack ressource generator, Secondary attack storage, **(0%)**: Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack trap
-  * Secondary attack pass through shield: Yes
-  * Secondary attack salvos: 1
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 16s
+  * Secondary attack shot directional: No
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot max speed: 6
+  * Secondary attack shot mults: **(100%)**: Secondary attack shot droideka, Secondary attack shot headquarters, Secondary attack shot other building, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot support troop, Secondary attack shot turret, Secondary attack shot wall, **(75%)**: Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot vehicule hero, **(50%)**: Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot ressource generator, Secondary attack shot storage, **(0%)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot trap
+  * Secondary attack shot pass through shield: Yes
+  * Secondary attack shot salvos: 1
 
 #### Modifier "Defense reduction"
 
@@ -177,11 +177,11 @@ These stats internal to the system link different parts of data together.
   * Unit ID: SecurityDroid
   * Upgrade shard uid: shrd_troopSecurityDroid
 
-|Level                           |1                     |2                     |3                     |4                     |5                     |
-|--------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-|Ability                         |abilitySecurityDroid1 |abilitySecurityDroid2 |abilitySecurityDroid3 |abilitySecurityDroid4 |abilitySecurityDroid5 |
-|Secondary attack apply buffs    |buffDefenseReduction1 |buffDefenseReduction2 |buffDefenseReduction3 |buffDefenseReduction4 |buffDefenseReduction5 |
-|Secondary attack projectile type|projectileMercGrenade1|projectileMercGrenade2|projectileMercGrenade3|projectileMercGrenade4|projectileMercGrenade5|
+|Level                            |1                     |2                     |3                     |4                     |5                     |
+|---------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+|Ability                          |abilitySecurityDroid1 |abilitySecurityDroid2 |abilitySecurityDroid3 |abilitySecurityDroid4 |abilitySecurityDroid5 |
+|Secondary attack projectile type |projectileMercGrenade1|projectileMercGrenade2|projectileMercGrenade3|projectileMercGrenade4|projectileMercGrenade5|
+|Secondary attack shot apply buffs|buffDefenseReduction1 |buffDefenseReduction2 |buffDefenseReduction3 |buffDefenseReduction4 |buffDefenseReduction5 |
 
 
 ## Presentation stats
@@ -218,18 +218,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Storm
   * Secondary attack alt gun locators: 1
   * Secondary attack animation delay: 810
-  * Secondary attack arcs: Yes
   * Secondary attack audio ability activate: "sfx_attack_securitydroid_ability_01":100
   * Secondary attack audio ability attack: "sfx_explosion_sonicgrenade_01":34,"sfx_explosion_sonicgrenade_02":33,"sfx_explosion_sonicgrenade_03":33
-  * Secondary attack bullet: fx_grenade_emp_projectile
   * Secondary attack displayed damage per second: 75
   * Secondary attack favorite target type: generic
-  * Secondary attack hit spark: fx_grenade_sonic_hit_01
-  * Secondary attack max scale: 300
   * Secondary attack name: SecurityDroidSpecial
-  * Secondary attack name: EMP Grenade
   * Secondary attack persistent scaling: 0
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: Yes
+  * Secondary attack shot bullet: fx_grenade_emp_projectile
+  * Secondary attack shot hit spark: fx_grenade_sonic_hit_01
+  * Secondary attack shot max scale: 300
+  * Secondary attack shot name: EMP Grenade
+  * Secondary attack shot spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES
   * Unlocked by event: true
@@ -249,8 +249,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 20
-  * Secondary attack seeks target: No
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: No
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: Yes
   * Seeks target: Yes
   * Splash: 0

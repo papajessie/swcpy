@@ -51,20 +51,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Spiderling invulnerable"
-
-  * Spiderling invulnerable apply value as: absolutePercent
-  * Spiderling invulnerable buff ID: buffSpiderlingInvulnerable
-  * Spiderling invulnerable duration: 10s
-  * Spiderling invulnerable modifier: defense
-  * Spiderling invulnerable ms first proc: 0s
-  * Spiderling invulnerable ms per proc: permanent
-  * Spiderling invulnerable name: Spiderling invulnerable
-  * Spiderling invulnerable stack: 1
-  * Spiderling invulnerable target: self
-  * Spiderling invulnerable value: 0
-
-
 #### Modifier "Spiderling auto death"
 
   * Spiderling auto death apply value as: relativePercent
@@ -77,6 +63,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Spiderling auto death stack: 1
   * Spiderling auto death target: self
   * Spiderling auto death value: -100
+
+
+#### Modifier "Spiderling invulnerable"
+
+  * Spiderling invulnerable apply value as: absolutePercent
+  * Spiderling invulnerable buff ID: buffSpiderlingInvulnerable
+  * Spiderling invulnerable duration: 10s
+  * Spiderling invulnerable modifier: defense
+  * Spiderling invulnerable ms first proc: 0s
+  * Spiderling invulnerable ms per proc: permanent
+  * Spiderling invulnerable name: Spiderling invulnerable
+  * Spiderling invulnerable stack: 1
+  * Spiderling invulnerable target: self
+  * Spiderling invulnerable value: 0
 
 
 ## Main attack : EmpireSpiderlingDroid

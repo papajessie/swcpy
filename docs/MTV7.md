@@ -135,16 +135,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 790ms
   * Secondary attack target locking: No
 
-  * Secondary attack DPS: 0
+  * Secondary attack shot DPS: 0
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 2m11.300s
-  * Secondary attack directional: Yes
-  * Secondary attack is deflectable: Yes
-  * Secondary attack max speed: 24
-  * Secondary attack mults: **(400%)**: Secondary attack trap, Secondary attack turret, **(100%)**: Secondary attack droideka, **(75%)**: Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack infantry, Secondary attack infantry hero, Secondary attack light vehicle, Secondary attack support troop, Secondary attack vehicule hero, **(50%)**: Secondary attack headquarters, Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack heavy vehicule hero, Secondary attack other building, Secondary attack ressource generator, Secondary attack shield, Secondary attack shield generator, Secondary attack storage, Secondary attack wall
-  * Secondary attack pass through shield: No
-  * Secondary attack salvos: 1
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 2m11.300s
+  * Secondary attack shot directional: Yes
+  * Secondary attack shot is deflectable: Yes
+  * Secondary attack shot max speed: 24
+  * Secondary attack shot mults: **(400%)**: Secondary attack shot trap, Secondary attack shot turret, **(100%)**: Secondary attack shot droideka, **(75%)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot support troop, Secondary attack shot vehicule hero, **(50%)**: Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot wall
+  * Secondary attack shot pass through shield: No
+  * Secondary attack shot salvos: 1
 
 #### Modifier "Turret damage debuff"
 
@@ -166,8 +166,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Ability: abilityMTVIonShot
-  * Secondary attack apply buffs: buffTurretDamageDebuff1
   * Secondary attack projectile type: projectileMTV7Ion
+  * Secondary attack shot apply buffs: buffTurretDamageDebuff1
   * Unit ID: MTV7
   * Upgrade shard uid: shrd_troopMTV7
 
@@ -200,20 +200,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: MTV7
   * Secondary attack alt gun locators: 1
   * Secondary attack animation delay: 810
-  * Secondary attack arcs: No
   * Secondary attack audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":51
   * Secondary attack audio ability attack: "sfx_attack_ion_01":35,"sfx_attack_ion_02":35,"sfx_attack_ion_03":30
-  * Secondary attack bullet: fx_mtv7-atrt_projectile
-  * Secondary attack charge asset name: fx_mtv7-atrt_muzzle
   * Secondary attack displayed damage per second: 75
   * Secondary attack favorite target type: vehicles
-  * Secondary attack hit spark: fx_blaster_hit_b_med
-  * Secondary attack max scale: 100
-  * Secondary attack muzzle flash: fx_blaster_flash_r_sm
   * Secondary attack name: MTVIon_Shot
-  * Secondary attack name: MTV7_Ion
   * Secondary attack persistent scaling: 0
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: No
+  * Secondary attack shot bullet: fx_mtv7-atrt_projectile
+  * Secondary attack shot charge asset name: fx_mtv7-atrt_muzzle
+  * Secondary attack shot hit spark: fx_blaster_hit_b_med
+  * Secondary attack shot max scale: 100
+  * Secondary attack shot muzzle flash: fx_blaster_flash_r_sm
+  * Secondary attack shot name: MTV7_Ion
+  * Secondary attack shot spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES
   * Turret damage debuff asset name: fx_mtv7-atrt_hit
@@ -241,8 +241,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 30
-  * Secondary attack seeks target: Yes
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: Yes
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: Yes
   * Seeks target: Yes
   * Splash: 0

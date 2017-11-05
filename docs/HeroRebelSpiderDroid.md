@@ -163,15 +163,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Sum rebel spiderling droid summon visitor uids|troopRebelSpiderlingDroid1|troopRebelSpiderlingDroid2|troopRebelSpiderlingDroid3|troopRebelSpiderlingDroid4|troopRebelSpiderlingDroid5|troopRebelSpiderlingDroid6|troopRebelSpiderlingDroid7|troopRebelSpiderlingDroid8|troopRebelSpiderlingDroid9|troopRebelSpiderlingDroid10|
 
 
-  * Secondary attack DPS: 0
+  * Secondary attack shot DPS: 0
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 20.001s
-  * Secondary attack directional: No
-  * Secondary attack is deflectable: No
-  * Secondary attack max speed: 18
-  * Secondary attack mults: **(100%)**: Secondary attack droideka, Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack headquarters, Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack heavy vehicule hero, Secondary attack infantry, Secondary attack infantry hero, Secondary attack light vehicle, Secondary attack other building, Secondary attack ressource generator, Secondary attack shield, Secondary attack shield generator, Secondary attack storage, Secondary attack support troop, Secondary attack trap, Secondary attack turret, Secondary attack vehicule hero, Secondary attack wall
-  * Secondary attack salvos: 1
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 20.001s
+  * Secondary attack shot directional: No
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot max speed: 18
+  * Secondary attack shot mults: **(100%)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall
+  * Secondary attack shot salvos: 1
 
 ## Internal stats
 
@@ -221,11 +221,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Max scale: 100
   * Name: EmprieSpiderDroid
   * Secondary attack animation delay: 0
-  * Secondary attack arcs: No
-  * Secondary attack max scale: 100
   * Secondary attack name: Rebel Spider Droid Summon
-  * Secondary attack name: EmptyProjectile
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: No
+  * Secondary attack shot max scale: 100
+  * Secondary attack shot name: EmptyProjectile
+  * Secondary attack shot spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES
   * Unlocked by campaign: No
@@ -253,8 +253,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 3
-  * Secondary attack seeks target: Yes
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: Yes
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: No
   * Seeks target: Yes
   * Splash: 0

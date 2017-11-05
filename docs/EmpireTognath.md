@@ -140,21 +140,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Secondary attack damage per shot|3110|3360|3480|3610|3730|3980|4110|4230|4360|4600|
 
 
-|Level               |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|--------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack DPS|144.651|156.279|161.860|167.907|173.488|185.116|191.163|196.744|202.791|213.953|
+|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Secondary attack shot DPS|144.651|156.279|161.860|167.907|173.488|185.116|191.163|196.744|202.791|213.953|
 
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 21.500s
-  * Secondary attack directional: Yes
-  * Secondary attack is deflectable: No
-  * Secondary attack length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
-  * Secondary attack max speed: 18
-  * Secondary attack mults: **(300%)**: Secondary attack droideka, **(100%)**: Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack infantry hero, **(90%)**: Secondary attack support troop, **(75%)**: Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack heavy vehicule hero, Secondary attack vehicule hero, **(55%)**: Secondary attack infantry, **(50%)**: Secondary attack shield generator, **(40%)**: Secondary attack light vehicle, Secondary attack turret, **(30%)**: Secondary attack other building, Secondary attack ressource generator, Secondary attack storage, **(10%)**: Secondary attack headquarters, Secondary attack wall, **(0%)**: Secondary attack shield, Secondary attack trap
-  * Secondary attack pass through shield: Yes
-  * Secondary attack salvos: 1
-  * Secondary attack width segments: 100,90,80
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 21.500s
+  * Secondary attack shot directional: Yes
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
+  * Secondary attack shot max speed: 18
+  * Secondary attack shot mults: **(300%)**: Secondary attack shot droideka, **(100%)**: Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot infantry hero, **(90%)**: Secondary attack shot support troop, **(75%)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot vehicule hero, **(55%)**: Secondary attack shot infantry, **(50%)**: Secondary attack shot shield generator, **(40%)**: Secondary attack shot light vehicle, Secondary attack shot turret, **(30%)**: Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot storage, **(10%)**: Secondary attack shot headquarters, Secondary attack shot wall, **(0%)**: Secondary attack shot shield, Secondary attack shot trap
+  * Secondary attack shot pass through shield: Yes
+  * Secondary attack shot salvos: 1
+  * Secondary attack shot width segments: 100,90,80
 
 #### Modifier "Tagonath rail"
 
@@ -182,11 +182,11 @@ These stats internal to the system link different parts of data together.
   * Unit ID: EmpireTognath
   * Upgrade shard uid: shrd_troopEmpireTognath
 
-|Level                           |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
-|--------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|Ability                         |abilityTognathShot1   |abilityTognathShot2   |abilityTognathShot3   |abilityTognathShot4   |abilityTognathShot5   |abilityTognathShot6   |abilityTognathShot7   |abilityTognathShot8   |abilityTognathShot9   |abilityTognathShot10   |
-|Secondary attack apply buffs    |buffTagonathRail1     |buffTagonathRail2     |buffTagonathRail3     |buffTagonathRail4     |buffTagonathRail5     |buffTagonathRail6     |buffTagonathRail7     |buffTagonathRail8     |buffTagonathRail9     |buffTagonathRail10     |
-|Secondary attack projectile type|projectileTognathRail1|projectileTognathRail2|projectileTognathRail3|projectileTognathRail4|projectileTognathRail5|projectileTognathRail6|projectileTognathRail7|projectileTognathRail8|projectileTognathRail9|projectileTognathRail10|
+|Level                            |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|---------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|Ability                          |abilityTognathShot1   |abilityTognathShot2   |abilityTognathShot3   |abilityTognathShot4   |abilityTognathShot5   |abilityTognathShot6   |abilityTognathShot7   |abilityTognathShot8   |abilityTognathShot9   |abilityTognathShot10   |
+|Secondary attack projectile type |projectileTognathRail1|projectileTognathRail2|projectileTognathRail3|projectileTognathRail4|projectileTognathRail5|projectileTognathRail6|projectileTognathRail7|projectileTognathRail8|projectileTognathRail9|projectileTognathRail10|
+|Secondary attack shot apply buffs|buffTagonathRail1     |buffTagonathRail2     |buffTagonathRail3     |buffTagonathRail4     |buffTagonathRail5     |buffTagonathRail6     |buffTagonathRail7     |buffTagonathRail8     |buffTagonathRail9     |buffTagonathRail10     |
 
 
 ## Presentation stats
@@ -219,20 +219,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Tognath
   * Secondary attack alt gun locators: 1
   * Secondary attack animation delay: 250
-  * Secondary attack arcs: No
   * Secondary attack audio ability attack: "sfx_attack_tognath_ability_01":33,"sfx_attack_tognath_ability_02":33,"sfx_attack_tognath_ability_03":34
-  * Secondary attack bullet: fx_tognath_projectile
   * Secondary attack displayed damage per second: 1000
   * Secondary attack favorite target type: generic
-  * Secondary attack hit spark: fx_tognath_hit
-  * Secondary attack max scale: 100
-  * Secondary attack muzzle flash: fx_sonicTurret_muzzle
-  * Secondary attack muzzle flash fade time: 1.5
   * Secondary attack name: TognathShot
-  * Secondary attack name: Tognath Sniper Shot
   * Secondary attack persistent scaling: 0
-  * Secondary attack projectile length: 6
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: No
+  * Secondary attack shot bullet: fx_tognath_projectile
+  * Secondary attack shot hit spark: fx_tognath_hit
+  * Secondary attack shot max scale: 100
+  * Secondary attack shot muzzle flash: fx_sonicTurret_muzzle
+  * Secondary attack shot muzzle flash fade time: 1.5
+  * Secondary attack shot name: Tognath Sniper Shot
+  * Secondary attack shot projectile length: 6
+  * Secondary attack shot spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES
   * Unlocked by event: true
@@ -255,8 +255,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 20
-  * Secondary attack seeks target: No
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: No
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: Yes
   * Seeks target: No
   * Splash: 0

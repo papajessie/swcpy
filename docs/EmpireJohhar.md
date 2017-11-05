@@ -141,21 +141,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Secondary attack damage per shot|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
 
-|Level               |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|--------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack DPS|277.207|289.528|301.848|314.168|326.489|350.924|377.207|405.544|435.934|468.583|
+|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Secondary attack shot DPS|277.207|289.528|301.848|314.168|326.489|350.924|377.207|405.544|435.934|468.583|
 
 
-  * Secondary attack cannons per sequence: 1
-  * Secondary attack cliptime: 48.700s
-  * Secondary attack directional: Yes
-  * Secondary attack is deflectable: No
-  * Secondary attack length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
-  * Secondary attack max speed: 58
-  * Secondary attack mults: **(100%)**: Secondary attack droideka, Secondary attack heavy infantry, Secondary attack heavy infantry hero, Secondary attack heavy vehicle, Secondary attack infantry hero, Secondary attack trap, **(90%)**: Secondary attack support troop, **(85%)**: Secondary attack wall, **(75%)**: Secondary attack flying infantry, Secondary attack flying vehicle, Secondary attack heavy vehicule hero, Secondary attack other building, Secondary attack vehicule hero, **(55%)**: Secondary attack infantry, Secondary attack turret, **(50%)**: Secondary attack headquarters, Secondary attack ressource generator, Secondary attack shield generator, Secondary attack storage, **(40%)**: Secondary attack light vehicle, **(25%)**: Secondary attack shield
-  * Secondary attack pass through shield: Yes
-  * Secondary attack salvos: 1
-  * Secondary attack width segments: 100,90,80
+  * Secondary attack shot cannons per sequence: 1
+  * Secondary attack shot cliptime: 48.700s
+  * Secondary attack shot directional: Yes
+  * Secondary attack shot is deflectable: No
+  * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
+  * Secondary attack shot max speed: 58
+  * Secondary attack shot mults: **(100%)**: Secondary attack shot droideka, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot infantry hero, Secondary attack shot trap, **(90%)**: Secondary attack shot support troop, **(85%)**: Secondary attack shot wall, **(75%)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot vehicule hero, **(55%)**: Secondary attack shot infantry, Secondary attack shot turret, **(50%)**: Secondary attack shot headquarters, Secondary attack shot ressource generator, Secondary attack shot shield generator, Secondary attack shot storage, **(40%)**: Secondary attack shot light vehicle, **(25%)**: Secondary attack shot shield
+  * Secondary attack shot pass through shield: Yes
+  * Secondary attack shot salvos: 1
+  * Secondary attack shot width segments: 100,90,80
 
 ## Internal stats
 
@@ -205,20 +205,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: JohharEmpire
   * Secondary attack alt gun locators: 1
   * Secondary attack animation delay: 1
-  * Secondary attack arcs: No
   * Secondary attack audio ability activate: "sfx_charge_railcannon_01":35,"sfx_charge_railcannon_02":35,"sfx_charge_railcannon_03":30
   * Secondary attack audio ability attack: "sfx_attack_railcannon_01":35,"sfx_attack_railcannon_02":35,"sfx_attack_railcannon_03":30
   * Secondary attack displayed damage per second: 1000
   * Secondary attack favorite target type: generic
-  * Secondary attack hit spark: fx_rail_gun_hit
-  * Secondary attack max scale: 100
-  * Secondary attack muzzle flash: fx_rail_gun_muzzle
-  * Secondary attack muzzle flash fade time: 1.5
-  * Secondary attack name: Rail Gun
   * Secondary attack name: Rail Gun
   * Secondary attack persistent scaling: 0
-  * Secondary attack projectile length: 6
-  * Secondary attack spin speed: 0
+  * Secondary attack shot arcs: No
+  * Secondary attack shot hit spark: fx_rail_gun_hit
+  * Secondary attack shot max scale: 100
+  * Secondary attack shot muzzle flash: fx_rail_gun_muzzle
+  * Secondary attack shot muzzle flash fade time: 1.5
+  * Secondary attack shot name: Rail Gun
+  * Secondary attack shot projectile length: 6
+  * Secondary attack shot spin speed: 0
   * Spin speed: 0
   * Targeted type: ENEMIES
   * Unlocked by event: true
@@ -243,8 +243,8 @@ Seriously, we don't really know what to do with these.
   * Secondary attack clip count: 1
   * Secondary attack kill cooldown reset: No
   * Secondary attack max speed: 20
-  * Secondary attack seeks target: No
-  * Secondary attack streams: no
+  * Secondary attack shot seeks target: No
+  * Secondary attack shot streams: no
   * Secondary attack strict cool down: Yes
   * Seeks target: Yes
   * Splash: 0

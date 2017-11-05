@@ -47,37 +47,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
-#### Modifier "Sum phtm Y wing"
-
-  * Sum phtm Y wing apply value as: absolute
-  * Sum phtm Y wing buff ID: buffSumPhtmYWing
-  * Sum phtm Y wing duration: permanent
-  * Sum phtm Y wing modifier: summon
-  * Sum phtm Y wing ms first proc: 0s
-  * Sum phtm Y wing ms per proc: permanent
-  * Sum phtm Y wing name: Sum phtm Y wing
-  * Sum phtm Y wing stack: 1
-  * Sum phtm Y wing target: self
-  * Sum phtm Y wing value: 1
-
-|Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
-|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
-|Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|
-
-
-  * Sum phtm Y wing summon die with summoner: Yes
-  * Sum phtm Y wing summon max proc: 1
-  * Sum phtm Y wing summon random spawn radius: 5
-  * Sum phtm Y wing summon same team: Yes
-  * Sum phtm Y wing summon spawn points: 0,0,0
-  * Sum phtm Y wing summon target summoner: No
-  * Sum phtm Y wing summon visitor type: Troop
-
-|Level                              |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|-----------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
-
-
 #### Modifier "Marksman damage"
 
   * Marksman damage apply value as: relativePercent
@@ -112,6 +81,37 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |---------------------|--|--|--|--|--|--|--|--|--|---|
 |Marksman health value|49|53|58|64|69|75|81|87|93|100|
 
+
+
+#### Modifier "Sum phtm Y wing"
+
+  * Sum phtm Y wing apply value as: absolute
+  * Sum phtm Y wing buff ID: buffSumPhtmYWing
+  * Sum phtm Y wing duration: permanent
+  * Sum phtm Y wing modifier: summon
+  * Sum phtm Y wing ms first proc: 0s
+  * Sum phtm Y wing ms per proc: permanent
+  * Sum phtm Y wing name: Sum phtm Y wing
+  * Sum phtm Y wing stack: 1
+  * Sum phtm Y wing target: self
+  * Sum phtm Y wing value: 1
+
+|Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
+|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
+|Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|
+
+
+  * Sum phtm Y wing summon die with summoner: Yes
+  * Sum phtm Y wing summon max proc: 1
+  * Sum phtm Y wing summon random spawn radius: 5
+  * Sum phtm Y wing summon same team: Yes
+  * Sum phtm Y wing summon spawn points: 0,0,0
+  * Sum phtm Y wing summon target summoner: No
+  * Sum phtm Y wing summon visitor type: Troop
+
+|Level                              |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|-----------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
 
 
 ## Main attack : projectileMarksman
