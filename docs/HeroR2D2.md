@@ -191,4 +191,3 @@ Seriously, we don't really know what to do with these.
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 
-I could not show the following roles, because I was not programmed to : buffHeroRepairmult

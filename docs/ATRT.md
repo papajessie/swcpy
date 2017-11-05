@@ -258,4 +258,3 @@ Seriously, we don't really know what to do with these.
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
 
 
-I could not show the following roles, because I was not programmed to : buffTurretDamageDebuffmult
