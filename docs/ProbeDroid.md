@@ -99,7 +99,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
-  * Damage multipliers: **(400%)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200%)**: Heavy infantry, Heavy infantry hero, **(150%)**: Flying vehicle, Light vehicle, Vehicule hero, **(125%)**: Heavy vehicle, Heavy vehicule hero, **(100%)**: Droideka, **(75%)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall
+  * Damage multipliers: **(400)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200)**: Heavy infantry, Heavy infantry hero, **(150)**: Flying vehicle, Light vehicle, Vehicule hero, **(125)**: Heavy vehicle, Heavy vehicule hero, **(100)**: Droideka, **(75)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall
   * Pass through shield: No
   * Salvos: 4
 

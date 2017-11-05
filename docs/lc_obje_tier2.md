@@ -106,6 +106,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_shrd_t2" (x1 draw)
 
+### For HQ level 5
+
+  * No items, see the fallback option below
+
 ### Rebellion for HQ levels 6-10
 
   * (1/62) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
@@ -124,20 +128,16 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/62) 8 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (1/62) 8 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
   * (1/62) 8 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
-  * (4/62) 14 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (4/62) 14 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (4/62) 14 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
+  * (4/62) 14 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (4/62) 14 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (4/62) 14 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-  * (5/62) 14 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (5/62) 14 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (5/62) 14 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
+  * (5/62) 14 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (5/62) 20 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (6/62) 20 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-
-### For HQ level 5
-
-  * No items, see the fallback option below
 
 ### Empire for HQ levels 6-10
 

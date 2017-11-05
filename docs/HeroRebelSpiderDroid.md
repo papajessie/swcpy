@@ -96,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
-  * Damage multipliers: **(400%)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200%)**: Heavy infantry, Heavy infantry hero, **(150%)**: Flying vehicle, Light vehicle, Vehicule hero, **(125%)**: Heavy vehicle, Heavy vehicule hero, **(100%)**: Droideka, Turret, **(75%)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Wall
+  * Damage multipliers: **(400)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200)**: Heavy infantry, Heavy infantry hero, **(150)**: Flying vehicle, Light vehicle, Vehicule hero, **(125)**: Heavy vehicle, Heavy vehicule hero, **(100)**: Droideka, Turret, **(75)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Wall
   * Pass through shield: No
   * Salvos: 1
 
@@ -170,7 +170,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack shot directional: No
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 18
-  * Secondary attack shot mults: **(100%)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall
+  * Secondary attack shot mults: **(100)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall
   * Secondary attack shot salvos: 1
 
 ## Internal stats

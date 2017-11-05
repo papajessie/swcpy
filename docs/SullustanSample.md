@@ -59,9 +59,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman damage stack: 0
   * Marksman damage target: self
 
-|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman damage value|49|53|58|64|69|75|81|87|93|100|
+|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
+|---------------------|---|---|---|---|---|---|---|---|---|----|
+|Marksman damage value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
 
 
 
@@ -77,9 +77,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman health stack: 0
   * Marksman health target: self
 
-|Level                |1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
-|---------------------|--|--|--|--|--|--|--|--|--|---|
-|Marksman health value|49|53|58|64|69|75|81|87|93|100|
+|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
+|---------------------|---|---|---|---|---|---|---|---|---|----|
+|Marksman health value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
 
 
 
@@ -161,7 +161,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
-  * Damage multipliers: **(300%)**: Flying vehicle, Light vehicle, Vehicule hero, **(250%)**: Heavy vehicle, Heavy vehicule hero, **(200%)**: Flying infantry, Infantry, Infantry hero, Support troop, **(150%)**: Heavy infantry, Heavy infantry hero, **(100%)**: Droideka, Headquarters, Other building, Ressource generator, Storage, Trap, Turret, **(50%)**: Shield, Shield generator, **(40%)**: Wall
+  * Damage multipliers: **(300)**: Flying vehicle, Light vehicle, Vehicule hero, **(250)**: Heavy vehicle, Heavy vehicule hero, **(200)**: Flying infantry, Infantry, Infantry hero, Support troop, **(150)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Storage, Trap, Turret, **(50)**: Shield, Shield generator, **(40)**: Wall
   * Pass through shield: No
   * Salvos: 5
 

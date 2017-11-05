@@ -68,7 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Defend splash name: Defend splash
   * Defend splash stack: 1
   * Defend splash target: self
-  * Defend splash value: -50
+  * Defend splash value: -50%
 
 
 #### Modifier "Reduce heals"
@@ -129,7 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: No
   * Is deflectable: No
   * Max speed: 18
-  * Damage multipliers: **(100%)**: Droideka, Headquarters, Other building, Shield, Shield generator, Support troop, Turret, Wall, **(75%)**: Infantry, Infantry hero, Light vehicle, Vehicule hero, **(50%)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Ressource generator, Storage, **(0%)**: Flying infantry, Flying vehicle, Trap
+  * Damage multipliers: **(100)**: Droideka, Headquarters, Other building, Shield, Shield generator, Support troop, Turret, Wall, **(75)**: Infantry, Infantry hero, Light vehicle, Vehicule hero, **(50)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Ressource generator, Storage, **(0)**: Flying infantry, Flying vehicle, Trap
   * Pass through shield: No
   * Salvos: 1
 
@@ -151,7 +151,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Death attack directional: Yes
   * Death attack is deflectable: No
   * Death attack max speed: 4
-  * Death attack mults: **(300%)**: Death attack wall, **(200%)**: Death attack other building, Death attack turret, **(100%)**: Death attack droideka, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack vehicule hero, **(0%)**: Death attack flying infantry, Death attack flying vehicle
+  * Death attack mults: **(300)**: Death attack wall, **(200)**: Death attack other building, Death attack turret, **(100)**: Death attack droideka, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack vehicule hero, **(0)**: Death attack flying infantry, Death attack flying vehicle
   * Death attack pass through shield: Yes
   * Death attack salvos: 1
 

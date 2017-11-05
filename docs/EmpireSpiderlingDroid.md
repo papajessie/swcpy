@@ -62,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Spiderling auto death name: Spiderling auto death
   * Spiderling auto death stack: 1
   * Spiderling auto death target: self
-  * Spiderling auto death value: -100
+  * Spiderling auto death value: -100%
 
 
 #### Modifier "Spiderling invulnerable"
@@ -123,7 +123,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
-  * Damage multipliers: **(400%)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200%)**: Heavy infantry, Heavy infantry hero, **(150%)**: Flying vehicle, Light vehicle, Vehicule hero, **(125%)**: Heavy vehicle, Heavy vehicule hero, **(100%)**: Droideka, **(75%)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall
+  * Damage multipliers: **(400)**: Flying infantry, Infantry, Infantry hero, Support troop, **(200)**: Heavy infantry, Heavy infantry hero, **(150)**: Flying vehicle, Light vehicle, Vehicule hero, **(125)**: Heavy vehicle, Heavy vehicule hero, **(100)**: Droideka, **(75)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall
   * Pass through shield: No
   * Salvos: 1
 
@@ -144,7 +144,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Death attack directional: No
   * Death attack is deflectable: No
   * Death attack max speed: 18
-  * Death attack mults: **(100%)**: Death attack droideka, Death attack flying infantry, Death attack flying vehicle, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack other building, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack turret, Death attack vehicule hero, Death attack wall
+  * Death attack mults: **(100)**: Death attack droideka, Death attack flying infantry, Death attack flying vehicle, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack other building, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack turret, Death attack vehicule hero, Death attack wall
   * Death attack salvos: 1
 
 ## Internal stats
