@@ -664,7 +664,7 @@ def initstat():
         else:
             die('{} is an unknown type. Stopping'.format(type))
     # Handle automatic translations
-    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack ','ability':'Secondary attack '}
+    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack '}
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
             pr=''
@@ -683,7 +683,7 @@ def initstat():
                 config['stattranslation'][k]=camel_case_to_phrase(k)
 
 
-def initstatbuff(buffprefix,buffstring):
+def initstatbuff(buffprefix,buffstring,percentage):
     global config
     if buffprefix in config['buffs']:
         return
@@ -698,6 +698,16 @@ def initstatbuff(buffprefix,buffstring):
                 if k in config[h]:
                     config[h][nk]=config[h][k]
             config['stattranslation'][nk]=prependlower(buffstring+' ',config['stattranslation'][k])
+            if (config['statrole'][nk]).endswith('mult') or k[5:]=='value':
+                if percentage:
+                    config['stattype'][nk]='percentage'
+                    config['stathandler'][nk]=display_percent
+                else:
+                    config['stattype'][nk]='int'
+                    config['stathandler'][nk]=str
+                    
+                    
+
 
 def _(x):
     global langdata
@@ -809,7 +819,7 @@ def main(argv):
     xhelp['unit']='List the statistics of units'
     morehelp['unit']={'':'unit identifier (default: all)'}
     if ('unit' in modes):
-        # do something that adds tournament objects
+        # do something that adds unit objects
         if len(elements)==0:
             tmpdict={}
             for u in (data['TroopData']).keys():
@@ -821,6 +831,23 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_unit(objects,displayed,i)
+    ## Equipment (units)
+    xhelp['equip']='List the statistics of units'
+    morehelp['equip']={'':'unit identifier (default: all)'}
+    if ('equip' in modes):
+        # do something that adds equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['EquipmentData']).keys():
+                if 'skins' in data['EquipmentData'][u]:
+                    uname=data['EquipmentData'][u]['equipmentID']
+                    if uname not in tmpdict:
+                        tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_equipment_unit(objects,displayed,i)
     # Output phase
     out=[]
     outputs=config['output'].split(",")
@@ -1103,6 +1130,203 @@ def analyse_tournament(objects,displayed,id):
                             del config['planet']
 
 
+
+def dobuff(ob,subunit,bufftype,where):
+    ob['options'][bufftype]=True
+    lbuff=subunit[where].split(',')
+    for buff in lbuff:
+        bid=data['BuffData'][buff]['buffID']
+        bname=bid
+        if bname.startswith('buff'):
+            bname=bname[4:]
+        bname=camel_case_to_phrase(bname)
+        if bid not in ob['buffs']:
+            ob['buffs'][bid]={}
+        ob['buffs'][bid][bufftype]=True
+        percentage=(data['BuffData'][buff]['applyValueAs'] in ['relativePercentOfMax','relativePercent'])
+        initstatbuff(bid,bname,percentage)
+        for kk in data['BuffData'][buff]:
+            subunit[bid+':'+kk]=data['BuffData'][buff][kk]
+        subunit[bid+':name']=bname
+        if 'summon' == subunit[bid+':modifier']:
+            summoned=subunit[bid+':details']
+            for kk in data['SummonDetails'][summoned]:
+                subunit[bid+':summon '+kk]=data['SummonDetails'][summoned][kk]
+            subunit[bid+':summon visitors']=display_unitarray(subunit,bid)
+
+def addprojectile(prefix,ob,subunit,data):
+    damage=int(dget(data,'damage',0))
+    sc=int(dget(data,'shotCount',1))
+    ctime=int(dget(data,'chargeTime',0))
+    cdtime=int(dget(data,'cooldownTime',0))
+    stime=int(dget(data,'shotDelay',0))
+    rtime=int(dget(data,'reload',0))
+    gs=[ int(x) for x in data['gunSequence'].split(',') ]
+    gs=sorted(gs)
+    subunit[prefix+'cannonsPerSequence']=len(gs)
+    salvos=(sc//len(gs))*gs[-1]
+    if sc%(len(gs))>0:
+        salvos+=gs[sc%(len(gs))-1]
+    subunit[prefix+'salvos']=salvos
+    cliptime=ctime+stime*(salvos-1)+cdtime+rtime
+    subunit[prefix+'cliptime']=cliptime
+    if cliptime!=0:
+        subunit[prefix+'DPS']=(1000*sc*damage)/cliptime
+    if prefix+'applyBuffs' in subunit:
+        dobuff(ob,subunit,prefix[:-1],prefix+'applyBuffs')
+
+
+def fill_unit(ob,subunit):
+    global data
+    # subunit is a flattened version of the CSV data
+    if 'projectileType' in subunit:
+        ## Do something with projectiles ; append stats with prefix 'projectile'
+        ob['options']['projectile']=True
+        proj=subunit['projectileType']
+        pproj=data['ProjectileData'][proj]
+        for kk,vv in pproj.items():
+            subunit['projectile:'+kk]=vv
+        addprojectile('projectile:',ob,subunit,subunit)
+    if 'ability' in subunit:
+        ob['options']['ability']=True
+        proj=subunit['ability']
+        pproj=data['HeroAbilities'][proj]
+        for kk,vv in pproj.items():
+            subunit['ability:'+kk]=vv
+        if 'ability:selfBuff' in subunit:
+            dobuff(ob,subunit,'ability','ability:selfBuff')
+    if 'ability:projectileType' in subunit:
+        ## Do something with projectiles ; append stats with prefix 'projectile'
+        ob['options']['abilityprojectile']=True
+        proj=subunit['ability:projectileType']
+        pproj=data['ProjectileData'][proj]
+        for kk,vv in pproj.items():
+            subunit['abilityprojectile:'+kk]=vv
+        fakearray={}
+        for k in ['shotCount','gunSequence']:
+            fakearray[k]=dget(subunit,'ability:'+k,'1')
+        for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
+            fakearray[k]=dget(subunit,'ability:'+k,'0')
+        addprojectile('abilityprojectile:',ob,subunit,fakearray)
+    if 'deathProjectile' in subunit:
+        ob['options']['death']=True
+        proj=subunit['deathProjectile']
+        pproj=data['ProjectileData'][proj]
+        for kk,vv in pproj.items():
+            subunit['deathprojectile:'+kk]=vv
+        fakearray={}
+        for k in ['shotCount','gunSequence']:
+            fakearray[k]='1'
+        fakearray['damage']=dget(subunit,'deathProjectileDamage','0')
+        fakearray['chargeTime']=dget(subunit,'deathProjectileDelay','0')
+        for k in ['cooldownTime','shotDelay','reload']:
+            fakearray[k]='0'
+        addprojectile('deathprojectile:',ob,subunit,fakearray)
+    if 'spawnApplyBuffs' in subunit:
+        dobuff(ob,subunit,'spawn','spawnApplyBuffs')
+
+def fill_unit_level(ob,level,subunit):
+    global config
+    uparray={'upgradematerials':' All.','upgradecredits':'$', 'upgradecontraband':' Con.','upgradeshards':' data fragments'}
+    # ob['hq'] is a clean version of subunit
+    ob['hq'][level]={}
+    a=ob['hq'][level]
+    trains=[]
+    targets={}
+    mults={}
+    upgrades=[]
+    for k,v in subunit.items():
+        type=dget(config['stattype'],k,'string')
+        if type=='string':
+            a[k]=v
+        elif type=='int':
+            a[k]=int(v)
+        elif type=='percentage':
+            a[k]=int(v)
+        elif type=='array':
+            a[k]=v
+        elif type=='':
+            continue
+        elif type=='float':
+            a[k]=float(v)
+        elif type=='boolean':
+            a[k]=v=='true'
+        elif type=='time':
+            a[k]=int(v)
+        elif type=='microtime':
+            a[k]=int(v)
+        elif type=='planet':
+            a[k]=v
+        elif type=='translate':
+            a[k]=v
+        elif type=='side':
+            a[k]=v
+        else:
+            print('{} is an unknown type. Stopping'.format(type))
+            sys.exit(0)
+        role=dget(config['statrole'],k,'missing')
+        if role=='train':
+            if a[k]>0:
+                trains.append('{0}{1}'.format(a[k],uparray['upgrade'+k.lower()]))
+        elif role=='upgrade':
+            if a[k]>0:
+                upgrades.append('{0}{1}'.format(a[k],uparray[k.lower()]))
+        elif role.endswith('prefs'):
+            if role[:-5] not in targets:
+                targets[role[:-5]]={}
+            targets[role[:-5]][k]=int(a[k])
+        elif role.endswith('mult'):
+            if role[:-4] not in mults:
+                mults[role[:-4]]={}
+            mults[role[:-4]][k]=int(a[k])
+        elif role=='missing':
+            die('Stat {} is unknown and has no role'.format(k),item=id)
+        else:
+            True
+    a['sizes']='{0}x{1}'.format(a['sizex'],a['sizey'])
+    if len(upgrades)==0:
+        a['upgrades']='Nothing'
+    else:
+        a['upgrades']=', '.join(upgrades)
+    if len(trains)==0:
+        a['trains']='Free'
+    else:
+        a['trains']=', '.join(trains)
+    def gettargets(targets):
+        tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
+        ttlist=[]
+        tmax=targets[tlist[0]]
+        for t in tlist:
+            if targets[t]==tmax:
+                ttlist.append('**{0} ({1})**'.format(config['stattranslation'][t],targets[t]))
+            else:
+                if targets[t]<=50:
+                    ttlist.append('{0} ({1})'.format(config['stattranslation'][t],targets[t]))
+                else:
+                    ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
+        return(', '.join(ttlist))
+    def getmults(targets):
+        tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
+        ttlist=[]
+        tmax=-1
+        for t in tlist:
+            if targets[t]!=tmax:
+                suffix=''
+                if t in config['stattype'] and config['stattype'][t]=='percentage':
+                    suffix='%'
+                ttlist.append('**({1}{2})**: {0}'.format(config['stattranslation'][t],targets[t],suffix))
+                tmax=targets[t]
+            else:
+                ttlist.append('{0}'.format(config['stattranslation'][t],targets[t]))
+        return(', '.join(ttlist))
+    a['targets']=gettargets(targets['attack'])
+    if 'ability' in targets:
+        a['ability:targets']=gettargets(targets['ability'])
+    for k in mults.keys():
+        a[k+':mults']=getmults(mults[k])
+    for k in a.keys():
+        ob['roles'][config['statrole'][k]]=True
+
 def analyse_unit(objects,displayed,id):
     global data
     global config
@@ -1120,199 +1344,19 @@ def analyse_unit(objects,displayed,id):
     levels=ob['levels']
     used={}
     projectiles={}
-    def dobuff(bufftype,where):
-        ob['options'][bufftype]=True
-        lbuff=subunit[where].split(',')
-        for buff in lbuff:
-            bid=data['BuffData'][buff]['buffID']
-            bname=bid
-            if bname.startswith('buff'):
-                bname=bname[4:]
-            bname=camel_case_to_phrase(bname)
-            ob['buffs'][bid]=bufftype
-            initstatbuff(bid,bname)
-            for kk in data['BuffData'][buff]:
-                subunit[bid+':'+kk]=data['BuffData'][buff][kk]
-            subunit[bid+':name']=bname
-            if 'summon' == subunit[bid+':modifier']:
-                summoned=subunit[bid+':details']
-                for kk in data['SummonDetails'][summoned]:
-                    subunit[bid+':summon '+kk]=data['SummonDetails'][summoned][kk]
-                subunit[bid+':summon visitors']=display_unitarray(subunit,bid)
-    def addprojectile(prefix,ob,subunit,data):
-        damage=int(dget(data,'damage',0))
-        sc=int(dget(data,'shotCount',1))
-        ctime=int(dget(data,'chargeTime',0))
-        cdtime=int(dget(data,'cooldownTime',0))
-        stime=int(dget(data,'shotDelay',0))
-        rtime=int(dget(data,'reload',0))
-        gs=[ int(x) for x in data['gunSequence'].split(',') ]
-        gs=sorted(gs)
-        subunit[prefix+'cannonsPerSequence']=len(gs)
-        salvos=(sc//len(gs))*gs[-1]
-        if sc%(len(gs))>0:
-            salvos+=gs[sc%(len(gs))-1]
-        subunit[prefix+'salvos']=salvos
-        cliptime=ctime+stime*(salvos-1)+cdtime+rtime
-        subunit[prefix+'cliptime']=cliptime
-        if cliptime!=0:
-            subunit[prefix+'DPS']=(1000*sc*damage)/cliptime
-        if prefix+'applyBuffs' in subunit:
-            dobuff(prefix[:-1],prefix+'applyBuffs')
-
-    uparray={'upgradematerials':' All.','upgradecredits':'$', 'upgradecontraband':' Con.','upgradeshards':' data fragments'}
     addtodisplay(displayed,'unit',id)
     for u in (data['TroopData']).keys():
         uname=data['TroopData'][u]['unitID']
         if uname!=id:
             continue
-        subunit={}
         # subunit is a flattened version of the CSV data
+        subunit={}
         for k,v in data['TroopData'][u].items():
             subunit[k]=v
+        fill_unit(ob,subunit)
         level=int(subunit['lvl'])
         levels.append(level)
-        if 'projectileType' in subunit:
-            ## Do something with projectiles ; append stats with prefix 'projectile'
-            ob['options']['projectile']=True
-            proj=subunit['projectileType']
-            pproj=data['ProjectileData'][proj]
-            for kk,vv in pproj.items():
-                subunit['projectile:'+kk]=vv
-            addprojectile('projectile:',ob,subunit,subunit)
-        if 'ability' in subunit:
-            ob['options']['ability']=True
-            proj=subunit['ability']
-            pproj=data['HeroAbilities'][proj]
-            for kk,vv in pproj.items():
-                subunit['ability:'+kk]=vv
-            if 'ability:selfBuff' in subunit:
-                dobuff('ability','ability:selfBuff')
-        if 'ability:projectileType' in subunit:
-            ## Do something with projectiles ; append stats with prefix 'projectile'
-            ob['options']['abilityprojectile']=True
-            proj=subunit['ability:projectileType']
-            pproj=data['ProjectileData'][proj]
-            for kk,vv in pproj.items():
-                subunit['abilityprojectile:'+kk]=vv
-            fakearray={}
-            for k in ['shotCount','gunSequence']:
-                fakearray[k]=dget(subunit,'ability:'+k,'1')
-            for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
-                fakearray[k]=dget(subunit,'ability:'+k,'0')
-            addprojectile('abilityprojectile:',ob,subunit,fakearray)
-        if 'deathProjectile' in subunit:
-            ob['options']['death']=True
-            proj=subunit['deathProjectile']
-            pproj=data['ProjectileData'][proj]
-            for kk,vv in pproj.items():
-                subunit['deathprojectile:'+kk]=vv
-            fakearray={}
-            for k in ['shotCount','gunSequence']:
-                fakearray[k]='1'
-            fakearray['damage']=dget(subunit,'deathProjectileDamage','0')
-            fakearray['chargeTime']=dget(subunit,'deathProjectileDelay','0')
-            for k in ['cooldownTime','shotDelay','reload']:
-                fakearray[k]='0'
-            addprojectile('deathprojectile:',ob,subunit,fakearray)
-
-        if 'spawnApplyBuffs' in subunit:
-            dobuff('spawn','spawnApplyBuffs')
-        # ob['hq'] is a clean version of subunit
-        ob['hq'][level]={}
-        a=ob['hq'][level]
-        trains=[]
-        targets={}
-        mults={}
-        upgrades=[]
-        for k,v in subunit.items():
-            type=dget(config['stattype'],k,'string')
-            if type=='string':
-                a[k]=v
-            elif type=='int':
-                a[k]=int(v)
-            elif type=='percentage':
-                a[k]=int(v)
-            elif type=='array':
-                a[k]=v
-            elif type=='':
-                continue
-            elif type=='float':
-                a[k]=float(v)
-            elif type=='boolean':
-                a[k]=v=='true'
-            elif type=='time':
-                a[k]=int(v)
-            elif type=='microtime':
-                a[k]=int(v)
-            elif type=='planet':
-                a[k]=v
-            elif type=='translate':
-                a[k]=v
-            elif type=='side':
-                a[k]=v
-            else:
-                print('{} is an unknown type. Stopping'.format(type))
-                sys.exit(0)
-            role=dget(config['statrole'],k,'missing')
-            if role=='train':
-                if a[k]>0:
-                    trains.append('{0}{1}'.format(a[k],uparray['upgrade'+k.lower()]))
-            elif role=='upgrade':
-                if a[k]>0:
-                    upgrades.append('{0}{1}'.format(a[k],uparray[k.lower()]))
-            elif role.endswith('prefs'):
-                if role[:-5] not in targets:
-                    targets[role[:-5]]={}
-                targets[role[:-5]][k]=int(a[k])
-            elif role.endswith('mult'):
-                if role[:-4] not in mults:
-                    mults[role[:-4]]={}
-                mults[role[:-4]][k]=int(a[k])
-            elif role=='missing':
-                die('Stat {} is unknown and has no role'.format(k),item=id)
-            else:
-                True
-        a['sizes']='{0}x{1}'.format(a['sizex'],a['sizey'])
-        if len(upgrades)==0:
-            a['upgrades']='Nothing'
-        else:
-            a['upgrades']=', '.join(upgrades)
-        if len(trains)==0:
-            a['trains']='Free'
-        else:
-            a['trains']=', '.join(trains)
-        def gettargets(targets):
-            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
-            ttlist=[]
-            tmax=targets[tlist[0]]
-            for t in tlist:
-                if targets[t]==tmax:
-                    ttlist.append('**{0} ({1})**'.format(config['stattranslation'][t],targets[t]))
-                else:
-                    if targets[t]<=50:
-                        ttlist.append('{0} ({1})'.format(config['stattranslation'][t],targets[t]))
-                    else:
-                        ttlist.append('_{0} ({1})_'.format(config['stattranslation'][t],targets[t]))
-            return(', '.join(ttlist))
-        def getmults(targets):
-            tlist=sorted(targets,key=(lambda x:'{0:04d} {1}'.format(2000-targets.get(x),config['stattranslation'][x])))
-            ttlist=[]
-            tmax=-1
-            for t in tlist:
-                if targets[t]!=tmax:
-                    ttlist.append('**({1}%)**: {0}'.format(config['stattranslation'][t],targets[t]))
-                    tmax=targets[t]
-                else:
-                    ttlist.append('{0}'.format(config['stattranslation'][t],targets[t]))
-            return(', '.join(ttlist))
-        a['targets']=gettargets(targets['attack'])
-        if 'ability' in targets:
-            a['ability:targets']=gettargets(targets['ability'])
-        for k in mults.keys():
-            a[k+':mults']=getmults(mults[k])
-        for k in a.keys():
-            ob['roles'][config['statrole'][k]]=True
+        fill_unit_level(ob,level,subunit)
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -1324,6 +1368,11 @@ def analyse_unit(objects,displayed,id):
         objects[id]=ob
 
 
+def analyse_equipment_unit(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    
 # This set of functions output objects for various modes
 def output_listheader_crate(out,objects,displayed):
     out.append("There are {0} crates in the selection:".format(len(displayed)))
@@ -1556,14 +1605,15 @@ def output_list_unit(out,objects,item,LINKS=False):
     def display_modifiers(item,s):
         xout=''
         notfound=True
-        for k in item['buffs']:
-            if item['buffs'][k]==s:
+        for k in sorted(item['buffs']):
+            if s in item['buffs'][k]:
                 notfound=False
                 xout+='#### Modifier "{}"\n\n'.format(item['hq'][firstlevel][k+':name'])
                 xout+=datadump(sorted([x for x in allkeys if allkeys[x]==k+'basic']))
                 xout+=datadump(sorted([x for x in allkeys if allkeys[x]==k+'details']))
                 remove(tosee,k+'basic')
                 remove(tosee,k+'details')
+                remove(tosee,k+'mult')
         return(xout)
     for l in sorted(levels):
         if 'projectile:name' in item['hq'][l]:
@@ -1625,6 +1675,7 @@ def output_list_unit(out,objects,item,LINKS=False):
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathbasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilebasic']))
         xout+=datadump(sorted([x for x in allkeys if allkeys[x]=='deathprojectilemisc']))
+        xout+=display_modifiers(item,'deathprojectile')
     remove(tosee,'deathbasic')
     remove(tosee,'deathprojectilebasic')
     remove(tosee,'deathprojectilemult')
@@ -1647,7 +1698,8 @@ def output_list_unit(out,objects,item,LINKS=False):
     xout+=datadump(sorted([x for x in allkeys if allkeys[x].endswith('unknown')],key=config['stattranslation'].get))
     tosee=removebysuffix(tosee,'unknown')
     if len(tosee)>0:
-        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(tosee)+'\n'
+        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(tosee))+'\n'
+        xout+='\n'.join(sorted([x for x in allkeys if allkeys[x].endswith(sorted(tosee)[0])]))
     out[len(out)-1]+=xout
     return
 
@@ -1667,7 +1719,7 @@ def output_mdheader_unit(out,objects,displayed):
                     sides[item['hq'][firstlevel]['faction']]=1
             for side in sorted(sides):
                 file.write("### {0}\n\n".format(display_side(side)))
-                for unit in displayed:
+                for unit in sorted(displayed):
                     item=objects[unit]
                     firstlevel=item['firstlevel']
                     if item['hq'][firstlevel]['playerFacing']==pf:
