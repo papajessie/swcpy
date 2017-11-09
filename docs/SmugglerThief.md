@@ -3,7 +3,7 @@ title: Mercenary Thief (SmugglerThief)
 category: unit
 ---
 
-# Mercenary Thief (SmugglerThief) — version 1096
+# Mercenary Thief (SmugglerThief) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

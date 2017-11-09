@@ -3,7 +3,7 @@ title: Wookiee Warrior (Wookie)
 category: unit
 ---
 
-# Wookiee Warrior (Wookie) — version 1096
+# Wookiee Warrior (Wookie) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

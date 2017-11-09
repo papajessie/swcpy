@@ -3,7 +3,7 @@ title: Tusken Warrior (fueTroopTusken)
 category: unit
 ---
 
-# Tusken Warrior (fueTroopTusken) — version 1096
+# Tusken Warrior (fueTroopTusken) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

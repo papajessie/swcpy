@@ -3,7 +3,7 @@ title: AT-DP (ATDP)
 category: unit
 ---
 
-# AT-DP (ATDP) — version 1096
+# AT-DP (ATDP) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

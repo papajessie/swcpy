@@ -3,7 +3,7 @@ title: Speeder Bike (EmpireSpeeder)
 category: unit
 ---
 
-# Speeder Bike (EmpireSpeeder) — version 1096
+# Speeder Bike (EmpireSpeeder) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

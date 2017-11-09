@@ -3,7 +3,7 @@ title: Smuggler Droideka (SmugglerDroideka)
 category: unit
 ---
 
-# Smuggler Droideka (SmugglerDroideka) — version 1096
+# Smuggler Droideka (SmugglerDroideka) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

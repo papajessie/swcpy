@@ -3,7 +3,7 @@ title: Droideka Sentinal (ChampionEmpireDroidekaSample)
 category: unit
 ---
 
-# Droideka Sentinal (ChampionEmpireDroidekaSample) — version 1096
+# Droideka Sentinal (ChampionEmpireDroidekaSample) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

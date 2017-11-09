@@ -3,7 +3,7 @@ title: Scout Undead Trooper (RebelScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (RebelScoutDeath) — version 1096
+# Scout Undead Trooper (RebelScoutDeath) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

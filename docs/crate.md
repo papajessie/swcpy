@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1096
+# Crates — version 1097
 
   * [Amazon Exclusive Deal! (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -46,6 +46,18 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_crystal_tier6)](lc_conf_crystal_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_crystal_tier7)](lc_conf_crystal_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_crystal_tier8)](lc_conf_crystal_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_heavyBarr)](lc_conf_defRef_outbreak_tier5_heavyBarr.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_heavyFac)](lc_conf_defRef_outbreak_tier5_heavyFac.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_medBarr)](lc_conf_defRef_outbreak_tier5_medBarr.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier6_heavyBarr)](lc_conf_defRef_outbreak_tier6_heavyBarr.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier6_heavyFac)](lc_conf_defRef_outbreak_tier6_heavyFac.html)
+  * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier6_medBarr)](lc_conf_defRef_outbreak_tier6_medBarr.html)
+  * [Obsidian Conflict Crate (lc_conf_defRef_outbreak_tier7_heavyBarr)](lc_conf_defRef_outbreak_tier7_heavyBarr.html)
+  * [Obsidian Conflict Crate (lc_conf_defRef_outbreak_tier7_heavyFac)](lc_conf_defRef_outbreak_tier7_heavyFac.html)
+  * [Obsidian Conflict Crate (lc_conf_defRef_outbreak_tier7_medBarr)](lc_conf_defRef_outbreak_tier7_medBarr.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_defRef_outbreak_tier8_heavyBarr)](lc_conf_defRef_outbreak_tier8_heavyBarr.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_defRef_outbreak_tier8_heavyFac)](lc_conf_defRef_outbreak_tier8_heavyFac.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_defRef_outbreak_tier8_medBarr)](lc_conf_defRef_outbreak_tier8_medBarr.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_tier5_lightBarr)](lc_conf_defRef_tier5_lightBarr.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_tier5_lightFac)](lc_conf_defRef_tier5_lightFac.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_tier5_medBarr)](lc_conf_defRef_tier5_medBarr.html)
@@ -153,6 +165,7 @@ title: Index of crates
   * [Daily Anniversary Crate (lc_daily_anniversary)](lc_daily_anniversary.html)
   * [Daily Arctic Ops Crate (lc_daily_arcOps)](lc_daily_arcOps.html)
   * [Daily Tactical Defenses Crate (lc_daily_defRef)](lc_daily_defRef.html)
+  * [Daily Tactical Defenses Crate (lc_daily_defRef_outbreak)](lc_daily_defRef_outbreak.html)
   * [Daily Desert Ops Crate (lc_daily_desBiome)](lc_daily_desBiome.html)
   * [Daily Forest Ops Crate (lc_daily_forBiome)](lc_daily_forBiome.html)
   * [Daily Crate (lc_daily_mraid)](lc_daily_mraid.html)
@@ -166,9 +179,14 @@ title: Index of crates
   * [Death Star Crate: Bonus Reward (lc_deathstar_spdbonus_v1)](lc_deathstar_spdbonus_v1.html)
   * [Death Star Crate: Bonus Reward (lc_deathstar_spdbonus_v2)](lc_deathstar_spdbonus_v2.html)
   * [Premium Tactical Defenses Crate (lc_defRefStore)](lc_defRefStore.html)
+  * [Elite Guard Reserve Crate (lc_defRef_Nov_SPDv1)](lc_defRef_Nov_SPDv1.html)
+  * [Elite Guard Reserve Crate (lc_defRef_Nov_SPDv2)](lc_defRef_Nov_SPDv2.html)
+  * [Tactical Defenses Last Chance Sale! (lc_defRef_Nov_lastChanceV1)](lc_defRef_Nov_lastChanceV1.html)
+  * [Tactical Defenses Last Chance Sale! (lc_defRef_Nov_lastChanceV2)](lc_defRef_Nov_lastChanceV2.html)
   * [Extreme Tactical Defenses Crate (lc_defRef_SPD1)](lc_defRef_SPD1.html)
   * [Extreme Tactical Defenses Crate (lc_defRef_SPD1_v2)](lc_defRef_SPD1_v2.html)
   * [Tactical Defenses Event Sale! (lc_defRef_SPD2)](lc_defRef_SPD2.html)
+  * [Premium Tactical Defenses Crate (lc_defRef_outbreakStore)](lc_defRef_outbreakStore.html)
   * [Premium Desert Ops Crate (lc_desBiomeStore)](lc_desBiomeStore.html)
   * [Ultra Desert Ops Crate (lc_desBiome_Jetpack_SPD_v1)](lc_desBiome_Jetpack_SPD_v1.html)
   * [Ultra Desert Ops Crate (lc_desBiome_Jetpack_SPD_v2)](lc_desBiome_Jetpack_SPD_v2.html)

@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1096
+# Units — version 1097
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -95,6 +95,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
+  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
   * [Er'Kit Militia Conscript (ErkitGeneralist)](ErkitGeneralist.html)
   * [Er'Kit Militia Sniper (ErkitSniper)](ErkitSniper.html)
   * [Han Solo (FUETroopHeroHanSolo)](FUETroopHeroHanSolo.html)
@@ -104,9 +105,11 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Mercenary (Smuggler)](Smuggler.html)
   * [Mercenary Bruiser (SmugglerBruiser)](SmugglerBruiser.html)
   * [Smuggler Droideka (SmugglerDroideka)](SmugglerDroideka.html)
+  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Smuggler Looter (SmugglerLooter)](SmugglerLooter.html)
   * [Mercenary Pistoleer (SmugglerPistoleer)](SmugglerPistoleer.html)
   * [Smuggler Renegade (SmugglerRenegade)](SmugglerRenegade.html)
+  * [Jawa Saboteur (SmugglerSaboteur)](SmugglerSaboteur.html)
   * [Mercenary Renegade (SmugglerSpeeder)](SmugglerSpeeder.html)
   * [Smuggler Bruiser (SmugglerTank)](SmugglerTank.html)
   * [Mercenary Thief (SmugglerThief)](SmugglerThief.html)
@@ -201,17 +204,14 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Independant units
 
-  * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
   * [Salvaged AAT1 (ErkitTank)](ErkitTank.html)
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
   * [Rancor (Rancor)](Rancor.html)
   * [Worker Droid (SmugglerDroid)](SmugglerDroid.html)
-  * [Smuggler Guardian (SmugglerGuardian)](SmugglerGuardian.html)
   * [Heavy Undead Trooper (SmugglerHeavyStormDeath)](SmugglerHeavyStormDeath.html)
   * [Mercenary Saboteur (SmugglerJawa)](SmugglerJawa.html)
   * ["trp_title_SmugglerJawaTalking" (SmugglerJawaTalking)](SmugglerJawaTalking.html)
   * ["trp_title_SmugglerJawaTinker" (SmugglerJawaTinker)](SmugglerJawaTinker.html)
-  * [Jawa Saboteur (SmugglerSaboteur)](SmugglerSaboteur.html)
   * [Scout Undead Trooper (SmugglerScoutDeath)](SmugglerScoutDeath.html)
   * [Undead Trooper (SmugglerStormDeath)](SmugglerStormDeath.html)
 

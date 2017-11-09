@@ -3,7 +3,7 @@ title: Scout Trooper (Scout)
 category: unit
 ---
 
-# Scout Trooper (Scout) — version 1096
+# Scout Trooper (Scout) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

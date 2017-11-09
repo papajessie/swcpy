@@ -3,7 +3,7 @@ title: Seized AAT-1 Hover Tank (SeizedAAT1)
 category: unit
 ---
 
-# Seized AAT-1 Hover Tank (SeizedAAT1) — version 1096
+# Seized AAT-1 Hover Tank (SeizedAAT1) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

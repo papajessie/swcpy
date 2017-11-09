@@ -3,7 +3,7 @@ title: Daily Tactical Defenses Crate (lc_daily_defRef)
 category: crate
 ---
 
-# Daily Tactical Defenses Crate (lc_daily_defRef) — version 1096
+# Daily Tactical Defenses Crate (lc_daily_defRef) — version 1097
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -91,17 +91,19 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_defRef_daily" (x1 draw)
 
-### Rebellion for HQ level 5
-
-  * (1/2) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/2) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-
 ### Rebellion for HQ levels 6-10
 
   * (1/4) 1 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
   * (1/4) 1 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
   * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/4) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+
+### Empire for HQ level 5
+
+  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/4) 1 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 1 troop sample [Shock Trooper](Shock)
+  * (1/4) 2 troop sample [Johhar Kessen](EmpireJohhar)
 
 ### Empire for HQ levels 6-10
 
@@ -110,10 +112,12 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
   * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/4) 1 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ level 5
+### Rebellion for HQ level 5
 
-  * (1/2) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/2) 1 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/4) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/4) 1 troop sample [Rebel Vanguard](Vanguard)
+  * (1/4) 2 troop sample [Johhar Kessen](RebelJohhar)
 
 ### Fallback for HQ level 10
 

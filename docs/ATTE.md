@@ -3,7 +3,7 @@ title: AT-TE (ATTE)
 category: unit
 ---
 
-# AT-TE (ATTE) — version 1096
+# AT-TE (ATTE) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: AT-AT (ATAT)
 category: unit
 ---
 
-# AT-AT (ATAT) — version 1096
+# AT-AT (ATAT) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

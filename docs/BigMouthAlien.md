@@ -3,7 +3,7 @@ title: Drabatan Saboteur (BigMouthAlien)
 category: unit
 ---
 
-# Drabatan Saboteur (BigMouthAlien) — version 1096
+# Drabatan Saboteur (BigMouthAlien) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

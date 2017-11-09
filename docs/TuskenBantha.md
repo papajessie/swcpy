@@ -3,7 +3,7 @@ title: Tusken Bantha Rider (TuskenBantha)
 category: unit
 ---
 
-# Tusken Bantha Rider (TuskenBantha) — version 1096
+# Tusken Bantha Rider (TuskenBantha) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

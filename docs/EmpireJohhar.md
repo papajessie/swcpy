@@ -3,7 +3,7 @@ title: Johhar Kessen (EmpireJohhar)
 category: unit
 ---
 
-# Johhar Kessen (EmpireJohhar) — version 1096
+# Johhar Kessen (EmpireJohhar) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

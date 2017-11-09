@@ -3,7 +3,7 @@ title: Heavy Stormtrooper (HeavyStorm)
 category: unit
 ---
 
-# Heavy Stormtrooper (HeavyStorm) — version 1096
+# Heavy Stormtrooper (HeavyStorm) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Shock Trooper (Shock)
 category: unit
 ---
 
-# Shock Trooper (Shock) — version 1096
+# Shock Trooper (Shock) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

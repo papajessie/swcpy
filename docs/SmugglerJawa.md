@@ -3,7 +3,7 @@ title: Mercenary Saboteur (SmugglerJawa)
 category: unit
 ---
 
-# Mercenary Saboteur (SmugglerJawa) — version 1096
+# Mercenary Saboteur (SmugglerJawa) — version 1097
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
