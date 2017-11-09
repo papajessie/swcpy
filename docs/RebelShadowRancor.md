@@ -3,7 +3,7 @@ title: Shadow Rancor (RebelShadowRancor)
 category: unit
 ---
 
-# Shadow Rancor (RebelShadowRancor) — version 1097
+# Shadow Rancor (RebelShadowRancor) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: infantry
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8     |9     |10    |
-|------|-----|-----|-----|-----|-----|-----|-----|------|------|------|
-|Health|71280|73710|76230|78840|81550|92796|96008|108372|112152|117175|
+|Level |9     |5    |2    |1    |4    |7    |3    |10    |6    |8     |
+|------|------|-----|-----|-----|-----|-----|-----|------|-----|------|
+|Health|112152|81550|73710|71280|78840|96008|76230|117175|92796|108372|
 
 
 ### Training stats
@@ -74,9 +74,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 270ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |9   |5   |2   |1   |4   |7   |3   |10  |6   |8   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3690|3940|4210|4500|4810|5665|6061|7080|7584|8475|
+|Damage per shot|7584|4810|3940|3690|4500|6061|4210|8475|5665|7080|
 
 
 ### Projectile
@@ -84,9 +84,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Displayed damage per second: 2928
   * Splash damage percentages: 100,50
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |9       |5       |2       |1       |4       |7       |3       |10      |6       |8       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Calculated damage per second|2753.731|2940.299|3141.791|3358.209|3589.552|4227.612|4523.134|5283.582|5659.701|6324.627|
+|Calculated damage per second|5659.701|3589.552|2940.299|2753.731|3358.209|4523.134|3141.791|6324.627|4227.612|5283.582|
 
 
   * Cannons per sequence: 2
@@ -143,9 +143,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |9     |5     |2     |1     |4     |7     |3     |10    |6     |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |225501|225502|225503|225504|225505|225506|225507|225508|225509|225510|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |225509|225505|225502|225501|225504|225507|225503|225510|225506|225508|
+|Point value|52    |36    |24    |20    |32    |44    |28    |60    |40    |48    |
 
 

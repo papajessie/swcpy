@@ -3,7 +3,7 @@ title: Rebel Soldier (SoldierDropship)
 category: unit
 ---
 
-# Rebel Soldier (SoldierDropship) — version 1097
+# Rebel Soldier (SoldierDropship) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 2
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------|----|----|----|----|----|----|----|----|----|-----|
-|Health|6120|6392|6664|7208|7480|7752|8024|8432|8840|10200|
+|Level |5   |6   |3   |7   |9   |1   |2   |4   |10   |8   |
+|------|----|----|----|----|----|----|----|----|-----|----|
+|Health|7480|7752|6664|8024|8840|6120|6392|7208|10200|8432|
 
 
 ### Training stats
 
   * Building: [Research Lab 2](rebelOffenseLab.html)
 
-|Level        |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|-------------|---|---|---|----|----|----|----|----|----|----|
-|Training time|20s|22s|23s|24s |25s |26s |27s |28s |29s |30s |
-|Training cost|50$|70$|90$|110$|130$|150$|170$|200$|210$|230$|
+|Level        |5   |6   |3  |7   |9   |1  |2  |4   |10  |8   |
+|-------------|----|----|---|----|----|---|---|----|----|----|
+|Training time|25s |26s |23s|27s |29s |20s|22s|24s |30s |28s |
+|Training cost|130$|150$|90$|170$|210$|50$|70$|110$|230$|200$|
 
 
 ### Upgrading stats
 
-|Level               |1      |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-------|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s     |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|Nothing|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |5     |6      |3    |7      |9       |1      |2    |4     |10      |8      |
+|--------------------|------|-------|-----|-------|--------|-------|-----|------|--------|-------|
+|Upgrade time        |8h    |1d     |1h   |2d     |5d      |0s     |15m  |3h30m |1w1d    |3d12h  |
+|Upgrade requirements|25000$|100000$|4000$|160000$|1000000$|Nothing|1500$|12500$|1750000$|320000$|
 
 
 ### Movement stats
@@ -82,17 +82,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 200ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |5  |6  |3  |7  |9  |1  |2  |4  |10 |8  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|195|204|213|230|239|247|256|269|282|325|
+|Damage per shot|239|247|213|256|282|195|204|230|325|269|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|Level                       |5      |6      |3      |7      |9      |1      |2      |4      |10     |8      |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |180    |188    |196    |212    |220    |228    |236    |248    |260    |300    |
-|Calculated damage per second|417.857|437.143|456.429|492.857|512.143|529.286|548.571|576.429|604.286|696.429|
+|Displayed damage per second |220    |228    |196    |236    |260    |180    |188    |212    |300    |248    |
+|Calculated damage per second|512.143|529.286|456.429|548.571|604.286|417.857|437.143|492.857|696.429|576.429|
 
 
   * Cannons per sequence: 1
@@ -136,9 +136,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                      |5  |6  |3  |7  |9  |1  |2  |4  |10 |8  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|180|188|196|212|220|228|236|248|260|300|
+|Displayed damage per second|220|228|196|236|260|180|188|212|300|248|
 
 
 ## Uninterpreted stats
@@ -156,9 +156,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |5     |6     |3     |7     |9     |1     |2     |4     |10    |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |235301|235302|235303|235304|235305|235306|235307|235308|235309|235310|
-|Point value|2     |2.400 |2.800 |3.200 |3.600 |4     |4.400 |4.800 |5.200 |6     |
+|Order      |235305|235306|235303|235307|235309|235301|235302|235304|235310|235308|
+|Point value|3.600 |4     |2.800 |4.400 |5.200 |2     |2.400 |3.200 |6     |4.800 |
 
 

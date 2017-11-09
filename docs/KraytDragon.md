@@ -3,7 +3,7 @@ title: Krayt Dragon (KraytDragon)
 category: unit
 ---
 
-# Krayt Dragon (KraytDragon) — version 1097
+# Krayt Dragon (KraytDragon) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: infantry
 
-|Level |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|------|-----|-----|------|------|------|------|------|------|------|------|
-|Health|89100|95080|101500|108390|115790|123750|132300|141500|151400|152260|
+|Level |3     |5     |1    |2    |10    |6     |8     |7     |9     |4     |
+|------|------|------|-----|-----|------|------|------|------|------|------|
+|Health|101500|115790|89100|95080|152260|123750|141500|132300|151400|108390|
 
 
 ### Training stats
@@ -74,19 +74,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1s
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |3   |5   |1   |2   |10  |6   |8   |7   |9   |4   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|4613|4763|4925|5088|5263|5438|5625|5813|6013|6225|
+|Damage per shot|4925|5263|4613|4763|6225|5438|5813|5625|6013|5088|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,50
 
-|Level                       |1       |2       |3       |4   |5       |6       |7   |8       |9       |10  |
-|----------------------------|--------|--------|--------|----|--------|--------|----|--------|--------|----|
-|Displayed damage per second |4613    |2928    |2928    |2928|2928    |2928    |2928|2928    |2928    |2928|
-|Calculated damage per second|6150.667|6350.667|6566.667|6784|7017.333|7250.667|7500|7750.667|8017.333|8300|
+|Level                       |3       |5       |1       |2       |10  |6       |8       |7   |9       |4   |
+|----------------------------|--------|--------|--------|--------|----|--------|--------|----|--------|----|
+|Displayed damage per second |2928    |2928    |4613    |2928    |2928|2928    |2928    |2928|2928    |2928|
+|Calculated damage per second|6566.667|7017.333|6150.667|6350.667|8300|7250.667|7750.667|7500|8017.333|6784|
 
 
   * Cannons per sequence: 2
@@ -128,10 +128,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1     |2, 3, 4, 5, 6, 7, 8, 9, 10|
-|---------------------------|------|--------------------------|
-|Displayed damage per second|4613  |2928                      |
-|Favorite target type       |turret|infantry                  |
+|Level                      |3, 5    |1     |2, 10, 6, 8, 7, 9, 4|
+|---------------------------|--------|------|--------------------|
+|Displayed damage per second|2928    |4613  |2928                |
+|Favorite target type       |infantry|turret|infantry            |
 
 
 ## Uninterpreted stats
@@ -149,9 +149,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |3     |5     |1     |2     |10    |6     |8     |7     |9     |4     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332401|332402|332403|332404|332405|332406|332407|332408|332409|332410|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |332403|332405|332401|332402|332410|332406|332408|332407|332409|332404|
+|Point value|28    |36    |20    |24    |60    |40    |48    |44    |52    |32    |
 
 

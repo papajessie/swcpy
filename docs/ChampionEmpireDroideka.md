@@ -3,7 +3,7 @@ title: Droideka Sentinel (ChampionEmpireDroideka)
 category: unit
 ---
 
-# Droideka Sentinel (ChampionEmpireDroideka) — version 1097
+# Droideka Sentinel (ChampionEmpireDroideka) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,62 +21,68 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: champion
 
-|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level        |12   |8    |3    |4    |50   |48   |49   |33   |34   |32   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |16000|17280|17920|18560|19200|20480|21120|21760|22400|23680|
-|Shield health|12000|12960|13440|13920|14400|15360|15840|16320|16800|17760|
+|Health       |24960|21760|17920|18560|46080|45120|45440|38080|38400|37440|
+|Shield health|18720|16320|13440|13920|33600|33120|33360|28560|28800|28080|
 
 
-|Level        |11   |12   |13   |14   |15   |16   |17   |18   |19   |20   |
+|Level        |14   |23   |15   |16   |36   |13   |41   |20   |27   |22   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |24320|24960|25600|26240|26880|27520|28160|28800|29440|30080|
-|Shield health|18240|18720|19200|19680|20160|20640|21120|21600|22080|22560|
+|Health       |26240|32000|26880|27520|39360|25600|42240|30080|34560|31360|
+|Shield health|19680|24000|20160|20640|29520|19200|31440|22560|25920|23520|
 
 
-|Level        |21   |22   |23   |24   |25   |26   |27   |28   |29   |30   |
+|Level        |40   |9    |38   |1    |6    |43   |24   |19   |37   |46   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |30720|31360|32000|32640|33280|33920|34560|35200|35840|36480|
-|Shield health|23040|23520|24000|24480|24960|25440|25920|26400|26880|27360|
+|Health       |41600|22400|40640|16000|20480|42880|32640|29440|40000|44160|
+|Shield health|31200|16800|30480|12000|15360|31920|24480|22080|30000|32640|
 
 
-|Level        |31   |32   |33   |34   |35   |36   |37   |38   |39   |40   |
+|Level        |42   |45   |18   |2    |29   |10   |21   |5    |25   |47   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |37120|37440|38080|38400|39040|39360|40000|40640|41280|41600|
-|Shield health|27840|28080|28560|28800|29280|29520|30000|30480|30960|31200|
+|Health       |42560|43840|28800|17280|35840|23680|30720|19200|33280|44800|
+|Shield health|31680|32400|21600|12960|26880|17760|23040|14400|24960|32880|
 
 
-|Level        |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
+|Level        |30   |26   |7    |11   |39   |44   |28   |31   |35   |17   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |42240|42560|42880|43520|43840|44160|44800|45120|45440|46080|
-|Shield health|31440|31680|31920|32160|32400|32640|32880|33120|33360|33600|
+|Health       |36480|33920|21120|24320|41280|43520|35200|37120|39040|28160|
+|Shield health|27360|25440|15840|18240|30960|32160|26400|27840|29280|21120|
 
 
 ### Training stats
 
   * Training cost: Free
 
-|Level        |1                                                          |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                             |
-|-------------|-----------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|1h                                                         |1h2m                           |1h4m                           |1h7m                           |1h8m                           |1h10m                          |1h12m                          |1h15m                          |1h16m                          |1h18m                          |
-|Building     |[Droideka Sentinel Platform 1](empirePlatformDroideka.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|
-
-
-|Level        |11                             |12                             |13                             |14                             |15                             |16                             |17                             |18                             |19                             |20                             |
+|Level        |12                             |8                              |3                              |4                              |50, 48, 49                     |33                             |34                             |32                             |14                             |23                             |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|1h20m                          |1h23m                          |1h24m                          |1h26m                          |1h28m                          |1h31m                          |1h32m                          |1h34m                          |1h36m                          |1h39m                          |
-|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|
+|Training time|1h23m                          |1h15m                          |1h4m                           |1h7m                           |2h19m                          |2h4m                           |2h6m                           |2h3m                           |1h26m                          |1h44m                          |
+|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|
 
 
-|Level        |21                             |22                             |23                             |24                             |25                             |26                             |27                             |28                             |29                             |30                             |
+|Level        |15                             |16                             |36                             |13                             |41                             |20                             |27                             |22                             |40                             |9                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|1h40m                          |1h42m                          |1h44m                          |1h47m                          |1h48m                          |1h50m                          |1h52m                          |1h55m                          |1h56m                          |1h58m                          |
-|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|
+|Training time|1h28m                          |1h31m                          |2h11m                          |1h24m                          |2h19m                          |1h39m                          |1h52m                          |1h42m                          |2h19m                          |1h16m                          |
+|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 7](empireHQ.html)|
 
 
-|Level        |31                             |32                             |33                             |34                             |35                             |36                             |37                             |38                             |39                             |40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50|
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------|
-|Training time|2h                             |2h3m                           |2h4m                           |2h6m                           |2h8m                           |2h11m                          |2h12m                          |2h14m                          |2h16m                          |2h19m                                     |
-|Building     |[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)           |
+|Level        |38                             |1                                                          |6                              |43                             |24                             |19                             |37                             |46, 42, 45                     |18                             |2                              |
+|-------------|-------------------------------|-----------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training time|2h14m                          |1h                                                         |1h10m                          |2h19m                          |1h47m                          |1h36m                          |2h12m                          |2h19m                          |1h34m                          |1h2m                           |
+|Building     |[Headquarters 9](empireHQ.html)|[Droideka Sentinel Platform 1](empirePlatformDroideka.html)|[Headquarters 7](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 6](empireHQ.html)|
+
+
+|Level        |29                             |10                             |21                             |5                              |25                             |47                             |30                             |26                             |7                              |11                             |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training time|1h56m                          |1h18m                          |1h40m                          |1h8m                           |1h48m                          |2h19m                          |1h58m                          |1h50m                          |1h12m                          |1h20m                          |
+|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|
+
+
+|Level        |39                             |44                             |28                             |31                             |35                             |17                             |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training time|2h16m                          |2h19m                          |1h55m                          |2h                             |2h8m                           |1h32m                          |
+|Building     |[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -120,71 +126,71 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 233ms
   * Target locking: No
 
-|Level                |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Damage per shot      |551    |594    |617    |638    |660    |704    |726    |749    |770    |815    |
-|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
-|Shot count           |8      |8      |8      |8      |8      |8      |8      |8      |8      |8      |
+|Level                |12     |8      |3      |4      |50         |48         |49         |33     |34     |32     |
+|---------------------|-------|-------|-------|-------|-----------|-----------|-----------|-------|-------|-------|
+|Damage per shot      |858    |749    |617    |638    |1106       |1078       |1092       |1310   |1320   |1287   |
+|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
+|Shot count           |8      |8      |8      |8      |12         |12         |12         |8      |8      |8      |
 
 
-|Level                |11     |12     |13     |14     |15     |16     |17     |18     |19     |20     |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Damage per shot      |836    |858    |881    |902    |925    |947    |968    |990    |1013   |1034   |
-|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
-|Shot count           |8      |8      |8      |8      |8      |8      |8      |8      |8      |8      |
+|Level                |14     |23     |15     |16     |36     |13     |41         |20     |27     |22     |
+|---------------------|-------|-------|-------|-------|-------|-------|-----------|-------|-------|-------|
+|Damage per shot      |902    |1100   |925    |947    |1353   |881    |980        |1034   |1188   |1079   |
+|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
+|Shot count           |8      |8      |8      |8      |8      |8      |12         |8      |8      |8      |
 
 
-|Level                |21     |22     |23     |24     |25     |26     |27     |28     |29     |30     |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Damage per shot      |1056   |1079   |1100   |1122   |1145   |1166   |1188   |1211   |1232   |1255   |
-|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
-|Shot count           |8      |8      |8      |8      |8      |8      |8      |8      |8      |8      |
+|Level                |40         |9      |38     |1      |6      |43         |24     |19     |37     |46         |
+|---------------------|-----------|-------|-------|-------|-------|-----------|-------|-------|-------|-----------|
+|Damage per shot      |965        |770    |1397   |551    |704    |1008       |1122   |1013   |1376   |1050       |
+|Gun shooting sequence|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|
+|Shot count           |12         |8      |8      |8      |8      |12         |8      |8      |8      |12         |
 
 
-|Level                |31     |32     |33     |34     |35     |36     |37     |38     |39     |40         |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-----------|
-|Damage per shot      |1277   |1287   |1310   |1320   |1343   |1353   |1376   |1397   |1420   |965        |
-|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|
-|Shot count           |8      |8      |8      |8      |8      |8      |8      |8      |8      |12         |
+|Level                |42         |45         |18     |2      |29     |10     |21     |5      |25     |47         |
+|---------------------|-----------|-----------|-------|-------|-------|-------|-------|-------|-------|-----------|
+|Damage per shot      |994        |1036       |990    |594    |1232   |815    |1056   |660    |1145   |1064       |
+|Gun shooting sequence|1,1,1,2,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|
+|Shot count           |12         |12         |8      |8      |8      |8      |8      |8      |8      |12         |
 
 
-|Level                |41         |42         |43         |44         |45         |46         |47         |48         |49         |50         |
-|---------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Damage per shot      |980        |994        |1008       |1022       |1036       |1050       |1064       |1078       |1092       |1106       |
-|Gun shooting sequence|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
-|Shot count           |12         |12         |12         |12         |12         |12         |12         |12         |12         |12         |
+|Level                |30     |26     |7      |11     |39     |44         |28     |31     |35     |17     |
+|---------------------|-------|-------|-------|-------|-------|-----------|-------|-------|-------|-------|
+|Damage per shot      |1255   |1166   |726    |836    |1420   |1022       |1211   |1277   |1343   |968    |
+|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|
+|Shot count           |8      |8      |8      |8      |8      |12         |8      |8      |8      |8      |
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |12      |8       |3       |4       |50      |48      |49      |33      |34      |32      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2202    |2376    |2466    |2553    |2640    |2817    |2904    |2994    |3081    |3258    |
-|Calculated damage per second|2594.467|2796.939|2905.238|3004.120|3107.710|3314.891|3418.481|3526.780|3625.662|3837.552|
+|Displayed damage per second |3432    |2994    |2466    |2553    |6636    |6468    |6552    |5238    |5280    |5148    |
+|Calculated damage per second|4040.024|3526.780|2905.238|3004.120|7811.654|7613.891|7712.772|6168.334|6215.421|6060.035|
 
 
-|Level                       |11      |12      |13      |14      |15      |16      |17      |18      |19      |20      |
+|Level                       |14      |23      |15      |16      |36      |13      |41      |20      |27      |22      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |3345    |3432    |3522    |3609    |3699    |3786    |3873    |3960    |4050    |4137    |
-|Calculated damage per second|3936.433|4040.024|4148.323|4247.204|4355.503|4459.094|4557.975|4661.566|4769.865|4868.746|
+|Displayed damage per second |3609    |4401    |3699    |3786    |5412    |3522    |5880    |4137    |4752    |4314    |
+|Calculated damage per second|4247.204|5179.517|4355.503|4459.094|6370.806|4148.323|6921.719|4868.746|5593.879|5080.636|
 
 
-|Level                       |21      |22      |23      |24      |25      |26      |27      |28      |29      |30      |
+|Level                       |40      |9       |38      |1       |6       |43      |24      |19      |37      |46      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |4224    |4314    |4401    |4488    |4578    |4665    |4752    |4842    |4929    |5019    |
-|Calculated damage per second|4972.337|5080.636|5179.517|5283.108|5391.407|5490.288|5593.879|5702.178|5801.059|5909.358|
+|Displayed damage per second |5721    |3081    |5589    |2202    |2817    |6048    |4488    |4050    |5502    |6300    |
+|Calculated damage per second|6815.774|3625.662|6577.987|2594.467|3314.891|7119.482|5283.108|4769.865|6479.105|7416.127|
 
 
-|Level                       |31      |32      |33      |34      |35      |36      |37      |38      |39      |40      |
+|Level                       |42      |45      |18      |2       |29      |10      |21      |5       |25      |47      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |5106    |5148    |5238    |5280    |5370    |5412    |5502    |5589    |5679    |5721    |
-|Calculated damage per second|6012.949|6060.035|6168.334|6215.421|6323.720|6370.806|6479.105|6577.987|6686.286|6815.774|
+|Displayed damage per second |5964    |6216    |3960    |2376    |4929    |3258    |4224    |2640    |4578    |6384    |
+|Calculated damage per second|7020.600|7317.245|4661.566|2796.939|5801.059|3837.552|4972.337|3107.710|5391.407|7515.009|
 
 
-|Level                       |41      |42      |43      |44      |45      |46      |47      |48      |49      |50      |
+|Level                       |30      |26      |7       |11      |39      |44      |28      |31      |35      |17      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |5880    |5964    |6048    |6132    |6216    |6300    |6384    |6468    |6552    |6636    |
-|Calculated damage per second|6921.719|7020.600|7119.482|7218.364|7317.245|7416.127|7515.009|7613.891|7712.772|7811.654|
+|Displayed damage per second |5019    |4665    |2904    |3345    |5679    |6132    |4842    |5106    |5370    |3873    |
+|Calculated damage per second|5909.358|5490.288|3418.481|3936.433|6686.286|7218.364|5702.178|6012.949|6323.720|4557.975|
 
 
   * Cliptime: 1.699s
@@ -195,9 +201,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
 
-|Level               |1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39|40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50|
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-|Cannons per sequence|4                                                                                                                                                |6                                         |
+|Level               |12, 8, 3, 4|50, 48, 49|33, 34, 32, 14, 23, 15, 16, 36, 13|41|20, 27, 22|40|9, 38, 1, 6|43|24, 19, 37|46, 42, 45|
+|--------------------|-----------|----------|----------------------------------|--|----------|--|-----------|--|----------|----------|
+|Cannons per sequence|4          |6         |4                                 |6 |4         |6 |4          |6 |4         |6         |
+
+
+|Level               |18, 2, 29, 10, 21, 5, 25|47|30, 26, 7, 11, 39|44|28, 31, 35, 17|
+|--------------------|------------------------|--|-----------------|--|--------------|
+|Cannons per sequence|4                       |6 |4                |6 |4             |
 
 
 ## Internal stats
@@ -235,44 +246,44 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
 
-|Level                      |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
-|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |
-|Bundle name                |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up10       |
-|Displayed damage per second|2202                       |2376                       |2466                       |2553                       |2640                       |2817                       |2904                       |2994                       |3081                       |3258                        |
-|Shield asset name          |effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|
+|Level                      |12                          |8                          |3                          |4                          |50                          |48                          |49                          |33                          |34                          |32                          |
+|---------------------------|----------------------------|---------------------------|---------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name                 |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |
+|Bundle name                |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |
+|Displayed damage per second|3432                        |2994                       |2466                       |2553                       |6636                        |6468                        |6552                        |5238                        |5280                        |5148                        |
+|Shield asset name          |effectEmpireDroidekaShield10|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|
 
 
-|Level                      |11                          |12                          |13                          |14                          |15                          |16                          |17                          |18                          |19                          |20                          |
+|Level                      |14                          |23                          |15                          |16                          |36                          |13                          |41                          |20                          |27                          |22                          |
 |---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |
-|Bundle name                |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |
-|Displayed damage per second|3345                        |3432                        |3522                        |3609                        |3699                        |3786                        |3873                        |3960                        |4050                        |4137                        |
-|Shield asset name          |effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|
+|Asset name                 |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up10       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |
+|Bundle name                |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up10       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |
+|Displayed damage per second|3609                        |4401                        |3699                        |3786                        |5412                        |3522                        |5880                        |4137                        |4752                        |4314                        |
+|Shield asset name          |effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield30|effectEmpireDroidekaShield10|effectEmpireDroidekaShield40|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|
 
 
-|Level                      |21                          |22                          |23                          |24                          |25                          |26                          |27                          |28                          |29                          |30                          |
-|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |
-|Bundle name                |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |
-|Displayed damage per second|4224                        |4314                        |4401                        |4488                        |4578                        |4665                        |4752                        |4842                        |4929                        |5019                        |
-|Shield asset name          |effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|
+|Level                      |40                          |9                          |38                          |1                          |6                          |43                          |24                          |19                          |37                          |46                          |
+|---------------------------|----------------------------|---------------------------|----------------------------|---------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name                 |droideka_con-ani-up40       |droideka_con-ani-up1       |droideka_con-ani-up30       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up40       |
+|Bundle name                |droideka_con-ani-up40       |droideka_con-ani-up1       |droideka_con-ani-up30       |droideka_con-ani-up1       |droideka_con-ani-up1       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up40       |
+|Displayed damage per second|5721                        |3081                       |5589                        |2202                       |2817                       |6048                        |4488                        |4050                        |5502                        |6300                        |
+|Shield asset name          |effectEmpireDroidekaShield40|effectEmpireDroidekaShield1|effectEmpireDroidekaShield30|effectEmpireDroidekaShield1|effectEmpireDroidekaShield1|effectEmpireDroidekaShield40|effectEmpireDroidekaShield20|effectEmpireDroidekaShield10|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|
 
 
-|Level                      |31                          |32                          |33                          |34                          |35                          |36                          |37                          |38                          |39                          |40                          |
-|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |
-|Bundle name                |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |
-|Displayed damage per second|5106                        |5148                        |5238                        |5280                        |5370                        |5412                        |5502                        |5589                        |5679                        |5721                        |
-|Shield asset name          |effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|
+|Level                      |42                          |45                          |18                          |2                          |29                          |10                          |21                          |5                          |25                          |47                          |
+|---------------------------|----------------------------|----------------------------|----------------------------|---------------------------|----------------------------|----------------------------|----------------------------|---------------------------|----------------------------|----------------------------|
+|Asset name                 |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up40       |
+|Bundle name                |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up40       |
+|Displayed damage per second|5964                        |6216                        |3960                        |2376                       |4929                        |3258                        |4224                        |2640                       |4578                        |6384                        |
+|Shield asset name          |effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield10|effectEmpireDroidekaShield1|effectEmpireDroidekaShield20|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield1|effectEmpireDroidekaShield20|effectEmpireDroidekaShield40|
 
 
-|Level                      |41                          |42                          |43                          |44                          |45                          |46                          |47                          |48                          |49                          |50                          |
-|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Bundle name                |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Displayed damage per second|5880                        |5964                        |6048                        |6132                        |6216                        |6300                        |6384                        |6468                        |6552                        |6636                        |
-|Shield asset name          |effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
+|Level                      |30                          |26                          |7                          |11                          |39                          |44                          |28                          |31                          |35                          |17                          |
+|---------------------------|----------------------------|----------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name                 |droideka_con-ani-up30       |droideka_con-ani-up20       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up10       |
+|Bundle name                |droideka_con-ani-up30       |droideka_con-ani-up20       |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up10       |
+|Displayed damage per second|5019                        |4665                        |2904                       |3345                        |5679                        |6132                        |4842                        |5106                        |5370                        |3873                        |
+|Shield asset name          |effectEmpireDroidekaShield30|effectEmpireDroidekaShield20|effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield10|
 
 
 ## Uninterpreted stats
@@ -290,33 +301,33 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |12    |8     |3     |4     |50    |48    |49    |33    |34    |32    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |114501|114502|114503|114504|114505|114506|114507|114508|114509|114510|
-|Point value|20    |28    |32    |36    |40    |48    |52    |56    |60    |68    |
+|Order      |114512|114508|114503|114504|114550|114548|114549|114533|114534|114532|
+|Point value|76    |56    |32    |36    |200   |200   |200   |160   |168   |156   |
 
 
-|Level      |11    |12    |13    |14    |15    |16    |17    |18    |19    |20    |
+|Level      |14    |23    |15    |16    |36    |13    |41    |20    |27    |22    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |114511|114512|114513|114514|114515|114516|114517|114518|114519|114520|
-|Point value|72    |76    |80    |84    |88    |92    |96    |100   |104   |108   |
+|Order      |114514|114523|114515|114516|114536|114513|114541|114520|114527|114522|
+|Point value|84    |120   |88    |92    |176   |80    |200   |108   |136   |116   |
 
 
-|Level      |21    |22    |23    |24    |25    |26    |27    |28    |29    |30    |
+|Level      |40    |9     |38    |1     |6     |43    |24    |19    |37    |46    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |114521|114522|114523|114524|114525|114526|114527|114528|114529|114530|
-|Point value|112   |116   |120   |124   |128   |132   |136   |140   |144   |148   |
+|Order      |114540|114509|114538|114501|114506|114543|114524|114519|114537|114546|
+|Point value|200   |60    |184   |20    |48    |200   |124   |104   |180   |200   |
 
 
-|Level      |31    |32    |33    |34    |35    |36    |37    |38    |39    |40    |
+|Level      |42    |45    |18    |2     |29    |10    |21    |5     |25    |47    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |114531|114532|114533|114534|114535|114536|114537|114538|114539|114540|
-|Point value|152   |156   |160   |168   |172   |176   |180   |184   |188   |200   |
+|Order      |114542|114545|114518|114502|114529|114510|114521|114505|114525|114547|
+|Point value|200   |200   |100   |28    |144   |68    |112   |40    |128   |200   |
 
 
-|Level      |41    |42    |43    |44    |45    |46    |47    |48    |49    |50    |
+|Level      |30    |26    |7     |11    |39    |44    |28    |31    |35    |17    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |114541|114542|114543|114544|114545|114546|114547|114548|114549|114550|
-|Point value|200   |200   |200   |200   |200   |200   |200   |200   |200   |200   |
+|Order      |114530|114526|114507|114511|114539|114544|114528|114531|114535|114517|
+|Point value|148   |132   |52    |72    |188   |200   |140   |152   |172   |96    |
 
 

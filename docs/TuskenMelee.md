@@ -3,7 +3,7 @@ title: Tusken Raider (TuskenMelee)
 category: unit
 ---
 
-# Tusken Raider (TuskenMelee) — version 1097
+# Tusken Raider (TuskenMelee) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -70,19 +70,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.250s
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |3  |4  |2  |10 |8  |9  |5  |7  |6  |1  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|195|239|260|282|304|325|347|369|390|434|
+|Damage per shot|260|282|239|434|369|390|304|347|325|195|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|Level                       |3      |4      |2      |10     |8      |9      |5      |7      |6      |1      |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |177    |217    |236    |256    |276    |295    |315    |335    |354    |394    |
-|Calculated damage per second|177.273|217.273|236.364|256.364|276.364|295.455|315.455|335.455|354.545|394.545|
+|Displayed damage per second |236    |256    |217    |394    |335    |354    |276    |315    |295    |177    |
+|Calculated damage per second|236.364|256.364|217.273|394.545|335.455|354.545|276.364|315.455|295.455|177.273|
 
 
   * Cannons per sequence: 1
@@ -123,9 +123,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                      |3  |4  |2  |10 |8  |9  |5  |7  |6  |1  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|177|217|236|256|276|295|315|335|354|394|
+|Displayed damage per second|236|256|217|394|335|354|276|315|295|177|
 
 
 ## Uninterpreted stats
@@ -143,9 +143,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |3     |4     |2     |10    |8     |9     |5     |7     |6     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |321801|321802|321803|321804|321805|321806|321807|321808|321809|321810|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Order      |321803|321804|321802|321810|321808|321809|321805|321807|321806|321801|
+|Point value|1.400 |1.600 |1.200 |3     |2.400 |2.600 |1.800 |2.200 |2     |1     |
 
 

@@ -3,7 +3,7 @@ title: Cold-weather Heavy Soldier (EchoBaseHeavySoldier)
 category: unit
 ---
 
-# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1097
+# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: infantry
 
-|Level |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|8100|9725|11325|12950|14575|16200|17800|19425|21050|24300|
+|Level |9    |4    |5    |3    |7    |6    |2   |8    |1   |10   |
+|------|-----|-----|-----|-----|-----|-----|----|-----|----|-----|
+|Health|21050|12950|14575|11325|17800|16200|9725|19425|8100|24300|
 
 
 ### Training stats
 
-|Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|1m40s                           |1m50s                                 |1m55s                                 |2m                                    |2m5s                                  |2m10s                                 |2m15s                                 |2m20s                                 |2m25s                                 |2m30s                                  |
-|Training cost|250$                            |350$                                  |450$                                  |550$                                  |650$                                  |750$                                  |850$                                  |1000$                                 |1050$                                 |1150$                                  |
-|Building     |[Barracks 6](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |9                                     |4                                     |5                                     |3                                     |7                                     |6                                     |2                                     |8                                     |1                               |10                                     |
+|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------|---------------------------------------|
+|Training time|2m25s                                 |2m                                    |2m5s                                  |1m55s                                 |2m15s                                 |2m10s                                 |1m50s                                 |2m20s                                 |1m40s                           |2m30s                                  |
+|Training cost|1050$                                 |550$                                  |650$                                  |450$                                  |850$                                  |750$                                  |350$                                  |1000$                                 |250$                            |1150$                                  |
+|Building     |[Research Lab 9](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Barracks 6](rebelBarracks.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
-|Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+|Level               |9       |4     |5     |3    |7      |6      |2    |8      |1    |10      |
+|--------------------|--------|------|------|-----|-------|-------|-----|-------|-----|--------|
+|Upgrade time        |5d      |3h30m |8h    |1h   |2d     |1d     |15m  |3d12h  |0s   |1w2d    |
+|Upgrade requirements|1000000$|15000$|35000$|6000$|175000$|115000$|3000$|350000$|3000$|2000000$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 75ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8   |9   |10  |
-|---------------|---|---|---|---|---|---|---|----|----|----|
-|Damage per shot|450|540|630|720|810|900|980|1080|1160|1340|
+|Level          |9   |4  |5  |3  |7  |6  |2  |8   |1  |10  |
+|---------------|----|---|---|---|---|---|---|----|---|----|
+|Damage per shot|1160|720|810|630|980|900|540|1080|450|1340|
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |9       |4       |5       |3       |7       |6       |2       |8       |1       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2600    |3128    |3644    |4164    |4680    |5200    |5728    |6244    |6764    |7800    |
-|Calculated damage per second|2067.568|2481.081|2894.595|3308.108|3721.622|4135.135|4502.703|4962.162|5329.730|6156.757|
+|Displayed damage per second |6764    |4164    |4680    |3644    |5728    |5200    |3128    |6244    |2600    |7800    |
+|Calculated damage per second|5329.730|3308.108|3721.622|2894.595|4502.703|4135.135|2481.081|4962.162|2067.568|6156.757|
 
 
   * Cannons per sequence: 1
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |9   |4   |5   |3   |7   |6   |2   |8   |1   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2600|3128|3644|4164|4680|5200|5728|6244|6764|7800|
+|Displayed damage per second|6764|4164|4680|3644|5728|5200|3128|6244|2600|7800|
 
 
 ## Uninterpreted stats
@@ -158,8 +158,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|9     |4     |5     |3     |7     |6     |2     |8     |1     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|300110|300111|300112|300113|300114|300115|300116|300117|300118|300119|
+|Order|300118|300113|300114|300112|300116|300115|300111|300117|300110|300119|
 
 

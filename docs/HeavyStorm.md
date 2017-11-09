@@ -3,7 +3,7 @@ title: Heavy Stormtrooper (HeavyStorm)
 category: unit
 ---
 
-# Heavy Stormtrooper (HeavyStorm) — version 1097
+# Heavy Stormtrooper (HeavyStorm) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |4   |7   |10  |1   |5   |3   |6   |8   |9   |2   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
+|Health|5120|7040|9600|3200|5760|4480|6400|7680|8320|3840|
 
 
 ### Training stats
 
-|Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|1m20s                            |1m28s                                  |1m32s                                  |1m36s                                  |1m40s                                  |1m44s                                  |1m48s                                  |1m52s                                  |1m56s                                  |2m                                      |
-|Training cost|200$                             |280$                                   |360$                                   |440$                                   |520$                                   |600$                                   |680$                                   |800$                                   |840$                                   |920$                                    |
-|Building     |[Barracks 6](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |4                                      |7                                      |10                                      |1                                |5                                      |3                                      |6                                      |8                                      |9                                      |2                                      |
+|-------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|1m36s                                  |1m48s                                  |2m                                      |1m20s                            |1m40s                                  |1m32s                                  |1m44s                                  |1m52s                                  |1m56s                                  |1m28s                                  |
+|Training cost|440$                                   |680$                                   |920$                                    |200$                             |520$                                   |360$                                   |600$                                   |800$                                   |840$                                   |280$                                   |
+|Building     |[Research Lab 4](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Barracks 6](empireBarracks.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
-|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |4     |7      |10      |1    |5     |3    |6      |8      |9       |2    |
+|--------------------|------|-------|--------|-----|------|-----|-------|-------|--------|-----|
+|Upgrade time        |3h30m |2d     |1w2d    |0s   |8h    |1h   |1d     |3d12h  |5d      |15m  |
+|Upgrade requirements|12500$|160000$|1750000$|3000$|25000$|6000$|100000$|320000$|1000000$|3000$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |4  |7  |10 |1  |5  |3  |6  |8  |9  |2  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|177|213|248|283|319|354|389|425|460|531|
+|Damage per shot|283|389|531|177|319|248|354|425|460|213|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6       |7       |8   |9       |10      |
-|----------------------------|-------|-------|-------|-------|-------|--------|--------|----|--------|--------|
-|Displayed damage per second |520    |626    |729    |832    |938    |1041    |1144    |1250|1352    |1561    |
-|Calculated damage per second|520.588|626.471|729.412|832.353|938.235|1041.176|1144.118|1250|1352.941|1561.765|
+|Level                       |4      |7       |10      |1      |5      |3      |6       |8   |9       |2      |
+|----------------------------|-------|--------|--------|-------|-------|-------|--------|----|--------|-------|
+|Displayed damage per second |832    |1144    |1561    |520    |938    |729    |1041    |1250|1352    |626    |
+|Calculated damage per second|832.353|1144.118|1561.765|520.588|938.235|729.412|1041.176|1250|1352.941|626.471|
 
 
   * Cannons per sequence: 1
@@ -138,9 +138,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|----|----|----|----|----|
-|Displayed damage per second|520|626|729|832|938|1041|1144|1250|1352|1561|
+|Level                      |4  |7   |10  |1  |5  |3  |6   |8   |9   |2  |
+|---------------------------|---|----|----|---|---|---|----|----|----|---|
+|Displayed damage per second|832|1144|1561|520|938|729|1041|1250|1352|626|
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |4     |7     |10    |1     |5     |3     |6     |8     |9     |2     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |120601|120602|120603|120604|120605|120606|120607|120608|120609|120610|
-|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+|Order      |120604|120607|120610|120601|120605|120603|120606|120608|120609|120602|
+|Point value|6.400 |8.800 |12    |4     |7.200 |5.600 |8     |9.600 |10.400|4.800 |
 
 

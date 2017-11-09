@@ -3,7 +3,7 @@ title: Heavy Womp Rat (WompRatBruiser)
 category: unit
 ---
 
-# Heavy Womp Rat (WompRatBruiser) — version 1097
+# Heavy Womp Rat (WompRatBruiser) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: infantry
 
-|Level |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|8000|9600|11200|12800|14400|16000|17600|19200|20800|24000|
+|Level |5    |7    |6    |10   |3    |2   |4    |9    |1   |8    |
+|------|-----|-----|-----|-----|-----|----|-----|-----|----|-----|
+|Health|14400|17600|16000|24000|11200|9600|12800|20800|8000|19200|
 
 
 ### Training stats
@@ -34,10 +34,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |5     |7      |6      |10      |3    |2    |4     |9       |1    |8      |
+|--------------------|------|-------|-------|--------|-----|-----|------|--------|-----|-------|
+|Upgrade time        |8h    |2d     |1d     |1w1d    |1h   |15m  |3h30m |5d      |0s   |3d12h  |
+|Upgrade requirements|25000$|160000$|100000$|1750000$|9000$|7000$|12500$|1000000$|5000$|320000$|
 
 
 ### Movement stats
@@ -78,19 +78,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|---|----|----|----|----|----|----|----|----|
-|Damage per shot|788|945|1103|1260|1418|1575|1733|1890|2048|2363|
+|Level          |5   |7   |6   |10  |3   |2  |4   |9   |1  |8   |
+|---------------|----|----|----|----|----|---|----|----|---|----|
+|Damage per shot|1418|1733|1575|2363|1103|945|1260|2048|788|1890|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1      |2  |3      |4   |5       |6   |7       |8   |9       |10      |
-|----------------------------|-------|---|-------|----|--------|----|--------|----|--------|--------|
-|Displayed damage per second |630    |756|882    |1008|1134    |1260|1386    |1512|1638    |1890    |
-|Calculated damage per second|630.400|756|882.400|1008|1134.400|1260|1386.400|1512|1638.400|1890.400|
+|Level                       |5       |7       |6   |10      |3      |2  |4   |9       |1      |8   |
+|----------------------------|--------|--------|----|--------|-------|---|----|--------|-------|----|
+|Displayed damage per second |1134    |1386    |1260|1890    |882    |756|1008|1638    |630    |1512|
+|Calculated damage per second|1134.400|1386.400|1260|1890.400|882.400|756|1008|1638.400|630.400|1512|
 
 
   * Cannons per sequence: 1
@@ -131,9 +131,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|----|----|----|----|----|----|----|
-|Displayed damage per second|630|756|882|1008|1134|1260|1386|1512|1638|1890|
+|Level                      |5   |7   |6   |10  |3  |2  |4   |9   |1  |8   |
+|---------------------------|----|----|----|----|---|---|----|----|---|----|
+|Displayed damage per second|1134|1386|1260|1890|882|756|1008|1638|630|1512|
 
 
 ## Uninterpreted stats
@@ -151,9 +151,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |5     |7     |6     |10    |3     |2     |4     |9     |1     |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332801|332802|332803|332804|332805|332806|332807|332808|332809|332810|
-|Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+|Order      |332805|332807|332806|332810|332803|332802|332804|332809|332801|332808|
+|Point value|9     |11    |10    |15    |7     |6     |8     |13    |5     |12    |
 
 

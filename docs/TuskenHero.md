@@ -3,7 +3,7 @@ title: Tusken Chieftain (TuskenHero)
 category: unit
 ---
 
-# Tusken Chieftain (TuskenHero) — version 1097
+# Tusken Chieftain (TuskenHero) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |5    |8    |10   |4    |2    |3    |1    |6    |9    |7    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|10000|20000|22000|24000|27000|30000|33000|36000|39000|45000|
+|Health|27000|36000|45000|24000|20000|22000|10000|30000|39000|33000|
 
 
 ### Training stats
@@ -74,17 +74,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|---|----|----|----|----|----|----|----|----|
-|Damage per shot|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Level          |5   |8   |10  |4   |2  |3   |1  |6   |9   |7   |
+|---------------|----|----|----|----|---|----|---|----|----|----|
+|Damage per shot|1953|2604|3255|1736|950|1519|543|2170|2821|2387|
 
 
 ### Projectile
 
-|Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second |543|950|1519|1736|1953|2170|2387|2604|2821|3255|
-|Calculated damage per second|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Level                       |5   |8   |10  |4   |2  |3   |1  |6   |9   |7   |
+|----------------------------|----|----|----|----|---|----|---|----|----|----|
+|Displayed damage per second |1953|2604|3255|1736|950|1519|543|2170|2821|2387|
+|Calculated damage per second|1953|2604|3255|1736|950|1519|543|2170|2821|2387|
 
 
   * Cannons per sequence: 1
@@ -133,9 +133,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
 
-|Level                      |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Level                      |5   |8   |10  |4   |2  |3   |1  |6   |9   |7   |
+|---------------------------|----|----|----|----|---|----|---|----|----|----|
+|Displayed damage per second|1953|2604|3255|1736|950|1519|543|2170|2821|2387|
 
 
 ## Uninterpreted stats
@@ -153,9 +153,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |5     |8     |10    |4     |2     |3     |1     |6     |9     |7     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |321705|321708|321710|321704|321702|321703|321701|321706|321709|321707|
+|Point value|36    |48    |60    |32    |24    |28    |20    |40    |52    |44    |
 
 

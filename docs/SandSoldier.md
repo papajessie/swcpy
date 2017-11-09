@@ -3,7 +3,7 @@ title: Desert Soldier (SandSoldier)
 category: unit
 ---
 
-# Desert Soldier (SandSoldier) — version 1097
+# Desert Soldier (SandSoldier) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |1   |9   |10  |8   |7   |3   |4   |5   |6   |2   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|2925|3500|3775|4325|4850|5400|5950|6475|7025|8100|
+|Health|2925|7025|8100|6475|5950|3775|4325|4850|5400|3500|
 
 
 ### Training stats
 
-|Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|20s                             |22s                                   |23s                                   |24s                                   |25s                                   |26s                                   |27s                                   |28s                                   |29s                                   |30s                                    |
-|Training cost|50$                             |70$                                   |90$                                   |110$                                  |130$                                  |150$                                  |170$                                  |200$                                  |210$                                  |230$                                   |
-|Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |1                               |9                                     |10                                     |8                                     |7                                     |3                                     |4                                     |5                                     |6                                     |2                                     |
+|-------------|--------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+|Training time|20s                             |29s                                   |30s                                    |28s                                   |27s                                   |23s                                   |24s                                   |25s                                   |26s                                   |22s                                   |
+|Training cost|50$                             |210$                                  |230$                                   |200$                                  |170$                                  |90$                                   |110$                                  |130$                                  |150$                                  |70$                                   |
+|Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1      |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-------|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s     |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|Nothing|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |1      |9       |10      |8      |7      |3    |4     |5     |6      |2    |
+|--------------------|-------|--------|--------|-------|-------|-----|------|------|-------|-----|
+|Upgrade time        |0s     |5d      |1w1d    |3d12h  |2d     |1h   |3h30m |8h    |1d     |15m  |
+|Upgrade requirements|Nothing|1000000$|1750000$|320000$|160000$|4000$|12500$|25000$|100000$|1500$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |1  |9  |10 |8  |7  |3  |4  |5  |6  |2  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|320|380|410|470|530|590|640|700|760|880|
+|Damage per shot|320|760|880|700|640|410|470|530|590|380|
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8   |9       |10      |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|----|--------|--------|
-|Displayed damage per second |1208    |1448    |1560    |1780    |2004    |2228    |2448    |2672|2896    |3340    |
-|Calculated damage per second|1142.857|1357.143|1464.286|1678.571|1892.857|2107.143|2285.714|2500|2714.286|3142.857|
+|Level                       |1       |9       |10      |8   |7       |3       |4       |5       |6       |2       |
+|----------------------------|--------|--------|--------|----|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |1208    |2896    |3340    |2672|2448    |1560    |1780    |2004    |2228    |1448    |
+|Calculated damage per second|1142.857|2714.286|3142.857|2500|2285.714|1464.286|1678.571|1892.857|2107.143|1357.143|
 
 
   * Cannons per sequence: 1
@@ -136,11 +136,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1                       |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                 |
+|Level                      |1                       |9                  |10                 |8                  |7                  |3                  |4                  |5                  |6                  |2                  |
 |---------------------------|------------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
 |Asset name                 |sandheavysoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|
 |Bundle name                |sandheavysoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|sandsoldier_rbl-ani|
-|Displayed damage per second|1208                    |1448               |1560               |1780               |2004               |2228               |2448               |2672               |2896               |3340               |
+|Displayed damage per second|1208                    |2896               |3340               |2672               |2448               |1560               |1780               |2004               |2228               |1448               |
 
 
 ## Uninterpreted stats
@@ -159,8 +159,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|1     |9     |10    |8     |7     |3     |4     |5     |6     |2     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|300020|300021|300022|300023|300024|300025|300026|300027|300028|300029|
+|Order|300020|300028|300029|300027|300026|300022|300023|300024|300025|300021|
 
 

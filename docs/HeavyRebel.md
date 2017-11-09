@@ -3,7 +3,7 @@ title: Heavy Soldier (HeavyRebel)
 category: unit
 ---
 
-# Heavy Soldier (HeavyRebel) — version 1097
+# Heavy Soldier (HeavyRebel) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9    |10   |
-|------|----|----|----|----|----|----|----|----|-----|-----|
-|Health|4000|4800|5600|6400|7200|8000|8800|9600|10400|12000|
+|Level |8   |9    |10   |1   |6   |3   |2   |4   |7   |5   |
+|------|----|-----|-----|----|----|----|----|----|----|----|
+|Health|9600|10400|12000|4000|8000|5600|4800|6400|8800|7200|
 
 
 ### Training stats
 
-|Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|1m40s                           |1m50s                                 |1m55s                                 |2m                                    |2m5s                                  |2m10s                                 |2m15s                                 |2m20s                                 |2m25s                                 |2m30s                                  |
-|Training cost|250$                            |350$                                  |450$                                  |550$                                  |650$                                  |750$                                  |850$                                  |1000$                                 |1050$                                 |1150$                                  |
-|Building     |[Barracks 6](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |8                                     |9                                     |10                                     |1                               |6                                     |3                                     |2                                     |4                                     |7                                     |5                                     |
+|-------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+|Training time|2m20s                                 |2m25s                                 |2m30s                                  |1m40s                           |2m10s                                 |1m55s                                 |1m50s                                 |2m                                    |2m15s                                 |2m5s                                  |
+|Training cost|1000$                                 |1050$                                 |1150$                                  |250$                            |750$                                  |450$                                  |350$                                  |550$                                  |850$                                  |650$                                  |
+|Building     |[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Barracks 6](rebelBarracks.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
-|Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+|Level               |8      |9       |10      |1    |6      |3    |2    |4     |7      |5     |
+|--------------------|-------|--------|--------|-----|-------|-----|-----|------|-------|------|
+|Upgrade time        |3d12h  |5d      |1w2d    |0s   |1d     |1h   |15m  |3h30m |2d     |8h    |
+|Upgrade requirements|350000$|1000000$|2000000$|3000$|115000$|6000$|3000$|15000$|175000$|35000$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |8  |9  |10 |1  |6  |3  |2  |4  |7  |5  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|221|266|310|354|398|442|487|531|575|663|
+|Damage per shot|531|575|663|221|442|310|266|354|487|398|
 
 
 ### Projectile
 
-|Level                       |1  |2      |3      |4       |5       |6   |7       |8       |9       |10  |
-|----------------------------|---|-------|-------|--------|--------|----|--------|--------|--------|----|
-|Displayed damage per second |650|782    |911    |1041    |1170    |1300|1432    |1561    |1691    |1950|
-|Calculated damage per second|650|782.353|911.765|1041.176|1170.588|1300|1432.353|1561.765|1691.176|1950|
+|Level                       |8       |9       |10  |1  |6   |3      |2      |4       |7       |5       |
+|----------------------------|--------|--------|----|---|----|-------|-------|--------|--------|--------|
+|Displayed damage per second |1561    |1691    |1950|650|1300|911    |782    |1041    |1432    |1170    |
+|Calculated damage per second|1561.765|1691.176|1950|650|1300|911.765|782.353|1041.176|1432.353|1170.588|
 
 
   * Cannons per sequence: 1
@@ -138,9 +138,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|----|----|----|----|----|----|----|
-|Displayed damage per second|650|782|911|1041|1170|1300|1432|1561|1691|1950|
+|Level                      |8   |9   |10  |1  |6   |3  |2  |4   |7   |5   |
+|---------------------------|----|----|----|---|----|---|---|----|----|----|
+|Displayed damage per second|1561|1691|1950|650|1300|911|782|1041|1432|1170|
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |8     |9     |10    |1     |6     |3     |2     |4     |7     |5     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |220601|220602|220603|220604|220605|220606|220607|220608|220609|220610|
-|Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+|Order      |220608|220609|220610|220601|220606|220603|220602|220604|220607|220605|
+|Point value|12    |13    |15    |5     |10    |7     |6     |8     |11    |9     |
 
 

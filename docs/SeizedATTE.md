@@ -3,7 +3,7 @@ title: Seized AT-TE Walker (SeizedATTE)
 category: unit
 ---
 
-# Seized AT-TE Walker (SeizedATTE) — version 1097
+# Seized AT-TE Walker (SeizedATTE) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |5    |10   |1    |2    |4    |6    |7    |8    |9    |3    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|76800|78710|80670|82690|84760|86890|89080|91320|93630|96000|
+|Health|84760|96000|76800|78710|82690|86890|89080|91320|93630|80670|
 
 
 ### Training stats
 
-|Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|9m20s                          |9m22s                                  |9m24s                                  |9m26s                                  |9m28s                                  |9m30s                                  |9m33s                                  |9m36s                                  |9m40s                                  |10m                                     |
-|Training cost|4400$                          |4420$                                  |4440$                                  |4460$                                  |4490$                                  |4520$                                  |4550$                                  |4580$                                  |4620$                                  |5060$                                   |
-|Building     |[Factory 8](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |5                                      |10                                      |1                              |2                                      |4                                      |6                                      |7                                      |8                                      |9                                      |3                                      |
+|-------------|---------------------------------------|----------------------------------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|9m28s                                  |10m                                     |9m20s                          |9m22s                                  |9m26s                                  |9m30s                                  |9m33s                                  |9m36s                                  |9m40s                                  |9m24s                                  |
+|Training cost|4490$                                  |5060$                                   |4400$                          |4420$                                  |4460$                                  |4520$                                  |4550$                                  |4580$                                  |4620$                                  |4440$                                  |
+|Building     |[Research Lab 5](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Factory 8](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |5     |10      |1   |2    |4     |6      |7      |8      |9       |3    |
+|--------------------|------|--------|----|-----|------|-------|-------|-------|--------|-----|
+|Upgrade time        |8h    |1w1d    |0s  |15m  |3h30m |1d     |2d     |3d12h  |5d      |1h   |
+|Upgrade requirements|25000$|1750000$|600$|1500$|12500$|100000$|160000$|320000$|1000000$|4000$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |5   |10  |1   |2   |4   |6   |7   |8   |9   |3   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3070|3150|3230|3310|3390|3470|3560|3650|3740|3840|
+|Damage per shot|3390|3840|3070|3150|3310|3470|3560|3650|3740|3230|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1       |2       |3       |4       |5       |6       |7   |8       |9   |10  |
-|----------------------------|--------|--------|--------|--------|--------|--------|----|--------|----|----|
-|Displayed damage per second |3840    |3940    |4040    |4140    |4240    |4340    |4450|4560    |4680|4800|
-|Calculated damage per second|3837.500|3937.500|4037.500|4137.500|4237.500|4337.500|4450|4562.500|4675|4800|
+|Level                       |5       |10  |1       |2       |4       |6       |7   |8       |9   |3       |
+|----------------------------|--------|----|--------|--------|--------|--------|----|--------|----|--------|
+|Displayed damage per second |4240    |4800|3840    |3940    |4140    |4340    |4450|4560    |4680|4040    |
+|Calculated damage per second|4237.500|4800|3837.500|3937.500|4137.500|4337.500|4450|4562.500|4675|4037.500|
 
 
   * Cannons per sequence: 5
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |5   |10  |1   |2   |4   |6   |7   |8   |9   |3   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|3840|3940|4040|4140|4240|4340|4450|4560|4680|4800|
+|Displayed damage per second|4240|4800|3840|3940|4140|4340|4450|4560|4680|4040|
 
 
 ## Uninterpreted stats
@@ -157,8 +157,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|5     |10    |1     |2     |4     |6     |7     |8     |9     |3     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|520404|520408|520412|520416|520420|520424|520428|520432|520436|520440|
+|Order|520420|520440|520404|520408|520416|520424|520428|520432|520436|520412|
 
 

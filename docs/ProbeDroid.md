@@ -3,7 +3,7 @@ title: Probe Droid (ProbeDroid)
 category: unit
 ---
 
-# Probe Droid (ProbeDroid) — version 1097
+# Probe Droid (ProbeDroid) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: vehicle
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |2   |10  |4   |7   |8   |1   |5   |9   |6   |3   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|4800|5020|5250|5500|5750|6020|6310|6610|6920|7250|
+|Health|5020|7250|5500|6310|6610|4800|5750|6920|6020|5250|
 
 
 ### Training stats
 
-|Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|1m42s                          |1m43s                                  |1m44s                                  |1m45s                                  |1m46s                                  |1m47s                                  |1m48s                                  |1m52s                                  |1m56s                                  |2m                                      |
-|Training cost|600$                           |610$                                   |620$                                   |630$                                   |640$                                   |660$                                   |680$                                   |800$                                   |840$                                   |920$                                    |
-|Building     |[Factory 6](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |2                                      |10                                      |4                                      |7                                      |8                                      |1                              |5                                      |9                                      |6                                      |3                                      |
+|-------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|1m43s                                  |2m                                      |1m45s                                  |1m48s                                  |1m52s                                  |1m42s                          |1m46s                                  |1m56s                                  |1m47s                                  |1m44s                                  |
+|Training cost|610$                                   |920$                                    |630$                                   |680$                                   |800$                                   |600$                           |640$                                   |840$                                   |660$                                   |620$                                   |
+|Building     |[Research Lab 2](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Factory 6](empireFactory.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
-|Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |2    |10      |4     |7      |8      |1    |5     |9       |6      |3    |
+|--------------------|-----|--------|------|-------|-------|-----|------|--------|-------|-----|
+|Upgrade time        |15m  |1w2d    |3h30m |2d     |3d12h  |0s   |8h    |5d      |1d     |1h   |
+|Upgrade requirements|3000$|1750000$|12500$|160000$|320000$|3000$|25000$|1000000$|100000$|6000$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |2  |10 |4  |7  |8  |1  |5  |9  |6  |3  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|490|510|540|560|590|610|640|670|710|740|
+|Damage per shot|510|740|560|640|670|490|590|710|610|540|
 
 
 ### Projectile
 
-|Level                       |1   |2       |3       |4   |5       |6       |7       |8       |9       |10      |
-|----------------------------|----|--------|--------|----|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1120|1170    |1230    |1280|1350    |1390    |1460    |1530    |1620    |1690    |
-|Calculated damage per second|1120|1165.714|1234.286|1280|1348.571|1394.286|1462.857|1531.429|1622.857|1691.429|
+|Level                       |2       |10      |4   |7       |8       |1   |5       |9       |6       |3       |
+|----------------------------|--------|--------|----|--------|--------|----|--------|--------|--------|--------|
+|Displayed damage per second |1170    |1690    |1280|1460    |1530    |1120|1350    |1620    |1390    |1230    |
+|Calculated damage per second|1165.714|1691.429|1280|1462.857|1531.429|1120|1348.571|1622.857|1394.286|1234.286|
 
 
   * Cannons per sequence: 1
@@ -136,9 +136,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |2   |10  |4   |7   |8   |1   |5   |9   |6   |3   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1120|1170|1230|1280|1350|1390|1460|1530|1620|1690|
+|Displayed damage per second|1170|1690|1280|1460|1530|1120|1350|1620|1390|1230|
 
 
 ## Uninterpreted stats
@@ -156,9 +156,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |2     |10    |4     |7     |8     |1     |5     |9     |6     |3     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |130601|130602|130603|130604|130605|130606|130607|130608|130609|130610|
-|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+|Order      |130602|130610|130604|130607|130608|130601|130605|130609|130606|130603|
+|Point value|4.800 |12    |6.400 |8.800 |9.600 |4     |7.200 |10.400|8     |5.600 |
 
 

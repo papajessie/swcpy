@@ -3,7 +3,7 @@ title: Sullustan Recon Sharpshooter (SullustanSample)
 category: unit
 ---
 
-# Sullustan Recon Sharpshooter (SullustanSample) — version 1097
+# Sullustan Recon Sharpshooter (SullustanSample) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -18,9 +18,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 8
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |3   |7   |1   |10  |6   |9   |4   |8   |2   |5   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
+|Health|4480|7040|3200|9600|6400|8320|5120|7680|3840|5760|
 
 
 ### Training stats
@@ -59,9 +59,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman damage stack: 0
   * Marksman damage target: self
 
-|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|---------------------|---|---|---|---|---|---|---|---|---|----|
-|Marksman damage value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level                |3  |7  |1  |10  |6  |9  |4  |8  |2  |5  |
+|---------------------|---|---|---|----|---|---|---|---|---|---|
+|Marksman damage value|58%|81%|49%|100%|75%|93%|64%|87%|53%|69%|
 
 
 
@@ -77,9 +77,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman health stack: 0
   * Marksman health target: self
 
-|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|---------------------|---|---|---|---|---|---|---|---|---|----|
-|Marksman health value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level                |3  |7  |1  |10  |6  |9  |4  |8  |2  |5  |
+|---------------------|---|---|---|----|---|---|---|---|---|---|
+|Marksman health value|58%|81%|49%|100%|75%|93%|64%|87%|53%|69%|
 
 
 
@@ -96,9 +96,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm Y wing target: self
   * Sum phtm Y wing value: 1
 
-|Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
-|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
-|Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|
+|Level                          |3                                                    |7                                                    |1                                                    |10                                                    |6                                                    |9                                                    |4                                                    |8                                                    |2                                                    |5                                                    |
+|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+|Sum phtm Y wing summon visitors|["trp_title_PhantomYWing" level 3](PhantomYWing.html)|["trp_title_PhantomYWing" level 7](PhantomYWing.html)|["trp_title_PhantomYWing" level 1](PhantomYWing.html)|["trp_title_PhantomYWing" level 10](PhantomYWing.html)|["trp_title_PhantomYWing" level 6](PhantomYWing.html)|["trp_title_PhantomYWing" level 9](PhantomYWing.html)|["trp_title_PhantomYWing" level 4](PhantomYWing.html)|["trp_title_PhantomYWing" level 8](PhantomYWing.html)|["trp_title_PhantomYWing" level 2](PhantomYWing.html)|["trp_title_PhantomYWing" level 5](PhantomYWing.html)|
 
 
   * Sum phtm Y wing summon die with summoner: Yes
@@ -109,9 +109,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm Y wing summon target summoner: No
   * Sum phtm Y wing summon visitor type: Troop
 
-|Level                              |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|-----------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
+|Level                              |3                    |7                    |1                    |10                    |6                    |9                    |4                    |8                    |2                    |5                    |
+|-----------------------------------|---------------------|---------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|Sum phtm Y wing summon visitor uids|troopRebPhantomYWing3|troopRebPhantomYWing7|troopRebPhantomYWing1|troopRebPhantomYWing10|troopRebPhantomYWing6|troopRebPhantomYWing9|troopRebPhantomYWing4|troopRebPhantomYWing8|troopRebPhantomYWing2|troopRebPhantomYWing5|
 
 
 ## Main attack : projectileMarksman
@@ -141,19 +141,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|----|----|----|----|----|----|----|----|----|
-|Damage per shot|954|1144|1335|1526|1716|1907|2098|2288|2479|2860|
+|Level          |3   |7   |1  |10  |6   |9   |4   |8   |2   |5   |
+|---------------|----|----|---|----|----|----|----|----|----|----|
+|Damage per shot|1335|2098|954|2860|1907|2479|1526|2288|1144|1716|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1   |2       |3   |4       |5   |6       |7       |8       |9       |10      |
-|----------------------------|----|--------|----|--------|----|--------|--------|--------|--------|--------|
-|Displayed damage per second |2505|3140    |3845|4620    |5445|6360    |7325    |8360    |9455    |11400   |
-|Calculated damage per second|1272|1525.333|1780|2034.667|2288|2542.667|2797.333|3050.667|3305.333|3813.333|
+|Level                       |3   |7       |1   |10      |6       |9       |4       |8       |2       |5   |
+|----------------------------|----|--------|----|--------|--------|--------|--------|--------|--------|----|
+|Displayed damage per second |3845|7325    |2505|11400   |6360    |9455    |4620    |8360    |3140    |5445|
+|Calculated damage per second|1780|2797.333|1272|3813.333|2542.667|3305.333|2034.667|3050.667|1525.333|2288|
 
 
   * Cannons per sequence: 1
@@ -171,11 +171,11 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: SullustanSample
 
-|Level                     |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                          |
-|--------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|
-|Spawn apply buffs         |buffMarksmanHealth1,buffMarksmanDamage1,buffSumPhtmYWing1|buffMarksmanHealth2,buffMarksmanDamage2,buffSumPhtmYWing2|buffMarksmanHealth3,buffMarksmanDamage3,buffSumPhtmYWing3|buffMarksmanHealth4,buffMarksmanDamage4,buffSumPhtmYWing4|buffMarksmanHealth5,buffMarksmanDamage5,buffSumPhtmYWing5|buffMarksmanHealth6,buffMarksmanDamage6,buffSumPhtmYWing6|buffMarksmanHealth7,buffMarksmanDamage7,buffSumPhtmYWing7|buffMarksmanHealth8,buffMarksmanDamage8,buffSumPhtmYWing8|buffMarksmanHealth9,buffMarksmanDamage9,buffSumPhtmYWing9|buffMarksmanHealth10,buffMarksmanDamage10,buffSumPhtmYWing10|
-|Sum phtm Y wing details   |sumPhtmYWing1                                            |sumPhtmYWing2                                            |sumPhtmYWing3                                            |sumPhtmYWing4                                            |sumPhtmYWing5                                            |sumPhtmYWing6                                            |sumPhtmYWing7                                            |sumPhtmYWing8                                            |sumPhtmYWing9                                            |sumPhtmYWing10                                              |
-|Sum phtm Y wing summon uid|sumPhtmYWing1                                            |sumPhtmYWing2                                            |sumPhtmYWing3                                            |sumPhtmYWing4                                            |sumPhtmYWing5                                            |sumPhtmYWing6                                            |sumPhtmYWing7                                            |sumPhtmYWing8                                            |sumPhtmYWing9                                            |sumPhtmYWing10                                              |
+|Level                     |3                                                        |7                                                        |1                                                        |10                                                          |6                                                        |9                                                        |4                                                        |8                                                        |2                                                        |5                                                        |
+|--------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+|Spawn apply buffs         |buffMarksmanHealth3,buffMarksmanDamage3,buffSumPhtmYWing3|buffMarksmanHealth7,buffMarksmanDamage7,buffSumPhtmYWing7|buffMarksmanHealth1,buffMarksmanDamage1,buffSumPhtmYWing1|buffMarksmanHealth10,buffMarksmanDamage10,buffSumPhtmYWing10|buffMarksmanHealth6,buffMarksmanDamage6,buffSumPhtmYWing6|buffMarksmanHealth9,buffMarksmanDamage9,buffSumPhtmYWing9|buffMarksmanHealth4,buffMarksmanDamage4,buffSumPhtmYWing4|buffMarksmanHealth8,buffMarksmanDamage8,buffSumPhtmYWing8|buffMarksmanHealth2,buffMarksmanDamage2,buffSumPhtmYWing2|buffMarksmanHealth5,buffMarksmanDamage5,buffSumPhtmYWing5|
+|Sum phtm Y wing details   |sumPhtmYWing3                                            |sumPhtmYWing7                                            |sumPhtmYWing1                                            |sumPhtmYWing10                                              |sumPhtmYWing6                                            |sumPhtmYWing9                                            |sumPhtmYWing4                                            |sumPhtmYWing8                                            |sumPhtmYWing2                                            |sumPhtmYWing5                                            |
+|Sum phtm Y wing summon uid|sumPhtmYWing3                                            |sumPhtmYWing7                                            |sumPhtmYWing1                                            |sumPhtmYWing10                                              |sumPhtmYWing6                                            |sumPhtmYWing9                                            |sumPhtmYWing4                                            |sumPhtmYWing8                                            |sumPhtmYWing2                                            |sumPhtmYWing5                                            |
 
 
 ## Presentation stats
@@ -206,9 +206,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|---------------------------|----|----|----|----|----|----|----|----|----|-----|
-|Displayed damage per second|2505|3140|3845|4620|5445|6360|7325|8360|9455|11400|
+|Level                      |3   |7   |1   |10   |6   |9   |4   |8   |2   |5   |
+|---------------------------|----|----|----|-----|----|----|----|----|----|----|
+|Displayed damage per second|3845|7325|2505|11400|6360|9455|4620|8360|3140|5445|
 
 
 ## Uninterpreted stats
@@ -229,8 +229,8 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|3     |7     |1     |10    |6     |9     |4     |8     |2     |5     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|314700|314701|314702|314703|314704|314705|314706|314707|314708|314709|
+|Order|314702|314706|314700|314709|314705|314708|314703|314707|314701|314704|
 
 

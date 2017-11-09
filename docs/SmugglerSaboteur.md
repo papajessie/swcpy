@@ -3,7 +3,7 @@ title: Jawa Saboteur (SmugglerSaboteur)
 category: unit
 ---
 
-# Jawa Saboteur (SmugglerSaboteur) — version 1097
+# Jawa Saboteur (SmugglerSaboteur) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -20,27 +20,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level         |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level         |8   |1   |3   |9   |5   |2   |4   |10  |6   |7   |
 |--------------|----|----|----|----|----|----|----|----|----|----|
-|Health        |3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
-|Buildable unit|Yes |Yes |Yes |Yes |Yes |Yes |Yes |Yes |No  |No  |
+|Health        |7680|3200|4480|8320|5760|3840|5120|9600|6400|7040|
+|Buildable unit|Yes |Yes |Yes |No  |Yes |Yes |Yes |No  |Yes |Yes |
 
 
 ### Training stats
 
-|Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
-|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|Training time|1m40s                              |1m50s                              |1m55s                              |2m                                 |2m5s                               |2m10s                              |2m15s                              |2m20s                              |2m25s                              |2m30s                               |
-|Training cost|250$                               |350$                               |450$                               |550$                               |650$                               |750$                               |850$                               |950$                               |1050$                              |1150$                               |
-|Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
+|Level        |8                                  |1                                  |3                                  |9                                  |5                                  |2                                  |4                                  |10                                  |6                                  |7                                  |
+|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|-----------------------------------|-----------------------------------|
+|Training time|2m20s                              |1m40s                              |1m55s                              |2m25s                              |2m5s                               |1m50s                              |2m                                 |2m30s                               |2m10s                              |2m15s                              |
+|Training cost|950$                               |250$                               |450$                               |1050$                              |650$                               |350$                               |550$                               |1150$                               |750$                               |850$                               |
+|Building     |[Barracks 8](smugglerBarracks.html)|[Barracks 1](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+|Level               |8      |1    |3    |9       |5     |2    |4     |10      |6      |7      |
+|--------------------|-------|-----|-----|--------|------|-----|------|--------|-------|-------|
+|Upgrade time        |3d12h  |0s   |1h   |5d      |8h    |15m  |3h30m |1w1d    |1d     |2d     |
+|Upgrade requirements|350000$|3000$|6000$|1000000$|35000$|3000$|15000$|2000000$|115000$|175000$|
 
 
 ### Movement stats
@@ -78,20 +78,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                                     |8    |1    |3    |9    |5    |2    |4    |10   |6    |7    |
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot                           |112  |135  |157  |180  |202  |224  |247  |269  |292  |336  |
-|Impact delay                              |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |500ms|
-|Time between end of clip and start of clip|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|2s   |
-|Shot count                                |5    |5    |5    |5    |5    |5    |5    |5    |5    |10   |
+|Damage per shot                           |269  |112  |157  |292  |202  |135  |180  |336  |224  |247  |
+|Impact delay                              |1s   |1s   |1s   |1s   |1s   |1s   |1s   |500ms|1s   |1s   |
+|Time between end of clip and start of clip|500ms|500ms|500ms|500ms|500ms|500ms|500ms|2s   |500ms|500ms|
+|Shot count                                |5    |5    |5    |5    |5    |5    |5    |10   |5    |5    |
 
 
 ### Projectile
 
-|Level                       |1  |2      |3      |4      |5      |6  |7      |8      |9       |10     |
-|----------------------------|---|-------|-------|-------|-------|---|-------|-------|--------|-------|
-|Displayed damage per second |329|396    |461    |529    |593    |658|726    |790    |858     |987    |
-|Calculated damage per second|400|482.143|560.714|642.857|721.429|800|882.143|960.714|1042.857|988.235|
+|Level                       |8      |1  |3      |9       |5      |2      |4      |10     |6  |7      |
+|----------------------------|-------|---|-------|--------|-------|-------|-------|-------|---|-------|
+|Displayed damage per second |790    |329|461    |858     |593    |396    |529    |987    |658|726    |
+|Calculated damage per second|960.714|400|560.714|1042.857|721.429|482.143|642.857|988.235|800|882.143|
 
 
   * Cannons per sequence: 1
@@ -101,10 +101,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage multipliers: **(250)**: Shield generator, **(175)**: Shield, **(150)**: Wall, **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Storage, Support troop, Trap, Turret, Vehicule hero
   * Pass through shield: No
 
-|Level   |1, 2, 3, 4, 5, 6, 7, 8, 9|10    |
-|--------|-------------------------|------|
-|Cliptime|1.400s                   |3.400s|
-|Salvos  |5                        |10    |
+|Level   |8, 1, 3, 9, 5, 2, 4|10    |6, 7  |
+|--------|-------------------|------|------|
+|Cliptime|1.400s             |3.400s|1.400s|
+|Salvos  |5                  |10    |5     |
 
 
 ## Internal stats
@@ -140,9 +140,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                      |8  |1  |3  |9  |5  |2  |4  |10 |6  |7  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|329|396|461|529|593|658|726|790|858|987|
+|Displayed damage per second|790|329|461|858|593|396|529|987|658|726|
 
 
 ## Uninterpreted stats
@@ -160,9 +160,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |8     |1     |3     |9     |5     |2     |4     |10    |6     |7     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |334101|334102|334103|334104|334105|334106|334107|334108|334109|334110|
-|Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+|Order      |334108|334101|334103|334109|334105|334102|334104|334110|334106|334107|
+|Point value|12    |5     |7     |13    |9     |6     |8     |15    |10    |11    |
 
 

@@ -3,7 +3,7 @@ title: IG-86 Assassin Droid (IG86Droid)
 category: unit
 ---
 
-# IG-86 Assassin Droid (IG86Droid) — version 1097
+# IG-86 Assassin Droid (IG86Droid) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,18 +21,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 6
   * Type: infantry
 
-|Level |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|8860|10260|11130|12450|13780|15100|16490|17840|19200|21880|
+|Level |9    |3    |4    |10   |8    |1   |7    |6    |5    |2    |
+|------|-----|-----|-----|-----|-----|----|-----|-----|-----|-----|
+|Health|19200|11130|12450|21880|17840|8860|16490|15100|13780|10260|
 
 
 ### Training stats
 
-|Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|42s                              |44s                                    |46s                                    |48s                                    |50s                                    |52s                                    |54s                                    |1m52s                                  |1m56s                                  |2m                                      |
-|Training cost|500$                             |700$                                   |900$                                   |1100$                                  |1300$                                  |1500$                                  |1700$                                  |2000$                                  |2100$                                  |2300$                                   |
-|Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |9                                      |3                                      |4                                      |10                                      |8                                      |1                                |7                                      |6                                      |5                                      |2                                      |
+|-------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|1m56s                                  |46s                                    |48s                                    |2m                                      |1m52s                                  |42s                              |54s                                    |52s                                    |50s                                    |44s                                    |
+|Training cost|2100$                                  |900$                                   |1100$                                  |2300$                                   |2000$                                  |500$                             |1700$                                  |1500$                                  |1300$                                  |700$                                   |
+|Building     |[Research Lab 9](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Barracks 2](empireBarracks.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -78,17 +78,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 150ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |9   |3   |4   |10  |8   |1   |7   |6   |5   |2   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|1236|1243|1268|1277|1286|1295|1354|1387|1421|1464|
+|Damage per shot|1421|1268|1277|1464|1387|1236|1354|1295|1286|1243|
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |9       |3       |4       |10      |8       |1       |7       |6       |5       |2       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
-|Calculated damage per second|2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
+|Displayed damage per second |3157.778|2817.778|2837.778|3253.333|3082.222|2746.667|3008.889|2877.778|2857.778|2762.222|
+|Calculated damage per second|3157.778|2817.778|2837.778|3253.333|3082.222|2746.667|3008.889|2877.778|2857.778|2762.222|
 
 
   * Cannons per sequence: 1
@@ -139,10 +139,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
 
-|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|Level                      |9          |3          |4          |10         |8          |1          |7          |6          |5          |2          |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|2746.667   |2762.222   |2817.778   |2837.778   |2857.778   |2877.778   |3008.889   |3082.222   |3157.778   |3253.333   |
-|Icon unlock scale          |1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|3157.778   |2817.778   |2837.778   |3253.333   |3082.222   |2746.667   |3008.889   |2877.778   |2857.778   |2762.222   |
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -160,9 +160,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |9     |3     |4     |10    |8     |1     |7     |6     |5     |2     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |134201|134202|134203|134204|134205|134206|134207|134208|134209|134210|
-|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+|Order      |134209|134203|134204|134210|134208|134201|134207|134206|134205|134202|
+|Point value|10.400|5.600 |6.400 |12    |9.600 |4     |8.800 |8     |7.200 |4.800 |
 
 

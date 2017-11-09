@@ -3,7 +3,7 @@ title: Rancor (promoRancorRebel)
 category: unit
 ---
 
-# Rancor (promoRancorRebel) — version 1097
+# Rancor (promoRancorRebel) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: mercenary
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9     |10    |
-|------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|
-|Health|33000|39600|46200|52800|59400|72600|79860|95040|102960|123750|
+|Level |8    |3    |10    |5    |1    |7    |6    |4    |2    |9     |
+|------|-----|-----|------|-----|-----|-----|-----|-----|-----|------|
+|Health|95040|46200|123750|59400|33000|79860|72600|52800|39600|102960|
 
 
 ### Training stats
@@ -74,19 +74,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 270ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |8   |3   |10  |5   |1   |7   |6   |4   |2   |9   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2880|2928|2976|3024|3072|3432|3590|4032|4147|4500|
+|Damage per shot|4032|2976|4500|3072|2880|3590|3432|3024|2928|4147|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,50
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |8       |3       |10      |5       |1       |7       |6       |4       |2       |9       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2880    |2928    |2976    |3024    |3072    |3120    |3264    |3360    |3456    |3600    |
-|Calculated damage per second|2149.254|2185.075|2220.896|2256.716|2292.537|2561.194|2679.104|3008.955|3094.776|3358.209|
+|Displayed damage per second |3360    |2976    |3600    |3072    |2880    |3264    |3120    |3024    |2928    |3456    |
+|Calculated damage per second|3008.955|2220.896|3358.209|2292.537|2149.254|2679.104|2561.194|2256.716|2185.075|3094.776|
 
 
   * Cannons per sequence: 2
@@ -127,9 +127,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |8   |3   |10  |5   |1   |7   |6   |4   |2   |9   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2880|2928|2976|3024|3072|3120|3264|3360|3456|3600|
+|Displayed damage per second|3360|2976|3600|3072|2880|3264|3120|3024|2928|3456|
 
 
 ## Uninterpreted stats
@@ -147,9 +147,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |8     |3     |10    |5     |1     |7     |6     |4     |2     |9     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |265901|265902|265903|265904|265905|265906|265907|265908|265909|265910|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |265908|265903|265910|265905|265901|265907|265906|265904|265902|265909|
+|Point value|48    |28    |60    |36    |20    |44    |40    |32    |24    |52    |
 
 

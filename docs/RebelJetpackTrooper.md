@@ -3,7 +3,7 @@ title: Jetpack Trooper (RebelJetpackTrooper)
 category: unit
 ---
 
-# Jetpack Trooper (RebelJetpackTrooper) — version 1097
+# Jetpack Trooper (RebelJetpackTrooper) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 7
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
-|------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-|Health|5600|6720|7840|8960|10080|11200|12320|13440|14560|16800|
+|Level |6    |3   |10   |1   |2   |7    |5    |8    |9    |4   |
+|------|-----|----|-----|----|----|-----|-----|-----|-----|----|
+|Health|11200|7840|16800|5600|6720|12320|10080|13440|14560|8960|
 
 
 ### Training stats
 
-|Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|2m20s                           |2m34s                                 |2m41s                                 |2m48s                                 |2m55s                                 |3m2s                                  |3m9s                                  |3m16s                                 |3m23s                                 |3m30s                                  |
-|Training cost|385$                            |539$                                  |693$                                  |847$                                  |1001$                                 |1155$                                 |1309$                                 |1540$                                 |1617$                                 |1771$                                  |
-|Building     |[Barracks 8](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |6                                     |3                                     |10                                     |1                               |2                                     |7                                     |5                                     |8                                     |9                                     |4                                     |
+|-------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+|Training time|3m2s                                  |2m41s                                 |3m30s                                  |2m20s                           |2m34s                                 |3m9s                                  |2m55s                                 |3m16s                                 |3m23s                                 |2m48s                                 |
+|Training cost|1155$                                 |693$                                  |1771$                                  |385$                            |539$                                  |1309$                                 |1001$                                 |1540$                                 |1617$                                 |847$                                  |
+|Building     |[Research Lab 6](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Barracks 8](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w3d    |
-|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|2000000$|
+|Level               |6      |3    |10      |1   |2    |7      |5     |8      |9       |4     |
+|--------------------|-------|-----|--------|----|-----|-------|------|-------|--------|------|
+|Upgrade time        |1d     |1h   |1w3d    |0s  |15m  |2d     |8h    |3d12h  |5d      |3h30m |
+|Upgrade requirements|100000$|4000$|2000000$|600$|1500$|160000$|25000$|320000$|1000000$|12500$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 750ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|---|---|----|----|----|----|----|----|----|
-|Damage per shot|700|840|980|1120|1260|1400|1540|1680|1820|2100|
+|Level          |6   |3  |10  |1  |2  |7   |5   |8   |9   |4   |
+|---------------|----|---|----|---|---|----|----|----|----|----|
+|Damage per shot|1400|980|2100|700|840|1540|1260|1680|1820|1120|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second |560|672|784 |896 |1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|800|960|1120|1280|1440|1600|1760|1920|2080|2400|
+|Level                       |6   |3   |10  |1  |2  |7   |5   |8   |9   |4   |
+|----------------------------|----|----|----|---|---|----|----|----|----|----|
+|Displayed damage per second |1120|784 |1680|560|672|1232|1008|1344|1456|896 |
+|Calculated damage per second|1600|1120|2400|800|960|1760|1440|1920|2080|1280|
 
 
   * Cannons per sequence: 2
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|----|----|----|----|----|----|
-|Displayed damage per second|560|672|784|896|1008|1120|1232|1344|1456|1680|
+|Level                      |6   |3  |10  |1  |2  |7   |5   |8   |9   |4  |
+|---------------------------|----|---|----|---|---|----|----|----|----|---|
+|Displayed damage per second|1120|784|1680|560|672|1232|1008|1344|1456|896|
 
 
 ## Uninterpreted stats
@@ -157,9 +157,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |6     |3     |10    |1     |2     |7     |5     |8     |9     |4     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |221101|221102|221103|221104|221105|221106|221107|221108|221109|221110|
-|Point value|7     |8.400 |9.800 |11.200|12.600|14    |15.400|16.800|18.200|21    |
+|Order      |221106|221103|221110|221101|221102|221107|221105|221108|221109|221104|
+|Point value|14    |9.800 |21    |7     |8.400 |15.400|12.600|16.800|18.200|11.200|
 
 

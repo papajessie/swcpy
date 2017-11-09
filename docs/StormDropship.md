@@ -3,7 +3,7 @@ title: Stormtrooper (StormDropship)
 category: unit
 ---
 
-# Stormtrooper (StormDropship) — version 1097
+# Stormtrooper (StormDropship) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 2
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------|----|----|----|----|----|----|----|----|----|-----|
-|Health|6120|6392|6664|7208|7480|7752|8024|8432|8840|10200|
+|Level |4   |6   |3   |10   |8   |7   |9   |2   |1   |5   |
+|------|----|----|----|-----|----|----|----|----|----|----|
+|Health|7208|7752|6664|10200|8432|8024|8840|6392|6120|7480|
 
 
 ### Training stats
 
   * Building: [Research Lab 2](empireOffenseLab.html)
 
-|Level        |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|-------------|---|---|---|----|----|----|----|----|----|----|
-|Training time|20s|22s|23s|24s |25s |26s |27s |28s |29s |30s |
-|Training cost|50$|70$|90$|110$|130$|150$|170$|200$|210$|230$|
+|Level        |4   |6   |3  |10  |8   |7   |9   |2  |1  |5   |
+|-------------|----|----|---|----|----|----|----|---|---|----|
+|Training time|24s |26s |23s|30s |28s |27s |29s |22s|20s|25s |
+|Training cost|110$|150$|90$|230$|200$|170$|210$|70$|50$|130$|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |4     |6      |3    |10      |8      |7      |9       |2    |1   |5     |
+|--------------------|------|-------|-----|--------|-------|-------|--------|-----|----|------|
+|Upgrade time        |3h30m |1d     |1h   |1w1d    |3d12h  |2d     |5d      |15m  |0s  |8h    |
+|Upgrade requirements|12500$|100000$|4000$|1750000$|320000$|160000$|1000000$|1500$|600$|25000$|
 
 
 ### Movement stats
@@ -82,17 +82,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 200ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |4  |6  |3  |10 |8  |7  |9  |2  |1  |5  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|195|204|213|230|239|247|256|269|282|325|
+|Damage per shot|230|247|213|325|269|256|282|204|195|239|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|Level                       |4      |6      |3      |10     |8      |7      |9      |2      |1      |5      |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |180    |188    |196    |212    |220    |228    |236    |248    |260    |300    |
-|Calculated damage per second|417.857|437.143|456.429|492.857|512.143|529.286|548.571|576.429|604.286|696.429|
+|Displayed damage per second |212    |228    |196    |300    |248    |236    |260    |188    |180    |220    |
+|Calculated damage per second|492.857|529.286|456.429|696.429|576.429|548.571|604.286|437.143|417.857|512.143|
 
 
   * Cannons per sequence: 1
@@ -138,9 +138,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                      |4  |6  |3  |10 |8  |7  |9  |2  |1  |5  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|180|188|196|212|220|228|236|248|260|300|
+|Displayed damage per second|212|228|196|300|248|236|260|188|180|220|
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |4     |6     |3     |10    |8     |7     |9     |2     |1     |5     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |135201|135202|135203|135204|135205|135206|135207|135208|135209|135210|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Order      |135204|135206|135203|135210|135208|135207|135209|135202|135201|135205|
+|Point value|1.600 |2     |1.400 |3     |2.400 |2.200 |2.600 |1.200 |1     |1.800 |
 
 

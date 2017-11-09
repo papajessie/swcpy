@@ -3,7 +3,7 @@ title: Er'Kit Militia Sniper (ErkitSniper)
 category: unit
 ---
 
-# Er'Kit Militia Sniper (ErkitSniper) — version 1097
+# Er'Kit Militia Sniper (ErkitSniper) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -20,27 +20,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 8
   * Type: infantry
 
-|Level         |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level         |10  |8   |2   |3   |4   |6   |5   |9   |7   |1   |
 |--------------|----|----|----|----|----|----|----|----|----|----|
-|Health        |3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
-|Buildable unit|Yes |Yes |Yes |Yes |Yes |Yes |Yes |Yes |No  |No  |
+|Health        |9600|7680|3840|4480|5120|6400|5760|8320|7040|3200|
+|Buildable unit|No  |Yes |Yes |Yes |Yes |Yes |Yes |No  |Yes |Yes |
 
 
 ### Training stats
 
-|Level        |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                        |
-|-------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|
-|Training time|1m3s                                                     |1m6s                                                     |1m9s                                                     |1m12s                                                    |1m15s                                                    |1m18s                                                    |1m21s                                                    |1m24s                                                    |1m27s                                                    |1m30s                                                     |
-|Training cost|400$                                                     |560$                                                     |720$                                                     |880$                                                     |1040$                                                    |1200$                                                    |1360$                                                    |1520$                                                    |1680$                                                    |1840$                                                     |
-|Building     |["bld_title_syndicateBarracks" 1](syndicateBarracks.html)|["bld_title_syndicateBarracks" 2](syndicateBarracks.html)|["bld_title_syndicateBarracks" 3](syndicateBarracks.html)|["bld_title_syndicateBarracks" 4](syndicateBarracks.html)|["bld_title_syndicateBarracks" 5](syndicateBarracks.html)|["bld_title_syndicateBarracks" 6](syndicateBarracks.html)|["bld_title_syndicateBarracks" 7](syndicateBarracks.html)|["bld_title_syndicateBarracks" 8](syndicateBarracks.html)|["bld_title_syndicateBarracks" 9](syndicateBarracks.html)|["bld_title_syndicateBarracks" 10](syndicateBarracks.html)|
+|Level        |10                                                        |8                                                        |2                                                        |3                                                        |4                                                        |6                                                        |5                                                        |9                                                        |7                                                        |1                                                        |
+|-------------|----------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+|Training time|1m30s                                                     |1m24s                                                    |1m6s                                                     |1m9s                                                     |1m12s                                                    |1m18s                                                    |1m15s                                                    |1m27s                                                    |1m21s                                                    |1m3s                                                     |
+|Training cost|1840$                                                     |1520$                                                    |560$                                                     |720$                                                     |880$                                                     |1200$                                                    |1040$                                                    |1680$                                                    |1360$                                                    |400$                                                     |
+|Building     |["bld_title_syndicateBarracks" 10](syndicateBarracks.html)|["bld_title_syndicateBarracks" 8](syndicateBarracks.html)|["bld_title_syndicateBarracks" 2](syndicateBarracks.html)|["bld_title_syndicateBarracks" 3](syndicateBarracks.html)|["bld_title_syndicateBarracks" 4](syndicateBarracks.html)|["bld_title_syndicateBarracks" 6](syndicateBarracks.html)|["bld_title_syndicateBarracks" 5](syndicateBarracks.html)|["bld_title_syndicateBarracks" 9](syndicateBarracks.html)|["bld_title_syndicateBarracks" 7](syndicateBarracks.html)|["bld_title_syndicateBarracks" 1](syndicateBarracks.html)|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s  |45m  |2h   |6h    |12h   |2d     |3d     |5d     |1w      |1w3d    |
-|Upgrade requirements|500$|1000$|4000$|13000$|18000$|100000$|175000$|340000$|1000000$|1800000$|
+|Level               |10      |8      |2    |3    |4     |6      |5     |9       |7      |1   |
+|--------------------|--------|-------|-----|-----|------|-------|------|--------|-------|----|
+|Upgrade time        |1w3d    |5d     |45m  |2h   |6h    |2d     |12h   |1w      |3d     |0s  |
+|Upgrade requirements|1800000$|340000$|1000$|4000$|13000$|100000$|18000$|1000000$|175000$|500$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|----|----|----|----|----|----|----|----|----|
-|Damage per shot|954|1144|1335|1526|1716|1907|2098|2288|2479|2860|
+|Level          |10  |8   |2   |3   |4   |6   |5   |9   |7   |1  |
+|---------------|----|----|----|----|----|----|----|----|----|---|
+|Damage per shot|2860|2288|1144|1335|1526|1907|1716|2479|2098|954|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1      |2   |3       |4       |5   |6       |7       |8   |9       |10  |
-|----------------------------|-------|----|--------|--------|----|--------|--------|----|--------|----|
-|Displayed damage per second |877    |1052|1228    |1403    |1578|1754    |1930    |2104|2280    |2631|
-|Calculated damage per second|880.615|1056|1232.308|1408.615|1584|1760.308|1936.615|2112|2288.308|2640|
+|Level                       |10  |8   |2   |3       |4       |6       |5   |9       |7       |1      |
+|----------------------------|----|----|----|--------|--------|--------|----|--------|--------|-------|
+|Displayed damage per second |2631|2104|1052|1228    |1403    |1754    |1578|2280    |1930    |877    |
+|Calculated damage per second|2640|2112|1056|1232.308|1408.615|1760.308|1584|2288.308|1936.615|880.615|
 
 
   * Cannons per sequence: 1
@@ -138,9 +138,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|877|1052|1228|1403|1578|1754|1930|2104|2280|2631|
+|Level                      |10  |8   |2   |3   |4   |6   |5   |9   |7   |1  |
+|---------------------------|----|----|----|----|----|----|----|----|----|---|
+|Displayed damage per second|2631|2104|1052|1228|1403|1754|1578|2280|1930|877|
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |10    |8     |2     |3     |4     |6     |5     |9     |7     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |333701|333702|333703|333704|333705|333706|333707|333708|333709|333710|
-|Point value|8     |9.600 |11.200|12.800|14.400|16    |17.600|19.200|20.800|24    |
+|Order      |333710|333708|333702|333703|333704|333706|333705|333709|333707|333701|
+|Point value|24    |19.200|9.600 |11.200|12.800|16    |14.400|20.800|17.600|8     |
 
 

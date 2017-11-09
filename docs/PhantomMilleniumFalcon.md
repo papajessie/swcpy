@@ -3,7 +3,7 @@ title: "trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon)
 category: unit
 ---
 
-# "trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon) — version 1097
+# "trp_title_PhantomMilleniumFalcon" (PhantomMilleniumFalcon) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum millenium falcon target: enemies
   * Sum millenium falcon value: 1
 
-|Level                               |1                                                            |2                                                            |3                                                            |4                                                            |5                                                            |6                                                            |7                                                            |8                                                            |9                                                            |10                                                            |
-|------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|
-|Sum millenium falcon summon visitors|["shp_title_MillenniumFalcon" level 1](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 2](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 3](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 4](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 5](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 6](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 7](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 8](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 9](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 10](MillenniumFalcon.html)|
+|Level                               |3                                                            |2                                                            |1                                                            |8                                                            |5                                                            |4                                                            |10                                                            |7                                                            |6                                                            |9                                                            |
+|------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
+|Sum millenium falcon summon visitors|["shp_title_MillenniumFalcon" level 3](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 2](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 1](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 8](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 5](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 4](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 10](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 7](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 6](MillenniumFalcon.html)|["shp_title_MillenniumFalcon" level 9](MillenniumFalcon.html)|
 
 
   * Sum millenium falcon summon die with summoner: No
@@ -127,9 +127,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum millenium falcon summon target summoner: No
   * Sum millenium falcon summon visitor type: SpecialAttack
 
-|Level                                   |1                            |2                            |3                            |4                            |5                            |6                            |7                            |8                            |9                            |10                            |
-|----------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|
-|Sum millenium falcon summon visitor uids|specialAttackMilleniumFalcon1|specialAttackMilleniumFalcon2|specialAttackMilleniumFalcon3|specialAttackMilleniumFalcon4|specialAttackMilleniumFalcon5|specialAttackMilleniumFalcon6|specialAttackMilleniumFalcon7|specialAttackMilleniumFalcon8|specialAttackMilleniumFalcon9|specialAttackMilleniumFalcon10|
+|Level                                   |3                            |2                            |1                            |8                            |5                            |4                            |10                            |7                            |6                            |9                            |
+|----------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|-----------------------------|-----------------------------|-----------------------------|
+|Sum millenium falcon summon visitor uids|specialAttackMilleniumFalcon3|specialAttackMilleniumFalcon2|specialAttackMilleniumFalcon1|specialAttackMilleniumFalcon8|specialAttackMilleniumFalcon5|specialAttackMilleniumFalcon4|specialAttackMilleniumFalcon10|specialAttackMilleniumFalcon7|specialAttackMilleniumFalcon6|specialAttackMilleniumFalcon9|
 
 
 ## Internal stats
@@ -139,11 +139,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomMilleniumFalcon
 
-|Level                          |1                      |2                      |3                      |4                      |5                      |6                      |7                      |8                      |9                      |10                      |
-|-------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
-|Apply buffs                    |buffSumMilleniumFalcon1|buffSumMilleniumFalcon2|buffSumMilleniumFalcon3|buffSumMilleniumFalcon4|buffSumMilleniumFalcon5|buffSumMilleniumFalcon6|buffSumMilleniumFalcon7|buffSumMilleniumFalcon8|buffSumMilleniumFalcon9|buffSumMilleniumFalcon10|
-|Sum millenium falcon details   |sumMilleniumFalcon1    |sumMilleniumFalcon2    |sumMilleniumFalcon3    |sumMilleniumFalcon4    |sumMilleniumFalcon5    |sumMilleniumFalcon6    |sumMilleniumFalcon7    |sumMilleniumFalcon8    |sumMilleniumFalcon9    |sumMilleniumFalcon10    |
-|Sum millenium falcon summon uid|sumMilleniumFalcon1    |sumMilleniumFalcon2    |sumMilleniumFalcon3    |sumMilleniumFalcon4    |sumMilleniumFalcon5    |sumMilleniumFalcon6    |sumMilleniumFalcon7    |sumMilleniumFalcon8    |sumMilleniumFalcon9    |sumMilleniumFalcon10    |
+|Level                          |3                      |2                      |1                      |8                      |5                      |4                      |10                      |7                      |6                      |9                      |
+|-------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|-----------------------|-----------------------|-----------------------|
+|Apply buffs                    |buffSumMilleniumFalcon3|buffSumMilleniumFalcon2|buffSumMilleniumFalcon1|buffSumMilleniumFalcon8|buffSumMilleniumFalcon5|buffSumMilleniumFalcon4|buffSumMilleniumFalcon10|buffSumMilleniumFalcon7|buffSumMilleniumFalcon6|buffSumMilleniumFalcon9|
+|Sum millenium falcon details   |sumMilleniumFalcon3    |sumMilleniumFalcon2    |sumMilleniumFalcon1    |sumMilleniumFalcon8    |sumMilleniumFalcon5    |sumMilleniumFalcon4    |sumMilleniumFalcon10    |sumMilleniumFalcon7    |sumMilleniumFalcon6    |sumMilleniumFalcon9    |
+|Sum millenium falcon summon uid|sumMilleniumFalcon3    |sumMilleniumFalcon2    |sumMilleniumFalcon1    |sumMilleniumFalcon8    |sumMilleniumFalcon5    |sumMilleniumFalcon4    |sumMilleniumFalcon10    |sumMilleniumFalcon7    |sumMilleniumFalcon6    |sumMilleniumFalcon9    |
 
 
 ## Presentation stats
@@ -188,8 +188,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|3     |2     |1     |8     |5     |4     |10    |7     |6     |9     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400000|400001|400002|400003|400004|400005|400006|400007|400008|400009|
+|Order|400002|400001|400000|400007|400004|400003|400009|400006|400005|400008|
 
 

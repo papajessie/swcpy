@@ -3,7 +3,7 @@ title: Hunter Rancor (EmpireHunterRancor)
 category: unit
 ---
 
-# Hunter Rancor (EmpireHunterRancor) — version 1097
+# Hunter Rancor (EmpireHunterRancor) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: infantry
 
-|Level |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|------|-----|-----|------|------|------|------|------|------|------|------|
-|Health|89100|95080|101500|108390|115790|136125|145530|169800|181680|190325|
+|Level |1    |8     |9     |4     |10    |2    |7     |6     |5     |3     |
+|------|-----|------|------|------|------|-----|------|------|------|------|
+|Health|89100|169800|181680|108390|190325|95080|145530|136125|115790|101500|
 
 
 ### Training stats
@@ -74,9 +74,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 270ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |1   |8   |9   |4   |10  |2   |7   |6   |5   |3   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3690|3810|3940|4070|4210|4785|4950|5580|5772|6225|
+|Damage per shot|3690|5580|5772|4070|6225|3810|4950|4785|4210|3940|
 
 
 ### Projectile
@@ -84,9 +84,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Displayed damage per second: 2928
   * Splash damage percentages: 100,50
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |1       |8       |9       |4       |10      |2       |7       |6       |5       |3       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Calculated damage per second|2753.731|2843.284|2940.299|3037.313|3141.791|3570.896|3694.030|4164.179|4307.463|4645.522|
+|Calculated damage per second|2753.731|4164.179|4307.463|3037.313|4645.522|2843.284|3694.030|3570.896|3141.791|2940.299|
 
 
   * Cannons per sequence: 2
@@ -127,9 +127,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level               |1, 2, 3, 4, 5, 6, 7, 8, 9|10     |
-|--------------------|-------------------------|-------|
-|Favorite target type|infantry                 |closest|
+|Level               |1, 8, 9, 4|10     |2, 7, 6, 5, 3|
+|--------------------|----------|-------|-------------|
+|Favorite target type|infantry  |closest|infantry     |
 
 
 ## Uninterpreted stats
@@ -147,9 +147,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |1     |8     |9     |4     |10    |2     |7     |6     |5     |3     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |125301|125302|125303|125304|125305|125306|125307|125308|125309|125310|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |125301|125308|125309|125304|125310|125302|125307|125306|125305|125303|
+|Point value|20    |48    |52    |32    |60    |24    |44    |40    |36    |28    |
 
 

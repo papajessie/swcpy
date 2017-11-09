@@ -3,7 +3,7 @@ title: Stolen AT-DP Walker (StolenATDP)
 category: unit
 ---
 
-# Stolen AT-DP Walker (StolenATDP) — version 1097
+# Stolen AT-DP Walker (StolenATDP) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 16
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |4    |7    |3    |8    |2    |10   |9    |6    |5    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|61440|62970|64540|66150|67810|69510|71260|73060|74900|76800|
+|Health|66150|71260|64540|73060|62970|76800|74900|69510|67810|61440|
 
 
 ### Training stats
 
-|Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|7m28s                         |7m29s                                 |7m30s                                 |7m32s                                 |7m34s                                 |7m36s                                 |7m38s                                 |7m40s                                 |7m44s                                 |8m                                     |
-|Training cost|3520$                         |3540$                                 |3560$                                 |3580$                                 |3600$                                 |3620$                                 |3640$                                 |3660$                                 |3696$                                 |4048$                                  |
-|Building     |[Factory 8](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |4                                     |7                                     |3                                     |8                                     |2                                     |10                                     |9                                     |6                                     |5                                     |1                             |
+|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|
+|Training time|7m32s                                 |7m38s                                 |7m30s                                 |7m40s                                 |7m29s                                 |8m                                     |7m44s                                 |7m36s                                 |7m34s                                 |7m28s                         |
+|Training cost|3580$                                 |3640$                                 |3560$                                 |3660$                                 |3540$                                 |4048$                                  |3696$                                 |3620$                                 |3600$                                 |3520$                         |
+|Building     |[Research Lab 4](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Factory 8](rebelFactory.html)|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |4     |7      |3    |8      |2    |10      |9       |6      |5     |1   |
+|--------------------|------|-------|-----|-------|-----|--------|--------|-------|------|----|
+|Upgrade time        |3h30m |2d     |1h   |3d12h  |15m  |1w1d    |5d      |1d     |8h    |0s  |
+|Upgrade requirements|12500$|160000$|4000$|320000$|1500$|1750000$|1000000$|100000$|25000$|600$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |4   |7   |3   |8   |2   |10  |9   |6   |5   |1   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3460|3540|3630|3720|3810|3910|4010|4110|4210|4320|
+|Damage per shot|3720|4010|3630|4110|3540|4320|4210|3910|3810|3460|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10  |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|----|
-|Displayed damage per second |3080    |3150    |3230    |3310    |3390    |3480    |3560    |3650    |3740    |3840|
-|Calculated damage per second|3075.556|3146.667|3226.667|3306.667|3386.667|3475.556|3564.444|3653.333|3742.222|3840|
+|Level                       |4       |7       |3       |8       |2       |10  |9       |6       |5       |1       |
+|----------------------------|--------|--------|--------|--------|--------|----|--------|--------|--------|--------|
+|Displayed damage per second |3310    |3560    |3230    |3650    |3150    |3840|3740    |3480    |3390    |3080    |
+|Calculated damage per second|3306.667|3564.444|3226.667|3653.333|3146.667|3840|3742.222|3475.556|3386.667|3075.556|
 
 
   * Cannons per sequence: 1
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |4   |7   |3   |8   |2   |10  |9   |6   |5   |1   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|3080|3150|3230|3310|3390|3480|3560|3650|3740|3840|
+|Displayed damage per second|3310|3560|3230|3650|3150|3840|3740|3480|3390|3080|
 
 
 ## Uninterpreted stats
@@ -157,8 +157,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|4     |7     |3     |8     |2     |10    |9     |6     |5     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|480404|480408|480412|480416|480420|480424|480428|480432|480436|480440|
+|Order|480416|480428|480412|480432|480408|480440|480436|480424|480420|480404|
 
 

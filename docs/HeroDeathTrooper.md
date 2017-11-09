@@ -3,7 +3,7 @@ title: Death Trooper (HeroDeathTrooper)
 category: unit
 ---
 
-# Death Trooper (HeroDeathTrooper) — version 1097
+# Death Trooper (HeroDeathTrooper) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,18 +21,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |2    |9    |8    |3    |6    |10   |4    |1    |5    |7    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|16000|17330|18660|20000|21330|22660|24000|25330|27330|30000|
+|Health|17330|27330|25330|18660|22660|30000|20000|16000|21330|24000|
 
 
 ### Training stats
 
-|Level        |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|3m30s                                       |3m40s                                  |3m50s                                  |4m                                     |4m10s                                  |4m20s                                  |4m30s                                  |9m20s                                  |9m40s                                  |10m                                     |
-|Training cost|1000$                                       |1400$                                  |1800$                                  |2200$                                  |2600$                                  |3000$                                  |3400$                                  |4000$                                  |4200$                                  |4600$                                   |
-|Building     |[Hero Command 2](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |2                                      |9                                      |8                                      |3                                      |6                                      |10                                      |4                                      |1                                           |5                                      |7                                      |
+|-------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|--------------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|3m40s                                  |9m40s                                  |9m20s                                  |3m50s                                  |4m20s                                  |10m                                     |4m                                     |3m30s                                       |4m10s                                  |4m30s                                  |
+|Training cost|1400$                                  |4200$                                  |4000$                                  |1800$                                  |3000$                                  |4600$                                   |2200$                                  |1000$                                       |2600$                                  |3400$                                  |
+|Building     |[Research Lab 2](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Hero Command 2](empireTacticalCommand.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -78,17 +78,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 400ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |2   |9   |8   |3   |6   |10  |4   |1   |5   |7   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2630|2810|3040|3320|3590|3830|4010|4190|4520|4980|
+|Damage per shot|2810|4520|4190|3040|3830|4980|3320|2630|3590|4010|
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |2       |9       |8       |3       |6       |10      |4       |1       |5       |7       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2181    |2545    |3090    |3454    |3818    |4363    |4909    |5272    |5636    |6545    |
-|Calculated damage per second|3627.586|3875.862|4193.103|4579.310|4951.724|5282.759|5531.034|5779.310|6234.483|6868.966|
+|Displayed damage per second |2545    |5636    |5272    |3090    |4363    |6545    |3454    |2181    |3818    |4909    |
+|Calculated damage per second|3875.862|6234.483|5779.310|4193.103|5282.759|6868.966|4579.310|3627.586|4951.724|5531.034|
 
 
   * Cannons per sequence: 1
@@ -107,9 +107,9 @@ These stats internal to the system link different parts of data together.
   * Unit ID: HeroDeathTrooper
   * Upgrade shard uid: shrd_troopHeroDeathTrooper
 
-|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+|Level    |2    |9    |8    |3    |6    |10    |4    |1    |5    |7    |
+|---------|-----|-----|-----|-----|-----|------|-----|-----|-----|-----|
+|Hero data|hero2|hero9|hero8|hero3|hero6|hero10|hero4|hero1|hero5|hero7|
 
 
 ## Presentation stats
@@ -149,10 +149,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
 
-|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|Level                      |2          |9          |8          |3          |6          |10         |4          |1          |5          |7          |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|2181       |2545       |3090       |3454       |3818       |4363       |4909       |5272       |5636       |6545       |
-|Icon unlock scale          |1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|2545       |5636       |5272       |3090       |4363       |6545       |3454       |2181       |3818       |4909       |
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|1.2,1.2,1.2|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -170,9 +170,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |2     |9     |8     |3     |6     |10    |4     |1     |5     |7     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |111201|111202|111203|111204|111205|111206|111207|111208|111209|111210|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |111202|111209|111208|111203|111206|111210|111204|111201|111205|111207|
+|Point value|24    |52    |48    |28    |40    |60    |32    |20    |36    |44    |
 
 

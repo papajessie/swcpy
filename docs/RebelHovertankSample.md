@@ -3,7 +3,7 @@ title: Stolen TX-225 (RebelHovertankSample)
 category: unit
 ---
 
-# Stolen TX-225 (RebelHovertankSample) — version 1097
+# Stolen TX-225 (RebelHovertankSample) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,19 +21,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 9
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |7    |3    |9    |6    |2    |10   |5    |1    |8    |4    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|38880|41104|43456|45968|48640|51488|54512|57728|61152|64800|
+|Health|54512|43456|61152|51488|41104|64800|48640|38880|57728|45968|
 
 
 ### Training stats
 
   * Building: [Headquarters 2](rebelHQ.html)
 
-|Level        |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|-------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time|4m  |4m2s |4m4s |4m7s |4m10s|4m13s|4m16s|4m20s|4m24s|4m30s|
-|Training cost|990$|1030$|1070$|1120$|1170$|1350$|1530$|1800$|1890$|2070$|
+|Level        |7    |3    |9    |6    |2    |10   |5    |1   |8    |4    |
+|-------------|-----|-----|-----|-----|-----|-----|-----|----|-----|-----|
+|Training time|4m16s|4m4s |4m24s|4m13s|4m2s |4m30s|4m10s|4m  |4m20s|4m7s |
+|Training cost|1530$|1070$|1890$|1350$|1030$|2070$|1170$|990$|1800$|1120$|
 
 
 ### Upgrading stats
@@ -79,19 +79,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 800ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |7   |3   |9   |6   |2   |10  |5   |1   |8   |4   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|1296|1360|1440|1536|1616|1712|1824|1920|2048|2176|
+|Damage per shot|1824|1440|2048|1712|1360|2176|1616|1296|1920|1536|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,50
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |7       |3       |9       |6       |2       |10      |5       |1       |8       |4       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1450    |1550    |1650    |1750    |1850    |1950    |2100    |2200    |2350    |2500    |
-|Calculated damage per second|4459.355|4679.570|4954.839|5285.161|5560.430|5890.753|6276.129|6606.452|7046.882|7487.312|
+|Displayed damage per second |2100    |1650    |2350    |1950    |1550    |2500    |1850    |1450    |2200    |1750    |
+|Calculated damage per second|6276.129|4954.839|7046.882|5890.753|4679.570|7487.312|5560.430|4459.355|6606.452|5285.161|
 
 
   * Cannons per sequence: 4
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |7   |3   |9   |6   |2   |10  |5   |1   |8   |4   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1450|1550|1650|1750|1850|1950|2100|2200|2350|2500|
+|Displayed damage per second|2100|1650|2350|1950|1550|2500|1850|1450|2200|1750|
 
 
 ## Uninterpreted stats
@@ -158,8 +158,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|7     |3     |9     |6     |2     |10    |5     |1     |8     |4     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|233001|233002|233003|233004|233005|233006|233007|233008|233009|233010|
+|Order|233007|233003|233009|233006|233002|233010|233005|233001|233008|233004|
 
 

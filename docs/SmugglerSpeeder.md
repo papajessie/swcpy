@@ -3,7 +3,7 @@ title: Mercenary Renegade (SmugglerSpeeder)
 category: unit
 ---
 
-# Mercenary Renegade (SmugglerSpeeder) — version 1097
+# Mercenary Renegade (SmugglerSpeeder) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 6
   * Type: vehicle
 
-|Level |1 |2  |3  |4  |5    |6    |7    |8    |9    |10   |
-|------|--|---|---|---|-----|-----|-----|-----|-----|-----|
-|Health|90|110|120|130|11880|13200|14520|15840|17160|19800|
+|Level |10   |8    |6    |5    |4  |3  |7    |9    |1 |2  |
+|------|-----|-----|-----|-----|---|---|-----|-----|--|---|
+|Health|19800|15840|13200|11880|130|120|14520|17160|90|110|
 
 
 ### Training stats
 
-|Level        |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|-------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time|2m6s|2m12s|2m18s|2m24s|2m30s|2m36s|2m42s|2m48s|2m54s|3m   |
-|Training cost|300$|420$ |540$ |660$ |780$ |900$ |1020$|1140$|1260$|1380$|
+|Level        |10   |8    |6    |5    |4    |3    |7    |9    |1   |2    |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|----|-----|
+|Training time|3m   |2m48s|2m36s|2m30s|2m24s|2m18s|2m42s|2m54s|2m6s|2m12s|
+|Training cost|1380$|1140$|900$ |780$ |660$ |540$ |1020$|1260$|300$|420$ |
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |1   |2   |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|500$|900$|5000$|14000$|19000$|119000$|186000$|363000$|1130000$|1947000$|
+|Level               |10      |8      |6      |5     |4     |3    |7      |9       |1   |2   |
+|--------------------|--------|-------|-------|------|------|-----|-------|--------|----|----|
+|Upgrade requirements|1947000$|363000$|119000$|19000$|14000$|5000$|186000$|1130000$|500$|900$|
 
 
 ### Movement stats
@@ -65,10 +65,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 8
 
-|Level             |1                                                                                                                                                                                                                                                                                                                                                   |2, 3, 4                                                                                                                                                                                                                                                                                                                                             |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Max attack range  |4                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|Target preferences|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Flying infantry (70)**, **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry (70)**, **Infantry hero (70)**, **Support troop (70)**, _Turret (55)_, Flying vehicle (50), Heavy vehicle (50), Heavy vehicule hero (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Vehicule hero (50), Headquarters (40), Wall (1), Trap (0)|
+|Level             |10, 8, 6, 5                                                                                                                                                                                                                                                                                                                                                                                                                            |4, 3                                                                                                                                                                                                                                                                                                                                                |7, 9                                                                                                                                                                                                                                                                                                                                                                                                                                   |1                                                                                                                                                                                                                                                                                                                                                   |2                                                                                                                                                                                                                                                                                                                                                   |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Max attack range  |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |6                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                                                                                                      |4                                                                                                                                                                                                                                                                                                                                                   |6                                                                                                                                                                                                                                                                                                                                                   |
+|Target preferences|**Droideka (70)**, **Flying infantry (70)**, **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry (70)**, **Infantry hero (70)**, **Support troop (70)**, _Turret (55)_, Flying vehicle (50), Heavy vehicle (50), Heavy vehicule hero (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Vehicule hero (50), Headquarters (40), Wall (1), Trap (0)|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Flying infantry (70)**, **Heavy infantry (70)**, **Heavy infantry hero (70)**, **Infantry (70)**, **Infantry hero (70)**, **Support troop (70)**, _Turret (55)_, Flying vehicle (50), Heavy vehicle (50), Heavy vehicule hero (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Vehicule hero (50), Headquarters (40), Wall (1), Trap (0)|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Droideka (70)**, **Heavy infantry (70)**, **Infantry (70)**, _Turret (55)_, Heavy vehicle (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|
 
 
 ### Shooting
@@ -84,18 +84,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level             |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
-|------------------|---|---|---|---|----|----|----|----|----|----|
-|Damage per shot   |105|126|147|168|1134|1260|1386|1512|1638|1890|
-|Retargeting offset|8  |12 |12 |12 |12  |12  |12  |12  |12  |12  |
+|Level             |10  |8   |6   |5   |4  |3  |7   |9   |1  |2  |
+|------------------|----|----|----|----|---|---|----|----|---|---|
+|Damage per shot   |1890|1512|1260|1134|168|147|1386|1638|105|126|
+|Retargeting offset|12  |12  |12  |12  |12 |12 |12  |12  |8  |12 |
 
 
 ### Projectile
 
-|Level                       |1     |2  |3      |4      |5   |6   |7   |8   |9   |10  |
-|----------------------------|------|---|-------|-------|----|----|----|----|----|----|
-|Displayed damage per second |93    |112|130    |149    |1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|93.333|112|130.667|149.333|1008|1120|1232|1344|1456|1680|
+|Level                       |10  |8   |6   |5   |4      |3      |7   |9   |1     |2  |
+|----------------------------|----|----|----|----|-------|-------|----|----|------|---|
+|Displayed damage per second |1680|1344|1120|1008|149    |130    |1232|1456|93    |112|
+|Calculated damage per second|1680|1344|1120|1008|149.333|130.667|1232|1456|93.333|112|
 
 
   * Cannons per sequence: 2
@@ -139,9 +139,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1 |2  |3  |4  |5   |6   |7   |8   |9   |10  |
-|---------------------------|--|---|---|---|----|----|----|----|----|----|
-|Displayed damage per second|93|112|130|149|1008|1120|1232|1344|1456|1680|
+|Level                      |10  |8   |6   |5   |4  |3  |7   |9   |1 |2  |
+|---------------------------|----|----|----|----|---|---|----|----|--|---|
+|Displayed damage per second|1680|1344|1120|1008|149|130|1232|1456|93|112|
 
 
 ## Uninterpreted stats
@@ -159,9 +159,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |10    |8     |6     |5     |4     |3     |7     |9     |1     |2     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |341201|341202|341203|341204|341205|341206|341207|341208|341209|341210|
-|Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
+|Order      |341210|341208|341206|341205|341204|341203|341207|341209|341201|341202|
+|Point value|18    |14.400|12    |10.800|9.600 |8.400 |13.200|15.600|6     |7.200 |
 
 

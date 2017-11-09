@@ -3,7 +3,7 @@ title: Droideka Sentinal (ChampionEmpireDroidekaSample)
 category: unit
 ---
 
-# Droideka Sentinal (ChampionEmpireDroidekaSample) — version 1097
+# Droideka Sentinal (ChampionEmpireDroidekaSample) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -20,10 +20,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 12
   * Type: vehicle
 
-|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level        |5    |10   |8    |2    |1    |4    |6    |3    |9    |7    |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |19200|23680|26880|30080|33280|36480|39040|41600|43840|46080|
-|Shield health|14400|17760|20160|22560|24960|27360|29280|31200|32400|33600|
+|Health       |33280|46080|41600|23680|19200|30080|36480|26880|43840|39040|
+|Shield health|24960|33600|31200|17760|14400|22560|27360|20160|32400|29280|
 
 
 ### Training stats
@@ -31,9 +31,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training cost: Free
   * Building: [Headquarters 1](empireHQ.html)
 
-|Level        |1   |2    |3    |4    |5    |6    |7   |8, 9, 10|
-|-------------|----|-----|-----|-----|-----|-----|----|--------|
-|Training time|1h8m|1h18m|1h28m|1h39m|1h48m|1h58m|2h8m|2h19m   |
+|Level        |5    |10, 8|2    |1   |4    |6    |3    |9    |7   |
+|-------------|-----|-----|-----|----|-----|-----|-----|-----|----|
+|Training time|1h48m|2h19m|1h18m|1h8m|1h39m|1h58m|1h28m|2h19m|2h8m|
 
 
 ### Upgrading stats
@@ -77,19 +77,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 233ms
   * Target locking: No
 
-|Level                |1      |2      |3      |4      |5      |6      |7      |8          |9          |10         |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|-----------|
-|Damage per shot      |660    |815    |925    |1034   |1145   |1255   |1343   |965        |1036       |1106       |
-|Gun shooting sequence|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,1,2,2,2|
-|Shot count           |8      |8      |8      |8      |8      |8      |8      |12         |12         |12         |
+|Level                |5      |10         |8          |2      |1      |4      |6      |3      |9          |7      |
+|---------------------|-------|-----------|-----------|-------|-------|-------|-------|-------|-----------|-------|
+|Damage per shot      |1145   |1106       |965        |815    |660    |1034   |1255   |925    |1036       |1343   |
+|Gun shooting sequence|1,1,2,2|1,1,1,2,2,2|1,1,1,2,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,2,2|1,1,1,2,2,2|1,1,2,2|
+|Shot count           |8      |12         |12         |8      |8      |8      |8      |8      |12         |8      |
 
 
 ### Projectile
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level                       |5       |10      |8       |2       |1       |4       |6       |3       |9       |7       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2640    |3260    |3699    |4136    |4578    |5019    |5370    |5721    |6216    |6636    |
-|Calculated damage per second|3107.710|3837.552|4355.503|4868.746|5391.407|5909.358|6323.720|6815.774|7317.245|7811.654|
+|Displayed damage per second |4578    |6636    |5721    |3260    |2640    |4136    |5019    |3699    |6216    |5370    |
+|Calculated damage per second|5391.407|7811.654|6815.774|3837.552|3107.710|4868.746|5909.358|4355.503|7317.245|6323.720|
 
 
   * Cliptime: 1.699s
@@ -100,9 +100,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
 
-|Level               |1, 2, 3, 4, 5, 6, 7|8, 9, 10|
-|--------------------|-------------------|--------|
-|Cannons per sequence|4                  |6       |
+|Level               |5|10, 8|2, 1, 4, 6, 3|9|7|
+|--------------------|-|-----|-------------|-|-|
+|Cannons per sequence|4|6    |4            |6|4|
 
 
 ## Internal stats
@@ -136,14 +136,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
 
-|Level                      |1                          |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                          |
-|---------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name                 |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Bundle name                |droideka_con-ani-up1       |droideka_con-ani-up10       |droideka_con-ani-up10       |droideka_con-ani-up20       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up30       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up40       |
-|Displayed damage per second|2640                       |3260                        |3699                        |4136                        |4578                        |5019                        |5370                        |5721                        |6216                        |6636                        |
-|Icon camera position       |18.67,14.16,15.1           |15.43,14.67,18.88           |15.43,14.67,18.88           |15.88,14.81,19.14           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.91,14.58,19.08           |21.79,18.39,13.58           |21.79,18.39,13.58           |21.79,18.39,13.58           |
-|Icon lookat position       |-0.39,1.23,-0.21           |-0.32,1.71,0.09             |-0.32,1.71,0.09             |-0.19,1.6,0                 |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.1,1.43,0.08              |-0.35,1.49,0.26             |-0.35,1.49,0.26             |-0.35,1.49,0.26             |
-|Shield asset name          |effectEmpireDroidekaShield1|effectEmpireDroidekaShield10|effectEmpireDroidekaShield10|effectEmpireDroidekaShield20|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield30|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|
+|Level                      |5                           |10                          |8                           |2                           |1                          |4                           |6                           |3                           |9                           |7                           |
+|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name                 |droideka_con-ani-up20       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up10       |droideka_con-ani-up40       |droideka_con-ani-up30       |
+|Bundle name                |droideka_con-ani-up20       |droideka_con-ani-up40       |droideka_con-ani-up40       |droideka_con-ani-up10       |droideka_con-ani-up1       |droideka_con-ani-up20       |droideka_con-ani-up30       |droideka_con-ani-up10       |droideka_con-ani-up40       |droideka_con-ani-up30       |
+|Displayed damage per second|4578                        |6636                        |5721                        |3260                        |2640                       |4136                        |5019                        |3699                        |6216                        |5370                        |
+|Icon camera position       |15.88,14.81,19.14           |21.79,18.39,13.58           |21.79,18.39,13.58           |15.43,14.67,18.88           |18.67,14.16,15.1           |15.88,14.81,19.14           |15.91,14.58,19.08           |15.43,14.67,18.88           |21.79,18.39,13.58           |15.91,14.58,19.08           |
+|Icon lookat position       |-0.19,1.6,0                 |-0.35,1.49,0.26             |-0.35,1.49,0.26             |-0.32,1.71,0.09             |-0.39,1.23,-0.21           |-0.19,1.6,0                 |-0.1,1.43,0.08              |-0.32,1.71,0.09             |-0.35,1.49,0.26             |-0.1,1.43,0.08              |
+|Shield asset name          |effectEmpireDroidekaShield20|effectEmpireDroidekaShield40|effectEmpireDroidekaShield40|effectEmpireDroidekaShield10|effectEmpireDroidekaShield1|effectEmpireDroidekaShield20|effectEmpireDroidekaShield30|effectEmpireDroidekaShield10|effectEmpireDroidekaShield40|effectEmpireDroidekaShield30|
 
 
 ## Uninterpreted stats
@@ -161,8 +161,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1 |2 |3 |4  |5  |6  |7  |8, 9, 10|
-|-----------|--|--|--|---|---|---|---|--------|
-|Point value|40|68|88|108|128|148|172|200     |
+|Level      |5  |10, 8|2 |1 |4  |6  |3 |9  |7  |
+|-----------|---|-----|--|--|---|---|--|---|---|
+|Point value|128|200  |68|40|108|148|88|200|172|
 
 

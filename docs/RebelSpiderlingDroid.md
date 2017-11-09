@@ -3,7 +3,7 @@ title: "trp_title_RebelSpiderlingDroid" (RebelSpiderlingDroid)
 category: unit
 ---
 
-# "trp_title_RebelSpiderlingDroid" (RebelSpiderlingDroid) — version 1097
+# "trp_title_RebelSpiderlingDroid" (RebelSpiderlingDroid) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: vehicle
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |2   |7   |3   |8   |4   |10  |6   |5   |1   |9   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|5250|5360|5470|5580|5690|5810|5930|6050|6180|6310|
+|Health|5360|5930|5470|6050|5580|6310|5810|5690|5250|6180|
 
 
 ### Training stats
@@ -105,17 +105,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 960ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |2   |7   |3   |8   |4   |10  |6   |5   |1   |9   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Damage per shot|2190|2415|2235|2455|2295|2575|2375|2335|2170|2515|
 
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                       |2   |7   |3   |8   |4   |10  |6   |5   |1   |9   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1235|1245|1270|1305|1325|1350|1370|1395|1430|1465|
-|Calculated damage per second|2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Displayed damage per second |1245|1370|1270|1395|1305|1465|1350|1325|1235|1430|
+|Calculated damage per second|2190|2415|2235|2455|2295|2575|2375|2335|2170|2515|
 
 
   * Cannons per sequence: 1
@@ -134,9 +134,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Death attack splash damage percentages: 100,100,100,100
 
-|Level                  |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                  |2  |7  |3  |8  |4  |10 |6  |5  |1  |9  |
 |-----------------------|---|---|---|---|---|---|---|---|---|---|
-|Death projectile damage|810|818|833|855|870|885|900|915|938|960|
+|Death projectile damage|818|900|833|915|855|960|885|870|810|938|
 
 
   * Death attack cannons per sequence: 1
@@ -187,9 +187,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |2   |7   |3   |8   |4   |10  |6   |5   |1   |9   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1235|1245|1270|1305|1325|1350|1370|1395|1430|1465|
+|Displayed damage per second|1245|1370|1270|1395|1305|1465|1350|1325|1235|1430|
 
 
 ## Uninterpreted stats
@@ -213,8 +213,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|2     |7     |3     |8     |4     |10    |6     |5     |1     |9     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|330701|330702|330703|330704|330705|330706|330707|330708|330709|330710|
+|Order|330702|330707|330703|330708|330704|330710|330706|330705|330701|330709|
 
 

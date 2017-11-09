@@ -3,7 +3,7 @@ title: "trp_title_HeroC3PO" (HeroC3PO)
 category: unit
 ---
 
-# "trp_title_HeroC3PO" (HeroC3PO) — version 1097
+# "trp_title_HeroC3PO" (HeroC3PO) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level |3     |9     |1     |7     |6     |5     |8     |10    |2     |4     |
 |------|------|------|------|------|------|------|------|------|------|------|
-|Health|100000|123833|147667|171500|195333|219167|243000|266833|290667|314500|
+|Health|147667|290667|100000|243000|219167|195333|266833|314500|123833|171500|
 
 
 ### Training stats
@@ -97,9 +97,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroC3PO
 
-|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+|Level    |3    |9    |1    |7    |6    |5    |8    |10    |2    |4    |
+|---------|-----|-----|-----|-----|-----|-----|-----|------|-----|-----|
+|Hero data|hero3|hero9|hero1|hero7|hero6|hero5|hero8|hero10|hero2|hero4|
 
 
 ## Presentation stats
@@ -141,8 +141,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1|2|3 |4 |5 |6 |7 |8 |9 |10|
-|-----------|-|-|--|--|--|--|--|--|--|--|
-|Point value|7|8|10|11|13|14|15|17|18|21|
+|Level      |3 |9 |1|7 |6 |5 |8 |10|2|4 |
+|-----------|--|--|-|--|--|--|--|--|-|--|
+|Point value|10|18|7|15|14|13|17|21|8|11|
 
 

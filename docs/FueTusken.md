@@ -3,7 +3,7 @@ title: "trp_title_FueTusken" (FueTusken)
 category: unit
 ---
 
-# "trp_title_FueTusken" (FueTusken) — version 1097
+# "trp_title_FueTusken" (FueTusken) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -26,9 +26,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Training time: 21s
 
-|Level        |1  |2   |
-|-------------|---|----|
-|Training cost|50$|100$|
+|Level        |2   |1  |
+|-------------|----|---|
+|Training cost|100$|50$|
 
 
 ### Upgrading stats
@@ -59,9 +59,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 8
 
-|Level             |1                                                                                                                                                                                                                                                                                                                                                                                                                                  |2                                                                                                                                                                                                                                                                                                                                                                                                        |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Ressource generator (66)**, **Storage (66)**, _Droideka (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, _Headquarters (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry (60)_, _Light vehicle (60)_, _Other building (60)_, _Support troop (60)_, _Turret (60)_, Shield (50), Shield generator (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (55)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|
+|Level             |2                                                                                                                                                                                                                                                                                                                                                                                                        |1                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Target preferences|**Turret (55)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Ressource generator (66)**, **Storage (66)**, _Droideka (60)_, _Flying infantry (60)_, _Flying vehicle (60)_, _Headquarters (60)_, _Heavy infantry (60)_, _Heavy vehicle (60)_, _Infantry (60)_, _Light vehicle (60)_, _Other building (60)_, _Support troop (60)_, _Turret (60)_, Shield (50), Shield generator (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|
 
 
 ### Shooting
@@ -78,17 +78,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1|2 |
-|---------------|-|--|
-|Damage per shot|2|75|
+|Level          |2 |1|
+|---------------|--|-|
+|Damage per shot|75|2|
 
 
 ### Projectile
 
-|Level                       |1    |2     |
-|----------------------------|-----|------|
-|Displayed damage per second |1    |69    |
-|Calculated damage per second|1.846|69.231|
+|Level                       |2     |1    |
+|----------------------------|------|-----|
+|Displayed damage per second |69    |1    |
+|Calculated damage per second|69.231|1.846|
 
 
   * Cannons per sequence: 1
@@ -131,9 +131,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1|2 |
-|---------------------------|-|--|
-|Displayed damage per second|1|69|
+|Level                      |2 |1|
+|---------------------------|--|-|
+|Displayed damage per second|69|1|
 
 
 ## Uninterpreted stats
@@ -151,9 +151,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |
+|Level      |2     |1     |
 |-----------|------|------|
-|Order      |320501|320502|
-|Point value|1     |1.200 |
+|Order      |320502|320501|
+|Point value|1.200 |1     |
 
 

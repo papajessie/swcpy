@@ -3,7 +3,7 @@ title: Alpha Womp Rat (WompRatAlpha)
 category: unit
 ---
 
-# Alpha Womp Rat (WompRatAlpha) — version 1097
+# Alpha Womp Rat (WompRatAlpha) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |3    |10   |2    |4    |7    |6    |1    |9    |5    |8    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|18000|21600|25200|28800|32400|36000|39600|43200|46800|54000|
+|Health|25200|54000|21600|28800|39600|36000|18000|46800|32400|43200|
 
 
 ### Training stats
@@ -34,10 +34,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |3    |10      |2    |4     |7      |6      |1    |9       |5     |8      |
+|--------------------|-----|--------|-----|------|-------|-------|-----|--------|------|-------|
+|Upgrade time        |1h   |1w1d    |15m  |3h30m |2d     |1d     |0s   |5d      |8h    |3d12h  |
+|Upgrade requirements|9000$|1750000$|7000$|12500$|160000$|100000$|5000$|1000000$|25000$|320000$|
 
 
 ### Movement stats
@@ -78,19 +78,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 150ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |3   |10  |2   |4   |7   |6   |1   |9   |5   |8   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2530|3036|3542|4048|4554|5060|5566|6072|6578|7590|
+|Damage per shot|3542|7590|3036|4048|5566|5060|2530|6578|4554|6072|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75,50
 
-|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9    |10       |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|-----|---------|
-|Displayed damage per second |3892    |4670    |5449    |6227    |7006    |7784    |8563    |9341    |10120|11676    |
-|Calculated damage per second|3892.308|4670.769|5449.231|6227.692|7006.154|7784.615|8563.077|9341.538|10120|11676.923|
+|Level                       |3       |10       |2       |4       |7       |6       |1       |9    |5       |8       |
+|----------------------------|--------|---------|--------|--------|--------|--------|--------|-----|--------|--------|
+|Displayed damage per second |5449    |11676    |4670    |6227    |8563    |7784    |3892    |10120|7006    |9341    |
+|Calculated damage per second|5449.231|11676.923|4670.769|6227.692|8563.077|7784.615|3892.308|10120|7006.154|9341.538|
 
 
   * Cannons per sequence: 1
@@ -108,9 +108,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: WompRatAlpha
 
-|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+|Level    |3    |10    |2    |4    |7    |6    |1    |9    |5    |8    |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
+|Hero data|hero3|hero10|hero2|hero4|hero7|hero6|hero1|hero9|hero5|hero8|
 
 
 ## Presentation stats
@@ -140,9 +140,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9    |10   |
-|---------------------------|----|----|----|----|----|----|----|----|-----|-----|
-|Displayed damage per second|3892|4670|5449|6227|7006|7784|8563|9341|10120|11676|
+|Level                      |3   |10   |2   |4   |7   |6   |1   |9    |5   |8   |
+|---------------------------|----|-----|----|----|----|----|----|-----|----|----|
+|Displayed damage per second|5449|11676|4670|6227|8563|7784|3892|10120|7006|9341|
 
 
 ## Uninterpreted stats
@@ -160,9 +160,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |3     |10    |2     |4     |7     |6     |1     |9     |5     |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |322601|322602|322603|322604|322605|322606|322607|322608|322609|322610|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |322603|322610|322602|322604|322607|322606|322601|322609|322605|322608|
+|Point value|28    |60    |24    |32    |44    |40    |20    |52    |36    |48    |
 
 

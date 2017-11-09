@@ -3,7 +3,7 @@ title: Tusken Bantha Rider (TuskenBantha)
 category: unit
 ---
 
-# Tusken Bantha Rider (TuskenBantha) — version 1097
+# Tusken Bantha Rider (TuskenBantha) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,25 +21,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 2
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |4   |2   |8   |5   |9   |3   |7   |6   |10  |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|2700|3300|3600|3900|4200|4500|4800|5100|5400|6000|
+|Health|3900|3300|5100|4200|5400|3600|4800|4500|6000|2700|
 
 
 ### Training stats
 
-|Level        |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level        |4   |2   |8   |5   |9   |3   |7   |6   |10  |1   |
 |-------------|----|----|----|----|----|----|----|----|----|----|
-|Training time|42s |44s |46s |48s |50s |52s |54s |56s |58s |1m  |
-|Training cost|100$|110$|120$|130$|140$|150$|160$|170$|180$|190$|
+|Training time|48s |44s |56s |50s |58s |46s |54s |52s |1m  |42s |
+|Training cost|130$|110$|170$|140$|180$|120$|160$|150$|190$|100$|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |10s  |30m  |2h    |3h    |6h    |12h    |1d     |2d     |3d      |4d      |
-|Upgrade requirements|1500$|5000$|14000$|24000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
+|Level               |4     |2    |8      |5     |9       |3     |7      |6      |10      |1    |
+|--------------------|------|-----|-------|------|--------|------|-------|-------|--------|-----|
+|Upgrade time        |3h    |30m  |2d     |6h    |3d      |2h    |1d     |12h    |4d      |10s  |
+|Upgrade requirements|24000$|5000$|750000$|50000$|2000000$|14000$|200000$|100000$|4000000$|1500$|
 
 
 ### Movement stats
@@ -80,19 +80,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.250s
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |4  |2  |8  |5  |9  |3  |7  |6  |10 |1  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|156|191|208|226|243|260|278|295|312|347|
+|Damage per shot|226|191|295|243|312|208|278|260|347|156|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75
 
-|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|Level                       |4      |2      |8      |5      |9      |3      |7      |6      |10     |1      |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |141    |173    |189    |205    |220    |236    |252    |268    |283    |315    |
-|Calculated damage per second|141.818|173.636|189.091|205.455|220.909|236.364|252.727|268.182|283.636|315.455|
+|Displayed damage per second |205    |173    |268    |220    |283    |189    |252    |236    |315    |141    |
+|Calculated damage per second|205.455|173.636|268.182|220.909|283.636|189.091|252.727|236.364|315.455|141.818|
 
 
   * Cannons per sequence: 1
@@ -134,9 +134,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level                      |4  |2  |8  |5  |9  |3  |7  |6  |10 |1  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|141|173|189|205|220|236|252|268|283|315|
+|Displayed damage per second|205|173|268|220|283|189|252|236|315|141|
 
 
 ## Uninterpreted stats
@@ -154,9 +154,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |4     |2     |8     |5     |9     |3     |7     |6     |10    |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332201|332202|332203|332204|332205|332206|332207|332208|332209|332210|
-|Point value|2     |2.400 |2.800 |3.200 |3.600 |4     |4.400 |4.800 |5.200 |6     |
+|Order      |332204|332202|332208|332205|332209|332203|332207|332206|332210|332201|
+|Point value|3.200 |2.400 |4.800 |3.600 |5.200 |2.800 |4.400 |4     |6     |2     |
 
 

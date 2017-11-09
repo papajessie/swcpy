@@ -3,7 +3,7 @@ title: Smuggler Renegade (SmugglerRenegade)
 category: unit
 ---
 
-# Smuggler Renegade (SmugglerRenegade) — version 1097
+# Smuggler Renegade (SmugglerRenegade) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 2
   * Type: vehicle
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |8   |7   |5   |9   |2   |3   |10  |6   |1   |4   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|1000|1200|1400|1600|1800|2000|2200|2400|2600|3000|
+|Health|2400|2200|1800|2600|1200|1400|3000|2000|1000|1600|
 
 
 ### Training stats
 
-|Level        |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
-|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|Training time|2m6s                               |2m12s                              |2m18s                              |2m24s                              |2m30s                              |2m36s                              |2m42s                              |2m48s                              |2m54s                              |3m                                  |
-|Training cost|300$                               |420$                               |540$                               |660$                               |780$                               |900$                               |1020$                              |1140$                              |1260$                              |1380$                               |
-|Building     |[Barracks 1](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
+|Level        |8                                  |7                                  |5                                  |9                                  |2                                  |3                                  |10                                  |6                                  |1                                  |4                                  |
+|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|Training time|2m48s                              |2m42s                              |2m30s                              |2m54s                              |2m12s                              |2m18s                              |3m                                  |2m36s                              |2m6s                               |2m24s                              |
+|Training cost|1140$                              |1020$                              |780$                               |1260$                              |420$                               |540$                               |1380$                               |900$                               |300$                               |660$                               |
+|Building     |[Barracks 8](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 1](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |1   |2   |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|----|----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|500$|900$|5000$|14000$|19000$|119000$|186000$|363000$|1130000$|1947000$|
+|Level               |8      |7      |5     |9       |2   |3    |10      |6      |1   |4     |
+|--------------------|-------|-------|------|--------|----|-----|--------|-------|----|------|
+|Upgrade requirements|363000$|186000$|19000$|1130000$|900$|5000$|1947000$|119000$|500$|14000$|
 
 
 ### Movement stats
@@ -82,17 +82,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 125ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level          |8  |7  |5  |9  |2  |3  |10 |6  |1  |4  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|114|136|159|182|204|227|250|272|295|340|
+|Damage per shot|272|250|204|295|136|159|340|227|114|182|
 
 
 ### Projectile
 
-|Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
-|----------------------------|---|---|---|---|----|----|----|----|----|----|
-|Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|342|408|477|546|612 |681 |750 |816 |885 |1020|
+|Level                       |8   |7   |5   |9   |2  |3  |10  |6   |1  |4  |
+|----------------------------|----|----|----|----|---|---|----|----|---|---|
+|Displayed damage per second |1344|1232|1008|1456|112|130|1680|1120|93 |149|
+|Calculated damage per second|816 |750 |612 |885 |408|477|1020|681 |342|546|
 
 
   * Cannons per sequence: 2
@@ -137,10 +137,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Audio train                |"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|93                                                                                                                     |112        |130        |149        |1008       |1120       |1232       |1344       |1456       |1680       |
+|Level                      |8          |7          |5          |9          |2          |3          |10         |6          |1                                                                                                                      |4          |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------------------------------------------------------------------------------------------------------------------|-----------|
+|Audio train                |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|
+|Displayed damage per second|1344       |1232       |1008       |1456       |112        |130        |1680       |1120       |93                                                                                                                     |149        |
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |8     |7     |5     |9     |2     |3     |10    |6     |1     |4     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |344301|344302|344303|344304|344305|344306|344307|344308|344309|344310|
-|Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
+|Order      |344308|344307|344305|344309|344302|344303|344310|344306|344301|344304|
+|Point value|14.400|13.200|10.800|15.600|7.200 |8.400 |18    |12    |6     |9.600 |
 
 

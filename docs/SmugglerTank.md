@@ -3,7 +3,7 @@ title: Smuggler Bruiser (SmugglerTank)
 category: unit
 ---
 
-# Smuggler Bruiser (SmugglerTank) — version 1097
+# Smuggler Bruiser (SmugglerTank) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 10
   * Type: vehicle
 
-|Level |1 |2   |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|--|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|90|8100|18900|21600|27000|30000|33000|36000|39000|45000|
+|Level |5    |3    |7    |9    |1 |2   |4    |10   |6    |8    |
+|------|-----|-----|-----|-----|--|----|-----|-----|-----|-----|
+|Health|27000|18900|33000|39000|90|8100|21600|45000|30000|36000|
 
 
 ### Training stats
 
-|Level        |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
-|-------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
-|Training time|3m30s                                                |3m40s                                                |3m50s                                                |4m                                                   |4m10s                                                |4m20s                                                |4m30s                                                |4m40s                                                |4m50s                                                |5m                                                    |
-|Training cost|500$                                                 |700$                                                 |900$                                                 |1100$                                                |1300$                                                |1500$                                                |1700$                                                |1900$                                                |2100$                                                |2300$                                                 |
-|Building     |["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 4](smugglerFactory.html)|["bld_title_smugglerFactory" 5](smugglerFactory.html)|["bld_title_smugglerFactory" 6](smugglerFactory.html)|["bld_title_smugglerFactory" 7](smugglerFactory.html)|["bld_title_smugglerFactory" 8](smugglerFactory.html)|["bld_title_smugglerFactory" 9](smugglerFactory.html)|["bld_title_smugglerFactory" 10](smugglerFactory.html)|
+|Level        |5                                                    |3                                                    |7                                                    |9                                                    |1                                                    |2                                                    |4                                                    |10                                                    |6                                                    |8                                                    |
+|-------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+|Training time|4m10s                                                |3m50s                                                |4m30s                                                |4m50s                                                |3m30s                                                |3m40s                                                |4m                                                   |5m                                                    |4m20s                                                |4m40s                                                |
+|Training cost|1300$                                                |900$                                                 |1700$                                                |2100$                                                |500$                                                 |700$                                                 |1100$                                                |2300$                                                 |1500$                                                |1900$                                                |
+|Building     |["bld_title_smugglerFactory" 5](smugglerFactory.html)|["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 7](smugglerFactory.html)|["bld_title_smugglerFactory" 9](smugglerFactory.html)|["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 3](smugglerFactory.html)|["bld_title_smugglerFactory" 4](smugglerFactory.html)|["bld_title_smugglerFactory" 10](smugglerFactory.html)|["bld_title_smugglerFactory" 6](smugglerFactory.html)|["bld_title_smugglerFactory" 8](smugglerFactory.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade requirements|1500$|5000$|14000$|24000$|50000$|100000$|200000$|750000$|2000000$|4000000$|
+|Level               |5     |3     |7      |9       |1    |2    |4     |10      |6      |8      |
+|--------------------|------|------|-------|--------|-----|-----|------|--------|-------|-------|
+|Upgrade requirements|50000$|14000$|200000$|2000000$|1500$|5000$|24000$|4000000$|100000$|750000$|
 
 
 ### Movement stats
@@ -55,9 +55,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x3
 
-|Level    |1 |2, 3, 4, 5, 6, 7, 8, 9, 10|
-|---------|--|--------------------------|
-|Max speed|40|30                        |
+|Level    |5, 3, 7, 9|1 |2, 4, 10, 6, 8|
+|---------|----------|--|--------------|
+|Max speed|30        |40|30            |
 
 
 ## Main attack : SmugglerTank
@@ -71,9 +71,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 8
 
-|Level             |1, 2, 3, 4                                                                                                                                                                                                                                                                                                                                                                                               |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                            |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Support troop (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Support troop (50), Vehicule hero (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Wall (1), Trap (0)|
+|Level             |5                                                                                                                                                                                                                                                                                                                                                                                                            |3                                                                                                                                                                                                                                                                                                                                                                                                        |7, 9                                                                                                                                                                                                                                                                                                                                                                                                         |1, 2, 4                                                                                                                                                                                                                                                                                                                                                                                                  |10, 6, 8                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Target preferences|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Support troop (50), Vehicule hero (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Wall (1), Trap (0)|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Support troop (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Support troop (50), Vehicule hero (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Wall (1), Trap (0)|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Support troop (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (60)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Support troop (50), Vehicule hero (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Wall (1), Trap (0)|
 
 
 ### Shooting
@@ -90,17 +90,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 200ms
   * Target locking: No
 
-|Level          |1 |2 |3  |4  |5   |6   |7   |8   |9   |10  |
-|---------------|--|--|---|---|----|----|----|----|----|----|
-|Damage per shot|72|86|629|719|1283|1425|1568|1710|1853|2138|
+|Level          |5   |3  |7   |9   |1 |2 |4  |10  |6   |8   |
+|---------------|----|---|----|----|--|--|---|----|----|----|
+|Damage per shot|1283|629|1568|1853|72|86|719|2138|1425|1710|
 
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4       |5       |6   |7       |8   |9       |10      |
-|----------------------------|-------|-------|-------|--------|--------|----|--------|----|--------|--------|
-|Displayed damage per second |101    |120    |882    |1009    |1800    |2000|2200    |2400|2600    |3000    |
-|Calculated damage per second|101.053|120.702|882.807|1009.123|1800.702|2000|2200.702|2400|2600.702|3000.702|
+|Level                       |5       |3      |7       |9       |1      |2      |4       |10      |6   |8   |
+|----------------------------|--------|-------|--------|--------|-------|-------|--------|--------|----|----|
+|Displayed damage per second |1800    |882    |2200    |2600    |101    |120    |1009    |3000    |2000|2400|
+|Calculated damage per second|1800.702|882.807|2200.702|2600.702|101.053|120.702|1009.123|3000.702|2000|2400|
 
 
   * Cannons per sequence: 1
@@ -144,9 +144,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|----|----|----|----|----|----|----|
-|Displayed damage per second|101|120|882|1009|1800|2000|2200|2400|2600|3000|
+|Level                      |5   |3  |7   |9   |1  |2  |4   |10  |6   |8   |
+|---------------------------|----|---|----|----|---|---|----|----|----|----|
+|Displayed damage per second|1800|882|2200|2600|101|120|1009|3000|2000|2400|
 
 
 ## Uninterpreted stats
@@ -164,9 +164,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |5     |3     |7     |9     |1     |2     |4     |10    |6     |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |341301|341302|341303|341304|341305|341306|341307|341308|341309|341310|
-|Point value|10    |12    |14    |16    |18    |20    |22    |24    |26    |30    |
+|Order      |341305|341303|341307|341309|341301|341302|341304|341310|341306|341308|
+|Point value|18    |14    |22    |26    |10    |12    |16    |30    |20    |24    |
 
 

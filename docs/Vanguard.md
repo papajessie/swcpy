@@ -3,7 +3,7 @@ title: Rebel Vanguard (Vanguard)
 category: unit
 ---
 
-# Rebel Vanguard (Vanguard) — version 1097
+# Rebel Vanguard (Vanguard) — version 1098
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -22,18 +22,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: infantry
   * Unlock planet: Unlock on Tatooine
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |5   |9   |10  |4   |2   |8   |6   |3   |1   |7   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|5760|6090|6440|6810|7210|7630|8080|8560|9070|9610|
+|Health|7210|9070|9610|6810|6090|8560|7630|6440|5760|8080|
 
 
 ### Training stats
 
-|Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|42s                             |44s                                   |46s                                   |48s                                   |50s                                   |52s                                   |54s                                   |1m52s                                 |1m56s                                 |2m                                     |
-|Training cost|200$                            |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |800$                                  |840$                                  |920$                                   |
-|Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |5                                     |9                                     |10                                     |4                                     |2                                     |8                                     |6                                     |3                                     |1                               |7                                     |
+|-------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------|--------------------------------------|
+|Training time|50s                                   |1m56s                                 |2m                                     |48s                                   |44s                                   |1m52s                                 |52s                                   |46s                                   |42s                             |54s                                   |
+|Training cost|520$                                  |840$                                  |920$                                   |440$                                  |280$                                  |800$                                  |600$                                  |360$                                  |200$                            |680$                                  |
+|Building     |[Research Lab 5](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Barracks 1](rebelBarracks.html)|[Research Lab 7](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -79,19 +79,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |5   |9   |10  |4   |2   |8   |6   |3   |1   |7   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2340|2532|2742|2970|3222|3492|3792|4122|4482|4872|
+|Damage per shot|3222|4482|4872|2970|2532|4122|3492|2742|2340|3792|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,50,10,5
 
-|Level                       |1   |2      |3      |4      |5      |6       |7       |8       |9       |10      |
-|----------------------------|----|-------|-------|-------|-------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2340|2532   |2742   |2970   |3222   |3492    |3792    |4122    |4482    |4872    |
-|Calculated damage per second|720 |779.077|843.692|913.846|991.385|1074.462|1166.769|1268.308|1379.077|1499.077|
+|Level                       |5      |9       |10      |4      |2      |8       |6       |3      |1   |7       |
+|----------------------------|-------|--------|--------|-------|-------|--------|--------|-------|----|--------|
+|Displayed damage per second |3222   |4482    |4872    |2970   |2532   |4122    |3492    |2742   |2340|3792    |
+|Calculated damage per second|991.385|1379.077|1499.077|913.846|779.077|1268.308|1074.462|843.692|720 |1166.769|
 
 
   * Cannons per sequence: 1
@@ -145,12 +145,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
 
-|Level                      |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|2340 |2532       |2742       |2970       |3222       |3492       |3792       |4122       |4482       |4872       |
-|Icon unlock position       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |5          |9          |10         |4          |2          |8          |6          |3          |1    |7          |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----|-----------|
+|Displayed damage per second|3222       |4482       |4872       |2970       |2532       |4122       |3492       |2742       |2340 |3792       |
+|Icon unlock position       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,0,0|(not found)|
+|Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,0,0|(not found)|
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|1,1,1|(not found)|
 
 
 ## Uninterpreted stats
@@ -168,9 +168,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |5     |9     |10    |4     |2     |8     |6     |3     |1     |7     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |221201|221202|221203|221204|221205|221206|221207|221208|221209|221210|
-|Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
+|Order      |221205|221209|221210|221204|221202|221208|221206|221203|221201|221207|
+|Point value|5.400 |7.800 |9     |4.800 |3.600 |7.200 |6     |4.200 |3     |6.600 |
 
 
