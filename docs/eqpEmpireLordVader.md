@@ -59,7 +59,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Presentation and internal stats
 
-  * Skins: ['sknLordVader']
+  * Skins: sknLordVader
 
   * Asset name: darthandstotrper_emp_ani
   * Bundle name: darthandstotrper_emp_ani
@@ -117,7 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 30
   * Propensity to go around obstacles: 15
-  * Rotation speed: 7.854
+  * Rotation speed: 7854
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -268,11 +268,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Favorite target type: turret
   * Gun position: "darthvader_emp_rig_MASTER_MOVER/soldier_rbl_rig_locator_gun":1
   * Hit spark: fx_darthsaber_hit
-  * Hologram uid: HeroHologramDarthVader
-  * Icon camera position: 15.97,7.67,16.77
-  * Icon closeup camera position: 0.17,0.86,11.66
-  * Icon closeup lookat position: 0.1,2.86,-0.67
-  * Icon lookat position: -0.27,1.69,-0.32
+  * Hologram uid: EquipmentHologramLordVader
+  * Icon asset name: darthandstotrper_emp_ani
+  * Icon bundle name: darthandstotrper_emp_ani
+  * Icon camera position: 0.03,5.53,25.85
+  * Icon closeup camera position: 0.03,5.3,24.22
+  * Icon closeup lookat position: -0.01,2.04,-0.4
+  * Icon lookat position: -0.01,2.04,-0.4
   * Max scale: 100
   * Name: HERO Darth ATtack
   * Secondary attack animation delay: 0

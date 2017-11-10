@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Presentation and internal stats
 
-  * Skins: ['sknEchoBaseSoldier']
+  * Skins: sknEchoBaseSoldier
 
   * Asset name: echobasesoldier_rbl-ani
   * Bundle name: echobasesoldier_rbl-ani
@@ -186,7 +186,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 20
   * Propensity to go around obstacles: 15
-  * Rotation speed: 7.854
+  * Rotation speed: 7854
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -360,13 +360,13 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Animation delay: 0
   * Arcs: No
-  * Asset name: soldier_rbl-ani
+  * Asset name: echobasesoldier_rbl-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * Audio death: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
   * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * Audio train: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
   * Bullet: fx_blaster_beam_b_sm
-  * Bundle name: soldier_rbl-ani
+  * Bundle name: echobasesoldier_rbl-ani
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1
@@ -382,6 +382,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Soldier
   * Spin speed: 0
   * Targeted type: ENEMIES
+  * Texture uid: unittransport_event_troop_echosoldier
 
 |Level                      |01.01, 01.02, 01.03, 01.04, 01.05, 01.06, 01.07, 01.08, 01.09, 01.10|02.01, 02.02, 02.03, 02.04, 02.05, 02.06, 02.07, 02.08, 02.09, 02.10|03.01, 03.02, 03.03, 03.04, 03.05, 03.06, 03.07, 03.08, 03.09, 03.10|04.01, 04.02, 04.03, 04.04, 04.05, 04.06, 04.07, 04.08, 04.09, 04.10|05.01, 05.02, 05.03, 05.04, 05.05, 05.06, 05.07, 05.08, 05.09, 05.10|06.01, 06.02, 06.03, 06.04, 06.05, 06.06, 06.07, 06.08, 06.09, 06.10|07.01, 07.02, 07.03, 07.04, 07.05, 07.06, 07.07, 07.08, 07.09, 07.10|08.01, 08.02, 08.03, 08.04, 08.05, 08.06, 08.07, 08.08, 08.09, 08.10|09.01, 09.02, 09.03, 09.04, 09.05, 09.06, 09.07, 09.08, 09.09, 09.10|10.01, 10.02, 10.03, 10.04, 10.05, 10.06, 10.07, 10.08, 10.09, 10.10|
 |---------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|

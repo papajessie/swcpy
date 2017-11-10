@@ -92,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Presentation and internal stats
 
-  * Skins: ['sknSullustan']
+  * Skins: sknSullustan
 
   * Asset name: sullustan_rbl-ani
   * Bundle name: sullustan_rbl-ani
@@ -212,7 +212,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 20
   * Propensity to go around obstacles: 15
-  * Rotation speed: 7.854
+  * Rotation speed: 7854
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -236,10 +236,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Time between end of clip and start of clip: 1.500s
   * Retargeting offset: 20
   * Self-centered targeting: No
-  * Shot count: 3
+  * Shot count: 5
   * Time between shots: 500ms
   * Target locking: No
 
@@ -307,74 +307,74 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
 
-|Level                       |01.01   |01.02   |01.03   |01.04   |01.05|01.06   |01.07   |01.08   |01.09   |01.10   |
-|----------------------------|--------|--------|--------|--------|-----|--------|--------|--------|--------|--------|
-|Displayed damage per second |880     |880     |880     |880     |880  |880     |880     |880     |880     |880     |
-|Calculated damage per second|1311.692|1346.769|1391.077|1443.692|1488 |1540.615|1593.231|1645.846|1699.385|1761.231|
+|Level                       |01.01   |01.02   |01.03   |01.04   |01.05   |01.06   |01.07   |01.08   |01.09   |01.10|
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-----|
+|Displayed damage per second |880     |880     |880     |880     |880     |880     |880     |880     |880     |880  |
+|Calculated damage per second|1894.667|1945.333|2009.333|2085.333|2149.333|2225.333|2301.333|2377.333|2454.667|2544 |
 
 
-|Level                       |02.01   |02.02   |02.03|02.04   |02.05   |02.06|02.07   |02.08   |02.09   |02.10|
-|----------------------------|--------|--------|-----|--------|--------|-----|--------|--------|--------|-----|
-|Displayed damage per second |1056    |1056    |1056 |1056    |1056    |1056 |1056    |1056    |1056    |1056 |
-|Calculated damage per second|1572.923|1615.385|1668 |1731.692|1784.308|1848 |1910.769|1974.462|2037.231|2112 |
+|Level                       |02.01|02.02   |02.03   |02.04   |02.05   |02.06   |02.07|02.08|02.09   |02.10   |
+|----------------------------|-----|--------|--------|--------|--------|--------|-----|-----|--------|--------|
+|Displayed damage per second |1056 |1056    |1056    |1056    |1056    |1056    |1056 |1056 |1056    |1056    |
+|Calculated damage per second|2272 |2333.333|2409.333|2501.333|2577.333|2669.333|2760 |2852 |2942.667|3050.667|
 
 
-|Level                       |03.01|03.02   |03.03   |03.04   |03.05   |03.06   |03.07   |03.08|03.09   |03.10   |
-|----------------------------|-----|--------|--------|--------|--------|--------|--------|-----|--------|--------|
-|Displayed damage per second |1232 |1232    |1232    |1232    |1232    |1232    |1232    |1232 |1232    |1232    |
-|Calculated damage per second|1836 |1884.923|1946.769|2020.615|2082.462|2156.308|2230.154|2304 |2377.846|2464.615|
+|Level                       |03.01|03.02   |03.03|03.04   |03.05|03.06   |03.07   |03.08|03.09   |03.10|
+|----------------------------|-----|--------|-----|--------|-----|--------|--------|-----|--------|-----|
+|Displayed damage per second |1232 |1232    |1232 |1232    |1232 |1232    |1232    |1232 |1232    |1232 |
+|Calculated damage per second|2652 |2722.667|2812 |2918.667|3008 |3114.667|3221.333|3328 |3434.667|3560 |
 
 
-|Level                       |04.01   |04.02   |04.03   |04.04   |04.05   |04.06   |04.07   |04.08   |04.09   |04.10   |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1408    |1408    |1408    |1408    |1408    |1408    |1408    |1408    |1408    |1408    |
-|Calculated damage per second|2098.154|2154.462|2225.538|2309.538|2379.692|2464.615|2549.538|2633.538|2718.462|2817.231|
+|Level                       |04.01   |04.02|04.03   |04.04|04.05   |04.06|04.07   |04.08|04.09   |04.10   |
+|----------------------------|--------|-----|--------|-----|--------|-----|--------|-----|--------|--------|
+|Displayed damage per second |1408    |1408 |1408    |1408 |1408    |1408 |1408    |1408 |1408    |1408    |
+|Calculated damage per second|3030.667|3112 |3214.667|3336 |3437.333|3560 |3682.667|3804 |3926.667|4069.333|
 
 
-|Level                       |05.01   |05.02   |05.03   |05.04   |05.05   |05.06|05.07   |05.08   |05.09   |05.10|
-|----------------------------|--------|--------|--------|--------|--------|-----|--------|--------|--------|-----|
-|Displayed damage per second |1584    |1584    |1584    |1584    |1584    |1584 |1584    |1584    |1584    |1584 |
-|Calculated damage per second|2359.385|2423.077|2502.462|2597.538|2676.923|2772 |2866.154|2961.231|3056.308|3168 |
+|Level                       |05.01|05.02|05.03   |05.04|05.05   |05.06|05.07|05.08   |05.09   |05.10|
+|----------------------------|-----|-----|--------|-----|--------|-----|-----|--------|--------|-----|
+|Displayed damage per second |1584 |1584 |1584    |1584 |1584    |1584 |1584 |1584    |1584    |1584 |
+|Calculated damage per second|3408 |3500 |3614.667|3752 |3866.667|4004 |4140 |4277.333|4414.667|4576 |
 
 
-|Level                       |06.01   |06.02   |06.03   |06.04   |06.05   |06.06   |06.07   |06.08   |06.09   |06.10   |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1760    |1760    |1760    |1760    |1760    |1760    |1760    |1760    |1760    |1760    |
-|Calculated damage per second|2622.462|2692.615|2781.231|2886.462|2974.154|3080.308|3185.538|3291.692|3396.923|3520.615|
+|Level                       |06.01|06.02   |06.03   |06.04   |06.05|06.06   |06.07   |06.08   |06.09   |06.10   |
+|----------------------------|-----|--------|--------|--------|-----|--------|--------|--------|--------|--------|
+|Displayed damage per second |1760 |1760    |1760    |1760    |1760 |1760    |1760    |1760    |1760    |1760    |
+|Calculated damage per second|3788 |3889.333|4017.333|4169.333|4296 |4449.333|4601.333|4754.667|4906.667|5085.333|
 
 
-|Level                       |07.01   |07.02   |07.03   |07.04   |07.05   |07.06   |07.07   |07.08   |07.09   |07.10   |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1936    |1936    |1936    |1936    |1936    |1936    |1936    |1936    |1936    |1936    |
-|Calculated damage per second|2885.538|2962.154|3059.077|3175.385|3272.308|3388.615|3504.923|3621.231|3737.538|3873.231|
+|Level                       |07.01|07.02   |07.03   |07.04   |07.05   |07.06   |07.07   |07.08   |07.09   |07.10   |
+|----------------------------|-----|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |1936 |1936    |1936    |1936    |1936    |1936    |1936    |1936    |1936    |1936    |
+|Calculated damage per second|4168 |4278.667|4418.667|4586.667|4726.667|4894.667|5062.667|5230.667|5398.667|5594.667|
 
 
-|Level                       |08.01   |08.02   |08.03   |08.04   |08.05   |08.06|08.07   |08.08   |08.09   |08.10|
-|----------------------------|--------|--------|--------|--------|--------|-----|--------|--------|--------|-----|
-|Displayed damage per second |2112    |2112    |2112    |2112    |2112    |2112 |2112    |2112    |2112    |2112 |
-|Calculated damage per second|3146.769|3230.769|3336.923|3463.385|3568.615|3696 |3822.462|3948.923|4075.385|4224 |
+|Level                       |08.01   |08.02   |08.03|08.04   |08.05   |08.06   |08.07   |08.08|08.09   |08.10   |
+|----------------------------|--------|--------|-----|--------|--------|--------|--------|-----|--------|--------|
+|Displayed damage per second |2112    |2112    |2112 |2112    |2112    |2112    |2112    |2112 |2112    |2112    |
+|Calculated damage per second|4545.333|4666.667|4820 |5002.667|5154.667|5338.667|5521.333|5704 |5886.667|6101.333|
 
 
-|Level                       |09.01   |09.02   |09.03   |09.04   |09.05   |09.06   |09.07   |09.08   |09.09|09.10   |
-|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|-----|--------|
-|Displayed damage per second |2288    |2288    |2288    |2288    |2288    |2288    |2288    |2288    |2288 |2288    |
-|Calculated damage per second|3408.923|3500.308|3614.769|3752.308|3866.769|4004.308|4140.923|4278.462|4416 |4576.615|
+|Level                       |09.01|09.02|09.03   |09.04|09.05   |09.06|09.07   |09.08|09.09   |09.10   |
+|----------------------------|-----|-----|--------|-----|--------|-----|--------|-----|--------|--------|
+|Displayed damage per second |2288 |2288 |2288    |2288 |2288    |2288 |2288    |2288 |2288    |2288    |
+|Calculated damage per second|4924 |5056 |5221.333|5420 |5585.333|5784 |5981.333|6180 |6378.667|6610.667|
 
 
-|Level                       |10.01   |10.02   |10.03   |10.04   |10.05   |10.06|10.07   |10.08   |10.09   |10.10|
-|----------------------------|--------|--------|--------|--------|--------|-----|--------|--------|--------|-----|
-|Displayed damage per second |2640    |2640    |2640    |2640    |2640    |2640 |2640    |2640    |2640    |2640 |
-|Calculated damage per second|3933.231|4038.462|4170.462|4329.231|4461.231|4620 |4777.846|4936.615|5094.462|5280 |
+|Level                       |10.01   |10.02   |10.03|10.04   |10.05|10.06   |10.07   |10.08   |10.09   |10.10   |
+|----------------------------|--------|--------|-----|--------|-----|--------|--------|--------|--------|--------|
+|Displayed damage per second |2640    |2640    |2640 |2640    |2640 |2640    |2640    |2640    |2640    |2640    |
+|Calculated damage per second|5681.333|5833.333|6024 |6253.333|6444 |6673.333|6901.333|7130.667|7358.667|7626.667|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.250s
+  * Cliptime: 3.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
   * Damage multipliers: **(300)**: Flying vehicle, Light vehicle, Vehicule hero, **(250)**: Heavy vehicle, Heavy vehicule hero, **(200)**: Flying infantry, Infantry, Infantry hero, Support troop, **(150)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Storage, Trap, Turret, **(50)**: Shield, Shield generator, **(40)**: Wall
   * Pass through shield: No
-  * Salvos: 3
+  * Salvos: 5
 
 ## Internal stats
 
@@ -388,23 +388,23 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Animation delay: 0
   * Arcs: No
-  * Asset name: marksman_rbl-ani
+  * Asset name: sullustan_rbl-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
   * Audio death: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
   * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
-  * Audio train: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
+  * Audio train: "sfx_ui_unitcomplete_sullustan_01":33,"sfx_ui_unitcomplete_sullustan_02":33,"sfx_ui_unitcomplete_sullustan_03":34
   * Bullet: fx_blaster_beam_b_sm
-  * Bundle name: marksman_rbl-ani
+  * Bundle name: sullustan_rbl-ani
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: heroes
   * Gun position: "pathfndr_rbl_rig_MASTER_MOVER/pathfndr_rbl_rig_locator_gun_Rt":1
   * Hit spark: fx_blaster_hit_b_sm
-  * Icon camera position: 8.69,12.35,16.88
-  * Icon closeup camera position: -0.01,3.22,8.62
-  * Icon closeup lookat position: 0.08,2.65,0.01
-  * Icon lookat position: -0.31,1.68,0.43
+  * Icon camera position: 6.83,8.99,17.86
+  * Icon closeup camera position: 3.19,5.81,10.64
+  * Icon closeup lookat position: -0.39,2.05,-1.11
+  * Icon lookat position: -0.56,1.32,-0.71
   * Max scale: 100
   * Muzzle flash: fx_blaster_flash_b_sm
   * Name: projectileMarksman

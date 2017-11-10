@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Presentation and internal stats
 
-  * Skins: ['sknSandSoldier']
+  * Skins: sknSandSoldier
 
   * Asset name: sandsoldier_rbl-ani
   * Bundle name: sandsoldier_rbl-ani
@@ -186,7 +186,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 20
   * Propensity to go around obstacles: 15
-  * Rotation speed: 7.854
+  * Rotation speed: 7854
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -213,8 +213,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between end of clip and start of clip: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
-  * Shot count: 3
-  * Time between shots: 200ms
+  * Shot count: 5
+  * Time between shots: 100ms
   * Target locking: No
 
 |Level                   |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
@@ -279,64 +279,64 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                       |01.01  |01.02  |01.03  |01.04  |01.05  |01.06  |01.07  |01.08  |01.09  |01.10  |
-|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |302    |302    |302    |302    |302    |302    |302    |302    |302    |302    |
-|Calculated damage per second|490.714|512.143|535.714|563.571|591.429|621.429|651.429|681.429|711.429|745.714|
-
-
-|Level                       |02.01  |02.02|02.03  |02.04  |02.05  |02.06  |02.07  |02.08  |02.09  |02.10  |
-|----------------------------|-------|-----|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |362    |362  |362    |362    |362    |362    |362    |362    |362    |362    |
-|Calculated damage per second|589.286|615  |642.857|677.143|709.286|745.714|782.143|816.429|852.857|893.571|
-
-
-|Level                       |03.01  |03.02  |03.03  |03.04  |03.05  |03.06  |03.07  |03.08  |03.09  |03.10  |
-|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |390    |390    |390    |390    |390    |390    |390    |390    |390    |390    |
-|Calculated damage per second|634.286|662.143|692.143|728.571|762.857|801.429|842.143|880.714|919.286|962.143|
-
-
-|Level                       |04.01  |04.02  |04.03  |04.04  |04.05  |04.06  |04.07  |04.08   |04.09|04.10   |
-|----------------------------|-------|-------|-------|-------|-------|-------|-------|--------|-----|--------|
-|Displayed damage per second |445    |445    |445    |445    |445    |445    |445    |445     |445  |445     |
-|Calculated damage per second|726.429|756.429|792.857|831.429|872.143|917.143|962.143|1007.143|1050 |1099.286|
-
-
-|Level                       |05.01  |05.02  |05.03  |05.04  |05.05  |05.06   |05.07   |05.08   |05.09   |05.10   |
+|Level                       |01.01  |01.02  |01.03  |01.04  |01.05  |01.06   |01.07   |01.08   |01.09   |01.10   |
 |----------------------------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|
-|Displayed damage per second |501    |501    |501    |501    |501    |501     |501     |501     |501     |501     |
-|Calculated damage per second|816.429|850.714|891.429|936.429|981.429|1032.857|1082.143|1131.429|1182.857|1236.429|
+|Displayed damage per second |302    |302    |302    |302    |302    |302     |302     |302     |302     |302     |
+|Calculated damage per second|817.857|853.571|892.857|939.286|985.714|1035.714|1085.714|1135.714|1185.714|1242.857|
 
 
-|Level                       |06.01  |06.02  |06.03|06.04   |06.05   |06.06   |06.07   |06.08   |06.09   |06.10   |
-|----------------------------|-------|-------|-----|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |557    |557    |557  |557     |557     |557     |557     |557     |557     |557     |
-|Calculated damage per second|906.429|947.143|990  |1041.429|1090.714|1146.429|1202.143|1257.857|1313.571|1375.714|
+|Level                       |02.01  |02.02|02.03   |02.04   |02.05   |02.06   |02.07   |02.08   |02.09   |02.10   |
+|----------------------------|-------|-----|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |362    |362  |362     |362     |362     |362     |362     |362     |362     |362     |
+|Calculated damage per second|982.143|1025 |1071.429|1128.571|1182.143|1242.857|1303.571|1360.714|1421.429|1489.286|
 
 
-|Level                       |07.01  |07.02   |07.03   |07.04   |07.05|07.06   |07.07   |07.08   |07.09   |07.10   |
-|----------------------------|-------|--------|--------|--------|-----|--------|--------|--------|--------|--------|
-|Displayed damage per second |612    |612     |612     |612     |612  |612     |612     |612     |612     |612     |
-|Calculated damage per second|998.571|1041.429|1090.714|1144.286|1200 |1262.143|1322.143|1384.286|1444.286|1512.857|
+|Level                       |03.01   |03.02   |03.03   |03.04   |03.05   |03.06   |03.07   |03.08   |03.09   |03.10   |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |390     |390     |390     |390     |390     |390     |390     |390     |390     |390     |
+|Calculated damage per second|1057.143|1103.571|1153.571|1214.286|1271.429|1335.714|1403.571|1467.857|1532.143|1603.571|
+
+
+|Level                       |04.01   |04.02   |04.03   |04.04   |04.05   |04.06   |04.07   |04.08   |04.09|04.10   |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|-----|--------|
+|Displayed damage per second |445     |445     |445     |445     |445     |445     |445     |445     |445  |445     |
+|Calculated damage per second|1210.714|1260.714|1321.429|1385.714|1453.571|1528.571|1603.571|1678.571|1750 |1832.143|
+
+
+|Level                       |05.01   |05.02   |05.03   |05.04   |05.05   |05.06   |05.07   |05.08   |05.09   |05.10   |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |501     |501     |501     |501     |501     |501     |501     |501     |501     |501     |
+|Calculated damage per second|1360.714|1417.857|1485.714|1560.714|1635.714|1721.429|1803.571|1885.714|1971.429|2060.714|
+
+
+|Level                       |06.01   |06.02   |06.03|06.04   |06.05   |06.06   |06.07   |06.08   |06.09   |06.10   |
+|----------------------------|--------|--------|-----|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |557     |557     |557  |557     |557     |557     |557     |557     |557     |557     |
+|Calculated damage per second|1510.714|1578.571|1650 |1735.714|1817.857|1910.714|2003.571|2096.429|2189.286|2292.857|
+
+
+|Level                       |07.01   |07.02   |07.03   |07.04   |07.05|07.06   |07.07   |07.08   |07.09   |07.10   |
+|----------------------------|--------|--------|--------|--------|-----|--------|--------|--------|--------|--------|
+|Displayed damage per second |612     |612     |612     |612     |612  |612     |612     |612     |612     |612     |
+|Calculated damage per second|1664.286|1735.714|1817.857|1907.143|2000 |2103.571|2203.571|2307.143|2407.143|2521.429|
 
 
 |Level                       |08.01   |08.02   |08.03   |08.04   |08.05   |08.06   |08.07   |08.08   |08.09   |08.10|
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-----|
 |Displayed damage per second |668     |668     |668     |668     |668     |668     |668     |668     |668     |668  |
-|Calculated damage per second|1088.571|1135.714|1189.286|1249.286|1309.286|1375.714|1442.143|1510.714|1577.143|1650 |
+|Calculated damage per second|1814.286|1892.857|1982.143|2082.143|2182.143|2292.857|2403.571|2517.857|2628.571|2750 |
 
 
 |Level                       |09.01   |09.02|09.03   |09.04   |09.05   |09.06   |09.07   |09.08|09.09   |09.10   |
 |----------------------------|--------|-----|--------|--------|--------|--------|--------|-----|--------|--------|
 |Displayed damage per second |724     |724  |724     |724     |724     |724     |724     |724  |724     |724     |
-|Calculated damage per second|1178.571|1230 |1287.857|1354.286|1418.571|1491.429|1564.286|1635 |1707.857|1787.143|
+|Calculated damage per second|1964.286|2050 |2146.429|2257.143|2364.286|2485.714|2607.143|2725 |2846.429|2978.571|
 
 
 |Level                       |10.01   |10.02   |10.03   |10.04   |10.05   |10.06   |10.07   |10.08   |10.09   |10.10   |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |835     |835     |835     |835     |835     |835     |835     |835     |835     |835     |
-|Calculated damage per second|1360.714|1420.714|1487.143|1562.143|1637.143|1720.714|1804.286|1887.857|1971.429|2063.571|
+|Calculated damage per second|2267.857|2367.857|2478.571|2603.571|2728.571|2867.857|3007.143|3146.429|3285.714|3439.286|
 
 
   * Cannons per sequence: 1
@@ -346,7 +346,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 18
   * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall
   * Pass through shield: No
-  * Salvos: 3
+  * Salvos: 5
 
 ## Internal stats
 
@@ -360,13 +360,13 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Animation delay: 0
   * Arcs: No
-  * Asset name: soldier_rbl-ani
+  * Asset name: sandsoldier_rbl-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * Audio death: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30
   * Audio placement: "sfx_placement_troop_1":35,"sfx_placement_troop_2":35,"sfx_placement_troop_3":30
   * Audio train: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
   * Bullet: fx_blaster_beam_b_sm
-  * Bundle name: soldier_rbl-ani
+  * Bundle name: sandsoldier_rbl-ani
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1

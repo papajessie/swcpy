@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Presentation and internal stats
 
-  * Skins: ['sknRebelEchoBaseJetpackTrooper']
+  * Skins: sknRebelEchoBaseJetpackTrooper
 
   * Asset name: hoversnowsoldier_rbl-ani
   * Bundle name: hoversnowsoldier_rbl-ani
@@ -184,9 +184,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Acceleration: 0
   * Crushes walls: No
   * Flying unit: Yes
-  * Max speed: 40
+  * Max speed: 50
   * Propensity to go around obstacles: 15
-  * Rotation speed: 7.854
+  * Rotation speed: 7854
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 1x1
@@ -210,10 +210,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1,1
   * Impact delay: 1s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1.500s
+  * Time between end of clip and start of clip: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
-  * Shot count: 2
+  * Shot count: 4
   * Time between shots: 750ms
   * Target locking: No
 
@@ -281,74 +281,74 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
 
-|Level                       |01.01|01.02|01.03|01.04   |01.05|01.06|01.07|01.08|01.09|01.10|
-|----------------------------|-----|-----|-----|--------|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |560  |560  |560  |560     |560  |560  |560  |560  |560  |560  |
-|Calculated damage per second|1520 |1584 |1664 |1742.857|1832 |1920 |2016 |2104 |2200 |2304 |
+|Level                       |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |560  |560  |560  |560  |560  |560  |560  |560  |560  |560  |
+|Calculated damage per second|2660 |2772 |2912 |3050 |3206 |3360 |3528 |3682 |3850 |4032 |
 
 
-|Level                       |02.01|02.02   |02.03   |02.04   |02.05   |02.06|02.07   |02.08   |02.09|02.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |672  |672     |672     |672     |672     |672  |672     |672     |672  |672     |
-|Calculated damage per second|1824 |1900.571|1996.571|2092.571|2197.714|2304 |2418.286|2524.571|2640 |2764.571|
+|Level                       |02.01|02.02|02.03|02.04|02.05|02.06|02.07|02.08|02.09|02.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |672  |672  |672  |672  |672  |672  |672  |672  |672  |672  |
+|Calculated damage per second|3192 |3326 |3494 |3662 |3846 |4032 |4232 |4418 |4620 |4838 |
 
 
-|Level                       |03.01|03.02   |03.03   |03.04   |03.05   |03.06|03.07   |03.08   |03.09|03.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |784  |784     |784     |784     |784     |784  |784     |784     |784  |784     |
-|Calculated damage per second|2128 |2217.143|2329.143|2441.143|2564.571|2688 |2821.714|2945.143|3080 |3225.143|
+|Level                       |03.01|03.02|03.03|03.04|03.05|03.06|03.07|03.08|03.09|03.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |784  |784  |784  |784  |784  |784  |784  |784  |784  |784  |
+|Calculated damage per second|3724 |3880 |4076 |4272 |4488 |4704 |4938 |5154 |5390 |5644 |
 
 
-|Level                       |04.01|04.02   |04.03   |04.04   |04.05   |04.06|04.07   |04.08   |04.09|04.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |896  |896     |896     |896     |896     |896  |896     |896     |896  |896     |
-|Calculated damage per second|2432 |2533.714|2661.714|2789.714|2930.286|3072 |3225.143|3365.714|3520 |3685.714|
+|Level                       |04.01|04.02|04.03|04.04|04.05|04.06|04.07|04.08|04.09|04.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |896  |896  |896  |896  |896  |896  |896  |896  |896  |896  |
+|Calculated damage per second|4256 |4434 |4658 |4882 |5128 |5376 |5644 |5890 |6160 |6450 |
 
 
-|Level                       |05.01|05.02   |05.03   |05.04   |05.05   |05.06|05.07   |05.08   |05.09|05.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |1008 |1008    |1008    |1008    |1008    |1008 |1008    |1008    |1008 |1008    |
-|Calculated damage per second|2736 |2850.286|2994.286|3138.286|3297.143|3456 |3628.571|3786.286|3960 |4146.286|
+|Level                       |05.01|05.02|05.03|05.04|05.05|05.06|05.07|05.08|05.09|05.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1008 |1008 |1008 |1008 |1008 |1008 |1008 |1008 |1008 |1008 |
+|Calculated damage per second|4788 |4988 |5240 |5492 |5770 |6048 |6350 |6626 |6930 |7256 |
 
 
-|Level                       |06.01|06.02|06.03|06.04   |06.05|06.06|06.07|06.08|06.09|06.10|
-|----------------------------|-----|-----|-----|--------|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |1120 |1120 |1120 |1120    |1120 |1120 |1120 |1120 |1120 |1120 |
-|Calculated damage per second|3040 |3168 |3328 |3486.857|3664 |3840 |4032 |4208 |4400 |4608 |
+|Level                       |06.01|06.02|06.03|06.04|06.05|06.06|06.07|06.08|06.09|06.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |
+|Calculated damage per second|5320 |5544 |5824 |6102 |6412 |6720 |7056 |7364 |7700 |8064 |
 
 
-|Level                       |07.01|07.02   |07.03   |07.04   |07.05   |07.06|07.07   |07.08   |07.09|07.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |1232 |1232    |1232    |1232    |1232    |1232 |1232    |1232    |1232 |1232    |
-|Calculated damage per second|3344 |3484.571|3660.571|3836.571|4029.714|4224 |4434.286|4628.571|4840 |5068.571|
+|Level                       |07.01|07.02|07.03|07.04|07.05|07.06|07.07|07.08|07.09|07.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1232 |1232 |1232 |1232 |1232 |1232 |1232 |1232 |1232 |1232 |
+|Calculated damage per second|5852 |6098 |6406 |6714 |7052 |7392 |7760 |8100 |8470 |8870 |
 
 
-|Level                       |08.01|08.02   |08.03   |08.04   |08.05   |08.06|08.07   |08.08   |08.09|08.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |1344 |1344    |1344    |1344    |1344    |1344 |1344    |1344    |1344 |1344    |
-|Calculated damage per second|3648 |3801.143|3993.143|4185.143|4396.571|4608 |4837.714|5049.143|5280 |5529.143|
+|Level                       |08.01|08.02|08.03|08.04|08.05|08.06|08.07|08.08|08.09|08.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1344 |1344 |1344 |1344 |1344 |1344 |1344 |1344 |1344 |1344 |
+|Calculated damage per second|6384 |6652 |6988 |7324 |7694 |8064 |8466 |8836 |9240 |9676 |
 
 
-|Level                       |09.01|09.02   |09.03   |09.04   |09.05   |09.06|09.07   |09.08   |09.09|09.10   |
-|----------------------------|-----|--------|--------|--------|--------|-----|--------|--------|-----|--------|
-|Displayed damage per second |1456 |1456    |1456    |1456    |1456    |1456 |1456    |1456    |1456 |1456    |
-|Calculated damage per second|3952 |4117.714|4325.714|4533.714|4762.286|4992 |5241.143|5469.714|5720 |5989.714|
+|Level                       |09.01|09.02|09.03|09.04|09.05|09.06|09.07|09.08|09.09|09.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1456 |1456 |1456 |1456 |1456 |1456 |1456 |1456 |1456 |1456 |
+|Calculated damage per second|6916 |7206 |7570 |7934 |8334 |8736 |9172 |9572 |10010|10482|
 
 
-|Level                       |10.01|10.02|10.03|10.04   |10.05|10.06|10.07|10.08|10.09|10.10|
-|----------------------------|-----|-----|-----|--------|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |1680 |1680 |1680 |1680    |1680 |1680 |1680 |1680 |1680 |1680 |
-|Calculated damage per second|4560 |4752 |4992 |5230.857|5496 |5760 |6048 |6312 |6600 |6912 |
+|Level                       |10.01|10.02|10.03|10.04|10.05|10.06|10.07|10.08|10.09|10.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1680 |1680 |1680 |1680 |1680 |1680 |1680 |1680 |1680 |1680 |
+|Calculated damage per second|7980 |8316 |8736 |9154 |9618 |10080|10584|11046|11550|12096|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 1.750s
+  * Cliptime: 2s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
   * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall
   * Pass through shield: No
-  * Salvos: 1
+  * Salvos: 2
 
 ## Internal stats
 
@@ -362,25 +362,26 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Animation delay: 0
   * Arcs: No
-  * Asset name: hoversoldier_rbl-ani
+  * Asset name: hoversnowsoldier_rbl-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25
   * Audio death: "sfx_death_jumptrooper_1":35,"sfx_death_jumptrooper_2":35,"sfx_death_jumptrooper_3":30
   * Audio placement: "sfx_placement_jettrooper_1":35,"sfx_placement_jettrooper_2":35,"sfx_placement_jettrooper_3":30
   * Audio train: "sfx_ui_unitcomplete_rebeltrooper_01":35,"sfx_ui_unitcomplete_rebeltrooper_02":35,"sfx_ui_unitcomplete_rebeltrooper_03":30
   * Bullet: fx_blaster_beam_b_sm
-  * Bundle name: hoversoldier_rbl-ani
+  * Bundle name: hoversnowsoldier_rbl-ani
   * Favorite target type: closest
   * Gun position: "hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun1":1,"hoversoldier_rbl_rig_MASTER_MOVER/hoversoldier_rbl_rig_locator_gun2":1
   * Hit spark: fx_blaster_hit_b_sm
   * Icon camera position: 11.88,12.47,16.37
-  * Icon closeup camera position: 0.9,3.32,13.24
-  * Icon closeup lookat position: 0.08,5.11,0.16
+  * Icon closeup camera position: 11.88,12.47,16.37
+  * Icon closeup lookat position: -0.05,4.6,-0.18
   * Icon lookat position: -0.05,4.6,-0.18
   * Max scale: 100
   * Muzzle flash: fx_blaster_flash_b_sm
   * Name: Rebel Jumptrooper Blaster
   * Spin speed: 0
   * Targeted type: ENEMIES
+  * Texture uid: unittransport_event_troop_hoversnowsoldier
 
 |Level                      |01.01, 01.02, 01.03, 01.04, 01.05, 01.06, 01.07, 01.08, 01.09, 01.10|02.01, 02.02, 02.03, 02.04, 02.05, 02.06, 02.07, 02.08, 02.09, 02.10|03.01, 03.02, 03.03, 03.04, 03.05, 03.06, 03.07, 03.08, 03.09, 03.10|04.01, 04.02, 04.03, 04.04, 04.05, 04.06, 04.07, 04.08, 04.09, 04.10|05.01, 05.02, 05.03, 05.04, 05.05, 05.06, 05.07, 05.08, 05.09, 05.10|06.01, 06.02, 06.03, 06.04, 06.05, 06.06, 06.07, 06.08, 06.09, 06.10|07.01, 07.02, 07.03, 07.04, 07.05, 07.06, 07.07, 07.08, 07.09, 07.10|08.01, 08.02, 08.03, 08.04, 08.05, 08.06, 08.07, 08.08, 08.09, 08.10|09.01, 09.02, 09.03, 09.04, 09.05, 09.06, 09.07, 09.08, 09.09, 09.10|10.01, 10.02, 10.03, 10.04, 10.05, 10.06, 10.07, 10.08, 10.09, 10.10|
 |---------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|
