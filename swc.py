@@ -1283,7 +1283,7 @@ def addprojectile(prefix,ob,subunit,data):
     cliptime=ctime+stime*(salvos-1)+cdtime+rtime
     subunit[prefix+'cliptime']=cliptime
     if cliptime!=0:
-        subunit[prefix+'DPS']=(1000*sc*damage)/cliptime
+        subunit[prefix+'DPS']=int((1000*sc*damage)/cliptime)
     if prefix+'applyBuffs' in subunit:
         dobuff(ob,subunit,prefix[:-1],prefix+'applyBuffs')
 
