@@ -21,68 +21,68 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: champion
 
-|Level        |14   |2    |42   |46   |13   |48   |27   |45   |1    |21   |
+|Level        |4    |15   |23   |36   |18   |13   |14   |1    |43   |32   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |31488|20736|50880|52480|30720|53440|41472|52160|19200|36864|
-|Shield health|11808|7776 |19200|20160|11520|20640|15552|19920|7200 |13824|
+|Health       |22272|32256|38400|47232|34560|30720|31488|19200|51200|44928|
+|Shield health|8352 |12096|14400|17712|12960|11520|11808|7200 |19440|16848|
 
 
-|Level        |47   |23   |16   |41   |40   |50   |3    |29   |18   |9    |
+|Level        |29   |35   |22   |49   |24   |28   |34   |44   |11   |6    |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |53120|38400|33024|50560|49920|54400|21504|43008|34560|26880|
-|Shield health|20400|14400|12384|18960|18720|21120|8064 |16128|12960|10080|
+|Health       |43008|46848|37632|53760|39168|42240|46080|51840|29184|24576|
+|Shield health|16128|17568|14112|20880|14688|15840|17280|19680|10944|9216 |
 
 
-|Level        |31   |35   |17   |28   |49   |11   |7    |44   |30   |12   |
+|Level        |26   |33   |41   |31   |50   |7    |19   |5    |39   |8    |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |44544|46848|33792|42240|53760|29184|25344|51840|43776|29952|
-|Shield health|16704|17568|12672|15840|20880|10944|9504 |19680|16416|11232|
+|Health       |40704|45696|50560|44544|54400|25344|35328|23040|49536|26112|
+|Shield health|15264|17136|18960|16704|21120|9504 |13248|8640 |18576|9792 |
 
 
-|Level        |39   |8    |15   |19   |38   |26   |6    |5    |25   |20   |
+|Level        |48   |38   |45   |47   |12   |27   |16   |40   |25   |9    |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |49536|26112|32256|35328|48768|40704|24576|23040|39936|36096|
-|Shield health|18576|9792 |12096|13248|18288|15264|9216 |8640 |14976|13536|
+|Health       |53440|48768|52160|53120|29952|41472|33024|49920|39936|26880|
+|Shield health|20640|18288|19920|20400|11232|15552|12384|18720|14976|10080|
 
 
-|Level        |32   |34   |10   |36   |4    |22   |24   |43   |33   |37   |
+|Level        |17   |3    |21   |37   |10   |46   |30   |2    |20   |42   |
 |-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health       |44928|46080|28416|47232|22272|37632|39168|51200|45696|48000|
-|Shield health|16848|17280|10656|17712|8352 |14112|14688|19440|17136|18000|
+|Health       |33792|21504|36864|48000|28416|52480|43776|20736|36096|50880|
+|Shield health|12672|8064 |13824|18000|10656|20160|16416|7776 |13536|19200|
 
 
 ### Training stats
 
   * Training cost: Free
 
-|Level        |14                            |2                             |42, 46                         |13                            |48                             |27                             |45                             |1                                                               |21                             |47                             |
-|-------------|------------------------------|------------------------------|-------------------------------|------------------------------|-------------------------------|-------------------------------|-------------------------------|----------------------------------------------------------------|-------------------------------|-------------------------------|
-|Training time|1h26m                         |1h2m                          |2h19m                          |1h24m                         |2h19m                          |1h52m                          |2h19m                          |1h                                                              |1h40m                          |2h19m                          |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Droideka Oppressor Platform 1](rebelPlatformHeavyDroideka.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level        |4                             |15                            |23                             |36                             |18                            |13                            |14                            |1                                                               |43                             |32                             |
+|-------------|------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|----------------------------------------------------------------|-------------------------------|-------------------------------|
+|Training time|1h7m                          |1h28m                         |1h44m                          |2h11m                          |1h34m                         |1h24m                         |1h26m                         |1h                                                              |2h19m                          |2h3m                           |
+|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Droideka Oppressor Platform 1](rebelPlatformHeavyDroideka.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 
 
-|Level        |23                             |16                            |41, 40, 50                     |3                             |29                             |18                            |9                             |31                             |35                             |17                            |
-|-------------|-------------------------------|------------------------------|-------------------------------|------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|
-|Training time|1h44m                          |1h31m                         |2h19m                          |1h4m                          |1h56m                          |1h34m                         |1h16m                         |2h                             |2h8m                           |1h32m                         |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+|Level        |29                             |35                             |22                             |49                             |24                             |28                             |34                             |44                             |11                            |6                             |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|
+|Training time|1h56m                          |2h8m                           |1h42m                          |2h19m                          |1h47m                          |1h55m                          |2h6m                           |2h19m                          |1h20m                         |1h10m                         |
+|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
 
 
-|Level        |28                             |49                             |11                            |7                             |44                             |30                             |12                            |39                             |8                             |15                            |
-|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|-------------------------------|------------------------------|------------------------------|
-|Training time|1h55m                          |2h19m                          |1h20m                         |1h12m                         |2h19m                          |1h58m                          |1h23m                         |2h16m                          |1h15m                         |1h28m                         |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+|Level        |26                             |33                             |41                             |31                             |50                             |7                             |19                            |5                             |39                             |8                             |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|------------------------------|
+|Training time|1h50m                          |2h4m                           |2h19m                          |2h                             |2h19m                          |1h12m                         |1h36m                         |1h8m                          |2h16m                          |1h15m                         |
+|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
 
 
-|Level        |19                            |38                             |26                             |6                             |5                             |25                             |20                            |32                             |34                             |10                            |
-|-------------|------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|
-|Training time|1h36m                         |2h14m                          |1h50m                          |1h10m                         |1h8m                          |1h48m                          |1h39m                         |2h3m                           |2h6m                           |1h18m                         |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+|Level        |48                             |38                             |45, 47                         |12                            |27                             |16                            |40                             |25                             |9                             |17                            |
+|-------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|-------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|
+|Training time|2h19m                          |2h14m                          |2h19m                          |1h23m                         |1h52m                          |1h31m                         |2h19m                          |1h48m                          |1h16m                         |1h32m                         |
+|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
 
 
-|Level        |36                             |4                             |22                             |24                             |43                             |33                             |37                             |
-|-------------|-------------------------------|------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|2h11m                          |1h7m                          |1h42m                          |1h47m                          |2h19m                          |2h4m                           |2h12m                          |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level        |3                             |21                             |37                             |10                            |46                             |30                             |2                             |20                            |42                             |
+|-------------|------------------------------|-------------------------------|-------------------------------|------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-------------------------------|
+|Training time|1h4m                          |1h40m                          |2h12m                          |1h18m                         |2h19m                          |1h58m                          |1h2m                          |1h39m                         |2h19m                          |
+|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -128,63 +128,63 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 750ms
   * Target locking: No
 
-|Level          |14  |2   |42  |46  |13  |48  |27  |45  |1   |21  |
+|Level          |4   |15  |23  |36  |18  |13  |14  |1   |43  |32  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3950|3350|5350|5550|3900|5650|4600|5500|3300|4300|
+|Damage per shot|3450|4000|4400|5050|4150|3900|3950|3300|5400|4850|
 
 
-|Level          |47  |23  |16  |41  |40  |50  |3   |29  |18  |9   |
+|Level          |29  |35  |22  |49  |24  |28  |34  |44  |11  |6   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|5600|4400|4050|5300|5250|5750|3400|4700|4150|3700|
+|Damage per shot|4700|5000|4350|5700|4450|4650|4950|5450|3800|3550|
 
 
-|Level          |31  |35  |17  |28  |49  |11  |7   |44  |30  |12  |
+|Level          |26  |33  |41  |31  |50  |7   |19  |5   |39  |8   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|4800|5000|4100|4650|5700|3800|3600|5450|4750|3850|
+|Damage per shot|4550|4900|5300|4800|5750|3600|4200|3500|5200|3650|
 
 
-|Level          |39  |8   |15  |19  |38  |26  |6   |5   |25  |20  |
+|Level          |48  |38  |45  |47  |12  |27  |16  |40  |25  |9   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|5200|3650|4000|4200|5150|4550|3550|3500|4500|4250|
+|Damage per shot|5650|5150|5500|5600|3850|4600|4050|5250|4500|3700|
 
 
-|Level          |32  |34  |10  |36  |4   |22  |24  |43  |33  |37  |
+|Level          |17  |3   |21  |37  |10  |46  |30  |2   |20  |42  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|4850|4950|3750|5050|3450|4350|4450|5400|4900|5100|
+|Damage per shot|4100|3400|4300|5100|3750|5550|4750|3350|4250|5350|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,65,50,25
 
-|Level                       |14      |2       |42      |46   |13  |48      |27      |45      |1   |21      |
-|----------------------------|--------|--------|--------|-----|----|--------|--------|--------|----|--------|
-|Displayed damage per second |7900    |6700    |10700   |11100|7800|11300   |9200    |11000   |6600|8600    |
-|Calculated damage per second|3291.667|2791.667|4458.333|4625 |3250|4708.333|3833.333|4583.333|2750|3583.333|
+|Level                       |4   |15      |23      |36      |18      |13  |14      |1   |43   |32      |
+|----------------------------|----|--------|--------|--------|--------|----|--------|----|-----|--------|
+|Displayed damage per second |6900|8000    |8800    |10100   |8300    |7800|7900    |6600|10800|9700    |
+|Calculated damage per second|2875|3333.333|3666.667|4208.333|3458.333|3250|3291.667|2750|4500 |4041.667|
 
 
-|Level                       |47      |23      |16  |41      |40   |50      |3       |29      |18      |9       |
-|----------------------------|--------|--------|----|--------|-----|--------|--------|--------|--------|--------|
-|Displayed damage per second |11200   |8800    |8100|10600   |10500|11500   |6800    |9400    |8300    |7400    |
-|Calculated damage per second|4666.667|3666.667|3375|4416.667|4375 |4791.667|2833.333|3916.667|3458.333|3083.333|
+|Level                       |29      |35      |22  |49   |24      |28  |34  |44      |11      |6       |
+|----------------------------|--------|--------|----|-----|--------|----|----|--------|--------|--------|
+|Displayed damage per second |9400    |10000   |8700|11400|8900    |9300|9900|10900   |7600    |7100    |
+|Calculated damage per second|3916.667|4166.667|3625|4750 |3708.333|3875|4125|4541.667|3166.667|2958.333|
 
 
-|Level                       |31  |35      |17      |28  |49   |11      |7   |44      |30      |12      |
-|----------------------------|----|--------|--------|----|-----|--------|----|--------|--------|--------|
-|Displayed damage per second |9600|10000   |8200    |9300|11400|7600    |7200|10900   |9500    |7700    |
-|Calculated damage per second|4000|4166.667|3416.667|3875|4750 |3166.667|3000|4541.667|3958.333|3208.333|
+|Level                       |26      |33      |41      |31  |50      |7   |19  |5       |39      |8       |
+|----------------------------|--------|--------|--------|----|--------|----|----|--------|--------|--------|
+|Displayed damage per second |9100    |9800    |10600   |9600|11500   |7200|8400|7000    |10400   |7300    |
+|Calculated damage per second|3791.667|4083.333|4416.667|4000|4791.667|3000|3500|2916.667|4333.333|3041.667|
 
 
-|Level                       |39      |8       |15      |19  |38      |26      |6       |5       |25  |20      |
-|----------------------------|--------|--------|--------|----|--------|--------|--------|--------|----|--------|
-|Displayed damage per second |10400   |7300    |8000    |8400|10300   |9100    |7100    |7000    |9000|8500    |
-|Calculated damage per second|4333.333|3041.667|3333.333|3500|4291.667|3791.667|2958.333|2916.667|3750|3541.667|
+|Level                       |48      |38      |45      |47      |12      |27      |16  |40   |25  |9       |
+|----------------------------|--------|--------|--------|--------|--------|--------|----|-----|----|--------|
+|Displayed damage per second |11300   |10300   |11000   |11200   |7700    |9200    |8100|10500|9000|7400    |
+|Calculated damage per second|4708.333|4291.667|4583.333|4666.667|3208.333|3833.333|3375|4375 |3750|3083.333|
 
 
-|Level                       |32      |34  |10  |36      |4   |22  |24      |43   |33      |37   |
-|----------------------------|--------|----|----|--------|----|----|--------|-----|--------|-----|
-|Displayed damage per second |9700    |9900|7500|10100   |6900|8700|8900    |10800|9800    |10200|
-|Calculated damage per second|4041.667|4125|3125|4208.333|2875|3625|3708.333|4500 |4083.333|4250 |
+|Level                       |17      |3       |21      |37   |10  |46   |30      |2       |20      |42      |
+|----------------------------|--------|--------|--------|-----|----|-----|--------|--------|--------|--------|
+|Displayed damage per second |8200    |6800    |8600    |10200|7500|11100|9500    |6700    |8500    |10700   |
+|Calculated damage per second|3416.667|2833.333|3583.333|4250 |3125|4625 |3958.333|2791.667|3541.667|4458.333|
 
 
   * Cannons per sequence: 2
@@ -229,54 +229,54 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
 
-|Level                      |14                              |2                              |42                              |46                              |13                              |48                              |27                              |45                              |1                              |21                              |
-|---------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|
-|Asset name                 |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |
-|Bundle name                |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |
-|Displayed damage per second|7900                            |6700                           |10700                           |11100                           |7800                            |11300                           |9200                            |11000                           |6600                           |8600                            |
-|Icon camera position       |-9.81,16.18,23.56               |-9.81,16.18,23.56              |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-9.81,16.18,23.56               |-5.03,18.08,36.98               |-10.52,17.22,25.24              |-5.03,18.08,36.98               |-9.81,16.18,23.56              |-10.52,17.22,25.24              |
-|Icon lookat position       |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |
-|Shield asset name          |effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|
+|Level                      |4                              |15                              |23                              |36                              |18                              |13                              |14                              |1                              |43                              |32                              |
+|---------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|
+|Asset name                 |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |
+|Bundle name                |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |
+|Displayed damage per second|6900                           |8000                            |8800                            |10100                           |8300                            |7800                            |7900                            |6600                           |10800                           |9700                            |
+|Icon camera position       |-9.81,16.18,23.56              |-9.81,16.18,23.56               |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56              |-5.03,18.08,36.98               |-11.59,19.02,28.21              |
+|Icon lookat position       |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |
+|Shield asset name          |effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|
 
 
-|Level                      |47                              |23                              |16                              |41                              |40                              |50                              |3                              |29                              |18                              |9                              |
-|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|-------------------------------|
-|Asset name                 |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |
-|Bundle name                |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10 |
-|Displayed damage per second|11200                           |8800                            |8100                            |10600                           |10500                           |11500                           |6800                           |9400                            |8300                            |7400                           |
-|Icon camera position       |-5.03,18.08,36.98               |-10.52,17.22,25.24              |-9.81,16.18,23.56               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-9.81,16.18,23.56              |-10.52,17.22,25.24              |-9.81,16.18,23.56               |-9.81,16.18,23.56              |
-|Icon lookat position       |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |
-|Shield asset name          |effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|
+|Level                      |29                              |35                              |22                              |49                              |24                              |28                              |34                              |44                              |11                              |6                              |
+|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|
+|Asset name                 |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |
+|Bundle name                |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |
+|Displayed damage per second|9400                            |10000                           |8700                            |11400                           |8900                            |9300                            |9900                            |10900                           |7600                            |7100                           |
+|Icon camera position       |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-10.52,17.22,25.24              |-5.03,18.08,36.98               |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-5.03,18.08,36.98               |-9.81,16.18,23.56               |-9.81,16.18,23.56              |
+|Icon lookat position       |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |
+|Shield asset name          |effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|
 
 
-|Level                      |31                              |35                              |17                              |28                              |49                              |11                              |7                              |44                              |30                              |12                              |
-|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Asset name                 |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |
-|Bundle name                |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |
-|Displayed damage per second|9600                            |10000                           |8200                            |9300                            |11400                           |7600                            |7200                           |10900                           |9500                            |7700                            |
-|Icon camera position       |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-9.81,16.18,23.56               |-10.52,17.22,25.24              |-5.03,18.08,36.98               |-9.81,16.18,23.56               |-9.81,16.18,23.56              |-5.03,18.08,36.98               |-11.59,19.02,28.21              |-9.81,16.18,23.56               |
-|Icon lookat position       |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |
-|Shield asset name          |effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield10|
+|Level                      |26                              |33                              |41                              |31                              |50                              |7                              |19                              |5                              |39                              |8                              |
+|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|-------------------------------|--------------------------------|-------------------------------|
+|Asset name                 |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |
+|Bundle name                |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |
+|Displayed damage per second|9100                            |9800                            |10600                           |9600                            |11500                           |7200                           |8400                            |7000                           |10400                           |7300                           |
+|Icon camera position       |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-5.03,18.08,36.98               |-11.59,19.02,28.21              |-5.03,18.08,36.98               |-9.81,16.18,23.56              |-9.81,16.18,23.56               |-9.81,16.18,23.56              |-11.59,19.02,28.21              |-9.81,16.18,23.56              |
+|Icon lookat position       |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.4,1.52,-0.26                  |0.23,1.51,-0.32                |
+|Shield asset name          |effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield1|
 
 
-|Level                      |39                              |8                              |15                              |19                              |38                              |26                              |6                              |5                              |25                              |20                              |
-|---------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|
-|Asset name                 |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |
-|Bundle name                |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |
-|Displayed damage per second|10400                           |7300                           |8000                            |8400                            |10300                           |9100                            |7100                           |7000                           |9000                            |8500                            |
-|Icon camera position       |-11.59,19.02,28.21              |-9.81,16.18,23.56              |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-11.59,19.02,28.21              |-10.52,17.22,25.24              |-9.81,16.18,23.56              |-9.81,16.18,23.56              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |
-|Icon lookat position       |0.4,1.52,-0.26                  |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |
-|Shield asset name          |effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|
+|Level                      |48                              |38                              |45                              |47                              |12                              |27                              |16                              |40                              |25                              |9                              |
+|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|
+|Asset name                 |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up1  |
+|Bundle name                |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up10 |
+|Displayed damage per second|11300                           |10300                           |11000                           |11200                           |7700                            |9200                            |8100                            |10500                           |9000                            |7400                           |
+|Icon camera position       |-5.03,18.08,36.98               |-11.59,19.02,28.21              |-5.03,18.08,36.98               |-5.03,18.08,36.98               |-9.81,16.18,23.56               |-10.52,17.22,25.24              |-9.81,16.18,23.56               |-5.03,18.08,36.98               |-10.52,17.22,25.24              |-9.81,16.18,23.56              |
+|Icon lookat position       |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |0.27,1.61,-0.25                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |
+|Shield asset name          |effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield1|
 
 
-|Level                      |32                              |34                              |10                              |36                              |4                              |22                              |24                              |43                              |33                              |37                              |
-|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Asset name                 |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |
-|Bundle name                |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up30  |
-|Displayed damage per second|9700                            |9900                            |7500                            |10100                           |6900                           |8700                            |8900                            |10800                           |9800                            |10200                           |
-|Icon camera position       |-11.59,19.02,28.21              |-11.59,19.02,28.21              |-9.81,16.18,23.56               |-11.59,19.02,28.21              |-9.81,16.18,23.56              |-10.52,17.22,25.24              |-10.52,17.22,25.24              |-5.03,18.08,36.98               |-11.59,19.02,28.21              |-11.59,19.02,28.21              |
-|Icon lookat position       |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |0.4,1.52,-0.26                  |
-|Shield asset name          |effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield30|
+|Level                      |17                              |3                              |21                              |37                              |10                              |46                              |30                              |2                              |20                              |42                              |
+|---------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------------|--------------------------------|--------------------------------|
+|Asset name                 |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |
+|Bundle name                |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up40  |artillerydroideka_con-ani-up30  |artillerydroideka_con-ani-up1  |artillerydroideka_con-ani-up20  |artillerydroideka_con-ani-up40  |
+|Displayed damage per second|8200                            |6800                           |8600                            |10200                           |7500                            |11100                           |9500                            |6700                           |8500                            |10700                           |
+|Icon camera position       |-9.81,16.18,23.56               |-9.81,16.18,23.56              |-10.52,17.22,25.24              |-11.59,19.02,28.21              |-9.81,16.18,23.56               |-5.03,18.08,36.98               |-11.59,19.02,28.21              |-9.81,16.18,23.56              |-10.52,17.22,25.24              |-5.03,18.08,36.98               |
+|Icon lookat position       |0.23,1.51,-0.32                 |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |0.4,1.52,-0.26                  |0.23,1.51,-0.32                |0.23,1.51,-0.32                 |0.27,1.61,-0.25                 |
+|Shield asset name          |effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield40|effectRebelHeavyDroidekaShield30|effectRebelHeavyDroidekaShield1|effectRebelHeavyDroidekaShield20|effectRebelHeavyDroidekaShield40|
 
 
 ## Uninterpreted stats
@@ -296,33 +296,33 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |14    |2     |42    |46    |13    |48    |27    |45    |1     |21    |
+|Level      |4     |15    |23    |36    |18    |13    |14    |1     |43    |32    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214814|214802|214842|214846|214813|214848|214827|214845|214801|214821|
-|Point value|84    |28    |200   |200   |80    |200   |136   |200   |20    |112   |
+|Order      |214804|214815|214823|214836|214818|214813|214814|214801|214843|214832|
+|Point value|36    |88    |120   |176   |100   |80    |84    |20    |200   |156   |
 
 
-|Level      |47    |23    |16    |41    |40    |50    |3     |29    |18    |9     |
+|Level      |29    |35    |22    |49    |24    |28    |34    |44    |11    |6     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214847|214823|214816|214841|214840|214850|214803|214829|214818|214809|
-|Point value|200   |120   |92    |200   |200   |200   |32    |144   |100   |60    |
+|Order      |214829|214835|214822|214849|214824|214828|214834|214844|214811|214806|
+|Point value|144   |172   |116   |200   |124   |140   |168   |200   |72    |48    |
 
 
-|Level      |31    |35    |17    |28    |49    |11    |7     |44    |30    |12    |
+|Level      |26    |33    |41    |31    |50    |7     |19    |5     |39    |8     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214831|214835|214817|214828|214849|214811|214807|214844|214830|214812|
-|Point value|152   |172   |96    |140   |200   |72    |52    |200   |148   |76    |
+|Order      |214826|214833|214841|214831|214850|214807|214819|214805|214839|214808|
+|Point value|132   |160   |200   |152   |200   |52    |104   |40    |188   |56    |
 
 
-|Level      |39    |8     |15    |19    |38    |26    |6     |5     |25    |20    |
+|Level      |48    |38    |45    |47    |12    |27    |16    |40    |25    |9     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214839|214808|214815|214819|214838|214826|214806|214805|214825|214820|
-|Point value|188   |56    |88    |104   |184   |132   |48    |40    |128   |108   |
+|Order      |214848|214838|214845|214847|214812|214827|214816|214840|214825|214809|
+|Point value|200   |184   |200   |200   |76    |136   |92    |200   |128   |60    |
 
 
-|Level      |32    |34    |10    |36    |4     |22    |24    |43    |33    |37    |
+|Level      |17    |3     |21    |37    |10    |46    |30    |2     |20    |42    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214832|214834|214810|214836|214804|214822|214824|214843|214833|214837|
-|Point value|156   |168   |68    |176   |36    |116   |124   |200   |160   |180   |
+|Order      |214817|214803|214821|214837|214810|214846|214830|214802|214820|214842|
+|Point value|96    |32    |112   |180   |68    |200   |148   |28    |108   |200   |
 
 

@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: vehicle
 
-|Level |6    |2   |7    |4    |8    |5    |3    |1   |10   |9    |
-|------|-----|----|-----|-----|-----|-----|-----|----|-----|-----|
-|Health|13140|9700|14210|11280|15360|12170|10450|9000|18000|16620|
+|Level |8    |4    |2   |6    |1   |5    |3    |10   |7    |9    |
+|------|-----|-----|----|-----|----|-----|-----|-----|-----|-----|
+|Health|15360|11280|9700|13140|9000|12170|10450|18000|14210|16620|
 
 
 ### Training stats
 
-|Level        |6                                     |2                                     |7                                     |4                                     |8                                     |5                                     |3                                     |1                             |10                                     |9                                     |
-|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|---------------------------------------|--------------------------------------|
-|Training time|2m36s                                 |2m25s                                 |2m42s                                 |2m28s                                 |2m48s                                 |2m30s                                 |2m26s                                 |2m24s                         |3m                                     |2m54s                                 |
-|Training cost|750$                                  |570$                                  |850$                                  |620$                                  |1000$                                 |650$                                  |590$                                  |550$                          |1150$                                  |1050$                                 |
-|Building     |[Research Lab 6](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Factory 1](rebelFactory.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|
+|Level        |8                                     |4                                     |2                                     |6                                     |1                             |5                                     |3                                     |10                                     |7                                     |9                                     |
+|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|
+|Training time|2m48s                                 |2m28s                                 |2m25s                                 |2m36s                                 |2m24s                         |2m30s                                 |2m26s                                 |3m                                     |2m42s                                 |2m54s                                 |
+|Training cost|1000$                                 |620$                                  |570$                                  |750$                                  |550$                          |650$                                  |590$                                  |1150$                                  |850$                                  |1050$                                 |
+|Building     |[Research Lab 8](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Factory 1](rebelFactory.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |6      |2    |7      |4     |8      |5     |3    |1    |10      |9       |
-|--------------------|-------|-----|-------|------|-------|------|-----|-----|--------|--------|
-|Upgrade time        |1d12h  |30m  |2d12h  |5h    |4d     |10h   |1h30m|0s   |1w2d    |6d      |
-|Upgrade requirements|115000$|3000$|175000$|15000$|350000$|35000$|6000$|3000$|2000000$|1000000$|
+|Level               |8      |4     |2    |6      |1    |5     |3    |10      |7      |9       |
+|--------------------|-------|------|-----|-------|-----|------|-----|--------|-------|--------|
+|Upgrade time        |4d     |5h    |30m  |1d12h  |0s   |10h   |1h30m|1w2d    |2d12h  |6d      |
+|Upgrade requirements|350000$|15000$|3000$|115000$|3000$|35000$|6000$|2000000$|175000$|1000000$|
 
 
 ### Movement stats
@@ -53,10 +53,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level       |6, 2|7 |4 |8 |5, 3, 1|10, 9|
-|------------|----|--|--|--|-------|-----|
-|Acceleration|0   |8 |0 |8 |0      |8    |
-|Max speed   |40  |80|40|80|40     |80   |
+|Level       |8 |4, 2, 6, 1, 5, 3|10, 7, 9|
+|------------|--|----------------|--------|
+|Acceleration|8 |0               |8       |
+|Max speed   |80|40              |80      |
 
 
 ## Main attack : T7-V Speederbike / Rebel Speeder Bike Upgrade
@@ -84,18 +84,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level                                    |6   |2   |7    |4   |8    |5   |3   |1   |10   |9    |
-|-----------------------------------------|----|----|-----|----|-----|----|----|----|-----|-----|
-|Time between start of clip and first shot|1s  |1s  |500ms|1s  |500ms|1s  |1s  |1s  |500ms|500ms|
-|Damage per shot                          |1230|1050|1280 |1140|1330 |1180|1090|1010|1440 |1380 |
+|Level                                    |8    |4   |2   |6   |1   |5   |3   |10   |7    |9    |
+|-----------------------------------------|-----|----|----|----|----|----|----|-----|-----|-----|
+|Time between start of clip and first shot|500ms|1s  |1s  |1s  |1s  |1s  |1s  |500ms|500ms|500ms|
+|Damage per shot                          |1330 |1140|1050|1230|1010|1180|1090|1440 |1280 |1380 |
 
 
 ### Projectile
 
-|Level                       |6       |2      |7       |4       |8   |5       |3      |1      |10      |9       |
-|----------------------------|--------|-------|--------|--------|----|--------|-------|-------|--------|--------|
-|Displayed damage per second |1090    |930    |1460    |1010    |1520|1050    |970    |900    |1650    |1580    |
-|Calculated damage per second|1093.333|933.333|1462.857|1013.333|1520|1048.889|968.889|897.778|1645.714|1577.143|
+|Level                       |8   |4       |2      |6       |1      |5       |3      |10      |7       |9       |
+|----------------------------|----|--------|-------|--------|-------|--------|-------|--------|--------|--------|
+|Displayed damage per second |1520|1010    |930    |1090    |900    |1050    |970    |1650    |1460    |1580    |
+|Calculated damage per second|1520|1013.333|933.333|1093.333|897.778|1048.889|968.889|1645.714|1462.857|1577.143|
 
 
   * Cannons per sequence: 2
@@ -105,10 +105,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
 
-|Level             |6, 2                                                                                                                                                                                                                                                                                                                                                   |7                                                                                                                                                                                                                                                                                                                                                                                               |4                                                                                                                                                                                                                                                                                                                                                      |8                                                                                                                                                                                                                                                                                                                                                                                               |5, 3, 1                                                                                                                                                                                                                                                                                                                                                |10, 9                                                                                                                                                                                                                                                                                                                                                                                           |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Cliptime          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |
-|Damage multipliers|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
+|Level             |8                                                                                                                                                                                                                                                                                                                                                                                               |4, 2, 6, 1, 5, 3                                                                                                                                                                                                                                                                                                                                       |10, 7, 9                                                                                                                                                                                                                                                                                                                                                                                        |
+|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Cliptime          |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |
+|Damage multipliers|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
 
 
 ## Internal stats
@@ -142,10 +142,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |6               |2               |7                         |4               |8                         |5               |3               |1               |10                        |9                         |
-|---------------------------|----------------|----------------|--------------------------|----------------|--------------------------|----------------|----------------|----------------|--------------------------|--------------------------|
-|Displayed damage per second|1090            |930             |1460                      |1010            |1520                      |1050            |970             |900             |1650                      |1580                      |
-|Name                       |T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|T7-V Speederbike|Rebel Speeder Bike Upgrade|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|
+|Level                      |8                         |4               |2               |6               |1               |5               |3               |10                        |7                         |9                         |
+|---------------------------|--------------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------|--------------------------|--------------------------|
+|Displayed damage per second|1520                      |1010            |930             |1090            |900             |1050            |970             |1650                      |1460                      |1580                      |
+|Name                       |Rebel Speeder Bike Upgrade|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|
 
 
 ## Uninterpreted stats
@@ -163,9 +163,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |6     |2     |7     |4     |8     |5     |3     |1     |10    |9     |
+|Level      |8     |4     |2     |6     |1     |5     |3     |10    |7     |9     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |230106|230102|230107|230104|230108|230105|230103|230101|230110|230109|
-|Point value|10    |6     |11    |8     |12    |9     |7     |5     |15    |13    |
+|Order      |230108|230104|230102|230106|230101|230105|230103|230110|230107|230109|
+|Point value|12    |8     |6     |10    |5     |9     |7     |15    |11    |13    |
 
 

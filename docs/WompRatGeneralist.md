@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
 
-|Level |3  |8  |2  |9   |4  |10  |5  |1  |6  |7  |
-|------|---|---|---|----|---|----|---|---|---|---|
-|Health|560|960|480|1040|640|1200|720|400|800|880|
+|Level |10  |5  |9   |7  |4  |2  |8  |1  |3  |6  |
+|------|----|---|----|---|---|---|---|---|---|---|
+|Health|1200|720|1040|880|640|480|960|400|560|800|
 
 
 ### Training stats
@@ -34,10 +34,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |3    |8      |2    |9       |4     |10      |5     |1    |6      |7      |
-|--------------------|-----|-------|-----|--------|------|--------|------|-----|-------|-------|
-|Upgrade time        |1h   |3d12h  |15m  |5d      |3h30m |1w1d    |8h    |0s   |1d     |2d     |
-|Upgrade requirements|9000$|320000$|7000$|1000000$|12500$|1750000$|25000$|5000$|100000$|160000$|
+|Level               |10      |5     |9       |7      |4     |2    |8      |1    |3    |6      |
+|--------------------|--------|------|--------|-------|------|-----|-------|-----|-----|-------|
+|Upgrade time        |1w1d    |8h    |5d      |2d     |3h30m |15m  |3d12h  |0s   |1h   |1d     |
+|Upgrade requirements|1750000$|25000$|1000000$|160000$|12500$|7000$|320000$|5000$|9000$|100000$|
 
 
 ### Movement stats
@@ -78,19 +78,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level          |3 |8 |2 |9 |4 |10|5 |1 |6 |7 |
+|Level          |10|5 |9 |7 |4 |2 |8 |1 |3 |6 |
 |---------------|--|--|--|--|--|--|--|--|--|--|
-|Damage per shot|28|48|24|52|32|60|36|20|40|44|
+|Damage per shot|60|36|52|44|32|24|48|20|28|40|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |3 |8 |2 |9  |4 |10 |5 |1 |6 |7 |
-|----------------------------|--|--|--|---|--|---|--|--|--|--|
-|Displayed damage per second |56|96|48|104|64|120|72|40|80|88|
-|Calculated damage per second|56|96|48|104|64|120|72|40|80|88|
+|Level                       |10 |5 |9  |7 |4 |2 |8 |1 |3 |6 |
+|----------------------------|---|--|---|--|--|--|--|--|--|--|
+|Displayed damage per second |120|72|104|88|64|48|96|40|56|80|
+|Calculated damage per second|120|72|104|88|64|48|96|40|56|80|
 
 
   * Cannons per sequence: 1
@@ -130,9 +130,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |3 |8 |2 |9  |4 |10 |5 |1 |6 |7 |
-|---------------------------|--|--|--|---|--|---|--|--|--|--|
-|Displayed damage per second|56|96|48|104|64|120|72|40|80|88|
+|Level                      |10 |5 |9  |7 |4 |2 |8 |1 |3 |6 |
+|---------------------------|---|--|---|--|--|--|--|--|--|--|
+|Displayed damage per second|120|72|104|88|64|48|96|40|56|80|
 
 
 ## Uninterpreted stats
@@ -150,9 +150,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |3     |8     |2     |9     |4     |10    |5     |1     |6     |7     |
+|Level      |10    |5     |9     |7     |4     |2     |8     |1     |3     |6     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332703|332708|332702|332709|332704|332710|332705|332701|332706|332707|
-|Point value|1.400 |2.400 |1.200 |2.600 |1.600 |3     |1.800 |1     |2     |2.200 |
+|Order      |332710|332705|332709|332707|332704|332702|332708|332701|332703|332706|
+|Point value|3     |1.800 |2.600 |2.200 |1.600 |1.200 |2.400 |1     |1.400 |2     |
 
 

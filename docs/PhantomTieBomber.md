@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber target: enemies
   * Sum tie bomber value: 1
 
-|Level                         |2                                   |9                                   |4                                   |6                                   |3, 1                                |7                                   |5                                   |8                                   |10                                   |
+|Level                         |4                                   |9                                   |1                                   |8                                   |2                                   |5                                   |6, 7                                |3                                   |10                                   |
 |------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|
-|Sum tie bomber summon visitors|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|
+|Sum tie bomber summon visitors|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|
 
 
   * Sum tie bomber summon die with summoner: No
@@ -134,11 +134,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomTieBomber
 
-|Level                    |2                |9                |4                |6                |3                |1                |7                |5                |8                |10                |
+|Level                    |4                |9                |1                |8                |2                |5                |6                |7                |3                |10                |
 |-------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
-|Apply buffs              |buffSumTieBomber2|buffSumTieBomber9|buffSumTieBomber4|buffSumTieBomber6|buffSumTieBomber3|buffSumTieBomber1|buffSumTieBomber7|buffSumTieBomber5|buffSumTieBomber8|buffSumTieBomber10|
-|Sum tie bomber details   |sumTieBomber2    |sumTieBomber9    |sumTieBomber4    |sumTieBomber6    |sumTieBomber3    |sumTieBomber1    |sumTieBomber7    |sumTieBomber5    |sumTieBomber8    |sumTieBomber10    |
-|Sum tie bomber summon uid|sumTieBomber2    |sumTieBomber9    |sumTieBomber4    |sumTieBomber6    |sumTieBomber3    |sumTieBomber1    |sumTieBomber7    |sumTieBomber5    |sumTieBomber8    |sumTieBomber10    |
+|Apply buffs              |buffSumTieBomber4|buffSumTieBomber9|buffSumTieBomber1|buffSumTieBomber8|buffSumTieBomber2|buffSumTieBomber5|buffSumTieBomber6|buffSumTieBomber7|buffSumTieBomber3|buffSumTieBomber10|
+|Sum tie bomber details   |sumTieBomber4    |sumTieBomber9    |sumTieBomber1    |sumTieBomber8    |sumTieBomber2    |sumTieBomber5    |sumTieBomber6    |sumTieBomber7    |sumTieBomber3    |sumTieBomber10    |
+|Sum tie bomber summon uid|sumTieBomber4    |sumTieBomber9    |sumTieBomber1    |sumTieBomber8    |sumTieBomber2    |sumTieBomber5    |sumTieBomber6    |sumTieBomber7    |sumTieBomber3    |sumTieBomber10    |
 
 
 ## Presentation stats
@@ -183,8 +183,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|2     |9     |4     |6     |3     |1     |7     |5     |8     |10    |
+|Level|4     |9     |1     |8     |2     |5     |6     |7     |3     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400201|400208|400203|400205|400202|400200|400206|400204|400207|400209|
+|Order|400203|400208|400200|400207|400201|400204|400205|400206|400202|400209|
 
 

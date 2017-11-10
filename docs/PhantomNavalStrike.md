@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum naval strike target: enemies
   * Sum naval strike value: 1
 
-|Level                           |8                                                  |3                                                  |2                                                  |9                                                  |1                                                  |7                                                  |5                                                  |6                                                  |10                                                  |4                                                  |
-|--------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------|---------------------------------------------------|
-|Sum naval strike summon visitors|["shp_title_NavalStrike" level 8](NavalStrike.html)|["shp_title_NavalStrike" level 3](NavalStrike.html)|["shp_title_NavalStrike" level 2](NavalStrike.html)|["shp_title_NavalStrike" level 9](NavalStrike.html)|["shp_title_NavalStrike" level 1](NavalStrike.html)|["shp_title_NavalStrike" level 7](NavalStrike.html)|["shp_title_NavalStrike" level 5](NavalStrike.html)|["shp_title_NavalStrike" level 6](NavalStrike.html)|["shp_title_NavalStrike" level 10](NavalStrike.html)|["shp_title_NavalStrike" level 4](NavalStrike.html)|
+|Level                           |1                                                  |8                                                  |5                                                  |3                                                  |4                                                  |10                                                  |9                                                  |6                                                  |7                                                  |2                                                  |
+|--------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
+|Sum naval strike summon visitors|["shp_title_NavalStrike" level 1](NavalStrike.html)|["shp_title_NavalStrike" level 8](NavalStrike.html)|["shp_title_NavalStrike" level 5](NavalStrike.html)|["shp_title_NavalStrike" level 3](NavalStrike.html)|["shp_title_NavalStrike" level 4](NavalStrike.html)|["shp_title_NavalStrike" level 10](NavalStrike.html)|["shp_title_NavalStrike" level 9](NavalStrike.html)|["shp_title_NavalStrike" level 6](NavalStrike.html)|["shp_title_NavalStrike" level 7](NavalStrike.html)|["shp_title_NavalStrike" level 2](NavalStrike.html)|
 
 
   * Sum naval strike summon die with summoner: No
@@ -134,11 +134,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomNavalStrike
 
-|Level                      |8                  |3                  |2                  |9                  |1                  |7                  |5                  |6                  |10                  |4                  |
-|---------------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|-------------------|
-|Apply buffs                |buffSumNavalStrike8|buffSumNavalStrike3|buffSumNavalStrike2|buffSumNavalStrike9|buffSumNavalStrike1|buffSumNavalStrike7|buffSumNavalStrike5|buffSumNavalStrike6|buffSumNavalStrike10|buffSumNavalStrike4|
-|Sum naval strike details   |sumNavalStrike8    |sumNavalStrike3    |sumNavalStrike2    |sumNavalStrike9    |sumNavalStrike1    |sumNavalStrike7    |sumNavalStrike5    |sumNavalStrike6    |sumNavalStrike10    |sumNavalStrike4    |
-|Sum naval strike summon uid|sumNavalStrike8    |sumNavalStrike3    |sumNavalStrike2    |sumNavalStrike9    |sumNavalStrike1    |sumNavalStrike7    |sumNavalStrike5    |sumNavalStrike6    |sumNavalStrike10    |sumNavalStrike4    |
+|Level                      |1                  |8                  |5                  |3                  |4                  |10                  |9                  |6                  |7                  |2                  |
+|---------------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|-------------------|-------------------|-------------------|-------------------|
+|Apply buffs                |buffSumNavalStrike1|buffSumNavalStrike8|buffSumNavalStrike5|buffSumNavalStrike3|buffSumNavalStrike4|buffSumNavalStrike10|buffSumNavalStrike9|buffSumNavalStrike6|buffSumNavalStrike7|buffSumNavalStrike2|
+|Sum naval strike details   |sumNavalStrike1    |sumNavalStrike8    |sumNavalStrike5    |sumNavalStrike3    |sumNavalStrike4    |sumNavalStrike10    |sumNavalStrike9    |sumNavalStrike6    |sumNavalStrike7    |sumNavalStrike2    |
+|Sum naval strike summon uid|sumNavalStrike1    |sumNavalStrike8    |sumNavalStrike5    |sumNavalStrike3    |sumNavalStrike4    |sumNavalStrike10    |sumNavalStrike9    |sumNavalStrike6    |sumNavalStrike7    |sumNavalStrike2    |
 
 
 ## Presentation stats
@@ -181,8 +181,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|8     |3     |2     |9     |1     |7     |5     |6     |10    |4     |
+|Level|1     |8     |5     |3     |4     |10    |9     |6     |7     |2     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400107|400102|400101|400108|400100|400106|400104|400105|400109|400103|
+|Order|400100|400107|400104|400102|400103|400109|400108|400105|400106|400101|
 
 

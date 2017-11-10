@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie fighter target: enemies
   * Sum tie fighter value: 1
 
-|Level                          |7                                     |4                                     |2                                     |10                                     |8                                     |3, 1                                  |9                                     |6                                     |5                                     |
-|-------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|Sum tie fighter summon visitors|[TIE fighter level 8](TieFighter.html)|[TIE fighter level 7](TieFighter.html)|[TIE fighter level 6](TieFighter.html)|[TIE fighter level 10](TieFighter.html)|[TIE fighter level 9](TieFighter.html)|[TIE fighter level 6](TieFighter.html)|[TIE fighter level 9](TieFighter.html)|[TIE fighter level 8](TieFighter.html)|[TIE fighter level 7](TieFighter.html)|
+|Level                          |5                                     |8                                     |1                                     |4                                     |2                                     |9                                     |7, 6                                  |10                                     |3                                     |
+|-------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|
+|Sum tie fighter summon visitors|[TIE fighter level 7](TieFighter.html)|[TIE fighter level 9](TieFighter.html)|[TIE fighter level 6](TieFighter.html)|[TIE fighter level 7](TieFighter.html)|[TIE fighter level 6](TieFighter.html)|[TIE fighter level 9](TieFighter.html)|[TIE fighter level 8](TieFighter.html)|[TIE fighter level 10](TieFighter.html)|[TIE fighter level 6](TieFighter.html)|
 
 
   * Sum tie fighter summon die with summoner: No
@@ -134,11 +134,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomTieFighter
 
-|Level                     |7                 |4                 |2                 |10                 |8                 |3                 |1                 |9                 |6                 |5                 |
-|--------------------------|------------------|------------------|------------------|-------------------|------------------|------------------|------------------|------------------|------------------|------------------|
-|Apply buffs               |buffSumTieFighter7|buffSumTieFighter4|buffSumTieFighter2|buffSumTieFighter10|buffSumTieFighter8|buffSumTieFighter3|buffSumTieFighter1|buffSumTieFighter9|buffSumTieFighter6|buffSumTieFighter5|
-|Sum tie fighter details   |sumTieFighter7    |sumTieFighter4    |sumTieFighter2    |sumTieFighter10    |sumTieFighter8    |sumTieFighter3    |sumTieFighter1    |sumTieFighter9    |sumTieFighter6    |sumTieFighter5    |
-|Sum tie fighter summon uid|sumTieFighter7    |sumTieFighter4    |sumTieFighter2    |sumTieFighter10    |sumTieFighter8    |sumTieFighter3    |sumTieFighter1    |sumTieFighter9    |sumTieFighter6    |sumTieFighter5    |
+|Level                     |5                 |8                 |1                 |4                 |2                 |9                 |7                 |6                 |10                 |3                 |
+|--------------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|------------------|
+|Apply buffs               |buffSumTieFighter5|buffSumTieFighter8|buffSumTieFighter1|buffSumTieFighter4|buffSumTieFighter2|buffSumTieFighter9|buffSumTieFighter7|buffSumTieFighter6|buffSumTieFighter10|buffSumTieFighter3|
+|Sum tie fighter details   |sumTieFighter5    |sumTieFighter8    |sumTieFighter1    |sumTieFighter4    |sumTieFighter2    |sumTieFighter9    |sumTieFighter7    |sumTieFighter6    |sumTieFighter10    |sumTieFighter3    |
+|Sum tie fighter summon uid|sumTieFighter5    |sumTieFighter8    |sumTieFighter1    |sumTieFighter4    |sumTieFighter2    |sumTieFighter9    |sumTieFighter7    |sumTieFighter6    |sumTieFighter10    |sumTieFighter3    |
 
 
 ## Presentation stats
@@ -183,8 +183,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|7     |4     |2     |10    |8     |3     |1     |9     |6     |5     |
+|Level|5     |8     |1     |4     |2     |9     |7     |6     |10    |3     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400306|400303|400301|400309|400307|400302|400300|400308|400305|400304|
+|Order|400304|400307|400300|400303|400301|400308|400306|400305|400309|400302|
 
 

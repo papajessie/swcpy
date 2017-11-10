@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: infantry
 
-|Level |10    |2    |1    |6     |8     |7     |5     |3     |9     |4     |
+|Level |10    |1    |2    |9     |8     |5     |7     |6     |4     |3     |
 |------|------|-----|-----|------|------|------|------|------|------|------|
-|Health|190325|95080|89100|136125|169800|145530|115790|101500|181680|108390|
+|Health|190325|89100|95080|181680|169800|115790|145530|136125|108390|101500|
 
 
 ### Training stats
@@ -74,9 +74,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 270ms
   * Target locking: No
 
-|Level          |10  |2   |1   |6   |8   |7   |5   |3   |9   |4   |
+|Level          |10  |1   |2   |9   |8   |5   |7   |6   |4   |3   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|6225|3810|3690|4785|5580|4950|4210|3940|5772|4070|
+|Damage per shot|6225|3690|3810|5772|5580|4210|4950|4785|4070|3940|
 
 
 ### Projectile
@@ -84,9 +84,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Displayed damage per second: 2928
   * Splash damage percentages: 100,50
 
-|Level                       |10      |2       |1       |6       |8       |7       |5       |3       |9       |4       |
+|Level                       |10      |1       |2       |9       |8       |5       |7       |6       |4       |3       |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Calculated damage per second|4645.522|2843.284|2753.731|3570.896|4164.179|3694.030|3141.791|2940.299|4307.463|3037.313|
+|Calculated damage per second|4645.522|2753.731|2843.284|4307.463|4164.179|3141.791|3694.030|3570.896|3037.313|2940.299|
 
 
   * Cannons per sequence: 2
@@ -127,7 +127,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level               |10     |2, 1, 6, 8, 7, 5, 3, 9, 4|
+|Level               |10     |1, 2, 9, 8, 5, 7, 6, 4, 3|
 |--------------------|-------|-------------------------|
 |Favorite target type|closest|infantry                 |
 
@@ -147,9 +147,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10    |2     |1     |6     |8     |7     |5     |3     |9     |4     |
+|Level      |10    |1     |2     |9     |8     |5     |7     |6     |4     |3     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |125310|125302|125301|125306|125308|125307|125305|125303|125309|125304|
-|Point value|60    |24    |20    |40    |48    |44    |36    |28    |52    |32    |
+|Order      |125310|125301|125302|125309|125308|125305|125307|125306|125304|125303|
+|Point value|60    |20    |24    |52    |48    |36    |44    |40    |32    |28    |
 
 

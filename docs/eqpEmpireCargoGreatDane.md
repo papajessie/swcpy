@@ -115,7 +115,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|210|211|212|213|214|215|216|217|218|219|
 
 
-I could not show the following roles, because I was not programmed to : buffCargoGreatDaneSummoninternal
-buffCargoGreatDaneSummon:details
-buffCargoGreatDaneSummon:summon uid
 I could not show the following roles, because I was not programmed to : attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade

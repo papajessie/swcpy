@@ -93,7 +93,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|589|590|591|592|593|594|595|596|597|598|
 
 
-I could not show the following roles, because I was not programmed to : buffSummonC3POinternal
-buffSummonC3PO:details
-buffSummonC3PO:summon uid
 I could not show the following roles, because I was not programmed to : attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, buffHeroRepairbasic, buffHeroRepairmult, buffHeroRepairpresentation, buffHeroRepairunknown, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade

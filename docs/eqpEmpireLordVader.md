@@ -76,7 +76,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|579|580|581|582|583|584|585|586|587|588|
 
 
-I could not show the following roles, because I was not programmed to : buffEqpEmpireLordVaderinternal
-buffEqpEmpireLordVader:details
-buffEqpEmpireLordVader:summon uid
 I could not show the following roles, because I was not programmed to : abilitymove, abilityonly, abilityprefs, abilitypresentation, abilityprojectilebasic, abilityprojectilemisc, abilityprojectilemult, abilityprojectilepresentation, abilityprojectileunknown, abilitystats, abilityunknown, attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, buffDeflectbasic, buffDeflectpresentation, buffDeflectunknown, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade

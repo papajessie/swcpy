@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 7
   * Type: vehicle
 
-|Level |6   |10  |3   |4   |8   |1   |7   |5   |9   |2   |
+|Level |4   |5   |1   |9   |8   |3   |7   |2   |6   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|5600|8400|3920|4480|6720|2800|6160|5040|7280|3360|
+|Health|4480|5040|2800|7280|6720|3920|6160|3360|5600|8400|
 
 
 ### Training stats
 
-|Level        |6                                     |10                                     |3                                     |4                                     |8                                     |1                             |7                                     |5                                     |9                                     |2                                     |
-|-------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|Training time|3m28s                                 |3m30s                                  |3m4s                                  |3m12s                                 |3m16s                                 |2m48s                         |3m36s                                 |3m20s                                 |3m23s                                 |2m56s                                 |
-|Training cost|1050$                                 |1610$                                  |630$                                  |770$                                  |1400$                                 |350$                          |1190$                                 |910$                                  |1470$                                 |490$                                  |
-|Building     |[Research Lab 6](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Factory 7](rebelFactory.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|
+|Level        |4                                     |5                                     |1                             |9                                     |8                                     |3                                     |7                                     |2                                     |6                                     |10                                     |
+|-------------|--------------------------------------|--------------------------------------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
+|Training time|3m12s                                 |3m20s                                 |2m48s                         |3m23s                                 |3m16s                                 |3m4s                                  |3m36s                                 |2m56s                                 |3m28s                                 |3m30s                                  |
+|Training cost|770$                                  |910$                                  |350$                          |1470$                                 |1400$                                 |630$                                  |1190$                                 |490$                                  |1050$                                 |1610$                                  |
+|Building     |[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Factory 7](rebelFactory.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |6      |10      |3    |4     |8      |1   |7      |5     |9       |2    |
-|--------------------|-------|--------|-----|------|-------|----|-------|------|--------|-----|
-|Upgrade time        |2d     |1w3d    |2h   |6h    |5d     |0s  |3d     |12h   |1w      |45m  |
-|Upgrade requirements|115000$|2000000$|6000$|15000$|350000$|700$|175000$|35000$|1000000$|3000$|
+|Level               |4     |5     |1   |9       |8      |3    |7      |2    |6      |10      |
+|--------------------|------|------|----|--------|-------|-----|-------|-----|-------|--------|
+|Upgrade time        |6h    |12h   |0s  |1w      |5d     |2h   |3d     |45m  |2d     |1w3d    |
+|Upgrade requirements|15000$|35000$|700$|1000000$|350000$|6000$|175000$|3000$|115000$|2000000$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |6  |10  |3  |4  |8  |1  |7  |5  |9  |2  |
-|---------------|---|----|---|---|---|---|---|---|---|---|
-|Damage per shot|735|1103|515|588|882|368|809|662|956|441|
+|Level          |4  |5  |1  |9  |8  |3  |7  |2  |6  |10  |
+|---------------|---|---|---|---|---|---|---|---|---|----|
+|Damage per shot|588|662|368|956|882|515|809|441|735|1103|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75,50
 
-|Level                       |6   |10      |3      |4   |8   |1      |7       |5       |9       |2  |
-|----------------------------|----|--------|-------|----|----|-------|--------|--------|--------|---|
-|Displayed damage per second |1260|1890    |882    |1008|1512|630    |1386    |1134    |1638    |756|
-|Calculated damage per second|1260|1890.857|882.857|1008|1512|630.857|1386.857|1134.857|1638.857|756|
+|Level                       |4   |5       |1      |9       |8   |3      |7       |2  |6   |10      |
+|----------------------------|----|--------|-------|--------|----|-------|--------|---|----|--------|
+|Displayed damage per second |1008|1134    |630    |1638    |1512|882    |1386    |756|1260|1890    |
+|Calculated damage per second|1008|1134.857|630.857|1638.857|1512|882.857|1386.857|756|1260|1890.857|
 
 
   * Cannons per sequence: 2
@@ -138,9 +138,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |6   |10  |3  |4   |8   |1  |7   |5   |9   |2  |
-|---------------------------|----|----|---|----|----|---|----|----|----|---|
-|Displayed damage per second|1260|1890|882|1008|1512|630|1386|1134|1638|756|
+|Level                      |4   |5   |1  |9   |8   |3  |7   |2  |6   |10  |
+|---------------------------|----|----|---|----|----|---|----|---|----|----|
+|Displayed damage per second|1008|1134|630|1638|1512|882|1386|756|1260|1890|
 
 
 ## Uninterpreted stats
@@ -158,9 +158,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |6     |10    |3     |4     |8     |1     |7     |5     |9     |2     |
+|Level      |4     |5     |1     |9     |8     |3     |7     |2     |6     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |230706|230710|230703|230704|230708|230701|230707|230705|230709|230702|
-|Point value|14    |21    |9.800 |11.200|16.800|7     |15.400|12.600|18.200|8.400 |
+|Order      |230704|230705|230701|230709|230708|230703|230707|230702|230706|230710|
+|Point value|11.200|12.600|7     |18.200|16.800|9.800 |15.400|8.400 |14    |21    |
 
 

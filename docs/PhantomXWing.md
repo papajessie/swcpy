@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum X wing target: enemies
   * Sum X wing value: 1
 
-|Level                     |4                                       |10                                       |8                                       |6                                       |5                                       |3, 1, 2                                 |7                                       |9                                       |
-|--------------------------|----------------------------------------|-----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
-|Sum X wing summon visitors|[X-wing Starfighter level 7](XWing.html)|[X-wing Starfighter level 10](XWing.html)|[X-wing Starfighter level 9](XWing.html)|[X-wing Starfighter level 8](XWing.html)|[X-wing Starfighter level 7](XWing.html)|[X-wing Starfighter level 6](XWing.html)|[X-wing Starfighter level 8](XWing.html)|[X-wing Starfighter level 9](XWing.html)|
+|Level                     |8                                       |10                                       |1                                       |9                                       |5                                       |7                                       |2, 3                                    |6                                       |4                                       |
+|--------------------------|----------------------------------------|-----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
+|Sum X wing summon visitors|[X-wing Starfighter level 9](XWing.html)|[X-wing Starfighter level 10](XWing.html)|[X-wing Starfighter level 6](XWing.html)|[X-wing Starfighter level 9](XWing.html)|[X-wing Starfighter level 7](XWing.html)|[X-wing Starfighter level 8](XWing.html)|[X-wing Starfighter level 6](XWing.html)|[X-wing Starfighter level 8](XWing.html)|[X-wing Starfighter level 7](XWing.html)|
 
 
   * Sum X wing summon die with summoner: No
@@ -134,11 +134,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomXWing
 
-|Level                |4            |10            |8            |6            |5            |3            |1            |2            |7            |9            |
+|Level                |8            |10            |1            |9            |5            |7            |2            |3            |6            |4            |
 |---------------------|-------------|--------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|Apply buffs          |buffSumXWing4|buffSumXWing10|buffSumXWing8|buffSumXWing6|buffSumXWing5|buffSumXWing3|buffSumXWing1|buffSumXWing2|buffSumXWing7|buffSumXWing9|
-|Sum X wing details   |sumXWing4    |sumXWing10    |sumXWing8    |sumXWing6    |sumXWing5    |sumXWing3    |sumXWing1    |sumXWing2    |sumXWing7    |sumXWing9    |
-|Sum X wing summon uid|sumXWing4    |sumXWing10    |sumXWing8    |sumXWing6    |sumXWing5    |sumXWing3    |sumXWing1    |sumXWing2    |sumXWing7    |sumXWing9    |
+|Apply buffs          |buffSumXWing8|buffSumXWing10|buffSumXWing1|buffSumXWing9|buffSumXWing5|buffSumXWing7|buffSumXWing2|buffSumXWing3|buffSumXWing6|buffSumXWing4|
+|Sum X wing details   |sumXWing8    |sumXWing10    |sumXWing1    |sumXWing9    |sumXWing5    |sumXWing7    |sumXWing2    |sumXWing3    |sumXWing6    |sumXWing4    |
+|Sum X wing summon uid|sumXWing8    |sumXWing10    |sumXWing1    |sumXWing9    |sumXWing5    |sumXWing7    |sumXWing2    |sumXWing3    |sumXWing6    |sumXWing4    |
 
 
 ## Presentation stats
@@ -183,8 +183,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|4     |10    |8     |6     |5     |3     |1     |2     |7     |9     |
+|Level|8     |10    |1     |9     |5     |7     |2     |3     |6     |4     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400403|400409|400407|400405|400404|400402|400400|400401|400406|400408|
+|Order|400407|400409|400400|400408|400404|400406|400401|400402|400405|400403|
 
 

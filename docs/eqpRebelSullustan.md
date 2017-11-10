@@ -116,7 +116,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|789|790|791|792|793|794|795|796|797|798|
 
 
-I could not show the following roles, because I was not programmed to : buffSumPhtmYWinginternal
-buffSumPhtmYWing:details
-buffSumPhtmYWing:summon uid
 I could not show the following roles, because I was not programmed to : attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade

@@ -116,7 +116,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|769|770|771|772|773|774|775|776|777|778|
 
 
-I could not show the following roles, because I was not programmed to : buffSumPhtmMilleniumFalconinternal
-buffSumPhtmMilleniumFalcon:details
-buffSumPhtmMilleniumFalcon:summon uid
 I could not show the following roles, because I was not programmed to : attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade

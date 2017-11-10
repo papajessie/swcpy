@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: vehicle
 
-|Level |10  |7   |2   |8   |4   |6   |1   |9   |5   |3   |
+|Level |7   |5   |2   |9   |3   |8   |6   |1   |10  |4   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|6310|5930|5360|6050|5580|5810|5250|6180|5690|5470|
+|Health|5930|5690|5360|6180|5470|6050|5810|5250|6310|5580|
 
 
 ### Training stats
@@ -105,17 +105,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 960ms
   * Target locking: No
 
-|Level          |10  |7   |2   |8   |4   |6   |1   |9   |5   |3   |
+|Level          |7   |5   |2   |9   |3   |8   |6   |1   |10  |4   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2575|2415|2190|2455|2295|2375|2170|2515|2335|2235|
+|Damage per shot|2415|2335|2190|2515|2235|2455|2375|2170|2575|2295|
 
 
 ### Projectile
 
-|Level                       |10  |7   |2   |8   |4   |6   |1   |9   |5   |3   |
+|Level                       |7   |5   |2   |9   |3   |8   |6   |1   |10  |4   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1465|1370|1245|1395|1305|1350|1235|1430|1325|1270|
-|Calculated damage per second|2575|2415|2190|2455|2295|2375|2170|2515|2335|2235|
+|Displayed damage per second |1370|1325|1245|1430|1270|1395|1350|1235|1465|1305|
+|Calculated damage per second|2415|2335|2190|2515|2235|2455|2375|2170|2575|2295|
 
 
   * Cannons per sequence: 1
@@ -134,9 +134,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Death attack splash damage percentages: 100,100,100,100
 
-|Level                  |10 |7  |2  |8  |4  |6  |1  |9  |5  |3  |
+|Level                  |7  |5  |2  |9  |3  |8  |6  |1  |10 |4  |
 |-----------------------|---|---|---|---|---|---|---|---|---|---|
-|Death projectile damage|960|900|818|915|855|885|810|938|870|833|
+|Death projectile damage|900|870|818|938|833|915|885|810|960|855|
 
 
   * Death attack cannons per sequence: 1
@@ -187,9 +187,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |10  |7   |2   |8   |4   |6   |1   |9   |5   |3   |
+|Level                      |7   |5   |2   |9   |3   |8   |6   |1   |10  |4   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1465|1370|1245|1395|1305|1350|1235|1430|1325|1270|
+|Displayed damage per second|1370|1325|1245|1430|1270|1395|1350|1235|1465|1305|
 
 
 ## Uninterpreted stats
@@ -213,8 +213,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|10    |7     |2     |8     |4     |6     |1     |9     |5     |3     |
+|Level|7     |5     |2     |9     |3     |8     |6     |1     |10    |4     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|230610|230607|230602|230608|230604|230606|230601|230609|230605|230603|
+|Order|230607|230605|230602|230609|230603|230608|230606|230601|230610|230604|
 
 

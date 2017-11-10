@@ -115,7 +115,4 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Order|330|331|332|333|334|335|336|337|338|339|
 
 
-I could not show the following roles, because I was not programmed to : buffDiplomatSummoninternal
-buffDiplomatSummon:details
-buffDiplomatSummon:summon uid
 I could not show the following roles, because I was not programmed to : attackmove, attackprefs, attackpresentation, attackstats, attackunknown, basic, internal, move, presentation, projectilebasic, projectilemisc, projectilemult, projectilepresentation, projectileunknown, train, unknown, upgrade, xtrain, xupgrade
