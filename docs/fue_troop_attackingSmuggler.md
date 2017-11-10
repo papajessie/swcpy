@@ -72,7 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 26
-  * Calculated damage per second: 26.667
+  * Calculated damage per second: 26
 
   * Cannons per sequence: 2
   * Cliptime: 2.250s

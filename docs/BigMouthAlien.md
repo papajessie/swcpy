@@ -89,9 +89,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Displayed damage per second: 1920
 
-|Level                       |1      |2  |3      |4       |5       |
-|----------------------------|-------|---|-------|--------|--------|
-|Calculated damage per second|780.769|875|969.231|1063.462|1157.692|
+|Level                       |1  |2  |3  |4   |5   |
+|----------------------------|---|---|---|----|----|
+|Calculated damage per second|780|875|969|1063|1157|
 
 
   * Cannons per sequence: 1

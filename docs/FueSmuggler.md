@@ -87,10 +87,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                       |1     |2     |3      |
-|----------------------------|------|------|-------|
-|Displayed damage per second |46    |44    |400    |
-|Calculated damage per second|46.154|44.444|400.615|
+|Level                       |1 |2 |3  |
+|----------------------------|--|--|---|
+|Displayed damage per second |46|44|400|
+|Calculated damage per second|46|44|400|
 
 
   * Directional: Yes

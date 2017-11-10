@@ -141,6 +141,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_shrd_t1conf1" (x1 draw)
 
+### For HQ level 5
+
+  * No items, see the fallback option below
+
 ### Rebellion for HQ levels 6-10
 
   * (1/13) 2 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
@@ -151,15 +155,11 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/13) 2 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (1/13) 2 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (1/13) 2 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
-  * (1/13) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (1/13) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (1/13) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
+  * (1/13) 6 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (1/13) 6 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (1/13) 6 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-
-### For HQ level 5
-
-  * No items, see the fallback option below
 
 ### Empire for HQ levels 6-10
 

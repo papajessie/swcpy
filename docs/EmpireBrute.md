@@ -141,9 +141,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack shot splash damage percentages: 100,90,75,25
 
-|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
-|-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack shot DPS|512.048|518.072|524.096|530.120|536.145|542.169|548.193|554.217|560.241|566.265|
+|Level                    |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|-------------------------|---|---|---|---|---|---|---|---|---|---|
+|Secondary attack shot DPS|512|518|524|530|536|542|548|554|560|566|
 
 
   * Secondary attack shot cannons per sequence: 1

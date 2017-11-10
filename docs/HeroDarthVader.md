@@ -88,10 +88,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 0
 
-|Level                       |1       |2       |3        |4        |5        |6        |7        |8        |9        |10       |
-|----------------------------|--------|--------|---------|---------|---------|---------|---------|---------|---------|---------|
-|Displayed damage per second |8210    |9852    |11494    |13136    |14778    |16421    |18063    |19705    |21347    |24631    |
-|Calculated damage per second|8210.526|9852.632|11494.737|13136.842|14778.947|16421.053|18063.158|19705.263|21347.368|24631.579|
+|Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |8210|9852|11494|13136|14778|16421|18063|19705|21347|24631|
+|Calculated damage per second|8210|9852|11494|13136|14778|16421|18063|19705|21347|24631|
 
 
   * Cannons per sequence: 2
@@ -151,7 +151,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Deflect value: 0
 
 
-  * Secondary attack shot DPS: 256.761
+  * Secondary attack shot DPS: 256
   * Secondary attack shot splash damage percentages: 100,100,100
 
   * Secondary attack shot cannons per sequence: 1
