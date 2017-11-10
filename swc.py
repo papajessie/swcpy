@@ -135,10 +135,10 @@ def remove(tosee,x):
 
 def datadump(item,somelist):
     global config
-    return display_leveldata(item['hq'],item['levels'],somelist,config['stattranslation'],config['stathandler'])
+    return display_leveldata(item['hq'],sorted(item['levels']),somelist,config['stattranslation'],config['stathandler'])
 
 def eqdatadump(item,somelist):
-    return display_leveldata(item['equipment'],item['eqlevels'],somelist,config['stattranslation'],config['stathandler'])
+    return display_leveldata(item['equipment'],sorted(item['eqlevels']),somelist,config['stattranslation'],config['stathandler'])
 
 def removebysuffix(tosee,s):
     x=[y for y in tosee]
@@ -165,6 +165,7 @@ def display_modifiers(item,s,tosee,where='hq'):
             remove(tosee,k+'basic')
             remove(tosee,k+'details')
             remove(tosee,k+'mult')
+            remove(tosee,k+'internal')
             remove(tosee,k+'unknown')
     return(xout)
 
@@ -242,6 +243,7 @@ def initstat():
         'playerFacing': 'Buildable unit',
         'upgrade': 'Upgrade requirements',
         'damage':'Damage per shot',
+        'originalDamage':'Original damage per shot',
         'dps':'Displayed damage per second',
         'faction':'Side',
         'overWalls':'Can shoot over walls',
@@ -369,6 +371,11 @@ def initstat():
         'upgradeShardUid': 'internal',
         'upgradeTime': 'xupgrade',
         'xp': 'unknown',
+        # A few coming from skins
+        'textureUid': 'presentation',
+        'iconBundleName': 'presentation',
+        'iconAssetName': 'presentation',
+        'override': 'nodisplay',
         # Below are values reserved to abilities or units
         'animationDelay': 'attackpresentation',
         'armingDelay': 'attackunknown',
@@ -553,7 +560,7 @@ def initstat():
         'buff:summon targetSummoner': 'buffdetails',
         'buff:summon uid': 'buffinternal',
         'buff:summon visitorType': 'buffdetails',
-        'buff:summon visitorUids': 'buffdetails',
+        'buff:summon visitorUids': 'buffnodisplay',
         # below are roles reserved to equipment
         'equipment:assetName': 'equipmentpresentation',
         'equipment:buildingID': 'equipmentinternal',
@@ -699,6 +706,7 @@ def initstat():
         'equipment:upgradeTime': 'time',
         'equipment:requirements': 'array',
         'equipment:planetIDs': 'array',
+        'equipment:skins': 'array',
         # placeholder
         '':''
         }
@@ -1246,7 +1254,7 @@ def dobuff(ob,subunit,bufftype,where):
             subunit[bid+':'+kk]=data['BuffData'][buff][kk]
         subunit[bid+':name']=bname
         if subunit[bid+':modifier']=='damage':
-            if subunit[bid+':applyValueAs']=='relativePercentOfMax':
+            if subunit[bid+':applyValueAs']=='relativePercent':
                 damagehealth[0]=1.0+int(subunit[bid+':value'])/100
         if subunit[bid+':modifier']=='maxHealth':
             if subunit[bid+':applyValueAs']=='relativePercentOfMax':
@@ -1297,7 +1305,7 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
             subunit['projectile:'+kk]=vv
         if damage_modifier!=1:
             subunit['originalDamage']=subunit['damage']
-            subunit['damage']=int(subunit['originalDamage'])*health_modifier
+            subunit['damage']=int(int(subunit['originalDamage'])*health_modifier)
         addprojectile('projectile:',ob,subunit,subunit)
     if 'ability' in subunit:
         ob['options']['ability']=True
@@ -1535,6 +1543,8 @@ def analyse_equipment_unit(objects,displayed,id):
             die('No base unit',eqsubunit)
         damagehealth=dobuff(ob,eqsubunit,'equip','equipment:equipmentBuff')
         skin=None
+        if 'equipment:skins' in eqsubunit:
+            skin=eqsubunit['equipment:skins'][0]
         fill_unit_level(ob,eqlevel,eqsubunit,'equipment','eqroles')
         for uu in (data['TroopData']).keys():
             if data['TroopData'][uu]['unitID'] != baseunit:
@@ -1552,7 +1562,7 @@ def analyse_equipment_unit(objects,displayed,id):
                     if k != 'uid':
                         subunit[k]=v
             fill_unit(ob,subunit,damagehealth)
-            level=float('{0}.{1:02d}'.format(int(subunit['lvl']),eqlevel))
+            level='{0:02d}.{1:02d}'.format(int(subunit['lvl']),eqlevel)
             fill_unit_level(ob,level,subunit)
             levels.append(level)
     ob['firstlevel']=levels[0]
@@ -1739,30 +1749,13 @@ def output_md_tournament(out,objects,item):
 def output_listheader_unit(out,objects,displayed):
     out.append("There are {0} units in the selection:".format(len(displayed)))
 
-def output_list_unit(out,objects,item,LINKS=False):
-    global config
-    id=item['uid']
-    title=__(item['title'])
-    levels=sorted(item['levels'])
-    allkeys=config['statrole']
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
-    if LINKS:
-        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
-    tosee=[x for x in item['roles'].keys()]
-    remove(tosee,'')
-    firstlevel=levels[0]
-    xout+='## Main stats\n\n'
-    xout+='### Unit stats\n\n'
-    xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='basic']))
-    remove(tosee,'basic')
-    xout+='### Training stats\n\n'
+
+def fill_requirements(item,where,what,levels,LINKS):
+    trainlist=[]
     req=0
-    trainlist=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
-    remove(tosee,'train')
-    remove(tosee,'xtrain')
     for l in levels:
-        if 'requirements' in item['hq'][l]:
-            ll=len(item['hq'][l]['requirements'])
+        if what in item[where][l]:
+            ll=len(item[where][l][what])
         else:
             ll=0
         if ll>req:
@@ -1774,14 +1767,43 @@ def output_list_unit(out,objects,item,LINKS=False):
         if req==1:
             config['stattranslation'][r]='Building'
         for l in levels:
-            if 'requirements' in item['hq'][l]:
-                a=item['hq'][l]['requirements']
+            if what in item[where][l]:
+                a=item[where][l][what]
             else:
                 a=[]
             if ll<len(a):
-                item['hq'][l][r]=display_building(a[ll],LINKS)
+                item[where][l][r]=display_building(a[ll],LINKS)
             else:
-                item['hq'][l][r]='None'
+                item[where][l][r]='None'
+    return trainlist
+
+def output_list_unit(out,objects,item,LINKS=False):
+    global config
+    id=item['uid']
+    title=__(item['title'])
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    xout+=output_list_unit_aux(item,LINKS)
+    out[len(out)-1]+=xout
+    return
+
+def output_list_unit_aux(item,LINKS):
+    xout=''
+    levels=sorted(item['levels'])
+    allkeys=config['statrole']
+    tosee=[x for x in item['roles'].keys()]
+    remove(tosee,'')
+    firstlevel=levels[0]
+    xout+='## Main stats\n\n'
+    xout+='### Unit stats\n\n'
+    xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='basic']))
+    remove(tosee,'basic')
+    xout+='### Training stats\n\n'
+    trainlist=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
+    remove(tosee,'train')
+    remove(tosee,'xtrain')
+    trainlist=fill_requirements(item,'hq','requirements',sorted(item['levels']),LINKS)
     xout+=datadump(item,trainlist)
     xout+='### Upgrading stats\n\n'
     xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='xupgrade']))
@@ -1870,8 +1892,7 @@ def output_list_unit(out,objects,item,LINKS=False):
     if len(tosee)>0:
         xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(tosee))+'\n'
         xout+='\n'.join(sorted([x for x in allkeys if allkeys[x].endswith(sorted(tosee)[0])]))
-    out[len(out)-1]+=xout
-    return
+    return(xout)
 
 def output_mdheader_unit(out,objects,displayed):
     with open("docs/unit.md","w") as file:
@@ -1916,8 +1937,6 @@ def output_list_equipunit(out,objects,item,LINKS=False):
     global config
     id=item['uid']
     title=__(item['title'])
-    levels=sorted(item['levels'])
-    eqlevels=sorted(item['eqlevels'])
     allkeys=config['statrole']
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     if LINKS:
@@ -1926,9 +1945,8 @@ def output_list_equipunit(out,objects,item,LINKS=False):
         config['stathandler']['equipment:affectedTroopIds']=lambda x:'[{1}]({0}.html)'.format(x,_('trp_title_'+x))
     else:
         config['stathandler']['equipment:affectedTroopIds']=lambda x:'{1} ({0})'.format(x,_('trp_title_'+x))
-    tosee=[x for x in item['roles'].keys()]
     eqtosee=[x for x in item['eqroles'].keys()]
-    remove(tosee,'')
+    remove(eqtosee,'')
     xout+='## Equipment stats\n\n'
     xout+='### Basic stats\n\n' 
     xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentbasic']))
@@ -1936,31 +1954,8 @@ def output_list_equipunit(out,objects,item,LINKS=False):
     if ('equip' in item['options']):
         xout+='### Modifiers\n\n'
         xout+=display_modifiers(item,'equip',eqtosee,'equipment')
-    xout+='### Upgrade stats\n\n' 
-    req=0
-    trainlist=[]
-    for l in eqlevels:
-        if 'equipment:requirements' in item['equipment'][l]:
-            ll=len(item['equipment'][l]['equipment:requirements'])
-        else:
-            ll=0
-        if ll>req:
-            req=ll
-    for ll in range(0,req):
-        r='requirement'+str(ll)
-        trainlist.append(r)
-        config['stattranslation'][r]='Building '+str(ll)
-        if req==1:
-            config['stattranslation'][r]='Building'
-        for l in eqlevels:
-            if 'equipment:requirements' in item['equipment'][l]:
-                a=item['equipment'][l]['equipment:requirements']
-            else:
-                a=[]
-            if ll<len(a):
-                item['equipment'][l][r]=display_building(a[ll],LINKS)
-            else:
-                item['equipment'][l][r]='None'
+    xout+='### Upgrade stats\n\n'
+    trainlist=fill_requirements(item,'equipment','equipment:requirements',sorted(item['eqlevels']),LINKS)
     xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentupgrade']+trainlist))
     remove(eqtosee,'equipmentupgrade')
     xout+='### Presentation and internal stats\n\n' 
@@ -1971,12 +1966,10 @@ def output_list_equipunit(out,objects,item,LINKS=False):
     remove(eqtosee,'equipmentinternal')
     remove(eqtosee,'equipmentpresentation')
     eqtosee=removebysuffix(eqtosee,'nodisplay')
-    tosee=removebysuffix(tosee,'nodisplay')
+    xout+=output_list_unit_aux(item,LINKS)
     if len(eqtosee)>0:
         xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(eqtosee))+'\n'
         xout+='\n'.join(sorted([x for x in allkeys if allkeys[x].endswith(sorted(eqtosee)[0])]))+'\n'
-    if len(tosee)>0:
-        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(tosee))+'\n'
     out[len(out)-1]+=xout
     return
 
