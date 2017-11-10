@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 12
   * Type: mercenary
 
-|Level |9    |7    |3    |10   |4    |1    |5    |8    |2    |6    |
+|Level |2    |9    |3    |10   |8    |6    |7    |5    |4    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|43092|38556|29484|45360|31752|24948|34020|40824|27216|36288|
+|Health|27216|43092|29484|45360|40824|36288|38556|34020|31752|24948|
 
 
 ### Training stats
 
-|Level        |9                                     |7                                     |3                                     |10                                     |4                                     |1                                       |5                                     |8                                     |2                                     |6                                     |
-|-------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|----------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|Training time|14m30s                                |13m                                   |10m                                   |15m                                    |11m                                   |8m30s                                   |11m30s                                |13m30s                                |9m30s                                 |12m30s                                |
-|Training cost|550 Con.                              |275 Con.                              |70 Con.                               |900 Con.                               |125 Con.                              |24 Con.                                 |150 Con.                              |400 Con.                              |35 Con.                               |200 Con.                              |
-|Building     |[Research Lab 9](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Cantina 7](rebelContrabandCantina.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|
+|Level        |2                                     |9                                     |3                                     |10                                     |8                                     |6                                     |7                                     |5                                     |4                                     |1                                       |
+|-------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------------------|
+|Training time|9m30s                                 |14m30s                                |10m                                   |15m                                    |13m30s                                |12m30s                                |13m                                   |11m30s                                |11m                                   |8m30s                                   |
+|Training cost|35 Con.                               |550 Con.                              |70 Con.                               |900 Con.                               |400 Con.                              |200 Con.                              |275 Con.                              |150 Con.                              |125 Con.                              |24 Con.                                 |
+|Building     |[Research Lab 2](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Cantina 7](rebelContrabandCantina.html)|
 
 
 ### Upgrading stats
 
-|Level               |9          |7          |3         |10         |4         |1      |5         |8          |2         |6          |
-|--------------------|-----------|-----------|----------|-----------|----------|-------|----------|-----------|----------|-----------|
-|Upgrade time        |1w4d       |1w2d       |5d        |1w5d       |6d        |0s     |1w        |1w3d       |4d        |1w1d       |
-|Upgrade requirements|280000 Con.|250000 Con.|25000 Con.|285000 Con.|50000 Con.|Nothing|99000 Con.|270000 Con.|12000 Con.|190000 Con.|
+|Level               |2         |9          |3         |10         |8          |6          |7          |5         |4         |1      |
+|--------------------|----------|-----------|----------|-----------|-----------|-----------|-----------|----------|----------|-------|
+|Upgrade time        |4d        |1w4d       |5d        |1w5d       |1w3d       |1w1d       |1w2d       |1w        |6d        |0s     |
+|Upgrade requirements|12000 Con.|280000 Con.|25000 Con.|285000 Con.|270000 Con.|190000 Con.|250000 Con.|99000 Con.|50000 Con.|Nothing|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.040s
   * Target locking: No
 
-|Level          |9   |7   |3   |10  |4   |1   |5   |8   |2   |6   |
+|Level          |2   |9   |3   |10  |8   |6   |7   |5   |4   |1   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3720|3640|3480|3760|3520|3400|3560|3680|3440|3600|
+|Damage per shot|3440|3720|3480|3760|3680|3600|3640|3560|3520|3400|
 
 
 ### Projectile
 
-|Level                       |9   |7   |3   |10  |4   |1   |5   |8   |2   |6   |
+|Level                       |2   |9   |3   |10  |8   |6   |7   |5   |4   |1   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2325|2275|2175|2350|2200|2125|2225|2300|2150|2250|
-|Calculated damage per second|7440|7280|6960|7520|7040|6800|7120|7360|6880|7200|
+|Displayed damage per second |2150|2325|2175|2350|2300|2250|2275|2225|2200|2125|
+|Calculated damage per second|6880|7440|6960|7520|7360|7200|7280|7120|7040|6800|
 
 
   * Cannons per sequence: 1
@@ -136,16 +136,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 790ms
   * Secondary attack target locking: No
 
-|Level                           |9   |7   |3   |10  |4   |1   |5   |8   |2   |6   |
+|Level                           |2   |9   |3   |10  |8   |6   |7   |5   |4   |1   |
 |--------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack damage per shot|4650|4550|4350|4700|4400|4250|4450|4600|4300|4500|
+|Secondary attack damage per shot|4300|4650|4350|4700|4600|4500|4550|4450|4400|4250|
 
 
   * Secondary attack shot splash damage percentages: 100,90,75,25
 
-|Level                    |9      |7      |3      |10     |4      |1      |5      |8      |2      |6      |
+|Level                    |2      |9      |3      |10     |8      |6      |7      |5      |4      |1      |
 |-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack shot DPS|560.241|548.193|524.096|566.265|530.120|512.048|536.145|554.217|518.072|542.169|
+|Secondary attack shot DPS|518.072|560.241|524.096|566.265|554.217|542.169|548.193|536.145|530.120|512.048|
 
 
   * Secondary attack shot cannons per sequence: 1
@@ -163,10 +163,10 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: RebelBrute
 
-|Level                           |9                   |7                   |3                   |10                   |4                   |1                   |5                   |8                   |2                   |6                   |
+|Level                           |2                   |9                   |3                   |10                   |8                   |6                   |7                   |5                   |4                   |1                   |
 |--------------------------------|--------------------|--------------------|--------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-|Ability                         |abilityBruteBomb9   |abilityBruteBomb7   |abilityBruteBomb3   |abilityBruteBomb10   |abilityBruteBomb4   |abilityBruteBomb1   |abilityBruteBomb5   |abilityBruteBomb8   |abilityBruteBomb2   |abilityBruteBomb6   |
-|Secondary attack projectile type|projectileBruteBomb9|projectileBruteBomb7|projectileBruteBomb3|projectileBruteBomb10|projectileBruteBomb4|projectileBruteBomb1|projectileBruteBomb5|projectileBruteBomb8|projectileBruteBomb2|projectileBruteBomb6|
+|Ability                         |abilityBruteBomb2   |abilityBruteBomb9   |abilityBruteBomb3   |abilityBruteBomb10   |abilityBruteBomb8   |abilityBruteBomb6   |abilityBruteBomb7   |abilityBruteBomb5   |abilityBruteBomb4   |abilityBruteBomb1   |
+|Secondary attack projectile type|projectileBruteBomb2|projectileBruteBomb9|projectileBruteBomb3|projectileBruteBomb10|projectileBruteBomb8|projectileBruteBomb6|projectileBruteBomb7|projectileBruteBomb5|projectileBruteBomb4|projectileBruteBomb1|
 
 
 ## Presentation stats
@@ -214,9 +214,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
 
-|Level                      |9   |7   |3   |10  |4   |1   |5   |8   |2   |6   |
+|Level                      |2   |9   |3   |10  |8   |6   |7   |5   |4   |1   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2325|2275|2175|2350|2200|2125|2225|2300|2150|2250|
+|Displayed damage per second|2150|2325|2175|2350|2300|2250|2275|2225|2200|2125|
 
 
 ## Uninterpreted stats
@@ -241,9 +241,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |9     |7     |3     |10    |4     |1     |5     |8     |2     |6     |
+|Level      |2     |9     |3     |10    |8     |6     |7     |5     |4     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |215409|215407|215403|215410|215404|215401|215405|215408|215402|215406|
-|Point value|31    |26    |17    |36    |19    |12    |22    |29    |14    |24    |
+|Order      |215402|215409|215403|215410|215408|215406|215407|215405|215404|215401|
+|Point value|14    |31    |17    |36    |29    |24    |26    |22    |19    |12    |
 
 

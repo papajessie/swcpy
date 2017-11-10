@@ -26,18 +26,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Training cost: 100$
 
-|Level        |1 |2  |3 |
-|-------------|--|---|--|
-|Training time|4s|21s|4s|
+|Level        |2  |3, 1|
+|-------------|---|----|
+|Training time|21s|4s  |
 
 
 ### Upgrading stats
 
   * Upgrade requirements: 1500$
 
-|Level       |1    |2  |3    |
-|------------|-----|---|-----|
-|Upgrade time|1m40s|10s|1m40s|
+|Level       |2  |3, 1 |
+|------------|---|-----|
+|Upgrade time|10s|1m40s|
 
 
 ### Movement stats
@@ -51,9 +51,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level    |1, 2|3 |
-|---------|----|--|
-|Max speed|30  |20|
+|Level    |2 |3 |1 |
+|---------|--|--|--|
+|Max speed|30|20|30|
 
 
 ## Main attack : BountyHunter / Smuggler
@@ -67,9 +67,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (55)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
 
-|Level     |1, 2|3|
-|----------|----|-|
-|View range|20  |8|
+|Level     |2 |3|1 |
+|----------|--|-|--|
+|View range|20|8|20|
 
 
 ### Shooting
@@ -83,20 +83,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level                                     |1  |2     |3  |
-|------------------------------------------|---|------|---|
-|Damage per shot                           |50 |50    |434|
-|Gun shooting sequence                     |1,2|1,2   |1  |
-|Time between end of clip and start of clip|2s |1.500s|2s |
-|Shot count                                |3  |2     |3  |
+|Level                                     |2     |3  |1  |
+|------------------------------------------|------|---|---|
+|Damage per shot                           |50    |434|50 |
+|Gun shooting sequence                     |1,2   |1  |1,2|
+|Time between end of clip and start of clip|1.500s|2s |2s |
+|Shot count                                |2     |3  |3  |
 
 
 ### Projectile
 
-|Level                       |1     |2     |3      |
-|----------------------------|------|------|-------|
-|Displayed damage per second |46    |44    |400    |
-|Calculated damage per second|46.154|44.444|400.615|
+|Level                       |2     |3      |1     |
+|----------------------------|------|-------|------|
+|Displayed damage per second |44    |400    |46    |
+|Calculated damage per second|44.444|400.615|46.154|
 
 
   * Directional: Yes
@@ -104,12 +104,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 18
   * Pass through shield: No
 
-|Level               |1                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Cannons per sequence|2                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |1                                                                                                                                                                                                                                                                                                            |
-|Cliptime            |3.250s                                                                                                                                                                                                                                                                                                                                      |2.250s                                                                                                                                                                                                                                                                                                                                      |3.250s                                                                                                                                                                                                                                                                                                       |
-|Damage multipliers  |**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall|
-|Salvos              |3                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |
+|Level               |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |1                                                                                                                                                                                                                                                                                                                                           |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Cannons per sequence|2                                                                                                                                                                                                                                                                                                                                           |1                                                                                                                                                                                                                                                                                                            |2                                                                                                                                                                                                                                                                                                                                           |
+|Cliptime            |2.250s                                                                                                                                                                                                                                                                                                                                      |3.250s                                                                                                                                                                                                                                                                                                       |3.250s                                                                                                                                                                                                                                                                                                                                      |
+|Damage multipliers  |**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall|**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|
+|Salvos              |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |3                                                                                                                                                                                                                                                                                                                                           |
 
 
 ## Internal stats
@@ -139,15 +139,15 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1                                                                                                                                                  |2                                                                                                                                                  |3                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|Asset name                 |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|Buff asset offset          |0.00,0.08,0.00                                                                                                                                     |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |
-|Bundle name                |bountyhunter_smg-ani                                                                                                                               |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |
-|Displayed damage per second|46                                                                                                                                                 |44                                                                                                                                                 |400                                                                       |
-|Gun position               |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|
-|Icon camera position       |9,10,11.12                                                                                                                                         |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |
-|Name                       |BountyHunter                                                                                                                                       |BountyHunter                                                                                                                                       |Smuggler                                                                  |
+|Level                      |2                                                                                                                                                  |3                                                                         |1                                                                                                                                                  |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|Asset name                 |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |bountyhunter_smg-ani                                                                                                                               |
+|Buff asset offset          |0.00,0.08,0.00                                                                                                                                     |(not found)                                                               |0.00,0.08,0.00                                                                                                                                     |
+|Bundle name                |bountyhunter_smg-ani                                                                                                                               |generalpurpose_smg-ani                                                    |bountyhunter_smg-ani                                                                                                                               |
+|Displayed damage per second|44                                                                                                                                                 |400                                                                       |46                                                                                                                                                 |
+|Gun position               |"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|"generalpurpose_smg_rig_MASTER_MOVER/generalpurpose_smg_rig_locator_gun":1|"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Lt":1,"bountyhunter_smg_rig_MASTER_MOVER/bountyhunter_smg_rig_locator_gun_Rt":2|
+|Icon camera position       |9,10,11.12                                                                                                                                         |8.56,9.58,10.6                                                            |9,10,11.12                                                                                                                                         |
+|Name                       |BountyHunter                                                                                                                                       |Smuggler                                                                  |BountyHunter                                                                                                                                       |
 
 
 ## Uninterpreted stats
@@ -165,9 +165,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |
+|Level      |2     |3     |1     |
 |-----------|------|------|------|
-|Order      |322601|322602|322603|
-|Point value|1     |1.200 |1.400 |
+|Order      |322602|322603|322601|
+|Point value|1.200 |1.400 |1     |
 
 

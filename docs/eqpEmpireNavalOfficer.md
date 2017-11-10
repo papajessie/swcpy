@@ -81,11 +81,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm naval strike summon target summoner: No
   * Sum phtm naval strike summon visitor type: Troop
 
-|Level                                    |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
-|-----------------------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|Sum phtm naval strike summon visitor uids|troopEmpPhantomNavalStrike1|troopEmpPhantomNavalStrike2|troopEmpPhantomNavalStrike3|troopEmpPhantomNavalStrike4|troopEmpPhantomNavalStrike5|troopEmpPhantomNavalStrike6|troopEmpPhantomNavalStrike7|troopEmpPhantomNavalStrike8|troopEmpPhantomNavalStrike9|troopEmpPhantomNavalStrike10|
-
-
 ### Upgrade stats
 
 |Level         |1   |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |

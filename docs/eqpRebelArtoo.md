@@ -62,11 +62,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Summon C3 PO summon target summoner: Yes
   * Summon C3 PO summon visitor type: Troop
 
-|Level                           |1             |2             |3             |4             |5             |6             |7             |8             |9             |10             |
-|--------------------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|---------------|
-|Summon C3 PO summon visitor uids|troopHeroC3PO1|troopHeroC3PO2|troopHeroC3PO3|troopHeroC3PO4|troopHeroC3PO5|troopHeroC3PO6|troopHeroC3PO7|troopHeroC3PO8|troopHeroC3PO9|troopHeroC3PO10|
-
-
 ### Upgrade stats
 
 |Level         |1   |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |

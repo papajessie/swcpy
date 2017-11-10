@@ -12,13 +12,17 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_shrd_st1" (x2 draws)
 
+### For HQ level 5
+
+  * No items, see the fallback option below
+
 ### Rebellion for HQ levels 6-10
 
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
+  * (1/41) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (1/41) 10 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (1/41) 10 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/41) 10 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelMortarTurretHealth)
   * (1/41) 10 data fragments of equipment [Reinforced Mounting](eqpRebelRapidFireTurretHealth)
   * (1/41) 12 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
@@ -31,19 +35,15 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (1/41) 4 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
   * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
   * (1/41) 6 data fragments of equipment [Enhanced Heat Sink](eqpRebelRocketTurretDamage)
+  * (1/41) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelCreditGeneratorHealth)
   * (1/41) 6 data fragments of equipment [Reinforced Alloy Refinery Bracing](eqpRebelMaterialsGeneratorHealth)
   * (1/41) 6 data fragments of equipment [Reinforced Contraband Trade Port Bracing](eqpRebelContrabandGeneratorHealth)
-  * (1/41) 6 data fragments of equipment [Reinforced Credit Market Bracing](eqpRebelCreditGeneratorHealth)
   * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelBurstTurretHealth)
   * (1/41) 6 data fragments of equipment [Reinforced Mounting](eqpRebelRocketTurretHealth)
   * (3/41) 30 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (4/41) 20 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (5/41) 30 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
   * (7/41) 20 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
-
-### For HQ level 5
-
-  * No items, see the fallback option below
 
 ### Empire for HQ levels 6-10
 

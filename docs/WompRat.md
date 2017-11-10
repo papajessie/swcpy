@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
 
-|Level |2  |6   |3  |10  |4   |8   |7   |9   |5   |1  |
-|------|---|----|---|----|----|----|----|----|----|---|
-|Health|600|2400|700|3600|1920|2880|2640|3120|2160|500|
+|Level |7   |6   |8   |3  |10  |1  |4   |2  |9   |5   |
+|------|----|----|----|---|----|---|----|---|----|----|
+|Health|2640|2400|2880|700|3600|500|1920|600|3120|2160|
 
 
 ### Training stats
 
-|Level        |2  |6   |3  |10  |4   |8   |7   |9   |5   |1  |
-|-------------|---|----|---|----|----|----|----|----|----|---|
-|Training time|4s |5s  |5s |6s  |5s  |6s  |5s  |6s  |5s  |4s |
-|Training cost|70$|150$|90$|230$|110$|190$|170$|210$|130$|50$|
+|Level        |7   |6   |8   |3  |10  |1  |4   |2  |9   |5   |
+|-------------|----|----|----|---|----|---|----|---|----|----|
+|Training time|5s  |5s  |6s  |5s |6s  |4s |5s  |4s |6s  |5s  |
+|Training cost|170$|150$|190$|90$|230$|50$|110$|70$|210$|130$|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |2    |6      |3     |10      |4     |8      |7      |9       |5     |1    |
-|--------------------|-----|-------|------|--------|------|-------|-------|--------|------|-----|
-|Upgrade requirements|5000$|100000$|14000$|4000000$|24000$|750000$|200000$|2000000$|50000$|1500$|
+|Level               |7      |6      |8      |3     |10      |1    |4     |2    |9       |5     |
+|--------------------|-------|-------|-------|------|--------|-----|------|-----|--------|------|
+|Upgrade requirements|200000$|100000$|750000$|14000$|4000000$|1500$|24000$|5000$|2000000$|50000$|
 
 
 ### Movement stats
@@ -54,9 +54,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level    |2, 6|3 |10, 4, 8, 7, 9, 5, 1|
-|---------|----|--|--------------------|
-|Max speed|40  |50|40                  |
+|Level    |7, 6, 8|3 |10, 1, 4, 2, 9, 5|
+|---------|-------|--|-----------------|
+|Max speed|40     |50|40               |
 
 
 ## Main attack : WompRat
@@ -70,9 +70,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 12
 
-|Level             |2, 6, 3, 10, 4, 8, 7, 9, 5                                                                                                                                                                                                                                                                                                                                                                                |1                                                                                                                                                                                                                                                                                                                                                                                                      |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Support troop (100)**, _Turret (80)_, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|**Turret (80)**, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|
+|Level             |7, 6, 8, 3, 10                                                                                                                                                                                                                                                                                                                                                                                            |1                                                                                                                                                                                                                                                                                                                                                                                                      |4, 2, 9, 5                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Target preferences|**Support troop (100)**, _Turret (80)_, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|**Turret (80)**, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|**Support troop (100)**, _Turret (80)_, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|
 
 
 ### Shooting
@@ -89,17 +89,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.250s
   * Target locking: No
 
-|Level          |2 |6  |3 |10 |4  |8  |7  |9  |5  |1 |
-|---------------|--|---|--|---|---|---|---|---|---|--|
-|Damage per shot|65|546|76|819|437|656|601|710|492|55|
+|Level          |7  |6  |8  |3 |10 |1 |4  |2 |9  |5  |
+|---------------|---|---|---|--|---|--|---|--|---|---|
+|Damage per shot|601|546|656|76|819|55|437|65|710|492|
 
 
 ### Projectile
 
-|Level                       |2     |6      |3     |10     |4      |8      |7      |9      |5      |1 |
-|----------------------------|------|-------|------|-------|-------|-------|-------|-------|-------|--|
-|Displayed damage per second |59    |496    |69    |744    |397    |596    |546    |645    |447    |50|
-|Calculated damage per second|59.091|496.364|69.091|744.545|397.273|596.364|546.364|645.455|447.273|50|
+|Level                       |7      |6      |8      |3     |10     |1 |4      |2     |9      |5      |
+|----------------------------|-------|-------|-------|------|-------|--|-------|------|-------|-------|
+|Displayed damage per second |546    |496    |596    |69    |744    |50|397    |59    |645    |447    |
+|Calculated damage per second|546.364|496.364|596.364|69.091|744.545|50|397.273|59.091|645.455|447.273|
 
 
   * Cannons per sequence: 1
@@ -134,14 +134,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |2                    |6                   |3                   |10                  |4               |8                    |7               |9                   |5                    |1               |
-|---------------------------|---------------------|--------------------|--------------------|--------------------|----------------|---------------------|----------------|--------------------|---------------------|----------------|
-|Asset name                 |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|womprat_neu-ani |wompratlarge_neu-ani|wompratmedium_neu-ani|womprat_neu-ani |
-|Buff asset offset          |0.00,0.25,0.00       |0.00,0.33,0.00      |0.00,0.33,0.00      |0.00,0.33,0.00      |(not found)     |0.00,0.25,0.00       |(not found)     |0.00,0.33,0.00      |0.00,0.25,0.00       |(not found)     |
-|Bundle name                |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|womprat_neu-ani |wompratlarge_neu-ani|wompratmedium_neu-ani|womprat_neu-ani |
-|Displayed damage per second|59                   |496                 |69                  |744                 |397             |596                  |546             |645                 |447                  |50              |
-|Icon camera position       |13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56    |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56|11.42,11.67,7.56    |13.51,14.12,9.05     |11.42,11.67,7.56|
-|Icon lookat position       |-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08    |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08|-0.07,0.16,-0.08    |-0.2,0.39,-0.08      |-0.07,0.16,-0.08|
+|Level                      |7               |6                   |8                    |3                   |10                  |1               |4               |2                    |9                   |5                    |
+|---------------------------|----------------|--------------------|---------------------|--------------------|--------------------|----------------|----------------|---------------------|--------------------|---------------------|
+|Asset name                 |womprat_neu-ani |wompratlarge_neu-ani|wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratmedium_neu-ani|
+|Buff asset offset          |(not found)     |0.00,0.33,0.00      |0.00,0.25,0.00       |0.00,0.33,0.00      |0.00,0.33,0.00      |(not found)     |(not found)     |0.00,0.25,0.00       |0.00,0.33,0.00      |0.00,0.25,0.00       |
+|Bundle name                |womprat_neu-ani |wompratlarge_neu-ani|wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratmedium_neu-ani|
+|Displayed damage per second|546             |496                 |596                  |69                  |744                 |50              |397             |59                   |645                 |447                  |
+|Icon camera position       |11.42,11.67,7.56|11.42,11.67,7.56    |13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56    |11.42,11.67,7.56|11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |13.51,14.12,9.05     |
+|Icon lookat position       |-0.07,0.16,-0.08|-0.07,0.16,-0.08    |-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.2,0.39,-0.08      |
 
 
 ## Uninterpreted stats
@@ -159,9 +159,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |2     |6     |3     |10    |4     |8     |7     |9     |5     |1     |
+|Level      |7     |6     |8     |3     |10    |1     |4     |2     |9     |5     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |330902|330906|330903|330910|330904|330908|330907|330909|330905|330901|
-|Point value|1.200 |2     |1.400 |3     |1.600 |2.400 |2.200 |2.600 |1.800 |1     |
+|Order      |330907|330906|330908|330903|330910|330901|330904|330902|330909|330905|
+|Point value|2.200 |2     |2.400 |1.400 |3     |1     |1.600 |1.200 |2.600 |1.800 |
 
 

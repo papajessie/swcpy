@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 6
   * Type: infantry
 
-|Level |5    |6    |1   |8    |2   |3    |9    |10   |7    |4    |
-|------|-----|-----|----|-----|----|-----|-----|-----|-----|-----|
-|Health|12960|14400|7200|17280|8640|10080|18720|21600|15840|11520|
+|Level |8    |6    |1   |7    |9    |4    |2   |5    |10   |3    |
+|------|-----|-----|----|-----|-----|-----|----|-----|-----|-----|
+|Health|17280|14400|7200|15840|18720|11520|8640|12960|21600|10080|
 
 
 ### Training stats
 
-|Level        |5                                  |6                                  |1                                  |8                                  |2                                  |3                                  |9                                  |10                                  |7                                  |4                                  |
-|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|-----------------------------------|-----------------------------------|
-|Training time|5s                                 |5s                                 |4s                                 |6s                                 |4s                                 |5s                                 |6s                                 |6s                                  |5s                                 |5s                                 |
-|Training cost|130$                               |150$                               |50$                                |190$                               |70$                                |90$                                |210$                               |230$                                |170$                               |110$                               |
-|Building     |[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 1](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|
+|Level        |8                                  |6                                  |1                                  |7                                  |9                                  |4                                  |2                                  |5                                  |10                                  |3                                  |
+|-------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|-----------------------------------|
+|Training time|6s                                 |5s                                 |4s                                 |5s                                 |6s                                 |5s                                 |4s                                 |5s                                 |6s                                  |5s                                 |
+|Training cost|190$                               |150$                               |50$                                |170$                               |210$                               |110$                               |70$                                |130$                               |230$                                |90$                                |
+|Building     |[Barracks 8](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 1](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 2](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |5     |6      |1    |8      |2    |3     |9       |10      |7      |4     |
-|--------------------|------|-------|-----|-------|-----|------|--------|--------|-------|------|
-|Upgrade requirements|50000$|100000$|1500$|750000$|5000$|14000$|2000000$|4000000$|200000$|25000$|
+|Level               |8      |6      |1    |7      |9       |4     |2    |5     |10      |3     |
+|--------------------|-------|-------|-----|-------|--------|------|-----|------|--------|------|
+|Upgrade requirements|750000$|100000$|1500$|200000$|2000000$|25000$|5000$|50000$|4000000$|14000$|
 
 
 ### Movement stats
@@ -82,17 +82,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 125ms
   * Target locking: No
 
-|Level          |5  |6  |1  |8  |2  |3  |9   |10  |7  |4  |
-|---------------|---|---|---|---|---|---|----|----|---|---|
-|Damage per shot|729|810|405|972|486|567|1053|1215|891|648|
+|Level          |8  |6  |1  |7  |9   |4  |2  |5  |10  |3  |
+|---------------|---|---|---|---|----|---|---|---|----|---|
+|Damage per shot|972|810|405|891|1053|648|486|729|1215|567|
 
 
 ### Projectile
 
-|Level                       |5   |6   |1  |8   |2  |3   |9   |10  |7   |4   |
-|----------------------------|----|----|---|----|---|----|----|----|----|----|
-|Displayed damage per second |672 |747 |373|897 |448|523 |971 |1121|822 |598 |
-|Calculated damage per second|1296|1440|720|1728|864|1008|1872|2160|1584|1152|
+|Level                       |8   |6   |1  |7   |9   |4   |2  |5   |10  |3   |
+|----------------------------|----|----|---|----|----|----|---|----|----|----|
+|Displayed damage per second |897 |747 |373|822 |971 |598 |448|672 |1121|523 |
+|Calculated damage per second|1728|1440|720|1584|1872|1152|864|1296|2160|1008|
 
 
   * Cannons per sequence: 1
@@ -136,9 +136,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |5  |6  |1  |8  |2  |3  |9  |10  |7  |4  |
-|---------------------------|---|---|---|---|---|---|---|----|---|---|
-|Displayed damage per second|672|747|373|897|448|523|971|1121|822|598|
+|Level                      |8  |6  |1  |7  |9  |4  |2  |5  |10  |3  |
+|---------------------------|---|---|---|---|---|---|---|---|----|---|
+|Displayed damage per second|897|747|373|822|971|598|448|672|1121|523|
 
 
 ## Uninterpreted stats
@@ -156,9 +156,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |5     |6     |1     |8     |2     |3     |9     |10    |7     |4     |
+|Level      |8     |6     |1     |7     |9     |4     |2     |5     |10    |3     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |334005|334006|334001|334008|334002|334003|334009|334010|334007|334004|
-|Point value|1.800 |2     |1     |2.400 |1.200 |1.400 |2.600 |3     |2.200 |1.600 |
+|Order      |334008|334006|334001|334007|334009|334004|334002|334005|334010|334003|
+|Point value|2.400 |2     |1     |2.200 |2.600 |1.600 |1.200 |1.800 |3     |1.400 |
 
 

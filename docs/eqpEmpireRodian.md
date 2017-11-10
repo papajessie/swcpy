@@ -81,11 +81,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm tie bomber summon target summoner: No
   * Sum phtm tie bomber summon visitor type: Troop
 
-|Level                                  |1                        |2                        |3                        |4                        |5                        |6                        |7                        |8                        |9                        |10                        |
-|---------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|--------------------------|
-|Sum phtm tie bomber summon visitor uids|troopEmpPhantomTieBomber1|troopEmpPhantomTieBomber2|troopEmpPhantomTieBomber3|troopEmpPhantomTieBomber4|troopEmpPhantomTieBomber5|troopEmpPhantomTieBomber6|troopEmpPhantomTieBomber7|troopEmpPhantomTieBomber8|troopEmpPhantomTieBomber9|troopEmpPhantomTieBomber10|
-
-
 ### Upgrade stats
 
 |Level         |1   |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |

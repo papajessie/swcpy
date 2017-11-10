@@ -81,11 +81,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm Y wing summon target summoner: No
   * Sum phtm Y wing summon visitor type: Troop
 
-|Level                              |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|-----------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|Sum phtm Y wing summon visitor uids|troopRebPhantomYWing1|troopRebPhantomYWing2|troopRebPhantomYWing3|troopRebPhantomYWing4|troopRebPhantomYWing5|troopRebPhantomYWing6|troopRebPhantomYWing7|troopRebPhantomYWing8|troopRebPhantomYWing9|troopRebPhantomYWing10|
-
-
 ### Upgrade stats
 
 |Level         |1   |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |

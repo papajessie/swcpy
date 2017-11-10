@@ -43,7 +43,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Cargo great dane summon summon spawn points: 1,0,-1
   * Cargo great dane summon summon target summoner: No
   * Cargo great dane summon summon visitor type: Troop
-  * Cargo great dane summon summon visitor uids: troopStorm5
 
 #### Modifier "Eqp hero ATAT damage"
 

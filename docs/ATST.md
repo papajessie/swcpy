@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 10
   * Type: vehicle
 
-|Level |1    |2    |8    |7    |4    |10   |3    |9    |5    |6    |
+|Level |9    |8    |6    |3    |2    |1    |5    |4    |10   |7    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|11200|12560|26400|24200|15850|33000|14100|28600|17840|20120|
+|Health|28600|26400|20120|14100|12560|11200|17840|15850|33000|24200|
 
 
 ### Training stats
 
-|Level        |1                              |2                                      |8                                      |7                                      |4                                      |10                                      |3                                      |9                                      |5                                      |6                                      |
-|-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-|Training time|3m30s                          |3m40s                                  |4m40s                                  |4m30s                                  |4m                                     |5m                                      |3m50s                                  |4m50s                                  |4m10s                                  |4m20s                                  |
-|Training cost|700$                           |800$                                   |2000$                                  |1700$                                  |1100$                                  |2300$                                   |900$                                   |2100$                                  |1300$                                  |1500$                                  |
-|Building     |[Factory 2](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|
+|Level        |9                                      |8                                      |6                                      |3                                      |2                                      |1                              |5                                      |4                                      |10                                      |7                                      |
+|-------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|
+|Training time|4m50s                                  |4m40s                                  |4m20s                                  |3m50s                                  |3m40s                                  |3m30s                          |4m10s                                  |4m                                     |5m                                      |4m30s                                  |
+|Training cost|2100$                                  |2000$                                  |1500$                                  |900$                                   |800$                                   |700$                           |1300$                                  |1100$                                  |2300$                                   |1700$                                  |
+|Building     |[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 2](empireFactory.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |1   |2    |8      |7      |4     |10      |3    |9       |5     |6      |
-|--------------------|----|-----|-------|-------|------|--------|-----|--------|------|-------|
-|Upgrade time        |0s  |1h   |6d     |4d     |7h    |1w5d    |2h30m|1w1d    |20h   |2d12h  |
-|Upgrade requirements|700$|3000$|385000$|200000$|15000$|2250000$|6000$|1250000$|35000$|115000$|
+|Level               |9       |8      |6      |3    |2    |1   |5     |4     |10      |7      |
+|--------------------|--------|-------|-------|-----|-----|----|------|------|--------|-------|
+|Upgrade time        |1w1d    |6d     |2d12h  |2h30m|1h   |0s  |20h   |7h    |1w5d    |4d     |
+|Upgrade requirements|1250000$|385000$|115000$|6000$|3000$|700$|35000$|15000$|2250000$|200000$|
 
 
 ### Movement stats
@@ -81,17 +81,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 250ms
   * Target locking: No
 
-|Level          |1   |2   |8   |7   |4   |10  |3   |9   |5   |6   |
+|Level          |9   |8   |6   |3   |2   |1   |5   |4   |10  |7   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|1260|1410|2970|2723|1780|3713|1580|3218|2000|2260|
+|Damage per shot|3218|2970|2260|1580|1410|1260|2000|1780|3713|2723|
 
 
 ### Projectile
 
-|Level                       |1   |2       |8   |7       |4       |10      |3       |9       |5       |6       |
-|----------------------------|----|--------|----|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |1120|1250    |2640|2420    |1580    |3300    |1400    |2860    |1780    |2010    |
-|Calculated damage per second|1120|1253.333|2640|2420.444|1582.222|3300.444|1404.444|2860.444|1777.778|2008.889|
+|Level                       |9       |8   |6       |3       |2       |1   |5       |4       |10      |7       |
+|----------------------------|--------|----|--------|--------|--------|----|--------|--------|--------|--------|
+|Displayed damage per second |2860    |2640|2010    |1400    |1250    |1120|1780    |1580    |3300    |2420    |
+|Calculated damage per second|2860.444|2640|2008.889|1404.444|1253.333|1120|1777.778|1582.222|3300.444|2420.444|
 
 
   * Cannons per sequence: 2
@@ -135,9 +135,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |8   |7   |4   |10  |3   |9   |5   |6   |
+|Level                      |9   |8   |6   |3   |2   |1   |5   |4   |10  |7   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1120|1250|2640|2420|1580|3300|1400|2860|1780|2010|
+|Displayed damage per second|2860|2640|2010|1400|1250|1120|1780|1580|3300|2420|
 
 
 ## Uninterpreted stats
@@ -155,9 +155,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |8     |7     |4     |10    |3     |9     |5     |6     |
+|Level      |9     |8     |6     |3     |2     |1     |5     |4     |10    |7     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |130201|130202|130208|130207|130204|130210|130203|130209|130205|130206|
-|Point value|10    |12    |24    |22    |16    |30    |14    |26    |18    |20    |
+|Order      |130209|130208|130206|130203|130202|130201|130205|130204|130210|130207|
+|Point value|26    |24    |20    |14    |12    |10    |18    |16    |30    |22    |
 
 

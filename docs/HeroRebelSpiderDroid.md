@@ -21,18 +21,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |10   |9    |7    |8    |1    |3    |2    |4    |5    |6    |
+|Level |6    |9    |1    |2    |8    |10   |7    |4    |3    |5    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|45800|43900|40200|42100|29100|32800|31000|34700|36500|38400|
+|Health|38400|43900|29100|31000|42100|45800|40200|34700|32800|36500|
 
 
 ### Training stats
 
-|Level        |10                                     |9                                     |7                                     |8                                     |1                                          |3                                     |2                                     |4                                     |5                                     |6                                     |
-|-------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|Training time|4m30s                                  |4m20s                                 |4m10s                                 |4m20s                                 |3m50s                                      |3m50s                                 |3m50s                                 |4m                                    |4m                                    |4m10s                                 |
-|Training cost|3400$                                  |3220$                                 |2860$                                 |3040$                                 |1800$                                      |2150$                                 |1970$                                 |2330$                                 |2510$                                 |2680$                                 |
-|Building     |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Hero Command 1](rebelTacticalCommand.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|
+|Level        |6                                     |9                                     |1                                          |2                                     |8                                     |10                                     |7                                     |4                                     |3                                     |5                                     |
+|-------------|--------------------------------------|--------------------------------------|-------------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+|Training time|4m10s                                 |4m20s                                 |3m50s                                      |3m50s                                 |4m20s                                 |4m30s                                  |4m10s                                 |4m                                    |3m50s                                 |4m                                    |
+|Training cost|2680$                                 |3220$                                 |1800$                                      |1970$                                 |3040$                                 |3400$                                  |2860$                                 |2330$                                 |2150$                                 |2510$                                 |
+|Building     |[Research Lab 6](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Hero Command 1](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -78,17 +78,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 960ms
   * Target locking: No
 
-|Level          |10   |9    |7    |8    |1    |3    |2    |4    |5    |6    |
+|Level          |6    |9    |1    |2    |8    |10   |7    |4    |3    |5    |
 |---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot|16395|15730|14400|15065|10420|11745|11085|12410|13075|13740|
+|Damage per shot|13740|15730|10420|11085|15065|16395|14400|12410|11745|13075|
 
 
 ### Projectile
 
-|Level                       |10   |9    |7    |8    |1    |3    |2    |4    |5    |6    |
+|Level                       |6    |9    |1    |2    |8    |10   |7    |4    |3    |5    |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |9315 |8935 |8185 |8560 |5920 |6675 |6295 |7050 |7430 |7805 |
-|Calculated damage per second|16395|15730|14400|15065|10420|11745|11085|12410|13075|13740|
+|Displayed damage per second |7805 |8935 |5920 |6295 |8560 |9315 |8185 |7050 |6675 |7430 |
+|Calculated damage per second|13740|15730|10420|11085|15065|16395|14400|12410|11745|13075|
 
 
   * Cannons per sequence: 1
@@ -146,9 +146,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum rebel spiderling droid target: self
   * Sum rebel spiderling droid value: 1
 
-|Level                                     |10                                                                    |9                                                                    |7                                                                    |8                                                                    |1                                                                    |3                                                                    |2                                                                    |4                                                                    |5                                                                    |6                                                                    |
-|------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-|Sum rebel spiderling droid summon visitors|["trp_title_RebelSpiderlingDroid" level 10](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 9](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 7](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 8](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 1](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 3](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 2](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 4](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 5](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 6](RebelSpiderlingDroid.html)|
+|Level                                     |6                                                                    |9                                                                    |1                                                                    |2                                                                    |8                                                                    |10                                                                    |7                                                                    |4                                                                    |3                                                                    |5                                                                    |
+|------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+|Sum rebel spiderling droid summon visitors|["trp_title_RebelSpiderlingDroid" level 6](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 9](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 1](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 2](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 8](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 10](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 7](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 4](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 3](RebelSpiderlingDroid.html)|["trp_title_RebelSpiderlingDroid" level 5](RebelSpiderlingDroid.html)|
 
 
   * Sum rebel spiderling droid summon die with summoner: No
@@ -157,11 +157,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum rebel spiderling droid summon spawn points: -2,0,0 2,0,0 0,-2,0
   * Sum rebel spiderling droid summon target summoner: No
   * Sum rebel spiderling droid summon visitor type: Troop
-
-|Level                                         |10                         |9                         |7                         |8                         |1                         |3                         |2                         |4                         |5                         |6                         |
-|----------------------------------------------|---------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
-|Sum rebel spiderling droid summon visitor uids|troopRebelSpiderlingDroid10|troopRebelSpiderlingDroid9|troopRebelSpiderlingDroid7|troopRebelSpiderlingDroid8|troopRebelSpiderlingDroid1|troopRebelSpiderlingDroid3|troopRebelSpiderlingDroid2|troopRebelSpiderlingDroid4|troopRebelSpiderlingDroid5|troopRebelSpiderlingDroid6|
-
 
   * Secondary attack shot DPS: 0
 
@@ -181,12 +176,12 @@ These stats internal to the system link different parts of data together.
   * Unit ID: HeroRebelSpiderDroid
   * Upgrade shard uid: shrd_troopHeroRebelSpiderDroid
 
-|Level                                |10                           |9                           |7                           |8                           |1                           |3                           |2                           |4                           |5                           |6                           |
-|-------------------------------------|-----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Ability                              |abilityHeroRebelSpiderDroid10|abilityHeroRebelSpiderDroid9|abilityHeroRebelSpiderDroid7|abilityHeroRebelSpiderDroid8|abilityHeroRebelSpiderDroid1|abilityHeroRebelSpiderDroid3|abilityHeroRebelSpiderDroid2|abilityHeroRebelSpiderDroid4|abilityHeroRebelSpiderDroid5|abilityHeroRebelSpiderDroid6|
-|Secondary attack self buff           |buffSumRebelSpiderlingDroid10|buffSumRebelSpiderlingDroid9|buffSumRebelSpiderlingDroid7|buffSumRebelSpiderlingDroid8|buffSumRebelSpiderlingDroid1|buffSumRebelSpiderlingDroid3|buffSumRebelSpiderlingDroid2|buffSumRebelSpiderlingDroid4|buffSumRebelSpiderlingDroid5|buffSumRebelSpiderlingDroid6|
-|Sum rebel spiderling droid details   |sumRebelSpiderlingDroid10    |sumRebelSpiderlingDroid9    |sumRebelSpiderlingDroid7    |sumRebelSpiderlingDroid8    |sumRebelSpiderlingDroid1    |sumRebelSpiderlingDroid3    |sumRebelSpiderlingDroid2    |sumRebelSpiderlingDroid4    |sumRebelSpiderlingDroid5    |sumRebelSpiderlingDroid6    |
-|Sum rebel spiderling droid summon uid|sumRebelSpiderlingDroid10    |sumRebelSpiderlingDroid9    |sumRebelSpiderlingDroid7    |sumRebelSpiderlingDroid8    |sumRebelSpiderlingDroid1    |sumRebelSpiderlingDroid3    |sumRebelSpiderlingDroid2    |sumRebelSpiderlingDroid4    |sumRebelSpiderlingDroid5    |sumRebelSpiderlingDroid6    |
+|Level                                |6                           |9                           |1                           |2                           |8                           |10                           |7                           |4                           |3                           |5                           |
+|-------------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Ability                              |abilityHeroRebelSpiderDroid6|abilityHeroRebelSpiderDroid9|abilityHeroRebelSpiderDroid1|abilityHeroRebelSpiderDroid2|abilityHeroRebelSpiderDroid8|abilityHeroRebelSpiderDroid10|abilityHeroRebelSpiderDroid7|abilityHeroRebelSpiderDroid4|abilityHeroRebelSpiderDroid3|abilityHeroRebelSpiderDroid5|
+|Secondary attack self buff           |buffSumRebelSpiderlingDroid6|buffSumRebelSpiderlingDroid9|buffSumRebelSpiderlingDroid1|buffSumRebelSpiderlingDroid2|buffSumRebelSpiderlingDroid8|buffSumRebelSpiderlingDroid10|buffSumRebelSpiderlingDroid7|buffSumRebelSpiderlingDroid4|buffSumRebelSpiderlingDroid3|buffSumRebelSpiderlingDroid5|
+|Sum rebel spiderling droid details   |sumRebelSpiderlingDroid6    |sumRebelSpiderlingDroid9    |sumRebelSpiderlingDroid1    |sumRebelSpiderlingDroid2    |sumRebelSpiderlingDroid8    |sumRebelSpiderlingDroid10    |sumRebelSpiderlingDroid7    |sumRebelSpiderlingDroid4    |sumRebelSpiderlingDroid3    |sumRebelSpiderlingDroid5    |
+|Sum rebel spiderling droid summon uid|sumRebelSpiderlingDroid6    |sumRebelSpiderlingDroid9    |sumRebelSpiderlingDroid1    |sumRebelSpiderlingDroid2    |sumRebelSpiderlingDroid8    |sumRebelSpiderlingDroid10    |sumRebelSpiderlingDroid7    |sumRebelSpiderlingDroid4    |sumRebelSpiderlingDroid3    |sumRebelSpiderlingDroid5    |
 
 
 ## Presentation stats
@@ -232,12 +227,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: No
 
-|Level                      |10         |9          |7          |8          |1             |3          |2          |4          |5          |6          |
-|---------------------------|-----------|-----------|-----------|-----------|--------------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|9315       |8935       |8185       |8560       |5920          |6675       |6295       |7050       |7430       |7805       |
-|Icon unlock position       |(not found)|(not found)|(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|0.75,0.75,0.75|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |6          |9          |1             |2          |8          |10         |7          |4          |3          |5          |
+|---------------------------|-----------|-----------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|7805       |8935       |5920          |6295       |8560       |9315       |8185       |7050       |6675       |7430       |
+|Icon unlock position       |(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |(not found)|(not found)|0.75,0.75,0.75|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -265,8 +260,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|10    |9     |7     |8     |1     |3     |2     |4     |5     |6     |
+|Level|6     |9     |1     |2     |8     |10    |7     |4     |3     |5     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|225710|225709|225707|225708|225701|225703|225702|225704|225705|225706|
+|Order|225706|225709|225701|225702|225708|225710|225707|225704|225703|225705|
 
 

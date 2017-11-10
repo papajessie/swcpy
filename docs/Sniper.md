@@ -21,26 +21,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 7
   * Type: infantry
 
-|Level |10  |8   |6   |3   |5   |7   |1   |2   |9   |4   |
+|Level |3   |4   |8   |9   |6   |10  |2   |5   |7   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|8400|6720|5600|3920|5040|6160|2800|3360|7280|4480|
+|Health|3920|4480|6720|7280|5600|8400|3360|5040|6160|2800|
 
 
 ### Training stats
 
-|Level        |10                                      |8                                      |6                                      |3                                      |5                                      |7                                      |1                                |2                                      |9                                      |4                                      |
-|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-|Training time|3m30s                                   |3m16s                                  |3m28s                                  |3m4s                                   |3m20s                                  |3m36s                                  |2m48s                            |2m56s                                  |3m23s                                  |3m12s                                  |
-|Training cost|1610$                                   |1400$                                  |1050$                                  |630$                                   |910$                                   |1190$                                  |350$                             |490$                                   |1470$                                  |770$                                   |
-|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Barracks 7](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|
+|Level        |3                                      |4                                      |8                                      |9                                      |6                                      |10                                      |2                                      |5                                      |7                                      |1                                |
+|-------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------|
+|Training time|3m4s                                   |3m12s                                  |3m16s                                  |3m23s                                  |3m28s                                  |3m30s                                   |2m56s                                  |3m20s                                  |3m36s                                  |2m48s                            |
+|Training cost|630$                                   |770$                                   |1400$                                  |1470$                                  |1050$                                  |1610$                                   |490$                                   |910$                                   |1190$                                  |350$                             |
+|Building     |[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Barracks 7](empireBarracks.html)|
 
 
 ### Upgrading stats
 
-|Level               |10      |8      |6      |3    |5     |7      |1   |2    |9       |4     |
-|--------------------|--------|-------|-------|-----|------|-------|----|-----|--------|------|
-|Upgrade time        |1w3d    |5d     |2d     |2h   |12h   |3d     |0s  |45m  |1w      |6h    |
-|Upgrade requirements|2000000$|350000$|115000$|6000$|35000$|175000$|700$|3000$|1000000$|15000$|
+|Level               |3    |4     |8      |9       |6      |10      |2    |5     |7      |1   |
+|--------------------|-----|------|-------|--------|-------|--------|-----|------|-------|----|
+|Upgrade time        |2h   |6h    |5d     |1w      |2d     |1w3d    |45m  |12h   |3d     |0s  |
+|Upgrade requirements|6000$|15000$|350000$|1000000$|115000$|2000000$|3000$|35000$|175000$|700$|
 
 
 ### Movement stats
@@ -81,19 +81,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |10  |8   |6   |3   |5   |7   |1  |2   |9   |4   |
-|---------------|----|----|----|----|----|----|---|----|----|----|
-|Damage per shot|2503|2002|1669|1168|1502|1836|835|1001|2169|1335|
+|Level          |3   |4   |8   |9   |6   |10  |2   |5   |7   |1  |
+|---------------|----|----|----|----|----|----|----|----|----|---|
+|Damage per shot|1168|1335|2002|2169|1669|2503|1001|1502|1836|835|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |10      |8   |6       |3       |5       |7       |1      |2  |9       |4       |
-|----------------------------|--------|----|--------|--------|--------|--------|-------|---|--------|--------|
-|Displayed damage per second |2310    |1848|1540    |1078    |1386    |1694    |770    |924|2002    |1232    |
-|Calculated damage per second|2310.462|1848|1540.615|1078.154|1386.462|1694.769|770.769|924|2002.154|1232.308|
+|Level                       |3       |4       |8   |9       |6       |10      |2  |5       |7       |1      |
+|----------------------------|--------|--------|----|--------|--------|--------|---|--------|--------|-------|
+|Displayed damage per second |1078    |1232    |1848|2002    |1540    |2310    |924|1386    |1694    |770    |
+|Calculated damage per second|1078.154|1232.308|1848|2002.154|1540.615|2310.462|924|1386.462|1694.769|770.769|
 
 
   * Cannons per sequence: 1
@@ -140,9 +140,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |10  |8   |6   |3   |5   |7   |1  |2  |9   |4   |
-|---------------------------|----|----|----|----|----|----|---|---|----|----|
-|Displayed damage per second|2310|1848|1540|1078|1386|1694|770|924|2002|1232|
+|Level                      |3   |4   |8   |9   |6   |10  |2  |5   |7   |1  |
+|---------------------------|----|----|----|----|----|----|---|----|----|---|
+|Displayed damage per second|1078|1232|1848|2002|1540|2310|924|1386|1694|770|
 
 
 ## Uninterpreted stats
@@ -160,9 +160,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10    |8     |6     |3     |5     |7     |1     |2     |9     |4     |
+|Level      |3     |4     |8     |9     |6     |10    |2     |5     |7     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |120710|120708|120706|120703|120705|120707|120701|120702|120709|120704|
-|Point value|21    |16.800|14    |9.800 |12.600|15.400|7     |8.400 |18.200|11.200|
+|Order      |120703|120704|120708|120709|120706|120710|120702|120705|120707|120701|
+|Point value|9.800 |11.200|16.800|18.200|14    |21    |8.400 |12.600|15.400|7     |
 
 

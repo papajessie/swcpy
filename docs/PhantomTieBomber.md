@@ -115,9 +115,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber target: enemies
   * Sum tie bomber value: 1
 
-|Level                         |6                                   |9                                   |1                                   |10                                   |3                                   |5, 4                                |8                                   |7                                   |2                                   |
-|------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-|Sum tie bomber summon visitors|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|
+|Level                         |2                                   |9                                   |4                                   |6                                   |3, 1                                |7                                   |5                                   |8                                   |10                                   |
+|------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|
+|Sum tie bomber summon visitors|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|
 
 
   * Sum tie bomber summon die with summoner: No
@@ -127,11 +127,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber summon target summoner: No
   * Sum tie bomber summon visitor type: SpecialAttack
 
-|Level                             |6                      |9                      |1                      |10                      |3                      |5, 4                   |8                      |7                      |2                      |
-|----------------------------------|-----------------------|-----------------------|-----------------------|------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-|Sum tie bomber summon visitor uids|specialAttackTieBomber8|specialAttackTieBomber9|specialAttackTieBomber6|specialAttackTieBomber10|specialAttackTieBomber6|specialAttackTieBomber7|specialAttackTieBomber9|specialAttackTieBomber8|specialAttackTieBomber6|
-
-
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
@@ -139,11 +134,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomTieBomber
 
-|Level                    |6                |9                |1                |10                |3                |5                |4                |8                |7                |2                |
-|-------------------------|-----------------|-----------------|-----------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-|Apply buffs              |buffSumTieBomber6|buffSumTieBomber9|buffSumTieBomber1|buffSumTieBomber10|buffSumTieBomber3|buffSumTieBomber5|buffSumTieBomber4|buffSumTieBomber8|buffSumTieBomber7|buffSumTieBomber2|
-|Sum tie bomber details   |sumTieBomber6    |sumTieBomber9    |sumTieBomber1    |sumTieBomber10    |sumTieBomber3    |sumTieBomber5    |sumTieBomber4    |sumTieBomber8    |sumTieBomber7    |sumTieBomber2    |
-|Sum tie bomber summon uid|sumTieBomber6    |sumTieBomber9    |sumTieBomber1    |sumTieBomber10    |sumTieBomber3    |sumTieBomber5    |sumTieBomber4    |sumTieBomber8    |sumTieBomber7    |sumTieBomber2    |
+|Level                    |2                |9                |4                |6                |3                |1                |7                |5                |8                |10                |
+|-------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
+|Apply buffs              |buffSumTieBomber2|buffSumTieBomber9|buffSumTieBomber4|buffSumTieBomber6|buffSumTieBomber3|buffSumTieBomber1|buffSumTieBomber7|buffSumTieBomber5|buffSumTieBomber8|buffSumTieBomber10|
+|Sum tie bomber details   |sumTieBomber2    |sumTieBomber9    |sumTieBomber4    |sumTieBomber6    |sumTieBomber3    |sumTieBomber1    |sumTieBomber7    |sumTieBomber5    |sumTieBomber8    |sumTieBomber10    |
+|Sum tie bomber summon uid|sumTieBomber2    |sumTieBomber9    |sumTieBomber4    |sumTieBomber6    |sumTieBomber3    |sumTieBomber1    |sumTieBomber7    |sumTieBomber5    |sumTieBomber8    |sumTieBomber10    |
 
 
 ## Presentation stats
@@ -188,8 +183,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|6     |9     |1     |10    |3     |5     |4     |8     |7     |2     |
+|Level|2     |9     |4     |6     |3     |1     |7     |5     |8     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400205|400208|400200|400209|400202|400204|400203|400207|400206|400201|
+|Order|400201|400208|400203|400205|400202|400200|400206|400204|400207|400209|
 
 

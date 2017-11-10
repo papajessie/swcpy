@@ -81,11 +81,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm millenium falcon summon target summoner: No
   * Sum phtm millenium falcon summon visitor type: Troop
 
-|Level                                        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
-|---------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Sum phtm millenium falcon summon visitor uids|troopRebPhantomMilleniumFalcon1|troopRebPhantomMilleniumFalcon2|troopRebPhantomMilleniumFalcon3|troopRebPhantomMilleniumFalcon4|troopRebPhantomMilleniumFalcon5|troopRebPhantomMilleniumFalcon6|troopRebPhantomMilleniumFalcon7|troopRebPhantomMilleniumFalcon8|troopRebPhantomMilleniumFalcon9|troopRebPhantomMilleniumFalcon10|
-
-
 ### Upgrade stats
 
 |Level         |1   |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |

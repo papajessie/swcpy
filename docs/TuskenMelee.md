@@ -70,19 +70,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.250s
   * Target locking: No
 
-|Level          |3  |4  |2  |10 |8  |9  |5  |7  |6  |1  |
+|Level          |2  |6  |5  |8  |1  |7  |10 |3  |4  |9  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|260|282|239|434|369|390|304|347|325|195|
+|Damage per shot|239|325|304|369|195|347|434|260|282|390|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75
 
-|Level                       |3      |4      |2      |10     |8      |9      |5      |7      |6      |1      |
+|Level                       |2      |6      |5      |8      |1      |7      |10     |3      |4      |9      |
 |----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Displayed damage per second |236    |256    |217    |394    |335    |354    |276    |315    |295    |177    |
-|Calculated damage per second|236.364|256.364|217.273|394.545|335.455|354.545|276.364|315.455|295.455|177.273|
+|Displayed damage per second |217    |295    |276    |335    |177    |315    |394    |236    |256    |354    |
+|Calculated damage per second|217.273|295.455|276.364|335.455|177.273|315.455|394.545|236.364|256.364|354.545|
 
 
   * Cannons per sequence: 1
@@ -123,9 +123,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |3  |4  |2  |10 |8  |9  |5  |7  |6  |1  |
+|Level                      |2  |6  |5  |8  |1  |7  |10 |3  |4  |9  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|236|256|217|394|335|354|276|315|295|177|
+|Displayed damage per second|217|295|276|335|177|315|394|236|256|354|
 
 
 ## Uninterpreted stats
@@ -143,9 +143,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |3     |4     |2     |10    |8     |9     |5     |7     |6     |1     |
+|Level      |2     |6     |5     |8     |1     |7     |10    |3     |4     |9     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |321803|321804|321802|321810|321808|321809|321805|321807|321806|321801|
-|Point value|1.400 |1.600 |1.200 |3     |2.400 |2.600 |1.800 |2.200 |2     |1     |
+|Order      |321802|321806|321805|321808|321801|321807|321810|321803|321804|321809|
+|Point value|1.200 |2     |1.800 |2.400 |1     |2.200 |3     |1.400 |1.600 |2.600 |
 
 

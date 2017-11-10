@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 3
   * Type: infantry
 
-|Level |3   |9   |4   |10  |6   |5   |7   |8   |1   |2   |
+|Level |5   |4   |2   |7   |9   |8   |3   |6   |1   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|7350|9250|7630|9610|8240|7930|8560|8900|6810|7070|
+|Health|7930|7630|7070|8560|9250|8900|7350|8240|6810|9610|
 
 
 ### Training stats
 
-|Level        |3                                     |9                                     |4                                     |10                                     |6                                     |5                                     |7                                     |8                                     |1                               |2                                     |
-|-------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------|--------------------------------------|
-|Training time|27s                                   |30s                                   |28s                                   |30s                                    |28s                                   |28s                                   |29s                                   |29s                                   |26s                             |27s                                   |
-|Training cost|170$                                  |220$                                  |190$                                  |230$                                   |200$                                  |200$                                  |210$                                  |210$                                  |150$                            |160$                                  |
-|Building     |[Research Lab 3](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|
+|Level        |5                                     |4                                     |2                                     |7                                     |9                                     |8                                     |3                                     |6                                     |1                               |10                                     |
+|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------|---------------------------------------|
+|Training time|28s                                   |28s                                   |27s                                   |29s                                   |30s                                   |29s                                   |27s                                   |28s                                   |26s                             |30s                                    |
+|Training cost|200$                                  |190$                                  |160$                                  |210$                                  |220$                                  |210$                                  |170$                                  |200$                                  |150$                            |230$                                   |
+|Building     |[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Barracks 2](rebelBarracks.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
   * Upgrade requirements: 32 data fragments
 
-|Level       |3  |9     |4     |10    |6     |5     |7  |8     |1     |2     |
-|------------|---|------|------|------|------|------|---|------|------|------|
-|Upgrade time|37m|44m35s|38m15s|45m50s|40m45s|39m30s|42m|43m15s|34m10s|35m45s|
+|Level       |5     |4     |2     |7  |9     |8     |3  |6     |1     |10    |
+|------------|------|------|------|---|------|------|---|------|------|------|
+|Upgrade time|39m30s|38m15s|35m45s|42m|44m35s|43m15s|37m|40m45s|34m10s|45m50s|
 
 
 ### Movement stats
@@ -71,9 +71,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm X wing target: self
   * Sum phtm X wing value: 1
 
-|Level                          |3                                                    |9                                                    |4                                                    |10                                                    |6                                                    |5                                                    |7                                                    |8                                                    |1                                                    |2                                                    |
-|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
-|Sum phtm X wing summon visitors|["trp_title_PhantomXWing" level 3](PhantomXWing.html)|["trp_title_PhantomXWing" level 9](PhantomXWing.html)|["trp_title_PhantomXWing" level 4](PhantomXWing.html)|["trp_title_PhantomXWing" level 10](PhantomXWing.html)|["trp_title_PhantomXWing" level 6](PhantomXWing.html)|["trp_title_PhantomXWing" level 5](PhantomXWing.html)|["trp_title_PhantomXWing" level 7](PhantomXWing.html)|["trp_title_PhantomXWing" level 8](PhantomXWing.html)|["trp_title_PhantomXWing" level 1](PhantomXWing.html)|["trp_title_PhantomXWing" level 2](PhantomXWing.html)|
+|Level                          |5                                                    |4                                                    |2                                                    |7                                                    |9                                                    |8                                                    |3                                                    |6                                                    |1                                                    |10                                                    |
+|-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
+|Sum phtm X wing summon visitors|["trp_title_PhantomXWing" level 5](PhantomXWing.html)|["trp_title_PhantomXWing" level 4](PhantomXWing.html)|["trp_title_PhantomXWing" level 2](PhantomXWing.html)|["trp_title_PhantomXWing" level 7](PhantomXWing.html)|["trp_title_PhantomXWing" level 9](PhantomXWing.html)|["trp_title_PhantomXWing" level 8](PhantomXWing.html)|["trp_title_PhantomXWing" level 3](PhantomXWing.html)|["trp_title_PhantomXWing" level 6](PhantomXWing.html)|["trp_title_PhantomXWing" level 1](PhantomXWing.html)|["trp_title_PhantomXWing" level 10](PhantomXWing.html)|
 
 
   * Sum phtm X wing summon die with summoner: Yes
@@ -83,11 +83,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm X wing summon spawn points: 0,0,0
   * Sum phtm X wing summon target summoner: No
   * Sum phtm X wing summon visitor type: Troop
-
-|Level                              |3                    |9                    |4                    |10                    |6                    |5                    |7                    |8                    |1                    |2                    |
-|-----------------------------------|---------------------|---------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Sum phtm X wing summon visitor uids|troopRebPhantomXWing3|troopRebPhantomXWing9|troopRebPhantomXWing4|troopRebPhantomXWing10|troopRebPhantomXWing6|troopRebPhantomXWing5|troopRebPhantomXWing7|troopRebPhantomXWing8|troopRebPhantomXWing1|troopRebPhantomXWing2|
-
 
 ## Main attack : Scout
 
@@ -100,9 +95,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 8
 
-|Level             |3, 9, 4, 10, 6                                                                                                                                                                                                                                                                                                                                                                                               |5                                                                                                                                                                                                                                                                                                                                                                                                             |7, 8, 1, 2                                                                                                                                                                                                                                                                                                                                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Target preferences|**Ressource generator (80)**, **Storage (80)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Turret (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (100)**, _Ressource generator (80)_, _Storage (80)_, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Ressource generator (80)**, **Storage (80)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Turret (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|
+|Level             |5                                                                                                                                                                                                                                                                                                                                                                                                             |4, 2, 7, 9, 8, 3, 6, 1, 10                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Target preferences|**Turret (100)**, _Ressource generator (80)_, _Storage (80)_, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Ressource generator (80)**, **Storage (80)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Turret (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|
 
 
 ### Shooting
@@ -120,17 +115,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 200ms
   * Target locking: No
 
-|Level          |3  |9  |4  |10 |6  |5  |7  |8  |1  |2  |
+|Level          |5  |4  |2  |7  |9  |8  |3  |6  |1  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|480|670|510|710|570|540|600|630|430|450|
+|Damage per shot|540|510|450|600|670|630|480|570|430|710|
 
 
 ### Projectile
 
-|Level                       |3      |9       |4       |10      |6       |5       |7       |8       |1      |2      |
-|----------------------------|-------|--------|--------|--------|--------|--------|--------|--------|-------|-------|
-|Displayed damage per second |220    |330     |240     |360     |270     |250     |280     |310     |190    |210    |
-|Calculated damage per second|993.103|1386.207|1055.172|1468.966|1179.310|1117.241|1241.379|1303.448|889.655|931.034|
+|Level                       |5       |4       |2      |7       |9       |8       |3      |6       |1      |10      |
+|----------------------------|--------|--------|-------|--------|--------|--------|-------|--------|-------|--------|
+|Displayed damage per second |250     |240     |210    |280     |330     |310     |220    |270     |190    |360     |
+|Calculated damage per second|1117.241|1055.172|931.034|1241.379|1386.207|1303.448|993.103|1179.310|889.655|1468.966|
 
 
   * Cannons per sequence: 1
@@ -149,11 +144,11 @@ These stats internal to the system link different parts of data together.
   * Unit ID: XWingPilot
   * Upgrade shard uid: shrd_troopXWingPilot
 
-|Level                     |3                |9                |4                |10                |6                |5                |7                |8                |1                |2                |
-|--------------------------|-----------------|-----------------|-----------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-|Spawn apply buffs         |buffSumPhtmXWing3|buffSumPhtmXWing9|buffSumPhtmXWing4|buffSumPhtmXWing10|buffSumPhtmXWing6|buffSumPhtmXWing5|buffSumPhtmXWing7|buffSumPhtmXWing8|buffSumPhtmXWing1|buffSumPhtmXWing2|
-|Sum phtm X wing details   |sumPhtmXWing3    |sumPhtmXWing9    |sumPhtmXWing4    |sumPhtmXWing10    |sumPhtmXWing6    |sumPhtmXWing5    |sumPhtmXWing7    |sumPhtmXWing8    |sumPhtmXWing1    |sumPhtmXWing2    |
-|Sum phtm X wing summon uid|sumPhtmXWing3    |sumPhtmXWing9    |sumPhtmXWing4    |sumPhtmXWing10    |sumPhtmXWing6    |sumPhtmXWing5    |sumPhtmXWing7    |sumPhtmXWing8    |sumPhtmXWing1    |sumPhtmXWing2    |
+|Level                     |5                |4                |2                |7                |9                |8                |3                |6                |1                |10                |
+|--------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
+|Spawn apply buffs         |buffSumPhtmXWing5|buffSumPhtmXWing4|buffSumPhtmXWing2|buffSumPhtmXWing7|buffSumPhtmXWing9|buffSumPhtmXWing8|buffSumPhtmXWing3|buffSumPhtmXWing6|buffSumPhtmXWing1|buffSumPhtmXWing10|
+|Sum phtm X wing details   |sumPhtmXWing5    |sumPhtmXWing4    |sumPhtmXWing2    |sumPhtmXWing7    |sumPhtmXWing9    |sumPhtmXWing8    |sumPhtmXWing3    |sumPhtmXWing6    |sumPhtmXWing1    |sumPhtmXWing10    |
+|Sum phtm X wing summon uid|sumPhtmXWing5    |sumPhtmXWing4    |sumPhtmXWing2    |sumPhtmXWing7    |sumPhtmXWing9    |sumPhtmXWing8    |sumPhtmXWing3    |sumPhtmXWing6    |sumPhtmXWing1    |sumPhtmXWing10    |
 
 
 ## Presentation stats
@@ -191,9 +186,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: No
 
-|Level                      |3          |9          |4          |10         |6          |5          |7          |8          |1             |2          |
+|Level                      |5          |4          |2          |7          |9          |8          |3          |6          |1             |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|--------------|-----------|
-|Displayed damage per second|220        |330        |240        |360        |270        |250        |280        |310        |190           |210        |
+|Displayed damage per second|250        |240        |210        |280        |330        |310        |220        |270        |190           |360        |
 |Icon unlock position       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,0,0         |(not found)|
 |Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,0,0         |(not found)|
 |Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|1.25,1.25,1.25|(not found)|
@@ -214,9 +209,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |3     |9     |4     |10    |6     |5     |7     |8     |1     |2     |
+|Level      |5     |4     |2     |7     |9     |8     |3     |6     |1     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |314902|314908|314903|314909|314905|314904|314906|314907|314900|314901|
-|Point value|1.400 |2.600 |1.600 |3     |2     |1.800 |2.200 |2.400 |1     |1.200 |
+|Order      |314904|314903|314901|314906|314908|314907|314902|314905|314900|314909|
+|Point value|1.800 |1.600 |1.200 |2.200 |2.600 |2.400 |1.400 |2     |1     |3     |
 
 

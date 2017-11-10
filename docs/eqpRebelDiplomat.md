@@ -43,7 +43,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Diplomat summon summon spawn points: 1,0,-1
   * Diplomat summon summon target summoner: No
   * Diplomat summon summon visitor type: Troop
-  * Diplomat summon summon visitor uids: troopSoldier5
 
 #### Modifier "Eqp hero leia damage"
 
