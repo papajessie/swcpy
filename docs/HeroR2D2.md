@@ -92,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.0100s
+  * Cliptime: 2.100s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18

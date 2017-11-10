@@ -104,7 +104,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Unit damage steroid apply value as: relativePercent
   * Unit damage steroid buff ID: buffUnitDamageSteroid
-  * Unit damage steroid duration: 5.0100s
+  * Unit damage steroid duration: 5.100s
   * Unit damage steroid modifier: damage
   * Unit damage steroid ms first proc: 0s
   * Unit damage steroid ms per proc: permanent
@@ -140,7 +140,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Unit damage steroid apply value as: relativePercent
   * Unit damage steroid buff ID: buffUnitDamageSteroid
-  * Unit damage steroid duration: 5.0100s
+  * Unit damage steroid duration: 5.100s
   * Unit damage steroid modifier: damage
   * Unit damage steroid ms first proc: 0s
   * Unit damage steroid ms per proc: permanent
