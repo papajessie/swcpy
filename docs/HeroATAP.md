@@ -21,26 +21,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |6    |1    |3    |4    |8    |5    |2    |9    |7    |10   |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|48000|24000|33600|38400|57600|43200|28800|62400|52800|72000|
+|Health|24000|28800|33600|38400|43200|48000|52800|57600|62400|72000|
 
 
 ### Training stats
 
-|Level        |6                                     |1                                          |3                                     |4                                     |8                                     |5                                     |2                                     |9                                     |7                                     |10                                     |
-|-------------|--------------------------------------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|4m20s                                 |3m30s                                      |3m50s                                 |4m                                    |9m20s                                 |4m10s                                 |3m40s                                 |9m40s                                 |4m30s                                 |10m                                    |
-|Training cost|3000$                                 |1000$                                      |1800$                                 |2200$                                 |4000$                                 |2600$                                 |1400$                                 |4200$                                 |3400$                                 |4600$                                  |
-|Building     |[Research Lab 6](rebelOffenseLab.html)|[Hero Command 9](rebelTacticalCommand.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level   |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
+|--------|-------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
+|Building|[Hero Command 9](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |6      |1    |3     |4     |8      |5     |2    |9       |7      |10      |
-|--------------------|-------|-----|------|------|-------|------|-----|--------|-------|--------|
-|Upgrade time        |3d     |0s   |3h    |8h    |1w     |1d    |1h30m|1w3d    |5d     |2w      |
-|Upgrade requirements|135000$|6500$|10000$|20000$|450000$|50000$|5000$|1500000$|225000$|2500000$|
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
+|Upgrade requirements|6500$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
 
 
 ### Movement stats
@@ -81,17 +79,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 50ms
   * Target locking: No
 
-|Level          |6  |1  |3  |4  |8  |5  |2  |9  |7  |10 |
+|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|489|245|342|391|587|440|294|636|538|733|
+|Damage per shot|245|294|342|391|440|489|538|587|636|733|
 
 
 ### Projectile
 
-|Level                       |6       |1       |3   |4       |8       |5       |2       |9       |7       |10      |
+|Level                       |1       |2       |3   |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|----|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |3603    |1805    |2520|2881    |4325    |3242    |2166    |4686    |3964    |5401    |
-|Calculated damage per second|3603.158|1805.263|2520|2881.053|4325.263|3242.105|2166.316|4686.316|3964.211|5401.053|
+|Displayed damage per second |1805    |2166    |2520|2881    |3242    |3603    |3964    |4325    |4686    |5401    |
+|Calculated damage per second|1805.263|2166.316|2520|2881.053|3242.105|3603.158|3964.211|4325.263|4686.316|5401.053|
 
 
   * Cannons per sequence: 14
@@ -109,9 +107,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroATAP
 
-|Level    |6    |1    |3    |4    |8    |5    |2    |9    |7    |10    |
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
 |---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Hero data|hero6|hero1|hero3|hero4|hero8|hero5|hero2|hero9|hero7|hero10|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
 
 ## Presentation stats
@@ -146,9 +144,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |6   |1   |3   |4   |8   |5   |2   |9   |7   |10  |
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|3603|1805|2520|2881|4325|3242|2166|4686|3964|5401|
+|Displayed damage per second|1805|2166|2520|2881|3242|3603|3964|4325|4686|5401|
 
 
 ## Uninterpreted stats
@@ -166,9 +164,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |6     |1     |3     |4     |8     |5     |2     |9     |7     |10    |
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |211806|211801|211803|211804|211808|211805|211802|211809|211807|211810|
-|Point value|40    |20    |28    |32    |48    |36    |24    |52    |44    |60    |
+|Order      |211801|211802|211803|211804|211805|211806|211807|211808|211809|211810|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 

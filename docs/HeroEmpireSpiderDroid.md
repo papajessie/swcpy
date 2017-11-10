@@ -21,18 +21,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |3    |8    |2    |1    |4    |5    |6    |9    |10   |7    |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|32800|42100|31000|29100|34700|36500|38400|43900|45800|40200|
+|Health|29100|31000|32800|34700|36500|38400|40200|42100|43900|45800|
 
 
 ### Training stats
 
-|Level        |3                                      |8                                      |2                                      |1                                           |4                                      |5                                      |6                                      |9                                      |10                                      |7                                      |
-|-------------|---------------------------------------|---------------------------------------|---------------------------------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|
-|Training time|3m50s                                  |4m20s                                  |3m50s                                  |3m50s                                       |4m                                     |4m                                     |4m10s                                  |4m20s                                  |4m30s                                   |4m10s                                  |
-|Training cost|2150$                                  |3040$                                  |1970$                                  |1800$                                       |2330$                                  |2510$                                  |2680$                                  |3220$                                  |3400$                                   |2860$                                  |
-|Building     |[Research Lab 3](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Hero Command 1](empireTacticalCommand.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|
+|Level   |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|--------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Building|[Hero Command 1](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -78,17 +76,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 960ms
   * Target locking: No
 
-|Level          |3    |8    |2    |1    |4    |5    |6    |9    |10   |7    |
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot|11745|15065|11085|10420|12410|13075|13740|15730|16395|14400|
+|Damage per shot|10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
 
 
 ### Projectile
 
-|Level                       |3    |8    |2    |1    |4    |5    |6    |9    |10   |7    |
+|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |6675 |8560 |6295 |5920 |7050 |7430 |7805 |8935 |9315 |8185 |
-|Calculated damage per second|11745|15065|11085|10420|12410|13075|13740|15730|16395|14400|
+|Displayed damage per second |5920 |6295 |6675 |7050 |7430 |7805 |8185 |8560 |8935 |9315 |
+|Calculated damage per second|10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
 
 
   * Cannons per sequence: 1
@@ -146,9 +144,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum empire spiderling droid target: self
   * Sum empire spiderling droid value: 1
 
-|Level                                      |3                                                                      |8                                                                      |2                                                                      |1                                                                      |4                                                                      |5                                                                      |6                                                                      |9                                                                      |10                                                                      |7                                                                      |
-|-------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|Sum empire spiderling droid summon visitors|["trp_title_EmpireSpiderlingDroid" level 3](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 8](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 2](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 1](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 4](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 5](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 6](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 9](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 10](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 7](EmpireSpiderlingDroid.html)|
+|Level                                      |1                                                                      |2                                                                      |3                                                                      |4                                                                      |5                                                                      |6                                                                      |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
+|-------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
+|Sum empire spiderling droid summon visitors|["trp_title_EmpireSpiderlingDroid" level 1](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 2](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 3](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 4](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 5](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 6](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 7](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 8](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 9](EmpireSpiderlingDroid.html)|["trp_title_EmpireSpiderlingDroid" level 10](EmpireSpiderlingDroid.html)|
 
 
   * Sum empire spiderling droid summon die with summoner: No
@@ -176,12 +174,12 @@ These stats internal to the system link different parts of data together.
   * Unit ID: HeroEmpireSpiderDroid
   * Upgrade shard uid: shrd_troopHeroEmpireSpiderDroid
 
-|Level                                 |3                            |8                            |2                            |1                            |4                            |5                            |6                            |9                            |10                            |7                            |
-|--------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|-----------------------------|
-|Ability                               |abilityHeroEmpireSpiderDroid3|abilityHeroEmpireSpiderDroid8|abilityHeroEmpireSpiderDroid2|abilityHeroEmpireSpiderDroid1|abilityHeroEmpireSpiderDroid4|abilityHeroEmpireSpiderDroid5|abilityHeroEmpireSpiderDroid6|abilityHeroEmpireSpiderDroid9|abilityHeroEmpireSpiderDroid10|abilityHeroEmpireSpiderDroid7|
-|Secondary attack self buff            |buffSumEmpireSpiderlingDroid3|buffSumEmpireSpiderlingDroid8|buffSumEmpireSpiderlingDroid2|buffSumEmpireSpiderlingDroid1|buffSumEmpireSpiderlingDroid4|buffSumEmpireSpiderlingDroid5|buffSumEmpireSpiderlingDroid6|buffSumEmpireSpiderlingDroid9|buffSumEmpireSpiderlingDroid10|buffSumEmpireSpiderlingDroid7|
-|Sum empire spiderling droid details   |sumEmpireSpiderlingDroid3    |sumEmpireSpiderlingDroid8    |sumEmpireSpiderlingDroid2    |sumEmpireSpiderlingDroid1    |sumEmpireSpiderlingDroid4    |sumEmpireSpiderlingDroid5    |sumEmpireSpiderlingDroid6    |sumEmpireSpiderlingDroid9    |sumEmpireSpiderlingDroid10    |sumEmpireSpiderlingDroid7    |
-|Sum empire spiderling droid summon uid|sumEmpireSpiderlingDroid3    |sumEmpireSpiderlingDroid8    |sumEmpireSpiderlingDroid2    |sumEmpireSpiderlingDroid1    |sumEmpireSpiderlingDroid4    |sumEmpireSpiderlingDroid5    |sumEmpireSpiderlingDroid6    |sumEmpireSpiderlingDroid9    |sumEmpireSpiderlingDroid10    |sumEmpireSpiderlingDroid7    |
+|Level                                 |1                            |2                            |3                            |4                            |5                            |6                            |7                            |8                            |9                            |10                            |
+|--------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|
+|Ability                               |abilityHeroEmpireSpiderDroid1|abilityHeroEmpireSpiderDroid2|abilityHeroEmpireSpiderDroid3|abilityHeroEmpireSpiderDroid4|abilityHeroEmpireSpiderDroid5|abilityHeroEmpireSpiderDroid6|abilityHeroEmpireSpiderDroid7|abilityHeroEmpireSpiderDroid8|abilityHeroEmpireSpiderDroid9|abilityHeroEmpireSpiderDroid10|
+|Secondary attack self buff            |buffSumEmpireSpiderlingDroid1|buffSumEmpireSpiderlingDroid2|buffSumEmpireSpiderlingDroid3|buffSumEmpireSpiderlingDroid4|buffSumEmpireSpiderlingDroid5|buffSumEmpireSpiderlingDroid6|buffSumEmpireSpiderlingDroid7|buffSumEmpireSpiderlingDroid8|buffSumEmpireSpiderlingDroid9|buffSumEmpireSpiderlingDroid10|
+|Sum empire spiderling droid details   |sumEmpireSpiderlingDroid1    |sumEmpireSpiderlingDroid2    |sumEmpireSpiderlingDroid3    |sumEmpireSpiderlingDroid4    |sumEmpireSpiderlingDroid5    |sumEmpireSpiderlingDroid6    |sumEmpireSpiderlingDroid7    |sumEmpireSpiderlingDroid8    |sumEmpireSpiderlingDroid9    |sumEmpireSpiderlingDroid10    |
+|Sum empire spiderling droid summon uid|sumEmpireSpiderlingDroid1    |sumEmpireSpiderlingDroid2    |sumEmpireSpiderlingDroid3    |sumEmpireSpiderlingDroid4    |sumEmpireSpiderlingDroid5    |sumEmpireSpiderlingDroid6    |sumEmpireSpiderlingDroid7    |sumEmpireSpiderlingDroid8    |sumEmpireSpiderlingDroid9    |sumEmpireSpiderlingDroid10    |
 
 
 ## Presentation stats
@@ -227,12 +225,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: No
 
-|Level                      |3          |8          |2          |1             |4          |5          |6          |9          |10         |7          |
-|---------------------------|-----------|-----------|-----------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|6675       |8560       |6295       |5920          |7050       |7430       |7805       |8935       |9315       |8185       |
-|Icon unlock position       |(not found)|(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |(not found)|(not found)|(not found)|0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |(not found)|(not found)|(not found)|0.75,0.75,0.75|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1             |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|5920          |6295       |6675       |7050       |7430       |7805       |8185       |8560       |8935       |9315       |
+|Icon unlock position       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |0.75,0.75,0.75|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -260,8 +258,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|3     |8     |2     |1     |4     |5     |6     |9     |10    |7     |
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|125603|125608|125602|125601|125604|125605|125606|125609|125610|125607|
+|Order|125601|125602|125603|125604|125605|125606|125607|125608|125609|125610|
 
 

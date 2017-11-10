@@ -21,26 +21,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 6
   * Type: mercenary
 
-|Level |5    |7    |9    |2    |1    |4    |10   |3    |6    |8    |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|42960|45520|48080|41040|40400|42320|50000|41680|43600|46800|
+|Health|40400|41040|41680|42320|42960|43600|45520|46800|48080|50000|
 
 
 ### Training stats
 
-|Level        |5                                     |7                                     |9                                     |2                                     |1                                       |4                                     |10                                     |3                                     |6                                     |8                                     |
-|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------------------|--------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|Training time|7m41s                                 |8m39s                                 |9m37s                                 |6m14s                                 |5m45s                                   |7m12s                                 |10m                                    |6m43s                                 |8m10s                                 |9m8s                                  |
-|Training cost|95 Con.                               |190 Con.                              |360 Con.                              |25 Con.                               |15 Con.                                 |85 Con.                               |720 Con.                               |50 Con.                               |145 Con.                              |265 Con.                              |
-|Building     |[Research Lab 5](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Cantina 1](rebelContrabandCantina.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|
+|Level   |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
+|--------|----------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
+|Building|[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |5         |7         |9          |2        |1      |4         |10         |3         |6         |8          |
-|--------------------|----------|----------|-----------|---------|-------|----------|-----------|----------|----------|-----------|
-|Upgrade time        |1w        |1w2d      |1w4d       |4d       |0s     |6d        |1w5d       |5d        |1w1d      |1w3d       |
-|Upgrade requirements|50000 Con.|85000 Con.|140000 Con.|6000 Con.|Nothing|25000 Con.|190000 Con.|13000 Con.|75000 Con.|135000 Con.|
+|Level               |1      |2        |3         |4         |5         |6         |7         |8          |9          |10         |
+|--------------------|-------|---------|----------|----------|----------|----------|----------|-----------|-----------|-----------|
+|Upgrade time        |0s     |4d       |5d        |6d        |1w        |1w1d      |1w2d      |1w3d       |1w4d       |1w5d       |
+|Upgrade requirements|Nothing|6000 Con.|13000 Con.|25000 Con.|50000 Con.|75000 Con.|85000 Con.|135000 Con.|140000 Con.|190000 Con.|
 
 
 ### Movement stats
@@ -111,17 +109,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 0s
   * Target locking: No
 
-|Level          |5   |7   |9   |2   |1   |4   |10  |3   |6   |8   |
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|1848|1976|2104|1752|1720|1816|2200|1784|1880|2040|
+|Damage per shot|1720|1752|1784|1816|1848|1880|1976|2040|2104|2200|
 
 
 ### Projectile
 
-|Level                       |5       |7       |9       |2       |1       |4       |10      |3       |6       |8       |
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2048    |2176    |2304    |1952    |1920    |2016    |2400    |1984    |2080    |2240    |
-|Calculated damage per second|2053.333|2195.556|2337.778|1946.667|1911.111|2017.778|2444.444|1982.222|2088.889|2266.667|
+|Displayed damage per second |1920    |1952    |1984    |2016    |2048    |2080    |2176    |2240    |2304    |2400    |
+|Calculated damage per second|1911.111|1946.667|1982.222|2017.778|2053.333|2088.889|2195.556|2266.667|2337.778|2444.444|
 
 
   * Cannons per sequence: 1
@@ -140,10 +138,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Death attack splash damage percentages: 100,100,100,100
 
-|Level                  |5      |7      |9       |2      |1      |4      |10      |3   |6      |8      |
-|-----------------------|-------|-------|--------|-------|-------|-------|--------|----|-------|-------|
-|Death projectile damage|2750   |3250   |3750    |2000   |1750   |2500   |4000    |2250|3000   |3500   |
-|Death attack DPS       |763.889|902.778|1041.667|555.556|486.111|694.444|1111.111|625 |833.333|972.222|
+|Level                  |1      |2      |3   |4      |5      |6      |7      |8      |9       |10      |
+|-----------------------|-------|-------|----|-------|-------|-------|-------|-------|--------|--------|
+|Death projectile damage|1750   |2000   |2250|2500   |2750   |3000   |3250   |3500   |3750    |4000    |
+|Death attack DPS       |486.111|555.556|625 |694.444|763.889|833.333|902.778|972.222|1041.667|1111.111|
 
 
   * Death attack cannons per sequence: 1
@@ -195,9 +193,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 2
   * Targeted type: ENEMIES
 
-|Level                      |5   |7   |9   |2   |1   |4   |10  |3   |6   |8   |
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2048|2176|2304|1952|1920|2016|2400|1984|2080|2240|
+|Displayed damage per second|1920|1952|1984|2016|2048|2080|2176|2240|2304|2400|
 
 
 ## Uninterpreted stats
@@ -219,9 +217,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |5     |7     |9     |2     |1     |4     |10    |3     |6     |8     |
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |215105|215107|215109|215102|215101|215104|215110|215103|215106|215108|
-|Point value|7.200 |8.800 |10.400|4.800 |4     |6.400 |12    |5.600 |8     |9.600 |
+|Order      |215101|215102|215103|215104|215105|215106|215107|215108|215109|215110|
+|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
 
 

@@ -21,26 +21,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 12
   * Type: mercenary
 
-|Level |4    |10   |6    |8    |5    |3    |1    |9    |7    |2    |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|31752|45360|36288|40824|34020|29484|24948|43092|38556|27216|
+|Health|24948|27216|29484|31752|34020|36288|38556|40824|43092|45360|
 
 
 ### Training stats
 
-|Level        |4                                      |10                                      |6                                      |8                                      |5                                      |3                                      |1                                        |9                                      |7                                      |2                                      |
-|-------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-|Training time|11m                                    |15m                                     |12m30s                                 |13m30s                                 |11m30s                                 |10m                                    |8m30s                                    |14m30s                                 |13m                                    |9m30s                                  |
-|Training cost|125 Con.                               |900 Con.                                |200 Con.                               |400 Con.                               |150 Con.                               |70 Con.                                |24 Con.                                  |550 Con.                               |275 Con.                               |35 Con.                                |
-|Building     |[Research Lab 4](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Cantina 7](empireContrabandCantina.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|
+|Level   |1                                        |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|--------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Building|[Cantina 7](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |4         |10         |6          |8          |5         |3         |1      |9          |7          |2         |
-|--------------------|----------|-----------|-----------|-----------|----------|----------|-------|-----------|-----------|----------|
-|Upgrade time        |6d        |1w5d       |1w1d       |1w3d       |1w        |5d        |0s     |1w4d       |1w2d       |4d        |
-|Upgrade requirements|50000 Con.|285000 Con.|190000 Con.|270000 Con.|99000 Con.|25000 Con.|Nothing|280000 Con.|250000 Con.|12000 Con.|
+|Level               |1      |2         |3         |4         |5         |6          |7          |8          |9          |10         |
+|--------------------|-------|----------|----------|----------|----------|-----------|-----------|-----------|-----------|-----------|
+|Upgrade time        |0s     |4d        |5d        |6d        |1w        |1w1d       |1w2d       |1w3d       |1w4d       |1w5d       |
+|Upgrade requirements|Nothing|12000 Con.|25000 Con.|50000 Con.|99000 Con.|190000 Con.|250000 Con.|270000 Con.|280000 Con.|285000 Con.|
 
 
 ### Movement stats
@@ -81,17 +79,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 1.040s
   * Target locking: No
 
-|Level          |4   |10  |6   |8   |5   |3   |1   |9   |7   |2   |
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3520|3760|3600|3680|3560|3480|3400|3720|3640|3440|
+|Damage per shot|3400|3440|3480|3520|3560|3600|3640|3680|3720|3760|
 
 
 ### Projectile
 
-|Level                       |4   |10  |6   |8   |5   |3   |1   |9   |7   |2   |
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2200|2350|2250|2300|2225|2175|2125|2325|2275|2150|
-|Calculated damage per second|7040|7520|7200|7360|7120|6960|6800|7440|7280|6880|
+|Displayed damage per second |2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
+|Calculated damage per second|6800|6880|6960|7040|7120|7200|7280|7360|7440|7520|
 
 
   * Cannons per sequence: 1
@@ -136,16 +134,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 790ms
   * Secondary attack target locking: No
 
-|Level                           |4   |10  |6   |8   |5   |3   |1   |9   |7   |2   |
+|Level                           |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack damage per shot|4400|4700|4500|4600|4450|4350|4250|4650|4550|4300|
+|Secondary attack damage per shot|4250|4300|4350|4400|4450|4500|4550|4600|4650|4700|
 
 
   * Secondary attack shot splash damage percentages: 100,90,75,25
 
-|Level                    |4      |10     |6      |8      |5      |3      |1      |9      |7      |2      |
+|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack shot DPS|530.120|566.265|542.169|554.217|536.145|524.096|512.048|560.241|548.193|518.072|
+|Secondary attack shot DPS|512.048|518.072|524.096|530.120|536.145|542.169|548.193|554.217|560.241|566.265|
 
 
   * Secondary attack shot cannons per sequence: 1
@@ -163,10 +161,10 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: EmpireBrute
 
-|Level                           |4                   |10                   |6                   |8                   |5                   |3                   |1                   |9                   |7                   |2                   |
-|--------------------------------|--------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-|Ability                         |abilityBruteBomb4   |abilityBruteBomb10   |abilityBruteBomb6   |abilityBruteBomb8   |abilityBruteBomb5   |abilityBruteBomb3   |abilityBruteBomb1   |abilityBruteBomb9   |abilityBruteBomb7   |abilityBruteBomb2   |
-|Secondary attack projectile type|projectileBruteBomb4|projectileBruteBomb10|projectileBruteBomb6|projectileBruteBomb8|projectileBruteBomb5|projectileBruteBomb3|projectileBruteBomb1|projectileBruteBomb9|projectileBruteBomb7|projectileBruteBomb2|
+|Level                           |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|--------------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|Ability                         |abilityBruteBomb1   |abilityBruteBomb2   |abilityBruteBomb3   |abilityBruteBomb4   |abilityBruteBomb5   |abilityBruteBomb6   |abilityBruteBomb7   |abilityBruteBomb8   |abilityBruteBomb9   |abilityBruteBomb10   |
+|Secondary attack projectile type|projectileBruteBomb1|projectileBruteBomb2|projectileBruteBomb3|projectileBruteBomb4|projectileBruteBomb5|projectileBruteBomb6|projectileBruteBomb7|projectileBruteBomb8|projectileBruteBomb9|projectileBruteBomb10|
 
 
 ## Presentation stats
@@ -214,9 +212,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Tooltip height offset: 1.5
 
-|Level                      |4   |10  |6   |8   |5   |3   |1   |9   |7   |2   |
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2200|2350|2250|2300|2225|2175|2125|2325|2275|2150|
+|Displayed damage per second|2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
 
 
 ## Uninterpreted stats
@@ -241,9 +239,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |4     |10    |6     |8     |5     |3     |1     |9     |7     |2     |
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |115404|115410|115406|115408|115405|115403|115401|115409|115407|115402|
-|Point value|19    |36    |24    |29    |22    |17    |12    |31    |26    |14    |
+|Order      |115401|115402|115403|115404|115405|115406|115407|115408|115409|115410|
+|Point value|12    |14    |17    |19    |22    |24    |26    |29    |31    |36    |
 
 

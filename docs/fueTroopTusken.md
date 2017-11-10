@@ -24,8 +24,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training time: 21s
-  * Training cost: 100$
 
 ### Upgrading stats
 

@@ -21,26 +21,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: infantry
 
-|Level |9   |2   |5   |8   |6   |10  |4   |1   |3   |7   |
+|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|7025|3500|4850|6475|5400|8100|4325|2925|3775|5950|
+|Health|2925|3500|3775|4325|4850|5400|5950|6475|7025|8100|
 
 
 ### Training stats
 
-|Level        |9                                      |2                                      |5                                      |8                                      |6                                      |10                                      |4                                      |1                                |3                                      |7                                      |
-|-------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------|---------------------------------------|---------------------------------------|
-|Training time|29s                                    |22s                                    |25s                                    |28s                                    |26s                                    |30s                                     |24s                                    |20s                              |23s                                    |27s                                    |
-|Training cost|210$                                   |70$                                    |130$                                   |200$                                   |150$                                   |230$                                    |110$                                   |50$                              |90$                                    |170$                                   |
-|Building     |[Research Lab 9](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Barracks 1](empireBarracks.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|
+|Level   |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|--------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Building|[Barracks 1](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
 ### Upgrading stats
 
-|Level               |9       |2    |5     |8      |6      |10      |4     |1   |3    |7      |
-|--------------------|--------|-----|------|-------|-------|--------|------|----|-----|-------|
-|Upgrade time        |5d      |15m  |8h    |3d12h  |1d     |1w1d    |3h30m |0s  |1h   |2d     |
-|Upgrade requirements|1000000$|1500$|25000$|320000$|100000$|1750000$|12500$|600$|4000$|160000$|
+|Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s  |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
+|Upgrade requirements|600$|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
 
 
 ### Movement stats
@@ -81,17 +79,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |9  |2  |5  |8  |6  |10 |4  |1  |3  |7  |
+|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|760|380|530|700|590|880|470|320|410|640|
+|Damage per shot|320|380|410|470|530|590|640|700|760|880|
 
 
 ### Projectile
 
-|Level                       |9       |2       |5       |8   |6       |10      |4       |1       |3       |7       |
-|----------------------------|--------|--------|--------|----|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |2896    |1448    |2004    |2672|2228    |3340    |1780    |1208    |1560    |2448    |
-|Calculated damage per second|2714.286|1357.143|1892.857|2500|2107.143|3142.857|1678.571|1142.857|1464.286|2285.714|
+|Level                       |1       |2       |3       |4       |5       |6       |7       |8   |9       |10      |
+|----------------------------|--------|--------|--------|--------|--------|--------|--------|----|--------|--------|
+|Displayed damage per second |1208    |1448    |1560    |1780    |2004    |2228    |2448    |2672|2896    |3340    |
+|Calculated damage per second|1142.857|1357.143|1464.286|1678.571|1892.857|2107.143|2285.714|2500|2714.286|3142.857|
 
 
   * Cannons per sequence: 1
@@ -137,9 +135,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |9   |2   |5   |8   |6   |10  |4   |1   |3   |7   |
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2896|1448|2004|2672|2228|3340|1780|1208|1560|2448|
+|Displayed damage per second|1208|1448|1560|1780|2004|2228|2448|2672|2896|3340|
 
 
 ## Uninterpreted stats
@@ -158,8 +156,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|9     |2     |5     |8     |6     |10    |4     |1     |3     |7     |
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|300088|300081|300084|300087|300085|300089|300083|300080|300082|300086|
+|Order|300080|300081|300082|300083|300084|300085|300086|300087|300088|300089|
 
 

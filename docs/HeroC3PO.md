@@ -21,15 +21,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |10    |9     |4     |7     |8     |2     |3     |6     |5     |1     |
+|Level |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |------|------|------|------|------|------|------|------|------|------|------|
-|Health|314500|290667|171500|243000|266833|123833|147667|219167|195333|100000|
+|Health|100000|123833|147667|171500|195333|219167|243000|266833|290667|314500|
 
 
 ### Training stats
 
-  * Training time: 0s
-  * Training cost: Free
 
 ### Upgrading stats
 
@@ -97,9 +95,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroC3PO
 
-|Level    |10    |9    |4    |7    |8    |2    |3    |6    |5    |1    |
-|---------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Hero data|hero10|hero9|hero4|hero7|hero8|hero2|hero3|hero6|hero5|hero1|
+|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
 
 
 ## Presentation stats
@@ -141,8 +139,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10|9 |4 |7 |8 |2|3 |6 |5 |1|
-|-----------|--|--|--|--|--|-|--|--|--|-|
-|Point value|21|18|11|15|17|8|10|14|13|7|
+|Level      |1|2|3 |4 |5 |6 |7 |8 |9 |10|
+|-----------|-|-|--|--|--|--|--|--|--|--|
+|Point value|7|8|10|11|13|14|15|17|18|21|
 
 

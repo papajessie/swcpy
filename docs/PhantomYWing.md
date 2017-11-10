@@ -22,8 +22,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training time: 1s
-  * Training cost: 1$
 
 ### Upgrading stats
 
@@ -115,9 +113,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum Y wing target: enemies
   * Sum Y wing value: 1
 
-|Level                     |1                                  |9, 8                               |6, 7                               |4                                  |2                                  |5                                  |3                                  |10                                  |
-|--------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|Sum Y wing summon visitors|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 9](YWing.html)|[Y-wing Bomber level 8](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 10](YWing.html)|
+|Level                     |1, 2, 3                            |4, 5                               |6, 7                               |8, 9                               |10                                  |
+|--------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
+|Sum Y wing summon visitors|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 8](YWing.html)|[Y-wing Bomber level 9](YWing.html)|[Y-wing Bomber level 10](YWing.html)|
 
 
   * Sum Y wing summon die with summoner: No
@@ -134,11 +132,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomYWing
 
-|Level                |1            |9            |8            |6            |7            |4            |2            |5            |3            |10            |
+|Level                |1            |2            |3            |4            |5            |6            |7            |8            |9            |10            |
 |---------------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|--------------|
-|Apply buffs          |buffSumYWing1|buffSumYWing9|buffSumYWing8|buffSumYWing6|buffSumYWing7|buffSumYWing4|buffSumYWing2|buffSumYWing5|buffSumYWing3|buffSumYWing10|
-|Sum Y wing details   |sumYWing1    |sumYWing9    |sumYWing8    |sumYWing6    |sumYWing7    |sumYWing4    |sumYWing2    |sumYWing5    |sumYWing3    |sumYWing10    |
-|Sum Y wing summon uid|sumYWing1    |sumYWing9    |sumYWing8    |sumYWing6    |sumYWing7    |sumYWing4    |sumYWing2    |sumYWing5    |sumYWing3    |sumYWing10    |
+|Apply buffs          |buffSumYWing1|buffSumYWing2|buffSumYWing3|buffSumYWing4|buffSumYWing5|buffSumYWing6|buffSumYWing7|buffSumYWing8|buffSumYWing9|buffSumYWing10|
+|Sum Y wing details   |sumYWing1    |sumYWing2    |sumYWing3    |sumYWing4    |sumYWing5    |sumYWing6    |sumYWing7    |sumYWing8    |sumYWing9    |sumYWing10    |
+|Sum Y wing summon uid|sumYWing1    |sumYWing2    |sumYWing3    |sumYWing4    |sumYWing5    |sumYWing6    |sumYWing7    |sumYWing8    |sumYWing9    |sumYWing10    |
 
 
 ## Presentation stats
@@ -183,8 +181,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |9     |8     |6     |7     |4     |2     |5     |3     |10    |
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400500|400508|400507|400505|400506|400503|400501|400504|400502|400509|
+|Order|400500|400501|400502|400503|400504|400505|400506|400507|400508|400509|
 
 

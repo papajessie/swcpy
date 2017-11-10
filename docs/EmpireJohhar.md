@@ -22,18 +22,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Type: hero
   * Unlock planet: Unlock on Er'kit
 
-|Level |8    |1    |2    |7    |10   |6    |3    |5    |4    |9    |
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|22560|16000|16790|21460|24950|20420|17630|19440|18510|23720|
+|Health|16000|16790|17630|18510|19440|20420|21460|22560|23720|24950|
 
 
 ### Training stats
 
-|Level        |8                                      |1                                           |2                                      |7                                      |10                                      |6                                      |3                                      |5                                      |4                                      |9                                      |
-|-------------|---------------------------------------|--------------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-|Training time|4m40s                                  |3m30s                                       |3m40s                                  |4m30s                                  |5m                                      |4m20s                                  |3m50s                                  |4m10s                                  |4m                                     |4m50s                                  |
-|Training cost|4000$                                  |1000$                                       |1400$                                  |3400$                                  |4600$                                   |3000$                                  |1800$                                  |2600$                                  |2200$                                  |4200$                                  |
-|Building     |[Research Lab 8](empireOffenseLab.html)|[Hero Command 1](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|
+|Level   |1                                           |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
+|--------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+|Building|[Hero Command 1](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -79,19 +77,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |8   |1   |2   |7   |10  |6   |3   |5   |4   |9   |
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|5760|3900|4130|5380|6590|5030|4360|4800|4580|6160|
+|Damage per shot|3900|4130|4360|4580|4800|5030|5380|5760|6160|6590|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |8       |1   |2       |7       |10      |6       |3       |5       |4       |9       |
-|----------------------------|--------|----|--------|--------|--------|--------|--------|--------|--------|--------|
-|Displayed damage per second |4800    |2000|2400    |4400    |6000    |4000    |2800    |3599    |3200    |5200    |
-|Calculated damage per second|5316.923|3600|3812.308|4966.154|6083.077|4643.077|4024.615|4430.769|4227.692|5686.154|
+|Level                       |1   |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|----------------------------|----|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Displayed damage per second |2000|2400    |2800    |3200    |3599    |4000    |4400    |4800    |5200    |6000    |
+|Calculated damage per second|3600|3812.308|4024.615|4227.692|4430.769|4643.077|4966.154|5316.923|5686.154|6083.077|
 
 
   * Cannons per sequence: 1
@@ -136,14 +134,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 1ms
   * Secondary attack target locking: No
 
-|Level                           |8    |1    |2    |7    |10   |6    |3    |5    |4    |9    |
+|Level                           |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |--------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Secondary attack damage per shot|19750|13500|14100|18370|22820|17090|14700|15900|15300|21230|
+|Secondary attack damage per shot|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
 
-|Level                    |8      |1      |2      |7      |10     |6      |3      |5      |4      |9      |
+|Level                    |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
 |-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|Secondary attack shot DPS|405.544|277.207|289.528|377.207|468.583|350.924|301.848|326.489|314.168|435.934|
+|Secondary attack shot DPS|277.207|289.528|301.848|314.168|326.489|350.924|377.207|405.544|435.934|468.583|
 
 
   * Secondary attack shot cannons per sequence: 1
@@ -165,10 +163,10 @@ These stats internal to the system link different parts of data together.
   * Unit ID: EmpireJohhar
   * Upgrade shard uid: shrd_troopEmpireJohhar
 
-|Level    |8                    |1                    |2                    |7                    |10                    |6                    |3                    |5                    |4                    |9                    |
-|---------|---------------------|---------------------|---------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Ability  |abilityRailGun8Empire|abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun7Empire|abilityRailGun10Empire|abilityRailGun6Empire|abilityRailGun3Empire|abilityRailGun5Empire|abilityRailGun4Empire|abilityRailGun9Empire|
-|Hero data|hero8                |hero1                |hero2                |hero7                |hero10                |hero6                |hero3                |hero5                |hero4                |hero9                |
+|Level    |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
+|---------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|Ability  |abilityRailGun1Empire|abilityRailGun2Empire|abilityRailGun3Empire|abilityRailGun4Empire|abilityRailGun5Empire|abilityRailGun6Empire|abilityRailGun7Empire|abilityRailGun8Empire|abilityRailGun9Empire|abilityRailGun10Empire|
+|Hero data|hero1                |hero2                |hero3                |hero4                |hero5                |hero6                |hero7                |hero8                |hero9                |hero10                |
 
 
 ## Presentation stats
@@ -223,12 +221,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
 
-|Level                      |8          |1    |2          |7          |10         |6          |3          |5          |4          |9          |
-|---------------------------|-----------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|4800       |2000 |2400       |4400       |6000       |4000       |2800       |3599       |3200       |5200       |
-|Icon unlock position       |(not found)|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |(not found)|0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |(not found)|1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|2000 |2400       |2800       |3200       |3599       |4000       |4400       |4800       |5200       |6000       |
+|Icon unlock position       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -253,9 +251,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |8     |1     |2     |7     |10    |6     |3     |5     |4     |9     |
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |111108|111101|111102|111107|111110|111106|111103|111105|111104|111109|
-|Point value|48    |20    |24    |44    |60    |40    |28    |36    |32    |52    |
+|Order      |111101|111102|111103|111104|111105|111106|111107|111108|111109|111110|
+|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 
