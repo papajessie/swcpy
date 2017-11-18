@@ -99,10 +99,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Storage, Support troop, Trap, Turret, Vehicule hero, **(50)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Wall, **(25)**: Shield, Shield generator
   * Pass through shield: No
 
-|Level   |1, 2, 3, 4, 5, 6, 7, 8, 9|10    |
-|--------|-------------------------|------|
-|Cliptime|1.500s                   |3.250s|
-|Salvos  |1                        |3     |
+|Level   |1-9   |10    |
+|--------|------|------|
+|Cliptime|1.500s|3.250s|
+|Salvos  |1     |3     |
 
 
 ## Internal stats
@@ -139,9 +139,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2, 3|4  |5  |6  |7  |8  |9  |10 |
-|---------------------------|---|----|---|---|---|---|---|---|---|
-|Displayed damage per second|280|336 |384|432|480|528|576|624|720|
+|Level                      |1  |2-3|4  |5  |6  |7  |8  |9  |10 |
+|---------------------------|---|---|---|---|---|---|---|---|---|
+|Displayed damage per second|280|336|384|432|480|528|576|624|720|
 
 
 ## Uninterpreted stats

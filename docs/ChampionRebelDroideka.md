@@ -53,9 +53,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1                                                         |2, 3, 4, 5                    |6, 7, 8, 9, 10                |11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30|31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50|
-|--------|----------------------------------------------------------|------------------------------|------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-|Building|[Droideka Sentinel Platform 1](rebelPlatformDroideka.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)                                                |[Headquarters 9](rebelHQ.html)                                                |
+|Level   |1                                                         |2-5                           |6-10                          |11-30                         |31-50                         |
+|--------|----------------------------------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Building|[Droideka Sentinel Platform 1](rebelPlatformDroideka.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -174,9 +174,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
 
-|Level               |1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39|40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50|
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-|Cannons per sequence|4                                                                                                                                                |6                                         |
+|Level               |1-39|40-50|
+|--------------------|----|-----|
+|Cannons per sequence|4   |6    |
 
 
 ## Internal stats

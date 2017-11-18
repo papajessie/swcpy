@@ -99,10 +99,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage multipliers: **(250)**: Shield generator, **(175)**: Shield, **(150)**: Wall, **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Storage, Support troop, Trap, Turret, Vehicule hero
   * Pass through shield: No
 
-|Level   |1, 2, 3, 4, 5, 6, 7, 8, 9|10    |
-|--------|-------------------------|------|
-|Cliptime|1.400s                   |3.400s|
-|Salvos  |5                        |10    |
+|Level   |1-9   |10    |
+|--------|------|------|
+|Cliptime|1.400s|3.400s|
+|Salvos  |5     |10    |
 
 
 ## Internal stats

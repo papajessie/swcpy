@@ -113,7 +113,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie fighter target: enemies
   * Sum tie fighter value: 1
 
-|Level                          |1, 2, 3                               |4, 5                                  |6, 7                                  |8, 9                                  |10                                     |
+|Level                          |1-3                                   |4-5                                   |6-7                                   |8-9                                   |10                                     |
 |-------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Sum tie fighter summon visitors|[TIE fighter level 6](TieFighter.html)|[TIE fighter level 7](TieFighter.html)|[TIE fighter level 8](TieFighter.html)|[TIE fighter level 9](TieFighter.html)|[TIE fighter level 10](TieFighter.html)|
 

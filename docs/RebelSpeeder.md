@@ -51,10 +51,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level       |1, 2, 3, 4, 5, 6|7, 8, 9, 10|
-|------------|----------------|-----------|
-|Acceleration|0               |8          |
-|Max speed   |40              |80         |
+|Level       |1-6|7-10|
+|------------|---|----|
+|Acceleration|0  |8   |
+|Max speed   |40 |80  |
 
 
 ## Main attack : T7-V Speederbike / Rebel Speeder Bike Upgrade
@@ -103,7 +103,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
 
-|Level             |1, 2, 3, 4, 5, 6                                                                                                                                                                                                                                                                                                                                       |7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                     |
+|Level             |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Cliptime          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |
 |Damage multipliers|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|

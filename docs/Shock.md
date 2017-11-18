@@ -50,9 +50,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level                            |1 |2, 3, 4, 5, 6, 7, 8, 9, 10|
-|---------------------------------|--|--------------------------|
-|Propensity to go around obstacles|15|200                       |
+|Level                            |1 |2-10|
+|---------------------------------|--|----|
+|Propensity to go around obstacles|15|200 |
 
 
 ## Main attack : Shock Rocket

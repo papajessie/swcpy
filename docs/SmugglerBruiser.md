@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1, 2                               |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
+|Level   |1-2                                |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
 |--------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
 |Building|[Barracks 2](smugglerBarracks.html)|[Barracks 3](smugglerBarracks.html)|[Barracks 4](smugglerBarracks.html)|[Barracks 5](smugglerBarracks.html)|[Barracks 6](smugglerBarracks.html)|[Barracks 7](smugglerBarracks.html)|[Barracks 8](smugglerBarracks.html)|[Barracks 9](smugglerBarracks.html)|[Barracks 10](smugglerBarracks.html)|
 
@@ -64,7 +64,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 12
 
-|Level             |1, 2, 3, 4                                                                                                                                                                                                                                                                                                                                                                                               |5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                            |
+|Level             |1-4                                                                                                                                                                                                                                                                                                                                                                                                      |5-10                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Max attack range  |7                                                                                                                                                                                                                                                                                                                                                                                                        |5                                                                                                                                                                                                                                                                                                                                                                                                            |
 |Target preferences|**Turret (70)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Support troop (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)|**Turret (70)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Support troop (50), Vehicule hero (50), Headquarters (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Wall (1), Trap (0)|
@@ -104,10 +104,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage multipliers: **(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero
   * Pass through shield: No
 
-|Level   |1, 2, 3, 4|5, 6, 7, 8, 9, 10|
-|--------|----------|-----------------|
-|Cliptime|2.250s    |1.750s           |
-|Salvos  |2         |1                |
+|Level   |1-4   |5-10  |
+|--------|------|------|
+|Cliptime|2.250s|1.750s|
+|Salvos  |2     |1     |
 
 
 ## Internal stats

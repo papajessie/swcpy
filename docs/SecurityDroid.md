@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1                                        |2                                      |3, 4, 5                                |
+|Level   |1                                        |2                                      |3-5                                    |
 |--------|-----------------------------------------|---------------------------------------|---------------------------------------|
 |Building|[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
 

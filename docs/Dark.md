@@ -79,17 +79,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2, 3|4  |5  |6  |7  |8  |9  |10 |
-|---------------|---|----|---|---|---|---|---|---|---|
-|Damage per shot|304|364 |416|468|520|572|624|676|780|
+|Level          |1  |2-3|4  |5  |6  |7  |8  |9  |10 |
+|---------------|---|---|---|---|---|---|---|---|---|
+|Damage per shot|304|364|416|468|520|572|624|676|780|
 
 
 ### Projectile
 
-|Level                       |1  |2, 3|4  |5  |6  |7  |8  |9  |10 |
-|----------------------------|---|----|---|---|---|---|---|---|---|
-|Displayed damage per second |280|336 |384|432|480|528|576|624|720|
-|Calculated damage per second|280|336 |384|432|480|528|576|624|720|
+|Level                       |1  |2-3|4  |5  |6  |7  |8  |9  |10 |
+|----------------------------|---|---|---|---|---|---|---|---|---|
+|Displayed damage per second |280|336|384|432|480|528|576|624|720|
+|Calculated damage per second|280|336|384|432|480|528|576|624|720|
 
 
   * Cannons per sequence: 1
@@ -137,9 +137,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2, 3|4  |5  |6  |7  |8  |9  |10 |
-|---------------------------|---|----|---|---|---|---|---|---|---|
-|Displayed damage per second|280|336 |384|432|480|528|576|624|720|
+|Level                      |1  |2-3|4  |5  |6  |7  |8  |9  |10 |
+|---------------------------|---|---|---|---|---|---|---|---|---|
+|Displayed damage per second|280|336|384|432|480|528|576|624|720|
 
 
 ## Uninterpreted stats

@@ -113,7 +113,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum Y wing target: enemies
   * Sum Y wing value: 1
 
-|Level                     |1, 2, 3                            |4, 5                               |6, 7                               |8, 9                               |10                                  |
+|Level                     |1-3                                |4-5                                |6-7                                |8-9                                |10                                  |
 |--------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
 |Sum Y wing summon visitors|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 8](YWing.html)|[Y-wing Bomber level 9](YWing.html)|[Y-wing Bomber level 10](YWing.html)|
 

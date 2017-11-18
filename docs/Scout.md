@@ -52,9 +52,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level    |1 |2, 3, 4, 5, 6, 7, 8, 9, 10|
-|---------|--|--------------------------|
-|Max speed|30|40                        |
+|Level    |1 |2-10|
+|---------|--|----|
+|Max speed|30|40  |
 
 
 ## Main attack : Scout

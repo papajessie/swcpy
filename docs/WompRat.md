@@ -49,9 +49,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level    |1, 2|3 |4, 5, 6, 7, 8, 9, 10|
-|---------|----|--|--------------------|
-|Max speed|40  |50|40                  |
+|Level    |1-2|3 |4-10|
+|---------|---|--|----|
+|Max speed|40 |50|40  |
 
 
 ## Main attack : WompRat
@@ -65,7 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * View range: 12
 
-|Level             |1                                                                                                                                                                                                                                                                                                                                                                                                      |2, 3, 4, 5, 6, 7, 8, 9, 10                                                                                                                                                                                                                                                                                                                                                                                |
+|Level             |1                                                                                                                                                                                                                                                                                                                                                                                                      |2-10                                                                                                                                                                                                                                                                                                                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Target preferences|**Turret (80)**, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|**Support troop (100)**, _Turret (80)_, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)|
 

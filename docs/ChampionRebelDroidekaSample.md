@@ -94,9 +94,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 4
 
-|Level               |1, 2, 3, 4, 5, 6, 7|8, 9, 10|
-|--------------------|-------------------|--------|
-|Cannons per sequence|4                  |6       |
+|Level               |1-7|8-10|
+|--------------------|---|----|
+|Cannons per sequence|4  |6   |
 
 
 ## Internal stats
@@ -155,8 +155,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1 |2 |3 |4  |5  |6  |7  |8, 9, 10|
-|-----------|--|--|--|---|---|---|---|--------|
-|Point value|40|68|88|108|128|148|172|200     |
+|Level      |1 |2 |3 |4  |5  |6  |7  |8-10|
+|-----------|--|--|--|---|---|---|---|----|
+|Point value|40|68|88|108|128|148|172|200 |
 
 

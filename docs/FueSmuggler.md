@@ -45,9 +45,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level    |1, 2|3 |
-|---------|----|--|
-|Max speed|30  |20|
+|Level    |1-2|3 |
+|---------|---|--|
+|Max speed|30 |20|
 
 
 ## Main attack : BountyHunter / Smuggler
@@ -61,9 +61,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Target preference strength: 90
   * Target preferences: **Turret (55)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
 
-|Level     |1, 2|3|
-|----------|----|-|
-|View range|20  |8|
+|Level     |1-2|3|
+|----------|---|-|
+|View range|20 |8|
 
 
 ### Shooting

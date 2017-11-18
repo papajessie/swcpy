@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 5
   * Type: infantry
 
-|Level |1, 2, 3, 4, 5, 6, 7|8   |9    |10   |
-|------|-------------------|----|-----|-----|
-|Health|8800               |9600|10400|12000|
+|Level |1-7 |8   |9    |10   |
+|------|----|----|-----|-----|
+|Health|8800|9600|10400|12000|
 
 
 ### Training stats
@@ -76,9 +76,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 100ms
   * Target locking: No
 
-|Level          |1, 2, 3, 4, 5, 6, 7|8  |9  |10 |
-|---------------|-------------------|---|---|---|
-|Damage per shot|487                |531|575|663|
+|Level          |1-7|8  |9  |10 |
+|---------------|---|---|---|---|
+|Damage per shot|487|531|575|663|
 
 
 ### Projectile

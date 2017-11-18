@@ -113,7 +113,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber target: enemies
   * Sum tie bomber value: 1
 
-|Level                         |1, 2, 3                             |4, 5                                |6, 7                                |8, 9                                |10                                   |
+|Level                         |1-3                                 |4-5                                 |6-7                                 |8-9                                 |10                                   |
 |------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|
 |Sum tie bomber summon visitors|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|
 

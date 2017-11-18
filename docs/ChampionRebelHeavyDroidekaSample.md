@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1, 2, 3, 4                    |5, 6, 7, 8, 9, 10              |
+|Level   |1-4                           |5-10                           |
 |--------|------------------------------|-------------------------------|
 |Building|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 

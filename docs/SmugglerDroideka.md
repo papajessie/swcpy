@@ -20,15 +20,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: champion
 
-|Level        |1, 2, 3, 4, 5|6    |7    |8    |9    |10   |
-|-------------|-------------|-----|-----|-----|-----|-----|
-|Health       |16000        |19200|23680|36480|44160|48000|
-|Shield health|12000        |14400|17760|27360|33120|36000|
+|Level        |1-5  |6    |7    |8    |9    |10   |
+|-------------|-----|-----|-----|-----|-----|-----|
+|Health       |16000|19200|23680|36480|44160|48000|
+|Shield health|12000|14400|17760|27360|33120|36000|
 
 
 ### Training stats
 
-|Level   |1, 2, 3, 4, 5, 6                                                       |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
+|Level   |1-6                                                                    |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
 |--------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
 |Building|["bld_title_smugglerPlatformDroideka" 6](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 7](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 8](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 9](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 10](smugglerPlatformDroideka.html)|
 
@@ -76,17 +76,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time between shots: 200ms
   * Target locking: No
 
-|Level          |1, 2, 3, 4, 5|6  |7   |8   |9   |10  |
-|---------------|-------------|---|----|----|----|----|
-|Damage per shot|734          |440|1086|1673|2025|2200|
+|Level          |1-5|6  |7   |8   |9   |10  |
+|---------------|---|---|----|----|----|----|
+|Damage per shot|734|440|1086|1673|2025|2200|
 
 
 ### Projectile
 
-|Level                       |1, 2, 3, 4, 5|6   |7   |8   |9   |10  |
-|----------------------------|-------------|----|----|----|----|----|
-|Displayed damage per second |2202         |1320|3258|5019|6075|6600|
-|Calculated damage per second|3145         |1885|4654|7170|8678|9428|
+|Level                       |1-5 |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|
+|Displayed damage per second |2202|1320|3258|5019|6075|6600|
+|Calculated damage per second|3145|1885|4654|7170|8678|9428|
 
 
   * Cannons per sequence: 4
@@ -134,7 +134,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Tooltip height offset: 1.5
   * UI decal asset name: HeroDecalNeutral
 
-|Level                      |1, 2, 3, 4, 5                                                                                                                          |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
+|Level                      |1-5                                                                                                                                    |6                                                                                                                                      |7                                                                                                                                      |8                                                                                                                                      |9                                                                                                                                      |10                                                                                                                                     |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 |Audio attack               |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
 |Audio death                |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |

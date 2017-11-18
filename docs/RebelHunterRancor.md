@@ -124,10 +124,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1     |2, 3, 4, 5, 6, 7, 8, 9, 10|
-|---------------------------|------|--------------------------|
-|Displayed damage per second|3690  |2928                      |
-|Favorite target type       |turret|infantry                  |
+|Level                      |1     |2-10    |
+|---------------------------|------|--------|
+|Displayed damage per second|3690  |2928    |
+|Favorite target type       |turret|infantry|
 
 
 ## Uninterpreted stats
