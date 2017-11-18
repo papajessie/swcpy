@@ -2095,7 +2095,7 @@ def display_time(s,micro=False):
             if sec==0:
                 out+='{0}ms'.format(hsecs)
             else:
-                if hsecs>100:
+                if hsecs>=100:
                     out+='{0}.{1}s'.format(sec,hsecs)
                 elif hsecs>10:
                     out+='{0}.0{1}s'.format(sec,hsecs)
@@ -2402,6 +2402,44 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
             if new==old:
                 oldlev=newlevs[-1]
                 newlev=oldlev+', '+newlevel
+                # Let us simplify in the xx.yy case (level.sublevel)
+                if newlevel.find('.')==2 and len(newlevel)==5:
+                    oldlevarray=oldlev.split(', ')
+                    lastpiece=oldlevarray[-1]
+                    lastpiecearray=lastpiece.split('-')
+                    newnum=float(newlevel)
+                    newnewnum='{0:04.2f}'.format(newnum)
+                    oldupper=float(lastpiecearray[-1])
+                    if newnum-oldupper-0.01<0.001:
+                        if len(lastpiecearray)==2:
+                            lastpiecearray[1]=newnewnum
+                        else:
+                            lastpiecearray.append(newnewnum)
+                        oldlevarray[-1]='-'.join(lastpiecearray)
+                    else:
+                        oldlevarray.append(newnewnum)
+                    newlev=', '.join(oldlevarray)
+                # Let us simplify in the integer case (level is integer)
+                try:
+                    newlevelint=int(newlevel)
+                except ValueError:
+                    newlevelint=-1
+                if str(newlevelint)==newlevel:
+                    oldlevarray=oldlev.split(', ')
+                    lastpiece=oldlevarray[-1]
+                    lastpiecearray=lastpiece.split('-')
+                    newnum=int(newlevel)
+                    newnewnum=str(newnum)
+                    oldupper=int(lastpiecearray[-1])
+                    if newnum-oldupper==1:
+                        if len(lastpiecearray)==2:
+                            lastpiecearray[1]=newnewnum
+                        else:
+                            lastpiecearray.append(newnewnum)
+                        oldlevarray[-1]='-'.join(lastpiecearray)
+                    else:
+                        oldlevarray.append(newnewnum)
+                    newlev=', '.join(oldlevarray)
                 for key in variablevalues:
                     newdisp[key][newlev]=newdisp[key][oldlev]
                     del newdisp[key][oldlev]
