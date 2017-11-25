@@ -54,7 +54,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Calculated damage per salvo: 1
+  * Calculated damage per clip: 1
   * Splash damage percentages: 100,101
 
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |

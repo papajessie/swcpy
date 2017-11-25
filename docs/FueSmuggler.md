@@ -91,7 +91,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|----|
 |Displayed damage per second |46 |44 |400 |
 |Calculated damage per second|46 |44 |400 |
-|Calculated damage per salvo |150|100|1302|
+|Calculated damage per clip  |150|100|1302|
 
 
   * Directional: Yes
