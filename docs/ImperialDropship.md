@@ -14,18 +14,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Unit capacity: 7
 
-|Level         |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
-|--------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|Linked unit   |troopStormDropship1|troopStormDropship2|troopStormDropship3|troopStormDropship4|troopStormDropship5|troopStormDropship6|troopStormDropship7|troopStormDropship8|troopStormDropship9|troopStormDropship10|
-|Buildable unit|Yes                |Yes                |Yes                |Yes                |Yes                |Yes                |Yes                |Yes                |Yes                |Yes                 |
-|Unit count    |3                  |3                  |4                  |4                  |5                  |5                  |5                  |5                  |5                  |5                   |
+|Level                  |1                                           |2                                           |3                                           |4                                           |5                                           |6                                           |7                                           |8                                           |9                                           |10                                           |
+|-----------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|---------------------------------------------|
+|Buildable unit         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                          |
+|Special attack visitors|3×[Stormtrooper level 1](StormDropship.html)|3×[Stormtrooper level 2](StormDropship.html)|4×[Stormtrooper level 3](StormDropship.html)|4×[Stormtrooper level 4](StormDropship.html)|5×[Stormtrooper level 5](StormDropship.html)|5×[Stormtrooper level 6](StormDropship.html)|5×[Stormtrooper level 7](StormDropship.html)|5×[Stormtrooper level 8](StormDropship.html)|5×[Stormtrooper level 9](StormDropship.html)|5×[Stormtrooper level 10](StormDropship.html)|
 
 
-|Level         |11                  |
-|--------------|--------------------|
-|Linked unit   |troopStormDropship10|
-|Buildable unit|No                  |
-|Unit count    |5                   |
+|Level                  |11                                           |
+|-----------------------|---------------------------------------------|
+|Buildable unit         |No                                           |
+|Special attack visitors|5×[Stormtrooper level 10](StormDropship.html)|
 
 
 ### Training stats
