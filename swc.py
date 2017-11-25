@@ -263,6 +263,7 @@ def initstat():
         'sizes':'Unit size on map',
         'uiDecalAssetName': 'UI decal asset name',
         'projectile:DPS': 'Calculated damage per second',
+        'projectile:DPSS': 'Calculated damage per salvo',
         'projectile:mults': 'Damage multipliers',
         'equipment:planetIDs': 'Planets where equipment is available',
         'equipment:affectedTroopIds': 'Affected units',
@@ -501,6 +502,7 @@ def initstat():
         'projectile:salvos': 'projectilemisc',
         'projectile:cliptime': 'projectilemisc',
         'projectile:DPS': 'projectilebasic',
+        'projectile:DPSS': 'projectilebasic',
         # below are roles for buffs
         'buff:applyValueAs': 'buffbasic',
         'buff:buffID': 'buffbasic',
@@ -589,7 +591,18 @@ def initstat():
         'equipment:upgradeShards': 'equipmentupgrade',
         'equipment:upgradeTime': 'equipmentupgrade',
         'equipment:affectedTroopIds': 'equipmentbasic',
-        'equipment:equipmentBuff': 'equipmentnodisplay',        
+        'equipment:equipmentBuff': 'equipmentnodisplay',
+        # below are roles reserved to air strikes
+        'audioMovement': 'presentation',
+        'audioMovementAway': 'presentation',
+        'attachmentAsset': 'presentation',
+        'attachmentAssetBundle': 'presentation',
+        'destroyDelay': 'presentation',
+        'specialAttackVisitors': 'basic',
+        'linkedUnit': 'nodisplay',
+        'unitCount': 'nodisplay',
+        'specialAttackID': 'nodisplay',
+        'specialAttackName': 'nodisplay',
         # placeholder
         '':''
         }
@@ -687,6 +700,7 @@ def initstat():
         'projectile:salvos': 'int',
         'projectile:cliptime': 'microtime',
         'projectile:DPS': 'float',
+        'projectile:DPSS': 'float',
         # below are roles for buffs
         'buff:duration': 'microtime',
         'buff:lvl': 'int',
@@ -832,7 +846,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament,crate,unit,equip'
+        mode='tournament,crate,unit,equip,air'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -939,6 +953,22 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_equipment_unit(objects,displayed,i)
+    ## SpecialAttack (air)
+    xhelp['air']='List the statistics of equipment for air strikes (special attacks)'
+    morehelp['air']={'':'air strike identifier (default: all)'}
+    if ('air' in modes):
+        # do something that adds equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['SpecialAttackData']).keys():
+                uname=data['SpecialAttackData'][u]['specialAttackID']
+                if uname not in tmpdict:
+                    tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_air(objects,displayed,i)
     # Output phase
     out=[]
     outputs=config['output'].split(",")
@@ -990,10 +1020,20 @@ def main(argv):
             output_mdheader_equipunit(out,objects,getdisplayed(displayed,'equip'))
             for unit in getdisplayed(displayed,'equip'):
                 output_md_equipunit(out,objects,objects[unit])
+    if ('air' in displayed):
+        if ('list' in outputs):
+            output_listheader_air(out,objects,getdisplayed(displayed,'air'))
+            for unit in getdisplayed(displayed,'air'):
+                output_list_air(out,objects,objects[unit])
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','air')
+            output_mdheader_air(out,objects,getdisplayed(displayed,'air'))
+            for unit in getdisplayed(displayed,'air'):
+                output_md_air(out,objects,objects[unit])
     if ('index' in displayed):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
-            file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,'Main index page'))
+            file.write("---\ntitle: {1} ({0})\ncategory: index\n---\n".format(id,'Main index page'))
             file.write("# {1} ({0}) — version {2}\n\n".format('index','Main index page',config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
@@ -1273,8 +1313,14 @@ def addprojectile(prefix,ob,subunit,data):
     cdtime=int(dget(data,'cooldownTime',0))
     stime=int(dget(data,'shotDelay',0))
     rtime=int(dget(data,'reload',0))
-    gs=[ int(x) for x in data['gunSequence'].split(',') ]
-    gs=sorted(gs)
+    gss=dget(data,'gunSequence',None)
+    if gss==None:
+        gp=dget(data,'gunPosition',None)
+        # Heuristic
+        gs=range(1,len(gp.split(","))+1)
+    else:
+        gs=[ int(x) for x in gss.split(',') ]
+        gs=sorted(gs)
     subunit[prefix+'cannonsPerSequence']=len(gs)
     salvos=(sc//len(gs))*gs[-1]
     if sc%(len(gs))>0:
@@ -1282,6 +1328,7 @@ def addprojectile(prefix,ob,subunit,data):
     subunit[prefix+'salvos']=salvos
     cliptime=ctime+stime*(salvos-1)+cdtime+rtime
     subunit[prefix+'cliptime']=cliptime
+    subunit[prefix+'DPSS']=int(sc*damage)
     if cliptime!=0:
         subunit[prefix+'DPS']=int((1000*sc*damage)/cliptime)
     if prefix+'applyBuffs' in subunit:
@@ -1368,7 +1415,7 @@ def fill_unit_level(ob,level,subunit,where='hq',roles='roles'):
         elif type=='int':
             a[k]=int(v)
         elif type=='percentage':
-            a[k]=int(v)
+            a[k]=float(v)
         elif type=='array':
             a[k]=v
         elif type=='':
@@ -1450,7 +1497,8 @@ def fill_unit_level(ob,level,subunit,where='hq',roles='roles'):
         return(', '.join(ttlist))
 
     if where=='hq':
-        a['targets']=gettargets(targets['attack'])
+        if 'attack' in targets:
+            a['targets']=gettargets(targets['attack'])
         if 'ability' in targets:
             a['ability:targets']=gettargets(targets['ability'])
         for k in mults.keys():
@@ -1498,6 +1546,49 @@ def analyse_unit(objects,displayed,id):
     if id not in objects:
         objects[id]=ob
 
+
+def analyse_air(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    ob['levels']=[]
+    ob['hq']={}
+    ob['uid']=id
+    ob['title']='shp_title_'+id
+    ob['unknown']={}
+    ob['presentation']={}
+    ob['projectileTypes']={}
+    ob['options']={}
+    ob['roles']={}
+    ob['buffs']={}
+    levels=ob['levels']
+    used={}
+    projectiles={}
+    addtodisplay(displayed,'air',id)
+    for u in (data['SpecialAttackData']).keys():
+        uname=data['SpecialAttackData'][u]['specialAttackID']
+        if uname!=id:
+            continue
+        # subunit is a flattened version of the CSV data
+        subunit={}
+        for k,v in data['SpecialAttackData'][u].items():
+            subunit[k]=v
+        if 'linkedUnit' in subunit:
+            subunit['specialAttackVisitors']=display_airunitarray(subunit)
+
+        fill_unit(ob,subunit)
+        level=int(subunit['lvl'])
+        levels.append(level)
+        fill_unit_level(ob,level,subunit)
+    ob['firstlevel']=levels[0]
+    if len(levels)==1:
+        levelstring=str(levels[0])
+    else:
+        levelstring='{0}-{1}'.format(levels[0],levels[-1])
+    for level in ob['hq'].keys():
+            ob['hq'][level]['levels']=levelstring
+    if id not in objects:
+        objects[id]=ob
 
 def analyse_equipment_unit(objects,displayed,id):
     global data
@@ -2004,6 +2095,55 @@ def output_md_equipunit(out,objects,item):
         file.write(lout[0])
 
 
+def output_listheader_air(out,objects,displayed):
+    out.append("There are {0} air strikes in the selection:".format(len(displayed)))
+
+def output_list_air(out,objects,item,LINKS=False):
+    global config
+    id=item['uid']
+    title=__(item['title'])
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    xout+=output_list_unit_aux(item,LINKS)
+    out[len(out)-1]+=xout
+    return
+
+def output_mdheader_air(out,objects,displayed):
+    with open("docs/air.md","w") as file:
+        file.write("---\ntitle: Index of air strikes\n---\n")
+        file.write("# Air Strikes — version {0}\n\n".format(config['version']))
+        file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
+        pfd={True:'Buildable units',False:'Other units'}
+        for pf in [True, False]:
+            file.write("## {0}\n\n".format(pfd[pf]))
+            sides={}
+            for unit in displayed:
+                item=objects[unit]
+                firstlevel=item['firstlevel']
+                if item['hq'][firstlevel]['playerFacing']==pf:
+                    sides[item['hq'][firstlevel]['faction']]=1
+            for side in sorted(sides):
+                file.write("### {0}\n\n".format(display_side(side)))
+                for unit in sorted(displayed):
+                    item=objects[unit]
+                    firstlevel=item['firstlevel']
+                    if item['hq'][firstlevel]['playerFacing']==pf:
+                        if item['hq'][firstlevel]['faction']==side:
+                            id=item['uid']
+                            title=__(item['title'])
+                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+                file.write("\n")
+
+def output_md_air(out,objects,item):
+    id=item['uid']
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: air\n---\n".format(id,title))
+        lout=['']
+        output_list_air(lout,objects,item,True)
+        file.write(lout[0])
+
 
 # This set of functions take an Id and return the adequate string for it
 
@@ -2288,6 +2428,15 @@ def display_unitarray(item,bid,link=True):
         itemx=display_things(i,table,'uid',stat)
         visitors.append('[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx))
     return ', '.join(visitors)
+
+def display_airunitarray(item,link=True):
+    prefix='trp_title_'
+    stat='unitID'
+    table='TroopData'
+    visitors=[]
+    i=item['linkedUnit']
+    itemx=display_things(i,table,'uid',stat)
+    return '{3}×[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx,item['unitCount'])
 
 def display_unitbatch(item,link):
     count=item['num']
