@@ -87,6 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |5920 |6295 |6675 |7050 |7430 |7805 |8185 |8560 |8935 |9315 |
 |Calculated damage per second|10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
+|Calculated damage per salvo |10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
 
 
   * Cannons per sequence: 1
@@ -157,6 +158,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum empire spiderling droid summon visitor type: Troop
 
   * Secondary attack shot DPS: 0
+  * Secondary attack shot DPSS: 0
 
   * Secondary attack shot cannons per sequence: 1
   * Secondary attack shot cliptime: 20.001s

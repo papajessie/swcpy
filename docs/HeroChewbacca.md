@@ -86,10 +86,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1600|1920|2240|2560|2880|3200|3520|3840|4160|4800|
-|Calculated damage per second|1600|1920|2240|2560|2880|3200|3520|3840|4160|4800|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
+|----------------------------|----|----|----|----|----|----|----|----|----|-----|
+|Displayed damage per second |1600|1920|2240|2560|2880|3200|3520|3840|4160|4800 |
+|Calculated damage per second|1600|1920|2240|2560|2880|3200|3520|3840|4160|4800 |
+|Calculated damage per salvo |3472|4168|4862|5556|6250|6944|7640|8334|9028|10416|
 
 
   * Cannons per sequence: 1

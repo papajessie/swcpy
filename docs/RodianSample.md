@@ -57,9 +57,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sniper damage stack: 0
   * Sniper damage target: self
 
-|Level              |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|-------------------|---|---|---|---|---|---|---|---|---|----|
-|Sniper damage value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level              |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|-------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Sniper damage value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
 
 
 
@@ -75,9 +75,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sniper health stack: 0
   * Sniper health target: self
 
-|Level              |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|-------------------|---|---|---|---|---|---|---|---|---|----|
-|Sniper health value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level              |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|-------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Sniper health value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
 
 
 
@@ -143,10 +143,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2195|2745|3365|4040|4765|5565|6415|7315|8275|9980|
-|Calculated damage per second|1113|1334|1557|1780|2002|2225|2448|2669|2892|3337|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
+|----------------------------|----|----|----|----|----|----|----|-----|-----|-----|
+|Displayed damage per second |2195|2745|3365|4040|4765|5565|6415|7315 |8275 |9980 |
+|Calculated damage per second|1113|1334|1557|1780|2002|2225|2448|2669 |2892 |3337 |
+|Calculated damage per salvo |4175|5005|5840|6675|7510|8345|9180|10010|10845|12515|
 
 
   * Cannons per sequence: 1

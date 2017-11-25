@@ -88,10 +88,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
 
-|Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second |770|924|1078|1232|1386|1540|1694|1848|2002|2310|
-|Calculated damage per second|770|924|1078|1232|1386|1540|1694|1848|2002|2310|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |770 |924 |1078|1232|1386|1540|1694|1848|2002|2310|
+|Calculated damage per second|770 |924 |1078|1232|1386|1540|1694|1848|2002|2310|
+|Calculated damage per salvo |2505|3003|3504|4005|4506|5007|5508|6006|6507|7509|
 
 
   * Cannons per sequence: 1

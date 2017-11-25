@@ -57,9 +57,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman damage stack: 0
   * Marksman damage target: self
 
-|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|---------------------|---|---|---|---|---|---|---|---|---|----|
-|Marksman damage value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level                |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Marksman damage value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
 
 
 
@@ -75,9 +75,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Marksman health stack: 0
   * Marksman health target: self
 
-|Level                |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
-|---------------------|---|---|---|---|---|---|---|---|---|----|
-|Marksman health value|49%|53%|58%|64%|69%|75%|81%|87%|93%|100%|
+|Level                |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|---------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Marksman health value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
 
 
 
@@ -143,10 +143,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|----------------------------|----|----|----|----|----|----|----|----|----|-----|
-|Displayed damage per second |2505|3140|3845|4620|5445|6360|7325|8360|9455|11400|
-|Calculated damage per second|1272|1525|1780|2034|2288|2542|2797|3050|3305|3813 |
+|Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
+|----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
+|Displayed damage per second |2505|3140|3845|4620|5445|6360|7325 |8360 |9455 |11400|
+|Calculated damage per second|1272|1525|1780|2034|2288|2542|2797 |3050 |3305 |3813 |
+|Calculated damage per salvo |4770|5720|6675|7630|8580|9535|10490|11440|12395|14300|
 
 
   * Cannons per sequence: 1

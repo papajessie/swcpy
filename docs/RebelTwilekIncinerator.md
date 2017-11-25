@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Defend splash name: Defend splash
   * Defend splash stack: 1
   * Defend splash target: self
-  * Defend splash value: -30%
+  * Defend splash value: -30.0%
 
 
 #### Modifier "Reduce heals"
@@ -122,6 +122,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |3744|3857|3917|3973|4032|4089|4145|4205|4261|4320|
 |Calculated damage per second|0   |1   |2   |2   |3   |4   |4   |5   |6   |6   |
+|Calculated damage per salvo |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 
 
   * Cannons per sequence: 1
@@ -181,6 +182,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |-----------------------|----|----|----|----|----|----|----|----|----|----|
 |Death projectile damage|4800|4896|4992|5088|5184|5280|5376|5760|6240|7200|
+|Death attack DPSS      |4800|4896|4992|5088|5184|5280|5376|5760|6240|7200|
 
 
   * Death attack cannons per sequence: 1

@@ -87,6 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 |Calculated damage per second|2080|2171|2266|2371|2485|2600|2723|2857|2990|3133|
+|Calculated damage per salvo |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 
 
   * Cannons per sequence: 1
@@ -133,6 +134,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack target locking: No
 
   * Secondary attack shot DPS: 0
+  * Secondary attack shot DPSS: 0
 
   * Secondary attack shot cannons per sequence: 1
   * Secondary attack shot cliptime: 2m11.300s
@@ -155,7 +157,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret damage debuff name: Turret damage debuff
   * Turret damage debuff stack: 1
   * Turret damage debuff target: enemies
-  * Turret damage debuff value: 0%
+  * Turret damage debuff value: 0.0%
 
 
 ## Internal stats

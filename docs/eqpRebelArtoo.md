@@ -31,9 +31,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp rebel artoo health stack: 0
   * Eqp rebel artoo health target: self
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Eqp rebel artoo health value|500%|522%|544%|567%|589%|611%|633%|656%|678%|700%|
+|Level                       |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------------|------|------|------|------|------|------|------|------|------|------|
+|Eqp rebel artoo health value|500.0%|522.0%|544.0%|567.0%|589.0%|611.0%|633.0%|656.0%|678.0%|700.0%|
 
 
 
@@ -226,6 +226,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Calculated damage per second: 0
+  * Calculated damage per salvo: 0
 
 |Level                      |01.01-1.05         |01.06-1.08                 |01.09-1.10                         |02.01-2.05         |02.06-2.08                 |02.09-2.10                         |03.01-3.05         |03.06-3.08                 |03.09-3.10                         |04.01-4.05         |
 |---------------------------|-------------------|---------------------------|-----------------------------------|-------------------|---------------------------|-----------------------------------|-------------------|---------------------------|-----------------------------------|-------------------|
@@ -265,7 +266,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp rebel artoo name: Eqp rebel artoo
   * Eqp rebel artoo stack: 1
   * Eqp rebel artoo target: enemies
-  * Eqp rebel artoo value: 0%
+  * Eqp rebel artoo value: 0.0%
 
 |Level                   |01.01|01.02 |01.03 |01.04 |01.05 |01.06 |01.07 |01.08|01.09 |01.10|
 |------------------------|-----|------|------|------|------|------|------|-----|------|-----|

@@ -92,6 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
 |Calculated damage per second|2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
+|Calculated damage per salvo |3000|3600|4200|4800|5400|6000|6600|7200|7800|9000|
 
 
   * Cannons per sequence: 1
@@ -152,6 +153,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Secondary attack shot DPS: 264
+  * Secondary attack shot DPSS: 6000
   * Secondary attack shot splash damage percentages: 100,100,100
 
   * Secondary attack shot cannons per sequence: 1

@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Spiderling auto death name: Spiderling auto death
   * Spiderling auto death stack: 1
   * Spiderling auto death target: self
-  * Spiderling auto death value: -100%
+  * Spiderling auto death value: -100.0%
 
 
 #### Modifier "Spiderling invulnerable"
@@ -114,6 +114,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1235|1245|1270|1305|1325|1350|1370|1395|1430|1465|
 |Calculated damage per second|2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Calculated damage per salvo |2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
 
 
   * Cannons per sequence: 1
@@ -135,6 +136,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                  |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |-----------------------|---|---|---|---|---|---|---|---|---|---|
 |Death projectile damage|810|818|833|855|870|885|900|915|938|960|
+|Death attack DPSS      |810|818|833|855|870|885|900|915|938|960|
 
 
   * Death attack cannons per sequence: 1
