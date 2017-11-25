@@ -58,7 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                      |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |---------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second|6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
-|Calculated damage per clip |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
+|Calculated damage per salvo|6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
 
 
   * Cannons per sequence: 1

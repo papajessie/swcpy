@@ -90,7 +90,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1120|1170|1230|1280|1350|1390|1460|1530|1620|1690|
 |Calculated damage per second|1120|1165|1234|1280|1348|1394|1462|1531|1622|1691|
-|Calculated damage per clip  |1960|2040|2160|2240|2360|2440|2560|2680|2840|2960|
+|Calculated damage per salvo |1960|2040|2160|2240|2360|2440|2560|2680|2840|2960|
 
 
   * Cannons per sequence: 1

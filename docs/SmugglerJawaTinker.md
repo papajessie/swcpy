@@ -73,7 +73,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Displayed damage per second: 1
   * Calculated damage per second: 833
-  * Calculated damage per clip: 5
+  * Calculated damage per salvo: 5
 
   * Cannons per sequence: 1
   * Cliptime: 6ms
