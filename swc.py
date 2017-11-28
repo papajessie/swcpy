@@ -1343,7 +1343,7 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
     if health_modifier!=1:
         subunit['originalHealth']=subunit['health']
         subunit['health']=int(subunit['originalHealth'])*health_modifier
-    if 'projectileType' in subunit:
+    if 'projectileType' in subunit and not 'linkedUnit' in subunit:
         ## Do something with projectiles ; append stats with prefix 'projectile'
         ob['options']['projectile']=True
         proj=subunit['projectileType']
@@ -1575,7 +1575,6 @@ def analyse_air(objects,displayed,id):
             subunit[k]=v
         if 'linkedUnit' in subunit:
             subunit['specialAttackVisitors']=display_airunitarray(subunit)
-
         fill_unit(ob,subunit)
         level=int(subunit['lvl'])
         levels.append(level)
@@ -1912,22 +1911,22 @@ def output_list_unit_aux(item,LINKS):
     if ('spawn' in item['options']):
         xout+='### Modifiers\n\n'
         xout+=display_modifiers(item,'spawn',tosee)
-    xout+='## Main attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
-    xout+='### Targeting\n\n'
-    xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='attackmove']))
-    remove(tosee,'attackmove')
-    remove(tosee,'attackprefs')
-    xout+='### Shooting\n\n'
-    xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='attackstats']))
-    remove(tosee,'attackstats')
     if 'projectile' in item['options']:
+        xout+='## Main attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
+        xout+='### Targeting\n\n'
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='attackmove']))
+        xout+='### Shooting\n\n'
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='attackstats']))
         xout+='### Projectile\n\n'
         xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='projectilebasic']+['dps']))
         xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='projectilemisc']))
-        remove(tosee,'projectilebasic')
-        remove(tosee,'projectilemult')
-        remove(tosee,'projectilemisc')
         xout+=display_modifiers(item,'projectile',tosee)
+    remove(tosee,'attackmove')
+    remove(tosee,'attackprefs')
+    remove(tosee,'attackstats')
+    remove(tosee,'projectilebasic')
+    remove(tosee,'projectilemult')
+    remove(tosee,'projectilemisc')
     if 'ability' in item['options']:
         attacknames=[]
         for l in sorted(levels):
