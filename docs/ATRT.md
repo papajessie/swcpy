@@ -118,6 +118,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack target preferences: **Secondary attack turret (100)**, Secondary attack droideka (0), Secondary attack flying infantry (0), Secondary attack flying vehicle (0), Secondary attack headquarters (0), Secondary attack heavy infantry (0), Secondary attack heavy infantry hero (0), Secondary attack heavy vehicle (0), Secondary attack heavy vehicule hero (0), Secondary attack infantry (0), Secondary attack infantry hero (0), Secondary attack light vehicle (0), Secondary attack other building (0), Secondary attack ressource generator (0), Secondary attack shield (0), Secondary attack shield generator (0), Secondary attack storage (0), Secondary attack support troop (0), Secondary attack trap (0), Secondary attack vehicule hero (0), Secondary attack wall (0)
   * Secondary attack view range: 20
 
+  * Secondary attack headquarters: 0
+  * Secondary attack heavy infantry: 0
+  * Secondary attack heavy vehicle: 0
+  * Secondary attack other building: 0
+  * Secondary attack droideka: 0
+  * Secondary attack flying infantry: 0
+  * Secondary attack flying vehicle: 0
+  * Secondary attack support troop: 0
+  * Secondary attack heavy infantry hero: 0
+  * Secondary attack heavy vehicule hero: 0
+  * Secondary attack infantry hero: 0
+  * Secondary attack vehicule hero: 0
+  * Secondary attack infantry: 0
+  * Secondary attack ressource generator: 0
+  * Secondary attack shield: 0
+  * Secondary attack shield generator: 0
+  * Secondary attack storage: 0
+  * Secondary attack trap: 0
+  * Secondary attack turret: 100
+  * Secondary attack light vehicle: 0
+  * Secondary attack wall: 0
+
 ### Shooting
 
   * Secondary attack time between start of clip and first shot: 1s
