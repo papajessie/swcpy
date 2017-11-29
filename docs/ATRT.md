@@ -87,7 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 |Calculated damage per second|2080|2171|2266|2371|2485|2600|2723|2857|2990|3133|
-|Calculated damage per salvo |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
+|Calculated damage per clip  |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 
 
   * Cannons per sequence: 1
@@ -133,15 +133,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack time between shots: 790ms
   * Secondary attack target locking: No
 
-  * Secondary attack shot DPS: 0
-  * Secondary attack shot DPSS: 0
+  * Secondary attack shot calculated damage per second: 0
+  * Secondary attack shot calculated damage per clip: 0
 
   * Secondary attack shot cannons per sequence: 1
   * Secondary attack shot cliptime: 2m11.300s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: Yes
   * Secondary attack shot max speed: 24
-  * Secondary attack shot mults: **(400)**: Secondary attack shot trap, Secondary attack shot turret, **(100)**: Secondary attack shot droideka, **(75)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot support troop, Secondary attack shot vehicule hero, **(50)**: Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot wall
+  * Secondary attack shot damage multipliers: **(400)**: Secondary attack shot trap, Secondary attack shot turret, **(100)**: Secondary attack shot droideka, **(75)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot support troop, Secondary attack shot vehicule hero, **(50)**: Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot wall
   * Secondary attack shot pass through shield: No
   * Secondary attack shot salvos: 1
 
@@ -153,7 +153,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret damage debuff modifier: damage
   * Turret damage debuff ms first proc: 0s
   * Turret damage debuff ms per proc: permanent
-  * Turret damage debuff mults: **(0%)**: Turret damage debuff droideka, Turret damage debuff flying infantry, Turret damage debuff flying vehicle, Turret damage debuff headquarters, Turret damage debuff heavy infantry, Turret damage debuff heavy infantry hero, Turret damage debuff heavy vehicle, Turret damage debuff heavy vehicule hero, Turret damage debuff infantry, Turret damage debuff infantry hero, Turret damage debuff light vehicle, Turret damage debuff other building, Turret damage debuff ressource generator, Turret damage debuff shield, Turret damage debuff shield generator, Turret damage debuff storage, Turret damage debuff support troop, Turret damage debuff trap, Turret damage debuff vehicule hero, Turret damage debuff wall, **(-90%)**: Turret damage debuff turret
+  * Turret damage debuff damage multipliers: **(0%)**: Turret damage debuff droideka, Turret damage debuff flying infantry, Turret damage debuff flying vehicle, Turret damage debuff headquarters, Turret damage debuff heavy infantry, Turret damage debuff heavy infantry hero, Turret damage debuff heavy vehicle, Turret damage debuff heavy vehicule hero, Turret damage debuff infantry, Turret damage debuff infantry hero, Turret damage debuff light vehicle, Turret damage debuff other building, Turret damage debuff ressource generator, Turret damage debuff shield, Turret damage debuff shield generator, Turret damage debuff storage, Turret damage debuff support troop, Turret damage debuff trap, Turret damage debuff vehicule hero, Turret damage debuff wall, **(-90%)**: Turret damage debuff turret
   * Turret damage debuff name: Turret damage debuff
   * Turret damage debuff stack: 1
   * Turret damage debuff target: enemies

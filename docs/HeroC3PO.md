@@ -78,7 +78,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Calculated damage per second: 0
-  * Calculated damage per salvo: 0
+  * Calculated damage per clip: 0
   * Splash damage percentages: 100
 
   * Cannons per sequence: 1

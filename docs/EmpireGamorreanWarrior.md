@@ -120,7 +120,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1920|1952|1984|2016|2048|2080|2176|2240|2304|2400|
 |Calculated damage per second|1911|1946|1982|2017|2053|2088|2195|2266|2337|2444|
-|Calculated damage per salvo |1720|1752|1784|1816|1848|1880|1976|2040|2104|2200|
+|Calculated damage per clip  |1720|1752|1784|1816|1848|1880|1976|2040|2104|2200|
 
 
   * Cannons per sequence: 1
@@ -139,11 +139,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Death attack splash damage percentages: 100,100,100,100
 
-|Level                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|-----------------------|----|----|----|----|----|----|----|----|----|----|
-|Death projectile damage|1750|2000|2250|2500|2750|3000|3250|3500|3750|4000|
-|Death attack DPS       |486 |555 |625 |694 |763 |833 |902 |972 |1041|1111|
-|Death attack DPSS      |1750|2000|2250|2500|2750|3000|3250|3500|3750|4000|
+|Level                                    |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|-----------------------------------------|----|----|----|----|----|----|----|----|----|----|
+|Death projectile damage                  |1750|2000|2250|2500|2750|3000|3250|3500|3750|4000|
+|Death attack calculated damage per second|486 |555 |625 |694 |763 |833 |902 |972 |1041|1111|
+|Death attack calculated damage per clip  |1750|2000|2250|2500|2750|3000|3250|3500|3750|4000|
 
 
   * Death attack cannons per sequence: 1
@@ -151,7 +151,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Death attack directional: Yes
   * Death attack is deflectable: No
   * Death attack max speed: 4
-  * Death attack mults: **(300)**: Death attack wall, **(200)**: Death attack other building, Death attack turret, **(100)**: Death attack droideka, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack vehicule hero, **(0)**: Death attack flying infantry, Death attack flying vehicle
+  * Death attack damage multipliers: **(300)**: Death attack wall, **(200)**: Death attack other building, Death attack turret, **(100)**: Death attack droideka, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack vehicule hero, **(0)**: Death attack flying infantry, Death attack flying vehicle
   * Death attack pass through shield: Yes
   * Death attack salvos: 1
 

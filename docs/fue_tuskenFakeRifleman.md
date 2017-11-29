@@ -38,12 +38,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 0
   * Unit size on map: 1x1
 
+## Turret attack : SlugThrower
+
+
+### Targeting
+
+  * Turret max attack range: 8
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret view range: 30
+
+### Shooting
+
+  * Turret time between start of clip and first shot: 500ms
+  * Turret clip retargeting: No
+  * Turret damage per shot: 333
+  * Turret gun shooting sequence: 1
+  * Turret impact delay: 250ms
+  * Turret can shoot over walls: No
+  * Turret time between end of clip and start of clip: 500ms
+  * Turret shot count: 3
+  * Turret time between shots: 500ms
+
+  * Turret displayed damage per second: 500
+  * Turret attack calculated damage per second: 499
+  * Turret attack calculated damage per clip: 999
+
+  * Turret attack cannons per sequence: 1
+  * Turret attack cliptime: 2s
+  * Turret attack directional: No
+  * Turret attack is deflectable: No
+  * Turret attack max speed: 10
+  * Turret attack damage multipliers: **(100)**: Turret attack droideka, Turret attack flying infantry, Turret attack flying vehicle, Turret attack headquarters, Turret attack heavy infantry, Turret attack heavy infantry hero, Turret attack heavy vehicle, Turret attack heavy vehicule hero, Turret attack infantry, Turret attack infantry hero, Turret attack light vehicle, Turret attack other building, Turret attack ressource generator, Turret attack shield, Turret attack shield generator, Turret attack storage, Turret attack support troop, Turret attack trap, Turret attack turret, Turret attack vehicule hero, Turret attack wall
+  * Turret attack pass through shield: No
+  * Turret attack salvos: 3
+
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
 
   * Sub type: rapid_fire_turret
   * Turret id: t_fue_tuskenFakeRifleman1
+  * Turret projectile type: projectileSlugthrower
 
 ## Presentation stats
 
@@ -59,6 +95,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 10,11.38,12.75
   * Icon lookat position: -0.17,1.62,0.41
   * Stash order: 1000
+  * Turret animation delay: 0
+  * Turret attack arcs: No
+  * Turret attack bullet: fx_slugthrower_projectile
+  * Turret attack hit spark: fx_slugthrower_hit
+  * Turret attack max scale: 100
+  * Turret attack muzzle flash: fx_slugthrower_muzzle
+  * Turret attack name: SlugThrower
+  * Turret attack spin speed: 0
+  * Turret displayed damage per second: 500
+  * Turret favorite target type: infantry
+  * Turret gun position: "raiderrifle_tkn_rig_MASTER_MOVER/raiderrifle_tkn_rig_locator_gun":1
+  * Turret max scale: 0
+  * Turret tracker name: raiderrifle_tkn_rig_MASTER_MOVER1
 
 ## Uninterpreted stats
 
@@ -66,5 +115,11 @@ Seriously, we don't really know what to do with these.
 
   * Max XP: 5
   * Order: 531
+  * Turret arming delay: 0
+  * Turret attack seeks target: No
+  * Turret attack streams: no
+  * Turret splash: false
+  * Turret strict cool down: No
+  * Turret timey wimey: 1.5
   * Xp: 5
 

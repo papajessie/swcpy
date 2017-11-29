@@ -90,7 +90,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2000 |2400 |2800 |3200 |3600 |4000 |4400 |4800 |5200 |6000 |
 |Calculated damage per second|3600 |3812 |4024 |4227 |4430 |4643 |4966 |5316 |5686 |6083 |
-|Calculated damage per salvo |11700|12390|13080|13740|14400|15090|16140|17280|18480|19770|
+|Calculated damage per clip  |11700|12390|13080|13740|14400|15090|16140|17280|18480|19770|
 
 
   * Cannons per sequence: 1
@@ -140,10 +140,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Secondary attack damage per shot|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
 
-|Level                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|--------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Secondary attack shot DPS |277  |289  |301  |314  |326  |350  |377  |405  |435  |468  |
-|Secondary attack shot DPSS|13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
+|Level                                             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|--------------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Secondary attack shot calculated damage per second|277  |289  |301  |314  |326  |350  |377  |405  |435  |468  |
+|Secondary attack shot calculated damage per clip  |13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
 
   * Secondary attack shot cannons per sequence: 1
@@ -152,7 +152,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack shot is deflectable: No
   * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
   * Secondary attack shot max speed: 58
-  * Secondary attack shot mults: **(100)**: Secondary attack shot droideka, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot trap, **(95)**: Secondary attack shot heavy infantry, **(85)**: Secondary attack shot wall, **(75)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot vehicule hero, **(55)**: Secondary attack shot turret, **(50)**: Secondary attack shot headquarters, Secondary attack shot ressource generator, Secondary attack shot shield generator, Secondary attack shot storage, **(45)**: Secondary attack shot infantry, **(30)**: Secondary attack shot support troop, **(25)**: Secondary attack shot shield
+  * Secondary attack shot damage multipliers: **(100)**: Secondary attack shot droideka, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot trap, **(95)**: Secondary attack shot heavy infantry, **(85)**: Secondary attack shot wall, **(75)**: Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot other building, Secondary attack shot vehicule hero, **(55)**: Secondary attack shot turret, **(50)**: Secondary attack shot headquarters, Secondary attack shot ressource generator, Secondary attack shot shield generator, Secondary attack shot storage, **(45)**: Secondary attack shot infantry, **(30)**: Secondary attack shot support troop, **(25)**: Secondary attack shot shield
   * Secondary attack shot pass through shield: Yes
   * Secondary attack shot salvos: 1
   * Secondary attack shot width segments: 100,90,80

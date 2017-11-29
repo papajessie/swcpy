@@ -39,11 +39,54 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 0
   * Unit size on map: 2x2
 
+## Turret attack : Blaster Green Large
+
+
+### Targeting
+
+  * Turret max attack range: 8
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret view range: 10
+
+### Shooting
+
+  * Turret time between start of clip and first shot: 1s
+  * Turret clip retargeting: No
+  * Turret gun shooting sequence: 1
+  * Turret impact delay: 500ms
+  * Turret can shoot over walls: Yes
+  * Turret time between end of clip and start of clip: 1s
+  * Turret shot count: 3
+  * Turret time between shots: 200ms
+
+|Level                 |1  |2  |
+|----------------------|---|---|
+|Turret damage per shot|400|600|
+
+
+|Level                                     |1   |2   |
+|------------------------------------------|----|----|
+|Turret displayed damage per second        |500 |750 |
+|Turret attack calculated damage per second|500 |750 |
+|Turret attack calculated damage per clip  |1200|1800|
+
+
+  * Turret attack cannons per sequence: 1
+  * Turret attack cliptime: 2.400s
+  * Turret attack directional: Yes
+  * Turret attack is deflectable: Yes
+  * Turret attack max speed: 20
+  * Turret attack damage multipliers: **(100)**: Turret attack droideka, Turret attack flying infantry, Turret attack flying vehicle, Turret attack headquarters, Turret attack heavy infantry, Turret attack heavy infantry hero, Turret attack heavy vehicle, Turret attack heavy vehicule hero, Turret attack infantry, Turret attack infantry hero, Turret attack light vehicle, Turret attack other building, Turret attack ressource generator, Turret attack shield, Turret attack shield generator, Turret attack storage, Turret attack support troop, Turret attack trap, Turret attack turret, Turret attack vehicule hero, Turret attack wall
+  * Turret attack pass through shield: No
+  * Turret attack salvos: 3
+
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
 
   * Sub type: rapid_fire_turret
+  * Turret projectile type: projectileBlasterGLrg
 
 |Level    |1                   |2                   |
 |---------|--------------------|--------------------|
@@ -65,15 +108,35 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: -20.57,21.82,36.12
   * Icon lookat position: 0.37,1.29,-0.37
   * Stash order: 1000
+  * Turret animation delay: 0
+  * Turret attack arcs: No
+  * Turret attack bullet: fx_blaster_beam_g_lrg
+  * Turret attack hit spark: fx_blaster_hit_g_lrg
+  * Turret attack max scale: 100
+  * Turret attack muzzle flash: fx_blaster_flash_g_lrg
+  * Turret attack name: Blaster Green Large
+  * Turret attack spin speed: 0
+  * Turret favorite target type: infantry
+  * Turret gun position: "turretBase/turretHeadMesh/turretGunMesh/locator_gun":1
+  * Turret max scale: 0
+  * Turret tracker name: turretBase/turretHeadMesh
 
-|Level    |1          |2          |
-|---------|-----------|-----------|
-|Store tab|decorations|(not found)|
+|Level                             |1          |2          |
+|----------------------------------|-----------|-----------|
+|Store tab                         |decorations|(not found)|
+|Turret displayed damage per second|500        |750        |
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
+
+  * Turret arming delay: 0
+  * Turret attack seeks target: Yes
+  * Turret attack streams: no
+  * Turret splash: false
+  * Turret strict cool down: No
+  * Turret timey wimey: 1.25
 
 |Level |1  |2  |
 |------|---|---|

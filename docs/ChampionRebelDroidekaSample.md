@@ -84,7 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2640|3258|3699|4137|4578|5019 |5370 |5721 |6216 |6636 |
 |Calculated damage per second|3107|3837|4355|4868|5391|5909 |6323 |6815 |7317 |7811 |
-|Calculated damage per salvo |5280|6520|7400|8272|9160|10040|10744|11580|12432|13272|
+|Calculated damage per clip  |5280|6520|7400|8272|9160|10040|10744|11580|12432|13272|
 
 
   * Cliptime: 1.699s

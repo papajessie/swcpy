@@ -87,7 +87,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |5920 |6295 |6675 |7050 |7430 |7805 |8185 |8560 |8935 |9315 |
 |Calculated damage per second|10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
-|Calculated damage per salvo |10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
+|Calculated damage per clip  |10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
 
 
   * Cannons per sequence: 1
@@ -157,15 +157,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum empire spiderling droid summon target summoner: No
   * Sum empire spiderling droid summon visitor type: Troop
 
-  * Secondary attack shot DPS: 0
-  * Secondary attack shot DPSS: 0
+  * Secondary attack shot calculated damage per second: 0
+  * Secondary attack shot calculated damage per clip: 0
 
   * Secondary attack shot cannons per sequence: 1
   * Secondary attack shot cliptime: 20.001s
   * Secondary attack shot directional: No
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 18
-  * Secondary attack shot mults: **(100)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall
+  * Secondary attack shot damage multipliers: **(100)**: Secondary attack shot droideka, Secondary attack shot flying infantry, Secondary attack shot flying vehicle, Secondary attack shot headquarters, Secondary attack shot heavy infantry, Secondary attack shot heavy infantry hero, Secondary attack shot heavy vehicle, Secondary attack shot heavy vehicule hero, Secondary attack shot infantry, Secondary attack shot infantry hero, Secondary attack shot light vehicle, Secondary attack shot other building, Secondary attack shot ressource generator, Secondary attack shot shield, Secondary attack shot shield generator, Secondary attack shot storage, Secondary attack shot support troop, Secondary attack shot trap, Secondary attack shot turret, Secondary attack shot vehicule hero, Secondary attack shot wall
   * Secondary attack shot salvos: 1
 
 ## Internal stats

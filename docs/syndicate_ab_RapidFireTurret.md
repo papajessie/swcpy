@@ -45,11 +45,54 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 0
   * Unit size on map: 2x2
 
+## Turret attack : Smuggler Standard Turret
+
+
+### Targeting
+
+  * Turret max attack range: 10
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret view range: 10
+
+### Shooting
+
+  * Turret time between start of clip and first shot: 600ms
+  * Turret clip retargeting: Yes
+  * Turret gun shooting sequence: 1
+  * Turret impact delay: 250ms
+  * Turret can shoot over walls: Yes
+  * Turret time between end of clip and start of clip: 650ms
+  * Turret shot count: 3
+  * Turret time between shots: 250ms
+
+|Level                 |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
+|----------------------|---|---|---|---|---|---|----|----|----|----|
+|Turret damage per shot|292|438|525|700|846|992|1138|1283|1429|1575|
+
+
+|Level                                     |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|------------------------------------------|---|----|----|----|----|----|----|----|----|----|
+|Turret displayed damage per second        |500|750 |900 |1200|1450|1700|1950|2200|2450|2700|
+|Turret attack calculated damage per second|500|750 |900 |1200|1450|1700|1950|2199|2449|2700|
+|Turret attack calculated damage per clip  |876|1314|1575|2100|2538|2976|3414|3849|4287|4725|
+
+
+  * Turret attack cannons per sequence: 1
+  * Turret attack cliptime: 1.750s
+  * Turret attack directional: Yes
+  * Turret attack is deflectable: Yes
+  * Turret attack max speed: 20
+  * Turret attack damage multipliers: **(100)**: Turret attack droideka, Turret attack flying infantry, Turret attack flying vehicle, Turret attack headquarters, Turret attack heavy infantry, Turret attack heavy infantry hero, Turret attack heavy vehicle, Turret attack heavy vehicule hero, Turret attack infantry, Turret attack infantry hero, Turret attack light vehicle, Turret attack other building, Turret attack ressource generator, Turret attack shield, Turret attack shield generator, Turret attack storage, Turret attack support troop, Turret attack trap, Turret attack turret, Turret attack vehicule hero, Turret attack wall
+  * Turret attack pass through shield: No
+  * Turret attack salvos: 3
+
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
 
   * Sub type: rapid_fire_turret
+  * Turret projectile type: projectileSmugglerRapidFireTurretAB
 
 |Level    |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
 |---------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
@@ -72,10 +115,34 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.37,1.29,-0.37
   * Stash order: 1000
   * Store tab: not_in_store
+  * Turret animation delay: 0
+  * Turret attack arcs: No
+  * Turret attack bullet: fx_blaster_beam_y_lrg
+  * Turret attack hit spark: fx_blaster_hit_y_lrg
+  * Turret attack max scale: 100
+  * Turret attack muzzle flash: fx_blaster_flash_y_lrg
+  * Turret attack name: Smuggler Standard Turret
+  * Turret attack spin speed: 0
+  * Turret favorite target type: infantry
+  * Turret gun position: "turretBase/turretHeadMesh/turretGunMesh/locator_gun":1
+  * Turret max scale: 0
+  * Turret tracker name: turretBase/turretHeadMesh
+
+|Level                             |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------------|---|---|---|----|----|----|----|----|----|----|
+|Turret displayed damage per second|500|750|900|1200|1450|1700|1950|2200|2450|2700|
+
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
+
+  * Turret arming delay: 0
+  * Turret attack seeks target: Yes
+  * Turret attack streams: no
+  * Turret splash: false
+  * Turret strict cool down: No
+  * Turret timey wimey: 1.7142857142857141905523121749865822494029998779296875
 
 |Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------|----|----|----|----|----|----|----|----|----|----|

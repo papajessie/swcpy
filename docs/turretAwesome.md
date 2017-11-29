@@ -40,12 +40,48 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 0
   * Unit size on map: 2x2
 
+## Turret attack : TuskenHero
+
+
+### Targeting
+
+  * Turret max attack range: 10
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret view range: 10
+
+### Shooting
+
+  * Turret time between start of clip and first shot: 300ms
+  * Turret clip retargeting: No
+  * Turret damage per shot: 178
+  * Turret gun shooting sequence: 1
+  * Turret impact delay: 250ms
+  * Turret can shoot over walls: Yes
+  * Turret time between end of clip and start of clip: 1.500s
+  * Turret shot count: 8
+  * Turret time between shots: 150ms
+
+  * Turret displayed damage per second: 500
+  * Turret attack calculated damage per second: 499
+  * Turret attack calculated damage per clip: 1424
+
+  * Turret attack cannons per sequence: 1
+  * Turret attack cliptime: 2.850s
+  * Turret attack directional: Yes
+  * Turret attack is deflectable: No
+  * Turret attack max speed: 18
+  * Turret attack damage multipliers: **(125)**: Turret attack heavy infantry, Turret attack heavy infantry hero, Turret attack heavy vehicle, Turret attack heavy vehicule hero, **(100)**: Turret attack droideka, Turret attack flying infantry, Turret attack flying vehicle, Turret attack headquarters, Turret attack infantry, Turret attack infantry hero, Turret attack light vehicle, Turret attack other building, Turret attack ressource generator, Turret attack shield, Turret attack shield generator, Turret attack storage, Turret attack support troop, Turret attack trap, Turret attack turret, Turret attack vehicule hero, Turret attack wall
+  * Turret attack pass through shield: No
+  * Turret attack salvos: 8
+
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
 
   * Sub type: burst_turret
   * Turret id: t_TurretAwesome
+  * Turret projectile type: projectileTuskenBurstTurret
 
 ## Presentation stats
 
@@ -63,6 +99,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,0.25,-0.02
   * Stash order: 1000
   * Store tab: not_in_store
+  * Turret animation delay: 0
+  * Turret attack arcs: No
+  * Turret attack bullet: fx_slugthrower_projectile
+  * Turret attack hit spark: fx_slugthrower_hit
+  * Turret attack max scale: 100
+  * Turret attack muzzle flash: fx_slugthrower_muzzle
+  * Turret attack name: TuskenHero
+  * Turret attack spin speed: 0
+  * Turret displayed damage per second: 500
+  * Turret favorite target type: infantry
+  * Turret gun position: "locator_gun":1
+  * Turret max scale: 0
+  * Turret tracker name: n/a
 
 ## Uninterpreted stats
 
@@ -70,5 +119,11 @@ Seriously, we don't really know what to do with these.
 
   * Max XP: 10
   * Order: 709
+  * Turret arming delay: 0
+  * Turret attack seeks target: Yes
+  * Turret attack streams: no
+  * Turret splash: false
+  * Turret strict cool down: No
+  * Turret timey wimey: 2.8070175438596489669862421578727662563323974609375
   * Xp: 5
 
