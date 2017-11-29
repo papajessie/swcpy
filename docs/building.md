@@ -19,11 +19,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Unit Transport (empireStarport)](empireStarport.html)
   * [Hero Command (empireTacticalCommand)](empireTacticalCommand.html)
 
-### Other units
-
-  * [Moisture Vaporator (moistureVaporatorLarge)](moistureVaporatorLarge.html)
-  * [Moisture Vaporator (moistureVaporatorSmall)](moistureVaporatorSmall.html)
-
 ### Rebellion
 
   * [Armory (rebelArmory)](rebelArmory.html)
@@ -36,15 +31,20 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Unit Transport (rebelStarport)](rebelStarport.html)
   * [Hero Command (rebelTacticalCommand)](rebelTacticalCommand.html)
 
-### Independant units
-
-  * ["bld_title_smugglerFUEStarport" (smugglerFUEStarport)](smugglerFUEStarport.html)
-  * [Unit Transport (smugglerStarport)](smugglerStarport.html)
-
 ### Tusken Raiders
 
   * ["bld_title_tuskenHouseLargeOld" (tuskenHouseLargeOld)](tuskenHouseLargeOld.html)
   * ["bld_title_tuskenHouseSmallOld" (tuskenHouseSmallOld)](tuskenHouseSmallOld.html)
+
+### Other units
+
+  * [Moisture Vaporator (moistureVaporatorLarge)](moistureVaporatorLarge.html)
+  * [Moisture Vaporator (moistureVaporatorSmall)](moistureVaporatorSmall.html)
+
+### Independant units
+
+  * ["bld_title_smugglerFUEStarport" (smugglerFUEStarport)](smugglerFUEStarport.html)
+  * [Unit Transport (smugglerStarport)](smugglerStarport.html)
 
 ## Turrets
 
@@ -64,14 +64,14 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Rocket Turret (rebelRocketTurret)](rebelRocketTurret.html)
   * [Sonic Cannon Turret (rebelSonicTurret)](rebelSonicTurret.html)
 
-### Independant units
-
-  * [Autoturret (smugglerFUETurret)](smugglerFUETurret.html)
-
 ### Tusken Raiders
 
   * ["bld_title_tuskenFakeTombstone" (tuskenFakeTombstone)](tuskenFakeTombstone.html)
   * ["bld_title_tuskenRaiderFakeTroop" (tuskenRaiderFakeTroop)](tuskenRaiderFakeTroop.html)
+
+### Independant units
+
+  * [Autoturret (smugglerFUETurret)](smugglerFUETurret.html)
 
 ## Defenses
 
@@ -99,13 +99,13 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Fang Fighter Trap (rebelTrapStrikeHeavy)](rebelTrapStrikeHeavy.html)
   * [Wall (rebelWall)](rebelWall.html)
 
-### Independant units
-
-  * [Wall (smugglerWall)](smugglerWall.html)
-
 ### Tusken Raiders
 
   * ["bld_title_tuskenWall" (tuskenWall)](tuskenWall.html)
+
+### Independant units
+
+  * [Wall (smugglerWall)](smugglerWall.html)
 
 ## Resources
 
@@ -155,6 +155,56 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Rapid Fire Turret (empire_ab_RapidFireTurret)](empire_ab_RapidFireTurret.html)
   * [Rocket Turret (empire_ab_RocketTurret)](empire_ab_RocketTurret.html)
   * ["bld_title_storyEmpShieldGen" (storyEmpShieldGen)](storyEmpShieldGen.html)
+
+### Rebellion
+
+  * ["bld_title_forestShieldGeneratorSpecial" (forestShieldGeneratorSpecial)](forestShieldGeneratorSpecial.html)
+  * ["bld_title_rebelContrabandCantinaLocked" (rebelContrabandCantinaLocked)](rebelContrabandCantinaLocked.html)
+  * ["bld_title_rebelDefenseGenerator" (rebelDefenseGenerator)](rebelDefenseGenerator.html)
+  * [Droid Hut (rebelDroidHut)](rebelDroidHut.html)
+  * [Headquarters (rebelHQ)](rebelHQ.html)
+  * ["bld_title_rebelMiningComplex" (rebelMiningComplex)](rebelMiningComplex.html)
+  * ["bld_title_rebelMunitionsPlant" (rebelMunitionsPlant)](rebelMunitionsPlant.html)
+  * ["bld_title_rebelNavigationCenterLocked" (rebelNavigationCenterLocked)](rebelNavigationCenterLocked.html)
+  * ["bld_title_rebelOrganicsLab" (rebelOrganicsLab)](rebelOrganicsLab.html)
+  * ["bld_title_rebelRubble" (rebelRubble)](rebelRubble.html)
+  * ["bld_title_rebelRubbleWall" (rebelRubbleWall)](rebelRubbleWall.html)
+  * ["bld_title_rebelShuttleIdle" (rebelShuttleIdle)](rebelShuttleIdle.html)
+  * [Squad Center (rebelSquadBuilding)](rebelSquadBuilding.html)
+  * ["bld_title_rebelStarshipWeaponsDepot" (rebelStarshipWeaponsDepot)](rebelStarshipWeaponsDepot.html)
+  * ["bld_title_rebelWeaponsFactory" (rebelWeaponsFactory)](rebelWeaponsFactory.html)
+  * [Burst Turret (rebel_ab_BurstTurret)](rebel_ab_BurstTurret.html)
+  * [Mortar Turret (rebel_ab_Mortar)](rebel_ab_Mortar.html)
+  * [Rapid Fire Turret (rebel_ab_RapidFireTurret)](rebel_ab_RapidFireTurret.html)
+  * [Rocket Turret (rebel_ab_RocketTurret)](rebel_ab_RocketTurret.html)
+  * ["bld_title_rebelphBlue" (rebelphBlue)](rebelphBlue.html)
+  * ["bld_title_rebelphGreen" (rebelphGreen)](rebelphGreen.html)
+  * ["bld_title_rebelphRed" (rebelphRed)](rebelphRed.html)
+  * ["bld_title_storyRebShieldGen" (storyRebShieldGen)](storyRebShieldGen.html)
+
+### Tusken Raiders
+
+  * ["bld_title_fue_tuskenFakeRifleman" (fue_tuskenFakeRifleman)](fue_tuskenFakeRifleman.html)
+  * ["bld_title_infestedSmugglerWarehouse" (infestedSmugglerWarehouse)](infestedSmugglerWarehouse.html)
+  * ["bld_title_turretAwesome" (turretAwesome)](turretAwesome.html)
+  * ["bld_title_turretLame" (turretLame)](turretLame.html)
+  * ["bld_title_tuskenAutoTurret" (tuskenAutoTurret)](tuskenAutoTurret.html)
+  * ["bld_title_tuskenAutoTurretLocked" (tuskenAutoTurretLocked)](tuskenAutoTurretLocked.html)
+  * ["bld_title_tuskenBurstTurret" (tuskenBurstTurret)](tuskenBurstTurret.html)
+  * ["bld_title_tuskenDroidHut" (tuskenDroidHut)](tuskenDroidHut.html)
+  * ["bld_title_tuskenFlag" (tuskenFlag)](tuskenFlag.html)
+  * [Tusken Raider HQ (tuskenHQ)](tuskenHQ.html)
+  * ["bld_title_tuskenHQLocked" (tuskenHQLocked)](tuskenHQLocked.html)
+  * [Tusken Dwelling (tuskenHouseLarge)](tuskenHouseLarge.html)
+  * [Tusken Tent (tuskenHouseSmall)](tuskenHouseSmall.html)
+  * ["bld_title_tuskenHouseSmallAreaDeny" (tuskenHouseSmallAreaDeny)](tuskenHouseSmallAreaDeny.html)
+  * ["bld_title_tuskenMortar" (tuskenMortar)](tuskenMortar.html)
+  * ["bld_title_tuskenRaiderFakeBuildingA" (tuskenRaiderFakeBuildingA)](tuskenRaiderFakeBuildingA.html)
+  * ["bld_title_tuskenRaiderFakeBuildingB" (tuskenRaiderFakeBuildingB)](tuskenRaiderFakeBuildingB.html)
+  * ["bld_title_tuskenRaiderFakeBuildingC" (tuskenRaiderFakeBuildingC)](tuskenRaiderFakeBuildingC.html)
+  * ["bld_title_tuskenRocketTurret" (tuskenRocketTurret)](tuskenRocketTurret.html)
+  * ["bld_title_tuskenStorage" (tuskenStorage)](tuskenStorage.html)
+  * ["bld_title_tuskenWallLocked" (tuskenWallLocked)](tuskenWallLocked.html)
 
 ### Other units
 
@@ -269,32 +319,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Womp Rat Warren (wompRatNestLarge)](wompRatNestLarge.html)
   * [Womp Rat Nest  (wompRatNestSmall)](wompRatNestSmall.html)
 
-### Rebellion
-
-  * ["bld_title_forestShieldGeneratorSpecial" (forestShieldGeneratorSpecial)](forestShieldGeneratorSpecial.html)
-  * ["bld_title_rebelContrabandCantinaLocked" (rebelContrabandCantinaLocked)](rebelContrabandCantinaLocked.html)
-  * ["bld_title_rebelDefenseGenerator" (rebelDefenseGenerator)](rebelDefenseGenerator.html)
-  * [Droid Hut (rebelDroidHut)](rebelDroidHut.html)
-  * [Headquarters (rebelHQ)](rebelHQ.html)
-  * ["bld_title_rebelMiningComplex" (rebelMiningComplex)](rebelMiningComplex.html)
-  * ["bld_title_rebelMunitionsPlant" (rebelMunitionsPlant)](rebelMunitionsPlant.html)
-  * ["bld_title_rebelNavigationCenterLocked" (rebelNavigationCenterLocked)](rebelNavigationCenterLocked.html)
-  * ["bld_title_rebelOrganicsLab" (rebelOrganicsLab)](rebelOrganicsLab.html)
-  * ["bld_title_rebelRubble" (rebelRubble)](rebelRubble.html)
-  * ["bld_title_rebelRubbleWall" (rebelRubbleWall)](rebelRubbleWall.html)
-  * ["bld_title_rebelShuttleIdle" (rebelShuttleIdle)](rebelShuttleIdle.html)
-  * [Squad Center (rebelSquadBuilding)](rebelSquadBuilding.html)
-  * ["bld_title_rebelStarshipWeaponsDepot" (rebelStarshipWeaponsDepot)](rebelStarshipWeaponsDepot.html)
-  * ["bld_title_rebelWeaponsFactory" (rebelWeaponsFactory)](rebelWeaponsFactory.html)
-  * [Burst Turret (rebel_ab_BurstTurret)](rebel_ab_BurstTurret.html)
-  * [Mortar Turret (rebel_ab_Mortar)](rebel_ab_Mortar.html)
-  * [Rapid Fire Turret (rebel_ab_RapidFireTurret)](rebel_ab_RapidFireTurret.html)
-  * [Rocket Turret (rebel_ab_RocketTurret)](rebel_ab_RocketTurret.html)
-  * ["bld_title_rebelphBlue" (rebelphBlue)](rebelphBlue.html)
-  * ["bld_title_rebelphGreen" (rebelphGreen)](rebelphGreen.html)
-  * ["bld_title_rebelphRed" (rebelphRed)](rebelphRed.html)
-  * ["bld_title_storyRebShieldGen" (storyRebShieldGen)](storyRebShieldGen.html)
-
 ### Independant units
 
   * ["bld_title_awesomeBuilding" (awesomeBuilding)](awesomeBuilding.html)
@@ -353,28 +377,4 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * ["bld_title_tatooineHouseLarge" (tatooineHouseLarge)](tatooineHouseLarge.html)
   * ["bld_title_tatooineHouseSmall" (tatooineHouseSmall)](tatooineHouseSmall.html)
   * ["bld_title_tatooineSettlerHut" (tatooineSettlerHut)](tatooineSettlerHut.html)
-
-### Tusken Raiders
-
-  * ["bld_title_fue_tuskenFakeRifleman" (fue_tuskenFakeRifleman)](fue_tuskenFakeRifleman.html)
-  * ["bld_title_infestedSmugglerWarehouse" (infestedSmugglerWarehouse)](infestedSmugglerWarehouse.html)
-  * ["bld_title_turretAwesome" (turretAwesome)](turretAwesome.html)
-  * ["bld_title_turretLame" (turretLame)](turretLame.html)
-  * ["bld_title_tuskenAutoTurret" (tuskenAutoTurret)](tuskenAutoTurret.html)
-  * ["bld_title_tuskenAutoTurretLocked" (tuskenAutoTurretLocked)](tuskenAutoTurretLocked.html)
-  * ["bld_title_tuskenBurstTurret" (tuskenBurstTurret)](tuskenBurstTurret.html)
-  * ["bld_title_tuskenDroidHut" (tuskenDroidHut)](tuskenDroidHut.html)
-  * ["bld_title_tuskenFlag" (tuskenFlag)](tuskenFlag.html)
-  * [Tusken Raider HQ (tuskenHQ)](tuskenHQ.html)
-  * ["bld_title_tuskenHQLocked" (tuskenHQLocked)](tuskenHQLocked.html)
-  * [Tusken Dwelling (tuskenHouseLarge)](tuskenHouseLarge.html)
-  * [Tusken Tent (tuskenHouseSmall)](tuskenHouseSmall.html)
-  * ["bld_title_tuskenHouseSmallAreaDeny" (tuskenHouseSmallAreaDeny)](tuskenHouseSmallAreaDeny.html)
-  * ["bld_title_tuskenMortar" (tuskenMortar)](tuskenMortar.html)
-  * ["bld_title_tuskenRaiderFakeBuildingA" (tuskenRaiderFakeBuildingA)](tuskenRaiderFakeBuildingA.html)
-  * ["bld_title_tuskenRaiderFakeBuildingB" (tuskenRaiderFakeBuildingB)](tuskenRaiderFakeBuildingB.html)
-  * ["bld_title_tuskenRaiderFakeBuildingC" (tuskenRaiderFakeBuildingC)](tuskenRaiderFakeBuildingC.html)
-  * ["bld_title_tuskenRocketTurret" (tuskenRocketTurret)](tuskenRocketTurret.html)
-  * ["bld_title_tuskenStorage" (tuskenStorage)](tuskenStorage.html)
-  * ["bld_title_tuskenWallLocked" (tuskenWallLocked)](tuskenWallLocked.html)
 

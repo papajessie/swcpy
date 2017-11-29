@@ -48,10 +48,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Repair Droid (Technician)](Technician.html)
   * [Imperial Starfighter Pilot (TiePilot)](TiePilot.html)
 
-### Other units
-
-  * ["trp_title_WorkerDroid" (WorkerDroid)](WorkerDroid.html)
-
 ### Rebellion
 
   * [AAT-1 Hover Tank (AAT1)](AAT1.html)
@@ -93,6 +89,25 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Wookiee Warrior (Wookie)](Wookie.html)
   * [Alliance Starfighter Pilot (XWingPilot)](XWingPilot.html)
 
+### Tusken Raiders
+
+  * [Tusken (FUETroopTuskenWeak)](FUETroopTuskenWeak.html)
+  * ["trp_title_FueSmuggler" (FueSmuggler)](FueSmuggler.html)
+  * ["trp_title_FueTusken" (FueTusken)](FueTusken.html)
+  * [Tusken Raider (Tusken)](Tusken.html)
+  * [Tusken Bantha Rider (TuskenBantha)](TuskenBantha.html)
+  * [Tusken Chieftain (TuskenHero)](TuskenHero.html)
+  * [Tusken Raider (TuskenMelee)](TuskenMelee.html)
+  * [Smuggler (fueTroopSmuggler)](fueTroopSmuggler.html)
+  * [Tusken Warrior (fueTroopTusken)](fueTroopTusken.html)
+  * [Smuggler (fue_troop_attackingSmuggler)](fue_troop_attackingSmuggler.html)
+  * [Smuggler (fue_troop_smuggler)](fue_troop_smuggler.html)
+  * ["trp_title_troopAwesome" (troopAwesome)](troopAwesome.html)
+
+### Other units
+
+  * ["trp_title_WorkerDroid" (WorkerDroid)](WorkerDroid.html)
+
 ### Independant units
 
   * [Er'Kit Militia Bruiser (ErkitBruiser)](ErkitBruiser.html)
@@ -116,21 +131,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Mercenary Thief (SmugglerThief)](SmugglerThief.html)
   * [Womp Rat (WompRat)](WompRat.html)
   * [AT-ST (fue_ATST)](fue_ATST.html)
-
-### Tusken Raiders
-
-  * [Tusken (FUETroopTuskenWeak)](FUETroopTuskenWeak.html)
-  * ["trp_title_FueSmuggler" (FueSmuggler)](FueSmuggler.html)
-  * ["trp_title_FueTusken" (FueTusken)](FueTusken.html)
-  * [Tusken Raider (Tusken)](Tusken.html)
-  * [Tusken Bantha Rider (TuskenBantha)](TuskenBantha.html)
-  * [Tusken Chieftain (TuskenHero)](TuskenHero.html)
-  * [Tusken Raider (TuskenMelee)](TuskenMelee.html)
-  * [Smuggler (fueTroopSmuggler)](fueTroopSmuggler.html)
-  * [Tusken Warrior (fueTroopTusken)](fueTroopTusken.html)
-  * [Smuggler (fue_troop_attackingSmuggler)](fue_troop_attackingSmuggler.html)
-  * [Smuggler (fue_troop_smuggler)](fue_troop_smuggler.html)
-  * ["trp_title_troopAwesome" (troopAwesome)](troopAwesome.html)
 
 ## Other units
 
@@ -203,6 +203,13 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Sullustan Recon Sharpshooter (SullustanSample)](SullustanSample.html)
   * [Rancor (promoRancorRebel)](promoRancorRebel.html)
 
+### Tusken Raiders
+
+  * [UrUr (UrUr)](UrUr.html)
+  * [Alpha Womp Rat (WompRatAlpha)](WompRatAlpha.html)
+  * [Heavy Womp Rat (WompRatBruiser)](WompRatBruiser.html)
+  * [Womp Rat (WompRatGeneralist)](WompRatGeneralist.html)
+
 ### Independant units
 
   * [Krayt Dragon (KraytDragon)](KraytDragon.html)
@@ -214,11 +221,4 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * ["trp_title_SmugglerJawaTinker" (SmugglerJawaTinker)](SmugglerJawaTinker.html)
   * [Scout Undead Trooper (SmugglerScoutDeath)](SmugglerScoutDeath.html)
   * [Undead Trooper (SmugglerStormDeath)](SmugglerStormDeath.html)
-
-### Tusken Raiders
-
-  * [UrUr (UrUr)](UrUr.html)
-  * [Alpha Womp Rat (WompRatAlpha)](WompRatAlpha.html)
-  * [Heavy Womp Rat (WompRatBruiser)](WompRatBruiser.html)
-  * [Womp Rat (WompRatGeneralist)](WompRatGeneralist.html)
 

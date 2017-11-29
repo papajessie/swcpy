@@ -19,10 +19,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [TIE Interceptor (TieInterceptor)](TieInterceptor.html)
   * [VT-49 Decimator (VT49)](VT49.html)
 
-### Other units
-
-  * ["shp_title_FreighterNeutral" (FreighterNeutral)](FreighterNeutral.html)
-
 ### Rebellion
 
   * [A-wing Starfighter (AWing)](AWing.html)
@@ -34,6 +30,10 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [X-wing Starfighter (XWing)](XWing.html)
   * [Y-wing Bomber (YWing)](YWing.html)
   * [Z-95 Headhunter (Z95)](Z95.html)
+
+### Other units
+
+  * ["shp_title_FreighterNeutral" (FreighterNeutral)](FreighterNeutral.html)
 
 ### Independant units
 
