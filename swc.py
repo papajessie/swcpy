@@ -20,10 +20,6 @@ planet='planet1'
 xdate=date.today().isoformat()
 
 elements=[]
-cratedata={}
-crateitemdata={}
-cratescaledata={}
-basedata={}
 langdata={}
 data={}
 config={'table':[],'lang':'en-US','output':'list'}
@@ -846,7 +842,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament,crate,unit,equip,air'
+        mode='tournament,crate,unit,equip,air,translate'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -863,12 +859,6 @@ def main(argv):
     # Modes in one single phase
     xhelp['translate']='Searches a string ID through the SWC catalog and translates it.'
     morehelp['translate']={'':'keys to be searched  (cumulative, default: all strings)'}
-    if ('translate' in modes):
-        if len(elements)==0:
-            elements=sorted(langdata.keys())
-        for t in elements:
-            string=_(t)
-            print('{0};{1}'.format(t,repr(string)))
     xhelp['table']='List all keys from specific tables'
     morehelp['table']={'table':'table to search keys from (cumulative, default: all tables)','':'keys to be searched'}
     if (mode == 'table'):
@@ -972,6 +962,25 @@ def main(argv):
     # Output phase
     out=[]
     outputs=config['output'].split(",")
+    if ('translate' in modes):
+        if len(elements)==0:
+            elements=sorted(langdata.keys())
+        if ('md' in outputs):
+            with open("docs/{0}.md".format('translate'),"w") as file:
+                addtodisplay(displayed,'index','translate')
+                file.write("---\ntitle: {1} ({0})\ncategory: strings\n---\n".format('translate','Translation strings'))
+                file.write("# {1} ({0}) — version {2}\n\n".format('translate','Translation strings',config['version']))
+                for t in elements:
+                    string=_(t)
+                    file.write('  * **{0}**: {1}\n'.format(t,repr(string)))
+        if ('list' in outputs):
+            for t in elements:
+                string=_(t)
+                print('{0};{1}\n'.format(t,repr(string)))
+        if ('csv' in outputs):
+            for t in elements:
+                string=_(t)
+                print('"{0}";"{1}"'.format(t,repr(string).replace('"','""')))
     if ('tournament' in displayed):
         if ('list' in outputs):
             output_listheader_tournament(out,objects,getdisplayed(displayed,'tournament'))
