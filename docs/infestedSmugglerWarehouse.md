@@ -28,6 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: 250 All.
   * Building: [Tusken Raider HQ 1](tuskenHQ.html)
 
 ### Upgrading stats

@@ -30,10 +30,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level     |1                                                     |2                              |3-4                            |5-6                            |7-8                             |
-|----------|------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Building 0|[Headquarters 7](empireHQ.html)                       |[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-|Building 1|[Contraband Safehouse 1](empireContrabandStorage.html)|None                           |None                           |None                           |None                            |
+|Level        |1                                                     |2                              |3                              |4                              |5                              |6                              |7                               |8                               |
+|-------------|------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|
+|Training cost|350000$                                               |730000$                        |1110000$                       |1125000$                       |2600000$                       |3100000$                       |4600000$                        |5000000$                        |
+|Building 1   |[Headquarters 7](empireHQ.html)                       |[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+|Building 2   |[Contraband Safehouse 1](empireContrabandStorage.html)|None                           |None                           |None                           |None                           |None                           |None                            |None                            |
 
 
 ### Upgrading stats

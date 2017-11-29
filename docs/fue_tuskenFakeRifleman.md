@@ -26,6 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: Free
   * Building: [Tusken Raider HQ 1](tuskenHQ.html)
 
 ### Upgrading stats

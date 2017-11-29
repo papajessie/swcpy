@@ -31,9 +31,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1-2                            |3                              |4                              |5                              |6                               |
-|--------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Building|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+|Level        |1                              |2                              |3                              |4                              |5                              |6                               |
+|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
+|Training cost|10000$                         |550000$                        |700000$                        |1500000$                       |3000000$                       |4000000$                        |
+|Building     |[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
 
 
 ### Upgrading stats

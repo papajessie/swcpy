@@ -30,6 +30,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Headquarters 2](rebelHQ.html)
 
+|Level        |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Training time|4m  |4m2s |4m4s |4m7s |4m10s|4m13s|4m16s|4m20s|4m24s|4m30s|
+|Training cost|990$|1030$|1070$|1120$|1170$|1350$|1530$|1800$|1890$|2070$|
+
+
 ### Upgrading stats
 
   * Upgrade time: 0s

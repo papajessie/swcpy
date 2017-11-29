@@ -28,6 +28,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 5s
+  * Training cost: Free
 
 ### Upgrading stats
 

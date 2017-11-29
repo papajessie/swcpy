@@ -28,6 +28,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 1m
+  * Training cost: 690$
   * Building: [Barracks 4](smugglerBarracks.html)
 
 ### Upgrading stats

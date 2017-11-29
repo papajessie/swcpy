@@ -28,7 +28,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: Free
   * Building: [Headquarters 1](empireHQ.html)
+
+|Level        |1   |2    |3    |4    |5    |6    |7   |8-10 |
+|-------------|----|-----|-----|-----|-----|-----|----|-----|
+|Training time|1h8m|1h18m|1h28m|1h39m|1h48m|1h58m|2h8m|2h19m|
+
 
 ### Upgrading stats
 

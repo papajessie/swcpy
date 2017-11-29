@@ -26,9 +26,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1-5                           |6                             |7                             |8                             |9                             |10                             |
-|--------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Building|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level        |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
+|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
+|Training cost|600 All.                      |2000 All.                     |10000 All.                    |30000 All.                    |60000 All.                    |160000 All.                   |350000 All.                   |500000 All.                   |800000 All.                   |1500000 All.                   |
+|Building     |[Headquarters 5](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
 
 
 ### Upgrading stats

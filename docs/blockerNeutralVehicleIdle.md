@@ -27,6 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: 1 All.
   * Building: ["bld_title_syndicateHQ" 10](syndicateHQ.html)
 
 ### Upgrading stats

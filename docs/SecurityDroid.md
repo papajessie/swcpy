@@ -28,9 +28,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1                                        |2                                      |3-5                                    |
-|--------|-----------------------------------------|---------------------------------------|---------------------------------------|
-|Building|[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
+|Level        |1                                        |2                                      |3                                      |4                                      |5                                      |
+|-------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Training time|5m45s                                    |6m43s                                  |7m47s                                  |8m57s                                  |10m13s                                 |
+|Training cost|50 Con.                                  |85 Con.                                |115 Con.                               |145 Con.                               |175 Con.                               |
+|Building     |[Cantina 1](empireContrabandCantina.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|
 
 
 ### Upgrading stats

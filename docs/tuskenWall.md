@@ -30,6 +30,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: 1 All.
+
 |Level   |1                                  |2                                  |3                                  |4                                  |5                                  |
 |--------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 |Building|[Tusken Raider HQ 1](tuskenHQ.html)|[Tusken Raider HQ 2](tuskenHQ.html)|[Tusken Raider HQ 3](tuskenHQ.html)|[Tusken Raider HQ 4](tuskenHQ.html)|[Tusken Raider HQ 5](tuskenHQ.html)|

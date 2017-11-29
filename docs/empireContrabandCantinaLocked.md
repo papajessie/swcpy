@@ -32,6 +32,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Headquarters 10](empireHQ.html)
 
+|Level        |9       |10      |
+|-------------|--------|--------|
+|Training cost|2000000$|3500000$|
+
+
 ### Upgrading stats
 
   * Upgrade requirements: Nothing

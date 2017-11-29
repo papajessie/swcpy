@@ -21,6 +21,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+|Level        |1    |2     |3     |4    |5     |6     |7     |8     |9     |10    |
+|-------------|-----|------|------|-----|------|------|------|------|------|------|
+|Training time|15m  |15m20s|15m40s|16m  |16m20s|16m40s|17m   |17m20s|17m40s|18m   |
+|Training cost|4000$|4500$ |5000$ |7500$|8000$ |10500$|11000$|13500$|14000$|16500$|
+
 
 ### Upgrading stats
 

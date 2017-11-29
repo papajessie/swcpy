@@ -31,6 +31,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: Free
+
 |Level   |1-2                              |3-4                              |5-6                              |7-9                              |10                                |
 |--------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
 |Building|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|

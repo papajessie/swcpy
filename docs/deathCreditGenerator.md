@@ -35,6 +35,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
+|Level        |1       |2        |3         |4         |5         |6          |7          |8          |9           |10          |
+|-------------|--------|---------|----------|----------|----------|-----------|-----------|-----------|------------|------------|
+|Training cost|750 All.|2000 All.|10000 All.|30000 All.|60000 All.|175000 All.|350000 All.|750000 All.|2000000 All.|3500000 All.|
+
+
 ### Upgrading stats
 
   * Upgrade requirements: Nothing

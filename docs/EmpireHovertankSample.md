@@ -30,6 +30,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Headquarters 2](empireHQ.html)
 
+|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Training time|3m20s|3m40s|3m50s|4m   |4m10s|4m20s|4m30s|4m40s|4m50s|5m   |
+|Training cost|500$ |700$ |900$ |1100$|1300$|1500$|1700$|2000$|2100$|2300$|
+
+
 ### Upgrading stats
 
   * Upgrade time: 0s

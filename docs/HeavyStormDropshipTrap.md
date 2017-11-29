@@ -30,6 +30,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Research Lab 2](empireOffenseLab.html)
 
+|Level        |1    |2    |3    |4    |5    |6    |7    |8    |9    |10  |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|----|
+|Training time|1m20s|1m28s|1m32s|1m36s|1m40s|1m44s|1m48s|1m52s|1m56s|2m  |
+|Training cost|200$ |280$ |360$ |440$ |520$ |600$ |680$ |800$ |840$ |920$|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |

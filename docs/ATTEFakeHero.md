@@ -24,6 +24,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 9m20s
+  * Training cost: 4400$
   * Building: [Research Lab 10](rebelOffenseLab.html)
 
 ### Upgrading stats

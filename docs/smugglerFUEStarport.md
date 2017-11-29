@@ -28,6 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training cost: 2500 All.
   * Building: [Alloy Depot 1](smugglerMaterialsStorage.html)
 
 ### Upgrading stats

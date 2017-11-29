@@ -17,6 +17,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 6m
+  * Training cost: 100000$
   * Building: [Headquarters 10](smugglerHQ.html)
 
 ### Upgrading stats

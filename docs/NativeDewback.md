@@ -30,6 +30,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Building: [Barracks 4](smugglerBarracks.html)
 
+|Level        |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|-------------|----|----|----|----|----|----|----|----|----|----|
+|Training time|42s |44s |46s |48s |50s |52s |54s |56s |58s |1m  |
+|Training cost|150$|210$|270$|330$|390$|450$|510$|570$|630$|690$|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |

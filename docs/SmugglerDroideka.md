@@ -28,9 +28,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level   |1-6                                                                    |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
-|--------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
-|Building|["bld_title_smugglerPlatformDroideka" 6](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 7](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 8](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 9](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 10](smugglerPlatformDroideka.html)|
+  * Training cost: Free
+
+|Level        |1-5                                                                    |6                                                                      |7                                                                      |8                                                                      |9                                                                      |10                                                                      |
+|-------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
+|Training time|1h                                                                     |1h8m                                                                   |1h18m                                                                  |1h58m                                                                  |2h16m                                                                  |2h19m                                                                   |
+|Building     |["bld_title_smugglerPlatformDroideka" 6](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 6](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 7](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 8](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 9](smugglerPlatformDroideka.html)|["bld_title_smugglerPlatformDroideka" 10](smugglerPlatformDroideka.html)|
 
 
 ### Upgrading stats

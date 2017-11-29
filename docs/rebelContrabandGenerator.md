@@ -32,10 +32,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level     |1                                                    |2-3                           |4-7                           |8-9                           |10                             |
-|----------|-----------------------------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Building 0|[Headquarters 7](rebelHQ.html)                       |[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-|Building 1|[Contraband Safehouse 1](rebelContrabandStorage.html)|None                          |None                          |None                          |None                           |
+|Level        |1                                                    |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
+|-------------|-----------------------------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
+|Training cost|810000$                                              |820000$                       |840000$                       |900000$                       |1050000$                      |1275000$                      |1290000$                      |3520000$                      |3600000$                      |4200000$                       |
+|Building 1   |[Headquarters 7](rebelHQ.html)                       |[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Building 2   |[Contraband Safehouse 1](rebelContrabandStorage.html)|None                          |None                          |None                          |None                          |None                          |None                          |None                          |None                          |None                           |
 
 
 ### Upgrading stats

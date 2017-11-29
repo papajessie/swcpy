@@ -17,6 +17,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 8m
+  * Training cost: 2500$
   * Building: [Starship Command 10](empireFleetCommand.html)
 
 ### Upgrading stats
