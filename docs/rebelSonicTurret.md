@@ -50,24 +50,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Targeting
 
-  * Turret headquarters: 60
-  * Turret heavy infantry: 80
-  * Turret heavy vehicle: 80
-  * Turret other building: 60
-  * Turret droideka: 80
-  * Turret flying infantry: 60
-  * Turret flying vehicle: 60
-  * Turret support troop: 60
-  * Turret heavy infantry hero: 1
-  * Turret heavy vehicule hero: 1
-  * Turret infantry hero: 1
-  * Turret vehicule hero: 1
-  * Turret infantry: 60
-  * Turret ressource generator: 60
-  * Turret storage: 60
-  * Turret turret: 60
-  * Turret light vehicle: 60
-  * Turret wall: 1
+  * Turret max attack range: 10
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret target preferences: **Turret droideka (80)**, **Turret heavy infantry (80)**, **Turret heavy vehicle (80)**, _Turret flying infantry (60)_, _Turret flying vehicle (60)_, _Turret headquarters (60)_, _Turret infantry (60)_, _Turret light vehicle (60)_, _Turret other building (60)_, _Turret ressource generator (60)_, _Turret storage (60)_, _Turret support troop (60)_, _Turret turret (60)_, Turret heavy infantry hero (1), Turret heavy vehicule hero (1), Turret infantry hero (1), Turret vehicule hero (1), Turret wall (1)
+  * Turret view range: 10
 
 ### Shooting
 

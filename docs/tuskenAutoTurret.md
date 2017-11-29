@@ -52,27 +52,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Targeting
 
-  * Turret headquarters: 60
-  * Turret heavy infantry: 60
-  * Turret heavy vehicle: 60
-  * Turret other building: 60
-  * Turret droideka: 60
-  * Turret flying infantry: 60
-  * Turret flying vehicle: 60
-  * Turret heavy infantry hero: 1
-  * Turret heavy vehicule hero: 1
-  * Turret infantry hero: 1
-  * Turret vehicule hero: 1
-  * Turret infantry: 60
-  * Turret ressource generator: 60
-  * Turret storage: 60
-  * Turret turret: 60
-  * Turret light vehicle: 60
-  * Turret wall: 1
+  * Turret min attack range: 0
+  * Turret target preference strength: 90
+  * Turret view range: 10
 
-|Level               |1-4|5  |
-|--------------------|---|---|
-|Turret support troop|60 |100|
+|Level                    |1-4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Turret max attack range  |8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|Turret target preferences|**Turret droideka (60)**, **Turret flying infantry (60)**, **Turret flying vehicle (60)**, **Turret headquarters (60)**, **Turret heavy infantry (60)**, **Turret heavy vehicle (60)**, **Turret infantry (60)**, **Turret light vehicle (60)**, **Turret other building (60)**, **Turret ressource generator (60)**, **Turret storage (60)**, **Turret support troop (60)**, **Turret turret (60)**, Turret heavy infantry hero (1), Turret heavy vehicule hero (1), Turret infantry hero (1), Turret vehicule hero (1), Turret wall (1)|**Turret support troop (100)**, _Turret droideka (60)_, _Turret flying infantry (60)_, _Turret flying vehicle (60)_, _Turret headquarters (60)_, _Turret heavy infantry (60)_, _Turret heavy vehicle (60)_, _Turret infantry (60)_, _Turret light vehicle (60)_, _Turret other building (60)_, _Turret ressource generator (60)_, _Turret storage (60)_, _Turret turret (60)_, Turret heavy infantry hero (1), Turret heavy vehicule hero (1), Turret infantry hero (1), Turret vehicule hero (1), Turret wall (1)|
 
 
 ### Shooting
