@@ -110,6 +110,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Smuggler Looter (SmugglerLooter)](SmugglerLooter.html)
   * [Mercenary Pistoleer (SmugglerPistoleer)](SmugglerPistoleer.html)
   * [Smuggler Renegade (SmugglerRenegade)](SmugglerRenegade.html)
+  * [Jawa Saboteur (SmugglerSaboteur)](SmugglerSaboteur.html)
   * [Mercenary Renegade (SmugglerSpeeder)](SmugglerSpeeder.html)
   * [Smuggler Bruiser (SmugglerTank)](SmugglerTank.html)
   * [Mercenary Thief (SmugglerThief)](SmugglerThief.html)
@@ -211,7 +212,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Mercenary Saboteur (SmugglerJawa)](SmugglerJawa.html)
   * ["trp_title_SmugglerJawaTalking" (SmugglerJawaTalking)](SmugglerJawaTalking.html)
   * ["trp_title_SmugglerJawaTinker" (SmugglerJawaTinker)](SmugglerJawaTinker.html)
-  * [Jawa Saboteur (SmugglerSaboteur)](SmugglerSaboteur.html)
   * [Scout Undead Trooper (SmugglerScoutDeath)](SmugglerScoutDeath.html)
   * [Undead Trooper (SmugglerStormDeath)](SmugglerStormDeath.html)
 

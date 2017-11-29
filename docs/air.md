@@ -35,6 +35,10 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Y-wing Bomber (YWing)](YWing.html)
   * [Z-95 Headhunter (Z95)](Z95.html)
 
+### Independant units
+
+  * ["shp_title_SmugglerFreighter" (SmugglerFreighter)](SmugglerFreighter.html)
+
 ## Other units
 
 ### Empire
@@ -66,5 +70,4 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
   * ["shp_title_FueTieFighter" (FueTieFighter)](FueTieFighter.html)
   * ["shp_title_FueXWing" (FueXWing)](FueXWing.html)
-  * ["shp_title_SmugglerFreighter" (SmugglerFreighter)](SmugglerFreighter.html)
 
