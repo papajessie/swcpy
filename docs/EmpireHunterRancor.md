@@ -3,7 +3,7 @@ title: Hunter Rancor (EmpireHunterRancor)
 category: unit
 ---
 
-# Hunter Rancor (EmpireHunterRancor) — version 1099
+# Hunter Rancor (EmpireHunterRancor) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

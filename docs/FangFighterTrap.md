@@ -3,7 +3,7 @@ title: "shp_title_FangFighterTrap" (FangFighterTrap)
 category: air
 ---
 
-# "shp_title_FangFighterTrap" (FangFighterTrap) — version 1099
+# "shp_title_FangFighterTrap" (FangFighterTrap) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Upgrading stats
 
   * Upgrade time: 1s
-  * Upgrade requirements: 1$, 1 All.
+  * Upgrade requirements: 1 All., 1$
 
 ### Movement stats
 

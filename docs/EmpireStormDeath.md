@@ -3,7 +3,7 @@ title: Undead Trooper (EmpireStormDeath)
 category: unit
 ---
 
-# Undead Trooper (EmpireStormDeath) — version 1099
+# Undead Trooper (EmpireStormDeath) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Rodian Recon Sniper (RodianSample)
 category: unit
 ---
 
-# Rodian Recon Sniper (RodianSample) — version 1099
+# Rodian Recon Sniper (RodianSample) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -127,7 +127,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
-  * New target on reload: No
+  * New target on reload: Yes
   * Can shoot over walls: No
   * Time between end of clip and start of clip: 1.500s
   * Retargeting offset: 20

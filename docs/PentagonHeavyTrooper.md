@@ -3,7 +3,7 @@ title: Heavy Shoretrooper (PentagonHeavyTrooper)
 category: unit
 ---
 
-# Heavy Shoretrooper (PentagonHeavyTrooper) — version 1099
+# Heavy Shoretrooper (PentagonHeavyTrooper) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

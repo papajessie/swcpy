@@ -3,7 +3,7 @@ title: Heroic Data Fragment Crate (lc_vertCrateHero_B)
 category: crate
 ---
 
-# Heroic Data Fragment Crate (lc_vertCrateHero_B) — version 1099
+# Heroic Data Fragment Crate (lc_vertCrateHero_B) — version 1100
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -14,33 +14,45 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
 
 ### Empire
 
-  * (2/44) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (2/44) 4 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (2/44) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (2/44) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (4/44) 3 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (4/44) 3 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (4/44) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (4/44) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (5/44) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (5/44) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
-  * (5/44) 2 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-  * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (2/62) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (2/62) 4 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (2/62) 4 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (2/62) 4 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
+  * (2/62) 4 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (2/62) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (2/62) 4 data fragments of unlockable troop [SD-K4](HeroEmpireSpiderDroid)
+  * (4/62) 3 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (4/62) 3 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (4/62) 3 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (4/62) 3 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
+  * (4/62) 3 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
+  * (4/62) 3 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (4/62) 3 data fragments of unlockable troop [SD-K4](HeroEmpireSpiderDroid)
+  * (5/62) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (5/62) 2 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
+  * (5/62) 2 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
+  * (5/62) 2 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
 ### Rebellion
 
-  * (2/44) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (2/44) 4 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (2/44) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (2/44) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (4/44) 3 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (4/44) 3 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (4/44) 3 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (4/44) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (5/44) 2 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (5/44) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (5/44) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (5/44) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (2/62) 4 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (2/62) 4 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (2/62) 4 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
+  * (2/62) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (2/62) 4 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (2/62) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (2/62) 4 data fragments of unlockable troop [Modified SD-K4](HeroRebelSpiderDroid)
+  * (4/62) 3 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (4/62) 3 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (4/62) 3 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
+  * (4/62) 3 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (4/62) 3 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
+  * (4/62) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (4/62) 3 data fragments of unlockable troop [Modified SD-K4](HeroRebelSpiderDroid)
+  * (5/62) 2 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (5/62) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (5/62) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (5/62) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Fallback for HQ level 10
 

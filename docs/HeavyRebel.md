@@ -3,7 +3,7 @@ title: Heavy Soldier (HeavyRebel)
 category: unit
 ---
 
-# Heavy Soldier (HeavyRebel) — version 1099
+# Heavy Soldier (HeavyRebel) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

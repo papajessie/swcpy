@@ -3,7 +3,7 @@ title: "shp_title_SmugglerFreighter" (SmugglerFreighter)
 category: air
 ---
 
-# "shp_title_SmugglerFreighter" (SmugglerFreighter) — version 1099
+# "shp_title_SmugglerFreighter" (SmugglerFreighter) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

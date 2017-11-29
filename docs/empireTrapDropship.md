@@ -3,7 +3,7 @@ title: IDT Trap (empireTrapDropship)
 category: building
 ---
 
-# IDT Trap (empireTrapDropship) — version 1099
+# IDT Trap (empireTrapDropship) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

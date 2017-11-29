@@ -3,7 +3,7 @@ title: Factory (empireFactory)
 category: building
 ---
 
-# Factory (empireFactory) — version 1099
+# Factory (empireFactory) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

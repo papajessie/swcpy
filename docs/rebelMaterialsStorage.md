@@ -3,7 +3,7 @@ title: Alloy Depot (rebelMaterialsStorage)
 category: building
 ---
 
-# Alloy Depot (rebelMaterialsStorage) — version 1099
+# Alloy Depot (rebelMaterialsStorage) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

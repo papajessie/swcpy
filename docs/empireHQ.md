@@ -3,7 +3,7 @@ title: Headquarters (empireHQ)
 category: building
 ---
 
-# Headquarters (empireHQ) — version 1099
+# Headquarters (empireHQ) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

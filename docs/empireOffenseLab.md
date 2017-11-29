@@ -3,7 +3,7 @@ title: Research Lab (empireOffenseLab)
 category: building
 ---
 
-# Research Lab (empireOffenseLab) — version 1099
+# Research Lab (empireOffenseLab) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Rocket Turret (empire_ab_RocketTurret)
 category: building
 ---
 
-# Rocket Turret (empire_ab_RocketTurret) — version 1099
+# Rocket Turret (empire_ab_RocketTurret) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

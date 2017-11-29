@@ -3,7 +3,7 @@ title: TIE Fighter Trap (empireTrapStrikeGeneric)
 category: building
 ---
 
-# TIE Fighter Trap (empireTrapStrikeGeneric) — version 1099
+# TIE Fighter Trap (empireTrapStrikeGeneric) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

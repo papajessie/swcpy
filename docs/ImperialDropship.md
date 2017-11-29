@@ -3,7 +3,7 @@ title: Imperial Dropship Transport (ImperialDropship)
 category: air
 ---
 
-# Imperial Dropship Transport (ImperialDropship) — version 1099
+# Imperial Dropship Transport (ImperialDropship) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Wall (smugglerWall)
 category: building
 ---
 
-# Wall (smugglerWall) — version 1099
+# Wall (smugglerWall) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: "bld_title_smugglerOrganicsLab" (smugglerOrganicsLab)
 category: building
 ---
 
-# "bld_title_smugglerOrganicsLab" (smugglerOrganicsLab) — version 1099
+# "bld_title_smugglerOrganicsLab" (smugglerOrganicsLab) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

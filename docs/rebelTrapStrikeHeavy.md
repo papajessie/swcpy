@@ -3,7 +3,7 @@ title: Fang Fighter Trap (rebelTrapStrikeHeavy)
 category: building
 ---
 
-# Fang Fighter Trap (rebelTrapStrikeHeavy) — version 1099
+# Fang Fighter Trap (rebelTrapStrikeHeavy) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

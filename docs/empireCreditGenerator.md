@@ -3,7 +3,7 @@ title: Credit Market (empireCreditGenerator)
 category: building
 ---
 
-# Credit Market (empireCreditGenerator) — version 1099
+# Credit Market (empireCreditGenerator) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

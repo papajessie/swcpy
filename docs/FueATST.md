@@ -3,7 +3,7 @@ title: AT-ST (FueATST)
 category: unit
 ---
 
-# AT-ST (FueATST) — version 1099
+# AT-ST (FueATST) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

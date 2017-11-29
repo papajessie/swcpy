@@ -3,7 +3,7 @@ title: Millennium Falcon Support (eqpRebelChewie)
 category: unit
 ---
 
-# Millennium Falcon Support (eqpRebelChewie) — version 1099
+# Millennium Falcon Support (eqpRebelChewie) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

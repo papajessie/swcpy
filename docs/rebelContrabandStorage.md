@@ -3,7 +3,7 @@ title: Contraband Safehouse (rebelContrabandStorage)
 category: building
 ---
 
-# Contraband Safehouse (rebelContrabandStorage) — version 1099
+# Contraband Safehouse (rebelContrabandStorage) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -78,14 +78,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.62,1.79,-0.46
   * Stash order: 180
 
-|Level                 |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9-17                            |
-|----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Asset name            |warehouse_con-mod-up1           |warehouse_con-mod-up2           |warehouse_con-mod-up3           |warehouse_con-mod-up4           |warehouse_con-mod-up5           |warehouse_con-mod-up6           |warehouse_con-mod-up7           |warehouse_con-mod-up8           |warehouse_con-mod-up9           |
-|Buff asset offset     |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.6,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |
-|Bundle name           |warehouse_con-mod-up1           |warehouse_con-mod-up2           |warehouse_con-mod-up3           |warehouse_con-mod-up4           |warehouse_con-mod-up5           |warehouse_con-mod-up6           |warehouse_con-mod-up7           |warehouse_con-mod-up8           |warehouse_con-mod-up9           |
-|Fill state asset name |warehouse_con-mod-up1_fillStates|warehouse_con-mod-up2_fillStates|warehouse_con-mod-up3_fillStates|warehouse_con-mod-up4_fillStates|warehouse_con-mod-up5_fillStates|warehouse_con-mod-up6_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|
-|Fill state bundle name|warehouse_con-mod-up1_fillStates|warehouse_con-mod-up2_fillStates|warehouse_con-mod-up3_fillStates|warehouse_con-mod-up4_fillStates|warehouse_con-mod-up5_fillStates|warehouse_con-mod-up6_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|
-|Store tab             |resources                       |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |
+|Level                 |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9                               |10-17                           |
+|----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+|Asset name            |warehouse_con-mod-up1           |warehouse_con-mod-up2           |warehouse_con-mod-up3           |warehouse_con-mod-up4           |warehouse_con-mod-up5           |warehouse_con-mod-up6           |warehouse_con-mod-up7           |warehouse_con-mod-up8           |warehouse_con-mod-up9           |warehouse_con-mod-up10          |
+|Buff asset offset     |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.6,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |-1,0.4,-1                       |
+|Bundle name           |warehouse_con-mod-up1           |warehouse_con-mod-up2           |warehouse_con-mod-up3           |warehouse_con-mod-up4           |warehouse_con-mod-up5           |warehouse_con-mod-up6           |warehouse_con-mod-up7           |warehouse_con-mod-up8           |warehouse_con-mod-up9           |warehouse_con-mod-up10          |
+|Fill state asset name |warehouse_con-mod-up1_fillStates|warehouse_con-mod-up2_fillStates|warehouse_con-mod-up3_fillStates|warehouse_con-mod-up4_fillStates|warehouse_con-mod-up5_fillStates|warehouse_con-mod-up6_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|
+|Fill state bundle name|warehouse_con-mod-up1_fillStates|warehouse_con-mod-up2_fillStates|warehouse_con-mod-up3_fillStates|warehouse_con-mod-up4_fillStates|warehouse_con-mod-up5_fillStates|warehouse_con-mod-up6_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|warehouse_con-mod-up7_fillStates|
+|Store tab             |resources                       |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |
 
 
 ## Uninterpreted stats

@@ -3,7 +3,7 @@ title: "bld_title_awesomeBuilding" (awesomeBuilding)
 category: building
 ---
 
-# "bld_title_awesomeBuilding" (awesomeBuilding) — version 1099
+# "bld_title_awesomeBuilding" (awesomeBuilding) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -26,7 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training cost: 1000 All., 1000$
+  * Training cost: 1000$, 1000 All.
 
 ### Upgrading stats
 

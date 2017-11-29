@@ -3,7 +3,7 @@ title: Imperial Starfighter Pilot (TiePilot)
 category: unit
 ---
 
-# Imperial Starfighter Pilot (TiePilot) — version 1099
+# Imperial Starfighter Pilot (TiePilot) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -98,7 +98,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
-  * New target on reload: No
   * Can shoot over walls: No
   * Time between end of clip and start of clip: 800ms
   * Retargeting offset: 8

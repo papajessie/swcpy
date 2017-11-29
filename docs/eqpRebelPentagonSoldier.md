@@ -3,7 +3,7 @@ title: Rebel Commando (eqpRebelPentagonSoldier)
 category: unit
 ---
 
-# Rebel Commando (eqpRebelPentagonSoldier) — version 1099
+# Rebel Commando (eqpRebelPentagonSoldier) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

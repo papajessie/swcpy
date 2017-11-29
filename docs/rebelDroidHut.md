@@ -3,7 +3,7 @@ title: Droid Hut (rebelDroidHut)
 category: building
 ---
 
-# Droid Hut (rebelDroidHut) — version 1099
+# Droid Hut (rebelDroidHut) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

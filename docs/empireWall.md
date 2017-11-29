@@ -3,7 +3,7 @@ title: Wall (empireWall)
 category: building
 ---
 
-# Wall (empireWall) — version 1099
+# Wall (empireWall) — version 1100
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
