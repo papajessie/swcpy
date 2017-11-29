@@ -3,7 +3,7 @@ title: Lord Vader (eqpEmpireLordVader)
 category: unit
 ---
 
-# Lord Vader (eqpEmpireLordVader) — version 1098
+# Lord Vader (eqpEmpireLordVader) — version 1099
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

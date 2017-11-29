@@ -3,7 +3,7 @@ title: "shp_title_TIEBomberTrap" (TIEBomberTrap)
 category: air
 ---
 
-# "shp_title_TIEBomberTrap" (TIEBomberTrap) — version 1098
+# "shp_title_TIEBomberTrap" (TIEBomberTrap) — version 1099
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

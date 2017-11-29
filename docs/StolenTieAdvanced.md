@@ -3,7 +3,7 @@ title: Stolen TIE Advanced (StolenTieAdvanced)
 category: air
 ---
 
-# Stolen TIE Advanced (StolenTieAdvanced) — version 1098
+# Stolen TIE Advanced (StolenTieAdvanced) — version 1099
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

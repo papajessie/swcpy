@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1098
+# Conflicts — version 1099
 
   * [Conflict on Yavin 4 (conflict_yav_20171125)](conflict_yav_20171125.html)
   * [Conflict on Takodana (conflict_tfa_20171125)](conflict_tfa_20171125.html)

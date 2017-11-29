@@ -3,7 +3,7 @@ title: AT-ACT (eqpEmpireCargoGreatDane)
 category: unit
 ---
 
-# AT-ACT (eqpEmpireCargoGreatDane) — version 1098
+# AT-ACT (eqpEmpireCargoGreatDane) — version 1099
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

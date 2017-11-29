@@ -3,7 +3,7 @@ title: Seized X-wing Starfighter (SeizedXwing)
 category: air
 ---
 
-# Seized X-wing Starfighter (SeizedXwing) — version 1098
+# Seized X-wing Starfighter (SeizedXwing) — version 1099
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
