@@ -78,6 +78,13 @@ def importlangfile(lang):
                 langdata[x['uid']]=x['text']
 
 
+def sortside(a):
+    if a=='empire':
+        return -20
+    if a=='rebel':
+        return -19
+    return len(a)
+
 def camel_case_to_phrase(s):
     prev = None
     t = []
@@ -258,11 +265,16 @@ def initstat():
         'upgrades':'Upgrade requirements',
         'sizes':'Unit size on map',
         'uiDecalAssetName': 'UI decal asset name',
+        'DPS': 'Calculated damage per second',
+        'DPSS': 'Calculated damage per clip',
+        'mults': 'damage multipliers',
         'projectile:DPS': 'Calculated damage per second',
-        'projectile:DPSS': 'Calculated damage per salvo',
+        'projectile:DPSS': 'Calculated damage per clip',
         'projectile:mults': 'Damage multipliers',
         'equipment:planetIDs': 'Planets where equipment is available',
         'equipment:affectedTroopIds': 'Affected units',
+        'building:storage': 'Maximum capacity',
+        'building:production': 'Hourly production',
         '':''
     }
     config['statrole']={
@@ -330,6 +342,7 @@ def initstat():
         'maxScale': 'unknown',
         'order': 'unknown',
         'pathSearchWidth': 'move',
+        'planetAttachmentId': 'internal',
         'playerFacing': 'basic',
         'pointValue': 'unknown',
         'preventDonation': 'basic',
@@ -599,6 +612,47 @@ def initstat():
         'unitCount': 'nodisplay',
         'specialAttackID': 'nodisplay',
         'specialAttackName': 'nodisplay',
+        # below are roles reserved to buildings
+        'activationRadius': 'basic',
+        'hideIfLocked': 'basic',
+        'forceReticleWhenTargeted': 'basic',
+        'allowDefensiveSpawn': 'basic',
+        'destructFX': 'presentation',
+        'stashOrder': 'presentation',
+        'produce': 'basic',
+        'currency': 'nodisplay',
+        'maxXP': 'unknown',
+        'crossCredits': 'basic',
+        'crossMaterials': 'basic',
+        'crossTime': 'basic',
+        'buildingID': 'nodisplay',
+        'storeTab': 'presentation',
+        'cycleTime': 'presentation',
+        'time': 'basic',
+        'maxQuantity': 'basic',
+        'collectNotify': 'presentation',
+        'spawnProtect': 'basic',
+        'turretId': 'internal',
+        'subType': 'internal',
+        'fillStateAssetName': 'presentation',
+        'fillStateBundleName': 'presentation',
+        'shieldRangePoints': 'basic',
+        'shieldHealthPoints': 'basic',
+        'connectors': 'presentation',
+        'requirements2': 'nodisplay',
+        'audioCharge': 'presentation',
+        'trapID': 'internal',
+        'building:storage': 'basic',
+        'building:produce': 'basic',
+        'turret:uid': 'nodisplay',
+        'turret:gunPosition': 'presentation',
+        'turret:maxScale': 'presentation',
+        'turret:trackerName': 'presentation',
+        'turret:projectileType': 'internal',
+        'turret:level': 'nodisplay',
+        'turret:timeyWimey': 'unknown',
+        'turret:splash': 'unknown',
+        'turret:targetPreferenceString': 'nodisplay',
         # placeholder
         '':''
         }
@@ -717,6 +771,21 @@ def initstat():
         'equipment:requirements': 'array',
         'equipment:planetIDs': 'array',
         'equipment:skins': 'array',
+        # buildings
+        'activationRadius': 'int',
+        'hideIfLocked': 'boolean',
+        'forceReticleWhenTargeted': 'boolean',
+        'allowDefensiveSpawn': 'boolean',
+#        'crossCredits': 'basic', # credits
+#        'crossMaterials': 'basic', # alloy
+        'crossTime': 'time',
+        'cycleTime': 'time',
+        'time': 'time',
+        'maxQuantity': 'int',
+        'collectNotify': 'int',
+        'spawnProtect': 'int',
+        'shieldRangePoints': 'int',
+        'shieldHealthPoints': 'int',
         # placeholder
         '':''
         }
@@ -725,14 +794,18 @@ def initstat():
             config['stattype'][k]='percentage'
         if k.startswith('projectile:'):
             config['statrole']['abilityprojectile:'+k[11:]]='ability'+config['statrole'][k]
+            config['statrole']['turretprojectile:'+k[11:]]='turret'+config['statrole'][k]
             config['statrole']['deathprojectile:'+k[11:]]='death'+config['statrole'][k]
             if k in config['stattype']:
                 config['stattype']['abilityprojectile:'+k[11:]]=config['stattype'][k]
+                config['stattype']['turretprojectile:'+k[11:]]=config['stattype'][k]
                 config['stattype']['deathprojectile:'+k[11:]]=config['stattype'][k]
         if config['statrole'][k].startswith('attack'):
             config['statrole']['ability:'+k]='ability'+config['statrole'][k][6:]
+            config['statrole']['turret:'+k]='turret'+config['statrole'][k][6:]
             if k in config['stattype']:
                 config['stattype']['ability:'+k]=config['stattype'][k]
+                config['stattype']['turret:'+k]=config['stattype'][k]
     for k in config['stattype'].keys():
         type=dget(config['stattype'],k,'string')
         if type=='string':
@@ -765,7 +838,7 @@ def initstat():
             die('{} is an unknown type. Stopping'.format(type))
     config['stathandler']['equipment:planetIDs']=lambda x:', '.join([display_planet(y) for y in x])
     # Handle automatic translations
-    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack '}
+    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack ', 'turretprojectile': 'Turret attack ', 'turret':'Turret '}
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
             pr=''
@@ -818,7 +891,8 @@ def _(x):
         return '"'+x+'"'
 
 def __(x):
-    return display_colored(_(x))
+    simpleid=re.sub(r'[^A-Z+', '', display_colored(_(x)))
+    return simpleid
 
 def main(argv):
     global data
@@ -842,7 +916,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament,crate,unit,equip,air,translate'
+        mode='tournament,crate,unit,equip,air,translate,building'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -959,6 +1033,22 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_air(objects,displayed,i)
+    ## Buildings (building)
+    xhelp['building']='List the statistics of equipment for buildings (turrets excluded)'
+    morehelp['building']={'':'building identifier (default: all)'}
+    if ('building' in modes):
+        # do something that adds equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['BuildingData']).keys():
+                uname=data['BuildingData'][u]['buildingID']
+                if uname not in tmpdict:
+                    tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_building(objects,displayed,i)
     # Output phase
     out=[]
     outputs=config['output'].split(",")
@@ -1039,6 +1129,16 @@ def main(argv):
             output_mdheader_air(out,objects,getdisplayed(displayed,'air'))
             for unit in getdisplayed(displayed,'air'):
                 output_md_air(out,objects,objects[unit])
+    if ('building' in displayed):
+        if ('list' in outputs):
+            output_listheader_building(out,objects,getdisplayed(displayed,'building'))
+            for unit in getdisplayed(displayed,'building'):
+                output_list_building(out,objects,objects[unit])
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','building')
+            output_mdheader_building(out,objects,getdisplayed(displayed,'building'))
+            for unit in getdisplayed(displayed,'building'):
+                output_md_building(out,objects,objects[unit])
     if ('index' in displayed):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
@@ -1152,7 +1252,7 @@ def analyse_crate(objects,displayed,id):
     (sides,hqs,planets)=variantspace()
     for planet in planets:
         for hq in hqs:
-            for side in sides:
+            for side in sorted(sides,key=sortside):
                 variant='{2},{1},{0}'.format(planet,hq,side)
                 if variant not in ob['variants']:
                     analyse_crate_variant(objects,displayed,id,ob,variant,planet,hq,side)
@@ -1361,7 +1461,7 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
             subunit['projectile:'+kk]=vv
         if damage_modifier!=1:
             subunit['originalDamage']=subunit['damage']
-            subunit['damage']=int(int(subunit['originalDamage'])*health_modifier)
+            subunit['damage']=int(int(subunit['originalDamage'])*damage_modifier)
         addprojectile('projectile:',ob,subunit,subunit)
     if 'ability' in subunit:
         ob['options']['ability']=True
@@ -1371,7 +1471,7 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
             subunit['ability:'+kk]=vv
         if damage_modifier!=1:
             subunit['ability:originalDamage']=subunit['ability:damage']
-            subunit['ability:damage']=int(subunit['ability:originalDamage'])*health_modifier
+            subunit['ability:damage']=int(subunit['ability:originalDamage'])*damage_modifier
         if 'ability:selfBuff' in subunit:
             dobuff(ob,subunit,'ability','ability:selfBuff')
     if 'ability:projectileType' in subunit:
@@ -1387,6 +1487,28 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
         for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
             fakearray[k]=dget(subunit,'ability:'+k,'0')
         addprojectile('abilityprojectile:',ob,subunit,fakearray)
+    if 'turretId' in subunit:
+        ob['options']['turret']=True
+        proj=subunit['turretId']
+        pproj=data['TurretData'][proj]
+        for kk,vv in pproj.items():
+            subunit['turret:'+kk]=vv
+        if damage_modifier!=1:
+            subunit['turret:originalDamage']=subunit['turret:damage']
+            subunit['turret:damage']=int(subunit['turret:originalDamage'])*damage_modifier
+    if 'turret:projectileType' in subunit:
+        ## Do something with projectiles ; append stats with prefix 'projectile'
+        ob['options']['turretprojectile']=True
+        proj=subunit['turret:projectileType']
+        pproj=data['ProjectileData'][proj]
+        for kk,vv in pproj.items():
+            subunit['turretprojectile:'+kk]=vv
+        fakearray={}
+        for k in ['shotCount','gunSequence']:
+            fakearray[k]=dget(subunit,'turret:'+k,'1')
+        for k in ['damage','chargeTime','cooldownTime','shotDelay','reload']:
+            fakearray[k]=dget(subunit,'turret:'+k,'0')
+        addprojectile('turretprojectile:',ob,subunit,fakearray)
     if 'deathProjectile' in subunit:
         ob['options']['death']=True
         if damage_modifier!=1:
@@ -1447,6 +1569,20 @@ def fill_unit_level(ob,level,subunit,where='hq',roles='roles'):
             print('{} is an unknown type. Stopping'.format(type))
             sys.exit(0)
         role=dget(config['statrole'],k,'missing')
+        if (k=='produce' or k=='storage') and ('currency' in subunit) and subunit['currency'] != '0':
+            if int(a[k])>0:
+                a['building:'+k]=a[k]+' '+uparray['upgrade'+subunit['currency']]
+                if k=='produce':
+                    rate=int(subunit['cycleTime'])
+                    if rate==3600:
+                        a['building:'+k]+='/h'
+                    else:
+                        a['building:'+k]+='/'+display_time(int(subunit['cycleTime']))
+                del a[k]
+                continue
+            else:
+                del a[k]
+                continue
         if role=='train':
             if a[k]>0:
                 trains.append('{0}{1}'.format(a[k],uparray['upgrade'+k.lower()]))
@@ -1510,6 +1646,8 @@ def fill_unit_level(ob,level,subunit,where='hq',roles='roles'):
             a['targets']=gettargets(targets['attack'])
         if 'ability' in targets:
             a['ability:targets']=gettargets(targets['ability'])
+        if 'turret' in targets:
+            a['turret:targets']=gettargets(targets['turret'])
         for k in mults.keys():
             a[k+':mults']=getmults(mults[k])
     for k in a.keys():
@@ -1545,6 +1683,7 @@ def analyse_unit(objects,displayed,id):
         level=int(subunit['lvl'])
         levels.append(level)
         fill_unit_level(ob,level,subunit)
+    levels=sorted(levels)
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -1588,6 +1727,7 @@ def analyse_air(objects,displayed,id):
         level=int(subunit['lvl'])
         levels.append(level)
         fill_unit_level(ob,level,subunit)
+    levels=sorted(levels)
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -1664,6 +1804,7 @@ def analyse_equipment_unit(objects,displayed,id):
             level='{0:02d}.{1:02d}'.format(int(subunit['lvl']),eqlevel)
             fill_unit_level(ob,level,subunit)
             levels.append(level)
+    levels=sorted(levels)
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -1675,6 +1816,48 @@ def analyse_equipment_unit(objects,displayed,id):
         objects[id]=ob
 
 
+def analyse_building(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    ob['levels']=[]
+    ob['hq']={}
+    ob['uid']=id
+    ob['title']='bld_title_'+id
+    ob['unknown']={}
+    ob['presentation']={}
+    ob['projectileTypes']={}
+    ob['options']={}
+    ob['roles']={}
+    ob['buffs']={}
+    levels=ob['levels']
+    used={}
+    projectiles={}
+    addtodisplay(displayed,'building',id)
+    for u in (data['BuildingData']).keys():
+        uname=data['BuildingData'][u]['buildingID']
+        if uname!=id:
+            continue
+        # subunit is a flattened version of the CSV data
+        subunit={}
+        for k,v in data['BuildingData'][u].items():
+            subunit[k]=v
+        fill_unit(ob,subunit)
+        if 'requirements2' in subunit:
+            subunit['requirements'].append(subunit['requirements2'])
+        level=int(subunit['lvl'])
+        levels.append(level)
+        fill_unit_level(ob,level,subunit)
+    levels=sorted(levels)
+    ob['firstlevel']=levels[0]
+    if len(levels)==1:
+        levelstring=str(levels[0])
+    else:
+        levelstring='{0}-{1}'.format(levels[0],levels[-1])
+    for level in ob['hq'].keys():
+            ob['hq'][level]['levels']=levelstring
+    if id not in objects:
+        objects[id]=ob
 
 # This set of functions output objects for various modes
 def output_listheader_crate(out,objects,displayed):
@@ -1862,7 +2045,7 @@ def fill_requirements(item,where,what,levels,LINKS):
     for ll in range(0,req):
         r='requirement'+str(ll)
         trainlist.append(r)
-        config['stattranslation'][r]='Building '+str(ll)
+        config['stattranslation'][r]='Building '+str(ll+1)
         if req==1:
             config['stattranslation'][r]='Building'
         for l in levels:
@@ -1899,10 +2082,10 @@ def output_list_unit_aux(item,LINKS):
     xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='basic']))
     remove(tosee,'basic')
     xout+='### Training stats\n\n'
-    trainlist=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
+    trainlistb=sorted([x for x in allkeys if allkeys[x]=='xtrain'])
     remove(tosee,'train')
     remove(tosee,'xtrain')
-    trainlist=fill_requirements(item,'hq','requirements',sorted(item['levels']),LINKS)
+    trainlist=trainlistb+fill_requirements(item,'hq','requirements',sorted(item['levels']),LINKS)
     xout+=datadump(item,trainlist)
     xout+='### Upgrading stats\n\n'
     xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='xupgrade']))
@@ -1961,6 +2144,31 @@ def output_list_unit_aux(item,LINKS):
     remove(tosee,'abilityprojectilebasic')
     remove(tosee,'abilityprojectilemult')
     remove(tosee,'abilityprojectilemisc')
+    if 'turret' in item['options']:
+        attacknames=[]
+        for l in sorted(levels):
+            if 'turretprojectile:name' in item['hq'][l]:
+                n=item['hq'][l]['turretprojectile:name']
+                if n not in attacknames:
+                    attacknames.append(n)
+        xout+='## Turret attack{0}{1}\n\n'.format(' : ' if len(attacknames)>0 else '',' / '.join(attacknames))
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='turretonly']))
+        xout+='### Targeting\n\n'
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='turretmove']))
+        xout+='### Shooting\n\n'
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='turretstats']))
+        xout+=display_modifiers(item,'turret',tosee)
+    remove(tosee,'turretonly')
+    remove(tosee,'turretmove')
+    remove(tosee,'turretstats')
+    remove(tosee,'turretprefs')
+    if 'turretprojectile' in item['options']:
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='turretprojectilebasic']+['turret:dps']))
+        xout+=datadump(item,sorted([x for x in allkeys if allkeys[x]=='turretprojectilemisc']))
+        xout+=display_modifiers(item,'turretprojectile',tosee)
+    remove(tosee,'turretprojectilebasic')
+    remove(tosee,'turretprojectilemult')
+    remove(tosee,'turretprojectilemisc')
     if 'death' in item['options']:
         attacknames=[]
         for l in sorted(levels):
@@ -2007,7 +2215,7 @@ def output_mdheader_unit(out,objects,displayed):
                 firstlevel=item['firstlevel']
                 if item['hq'][firstlevel]['playerFacing']==pf:
                     sides[item['hq'][firstlevel]['faction']]=1
-            for side in sorted(sides):
+            for side in sorted(sides,key=sortside):
                 file.write("### {0}\n\n".format(display_side(side)))
                 for unit in sorted(displayed):
                     item=objects[unit]
@@ -2016,7 +2224,7 @@ def output_mdheader_unit(out,objects,displayed):
                         if item['hq'][firstlevel]['faction']==side:
                             id=item['uid']
                             title=__(item['title'])
-                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,simpleid))
                 file.write("\n")
 
 def output_md_unit(out,objects,item):
@@ -2082,7 +2290,7 @@ def output_mdheader_equipunit(out,objects,displayed):
             item=objects[unit]
             firstlevel=item['firstlevel']
             sides[item['hq'][firstlevel]['faction']]=1
-        for side in sorted(sides):
+        for side in sorted(sides,key=sortside):
             file.write("### {0}\n\n".format(display_side(side)))
             for unit in sorted(displayed):
                 item=objects[unit]
@@ -2131,7 +2339,7 @@ def output_mdheader_air(out,objects,displayed):
                 firstlevel=item['firstlevel']
                 if item['hq'][firstlevel]['playerFacing']==pf:
                     sides[item['hq'][firstlevel]['faction']]=1
-            for side in sorted(sides):
+            for side in sorted(sides,key=sortside):
                 file.write("### {0}\n\n".format(display_side(side)))
                 for unit in sorted(displayed):
                     item=objects[unit]
@@ -2152,6 +2360,62 @@ def output_md_air(out,objects,item):
         output_list_air(lout,objects,item,True)
         file.write(lout[0])
 
+
+def output_listheader_building(out,objects,displayed):
+    out.append("There are {0} buildings in the selection:".format(len(displayed)))
+
+def output_list_building(out,objects,item,LINKS=False):
+    global config
+    id=item['uid']
+    title=__(item['title'])
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    xout+=output_list_unit_aux(item,LINKS)
+    out[len(out)-1]+=xout
+    return
+
+def output_mdheader_building(out,objects,displayed):
+    with open("docs/building.md","w") as file:
+        file.write("---\ntitle: Index of buildings\n---\n")
+        file.write("# Buildings — version {0}\n\n".format(config['version']))
+        file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
+        pfa=['army', 'decorations', 'defenses', 'resources']
+        pfd={}
+        for x in pfa:
+            pfd[x]=_('s_'+x)
+        pfa.append('not_in_store')
+        pfd['not_in_store']='Other buildings'
+        for pf in pfa:
+            file.write("## {0}\n\n".format(pfd[pf]))
+            sides={}
+            for building in displayed:
+                item=objects[building]
+                firstlevel=item['firstlevel']
+                storeTab=dget(item['hq'][firstlevel],'storeTab','not_in_store')
+                if pf==storeTab:
+                    sides[item['hq'][firstlevel]['faction']]=1
+            for side in sorted(sides,key=sortside):
+                file.write("### {0}\n\n".format(display_side(side)))
+                for building in sorted(displayed):
+                    item=objects[building]
+                    firstlevel=item['firstlevel']
+                    storeTab=dget(item['hq'][firstlevel],'storeTab','not_in_store')
+                    if storeTab==pf:
+                        if item['hq'][firstlevel]['faction']==side:
+                            id=item['uid']
+                            title=__(item['title'])
+                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+                file.write("\n")
+
+def output_md_building(out,objects,item):
+    id=item['uid']
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: building\n---\n".format(id,title))
+        lout=['']
+        output_list_building(lout,objects,item,True)
+        file.write(lout[0])
 
 # This set of functions take an Id and return the adequate string for it
 
@@ -2462,27 +2726,27 @@ def display_unitbatch(item,link):
     elif (item['rewardType'] == 'shard'):
         nature='data fragments of equipment'
         itemx=item['rewardUid']
-        title=_(display_things(item['rewardUid'],'EquipmentData','equipmentID','equipmentName'))
+        title=__(display_things(item['rewardUid'],'EquipmentData','equipmentID','equipmentName'))
     elif (item['rewardType'] == 'shardTroop'):
         nature='data fragments of unlockable troop'
         itemx=display_things(item['rewardUid'],'TroopData','upgradeShardUid','unitID')
-        title=_('trp_title_'+itemx)
+        title=__('trp_title_'+itemx)
     elif (item['rewardType'] == 'shardSpecialAttack'):
         nature='data fragments of unlockable air support'
         itemx=display_things(item['rewardUid'],'SpecialAttackData','upgradeShardUid','specialAttackID')
-        title=_('shp_title_'+itemx)
+        title=__('shp_title_'+itemx)
     elif (item['rewardType'] == 'troop'):
         nature='troop sample'
         itemx=display_things(item['rewardUid'],'TroopData','uid','unitID')
-        title=_('trp_title_'+itemx)
+        title=__('trp_title_'+itemx)
     elif (item['rewardType'] == 'specialAttack'):
         nature='air support sample'
         itemx=display_things(item['rewardUid'],'SpecialAttackData','uid','specialAttackID')
-        title=_('shp_title_'+itemx)
+        title=__('shp_title_'+itemx)
     elif (item['rewardType'] == 'hero'):
         nature='hero sample of'
         itemx=display_things(item['rewardUid'],'TroopData','uid','unitID')
-        title=_('trp_title_'+itemx)
+        title=__('trp_title_'+itemx)
     else:
         nature=item['rewardType']
         itemx=name
