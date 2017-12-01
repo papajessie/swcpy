@@ -614,9 +614,9 @@ def initstat():
         'specialAttackName': 'nodisplay',
         # below are roles reserved to buildings
         'activationRadius': 'basic',
+        'allowDefensiveSpawn': 'basic',
         'hideIfLocked': 'basic',
         'forceReticleWhenTargeted': 'basic',
-        'allowDefensiveSpawn': 'basic',
         'destructFX': 'presentation',
         'stashOrder': 'presentation',
         'produce': 'basic',
@@ -653,6 +653,17 @@ def initstat():
         'turret:timeyWimey': 'unknown',
         'turret:splash': 'unknown',
         'turret:targetPreferenceString': 'nodisplay',
+        'trap:addOns': 'presentation',
+        'trap:disarmConditions': 'basic',
+        'trap:rearmCreditsCost': 'basic',
+        'trap:rearmMaterialsCost': 'basic',
+        'trap:revealAudio': 'presentation',
+        'trap:eventData': 'internal',
+        'trap:eventType': 'internal',
+        'trap:uid': 'nodisplay',
+        'trap:airStrike': 'basic',
+        'trap:targetType': 'basic',
+        'trap:triggerConditions': 'basic',
         # placeholder
         '':''
         }
@@ -838,7 +849,7 @@ def initstat():
             die('{} is an unknown type. Stopping'.format(type))
     config['stathandler']['equipment:planetIDs']=lambda x:', '.join([display_planet(y) for y in x])
     # Handle automatic translations
-    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack ', 'turretprojectile': 'Turret attack ', 'turret':'Turret '}
+    trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack ', 'turretprojectile': 'Turret attack ', 'turret':'Turret ', 'trap': 'Trap '}
     for k in config['statrole'].keys():
         if k.find(':')>-1 and k not in config['stattranslation'] and k[(k.find(':')+1):] in config['stattranslation']:
             pr=''
@@ -891,7 +902,7 @@ def _(x):
         return '"'+x+'"'
 
 def __(x):
-    simpleid=re.sub(r'[^A-Z+', '', display_colored(_(x)))
+    simpleid=re.sub(r'[^A-Za-z0-9 -]+', '', display_colored(_(x)))
     return simpleid
 
 def main(argv):
@@ -1496,6 +1507,13 @@ def fill_unit(ob,subunit,damagehealth=[1,1]):
         if damage_modifier!=1:
             subunit['turret:originalDamage']=subunit['turret:damage']
             subunit['turret:damage']=int(subunit['turret:originalDamage'])*damage_modifier
+    if 'trapID' in subunit:
+        proj=subunit['trapID']
+        pproj=data['TrapData'][proj]
+        for kk,vv in pproj.items():
+            subunit['trap:'+kk]=vv
+        if subunit['trap:eventType']=='SpecialAttack':
+            subunit['trap:airStrike']=display_airunitarray(subunit)
     if 'turret:projectileType' in subunit:
         ## Do something with projectiles ; append stats with prefix 'projectile'
         ob['options']['turretprojectile']=True
@@ -1722,7 +1740,7 @@ def analyse_air(objects,displayed,id):
         for k,v in data['SpecialAttackData'][u].items():
             subunit[k]=v
         if 'linkedUnit' in subunit:
-            subunit['specialAttackVisitors']=display_airunitarray(subunit)
+            subunit['specialAttackVisitors']=display_groundunitarray(subunit)
         fill_unit(ob,subunit)
         level=int(subunit['lvl'])
         levels.append(level)
@@ -2224,6 +2242,7 @@ def output_mdheader_unit(out,objects,displayed):
                         if item['hq'][firstlevel]['faction']==side:
                             id=item['uid']
                             title=__(item['title'])
+                            simpleid=re.sub(r'[^A-Za-z0-9-]+', '', id)
                             file.write("  * [{1} ({0})]({0}.html)\n".format(id,simpleid))
                 file.write("\n")
 
@@ -2701,7 +2720,7 @@ def display_unitarray(item,bid,link=True):
         visitors.append('[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx))
     return ', '.join(visitors)
 
-def display_airunitarray(item,link=True):
+def display_groundunitarray(item,link=True):
     prefix='trp_title_'
     stat='unitID'
     table='TroopData'
@@ -2709,6 +2728,15 @@ def display_airunitarray(item,link=True):
     i=item['linkedUnit']
     itemx=display_things(i,table,'uid',stat)
     return '{3}×[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx,item['unitCount'])
+
+def display_airunitarray(item,link=True):
+    prefix='shp_title_'
+    stat='specialAttackID'
+    table='SpecialAttackData'
+    visitors=[]
+    i=item['trap:eventData']
+    itemx=display_things(i,table,'uid',stat)
+    return '[{0} level {1}]({2}.html)'.format(_(prefix+itemx),display_things(i,table,'uid','lvl'),itemx)
 
 def display_unitbatch(item,link):
     count=item['num']
