@@ -1,9 +1,9 @@
 ---
-title: "bld_title_empireShuttleIdle" (empireShuttleIdle)
+title: bldtitleempireShuttleIdle (empireShuttleIdle)
 category: building
 ---
 
-# "bld_title_empireShuttleIdle" (empireShuttleIdle) — version 1100
+# bldtitleempireShuttleIdle (empireShuttleIdle) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

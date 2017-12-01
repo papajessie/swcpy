@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicateWall" (syndicateWall)
+title: bldtitlesyndicateWall (syndicateWall)
 category: building
 ---
 
-# "bld_title_syndicateWall" (syndicateWall) — version 1100
+# bldtitlesyndicateWall (syndicateWall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

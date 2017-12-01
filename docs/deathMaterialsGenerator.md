@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathMaterialsGenerator" (deathMaterialsGenerator)
+title: bldtitledeathMaterialsGenerator (deathMaterialsGenerator)
 category: building
 ---
 
-# "bld_title_deathMaterialsGenerator" (deathMaterialsGenerator) — version 1100
+# bldtitledeathMaterialsGenerator (deathMaterialsGenerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tatooineBuilding" (tatooineBuilding)
+title: bldtitletatooineBuilding (tatooineBuilding)
 category: building
 ---
 
-# "bld_title_tatooineBuilding" (tatooineBuilding) — version 1100
+# bldtitletatooineBuilding (tatooineBuilding) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

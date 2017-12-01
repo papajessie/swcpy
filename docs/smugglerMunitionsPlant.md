@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerMunitionsPlant" (smugglerMunitionsPlant)
+title: bldtitlesmugglerMunitionsPlant (smugglerMunitionsPlant)
 category: building
 ---
 
-# "bld_title_smugglerMunitionsPlant" (smugglerMunitionsPlant) — version 1100
+# bldtitlesmugglerMunitionsPlant (smugglerMunitionsPlant) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

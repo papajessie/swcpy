@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tuskenAutoTurret" (tuskenAutoTurret)
+title: bldtitletuskenAutoTurret (tuskenAutoTurret)
 category: building
 ---
 
-# "bld_title_tuskenAutoTurret" (tuskenAutoTurret) — version 1100
+# bldtitletuskenAutoTurret (tuskenAutoTurret) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

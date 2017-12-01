@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerRubbleAreaDenyLocked" (blockerRubbleAreaDenyLocked)
+title: bldtitleblockerRubbleAreaDenyLocked (blockerRubbleAreaDenyLocked)
 category: building
 ---
 
-# "bld_title_blockerRubbleAreaDenyLocked" (blockerRubbleAreaDenyLocked) — version 1100
+# bldtitleblockerRubbleAreaDenyLocked (blockerRubbleAreaDenyLocked) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

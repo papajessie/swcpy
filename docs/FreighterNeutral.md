@@ -1,9 +1,9 @@
 ---
-title: "shp_title_FreighterNeutral" (FreighterNeutral)
+title: shptitleFreighterNeutral (FreighterNeutral)
 category: air
 ---
 
-# "shp_title_FreighterNeutral" (FreighterNeutral) — version 1100
+# shptitleFreighterNeutral (FreighterNeutral) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

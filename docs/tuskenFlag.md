@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tuskenFlag" (tuskenFlag)
+title: bldtitletuskenFlag (tuskenFlag)
 category: building
 ---
 
-# "bld_title_tuskenFlag" (tuskenFlag) — version 1100
+# bldtitletuskenFlag (tuskenFlag) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

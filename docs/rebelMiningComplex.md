@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelMiningComplex" (rebelMiningComplex)
+title: bldtitlerebelMiningComplex (rebelMiningComplex)
 category: building
 ---
 
-# "bld_title_rebelMiningComplex" (rebelMiningComplex) — version 1100
+# bldtitlerebelMiningComplex (rebelMiningComplex) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

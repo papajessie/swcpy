@@ -3,7 +3,7 @@ title: Death Star Crate (lc_obje_anh40_tier3)
 category: crate
 ---
 
-# Death Star Crate (lc_obje_anh40_tier3) — version 1100
+# Death Star Crate (lc_obje_anh40_tier3) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -53,6 +53,17 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_anh40rr_shrd" (x1 draw)
 
+### Rebellion for HQ levels 6-10
+
+  * (1/14) 1 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
+  * (1/14) 1 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
+  * (2/14) 2 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
+  * (2/14) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (2/14) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (2/14) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (2/14) 2 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (2/14) 2 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
+
 ### Rebellion for HQ level 5
 
   * (1/9) 1 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
@@ -68,17 +79,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/9) 2 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (2/9) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (2/9) 2 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Rebellion for HQ levels 6-10
-
-  * (1/14) 1 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (1/14) 1 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
-  * (2/14) 2 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (2/14) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (2/14) 2 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (2/14) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (2/14) 2 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/14) 2 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
 ### Empire for HQ levels 6-10
 

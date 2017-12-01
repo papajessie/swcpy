@@ -3,7 +3,7 @@ title: Elite AT-AT (HeroATAT)
 category: unit
 ---
 
-# Elite AT-AT (HeroATAT) — version 1100
+# Elite AT-AT (HeroATAT) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

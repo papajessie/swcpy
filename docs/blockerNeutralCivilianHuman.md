@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerNeutralCivilianHuman" (blockerNeutralCivilianHuman)
+title: bldtitleblockerNeutralCivilianHuman (blockerNeutralCivilianHuman)
 category: building
 ---
 
-# "bld_title_blockerNeutralCivilianHuman" (blockerNeutralCivilianHuman) — version 1100
+# bldtitleblockerNeutralCivilianHuman (blockerNeutralCivilianHuman) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Ultra Chrome Conflict Crate (lc_conf_anh40_tier8_wk4eqp)
 category: crate
 ---
 
-# Ultra Chrome Conflict Crate (lc_conf_anh40_tier8_wk4eqp) — version 1100
+# Ultra Chrome Conflict Crate (lc_conf_anh40_tier8_wk4eqp) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -11,13 +11,13 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_anh40_shrd_conf_tier8_wk4eqp" (x1 draw)
 
+### Rebellion for HQ levels 6-10
+
+  * (1/1) 20 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
+
 ### Empire for HQ levels 6-10
 
   * (1/1) 20 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
-
-### Rebellion for HQ levels 6-10
-
-  * (1/1) 20 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
 
 ### Empire on Tatooine for HQ level 5
 

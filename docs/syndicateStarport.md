@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicateStarport" (syndicateStarport)
+title: bldtitlesyndicateStarport (syndicateStarport)
 category: building
 ---
 
-# "bld_title_syndicateStarport" (syndicateStarport) — version 1100
+# bldtitlesyndicateStarport (syndicateStarport) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

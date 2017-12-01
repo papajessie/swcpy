@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Hoth (conflict_desert_hth_01)
+title: Desert OpsConflict on Hoth (conflict_desert_hth_01)
 category: tournament
 ---
-# Desert Ops Conflict on Hoth
+# Desert OpsConflict on Hoth
 
   * Start date: 2017-01-26
   * End date: 2017-02-01

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_ErkitHouseMedium" (ErkitHouseMedium)
+title: bldtitleErkitHouseMedium (ErkitHouseMedium)
 category: building
 ---
 
-# "bld_title_ErkitHouseMedium" (ErkitHouseMedium) — version 1100
+# bldtitleErkitHouseMedium (ErkitHouseMedium) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

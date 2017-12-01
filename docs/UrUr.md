@@ -3,7 +3,7 @@ title: UrUr (UrUr)
 category: unit
 ---
 
-# UrUr (UrUr) — version 1100
+# UrUr (UrUr) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

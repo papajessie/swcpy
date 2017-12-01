@@ -1,9 +1,9 @@
 ---
-title: "trp_title_StormDropshipTrap" (StormDropshipTrap)
+title: trptitleStormDropshipTrap (StormDropshipTrap)
 category: unit
 ---
 
-# "trp_title_StormDropshipTrap" (StormDropshipTrap) — version 1100
+# trptitleStormDropshipTrap (StormDropshipTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

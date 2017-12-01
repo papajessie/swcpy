@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelWeaponsFactory" (rebelWeaponsFactory)
+title: bldtitlerebelWeaponsFactory (rebelWeaponsFactory)
 category: building
 ---
 
-# "bld_title_rebelWeaponsFactory" (rebelWeaponsFactory) — version 1100
+# bldtitlerebelWeaponsFactory (rebelWeaponsFactory) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

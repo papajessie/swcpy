@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathMaterialsStorage" (deathMaterialsStorage)
+title: bldtitledeathMaterialsStorage (deathMaterialsStorage)
 category: building
 ---
 
-# "bld_title_deathMaterialsStorage" (deathMaterialsStorage) — version 1100
+# bldtitledeathMaterialsStorage (deathMaterialsStorage) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

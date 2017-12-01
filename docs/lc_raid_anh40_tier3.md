@@ -3,13 +3,30 @@ title: Death Star Crate (lc_raid_anh40_tier3)
 category: crate
 ---
 
-# Death Star Crate (lc_raid_anh40_tier3) — version 1100
+# Death Star Crate (lc_raid_anh40_tier3) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
 This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_anh40_shrd" (x1 draw)
+
+### Rebellion
+
+  * (1/19) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (1/19) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
+  * (1/19) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
+  * (1/19) 2 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
+  * (1/19) 2 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
+  * (1/19) 2 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (1/19) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/19) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/19) 2 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
+  * (1/19) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/19) 2 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (2/19) 2 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
+  * (3/19) 2 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
+  * (3/19) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
 
 ### Empire
 
@@ -27,23 +44,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/19) 2 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (3/19) 2 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
   * (3/19) 2 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
-
-### Rebellion
-
-  * (1/19) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (1/19) 2 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
-  * (1/19) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
-  * (1/19) 2 data fragments of equipment [Cold-weather Heavy Soldier](eqpRebelEchoBaseHeavySoldier)
-  * (1/19) 2 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
-  * (1/19) 2 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (1/19) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/19) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (1/19) 2 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
-  * (1/19) 2 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/19) 2 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/19) 2 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
-  * (3/19) 2 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
-  * (3/19) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
 
 ### Fallback for HQ level 10
 

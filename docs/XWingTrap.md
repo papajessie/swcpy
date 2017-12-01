@@ -1,9 +1,9 @@
 ---
-title: "shp_title_XWingTrap" (XWingTrap)
+title: shptitleXWingTrap (XWingTrap)
 category: air
 ---
 
-# "shp_title_XWingTrap" (XWingTrap) — version 1100
+# shptitleXWingTrap (XWingTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

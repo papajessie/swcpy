@@ -1,9 +1,9 @@
 ---
-title: "trp_title_PhantomTieBomber" (PhantomTieBomber)
+title: trptitlePhantomTieBomber (PhantomTieBomber)
 category: unit
 ---
 
-# "trp_title_PhantomTieBomber" (PhantomTieBomber) — version 1100
+# trptitlePhantomTieBomber (PhantomTieBomber) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

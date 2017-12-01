@@ -3,7 +3,7 @@ title: Elite Event Crate (lc_epSpacebear_bonObj_unit)
 category: crate
 ---
 
-# Elite Event Crate (lc_epSpacebear_bonObj_unit) — version 1100
+# Elite Event Crate (lc_epSpacebear_bonObj_unit) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -13,15 +13,15 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ## Pool "lcpool_epSpacebear_bonObj_unit_shrd1" (x1 draw)
 
-### Rebellion
-
-  * (2/11) 4 data fragments of unlockable troop [<Fur Coat>](FurCoat)
-  * (9/11) 3 data fragments of unlockable troop [<Fur Coat>](FurCoat)
-
 ### Empire
 
-  * (2/11) 4 data fragments of unlockable troop [<Ape Man>](ApeMan)
-  * (9/11) 3 data fragments of unlockable troop [<Ape Man>](ApeMan)
+  * (2/11) 4 data fragments of unlockable troop [Ape Man](ApeMan)
+  * (9/11) 3 data fragments of unlockable troop [Ape Man](ApeMan)
+
+### Rebellion
+
+  * (2/11) 4 data fragments of unlockable troop [Fur Coat](FurCoat)
+  * (9/11) 3 data fragments of unlockable troop [Fur Coat](FurCoat)
 
 ### Fallback for HQ level 10
 
@@ -49,25 +49,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ## Pool "lcpool_epSpacebear_bonObj_unit_shrd2" (x2 draws)
 
-### Empire
-
-  * (1/23) 4 data fragments of unlockable troop [<Ape Man>](ApeMan)
-  * (1/23) 5 data fragments of unlockable troop [<Ape Man>](ApeMan)
-  * (1/23) 5 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/23) 6 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (2/23) 3 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-  * (2/23) 3 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
-  * (2/23) 4 data fragments of unlockable troop [MTV-7](MTV7)
-  * (3/23) 4 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-  * (3/23) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
-  * (3/23) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (3/23) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-
 ### Rebellion
 
-  * (1/23) 4 data fragments of unlockable troop [<Fur Coat>](FurCoat)
-  * (1/23) 5 data fragments of unlockable troop [<Fur Coat>](FurCoat)
+  * (1/23) 4 data fragments of unlockable troop [Fur Coat](FurCoat)
+  * (1/23) 5 data fragments of unlockable troop [Fur Coat](FurCoat)
   * (1/23) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (1/23) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
@@ -78,6 +63,21 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/23) 4 data fragments of unlockable air support [HWK-290](HWK290)
   * (3/23) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/23) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+
+### Empire
+
+  * (1/23) 4 data fragments of unlockable troop [Ape Man](ApeMan)
+  * (1/23) 5 data fragments of unlockable troop [Ape Man](ApeMan)
+  * (1/23) 5 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/23) 6 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (2/23) 3 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (2/23) 3 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (2/23) 4 data fragments of unlockable troop [MTV-7](MTV7)
+  * (3/23) 4 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (3/23) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (3/23) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (3/23) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
 

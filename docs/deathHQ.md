@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathHQ" (deathHQ)
+title: bldtitledeathHQ (deathHQ)
 category: building
 ---
 
-# "bld_title_deathHQ" (deathHQ) — version 1100
+# bldtitledeathHQ (deathHQ) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

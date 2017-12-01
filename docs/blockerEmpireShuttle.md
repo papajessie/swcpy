@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerEmpireShuttle" (blockerEmpireShuttle)
+title: bldtitleblockerEmpireShuttle (blockerEmpireShuttle)
 category: building
 ---
 
-# "bld_title_blockerEmpireShuttle" (blockerEmpireShuttle) — version 1100
+# bldtitleblockerEmpireShuttle (blockerEmpireShuttle) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

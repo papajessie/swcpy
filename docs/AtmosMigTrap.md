@@ -1,9 +1,9 @@
 ---
-title: "shp_title_AtmosMigTrap" (AtmosMigTrap)
+title: shptitleAtmosMigTrap (AtmosMigTrap)
 category: air
 ---
 
-# "shp_title_AtmosMigTrap" (AtmosMigTrap) — version 1100
+# shptitleAtmosMigTrap (AtmosMigTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

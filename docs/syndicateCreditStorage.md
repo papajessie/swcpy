@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicateCreditStorage" (syndicateCreditStorage)
+title: bldtitlesyndicateCreditStorage (syndicateCreditStorage)
 category: building
 ---
 
-# "bld_title_syndicateCreditStorage" (syndicateCreditStorage) — version 1100
+# bldtitlesyndicateCreditStorage (syndicateCreditStorage) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

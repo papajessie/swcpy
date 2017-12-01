@@ -3,7 +3,7 @@ title: Droideka Oppressor Platform (empirePlatformHeavyDroideka)
 category: building
 ---
 
-# Droideka Oppressor Platform (empirePlatformHeavyDroideka) — version 1100
+# Droideka Oppressor Platform (empirePlatformHeavyDroideka) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -12,6 +12,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Unit stats
 
   * Activation radius: 14
+  * Allow defensive spawn: Yes
   * Armor type: building
   * Maximum capacity: 1  All.
   * Cross credits: 0

@@ -1,9 +1,9 @@
 ---
-title: "shp_title_FangFighterTrap" (FangFighterTrap)
+title: shptitleFangFighterTrap (FangFighterTrap)
 category: air
 ---
 
-# "shp_title_FangFighterTrap" (FangFighterTrap) — version 1100
+# shptitleFangFighterTrap (FangFighterTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

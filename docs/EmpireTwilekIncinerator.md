@@ -1,9 +1,9 @@
 ---
-title: Twi'lek Incinerator (EmpireTwilekIncinerator)
+title: Twilek Incinerator (EmpireTwilekIncinerator)
 category: unit
 ---
 
-# Twi'lek Incinerator (EmpireTwilekIncinerator) — version 1100
+# Twilek Incinerator (EmpireTwilekIncinerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Takodana (conflict_desert_tak_01)
+title: Desert OpsConflict on Takodana (conflict_desert_tak_01)
 category: tournament
 ---
-# Desert Ops Conflict on Takodana
+# Desert OpsConflict on Takodana
 
   * Start date: 2017-02-09
   * End date: 2017-02-15

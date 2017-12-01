@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerTatooineHouseLarge" (blockerTatooineHouseLarge)
+title: bldtitleblockerTatooineHouseLarge (blockerTatooineHouseLarge)
 category: building
 ---
 
-# "bld_title_blockerTatooineHouseLarge" (blockerTatooineHouseLarge) — version 1100
+# bldtitleblockerTatooineHouseLarge (blockerTatooineHouseLarge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: TIE Fighter Trap (empireTrapStrikeGeneric)
 category: building
 ---
 
-# TIE Fighter Trap (empireTrapStrikeGeneric) — version 1100
+# TIE Fighter Trap (empireTrapStrikeGeneric) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -15,13 +15,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: Yes
   * Hide if locked: No
+  * Trap disarm conditions: EventSuccess
+  * Trap rearm credits cost: 0
+  * Trap target type: Self
+  * Trap trigger conditions: Radius(2) & ArmorNot(flierInfantry)
   * Type: trap
 
-|Level       |1   |2   |3   |4   |5   |6    |7   |8    |9    |10   |
-|------------|----|----|----|----|----|-----|----|-----|-----|-----|
-|Health      |2500|3750|4500|6000|7250|8500 |9750|11000|12250|13500|
-|Max quantity|1   |1   |1   |2   |2   |4    |4   |6    |6    |6    |
-|Time        |1m  |15m |2h  |12h |1d  |1d12h|2d  |3d   |6d   |1w3d |
+|Level                    |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                        |
+|-------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|
+|Health                   |2500                                                     |3750                                                     |4500                                                     |6000                                                     |7250                                                     |8500                                                     |9750                                                     |11000                                                    |12250                                                    |13500                                                     |
+|Max quantity             |1                                                        |1                                                        |1                                                        |2                                                        |2                                                        |4                                                        |4                                                        |6                                                        |6                                                        |6                                                         |
+|Time                     |1m                                                       |15m                                                      |2h                                                       |12h                                                      |1d                                                       |1d12h                                                    |2d                                                       |3d                                                       |6d                                                       |1w3d                                                      |
+|Trap air strike          |["shp_title_TIEFighterTrap" level 1](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 2](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 3](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 4](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 5](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 6](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 7](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 8](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 9](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 10](TIEFighterTrap.html)|
+|Trap rearm materials cost|300                                                      |600                                                      |900                                                      |1200                                                     |1800                                                     |2000                                                     |2700                                                     |3000                                                     |3500                                                     |6000                                                      |
 
 
 ### Training stats
@@ -44,9 +50,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These stats internal to the system link different parts of data together.
 
-|Level  |1                        |2                        |3                        |4                        |5                        |6                        |7                        |8                        |9                        |10                        |
-|-------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|--------------------------|
-|Trap ID|trap_EmpireStrikeGeneric1|trap_EmpireStrikeGeneric2|trap_EmpireStrikeGeneric3|trap_EmpireStrikeGeneric4|trap_EmpireStrikeGeneric5|trap_EmpireStrikeGeneric6|trap_EmpireStrikeGeneric7|trap_EmpireStrikeGeneric8|trap_EmpireStrikeGeneric9|trap_EmpireStrikeGeneric10|
+  * Trap event type: SpecialAttack
+
+|Level          |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
+|---------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
+|Trap ID        |trap_EmpireStrikeGeneric1   |trap_EmpireStrikeGeneric2   |trap_EmpireStrikeGeneric3   |trap_EmpireStrikeGeneric4   |trap_EmpireStrikeGeneric5   |trap_EmpireStrikeGeneric6   |trap_EmpireStrikeGeneric7   |trap_EmpireStrikeGeneric8   |trap_EmpireStrikeGeneric9   |trap_EmpireStrikeGeneric10   |
+|Trap event data|specialAttackTIEFighterTrap1|specialAttackTIEFighterTrap2|specialAttackTIEFighterTrap3|specialAttackTIEFighterTrap4|specialAttackTIEFighterTrap5|specialAttackTIEFighterTrap6|specialAttackTIEFighterTrap7|specialAttackTIEFighterTrap8|specialAttackTIEFighterTrap9|specialAttackTIEFighterTrap10|
 
 
 ## Presentation stats
@@ -62,6 +71,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: -32.79,29.4,27.07
   * Icon lookat position: 0.79,2.54,-0.62
   * Stash order: 100
+  * Trap add ons: Contents/SharedAssets/active_holo/holo_armed:tiefighterholo_emp-mod Contents/HomeAssets/holo_spent:tiefighterholo_emp-mod_red Contents/HomeAssets/holo_spent:fx_repair_smoke Contents/SharedAssets/trap_spent/starshiptrap_emp-mod_disarmed:fx_starship_trap_spent_cone_emitter
+  * Trap reveal audio: sfx_trap_appear
 
 |Level    |1       |2-10       |
 |---------|--------|-----------|

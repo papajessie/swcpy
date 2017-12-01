@@ -1,8 +1,8 @@
 ---
-title: Conflict on Er'Kit (conflict_anh40_erk_02)
+title: Conflict on ErKit (conflict_anh40_erk_02)
 category: tournament
 ---
-# Conflict on Er'Kit
+# Conflict on ErKit
 
   * Start date: 2017-04-27
   * End date: 2017-05-03

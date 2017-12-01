@@ -3,7 +3,7 @@ title: Tactical Defenses Crate (lc_obje_defRef_tier3)
 category: crate
 ---
 
-# Tactical Defenses Crate (lc_obje_defRef_tier3) — version 1100
+# Tactical Defenses Crate (lc_obje_defRef_tier3) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -124,33 +124,33 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (4/15) 3 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
-
-  * (1/22) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
-  * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/22) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelBarracksSummonHeavy)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpRebelFactorySummonHeavy)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Anti-infantry](eqpRebelFactorySummonLight)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Light Infantry](eqpRebelBarracksSummonLight)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpRebelBarracksSummonMedium)
-
 ### Empire for HQ levels 6-10
 
   * (1/22) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (1/22) 4 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireBarracksSummonHeavy)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Anti-vehicle](eqpEmpireFactorySummonHeavy)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
-  * (2/22) 4 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Anti-infantry](eqpEmpireFactorySummonLight)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Light Infantry](eqpEmpireBarracksSummonLight)
-  * (3/22) 3 data fragments of equipment [Guard Reserve: Melee Bruisers](eqpEmpireBarracksSummonMedium)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireBarracksSummonHeavy)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpEmpireFactorySummonHeavy)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Melee Bruisers](eqpEmpireBarracksSummonMedium)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Melee Bruisers](eqpEmpireBarracksSummonMedium)
+
+### Rebellion for HQ levels 6-10
+
+  * (1/22) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
+  * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/22) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpRebelBarracksSummonHeavy)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpRebelFactorySummonHeavy)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Light Infantry](eqpRebelBarracksSummonLight)
+  * (2/22) 4 data fragments of equipment [Guard Reserve Melee Bruisers](eqpRebelBarracksSummonMedium)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Light Infantry](eqpRebelBarracksSummonLight)
+  * (3/22) 3 data fragments of equipment [Guard Reserve Melee Bruisers](eqpRebelBarracksSummonMedium)
 
 ### Fallback for HQ level 10
 

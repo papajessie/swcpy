@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerHotRockMedium" (blockerHotRockMedium)
+title: bldtitleblockerHotRockMedium (blockerHotRockMedium)
 category: building
 ---
 
-# "bld_title_blockerHotRockMedium" (blockerHotRockMedium) — version 1100
+# bldtitleblockerHotRockMedium (blockerHotRockMedium) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

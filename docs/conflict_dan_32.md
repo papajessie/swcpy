@@ -1,8 +1,8 @@
 ---
-title: Conflict at Smuggler's Basin (conflict_dan_32)
+title: Conflict at Smugglers Basin (conflict_dan_32)
 category: tournament
 ---
-# Conflict at Smuggler's Basin
+# Conflict at Smugglers Basin
 
   * Start date: 2016-09-25
   * End date: 2016-09-28

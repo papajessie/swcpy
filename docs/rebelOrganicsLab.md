@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelOrganicsLab" (rebelOrganicsLab)
+title: bldtitlerebelOrganicsLab (rebelOrganicsLab)
 category: building
 ---
 
-# "bld_title_rebelOrganicsLab" (rebelOrganicsLab) — version 1100
+# bldtitlerebelOrganicsLab (rebelOrganicsLab) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

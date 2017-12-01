@@ -3,7 +3,7 @@ title: Ultra Death Star Crate (lc_deathstar_spd_v2)
 category: crate
 ---
 
-# Ultra Death Star Crate (lc_deathstar_spd_v2) — version 1100
+# Ultra Death Star Crate (lc_deathstar_spd_v2) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -12,20 +12,20 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
 
 ## Pool "lcpool_anh40rr_SPD1" (x5 draws)
 
+### For HQ level 5
+
+  * No items, see the fallback option below
+
 ### Rebellion for HQ levels 6-10
 
-  * (1/8) 20 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (1/8) 20 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/8) 20 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (1/8) 20 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/8) 20 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/8) 20 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (1/8) 20 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
-  * (1/8) 24 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
+  * (1/8) 24 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/8) 24 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
-
-### For HQ level 5
-
-  * No items, see the fallback option below
 
 ### Empire for HQ levels 6-10
 

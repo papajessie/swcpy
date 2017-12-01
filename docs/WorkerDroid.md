@@ -1,9 +1,9 @@
 ---
-title: "trp_title_WorkerDroid" (WorkerDroid)
+title: trptitleWorkerDroid (WorkerDroid)
 category: unit
 ---
 
-# "trp_title_WorkerDroid" (WorkerDroid) — version 1100
+# trptitleWorkerDroid (WorkerDroid) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

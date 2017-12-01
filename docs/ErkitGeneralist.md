@@ -1,9 +1,9 @@
 ---
-title: Er'Kit Militia Conscript (ErkitGeneralist)
+title: ErKit Militia Conscript (ErkitGeneralist)
 category: unit
 ---
 
-# Er'Kit Militia Conscript (ErkitGeneralist) — version 1100
+# ErKit Militia Conscript (ErkitGeneralist) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

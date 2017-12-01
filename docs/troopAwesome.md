@@ -1,9 +1,9 @@
 ---
-title: "trp_title_troopAwesome" (troopAwesome)
+title: trptitletroopAwesome (troopAwesome)
 category: unit
 ---
 
-# "trp_title_troopAwesome" (troopAwesome) — version 1100
+# trptitletroopAwesome (troopAwesome) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

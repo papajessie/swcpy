@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Er'Kit (conflict_desert_erk_01)
+title: Desert OpsConflict on ErKit (conflict_desert_erk_01)
 category: tournament
 ---
-# Desert Ops Conflict on Er'Kit
+# Desert OpsConflict on ErKit
 
   * Start date: 2017-01-19
   * End date: 2017-01-25

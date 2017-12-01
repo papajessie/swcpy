@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelDefenseGenerator" (rebelDefenseGenerator)
+title: bldtitlerebelDefenseGenerator (rebelDefenseGenerator)
 category: building
 ---
 
-# "bld_title_rebelDefenseGenerator" (rebelDefenseGenerator) — version 1100
+# bldtitlerebelDefenseGenerator (rebelDefenseGenerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

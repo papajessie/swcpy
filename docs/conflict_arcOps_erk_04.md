@@ -1,8 +1,8 @@
 ---
-title: Arctic Ops Conflict on Er'Kit (conflict_arcOps_erk_04)
+title: Arctic Ops Conflict on ErKit (conflict_arcOps_erk_04)
 category: tournament
 ---
-# Arctic Ops Conflict on Er'Kit
+# Arctic Ops Conflict on ErKit
 
   * Start date: 2017-04-06
   * End date: 2017-04-12

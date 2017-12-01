@@ -1,9 +1,9 @@
 ---
-title: "bld_title_empireNavigationCenterLocked" (empireNavigationCenterLocked)
+title: bldtitleempireNavigationCenterLocked (empireNavigationCenterLocked)
 category: building
 ---
 
-# "bld_title_empireNavigationCenterLocked" (empireNavigationCenterLocked) — version 1100
+# bldtitleempireNavigationCenterLocked (empireNavigationCenterLocked) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

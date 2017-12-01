@@ -1,9 +1,9 @@
 ---
-title: <Ape Man> (ApeMan)
+title: Ape Man (ApeMan)
 category: unit
 ---
 
-# <Ape Man> (ApeMan) — version 1100
+# Ape Man (ApeMan) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

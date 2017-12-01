@@ -1,9 +1,9 @@
 ---
-title: "trp_title_PhantomNavalStrike" (PhantomNavalStrike)
+title: trptitlePhantomNavalStrike (PhantomNavalStrike)
 category: unit
 ---
 
-# "trp_title_PhantomNavalStrike" (PhantomNavalStrike) — version 1100
+# trptitlePhantomNavalStrike (PhantomNavalStrike) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

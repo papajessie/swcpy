@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smuggler_ab_RapidFireTurret" (smuggler_ab_RapidFireTurret)
+title: bldtitlesmugglerabRapidFireTurret (smuggler_ab_RapidFireTurret)
 category: building
 ---
 
-# "bld_title_smuggler_ab_RapidFireTurret" (smuggler_ab_RapidFireTurret) — version 1100
+# bldtitlesmugglerabRapidFireTurret (smuggler_ab_RapidFireTurret) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

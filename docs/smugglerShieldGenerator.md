@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerShieldGenerator" (smugglerShieldGenerator)
+title: bldtitlesmugglerShieldGenerator (smugglerShieldGenerator)
 category: building
 ---
 
-# "bld_title_smugglerShieldGenerator" (smugglerShieldGenerator) — version 1100
+# bldtitlesmugglerShieldGenerator (smugglerShieldGenerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

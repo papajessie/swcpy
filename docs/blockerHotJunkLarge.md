@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerHotJunkLarge" (blockerHotJunkLarge)
+title: bldtitleblockerHotJunkLarge (blockerHotJunkLarge)
 category: building
 ---
 
-# "bld_title_blockerHotJunkLarge" (blockerHotJunkLarge) — version 1100
+# bldtitleblockerHotJunkLarge (blockerHotJunkLarge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

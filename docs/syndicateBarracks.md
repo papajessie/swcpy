@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicateBarracks" (syndicateBarracks)
+title: bldtitlesyndicateBarracks (syndicateBarracks)
 category: building
 ---
 
-# "bld_title_syndicateBarracks" (syndicateBarracks) — version 1100
+# bldtitlesyndicateBarracks (syndicateBarracks) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

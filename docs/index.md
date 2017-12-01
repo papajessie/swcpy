@@ -2,7 +2,7 @@
 title: Main index page (index)
 category: index
 ---
-# Main index page (index) — version 1100
+# Main index page (index) — version 1102
 
  * [Index of objects of type "air"](air.html)
  * [Index of objects of type "building"](building.html)

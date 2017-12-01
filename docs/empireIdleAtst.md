@@ -1,9 +1,9 @@
 ---
-title: "bld_title_empireIdleAtst" (empireIdleAtst)
+title: bldtitleempireIdleAtst (empireIdleAtst)
 category: building
 ---
 
-# "bld_title_empireIdleAtst" (empireIdleAtst) — version 1100
+# bldtitleempireIdleAtst (empireIdleAtst) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

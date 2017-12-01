@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerFactory" (smugglerFactory)
+title: bldtitlesmugglerFactory (smugglerFactory)
 category: building
 ---
 
-# "bld_title_smugglerFactory" (smugglerFactory) — version 1100
+# bldtitlesmugglerFactory (smugglerFactory) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

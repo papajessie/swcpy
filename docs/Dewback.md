@@ -3,7 +3,7 @@ title: Dewback Trooper (Dewback)
 category: unit
 ---
 
-# Dewback Trooper (Dewback) — version 1100
+# Dewback Trooper (Dewback) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

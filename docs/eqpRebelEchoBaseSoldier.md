@@ -3,7 +3,7 @@ title: Cold-weather Soldier (eqpRebelEchoBaseSoldier)
 category: unit
 ---
 
-# Cold-weather Soldier (eqpRebelEchoBaseSoldier) — version 1100
+# Cold-weather Soldier (eqpRebelEchoBaseSoldier) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

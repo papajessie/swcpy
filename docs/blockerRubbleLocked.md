@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerRubbleLocked" (blockerRubbleLocked)
+title: bldtitleblockerRubbleLocked (blockerRubbleLocked)
 category: building
 ---
 
-# "bld_title_blockerRubbleLocked" (blockerRubbleLocked) — version 1100
+# bldtitleblockerRubbleLocked (blockerRubbleLocked) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

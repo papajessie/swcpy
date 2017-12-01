@@ -1,9 +1,9 @@
 ---
-title: "trp_title_ATTEFakeHero" (ATTEFakeHero)
+title: trptitleATTEFakeHero (ATTEFakeHero)
 category: unit
 ---
 
-# "trp_title_ATTEFakeHero" (ATTEFakeHero) — version 1100
+# trptitleATTEFakeHero (ATTEFakeHero) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

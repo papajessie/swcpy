@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicate_ab_Mortar" (syndicate_ab_Mortar)
+title: bldtitlesyndicateabMortar (syndicate_ab_Mortar)
 category: building
 ---
 
-# "bld_title_syndicate_ab_Mortar" (syndicate_ab_Mortar) — version 1100
+# bldtitlesyndicateabMortar (syndicate_ab_Mortar) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

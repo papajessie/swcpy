@@ -1,9 +1,9 @@
 ---
-title: "bld_title_decoTreeHuge" (decoTreeHuge)
+title: bldtitledecoTreeHuge (decoTreeHuge)
 category: building
 ---
 
-# "bld_title_decoTreeHuge" (decoTreeHuge) — version 1100
+# bldtitledecoTreeHuge (decoTreeHuge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

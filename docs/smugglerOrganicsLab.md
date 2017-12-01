@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerOrganicsLab" (smugglerOrganicsLab)
+title: bldtitlesmugglerOrganicsLab (smugglerOrganicsLab)
 category: building
 ---
 
-# "bld_title_smugglerOrganicsLab" (smugglerOrganicsLab) — version 1100
+# bldtitlesmugglerOrganicsLab (smugglerOrganicsLab) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

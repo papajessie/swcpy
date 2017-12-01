@@ -1,8 +1,8 @@
 ---
-title: Conflict at Shyloah's Crest (conflict_hth_22)
+title: Conflict at Shyloahs Crest (conflict_hth_22)
 category: tournament
 ---
-# Conflict at Shyloah's Crest
+# Conflict at Shyloahs Crest
 
   * Start date: 2016-07-27
   * End date: 2016-08-01

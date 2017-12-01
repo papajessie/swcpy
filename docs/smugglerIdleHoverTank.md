@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerIdleHoverTank" (smugglerIdleHoverTank)
+title: bldtitlesmugglerIdleHoverTank (smugglerIdleHoverTank)
 category: building
 ---
 
-# "bld_title_smugglerIdleHoverTank" (smugglerIdleHoverTank) — version 1100
+# bldtitlesmugglerIdleHoverTank (smugglerIdleHoverTank) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

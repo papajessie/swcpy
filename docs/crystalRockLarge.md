@@ -1,9 +1,9 @@
 ---
-title: "bld_title_crystalRockLarge" (crystalRockLarge)
+title: bldtitlecrystalRockLarge (crystalRockLarge)
 category: building
 ---
 
-# "bld_title_crystalRockLarge" (crystalRockLarge) — version 1100
+# bldtitlecrystalRockLarge (crystalRockLarge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

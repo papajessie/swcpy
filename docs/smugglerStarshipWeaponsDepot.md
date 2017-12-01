@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerStarshipWeaponsDepot" (smugglerStarshipWeaponsDepot)
+title: bldtitlesmugglerStarshipWeaponsDepot (smugglerStarshipWeaponsDepot)
 category: building
 ---
 
-# "bld_title_smugglerStarshipWeaponsDepot" (smugglerStarshipWeaponsDepot) — version 1100
+# bldtitlesmugglerStarshipWeaponsDepot (smugglerStarshipWeaponsDepot) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

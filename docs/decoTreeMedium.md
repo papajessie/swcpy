@@ -1,9 +1,9 @@
 ---
-title: "bld_title_decoTreeMedium" (decoTreeMedium)
+title: bldtitledecoTreeMedium (decoTreeMedium)
 category: building
 ---
 
-# "bld_title_decoTreeMedium" (decoTreeMedium) — version 1100
+# bldtitledecoTreeMedium (decoTreeMedium) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

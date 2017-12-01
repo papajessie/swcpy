@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerMiningComplex" (smugglerMiningComplex)
+title: bldtitlesmugglerMiningComplex (smugglerMiningComplex)
 category: building
 ---
 
-# "bld_title_smugglerMiningComplex" (smugglerMiningComplex) — version 1100
+# bldtitlesmugglerMiningComplex (smugglerMiningComplex) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

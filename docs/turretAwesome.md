@@ -1,9 +1,9 @@
 ---
-title: "bld_title_turretAwesome" (turretAwesome)
+title: bldtitleturretAwesome (turretAwesome)
 category: building
 ---
 
-# "bld_title_turretAwesome" (turretAwesome) — version 1100
+# bldtitleturretAwesome (turretAwesome) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

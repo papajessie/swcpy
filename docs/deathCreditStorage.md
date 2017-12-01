@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathCreditStorage" (deathCreditStorage)
+title: bldtitledeathCreditStorage (deathCreditStorage)
 category: building
 ---
 
-# "bld_title_deathCreditStorage" (deathCreditStorage) — version 1100
+# bldtitledeathCreditStorage (deathCreditStorage) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

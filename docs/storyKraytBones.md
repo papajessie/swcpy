@@ -1,9 +1,9 @@
 ---
-title: "bld_title_storyKraytBones" (storyKraytBones)
+title: bldtitlestoryKraytBones (storyKraytBones)
 category: building
 ---
 
-# "bld_title_storyKraytBones" (storyKraytBones) — version 1100
+# bldtitlestoryKraytBones (storyKraytBones) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

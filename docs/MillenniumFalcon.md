@@ -1,9 +1,9 @@
 ---
-title: "shp_title_MillenniumFalcon" (MillenniumFalcon)
+title: shptitleMillenniumFalcon (MillenniumFalcon)
 category: air
 ---
 
-# "shp_title_MillenniumFalcon" (MillenniumFalcon) — version 1100
+# shptitleMillenniumFalcon (MillenniumFalcon) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

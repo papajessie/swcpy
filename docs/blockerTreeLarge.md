@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerTreeLarge" (blockerTreeLarge)
+title: bldtitleblockerTreeLarge (blockerTreeLarge)
 category: building
 ---
 
-# "bld_title_blockerTreeLarge" (blockerTreeLarge) — version 1100
+# bldtitleblockerTreeLarge (blockerTreeLarge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

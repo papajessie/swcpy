@@ -1,9 +1,9 @@
 ---
-title: "shp_title_YWingTrap" (YWingTrap)
+title: shptitleYWingTrap (YWingTrap)
 category: air
 ---
 
-# "shp_title_YWingTrap" (YWingTrap) — version 1100
+# shptitleYWingTrap (YWingTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

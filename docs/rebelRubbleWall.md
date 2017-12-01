@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelRubbleWall" (rebelRubbleWall)
+title: bldtitlerebelRubbleWall (rebelRubbleWall)
 category: building
 ---
 
-# "bld_title_rebelRubbleWall" (rebelRubbleWall) — version 1100
+# bldtitlerebelRubbleWall (rebelRubbleWall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

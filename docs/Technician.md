@@ -3,7 +3,7 @@ title: Repair Droid (Technician)
 category: unit
 ---
 
-# Repair Droid (Technician) — version 1100
+# Repair Droid (Technician) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

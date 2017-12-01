@@ -1,8 +1,8 @@
 ---
-title: Johhar Kessen spotted on Er'Kit (conflict_erk_31)
+title: Johhar Kessen spotted on ErKit (conflict_erk_31)
 category: tournament
 ---
-# Johhar Kessen spotted on Er'Kit
+# Johhar Kessen spotted on ErKit
 
   * Start date: 2016-10-13
   * End date: 2016-10-16

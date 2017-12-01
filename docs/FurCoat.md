@@ -1,9 +1,9 @@
 ---
-title: <Fur Coat> (FurCoat)
+title: Fur Coat (FurCoat)
 category: unit
 ---
 
-# <Fur Coat> (FurCoat) — version 1100
+# Fur Coat (FurCoat) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

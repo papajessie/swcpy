@@ -3,7 +3,7 @@ title: MTV-7 (MTV7)
 category: unit
 ---
 
-# MTV-7 (MTV7) — version 1100
+# MTV-7 (MTV7) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

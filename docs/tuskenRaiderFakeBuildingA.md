@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tuskenRaiderFakeBuildingA" (tuskenRaiderFakeBuildingA)
+title: bldtitletuskenRaiderFakeBuildingA (tuskenRaiderFakeBuildingA)
 category: building
 ---
 
-# "bld_title_tuskenRaiderFakeBuildingA" (tuskenRaiderFakeBuildingA) — version 1100
+# bldtitletuskenRaiderFakeBuildingA (tuskenRaiderFakeBuildingA) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

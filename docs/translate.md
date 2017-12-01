@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1100
+# Translation strings (translate) — version 1102
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -12078,7 +12078,7 @@ category: strings
   * **trp_desc_PentagonHeavyTrooper**: 'Along with the special training assigned to standard Shoretroopers, these troops have undergone specialized training in the use of heavy ordnance which they use to decimate enemy forces. This increased offense comes at the cost of their defensive capabilities.'
   * **trp_desc_PentagonSoldier**: "Elite members of the Rebellion's SpecForces, Rebel Commandos are trained in guerilla combat tactics for tropical environments. By working together in large numbers these troops are able to counter overwhelming odds."
   * **trp_desc_PentagonTrooper**: 'Shoretroopers are specially trained at a top secret Imperial military headquarters on an unknown planet. They are equipped for combat in tropical environments and use stormtrooper tactics of strength in numbers.'
-  * **trp_desc_PolarShip**: 'The unsteady configuration of the V-4x-D Ski Speeder requires the usage of a ventral halofoil for stabilization. Their light armoring is vulnerable to heavy fire but allows them to obtain high speeds on the battle field, making them ideal for anti-infantry usage.'
+  * **trp_desc_PolarShip**: 'The unsteady configuration of the V-4x-D Ski Speeder requires the usage of a ventral halofoil for stabilization. Their light armoring is vulnerable to heavy fire but allows them to obtain high speeds on the battlefield, making them ideal for anti-infantry usage.'
   * **trp_desc_ProbeDroid**: 'Used widely by the Empire, these fast moving droids carry an array of terrifying weaponry and specialize in defeating infantry. However, they suffer in vehicular engagements due to their light armor.'
   * **trp_desc_R5Medic**: 'Medic Droids heal injuries with advanced bacta-based technologies. They are programmed to follow and provide aid to infantry closest to them.'
   * **trp_desc_RebelBrute**: 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'

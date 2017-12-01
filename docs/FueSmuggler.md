@@ -1,9 +1,9 @@
 ---
-title: "trp_title_FueSmuggler" (FueSmuggler)
+title: trptitleFueSmuggler (FueSmuggler)
 category: unit
 ---
 
-# "trp_title_FueSmuggler" (FueSmuggler) — version 1100
+# trptitleFueSmuggler (FueSmuggler) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

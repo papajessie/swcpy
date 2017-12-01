@@ -1,9 +1,9 @@
 ---
-title: "trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid)
+title: trptitleEmpireSpiderlingDroid (EmpireSpiderlingDroid)
 category: unit
 ---
 
-# "trp_title_EmpireSpiderlingDroid" (EmpireSpiderlingDroid) — version 1100
+# trptitleEmpireSpiderlingDroid (EmpireSpiderlingDroid) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

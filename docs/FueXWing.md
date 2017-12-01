@@ -1,9 +1,9 @@
 ---
-title: "shp_title_FueXWing" (FueXWing)
+title: shptitleFueXWing (FueXWing)
 category: air
 ---
 
-# "shp_title_FueXWing" (FueXWing) — version 1100
+# shptitleFueXWing (FueXWing) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

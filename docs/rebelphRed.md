@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelphRed" (rebelphRed)
+title: bldtitlerebelphRed (rebelphRed)
 category: building
 ---
 
-# "bld_title_rebelphRed" (rebelphRed) — version 1100
+# bldtitlerebelphRed (rebelphRed) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

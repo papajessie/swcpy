@@ -1,9 +1,9 @@
 ---
-title: "shp_title_TIEBomberTrap" (TIEBomberTrap)
+title: shptitleTIEBomberTrap (TIEBomberTrap)
 category: air
 ---
 
-# "shp_title_TIEBomberTrap" (TIEBomberTrap) — version 1100
+# shptitleTIEBomberTrap (TIEBomberTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "trp_title_FueTusken" (FueTusken)
+title: trptitleFueTusken (FueTusken)
 category: unit
 ---
 
-# "trp_title_FueTusken" (FueTusken) — version 1100
+# trptitleFueTusken (FueTusken) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

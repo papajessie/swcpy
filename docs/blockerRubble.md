@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerRubble" (blockerRubble)
+title: bldtitleblockerRubble (blockerRubble)
 category: building
 ---
 
-# "bld_title_blockerRubble" (blockerRubble) — version 1100
+# bldtitleblockerRubble (blockerRubble) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

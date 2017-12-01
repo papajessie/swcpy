@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicateMaterialsGenerator" (syndicateMaterialsGenerator)
+title: bldtitlesyndicateMaterialsGenerator (syndicateMaterialsGenerator)
 category: building
 ---
 
-# "bld_title_syndicateMaterialsGenerator" (syndicateMaterialsGenerator) — version 1100
+# bldtitlesyndicateMaterialsGenerator (syndicateMaterialsGenerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "trp_title_HeavySoldierDropshipTrap" (HeavySoldierDropshipTrap)
+title: trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap)
 category: unit
 ---
 
-# "trp_title_HeavySoldierDropshipTrap" (HeavySoldierDropshipTrap) — version 1100
+# trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

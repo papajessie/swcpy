@@ -1,9 +1,9 @@
 ---
-title: "shp_title_NavalStrike" (NavalStrike)
+title: shptitleNavalStrike (NavalStrike)
 category: air
 ---
 
-# "shp_title_NavalStrike" (NavalStrike) — version 1100
+# shptitleNavalStrike (NavalStrike) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerMortar" (smugglerMortar)
+title: bldtitlesmugglerMortar (smugglerMortar)
 category: building
 ---
 
-# "bld_title_smugglerMortar" (smugglerMortar) — version 1100
+# bldtitlesmugglerMortar (smugglerMortar) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

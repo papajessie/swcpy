@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathFactory" (deathFactory)
+title: bldtitledeathFactory (deathFactory)
 category: building
 ---
 
-# "bld_title_deathFactory" (deathFactory) — version 1100
+# bldtitledeathFactory (deathFactory) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

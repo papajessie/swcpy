@@ -1,8 +1,8 @@
 ---
-title: "tournament_title_conflict_hth_20170824" (conflict_hth_20170824)
+title: tournamenttitleconflicthth20170824 (conflict_hth_20170824)
 category: tournament
 ---
-# "tournament_title_conflict_hth_20170824"
+# tournamenttitleconflicthth20170824
 
   * Start date: 2017-08-24
   * End date: 2017-08-30

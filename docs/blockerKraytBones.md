@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerKraytBones" (blockerKraytBones)
+title: bldtitleblockerKraytBones (blockerKraytBones)
 category: building
 ---
 
-# "bld_title_blockerKraytBones" (blockerKraytBones) — version 1100
+# bldtitleblockerKraytBones (blockerKraytBones) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

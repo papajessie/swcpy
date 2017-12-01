@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tuskenStorage" (tuskenStorage)
+title: bldtitletuskenStorage (tuskenStorage)
 category: building
 ---
 
-# "bld_title_tuskenStorage" (tuskenStorage) — version 1100
+# bldtitletuskenStorage (tuskenStorage) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

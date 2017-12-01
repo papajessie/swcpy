@@ -3,7 +3,7 @@ title: Stolen TX-225 (eqpRebelHovertank)
 category: unit
 ---
 
-# Stolen TX-225 (eqpRebelHovertank) — version 1100
+# Stolen TX-225 (eqpRebelHovertank) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

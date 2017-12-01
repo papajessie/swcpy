@@ -3,7 +3,7 @@ title: Alloy Refinery (smugglerMaterialsGenerator)
 category: building
 ---
 
-# Alloy Refinery (smugglerMaterialsGenerator) — version 1100
+# Alloy Refinery (smugglerMaterialsGenerator) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

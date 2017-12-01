@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerContrabandStorage" (smugglerContrabandStorage)
+title: bldtitlesmugglerContrabandStorage (smugglerContrabandStorage)
 category: building
 ---
 
-# "bld_title_smugglerContrabandStorage" (smugglerContrabandStorage) — version 1100
+# bldtitlesmugglerContrabandStorage (smugglerContrabandStorage) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

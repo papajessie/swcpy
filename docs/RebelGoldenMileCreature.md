@@ -1,9 +1,9 @@
 ---
-title: <Golden Mile Creature> (RebelGoldenMileCreature)
+title: Golden Mile Creature (RebelGoldenMileCreature)
 category: unit
 ---
 
-# <Golden Mile Creature> (RebelGoldenMileCreature) — version 1100
+# Golden Mile Creature (RebelGoldenMileCreature) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

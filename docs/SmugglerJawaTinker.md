@@ -1,9 +1,9 @@
 ---
-title: "trp_title_SmugglerJawaTinker" (SmugglerJawaTinker)
+title: trptitleSmugglerJawaTinker (SmugglerJawaTinker)
 category: unit
 ---
 
-# "trp_title_SmugglerJawaTinker" (SmugglerJawaTinker) — version 1100
+# trptitleSmugglerJawaTinker (SmugglerJawaTinker) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

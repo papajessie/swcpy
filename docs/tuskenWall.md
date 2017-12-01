@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tuskenWall" (tuskenWall)
+title: bldtitletuskenWall (tuskenWall)
 category: building
 ---
 
-# "bld_title_tuskenWall" (tuskenWall) — version 1100
+# bldtitletuskenWall (tuskenWall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

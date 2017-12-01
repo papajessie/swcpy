@@ -1,9 +1,9 @@
 ---
-title: "shp_title_RedDot" (RedDot)
+title: shptitleRedDot (RedDot)
 category: air
 ---
 
-# "shp_title_RedDot" (RedDot) — version 1100
+# shptitleRedDot (RedDot) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

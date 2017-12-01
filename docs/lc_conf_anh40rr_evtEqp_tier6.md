@@ -3,7 +3,7 @@ title: Bronzium Conflict Crate (lc_conf_anh40rr_evtEqp_tier6)
 category: crate
 ---
 
-# Bronzium Conflict Crate (lc_conf_anh40rr_evtEqp_tier6) — version 1100
+# Bronzium Conflict Crate (lc_conf_anh40rr_evtEqp_tier6) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -11,13 +11,13 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_anh40rr_shrd_conf_evtEqp_tier5" (x1 draw)
 
+### Rebellion for HQ levels 6-10
+
+  * (1/1) 5 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
+
 ### Empire for HQ level 5
 
   * (1/1) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
-
-### Rebellion for HQ levels 6-10
-
-  * (1/1) 5 data fragments of equipment [Artoo & Threepio](eqpRebelArtoo)
 
 ### Rebellion for HQ level 5
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_fue_tuskenFakeRifleman" (fue_tuskenFakeRifleman)
+title: bldtitlefuetuskenFakeRifleman (fue_tuskenFakeRifleman)
 category: building
 ---
 
-# "bld_title_fue_tuskenFakeRifleman" (fue_tuskenFakeRifleman) — version 1100
+# bldtitlefuetuskenFakeRifleman (fue_tuskenFakeRifleman) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Tatooine (conflict_desert_tat_04)
+title: Desert OpsConflict on Tatooine (conflict_desert_tat_04)
 category: tournament
 ---
-# Desert Ops Conflict on Tatooine
+# Desert OpsConflict on Tatooine
 
   * Start date: 2017-02-09
   * End date: 2017-02-15

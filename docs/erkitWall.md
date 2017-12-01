@@ -1,9 +1,9 @@
 ---
-title: "bld_title_erkitWall" (erkitWall)
+title: bldtitleerkitWall (erkitWall)
 category: building
 ---
 
-# "bld_title_erkitWall" (erkitWall) — version 1100
+# bldtitleerkitWall (erkitWall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

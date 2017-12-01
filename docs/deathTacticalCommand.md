@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathTacticalCommand" (deathTacticalCommand)
+title: bldtitledeathTacticalCommand (deathTacticalCommand)
 category: building
 ---
 
-# "bld_title_deathTacticalCommand" (deathTacticalCommand) — version 1100
+# bldtitledeathTacticalCommand (deathTacticalCommand) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

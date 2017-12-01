@@ -1,9 +1,9 @@
 ---
-title: "bld_title_empireMunitionsPlant" (empireMunitionsPlant)
+title: bldtitleempireMunitionsPlant (empireMunitionsPlant)
 category: building
 ---
 
-# "bld_title_empireMunitionsPlant" (empireMunitionsPlant) — version 1100
+# bldtitleempireMunitionsPlant (empireMunitionsPlant) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

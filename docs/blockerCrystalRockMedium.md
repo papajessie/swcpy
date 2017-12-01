@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerCrystalRockMedium" (blockerCrystalRockMedium)
+title: bldtitleblockerCrystalRockMedium (blockerCrystalRockMedium)
 category: building
 ---
 
-# "bld_title_blockerCrystalRockMedium" (blockerCrystalRockMedium) — version 1100
+# bldtitleblockerCrystalRockMedium (blockerCrystalRockMedium) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

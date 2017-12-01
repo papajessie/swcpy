@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerNeutralVehicleIdle" (blockerNeutralVehicleIdle)
+title: bldtitleblockerNeutralVehicleIdle (blockerNeutralVehicleIdle)
 category: building
 ---
 
-# "bld_title_blockerNeutralVehicleIdle" (blockerNeutralVehicleIdle) — version 1100
+# bldtitleblockerNeutralVehicleIdle (blockerNeutralVehicleIdle) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

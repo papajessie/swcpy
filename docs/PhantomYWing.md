@@ -1,9 +1,9 @@
 ---
-title: "trp_title_PhantomYWing" (PhantomYWing)
+title: trptitlePhantomYWing (PhantomYWing)
 category: unit
 ---
 
-# "trp_title_PhantomYWing" (PhantomYWing) — version 1100
+# trptitlePhantomYWing (PhantomYWing) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

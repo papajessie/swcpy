@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerShipBow1" (blockerShipBow1)
+title: bldtitleblockerShipBow1 (blockerShipBow1)
 category: building
 ---
 
-# "bld_title_blockerShipBow1" (blockerShipBow1) — version 1100
+# bldtitleblockerShipBow1 (blockerShipBow1) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

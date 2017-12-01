@@ -3,7 +3,7 @@ title: Droid Hut (smugglerDroidHut)
 category: building
 ---
 
-# Droid Hut (smugglerDroidHut) — version 1100
+# Droid Hut (smugglerDroidHut) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

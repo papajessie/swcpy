@@ -1,7 +1,7 @@
 ---
 title: Index of unit equipments
 ---
-# Unit equipments — version 1100
+# Unit equipments — version 1102
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -28,7 +28,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Rebellion
 
   * [Cold-weather Hailfire Droid (eqpRebelArcticHailfire)](eqpRebelArcticHailfire.html)
-  * [Artoo & Threepio (eqpRebelArtoo)](eqpRebelArtoo.html)
+  * [Artoo  Threepio (eqpRebelArtoo)](eqpRebelArtoo.html)
   * [Captain Han Solo (eqpRebelCaptainSolo)](eqpRebelCaptainSolo.html)
   * [Millennium Falcon Support (eqpRebelChewie)](eqpRebelChewie.html)
   * [Senator Leia Organa (eqpRebelDiplomat)](eqpRebelDiplomat.html)

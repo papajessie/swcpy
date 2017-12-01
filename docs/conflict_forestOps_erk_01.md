@@ -1,8 +1,8 @@
 ---
-title: Forest Ops Conflict on Er'Kit (conflict_forestOps_erk_01)
+title: Forest Ops Conflict on ErKit (conflict_forestOps_erk_01)
 category: tournament
 ---
-# Forest Ops Conflict on Er'Kit
+# Forest Ops Conflict on ErKit
 
   * Start date: 2017-02-23
   * End date: 2017-03-01

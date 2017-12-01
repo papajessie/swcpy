@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Yavin IV (conflict_desert_yav_01)
+title: Desert OpsConflict on Yavin IV (conflict_desert_yav_01)
 category: tournament
 ---
-# Desert Ops Conflict on Yavin IV
+# Desert OpsConflict on Yavin IV
 
   * Start date: 2017-02-02
   * End date: 2017-02-08

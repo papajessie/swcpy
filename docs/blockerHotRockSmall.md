@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerHotRockSmall" (blockerHotRockSmall)
+title: bldtitleblockerHotRockSmall (blockerHotRockSmall)
 category: building
 ---
 
-# "bld_title_blockerHotRockSmall" (blockerHotRockSmall) — version 1100
+# bldtitleblockerHotRockSmall (blockerHotRockSmall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_rebelRubble" (rebelRubble)
+title: bldtitlerebelRubble (rebelRubble)
 category: building
 ---
 
-# "bld_title_rebelRubble" (rebelRubble) — version 1100
+# bldtitlerebelRubble (rebelRubble) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

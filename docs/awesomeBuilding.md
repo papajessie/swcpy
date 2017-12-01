@@ -1,9 +1,9 @@
 ---
-title: "bld_title_awesomeBuilding" (awesomeBuilding)
+title: bldtitleawesomeBuilding (awesomeBuilding)
 category: building
 ---
 
-# "bld_title_awesomeBuilding" (awesomeBuilding) — version 1100
+# bldtitleawesomeBuilding (awesomeBuilding) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Weapons Research Crate (lc_raid_rogue1v3_tier3)
 category: crate
 ---
 
-# Weapons Research Crate (lc_raid_rogue1v3_tier3) — version 1100
+# Weapons Research Crate (lc_raid_rogue1v3_tier3) — version 1102
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -106,24 +106,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_rogue1v3_shrd" (x1 draw)
 
-### Empire for HQ level 5
-
-  * (2/20) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/20) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (4/20) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (5/20) 1 data fragments of unlockable air support ["shp_title_shrd_troopSecurityDroid"](shrd_troopSecurityDroid)
-  * (5/20) 1 data fragments of unlockable air support [TIE Striker](AtmosMig)
-
-### Rebellion for HQ level 5
-
-  * (2/20) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/20) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/20) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (5/20) 1 data fragments of unlockable air support ["shp_title_shrd_troopBigMouthAlien"](shrd_troopBigMouthAlien)
-  * (5/20) 1 data fragments of unlockable air support [Fang Fighter](FangFighter)
-
 ### Rebellion for HQ levels 6-10
 
   * (1/18) 3 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
@@ -139,6 +121,15 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/18) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (4/18) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
+### Empire for HQ level 5
+
+  * (2/20) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/20) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (4/20) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/20) 1 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/20) 1 data fragments of unlockable air support [shptitleshrdtroopSecurityDroid](shrd_troopSecurityDroid)
+
 ### Empire for HQ levels 6-10
 
   * (1/18) 3 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
@@ -153,6 +144,15 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/18) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/18) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (4/18) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+
+### Rebellion for HQ level 5
+
+  * (2/20) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/20) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (4/20) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (5/20) 1 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (5/20) 1 data fragments of unlockable air support [shptitleshrdtroopBigMouthAlien](shrd_troopBigMouthAlien)
 
 ### Fallback for HQ level 10
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerNeutralCivilianErkitBlue" (blockerNeutralCivilianErkitBlue)
+title: bldtitleblockerNeutralCivilianErkitBlue (blockerNeutralCivilianErkitBlue)
 category: building
 ---
 
-# "bld_title_blockerNeutralCivilianErkitBlue" (blockerNeutralCivilianErkitBlue) — version 1100
+# bldtitleblockerNeutralCivilianErkitBlue (blockerNeutralCivilianErkitBlue) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerTakRockLarge" (blockerTakRockLarge)
+title: bldtitleblockerTakRockLarge (blockerTakRockLarge)
 category: building
 ---
 
-# "bld_title_blockerTakRockLarge" (blockerTakRockLarge) — version 1100
+# bldtitleblockerTakRockLarge (blockerTakRockLarge) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_blockerErkitHouseSmall" (blockerErkitHouseSmall)
+title: bldtitleblockerErkitHouseSmall (blockerErkitHouseSmall)
 category: building
 ---
 
-# "bld_title_blockerErkitHouseSmall" (blockerErkitHouseSmall) — version 1100
+# bldtitleblockerErkitHouseSmall (blockerErkitHouseSmall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

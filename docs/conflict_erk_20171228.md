@@ -1,8 +1,8 @@
 ---
-title: Conflict on Er'Kit (conflict_erk_20171228)
+title: Conflict on ErKit (conflict_erk_20171228)
 category: tournament
 ---
-# Conflict on Er'Kit
+# Conflict on ErKit
 
   * Start date: 2017-12-28
   * End date: 2018-01-03

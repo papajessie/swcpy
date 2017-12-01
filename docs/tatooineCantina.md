@@ -1,9 +1,9 @@
 ---
-title: "bld_title_tatooineCantina" (tatooineCantina)
+title: bldtitletatooineCantina (tatooineCantina)
 category: building
 ---
 
-# "bld_title_tatooineCantina" (tatooineCantina) — version 1100
+# bldtitletatooineCantina (tatooineCantina) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerPrisonWall" (smugglerPrisonWall)
+title: bldtitlesmugglerPrisonWall (smugglerPrisonWall)
 category: building
 ---
 
-# "bld_title_smugglerPrisonWall" (smugglerPrisonWall) — version 1100
+# bldtitlesmugglerPrisonWall (smugglerPrisonWall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

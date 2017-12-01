@@ -1,9 +1,9 @@
 ---
-title: "bld_title_treeSmall" (treeSmall)
+title: bldtitletreeSmall (treeSmall)
 category: building
 ---
 
-# "bld_title_treeSmall" (treeSmall) — version 1100
+# bldtitletreeSmall (treeSmall) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

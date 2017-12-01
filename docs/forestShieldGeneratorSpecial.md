@@ -1,9 +1,9 @@
 ---
-title: "bld_title_forestShieldGeneratorSpecial" (forestShieldGeneratorSpecial)
+title: bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial)
 category: building
 ---
 
-# "bld_title_forestShieldGeneratorSpecial" (forestShieldGeneratorSpecial) — version 1100
+# bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

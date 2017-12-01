@@ -1,7 +1,7 @@
 ---
 title: Index of air strikes
 ---
-# Air Strikes — version 1100
+# Air Strikes — version 1102
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -33,41 +33,41 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Other units
 
-  * ["shp_title_FreighterNeutral" (FreighterNeutral)](FreighterNeutral.html)
+  * [shptitleFreighterNeutral (FreighterNeutral)](FreighterNeutral.html)
 
 ### Independant units
 
-  * ["shp_title_SmugglerFreighter" (SmugglerFreighter)](SmugglerFreighter.html)
+  * [shptitleSmugglerFreighter (SmugglerFreighter)](SmugglerFreighter.html)
 
 ## Other units
 
 ### Empire
 
-  * ["shp_title_AtmosMigTrap" (AtmosMigTrap)](AtmosMigTrap.html)
+  * [shptitleAtmosMigTrap (AtmosMigTrap)](AtmosMigTrap.html)
   * [Strix Strafing Run (FreighterEmpire)](FreighterEmpire.html)
-  * ["shp_title_GozantiCruiser" (GozantiCruiser)](GozantiCruiser.html)
+  * [shptitleGozantiCruiser (GozantiCruiser)](GozantiCruiser.html)
   * [Imperial Dropship Transport (ImperialDropshipTrap)](ImperialDropshipTrap.html)
-  * ["shp_title_NavalStrike" (NavalStrike)](NavalStrike.html)
+  * [shptitleNavalStrike (NavalStrike)](NavalStrike.html)
   * [Stolen TIE Advanced (StolenTieAdvanced)](StolenTieAdvanced.html)
   * [Stolen TIE fighter (StolenTieFighter)](StolenTieFighter.html)
-  * ["shp_title_TIEBomberTrap" (TIEBomberTrap)](TIEBomberTrap.html)
-  * ["shp_title_TIEFighterTrap" (TIEFighterTrap)](TIEFighterTrap.html)
+  * [shptitleTIEBomberTrap (TIEBomberTrap)](TIEBomberTrap.html)
+  * [shptitleTIEFighterTrap (TIEFighterTrap)](TIEFighterTrap.html)
 
 ### Rebellion
 
   * [Low Altitude Assault Transport (CloneWarsGunshipTrap)](CloneWarsGunshipTrap.html)
-  * ["shp_title_CorellianStarShuttle" (CorellianStarShuttle)](CorellianStarShuttle.html)
-  * ["shp_title_FangFighterTrap" (FangFighterTrap)](FangFighterTrap.html)
+  * [shptitleCorellianStarShuttle (CorellianStarShuttle)](CorellianStarShuttle.html)
+  * [shptitleFangFighterTrap (FangFighterTrap)](FangFighterTrap.html)
   * [Strix Strafing Run (FreighterRebel)](FreighterRebel.html)
-  * ["shp_title_MillenniumFalcon" (MillenniumFalcon)](MillenniumFalcon.html)
-  * ["shp_title_RedDot" (RedDot)](RedDot.html)
+  * [shptitleMillenniumFalcon (MillenniumFalcon)](MillenniumFalcon.html)
+  * [shptitleRedDot (RedDot)](RedDot.html)
   * [Seized A-wing Starfighter (SeizedAwing)](SeizedAwing.html)
   * [Seized X-wing Starfighter (SeizedXwing)](SeizedXwing.html)
-  * ["shp_title_XWingTrap" (XWingTrap)](XWingTrap.html)
-  * ["shp_title_YWingTrap" (YWingTrap)](YWingTrap.html)
+  * [shptitleXWingTrap (XWingTrap)](XWingTrap.html)
+  * [shptitleYWingTrap (YWingTrap)](YWingTrap.html)
 
 ### Independant units
 
-  * ["shp_title_FueTieFighter" (FueTieFighter)](FueTieFighter.html)
-  * ["shp_title_FueXWing" (FueXWing)](FueXWing.html)
+  * [shptitleFueTieFighter (FueTieFighter)](FueTieFighter.html)
+  * [shptitleFueXWing (FueXWing)](FueXWing.html)
 

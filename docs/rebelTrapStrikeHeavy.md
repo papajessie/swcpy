@@ -3,7 +3,7 @@ title: Fang Fighter Trap (rebelTrapStrikeHeavy)
 category: building
 ---
 
-# Fang Fighter Trap (rebelTrapStrikeHeavy) — version 1100
+# Fang Fighter Trap (rebelTrapStrikeHeavy) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -15,13 +15,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Rebellion
   * Force reticle when targeted: Yes
   * Hide if locked: No
+  * Trap disarm conditions: EventSuccess
+  * Trap rearm credits cost: 0
+  * Trap target type: Self
+  * Trap trigger conditions: Radius(2) & ArmorNot(flierInfantry)
   * Type: trap
 
-|Level       |1    |2     |3   |4   |5    |6   |7   |8    |9    |10   |
-|------------|-----|------|----|----|-----|----|----|-----|-----|-----|
-|Health      |2500 |3750  |4500|6000|7250 |8500|9750|11000|12250|13500|
-|Max quantity|1    |1     |1   |2   |2    |2   |2   |2    |2    |2    |
-|Time        |1m30s|22m30s|3h  |18h |1d12h|2d6h|3d  |4d12h|1w2d |2w1d |
+|Level                    |1                                                          |2                                                          |3                                                          |4                                                          |5                                                          |6                                                          |7                                                          |8                                                          |9                                                          |10                                                          |
+|-------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------|
+|Health                   |2500                                                       |3750                                                       |4500                                                       |6000                                                       |7250                                                       |8500                                                       |9750                                                       |11000                                                      |12250                                                      |13500                                                       |
+|Max quantity             |1                                                          |1                                                          |1                                                          |2                                                          |2                                                          |2                                                          |2                                                          |2                                                          |2                                                          |2                                                           |
+|Time                     |1m30s                                                      |22m30s                                                     |3h                                                         |18h                                                        |1d12h                                                      |2d6h                                                       |3d                                                         |4d12h                                                      |1w2d                                                       |2w1d                                                        |
+|Trap air strike          |["shp_title_FangFighterTrap" level 1](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 2](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 3](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 4](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 5](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 6](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 7](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 8](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 9](FangFighterTrap.html)|["shp_title_FangFighterTrap" level 10](FangFighterTrap.html)|
+|Trap rearm materials cost|750                                                        |1500                                                       |2250                                                       |2700                                                       |3000                                                       |4500                                                       |7500                                                       |9000                                                       |12000                                                      |22500                                                       |
 
 
 ### Training stats
@@ -44,9 +50,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These stats internal to the system link different parts of data together.
 
-|Level  |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
-|-------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|Trap ID|trap_RebelStrikeHeavy1|trap_RebelStrikeHeavy2|trap_RebelStrikeHeavy3|trap_RebelStrikeHeavy4|trap_RebelStrikeHeavy5|trap_RebelStrikeHeavy6|trap_RebelStrikeHeavy7|trap_RebelStrikeHeavy8|trap_RebelStrikeHeavy9|trap_RebelStrikeHeavy10|
+  * Trap event type: SpecialAttack
+
+|Level          |1                            |2                            |3                            |4                            |5                            |6                            |7                            |8                            |9                            |10                            |
+|---------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|------------------------------|
+|Trap ID        |trap_RebelStrikeHeavy1       |trap_RebelStrikeHeavy2       |trap_RebelStrikeHeavy3       |trap_RebelStrikeHeavy4       |trap_RebelStrikeHeavy5       |trap_RebelStrikeHeavy6       |trap_RebelStrikeHeavy7       |trap_RebelStrikeHeavy8       |trap_RebelStrikeHeavy9       |trap_RebelStrikeHeavy10       |
+|Trap event data|specialAttackFangFighterTrap1|specialAttackFangFighterTrap2|specialAttackFangFighterTrap3|specialAttackFangFighterTrap4|specialAttackFangFighterTrap5|specialAttackFangFighterTrap6|specialAttackFangFighterTrap7|specialAttackFangFighterTrap8|specialAttackFangFighterTrap9|specialAttackFangFighterTrap10|
 
 
 ## Presentation stats
@@ -62,6 +71,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: -32.79,29.4,27.07
   * Icon lookat position: 0.79,2.54,-0.62
   * Stash order: 125
+  * Trap add ons: Contents/SharedAssets/active_holo/holo_armed:fangfighterholo_rbl-mod Contents/HomeAssets/holo_spent:fangfighterholo_rbl-mod_red Contents/HomeAssets/holo_spent:fx_repair_smoke Contents/SharedAssets/trap_spent/starshiptrap_rbl-mod_disarmed:fx_starship_trap_spent_cone_emitter
+  * Trap reveal audio: sfx_trap_appear
 
 |Level    |1       |2-10       |
 |---------|--------|-----------|

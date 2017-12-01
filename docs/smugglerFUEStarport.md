@@ -1,9 +1,9 @@
 ---
-title: "bld_title_smugglerFUEStarport" (smugglerFUEStarport)
+title: bldtitlesmugglerFUEStarport (smugglerFUEStarport)
 category: building
 ---
 
-# "bld_title_smugglerFUEStarport" (smugglerFUEStarport) — version 1100
+# bldtitlesmugglerFUEStarport (smugglerFUEStarport) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

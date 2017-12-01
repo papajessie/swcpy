@@ -1,8 +1,8 @@
 ---
-title: Desert Ops Conflict on Dandoran (conflict_desert_dan_01)
+title: Desert OpsConflict on Dandoran (conflict_desert_dan_01)
 category: tournament
 ---
-# Desert Ops Conflict on Dandoran
+# Desert OpsConflict on Dandoran
 
   * Start date: 2017-02-09
   * End date: 2017-02-15

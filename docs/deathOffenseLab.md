@@ -1,9 +1,9 @@
 ---
-title: "bld_title_deathOffenseLab" (deathOffenseLab)
+title: bldtitledeathOffenseLab (deathOffenseLab)
 category: building
 ---
 
-# "bld_title_deathOffenseLab" (deathOffenseLab) — version 1100
+# bldtitledeathOffenseLab (deathOffenseLab) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

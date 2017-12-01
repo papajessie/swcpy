@@ -1,9 +1,9 @@
 ---
-title: "bld_title_syndicate_ab_BurstTurret" (syndicate_ab_BurstTurret)
+title: bldtitlesyndicateabBurstTurret (syndicate_ab_BurstTurret)
 category: building
 ---
 
-# "bld_title_syndicate_ab_BurstTurret" (syndicate_ab_BurstTurret) — version 1100
+# bldtitlesyndicateabBurstTurret (syndicate_ab_BurstTurret) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

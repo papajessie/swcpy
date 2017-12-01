@@ -3,7 +3,7 @@ title: Rapid Fire Turret (rebel_ab_RapidFireTurret)
 category: building
 ---
 
-# Rapid Fire Turret (rebel_ab_RapidFireTurret) — version 1100
+# Rapid Fire Turret (rebel_ab_RapidFireTurret) — version 1102
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
