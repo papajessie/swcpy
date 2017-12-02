@@ -55,7 +55,7 @@ def importfile(filename):
             if (isinstance(swcdata['content']['objects'][table],list)):
                 for item in swcdata['content']['objects'][table]:
                     if 'uid' in item:
-                        uid=item['uid']
+                        uid=___(item['uid'])
                         if (not(uid in data[table])):
                             data[table][uid]={}
                         for v in item:
@@ -70,12 +70,12 @@ def importlangfile(lang):
         langdict=json.load(stringsfile)
         for x in langdict['content']['objects']['LocalizedStrings']:
             if 'text' in x:
-                langdata[x['uid']]=x['text']
+                langdata[___(x['uid'])]=x['text']
     with codecs.open('content/{}/strings/strings-hn_{}.json'.format(config['version'],lang),'r','utf-8') as stringsfile:
         langdict=json.load(stringsfile)
         for x in langdict['content']['objects']['LocalizedStrings']:
             if 'text' in x:
-                langdata[x['uid']]=x['text']
+                langdata[___(x['uid'])]=x['text']
 
 
 def sortside(a):
@@ -894,6 +894,10 @@ def initstatbuff(buffprefix,buffstring,percentage):
                     
 
 
+def ___(x):
+    simpleid=re.sub(r'[^A-Za-z0-9 -]+', '', x)
+    return simpleid
+
 def _(x):
     global langdata
     if x in langdata:
@@ -1235,8 +1239,8 @@ def analyse_crate(objects,displayed,id):
     if id in objects:
         ob=objects[id]
     swcitem=data['Crate'][id]
-    ob['uid']=swcitem['uid']
-    ob['title']='crate_title_'+swcitem['uid']
+    ob['uid']=___(swcitem['uid'])
+    ob['title']='crate_title_'+___(swcitem['uid'])
     if 'expirationTime' in swcitem:
         ob['expirationTime']=swcitem['expirationTime']
     else:
@@ -1300,13 +1304,13 @@ def analyse_crate_variant(objects,displayed,id,ob,variant,planet,hq,side):
                 if ('planet' in item and planet not in item['planet']):
                     sensitive['planet']=1
                     continue
-                (xflat,pools[item['uid']])=analyse_cratepoolitem(hq,item)
+                (xflat,pools[___(item['uid'])])=analyse_cratepoolitem(hq,item)
                 if xflat==0:
                     flat=0
                 inst=1
                 if 'poolInstances' in item:
                     inst=int(item['poolInstances'])
-                pools[item['uid']]['rate']=inst
+                pools[___(item['uid'])]['rate']=inst
                 instances+=inst
         if (flat==0):
             sensitive['hq']=1
@@ -1350,8 +1354,8 @@ def analyse_tournament(objects,displayed,id):
         return '{2}-{1}-{0}'.format(b,c,d)
     if id in data['TournamentData']:
         swcitem=data['TournamentData'][id]
-        ob['uid']=swcitem['uid']
-        ob['title']='tournament_title_'+swcitem['uid']
+        ob['uid']=___(swcitem['uid'])
+        ob['title']='tournament_title_'+___(swcitem['uid'])
         ob['endDate']=swcdatetoiso(swcitem['endDate'])
         ob['startDate']=swcdatetoiso(swcitem['startDate'])
         if 'planetId' in swcitem:
@@ -1883,7 +1887,7 @@ def output_listheader_crate(out,objects,displayed):
 
 def output_list_crate(out,objects,item,LINKS=False):
     global config
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     xout+='Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.\n\n'
@@ -1942,12 +1946,12 @@ def output_mdheader_crate(out,objects,displayed):
         file.write("# Crates — version {0}\n\n".format(config['version']))
         for crate in displayed:
             item=objects[crate]
-            id=item['uid']
+            id=___(item['uid'])
             title=__(item['title'])
             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
 
 def output_md_crate(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: crate\n---\n".format(id,title))
@@ -1982,7 +1986,7 @@ def output_list_tournament(out,objects,item):
                     else:
                         rewardsstr+='{0} crates "{1}"'.format(k,display_crate_veryshort(j))
                 rewardsstr+=''
-    xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(item['uid'],item['startDate'],item['endDate'],display_planet(item['planetId']),_(item['title']),rewardsstr)
+    xout='\n  * A tournament "{4}" ({0}) that begins on {1} and ends on {2} on planet {3}.{5}'.format(___(item['uid']),item['startDate'],item['endDate'],display_planet(item['planetId']),_(item['title']),rewardsstr)
     out[len(out)-1]+=xout
 
 def output_csvheader_tournament(out,objects,displayed):
@@ -1997,7 +2001,7 @@ def output_csv_tournament(out,objects,item):
             ar[i-1]=','.join(rewards[tier])
         else:
             print('no reward '+tier)
-    xout=";".join([item['uid'],display_planet(item['planetId']),item['startDate'],item['endDate']]+ar)
+    xout=";".join([___(item['uid']),display_planet(item['planetId']),item['startDate'],item['endDate']]+ar)
     out[len(out)-1]+='\n'+xout
 
 def output_mdheader_tournament(out,objects,displayed):
@@ -2010,12 +2014,12 @@ def output_mdheader_tournament(out,objects,displayed):
         for xtournament in reversed(sorted(dates)):
             tournament=dates[xtournament]
             item=objects[tournament]
-            id=item['uid']
+            id=___(item['uid'])
             title=__(item['title'])
             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
 
 def output_md_tournament(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__('tournament_title_'+id)
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: tournament\n---\n".format(id,title))
@@ -2079,7 +2083,7 @@ def fill_requirements(item,where,what,levels,LINKS):
 
 def output_list_unit(out,objects,item,LINKS=False):
     global config
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     if LINKS:
@@ -2240,14 +2244,14 @@ def output_mdheader_unit(out,objects,displayed):
                     firstlevel=item['firstlevel']
                     if item['hq'][firstlevel]['playerFacing']==pf:
                         if item['hq'][firstlevel]['faction']==side:
-                            id=item['uid']
+                            id=___(item['uid'])
+                            id=re.sub(r'[^A-Za-z0-9-]+', '', id)
                             title=__(item['title'])
-                            simpleid=re.sub(r'[^A-Za-z0-9-]+', '', id)
-                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,simpleid))
+                            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
                 file.write("\n")
 
 def output_md_unit(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: unit\n---\n".format(id,title))
@@ -2261,7 +2265,7 @@ def output_listheader_equipunit(out,objects,displayed):
 
 def output_list_equipunit(out,objects,item,LINKS=False):
     global config
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     allkeys=config['statrole']
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
@@ -2315,13 +2319,13 @@ def output_mdheader_equipunit(out,objects,displayed):
                 item=objects[unit]
                 firstlevel=item['firstlevel']
                 if item['hq'][firstlevel]['faction']==side:
-                    id=item['uid']
+                    id=___(item['uid'])
                     title=__(item['title'])
                     file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
             file.write("\n")
 
 def output_md_equipunit(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: unit\n---\n".format(id,title))
@@ -2335,7 +2339,7 @@ def output_listheader_air(out,objects,displayed):
 
 def output_list_air(out,objects,item,LINKS=False):
     global config
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     if LINKS:
@@ -2365,13 +2369,13 @@ def output_mdheader_air(out,objects,displayed):
                     firstlevel=item['firstlevel']
                     if item['hq'][firstlevel]['playerFacing']==pf:
                         if item['hq'][firstlevel]['faction']==side:
-                            id=item['uid']
+                            id=___(item['uid'])
                             title=__(item['title'])
                             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
                 file.write("\n")
 
 def output_md_air(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: air\n---\n".format(id,title))
@@ -2385,7 +2389,7 @@ def output_listheader_building(out,objects,displayed):
 
 def output_list_building(out,objects,item,LINKS=False):
     global config
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
     if LINKS:
@@ -2422,13 +2426,13 @@ def output_mdheader_building(out,objects,displayed):
                     storeTab=dget(item['hq'][firstlevel],'storeTab','not_in_store')
                     if storeTab==pf:
                         if item['hq'][firstlevel]['faction']==side:
-                            id=item['uid']
+                            id=___(item['uid'])
                             title=__(item['title'])
                             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
                 file.write("\n")
 
 def output_md_building(out,objects,item):
-    id=item['uid']
+    id=___(item['uid'])
     title=__(item['title'])
     with open("docs/{0}.md".format(id),"w") as file:
         file.write("---\ntitle: {1} ({0})\ncategory: building\n---\n".format(id,title))
