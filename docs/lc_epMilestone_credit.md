@@ -11,14 +11,6 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_epMilestone_credit" (x1 draw)
 
-### For HQ level 8
-
-  * (1/1) 525000 Credits
-
-### For HQ level 7
-
-  * (1/1) 250000 Credits
-
 ### For HQ level 6
 
   * (1/1) 200000 Credits
@@ -27,13 +19,9 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 30000 Credits
 
-### For HQ level 9
+### For HQ levels 7-10
 
-  * (1/1) 1000000 Credits
-
-### For HQ level 10
-
-  * (1/1) 1500000 Credits
+  * No items, see the fallback option below
 
 ### Fallback for HQ level 10
 
