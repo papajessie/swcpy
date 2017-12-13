@@ -3,7 +3,7 @@ title: bldtitlesmugglerPrisonGuardTower (smugglerPrisonGuardTower)
 category: building
 ---
 
-# bldtitlesmugglerPrisonGuardTower (smugglerPrisonGuardTower) — version 1102
+# bldtitlesmugglerPrisonGuardTower (smugglerPrisonGuardTower) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

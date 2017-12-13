@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1102
+# Translation strings (translate) — version 1104
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -1300,7 +1300,7 @@ category: strings
   * **WAR_HELP_PREP_WARBASE_TITLE**: '[F2D62F]Construct a Defensive Outpost[-]'
   * **WAR_HELP_PREP_WARN_BODY**: 'Once the War Phase begins, you will not be able to edit or request troops for your Defensive Outpost.'
   * **WAR_HELP_PREP_WARN_TITLE**: '[F2D62F]Time-Limited Editing[-]'
-  * **WAR_HELP_REWARD_BODY**: 'Earn unique [F2D62F]Supply Crates[-] only from Squad Wars with 100% refills of Credits or Alloy plus Data Fragments!\n\nSquad War winners also receive 10 [F2D62F]Reputation[-] each.'
+  * **WAR_HELP_REWARD_BODY**: 'Earn unique [F2D62F]Supply Crates[-] only from Squad Wars with a chance for 100% refills of Credits or Alloy, plus Data Fragments!\n\nSquad War winners also receive 10 [F2D62F]Reputation[-] each.'
   * **WAR_HELP_WARBASE_EDIT_BODY**: "There's no looting in a Squad War, so design your Defensive Outpost to maximize protection of your HQ. "
   * **WAR_HELP_WARBASE_EDIT_TITLE**: '[F2D62F]Base Layout[-]'
   * **WAR_HELP_WARBASE_PERMANENCE_BODY**: 'After each defense, Traps, Droidekas and troop donations, are rearmed and refilled 100% on your Defensive Outpost.'
@@ -4850,10 +4850,10 @@ category: strings
   * **hn_cc_1_anhrr_HQ2-5_announce_r_body**: '[c][FFB74A]Black Market[-][/c] event runs from 8/3 to 8/23!\nCollect Death Star Crates and earn Data Fragments for the [c][FFB74A]WED Treadwell[-][/c]. The WED Treadwell makes field repairs to vehicles in the heat of combat!'
   * **hn_cc_1_anhrr_HQ2-5_final_e_body**: "Don't miss your chance to unlock the [c][FFB74A]Imperial Astromedic[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
   * **hn_cc_1_anhrr_HQ2-5_final_r_body**: "Don't miss your chance to unlock the [c][FFB74A]WED Treadwell[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
-  * **hn_cc_1_anhrr_HQ6_announce_e_body**: 'The [c][FFB74A]Black Market[-][/c] event runs from 8/3 to 8/23!\nCollect Death Star Crates and earn Data Fragments for the [c][FFB74A]Lord Vader[-][/c] equipment. With this equipment, Darth Vader will bring troopers of the 501st Legion with him into battle! Also unlock the [c][FFB74A]Imperial Astromedic[-][/c] and take advantage of its advanced bacta-based technologies to heal injuries!'
-  * **hn_cc_1_anhrr_HQ6_announce_r_body**: 'The [c][FFB74A]Black Market[-][/c] event runs from 8/3 to 8/23!!\nCollect Death Star Crates and earn Data Fragments for the new [c][FFB74A]Artoo & Threepio[-][/c] equipment. With this equipment, R2-D2 closes in to stun and damage enemy turrets, with C-3PO by his side! Also unlock the [c][FFB74A]WED Treadwell[-][/c] to make field repairs to vehicles in the heat of combat!'
-  * **hn_cc_1_anhrr_HQ6_final_e_body**: "Don't miss your chance to unlock [c][FFB74A]Lord Vader[-][/c] equipment and the [c][FFB74A]Imperial Astromedic[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
-  * **hn_cc_1_anhrr_HQ6_final_r_body**: "Don't miss your chance to unlock [c][FFB74A]Artoo & Threepio[-][/c] equipment and the [c][FFB74A]WED Treadwell[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
+  * **hn_cc_1_anhrr_HQ6+_announce_e_body**: 'The [c][FFB74A]Black Market[-][/c] event runs from 8/3 to 8/23!\nCollect Death Star Crates and earn Data Fragments for the [c][FFB74A]Lord Vader[-][/c] equipment. With this equipment, Darth Vader will bring troopers of the 501st Legion with him into battle! Also unlock the [c][FFB74A]Imperial Astromedic[-][/c] and take advantage of its advanced bacta-based technologies to heal injuries!'
+  * **hn_cc_1_anhrr_HQ6+_announce_r_body**: 'The [c][FFB74A]Black Market[-][/c] event runs from 8/3 to 8/23!!\nCollect Death Star Crates and earn Data Fragments for the new [c][FFB74A]Artoo & Threepio[-][/c] equipment. With this equipment, R2-D2 closes in to stun and damage enemy turrets, with C-3PO by his side! Also unlock the [c][FFB74A]WED Treadwell[-][/c] to make field repairs to vehicles in the heat of combat!'
+  * **hn_cc_1_anhrr_HQ6+_final_e_body**: "Don't miss your chance to unlock [c][FFB74A]Lord Vader[-][/c] equipment and the [c][FFB74A]Imperial Astromedic[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
+  * **hn_cc_1_anhrr_HQ6+_final_r_body**: "Don't miss your chance to unlock [c][FFB74A]Artoo & Threepio[-][/c] equipment and the [c][FFB74A]WED Treadwell[-][/c]! These Data Fragments are available for a limited time until 8/23. Get Death Star Crates now from Objectives, Conflicts and the Shop!"
   * **hn_cc_1_anhrr_announce_title**: 'Black Market: Death Star Crates'
   * **hn_cc_1_anhrr_final_title**: 'Black Market Event ending 8/23'
   * **hn_cc_1_anniversary2_body**: "Claim your Droideka and Krayt Dragon gift units in celebration of Star Wars: Commander's 2nd anniversary!"
@@ -5193,10 +5193,10 @@ category: strings
   * **hn_cc_1_navalEvt_lastChance_hq1-5_e_title**: 'Naval Assault Event ending 10/25'
   * **hn_cc_1_navalEvt_lastChance_hq1-5_r_body**: 'Last chance to unlock [c][FFB74A]Naval Assault[-][/c] rewards! The [c][FFB74A]Alliance Starfighter Pilot[-][/c] automatically calls in X-wing fighters! Get Data Fragments from crates in Objectives, Daily Crate, the Shop, and from Conflicts starting at Bronzium tier. Event ends 10/25!'
   * **hn_cc_1_navalEvt_lastChance_hq1-5_r_title**: 'Naval Assault Event ending 10/25'
-  * **hn_cc_1_navalEvt_lastChance_hq6_e_body**: 'Last chance to unlock [c][FFB74A]Naval Assault[-][/c] rewards! The Naval Officer hero equipment skin is backed by [c][FFB74A]orbital Star Destroyer fire support[-][/c]! Get Data Fragments from crates in Objectives, Daily Crate, the Shop, and from Conflicts starting at Bronzium tier. Event ends 10/25!'
-  * **hn_cc_1_navalEvt_lastChance_hq6_e_title**: 'Naval Assault Event ending 10/25'
-  * **hn_cc_1_navalEvt_lastChance_hq6_r_body**: 'Last chance to unlock [c][FFB74A]Naval Assault[-][/c] rewards! Use new equipment to power up Chewbacca with [c][FFB74A]Millennium Falcon fire support[-][/c]! Get Data Fragments from crates in Objectives, Daily Crate, the Shop, and from Conflicts starting at Bronzium tier. Event ends 10/25!'
-  * **hn_cc_1_navalEvt_lastChance_hq6_r_title**: 'Naval Assault Event ending 10/25'
+  * **hn_cc_1_navalEvt_lastChance_hq6+_e_body**: 'Last chance to unlock [c][FFB74A]Naval Assault[-][/c] rewards! The Naval Officer hero equipment skin is backed by [c][FFB74A]orbital Star Destroyer fire support[-][/c]! Get Data Fragments from crates in Objectives, Daily Crate, the Shop, and from Conflicts starting at Bronzium tier. Event ends 10/25!'
+  * **hn_cc_1_navalEvt_lastChance_hq6+_e_title**: 'Naval Assault Event ending 10/25'
+  * **hn_cc_1_navalEvt_lastChance_hq6+_r_body**: 'Last chance to unlock [c][FFB74A]Naval Assault[-][/c] rewards! Use new equipment to power up Chewbacca with [c][FFB74A]Millennium Falcon fire support[-][/c]! Get Data Fragments from crates in Objectives, Daily Crate, the Shop, and from Conflicts starting at Bronzium tier. Event ends 10/25!'
+  * **hn_cc_1_navalEvt_lastChance_hq6+_r_title**: 'Naval Assault Event ending 10/25'
   * **hn_cc_1_navalEvt_main_e_body**: 'The [c][FFB74A]Naval Assault[-][/c] event runs from 10/5 to 10/25!\nCollect fragments from Naval Assault Crates to unlock Naval Officer hero equipment with [c][FFB74A]orbital Star Destroyer fire support[-][/c], the TIE fighter summoning [c][FFB74A]Imperial Starfighter Pilot[-][/c], and more!'
   * **hn_cc_1_navalEvt_main_e_title**: 'Naval Assault Event'
   * **hn_cc_1_navalEvt_main_r_body**: 'The [c][FFB74A]Naval Assault[-][/c] event runs from 10/5 to 10/25!\nCollect fragments from Naval Assault Crates to unlock new units and equipment. Power up Chewbacca with [c][FFB74A]Millennium Falcon fire support[-][/c], train the X-wing summoning [c][FFB74A]Alliance Starfighter Pilot[-][/c], and more!'
@@ -5657,10 +5657,10 @@ category: strings
   * **hn_cc_3_anhrr_HQ2-5_dbl_conf_r_body**: "During this week's Black Market Event, earn double the number of crates from conflicts! Unlock/upgrade the WED Treadwell before the event ends!"
   * **hn_cc_3_anhrr_HQ2-5_obj_3x_e_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for the [c][FFB74A]Imperial Astromedic[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
   * **hn_cc_3_anhrr_HQ2-5_obj_3x_r_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for  the [c][FFB74A]WED Treadwell[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
-  * **hn_cc_3_anhrr_HQ6_dbl_conf_e_body**: "During this week's Black Market Event, earn double the number of crates from conflicts! Unlock/upgrade the Imperial Astromedic and Lord Vader equipment before the event ends!"
-  * **hn_cc_3_anhrr_HQ6_dbl_conf_r_body**: "During this week's Black Market Event, earn double the number of crates from conflicts! Unlock/upgrade the WED Treadwell and Artoo & Threepio equipment before the event ends!"
-  * **hn_cc_3_anhrr_HQ6_obj_3x_e_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for [c][FFB74A]Lord Vader[-][/c] equipment and the [c][FFB74A]Imperial Astromedic[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
-  * **hn_cc_3_anhrr_HQ6obj_3x_r_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for [c][FFB74A]Artoo & Threepio[-][/c] equipment and the [c][FFB74A]WED Treadwell[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
+  * **hn_cc_3_anhrr_HQ6+_dbl_conf_e_body**: "During this week's Black Market Event, earn double the number of crates from conflicts! Unlock/upgrade the Imperial Astromedic and Lord Vader equipment before the event ends!"
+  * **hn_cc_3_anhrr_HQ6+_dbl_conf_r_body**: "During this week's Black Market Event, earn double the number of crates from conflicts! Unlock/upgrade the WED Treadwell and Artoo & Threepio equipment before the event ends!"
+  * **hn_cc_3_anhrr_HQ6+_obj_3x_e_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for [c][FFB74A]Lord Vader[-][/c] equipment and the [c][FFB74A]Imperial Astromedic[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
+  * **hn_cc_3_anhrr_HQ6+obj_3x_r_body**: 'This week only, all objectives reward Black Market Death Star Crates! Earn triple the crates for more chances to get Data Fragments for [c][FFB74A]Artoo & Threepio[-][/c] equipment and the [c][FFB74A]WED Treadwell[-][/c]!\n\nPremium Death Star Crates are also available in the Shop.'
   * **hn_cc_3_anhrr_dbl_conf_title**: '2x Conflict Rewards! Ends 8/17'
   * **hn_cc_3_anhrr_obj_3x_title**: 'Triple Crate Objectives! Ends 8/23'
   * **hn_cc_3_arcOps_HQ2-5_obj_e_body**: 'This week only, get new objectives twice per day! Earn double the Arctic Ops Crates, with more chances to earn Data Fragments for the resource-plundering MTV-7! Ends 3/30!\n\nPremium Arctic Ops Crates also available in the Store.'
@@ -5727,7 +5727,7 @@ category: strings
   * **hn_cc_3_epSpacebear_w1_r_body**: 'The unstable [c][FFB74A]V-4X-D Ski Speeder[-][/c] still flies with the help of a ventral halofoil. While less armored than most vehicles, this unit is very fast and outputs high damage, making it a highly effective infantry hunter. Claim special samples of this vehicle to deploy immediately!'
   * **hn_cc_3_epSpacebear_w1_r_title**: 'New Vehicle: V-4X-D Ski Speeder'
   * **hn_cc_3_epSpacebear_w3_HQ5-_body**: "The [c][FFB74A]<Golden Mile Creature>[-][/c] is guided by a Tognath Rider. This beast's speed and powerful strikes make it ideal for hit-and-run combat. Claim samples of this troop to use immediately! [c][FFB74A]HQ Level 7 and Cantina required to train additional <Golden Mile Creature> units.[-][/c]"
-  * **hn_cc_3_epSpacebear_w3_HQ6_body**: "The [c][FFB74A]<Golden Mile Creature>[-][/c] is guided by a Tognath Rider to destroy enemy troops and buildings. This beast's natural speed and powerful strikes make it ideal for hit-and-run combat. Claim special samples of this troop to deploy immediately!"
+  * **hn_cc_3_epSpacebear_w3_HQ6+_body**: "The [c][FFB74A]<Golden Mile Creature>[-][/c] is guided by a Tognath Rider to destroy enemy troops and buildings. This beast's natural speed and powerful strikes make it ideal for hit-and-run combat. Claim special samples of this troop to deploy immediately!"
   * **hn_cc_3_epSpacebear_w3_title**: 'New Mercenary: <Golden Mile Creature>'
   * **hn_cc_3_epSpacebear_w4_e_body**: 'Independently contracted as a "peacekeeper," the brutish <Ape Man> carries a heavy club to bludgeon enemy buildings and troops. This unit\'s damage resistance increases the longer it remains undefeated. Claim special samples of this troop to deploy immediately!'
   * **hn_cc_3_epSpacebear_w4_e_title**: 'New Troop: <Ape Man>'
@@ -5992,7 +5992,7 @@ category: strings
   * **hn_dev_newHeroEvent_title**: 'Heavy Firepower Event'
   * **hn_dev_sosw_body**: '[c][FFAA33]Summer of Squad Wars[-][/c]\n•\xa0Victory Crates now contain Data Fragments for classic units:\n\n• Empire elite Data Fragments:\n- VT-49 Decimator\n- TIE Advanced\n- Johhar Kessen\n- MTV-7\n- Shock Trooper\n\n• Rebel elite Data Fragments:\n- HWK-290\n- A-wing Starfighter\n- Johhar kessen\n- AT-RT Walker\n- Vanguard\n\n• Squad Wars that end in a Stalemate will now award both sides a new crate with better rewards.'
   * **hn_dev_sosw_title**: 'Squad Wars Updates'
-  * **hn_dev_test_body**: "[u][FFAA33][url=http://www.procatinator.com]Cat Videos[/url][-][/u]\nUse the internet. It's cool. It's stylish. It's fun and somewhat shady.\n\n"
+  * **hn_dev_test_body**: 'PLACEHOLDER URL TEST BODY'
   * **hn_dev_test_title**: 'PLACEHOLDER URL TEST'
   * **hn_dev_verticalCrates_body**: '[c][FFAA33]Bronzium Data Fragment Crate Update[-][/c]\n• The Bronzium Data Fragment Crate has been updated with new fragments for recently added rewards, including Guard Reserve equipment.\n\n[c][FFAA33]Weekly Crate Rotation[-][/c]\n• Each week the Shop will feature a rotating crate dedicated to Data Fragments for specific types of units/equipment.\n•\xa0The first week features the [c][FFB74A]Infantry Data Fragment Crate[-][/c], including equipment skins for Desert, Forest, and Arctic troops!\n•\xa0Check back for new crates, dedicated to Data Fragments for infantry, heroes, and more.'
   * **hn_dev_verticalCrates_title**: 'Data Fragment Crate Updates'
@@ -12000,7 +12000,7 @@ category: strings
   * **trp_desc_ATRT**: "Rebel tinkering has allowed these Clone Wars era walkers to keep pace with Imperial advancements. They'll quickly make their way to resource buildings. [ffb300]Upon deployment, the pilot targets the closest turret with an ion blast, greatly reducing its damage for 15 seconds.[-]"
   * **trp_desc_ATST**: 'These stilt-legged scout vehicles are workhorses, useful for a wide variety of missions.'
   * **trp_desc_ATTE**: 'Rebel mechanics have made special modifications to keep these Clone Wars era AT-TE walkers running. They are equipped to take on infantry and vehicles alike, but slow and vulnerable to anti-vehicle fire.'
-  * **trp_desc_ApeMan**: 'The Empire normally will not associate with non-human species. However, the <Ape Man> are a strong and disciplined, making them an ideal foot-soldier unit.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_ApeMan**: 'The Empire normally will not associate with non-human species. However, the <Ape Man> are strong and disciplined, making them an ideal foot-soldier unit.\\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Bantha**: 'Banthas are indigenous to Tatooine and are used by the Rebel alliance as a sturdy beast of war, trained to ram walls and knock them down.'
   * **trp_desc_BigMouthAlien**: 'The amphibious Drabatan Saboteurs are fierce commandos on the battlefield, charging into combat with full-throated war cries. The Drabatan Saboteur employs a sonic grenade to create micro-fractures in enemy defenses, temporarily increasing the damage taken.'
   * **trp_desc_ChampionEmpireDroideka**: 'This Clone Wars era Droideka was refurbished by smugglers to protect Contraband. Combat improvements have made it highly lethal, but maintenance heavy. Shielded and highly mobile, the Droideka Sentinel excels against troops.'
@@ -12039,7 +12039,7 @@ category: strings
   * **trp_desc_ErkitGeneralist**: 'Conscripted into the "Militia" on Er\'Kit, these units are generalists who attack the closest target. They are vulnerable to mortar fire.'
   * **trp_desc_ErkitSniper**: "Snipers represent the few members of the Er'Kit militia who have actual combat training or experience, and use it to focus enemy troops. They are slow, lightly armored, and susceptible to starship strikes while firing."
   * **trp_desc_ErkitTank**: 'Salvaged from Clone Wars battlefields across the outer rim and sold as scrap by junkers, the venerable AAT1 continues to be refurbished and used in smaller scale conflicts across the galaxy.It prefers to target turrets.'
-  * **trp_desc_FurCoat**: 'While the <FurCoat> normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_FurCoat**: 'While the <Fur Coat> normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage.\\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Hailfire**: 'Developed by the CIS during the Clone Wars, the IG-227 Hailfire droid has been adapted by the Rebels with weaponry capable of destroying turrets as well as vehicles. Their light armor makes them fast, but vulnerable to infantry.'
   * **trp_desc_HeavyRebel**: 'Heavy Soldiers carry rapid fire blasters, capable of inflicting devastating damage, particularly to shields. In order to maintain mobility, they wear lighter armor, so screen them with more durable units.'
   * **trp_desc_HeavySandSoldier**: 'These elite soldiers have the training and grit needed to carry large rapid-fire blasters into battle in desert environments. They are stronger and deal higher damage than their all-weather counterparts.'

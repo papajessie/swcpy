@@ -3,7 +3,7 @@ title: Stolen TIE fighter (StolenTieFighter)
 category: air
 ---
 
-# Stolen TIE fighter (StolenTieFighter) — version 1102
+# Stolen TIE fighter (StolenTieFighter) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

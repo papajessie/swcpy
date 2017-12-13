@@ -3,7 +3,7 @@ title: bldtitleblockerTatooineHouseLarge (blockerTatooineHouseLarge)
 category: building
 ---
 
-# bldtitleblockerTatooineHouseLarge (blockerTatooineHouseLarge) — version 1102
+# bldtitleblockerTatooineHouseLarge (blockerTatooineHouseLarge) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

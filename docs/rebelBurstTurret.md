@@ -3,7 +3,7 @@ title: Burst Turret (rebelBurstTurret)
 category: building
 ---
 
-# Burst Turret (rebelBurstTurret) — version 1102
+# Burst Turret (rebelBurstTurret) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

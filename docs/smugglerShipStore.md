@@ -3,7 +3,7 @@ title: bldtitlesmugglerShipStore (smugglerShipStore)
 category: building
 ---
 
-# bldtitlesmugglerShipStore (smugglerShipStore) — version 1102
+# bldtitlesmugglerShipStore (smugglerShipStore) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

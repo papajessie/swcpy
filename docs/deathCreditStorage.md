@@ -3,7 +3,7 @@ title: bldtitledeathCreditStorage (deathCreditStorage)
 category: building
 ---
 
-# bldtitledeathCreditStorage (deathCreditStorage) — version 1102
+# bldtitledeathCreditStorage (deathCreditStorage) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

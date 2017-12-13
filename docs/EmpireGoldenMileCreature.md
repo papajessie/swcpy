@@ -3,7 +3,7 @@ title: Golden Mile Creature (EmpireGoldenMileCreature)
 category: unit
 ---
 
-# Golden Mile Creature (EmpireGoldenMileCreature) — version 1102
+# Golden Mile Creature (EmpireGoldenMileCreature) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

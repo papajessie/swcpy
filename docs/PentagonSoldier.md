@@ -3,7 +3,7 @@ title: Rebel Commando (PentagonSoldier)
 category: unit
 ---
 
-# Rebel Commando (PentagonSoldier) — version 1102
+# Rebel Commando (PentagonSoldier) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

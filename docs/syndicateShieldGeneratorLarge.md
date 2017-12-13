@@ -3,7 +3,7 @@ title: bldtitlesyndicateShieldGeneratorLarge (syndicateShieldGeneratorLarge)
 category: building
 ---
 
-# bldtitlesyndicateShieldGeneratorLarge (syndicateShieldGeneratorLarge) — version 1102
+# bldtitlesyndicateShieldGeneratorLarge (syndicateShieldGeneratorLarge) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

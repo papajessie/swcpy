@@ -3,7 +3,7 @@ title: bldtitlesmugglerIdleHailfireTank (smugglerIdleHailfireTank)
 category: building
 ---
 
-# bldtitlesmugglerIdleHailfireTank (smugglerIdleHailfireTank) — version 1102
+# bldtitlesmugglerIdleHailfireTank (smugglerIdleHailfireTank) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

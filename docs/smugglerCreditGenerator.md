@@ -3,7 +3,7 @@ title: Credit Market (smugglerCreditGenerator)
 category: building
 ---
 
-# Credit Market (smugglerCreditGenerator) — version 1102
+# Credit Market (smugglerCreditGenerator) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

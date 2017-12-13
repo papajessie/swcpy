@@ -3,7 +3,7 @@ title: Fur Coat (FurCoat)
 category: unit
 ---
 
-# Fur Coat (FurCoat) — version 1102
+# Fur Coat (FurCoat) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

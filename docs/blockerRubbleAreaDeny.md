@@ -3,7 +3,7 @@ title: bldtitleblockerRubbleAreaDeny (blockerRubbleAreaDeny)
 category: building
 ---
 
-# bldtitleblockerRubbleAreaDeny (blockerRubbleAreaDeny) — version 1102
+# bldtitleblockerRubbleAreaDeny (blockerRubbleAreaDeny) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

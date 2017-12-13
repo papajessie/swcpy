@@ -3,7 +3,7 @@ title: bldtitlerebelMunitionsPlant (rebelMunitionsPlant)
 category: building
 ---
 
-# bldtitlerebelMunitionsPlant (rebelMunitionsPlant) — version 1102
+# bldtitlerebelMunitionsPlant (rebelMunitionsPlant) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

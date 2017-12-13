@@ -3,7 +3,7 @@ title: Heavy Undead Trooper (SmugglerHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (SmugglerHeavyStormDeath) — version 1102
+# Heavy Undead Trooper (SmugglerHeavyStormDeath) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitledeathCreditGenerator (deathCreditGenerator)
 category: building
 ---
 
-# bldtitledeathCreditGenerator (deathCreditGenerator) — version 1102
+# bldtitledeathCreditGenerator (deathCreditGenerator) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

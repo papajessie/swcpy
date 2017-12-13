@@ -3,7 +3,7 @@ title: Snowtrooper (eqpEmpireSnowtrooper)
 category: unit
 ---
 
-# Snowtrooper (eqpEmpireSnowtrooper) — version 1102
+# Snowtrooper (eqpEmpireSnowtrooper) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

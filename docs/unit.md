@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1102
+# Units — version 1104
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -102,8 +102,8 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Tusken Raider (TuskenMelee)](TuskenMelee.html)
   * [Smuggler (fueTroopSmuggler)](fueTroopSmuggler.html)
   * [Tusken Warrior (fueTroopTusken)](fueTroopTusken.html)
-  * [Smuggler (fuetroopattackingSmuggler)](fuetroopattackingSmuggler.html)
-  * [Smuggler (fuetroopsmuggler)](fuetroopsmuggler.html)
+  * [Smuggler (fue_troop_attackingSmuggler)](fue_troop_attackingSmuggler.html)
+  * [Smuggler (fue_troop_smuggler)](fue_troop_smuggler.html)
   * [trptitletroopAwesome (troopAwesome)](troopAwesome.html)
 
 ### Other units
@@ -132,7 +132,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Smuggler Bruiser (SmugglerTank)](SmugglerTank.html)
   * [Mercenary Thief (SmugglerThief)](SmugglerThief.html)
   * [Womp Rat (WompRat)](WompRat.html)
-  * [AT-ST (fueATST)](fueATST.html)
+  * [AT-ST (fue_ATST)](fue_ATST.html)
 
 ## Other units
 

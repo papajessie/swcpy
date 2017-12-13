@@ -3,7 +3,7 @@ title: bldtitleempireOrganicsLab (empireOrganicsLab)
 category: building
 ---
 
-# bldtitleempireOrganicsLab (empireOrganicsLab) — version 1102
+# bldtitleempireOrganicsLab (empireOrganicsLab) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

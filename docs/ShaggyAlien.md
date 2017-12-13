@@ -3,7 +3,7 @@ title: Gigoran Fighter (ShaggyAlien)
 category: unit
 ---
 
-# Gigoran Fighter (ShaggyAlien) — version 1102
+# Gigoran Fighter (ShaggyAlien) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

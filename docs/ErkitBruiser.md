@@ -3,7 +3,7 @@ title: ErKit Militia Bruiser (ErkitBruiser)
 category: unit
 ---
 
-# ErKit Militia Bruiser (ErkitBruiser) — version 1102
+# ErKit Militia Bruiser (ErkitBruiser) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Chewbacca (HeroChewbacca)
 category: unit
 ---
 
-# Chewbacca (HeroChewbacca) — version 1102
+# Chewbacca (HeroChewbacca) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

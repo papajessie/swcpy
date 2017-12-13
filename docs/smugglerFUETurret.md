@@ -3,7 +3,7 @@ title: Autoturret (smugglerFUETurret)
 category: building
 ---
 
-# Autoturret (smugglerFUETurret) — version 1102
+# Autoturret (smugglerFUETurret) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

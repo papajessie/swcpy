@@ -3,7 +3,7 @@ title: SD-K4 (HeroEmpireSpiderDroid)
 category: unit
 ---
 
-# SD-K4 (HeroEmpireSpiderDroid) — version 1102
+# SD-K4 (HeroEmpireSpiderDroid) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

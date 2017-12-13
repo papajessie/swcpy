@@ -3,7 +3,7 @@ title: Low Altitude Assault Transport (CloneWarsGunshipTrap)
 category: air
 ---
 
-# Low Altitude Assault Transport (CloneWarsGunshipTrap) — version 1102
+# Low Altitude Assault Transport (CloneWarsGunshipTrap) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

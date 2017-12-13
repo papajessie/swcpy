@@ -3,7 +3,7 @@ title: Cold-weather Mobile Heavy Cannon (eqpEmpireArcticMHC)
 category: unit
 ---
 
-# Cold-weather Mobile Heavy Cannon (eqpEmpireArcticMHC) — version 1102
+# Cold-weather Mobile Heavy Cannon (eqpEmpireArcticMHC) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

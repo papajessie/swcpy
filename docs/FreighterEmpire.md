@@ -3,7 +3,7 @@ title: Strix Strafing Run (FreighterEmpire)
 category: air
 ---
 
-# Strix Strafing Run (FreighterEmpire) — version 1102
+# Strix Strafing Run (FreighterEmpire) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

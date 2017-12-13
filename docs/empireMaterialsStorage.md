@@ -3,7 +3,7 @@ title: Alloy Depot (empireMaterialsStorage)
 category: building
 ---
 
-# Alloy Depot (empireMaterialsStorage) — version 1102
+# Alloy Depot (empireMaterialsStorage) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

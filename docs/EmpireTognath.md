@@ -3,7 +3,7 @@ title: Tognath Marksman (EmpireTognath)
 category: unit
 ---
 
-# Tognath Marksman (EmpireTognath) — version 1102
+# Tognath Marksman (EmpireTognath) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

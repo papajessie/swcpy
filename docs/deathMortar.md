@@ -3,7 +3,7 @@ title: bldtitledeathMortar (deathMortar)
 category: building
 ---
 
-# bldtitledeathMortar (deathMortar) — version 1102
+# bldtitledeathMortar (deathMortar) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

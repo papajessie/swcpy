@@ -3,7 +3,7 @@ title: T-5 Deliverance (EmpireSupplyDrop)
 category: air
 ---
 
-# T-5 Deliverance (EmpireSupplyDrop) — version 1102
+# T-5 Deliverance (EmpireSupplyDrop) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Bantha Rider (Bantha)
 category: unit
 ---
 
-# Bantha Rider (Bantha) — version 1102
+# Bantha Rider (Bantha) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

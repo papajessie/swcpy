@@ -3,7 +3,7 @@ title: bldtitlerebelOrganicsLab (rebelOrganicsLab)
 category: building
 ---
 
-# bldtitlerebelOrganicsLab (rebelOrganicsLab) — version 1102
+# bldtitlerebelOrganicsLab (rebelOrganicsLab) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

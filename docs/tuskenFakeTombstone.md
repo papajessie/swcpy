@@ -3,7 +3,7 @@ title: bldtitletuskenFakeTombstone (tuskenFakeTombstone)
 category: building
 ---
 
-# bldtitletuskenFakeTombstone (tuskenFakeTombstone) — version 1102
+# bldtitletuskenFakeTombstone (tuskenFakeTombstone) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

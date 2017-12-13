@@ -3,7 +3,7 @@ title: bldtitleblockerHotRockLarge (blockerHotRockLarge)
 category: building
 ---
 
-# bldtitleblockerHotRockLarge (blockerHotRockLarge) — version 1102
+# bldtitleblockerHotRockLarge (blockerHotRockLarge) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

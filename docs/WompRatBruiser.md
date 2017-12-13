@@ -3,7 +3,7 @@ title: Heavy Womp Rat (WompRatBruiser)
 category: unit
 ---
 
-# Heavy Womp Rat (WompRatBruiser) — version 1102
+# Heavy Womp Rat (WompRatBruiser) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

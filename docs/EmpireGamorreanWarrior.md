@@ -3,7 +3,7 @@ title: Gamorrean Warrior (EmpireGamorreanWarrior)
 category: unit
 ---
 
-# Gamorrean Warrior (EmpireGamorreanWarrior) — version 1102
+# Gamorrean Warrior (EmpireGamorreanWarrior) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

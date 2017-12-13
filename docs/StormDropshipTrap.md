@@ -3,7 +3,7 @@ title: trptitleStormDropshipTrap (StormDropshipTrap)
 category: unit
 ---
 
-# trptitleStormDropshipTrap (StormDropshipTrap) — version 1102
+# trptitleStormDropshipTrap (StormDropshipTrap) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

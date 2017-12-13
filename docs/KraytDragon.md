@@ -3,7 +3,7 @@ title: Krayt Dragon (KraytDragon)
 category: unit
 ---
 
-# Krayt Dragon (KraytDragon) — version 1102
+# Krayt Dragon (KraytDragon) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

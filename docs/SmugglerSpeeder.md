@@ -3,7 +3,7 @@ title: Mercenary Renegade (SmugglerSpeeder)
 category: unit
 ---
 
-# Mercenary Renegade (SmugglerSpeeder) — version 1102
+# Mercenary Renegade (SmugglerSpeeder) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

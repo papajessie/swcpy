@@ -3,7 +3,7 @@ title: Arctic Jump Trooper (eqpEmpireSnowJumpTrooper)
 category: unit
 ---
 
-# Arctic Jump Trooper (eqpEmpireSnowJumpTrooper) — version 1102
+# Arctic Jump Trooper (eqpEmpireSnowJumpTrooper) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

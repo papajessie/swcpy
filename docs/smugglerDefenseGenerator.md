@@ -3,7 +3,7 @@ title: bldtitlesmugglerDefenseGenerator (smugglerDefenseGenerator)
 category: building
 ---
 
-# bldtitlesmugglerDefenseGenerator (smugglerDefenseGenerator) — version 1102
+# bldtitlesmugglerDefenseGenerator (smugglerDefenseGenerator) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

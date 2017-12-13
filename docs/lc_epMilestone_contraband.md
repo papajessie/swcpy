@@ -3,13 +3,17 @@ title: Event Crate (lc_epMilestone_contraband)
 category: crate
 ---
 
-# Event Crate (lc_epMilestone_contraband) — version 1102
+# Event Crate (lc_epMilestone_contraband) — version 1104
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
 This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_epMilestone_contraband" (x1 draw)
+
+### For HQ level 6
+
+  * (1/1) 200000 Credits
 
 ### For HQ level 5
 
@@ -18,10 +22,6 @@ This crate expires after 7d. The contents are one draw from one pool only.
 ### For HQ level 8
 
   * (1/1) 210000 Contraband
-
-### For HQ level 6
-
-  * No items, see the fallback option below
 
 ### For HQ level 9
 

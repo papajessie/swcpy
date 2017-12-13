@@ -3,7 +3,7 @@ title: Gamorrean Warrior (RebelGamorreanWarrior)
 category: unit
 ---
 
-# Gamorrean Warrior (RebelGamorreanWarrior) — version 1102
+# Gamorrean Warrior (RebelGamorreanWarrior) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

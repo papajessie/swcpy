@@ -3,7 +3,7 @@ title: bldtitleempireNavigationCenterLocked (empireNavigationCenterLocked)
 category: building
 ---
 
-# bldtitleempireNavigationCenterLocked (empireNavigationCenterLocked) — version 1102
+# bldtitleempireNavigationCenterLocked (empireNavigationCenterLocked) — version 1104
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
