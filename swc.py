@@ -7,8 +7,8 @@ import json
 import codecs
 import re
 import hashlib
-from datetime import date
-from pprint import pprint
+from datetime import datetime, timedelta, date
+from pprint import pprint,pformat
 import os
 import shutil
 
@@ -895,7 +895,7 @@ def initstatbuff(buffprefix,buffstring,percentage):
 
 
 def ___(x):
-    simpleid=re.sub(r'[^A-Za-z0-9 -]+', '', x)
+    simpleid=re.sub(r'[^+A-Za-z0-9 _-]+', '', x)
     return simpleid
 
 def _(x):
@@ -906,7 +906,7 @@ def _(x):
         return '"'+x+'"'
 
 def __(x):
-    simpleid=re.sub(r'[^A-Za-z0-9 -]+', '', display_colored(_(x)))
+    simpleid=re.sub(r'[^+A-Za-z0-9 -]+', '', display_colored(_(x)))
     return simpleid
 
 def main(argv):
@@ -931,7 +931,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='tournament,crate,unit,equip,air,translate,building'
+        mode='episode,tournament,crate,unit,equip,air,translate,building'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -988,6 +988,17 @@ def main(argv):
         # do something that adds tournament objects
         for i in data['TournamentData']:
             analyse_tournament(objects,displayed,i)
+    ## Episodes
+    xhelp['episode']='Lists all episodes (events)'
+    morehelp['episode']={'begin':'Start date in format YYYY-MM-DD (default: current day)','end':'End date in format YYYY-MM-DD (default: 9999-12-31)','':'tournament identifier (default: all)'}
+    if ('episode' in modes):
+        # do something that adds tournament objects
+        if len(elements)==0:
+            xelements=(data['EpisodeData']).keys()
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_episode(objects,displayed,i)
     ## Crate
     xhelp['crate']='List the contents of crates'
     morehelp['crate']={'planet':'planet the crate is gained from (default: all planets, as with special value "any")','hq':'hq level (default: 5 and 10)','side':'faction (default: all factions, as with special value "any")','':'crate identifier (default: all)'}
@@ -1154,6 +1165,16 @@ def main(argv):
             output_mdheader_building(out,objects,getdisplayed(displayed,'building'))
             for unit in getdisplayed(displayed,'building'):
                 output_md_building(out,objects,objects[unit])
+    if ('episode' in displayed):
+        if ('list' in outputs):
+            output_listheader_episode(out,objects,getdisplayed(displayed,'episode'))
+            for unit in getdisplayed(displayed,'episode'):
+                output_list_episode(out,objects,objects[unit])
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','episode')
+            output_mdheader_episode(out,objects,getdisplayed(displayed,'episode'))
+            for unit in getdisplayed(displayed,'episode'):
+                output_md_episode(out,objects,objects[unit])
     if ('index' in displayed):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
@@ -1395,7 +1416,143 @@ def analyse_tournament(objects,displayed,id):
                             del config['planet']
 
 
-
+def analyse_episode(objects,displayed,id):
+    global data
+    global langdata
+    global config
+    if id in objects:
+        return
+    ob={}
+    def swcdatetoiso(x):
+        a=x.split(",")[1]
+        hours=x.split(",")[0]
+        (b,c,d)=a.split('-')
+        return '{2}-{1}-{0} {3} UTC'.format(b,c,d,hours)
+    if id in data['EpisodeData']:
+        swcitem=data['EpisodeData'][id]
+        ob['uid']=___(swcitem['uid'])
+        titleE='Unknown'
+        titleR='Unknown'
+        panelitem=None
+        panelid=swcitem['panel']
+        if panelid in data['EpisodePanel']:
+            panelitem=data['EpisodePanel'][panelid]
+        if panelitem is not None:
+            titleE=__(panelitem['empireTitleString'])
+            titleR=__(panelitem['rebelTitleString'])
+        title=titleE
+        if titleE!=titleR:
+            title='{0} / {1}'.format(titleE,titleR)
+        ob['title']=title
+        ob['startDate']=swcdatetoiso(swcitem['startDate'])
+        days=0
+        daysmatch=re.compile(r"^P([0-9]+)D")
+        found=daysmatch.match(swcitem['duration'])
+        if found:
+            days=int(found.groups()[0])
+            enddate=datetime.strptime(ob['startDate'],"%Y-%m-%d %H:%M UTC")
+            enddate=enddate+timedelta(days=days)
+            ob['endDate']=datetime.strftime(enddate,"%Y-%m-%d %H:%M UTC")
+        if 'pointScale' in swcitem:
+            ob['pointsConflict']=data['EpisodePointScale'][swcitem['pointScale']]['conflict']
+            ob['pointsObjective']=data['EpisodePointScale'][swcitem['pointScale']]['objective']
+            ob['pointsPvP']=data['EpisodePointScale'][swcitem['pointScale']]['pvp']
+            ob['pointsRaid']=data['EpisodePointScale'][swcitem['pointScale']]['raid']
+            ob['tasks']={}
+            ob['levels']=[]
+            ob['headers']=['time','nature','crate']
+            ob['legend']={'time':'Time','nature':'Nature','crate':'Crate'}
+            transarray={'contraband': _('CONTRABAND'), 'crystals':_('CRYSTALS'),'materials':_('MATERIALS'),'credits':_('CREDITS'), 'reputation':_('REPUTATION')}
+            level=0
+            for task in swcitem['tasks']+[swcitem['grindTask']]:
+                level=level+1
+                lvl='{0:02d}'.format(level)
+                ob['levels'].append(lvl)
+                taskitem=data['EpisodeTask'][task]
+                subtask={}
+                subtask['time']=dget(taskitem,'timeGate','0')
+                subtask['nature']=''
+                if task==swcitem['grindTask']:
+                    subtask['nature']='♻'
+                if dget(taskitem,'isSignificant','false')!='false':
+                    subtask['nature']='★'
+                subtask['crate']=display_crate_mdlink(taskitem['crateId'],'')
+                ob['tasks'][lvl]=subtask
+                lastE=''
+                currentE=''
+                lastR=''
+                currentR=''
+                lowE=0
+                highE=0
+                lowR=0
+                highR=0
+                oldtaskheader=''
+                oldtaskvalue=''
+                taskstart=0
+                taskstop=0
+                for HQ in range(1,11):
+                    HQS='HQ{0}'.format(HQ)
+                    taskheader='Task HQ{0}'.format(HQ)
+                    if taskheader not in ob['legend']:
+                        ob['headers'].append(taskheader)
+                        ob['legend'][taskheader]=taskheader
+                    taskvalue={}
+                    taskskip={}
+                    for faction in ['empire','rebel']:
+                        taskvalue[faction]='None'
+                        taskskip[faction]=0
+                        for action in taskitem['actions']:
+                            actionitem=data['EpisodeTaskAction'][action]
+                            if 'faction' not in actionitem or actionitem['faction']==faction:
+                                if 'minHQ' not in actionitem or int(actionitem['minHQ'])<=HQ:
+                                    if 'maxHQ' not in actionitem or int(actionitem['maxHQ'])>=HQ:
+                                        taskvalue[faction]='Something'
+                                        num='???'
+                                        item=''
+                                        if 'item' in actionitem:
+                                            item=actionitem['item']
+                                        if 'scaleId' in actionitem:
+                                            a=actionitem['scaleId']
+                                            if a in data['EpisodeTaskScale']:
+                                                num=data['EpisodeTaskScale'][a][HQS]
+                                        taskvalue[faction]=_(actionitem['actionDesc']).format(num)
+                                        # if actionitem['type']=='EpisodePoint':
+                                        #     taskvalue[faction]=num+' EP'
+                                        # elif actionitem['type']=='Loot':
+                                        #     taskvalue[faction]='Loot {0} {1}'.format(num,transarray[actionitem['item']])
+                                        # elif actionitem['type']=='DestroyBuildingType':
+                                        #     taskvalue[faction]='Destroy {0} {1}{2}'.format(num,actionitem['item'],'s' if int(num)>1 else '')
+                                        # elif actionitem['type']=='DestroyBuildingID':
+                                        #     taskvalue[faction]='Destroy {0} {1}'.format(num,'[{0}]({1}.html)'.format(_('bld_title_'+item),item))
+                                        # elif actionitem['type']=='DestroyBuilding':
+                                        #     taskvalue[faction]='Destroy {0} buildings'.format(num)
+                                        # elif actionitem['type']=='DeployTroopType':
+                                        #     taskvalue[faction]='Deploy {0} {1}'.format(num,__('entityType_'+actionitem['item']))
+                                        # elif actionitem['type']=='DeploySpecialAttackID':
+                                        #     taskvalue[faction]='Deploy {0} {1}'.format(num,actionitem['item'])
+                                        # elif actionitem['type']=='TrainSpecialAttackID':
+                                        #     taskvalue[faction]='Train {0} {1}'.format(num,actionitem['item'])
+                                        # elif actionitem['type']=='TrainTroopID':
+                                        #     taskvalue[faction]='Train '+display_groundunitarray({'unitCount': num,'linkedUnit': actionitem['item']})
+                                        # else:
+                                        #     die("",actionitem)
+                                        #taskskip[faction]=int(actionitem['skipCost'])
+                    if taskvalue['empire']==taskvalue['rebel']:
+                        taskvaluex=taskvalue['empire']
+                    else:
+                        taskvaluex='{0} (E); {1} (R)'.format(taskvalue['empire'],taskvalue['rebel'])
+                    subtask[taskheader]=taskvaluex
+        localsd=date.today().isoformat()
+        if 'begin' in config:
+            localsd=config['begin']
+        if 'end' in config:
+            localed=config['end']
+        else:
+            localed='2999-12-31'
+        if (ob['startDate']<=localed and ob['endDate']>=localsd):
+            addtodisplay(displayed,'episode',id)
+            objects[id]=ob
+                            
 def dobuff(ob,subunit,bufftype,where):
     damagehealth=[1,1,0,0]
     ob['options'][bufftype]=True
@@ -2245,7 +2402,6 @@ def output_mdheader_unit(out,objects,displayed):
                     if item['hq'][firstlevel]['playerFacing']==pf:
                         if item['hq'][firstlevel]['faction']==side:
                             id=___(item['uid'])
-                            id=re.sub(r'[^A-Za-z0-9-]+', '', id)
                             title=__(item['title'])
                             file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
                 file.write("\n")
@@ -2439,6 +2595,46 @@ def output_md_building(out,objects,item):
         lout=['']
         output_list_building(lout,objects,item,True)
         file.write(lout[0])
+
+
+def output_listheader_episode(out,objects,displayed):
+    out.append("There are {0} episodes in the selection:".format(len(displayed)))
+
+def output_list_episode(out,objects,item,LINKS=False):
+    global config
+    id=___(item['uid'])
+    title=__(item['title'])
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    #    xout+=pformat(item)
+    xout+='\n\n'
+    for k in ['title','startDate','endDate']:
+        xout+='  * {0}: {1}\n'.format(camel_case_to_phrase(k),item[k])
+    xout+='\n'
+    if 'tasks' in item:
+        xout+=display_leveldata(item['tasks'],item['levels'],item['headers'],item['legend'],{'time':display_time},LINKS=False,COLS=3)
+    out[len(out)-1]+=xout
+    return
+
+def output_mdheader_episode(out,objects,displayed):
+    with open("docs/episode.md","w") as file:
+        file.write("---\ntitle: Index of episodes\n---\n")
+        file.write("# Episodes — version {0}\n\n".format(config['version']))
+        for episode in displayed:
+            item=objects[episode]
+            id=___(item['uid'])
+            title=__(item['title'])
+            file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+
+def output_md_episode(out,objects,item):
+    id=___(item['uid'])
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: episode\n---\n".format(id,title))
+        lout=['']
+        output_list_episode(lout,objects,item,True)
+        file.write(lout[0])
+
+
 
 # This set of functions take an Id and return the adequate string for it
 
@@ -2796,7 +2992,7 @@ def display_things(uid,table,localid,localname):
             return x[localname]
     return uid
 
-def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
+def display_leveldata(data,levels,keys,titles,funcs,LINKS=False,COLS=10):
     notfound='(not found)'
     commonvalues=[]
     notfoundvalues=[]
@@ -2905,11 +3101,11 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False):
             old=new
         levels=newlevs
         display=newdisp
-        if len(levels)>10:
+        if len(levels)>COLS:
             sublevels=[]
-            while len(levels)>10:
-                sublevels.append(levels[0:10])
-                levels=levels[10:]
+            while len(levels)>COLS:
+                sublevels.append(levels[0:COLS])
+                levels=levels[COLS:]
             sublevels.append(levels)
         else:
             sublevels=[levels]
