@@ -3,7 +3,7 @@ title: bldtitlerebelWeaponsFactory (rebelWeaponsFactory)
 category: building
 ---
 
-# bldtitlerebelWeaponsFactory (rebelWeaponsFactory) — version 1104
+# bldtitlerebelWeaponsFactory (rebelWeaponsFactory) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

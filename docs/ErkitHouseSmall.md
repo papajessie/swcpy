@@ -3,7 +3,7 @@ title: bldtitleErkitHouseSmall (ErkitHouseSmall)
 category: building
 ---
 
-# bldtitleErkitHouseSmall (ErkitHouseSmall) — version 1104
+# bldtitleErkitHouseSmall (ErkitHouseSmall) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

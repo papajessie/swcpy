@@ -3,7 +3,7 @@ title: Smuggler Looter (SmugglerLooter)
 category: unit
 ---
 
-# Smuggler Looter (SmugglerLooter) — version 1104
+# Smuggler Looter (SmugglerLooter) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

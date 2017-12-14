@@ -3,7 +3,7 @@ title: Droideka Sentinel (ChampionEmpireDroideka)
 category: unit
 ---
 
-# Droideka Sentinel (ChampionEmpireDroideka) — version 1104
+# Droideka Sentinel (ChampionEmpireDroideka) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

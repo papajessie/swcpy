@@ -3,7 +3,7 @@ title: bldtitleErkitHouseMedium (ErkitHouseMedium)
 category: building
 ---
 
-# bldtitleErkitHouseMedium (ErkitHouseMedium) — version 1104
+# bldtitleErkitHouseMedium (ErkitHouseMedium) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

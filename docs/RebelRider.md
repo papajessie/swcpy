@@ -3,7 +3,7 @@ title: Luggabeast Munitioneer (RebelRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (RebelRider) — version 1104
+# Luggabeast Munitioneer (RebelRider) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

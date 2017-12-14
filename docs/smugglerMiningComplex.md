@@ -3,7 +3,7 @@ title: bldtitlesmugglerMiningComplex (smugglerMiningComplex)
 category: building
 ---
 
-# bldtitlesmugglerMiningComplex (smugglerMiningComplex) — version 1104
+# bldtitlesmugglerMiningComplex (smugglerMiningComplex) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

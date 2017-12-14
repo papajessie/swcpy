@@ -3,7 +3,7 @@ title: Scout Tower (empireScoutTower)
 category: building
 ---
 
-# Scout Tower (empireScoutTower) — version 1104
+# Scout Tower (empireScoutTower) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

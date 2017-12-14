@@ -3,7 +3,7 @@ title: bldtitletreeHuge (treeHuge)
 category: building
 ---
 
-# bldtitletreeHuge (treeHuge) — version 1104
+# bldtitletreeHuge (treeHuge) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Elite Event Crate (lc_epSpacebear_bonObj_gmc_starship)
 category: crate
 ---
 
-# Elite Event Crate (lc_epSpacebear_bonObj_gmc_starship) — version 1104
+# Elite Event Crate (lc_epSpacebear_bonObj_gmc_starship) — version 1105
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -12,6 +12,11 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * 2 draws from pool "lcpool_epSpacebear_bonObj_gmc_starship_shrd2"
 
 ## Pool "lcpool_epSpacebear_bonObj_gmc_starship_shrd1" (x1 draw)
+
+### Empire for HQ levels 7-10
+
+  * (2/11) 4 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (9/11) 3 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
 
 ### Empire for HQ levels 5-6
 
@@ -25,13 +30,8 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Rebellion for HQ levels 7-10
 
-  * (2/11) 4 data fragments of unlockable troop [Golden Mile Creature](RebelGoldenMileCreature)
-  * (9/11) 3 data fragments of unlockable troop [Golden Mile Creature](RebelGoldenMileCreature)
-
-### Empire for HQ levels 7-10
-
-  * (2/11) 4 data fragments of unlockable troop [Golden Mile Creature](EmpireGoldenMileCreature)
-  * (9/11) 3 data fragments of unlockable troop [Golden Mile Creature](EmpireGoldenMileCreature)
+  * (2/11) 4 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (9/11) 3 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
 
 ### Fallback for HQ level 10
 
@@ -59,11 +59,11 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ## Pool "lcpool_epSpacebear_bonObj_gmc_starship_shrd2" (x2 draws)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 5-6
 
-  * (1/23) 4 data fragments of unlockable troop [Golden Mile Creature](RebelGoldenMileCreature)
-  * (1/23) 5 data fragments of unlockable troop [Golden Mile Creature](RebelGoldenMileCreature)
+  * (1/23) 4 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
   * (1/23) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/23) 5 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
   * (1/23) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
   * (2/23) 3 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
@@ -74,11 +74,11 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/23) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/23) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 5-6
+### Rebellion for HQ levels 7-10
 
-  * (1/23) 4 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
+  * (1/23) 4 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (1/23) 5 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
   * (1/23) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/23) 5 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
   * (1/23) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
   * (2/23) 3 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
@@ -106,8 +106,8 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire for HQ levels 7-10
 
-  * (1/23) 4 data fragments of unlockable troop [Golden Mile Creature](EmpireGoldenMileCreature)
-  * (1/23) 5 data fragments of unlockable troop [Golden Mile Creature](EmpireGoldenMileCreature)
+  * (1/23) 4 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (1/23) 5 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
   * (1/23) 5 data fragments of unlockable troop [Shock Trooper](Shock)
   * (1/23) 6 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (1/23) 6 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)

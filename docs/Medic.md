@@ -3,7 +3,7 @@ title: Medic Droid (Medic)
 category: unit
 ---
 
-# Medic Droid (Medic) — version 1104
+# Medic Droid (Medic) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

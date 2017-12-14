@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1104
+# Translation strings (translate) — version 1105
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -2442,6 +2442,10 @@ category: strings
   * **crate_title_lc_conf_crystal_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_crystal_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_crystal_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_dan_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_dan_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_dan_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_dan_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_defRef_outbreak_tier5_heavyBarr**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_defRef_outbreak_tier5_heavyFac**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_defRef_outbreak_tier5_medBarr**: 'Bronzium Conflict Crate'
@@ -2471,6 +2475,10 @@ category: strings
   * **crate_title_lc_conf_desBiome_Jetpack_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_desBiome_Jetpack_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_desBiome_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_erk_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_erk_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_erk_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_erk_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_forBiome_Jetpack_tier5**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_forBiome_Jetpack_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_forBiome_Jetpack_tier7**: 'Obsidian Conflict Crate'
@@ -2484,6 +2492,10 @@ category: strings
   * **crate_title_lc_conf_hovertankSample_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_hovertankSample_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_hovertankSample_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_hth_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_hth_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_hth_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_hth_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_losalamosMercSample_tier1**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_losalamosMercSample_tier2**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_losalamosMercSample_tier3**: 'Durasteel Conflict Crate'
@@ -2544,6 +2556,10 @@ category: strings
   * **crate_title_lc_conf_stolenVehicle_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_stolenVehicle_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_stolenVehicle_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_tat_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_tat_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_tat_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_tat_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_tier1**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_tier2**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_tier3**: 'Durasteel Conflict Crate'
@@ -2556,6 +2572,10 @@ category: strings
   * **crate_title_lc_conf_undeadEvt_unit_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_undeadEvt_unit_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_undeadEvt_unit_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_yav_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_yav_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_yav_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_yav_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_daily**: 'Daily Crate'
   * **crate_title_lc_daily_anh40**: 'Daily Death Star Crate'
   * **crate_title_lc_daily_anniversary**: 'Daily Anniversary Crate'
@@ -4093,31 +4113,31 @@ category: strings
   * **epchp_epSpaceBear_w2cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the V-4X-D Ski Speeder.'
   * **epchp_epSpaceBear_w2f_title**: 'Mysterious Benefactor [Complete]'
   * **epchp_epSpaceBear_w3_title**: 'Shared Interests'
-  * **epchp_epSpaceBear_w3c1_body**: 'Saponza reveals his contact to be renowned pirate Hondo Ohnaka. Pleased by your results, Hondo seeks to form a standing business agreement.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Golden Mile Creature>!'
-  * **epchp_epSpaceBear_w3c2_body**: "Hondo's trust in you continues to grow. Keep finishing Event Objectives to earn Supply Crates.\nComplete the Event before time runs out for a guaranteed unlock of the <Golden Mile Creature>!"
-  * **epchp_epSpaceBear_w3cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the <Golden Mile Creature>.'
+  * **epchp_epSpaceBear_w3c1_body**: 'Saponza reveals his contact to be renowned pirate Hondo Ohnaka. Pleased by your results, Hondo seeks to form a standing business agreement.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
+  * **epchp_epSpaceBear_w3c2_body**: "Hondo's trust in you continues to grow. Keep finishing Event Objectives to earn Supply Crates.\nComplete the Event before time runs out for a guaranteed unlock of the Fathier Rider!"
+  * **epchp_epSpaceBear_w3cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Fathier Rider.'
   * **epchp_epSpaceBear_w3f_title**: 'Shared Interests [Complete]'
   * **epchp_epSpaceBear_w4_title**: 'A Friend in Need'
-  * **epchp_epSpaceBear_w4c1_body_e**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Ape Man>."
-  * **epchp_epSpaceBear_w4c1_body_r**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Fur Coat>."
-  * **epchp_epSpaceBear_w4c2_body_e**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Ape Man>."
-  * **epchp_epSpaceBear_w4c2_body_r**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Fur Coat>."
+  * **epchp_epSpaceBear_w4c1_body_e**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w4c1_body_r**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
+  * **epchp_epSpaceBear_w4c2_body_e**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w4c2_body_r**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
   * **epchp_epSpaceBear_w4c2_title**: 'A Friend in Need: Chapter II'
-  * **epchp_epSpaceBear_w4cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the <Ape Man>.'
-  * **epchp_epSpaceBear_w4cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the <Fur Coat>.'
+  * **epchp_epSpaceBear_w4cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Ongidae Oppressor.'
+  * **epchp_epSpaceBear_w4cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Bufopel Protector.'
   * **epchp_epSpaceBear_w4f_title**: 'A Friend in Need [Complete]'
   * **epchp_epSpaceBear_w5_title**: 'An Enemy Within'
-  * **epchp_epSpaceBear_w5c1_body_e**: 'Hondo has proof of a spy within the Empire. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Ape Man>.'
-  * **epchp_epSpaceBear_w5c1_body_r**: 'Hondo has proof of a spy within the Alliance. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Fur Coat>.'
-  * **epchp_epSpaceBear_w5c2_body_e**: "Hondo is closing in on the spy's indentity, but he does not work for free. Foretunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Ape Man>."
-  * **epchp_epSpaceBear_w5c2_body_r**: "Hondo is closing in on the spy's indentity, but he does not work for free. Foretunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Fur Coat>."
+  * **epchp_epSpaceBear_w5c1_body_e**: 'Hondo has proof of a spy within the Empire. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor.'
+  * **epchp_epSpaceBear_w5c1_body_r**: 'Hondo has proof of a spy within the Alliance. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector.'
+  * **epchp_epSpaceBear_w5c2_body_e**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w5c2_body_r**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
   * **epchp_epSpaceBear_w5c2_title**: 'An Enemy Within: Chapter II'
-  * **epchp_epSpaceBear_w5cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the <Ape Man>.'
-  * **epchp_epSpaceBear_w5cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the <Fur Coat>.'
+  * **epchp_epSpaceBear_w5cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the Ongidae Oppressor.'
+  * **epchp_epSpaceBear_w5cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the Bufopel Protector.'
   * **epchp_epSpaceBear_w5f_title**: 'An Enemy Within [Complete]'
   * **epchp_epSpaceBear_w6_title**: 'Unpaid Debts'
-  * **epchp_epSpaceBear_w6c1_body**: 'Hondo knows of an old debt Saponza owes to a syndicate. Knowing your friend, Saponza would never ask for help. In exchange for some work, Hondo will make the debt disappear.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the <Golden Mile Creature>!'
-  * **epchp_epSpaceBear_w6cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the <Golden Mile Creature>.'
+  * **epchp_epSpaceBear_w6c1_body**: 'Hondo knows of an old debt Saponza owes to a syndicate. Knowing your friend, Saponza would never ask for help. In exchange for some work, Hondo will make the debt disappear.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
+  * **epchp_epSpaceBear_w6cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Fathier Rider.'
   * **epchp_epSpaceBear_w6f_title**: 'Unpaid Debts [Complete]'
   * **epchp_epSpacebear_w1_title**: 'An Old Friend'
   * **eppnl_epSpacebear_w1_title**: 'An Old Friend'
@@ -5000,17 +5020,17 @@ category: strings
   * **hn_cc_1_epSpacebear_w1_e_body**: 'The brand new [c][FFB74A]Commander Events[-][/c] system is here! Play at your own pace to earn currency, Data Fragments, and more! Each week offers a new set of rewards, starting with the new [c][FFB74A]614-AvA speeder bike[-][/c]!'
   * **hn_cc_1_epSpacebear_w1_r_body**: 'The brand new [c][FFB74A]Commander Events[-][/c] system is here! Play at your own pace and earn more rewards. Check out new content each week celebrating Star Wars: The Last Jedi, in theaters 12/15, starting with the [c][FFB74A]V-4X-D Ski Speeder[-][/c] from the movie!'
   * **hn_cc_1_epSpacebear_w1_title**: 'New Event, New Rewards!'
-  * **hn_cc_1_epSpacebear_w3_body**: 'This week continues the celebration of Star Wars: The Last Jedi, in theaters now! Experience new content in the updated Commander Events system, including the [c][FFB74A]<Golden Mile Creature>[-][/c] from the movie.'
+  * **hn_cc_1_epSpacebear_w3_body**: 'This week continues the celebration of Star Wars: The Last Jedi, in theaters now! Earn new rewards in the updated Commander Events system, including the [c][FFB74A]Fathier Rider[-][/c] inspired by the new movie.'
   * **hn_cc_1_epSpacebear_w3_title**: 'Celebrating Star Wars: The Last Jedi'
-  * **hn_cc_1_epSpacebear_w4_e_body**: 'Complete the new Event to earn rewards, including Data Fragments to unlock the fearsome <Ape Man>, seen in Star Wars: The Last Jedi.'
-  * **hn_cc_1_epSpacebear_w4_r_body**: 'Complete the new Event to earn rewards, including Data Fragments to unlock the imposing <Fur Coat>, seen in Star Wars: The Last Jedi.'
+  * **hn_cc_1_epSpacebear_w4_e_body**: 'Complete the new Event to earn rewards, including Data Fragments to unlock the fearsome Ongidae Oppressor, seen in Star Wars: The Last Jedi.'
+  * **hn_cc_1_epSpacebear_w4_r_body**: 'Complete the new Event to earn rewards, including Data Fragments to unlock the imposing Bufopel Protector, seen in Star Wars: The Last Jedi.'
   * **hn_cc_1_epSpacebear_w4_title**: 'New Rewards From Star Wars: The Last Jedi'
-  * **hn_cc_1_epSpacebear_w5_e_body**: "Miss out on last week's Event? Data Fragments for the <Ape Man> are back in this week's Event! Unlock this powerful melee fighter, seen in Star Wars: The Last Jedi."
-  * **hn_cc_1_epSpacebear_w5_e_title**: 'Second Chance: <Ape Man> Data Fragments!'
-  * **hn_cc_1_epSpacebear_w5_r_body**: "Miss out on last week's Event? Data Fragments for the <Fur Coat> are back in this week's Event! Unlock this powerful melee fighter, seen in Star Wars: The Last Jedi."
-  * **hn_cc_1_epSpacebear_w5_r_title**: 'Second Chance: <Fur Coat> Data Fragments!'
-  * **hn_cc_1_epSpacebear_w6_body**: "This week's Event concludes the celebration of Star Wars: The Last Jedi. Finish the Event for a guaranteed unlock/upgrade of the <Golden Mile Creature> from the movie, available this week only!"
-  * **hn_cc_1_epSpacebear_w6_title**: 'Last Chance: <Golden Mile Creature> Data Fragments!'
+  * **hn_cc_1_epSpacebear_w5_e_body**: "Miss out on last week's Event? Data Fragments for the Ongidae Oppressor are back in this week's Event! Unlock this powerful melee fighter, seen in Star Wars: The Last Jedi."
+  * **hn_cc_1_epSpacebear_w5_e_title**: 'Second Chance: Ongidae Oppressor Data Fragments!'
+  * **hn_cc_1_epSpacebear_w5_r_body**: "Miss out on last week's Event? Data Fragments for the Bufopel Protector are back in this week's Event! Unlock this powerful melee fighter, seen in Star Wars: The Last Jedi."
+  * **hn_cc_1_epSpacebear_w5_r_title**: 'Second Chance: Bufopel Protector Data Fragments!'
+  * **hn_cc_1_epSpacebear_w6_body**: "This week's Event concludes the celebration of Star Wars: The Last Jedi. Finish the Event for a guaranteed unlock/upgrade of the Fathier Rider from the movie, available this week only!"
+  * **hn_cc_1_epSpacebear_w6_title**: 'Last Chance: Fathier Rider Data Fragments!'
   * **hn_cc_1_erk_outpost_body**: "A Mining Complex has been located on Er'Kit. Capture it during a Squad War to increase your squad's wall and HQ durability!"
   * **hn_cc_1_erk_outpost_title**: "Factory Outpost - Er'Kit"
   * **hn_cc_1_erkit_conflict_end_body_e**: "The recent uptick in Rebel activity on Er'Kit seems to have run its course. You performed admirably, Operative. I begin to see now why Lord Vader has taken notice of your skill."
@@ -5726,13 +5746,13 @@ category: strings
   * **hn_cc_3_epSpacebear_w1_e_title**: 'New Vehicle: 614-AvA Speeder Bike'
   * **hn_cc_3_epSpacebear_w1_r_body**: 'The unstable [c][FFB74A]V-4X-D Ski Speeder[-][/c] still flies with the help of a ventral halofoil. While less armored than most vehicles, this unit is very fast and outputs high damage, making it a highly effective infantry hunter. Claim special samples of this vehicle to deploy immediately!'
   * **hn_cc_3_epSpacebear_w1_r_title**: 'New Vehicle: V-4X-D Ski Speeder'
-  * **hn_cc_3_epSpacebear_w3_HQ5-_body**: "The [c][FFB74A]<Golden Mile Creature>[-][/c] is guided by a Tognath Rider. This beast's speed and powerful strikes make it ideal for hit-and-run combat. Claim samples of this troop to use immediately! [c][FFB74A]HQ Level 7 and Cantina required to train additional <Golden Mile Creature> units.[-][/c]"
-  * **hn_cc_3_epSpacebear_w3_HQ6+_body**: "The [c][FFB74A]<Golden Mile Creature>[-][/c] is guided by a Tognath Rider to destroy enemy troops and buildings. This beast's natural speed and powerful strikes make it ideal for hit-and-run combat. Claim special samples of this troop to deploy immediately!"
-  * **hn_cc_3_epSpacebear_w3_title**: 'New Mercenary: <Golden Mile Creature>'
-  * **hn_cc_3_epSpacebear_w4_e_body**: 'Independently contracted as a "peacekeeper," the brutish <Ape Man> carries a heavy club to bludgeon enemy buildings and troops. This unit\'s damage resistance increases the longer it remains undefeated. Claim special samples of this troop to deploy immediately!'
-  * **hn_cc_3_epSpacebear_w4_e_title**: 'New Troop: <Ape Man>'
-  * **hn_cc_3_epSpacebear_w4_r_body**: "The lumbering <Fur Coat> may not look fierce, but is formidable in combat. This hulking unit bludgeons enemy buildings and troops at melee range. This unit's damage resistance increases the longer it remains undefeated. Claim special samples of this troop to deploy immediately!"
-  * **hn_cc_3_epSpacebear_w4_r_title**: 'New Troop: <Fur Coat>'
+  * **hn_cc_3_epSpacebear_w3_HQ5-_body**: "The [c][FFB74A]Fathier Rider[-][/c] is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed is ideal for hit-and-run combat. Claim samples of this troop to deploy immediately! [c][FFB74A]HQ Level 7 and Cantina required to train additional Fathier Rider units.[-][/c]"
+  * **hn_cc_3_epSpacebear_w3_HQ6+_body**: "The [c][FFB74A]Fathier Rider[-][/c] is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed and powerful strikes make it ideal for hit-and-run combat. Claim special samples of this troop to deploy immediately!"
+  * **hn_cc_3_epSpacebear_w3_title**: 'New Mercenary: Fathier Rider'
+  * **hn_cc_3_epSpacebear_w4_e_body**: 'The Empire rarely enlists non-human species in its military. However, the Ongidae are strong and disciplined, making them an ideal foot-soldier unit. This unit takes less damage from attacks, the longer it remains in battle. Claim special samples of this troop to deploy immediately!'
+  * **hn_cc_3_epSpacebear_w4_e_title**: 'New Troop: Ongidae Oppressor'
+  * **hn_cc_3_epSpacebear_w4_r_body**: 'While the Bufopel normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents. This unit takes less damage from attacks, the longer it remains in battle. Claim special samples of this troop to deploy immediately!'
+  * **hn_cc_3_epSpacebear_w4_r_title**: 'New Troop: Bufopel Protector'
   * **hn_cc_3_fangFighter_body**: 'The Fang Fighter is especially effective against vehicle units, using a barrage of proton torpedos to cause massive damage across a wide area. Collect Data Fragments for this starship only during the Rogue One Special Event!'
   * **hn_cc_3_fangFighter_title**: 'Special Event Starships'
   * **hn_cc_3_fangFighter_title2**: 'Fang Fighter'
@@ -6321,8 +6341,8 @@ category: strings
   * **lcfly_descAdvancedDataFragments**: '[c][99B4FF]Advanced[-][/c] Data Fragments'
   * **lcfly_descAdvancedOrEliteDataFragments**: '[c][99B4FF]Advanced[-][/c] or [c][FFB74A]Elite[-][/c] Data Fragments'
   * **lcfly_descAnniversary_3yr**: 'Collect Crystals Everyday: [c][FFD74A]8/16 thru 8/22[-][/c]'
-  * **lcfly_descApeMan**: '[c][FFB74A]<Ape Man>[-][/c]'
-  * **lcfly_descApeManFragments**: '[c][FFB74A]<Ape Man>[-][/c] Data Fragments'
+  * **lcfly_descApeMan**: '[c][FFB74A]Ongidae Oppressor[-][/c]'
+  * **lcfly_descApeManFragments**: '[c][FFB74A]Ongidae Oppressor[-][/c] Data Fragments'
   * **lcfly_descAtmosMig**: '[c][FFB74A]TIE Striker[-][/c]'
   * **lcfly_descAtmosMigFragments**: '[c][FFB74A]TIE Striker[-][/c] Data Fragments'
   * **lcfly_descAtmosMigSample**: '[c][C8E8FF]TIE Striker Samples[-][/c]'
@@ -6345,8 +6365,8 @@ category: strings
   * **lcfly_descEliteDataFragments**: '[c][FFB74A]Elite[-][/c] Data Fragments'
   * **lcfly_descEmpireBruteSample**: '[c][C8E8FF]Dowutin Hunter Samples[-][/c]'
   * **lcfly_descEmpireGamorreanWarriorSample**: '[c][C8E8FF]Gamorrean Warrior Samples[-][/c]'
-  * **lcfly_descEmpireGoldenMileCreature**: '[c][FFB74A]<Golden Mile Creature>[-][/c]'
-  * **lcfly_descEmpireGoldenMileCreatureFragments**: '[c][FFB74A]<Golden Mile Creature>[-][/c] Data Fragments'
+  * **lcfly_descEmpireGoldenMileCreature**: '[c][FFB74A]Fathier Rider[-][/c]'
+  * **lcfly_descEmpireGoldenMileCreatureFragments**: '[c][FFB74A]Fathier Rider[-][/c] Data Fragments'
   * **lcfly_descEmpireHovertankSample**: '[c][C8E8FF]TX-225 Samples[-][/c]'
   * **lcfly_descEmpireJumpTrooperSample**: '[c][C8E8FF]Jump Trooper Samples[-][/c]'
   * **lcfly_descEmpireMortarTurretDamage**: '[c][99B4FF]Enhanced Heat Sink[-][/c]'
@@ -6450,8 +6470,8 @@ category: strings
   * **lcfly_descFangFighterFragments**: '[c][FFB74A]Fang Fighter[-][/c] Data Fragments'
   * **lcfly_descFangFighterSample**: '[c][C8E8FF]Fang Fighter Samples[-][/c]'
   * **lcfly_descFangFighterUnlock**: '[c][FFB74A]Fang Fighter[-][/c] Starfighter Unlock'
-  * **lcfly_descFurCoat**: '[c][FFB74A]<Fur Coat>[-][/c]'
-  * **lcfly_descFurCoatFragments**: '[c][FFB74A]<Fur Coat>[-][/c] Data Fragments'
+  * **lcfly_descFurCoat**: '[c][FFB74A]Bufopel Protector[-][/c]'
+  * **lcfly_descFurCoatFragments**: '[c][FFB74A]Bufopel Protector[-][/c] Data Fragments'
   * **lcfly_descHWK290**: '[c][FFB74A]HWK-290[-][/c]'
   * **lcfly_descHWK290Fragments**: '[c][FFB74A]HWK-290[-][/c] Data Fragments'
   * **lcfly_descHeavyRebelSample**: '[c][C8E8FF]Heavy Stormtrooper Samples[-][/c]'
@@ -6500,8 +6520,8 @@ category: strings
   * **lcfly_descRebelEchoBaseJetpackTrooper**: '[c][FFB74A]Cold-weather Jetpack Trooper[-][/c]'
   * **lcfly_descRebelEchoBaseJetpackTrooperFragments**: '[c][FFB74A]Cold-weather Jetpack Trooper[-][/c] Data Fragments'
   * **lcfly_descRebelGamorreanWarriorSample**: '[c][C8E8FF]Gamorrean Warrior Samples[-][/c]'
-  * **lcfly_descRebelGoldenMileCreature**: '[c][FFB74A]<Golden Mile Creature>[-][/c]'
-  * **lcfly_descRebelGoldenMileCreatureFragments**: '[c][FFB74A]<Golden Mile Creature>[-][/c] Data Fragments'
+  * **lcfly_descRebelGoldenMileCreature**: '[c][FFB74A]Fathier Rider[-][/c]'
+  * **lcfly_descRebelGoldenMileCreatureFragments**: '[c][FFB74A]Fathier Rider[-][/c] Data Fragments'
   * **lcfly_descRebelHovertankSample**: '[c][C8E8FF]Stolen TX-225 Samples[-][/c]'
   * **lcfly_descRebelJetpackTrooperSample**: '[c][C8E8FF]Jetpack Trooper Samples[-][/c]'
   * **lcfly_descRebelMortarTurretDamage**: '[c][99B4FF]Enhanced Heat Sink[-][/c]'
@@ -6630,14 +6650,16 @@ category: strings
   * **lcfly_subset_descATRT**: '[c][FFFFFF]      ∫  AT-RT Walker[-][/c]'
   * **lcfly_subset_descAWing**: '[c][FFFFFF]      ∫  A-wing Starfighter[-][/c]'
   * **lcfly_subset_descAWingFragments**: '[c][FFB74A]      ∫  A-wing Starfighter[-][/c] Data Fragments'
-  * **lcfly_subset_descApeMan**: '[c][FFFFFF]      ∫  <Ape Man>[-][/c]'
-  * **lcfly_subset_descApeManFragments**: '[c][FFB74A]      ∫  <Ape Man>[-][/c] Data Fragments'
+  * **lcfly_subset_descApeMan**: '[c][FFFFFF]      ∫  Ongidae Oppressor[-][/c]'
+  * **lcfly_subset_descApeManFragments**: '[c][FFB74A]      ∫  Ongidae Oppressor[-][/c] Data Fragments'
   * **lcfly_subset_descAtmosMig**: '[c][FFFFFF]      ∫  TIE Striker[-][/c]'
   * **lcfly_subset_descAtmosMigFragments**: '[c][FFB74A]      ∫  TIE Striker[-][/c] Data Fragments'
   * **lcfly_subset_descBigMouthAlien**: '[c][FFFFFF]      ∫  Drabatan Saboteur[-][/c]'
   * **lcfly_subset_descBigMouthAlienFragments**: '[c][FFB74A]      ∫  Drabatan Saboteur[-][/c] Data Fragments'
+  * **lcfly_subset_descEmpireGoldenMileCreatureFragments**: '[c][FFB74A]      ∫  Fathier Rider[-][/c] Data Fragments'
   * **lcfly_subset_descEmpireMortarTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
   * **lcfly_subset_descEmpireRapidFireTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
+  * **lcfly_subset_descEmpireoldenMileCreature**: '[c][FFFFFF]      ∫  Fathier Rider[-][/c]'
   * **lcfly_subset_descEqpEmpireArcticATMP**: '[c][FFFFFF]      ∫  Cold Weather AT-MP Mark III[-][/c]'
   * **lcfly_subset_descEqpEmpireArcticINT4**: '[c][FFFFFF]      ∫  Modified INT-4 Interceptor[-][/c]'
   * **lcfly_subset_descEqpEmpireArcticMHC**: '[c][FFFFFF]      ∫  Cold-weather Mobile Heavy Cannon[-][/c]'
@@ -6696,8 +6718,8 @@ category: strings
   * **lcfly_subset_descEqpRebelWallHealth**: '[c][FFFFFF]      ∫  Reinforced Wall Bracing[-][/c]'
   * **lcfly_subset_descFangFighter**: '[c][FFFFFF]      ∫  Fang Fighter[-][/c]'
   * **lcfly_subset_descFangFighterFragments**: '[c][FFB74A]      ∫  Fang Fighter[-][/c] Data Fragments'
-  * **lcfly_subset_descFurCoat**: '[c][FFFFFF]      ∫  <Fur Coat>[-][/c]'
-  * **lcfly_subset_descFurCoatFragments**: '[c][FFB74A]      ∫  <Fur Coat>[-][/c] Data Fragments'
+  * **lcfly_subset_descFurCoat**: '[c][FFFFFF]      ∫  Bufopel Protector[-][/c]'
+  * **lcfly_subset_descFurCoatFragments**: '[c][FFB74A]      ∫  Bufopel Protector[-][/c] Data Fragments'
   * **lcfly_subset_descHWK290**: '[c][FFFFFF]      ∫  HWK-290[-][/c]'
   * **lcfly_subset_descHWK290Fragments**: '[c][FFB74A]      ∫  HWK-290[-][/c] Data Fragments'
   * **lcfly_subset_descHeroATTE**: '[c][FFFFFF]      ∫  Elite AT-TE Walker[-][/c]'
@@ -6720,8 +6742,8 @@ category: strings
   * **lcfly_subset_descPolarShip**: '[c][FFFFFF]      ∫  V-4X-D Ski Speeder[-][/c]'
   * **lcfly_subset_descPolarShipFragments**: '[c][FFB74A]      ∫  V-4X-D Ski Speeder[-][/c] Data Fragments'
   * **lcfly_subset_descR5MedicFragments**: '[c][FFB74A]      ∫  Imperial Astromedic[-][/c] Data Fragments'
-  * **lcfly_subset_descRebelGoldenMileCreature**: '[c][FFFFFF]      ∫  <Golden Mile Creature>[-][/c]'
-  * **lcfly_subset_descRebelGoldenMileCreatureFragments**: '[c][FFB74A]      ∫  <Golden Mile Creature>[-][/c] Data Fragments'
+  * **lcfly_subset_descRebelGoldenMileCreature**: '[c][FFFFFF]      ∫  Fathier Rider[-][/c]'
+  * **lcfly_subset_descRebelGoldenMileCreatureFragments**: '[c][FFB74A]      ∫  Fathier Rider[-][/c] Data Fragments'
   * **lcfly_subset_descRebelMortarTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
   * **lcfly_subset_descRebelRapidFireTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
   * **lcfly_subset_descSecurityDroid**: '[c][FFFFFF]      ∫  Security Droid[-][/c]'
@@ -10871,9 +10893,9 @@ category: strings
   * **s_infoDesc_undeadEvt_sample**: 'Twisted by the Blackwing virus, attacks mindlessly'
   * **s_infoDesc_undeadEvt_unit**: 'Powerful melee attacks, deploys self-destructing probe killers'
   * **s_infoTitle_614AVA_e**: '614-AvA Speeder Bike'
-  * **s_infoTitle_ApeMan**: '<Ape Man>'
-  * **s_infoTitle_FurCoat**: '<Fur Coat>'
-  * **s_infoTitle_GMC**: '<Golden Mile Creature>'
+  * **s_infoTitle_ApeMan**: 'Ongidae Oppressor'
+  * **s_infoTitle_FurCoat**: 'Bufopel Protector'
+  * **s_infoTitle_GMC**: 'Fathier Rider'
   * **s_infoTitle_anh40_crate**: 'Death Star Crate'
   * **s_infoTitle_anh40_eqp_e**: 'Equipment for Darth Vader'
   * **s_infoTitle_anh40_eqp_r**: 'Equipment for R2-D2'
@@ -12000,7 +12022,7 @@ category: strings
   * **trp_desc_ATRT**: "Rebel tinkering has allowed these Clone Wars era walkers to keep pace with Imperial advancements. They'll quickly make their way to resource buildings. [ffb300]Upon deployment, the pilot targets the closest turret with an ion blast, greatly reducing its damage for 15 seconds.[-]"
   * **trp_desc_ATST**: 'These stilt-legged scout vehicles are workhorses, useful for a wide variety of missions.'
   * **trp_desc_ATTE**: 'Rebel mechanics have made special modifications to keep these Clone Wars era AT-TE walkers running. They are equipped to take on infantry and vehicles alike, but slow and vulnerable to anti-vehicle fire.'
-  * **trp_desc_ApeMan**: 'The Empire normally will not associate with non-human species. However, the <Ape Man> are strong and disciplined, making them an ideal foot-soldier unit.\\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_ApeMan**: 'The Empire rarely enlists non-human species in its military. However, the Ongidae are strong and disciplined, making them an ideal foot-soldier unit.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Bantha**: 'Banthas are indigenous to Tatooine and are used by the Rebel alliance as a sturdy beast of war, trained to ram walls and knock them down.'
   * **trp_desc_BigMouthAlien**: 'The amphibious Drabatan Saboteurs are fierce commandos on the battlefield, charging into combat with full-throated war cries. The Drabatan Saboteur employs a sonic grenade to create micro-fractures in enemy defenses, temporarily increasing the damage taken.'
   * **trp_desc_ChampionEmpireDroideka**: 'This Clone Wars era Droideka was refurbished by smugglers to protect Contraband. Combat improvements have made it highly lethal, but maintenance heavy. Shielded and highly mobile, the Droideka Sentinel excels against troops.'
@@ -12021,7 +12043,7 @@ category: strings
   * **trp_desc_EchoBaseSoldier**: 'Cold-weather Soldiers have been specially trained and field-tested to operate in arctic conditions. Their determination and focus continues to be the restoration of freedom in the galaxy and are best used in large numbers.'
   * **trp_desc_EmpireBrute**: 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
   * **trp_desc_EmpireGamorreanWarrior**: "A fiercely tough Gamorrean boar mercenary, armed with an Arg'garok vibro-ax. His sheer strength and anger allow him to always get in the last blow. [CC3366]Final Thunder: Upon defeat, hurls his ax forward in a last-ditch effort to ensure mass destruction.[-]"
-  * **trp_desc_EmpireGoldenMileCreature**: "The <Golden Mile Creature> is guided by a Tognath Rider to destroy enemy troops and buildings. This beast's natural speed and powerful strikes make it ideal for hit-and-run combat."
+  * **trp_desc_EmpireGoldenMileCreature**: "The Fathier Rider is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed is ideal for hit-and-run combat, attacking enemy troops and buildings."
   * **trp_desc_EmpireHeavyStormDeath**: 'This Heavy Trooper is the product of a lethal virus known to most as "The Sickness". Studies have revealed that infection of this host causes slower movement but improved ability to sustain damage.'
   * **trp_desc_EmpireHovertankSample**: 'Designed for heavy transport, the TX-225 assault tank is slow but devastating versus defensive structures. Thick armor plates offer greater protection, but are still vulnerable to Rocket Turrets.'
   * **trp_desc_EmpireHunterRancor**: 'Hunter Rancors are vicious, nasty creatures with a keen sense of smell. More nimble than other beasts of their size, these capable predators prefer to chase down living prey.'
@@ -12039,7 +12061,7 @@ category: strings
   * **trp_desc_ErkitGeneralist**: 'Conscripted into the "Militia" on Er\'Kit, these units are generalists who attack the closest target. They are vulnerable to mortar fire.'
   * **trp_desc_ErkitSniper**: "Snipers represent the few members of the Er'Kit militia who have actual combat training or experience, and use it to focus enemy troops. They are slow, lightly armored, and susceptible to starship strikes while firing."
   * **trp_desc_ErkitTank**: 'Salvaged from Clone Wars battlefields across the outer rim and sold as scrap by junkers, the venerable AAT1 continues to be refurbished and used in smaller scale conflicts across the galaxy.It prefers to target turrets.'
-  * **trp_desc_FurCoat**: 'While the <Fur Coat> normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage.\\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_FurCoat**: 'While the Bufopel normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Hailfire**: 'Developed by the CIS during the Clone Wars, the IG-227 Hailfire droid has been adapted by the Rebels with weaponry capable of destroying turrets as well as vehicles. Their light armor makes them fast, but vulnerable to infantry.'
   * **trp_desc_HeavyRebel**: 'Heavy Soldiers carry rapid fire blasters, capable of inflicting devastating damage, particularly to shields. In order to maintain mobility, they wear lighter armor, so screen them with more durable units.'
   * **trp_desc_HeavySandSoldier**: 'These elite soldiers have the training and grit needed to carry large rapid-fire blasters into battle in desert environments. They are stronger and deal higher damage than their all-weather counterparts.'
@@ -12078,12 +12100,12 @@ category: strings
   * **trp_desc_PentagonHeavyTrooper**: 'Along with the special training assigned to standard Shoretroopers, these troops have undergone specialized training in the use of heavy ordnance which they use to decimate enemy forces. This increased offense comes at the cost of their defensive capabilities.'
   * **trp_desc_PentagonSoldier**: "Elite members of the Rebellion's SpecForces, Rebel Commandos are trained in guerilla combat tactics for tropical environments. By working together in large numbers these troops are able to counter overwhelming odds."
   * **trp_desc_PentagonTrooper**: 'Shoretroopers are specially trained at a top secret Imperial military headquarters on an unknown planet. They are equipped for combat in tropical environments and use stormtrooper tactics of strength in numbers.'
-  * **trp_desc_PolarShip**: 'The unsteady configuration of the V-4x-D Ski Speeder requires the usage of a ventral halofoil for stabilization. Their light armoring is vulnerable to heavy fire but allows them to obtain high speeds on the battlefield, making them ideal for anti-infantry usage.'
+  * **trp_desc_PolarShip**: 'The unsteady configuration of the V-4X-D Ski Speeder requires the usage of a ventral halofoil for stabilization. Their light armoring is vulnerable to heavy fire but allows them to obtain high speeds on the battlefield, making them ideal for anti-infantry usage.'
   * **trp_desc_ProbeDroid**: 'Used widely by the Empire, these fast moving droids carry an array of terrifying weaponry and specialize in defeating infantry. However, they suffer in vehicular engagements due to their light armor.'
   * **trp_desc_R5Medic**: 'Medic Droids heal injuries with advanced bacta-based technologies. They are programmed to follow and provide aid to infantry closest to them.'
   * **trp_desc_RebelBrute**: 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
   * **trp_desc_RebelGamorreanWarrior**: "A fiercely tough Gamorrean boar mercenary, armed with an Arg'garok vibro-ax. His sheer strength and anger allow him to always get in the last blow. [CC3366]Final Thunder: Upon defeat, hurls his ax forward in a last-ditch effort to ensure mass destruction.[-]"
-  * **trp_desc_RebelGoldenMileCreature**: "The <Golden Mile Creature> is guided by a Tognath Rider to destroy enemy troops and buildings. This beast's natural speed and powerful strikes make it ideal for hit-and-run combat."
+  * **trp_desc_RebelGoldenMileCreature**: "The Fathier Rider is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed is ideal for hit-and-run combat, attacking enemy troops and buildings."
   * **trp_desc_RebelHeavyStormDeath**: 'This Heavy Trooper is the product of a lethal virus known to most as "The Sickness". Studies have revealed that infection of this host causes slower movement but improved ability to sustain damage.'
   * **trp_desc_RebelHovertankSample**: 'Designed for heavy transport, the TX-225 assault tank is slow but devastating versus defensive structures. Thick armor plates offer greater protection, but are still vulnerable to Rocket Turrets.'
   * **trp_desc_RebelHunterRancor**: 'Hunter Rancors are vicious, nasty creatures with a keen sense of smell. More nimble than other beasts of their size, these capable predators prefer to chase down living prey.'
@@ -12148,7 +12170,7 @@ category: strings
   * **trp_title_ATRT**: 'AT-RT Walker'
   * **trp_title_ATST**: 'AT-ST Walker'
   * **trp_title_ATTE**: 'AT-TE'
-  * **trp_title_ApeMan**: '<Ape Man>'
+  * **trp_title_ApeMan**: 'Ongidae Oppressor'
   * **trp_title_Bantha**: 'Bantha Rider'
   * **trp_title_BigMouthAlien**: 'Drabatan Saboteur'
   * **trp_title_ChampionEmpireDroideka**: 'Droideka Sentinel'
@@ -12166,7 +12188,7 @@ category: strings
   * **trp_title_EchoBaseSoldier**: 'Cold-weather Soldier'
   * **trp_title_EmpireBrute**: 'Dowutin Hunter'
   * **trp_title_EmpireGamorreanWarrior**: 'Gamorrean Warrior'
-  * **trp_title_EmpireGoldenMileCreature**: '<Golden Mile Creature>'
+  * **trp_title_EmpireGoldenMileCreature**: 'Fathier Rider'
   * **trp_title_EmpireHeavyStormDeath**: 'Heavy Undead Trooper'
   * **trp_title_EmpireHovertankSample**: 'TX-225'
   * **trp_title_EmpireHunterRancor**: 'Hunter Rancor'
@@ -12190,7 +12212,7 @@ category: strings
   * **trp_title_FUETroopTuskenWeak**: 'Tusken'
   * **trp_title_FueATST**: 'AT-ST'
   * **trp_title_FueHeroHanSolo**: 'Han Solo'
-  * **trp_title_FurCoat**: '<Fur Coat>'
+  * **trp_title_FurCoat**: 'Bufopel Protector'
   * **trp_title_Hailfire**: 'Rebel Hailfire Droid'
   * **trp_title_HeavyRebel**: 'Heavy Soldier'
   * **trp_title_HeavySandSoldier**: 'Heavy Desert Soldier'
@@ -12237,7 +12259,7 @@ category: strings
   * **trp_title_Rancor**: 'Rancor'
   * **trp_title_RebelBrute**: 'Dowutin Hunter'
   * **trp_title_RebelGamorreanWarrior**: 'Gamorrean Warrior'
-  * **trp_title_RebelGoldenMileCreature**: '<Golden Mile Creature>'
+  * **trp_title_RebelGoldenMileCreature**: 'Fathier Rider'
   * **trp_title_RebelHeavyStormDeath**: 'Heavy Undead Trooper'
   * **trp_title_RebelHovertankSample**: 'Stolen TX-225'
   * **trp_title_RebelHunterRancor**: 'Hunter Rancor'

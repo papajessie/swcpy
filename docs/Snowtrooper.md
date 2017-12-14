@@ -3,7 +3,7 @@ title: Snowtrooper (Snowtrooper)
 category: unit
 ---
 
-# Snowtrooper (Snowtrooper) — version 1104
+# Snowtrooper (Snowtrooper) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

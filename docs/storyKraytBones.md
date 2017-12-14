@@ -3,7 +3,7 @@ title: bldtitlestoryKraytBones (storyKraytBones)
 category: building
 ---
 
-# bldtitlestoryKraytBones (storyKraytBones) — version 1104
+# bldtitlestoryKraytBones (storyKraytBones) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

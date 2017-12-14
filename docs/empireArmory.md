@@ -3,7 +3,7 @@ title: Armory (empireArmory)
 category: building
 ---
 
-# Armory (empireArmory) — version 1104
+# Armory (empireArmory) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

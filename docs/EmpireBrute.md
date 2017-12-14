@@ -3,7 +3,7 @@ title: Dowutin Hunter (EmpireBrute)
 category: unit
 ---
 
-# Dowutin Hunter (EmpireBrute) — version 1104
+# Dowutin Hunter (EmpireBrute) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

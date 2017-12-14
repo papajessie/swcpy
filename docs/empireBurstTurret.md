@@ -3,7 +3,7 @@ title: Burst Turret (empireBurstTurret)
 category: building
 ---
 
-# Burst Turret (empireBurstTurret) — version 1104
+# Burst Turret (empireBurstTurret) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

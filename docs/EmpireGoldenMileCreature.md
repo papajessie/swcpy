@@ -1,9 +1,9 @@
 ---
-title: Golden Mile Creature (EmpireGoldenMileCreature)
+title: Fathier Rider (EmpireGoldenMileCreature)
 category: unit
 ---
 
-# Golden Mile Creature (EmpireGoldenMileCreature) — version 1104
+# Fathier Rider (EmpireGoldenMileCreature) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -13,7 +13,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: infantry
   * Side: Empire
-  * Buildable unit: No
+  * Buildable unit: Yes
   * Can be given: Yes
   * Role: Generic
   * Unit capacity: 25
@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|14000|15860|17730|19600|21460|23330|25200|27060|28930|30800|
+|Health|28000|31720|35460|39200|42920|46660|50400|54120|57860|61600|
 
 
 ### Training stats
@@ -72,34 +72,32 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Time between start of clip and first shot: 0s
   * Clip retargeting: Yes
-  * Gun shooting sequence: 1,1,1
+  * Gun shooting sequence: 1
   * Impact delay: 0s
   * New target on reload: Yes
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 600ms
+  * Time between end of clip and start of clip: 0s
   * Retargeting offset: 10
   * Self-centered targeting: No
-  * Shot count: 3
-  * Time between shots: 600ms
+  * Shot count: 1
+  * Time between shots: 750ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|1080|1152|1223|1296|1367|1440|1512|1584|1656|1727|
+|Damage per shot|6075|6480|6880|7290|7690|8100|8505|8910|9315|9715|
 
 
 ### Projectile
 
-  * Displayed damage per second: 1
-
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Calculated damage per second|5400|5760|6115|6480|6835|7200|7560|7920|8280|8635|
-|Calculated damage per clip  |3240|3456|3669|3888|4101|4320|4536|4752|4968|5181|
+|Level                      |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
+|---------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
+|Displayed damage per second|7600|8100|8595|9115|9610|10125|10635|11140|11650|12145|
+|Calculated damage per clip |6075|6480|6880|7290|7690|8100 |8505 |8910 |9315 |9715 |
 
 
-  * Cannons per sequence: 3
-  * Cliptime: 600ms
+  * Cannons per sequence: 1
+  * Cliptime: 0s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -118,15 +116,14 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 350
+  * Animation delay: 750
   * Arcs: No
-  * Asset name: bantha_rbl-ani
+  * Asset name: spacehorse_con-ani
   * Audio attack: "sfx_attack_goldenmilecreature_01":33,"sfx_attack_goldenmilecreature_02":33,"sfx_attack_goldenmilecreature_03":34
   * Audio death: "sfx_death_goldenmilecreature_01":33,"sfx_death_goldenmilecreature_02":33,"sfx_death_goldenmilecreature_03":34
   * Audio placement: "sfx_placement_goldenmilecreature_01":33,"sfx_placement_goldenmilecreature_02":33,"sfx_placement_goldenmilecreature_03":34
   * Audio train: "sfx_ui_unitcomplete_goldenmilecreature_01":50,"sfx_ui_unitcomplete_goldenmilecreature_02":50
-  * Bundle name: bantha_rbl-ani
-  * Displayed damage per second: 1
+  * Bundle name: spacehorse_con-ani
   * Event button action: galaxy
   * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
   * Event button string: hn_open_galaxy
@@ -144,6 +141,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by campaign: Yes
   * Unlocked by event: true
   * Unlocked by tournament: Yes
+
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|7600       |8100       |8595       |9115       |9610       |10125      |10635      |11140      |11650      |12145      |
+|Icon unlock rotation       |0,-15,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |0.7,0.7,0.7|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
 
 ## Uninterpreted stats
 

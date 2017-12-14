@@ -3,7 +3,7 @@ title: Unit Transport (smugglerStarport)
 category: building
 ---
 
-# Unit Transport (smugglerStarport) — version 1104
+# Unit Transport (smugglerStarport) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: trptitlePhantomYWing (PhantomYWing)
 category: unit
 ---
 
-# trptitlePhantomYWing (PhantomYWing) — version 1104
+# trptitlePhantomYWing (PhantomYWing) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

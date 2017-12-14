@@ -3,7 +3,7 @@ title: Headquarters (rebelHQ)
 category: building
 ---
 
-# Headquarters (rebelHQ) — version 1104
+# Headquarters (rebelHQ) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

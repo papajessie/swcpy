@@ -3,7 +3,7 @@ title: Barracks (smugglerBarracks)
 category: building
 ---
 
-# Barracks (smugglerBarracks) — version 1104
+# Barracks (smugglerBarracks) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletuskenDroidHut (tuskenDroidHut)
 category: building
 ---
 
-# bldtitletuskenDroidHut (tuskenDroidHut) — version 1104
+# bldtitletuskenDroidHut (tuskenDroidHut) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

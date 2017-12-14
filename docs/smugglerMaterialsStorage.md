@@ -3,7 +3,7 @@ title: Alloy Depot (smugglerMaterialsStorage)
 category: building
 ---
 
-# Alloy Depot (smugglerMaterialsStorage) — version 1104
+# Alloy Depot (smugglerMaterialsStorage) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Contraband Safehouse (rebelContrabandStorage)
 category: building
 ---
 
-# Contraband Safehouse (rebelContrabandStorage) — version 1104
+# Contraband Safehouse (rebelContrabandStorage) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

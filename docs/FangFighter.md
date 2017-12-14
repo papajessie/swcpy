@@ -3,7 +3,7 @@ title: Fang Fighter (FangFighter)
 category: air
 ---
 
-# Fang Fighter (FangFighter) — version 1104
+# Fang Fighter (FangFighter) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

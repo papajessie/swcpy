@@ -3,7 +3,7 @@ title: bldtitlesyndicateCreditGenerator (syndicateCreditGenerator)
 category: building
 ---
 
-# bldtitlesyndicateCreditGenerator (syndicateCreditGenerator) — version 1104
+# bldtitlesyndicateCreditGenerator (syndicateCreditGenerator) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

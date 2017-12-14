@@ -3,7 +3,7 @@ title: Cantina (empireContrabandCantina)
 category: building
 ---
 
-# Cantina (empireContrabandCantina) — version 1104
+# Cantina (empireContrabandCantina) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

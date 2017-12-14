@@ -3,7 +3,7 @@ title: bldtitledeathBarracks (deathBarracks)
 category: building
 ---
 
-# bldtitledeathBarracks (deathBarracks) — version 1104
+# bldtitledeathBarracks (deathBarracks) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

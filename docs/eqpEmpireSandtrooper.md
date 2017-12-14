@@ -3,7 +3,7 @@ title: Sandtrooper (eqpEmpireSandtrooper)
 category: unit
 ---
 
-# Sandtrooper (eqpEmpireSandtrooper) — version 1104
+# Sandtrooper (eqpEmpireSandtrooper) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

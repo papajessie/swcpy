@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1104
+# Crates — version 1105
 
   * [Amazon Exclusive Deal (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -46,6 +46,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_crystal_tier6)](lc_conf_crystal_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_crystal_tier7)](lc_conf_crystal_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_crystal_tier8)](lc_conf_crystal_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_dan_evtFragment_tier5)](lc_conf_dan_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_dan_evtFragment_tier6)](lc_conf_dan_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_dan_evtFragment_tier7)](lc_conf_dan_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_dan_evtFragment_tier8)](lc_conf_dan_evtFragment_tier8.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_heavyBarr)](lc_conf_defRef_outbreak_tier5_heavyBarr.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_heavyFac)](lc_conf_defRef_outbreak_tier5_heavyFac.html)
   * [Bronzium Conflict Crate (lc_conf_defRef_outbreak_tier5_medBarr)](lc_conf_defRef_outbreak_tier5_medBarr.html)
@@ -75,6 +79,10 @@ title: Index of crates
   * [Obsidian Conflict Crate (lc_conf_desBiome_Jetpack_tier7)](lc_conf_desBiome_Jetpack_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_desBiome_Jetpack_tier8)](lc_conf_desBiome_Jetpack_tier8.html)
   * [Ultra Chrome Conflict Crate (lc_conf_desBiome_tier8)](lc_conf_desBiome_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_erk_evtFragment_tier5)](lc_conf_erk_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_erk_evtFragment_tier6)](lc_conf_erk_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_erk_evtFragment_tier7)](lc_conf_erk_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_erk_evtFragment_tier8)](lc_conf_erk_evtFragment_tier8.html)
   * [Bronzium Conflict Crate (lc_conf_forBiome_Jetpack_tier5)](lc_conf_forBiome_Jetpack_tier5.html)
   * [Bronzium Conflict Crate (lc_conf_forBiome_Jetpack_tier6)](lc_conf_forBiome_Jetpack_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_forBiome_Jetpack_tier7)](lc_conf_forBiome_Jetpack_tier7.html)
@@ -88,6 +96,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_hovertankSample_tier6)](lc_conf_hovertankSample_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_hovertankSample_tier7)](lc_conf_hovertankSample_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_hovertankSample_tier8)](lc_conf_hovertankSample_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_hth_evtFragment_tier5)](lc_conf_hth_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_hth_evtFragment_tier6)](lc_conf_hth_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_hth_evtFragment_tier7)](lc_conf_hth_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_hth_evtFragment_tier8)](lc_conf_hth_evtFragment_tier8.html)
   * [Carbonite Conflict Crate (lc_conf_losalamosMercSample_tier1)](lc_conf_losalamosMercSample_tier1.html)
   * [Carbonite Conflict Crate (lc_conf_losalamosMercSample_tier2)](lc_conf_losalamosMercSample_tier2.html)
   * [Durasteel Conflict Crate (lc_conf_losalamosMercSample_tier3)](lc_conf_losalamosMercSample_tier3.html)
@@ -148,6 +160,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_stolenVehicle_tier6)](lc_conf_stolenVehicle_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_stolenVehicle_tier7)](lc_conf_stolenVehicle_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_stolenVehicle_tier8)](lc_conf_stolenVehicle_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_tat_evtFragment_tier5)](lc_conf_tat_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_tat_evtFragment_tier6)](lc_conf_tat_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_tat_evtFragment_tier7)](lc_conf_tat_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_tat_evtFragment_tier8)](lc_conf_tat_evtFragment_tier8.html)
   * [Carbonite Conflict Crate (lc_conf_tier1)](lc_conf_tier1.html)
   * [Carbonite Conflict Crate (lc_conf_tier2)](lc_conf_tier2.html)
   * [Durasteel Conflict Crate (lc_conf_tier3)](lc_conf_tier3.html)
@@ -160,6 +176,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_undeadEvt_unit_tier6)](lc_conf_undeadEvt_unit_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_undeadEvt_unit_tier7)](lc_conf_undeadEvt_unit_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_undeadEvt_unit_tier8)](lc_conf_undeadEvt_unit_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_yav_evtFragment_tier5)](lc_conf_yav_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_yav_evtFragment_tier6)](lc_conf_yav_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_yav_evtFragment_tier7)](lc_conf_yav_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_yav_evtFragment_tier8)](lc_conf_yav_evtFragment_tier8.html)
   * [Daily Crate (lc_daily)](lc_daily.html)
   * [Daily Death Star Crate (lc_daily_anh40)](lc_daily_anh40.html)
   * [Daily Anniversary Crate (lc_daily_anniversary)](lc_daily_anniversary.html)

@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1104
+# Units — version 1105
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -21,6 +21,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Dewback Trooper (Dewback)](Dewback.html)
   * [Dowutin Hunter (EmpireBrute)](EmpireBrute.html)
   * [Gamorrean Warrior (EmpireGamorreanWarrior)](EmpireGamorreanWarrior.html)
+  * [Fathier Rider (EmpireGoldenMileCreature)](EmpireGoldenMileCreature.html)
   * [Johhar Kessen (EmpireJohhar)](EmpireJohhar.html)
   * [Jump Trooper (EmpireJumptrooper)](EmpireJumptrooper.html)
   * [Luggabeast Munitioneer (EmpireRider)](EmpireRider.html)
@@ -78,6 +79,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [V-4X-D Ski Speeder (PolarShip)](PolarShip.html)
   * [Dowutin Hunter (RebelBrute)](RebelBrute.html)
   * [Gamorrean Warrior (RebelGamorreanWarrior)](RebelGamorreanWarrior.html)
+  * [Fathier Rider (RebelGoldenMileCreature)](RebelGoldenMileCreature.html)
   * [Jetpack Trooper (RebelJetpackTrooper)](RebelJetpackTrooper.html)
   * [Johhar Kessen (RebelJohhar)](RebelJohhar.html)
   * [Luggabeast Munitioneer (RebelRider)](RebelRider.html)
@@ -138,10 +140,9 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
-  * [Ape Man (ApeMan)](ApeMan.html)
+  * [Ongidae Oppressor (ApeMan)](ApeMan.html)
   * [Droideka Sentinal (ChampionEmpireDroidekaSample)](ChampionEmpireDroidekaSample.html)
   * [Droideka Oppressor (ChampionEmpireHeavyDroidekaSample)](ChampionEmpireHeavyDroidekaSample.html)
-  * [Golden Mile Creature (EmpireGoldenMileCreature)](EmpireGoldenMileCreature.html)
   * [Heavy Undead Trooper (EmpireHeavyStormDeath)](EmpireHeavyStormDeath.html)
   * [TX-225 (EmpireHovertankSample)](EmpireHovertankSample.html)
   * [Hunter Rancor (EmpireHunterRancor)](EmpireHunterRancor.html)
@@ -177,7 +178,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Droideka Oppressor (ChampionRebelHeavyDroidekaSample)](ChampionRebelHeavyDroidekaSample.html)
   * [Cold-weather Heavy Soldier (EchoBaseHeavySoldier)](EchoBaseHeavySoldier.html)
   * [Cold-weather Soldier (EchoBaseSoldier)](EchoBaseSoldier.html)
-  * [Fur Coat (FurCoat)](FurCoat.html)
+  * [Bufopel Protector (FurCoat)](FurCoat.html)
   * [Heavy Desert Soldier (HeavySandSoldier)](HeavySandSoldier.html)
   * [trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap)](HeavySoldierDropshipTrap.html)
   * [AT-AP Veteran (HeroATAP)](HeroATAP.html)
@@ -188,7 +189,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [trptitlePhantomMilleniumFalcon (PhantomMilleniumFalcon)](PhantomMilleniumFalcon.html)
   * [trptitlePhantomXWing (PhantomXWing)](PhantomXWing.html)
   * [trptitlePhantomYWing (PhantomYWing)](PhantomYWing.html)
-  * [Golden Mile Creature (RebelGoldenMileCreature)](RebelGoldenMileCreature.html)
   * [Heavy Undead Trooper (RebelHeavyStormDeath)](RebelHeavyStormDeath.html)
   * [Stolen TX-225 (RebelHovertankSample)](RebelHovertankSample.html)
   * [Hunter Rancor (RebelHunterRancor)](RebelHunterRancor.html)

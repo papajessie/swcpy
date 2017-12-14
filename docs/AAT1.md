@@ -3,7 +3,7 @@ title: AAT-1 Hover Tank (AAT1)
 category: unit
 ---
 
-# AAT-1 Hover Tank (AAT1) — version 1104
+# AAT-1 Hover Tank (AAT1) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

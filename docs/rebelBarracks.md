@@ -3,7 +3,7 @@ title: Barracks (rebelBarracks)
 category: building
 ---
 
-# Barracks (rebelBarracks) — version 1104
+# Barracks (rebelBarracks) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -1,9 +1,9 @@
 ---
-title: Ape Man (ApeMan)
+title: Ongidae Oppressor (ApeMan)
 category: unit
 ---
 
-# Ape Man (ApeMan) — version 1104
+# Ongidae Oppressor (ApeMan) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -19,9 +19,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|9520|10270|11030|11780|12540|13290|14050|14800|15560|16320|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|10880|11780|12690|13600|14500|15410|16320|17220|18580|20400|
 
 
 ### Training stats
@@ -70,7 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Resilience value: -25.0%
 
 
-## Main attack : Storm
+## Main attack : Melee Vibro Mace
 
 ### Targeting
 
@@ -93,29 +93,29 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 0s
+  * Time between shots: 500ms
   * Target locking: No
 
-|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|260|280|300|320|340|365|385|405|425|445|
+|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
 
 
 ### Projectile
 
-|Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|----------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second |302|362|390|445|501|557|612|668|724|835|
-|Calculated damage per second|288|311|333|355|377|405|427|450|472|494|
-|Calculated damage per clip  |260|280|300|320|340|365|385|405|425|445|
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
+|Calculated damage per second|2122|2144|2172|2200|2227|2250|2277|2305|2355|2438|
+|Calculated damage per clip  |1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
 
 
   * Cannons per sequence: 1
   * Cliptime: 900ms
-  * Directional: Yes
-  * Is deflectable: Yes
-  * Max speed: 15
-  * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall
+  * Directional: No
+  * Is deflectable: No
+  * Max speed: 18
+  * Damage multipliers: **(300)**: Flying infantry, Infantry, Infantry hero, Support troop, **(250)**: Heavy infantry, Heavy infantry hero, **(200)**: Flying vehicle, Light vehicle, Vehicule hero, **(150)**: Heavy vehicle, Heavy vehicule hero, **(100)**: Droideka, Headquarters, Other building, Shield, Shield generator, Turret, Wall, **(50)**: Ressource generator, Storage, **(0)**: Trap
   * Pass through shield: No
   * Salvos: 1
 
@@ -132,11 +132,14 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
-  * Arcs: No
-  * Asset name: stotrper_emp-ani
-  * Bullet: fx_blaster_beam_r_sm
-  * Bundle name: stotrper_emp-ani
+  * Animation delay: 600
+  * Arcs: Yes
+  * Asset name: apeman_emp-ani
+  * Audio attack: "sfx_attack_apeman_01":33,"sfx_attack_apeman_02":33,"sfx_attack_apeman_03":34
+  * Audio death: "sfx_death_apeman_01":33,"sfx_death_apeman_02":33,"sfx_death_apeman_03":34
+  * Audio placement: "sfx_placement_apeman_01":33,"sfx_placement_apeman_02":33,"sfx_placement_apeman_03":34
+  * Audio train: "sfx_ui_unitcomplete_apeman_01":100
+  * Bundle name: apeman_emp-ani
   * Event button action: galaxy
   * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
   * Event button string: hn_open_galaxy
@@ -144,23 +147,22 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: infantry
-  * Hit spark: fx_blaster_hit_r_sm
-  * Icon camera position: 12.13,10.63,15.32
-  * Icon closeup camera position: 1.93,1.69,9.65
-  * Icon closeup lookat position: -0.01,2.73,-0.82
-  * Icon lookat position: 0.02,1.69,0
+  * Icon camera position: 7.29,9.66,20.53
+  * Icon closeup camera position: 4.37,6.14,11.94
+  * Icon closeup lookat position: -0.45,2.05,-1.03
+  * Icon lookat position: -0.34,1.3,-0.74
   * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_r_sm
-  * Name: Storm
-  * Spin speed: 0
+  * Muzzle flash: fx_melee_headbutt_med
+  * Name: Melee Vibro Mace
+  * Spin speed: 2
   * Targeted type: ENEMIES
   * Unlocked by campaign: Yes
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|302|362|390|445|501|557|612|668|724|835|
+|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
 
 
 ## Uninterpreted stats

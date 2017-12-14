@@ -3,7 +3,7 @@ title: bldtitleblockerHotRockMedium (blockerHotRockMedium)
 category: building
 ---
 
-# bldtitleblockerHotRockMedium (blockerHotRockMedium) — version 1104
+# bldtitleblockerHotRockMedium (blockerHotRockMedium) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

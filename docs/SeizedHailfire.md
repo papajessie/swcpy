@@ -3,7 +3,7 @@ title: Seized Hailfire Droid (SeizedHailfire)
 category: unit
 ---
 
-# Seized Hailfire Droid (SeizedHailfire) — version 1104
+# Seized Hailfire Droid (SeizedHailfire) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

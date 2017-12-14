@@ -3,7 +3,7 @@ title: Stolen Repair Droid (StolenTechnician)
 category: unit
 ---
 
-# Stolen Repair Droid (StolenTechnician) — version 1104
+# Stolen Repair Droid (StolenTechnician) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

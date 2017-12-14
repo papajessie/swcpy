@@ -3,7 +3,7 @@ title: bldtitledeathOffenseLab (deathOffenseLab)
 category: building
 ---
 
-# bldtitledeathOffenseLab (deathOffenseLab) — version 1104
+# bldtitledeathOffenseLab (deathOffenseLab) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Squad Center (rebelSquadBuilding)
 category: building
 ---
 
-# Squad Center (rebelSquadBuilding) — version 1104
+# Squad Center (rebelSquadBuilding) — version 1105
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
