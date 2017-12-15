@@ -3,7 +3,7 @@ title: bldtitlecrystalRockLarge (crystalRockLarge)
 category: building
 ---
 
-# bldtitlecrystalRockLarge (crystalRockLarge) — version 1105
+# bldtitlecrystalRockLarge (crystalRockLarge) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Kubaz Invader (KubazInvader)
 category: unit
 ---
 
-# Kubaz Invader (KubazInvader) — version 1105
+# Kubaz Invader (KubazInvader) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

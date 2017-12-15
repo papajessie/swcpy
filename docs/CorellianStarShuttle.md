@@ -3,7 +3,7 @@ title: shptitleCorellianStarShuttle (CorellianStarShuttle)
 category: air
 ---
 
-# shptitleCorellianStarShuttle (CorellianStarShuttle) — version 1105
+# shptitleCorellianStarShuttle (CorellianStarShuttle) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

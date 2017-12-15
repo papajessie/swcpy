@@ -3,7 +3,7 @@ title: Moisture Vaporator (moistureVaporatorLarge)
 category: building
 ---
 
-# Moisture Vaporator (moistureVaporatorLarge) — version 1105
+# Moisture Vaporator (moistureVaporatorLarge) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

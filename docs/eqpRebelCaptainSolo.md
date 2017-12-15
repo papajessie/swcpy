@@ -3,7 +3,7 @@ title: Captain Han Solo (eqpRebelCaptainSolo)
 category: unit
 ---
 
-# Captain Han Solo (eqpRebelCaptainSolo) — version 1105
+# Captain Han Solo (eqpRebelCaptainSolo) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

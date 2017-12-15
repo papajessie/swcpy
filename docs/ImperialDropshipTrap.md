@@ -3,7 +3,7 @@ title: Imperial Dropship Transport (ImperialDropshipTrap)
 category: air
 ---
 
-# Imperial Dropship Transport (ImperialDropshipTrap) — version 1105
+# Imperial Dropship Transport (ImperialDropshipTrap) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

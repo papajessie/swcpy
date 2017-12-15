@@ -1,7 +1,7 @@
 ---
 title: Index of unit equipments
 ---
-# Unit equipments — version 1105
+# Unit equipments — version 1106
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 

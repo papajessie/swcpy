@@ -3,7 +3,7 @@ title: bldtitlesyndicateCreditStorage (syndicateCreditStorage)
 category: building
 ---
 
-# bldtitlesyndicateCreditStorage (syndicateCreditStorage) — version 1105
+# bldtitlesyndicateCreditStorage (syndicateCreditStorage) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitlesmugglerShieldGeneratorLarge (smugglerShieldGeneratorLarge)
 category: building
 ---
 
-# bldtitlesmugglerShieldGeneratorLarge (smugglerShieldGeneratorLarge) — version 1105
+# bldtitlesmugglerShieldGeneratorLarge (smugglerShieldGeneratorLarge) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

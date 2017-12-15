@@ -3,7 +3,7 @@ title: Bufopel Protector (FurCoat)
 category: unit
 ---
 
-# Bufopel Protector (FurCoat) — version 1105
+# Bufopel Protector (FurCoat) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -14,7 +14,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Armor type: infantry
   * Side: Rebellion
   * Buildable unit: No
-  * Can be given: Yes
   * Role: Generic
   * Unit capacity: 4
   * Type: infantry

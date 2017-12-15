@@ -3,7 +3,7 @@ title: Droideka Oppressor (ChampionEmpireHeavyDroidekaSample)
 category: unit
 ---
 
-# Droideka Oppressor (ChampionEmpireHeavyDroidekaSample) — version 1105
+# Droideka Oppressor (ChampionEmpireHeavyDroidekaSample) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

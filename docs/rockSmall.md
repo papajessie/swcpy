@@ -3,7 +3,7 @@ title: Small Rock (rockSmall)
 category: building
 ---
 
-# Small Rock (rockSmall) — version 1105
+# Small Rock (rockSmall) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

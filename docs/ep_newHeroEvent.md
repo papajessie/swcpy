@@ -3,7 +3,7 @@ title: Heavy Firepower (ep_newHeroEvent)
 category: episode
 ---
 
-# Heavy Firepower (ep_newHeroEvent) — version 1105
+# Heavy Firepower (ep_newHeroEvent) — version 1106
 
 
 

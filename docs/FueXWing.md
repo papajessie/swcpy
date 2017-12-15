@@ -3,7 +3,7 @@ title: shptitleFueXWing (FueXWing)
 category: air
 ---
 
-# shptitleFueXWing (FueXWing) — version 1105
+# shptitleFueXWing (FueXWing) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: trptitleFueTusken (FueTusken)
 category: unit
 ---
 
-# trptitleFueTusken (FueTusken) — version 1105
+# trptitleFueTusken (FueTusken) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Rapid Fire Turret (smugglerRapidFireTurret)
 category: building
 ---
 
-# Rapid Fire Turret (smugglerRapidFireTurret) — version 1105
+# Rapid Fire Turret (smugglerRapidFireTurret) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

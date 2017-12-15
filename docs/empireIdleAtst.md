@@ -3,7 +3,7 @@ title: bldtitleempireIdleAtst (empireIdleAtst)
 category: building
 ---
 
-# bldtitleempireIdleAtst (empireIdleAtst) — version 1105
+# bldtitleempireIdleAtst (empireIdleAtst) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletatooineCantina (tatooineCantina)
 category: building
 ---
 
-# bldtitletatooineCantina (tatooineCantina) — version 1105
+# bldtitletatooineCantina (tatooineCantina) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

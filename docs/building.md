@@ -1,7 +1,7 @@
 ---
 title: Index of buildings
 ---
-# Buildings — version 1105
+# Buildings — version 1106
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Twilek Incinerator (EmpireTwilekIncinerator)
 category: unit
 ---
 
-# Twilek Incinerator (EmpireTwilekIncinerator) — version 1105
+# Twilek Incinerator (EmpireTwilekIncinerator) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

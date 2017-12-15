@@ -3,7 +3,7 @@ title: bldtitleneutralVehicleIdle (neutralVehicleIdle)
 category: building
 ---
 
-# bldtitleneutralVehicleIdle (neutralVehicleIdle) — version 1105
+# bldtitleneutralVehicleIdle (neutralVehicleIdle) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

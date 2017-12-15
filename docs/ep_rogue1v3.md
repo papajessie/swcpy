@@ -3,7 +3,7 @@ title: Rogue One Special Event Part II (ep_rogue1v3)
 category: episode
 ---
 
-# Rogue One Special Event Part II (ep_rogue1v3) — version 1105
+# Rogue One Special Event Part II (ep_rogue1v3) — version 1106
 
 
 

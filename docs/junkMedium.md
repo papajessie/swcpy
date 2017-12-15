@@ -3,7 +3,7 @@ title: Medium Junk (junkMedium)
 category: building
 ---
 
-# Medium Junk (junkMedium) — version 1105
+# Medium Junk (junkMedium) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

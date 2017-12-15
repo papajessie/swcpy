@@ -3,7 +3,7 @@ title: bldtitleblockerTakJunkLarge (blockerTakJunkLarge)
 category: building
 ---
 
-# bldtitleblockerTakJunkLarge (blockerTakJunkLarge) — version 1105
+# bldtitleblockerTakJunkLarge (blockerTakJunkLarge) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

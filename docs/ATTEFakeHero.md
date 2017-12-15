@@ -3,7 +3,7 @@ title: trptitleATTEFakeHero (ATTEFakeHero)
 category: unit
 ---
 
-# trptitleATTEFakeHero (ATTEFakeHero) — version 1105
+# trptitleATTEFakeHero (ATTEFakeHero) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

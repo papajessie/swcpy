@@ -3,7 +3,7 @@ title: Darth Vader (HeroDarthVader)
 category: unit
 ---
 
-# Darth Vader (HeroDarthVader) — version 1105
+# Darth Vader (HeroDarthVader) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

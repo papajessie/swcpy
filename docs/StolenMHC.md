@@ -3,7 +3,7 @@ title: Stolen Mobile Heavy Cannon (StolenMHC)
 category: unit
 ---
 
-# Stolen Mobile Heavy Cannon (StolenMHC) — version 1105
+# Stolen Mobile Heavy Cannon (StolenMHC) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

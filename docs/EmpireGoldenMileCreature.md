@@ -3,7 +3,7 @@ title: Fathier Rider (EmpireGoldenMileCreature)
 category: unit
 ---
 
-# Fathier Rider (EmpireGoldenMileCreature) — version 1105
+# Fathier Rider (EmpireGoldenMileCreature) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -14,7 +14,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Armor type: infantry
   * Side: Empire
   * Buildable unit: Yes
-  * Can be given: Yes
   * Role: Generic
   * Unit capacity: 25
   * Type: mercenary

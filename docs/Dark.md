@@ -3,7 +3,7 @@ title: Phase II Dark Trooper (Dark)
 category: unit
 ---
 
-# Phase II Dark Trooper (Dark) — version 1105
+# Phase II Dark Trooper (Dark) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

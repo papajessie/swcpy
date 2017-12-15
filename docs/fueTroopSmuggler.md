@@ -3,7 +3,7 @@ title: Smuggler (fueTroopSmuggler)
 category: unit
 ---
 
-# Smuggler (fueTroopSmuggler) — version 1105
+# Smuggler (fueTroopSmuggler) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

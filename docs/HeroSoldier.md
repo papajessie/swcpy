@@ -3,7 +3,7 @@ title: Oto Vans (HeroSoldier)
 category: unit
 ---
 
-# Oto Vans (HeroSoldier) — version 1105
+# Oto Vans (HeroSoldier) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

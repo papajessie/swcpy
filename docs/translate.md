@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1105
+# Translation strings (translate) — version 1106
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -2707,6 +2707,11 @@ category: strings
   * **crate_title_lc_rogue1v3Store_3x**: 'Supreme Weapons Research Crate'
   * **crate_title_lc_rogue1v3Store_lastchance**: 'Rogue One Event Last Chance Sale!'
   * **crate_title_lc_rogue1v3_unitUnlock**: 'Bonus Starfighter Unlock Crate'
+  * **crate_title_lc_spaceBear_SPDa_v1**: 'Premium Holiday Event Crate'
+  * **crate_title_lc_spaceBear_SPDa_v2**: 'Premium Holiday Event Crate'
+  * **crate_title_lc_spaceBear_SPDa_v3**: 'Premium Holiday Event Crate'
+  * **crate_title_lc_spaceBear_SPDb_v1**: 'Holiday Event Last Chance Sale!'
+  * **crate_title_lc_spaceBear_SPDb_v2**: 'Holiday Event Last Chance Sale!'
   * **crate_title_lc_spd_bronziumEqpStore_b1_c500**: 'Premium Crystal Bronzium Crate'
   * **crate_title_lc_spd_carboniteEqpStore_c6**: 'Premium Triple Carbonite Crate'
   * **crate_title_lc_spd_durasteelEqpStore_d4**: 'Premium Double Durasteel Crate'
@@ -4106,37 +4111,37 @@ category: strings
   * **epchp_epSpaceBear_w1f_title**: 'An Old Friend [Complete]'
   * **epchp_epSpaceBear_w2_title**: 'Mysterious Benefactor'
   * **epchp_epSpaceBear_w2c1_body_e**: 'One of Saponza’s old pirate contacts was impressed with your work, and is offering you a new set of jobs.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
-  * **epchp_epSpaceBear_w2c1_body_r**: 'One of Saponza’s old pirate contacts was impressed with your work, and is offering you a new set of jobs.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
-  * **epchp_epSpaceBear_w2c2_body_e**: 'Still anonymous, Saponza’s pirate contact continues to deliver payment as promised.\nContinue finishing Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
-  * **epchp_epSpaceBear_w2c2_body_r**: 'Still anonymous, Saponza’s pirate contact continues to deliver payment as promised.\nContinue finishing Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
+  * **epchp_epSpaceBear_w2c1_body_r**: 'One of Saponza’s old pirate contacts was impressed with your work, and is offering you a new set of jobs. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
+  * **epchp_epSpaceBear_w2c2_body_e**: 'Still anonymous, Saponza’s pirate contact continues to deliver payment as promised. [c][23BBFB]Continue finishing Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
+  * **epchp_epSpaceBear_w2c2_body_r**: 'Still anonymous, Saponza’s pirate contact continues to deliver payment as promised. [c][23BBFB]Continue finishing Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
   * **epchp_epSpaceBear_w2cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the 614-AvA speeder bike.'
   * **epchp_epSpaceBear_w2cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the V-4X-D Ski Speeder.'
   * **epchp_epSpaceBear_w2f_title**: 'Mysterious Benefactor [Complete]'
   * **epchp_epSpaceBear_w3_title**: 'Shared Interests'
-  * **epchp_epSpaceBear_w3c1_body**: 'Saponza reveals his contact to be renowned pirate Hondo Ohnaka. Pleased by your results, Hondo seeks to form a standing business agreement.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
-  * **epchp_epSpaceBear_w3c2_body**: "Hondo's trust in you continues to grow. Keep finishing Event Objectives to earn Supply Crates.\nComplete the Event before time runs out for a guaranteed unlock of the Fathier Rider!"
+  * **epchp_epSpaceBear_w3c1_body**: 'Saponza reveals his contact to be renowned pirate Hondo Ohnaka. Pleased by your results, Hondo seeks to form a standing business agreement. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
+  * **epchp_epSpaceBear_w3c2_body**: "Hondo's trust in you continues to grow. Keep finishing Event Objectives to earn Supply Crates. [c][23BBFB]Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider![-][/c]"
   * **epchp_epSpaceBear_w3cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Fathier Rider.'
   * **epchp_epSpaceBear_w3f_title**: 'Shared Interests [Complete]'
   * **epchp_epSpaceBear_w4_title**: 'A Friend in Need'
-  * **epchp_epSpaceBear_w4c1_body_e**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
-  * **epchp_epSpaceBear_w4c1_body_r**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
-  * **epchp_epSpaceBear_w4c2_body_e**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
-  * **epchp_epSpaceBear_w4c2_body_r**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
+  * **epchp_epSpaceBear_w4c1_body_e**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w4c1_body_r**: "One of Hondo's old compatriots is missing. Hondo fears foul play, and has asked you to investigate. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
+  * **epchp_epSpaceBear_w4c2_body_e**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w4c2_body_r**: "Your efforts revealed that Hondo's compatriot is being held for ransom. Unwilling to risk overt involvement, Hondo has tasked you with disrupting the kidnapper's operations. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
   * **epchp_epSpaceBear_w4c2_title**: 'A Friend in Need: Chapter II'
   * **epchp_epSpaceBear_w4cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Ongidae Oppressor.'
   * **epchp_epSpaceBear_w4cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Bufopel Protector.'
   * **epchp_epSpaceBear_w4f_title**: 'A Friend in Need [Complete]'
   * **epchp_epSpaceBear_w5_title**: 'An Enemy Within'
-  * **epchp_epSpaceBear_w5c1_body_e**: 'Hondo has proof of a spy within the Empire. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor.'
-  * **epchp_epSpaceBear_w5c1_body_r**: 'Hondo has proof of a spy within the Alliance. He will happily give you the information, for a price.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector.'
-  * **epchp_epSpaceBear_w5c2_body_e**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
-  * **epchp_epSpaceBear_w5c2_body_r**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you!\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
+  * **epchp_epSpaceBear_w5c1_body_e**: 'Hondo has proof of a spy within the Empire. He will happily give you the information, for a price. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor.'
+  * **epchp_epSpaceBear_w5c1_body_r**: 'Hondo has proof of a spy within the Alliance. He will happily give you the information, for a price. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector.'
+  * **epchp_epSpaceBear_w5c2_body_e**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you! [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Ongidae Oppressor."
+  * **epchp_epSpaceBear_w5c2_body_r**: "Hondo is closing in on the spy's identity, but he does not work for free. Fortunately, neither do you! [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Bufopel Protector."
   * **epchp_epSpaceBear_w5c2_title**: 'An Enemy Within: Chapter II'
   * **epchp_epSpaceBear_w5cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the Ongidae Oppressor.'
   * **epchp_epSpaceBear_w5cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. This objective can be completed as many times as you wish before the end of the event. Complete it to earn an Elite Event Crate, which has a chance to award data fragments for the Bufopel Protector.'
   * **epchp_epSpaceBear_w5f_title**: 'An Enemy Within [Complete]'
   * **epchp_epSpaceBear_w6_title**: 'Unpaid Debts'
-  * **epchp_epSpaceBear_w6c1_body**: 'Hondo knows of an old debt Saponza owes to a syndicate. Knowing your friend, Saponza would never ask for help. In exchange for some work, Hondo will make the debt disappear.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
+  * **epchp_epSpaceBear_w6c1_body**: 'Hondo knows of an old debt Saponza owes to a syndicate. Knowing your friend, Saponza would never ask for help. In exchange for some work, Hondo will make the debt disappear. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Fathier Rider!'
   * **epchp_epSpaceBear_w6cf_body**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Fathier Rider.'
   * **epchp_epSpaceBear_w6f_title**: 'Unpaid Debts [Complete]'
   * **epchp_epSpacebear_w1_title**: 'An Old Friend'
@@ -6591,6 +6596,7 @@ category: strings
   * **lcfly_desc_chance_med**: 'Good Chance of'
   * **lcfly_desc_chance_subset**: '      ∫  Possible'
   * **lcfly_desc_classicUnit**: 'Classic Unit'
+  * **lcfly_desc_classicUnitDataFragments**: '[c][FFB74A]Classic Units[-][/c] Data Fragments'
   * **lcfly_desc_dataFragments_rogue1v3**: '[c][FF6600]Rogue One[-][/c] Data Fragments'
   * **lcfly_desc_dataFragments_subset_anh40**: '[c][FFB74A]      ∫  40th Anniversary[-][/c] Data Fragments'
   * **lcfly_desc_dataFragments_subset_rogue1v3**: '[c][FF6600]      ∫  Rogue One[-][/c] Data Fragments'

@@ -1,7 +1,7 @@
 ---
 title: Index of conflicts
 ---
-# Conflicts — version 1105
+# Conflicts — version 1106
 
   * [Conflict on Yavin 4 (conflict_yav_20180104)](conflict_yav_20180104.html)
   * [Conflict on ErKit (conflict_erk_20180104)](conflict_erk_20180104.html)

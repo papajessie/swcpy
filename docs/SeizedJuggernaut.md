@@ -3,7 +3,7 @@ title: Seized Juggernaut (SeizedJuggernaut)
 category: unit
 ---
 
-# Seized Juggernaut (SeizedJuggernaut) — version 1105
+# Seized Juggernaut (SeizedJuggernaut) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

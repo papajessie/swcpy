@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1105
+# Units — version 1106
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 

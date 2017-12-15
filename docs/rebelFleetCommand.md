@@ -3,7 +3,7 @@ title: Starship Command (rebelFleetCommand)
 category: building
 ---
 
-# Starship Command (rebelFleetCommand) — version 1105
+# Starship Command (rebelFleetCommand) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

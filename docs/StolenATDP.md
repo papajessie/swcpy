@@ -3,7 +3,7 @@ title: Stolen AT-DP Walker (StolenATDP)
 category: unit
 ---
 
-# Stolen AT-DP Walker (StolenATDP) — version 1105
+# Stolen AT-DP Walker (StolenATDP) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

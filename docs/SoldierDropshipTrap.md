@@ -3,7 +3,7 @@ title: trptitleSoldierDropshipTrap (SoldierDropshipTrap)
 category: unit
 ---
 
-# trptitleSoldierDropshipTrap (SoldierDropshipTrap) — version 1105
+# trptitleSoldierDropshipTrap (SoldierDropshipTrap) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

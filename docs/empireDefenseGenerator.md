@@ -3,7 +3,7 @@ title: bldtitleempireDefenseGenerator (empireDefenseGenerator)
 category: building
 ---
 
-# bldtitleempireDefenseGenerator (empireDefenseGenerator) — version 1105
+# bldtitleempireDefenseGenerator (empireDefenseGenerator) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

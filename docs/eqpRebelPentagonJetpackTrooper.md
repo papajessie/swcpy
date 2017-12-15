@@ -3,7 +3,7 @@ title: Forest Jetpack Trooper (eqpRebelPentagonJetpackTrooper)
 category: unit
 ---
 
-# Forest Jetpack Trooper (eqpRebelPentagonJetpackTrooper) — version 1105
+# Forest Jetpack Trooper (eqpRebelPentagonJetpackTrooper) — version 1106
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
