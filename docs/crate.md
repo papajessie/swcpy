@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1106
+# Crates — version 1108
 
   * [Amazon Exclusive Deal (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -295,6 +295,11 @@ title: Index of crates
   * [Supreme Weapons Research Crate (lc_rogue1v3Store_3x)](lc_rogue1v3Store_3x.html)
   * [Rogue One Event Last Chance Sale (lc_rogue1v3Store_lastchance)](lc_rogue1v3Store_lastchance.html)
   * [Bonus Starfighter Unlock Crate (lc_rogue1v3_unitUnlock)](lc_rogue1v3_unitUnlock.html)
+  * [Premium Holiday Event Crate (lc_spaceBear_SPDa_v1)](lc_spaceBear_SPDa_v1.html)
+  * [Premium Holiday Event Crate (lc_spaceBear_SPDa_v2)](lc_spaceBear_SPDa_v2.html)
+  * [Premium Holiday Event Crate (lc_spaceBear_SPDa_v3)](lc_spaceBear_SPDa_v3.html)
+  * [Holiday Event Last Chance Sale (lc_spaceBear_SPDb_v1)](lc_spaceBear_SPDb_v1.html)
+  * [Holiday Event Last Chance Sale (lc_spaceBear_SPDb_v2)](lc_spaceBear_SPDb_v2.html)
   * [Premium Crystal Bronzium Crate (lc_spd_bronziumEqpStore_b1_c500)](lc_spd_bronziumEqpStore_b1_c500.html)
   * [Premium Triple Carbonite Crate (lc_spd_carboniteEqpStore_c6)](lc_spd_carboniteEqpStore_c6.html)
   * [Premium Double Durasteel Crate (lc_spd_durasteelEqpStore_d4)](lc_spd_durasteelEqpStore_d4.html)

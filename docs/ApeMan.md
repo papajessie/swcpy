@@ -3,7 +3,7 @@ title: Ongidae Oppressor (ApeMan)
 category: unit
 ---
 
-# Ongidae Oppressor (ApeMan) — version 1106
+# Ongidae Oppressor (ApeMan) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -13,7 +13,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: infantry
   * Side: Empire
-  * Buildable unit: No
+  * Buildable unit: Yes
   * Role: Generic
   * Unit capacity: 4
   * Type: infantry
@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|20s                              |22s                                    |23s                                    |24s                                    |25s                                    |26s                                    |27s                                    |28s                                    |29s                                    |30s                                     |
+|Training time|42s                              |44s                                    |46s                                    |48s                                    |50s                                    |52s                                    |54s                                    |1m52s                                  |1m56s                                  |2m                                      |
 |Training cost|50$                              |70$                                    |90$                                    |110$                                   |130$                                   |150$                                   |170$                                   |200$                                   |210$                                   |230$                                    |
 |Building     |[Barracks 1](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
@@ -147,8 +147,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory scale factor: 1
   * Favorite target type: infantry
   * Icon camera position: 7.29,9.66,20.53
-  * Icon closeup camera position: 4.37,6.14,11.94
-  * Icon closeup lookat position: -0.45,2.05,-1.03
+  * Icon closeup camera position: 4.47,3.03,10.77
+  * Icon closeup lookat position: -0.44,2.55,-1.03
   * Icon lookat position: -0.34,1.3,-0.74
   * Max scale: 100
   * Muzzle flash: fx_melee_headbutt_med

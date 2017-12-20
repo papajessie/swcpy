@@ -3,7 +3,7 @@ title: Rebel Vanguard (Vanguard)
 category: unit
 ---
 
-# Rebel Vanguard (Vanguard) — version 1106
+# Rebel Vanguard (Vanguard) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

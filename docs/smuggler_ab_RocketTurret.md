@@ -3,7 +3,7 @@ title: bldtitlesmugglerabRocketTurret (smuggler_ab_RocketTurret)
 category: building
 ---
 
-# bldtitlesmugglerabRocketTurret (smuggler_ab_RocketTurret) — version 1106
+# bldtitlesmugglerabRocketTurret (smuggler_ab_RocketTurret) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

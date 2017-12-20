@@ -3,7 +3,7 @@ title: Credit Vault (empireCreditStorage)
 category: building
 ---
 
-# Credit Vault (empireCreditStorage) — version 1106
+# Credit Vault (empireCreditStorage) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

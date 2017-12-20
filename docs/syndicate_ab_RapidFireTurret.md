@@ -3,7 +3,7 @@ title: bldtitlesyndicateabRapidFireTurret (syndicate_ab_RapidFireTurret)
 category: building
 ---
 
-# bldtitlesyndicateabRapidFireTurret (syndicate_ab_RapidFireTurret) — version 1106
+# bldtitlesyndicateabRapidFireTurret (syndicate_ab_RapidFireTurret) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

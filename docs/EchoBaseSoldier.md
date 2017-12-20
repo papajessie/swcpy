@@ -3,7 +3,7 @@ title: Cold-weather Soldier (EchoBaseSoldier)
 category: unit
 ---
 
-# Cold-weather Soldier (EchoBaseSoldier) — version 1106
+# Cold-weather Soldier (EchoBaseSoldier) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

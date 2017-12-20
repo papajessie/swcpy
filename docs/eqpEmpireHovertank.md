@@ -3,7 +3,7 @@ title: TX-225 (eqpEmpireHovertank)
 category: unit
 ---
 
-# TX-225 (eqpEmpireHovertank) — version 1106
+# TX-225 (eqpEmpireHovertank) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

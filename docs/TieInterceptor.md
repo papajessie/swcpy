@@ -3,7 +3,7 @@ title: TIE Interceptor (TieInterceptor)
 category: air
 ---
 
-# TIE Interceptor (TieInterceptor) — version 1106
+# TIE Interceptor (TieInterceptor) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

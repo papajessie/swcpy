@@ -3,7 +3,7 @@ title: bldtitletreeSmall (treeSmall)
 category: building
 ---
 
-# bldtitletreeSmall (treeSmall) — version 1106
+# bldtitletreeSmall (treeSmall) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

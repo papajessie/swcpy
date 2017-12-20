@@ -3,7 +3,7 @@ title: shptitleAtmosMigTrap (AtmosMigTrap)
 category: air
 ---
 
-# shptitleAtmosMigTrap (AtmosMigTrap) — version 1106
+# shptitleAtmosMigTrap (AtmosMigTrap) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Upgrading stats
 
   * Upgrade time: 1s
-  * Upgrade requirements: 1 All., 1$
+  * Upgrade requirements: 1$, 1 All.
 
 ### Movement stats
 

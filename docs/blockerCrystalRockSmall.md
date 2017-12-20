@@ -3,7 +3,7 @@ title: bldtitleblockerCrystalRockSmall (blockerCrystalRockSmall)
 category: building
 ---
 
-# bldtitleblockerCrystalRockSmall (blockerCrystalRockSmall) — version 1106
+# bldtitleblockerCrystalRockSmall (blockerCrystalRockSmall) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

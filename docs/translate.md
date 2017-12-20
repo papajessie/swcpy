@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1106
+# Translation strings (translate) — version 1108
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -12028,7 +12028,7 @@ category: strings
   * **trp_desc_ATRT**: "Rebel tinkering has allowed these Clone Wars era walkers to keep pace with Imperial advancements. They'll quickly make their way to resource buildings. [ffb300]Upon deployment, the pilot targets the closest turret with an ion blast, greatly reducing its damage for 15 seconds.[-]"
   * **trp_desc_ATST**: 'These stilt-legged scout vehicles are workhorses, useful for a wide variety of missions.'
   * **trp_desc_ATTE**: 'Rebel mechanics have made special modifications to keep these Clone Wars era AT-TE walkers running. They are equipped to take on infantry and vehicles alike, but slow and vulnerable to anti-vehicle fire.'
-  * **trp_desc_ApeMan**: 'The Empire rarely enlists non-human species in its military. However, the Ongidae are strong and disciplined, making them an ideal foot-soldier unit.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_ApeMan**: 'The Empire rarely enlists non-human species in its military. However, the Ongidae are strong and disciplined, making them an ideal foot-soldier unit. [CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Bantha**: 'Banthas are indigenous to Tatooine and are used by the Rebel alliance as a sturdy beast of war, trained to ram walls and knock them down.'
   * **trp_desc_BigMouthAlien**: 'The amphibious Drabatan Saboteurs are fierce commandos on the battlefield, charging into combat with full-throated war cries. The Drabatan Saboteur employs a sonic grenade to create micro-fractures in enemy defenses, temporarily increasing the damage taken.'
   * **trp_desc_ChampionEmpireDroideka**: 'This Clone Wars era Droideka was refurbished by smugglers to protect Contraband. Combat improvements have made it highly lethal, but maintenance heavy. Shielded and highly mobile, the Droideka Sentinel excels against troops.'
@@ -12067,7 +12067,7 @@ category: strings
   * **trp_desc_ErkitGeneralist**: 'Conscripted into the "Militia" on Er\'Kit, these units are generalists who attack the closest target. They are vulnerable to mortar fire.'
   * **trp_desc_ErkitSniper**: "Snipers represent the few members of the Er'Kit militia who have actual combat training or experience, and use it to focus enemy troops. They are slow, lightly armored, and susceptible to starship strikes while firing."
   * **trp_desc_ErkitTank**: 'Salvaged from Clone Wars battlefields across the outer rim and sold as scrap by junkers, the venerable AAT1 continues to be refurbished and used in smaller scale conflicts across the galaxy.It prefers to target turrets.'
-  * **trp_desc_FurCoat**: 'While the Bufopel normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage.\n[CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
+  * **trp_desc_FurCoat**: 'While the Bufopel normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents able to take large amounts of damage. [CC3366]Resilience: This unit takes less damage from attacks, the longer it remains in battle.[-]'
   * **trp_desc_Hailfire**: 'Developed by the CIS during the Clone Wars, the IG-227 Hailfire droid has been adapted by the Rebels with weaponry capable of destroying turrets as well as vehicles. Their light armor makes them fast, but vulnerable to infantry.'
   * **trp_desc_HeavyRebel**: 'Heavy Soldiers carry rapid fire blasters, capable of inflicting devastating damage, particularly to shields. In order to maintain mobility, they wear lighter armor, so screen them with more durable units.'
   * **trp_desc_HeavySandSoldier**: 'These elite soldiers have the training and grit needed to carry large rapid-fire blasters into battle in desert environments. They are stronger and deal higher damage than their all-weather counterparts.'

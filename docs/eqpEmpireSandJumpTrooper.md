@@ -3,7 +3,7 @@ title: Desert Jump Trooper (eqpEmpireSandJumpTrooper)
 category: unit
 ---
 
-# Desert Jump Trooper (eqpEmpireSandJumpTrooper) — version 1106
+# Desert Jump Trooper (eqpEmpireSandJumpTrooper) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

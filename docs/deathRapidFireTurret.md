@@ -3,7 +3,7 @@ title: bldtitledeathRapidFireTurret (deathRapidFireTurret)
 category: building
 ---
 
-# bldtitledeathRapidFireTurret (deathRapidFireTurret) — version 1106
+# bldtitledeathRapidFireTurret (deathRapidFireTurret) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

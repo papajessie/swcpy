@@ -3,7 +3,7 @@ title: bldtitleblockerErkitHouseSmall (blockerErkitHouseSmall)
 category: building
 ---
 
-# bldtitleblockerErkitHouseSmall (blockerErkitHouseSmall) — version 1106
+# bldtitleblockerErkitHouseSmall (blockerErkitHouseSmall) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

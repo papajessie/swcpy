@@ -3,7 +3,7 @@ title: AT-MP Mark III (HeroATMP)
 category: unit
 ---
 
-# AT-MP Mark III (HeroATMP) — version 1106
+# AT-MP Mark III (HeroATMP) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

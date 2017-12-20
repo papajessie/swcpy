@@ -3,7 +3,7 @@ title: Han Solo (FUETroopHeroHanSolo)
 category: unit
 ---
 
-# Han Solo (FUETroopHeroHanSolo) — version 1106
+# Han Solo (FUETroopHeroHanSolo) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

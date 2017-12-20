@@ -3,7 +3,7 @@ title: bldtitleawesomeBuilding (awesomeBuilding)
 category: building
 ---
 
-# bldtitleawesomeBuilding (awesomeBuilding) — version 1106
+# bldtitleawesomeBuilding (awesomeBuilding) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

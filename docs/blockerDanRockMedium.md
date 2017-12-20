@@ -3,7 +3,7 @@ title: bldtitleblockerDanRockMedium (blockerDanRockMedium)
 category: building
 ---
 
-# bldtitleblockerDanRockMedium (blockerDanRockMedium) — version 1106
+# bldtitleblockerDanRockMedium (blockerDanRockMedium) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

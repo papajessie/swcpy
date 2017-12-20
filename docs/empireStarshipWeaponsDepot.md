@@ -3,7 +3,7 @@ title: bldtitleempireStarshipWeaponsDepot (empireStarshipWeaponsDepot)
 category: building
 ---
 
-# bldtitleempireStarshipWeaponsDepot (empireStarshipWeaponsDepot) — version 1106
+# bldtitleempireStarshipWeaponsDepot (empireStarshipWeaponsDepot) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

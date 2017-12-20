@@ -3,7 +3,7 @@ title: A Friend in Need (ep_spacebear_w4)
 category: episode
 ---
 
-# A Friend in Need (ep_spacebear_w4) — version 1106
+# A Friend in Need (ep_spacebear_w4) — version 1108
 
 
 
@@ -16,16 +16,16 @@ category: episode
 |Time     |1m                                                                       |5m                                                                       |0s                                                                   |
 |Nature   |                                                                         |                                                                         |★                                                                    |
 |Crate    |[Event Crate (lc_epSpacebear_epObj_unit)](lc_epSpacebear_epObj_unit.html)|[Event Crate (lc_epSpacebear_epObj_unit)](lc_epSpacebear_epObj_unit.html)|[Event Crate (lc_epMilestone_material)](lc_epMilestone_material.html)|
-|Task HQ1 |Earn 20 EP                                                               |Earn 30 EP                                                               |Loot 1000 Alloy                                                      |
-|Task HQ2 |Earn 30 EP                                                               |Earn 50 EP                                                               |Loot 3000 Alloy                                                      |
-|Task HQ3 |Earn 30 EP                                                               |Earn 50 EP                                                               |Loot 9000 Alloy                                                      |
-|Task HQ4 |Earn 40 EP                                                               |Earn 70 EP                                                               |Loot 24000 Alloy                                                     |
-|Task HQ5 |Earn 35 EP                                                               |Earn 60 EP                                                               |Loot 35000 Alloy                                                     |
-|Task HQ6 |Earn 40 EP                                                               |Earn 70 EP                                                               |Loot 101000 Alloy                                                    |
-|Task HQ7 |Earn 35 EP                                                               |Earn 60 EP                                                               |Loot 127000 Alloy                                                    |
-|Task HQ8 |Earn 35 EP                                                               |Earn 60 EP                                                               |Loot 222000 Alloy                                                    |
-|Task HQ9 |Earn 40 EP                                                               |Earn 70 EP                                                               |Loot 389000 Alloy                                                    |
-|Task HQ10|Earn 50 EP                                                               |Earn 80 EP                                                               |Loot 1219000 Alloy                                                   |
+|Task HQ1 |Earn 20 EP                                                               |Earn 30 EP                                                               |Destroy 9 Buildings                                                  |
+|Task HQ2 |Earn 30 EP                                                               |Earn 50 EP                                                               |Destroy 18 Buildings                                                 |
+|Task HQ3 |Earn 30 EP                                                               |Earn 50 EP                                                               |Destroy 27 Buildings                                                 |
+|Task HQ4 |Earn 40 EP                                                               |Earn 70 EP                                                               |Destroy 33 Buildings                                                 |
+|Task HQ5 |Earn 35 EP                                                               |Earn 60 EP                                                               |Destroy 36 Buildings                                                 |
+|Task HQ6 |Earn 40 EP                                                               |Earn 70 EP                                                               |Destroy 51 Buildings                                                 |
+|Task HQ7 |Earn 35 EP                                                               |Earn 60 EP                                                               |Destroy 60 Buildings                                                 |
+|Task HQ8 |Earn 35 EP                                                               |Earn 60 EP                                                               |Destroy 63 Buildings                                                 |
+|Task HQ9 |Earn 40 EP                                                               |Earn 70 EP                                                               |Destroy 72 Buildings                                                 |
+|Task HQ10|Earn 50 EP                                                               |Earn 80 EP                                                               |Destroy 159 Buildings                                                |
 
 
 |Level    |04                                                                       |05                                                                       |06                                                                       |

@@ -3,7 +3,7 @@ title: bldtitlestoryEmpShieldGen (storyEmpShieldGen)
 category: building
 ---
 
-# bldtitlestoryEmpShieldGen (storyEmpShieldGen) — version 1106
+# bldtitlestoryEmpShieldGen (storyEmpShieldGen) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

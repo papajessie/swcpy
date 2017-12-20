@@ -3,7 +3,7 @@ title: Credit Vault (rebelCreditStorage)
 category: building
 ---
 
-# Credit Vault (rebelCreditStorage) — version 1106
+# Credit Vault (rebelCreditStorage) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

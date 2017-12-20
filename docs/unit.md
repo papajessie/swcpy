@@ -1,7 +1,7 @@
 ---
 title: Index of units
 ---
-# Units — version 1106
+# Units — version 1108
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 
@@ -15,6 +15,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [AT-DP (ATDP)](ATDP.html)
   * [AT-MP (ATMP)](ATMP.html)
   * [AT-ST Walker (ATST)](ATST.html)
+  * [Ongidae Oppressor (ApeMan)](ApeMan.html)
   * [Droideka Sentinel (ChampionEmpireDroideka)](ChampionEmpireDroideka.html)
   * [Droideka Oppressor (ChampionEmpireHeavyDroideka)](ChampionEmpireHeavyDroideka.html)
   * [Phase II Dark Trooper (Dark)](Dark.html)
@@ -61,6 +62,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Droideka Sentinel (ChampionRebelDroideka)](ChampionRebelDroideka.html)
   * [Droideka Oppressor (ChampionRebelHeavyDroideka)](ChampionRebelHeavyDroideka.html)
   * [Anti-Vehicle Skiff (DesertSkiff)](DesertSkiff.html)
+  * [Bufopel Protector (FurCoat)](FurCoat.html)
   * [Rebel Hailfire Droid (Hailfire)](Hailfire.html)
   * [Heavy Soldier (HeavyRebel)](HeavyRebel.html)
   * [Elite AT-TE Walker (HeroATTE)](HeroATTE.html)
@@ -140,7 +142,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
-  * [Ongidae Oppressor (ApeMan)](ApeMan.html)
   * [Droideka Sentinal (ChampionEmpireDroidekaSample)](ChampionEmpireDroidekaSample.html)
   * [Droideka Oppressor (ChampionEmpireHeavyDroidekaSample)](ChampionEmpireHeavyDroidekaSample.html)
   * [Heavy Undead Trooper (EmpireHeavyStormDeath)](EmpireHeavyStormDeath.html)
@@ -178,7 +179,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Droideka Oppressor (ChampionRebelHeavyDroidekaSample)](ChampionRebelHeavyDroidekaSample.html)
   * [Cold-weather Heavy Soldier (EchoBaseHeavySoldier)](EchoBaseHeavySoldier.html)
   * [Cold-weather Soldier (EchoBaseSoldier)](EchoBaseSoldier.html)
-  * [Bufopel Protector (FurCoat)](FurCoat.html)
   * [Heavy Desert Soldier (HeavySandSoldier)](HeavySandSoldier.html)
   * [trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap)](HeavySoldierDropshipTrap.html)
   * [AT-AP Veteran (HeroATAP)](HeroATAP.html)

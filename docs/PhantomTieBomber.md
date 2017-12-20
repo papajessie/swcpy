@@ -3,7 +3,7 @@ title: trptitlePhantomTieBomber (PhantomTieBomber)
 category: unit
 ---
 
-# trptitlePhantomTieBomber (PhantomTieBomber) — version 1106
+# trptitlePhantomTieBomber (PhantomTieBomber) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

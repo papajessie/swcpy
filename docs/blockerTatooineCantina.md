@@ -3,7 +3,7 @@ title: bldtitleblockerTatooineCantina (blockerTatooineCantina)
 category: building
 ---
 
-# bldtitleblockerTatooineCantina (blockerTatooineCantina) — version 1106
+# bldtitleblockerTatooineCantina (blockerTatooineCantina) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

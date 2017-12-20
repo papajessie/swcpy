@@ -3,7 +3,7 @@ title: trptitleHeroC3PO (HeroC3PO)
 category: unit
 ---
 
-# trptitleHeroC3PO (HeroC3PO) — version 1106
+# trptitleHeroC3PO (HeroC3PO) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

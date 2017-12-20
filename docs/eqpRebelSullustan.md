@@ -3,7 +3,7 @@ title: Sullustan Recon Sharpshooter (eqpRebelSullustan)
 category: unit
 ---
 
-# Sullustan Recon Sharpshooter (eqpRebelSullustan) — version 1106
+# Sullustan Recon Sharpshooter (eqpRebelSullustan) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

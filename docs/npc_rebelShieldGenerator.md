@@ -3,7 +3,7 @@ title: bldtitlenpcrebelShieldGenerator (npc_rebelShieldGenerator)
 category: building
 ---
 
-# bldtitlenpcrebelShieldGenerator (npc_rebelShieldGenerator) — version 1106
+# bldtitlenpcrebelShieldGenerator (npc_rebelShieldGenerator) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

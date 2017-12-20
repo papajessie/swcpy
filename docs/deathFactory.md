@@ -3,7 +3,7 @@ title: bldtitledeathFactory (deathFactory)
 category: building
 ---
 
-# bldtitledeathFactory (deathFactory) — version 1106
+# bldtitledeathFactory (deathFactory) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

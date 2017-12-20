@@ -3,7 +3,7 @@ title: Cold-weather Heavy Soldier (EchoBaseHeavySoldier)
 category: unit
 ---
 
-# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1106
+# Cold-weather Heavy Soldier (EchoBaseHeavySoldier) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

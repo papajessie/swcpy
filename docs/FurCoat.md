@@ -3,7 +3,7 @@ title: Bufopel Protector (FurCoat)
 category: unit
 ---
 
-# Bufopel Protector (FurCoat) — version 1106
+# Bufopel Protector (FurCoat) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -13,7 +13,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: infantry
   * Side: Rebellion
-  * Buildable unit: No
+  * Buildable unit: Yes
   * Role: Generic
   * Unit capacity: 4
   * Type: infantry
@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|20s                             |22s                                   |23s                                   |24s                                   |25s                                   |26s                                   |27s                                   |28s                                   |29s                                   |30s                                    |
+|Training time|42s                             |44s                                   |46s                                   |48s                                   |50s                                   |52s                                   |54s                                   |1m52s                                 |1m56s                                 |2m                                     |
 |Training cost|50$                             |70$                                   |90$                                   |110$                                  |130$                                  |150$                                  |170$                                  |200$                                  |210$                                  |230$                                   |
 |Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
@@ -147,8 +147,8 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory scale factor: 1
   * Favorite target type: infantry
   * Icon camera position: 7.96,8.84,21.58
-  * Icon closeup camera position: -14.18,5,14.81
-  * Icon closeup lookat position: 1.05,1.88,-0.63
+  * Icon closeup camera position: 5.25,4.36,19.19
+  * Icon closeup lookat position: -0.27,2.16,-0.63
   * Icon lookat position: -0.29,1.42,-0.89
   * Max scale: 100
   * Muzzle flash: fx_melee_headbutt_med

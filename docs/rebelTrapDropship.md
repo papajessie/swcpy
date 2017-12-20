@@ -3,7 +3,7 @@ title: LAAT Trap (rebelTrapDropship)
 category: building
 ---
 
-# LAAT Trap (rebelTrapDropship) — version 1106
+# LAAT Trap (rebelTrapDropship) — version 1108
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
