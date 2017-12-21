@@ -3,7 +3,7 @@ title: bldtitleempireContrabandCantinaLocked (empireContrabandCantinaLocked)
 category: building
 ---
 
-# bldtitleempireContrabandCantinaLocked (empireContrabandCantinaLocked) — version 1108
+# bldtitleempireContrabandCantinaLocked (empireContrabandCantinaLocked) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

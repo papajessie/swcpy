@@ -3,7 +3,7 @@ title: trptitlePhantomMilleniumFalcon (PhantomMilleniumFalcon)
 category: unit
 ---
 
-# trptitlePhantomMilleniumFalcon (PhantomMilleniumFalcon) — version 1108
+# trptitlePhantomMilleniumFalcon (PhantomMilleniumFalcon) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

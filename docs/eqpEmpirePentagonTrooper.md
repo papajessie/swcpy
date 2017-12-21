@@ -3,7 +3,7 @@ title: Shoretrooper (eqpEmpirePentagonTrooper)
 category: unit
 ---
 
-# Shoretrooper (eqpEmpirePentagonTrooper) — version 1108
+# Shoretrooper (eqpEmpirePentagonTrooper) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

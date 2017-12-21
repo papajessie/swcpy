@@ -3,7 +3,7 @@ title: Alloy Refinery (rebelMaterialsGenerator)
 category: building
 ---
 
-# Alloy Refinery (rebelMaterialsGenerator) — version 1108
+# Alloy Refinery (rebelMaterialsGenerator) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

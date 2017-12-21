@@ -3,7 +3,7 @@ title: Worker Droid (SmugglerDroid)
 category: unit
 ---
 
-# Worker Droid (SmugglerDroid) — version 1108
+# Worker Droid (SmugglerDroid) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

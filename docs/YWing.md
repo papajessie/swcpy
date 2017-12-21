@@ -3,7 +3,7 @@ title: Y-wing Bomber (YWing)
 category: air
 ---
 
-# Y-wing Bomber (YWing) — version 1108
+# Y-wing Bomber (YWing) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

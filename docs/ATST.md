@@ -3,7 +3,7 @@ title: AT-ST Walker (ATST)
 category: unit
 ---
 
-# AT-ST Walker (ATST) — version 1108
+# AT-ST Walker (ATST) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

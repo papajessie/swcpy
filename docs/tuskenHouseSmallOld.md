@@ -3,7 +3,7 @@ title: bldtitletuskenHouseSmallOld (tuskenHouseSmallOld)
 category: building
 ---
 
-# bldtitletuskenHouseSmallOld (tuskenHouseSmallOld) — version 1108
+# bldtitletuskenHouseSmallOld (tuskenHouseSmallOld) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

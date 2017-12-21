@@ -3,7 +3,7 @@ title: trptitletroopAwesome (troopAwesome)
 category: unit
 ---
 
-# trptitletroopAwesome (troopAwesome) — version 1108
+# trptitletroopAwesome (troopAwesome) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

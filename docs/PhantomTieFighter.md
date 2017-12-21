@@ -3,7 +3,7 @@ title: trptitlePhantomTieFighter (PhantomTieFighter)
 category: unit
 ---
 
-# trptitlePhantomTieFighter (PhantomTieFighter) — version 1108
+# trptitlePhantomTieFighter (PhantomTieFighter) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

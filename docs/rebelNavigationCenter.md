@@ -3,7 +3,7 @@ title: Planetary Command (rebelNavigationCenter)
 category: building
 ---
 
-# Planetary Command (rebelNavigationCenter) — version 1108
+# Planetary Command (rebelNavigationCenter) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

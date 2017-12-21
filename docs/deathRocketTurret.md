@@ -3,7 +3,7 @@ title: bldtitledeathRocketTurret (deathRocketTurret)
 category: building
 ---
 
-# bldtitledeathRocketTurret (deathRocketTurret) — version 1108
+# bldtitledeathRocketTurret (deathRocketTurret) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

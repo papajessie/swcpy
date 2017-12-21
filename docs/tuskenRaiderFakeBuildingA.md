@@ -3,7 +3,7 @@ title: bldtitletuskenRaiderFakeBuildingA (tuskenRaiderFakeBuildingA)
 category: building
 ---
 
-# bldtitletuskenRaiderFakeBuildingA (tuskenRaiderFakeBuildingA) — version 1108
+# bldtitletuskenRaiderFakeBuildingA (tuskenRaiderFakeBuildingA) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

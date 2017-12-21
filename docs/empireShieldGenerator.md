@@ -3,7 +3,7 @@ title: Shield Generator (empireShieldGenerator)
 category: building
 ---
 
-# Shield Generator (empireShieldGenerator) — version 1108
+# Shield Generator (empireShieldGenerator) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

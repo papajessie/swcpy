@@ -3,7 +3,7 @@ title: Tognath Marksman (RebelTognath)
 category: unit
 ---
 
-# Tognath Marksman (RebelTognath) — version 1108
+# Tognath Marksman (RebelTognath) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

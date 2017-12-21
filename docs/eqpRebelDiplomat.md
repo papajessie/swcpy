@@ -3,7 +3,7 @@ title: Senator Leia Organa (eqpRebelDiplomat)
 category: unit
 ---
 
-# Senator Leia Organa (eqpRebelDiplomat) — version 1108
+# Senator Leia Organa (eqpRebelDiplomat) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

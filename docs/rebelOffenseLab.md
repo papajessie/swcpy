@@ -3,7 +3,7 @@ title: Research Lab (rebelOffenseLab)
 category: building
 ---
 
-# Research Lab (rebelOffenseLab) — version 1108
+# Research Lab (rebelOffenseLab) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

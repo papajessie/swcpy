@@ -3,7 +3,7 @@ title: Guard Reserve Conflict Outbreak (ep_defRef_outbreak)
 category: episode
 ---
 
-# Guard Reserve Conflict Outbreak (ep_defRef_outbreak) — version 1108
+# Guard Reserve Conflict Outbreak (ep_defRef_outbreak) — version 1109
 
 
 

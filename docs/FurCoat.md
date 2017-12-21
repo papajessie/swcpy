@@ -3,7 +3,7 @@ title: Bufopel Protector (FurCoat)
 category: unit
 ---
 
-# Bufopel Protector (FurCoat) — version 1108
+# Bufopel Protector (FurCoat) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

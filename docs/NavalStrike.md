@@ -3,7 +3,7 @@ title: shptitleNavalStrike (NavalStrike)
 category: air
 ---
 
-# shptitleNavalStrike (NavalStrike) — version 1108
+# shptitleNavalStrike (NavalStrike) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

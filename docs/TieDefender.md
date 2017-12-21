@@ -3,7 +3,7 @@ title: TIE Defender (TieDefender)
 category: air
 ---
 
-# TIE Defender (TieDefender) — version 1108
+# TIE Defender (TieDefender) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

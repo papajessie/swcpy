@@ -3,7 +3,7 @@ title: trptitleWorkerDroid (WorkerDroid)
 category: unit
 ---
 
-# trptitleWorkerDroid (WorkerDroid) — version 1108
+# trptitleWorkerDroid (WorkerDroid) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Scout Undead Trooper (SmugglerScoutDeath)
 category: unit
 ---
 
-# Scout Undead Trooper (SmugglerScoutDeath) — version 1108
+# Scout Undead Trooper (SmugglerScoutDeath) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

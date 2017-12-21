@@ -3,7 +3,7 @@ title: Shoretrooper (PentagonTrooper)
 category: unit
 ---
 
-# Shoretrooper (PentagonTrooper) — version 1108
+# Shoretrooper (PentagonTrooper) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

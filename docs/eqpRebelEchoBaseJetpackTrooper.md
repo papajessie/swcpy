@@ -3,7 +3,7 @@ title: Arctic Jetpack Trooper (eqpRebelEchoBaseJetpackTrooper)
 category: unit
 ---
 
-# Arctic Jetpack Trooper (eqpRebelEchoBaseJetpackTrooper) — version 1108
+# Arctic Jetpack Trooper (eqpRebelEchoBaseJetpackTrooper) — version 1109
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
