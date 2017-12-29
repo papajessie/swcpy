@@ -3,7 +3,7 @@ title: Seized Medic Droid (SeizedMedic)
 category: unit
 ---
 
-# Seized Medic Droid (SeizedMedic) — version 1109
+# Seized Medic Droid (SeizedMedic) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

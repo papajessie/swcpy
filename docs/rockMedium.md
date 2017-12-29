@@ -3,7 +3,7 @@ title: Medium Rock (rockMedium)
 category: building
 ---
 
-# Medium Rock (rockMedium) — version 1109
+# Medium Rock (rockMedium) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

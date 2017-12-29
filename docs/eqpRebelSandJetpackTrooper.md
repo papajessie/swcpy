@@ -3,7 +3,7 @@ title: Desert Jetpack Trooper (eqpRebelSandJetpackTrooper)
 category: unit
 ---
 
-# Desert Jetpack Trooper (eqpRebelSandJetpackTrooper) — version 1109
+# Desert Jetpack Trooper (eqpRebelSandJetpackTrooper) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

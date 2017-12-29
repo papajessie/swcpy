@@ -3,7 +3,7 @@ title: Womp Rat Warren (wompRatNestLarge)
 category: building
 ---
 
-# Womp Rat Warren (wompRatNestLarge) — version 1109
+# Womp Rat Warren (wompRatNestLarge) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

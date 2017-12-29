@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1109
+# Crates — version 1112
 
   * [Amazon Exclusive Deal (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -230,6 +230,7 @@ title: Index of crates
   * [Event Crate (lc_epMilestone_spacebear_gmc_unit)](lc_epMilestone_spacebear_gmc_unit.html)
   * [Event Crate (lc_epMilestone_spacebear_starship)](lc_epMilestone_spacebear_starship.html)
   * [Event Crate (lc_epMilestone_spacebear_unit)](lc_epMilestone_spacebear_unit.html)
+  * [Premium Event Crate (lc_epSpacebearStore_SPD)](lc_epSpacebearStore_SPD.html)
   * [Premium Event Crate (lc_epSpacebearStore_wk1)](lc_epSpacebearStore_wk1.html)
   * [Elite Event Crate (lc_epSpacebear_bonObj_gmc_starship)](lc_epSpacebear_bonObj_gmc_starship.html)
   * [Elite Event Crate (lc_epSpacebear_bonObj_gmc_unit)](lc_epSpacebear_bonObj_gmc_unit.html)
@@ -318,12 +319,14 @@ title: Index of crates
   * [Undead Special Pack (lc_undeadEvt_SPD_v2)](lc_undeadEvt_SPD_v2.html)
   * [Undead Special Pack (lc_undeadEvt_SPD_v3)](lc_undeadEvt_SPD_v3.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_A)](lc_vertCrateHero_A.html)
+  * [Heroic Data Fragment Crate (lc_vertCrateHero_A2)](lc_vertCrateHero_A2.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_B)](lc_vertCrateHero_B.html)
   * [Heroic Data Fragment Crate (lc_vertCrateHero_C)](lc_vertCrateHero_C.html)
   * [Infantry Data Fragment Crate (lc_vertCrateInf_A)](lc_vertCrateInf_A.html)
   * [Infantry Data Fragment Crate (lc_vertCrateInf_B)](lc_vertCrateInf_B.html)
   * [Infantry Data Fragment Crate (lc_vertCrateInf_C)](lc_vertCrateInf_C.html)
   * [Specialist Data Fragment Crate (lc_vertCrateSpec_A)](lc_vertCrateSpec_A.html)
+  * [Specialist Data Fragment Crate (lc_vertCrateSpec_A2)](lc_vertCrateSpec_A2.html)
   * [Specialist Data Fragment Crate (lc_vertCrateSpec_B)](lc_vertCrateSpec_B.html)
   * [Specialist Data Fragment Crate (lc_vertCrateSpec_C)](lc_vertCrateSpec_C.html)
   * [Vehicle Data Fragment Crate (lc_vertCrateVehicle_A)](lc_vertCrateVehicle_A.html)

@@ -3,7 +3,7 @@ title: Heavy Sandtrooper (HeavySandtrooper)
 category: unit
 ---
 
-# Heavy Sandtrooper (HeavySandtrooper) — version 1109
+# Heavy Sandtrooper (HeavySandtrooper) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

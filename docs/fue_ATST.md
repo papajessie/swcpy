@@ -3,7 +3,7 @@ title: AT-ST (fue_ATST)
 category: unit
 ---
 
-# AT-ST (fue_ATST) — version 1109
+# AT-ST (fue_ATST) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

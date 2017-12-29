@@ -3,7 +3,7 @@ title: bldtitlesyndicateFactory (syndicateFactory)
 category: building
 ---
 
-# bldtitlesyndicateFactory (syndicateFactory) — version 1109
+# bldtitlesyndicateFactory (syndicateFactory) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

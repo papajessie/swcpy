@@ -3,7 +3,7 @@ title: TX-225 (EmpireHovertankSample)
 category: unit
 ---
 
-# TX-225 (EmpireHovertankSample) — version 1109
+# TX-225 (EmpireHovertankSample) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

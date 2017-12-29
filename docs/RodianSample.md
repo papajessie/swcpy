@@ -3,7 +3,7 @@ title: Rodian Recon Sniper (RodianSample)
 category: unit
 ---
 
-# Rodian Recon Sniper (RodianSample) — version 1109
+# Rodian Recon Sniper (RodianSample) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

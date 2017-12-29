@@ -3,7 +3,7 @@ title: Stolen AT-AT Walker (StolenATAT)
 category: unit
 ---
 
-# Stolen AT-AT Walker (StolenATAT) — version 1109
+# Stolen AT-AT Walker (StolenATAT) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

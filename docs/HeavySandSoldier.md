@@ -3,7 +3,7 @@ title: Heavy Desert Soldier (HeavySandSoldier)
 category: unit
 ---
 
-# Heavy Desert Soldier (HeavySandSoldier) — version 1109
+# Heavy Desert Soldier (HeavySandSoldier) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

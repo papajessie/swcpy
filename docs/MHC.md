@@ -3,7 +3,7 @@ title: Mobile Heavy Cannon (MHC)
 category: unit
 ---
 
-# Mobile Heavy Cannon (MHC) — version 1109
+# Mobile Heavy Cannon (MHC) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Modified INT-4 Interceptor (eqpEmpireArcticINT4)
 category: unit
 ---
 
-# Modified INT-4 Interceptor (eqpEmpireArcticINT4) — version 1109
+# Modified INT-4 Interceptor (eqpEmpireArcticINT4) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Dowutin Hunter (RebelBrute)
 category: unit
 ---
 
-# Dowutin Hunter (RebelBrute) — version 1109
+# Dowutin Hunter (RebelBrute) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Speeder Bike (RebelSpeeder)
 category: unit
 ---
 
-# Speeder Bike (RebelSpeeder) — version 1109
+# Speeder Bike (RebelSpeeder) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

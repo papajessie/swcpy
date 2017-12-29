@@ -3,7 +3,7 @@ title: bldtitlesmugglerStarshipWeaponsDepot (smugglerStarshipWeaponsDepot)
 category: building
 ---
 
-# bldtitlesmugglerStarshipWeaponsDepot (smugglerStarshipWeaponsDepot) — version 1109
+# bldtitlesmugglerStarshipWeaponsDepot (smugglerStarshipWeaponsDepot) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Alloy Refinery (empireMaterialsGenerator)
 category: building
 ---
 
-# Alloy Refinery (empireMaterialsGenerator) — version 1109
+# Alloy Refinery (empireMaterialsGenerator) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

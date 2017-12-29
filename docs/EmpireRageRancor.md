@@ -3,7 +3,7 @@ title: Rage Rancor (EmpireRageRancor)
 category: unit
 ---
 
-# Rage Rancor (EmpireRageRancor) — version 1109
+# Rage Rancor (EmpireRageRancor) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

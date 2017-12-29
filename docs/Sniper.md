@@ -3,7 +3,7 @@ title: Sniper Trooper (Sniper)
 category: unit
 ---
 
-# Sniper Trooper (Sniper) — version 1109
+# Sniper Trooper (Sniper) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

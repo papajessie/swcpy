@@ -3,7 +3,7 @@ title: Jetpack Trooper (RebelJetpackTrooper)
 category: unit
 ---
 
-# Jetpack Trooper (RebelJetpackTrooper) — version 1109
+# Jetpack Trooper (RebelJetpackTrooper) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

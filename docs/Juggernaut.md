@@ -3,7 +3,7 @@ title: Juggernaut (Juggernaut)
 category: unit
 ---
 
-# Juggernaut (Juggernaut) — version 1109
+# Juggernaut (Juggernaut) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

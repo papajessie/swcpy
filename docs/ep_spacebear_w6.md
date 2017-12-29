@@ -3,7 +3,7 @@ title: Unpaid Debts (ep_spacebear_w6)
 category: episode
 ---
 
-# Unpaid Debts (ep_spacebear_w6) — version 1109
+# Unpaid Debts (ep_spacebear_w6) — version 1112
 
 
 
@@ -84,16 +84,16 @@ category: episode
 |Time     |4h                                                                               |8h                                                                               |0s                                                                       |
 |Nature   |                                                                                 |                                                                                 |★                                                                        |
 |Crate    |[Event Crate (lc_epSpacebear_epObj_gmc_unit)](lc_epSpacebear_epObj_gmc_unit.html)|[Event Crate (lc_epSpacebear_epObj_gmc_unit)](lc_epSpacebear_epObj_gmc_unit.html)|[Event Crate (lc_epMilestone_arctic_eqp)](lc_epMilestone_arctic_eqp.html)|
-|Task HQ1 |Earn 90 EP                                                                       |Earn 100 EP                                                                      |Loot 2000 Alloy                                                          |
-|Task HQ2 |Earn 180 EP                                                                      |Earn 200 EP                                                                      |Loot 7000 Alloy                                                          |
-|Task HQ3 |Earn 180 EP                                                                      |Earn 200 EP                                                                      |Loot 25000 Alloy                                                         |
-|Task HQ4 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Loot 66000 Alloy                                                         |
-|Task HQ5 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Loot 96000 Alloy                                                         |
-|Task HQ6 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Loot 280000 Alloy                                                        |
-|Task HQ7 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Loot 354000 Alloy                                                        |
-|Task HQ8 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Loot 619000 Alloy                                                        |
-|Task HQ9 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Loot 1400 Contraband                                                     |
-|Task HQ10|Earn 290 EP                                                                      |Earn 310 EP                                                                      |Loot 3900 Contraband                                                     |
+|Task HQ1 |Earn 90 EP                                                                       |Earn 100 EP                                                                      |Destroy 3 Credit Markets                                                 |
+|Task HQ2 |Earn 180 EP                                                                      |Earn 200 EP                                                                      |Destroy 3 Credit Markets                                                 |
+|Task HQ3 |Earn 180 EP                                                                      |Earn 200 EP                                                                      |Destroy 3 Credit Markets                                                 |
+|Task HQ4 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ5 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ6 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ7 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ8 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ9 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Destroy 6 Credit Markets                                                 |
+|Task HQ10|Earn 290 EP                                                                      |Earn 310 EP                                                                      |Destroy 12 Credit Markets                                                |
 
 
 |Level    |16                                                                               |17                                                                               |18                                                                               |

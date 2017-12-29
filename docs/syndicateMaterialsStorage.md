@@ -3,7 +3,7 @@ title: bldtitlesyndicateMaterialsStorage (syndicateMaterialsStorage)
 category: building
 ---
 
-# bldtitlesyndicateMaterialsStorage (syndicateMaterialsStorage) — version 1109
+# bldtitlesyndicateMaterialsStorage (syndicateMaterialsStorage) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

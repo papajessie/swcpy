@@ -3,7 +3,7 @@ title: Tauntaun Rider (eqpRebelTauntaun)
 category: unit
 ---
 
-# Tauntaun Rider (eqpRebelTauntaun) — version 1109
+# Tauntaun Rider (eqpRebelTauntaun) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

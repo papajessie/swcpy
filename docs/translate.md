@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1109
+# Translation strings (translate) — version 1112
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -2512,6 +2512,14 @@ category: strings
   * **crate_title_lc_conf_losalamosStarfighterSample_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_losalamosStarfighterSample_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_losalamosStarfighterSample_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_navalConf_heroEqp_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_navalConf_heroEqp_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_navalConf_heroEqp_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_navalConf_heroEqp_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_navalConf_sniperEqp_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_navalConf_sniperEqp_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_navalConf_sniperEqp_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_navalConf_sniperEqp_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_navalEvt_evtUnit_tier5**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_navalEvt_evtUnit_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_navalEvt_evtUnit_tier7**: 'Obsidian Conflict Crate'
@@ -2632,6 +2640,7 @@ category: strings
   * **crate_title_lc_epMilestone_spacebear_gmc_unit**: 'Event Crate'
   * **crate_title_lc_epMilestone_spacebear_starship**: 'Event Crate'
   * **crate_title_lc_epMilestone_spacebear_unit**: 'Event Crate'
+  * **crate_title_lc_epSpacebearStore_SPD**: 'Premium Event Crate'
   * **crate_title_lc_epSpacebearStore_wk1**: 'Premium Event Crate'
   * **crate_title_lc_epSpacebear_bonObj_gmc_starship**: 'Elite Event Crate'
   * **crate_title_lc_epSpacebear_bonObj_gmc_unit**: 'Elite Event Crate'
@@ -2726,12 +2735,14 @@ category: strings
   * **crate_title_lc_undeadEvt_SPD_v2**: 'Undead Special Pack'
   * **crate_title_lc_undeadEvt_SPD_v3**: 'Undead Special Pack'
   * **crate_title_lc_vertCrateHero_A**: 'Heroic Data Fragment Crate'
+  * **crate_title_lc_vertCrateHero_A2**: 'Heroic Data Fragment Crate'
   * **crate_title_lc_vertCrateHero_B**: 'Heroic Data Fragment Crate'
   * **crate_title_lc_vertCrateHero_C**: 'Heroic Data Fragment Crate'
   * **crate_title_lc_vertCrateInf_A**: 'Infantry Data Fragment Crate'
   * **crate_title_lc_vertCrateInf_B**: 'Infantry Data Fragment Crate'
   * **crate_title_lc_vertCrateInf_C**: 'Infantry Data Fragment Crate'
   * **crate_title_lc_vertCrateSpec_A**: 'Specialist Data Fragment Crate'
+  * **crate_title_lc_vertCrateSpec_A2**: 'Specialist Data Fragment Crate'
   * **crate_title_lc_vertCrateSpec_B**: 'Specialist Data Fragment Crate'
   * **crate_title_lc_vertCrateSpec_C**: 'Specialist Data Fragment Crate'
   * **crate_title_lc_vertCrateVehicle_A**: 'Vehicle Data Fragment Crate'
@@ -6803,6 +6814,8 @@ category: strings
   * **lei_title_le_rogue1v3_StoreCrate_r**: 'Premium Weapons Research Crate'
   * **lei_title_le_undeadEvt_StoreCrate_e**: 'Premium Undead Offensive Crate'
   * **lei_title_le_undeadEvt_StoreCrate_r**: 'Premium Undead Offensive Crate'
+  * **lei_title_le_vertCrateHero_A2_e**: 'Heroic Data Fragment Crate'
+  * **lei_title_le_vertCrateHero_A2_r**: 'Heroic Data Fragment Crate'
   * **lei_title_le_vertCrateHero_A_e**: 'Heroic Data Fragment Crate'
   * **lei_title_le_vertCrateHero_A_r**: 'Heroic Data Fragment Crate'
   * **lei_title_le_vertCrateHero_B_e**: 'Heroic Data Fragment Crate'
@@ -6815,6 +6828,8 @@ category: strings
   * **lei_title_le_vertCrateInf_B_r**: 'Infantry Data Fragment Crate'
   * **lei_title_le_vertCrateInf_C_e**: 'Infantry Data Fragment Crate'
   * **lei_title_le_vertCrateInf_C_r**: 'Infantry Data Fragment Crate'
+  * **lei_title_le_vertCrateSpec_A2_e**: 'Specialist Data Fragment Crate'
+  * **lei_title_le_vertCrateSpec_A2_r**: 'Specialist Data Fragment Crate'
   * **lei_title_le_vertCrateSpec_A_e**: 'Specialist Data Fragment Crate'
   * **lei_title_le_vertCrateSpec_A_r**: 'Specialist Data Fragment Crate'
   * **lei_title_le_vertCrateSpec_B_e**: 'Specialist Data Fragment Crate'
@@ -11483,6 +11498,8 @@ category: strings
   * **tournament_title_conflict_dan_20171214**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_20171228**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_20180104**: 'Conflict on Dandoran'
+  * **tournament_title_conflict_dan_20180111**: 'Conflict on Dandoran'
+  * **tournament_title_conflict_dan_20180118**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_21**: 'Conflict at Varsa Meadows'
   * **tournament_title_conflict_dan_22**: 'Conflict at Mynock Grottos'
   * **tournament_title_conflict_dan_23**: "Conflict at Smuggler's Basin"
@@ -11583,6 +11600,8 @@ category: strings
   * **tournament_title_conflict_erk_20171221**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_20171228**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_20180104**: "Conflict on Er'Kit"
+  * **tournament_title_conflict_erk_20180111**: "Conflict on Er'Kit"
+  * **tournament_title_conflict_erk_20180118**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_21**: "Johhar Kessen spotted on Er'Kit"
   * **tournament_title_conflict_erk_22**: 'Conflict at Luun Heights'
   * **tournament_title_conflict_erk_23**: 'Conflict at Gundark Pass'
@@ -11665,6 +11684,8 @@ category: strings
   * **tournament_title_conflict_hth_20171207**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_20171221**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_20180104**: 'Conflict on Hoth'
+  * **tournament_title_conflict_hth_20180111**: 'Conflict on Hoth'
+  * **tournament_title_conflict_hth_20180118**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_21**: 'Looter Vehicles at Icefall Plains'
   * **tournament_title_conflict_hth_22**: "Conflict at Shyloah's Crest"
   * **tournament_title_conflict_hth_23**: 'Conflict at Wampa Mountain'
@@ -11709,6 +11730,8 @@ category: strings
   * **tournament_title_conflict_tak_20171214**: 'Conflict on Takodana'
   * **tournament_title_conflict_tak_20171221**: 'Conflict on Takodana'
   * **tournament_title_conflict_tak_20171228**: 'Conflict on Takodana'
+  * **tournament_title_conflict_tak_20180111**: 'Conflict on Takodana'
+  * **tournament_title_conflict_tak_20180118**: 'Conflict on Takodana'
   * **tournament_title_conflict_tat_00**: '[3fdb4f]Crystals[-] Conflict on Tatooine'
   * **tournament_title_conflict_tat_01**: 'Conflict at Boonta Eve'
   * **tournament_title_conflict_tat_02**: 'Conflict at Anchorhead Pass'
@@ -11753,6 +11776,8 @@ category: strings
   * **tournament_title_conflict_tat_20171221**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_20171228**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_20180104**: 'Conflict on Tatooine'
+  * **tournament_title_conflict_tat_20180111**: 'Conflict on Tatooine'
+  * **tournament_title_conflict_tat_20180118**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_21**: 'Conflict at Jundland Chasm'
   * **tournament_title_conflict_tat_22**: 'Conflict at Boonta Eve'
   * **tournament_title_conflict_tat_23**: 'Conflict at Anchorhead Pass'
@@ -11890,6 +11915,8 @@ category: strings
   * **tournament_title_conflict_yav_20171221**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_20171228**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_20180104**: 'Conflict on Yavin 4'
+  * **tournament_title_conflict_yav_20180111**: 'Conflict on Yavin 4'
+  * **tournament_title_conflict_yav_20180118**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_21**: 'Conflict at Skygazer Hill'
   * **tournament_title_conflict_yav_22**: 'Conflict at Massassi Valley'
   * **tournament_title_conflict_yav_23**: 'Conflict at Skygazer Hill'

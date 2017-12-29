@@ -3,7 +3,7 @@ title: Heavy Undead Trooper (RebelHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1109
+# Heavy Undead Trooper (RebelHeavyStormDeath) — version 1112
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
