@@ -3,7 +3,7 @@ title: shptitleRedDot (RedDot)
 category: air
 ---
 
-# shptitleRedDot (RedDot) — version 1112
+# shptitleRedDot (RedDot) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

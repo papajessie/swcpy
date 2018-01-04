@@ -3,7 +3,7 @@ title: bldtitlesmugglerPrisonWall (smugglerPrisonWall)
 category: building
 ---
 
-# bldtitlesmugglerPrisonWall (smugglerPrisonWall) — version 1112
+# bldtitlesmugglerPrisonWall (smugglerPrisonWall) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

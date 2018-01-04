@@ -3,7 +3,7 @@ title: trptitleJuggernautFakeHero (JuggernautFakeHero)
 category: unit
 ---
 
-# trptitleJuggernautFakeHero (JuggernautFakeHero) — version 1112
+# trptitleJuggernautFakeHero (JuggernautFakeHero) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

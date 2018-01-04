@@ -3,7 +3,7 @@ title: bldtitleblockerTreeMedium (blockerTreeMedium)
 category: building
 ---
 
-# bldtitleblockerTreeMedium (blockerTreeMedium) — version 1112
+# bldtitleblockerTreeMedium (blockerTreeMedium) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

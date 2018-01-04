@@ -3,7 +3,7 @@ title: Planetary Command (empireNavigationCenter)
 category: building
 ---
 
-# Planetary Command (empireNavigationCenter) — version 1112
+# Planetary Command (empireNavigationCenter) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Contraband Trade Port (rebelContrabandGenerator)
 category: building
 ---
 
-# Contraband Trade Port (rebelContrabandGenerator) — version 1112
+# Contraband Trade Port (rebelContrabandGenerator) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Heavy Undead Trooper (EmpireHeavyStormDeath)
 category: unit
 ---
 
-# Heavy Undead Trooper (EmpireHeavyStormDeath) — version 1112
+# Heavy Undead Trooper (EmpireHeavyStormDeath) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

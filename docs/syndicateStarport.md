@@ -3,7 +3,7 @@ title: bldtitlesyndicateStarport (syndicateStarport)
 category: building
 ---
 
-# bldtitlesyndicateStarport (syndicateStarport) — version 1112
+# bldtitlesyndicateStarport (syndicateStarport) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

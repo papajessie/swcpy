@@ -3,7 +3,7 @@ title: Droideka Oppressor Platform (empirePlatformHeavyDroideka)
 category: building
 ---
 
-# Droideka Oppressor Platform (empirePlatformHeavyDroideka) — version 1112
+# Droideka Oppressor Platform (empirePlatformHeavyDroideka) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

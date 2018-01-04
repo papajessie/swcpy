@@ -3,7 +3,7 @@ title: Resource Drill (smugglerDrillLarge)
 category: building
 ---
 
-# Resource Drill (smugglerDrillLarge) — version 1112
+# Resource Drill (smugglerDrillLarge) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

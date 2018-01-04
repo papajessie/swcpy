@@ -3,7 +3,7 @@ title: bldtitletuskenWall (tuskenWall)
 category: building
 ---
 
-# bldtitletuskenWall (tuskenWall) — version 1112
+# bldtitletuskenWall (tuskenWall) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

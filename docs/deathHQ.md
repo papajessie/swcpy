@@ -3,7 +3,7 @@ title: bldtitledeathHQ (deathHQ)
 category: building
 ---
 
-# bldtitledeathHQ (deathHQ) — version 1112
+# bldtitledeathHQ (deathHQ) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

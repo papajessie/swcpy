@@ -3,7 +3,7 @@ title: Armory (rebelArmory)
 category: building
 ---
 
-# Armory (rebelArmory) — version 1112
+# Armory (rebelArmory) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletuskenRocketTurret (tuskenRocketTurret)
 category: building
 ---
 
-# bldtitletuskenRocketTurret (tuskenRocketTurret) — version 1112
+# bldtitletuskenRocketTurret (tuskenRocketTurret) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

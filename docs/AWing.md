@@ -3,7 +3,7 @@ title: A-wing Starfighter (AWing)
 category: air
 ---
 
-# A-wing Starfighter (AWing) — version 1112
+# A-wing Starfighter (AWing) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

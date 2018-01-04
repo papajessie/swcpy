@@ -3,7 +3,7 @@ title: bldtitlesmugglerMortar (smugglerMortar)
 category: building
 ---
 
-# bldtitlesmugglerMortar (smugglerMortar) — version 1112
+# bldtitlesmugglerMortar (smugglerMortar) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

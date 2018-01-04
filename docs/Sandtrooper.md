@@ -3,7 +3,7 @@ title: Sandtrooper (Sandtrooper)
 category: unit
 ---
 
-# Sandtrooper (Sandtrooper) — version 1112
+# Sandtrooper (Sandtrooper) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

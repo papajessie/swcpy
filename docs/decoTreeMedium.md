@@ -3,7 +3,7 @@ title: bldtitledecoTreeMedium (decoTreeMedium)
 category: building
 ---
 
-# bldtitledecoTreeMedium (decoTreeMedium) — version 1112
+# bldtitledecoTreeMedium (decoTreeMedium) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitleinfestedSmugglerWarehouse (infestedSmugglerWarehouse)
 category: building
 ---
 
-# bldtitleinfestedSmugglerWarehouse (infestedSmugglerWarehouse) — version 1112
+# bldtitleinfestedSmugglerWarehouse (infestedSmugglerWarehouse) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

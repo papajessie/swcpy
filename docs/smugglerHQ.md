@@ -3,7 +3,7 @@ title: Headquarters (smugglerHQ)
 category: building
 ---
 
-# Headquarters (smugglerHQ) — version 1112
+# Headquarters (smugglerHQ) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: TIE Striker (AtmosMig)
 category: air
 ---
 
-# TIE Striker (AtmosMig) — version 1112
+# TIE Striker (AtmosMig) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

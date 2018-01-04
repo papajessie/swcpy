@@ -3,7 +3,7 @@ title: bldtitlesmugglerContrabandStorage (smugglerContrabandStorage)
 category: building
 ---
 
-# bldtitlesmugglerContrabandStorage (smugglerContrabandStorage) — version 1112
+# bldtitlesmugglerContrabandStorage (smugglerContrabandStorage) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletreeMedium (treeMedium)
 category: building
 ---
 
-# bldtitletreeMedium (treeMedium) — version 1112
+# bldtitletreeMedium (treeMedium) — version 1113
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
