@@ -3,7 +3,7 @@ title: bldtitleblockerHotJunkSmall (blockerHotJunkSmall)
 category: building
 ---
 
-# bldtitleblockerHotJunkSmall (blockerHotJunkSmall) — version 1113
+# bldtitleblockerHotJunkSmall (blockerHotJunkSmall) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Cold-weather Hailfire Droid (eqpRebelArcticHailfire)
 category: unit
 ---
 
-# Cold-weather Hailfire Droid (eqpRebelArcticHailfire) — version 1113
+# Cold-weather Hailfire Droid (eqpRebelArcticHailfire) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

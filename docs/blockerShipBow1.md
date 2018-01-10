@@ -3,7 +3,7 @@ title: bldtitleblockerShipBow1 (blockerShipBow1)
 category: building
 ---
 
-# bldtitleblockerShipBow1 (blockerShipBow1) — version 1113
+# bldtitleblockerShipBow1 (blockerShipBow1) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

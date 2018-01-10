@@ -3,7 +3,7 @@ title: Royal Guard (HeroCrimsonGuard)
 category: unit
 ---
 
-# Royal Guard (HeroCrimsonGuard) — version 1113
+# Royal Guard (HeroCrimsonGuard) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Smuggler Bruiser (SmugglerTank)
 category: unit
 ---
 
-# Smuggler Bruiser (SmugglerTank) — version 1113
+# Smuggler Bruiser (SmugglerTank) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

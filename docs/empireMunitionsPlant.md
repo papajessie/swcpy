@@ -3,7 +3,7 @@ title: bldtitleempireMunitionsPlant (empireMunitionsPlant)
 category: building
 ---
 
-# bldtitleempireMunitionsPlant (empireMunitionsPlant) — version 1113
+# bldtitleempireMunitionsPlant (empireMunitionsPlant) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

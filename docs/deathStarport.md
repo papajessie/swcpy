@@ -3,7 +3,7 @@ title: bldtitledeathStarport (deathStarport)
 category: building
 ---
 
-# bldtitledeathStarport (deathStarport) — version 1113
+# bldtitledeathStarport (deathStarport) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

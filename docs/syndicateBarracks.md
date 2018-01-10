@@ -3,7 +3,7 @@ title: bldtitlesyndicateBarracks (syndicateBarracks)
 category: building
 ---
 
-# bldtitlesyndicateBarracks (syndicateBarracks) — version 1113
+# bldtitlesyndicateBarracks (syndicateBarracks) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

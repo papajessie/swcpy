@@ -3,7 +3,7 @@ title: bldtitleturretLame (turretLame)
 category: building
 ---
 
-# bldtitleturretLame (turretLame) — version 1113
+# bldtitleturretLame (turretLame) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

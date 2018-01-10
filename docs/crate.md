@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1113
+# Crates — version 1115
 
   * [Amazon Exclusive Deal (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -116,6 +116,14 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_losalamosStarfighterSample_tier6)](lc_conf_losalamosStarfighterSample_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_losalamosStarfighterSample_tier7)](lc_conf_losalamosStarfighterSample_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_losalamosStarfighterSample_tier8)](lc_conf_losalamosStarfighterSample_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_navalConf_heroEqp_tier5)](lc_conf_navalConf_heroEqp_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_navalConf_heroEqp_tier6)](lc_conf_navalConf_heroEqp_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_navalConf_heroEqp_tier7)](lc_conf_navalConf_heroEqp_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_navalConf_heroEqp_tier8)](lc_conf_navalConf_heroEqp_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_navalConf_sniperEqp_tier5)](lc_conf_navalConf_sniperEqp_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_navalConf_sniperEqp_tier6)](lc_conf_navalConf_sniperEqp_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_navalConf_sniperEqp_tier7)](lc_conf_navalConf_sniperEqp_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_navalConf_sniperEqp_tier8)](lc_conf_navalConf_sniperEqp_tier8.html)
   * [Bronzium Conflict Crate (lc_conf_navalEvt_evtUnit_tier5)](lc_conf_navalEvt_evtUnit_tier5.html)
   * [Bronzium Conflict Crate (lc_conf_navalEvt_evtUnit_tier6)](lc_conf_navalEvt_evtUnit_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_navalEvt_evtUnit_tier7)](lc_conf_navalEvt_evtUnit_tier7.html)

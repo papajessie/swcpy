@@ -3,13 +3,13 @@ title: Unpaid Debts (ep_spacebear_w6)
 category: episode
 ---
 
-# Unpaid Debts (ep_spacebear_w6) — version 1113
+# Unpaid Debts (ep_spacebear_w6) — version 1115
 
 
 
   * Title: Unpaid Debts
-  * Start date: 2018-01-05 20:00 UTC
-  * End date: 2018-01-11 20:00 UTC
+  * Start date: 2018-01-04 20:00 UTC
+  * End date: 2018-01-10 20:00 UTC
 
 |Level    |01                                                                               |02                                                                               |03                                                                   |
 |---------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------|

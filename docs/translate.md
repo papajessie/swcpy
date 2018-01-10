@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1113
+# Translation strings (translate) — version 1115
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -5818,6 +5818,18 @@ category: strings
   * **hn_cc_3_merc_update_title**: 'Mercenaries Enhanced!'
   * **hn_cc_3_mtv7_buff_body**: 'The MTV-7 has been upgraded, and is better than ever at bypassing enemy defenses. Compete on the conflict on Hoth to claim these powerful units!'
   * **hn_cc_3_mtv7_buff_title**: 'MTV-7 Upgrades!'
+  * **hn_cc_3_navalConf_conf_eqp_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Rodian Recon Sniper equipment, with [c][FFB74A]surgical TIE Bomber strikes[-][/c]!'
+  * **hn_cc_3_navalConf_conf_eqp_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
+  * **hn_cc_3_navalConf_conf_eqp_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Sullsutan Recon Sharpshooter equipment, with [c][FFB74A]surgical Y-wing bombing strikes[-][/c]!'
+  * **hn_cc_3_navalConf_conf_eqp_r_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
+  * **hn_cc_3_navalConf_conf_hero_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Naval Officer hero equipment with [c][FFB74A]orbital Star Destroyer fire support[-][/c]'
+  * **hn_cc_3_navalConf_conf_hero_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
+  * **hn_cc_3_navalConf_conf_hero_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Alliance Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for hero equipment to power up Chewbacca with [c][FFB74A]Millennium Falcon fire support[-][/c]!'
+  * **hn_cc_3_navalConf_conf_hero_r_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
+  * **hn_cc_3_navalConf_conf_pilot_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts on all planets. Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c], trained infantry that summon TIE Fighters to strafe the battlefield!'
+  * **hn_cc_3_navalConf_conf_pilot_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
+  * **hn_cc_3_navalConf_conf_pilot_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts on all planets. Unlock/upgrade the [c][FFB74A]Alliance Starfighter Pilot[-][/c], trained infantry that summon X-wing fighters to strafe the battlefield!'
+  * **hn_cc_3_navalConf_conf_pilot_r_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
   * **hn_cc_3_navalEvt_conf_eqp_e_body**: 'New [c][FFB74A]Rodian Recon Sniper[-][/c] equipment can be won in Conflicts! Place in Bronzium tier or better to earn Data Fragments for new rewards!'
   * **hn_cc_3_navalEvt_conf_eqp_e_title**: 'Conflict Rewards: Rodian Recon Sniper'
   * **hn_cc_3_navalEvt_conf_eqp_r_body**: 'New [c][FFB74A]Sullustan Recon Sharpshooter[-][/c] equipment can be won in Conflicts! Place in Bronzium tier or better to earn Data Fragments for new rewards!'
@@ -6022,6 +6034,8 @@ category: strings
   * **hn_dev_forumNotice_title**: 'Notice:'
   * **hn_dev_maint_9-6_body**: 'On Thursday, Sept. 14, Commander will be undergoing planned server maintenance starting at 2:00pm PST. During this update, the game will be unavailable for several hours.\n\nTo avoid potential data loss:\n• No new Squad Wars can be initiated starting Monday, Sept. 11\n• In-App Purchases will be disabled on Thursday, Sept. 14\n\nSquad War initiation and In-App Purchases will be re-enabled once maintenance is complete. Thanks for your patience.'
   * **hn_dev_maint_9-6_title**: 'Planned Maintenance'
+  * **hn_dev_navalConf_body**: '[c][FFAA33]Conflict Schedule[-][/c]\n• Conflicts run on all planets from 1/11 to 1/17, then again from 1/18 to 1/24.\n• Naval Data Fragments rewarded in Conflict Bronzium league or better.\n\n[c][FFAA33]Naval Assault Rewards[-][/c]\n•\xa0Rebel Alliance Starfighter Pilot / Imperial Starfighter Pilot (Unit)\n- Tatooine\n- All other planets for HQ 5 and below\n•\xa0[c][E40B18]Available to HQ 6+ only:[-][/c] Rebel Millennium Falcon Support / Empire Naval Officer (Hero Equipment) \n- 1/11 to 1/17: All planets besides Tatooine (relocate via Planetary Command structure)\n•\xa0[c][E40B18]Available to HQ 6+ only:[-][/c] Rebel Sullustan Recon Sharpshooter / Empire Rodian Recon Sniper (Equipment) \n- 1/18 to 1/24: All planets besides Tatooine (relocate via Planetary Command structure)'
+  * **hn_dev_navalConf_title**: '2-Week Conflict Outbreak: Naval Assault'
   * **hn_dev_navalEvt_body**: '[c][FFAA33]Limited-Time Event: Naval Assault[-][/c]\n• Event Data Fragments can be earned until event ends on 10/25!\n• Event Data Fragments have a chance to drop in Naval Assault Crates, found in Objectives, Daily Crate, and the Shop. (Crates disappear when event ends.)\n• Event Conflicts also award event Data Fragments in Conflict Bronzium league or better.\n\n•\xa0Unlock a powerful new unit and two new equipment pieces, each with different naval assault capabilities!\n• Only unlockable/upgradeable during the event, see below for reward details.\n\n[c][FFAA33]Reward Highlights[-][/c]\n• New Rebel unit: Alliance Starfighter Pilot - Attacks resource generators and storage, while summoning X-wing Starfighters into the battle.\n\n• New Rebel equipment skins:\n- Millenium Falcon Support - Chewbacca hero unit health and damage are increased, and gains fire support from the Millennium Falcon. The Falcon will perform strafing runs on various enemy structures as long as Chewbacca is in play.\n- Sullustan Recon Sharpshooter - Sharpshooter units become Sullustan Recon Sharpshooters; health and damage are increased, and equipment enables unit to call in Y-wing Starfighter bombing runs.\n\n• New Empire unit: Imperial Starfighter Pilot - Attacks resource generators and storage, while summoning TIE fighters into the battle.\n\n• New Empire equipment skin:\n- Naval Officer - Royal Guard hero unit becomes Naval Officer; health and damage are increased, base attack changed from melee to ranged blaster, and gains orbital Star Destroyer fire support. Orbital attack will strike various enemy structures with turbolasers as long as the Naval Officer is in play.\n- Rodian Recon Sniper - Sniper units become Rodian Recon Snipers; health and damage are increased, and equipment enables unit to call in TIE bomber runs.\n\n• Only unlockable/upgradeable during the event! See below for full list of event rewards.\n\n[c][FFAA33]Naval Assault Event Rewards[-][/c]\n• Elite Data Fragments for Rebels:\n      Millenium Falcon Support (Eqp, [c][FFAA33]NEW[-][/c])\n      Sullustan Recon Sharpshooter (Eqp, [c][FFAA33]NEW[-][/c])\n      Senator Leia Organa (Eqp)\n      Captain Han Solo (Eqp)\n      Alliance Starfighter Pilot (Unit, [c][FFAA33]NEW[-][/c])\n      A-wing Starfighter (Starfighter)\n      HWK-290 (Starfighter)\n      \n• Elite Data Fragments for Empire:\n      Naval Officer (Eqp, [c][FFAA33]NEW[-][/c])\n      Rodian Recon Sniper (Eqp, [c][FFAA33]NEW[-][/c])\n      AT-ACT Walker (Eqp)\n      Cold Weather AT-MP Mark III (Eqp)\n      Imperial Starfighter Pilot (Unit, [c][FFAA33]NEW[-][/c])\n      TIE Advanced (Starfighter)\n      VT-49 Decimator (Starfighter)'
   * **hn_dev_navalEvt_title**: 'Naval Assault Event'
   * **hn_dev_newHeroEvent_body**: '[c][FFAA33]Limited-Time Event: Heavy Firepower[-][/c]\n• Event Data Fragments can be earned until event ends on 9/27!\n• Unlock the Death Trooper hero (Empire) or Elite AT-TE Walker hero (Rebel) during the event.\n• Fragments may be earned from Weapons Research Crates, available from Conflicts, Objectives and the Shop until the end of the event!\n\n[c][FFAA33]New Empire Hero: Death Trooper[-][/c]\n• The Death Trooper targets enemy turrets and traps!\n• Unlocked from Weapons Research Crates, available during the Heavy Firepower Event.\n\n[c][FFAA33]New Rebel Hero: Elite AT-TE Walker[-][/c]\n• The Elite AT-TE Walker targets enemy shield generators as it lumbers across the battlefield!\n• Unlocked from Weapons Research Crates, available during the Heavy Firepower Event.\n\n[c][FFAA33]Han Solo Update[-][/c]\n• Han Solo will now also target enemy traps when deployed.'
@@ -6516,11 +6530,13 @@ category: strings
   * **lcfly_descIakaruWarrior**: '[c][FFB74A]Iakaru Warrior[-][/c]'
   * **lcfly_descIakaruWarriorFragments**: '[c][FFB74A]Iakaru Warrior[-][/c] Data Fragments'
   * **lcfly_descIakaruWarriorSample**: '[c][C8E8FF]Iakaru Warrior Samples[-][/c]'
+  * **lcfly_descIthorianFragments**: '[c][FFB74A]Ithorian Infiltrator[-][/c] Data Fragments'
   * **lcfly_descIthorianInfiltrator**: '[c][FFB74A]Ithorian Infiltrator[-][/c]'
   * **lcfly_descIthorianInfiltratorFragments**: '[c][FFB74A]Ithorian Infiltrator[-][/c] Data Fragments'
   * **lcfly_descJohhar**: '[c][FFB74A]Johhar Kessen[-][/c]'
   * **lcfly_descJohharFragments**: '[c][FFB74A]Johhar Kessen[-][/c] Data Fragments'
   * **lcfly_descKraytDragonSample**: '[c][C8E8FF]Krayt Dragon Samples[-][/c]'
+  * **lcfly_descKubazFragments**: '[c][FFB74A]Kubaz Invader[-][/c] Data Fragments'
   * **lcfly_descKubazInvader**: '[c][FFB74A]Kubaz Invader[-][/c]'
   * **lcfly_descKubazInvaderFragments**: '[c][FFB74A]Kubaz Invader[-][/c] Data Fragments'
   * **lcfly_descMTV7**: '[c][FFB74A]MTV-7[-][/c]'

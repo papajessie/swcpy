@@ -3,7 +3,7 @@ title: Rebel Soldier (SoldierDropship)
 category: unit
 ---
 
-# Rebel Soldier (SoldierDropship) — version 1113
+# Rebel Soldier (SoldierDropship) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: shptitleMillenniumFalcon (MillenniumFalcon)
 category: air
 ---
 
-# shptitleMillenniumFalcon (MillenniumFalcon) — version 1113
+# shptitleMillenniumFalcon (MillenniumFalcon) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

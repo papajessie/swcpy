@@ -3,7 +3,7 @@ title: bldtitlesyndicateMaterialsGenerator (syndicateMaterialsGenerator)
 category: building
 ---
 
-# bldtitlesyndicateMaterialsGenerator (syndicateMaterialsGenerator) — version 1113
+# bldtitlesyndicateMaterialsGenerator (syndicateMaterialsGenerator) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

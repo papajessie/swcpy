@@ -3,7 +3,7 @@ title: Tactical Defenses Event (ep_defRef)
 category: episode
 ---
 
-# Tactical Defenses Event (ep_defRef) — version 1113
+# Tactical Defenses Event (ep_defRef) — version 1115
 
 
 

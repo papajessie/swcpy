@@ -3,7 +3,7 @@ title: bldtitlesyndicateWall (syndicateWall)
 category: building
 ---
 
-# bldtitlesyndicateWall (syndicateWall) — version 1113
+# bldtitlesyndicateWall (syndicateWall) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitlesmugglerTrapFreighter (smugglerTrapFreighter)
 category: building
 ---
 
-# bldtitlesmugglerTrapFreighter (smugglerTrapFreighter) — version 1113
+# bldtitlesmugglerTrapFreighter (smugglerTrapFreighter) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

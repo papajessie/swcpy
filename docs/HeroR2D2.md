@@ -3,7 +3,7 @@ title: R2-D2 (HeroR2D2)
 category: unit
 ---
 
-# R2-D2 (HeroR2D2) — version 1113
+# R2-D2 (HeroR2D2) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

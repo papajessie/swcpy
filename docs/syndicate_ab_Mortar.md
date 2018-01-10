@@ -3,7 +3,7 @@ title: bldtitlesyndicateabMortar (syndicate_ab_Mortar)
 category: building
 ---
 
-# bldtitlesyndicateabMortar (syndicate_ab_Mortar) — version 1113
+# bldtitlesyndicateabMortar (syndicate_ab_Mortar) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

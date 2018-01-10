@@ -3,7 +3,7 @@ title: Stormtrooper (Storm)
 category: unit
 ---
 
-# Stormtrooper (Storm) — version 1113
+# Stormtrooper (Storm) — version 1115
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
