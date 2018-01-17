@@ -3,7 +3,7 @@ title: Rebel Soldier (Soldier)
 category: unit
 ---
 
-# Rebel Soldier (Soldier) — version 1115
+# Rebel Soldier (Soldier) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

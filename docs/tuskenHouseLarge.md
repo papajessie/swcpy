@@ -3,7 +3,7 @@ title: Tusken Dwelling (tuskenHouseLarge)
 category: building
 ---
 
-# Tusken Dwelling (tuskenHouseLarge) — version 1115
+# Tusken Dwelling (tuskenHouseLarge) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

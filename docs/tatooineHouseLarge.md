@@ -3,7 +3,7 @@ title: bldtitletatooineHouseLarge (tatooineHouseLarge)
 category: building
 ---
 
-# bldtitletatooineHouseLarge (tatooineHouseLarge) — version 1115
+# bldtitletatooineHouseLarge (tatooineHouseLarge) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

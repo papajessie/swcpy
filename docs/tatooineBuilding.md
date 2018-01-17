@@ -3,7 +3,7 @@ title: bldtitletatooineBuilding (tatooineBuilding)
 category: building
 ---
 
-# bldtitletatooineBuilding (tatooineBuilding) — version 1115
+# bldtitletatooineBuilding (tatooineBuilding) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

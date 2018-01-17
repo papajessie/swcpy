@@ -3,7 +3,7 @@ title: bldtitlerebelMiningComplex (rebelMiningComplex)
 category: building
 ---
 
-# bldtitlerebelMiningComplex (rebelMiningComplex) — version 1115
+# bldtitlerebelMiningComplex (rebelMiningComplex) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitlesmugglerFUEStarport (smugglerFUEStarport)
 category: building
 ---
 
-# bldtitlesmugglerFUEStarport (smugglerFUEStarport) — version 1115
+# bldtitlesmugglerFUEStarport (smugglerFUEStarport) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

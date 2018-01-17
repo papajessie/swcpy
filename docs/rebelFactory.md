@@ -3,7 +3,7 @@ title: Factory (rebelFactory)
 category: building
 ---
 
-# Factory (rebelFactory) — version 1115
+# Factory (rebelFactory) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

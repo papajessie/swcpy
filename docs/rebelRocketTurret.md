@@ -3,7 +3,7 @@ title: Rocket Turret (rebelRocketTurret)
 category: building
 ---
 
-# Rocket Turret (rebelRocketTurret) — version 1115
+# Rocket Turret (rebelRocketTurret) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

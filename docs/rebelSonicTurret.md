@@ -3,7 +3,7 @@ title: Sonic Cannon Turret (rebelSonicTurret)
 category: building
 ---
 
-# Sonic Cannon Turret (rebelSonicTurret) — version 1115
+# Sonic Cannon Turret (rebelSonicTurret) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

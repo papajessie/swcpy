@@ -3,7 +3,7 @@ title: bldtitlesyndicateabBurstTurret (syndicate_ab_BurstTurret)
 category: building
 ---
 
-# bldtitlesyndicateabBurstTurret (syndicate_ab_BurstTurret) — version 1115
+# bldtitlesyndicateabBurstTurret (syndicate_ab_BurstTurret) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Seized A-wing Starfighter (SeizedAwing)
 category: air
 ---
 
-# Seized A-wing Starfighter (SeizedAwing) — version 1115
+# Seized A-wing Starfighter (SeizedAwing) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

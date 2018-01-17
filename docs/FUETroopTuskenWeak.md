@@ -3,7 +3,7 @@ title: Tusken (FUETroopTuskenWeak)
 category: unit
 ---
 
-# Tusken (FUETroopTuskenWeak) — version 1115
+# Tusken (FUETroopTuskenWeak) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

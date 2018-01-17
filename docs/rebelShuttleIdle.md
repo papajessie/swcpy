@@ -3,7 +3,7 @@ title: bldtitlerebelShuttleIdle (rebelShuttleIdle)
 category: building
 ---
 
-# bldtitlerebelShuttleIdle (rebelShuttleIdle) — version 1115
+# bldtitlerebelShuttleIdle (rebelShuttleIdle) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

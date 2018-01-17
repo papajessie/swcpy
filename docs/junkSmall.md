@@ -3,7 +3,7 @@ title: Small Junk (junkSmall)
 category: building
 ---
 
-# Small Junk (junkSmall) — version 1115
+# Small Junk (junkSmall) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

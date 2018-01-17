@@ -3,7 +3,7 @@ title: Anti-Vehicle Skiff (DesertSkiff)
 category: unit
 ---
 
-# Anti-Vehicle Skiff (DesertSkiff) — version 1115
+# Anti-Vehicle Skiff (DesertSkiff) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

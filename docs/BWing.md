@@ -3,7 +3,7 @@ title: B-wing Starfighter (BWing)
 category: air
 ---
 
-# B-wing Starfighter (BWing) — version 1115
+# B-wing Starfighter (BWing) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

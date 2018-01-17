@@ -3,7 +3,7 @@ title: Rancor (promoRancorRebel)
 category: unit
 ---
 
-# Rancor (promoRancorRebel) — version 1115
+# Rancor (promoRancorRebel) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

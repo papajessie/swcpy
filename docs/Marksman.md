@@ -3,7 +3,7 @@ title: Rebel Sharpshooter (Marksman)
 category: unit
 ---
 
-# Rebel Sharpshooter (Marksman) — version 1115
+# Rebel Sharpshooter (Marksman) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

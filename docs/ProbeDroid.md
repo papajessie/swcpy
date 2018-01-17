@@ -3,7 +3,7 @@ title: Probe Droid (ProbeDroid)
 category: unit
 ---
 
-# Probe Droid (ProbeDroid) — version 1115
+# Probe Droid (ProbeDroid) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

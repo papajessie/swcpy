@@ -3,7 +3,7 @@ title: Modified SD-K4 (HeroRebelSpiderDroid)
 category: unit
 ---
 
-# Modified SD-K4 (HeroRebelSpiderDroid) — version 1115
+# Modified SD-K4 (HeroRebelSpiderDroid) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

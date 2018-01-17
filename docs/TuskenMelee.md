@@ -3,7 +3,7 @@ title: Tusken Raider (TuskenMelee)
 category: unit
 ---
 
-# Tusken Raider (TuskenMelee) — version 1115
+# Tusken Raider (TuskenMelee) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

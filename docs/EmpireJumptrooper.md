@@ -3,7 +3,7 @@ title: Jump Trooper (EmpireJumptrooper)
 category: unit
 ---
 
-# Jump Trooper (EmpireJumptrooper) — version 1115
+# Jump Trooper (EmpireJumptrooper) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

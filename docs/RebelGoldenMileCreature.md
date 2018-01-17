@@ -3,7 +3,7 @@ title: Fathier Rider (RebelGoldenMileCreature)
 category: unit
 ---
 
-# Fathier Rider (RebelGoldenMileCreature) — version 1115
+# Fathier Rider (RebelGoldenMileCreature) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

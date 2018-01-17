@@ -3,7 +3,7 @@ title: Contraband Trade Port (empireContrabandGenerator)
 category: building
 ---
 
-# Contraband Trade Port (empireContrabandGenerator) — version 1115
+# Contraband Trade Port (empireContrabandGenerator) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

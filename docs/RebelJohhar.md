@@ -3,7 +3,7 @@ title: Johhar Kessen (RebelJohhar)
 category: unit
 ---
 
-# Johhar Kessen (RebelJohhar) — version 1115
+# Johhar Kessen (RebelJohhar) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

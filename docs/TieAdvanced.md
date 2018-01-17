@@ -3,7 +3,7 @@ title: TIE Advanced (TieAdvanced)
 category: air
 ---
 
-# TIE Advanced (TieAdvanced) — version 1115
+# TIE Advanced (TieAdvanced) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

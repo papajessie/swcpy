@@ -3,7 +3,7 @@ title: bldtitleturretAwesome (turretAwesome)
 category: building
 ---
 
-# bldtitleturretAwesome (turretAwesome) — version 1115
+# bldtitleturretAwesome (turretAwesome) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

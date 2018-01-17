@@ -3,7 +3,7 @@ title: bldtitleblockerTakJunkMedium (blockerTakJunkMedium)
 category: building
 ---
 
-# bldtitleblockerTakJunkMedium (blockerTakJunkMedium) — version 1115
+# bldtitleblockerTakJunkMedium (blockerTakJunkMedium) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

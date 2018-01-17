@@ -3,7 +3,7 @@ title: X-wing Trap (rebelTrapStrikeGeneric)
 category: building
 ---
 
-# X-wing Trap (rebelTrapStrikeGeneric) — version 1115
+# X-wing Trap (rebelTrapStrikeGeneric) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

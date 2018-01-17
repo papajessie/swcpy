@@ -3,7 +3,7 @@ title: Hero Command (rebelTacticalCommand)
 category: building
 ---
 
-# Hero Command (rebelTacticalCommand) — version 1115
+# Hero Command (rebelTacticalCommand) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

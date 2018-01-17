@@ -3,7 +3,7 @@ title: bldtitlerebelNavigationCenterLocked (rebelNavigationCenterLocked)
 category: building
 ---
 
-# bldtitlerebelNavigationCenterLocked (rebelNavigationCenterLocked) — version 1115
+# bldtitlerebelNavigationCenterLocked (rebelNavigationCenterLocked) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

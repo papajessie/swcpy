@@ -3,7 +3,7 @@ title: bldtitleErkitHouseLarge (ErkitHouseLarge)
 category: building
 ---
 
-# bldtitleErkitHouseLarge (ErkitHouseLarge) — version 1115
+# bldtitleErkitHouseLarge (ErkitHouseLarge) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

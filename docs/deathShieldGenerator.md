@@ -3,7 +3,7 @@ title: bldtitledeathShieldGenerator (deathShieldGenerator)
 category: building
 ---
 
-# bldtitledeathShieldGenerator (deathShieldGenerator) — version 1115
+# bldtitledeathShieldGenerator (deathShieldGenerator) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

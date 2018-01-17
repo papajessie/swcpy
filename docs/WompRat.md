@@ -3,7 +3,7 @@ title: Womp Rat (WompRat)
 category: unit
 ---
 
-# Womp Rat (WompRat) — version 1115
+# Womp Rat (WompRat) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

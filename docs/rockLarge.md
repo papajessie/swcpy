@@ -3,7 +3,7 @@ title: Large Rock (rockLarge)
 category: building
 ---
 
-# Large Rock (rockLarge) — version 1115
+# Large Rock (rockLarge) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

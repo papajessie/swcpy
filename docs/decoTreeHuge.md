@@ -3,7 +3,7 @@ title: bldtitledecoTreeHuge (decoTreeHuge)
 category: building
 ---
 
-# bldtitledecoTreeHuge (decoTreeHuge) — version 1115
+# bldtitledecoTreeHuge (decoTreeHuge) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

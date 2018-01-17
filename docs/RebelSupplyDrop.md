@@ -3,7 +3,7 @@ title: E-50 Landseer (RebelSupplyDrop)
 category: air
 ---
 
-# E-50 Landseer (RebelSupplyDrop) — version 1115
+# E-50 Landseer (RebelSupplyDrop) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Droideka Sentinel Platform (empirePlatformDroideka)
 category: building
 ---
 
-# Droideka Sentinel Platform (empirePlatformDroideka) — version 1115
+# Droideka Sentinel Platform (empirePlatformDroideka) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitlerebelRubble (rebelRubble)
 category: building
 ---
 
-# bldtitlerebelRubble (rebelRubble) — version 1115
+# bldtitlerebelRubble (rebelRubble) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

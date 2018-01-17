@@ -3,7 +3,7 @@ title: Credit Vault (smugglerCreditStorage)
 category: building
 ---
 
-# Credit Vault (smugglerCreditStorage) — version 1115
+# Credit Vault (smugglerCreditStorage) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

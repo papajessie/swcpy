@@ -3,7 +3,7 @@ title: bldtitlesmugglerIdleHoverTank (smugglerIdleHoverTank)
 category: building
 ---
 
-# bldtitlesmugglerIdleHoverTank (smugglerIdleHoverTank) — version 1115
+# bldtitlesmugglerIdleHoverTank (smugglerIdleHoverTank) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

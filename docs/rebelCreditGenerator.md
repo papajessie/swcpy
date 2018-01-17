@@ -3,7 +3,7 @@ title: Credit Market (rebelCreditGenerator)
 category: building
 ---
 
-# Credit Market (rebelCreditGenerator) — version 1115
+# Credit Market (rebelCreditGenerator) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

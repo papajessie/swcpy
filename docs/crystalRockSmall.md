@@ -3,7 +3,7 @@ title: bldtitlecrystalRockSmall (crystalRockSmall)
 category: building
 ---
 
-# bldtitlecrystalRockSmall (crystalRockSmall) — version 1115
+# bldtitlecrystalRockSmall (crystalRockSmall) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

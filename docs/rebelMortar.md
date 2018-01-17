@@ -3,7 +3,7 @@ title: Proton Mortar (rebelMortar)
 category: building
 ---
 
-# Proton Mortar (rebelMortar) — version 1115
+# Proton Mortar (rebelMortar) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

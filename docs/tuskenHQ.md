@@ -3,7 +3,7 @@ title: Tusken Raider HQ (tuskenHQ)
 category: building
 ---
 
-# Tusken Raider HQ (tuskenHQ) — version 1115
+# Tusken Raider HQ (tuskenHQ) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitleerkitWall (erkitWall)
 category: building
 ---
 
-# bldtitleerkitWall (erkitWall) — version 1115
+# bldtitleerkitWall (erkitWall) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

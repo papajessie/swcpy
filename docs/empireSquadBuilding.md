@@ -3,7 +3,7 @@ title: Squad Center (empireSquadBuilding)
 category: building
 ---
 
-# Squad Center (empireSquadBuilding) — version 1115
+# Squad Center (empireSquadBuilding) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

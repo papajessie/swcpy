@@ -3,7 +3,7 @@ title: Death Trooper (HeroDeathTrooper)
 category: unit
 ---
 
-# Death Trooper (HeroDeathTrooper) — version 1115
+# Death Trooper (HeroDeathTrooper) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

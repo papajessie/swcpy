@@ -3,7 +3,7 @@ title: bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial)
 category: building
 ---
 
-# bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial) — version 1115
+# bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

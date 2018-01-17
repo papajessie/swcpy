@@ -3,7 +3,7 @@ title: Cold Weather AT-MP Mark III (eqpEmpireArcticATMP)
 category: unit
 ---
 
-# Cold Weather AT-MP Mark III (eqpEmpireArcticATMP) — version 1115
+# Cold Weather AT-MP Mark III (eqpEmpireArcticATMP) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

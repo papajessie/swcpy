@@ -3,7 +3,7 @@ title: X-wing Starfighter (XWing)
 category: air
 ---
 
-# X-wing Starfighter (XWing) — version 1115
+# X-wing Starfighter (XWing) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

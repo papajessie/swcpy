@@ -3,7 +3,7 @@ title: trptitlePhantomNavalStrike (PhantomNavalStrike)
 category: unit
 ---
 
-# trptitlePhantomNavalStrike (PhantomNavalStrike) — version 1115
+# trptitlePhantomNavalStrike (PhantomNavalStrike) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

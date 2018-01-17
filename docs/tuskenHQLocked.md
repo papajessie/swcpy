@@ -3,7 +3,7 @@ title: bldtitletuskenHQLocked (tuskenHQLocked)
 category: building
 ---
 
-# bldtitletuskenHQLocked (tuskenHQLocked) — version 1115
+# bldtitletuskenHQLocked (tuskenHQLocked) — version 1117
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
