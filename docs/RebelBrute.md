@@ -92,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
-|Calculated damage per second|3541|3583|3625|3666|3708|3750|3791|3833|3875|3916|
+|Calculated damage per second|1700|1720|1740|1760|1780|1800|1820|1840|1860|1880|
 |Calculated damage per clip  |3400|3440|3480|3520|3560|3600|3640|3680|3720|3760|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 960ms
+  * Cliptime: 2s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -148,12 +148,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                                             |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------------------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack shot calculated damage per second|512 |518 |524 |530 |536 |542 |548 |554 |560 |566 |
+|Secondary attack shot calculated damage per second|467 |473 |478 |484 |489 |495 |500 |506 |511 |517 |
 |Secondary attack shot calculated damage per clip  |4250|4300|4350|4400|4450|4500|4550|4600|4650|4700|
 
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 8.300s
+  * Secondary attack shot cliptime: 9.090s
   * Secondary attack shot directional: No
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 6

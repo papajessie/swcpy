@@ -83,7 +83,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                     |1   |2   |3   |4   |5   |
 |------------------------------------------|----|----|----|----|----|
 |Turret displayed damage per second        |500 |750 |1000|1500|1452|
-|Turret attack calculated damage per second|500 |750 |900 |1200|1452|
+|Turret attack calculated damage per second|499 |749 |899 |1199|1390|
 |Turret attack calculated damage per clip  |2250|3375|4050|5400|3268|
 
 
@@ -96,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                 |1-4   |5     |
 |----------------------|------|------|
-|Turret attack cliptime|4.500s|2.250s|
+|Turret attack cliptime|4.501s|2.350s|
 |Turret attack salvos  |1     |4     |
 
 

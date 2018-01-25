@@ -84,7 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 17s
+  * Turret attack cliptime: 17.100s
   * Turret attack directional: Yes
   * Turret attack is deflectable: No
   * Turret attack length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100

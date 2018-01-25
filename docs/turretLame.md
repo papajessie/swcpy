@@ -66,11 +66,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret time between shots: 150ms
 
   * Turret displayed damage per second: 500
-  * Turret attack calculated damage per second: 499
+  * Turret attack calculated damage per second: 474
   * Turret attack calculated damage per clip: 1424
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 2.850s
+  * Turret attack cliptime: 3s
   * Turret attack directional: Yes
   * Turret attack is deflectable: No
   * Turret attack max speed: 18

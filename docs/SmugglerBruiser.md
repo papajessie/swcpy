@@ -97,7 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |100|120|140|308|578 |642 |707 |771 |836 |964 |
-|Calculated damage per second|100|120|140|308|578 |642 |707 |771 |836 |964 |
+|Calculated damage per second|82 |98 |114|252|450 |500 |550 |600 |650 |750 |
 |Calculated damage per clip  |226|270|316|694|1013|1125|1238|1350|1463|1688|
 
 
@@ -110,7 +110,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level   |1-4   |5-10  |
 |--------|------|------|
-|Cliptime|2.250s|1.750s|
+|Cliptime|2.750s|2.250s|
 |Salvos  |2     |1     |
 
 

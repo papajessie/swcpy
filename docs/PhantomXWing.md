@@ -96,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per clip: 0
 
   * Cannons per sequence: 1
-  * Cliptime: 3.500s
+  * Cliptime: 4.500s
   * Directional: No
   * Is deflectable: No
   * Max speed: 60

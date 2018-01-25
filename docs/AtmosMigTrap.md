@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Upgrading stats
 
   * Upgrade time: 1s
-  * Upgrade requirements: 1$, 1 All.
+  * Upgrade requirements: 1 All., 1$
 
 ### Movement stats
 
@@ -59,12 +59,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
-|Calculated damage per second|3209 |3363 |3705 |4201 |4826 |5571 |6427 |7394 |8463 |9627 |
+|Calculated damage per second|3109 |3258 |3590 |4071 |4676 |5398 |6227 |7164 |8200 |9328 |
 |Calculated damage per clip  |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 4.674s
+  * Cliptime: 4.824s
   * Directional: No
   * Is deflectable: No
   * Max speed: 20

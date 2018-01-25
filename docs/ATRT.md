@@ -141,7 +141,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack shot calculated damage per clip: 0
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 2m11.300s
+  * Secondary attack shot cliptime: 2m12.090s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: Yes
   * Secondary attack shot max speed: 24

@@ -149,12 +149,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|----|-----|-----|-----|
 |Displayed damage per second |2195|2745|3365|4040|4765|5565|6415|7315 |8275 |9980 |
-|Calculated damage per second|1113|1334|1557|1780|2002|2225|2448|2669 |2892 |3337 |
+|Calculated damage per second|982 |1177|1374|1570|1767|1963|2160|2355 |2551 |2944 |
 |Calculated damage per clip  |4175|5005|5840|6675|7510|8345|9180|10010|10845|12515|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.750s
+  * Cliptime: 4.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18

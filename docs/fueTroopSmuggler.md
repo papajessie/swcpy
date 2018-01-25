@@ -75,11 +75,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 100
-  * Calculated damage per second: 100
+  * Calculated damage per second: 87
   * Calculated damage per clip: 327
 
   * Cannons per sequence: 1
-  * Cliptime: 3.250s
+  * Cliptime: 3.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18

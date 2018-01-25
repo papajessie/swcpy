@@ -47,12 +47,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 6000
-  * Calculated damage per second: 2712
+  * Calculated damage per second: 2652
   * Calculated damage per clip: 18000
   * Splash damage percentages: 100,75
 
   * Cannons per sequence: 1
-  * Cliptime: 6.636s
+  * Cliptime: 6.786s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20

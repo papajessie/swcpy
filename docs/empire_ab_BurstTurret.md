@@ -78,12 +78,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                     |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
 |------------------------------------------|----|----|----|----|----|----|----|----|----|-----|
 |Turret displayed damage per second        |550 |825 |990 |1320|1594|1761|1926|2090|2255|2475 |
-|Turret attack calculated damage per second|549 |825 |990 |1320|1594|1760|1925|2090|2255|2475 |
+|Turret attack calculated damage per second|527 |792 |950 |1267|1530|1690|1848|2006|2164|2376 |
 |Turret attack calculated damage per clip  |2296|3448|4136|5512|6656|7352|8040|8728|9416|10336|
 
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 4.175s
+  * Turret attack cliptime: 4.350s
   * Turret attack directional: Yes
   * Turret attack is deflectable: Yes
   * Turret attack max speed: 10
