@@ -69,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 460
   * Time between start of clip and first shot: 0s
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
-|Calculated damage per second|6800|6880|6960|7040|7120|7200|7280|7360|7440|7520|
+|Calculated damage per second|3541|3583|3625|3666|3708|3750|3791|3833|3875|3916|
 |Calculated damage per clip  |3400|3440|3480|3520|3560|3600|3640|3680|3720|3760|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 500ms
+  * Cliptime: 960ms
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -125,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 810
   * Secondary attack time between start of clip and first shot: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
@@ -175,7 +177,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 460
   * Arcs: No
   * Asset name: brute_con-ani
   * Audio attack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
@@ -198,7 +199,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_brute_muzzle
   * Name: Brute Cannon
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 810
   * Secondary attack audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":50
   * Secondary attack audio ability attack: "sfx_explosion_brute_01":50,"sfx_explosion_brute_02":50
   * Secondary attack displayed damage per second: 1000

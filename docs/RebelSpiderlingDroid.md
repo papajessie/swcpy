@@ -93,6 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 600
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -115,12 +116,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1235|1245|1270|1305|1325|1350|1370|1395|1430|1465|
-|Calculated damage per second|2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Calculated damage per second|1356|1368|1396|1434|1459|1484|1509|1534|1571|1609|
 |Calculated damage per clip  |2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1s
+  * Cliptime: 1.600s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -161,7 +162,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 600
   * Arcs: No
   * Asset name: spiderlingdroid_rbl-ani
   * Audio attack: "sfx_attack_spiderlingdroid_01":30,"sfx_attack_spiderlingdroid_02":35,"sfx_attack_spiderlingdroid_03":35

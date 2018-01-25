@@ -67,6 +67,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 50ms
   * Clip retargeting: No
   * Damage per shot: 0
@@ -137,7 +138,6 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Adv heal asset name: fx_healing_condition
   * Adv heal bundle name: fx_healing
-  * Animation delay: 0
   * Arcs: No
   * Asset name: r5droid_emp-ani
   * Audio attack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50

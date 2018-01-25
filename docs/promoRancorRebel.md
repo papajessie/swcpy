@@ -62,6 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 960
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 2,1
@@ -86,12 +87,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2880|2928|2976|3024|3072|3120|3264|3360|3456|3600|
-|Calculated damage per second|2149|2185|2220|2256|2292|2561|2679|3008|3094|3358|
+|Calculated damage per second|1252|1273|1293|1314|1335|1492|1560|1753|1803|1956|
 |Calculated damage per clip  |5760|5856|5952|6048|6144|6864|7180|8064|8294|9000|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 2.680s
+  * Cliptime: 4.600s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -109,7 +110,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 960
   * Arcs: No
   * Asset name: rancor_neu-ani
   * Audio attack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30

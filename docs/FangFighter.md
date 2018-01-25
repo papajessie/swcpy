@@ -45,6 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 170ms
   * Shot count: 8
   * Time between shots: 100ms
@@ -61,12 +62,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
-|Calculated damage per second|27542|29714|31885|34057|36228|38514|40685|42857|45028|47200|
+|Calculated damage per second|1095 |1182 |1268 |1354 |1441 |1532 |1618 |1704 |1791 |1877 |
 |Calculated damage per clip  |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
 
 
   * Cannons per sequence: 3
-  * Cliptime: 700ms
+  * Cliptime: 17.596s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -84,7 +85,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: fangfighterfleet_rbl-ani
   * Audio attack: "sfx_spaceships_fangfighter_special_attack_01":100

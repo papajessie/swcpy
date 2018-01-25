@@ -67,6 +67,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
@@ -125,6 +126,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 1
   * Secondary attack time between start of clip and first shot: 1.200s
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
@@ -177,7 +179,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: forenbrand_neu-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
@@ -206,7 +207,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_r_med
   * Name: JohharEmpire
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 1
   * Secondary attack audio ability activate: "sfx_charge_railcannon_01":35,"sfx_charge_railcannon_02":35,"sfx_charge_railcannon_03":30
   * Secondary attack audio ability attack: "sfx_attack_railcannon_01":35,"sfx_attack_railcannon_02":35,"sfx_attack_railcannon_03":30
   * Secondary attack displayed damage per second: 1000

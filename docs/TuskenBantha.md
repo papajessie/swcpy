@@ -68,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1000
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -92,12 +93,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second |141|173|189 |205 |220 |236 |252 |268 |283 |315 |
-|Calculated damage per second|141|173|189 |205 |220 |236 |252 |268 |283 |315 |
+|Calculated damage per second|74 |90 |99  |107 |115 |123 |132 |140 |148 |165 |
 |Calculated damage per clip  |780|955|1040|1130|1215|1300|1390|1475|1560|1735|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 5.500s
+  * Cliptime: 10.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -115,7 +116,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: bantharaider_tkn-ani
   * Audio attack: "sfx_attack_creatures_bantha_1":35,"sfx_attack_creatures_bantha_2":35,"sfx_attack_creatures_bantha_3":30

@@ -70,6 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Damage per shot: 0
@@ -138,7 +139,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: r2d2_rbl-ani
   * Audio attack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50

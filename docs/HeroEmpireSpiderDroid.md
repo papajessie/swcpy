@@ -66,6 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 600
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -88,12 +89,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |5920 |6295 |6675 |7050 |7430 |7805 |8185 |8560 |8935 |9315 |
-|Calculated damage per second|10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
+|Calculated damage per second|6512 |6928 |7340 |7756 |8171 |8587 |9000 |9415 |9831 |10246|
 |Calculated damage per clip  |10420|11085|11745|12410|13075|13740|14400|15065|15730|16395|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1s
+  * Cliptime: 1.600s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -122,6 +123,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 0
   * Secondary attack time between start of clip and first shot: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 0
@@ -190,7 +192,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 600
   * Arcs: No
   * Asset name: spiderdroid_emp-ani
   * Audio attack: "sfx_attack_spiderdroid_01":30,"sfx_attack_spiderdroid_02":35,"sfx_attack_spiderdroid_03":35
@@ -217,7 +218,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.38,1.62,-0.86
   * Max scale: 100
   * Name: EmprieSpiderDroid
-  * Secondary attack animation delay: 0
   * Secondary attack name: Empire Spider Droid Summon
   * Secondary attack shot arcs: No
   * Secondary attack shot max scale: 100

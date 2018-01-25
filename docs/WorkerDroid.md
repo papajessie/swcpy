@@ -58,6 +58,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 1s
   * Clip retargeting: No
   * Damage per shot: 0
@@ -96,7 +97,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: workerdroid_neu-ani
   * Buff asset offset: 0.00,0.34,0.00

@@ -45,6 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 500ms
   * Shot count: 4
   * Time between shots: 250ms
@@ -61,12 +62,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
-|Calculated damage per second|25706|27733|29760|31786|33813|35946|37973|40000|42026|44053|
+|Calculated damage per second|2096 |2261 |2426 |2591 |2757 |2931 |3096 |3261 |3426 |3592 |
 |Calculated damage per clip  |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
 
 
   * Cannons per sequence: 3
-  * Cliptime: 750ms
+  * Cliptime: 9.198s
   * Directional: No
   * Is deflectable: No
   * Max speed: 20
@@ -84,7 +85,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: atmosmigfleet_emp-ani
   * Audio attack: "sfx_attack_mortarlaunch_1":50,"sfx_attack_mortarlaunch_2":50

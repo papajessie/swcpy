@@ -37,6 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 170ms
   * Shot count: 3
   * Time between shots: 50ms
@@ -50,15 +51,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,50,25,10
 
-|Level                       |1     |2     |
-|----------------------------|------|------|
-|Displayed damage per second |30000 |12000 |
-|Calculated damage per second|300000|120000|
-|Calculated damage per clip  |30000 |12000 |
+|Level                       |1    |2    |
+|----------------------------|-----|-----|
+|Displayed damage per second |30000|12000|
+|Calculated damage per second|4661 |1864 |
+|Calculated damage per clip  |30000|12000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 100ms
+  * Cliptime: 6.436s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -75,7 +76,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: saponzafreighter_neu-ani
   * Audio attack: "sfx_attack_starship_freighter_1":33,"sfx_attack_starship_freighter_2":33,"sfx_attack_starship_freighter_3":34

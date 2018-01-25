@@ -28,7 +28,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Upgrading stats
 
   * Upgrade time: 1s
-  * Upgrade requirements: 1 All., 1$
+  * Upgrade requirements: 1$, 1 All.
 
 ### Movement stats
 
@@ -42,6 +42,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1056
   * Impact delay: 170ms
   * Shot count: 4
   * Time between shots: 150ms
@@ -55,15 +56,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,100,90,80,60
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Displayed damage per second |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000 |
-|Calculated damage per second|33333|34933|38488|43644|50133|57866|66755|76800|87911|100000|
-|Calculated damage per clip  |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000 |
+|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
+|Calculated damage per second|3209 |3363 |3705 |4201 |4826 |5571 |6427 |7394 |8463 |9627 |
+|Calculated damage per clip  |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 450ms
+  * Cliptime: 4.674s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -80,7 +81,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1056
   * Arcs: No
   * Asset name: fangfighter_rbl-ani
   * Audio attack: "sfx_attack_mortarlaunch_1":50,"sfx_attack_mortarlaunch_2":50

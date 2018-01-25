@@ -61,6 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Turret animation delay: 0
   * Turret time between start of clip and first shot: 425ms
   * Turret clip retargeting: Yes
   * Turret impact delay: 250ms
@@ -120,7 +121,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.34,1.59,-0.27
   * Stash order: 1000
   * Store tab: not_in_store
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_blaster_beam_r_lrg
   * Turret attack hit spark: fx_blaster_hit_r_lrg

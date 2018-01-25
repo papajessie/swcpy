@@ -44,6 +44,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 500ms
   * Shot count: 10
   * Time between shots: 75ms
@@ -57,15 +58,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,75,50,10
 
-|Level                       |1    |2    |3     |4     |5     |6     |7     |8     |9     |10    |
-|----------------------------|-----|-----|------|------|------|------|------|------|------|------|
-|Displayed damage per second |63300|66500|69900 |73500 |77300 |81300 |85600 |90100 |94900 |100000|
-|Calculated damage per second|93777|98518|103555|108888|114518|120444|126814|133481|140592|148148|
-|Calculated damage per clip  |63300|66500|69900 |73500 |77300 |81300 |85600 |90100 |94900 |100000|
+|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|Displayed damage per second |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
+|Calculated damage per second|2904 |3051 |3207 |3372 |3546 |3730 |3927 |4133 |4354 |4588  |
+|Calculated damage per clip  |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
 
 
   * Cannons per sequence: 10
-  * Cliptime: 675ms
+  * Cliptime: 21.795s
   * Directional: No
   * Is deflectable: No
   * Max speed: 20
@@ -82,7 +83,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: awingfleet_rbl-ani
   * Audio attack: "sfx_impact_shieldbreaker":100

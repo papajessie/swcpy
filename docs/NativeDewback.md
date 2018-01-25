@@ -70,6 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1000
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -94,12 +95,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |754 |905 |1057|1207|1358|1508|1660|1811|1961|2262|
-|Calculated damage per second|754 |905 |1057|1207|1358|1508|1660|1811|1961|2262|
+|Calculated damage per second|310 |372 |435 |497 |559 |621 |683 |745 |807 |931 |
 |Calculated damage per clip  |2640|3170|3700|4225|4755|5280|5810|6340|6865|7920|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.500s
+  * Cliptime: 8.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -117,7 +118,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: dewback_neu-ani
   * Audio attack: "sfx_attack_creatures_dewback_1":35,"sfx_attack_creatures_dewback_2":35,"sfx_attack_creatures_dewback_3":30

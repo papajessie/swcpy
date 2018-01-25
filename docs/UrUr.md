@@ -68,6 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1000
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -92,12 +93,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2000|2400|2800|3200|3600 |4000 |4400 |4800 |5200 |6000 |
-|Calculated damage per second|2000|2400|2800|3200|3600 |4000 |4400 |4800 |5200 |6000 |
+|Calculated damage per second|1000|1200|1400|1600|1800 |2000 |2200 |2400 |2600 |3000 |
 |Calculated damage per clip  |6000|7200|8400|9600|10800|12000|13200|14400|15600|18000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3s
+  * Cliptime: 6s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -120,7 +121,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: ururhero_tkn-ani
   * Audio attack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30

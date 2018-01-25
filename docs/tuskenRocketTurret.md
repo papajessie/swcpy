@@ -65,6 +65,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Turret animation delay: 0
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret can shoot over walls: Yes
@@ -129,7 +130,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,0.25,-0.02
   * Stash order: 1000
   * Store tab: not_in_store
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_rocket_projectile_b_med
   * Turret attack hit spark: fx_rocket_hit_b_med

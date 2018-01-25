@@ -59,6 +59,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Turret animation delay: 0
   * Turret time between start of clip and first shot: 1.750s
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1,1
@@ -115,7 +116,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Cycle time: 0s
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 70
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_rocket_projectile_r_med
   * Turret attack hit spark: fx_rocket_hit_r_med

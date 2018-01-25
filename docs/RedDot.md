@@ -38,6 +38,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Damage per shot: 20000
   * Impact delay: 170ms
   * Shot count: 3
@@ -46,12 +47,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 60000
-  * Calculated damage per second: 200000
+  * Calculated damage per second: 9041
   * Calculated damage per clip: 60000
   * Splash damage percentages: 100,85,75,50,25,10
 
   * Cannons per sequence: 1
-  * Cliptime: 300ms
+  * Cliptime: 6.636s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 3
@@ -68,7 +69,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: ywing_rbl-ani
   * Audio attack: "sfx_attack_starship_tiefighter_1":33,"sfx_attack_starship_tiefighter_2":33,"sfx_attack_starship_tiefighter_3":34

@@ -37,6 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 170ms
   * Shot count: 3
   * Time between shots: 1s
@@ -53,12 +54,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
 |Displayed damage per second |3114|4638|6228|7752|9342|10866|12456|13980|15504|17094|
-|Calculated damage per second|1557|2319|3114|3876|4671|5433 |6228 |6990 |7752 |8547 |
+|Calculated damage per second|373 |556 |747 |929 |1120|1303 |1494 |1677 |1859 |2050 |
 |Calculated damage per clip  |3114|4638|6228|7752|9342|10866|12456|13980|15504|17094|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2s
+  * Cliptime: 8.336s
   * Directional: No
   * Is deflectable: No
   * Max speed: 20
@@ -75,7 +76,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: destroyerguns_neu-ani
   * Audio attack: "sfx_attack_starship_stardestroyer_01":33,"sfx_attack_starship_stardestroyer_02":33,"sfx_attack_starship_stardestroyer_03":34

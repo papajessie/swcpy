@@ -67,6 +67,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1370
   * Time between start of clip and first shot: 0s
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -88,15 +89,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,70,30,20
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |1490 |1520 |1570 |1630 |1695 |1765 |1845 |1930 |2045 |2195 |
-|Calculated damage per second|14640|14795|14985|15175|15370|15520|15715|15905|16250|16825|
-|Calculated damage per clip  |2928 |2959 |2997 |3035 |3074 |3104 |3143 |3181 |3250 |3365 |
+|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |1490|1520|1570|1630|1695|1765|1845|1930|2045|2195|
+|Calculated damage per second|1864|1884|1908|1933|1957|1977|2001|2026|2070|2143|
+|Calculated damage per clip  |2928|2959|2997|3035|3074|3104|3143|3181|3250|3365|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 200ms
+  * Cliptime: 1.570s
   * Directional: No
   * Is deflectable: No
   * Max speed: 18
@@ -115,7 +116,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1370
   * Arcs: No
   * Asset name: demolitiondroid_emp-ani
   * Audio attack: "sfx_attack_demodroid_01":50,"sfx_attack_demodroid_02":50

@@ -69,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 750
   * Time between start of clip and first shot: 0s
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
@@ -89,14 +90,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                      |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|---------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Displayed damage per second|7600|8100|8595|9115|9610|10125|10635|11140|11650|12145|
-|Calculated damage per clip |6075|6480|6880|7290|7690|8100 |8505 |8910 |9315 |9715 |
+|Level                       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
+|----------------------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |7600|8100|8595|9115|9610 |10125|10635|11140|11650|12145|
+|Calculated damage per second|8100|8640|9173|9720|10253|10800|11340|11880|12420|12953|
+|Calculated damage per clip  |6075|6480|6880|7290|7690 |8100 |8505 |8910 |9315 |9715 |
 
 
   * Cannons per sequence: 1
-  * Cliptime: 0s
+  * Cliptime: 750ms
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -115,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 750
   * Arcs: No
   * Asset name: spacehorse_con-ani
   * Audio attack: "sfx_attack_goldenmilecreature_01":33,"sfx_attack_goldenmilecreature_02":33,"sfx_attack_goldenmilecreature_03":34

@@ -69,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 100
   * Time between start of clip and first shot: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,1,2,2
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |630 |690 |760 |830 |900 |980 |1260|1390|1530|1680|
-|Calculated damage per second|734 |800 |881 |963 |1044|1142|1257|1387|1534|1681|
+|Calculated damage per second|679 |739 |815 |890 |966 |1056|1162|1283|1418|1554|
 |Calculated damage per clip  |1800|1960|2160|2360|2560|2800|3080|3400|3760|4120|
 
 
   * Cannons per sequence: 4
-  * Cliptime: 2.450s
+  * Cliptime: 2.650s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 100
   * Arcs: No
   * Asset name: t2btank_rbl-ani
   * Audio attack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25

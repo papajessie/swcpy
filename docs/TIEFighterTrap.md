@@ -44,6 +44,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1056
   * Impact delay: 170ms
   * Shot count: 6
   * Time between shots: 150ms
@@ -60,12 +61,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |9000 |13500|18000|22500|27000|31500|36000|40500|45000|49500|
-|Calculated damage per second|14400|17280|16800|19200|21600|24000|26400|28800|31200|36000|
+|Calculated damage per second|1524 |1828 |1778 |2032 |2286 |2540 |2794 |3048 |3302 |3810 |
 |Calculated damage per clip  |10800|12960|12600|14400|16200|18000|19800|21600|23400|27000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 750ms
+  * Cliptime: 7.086s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -82,7 +83,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1056
   * Arcs: No
   * Asset name: tiefight_emp-ani
   * Audio attack: "sfx_attack_rebel_xwing_1":33,"sfx_attack_rebel_xwing_1":33,"sfx_attack_rebel_xwing_1":34

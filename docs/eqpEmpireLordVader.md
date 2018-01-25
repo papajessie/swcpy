@@ -138,6 +138,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 230
   * Time between start of clip and first shot: 0s
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
@@ -162,12 +163,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |----------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Displayed damage per second |8210      |9852      |11494     |13136     |14778     |16421     |18063     |19705     |21347     |24631      |
-|Calculated damage per second|8210      |9852      |11494     |13136     |14778     |16421     |18063     |19705     |21347     |24631      |
+|Calculated damage per second|5531      |6638      |7744      |8851      |9957      |11063     |12170     |13276     |14382     |16595      |
 |Calculated damage per clip  |7800      |9360      |10920     |12480     |14040     |15600     |17160     |18720     |20280     |23400      |
 
 
   * Cannons per sequence: 2
-  * Cliptime: 950ms
+  * Cliptime: 1.410s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 25
@@ -196,6 +197,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 0
   * Secondary attack time between start of clip and first shot: 100ms
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 1200
@@ -254,7 +256,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 230
   * Arcs: No
   * Asset name: darthvader_emp-ani
   * Audio attack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
@@ -281,7 +282,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.01,2.04,-0.4
   * Max scale: 100
   * Name: HERO Darth ATtack
-  * Secondary attack animation delay: 0
   * Secondary attack audio ability activate: "sfx_lightsaber_vader_activate_1":100
   * Secondary attack audio ability attack: "sfx_lightsaber_vader_swing_1":30,"sfx_lightsaber_vader_swing_2":35,"sfx_lightsaber_vader_swing_3":35
   * Secondary attack audio ability loop: "sfx_lightsaber_vader_whirlwind":100

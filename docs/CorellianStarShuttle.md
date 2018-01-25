@@ -38,6 +38,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Damage per shot: 6000
   * Impact delay: 1.250s
   * Shot count: 3
@@ -46,12 +47,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 6000
-  * Calculated damage per second: 60000
+  * Calculated damage per second: 2712
   * Calculated damage per clip: 18000
   * Splash damage percentages: 100,75
 
   * Cannons per sequence: 1
-  * Cliptime: 300ms
+  * Cliptime: 6.636s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -68,7 +69,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: corellianstarshuttle_rbl-mod
   * Audio attack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20

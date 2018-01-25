@@ -83,6 +83,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 500
   * Time between start of clip and first shot: 400ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -105,12 +106,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
-|Calculated damage per second|2122|2144|2172|2200|2227|2250|2277|2305|2355|2438|
+|Calculated damage per second|1364|1378|1396|1414|1432|1446|1464|1482|1514|1567|
 |Calculated damage per clip  |1910|1930|1955|1980|2005|2025|2050|2075|2120|2195|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 900ms
+  * Cliptime: 1.400s
   * Directional: No
   * Is deflectable: No
   * Max speed: 18
@@ -131,7 +132,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 500
   * Arcs: Yes
   * Asset name: furcoat_rbl-ani
   * Audio attack: "sfx_attack_furcoat_01":33,"sfx_attack_furcoat_02":33,"sfx_attack_furcoat_03":34

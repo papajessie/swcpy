@@ -67,6 +67,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -123,6 +124,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 810
   * Secondary attack time between start of clip and first shot: 1s
   * Secondary attack clip retargeting: Yes
   * Secondary attack damage per shot: 0
@@ -177,7 +179,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: mtv7_emp-ani
   * Audio attack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25
@@ -201,7 +202,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_r_sm
   * Name: MTV7
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 810
   * Secondary attack audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":51
   * Secondary attack audio ability attack: "sfx_attack_ion_01":35,"sfx_attack_ion_02":35,"sfx_attack_ion_03":30
   * Secondary attack displayed damage per second: 75

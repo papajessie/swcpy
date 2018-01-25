@@ -70,6 +70,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -127,6 +128,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Secondary attack animation delay: 810
   * Secondary attack time between start of clip and first shot: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 0
@@ -190,7 +192,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: securitydroid_con-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
@@ -219,7 +220,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_r_sm
   * Name: Storm
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 810
   * Secondary attack audio ability activate: "sfx_attack_securitydroid_ability_01":100
   * Secondary attack audio ability attack: "sfx_explosion_sonicgrenade_01":34,"sfx_explosion_sonicgrenade_02":33,"sfx_explosion_sonicgrenade_03":33
   * Secondary attack displayed damage per second: 75

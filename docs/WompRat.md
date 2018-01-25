@@ -77,6 +77,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1000
   * Time between start of clip and first shot: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
@@ -99,12 +100,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|----|----|----|----|----|----|----|
 |Displayed damage per second |50 |59 |69 |397 |447 |496 |546 |596 |645 |744 |
-|Calculated damage per second|50 |59 |69 |397 |447 |496 |546 |596 |645 |744 |
+|Calculated damage per second|26 |30 |36 |208 |234 |260 |286 |312 |338 |390 |
 |Calculated damage per clip  |275|325|380|2185|2460|2730|3005|3280|3550|4095|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 5.500s
+  * Cliptime: 10.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -122,7 +123,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Audio attack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
   * Audio death: "sfx_death_creatures_womprat_1":15,"sfx_death_creatures_womprat_2":15,"sfx_death_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55
