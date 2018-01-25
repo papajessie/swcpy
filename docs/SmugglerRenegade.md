@@ -3,7 +3,7 @@ title: Smuggler Renegade (SmugglerRenegade)
 category: unit
 ---
 
-# Smuggler Renegade (SmugglerRenegade) — version 1117
+# Smuggler Renegade (SmugglerRenegade)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

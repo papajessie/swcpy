@@ -3,7 +3,7 @@ title: Salvaged AAT1 (ErkitTank)
 category: unit
 ---
 
-# Salvaged AAT1 (ErkitTank) — version 1117
+# Salvaged AAT1 (ErkitTank)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

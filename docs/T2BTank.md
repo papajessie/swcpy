@@ -3,7 +3,7 @@ title: T2-B Repulsor Tank (T2BTank)
 category: unit
 ---
 
-# T2-B Repulsor Tank (T2BTank) — version 1117
+# T2-B Repulsor Tank (T2BTank)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

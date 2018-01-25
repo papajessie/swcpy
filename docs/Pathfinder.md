@@ -3,7 +3,7 @@ title: Rebel Pathfinder (Pathfinder)
 category: unit
 ---
 
-# Rebel Pathfinder (Pathfinder) — version 1117
+# Rebel Pathfinder (Pathfinder)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

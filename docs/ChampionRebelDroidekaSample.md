@@ -3,7 +3,7 @@ title: Droideka Sentinal (ChampionRebelDroidekaSample)
 category: unit
 ---
 
-# Droideka Sentinal (ChampionRebelDroidekaSample) — version 1117
+# Droideka Sentinal (ChampionRebelDroidekaSample)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

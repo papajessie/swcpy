@@ -3,7 +3,7 @@ title: trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap)
 category: unit
 ---
 
-# trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap) — version 1117
+# trptitleHeavySoldierDropshipTrap (HeavySoldierDropshipTrap)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

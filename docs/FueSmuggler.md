@@ -3,7 +3,7 @@ title: trptitleFueSmuggler (FueSmuggler)
 category: unit
 ---
 
-# trptitleFueSmuggler (FueSmuggler) — version 1117
+# trptitleFueSmuggler (FueSmuggler)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Fathier Rider (EmpireGoldenMileCreature)
 category: unit
 ---
 
-# Fathier Rider (EmpireGoldenMileCreature) — version 1117
+# Fathier Rider (EmpireGoldenMileCreature)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

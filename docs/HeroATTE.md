@@ -3,7 +3,7 @@ title: Elite AT-TE Walker (HeroATTE)
 category: unit
 ---
 
-# Elite AT-TE Walker (HeroATTE) — version 1117
+# Elite AT-TE Walker (HeroATTE)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

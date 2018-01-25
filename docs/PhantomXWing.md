@@ -3,7 +3,7 @@ title: trptitlePhantomXWing (PhantomXWing)
 category: unit
 ---
 
-# trptitlePhantomXWing (PhantomXWing) — version 1117
+# trptitlePhantomXWing (PhantomXWing)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

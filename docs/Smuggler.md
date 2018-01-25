@@ -3,7 +3,7 @@ title: Mercenary (Smuggler)
 category: unit
 ---
 
-# Mercenary (Smuggler) — version 1117
+# Mercenary (Smuggler)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

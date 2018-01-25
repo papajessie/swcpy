@@ -3,7 +3,7 @@ title: Luke Skywalker (HeroLukeSkywalker)
 category: unit
 ---
 
-# Luke Skywalker (HeroLukeSkywalker) — version 1117
+# Luke Skywalker (HeroLukeSkywalker)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

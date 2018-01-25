@@ -3,7 +3,7 @@ title: Rancor (Rancor)
 category: unit
 ---
 
-# Rancor (Rancor) — version 1117
+# Rancor (Rancor)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

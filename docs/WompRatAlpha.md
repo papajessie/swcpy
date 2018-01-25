@@ -3,7 +3,7 @@ title: Alpha Womp Rat (WompRatAlpha)
 category: unit
 ---
 
-# Alpha Womp Rat (WompRatAlpha) — version 1117
+# Alpha Womp Rat (WompRatAlpha)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

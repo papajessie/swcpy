@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1117
+# Translation strings (translate)
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -5832,7 +5832,7 @@ category: strings
   * **hn_cc_3_mtv7_buff_title**: 'MTV-7 Upgrades!'
   * **hn_cc_3_navalConf_conf_eqp_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Rodian Recon Sniper equipment, with [c][FFB74A]surgical TIE Bomber strikes[-][/c]!'
   * **hn_cc_3_navalConf_conf_eqp_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
-  * **hn_cc_3_navalConf_conf_eqp_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Sullsutan Recon Sharpshooter equipment, with [c][FFB74A]surgical Y-wing bombing strikes[-][/c]!'
+  * **hn_cc_3_navalConf_conf_eqp_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Alliance Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Sullsutan Recon Sharpshooter equipment, with [c][FFB74A]surgical Y-wing bombing strikes[-][/c]!'
   * **hn_cc_3_navalConf_conf_eqp_r_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
   * **hn_cc_3_navalConf_conf_hero_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Naval Officer hero equipment with [c][FFB74A]orbital Star Destroyer fire support[-][/c]'
   * **hn_cc_3_navalConf_conf_hero_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'

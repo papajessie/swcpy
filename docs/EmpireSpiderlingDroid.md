@@ -3,7 +3,7 @@ title: trptitleEmpireSpiderlingDroid (EmpireSpiderlingDroid)
 category: unit
 ---
 
-# trptitleEmpireSpiderlingDroid (EmpireSpiderlingDroid) — version 1117
+# trptitleEmpireSpiderlingDroid (EmpireSpiderlingDroid)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

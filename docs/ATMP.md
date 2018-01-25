@@ -3,7 +3,7 @@ title: AT-MP (ATMP)
 category: unit
 ---
 
-# AT-MP (ATMP) — version 1117
+# AT-MP (ATMP)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

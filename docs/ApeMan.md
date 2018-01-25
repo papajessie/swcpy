@@ -3,7 +3,7 @@ title: Ongidae Oppressor (ApeMan)
 category: unit
 ---
 
-# Ongidae Oppressor (ApeMan) — version 1117
+# Ongidae Oppressor (ApeMan)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

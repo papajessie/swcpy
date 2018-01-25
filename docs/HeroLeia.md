@@ -3,7 +3,7 @@ title: Leia Organa (HeroLeia)
 category: unit
 ---
 
-# Leia Organa (HeroLeia) — version 1117
+# Leia Organa (HeroLeia)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

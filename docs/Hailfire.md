@@ -3,7 +3,7 @@ title: Rebel Hailfire Droid (Hailfire)
 category: unit
 ---
 
-# Rebel Hailfire Droid (Hailfire) — version 1117
+# Rebel Hailfire Droid (Hailfire)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
