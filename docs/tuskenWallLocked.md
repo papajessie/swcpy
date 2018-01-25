@@ -3,7 +3,7 @@ title: bldtitletuskenWallLocked (tuskenWallLocked)
 category: building
 ---
 
-# bldtitletuskenWallLocked (tuskenWallLocked) — version 1117
+# bldtitletuskenWallLocked (tuskenWallLocked) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

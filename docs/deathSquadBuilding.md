@@ -3,7 +3,7 @@ title: bldtitledeathSquadBuilding (deathSquadBuilding)
 category: building
 ---
 
-# bldtitledeathSquadBuilding (deathSquadBuilding) — version 1117
+# bldtitledeathSquadBuilding (deathSquadBuilding) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Imperial Astromedic (R5Medic)
 category: unit
 ---
 
-# Imperial Astromedic (R5Medic) — version 1117
+# Imperial Astromedic (R5Medic) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

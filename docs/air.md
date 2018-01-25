@@ -1,7 +1,7 @@
 ---
 title: Index of air strikes
 ---
-# Air Strikes — version 1117
+# Air Strikes — version 1119
 
 The site contains an [explanation of the unit stats](unitexplained.md).
 

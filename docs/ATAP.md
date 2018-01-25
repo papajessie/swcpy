@@ -3,7 +3,7 @@ title: AT-AP Walker (ATAP)
 category: unit
 ---
 
-# AT-AP Walker (ATAP) — version 1117
+# AT-AP Walker (ATAP) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

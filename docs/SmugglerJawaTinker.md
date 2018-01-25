@@ -3,7 +3,7 @@ title: trptitleSmugglerJawaTinker (SmugglerJawaTinker)
 category: unit
 ---
 
-# trptitleSmugglerJawaTinker (SmugglerJawaTinker) — version 1117
+# trptitleSmugglerJawaTinker (SmugglerJawaTinker) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

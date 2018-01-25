@@ -3,7 +3,7 @@ title: bldtitletatooineSettlerHut (tatooineSettlerHut)
 category: building
 ---
 
-# bldtitletatooineSettlerHut (tatooineSettlerHut) — version 1117
+# bldtitletatooineSettlerHut (tatooineSettlerHut) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

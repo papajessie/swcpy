@@ -3,7 +3,7 @@ title: ErKit Militia Sniper (ErkitSniper)
 category: unit
 ---
 
-# ErKit Militia Sniper (ErkitSniper) — version 1117
+# ErKit Militia Sniper (ErkitSniper) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

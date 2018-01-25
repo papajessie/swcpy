@@ -1,7 +1,7 @@
 ---
 title: Index of crates
 ---
-# Crates — version 1117
+# Crates — version 1119
 
   * [Amazon Exclusive Deal (lc_amazon_starwarsday)](lc_amazon_starwarsday.html)
   * [Premium Death Star Crate (lc_anh40Store)](lc_anh40Store.html)
@@ -172,6 +172,10 @@ title: Index of crates
   * [Bronzium Conflict Crate (lc_conf_tat_evtFragment_tier6)](lc_conf_tat_evtFragment_tier6.html)
   * [Obsidian Conflict Crate (lc_conf_tat_evtFragment_tier7)](lc_conf_tat_evtFragment_tier7.html)
   * [Ultra Chrome Conflict Crate (lc_conf_tat_evtFragment_tier8)](lc_conf_tat_evtFragment_tier8.html)
+  * [Bronzium Conflict Crate (lc_conf_tfa_evtFragment_tier5)](lc_conf_tfa_evtFragment_tier5.html)
+  * [Bronzium Conflict Crate (lc_conf_tfa_evtFragment_tier6)](lc_conf_tfa_evtFragment_tier6.html)
+  * [Obsidian Conflict Crate (lc_conf_tfa_evtFragment_tier7)](lc_conf_tfa_evtFragment_tier7.html)
+  * [Ultra Chrome Conflict Crate (lc_conf_tfa_evtFragment_tier8)](lc_conf_tfa_evtFragment_tier8.html)
   * [Carbonite Conflict Crate (lc_conf_tier1)](lc_conf_tier1.html)
   * [Carbonite Conflict Crate (lc_conf_tier2)](lc_conf_tier2.html)
   * [Durasteel Conflict Crate (lc_conf_tier3)](lc_conf_tier3.html)
@@ -222,11 +226,17 @@ title: Index of crates
   * [Ultra Desert Ops Crate (lc_desBiome_Jetpack_SPD_v1)](lc_desBiome_Jetpack_SPD_v1.html)
   * [Ultra Desert Ops Crate (lc_desBiome_Jetpack_SPD_v2)](lc_desBiome_Jetpack_SPD_v2.html)
   * [Durasteel Data Fragment Crate (lc_durasteelEqpStore)](lc_durasteelEqpStore.html)
+  * [Daily Crate (lc_epDaily_demo_eqp)](lc_epDaily_demo_eqp.html)
+  * [Elite Event Crate (lc_epGrind_demo_eqp)](lc_epGrind_demo_eqp.html)
   * [Event Crate (lc_epMilestone_arctic_eqp)](lc_epMilestone_arctic_eqp.html)
   * [Event Crate (lc_epMilestone_arctic_smpl_c)](lc_epMilestone_arctic_smpl_c.html)
   * [Event Crate (lc_epMilestone_arctic_smpl_m)](lc_epMilestone_arctic_smpl_m.html)
   * [Event Crate (lc_epMilestone_contraband)](lc_epMilestone_contraband.html)
   * [Event Crate (lc_epMilestone_credit)](lc_epMilestone_credit.html)
+  * [Event Crate (lc_epMilestone_demo_eqp_01)](lc_epMilestone_demo_eqp_01.html)
+  * [Event Crate (lc_epMilestone_demo_eqp_02)](lc_epMilestone_demo_eqp_02.html)
+  * [Event Crate (lc_epMilestone_demo_smpl_c)](lc_epMilestone_demo_smpl_c.html)
+  * [Event Crate (lc_epMilestone_demo_unit)](lc_epMilestone_demo_unit.html)
   * [Event Crate (lc_epMilestone_desert_eqp)](lc_epMilestone_desert_eqp.html)
   * [Event Crate (lc_epMilestone_desert_smpl_c)](lc_epMilestone_desert_smpl_c.html)
   * [Event Crate (lc_epMilestone_desert_smpl_m)](lc_epMilestone_desert_smpl_m.html)
@@ -248,6 +258,7 @@ title: Index of crates
   * [Event Crate (lc_epSpacebear_epObj_gmc_unit)](lc_epSpacebear_epObj_gmc_unit.html)
   * [Event Crate (lc_epSpacebear_epObj_starship)](lc_epSpacebear_epObj_starship.html)
   * [Event Crate (lc_epSpacebear_epObj_unit)](lc_epSpacebear_epObj_unit.html)
+  * [Event Crate (lc_epTask_demo_eqp)](lc_epTask_demo_eqp.html)
   * [Bronzium Data Fragment Crate (lc_eqpTutorial_00)](lc_eqpTutorial_00.html)
   * [Premium Forest Ops Crate (lc_forBiomeStore)](lc_forBiomeStore.html)
   * [Ultra Forest Ops Crate (lc_forBiome_Jetpack_SPD_v1)](lc_forBiome_Jetpack_SPD_v1.html)

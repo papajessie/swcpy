@@ -3,7 +3,7 @@ title: Forest Jump Trooper (eqpEmpirePentagonJumpTrooper)
 category: unit
 ---
 
-# Forest Jump Trooper (eqpEmpirePentagonJumpTrooper) — version 1117
+# Forest Jump Trooper (eqpEmpirePentagonJumpTrooper) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

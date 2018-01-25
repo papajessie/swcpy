@@ -3,7 +3,7 @@ title: Heavy Desert Soldier (eqpRebelHeavySandSoldier)
 category: unit
 ---
 
-# Heavy Desert Soldier (eqpRebelHeavySandSoldier) — version 1117
+# Heavy Desert Soldier (eqpRebelHeavySandSoldier) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

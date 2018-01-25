@@ -3,7 +3,7 @@ title: Mortar Turret (empire_ab_Mortar)
 category: building
 ---
 
-# Mortar Turret (empire_ab_Mortar) — version 1117
+# Mortar Turret (empire_ab_Mortar) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletatooineHouseSmall (tatooineHouseSmall)
 category: building
 ---
 
-# bldtitletatooineHouseSmall (tatooineHouseSmall) — version 1117
+# bldtitletatooineHouseSmall (tatooineHouseSmall) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

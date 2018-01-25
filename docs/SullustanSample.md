@@ -3,7 +3,7 @@ title: Sullustan Recon Sharpshooter (SullustanSample)
 category: unit
 ---
 
-# Sullustan Recon Sharpshooter (SullustanSample) — version 1117
+# Sullustan Recon Sharpshooter (SullustanSample) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Alliance Starfighter Pilot (XWingPilot)
 category: unit
 ---
 
-# Alliance Starfighter Pilot (XWingPilot) — version 1117
+# Alliance Starfighter Pilot (XWingPilot) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

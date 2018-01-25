@@ -3,7 +3,7 @@ title: Y-wing Trap (rebelTrapStrikeAOE)
 category: building
 ---
 
-# Y-wing Trap (rebelTrapStrikeAOE) — version 1117
+# Y-wing Trap (rebelTrapStrikeAOE) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

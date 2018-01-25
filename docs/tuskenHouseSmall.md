@@ -3,7 +3,7 @@ title: Tusken Tent (tuskenHouseSmall)
 category: building
 ---
 
-# Tusken Tent (tuskenHouseSmall) — version 1117
+# Tusken Tent (tuskenHouseSmall) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

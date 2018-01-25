@@ -3,7 +3,7 @@ title: bldtitleblockerBlastCraterAreaDenyTat (blockerBlastCraterAreaDenyTat)
 category: building
 ---
 
-# bldtitleblockerBlastCraterAreaDenyTat (blockerBlastCraterAreaDenyTat) — version 1117
+# bldtitleblockerBlastCraterAreaDenyTat (blockerBlastCraterAreaDenyTat) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

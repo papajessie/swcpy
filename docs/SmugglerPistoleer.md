@@ -3,7 +3,7 @@ title: Mercenary Pistoleer (SmugglerPistoleer)
 category: unit
 ---
 
-# Mercenary Pistoleer (SmugglerPistoleer) — version 1117
+# Mercenary Pistoleer (SmugglerPistoleer) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

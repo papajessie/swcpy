@@ -3,7 +3,7 @@ title: Obsidian Conflict Crate (lc_conf_tier7)
 category: crate
 ---
 
-# Obsidian Conflict Crate (lc_conf_tier7) — version 1117
+# Obsidian Conflict Crate (lc_conf_tier7) — version 1119
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
@@ -19,9 +19,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 8 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### On Takodana
+### Empire on Takodana
 
-  * No items, see the fallback option below
+  * (1/1) 8 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
 ### Empire on Er'Kit
 
@@ -38,6 +38,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 ### Empire on Yavin 4
 
   * (1/1) 8 data fragments of unlockable air support [VT-49 Decimator](VT49)
+
+### Rebellion on Takodana
+
+  * (1/1) 8 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
 
 ### Rebellion on Hoth
 

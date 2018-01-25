@@ -3,7 +3,7 @@ title: Hunter Rancor (RebelHunterRancor)
 category: unit
 ---
 
-# Hunter Rancor (RebelHunterRancor) — version 1117
+# Hunter Rancor (RebelHunterRancor) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

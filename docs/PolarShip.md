@@ -3,7 +3,7 @@ title: V-4X-D Ski Speeder (PolarShip)
 category: unit
 ---
 
-# V-4X-D Ski Speeder (PolarShip) — version 1117
+# V-4X-D Ski Speeder (PolarShip) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

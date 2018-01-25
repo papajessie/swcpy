@@ -2,7 +2,7 @@
 title: Translation strings (translate)
 category: strings
 ---
-# Translation strings (translate) — version 1117
+# Translation strings (translate) — version 1119
 
   * **ACCOUNT_CONFLICT_CALL_SIGN**: 'Call Sign : {0}'
   * **ACCOUNT_CONFLICT_CONFIRM_CANCEL**: 'Go Back'
@@ -2568,6 +2568,10 @@ category: strings
   * **crate_title_lc_conf_tat_evtFragment_tier6**: 'Bronzium Conflict Crate'
   * **crate_title_lc_conf_tat_evtFragment_tier7**: 'Obsidian Conflict Crate'
   * **crate_title_lc_conf_tat_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
+  * **crate_title_lc_conf_tfa_evtFragment_tier5**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_tfa_evtFragment_tier6**: 'Bronzium Conflict Crate'
+  * **crate_title_lc_conf_tfa_evtFragment_tier7**: 'Obsidian Conflict Crate'
+  * **crate_title_lc_conf_tfa_evtFragment_tier8**: 'Ultra Chrome Conflict Crate'
   * **crate_title_lc_conf_tier1**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_tier2**: 'Carbonite Conflict Crate'
   * **crate_title_lc_conf_tier3**: 'Durasteel Conflict Crate'
@@ -2624,11 +2628,17 @@ category: strings
   * **crate_title_lc_durasteelEqpStore**: 'Durasteel Data Fragment Crate'
   * **crate_title_lc_durasteel_obj**: 'Durasteel Crate'
   * **crate_title_lc_durasteel_raid**: 'Durasteel Crate'
+  * **crate_title_lc_epDaily_demo_eqp**: 'Daily Crate'
+  * **crate_title_lc_epGrind_demo_eqp**: 'Elite Event Crate'
   * **crate_title_lc_epMilestone_arctic_eqp**: 'Event Crate'
   * **crate_title_lc_epMilestone_arctic_smpl_c**: 'Event Crate'
   * **crate_title_lc_epMilestone_arctic_smpl_m**: 'Event Crate'
   * **crate_title_lc_epMilestone_contraband**: 'Event Crate'
   * **crate_title_lc_epMilestone_credit**: 'Event Crate'
+  * **crate_title_lc_epMilestone_demo_eqp_01**: 'Event Crate'
+  * **crate_title_lc_epMilestone_demo_eqp_02**: 'Event Crate'
+  * **crate_title_lc_epMilestone_demo_smpl_c**: 'Event Crate'
+  * **crate_title_lc_epMilestone_demo_unit**: 'Event Crate'
   * **crate_title_lc_epMilestone_desert_eqp**: 'Event Crate'
   * **crate_title_lc_epMilestone_desert_smpl_c**: 'Event Crate'
   * **crate_title_lc_epMilestone_desert_smpl_m**: 'Event Crate'
@@ -2650,6 +2660,7 @@ category: strings
   * **crate_title_lc_epSpacebear_epObj_gmc_unit**: 'Event Crate'
   * **crate_title_lc_epSpacebear_epObj_starship**: 'Event Crate'
   * **crate_title_lc_epSpacebear_epObj_unit**: 'Event Crate'
+  * **crate_title_lc_epTask_demo_eqp**: 'Event Crate'
   * **crate_title_lc_eqpTutorial_00**: 'Bronzium Data Fragment Crate'
   * **crate_title_lc_forBiomeStore**: 'Premium Forest Ops Crate'
   * **crate_title_lc_forBiome_Jetpack_SPD_v1**: 'Ultra Forest Ops Crate'
@@ -3018,6 +3029,27 @@ category: strings
   * **dia_dg_2_r_6_fail1**: "Cover your Heroes with Starship Strikes. You can drop as many Starship Strikes as you have. Rain fire on 'em, partner!"
   * **dia_dg_2_r_7_fail1**: "Don't forget about [F2D62F]turret swapping[-], partner. Change up the base's turrets to match whatever threat comes our way."
   * **dia_dg_2_r_7_outro1**: "I haven't been in a firefight like that for a long time. Reminds me of the old days!"
+  * **dia_epDemo_p1c1_00_e**: 'My friend! How goes the struggle for order across the galaxy?'
+  * **dia_epDemo_p1c1_00_r**: 'My friend! How goes the struggle for freedom across the galaxy?'
+  * **dia_epDemo_p1c1_01**: "Very righteous, I'm sure. Anyway, I recently... acquired some Data Fragments that I think you'll find very interesting."
+  * **dia_epDemo_p1c1_02**: "These droids will roll right up to a target, drop an explosive, and BOOM! Ha ha! I could waste these on some backwater mining operation, but something tells me you'll find them far more useful."
+  * **dia_epDemo_p1c1_03**: "I've sent some jobs your way. Finish them, and everyone walks away happy! Well, everyone who doesn't have to fight those droids."
+  * **dia_epDemo_p1c2_00**: "How's it coming? I trust the Supply Crates I've paid for the work so far as satisfactory."
+  * **dia_epDemo_p1c2_01**: 'Keep up the good work, my friend!'
+  * **dia_epDemo_p1cf_00**: 'My friend, this is very exciting! I was already getting depressed thinking about these droids being used in some boring mining operation.'
+  * **dia_epDemo_p1cf_01**: 'I should never have doubted you. In fact, I will happily pay you for any extra work you complete on this job!'
+  * **dia_epDemo_p2c1_00_e**: 'Hello again, Operative! I was thinking, blasters are trusty in a fight, but nothing compares to scattering your enemies with a well-placed explosion!'
+  * **dia_epDemo_p2c1_00_r**: 'Hello again, Agent! I was thinking, blasters are trusty in a fight, but nothing compares to scattering your enemies with a well-placed explosion!'
+  * **dia_epDemo_p2c1_01**: 'I find myself with several more jobs that need doing. The pay is worth it, trust me!'
+  * **dia_epDemo_p2c1_02**: 'These droids get up close, drop an explosive charge, it goes boom, your enemies wonder where it all went wrong. Perfect for someone in your line of work!'
+  * **dia_epDemo_p2c2_00**: "Good work so far, my friend! You keep it up, I'll keep providing Supply Crates."
+  * **dia_epDemo_p2cf_00**: "Job well done, my friend! You have earned your payment, as promised. If you're up for more, on top of that, I will pay for any extra work you do on this job!"
+  * **dia_epDemo_p3c1_00**: 'Greetings, my friend! I have some good news and some bad news.'
+  * **dia_epDemo_p3c1_01**: "The good news is that I have a last set of jobs I need you to do, in exchange for generous payment. I'm already jealous of you just thinking about it!"
+  * **dia_epDemo_p3c1_02**: "The bad news is the Data Fragments that I'm offering as payment have started to attract notice. I don't mind a little bit of attention, but even Hondo Ohnaka has limits."
+  * **dia_epDemo_p3c1_03**: "Complete the jobs and the fragments for these destructive droids are yours! Time is short, my friend. You'd better get going!"
+  * **dia_epDemo_p3cf_00**: 'Ha ha! Well done, my friend! You never cease to impress me. Though I would certainly appreciate you keeping that fact to yourself.'
+  * **dia_epDemo_p3cf_01**: "There's still a little time left. As usual, I'll pay for any extra jobs you complete. Until next time, my friend!"
   * **dia_epSpaceBear_w2c1_00**: 'Hey, partner. My contact seems to have taken a liking to your work. He offered a new set of jobs for us to do, with payment of course!'
   * **dia_epSpaceBear_w2c1_01_e**: "I think it's a good chance for us to help the Empire. We should start on this now so we can get our hands on that new military tech."
   * **dia_epSpaceBear_w2c1_01_r**: "I think it's a good chance for us to help the Alliance. We should start on this fast so we can get our hands on that new tech."
@@ -4113,6 +4145,30 @@ category: strings
   * **epWidg_newHeroEvent_wk3_title**: 'Triple Crates in Objectives!'
   * **epWidg_undeadEvt_wk1_title**: 'Triple Objective Crates & New Unit!'
   * **epWidg_undeadEvt_wk2_title**: '2x Conflict Crates, Event Ends 11/8!'
+  * **epchp_epDemo_p1c1_body_e**: 'Hondo has acquired a cache of Data Fragments for a dangerous explosive-deploying droid. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the LIN Demolitionmech!'
+  * **epchp_epDemo_p1c1_body_r**: 'Hondo has acquired a cache of Data Fragments for a dangerous explosive-deploying droid. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Demolition Droid!'
+  * **epchp_epDemo_p1c1_title**: 'Explosive Finish, Part I'
+  * **epchp_epDemo_p1c2_body_e**: "Hondo's offer remains open: Data Fragments for a dangerous explosive-deploying droid, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the LIN Demolitionmech!"
+  * **epchp_epDemo_p1c2_body_r**: "Hondo's offer remains open: Data Fragments for a dangerous explosive-deploying droid, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Demolition Droid!"
+  * **epchp_epDemo_p1c2_title**: 'Explosive Finish, Part I: Chapter II'
+  * **epchp_epDemo_p1f_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the LIN Demolitionmech.'
+  * **epchp_epDemo_p1f_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Demolition Droid.'
+  * **epchp_epDemo_p1f_title**: 'Explosive Finish, Part I [Complete]'
+  * **epchp_epDemo_p2c1_body_e**: 'Hondo has offered Data Fragments for an explosive-deploying droid, normally used for mining but equally useful on the battlefield. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the LIN Demolitionmech!'
+  * **epchp_epDemo_p2c1_body_r**: 'Hondo has offered Data Fragments for an explosive-deploying droid, normally used for mining but equally useful on the battlefield. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Demolition Droid!'
+  * **epchp_epDemo_p2c1_title**: 'Explosive Finish, Part II'
+  * **epchp_epDemo_p2c2_body_e**: "Hondo's offer remains open: Data Fragments for a dangerous explosive-deploying droid, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the LIN Demolitionmech!"
+  * **epchp_epDemo_p2c2_body_r**: "Hondo's offer remains open: Data Fragments for a dangerous explosive-deploying droid, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Demolition Droid!"
+  * **epchp_epDemo_p2c2_title**: 'Explosive Finish, Part II: Chapter II'
+  * **epchp_epDemo_p2cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the LIN Demolitionmech.'
+  * **epchp_epDemo_p2cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Demolition Droid.'
+  * **epchp_epDemo_p2cf_title**: 'Explosive Finish, Part II [Complete]'
+  * **epchp_epDemo_p3c1_body_e**: 'Hondo will soon have to dispose of his supply of Data Fragments, but is offering one last set of jobs. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the LIN Demolitionmech!'
+  * **epchp_epDemo_p3c1_body_r**: 'Hondo will soon have to dispose of his supply of Data Fragments, but is offering one last set of jobs. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Demolition Droid!'
+  * **epchp_epDemo_p3c1_title**: 'Explosive Finish Flash Event'
+  * **epchp_epDemo_p3cf_body_e**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the LIN Demolitionmech.'
+  * **epchp_epDemo_p3cf_body_r**: 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Demolition Droid.'
+  * **epchp_epDemo_p3cf_title**: 'Explosive Finish Flash Event [Complete]'
   * **epchp_epSpaceBear_w1c1_body_e**: 'One of Saponza’s old pirate contacts needs some work done, and will pay handsomely for it.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
   * **epchp_epSpaceBear_w1c1_body_r**: 'One of Saponza’s old pirate contacts needs some work done, and will pay handsomely for it.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
   * **epchp_epSpaceBear_w1c2_body_e**: 'Saponza’s pirate contact seems trustworthy enough, having provided several smaller payments for the work.\nContinue finishing Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
@@ -5033,6 +5089,18 @@ category: strings
   * **hn_cc_1_desOps_pre_r_title**: 'Coming Soon: New Unit Unlock'
   * **hn_cc_1_dobjannounce_body**: 'Planetary Objectives will be assigned on a daily basis. Now complete tasks and collect updated Supply Crate rewards every day!'
   * **hn_cc_1_dobjannounce_title**: 'Daily Objectives'
+  * **hn_cc_1_epDemo_announce_p1_e_body**: 'Complete the new Event to earn big rewards, including Data Fragments to unlock the explosive new [c][FFB74A]LIN Demolitionmech[-][/c] droid!'
+  * **hn_cc_1_epDemo_announce_p1_e_title**: 'New Event: "Explosive Finish"'
+  * **hn_cc_1_epDemo_announce_p1_r_body**: 'Complete the new Event to earn big rewards, including Data Fragments to unlock the explosive new [c][FFB74A]Demolition Droid[-][/c]!'
+  * **hn_cc_1_epDemo_announce_p1_r_title**: 'New Event: "Explosive Finish"'
+  * **hn_cc_1_epDemo_announce_p2_e_body**: 'Explosive Finish continues in Part II until 2/4! Play now to unlock/upgrade the explosive new [c][FFB74A]LIN Demolitionmech[-][/c] droid.'
+  * **hn_cc_1_epDemo_announce_p2_e_title**: 'Play Part II of the Explosive Finish event!'
+  * **hn_cc_1_epDemo_announce_p2_r_body**: 'Explosive Finish continues in Part II until 2/4! Play now to unlock/upgrade the explosive new [c][FFB74A]Demolition Droid[-][/c].'
+  * **hn_cc_1_epDemo_announce_p2_r_title**: 'Play Part II of the Explosive Finish event!'
+  * **hn_cc_1_epDemo_announce_p3_e_body**: '[FFB74A]Explosive Finish[-][/c] concludes with 4-day flash event! Play for bigger rewards, and a last chance to unlock/upgrade the new LIN Demolitionmech! Ends 2/8!'
+  * **hn_cc_1_epDemo_announce_p3_e_title**: 'Last Chance: LIN Demolitionmech Data Fragments'
+  * **hn_cc_1_epDemo_announce_p3_r_body**: '[FFB74A]Explosive Finish[-][/c] concludes with 4-day flash event! Play for bigger rewards, and a last chance to unlock/upgrade the new Demolition Droid! Ends 2/8!'
+  * **hn_cc_1_epDemo_announce_p3_r_title**: 'Last Chance: Demolition Droid Data Fragments!'
   * **hn_cc_1_epSpacebear_w1_e_body**: 'The brand new [c][FFB74A]Commander Events[-][/c] system is here! Play at your own pace to earn currency, Data Fragments, and more! Each week offers a new set of rewards, starting with the new [c][FFB74A]614-AvA speeder bike[-][/c]!'
   * **hn_cc_1_epSpacebear_w1_r_body**: 'The brand new [c][FFB74A]Commander Events[-][/c] system is here! Play at your own pace and earn more rewards. Check out new content each week celebrating Star Wars: The Last Jedi, in theaters 12/15, starting with the [c][FFB74A]V-4X-D Ski Speeder[-][/c] from the movie!'
   * **hn_cc_1_epSpacebear_w1_title**: 'New Event, New Rewards!'
@@ -5047,18 +5115,6 @@ category: strings
   * **hn_cc_1_epSpacebear_w5_r_title**: 'Second Chance: Bufopel Protector Data Fragments!'
   * **hn_cc_1_epSpacebear_w6_body**: "This week's Event concludes the celebration of Star Wars: The Last Jedi. Finish the Event for a guaranteed unlock/upgrade of the Fathier Rider from the movie, available this week only!"
   * **hn_cc_1_epSpacebear_w6_title**: 'Last Chance: Fathier Rider Data Fragments!'
-  * **hn_cc_1_epdemo_announce_w1_e_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w1_e_title**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w1_r_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w1_r_title**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w2_e_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w2_e_title**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w2_r_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w2_r_title**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w3_e_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w3_e_title**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w3_r_body**: 'TEMP: PLACEHOLDER'
-  * **hn_cc_1_epdemo_announce_w3_r_title**: 'TEMP: PLACEHOLDER'
   * **hn_cc_1_erk_outpost_body**: "A Mining Complex has been located on Er'Kit. Capture it during a Squad War to increase your squad's wall and HQ durability!"
   * **hn_cc_1_erk_outpost_title**: "Factory Outpost - Er'Kit"
   * **hn_cc_1_erkit_conflict_end_body_e**: "The recent uptick in Rebel activity on Er'Kit seems to have run its course. You performed admirably, Operative. I begin to see now why Lord Vader has taken notice of your skill."
@@ -5770,6 +5826,10 @@ category: strings
   * **hn_cc_3_enforcerDroid_body**: "The Security Droid uses sonic grenades to weaken enemy defenses, increasing the damage they'll take. Collect Data Fragments for this mercenary during the Rogue One Special Event!"
   * **hn_cc_3_enforcerDroid_title**: 'Special Event Unit'
   * **hn_cc_3_enforcerDroid_title2**: 'Security Droid'
+  * **hn_cc_3_epDemo_smpl_e_body**: 'This droid ignores turrets and resources to engage targets such as the Squad Center, Barracks, Factory, and Armory at point-blank range. Though immune to its own attack, this droid must still be protected from enemy fire. Claim special samples of this troop to deploy immediately!'
+  * **hn_cc_3_epDemo_smpl_e_title**: 'New Troop: LIN Demolitionmech'
+  * **hn_cc_3_epDemo_smpl_r_body**: 'This droid ignores turrets and resources to engage targets such as the Squad Center, Barracks, Factory, and Armory at point-blank range. Though immune to its own attack, this droid must still be protected from enemy fire. Claim special samples of this troop to deploy immediately!'
+  * **hn_cc_3_epDemo_smpl_r_title**: 'New Troop: Demolition Droid'
   * **hn_cc_3_epSpacebear_w1_e_body**: 'The [c][FFB74A]614-AvA Speeder Bike[-][/c] is an upgrade over the basic Empire Speeder Bike, providing better handling and faster speeds. This unit is more fragile, but has higher damage output, making it an effective infantry hunter. Claim special samples of this vehicle to deploy immediately!'
   * **hn_cc_3_epSpacebear_w1_e_title**: 'New Vehicle: 614-AvA Speeder Bike'
   * **hn_cc_3_epSpacebear_w1_r_body**: 'The unstable [c][FFB74A]V-4X-D Ski Speeder[-][/c] still flies with the help of a ventral halofoil. While less armored than most vehicles, this unit is very fast and outputs high damage, making it a highly effective infantry hunter. Claim special samples of this vehicle to deploy immediately!'
@@ -5832,7 +5892,7 @@ category: strings
   * **hn_cc_3_mtv7_buff_title**: 'MTV-7 Upgrades!'
   * **hn_cc_3_navalConf_conf_eqp_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Rodian Recon Sniper equipment, with [c][FFB74A]surgical TIE Bomber strikes[-][/c]!'
   * **hn_cc_3_navalConf_conf_eqp_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
-  * **hn_cc_3_navalConf_conf_eqp_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Sullsutan Recon Sharpshooter equipment, with [c][FFB74A]surgical Y-wing bombing strikes[-][/c]!'
+  * **hn_cc_3_navalConf_conf_eqp_r_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Alliance Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Sullsutan Recon Sharpshooter equipment, with [c][FFB74A]surgical Y-wing bombing strikes[-][/c]!'
   * **hn_cc_3_navalConf_conf_eqp_r_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
   * **hn_cc_3_navalConf_conf_hero_e_body**: '[c][FFB74A]Naval Assault[-][/c] rewards are back in Conflicts! Unlock/upgrade the [c][FFB74A]Imperial Starfighter Pilot[-][/c] on Tatooine. [c][E40B18]For HQ 6 and above:[-][/c] battle on other planets for Naval Officer hero equipment with [c][FFB74A]orbital Star Destroyer fire support[-][/c]'
   * **hn_cc_3_navalConf_conf_hero_e_title**: '1/11 to 1/25 Conflict Outbreak: Naval Assault'
@@ -6064,6 +6124,8 @@ category: strings
   * **hn_dnotes_chatFix_title**: 'Chat Lag Fix!'
   * **hn_dnotes_defRef_outbreak_body**: '[c][FFAA33]Conflict Outbreak Ends 11/29[-][/c]\n• Each week, conflicts on all planets reward Data Fragments for a specific type of Guard Reserve equipment.\n• Premium Tactical Defense Crates in the Shop have a chance to drop Data Fragments for any type of Guard Reserve. (Crates disappear when event ends.)\n•\xa0Check your HQ each day for a Daily Tactical Defense Crate.\n\n[c][FFAA33]Balance Updates[-][/c]\n• [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] equipment for Barracks has been updated to address game imbalance.\n\n[c][FFAA33]Guard Reserves[-][/c]\n• Guard Reserve equipment affects either the Barracks or the Factory.\n• Once activated in the Armory, the Guard Reserve the affected structures will automatically summon reinforcements to defend your base.\n• The first wave of guards is summoned shortly after the battle starts. Additional guards appear at timed intervals for the remainder of the battle.  \n• Research higher levels of Guard Reserve to make these guards appear more often.\n• Mix and match Guard Reserve equipment to form new base defense strategies. Guard Reserves that apply to the same building can be all be activated at the same time! See full list below:\n\n• Guard Reserves for Rebel Barracks:\n- [c][FFFFFF]Guard Reserve: Light Infantry[-][/c] - Each Barracks summons [c][FFFFFF]3 Soldiers[-][/c]\n- [c][FFFFFF]Guard Reserve: Melee Bruisers[-][/c] - Each Barracks summons [c][FFFFFF]2 Bantha Riders[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Barracks summons [c][FFFFFF]1 Vanguard[-][/c]\n\n• Guard Reserves for Rebel Factory:\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Factory summons [c][FFFFFF]1 Rebel Speeder[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Factory summons [c][FFFFFF]1 Desert Skiff[-][/c]\n\n• Guard Reserves for Empire Barracks:\n- [c][FFFFFF]Guard Reserve: Light Infantry[-][/c] - Each Barracks summons [c][FFFFFF]3 Stormtroopers[-][/c]\n- [c][FFFFFF]Guard Reserve: Melee Bruisers[-][/c] - Each Barracks summons [c][FFFFFF]2 Dewbacks[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Barracks summons [c][FFFFFF]1 Sniper[-][/c]\n\n• Guard Reserves for Empire Factory:\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Factory summons [c][FFFFFF]1 Empire Speeder[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Factory summons [c][FFFFFF]1 MHC[-][/c]\n\n• Elite Data Fragments for Rebel:\n      Guard Reserve: Light Infantry - (Barracks Eqp)\n      Guard Reserve: Melee Bruisers - (Barracks Eqp)\n      Guard Reserve: Anti-vehicle - (Barracks Eqp)\n      Guard Reserve: Anti-infantry - (Factory Eqp)\n      Guard Reserve: Anti-vehicle - (Factory Eqp)\n      Johhar Kessen (Unit)\n      Iakaru Warrior (Unit)\n      Vanguard (Unit)\n\n• Elite Data Fragments for Empire:\n      Guard Reserve: Light Infantry - (Barracks Eqp)\n      Guard Reserve: Melee Bruisers - (Barracks Eqp)\n      Guard Reserve: Anti-infantry - (Barracks Eqp)[c][FFFFFF]**[-][/c]\n      Guard Reserve: Anti-infantry - (Factory Eqp)\n      Guard Reserve: Anti-vehicle - (Factory Eqp)[c][FFFFFF]**[-][/c]\n      Johhar Kessen (Unit)\n      IG-86 Assassin Droid (Unit)\n      Shocktrooper (Unit)'
   * **hn_dnotes_defRef_outbreak_title**: 'Guard Reserve Conflict Outbreak'
+  * **hn_dnotes_epDemo_body**: '[c][FFAA33]Event Schedule[-][/c]\n• Runs in multiple parts from 1/25 to 2/8, with three chances to earn Data Fragments for the Rebel Demolition Droid / Empire LIN Demolitionmech.\n• Completed the Event early? Bonus Supply Crates can always be earned an unlimited number of times before the Event ends.\n\n[c][FFAA33]New Unit Unlock[-][/c]\n• Rebel Demolition Droid / Empire LIN Demolitionmech is trained in the Barracks once unlocked.\n•\xa0Prioritizes and deals extra damage versus non-turret and non-resource structures:\n- Barracks / Factory / Cantina\n- Squad Center\n- Armory\n- Starship Command / Hero Command / Planetary Command\n- Troop Transport\n- Research Lab\n- Scout Tower\n- Droid Hut'
+  * **hn_dnotes_epDemo_title**: 'New Event: Explosive Finish'
   * **hn_dnotes_epTimes_body**: '[c][FFAA33]Updates to Commander Events System[-][/c]\n•\xa0Extended the end time of all Events by 22 hours to allow more time to earn rewards.\n•\xa0Removed all "Loot Credits/Alloy/Contraband" Event Chapter Objectives until issue can be addressed where looted resources that exceed current storage capacity do not count toward Chapter Objective progress.'
   * **hn_dnotes_epTimes_title**: 'Event System Updates'
   * **hn_dnotes_spacebear_body**: "[c][FFAA33]Brand New Commander Events System[-][/c]\n• New Events system lets you play Commander however you wish: win battles, complete Planetary Objectives, rank up in Conflicts, or complete Heroic Defenses.\n•\xa0Earn rewards along your way to guaranteed unlocks of powerful units, starting with new content from and inspired by Star Wars: The Last Jedi.\n•\xa0Completed the Event early? Bonus Supply Crates can be earned an unlimited number of times, right up to the end of the Event! No more waiting for tomorrow's Planetary Objectives!\n\n[c][FFAA33]New Unit Unlocks[-][/c]\n• New vehicle units can be built in the Factory once unlocked.\n\n•\xa0Rebel V-4X-D Ski Speeder\n• Empire 614-AvA Speeder Bike"
@@ -6410,6 +6472,9 @@ category: strings
   * **lcfly_descDewbackSample**: '[c][C8E8FF]Dewback Trooper'
   * **lcfly_descEliteDataFragments**: '[c][FFB74A]Elite[-][/c] Data Fragments'
   * **lcfly_descEmpireBruteSample**: '[c][C8E8FF]Dowutin Hunter Samples[-][/c]'
+  * **lcfly_descEmpireDemoDroid**: '[c][FFB74A]LIN Demolitionmech[-][/c]'
+  * **lcfly_descEmpireDemoDroidFragments**: '[c][FFB74A]LIN Demolitionmech[-][/c] Data Fragments'
+  * **lcfly_descEmpireDemoDroidSample**: '[c][C8E8FF]LIN Demolitionmech Samples[-][/c]'
   * **lcfly_descEmpireGamorreanWarriorSample**: '[c][C8E8FF]Gamorrean Warrior Samples[-][/c]'
   * **lcfly_descEmpireGoldenMileCreature**: '[c][FFB74A]Fathier Rider[-][/c]'
   * **lcfly_descEmpireGoldenMileCreatureFragments**: '[c][FFB74A]Fathier Rider[-][/c] Data Fragments'
@@ -6565,6 +6630,9 @@ category: strings
   * **lcfly_descRageRancorSample**: '[c][C8E8FF]Rage Rancor Samples[-][/c]'
   * **lcfly_descRancorSamples**: 'Rancor Unit Samples'
   * **lcfly_descRebelBruteSample**: '[c][C8E8FF]Dowutin Hunter Samples[-][/c]'
+  * **lcfly_descRebelDemoDroid**: '[c][FFB74A]Demolition Droid[-][/c]'
+  * **lcfly_descRebelDemoDroidFragments**: '[c][FFB74A]Demolition Droid[-][/c] Data Fragments'
+  * **lcfly_descRebelDemoDroidSample**: '[c][C8E8FF]Demolition Droid Samples[-][/c]'
   * **lcfly_descRebelEchoBaseJetpackTrooper**: '[c][FFB74A]Cold-weather Jetpack Trooper[-][/c]'
   * **lcfly_descRebelEchoBaseJetpackTrooperFragments**: '[c][FFB74A]Cold-weather Jetpack Trooper[-][/c] Data Fragments'
   * **lcfly_descRebelGamorreanWarriorSample**: '[c][C8E8FF]Gamorrean Warrior Samples[-][/c]'
@@ -6705,6 +6773,8 @@ category: strings
   * **lcfly_subset_descAtmosMigFragments**: '[c][FFB74A]      ∫  TIE Striker[-][/c] Data Fragments'
   * **lcfly_subset_descBigMouthAlien**: '[c][FFFFFF]      ∫  Drabatan Saboteur[-][/c]'
   * **lcfly_subset_descBigMouthAlienFragments**: '[c][FFB74A]      ∫  Drabatan Saboteur[-][/c] Data Fragments'
+  * **lcfly_subset_descEmpireDemoDroid**: '[c][FFFFFF]      ∫  LIN Demolitionmech[-][/c]'
+  * **lcfly_subset_descEmpireDemoDroidFragments**: '[c][FFB74A]      ∫  LIN Demolitionmech[-][/c] Data Fragments'
   * **lcfly_subset_descEmpireGoldenMileCreatureFragments**: '[c][FFB74A]      ∫  Fathier Rider[-][/c] Data Fragments'
   * **lcfly_subset_descEmpireMortarTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
   * **lcfly_subset_descEmpireRapidFireTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
@@ -6791,6 +6861,8 @@ category: strings
   * **lcfly_subset_descPolarShip**: '[c][FFFFFF]      ∫  V-4X-D Ski Speeder[-][/c]'
   * **lcfly_subset_descPolarShipFragments**: '[c][FFB74A]      ∫  V-4X-D Ski Speeder[-][/c] Data Fragments'
   * **lcfly_subset_descR5MedicFragments**: '[c][FFB74A]      ∫  Imperial Astromedic[-][/c] Data Fragments'
+  * **lcfly_subset_descRebelDemoDroid**: '[c][FFFFFF]      ∫  Demolition Droid[-][/c]'
+  * **lcfly_subset_descRebelDemoDroidFragments**: '[c][FFB74A]      ∫  Demolition Droid[-][/c] Data Fragments'
   * **lcfly_subset_descRebelGoldenMileCreature**: '[c][FFFFFF]      ∫  Fathier Rider[-][/c]'
   * **lcfly_subset_descRebelGoldenMileCreatureFragments**: '[c][FFB74A]      ∫  Fathier Rider[-][/c] Data Fragments'
   * **lcfly_subset_descRebelMortarTurretDamage**: '[c][FFFFFF]      ∫  Enhanced Heat Sink[-][/c]'
@@ -10853,9 +10925,11 @@ category: strings
   * **s_charName_leia**: 'Princess Leia'
   * **s_charName_saponza**: 'Saponza'
   * **s_charName_vader**: 'Lord Vader'
+  * **s_crystals**: 'Crystals'
   * **s_damage**: 'Damage:'
   * **s_decorations**: 'Turrets'
   * **s_defenses**: 'Defenses'
+  * **s_fragments**: 'Data Fragments'
   * **s_fue_05_bldBarrack_00**: 'We need [F2D62F]Barracks[-] to train troops.'
   * **s_fue_05_bldDepot_00**: "Let's get that [F2D62F]Alloy Depot[-] started."
   * **s_fue_05_callSign_00**: 'You made the right choice, partner. Our new allies want to know your [F2D62F]Call Sign[-].'
@@ -10902,8 +10976,10 @@ category: strings
   * **s_fue_06_vader_05**: "Those walkers were pretty convincing, partner. Maybe we should join the Imperials. Hold on, we've got another transmission incoming."
   * **s_infoDesc_614AVA_e**: 'Very fast unit deals heavy damage to infantry.'
   * **s_infoDesc_ApeMan**: 'Damage resistance increases the longer it remains in battle.'
+  * **s_infoDesc_EmpireDemoDroid**: 'Heavy armor, attacks structures such as Barracks'
   * **s_infoDesc_FurCoat**: 'Damage resistance increases the longer it remains in battle.'
   * **s_infoDesc_GMC**: 'Races around the battlefield, attacking various targets.'
+  * **s_infoDesc_RebelDemoDroid**: 'Heavy armor, attacks structures such as Barracks'
   * **s_infoDesc_anh40_crate**: 'Contains Data Fragments for elite equipment and troops'
   * **s_infoDesc_anh40_eqp_e**: 'Lord Vader is accompanied by stormtroopers'
   * **s_infoDesc_anh40_eqp_r**: 'R2-D2 disables enemy turrets, with C-3P0 at his side'
@@ -10947,8 +11023,10 @@ category: strings
   * **s_infoDesc_undeadEvt_unit**: 'Powerful melee attacks, deploys self-destructing probe killers'
   * **s_infoTitle_614AVA_e**: '614-AvA Speeder Bike'
   * **s_infoTitle_ApeMan**: 'Ongidae Oppressor'
+  * **s_infoTitle_EmpireDemoDroid**: 'LIN Demolitionmech'
   * **s_infoTitle_FurCoat**: 'Bufopel Protector'
   * **s_infoTitle_GMC**: 'Fathier Rider'
+  * **s_infoTitle_RebelDemoDroid**: 'Demolition Droid'
   * **s_infoTitle_anh40_crate**: 'Death Star Crate'
   * **s_infoTitle_anh40_eqp_e**: 'Equipment for Darth Vader'
   * **s_infoTitle_anh40_eqp_r**: 'Equipment for R2-D2'
@@ -11003,15 +11081,23 @@ category: strings
   * **s_raid_mis_vehicle**: 'Scouts report a column of [c][E50000]vehicles[-][/c] passing through the area. Maximize defenses by swapping to [c][E50000]Rocket Turrets[-][/c]. Enemy waves: [c][E50000]2[-][/c]'
   * **s_raid_mis_vehicle_1wave**: 'Scouts report a column of [c][E50000]vehicles[-][/c] passing through the area. Maximize defenses by swapping to [c][E50000]Rocket Turrets[-][/c]. Enemy waves: [c][E50000]1[-][/c]'
   * **s_resources**: 'Resources'
+  * **s_shopCrystals**: 'Crystals'
+  * **s_shopDataFragments**: 'Data Fragments'
+  * **s_shopStructures**: 'Structures'
+  * **s_shopTreasure**: 'Treasure'
+  * **s_shopTurrets**: 'Turrets'
   * **s_sqd_Rejected**: "Rejected {0}'s request to join!"
   * **s_sqd_Welcome**: 'Accepted {0} to the squad!'
+  * **s_structures**: 'Structures'
   * **s_timespan_days**: '{0}d {1}h {2}m {3}s'
   * **s_timespan_hours**: '{0}h {1}m {2}s'
   * **s_timespan_minutes**: '{0}m {1}s'
   * **s_timespan_seconds**: '{0}s'
   * **s_treasure**: 'Treasure'
+  * **s_turrets**: 'Turrets'
   * **s_upgradeTime**: 'Upgrade Time:'
   * **s_youOwn**: 'You have:'
+  * **shard_shop_no_items**: 'There are no shards available at this time'
   * **shp_desc_AWing**: 'The Rebel Alliance uses A-wing starfighters to support ground forces. Their powerful weaponry employs an advanced targeting system, concentrating firepower to dispatch particle shields of equal level.'
   * **shp_desc_AtmosMig**: "A streamlined version of the TIE fighter, the TIE Striker is primarily designed for operations within a planet's atmosphere. The attached proton bomb launcher is particularly effective against vehicle units, dealing heavy damage over a large area."
   * **shp_desc_BWing**: 'The B-wing is among the largest starfighters in the Rebel fleet. Bombs deployed from this ship explode over a moderate area, causing high damage to clustered turrets.'
@@ -11530,6 +11616,9 @@ category: strings
   * **tournament_title_conflict_dan_20180104**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_20180111**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_20180118**: 'Conflict on Dandoran'
+  * **tournament_title_conflict_dan_20180125**: 'Conflict on Dandoran'
+  * **tournament_title_conflict_dan_20180201**: 'Conflict on Dandoran'
+  * **tournament_title_conflict_dan_20180208**: 'Conflict on Dandoran'
   * **tournament_title_conflict_dan_21**: 'Conflict at Varsa Meadows'
   * **tournament_title_conflict_dan_22**: 'Conflict at Mynock Grottos'
   * **tournament_title_conflict_dan_23**: "Conflict at Smuggler's Basin"
@@ -11632,6 +11721,9 @@ category: strings
   * **tournament_title_conflict_erk_20180104**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_20180111**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_20180118**: "Conflict on Er'Kit"
+  * **tournament_title_conflict_erk_20180125**: "Conflict on Er'Kit"
+  * **tournament_title_conflict_erk_20180201**: "Conflict on Er'Kit"
+  * **tournament_title_conflict_erk_20180208**: "Conflict on Er'Kit"
   * **tournament_title_conflict_erk_21**: "Johhar Kessen spotted on Er'Kit"
   * **tournament_title_conflict_erk_22**: 'Conflict at Luun Heights'
   * **tournament_title_conflict_erk_23**: 'Conflict at Gundark Pass'
@@ -11716,6 +11808,9 @@ category: strings
   * **tournament_title_conflict_hth_20180104**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_20180111**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_20180118**: 'Conflict on Hoth'
+  * **tournament_title_conflict_hth_20180125**: 'Conflict on Hoth'
+  * **tournament_title_conflict_hth_20180201**: 'Conflict on Hoth'
+  * **tournament_title_conflict_hth_20180208**: 'Conflict on Hoth'
   * **tournament_title_conflict_hth_21**: 'Looter Vehicles at Icefall Plains'
   * **tournament_title_conflict_hth_22**: "Conflict at Shyloah's Crest"
   * **tournament_title_conflict_hth_23**: 'Conflict at Wampa Mountain'
@@ -11762,6 +11857,9 @@ category: strings
   * **tournament_title_conflict_tak_20171228**: 'Conflict on Takodana'
   * **tournament_title_conflict_tak_20180111**: 'Conflict on Takodana'
   * **tournament_title_conflict_tak_20180118**: 'Conflict on Takodana'
+  * **tournament_title_conflict_tak_20180125**: 'Conflict on Takodana'
+  * **tournament_title_conflict_tak_20180201**: 'Conflict on Takodana'
+  * **tournament_title_conflict_tak_20180208**: 'Conflict on Takodana'
   * **tournament_title_conflict_tat_00**: '[3fdb4f]Crystals[-] Conflict on Tatooine'
   * **tournament_title_conflict_tat_01**: 'Conflict at Boonta Eve'
   * **tournament_title_conflict_tat_02**: 'Conflict at Anchorhead Pass'
@@ -11808,6 +11906,9 @@ category: strings
   * **tournament_title_conflict_tat_20180104**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_20180111**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_20180118**: 'Conflict on Tatooine'
+  * **tournament_title_conflict_tat_20180125**: 'Conflict on Tatooine'
+  * **tournament_title_conflict_tat_20180201**: 'Conflict on Tatooine'
+  * **tournament_title_conflict_tat_20180208**: 'Conflict on Tatooine'
   * **tournament_title_conflict_tat_21**: 'Conflict at Jundland Chasm'
   * **tournament_title_conflict_tat_22**: 'Conflict at Boonta Eve'
   * **tournament_title_conflict_tat_23**: 'Conflict at Anchorhead Pass'
@@ -11947,6 +12048,9 @@ category: strings
   * **tournament_title_conflict_yav_20180104**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_20180111**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_20180118**: 'Conflict on Yavin 4'
+  * **tournament_title_conflict_yav_20180125**: 'Conflict on Yavin 4'
+  * **tournament_title_conflict_yav_20180201**: 'Conflict on Yavin 4'
+  * **tournament_title_conflict_yav_20180208**: 'Conflict on Yavin 4'
   * **tournament_title_conflict_yav_21**: 'Conflict at Skygazer Hill'
   * **tournament_title_conflict_yav_22**: 'Conflict at Massassi Valley'
   * **tournament_title_conflict_yav_23**: 'Conflict at Skygazer Hill'
@@ -12107,6 +12211,7 @@ category: strings
   * **trp_desc_EchoBaseHeavySoldier**: 'Trained for operations in sub-zero conditions, these soldiers wield rapid fire blasters to inflict devastating damage. To maintain their mobility, they wear lighter armor, requiring protection from more durable units.'
   * **trp_desc_EchoBaseSoldier**: 'Cold-weather Soldiers have been specially trained and field-tested to operate in arctic conditions. Their determination and focus continues to be the restoration of freedom in the galaxy and are best used in large numbers.'
   * **trp_desc_EmpireBrute**: 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
+  * **trp_desc_EmpireDemoDroid**: 'This mine-laying droid has been programmed to ignore turrets and resources, deploying explosive charges point-blank against soft targets such as the Squad Center, Barracks, and Armory. Special armor protects the droid from its own attack, but it is still vulnerable to enemy fire.'
   * **trp_desc_EmpireGamorreanWarrior**: "A fiercely tough Gamorrean boar mercenary, armed with an Arg'garok vibro-ax. His sheer strength and anger allow him to always get in the last blow. [CC3366]Final Thunder: Upon defeat, hurls his ax forward in a last-ditch effort to ensure mass destruction.[-]"
   * **trp_desc_EmpireGoldenMileCreature**: "The Fathier Rider is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed is ideal for hit-and-run combat, attacking enemy troops and buildings."
   * **trp_desc_EmpireHeavyStormDeath**: 'This Heavy Trooper is the product of a lethal virus known to most as "The Sickness". Studies have revealed that infection of this host causes slower movement but improved ability to sustain damage.'
@@ -12169,6 +12274,7 @@ category: strings
   * **trp_desc_ProbeDroid**: 'Used widely by the Empire, these fast moving droids carry an array of terrifying weaponry and specialize in defeating infantry. However, they suffer in vehicular engagements due to their light armor.'
   * **trp_desc_R5Medic**: 'Medic Droids heal injuries with advanced bacta-based technologies. They are programmed to follow and provide aid to infantry closest to them.'
   * **trp_desc_RebelBrute**: 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
+  * **trp_desc_RebelDemoDroid**: 'This droid is reprogrammed to ignore turrets and resources, engaging targets such as the Squad Center, Barracks, and Armory at point-blank range with explosives. Special armoring protects the droid from its own attack, though it cannot transform and is still vulnerable to enemy fire.'
   * **trp_desc_RebelGamorreanWarrior**: "A fiercely tough Gamorrean boar mercenary, armed with an Arg'garok vibro-ax. His sheer strength and anger allow him to always get in the last blow. [CC3366]Final Thunder: Upon defeat, hurls his ax forward in a last-ditch effort to ensure mass destruction.[-]"
   * **trp_desc_RebelGoldenMileCreature**: "The Fathier Rider is a Tognath mercenary mounted atop a graceful steed, known as a fathier. The fathier's natural speed is ideal for hit-and-run combat, attacking enemy troops and buildings."
   * **trp_desc_RebelHeavyStormDeath**: 'This Heavy Trooper is the product of a lethal virus known to most as "The Sickness". Studies have revealed that infection of this host causes slower movement but improved ability to sustain damage.'
@@ -12252,6 +12358,7 @@ category: strings
   * **trp_title_EchoBaseHeavySoldier**: 'Cold-weather Heavy Soldier'
   * **trp_title_EchoBaseSoldier**: 'Cold-weather Soldier'
   * **trp_title_EmpireBrute**: 'Dowutin Hunter'
+  * **trp_title_EmpireDemoDroid**: 'LIN Demolitionmech'
   * **trp_title_EmpireGamorreanWarrior**: 'Gamorrean Warrior'
   * **trp_title_EmpireGoldenMileCreature**: 'Fathier Rider'
   * **trp_title_EmpireHeavyStormDeath**: 'Heavy Undead Trooper'
@@ -12323,6 +12430,7 @@ category: strings
   * **trp_title_R5Medic**: 'Imperial Astromedic'
   * **trp_title_Rancor**: 'Rancor'
   * **trp_title_RebelBrute**: 'Dowutin Hunter'
+  * **trp_title_RebelDemoDroid**: 'Demolition Droid'
   * **trp_title_RebelGamorreanWarrior**: 'Gamorrean Warrior'
   * **trp_title_RebelGoldenMileCreature**: 'Fathier Rider'
   * **trp_title_RebelHeavyStormDeath**: 'Heavy Undead Trooper'

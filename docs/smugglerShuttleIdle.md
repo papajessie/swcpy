@@ -3,7 +3,7 @@ title: bldtitlesmugglerShuttleIdle (smugglerShuttleIdle)
 category: building
 ---
 
-# bldtitlesmugglerShuttleIdle (smugglerShuttleIdle) — version 1117
+# bldtitlesmugglerShuttleIdle (smugglerShuttleIdle) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

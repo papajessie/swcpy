@@ -3,7 +3,7 @@ title: bldtitlesmugglerPlatformDroideka (smugglerPlatformDroideka)
 category: building
 ---
 
-# bldtitlesmugglerPlatformDroideka (smugglerPlatformDroideka) — version 1117
+# bldtitlesmugglerPlatformDroideka (smugglerPlatformDroideka) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

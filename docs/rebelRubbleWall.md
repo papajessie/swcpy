@@ -3,7 +3,7 @@ title: bldtitlerebelRubbleWall (rebelRubbleWall)
 category: building
 ---
 
-# bldtitlerebelRubbleWall (rebelRubbleWall) — version 1117
+# bldtitlerebelRubbleWall (rebelRubbleWall) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

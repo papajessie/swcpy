@@ -3,7 +3,7 @@ title: bldtitledeathMaterialsGenerator (deathMaterialsGenerator)
 category: building
 ---
 
-# bldtitledeathMaterialsGenerator (deathMaterialsGenerator) — version 1117
+# bldtitledeathMaterialsGenerator (deathMaterialsGenerator) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitletatooineJawaSandcrawler (tatooineJawaSandcrawler)
 category: building
 ---
 
-# bldtitletatooineJawaSandcrawler (tatooineJawaSandcrawler) — version 1117
+# bldtitletatooineJawaSandcrawler (tatooineJawaSandcrawler) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

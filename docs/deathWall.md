@@ -3,7 +3,7 @@ title: bldtitledeathWall (deathWall)
 category: building
 ---
 
-# bldtitledeathWall (deathWall) — version 1117
+# bldtitledeathWall (deathWall) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

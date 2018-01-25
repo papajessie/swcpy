@@ -3,7 +3,7 @@ title: Luggabeast Munitioneer (EmpireRider)
 category: unit
 ---
 
-# Luggabeast Munitioneer (EmpireRider) — version 1117
+# Luggabeast Munitioneer (EmpireRider) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Droideka Sentinel Platform (rebelPlatformDroideka)
 category: building
 ---
 
-# Droideka Sentinel Platform (rebelPlatformDroideka) — version 1117
+# Droideka Sentinel Platform (rebelPlatformDroideka) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

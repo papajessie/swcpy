@@ -3,7 +3,7 @@ title: bldtitleblockerKraytBones (blockerKraytBones)
 category: building
 ---
 
-# bldtitleblockerKraytBones (blockerKraytBones) — version 1117
+# bldtitleblockerKraytBones (blockerKraytBones) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

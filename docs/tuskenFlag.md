@@ -3,7 +3,7 @@ title: bldtitletuskenFlag (tuskenFlag)
 category: building
 ---
 
-# bldtitletuskenFlag (tuskenFlag) — version 1117
+# bldtitletuskenFlag (tuskenFlag) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

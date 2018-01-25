@@ -3,7 +3,7 @@ title: bldtitleblockerDesertHouseSmall (blockerDesertHouseSmall)
 category: building
 ---
 
-# bldtitleblockerDesertHouseSmall (blockerDesertHouseSmall) — version 1117
+# bldtitleblockerDesertHouseSmall (blockerDesertHouseSmall) — version 1119
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
