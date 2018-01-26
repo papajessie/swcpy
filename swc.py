@@ -256,10 +256,11 @@ def initstat():
         'sizes':'Size',
         'pathSearchWidth':'Propensity to go around obstacles',
         'gunSequence':'Gun shooting sequence',
-        'shotDelay':'Time between shots',
-        'chargeTime':'Time between start of clip and first shot',
-        'cooldownTime':'Supplementary time between last shot and reload',
-        'reload':'Time between end of clip and start of clip',
+        'shotDelay':'Shot delay',
+        'animationDelay':'Animation delay',
+        'chargeTime':'Charge time',
+        'cooldownTime':'Cooldown Time',
+        'reload':'Reload time',
         'preventDonation': 'Can be given',
         'targets':'Target preferences',
         'upgrades':'Upgrade requirements',
@@ -267,10 +268,14 @@ def initstat():
         'uiDecalAssetName': 'UI decal asset name',
         'DPS': 'Calculated damage per second',
         'DPSS': 'Calculated damage per clip',
+        'DPSSS': 'Calculated damage per second (formula two)',
+        'DPSSSS': 'Calculated damage per second (formula three)',
         'mults': 'damage multipliers',
         'projectile:DPS': 'Calculated damage per second',
         'projectile:DPSS': 'Calculated damage per clip',
         'projectile:mults': 'Damage multipliers',
+        'projectile:DPSSS': 'Calculated damage per second (formula two)',
+        'projectile:DPSSSS': 'Calculated damage per second (formula three)',
         'equipment:planetIDs': 'Planets where equipment is available',
         'equipment:affectedTroopIds': 'Affected units',
         'building:storage': 'Maximum capacity',
@@ -387,7 +392,7 @@ def initstat():
         'iconAssetName': 'presentation',
         'override': 'nodisplay',
         # Below are values reserved to abilities or units
-        'animationDelay': 'attackpresentation',
+        'animationDelay': 'attackstats',
         'armingDelay': 'attackunknown',
         'bruiserInfantry': 'attackprefs',
         'bruiserVehicle': 'attackprefs',
@@ -512,6 +517,8 @@ def initstat():
         'projectile:cliptime': 'projectilemisc',
         'projectile:DPS': 'projectilebasic',
         'projectile:DPSS': 'projectilebasic',
+        'projectile:DPSSS': 'projectilebasic',
+        'projectile:DPSSSS': 'projectilebasic',
         # below are roles for buffs
         'buff:applyValueAs': 'buffbasic',
         'buff:buffID': 'buffbasic',
@@ -762,6 +769,8 @@ def initstat():
         'projectile:cliptime': 'microtime',
         'projectile:DPS': 'float',
         'projectile:DPSS': 'float',
+        'projectile:DPSSS': 'float',
+        'projectile:DPSSSS': 'float',
         # below are roles for buffs
         'buff:duration': 'microtime',
         'buff:lvl': 'int',
@@ -1609,6 +1618,7 @@ def addprojectile(prefix,ob,subunit,data):
     damage=int(dget(data,'damage',0))
     sc=int(dget(data,'shotCount',1))
     ctime=int(dget(data,'chargeTime',0))
+    atime=int(dget(data,'animationDelay',0))
     cdtime=int(dget(data,'cooldownTime',0))
     stime=int(dget(data,'shotDelay',0))
     rtime=int(dget(data,'reload',0))
@@ -1625,11 +1635,13 @@ def addprojectile(prefix,ob,subunit,data):
     if sc%(len(gs))>0:
         salvos+=gs[sc%(len(gs))-1]
     subunit[prefix+'salvos']=salvos
-    cliptime=ctime+stime*(salvos-1)+cdtime+rtime
+    cliptime=ctime+stime*salvos+atime*salvos+cdtime+rtime
     subunit[prefix+'cliptime']=cliptime
     subunit[prefix+'DPSS']=int(sc*damage)
     if cliptime!=0:
         subunit[prefix+'DPS']=int((1000*sc*damage)/cliptime)
+#        subunit[prefix+'DPSSS']=int((1000*sc*damage)/(cliptime+stime))
+#        subunit[prefix+'DPSSSS']=int((1000*sc*damage)/(cliptime+atime*salvos))
     if prefix+'applyBuffs' in subunit:
         dobuff(ob,subunit,prefix[:-1],prefix+'applyBuffs')
 
