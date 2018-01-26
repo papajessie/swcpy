@@ -139,16 +139,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 230
-  * Time between start of clip and first shot: 0s
+  * Charge time: 0s
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 750ms
+  * Reload time: 750ms
   * Retargeting offset: 6
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
@@ -180,7 +180,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 15s
+  * Secondary attack cooldown Time: 15s
   * Secondary attack description: Lightsaber Defend
   * Secondary attack duration: 10s
   * Secondary attack recast ability: No
@@ -198,17 +198,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Secondary attack animation delay: 0
-  * Secondary attack time between start of clip and first shot: 100ms
+  * Secondary attack charge time: 100ms
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 1200
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 0s
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 0s
+  * Secondary attack reload time: 0s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: Yes
   * Secondary attack shot count: 5
-  * Secondary attack time between shots: 2.067s
+  * Secondary attack shot delay: 2.067s
   * Secondary attack target locking: No
 
 #### Modifier "Deflect"

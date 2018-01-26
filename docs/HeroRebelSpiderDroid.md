@@ -67,16 +67,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 600
-  * Time between start of clip and first shot: 500ms
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 4
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 960ms
+  * Shot delay: 960ms
   * Target locking: No
 
 |Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -106,7 +106,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 20s
+  * Secondary attack cooldown Time: 20s
   * Secondary attack description: Summon Spiderling
   * Secondary attack duration: 0s
   * Secondary attack recast ability: No
@@ -124,16 +124,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Secondary attack animation delay: 0
-  * Secondary attack time between start of clip and first shot: 0s
+  * Secondary attack charge time: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 0
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 0s
-  * Secondary attack time between end of clip and start of clip: 1ms
+  * Secondary attack reload time: 1ms
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: Yes
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 0s
+  * Secondary attack shot delay: 0s
   * Secondary attack target locking: No
 
 #### Modifier "Sum rebel spiderling droid"

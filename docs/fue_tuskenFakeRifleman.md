@@ -53,15 +53,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Turret animation delay: 0
-  * Turret time between start of clip and first shot: 500ms
+  * Turret charge time: 500ms
   * Turret clip retargeting: No
   * Turret damage per shot: 333
   * Turret gun shooting sequence: 1
   * Turret impact delay: 250ms
   * Turret can shoot over walls: No
-  * Turret time between end of clip and start of clip: 500ms
+  * Turret reload time: 500ms
   * Turret shot count: 3
-  * Turret time between shots: 500ms
+  * Turret shot delay: 500ms
 
   * Turret displayed damage per second: 500
   * Turret attack calculated damage per second: 399

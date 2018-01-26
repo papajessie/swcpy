@@ -70,21 +70,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 0
-  * Time between start of clip and first shot: 500ms
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Can shoot over walls: No
   * Retargeting offset: 100
   * Self-centered targeting: No
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
-|Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot                           |112  |135  |157  |180  |202  |224  |247  |269  |292  |336  |
-|Impact delay                              |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |500ms|
-|Time between end of clip and start of clip|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|2s   |
-|Shot count                                |5    |5    |5    |5    |5    |5    |5    |5    |5    |10   |
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot|112  |135  |157  |180  |202  |224  |247  |269  |292  |336  |
+|Impact delay   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |500ms|
+|Reload time    |500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|2s   |
+|Shot count     |5    |5    |5    |5    |5    |5    |5    |5    |5    |10   |
 
 
 ### Projectile

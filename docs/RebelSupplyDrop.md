@@ -48,7 +48,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage per shot: 1
   * Impact delay: 400ms
   * Shot count: 1
-  * Time between shots: 1s
+  * Shot delay: 1s
 
 ### Projectile
 

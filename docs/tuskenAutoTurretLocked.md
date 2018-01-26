@@ -63,14 +63,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Turret animation delay: 0
-  * Turret time between start of clip and first shot: 750ms
+  * Turret charge time: 750ms
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret impact delay: 1s
   * Turret can shoot over walls: Yes
-  * Turret time between end of clip and start of clip: 1.200s
+  * Turret reload time: 1.200s
   * Turret shot count: 4
-  * Turret time between shots: 100ms
+  * Turret shot delay: 100ms
 
 |Level                 |6  |7  |8   |9   |10  |
 |----------------------|---|---|----|----|----|

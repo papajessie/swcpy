@@ -26,7 +26,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training cost: 1000$, 1000 All.
+  * Training cost: 1000 All., 1000$
 
 ### Upgrading stats
 

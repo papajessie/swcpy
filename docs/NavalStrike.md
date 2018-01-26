@@ -40,7 +40,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Animation delay: 2112
   * Impact delay: 170ms
   * Shot count: 3
-  * Time between shots: 1s
+  * Shot delay: 1s
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|

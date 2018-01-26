@@ -71,16 +71,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 0
-  * Time between start of clip and first shot: 500ms
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 300ms
+  * Shot delay: 300ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |
@@ -111,7 +111,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: Yes
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 15s
+  * Secondary attack cooldown Time: 15s
   * Secondary attack description: Grenade
   * Secondary attack duration: 3.500s
   * Secondary attack recast ability: Yes
@@ -129,17 +129,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Secondary attack animation delay: 810
-  * Secondary attack time between start of clip and first shot: 0s
+  * Secondary attack charge time: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 0
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 1s
   * Secondary attack can shoot over walls: Yes
-  * Secondary attack time between end of clip and start of clip: 1s
+  * Secondary attack reload time: 1s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 790ms
+  * Secondary attack shot delay: 790ms
   * Secondary attack target locking: No
 
   * Secondary attack shot calculated damage per second: 0

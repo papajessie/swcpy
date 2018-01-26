@@ -71,13 +71,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret impact delay: 1s
   * Turret can shoot over walls: Yes
 
-|Level                                            |1     |2     |3     |4     |5     |
-|-------------------------------------------------|------|------|------|------|------|
-|Turret time between start of clip and first shot |1.500s|1.500s|1.500s|1.500s|750ms |
-|Turret damage per shot                           |2250  |3375  |4050  |5400  |817   |
-|Turret time between end of clip and start of clip|3s    |3s    |3s    |3s    |1.200s|
-|Turret shot count                                |1     |1     |1     |1     |4     |
-|Turret time between shots                        |1ms   |1ms   |1ms   |1ms   |100ms |
+|Level                 |1     |2     |3     |4     |5     |
+|----------------------|------|------|------|------|------|
+|Turret charge time    |1.500s|1.500s|1.500s|1.500s|750ms |
+|Turret damage per shot|2250  |3375  |4050  |5400  |817   |
+|Turret reload time    |3s    |3s    |3s    |3s    |1.200s|
+|Turret shot count     |1     |1     |1     |1     |4     |
+|Turret shot delay     |1ms   |1ms   |1ms   |1ms   |100ms |
 
 
 |Level                                     |1   |2   |3   |4   |5   |

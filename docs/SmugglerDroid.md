@@ -59,17 +59,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 0
-  * Time between start of clip and first shot: 1ms
+  * Charge time: 1ms
   * Clip retargeting: No
   * Damage per shot: 1
   * Gun shooting sequence: 1
   * Impact delay: 1ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1ms
+  * Reload time: 1ms
   * Retargeting offset: 1
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 1ms
+  * Shot delay: 1ms
   * Target locking: No
 
 ### Projectile

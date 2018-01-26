@@ -68,16 +68,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 0
-  * Time between start of clip and first shot: 250ms
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 3
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -109,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 45s
+  * Secondary attack cooldown Time: 45s
   * Secondary attack description: Rail Gun
   * Secondary attack duration: 1ms
   * Secondary attack recast ability: No
@@ -127,16 +127,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Secondary attack animation delay: 1
-  * Secondary attack time between start of clip and first shot: 1.200s
+  * Secondary attack charge time: 1.200s
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 1ms
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 2.500s
+  * Secondary attack reload time: 2.500s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 1ms
+  * Secondary attack shot delay: 1ms
   * Secondary attack target locking: No
 
 |Level                           |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |

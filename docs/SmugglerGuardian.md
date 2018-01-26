@@ -78,13 +78,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Self-centered targeting: No
   * Target locking: No
 
-|Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Time between start of clip and first shot |500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|250ms|
-|Damage per shot                           |750  |900  |1050 |1200 |1350 |1500 |1650 |1800 |1950 |2250 |
-|Time between end of clip and start of clip|1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |2s   |
-|Shot count                                |1    |1    |1    |1    |1    |1    |1    |1    |1    |3    |
-|Time between shots                        |200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|500ms|
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Charge time    |500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|250ms|
+|Damage per shot|750  |900  |1050 |1200 |1350 |1500 |1650 |1800 |1950 |2250 |
+|Reload time    |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |2s   |
+|Shot count     |1    |1    |1    |1    |1    |1    |1    |1    |1    |3    |
+|Shot delay     |200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|500ms|
 
 
 ### Projectile
