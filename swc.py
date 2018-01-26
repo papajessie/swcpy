@@ -1043,6 +1043,23 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_equipment_unit(objects,displayed,i)
+    ## Equipment (buildings)
+    xhelp['buildequip']='List the statistics of equipment for buildings'
+    morehelp['buildequip']={'':'building identifier (default: all)'}
+    if ('buildequip' in modes):
+        # do something that adds equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['EquipmentData']).keys():
+                if 'skins' not in data['EquipmentData'][u]:
+                    uname=data['EquipmentData'][u]['equipmentID']
+                    if uname not in tmpdict:
+                        tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_equipment_building(objects,displayed,i)
     ## SpecialAttack (air)
     xhelp['air']='List the statistics of equipment for air strikes (special attacks)'
     morehelp['air']={'':'air strike identifier (default: all)'}
@@ -1085,7 +1102,7 @@ def main(argv):
             with open("docs/{0}.md".format('translate'),"w") as file:
                 addtodisplay(displayed,'index','translate')
                 file.write("---\ntitle: {1} ({0})\ncategory: strings\n---\n".format('translate','Translation strings'))
-                file.write("# {1} ({0}) — version {2}\n\n".format('translate','Translation strings',config['version']))
+                file.write("# {1} ({0})\n\n".format('translate','Translation strings'))
                 for t in elements:
                     string=_(t)
                     file.write('  * **{0}**: {1}\n'.format(t,repr(string)))
@@ -1179,7 +1196,8 @@ def main(argv):
         id='index'
         with open("docs/{0}.md".format(id),"w") as file:
             file.write("---\ntitle: {1} ({0})\ncategory: index\n---\n".format(id,'Main index page'))
-            file.write("# {1} ({0}) — version {2}\n\n".format('index','Main index page',config['version']))
+            file.write("# {1} ({0})\n\n".format('index','Main index page'))
+            file.write("This documentation was generated on {0} for version {1}\n\n".format(date.today().isoformat(),config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
                 file.write(' * [{1}]({0}.html)\n'.format(sid,title))
@@ -1994,6 +2012,80 @@ def analyse_equipment_unit(objects,displayed,id):
     if id not in objects:
         objects[id]=ob
 
+def analyse_equipment_building(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    ob['levels']=[]
+    ob['hq']={}
+    ob['uid']=id
+    ob['title']=id+'_name'
+    ob['unknown']={}
+    ob['presentation']={}
+    ob['projectileTypes']={}
+    ob['options']={}
+    ob['roles']={}
+    ob['buffs']={}
+    ob['equipment']={}
+    ob['eqlevels']=[]
+    ob['eqroles']={}
+    levels=ob['levels']
+    used={}
+    projectiles={}
+    addtodisplay(displayed,'equip',id)
+    for u in (data['EquipmentData']).keys():
+        uname=data['EquipmentData'][u]['equipmentID']
+        if uname!=id:
+            continue
+        effect=data['EquipmentEffectData'][data['EquipmentData'][u]['effectUids'][0]]
+        if 'affectedBuildingIds' not in effect:
+            continue
+        eqlevel=int(data['EquipmentData'][u]['lvl'])
+        eqsubunit={}
+        for k,v in data['EquipmentData'][u].items():
+            eqsubunit['equipment:'+k]=v
+        ob['equipment'][eqlevel]=eqsubunit
+        if eqlevel not in ob['eqlevels']:
+            ob['eqlevels'].append(eqlevel)
+            ob['eqlevels']=sorted(ob['eqlevels'])
+        eqsubunit['equipment:equipmentBuff']=dget(effect,'buffUids',[])
+        eqsubunit['equipment:affectedBuildingIds']=dget(effect,'affectedTroopIds',[None])[0]
+        if eqsubunit['equipment:affectedBuildingIds']==None:
+            die('No base unit',eqsubunit)
+        damagehealth=dobuff(ob,eqsubunit,'equip','equipment:equipmentBuff')
+        skin=None
+        fill_unit_level(ob,eqlevel,eqsubunit,'equipment','eqroles')
+        die("debug",eqsubunit)
+        for uu in (data['TroopData']).keys():
+            if data['TroopData'][uu]['unitID'] != baseunit:
+                continue
+            # subunit is a flattened version of the CSV data
+            subunit={}
+            for k,v in data['TroopData'][uu].items():
+                subunit[k]=v
+            if skin != None:
+                if 'override' in data['SkinData'][skin]:
+                    for k,v in data['SkinOverrideData'][data['SkinData'][skin]['override']].items():
+                        if k != 'uid':
+                            subunit[k]=v
+                for k,v in data['SkinData'][skin].items():
+                    if k != 'uid':
+                        subunit[k]=v
+            fill_unit(ob,subunit,damagehealth)
+            level='{0:02d}.{1:02d}'.format(int(subunit['lvl']),eqlevel)
+            fill_unit_level(ob,level,subunit)
+            levels.append(level)
+    levels=sorted(levels)
+    ob['firstlevel']=levels[0]
+    if len(levels)==1:
+        levelstring=str(levels[0])
+    else:
+        levelstring='{0}-{1}'.format(levels[0],levels[-1])
+    for level in ob['hq'].keys():
+            ob['hq'][level]['levels']=levelstring
+    if id not in objects:
+        objects[id]=ob
+
 
 def analyse_building(objects,displayed,id):
     global data
@@ -2046,7 +2138,7 @@ def output_list_crate(out,objects,item,LINKS=False):
     global config
     id=___(item['uid'])
     title=__(item['title'])
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     xout+='Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.\n\n'
     expiration=display_expiration(item['expirationTime'])
     if (expiration == 'never'):
@@ -2100,7 +2192,7 @@ def output_list_crate(out,objects,item,LINKS=False):
 def output_mdheader_crate(out,objects,displayed):
     with open("docs/crate.md","w") as file:
         file.write("---\ntitle: Index of crates\n---\n")
-        file.write("# Crates — version {0}\n\n".format(config['version']))
+        file.write("# Crates\n\n")
         for crate in displayed:
             item=objects[crate]
             id=___(item['uid'])
@@ -2164,7 +2256,7 @@ def output_csv_tournament(out,objects,item):
 def output_mdheader_tournament(out,objects,displayed):
     with open("docs/tournament.md","w") as file:
         file.write("---\ntitle: Index of conflicts\n---\n")
-        file.write("# Conflicts — version {0}\n\n".format(config['version']))
+        file.write("# Conflicts\n\n")
         dates={}
         for tournament in displayed:
             dates[objects[tournament]['startDate']+objects[tournament]['endDate']+objects[tournament]['planetId']]=tournament
@@ -2242,7 +2334,7 @@ def output_list_unit(out,objects,item,LINKS=False):
     global config
     id=___(item['uid'])
     title=__(item['title'])
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
     xout+=output_list_unit_aux(item,LINKS)
@@ -2383,7 +2475,7 @@ def output_list_unit_aux(item,LINKS):
 def output_mdheader_unit(out,objects,displayed):
     with open("docs/unit.md","w") as file:
         file.write("---\ntitle: Index of units\n---\n")
-        file.write("# Units — version {0}\n\n".format(config['version']))
+        file.write("# Units\n\n")
         file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
         pfd={True:'Buildable units',False:'Other units'}
         for pf in [True, False]:
@@ -2424,7 +2516,7 @@ def output_list_equipunit(out,objects,item,LINKS=False):
     id=___(item['uid'])
     title=__(item['title'])
     allkeys=config['statrole']
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0}){2}\n\n'.format(id,title)
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
     if LINKS:
@@ -2462,7 +2554,7 @@ def output_list_equipunit(out,objects,item,LINKS=False):
 def output_mdheader_equipunit(out,objects,displayed):
     with open("docs/equip.md","w") as file:
         file.write("---\ntitle: Index of unit equipments\n---\n")
-        file.write("# Unit equipments — version {0}\n\n".format(config['version']))
+        file.write("# Unit equipments\n\n")
         file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
         sides={}
         for unit in displayed:
@@ -2497,7 +2589,7 @@ def output_list_air(out,objects,item,LINKS=False):
     global config
     id=___(item['uid'])
     title=__(item['title'])
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
     xout+=output_list_unit_aux(item,LINKS)
@@ -2507,7 +2599,7 @@ def output_list_air(out,objects,item,LINKS=False):
 def output_mdheader_air(out,objects,displayed):
     with open("docs/air.md","w") as file:
         file.write("---\ntitle: Index of air strikes\n---\n")
-        file.write("# Air Strikes — version {0}\n\n".format(config['version']))
+        file.write("# Air Strikes\n\n")
         file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
         pfd={True:'Buildable units',False:'Other units'}
         for pf in [True, False]:
@@ -2547,7 +2639,7 @@ def output_list_building(out,objects,item,LINKS=False):
     global config
     id=___(item['uid'])
     title=__(item['title'])
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
     xout+=output_list_unit_aux(item,LINKS)
@@ -2557,7 +2649,7 @@ def output_list_building(out,objects,item,LINKS=False):
 def output_mdheader_building(out,objects,displayed):
     with open("docs/building.md","w") as file:
         file.write("---\ntitle: Index of buildings\n---\n")
-        file.write("# Buildings — version {0}\n\n".format(config['version']))
+        file.write("# Buildings\n\n")
         file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
         pfa=['army', 'decorations', 'defenses', 'resources']
         pfd={}
@@ -2604,7 +2696,7 @@ def output_list_episode(out,objects,item,LINKS=False):
     global config
     id=___(item['uid'])
     title=__(item['title'])
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title," — version {0}".format(config['version']) if LINKS else '')
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     #    xout+=pformat(item)
     xout+='\n\n'
     for k in ['title','startDate','endDate']:
@@ -2618,7 +2710,7 @@ def output_list_episode(out,objects,item,LINKS=False):
 def output_mdheader_episode(out,objects,displayed):
     with open("docs/episode.md","w") as file:
         file.write("---\ntitle: Index of episodes\n---\n")
-        file.write("# Episodes — version {0}\n\n".format(config['version']))
+        file.write("# Episodes\n\n")
         for episode in displayed:
             item=objects[episode]
             id=___(item['uid'])
