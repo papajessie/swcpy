@@ -3,7 +3,7 @@ title: Undead Offensive (ep_undeadEvt)
 category: episode
 ---
 
-# Undead Offensive (ep_undeadEvt) — version 1117
+# Undead Offensive (ep_undeadEvt)
 
 
 

@@ -3,7 +3,7 @@ title: bldtitlesmugglerabRapidFireTurret (smuggler_ab_RapidFireTurret)
 category: building
 ---
 
-# bldtitlesmugglerabRapidFireTurret (smuggler_ab_RapidFireTurret) — version 1117
+# bldtitlesmugglerabRapidFireTurret (smuggler_ab_RapidFireTurret)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitleblockerRockLargeAreaDeny (blockerRockLargeAreaDeny)
 category: building
 ---
 
-# bldtitleblockerRockLargeAreaDeny (blockerRockLargeAreaDeny) — version 1117
+# bldtitleblockerRockLargeAreaDeny (blockerRockLargeAreaDeny)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

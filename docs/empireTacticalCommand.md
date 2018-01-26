@@ -3,7 +3,7 @@ title: Hero Command (empireTacticalCommand)
 category: building
 ---
 
-# Hero Command (empireTacticalCommand) — version 1117
+# Hero Command (empireTacticalCommand)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: bldtitleblockerErkRockSmall (blockerErkRockSmall)
 category: building
 ---
 
-# bldtitleblockerErkRockSmall (blockerErkRockSmall) — version 1117
+# bldtitleblockerErkRockSmall (blockerErkRockSmall)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

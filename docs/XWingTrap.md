@@ -3,7 +3,7 @@ title: shptitleXWingTrap (XWingTrap)
 category: air
 ---
 
-# shptitleXWingTrap (XWingTrap) — version 1117
+# shptitleXWingTrap (XWingTrap)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

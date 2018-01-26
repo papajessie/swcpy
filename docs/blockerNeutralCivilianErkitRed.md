@@ -3,7 +3,7 @@ title: bldtitleblockerNeutralCivilianErkitRed (blockerNeutralCivilianErkitRed)
 category: building
 ---
 
-# bldtitleblockerNeutralCivilianErkitRed (blockerNeutralCivilianErkitRed) — version 1117
+# bldtitleblockerNeutralCivilianErkitRed (blockerNeutralCivilianErkitRed)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

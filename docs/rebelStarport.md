@@ -3,7 +3,7 @@ title: Unit Transport (rebelStarport)
 category: building
 ---
 
-# Unit Transport (rebelStarport) — version 1117
+# Unit Transport (rebelStarport)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

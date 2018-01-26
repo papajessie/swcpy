@@ -3,7 +3,7 @@ title: shptitleFueTieFighter (FueTieFighter)
 category: air
 ---
 
-# shptitleFueTieFighter (FueTieFighter) — version 1117
+# shptitleFueTieFighter (FueTieFighter)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

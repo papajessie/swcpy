@@ -3,7 +3,7 @@ title: shptitleFreighterNeutral (FreighterNeutral)
 category: air
 ---
 
-# shptitleFreighterNeutral (FreighterNeutral) — version 1117
+# shptitleFreighterNeutral (FreighterNeutral)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

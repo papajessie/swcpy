@@ -3,7 +3,7 @@ title: Desert Soldier (eqpRebelSandSoldier)
 category: unit
 ---
 
-# Desert Soldier (eqpRebelSandSoldier) — version 1117
+# Desert Soldier (eqpRebelSandSoldier)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

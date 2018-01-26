@@ -3,7 +3,7 @@ title: bldtitlesmugglerMunitionsPlant (smugglerMunitionsPlant)
 category: building
 ---
 
-# bldtitlesmugglerMunitionsPlant (smugglerMunitionsPlant) — version 1117
+# bldtitlesmugglerMunitionsPlant (smugglerMunitionsPlant)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

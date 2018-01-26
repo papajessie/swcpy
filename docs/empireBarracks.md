@@ -3,7 +3,7 @@ title: Barracks (empireBarracks)
 category: building
 ---
 
-# Barracks (empireBarracks) — version 1117
+# Barracks (empireBarracks)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Naval Assault (ep_navalEvt)
 category: episode
 ---
 
-# Naval Assault (ep_navalEvt) — version 1117
+# Naval Assault (ep_navalEvt)
 
 
 

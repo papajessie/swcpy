@@ -3,7 +3,7 @@ title: bldtitleblockerYavRockLarge (blockerYavRockLarge)
 category: building
 ---
 
-# bldtitleblockerYavRockLarge (blockerYavRockLarge) — version 1117
+# bldtitleblockerYavRockLarge (blockerYavRockLarge)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Heavy Sandtrooper (eqpEmpireHeavySandtrooper)
 category: unit
 ---
 
-# Heavy Sandtrooper (eqpEmpireHeavySandtrooper) — version 1117
+# Heavy Sandtrooper (eqpEmpireHeavySandtrooper)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

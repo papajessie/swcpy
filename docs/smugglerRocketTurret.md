@@ -3,7 +3,7 @@ title: Smuggler Rocket Turret (smugglerRocketTurret)
 category: building
 ---
 
-# Smuggler Rocket Turret (smugglerRocketTurret) — version 1117
+# Smuggler Rocket Turret (smugglerRocketTurret)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: TIE Bomber (TieBomber)
 category: air
 ---
 
-# TIE Bomber (TieBomber) — version 1117
+# TIE Bomber (TieBomber)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Starship Command (empireFleetCommand)
 category: building
 ---
 
-# Starship Command (empireFleetCommand) — version 1117
+# Starship Command (empireFleetCommand)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

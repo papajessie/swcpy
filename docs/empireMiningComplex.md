@@ -3,7 +3,7 @@ title: bldtitleempireMiningComplex (empireMiningComplex)
 category: building
 ---
 
-# bldtitleempireMiningComplex (empireMiningComplex) — version 1117
+# bldtitleempireMiningComplex (empireMiningComplex)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

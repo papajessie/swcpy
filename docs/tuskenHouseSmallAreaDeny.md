@@ -3,7 +3,7 @@ title: bldtitletuskenHouseSmallAreaDeny (tuskenHouseSmallAreaDeny)
 category: building
 ---
 
-# bldtitletuskenHouseSmallAreaDeny (tuskenHouseSmallAreaDeny) — version 1117
+# bldtitletuskenHouseSmallAreaDeny (tuskenHouseSmallAreaDeny)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

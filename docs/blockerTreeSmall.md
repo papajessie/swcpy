@@ -3,7 +3,7 @@ title: bldtitleblockerTreeSmall (blockerTreeSmall)
 category: building
 ---
 
-# bldtitleblockerTreeSmall (blockerTreeSmall) — version 1117
+# bldtitleblockerTreeSmall (blockerTreeSmall)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

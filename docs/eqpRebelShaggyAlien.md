@@ -3,7 +3,7 @@ title: Gigoran Fighter (eqpRebelShaggyAlien)
 category: unit
 ---
 
-# Gigoran Fighter (eqpRebelShaggyAlien) — version 1117
+# Gigoran Fighter (eqpRebelShaggyAlien)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

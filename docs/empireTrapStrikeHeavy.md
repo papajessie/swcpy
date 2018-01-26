@@ -3,7 +3,7 @@ title: TIE Striker Trap (empireTrapStrikeHeavy)
 category: building
 ---
 
-# TIE Striker Trap (empireTrapStrikeHeavy) — version 1117
+# TIE Striker Trap (empireTrapStrikeHeavy)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

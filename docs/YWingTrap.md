@@ -3,7 +3,7 @@ title: shptitleYWingTrap (YWingTrap)
 category: air
 ---
 
-# shptitleYWingTrap (YWingTrap) — version 1117
+# shptitleYWingTrap (YWingTrap)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

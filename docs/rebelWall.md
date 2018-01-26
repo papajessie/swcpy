@@ -3,7 +3,7 @@ title: Wall (rebelWall)
 category: building
 ---
 
-# Wall (rebelWall) — version 1117
+# Wall (rebelWall)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

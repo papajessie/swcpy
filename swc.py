@@ -2516,7 +2516,7 @@ def output_list_equipunit(out,objects,item,LINKS=False):
     id=___(item['uid'])
     title=__(item['title'])
     allkeys=config['statrole']
-    xout='\n# {1} ({0}){2}\n\n'.format(id,title)
+    xout='\n# {1} ({0})\n\n'.format(id,title)
     if LINKS:
         xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
     if LINKS:

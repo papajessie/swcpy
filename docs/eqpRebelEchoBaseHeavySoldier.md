@@ -3,7 +3,7 @@ title: Cold-weather Heavy Soldier (eqpRebelEchoBaseHeavySoldier)
 category: unit
 ---
 
-# Cold-weather Heavy Soldier (eqpRebelEchoBaseHeavySoldier) — version 1117
+# Cold-weather Heavy Soldier (eqpRebelEchoBaseHeavySoldier)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

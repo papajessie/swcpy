@@ -3,7 +3,7 @@ title: bldtitleforestManufactory (forestManufactory)
 category: building
 ---
 
-# bldtitleforestManufactory (forestManufactory) — version 1117
+# bldtitleforestManufactory (forestManufactory)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

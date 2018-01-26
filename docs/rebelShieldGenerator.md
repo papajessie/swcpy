@@ -3,7 +3,7 @@ title: Shield Generator (rebelShieldGenerator)
 category: building
 ---
 
-# Shield Generator (rebelShieldGenerator) — version 1117
+# Shield Generator (rebelShieldGenerator)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

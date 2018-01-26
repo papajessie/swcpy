@@ -3,7 +3,7 @@ title: bldtitlesmugglerFactory (smugglerFactory)
 category: building
 ---
 
-# bldtitlesmugglerFactory (smugglerFactory) — version 1117
+# bldtitlesmugglerFactory (smugglerFactory)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

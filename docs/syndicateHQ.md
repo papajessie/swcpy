@@ -3,7 +3,7 @@ title: bldtitlesyndicateHQ (syndicateHQ)
 category: building
 ---
 
-# bldtitlesyndicateHQ (syndicateHQ) — version 1117
+# bldtitlesyndicateHQ (syndicateHQ)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

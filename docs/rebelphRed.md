@@ -3,7 +3,7 @@ title: bldtitlerebelphRed (rebelphRed)
 category: building
 ---
 
-# bldtitlerebelphRed (rebelphRed) — version 1117
+# bldtitlerebelphRed (rebelphRed)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

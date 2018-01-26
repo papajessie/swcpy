@@ -3,7 +3,7 @@ title: bldtitleblockerNeutralCivilianHuman (blockerNeutralCivilianHuman)
 category: building
 ---
 
-# bldtitleblockerNeutralCivilianHuman (blockerNeutralCivilianHuman) — version 1117
+# bldtitleblockerNeutralCivilianHuman (blockerNeutralCivilianHuman)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

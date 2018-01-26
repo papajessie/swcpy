@@ -3,7 +3,7 @@ title: bldtitlerebelStarshipWeaponsDepot (rebelStarshipWeaponsDepot)
 category: building
 ---
 
-# bldtitlerebelStarshipWeaponsDepot (rebelStarshipWeaponsDepot) — version 1117
+# bldtitlerebelStarshipWeaponsDepot (rebelStarshipWeaponsDepot)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Womp Rat Nest  (wompRatNestSmall)
 category: building
 ---
 
-# Womp Rat Nest  (wompRatNestSmall) — version 1117
+# Womp Rat Nest  (wompRatNestSmall)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

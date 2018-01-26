@@ -3,7 +3,7 @@ title: Artoo  Threepio (eqpRebelArtoo)
 category: unit
 ---
 
-# Artoo  Threepio (eqpRebelArtoo) — version 1117
+# Artoo  Threepio (eqpRebelArtoo)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

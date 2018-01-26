@@ -3,7 +3,7 @@ title: bldtitleempireWeaponsFactory (empireWeaponsFactory)
 category: building
 ---
 
-# bldtitleempireWeaponsFactory (empireWeaponsFactory) — version 1117
+# bldtitleempireWeaponsFactory (empireWeaponsFactory)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: TIE fighter (TieFighter)
 category: air
 ---
 
-# TIE fighter (TieFighter) — version 1117
+# TIE fighter (TieFighter)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

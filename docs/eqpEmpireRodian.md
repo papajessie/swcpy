@@ -3,7 +3,7 @@ title: Rodian Recon Sniper (eqpEmpireRodian)
 category: unit
 ---
 
-# Rodian Recon Sniper (eqpEmpireRodian) — version 1117
+# Rodian Recon Sniper (eqpEmpireRodian)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

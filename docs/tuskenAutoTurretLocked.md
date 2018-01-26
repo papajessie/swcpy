@@ -3,7 +3,7 @@ title: bldtitletuskenAutoTurretLocked (tuskenAutoTurretLocked)
 category: building
 ---
 
-# bldtitletuskenAutoTurretLocked (tuskenAutoTurretLocked) — version 1117
+# bldtitletuskenAutoTurretLocked (tuskenAutoTurretLocked)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

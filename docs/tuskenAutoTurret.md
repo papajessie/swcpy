@@ -3,7 +3,7 @@ title: bldtitletuskenAutoTurret (tuskenAutoTurret)
 category: building
 ---
 
-# bldtitletuskenAutoTurret (tuskenAutoTurret) — version 1117
+# bldtitletuskenAutoTurret (tuskenAutoTurret)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

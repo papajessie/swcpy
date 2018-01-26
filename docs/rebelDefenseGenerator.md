@@ -3,7 +3,7 @@ title: bldtitlerebelDefenseGenerator (rebelDefenseGenerator)
 category: building
 ---
 
-# bldtitlerebelDefenseGenerator (rebelDefenseGenerator) — version 1117
+# bldtitlerebelDefenseGenerator (rebelDefenseGenerator)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: shptitleGozantiCruiser (GozantiCruiser)
 category: air
 ---
 
-# shptitleGozantiCruiser (GozantiCruiser) — version 1117
+# shptitleGozantiCruiser (GozantiCruiser)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

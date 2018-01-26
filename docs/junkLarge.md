@@ -3,7 +3,7 @@ title: Large Junk (junkLarge)
 category: building
 ---
 
-# Large Junk (junkLarge) — version 1117
+# Large Junk (junkLarge)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

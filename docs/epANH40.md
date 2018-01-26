@@ -3,7 +3,7 @@ title: Star Wars 40th Anniversary Event (epANH40)
 category: episode
 ---
 
-# Star Wars 40th Anniversary Event (epANH40) — version 1117
+# Star Wars 40th Anniversary Event (epANH40)
 
 
 

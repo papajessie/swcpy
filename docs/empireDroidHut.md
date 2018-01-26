@@ -3,7 +3,7 @@ title: Droid Hut (empireDroidHut)
 category: building
 ---
 
-# Droid Hut (empireDroidHut) — version 1117
+# Droid Hut (empireDroidHut)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

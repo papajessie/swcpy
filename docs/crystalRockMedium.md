@@ -3,7 +3,7 @@ title: bldtitlecrystalRockMedium (crystalRockMedium)
 category: building
 ---
 
-# bldtitlecrystalRockMedium (crystalRockMedium) — version 1117
+# bldtitlecrystalRockMedium (crystalRockMedium)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

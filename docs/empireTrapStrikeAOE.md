@@ -3,7 +3,7 @@ title: TIE Bomber Trap (empireTrapStrikeAOE)
 category: building
 ---
 
-# TIE Bomber Trap (empireTrapStrikeAOE) — version 1117
+# TIE Bomber Trap (empireTrapStrikeAOE)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

@@ -3,7 +3,7 @@ title: Naval Officer (eqpEmpireNavalOfficer)
 category: unit
 ---
 
-# Naval Officer (eqpEmpireNavalOfficer) — version 1117
+# Naval Officer (eqpEmpireNavalOfficer)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

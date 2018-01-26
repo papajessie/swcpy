@@ -3,7 +3,7 @@ title: Heavy Shoretrooper (eqpEmpirePentagonHeavyTrooper)
 category: unit
 ---
 
-# Heavy Shoretrooper (eqpEmpirePentagonHeavyTrooper) — version 1117
+# Heavy Shoretrooper (eqpEmpirePentagonHeavyTrooper)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

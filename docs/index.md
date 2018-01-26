@@ -2,7 +2,9 @@
 title: Main index page (index)
 category: index
 ---
-# Main index page (index) — version 1117
+# Main index page (index)
+
+This documentation was generated on 2018-01-26 for version 1118
 
  * [Index of objects of type "air"](air.html)
  * [Index of objects of type "building"](building.html)

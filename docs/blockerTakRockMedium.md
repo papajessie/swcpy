@@ -3,7 +3,7 @@ title: bldtitleblockerTakRockMedium (blockerTakRockMedium)
 category: building
 ---
 
-# bldtitleblockerTakRockMedium (blockerTakRockMedium) — version 1117
+# bldtitleblockerTakRockMedium (blockerTakRockMedium)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

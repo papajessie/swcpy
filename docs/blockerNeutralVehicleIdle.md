@@ -3,7 +3,7 @@ title: bldtitleblockerNeutralVehicleIdle (blockerNeutralVehicleIdle)
 category: building
 ---
 
-# bldtitleblockerNeutralVehicleIdle (blockerNeutralVehicleIdle) — version 1117
+# bldtitleblockerNeutralVehicleIdle (blockerNeutralVehicleIdle)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
