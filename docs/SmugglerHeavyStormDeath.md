@@ -84,16 +84,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 500ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 10
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -106,12 +107,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2      |3      |4   |5       |6       |7   |8       |9   |10      |
 |----------------------------|----|-------|-------|----|--------|--------|----|--------|----|--------|
 |Displayed damage per second |650 |782.500|911.250|1040|1172.500|1301.250|1430|1562.500|1690|1951.250|
-|Calculated damage per second|632 |750    |882    |1000|1132    |1250    |1382|1500    |1632|1882    |
+|Calculated damage per second|614 |728    |857    |971 |1100    |1214    |1342|1457    |1585|1828    |
 |Calculated damage per clip  |2150|2550   |3000   |3400|3850    |4250    |4700|5100    |5550|6400    |
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.400s
+  * Cliptime: 3.500s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 30
@@ -130,7 +131,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: heavytrooper_dth-ani
   * Audio attack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35

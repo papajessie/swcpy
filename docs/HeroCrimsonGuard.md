@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 100ms
+  * Animation delay: 1000
+  * Charge time: 100ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 4
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2600|3120|3640|4160|4680|5200|5720|6240|6760|7800|
-|Calculated damage per second|2600|3120|3640|4160|4680|5200|5720|6240|6760|7800|
+|Calculated damage per second|1300|1560|1820|2080|2340|2600|2860|3120|3380|3900|
 |Calculated damage per clip  |2860|3432|4004|4576|5148|5720|6292|6864|7436|8580|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.100s
+  * Cliptime: 2.200s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -119,7 +120,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: crimsonguard_emp-ani
   * Audio attack: "sfx_attack_hero_crimsonguard_1":35,"sfx_attack_hero_crimsonguard_2":35,"sfx_attack_hero_crimsonguard_3":30

@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |----------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second |48 |57 |67 |77 |86 |96 |106|115|125|144|
-|Calculated damage per second|48 |57 |67 |77 |86 |96 |106|115|125|144|
+|Calculated damage per second|39 |47 |55 |63 |70 |78 |86 |94 |102|118|
 |Calculated damage per clip  |109|130|152|174|195|217|239|260|282|325|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.250s
+  * Cliptime: 2.750s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: raiderrifle_tkn-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30

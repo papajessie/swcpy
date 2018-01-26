@@ -73,21 +73,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1,1
   * Impact delay: 0s
   * Can shoot over walls: No
   * Retargeting offset: 12
   * Self-centered targeting: No
-  * Time between shots: 0s
+  * Shot delay: 0s
   * Target locking: No
 
-|Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot                           |970  |1030 |1100 |1170 |1250 |1330 |1420 |1520 |1620 |1730 |
-|Time between end of clip and start of clip|800ms|800ms|800ms|800ms|800ms|800ms|625ms|625ms|625ms|625ms|
-|Shot count                                |1    |1    |1    |1    |1    |1    |2    |2    |2    |2    |
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot|970  |1030 |1100 |1170 |1250 |1330 |1420 |1520 |1620 |1730 |
+|Reload time    |800ms|800ms|800ms|800ms|800ms|800ms|625ms|625ms|625ms|625ms|
+|Shot count     |1    |1    |1    |1    |1    |1    |2    |2    |2    |2    |
 
 
 ### Projectile
@@ -122,7 +123,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: speederbike_emp-ani
   * Audio attack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25

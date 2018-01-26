@@ -58,27 +58,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Damage per shot: 30
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 ### Projectile
 
   * Displayed damage per second: 26
-  * Calculated damage per second: 26
+  * Calculated damage per second: 21
   * Calculated damage per clip: 60
 
   * Cannons per sequence: 2
-  * Cliptime: 2.250s
+  * Cliptime: 2.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -96,7 +97,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: bountyhunter_smg-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25

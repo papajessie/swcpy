@@ -57,7 +57,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 5200
   * Asset name: dropship_emp-ani
   * Audio attack: "sfx_attack_dropship_01":100
   * Audio movement: "sfx_movement_empiredropship_land_01":100

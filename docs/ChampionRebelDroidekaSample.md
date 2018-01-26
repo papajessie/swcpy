@@ -67,14 +67,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
-  * Time between shots: 233ms
+  * Shot delay: 233ms
   * Target locking: No
 
 |Level                |1      |2      |3      |4      |5      |6      |7      |8          |9          |10         |
@@ -89,11 +90,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2640|3258|3699|4137|4578|5019 |5370 |5721 |6216 |6636 |
-|Calculated damage per second|3107|3837|4355|4868|5391|5909 |6323 |6815 |7317 |7811 |
+|Calculated damage per second|2732|3374|3830|4281|4741|5196 |5561 |5993 |6434 |6869 |
 |Calculated damage per clip  |5280|6520|7400|8272|9160|10040|10744|11580|12432|13272|
 
 
-  * Cliptime: 1.699s
+  * Cliptime: 1.932s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -116,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Audio attack: "sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25
   * Audio death: "sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30

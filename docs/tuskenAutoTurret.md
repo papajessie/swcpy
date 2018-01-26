@@ -65,24 +65,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Turret animation delay: 0
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret impact delay: 1s
   * Turret can shoot over walls: Yes
 
-|Level                                            |1     |2     |3     |4     |5     |
-|-------------------------------------------------|------|------|------|------|------|
-|Turret time between start of clip and first shot |1.500s|1.500s|1.500s|1.500s|750ms |
-|Turret damage per shot                           |2250  |3375  |4050  |5400  |817   |
-|Turret time between end of clip and start of clip|3s    |3s    |3s    |3s    |1.200s|
-|Turret shot count                                |1     |1     |1     |1     |4     |
-|Turret time between shots                        |1ms   |1ms   |1ms   |1ms   |100ms |
+|Level                 |1     |2     |3     |4     |5     |
+|----------------------|------|------|------|------|------|
+|Turret charge time    |1.500s|1.500s|1.500s|1.500s|750ms |
+|Turret damage per shot|2250  |3375  |4050  |5400  |817   |
+|Turret reload time    |3s    |3s    |3s    |3s    |1.200s|
+|Turret shot count     |1     |1     |1     |1     |4     |
+|Turret shot delay     |1ms   |1ms   |1ms   |1ms   |100ms |
 
 
 |Level                                     |1   |2   |3   |4   |5   |
 |------------------------------------------|----|----|----|----|----|
 |Turret displayed damage per second        |500 |750 |1000|1500|1452|
-|Turret attack calculated damage per second|500 |750 |900 |1200|1452|
+|Turret attack calculated damage per second|499 |749 |899 |1199|1390|
 |Turret attack calculated damage per clip  |2250|3375|4050|5400|3268|
 
 
@@ -95,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                 |1-4   |5     |
 |----------------------|------|------|
-|Turret attack cliptime|4.500s|2.250s|
+|Turret attack cliptime|4.501s|2.350s|
 |Turret attack salvos  |1     |4     |
 
 
@@ -127,7 +128,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0,1.13,-0.13
   * Stash order: 1000
   * Store tab: not_in_store
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_blaster_beam_g_lrg
   * Turret attack hit spark: fx_blaster_hit_g_lrg

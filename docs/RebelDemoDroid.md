@@ -3,7 +3,7 @@ title: Demolition Droid (RebelDemoDroid)
 category: unit
 ---
 
-# Demolition Droid (RebelDemoDroid) — version 1119
+# Demolition Droid (RebelDemoDroid)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

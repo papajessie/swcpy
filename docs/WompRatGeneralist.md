@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 1000
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 8
   * Self-centered targeting: No
   * Shot count: 4
-  * Time between shots: 250ms
+  * Shot delay: 250ms
   * Target locking: No
 
 |Level          |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
@@ -90,12 +91,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1 |2 |3  |4  |5  |6  |7  |8  |9  |10 |
 |----------------------------|--|--|---|---|---|---|---|---|---|---|
 |Displayed damage per second |40|48|56 |64 |72 |80 |88 |96 |104|120|
-|Calculated damage per second|40|48|56 |64 |72 |80 |88 |96 |104|120|
+|Calculated damage per second|12|15|17 |20 |23 |25 |28 |30 |33 |38 |
 |Calculated damage per clip  |80|96|112|128|144|160|176|192|208|240|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2s
+  * Cliptime: 6.250s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -113,7 +114,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: womprat_neu-ani
   * Audio attack: "sfx_attack_creatures_womprat_1":15,"sfx_attack_creatures_womprat_2":15,"sfx_attack_creatures_womprat_3":15,"sfx_attack_creatures_womprat_4":55

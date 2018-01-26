@@ -37,9 +37,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1466
   * Impact delay: 150ms
   * Shot count: 15
-  * Time between shots: 150ms
+  * Shot delay: 150ms
 
 |Level          |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |---------------|---|---|---|---|----|----|----|----|----|----|
@@ -53,12 +54,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |5490|8010|10065|13500|16245|18990|21510|24030|27000|29520|
-|Calculated damage per second|2614|3814|4792 |6428 |7735 |9042 |10242|11442|12857|14057|
+|Calculated damage per second|226 |330 |415  |556  |670  |783  |887  |991  |1113 |1217 |
 |Calculated damage per clip  |5490|8010|10065|13500|16245|18990|21510|24030|27000|29520|
 
 
   * Cannons per sequence: 8
-  * Cliptime: 2.100s
+  * Cliptime: 24.240s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -79,7 +80,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1466
   * Arcs: No
   * Asset name: millenniumfalcon_rbl-ani
   * Audio attack: "sfx_attack_starship_mfalcon_01":25,"sfx_attack_starship_mfalcon_02":25,"sfx_attack_starship_mfalcon_03":25,"sfx_attack_starship_mfalcon_04":25

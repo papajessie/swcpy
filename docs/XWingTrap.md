@@ -44,9 +44,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 1056
   * Impact delay: 170ms
   * Shot count: 6
-  * Time between shots: 150ms
+  * Shot delay: 150ms
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
@@ -57,15 +58,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,100,100,10,3
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |9000 |13512|16896|22680|27408|31680|36240|40200|45216|49632|
-|Calculated damage per second|11520|13840|15200|17440|19600|21760|23920|26080|28320|32640|
-|Calculated damage per clip  |8640 |10380|11400|13080|14700|16320|17940|19560|21240|24480|
+|Level                       |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |9000|13512|16896|22680|27408|31680|36240|40200|45216|49632|
+|Calculated damage per second|1194|1434 |1575 |1807 |2031 |2255 |2479 |2703 |2935 |3383 |
+|Calculated damage per clip  |8640|10380|11400|13080|14700|16320|17940|19560|21240|24480|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 750ms
+  * Cliptime: 7.236s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -82,7 +83,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1056
   * Arcs: No
   * Asset name: xwing_rbl-ani
   * Audio attack: "sfx_attack_rebel_xwing_1":33,"sfx_attack_rebel_xwing_1":33,"sfx_attack_rebel_xwing_1":34

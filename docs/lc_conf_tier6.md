@@ -19,9 +19,13 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1 data fragments of unlockable troop [MTV-7](MTV7)
 
-### On Takodana
+### Rebellion on Takodana
 
-  * No items, see the fallback option below
+  * (1/1) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+
+### Empire on Takodana
+
+  * (1/1) 1 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
 ### Rebellion on Dandoran
 

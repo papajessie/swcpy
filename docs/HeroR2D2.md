@@ -70,17 +70,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Damage per shot: 0
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 4
   * Self-centered targeting: Yes
   * Shot count: 2
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: Yes
 
 ### Projectile
@@ -95,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.100s
+  * Cliptime: 2.200s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -138,7 +139,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: r2d2_rbl-ani
   * Audio attack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50

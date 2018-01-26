@@ -58,27 +58,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1s
+  * Animation delay: 0
+  * Charge time: 1s
   * Clip retargeting: No
   * Damage per shot: 2160
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 16
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 250ms
+  * Shot delay: 250ms
   * Target locking: No
 
 ### Projectile
 
   * Displayed damage per second: 1920
-  * Calculated damage per second: 1920
+  * Calculated damage per second: 1728
   * Calculated damage per clip: 4320
 
   * Cannons per sequence: 2
-  * Cliptime: 2.250s
+  * Cliptime: 2.500s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -96,7 +97,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: atst_emp-ani
   * Audio attack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25

@@ -65,18 +65,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Turret animation delay: 0
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret can shoot over walls: Yes
 
-|Level                                            |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-------------------------------------------------|------|------|------|------|------|------|------|------|------|------|
-|Turret time between start of clip and first shot |1.500s|1.500s|1.500s|1.500s|1.750s|1.750s|1.750s|1.750s|1.750s|1.750s|
-|Turret damage per shot                           |178   |267   |321   |428   |888   |980   |1072  |1164  |1256  |1378  |
-|Turret impact delay                              |1s    |1s    |1s    |1s    |250ms |250ms |250ms |250ms |250ms |250ms |
-|Turret time between end of clip and start of clip|3s    |3s    |3s    |3s    |1.050s|1.050s|1.050s|1.050s|1.050s|1.050s|
-|Turret shot count                                |1     |1     |1     |1     |6     |6     |6     |6     |6     |6     |
-|Turret time between shots                        |1ms   |1ms   |1ms   |1ms   |175ms |175ms |175ms |175ms |175ms |175ms |
+|Level                 |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|----------------------|------|------|------|------|------|------|------|------|------|------|
+|Turret charge time    |1.500s|1.500s|1.500s|1.500s|1.750s|1.750s|1.750s|1.750s|1.750s|1.750s|
+|Turret damage per shot|178   |267   |321   |428   |888   |980   |1072  |1164  |1256  |1378  |
+|Turret impact delay   |1s    |1s    |1s    |1s    |250ms |250ms |250ms |250ms |250ms |250ms |
+|Turret reload time    |3s    |3s    |3s    |3s    |1.050s|1.050s|1.050s|1.050s|1.050s|1.050s|
+|Turret shot count     |1     |1     |1     |1     |6     |6     |6     |6     |6     |6     |
+|Turret shot delay     |1ms   |1ms   |1ms   |1ms   |175ms |175ms |175ms |175ms |175ms |175ms |
 
 
   * Turret attack splash damage percentages: 100
@@ -84,7 +85,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                     |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |------------------------------------------|---|---|---|---|----|----|----|----|----|----|
 |Turret displayed damage per second        |39 |59 |71 |95 |1449|1600|1750|1900|2050|2249|
-|Turret attack calculated damage per second|39 |59 |71 |95 |1449|1600|1750|1900|2050|2249|
+|Turret attack calculated damage per second|39 |59 |71 |95 |1383|1527|1670|1814|1957|2147|
 |Turret attack calculated damage per clip  |178|267|321|428|5328|5880|6432|6984|7536|8268|
 
 
@@ -97,7 +98,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                 |1-4   |5-10  |
 |----------------------|------|------|
-|Turret attack cliptime|4.500s|3.675s|
+|Turret attack cliptime|4.501s|3.850s|
 |Turret attack salvos  |1     |6     |
 
 
@@ -129,7 +130,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,0.25,-0.02
   * Stash order: 1000
   * Store tab: not_in_store
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_rocket_projectile_b_med
   * Turret attack hit spark: fx_rocket_hit_b_med

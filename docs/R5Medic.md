@@ -67,17 +67,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 50ms
+  * Animation delay: 0
+  * Charge time: 50ms
   * Clip retargeting: No
   * Damage per shot: 0
   * Gun shooting sequence: 1
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 900ms
+  * Reload time: 900ms
   * Retargeting offset: 10
   * Self-centered targeting: Yes
   * Shot count: 2
-  * Time between shots: 400ms
+  * Shot delay: 400ms
   * Target locking: Yes
 
 ### Projectile
@@ -92,7 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.350s
+  * Cliptime: 1.750s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -137,7 +138,6 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Adv heal asset name: fx_healing_condition
   * Adv heal bundle name: fx_healing
-  * Animation delay: 0
   * Arcs: No
   * Asset name: r5droid_emp-ani
   * Audio attack: "sfx_attack_droid_medic_1":50,"sfx_attack_droid_medic_2":50

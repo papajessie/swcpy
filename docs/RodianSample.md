@@ -123,17 +123,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * New target on reload: Yes
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -148,12 +149,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|----|-----|-----|-----|
 |Displayed damage per second |2195|2745|3365|4040|4765|5565|6415|7315 |8275 |9980 |
-|Calculated damage per second|1113|1334|1557|1780|2002|2225|2448|2669 |2892 |3337 |
+|Calculated damage per second|982 |1177|1374|1570|1767|1963|2160|2355 |2551 |2944 |
 |Calculated damage per clip  |4175|5005|5840|6675|7510|8345|9180|10010|10845|12515|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.750s
+  * Cliptime: 4.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -178,7 +179,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: rodiansniper_emp-ani
   * Audio attack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34

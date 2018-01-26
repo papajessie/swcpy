@@ -47,9 +47,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 1.250s
   * Shot count: 1
-  * Time between shots: 150ms
+  * Shot delay: 150ms
 
 |Level          |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |---------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -60,14 +61,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Splash damage percentages: 100,100,100,100
 
-|Level                      |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
-|---------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second|6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
-|Calculated damage per clip |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
+|Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
+|Calculated damage per second|2652|3978|5305 |6631 |7957 |9283 |10610|11936|13262|14588|
+|Calculated damage per clip  |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 0s
+  * Cliptime: 2.262s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -84,7 +86,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: saponzafreighter_neu-ani
   * Audio attack: "sfx_attack_rocket_1":20,"sfx_attack_rocket_2":20,"sfx_attack_rocket_3":20,"sfx_attack_rocket_4":20,"sfx_attack_rocket_5":20

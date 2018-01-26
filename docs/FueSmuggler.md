@@ -74,21 +74,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Impact delay: 1s
   * Can shoot over walls: No
   * Retargeting offset: 10
   * Self-centered targeting: No
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
-|Level                                     |1  |2     |3  |
-|------------------------------------------|---|------|---|
-|Damage per shot                           |50 |50    |434|
-|Gun shooting sequence                     |1,2|1,2   |1  |
-|Time between end of clip and start of clip|2s |1.500s|2s |
-|Shot count                                |3  |2     |3  |
+|Level                |1  |2     |3  |
+|---------------------|---|------|---|
+|Damage per shot      |50 |50    |434|
+|Gun shooting sequence|1,2|1,2   |1  |
+|Reload time          |2s |1.500s|2s |
+|Shot count           |3  |2     |3  |
 
 
 ### Projectile
@@ -96,7 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3   |
 |----------------------------|---|---|----|
 |Displayed damage per second |46 |44 |400 |
-|Calculated damage per second|46 |44 |400 |
+|Calculated damage per second|40 |36 |347 |
 |Calculated damage per clip  |150|100|1302|
 
 
@@ -108,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Cannons per sequence|2                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |1                                                                                                                                                                                                                                                                                                            |
-|Cliptime            |3.250s                                                                                                                                                                                                                                                                                                                                      |2.250s                                                                                                                                                                                                                                                                                                                                      |3.250s                                                                                                                                                                                                                                                                                                       |
+|Cliptime            |3.750s                                                                                                                                                                                                                                                                                                                                      |2.750s                                                                                                                                                                                                                                                                                                                                      |3.750s                                                                                                                                                                                                                                                                                                       |
 |Damage multipliers  |**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(200)**: Wall, **(100)**: Droideka, Shield, Storage, **(50)**: Headquarters, Other building, Ressource generator, Shield generator, Trap, Turret, **(20)**: Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero|**(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall|
 |Salvos              |3                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                                                            |
 
@@ -123,7 +124,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
   * Audio death: "sfx_death_troop_1":10,"sfx_death_troop_2":10,"sfx_death_troop_3":10,"sfx_death_troop_4":10,"sfx_death_troop_5":10,"sfx_death_troop_6":10,"sfx_death_troop_7":10,"sfx_death_troop_8":30

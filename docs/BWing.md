@@ -44,9 +44,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Impact delay: 500ms
   * Shot count: 12
-  * Time between shots: 100ms
+  * Shot delay: 100ms
 
 |Level          |1  |2  |3  |4  |5  |6   |7   |8   |9   |10  |
 |---------------|---|---|---|---|---|----|----|----|----|----|
@@ -60,12 +61,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |3840|5640|6720|9000|10920|12000|14640|16560|18360|20280|
-|Calculated damage per second|3490|5127|6109|8181|9927 |10909|13309|15054|16690|18436|
+|Calculated damage per second|144 |212 |253 |339 |411  |452  |551  |623  |691  |764  |
 |Calculated damage per clip  |3840|5640|6720|9000|10920|12000|14640|16560|18360|20280|
 
 
   * Cannons per sequence: 12
-  * Cliptime: 1.100s
+  * Cliptime: 26.544s
   * Directional: No
   * Is deflectable: No
   * Max speed: 20
@@ -86,7 +87,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: bwingfleet_rbl-ani
   * Audio attack: "sfx_attack_rebel_xwing_1":100

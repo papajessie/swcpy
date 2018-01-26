@@ -70,16 +70,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 500ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 10
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
 |Level          |1-7|8  |9  |10 |
@@ -92,12 +93,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |650 |782 |911 |1041|1170|1300|1432|1561|1691|1950|
-|Calculated damage per second|1432|1432|1432|1432|1432|1432|1432|1561|1691|1950|
+|Calculated damage per second|1391|1391|1391|1391|1391|1391|1391|1517|1642|1894|
 |Calculated damage per clip  |4870|4870|4870|4870|4870|4870|4870|5310|5750|6630|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.400s
+  * Cliptime: 3.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 30
@@ -115,7 +116,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: heavysoldier_rbl-ani
   * Audio attack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35

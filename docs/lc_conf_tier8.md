@@ -31,10 +31,6 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
   * (1/1) 32 data fragments of unlockable air support [A-wing Starfighter](AWing)
 
-### On Takodana
-
-  * No items, see the fallback option below
-
 ### Empire on Hoth
 
   * (1/1) 32 data fragments of unlockable troop [MTV-7](MTV7)
@@ -54,6 +50,14 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 ### Rebellion on Yavin 4
 
   * (1/1) 32 data fragments of unlockable air support [HWK-290](HWK290)
+
+### Empire on Takodana
+
+  * (1/1) 32 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+
+### Rebellion on Takodana
+
+  * (1/1) 32 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
 
 ### Fallback for HQ level 10
 

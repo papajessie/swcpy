@@ -70,16 +70,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 300ms
+  * Shot delay: 300ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |
 |----------------------------|----|----|----|----|----|
-|Calculated damage per second|784 |881 |972 |1063|1154|
+|Calculated damage per second|690 |776 |856 |936 |1016|
 |Calculated damage per clip  |1725|1940|2140|2340|2540|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.200s
+  * Cliptime: 2.500s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
@@ -110,7 +111,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: Yes
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 15s
+  * Secondary attack cooldown Time: 15s
   * Secondary attack description: Grenade
   * Secondary attack duration: 3.500s
   * Secondary attack recast ability: Yes
@@ -127,17 +128,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 0s
+  * Secondary attack animation delay: 810
+  * Secondary attack charge time: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 0
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 1s
   * Secondary attack can shoot over walls: Yes
-  * Secondary attack time between end of clip and start of clip: 1s
+  * Secondary attack reload time: 1s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 790ms
+  * Secondary attack shot delay: 790ms
   * Secondary attack target locking: No
 
   * Secondary attack shot calculated damage per second: 0
@@ -145,7 +147,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack shot splash damage percentages: 100,100,100
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 16s
+  * Secondary attack shot cliptime: 16.790s
   * Secondary attack shot directional: No
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 6
@@ -190,7 +192,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: securitydroid_con-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25
@@ -219,7 +220,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_r_sm
   * Name: Storm
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 810
   * Secondary attack audio ability activate: "sfx_attack_securitydroid_ability_01":100
   * Secondary attack audio ability attack: "sfx_explosion_sonicgrenade_01":34,"sfx_explosion_sonicgrenade_02":33,"sfx_explosion_sonicgrenade_03":33
   * Secondary attack displayed damage per second: 75

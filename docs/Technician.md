@@ -70,17 +70,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Damage per shot: 0
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 10
   * Self-centered targeting: Yes
   * Shot count: 1
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: Yes
 
 ### Projectile
@@ -95,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.250s
+  * Cliptime: 2.750s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -137,7 +138,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: techniciandroid_emp-ani
   * Audio attack: "sfx_attack_droid_technician_1":50,"sfx_attack_droid_technician_2":50

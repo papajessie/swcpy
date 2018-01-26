@@ -73,21 +73,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Clip retargeting: Yes
   * Gun shooting sequence: 1,2
   * Impact delay: 500ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 250ms
+  * Shot delay: 250ms
   * Target locking: No
 
-|Level                                    |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
-|-----------------------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Time between start of clip and first shot|1s  |1s  |1s  |1s  |1s  |1s  |500ms|500ms|500ms|500ms|
-|Damage per shot                          |1010|1050|1090|1140|1180|1230|1280 |1330 |1380 |1440 |
+|Level          |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
+|---------------|----|----|----|----|----|----|-----|-----|-----|-----|
+|Charge time    |1s  |1s  |1s  |1s  |1s  |1s  |500ms|500ms|500ms|500ms|
+|Damage per shot|1010|1050|1090|1140|1180|1230|1280 |1330 |1380 |1440 |
 
 
 ### Projectile
@@ -95,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |900 |930 |970 |1010|1050|1090|1460|1520|1580|1650|
-|Calculated damage per second|897 |933 |968 |1013|1048|1093|1462|1520|1577|1645|
+|Calculated damage per second|808 |840 |872 |912 |944 |984 |1280|1330|1380|1440|
 |Calculated damage per clip  |2020|2100|2180|2280|2360|2460|2560|2660|2760|2880|
 
 
@@ -108,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level             |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Cliptime          |2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |
+|Cliptime          |2.500s                                                                                                                                                                                                                                                                                                                                                 |2s                                                                                                                                                                                                                                                                                                                                                                                              |
 |Damage multipliers|**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
 
 
@@ -122,7 +123,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: speederbike_rbl-ani
   * Audio attack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25

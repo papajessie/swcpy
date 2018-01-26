@@ -99,16 +99,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 400ms
+  * Animation delay: 600
+  * Charge time: 400ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 0s
+  * Shot delay: 0s
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -121,12 +122,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1920|1952|1984|2016|2048|2080|2176|2240|2304|2400|
-|Calculated damage per second|1911|1946|1982|2017|2053|2088|2195|2266|2337|2444|
+|Calculated damage per second|1146|1168|1189|1210|1232|1253|1317|1360|1402|1466|
 |Calculated damage per clip  |1720|1752|1784|1816|1848|1880|1976|2040|2104|2200|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 900ms
+  * Cliptime: 1.500s
   * Directional: No
   * Is deflectable: No
   * Max speed: 18
@@ -169,7 +170,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 600
   * Arcs: Yes
   * Asset name: gamorreanguard_con-ani
   * Audio attack: "sfx_attack_gamorreanwarrior_01":25,"sfx_attack_gamorreanwarrior_02":25,"sfx_attack_gamorreanwarrior_03":25,"sfx_attack_gamorreanwarrior_04":25,

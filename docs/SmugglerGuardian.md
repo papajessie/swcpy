@@ -69,6 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 0
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
@@ -77,13 +78,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Self-centered targeting: No
   * Target locking: No
 
-|Level                                     |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Time between start of clip and first shot |500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|250ms|
-|Damage per shot                           |750  |900  |1050 |1200 |1350 |1500 |1650 |1800 |1950 |2250 |
-|Time between end of clip and start of clip|1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |2s   |
-|Shot count                                |1    |1    |1    |1    |1    |1    |1    |1    |1    |3    |
-|Time between shots                        |200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|500ms|
+|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Charge time    |500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|500ms|250ms|
+|Damage per shot|750  |900  |1050 |1200 |1350 |1500 |1650 |1800 |1950 |2250 |
+|Reload time    |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |1s   |2s   |
+|Shot count     |1    |1    |1    |1    |1    |1    |1    |1    |1    |3    |
+|Shot delay     |200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|200ms|500ms|
 
 
 ### Projectile
@@ -91,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second |280|336|336 |384 |432 |480 |528 |576 |624 |720 |
-|Calculated damage per second|500|600|700 |800 |900 |1000|1100|1200|1300|2076|
+|Calculated damage per second|441|529|617 |705 |794 |882 |970 |1058|1147|1800|
 |Calculated damage per clip  |750|900|1050|1200|1350|1500|1650|1800|1950|6750|
 
 
@@ -104,7 +105,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level   |1-9   |10    |
 |--------|------|------|
-|Cliptime|1.500s|3.250s|
+|Cliptime|1.700s|3.750s|
 |Salvos  |1     |3     |
 
 
@@ -118,7 +119,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: bountyhunter_smg-ani
   * Audio attack: "sfx_attack_blastercannon_1":25,"sfx_attack_blastercannon_2":25,"sfx_attack_blastercannon_3":25,"sfx_attack_blastercannon_4":25

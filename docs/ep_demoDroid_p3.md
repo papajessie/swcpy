@@ -3,7 +3,7 @@ title: Explosive Finish Flash Event (ep_demoDroid_p3)
 category: episode
 ---
 
-# Explosive Finish Flash Event (ep_demoDroid_p3) — version 1119
+# Explosive Finish Flash Event (ep_demoDroid_p3)
 
 
 

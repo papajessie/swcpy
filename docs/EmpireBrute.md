@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 0s
+  * Animation delay: 460
+  * Charge time: 0s
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 1.040s
+  * Shot delay: 1.040s
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2125|2150|2175|2200|2225|2250|2275|2300|2325|2350|
-|Calculated damage per second|6800|6880|6960|7040|7120|7200|7280|7360|7440|7520|
+|Calculated damage per second|1700|1720|1740|1760|1780|1800|1820|1840|1860|1880|
 |Calculated damage per clip  |3400|3440|3480|3520|3560|3600|3640|3680|3720|3760|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 500ms
+  * Cliptime: 2s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -108,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: Yes
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 8s
+  * Secondary attack cooldown Time: 8s
   * Secondary attack description: Grenade
   * Secondary attack duration: 0s
   * Secondary attack recast ability: No
@@ -125,16 +126,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 0s
+  * Secondary attack animation delay: 810
+  * Secondary attack charge time: 0s
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 0s
   * Secondary attack can shoot over walls: Yes
-  * Secondary attack time between end of clip and start of clip: 300ms
+  * Secondary attack reload time: 300ms
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 790ms
+  * Secondary attack shot delay: 790ms
   * Secondary attack target locking: No
 
 |Level                           |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -146,12 +148,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                                             |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------------------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack shot calculated damage per second|512 |518 |524 |530 |536 |542 |548 |554 |560 |566 |
+|Secondary attack shot calculated damage per second|467 |473 |478 |484 |489 |495 |500 |506 |511 |517 |
 |Secondary attack shot calculated damage per clip  |4250|4300|4350|4400|4450|4500|4550|4600|4650|4700|
 
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 8.300s
+  * Secondary attack shot cliptime: 9.090s
   * Secondary attack shot directional: No
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 6
@@ -175,7 +177,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 460
   * Arcs: No
   * Asset name: brute_con-ani
   * Audio attack: "sfx_attack_brute_01":35,"sfx_attack_brute_02":35,"sfx_attack_brute_03":30
@@ -198,7 +199,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_brute_muzzle
   * Name: Brute Cannon
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 810
   * Secondary attack audio ability activate: "sfx_attack_brute_ability_01":50,"sfx_attack_brute_ability_02":50
   * Secondary attack audio ability attack: "sfx_explosion_brute_01":50,"sfx_explosion_brute_02":50
   * Secondary attack displayed damage per second: 1000

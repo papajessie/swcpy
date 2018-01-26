@@ -3,7 +3,7 @@ title: LIN Demolitionmech (EmpireDemoDroid)
 category: unit
 ---
 
-# LIN Demolitionmech (EmpireDemoDroid) — version 1119
+# LIN Demolitionmech (EmpireDemoDroid)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

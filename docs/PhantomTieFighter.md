@@ -74,18 +74,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 3s
+  * Animation delay: 0
+  * Charge time: 3s
   * Clip retargeting: Yes
   * Damage per shot: 0
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * New target on reload: Yes
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 1s
+  * Shot delay: 1s
   * Target locking: No
 
 ### Projectile
@@ -95,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per clip: 0
 
   * Cannons per sequence: 1
-  * Cliptime: 3.500s
+  * Cliptime: 4.500s
   * Directional: No
   * Is deflectable: No
   * Max speed: 60
@@ -146,7 +147,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: phantom_neu-ani
   * Bundle name: phantom_neu-ani

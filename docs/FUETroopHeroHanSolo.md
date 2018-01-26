@@ -58,27 +58,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 150ms
+  * Animation delay: 0
+  * Charge time: 150ms
   * Clip retargeting: No
   * Damage per shot: 1300
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.870s
+  * Reload time: 1.870s
   * Retargeting offset: 8
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 150ms
+  * Shot delay: 150ms
   * Target locking: No
 
 ### Projectile
 
   * Displayed damage per second: 1198
-  * Calculated damage per second: 1198
+  * Calculated damage per second: 1120
   * Calculated damage per clip: 2600
 
   * Cannons per sequence: 1
-  * Cliptime: 2.170s
+  * Cliptime: 2.320s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -97,7 +98,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: hansolo_rbl-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25

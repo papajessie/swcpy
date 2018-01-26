@@ -58,27 +58,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1ms
+  * Animation delay: 0
+  * Charge time: 1ms
   * Clip retargeting: No
   * Damage per shot: 1
   * Gun shooting sequence: 1
   * Impact delay: 1ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1ms
+  * Reload time: 1ms
   * Retargeting offset: 1
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 1ms
+  * Shot delay: 1ms
   * Target locking: No
 
 ### Projectile
 
   * Displayed damage per second: 1
-  * Calculated damage per second: 833
+  * Calculated damage per second: 714
   * Calculated damage per clip: 5
 
   * Cannons per sequence: 1
-  * Cliptime: 6ms
+  * Cliptime: 7ms
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 30
@@ -96,7 +97,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: jawa_neu-ani
   * Bullet: fx_blaster_beam_y_sm

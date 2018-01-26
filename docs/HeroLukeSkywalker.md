@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
-|Calculated damage per second|2400|2880|3360|3840|4320|4800|5280|5760|6240|7200|
+|Calculated damage per second|1714|2057|2400|2742|3085|3428|3771|4114|4457|5142|
 |Calculated damage per clip  |3000|3600|4200|4800|5400|6000|6600|7200|7800|9000|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.250s
+  * Cliptime: 1.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -110,7 +111,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 15s
+  * Secondary attack cooldown Time: 15s
   * Secondary attack description: Lightsaber Defend
   * Secondary attack duration: 10s
   * Secondary attack recast ability: No
@@ -127,17 +128,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 100ms
+  * Secondary attack animation delay: 0
+  * Secondary attack charge time: 100ms
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 1200
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 0s
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 0s
+  * Secondary attack reload time: 0s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: Yes
   * Secondary attack shot count: 5
-  * Secondary attack time between shots: 1.900s
+  * Secondary attack shot delay: 1.900s
   * Secondary attack target locking: No
 
 #### Modifier "Deflect"
@@ -154,12 +156,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Deflect value: 0
 
 
-  * Secondary attack shot calculated damage per second: 264
+  * Secondary attack shot calculated damage per second: 243
   * Secondary attack shot calculated damage per clip: 6000
   * Secondary attack shot splash damage percentages: 100,100,100
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 22.700s
+  * Secondary attack shot cliptime: 24.600s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 18
@@ -185,7 +187,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: lukeskywalker_rbl-ani
   * Audio attack: "sfx_attack_blasterpistol_1":25,"sfx_attack_blasterpistol_2":25,"sfx_attack_blasterpistol_3":25,"sfx_attack_blasterpistol_4":25
@@ -210,7 +211,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Max scale: 100
   * Muzzle flash: fx_blaster_flash_b_sm
   * Name: HERO Luke Attack
-  * Secondary attack animation delay: 0
   * Secondary attack audio ability activate: "sfx_lightsaber_luke_activate_1":100
   * Secondary attack audio ability attack: "sfx_lightsaber_luke_swing_1":30,"sfx_lightsaber_luke_swing_2":35,"sfx_lightsaber_luke_swing_3":35
   * Secondary attack audio ability loop: "sfx_lightsaber_luke_whirlwind":100

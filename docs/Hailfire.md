@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1s
+  * Animation delay: 0
+  * Charge time: 1s
   * Clip retargeting: Yes
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 6
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |630 |756 |882 |1008|1134|1260|1386|1512|1638|1890|
-|Calculated damage per second|630 |756 |882 |1008|1134|1260|1386|1512|1638|1890|
+|Calculated damage per second|613 |735 |858 |980 |1103|1225|1348|1470|1593|1838|
 |Calculated damage per clip  |2208|2646|3090|3528|3972|4410|4854|5292|5736|6618|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 3.500s
+  * Cliptime: 3.600s
   * Directional: No
   * Is deflectable: No
   * Max speed: 12
@@ -116,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: hailfiredroid_rbl-ani
   * Audio attack: "sfx_attack_rebel_hailfire_1":35,"sfx_attack_rebel_hailfire_2":35,"sfx_attack_rebel_hailfire_3":30

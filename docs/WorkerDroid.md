@@ -58,17 +58,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1s
+  * Animation delay: 0
+  * Charge time: 1s
   * Clip retargeting: No
   * Damage per shot: 0
   * Gun shooting sequence: 1,2
   * Impact delay: 500ms
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 250ms
+  * Shot delay: 250ms
   * Target locking: No
 
 ### Projectile
@@ -78,7 +79,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per clip: 0
 
   * Cannons per sequence: 2
-  * Cliptime: 2.250s
+  * Cliptime: 2.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -96,7 +97,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: workerdroid_neu-ani
   * Buff asset offset: 0.00,0.34,0.00

@@ -59,14 +59,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Turret time between start of clip and first shot: 2s
+  * Turret animation delay: 0
+  * Turret charge time: 2s
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret impact delay: 1s
   * Turret can shoot over walls: Yes
-  * Turret time between end of clip and start of clip: 15s
+  * Turret reload time: 15s
   * Turret shot count: 1
-  * Turret time between shots: 100ms
+  * Turret shot delay: 100ms
 
 |Level                 |1|2|3|4|5|6|7|8|9|10|
 |----------------------|-|-|-|-|-|-|-|-|-|--|
@@ -83,7 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 17s
+  * Turret attack cliptime: 17.100s
   * Turret attack directional: Yes
   * Turret attack is deflectable: No
   * Turret attack length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
@@ -136,7 +137,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Cycle time: 0s
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 90
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_sonicTurret_projectile
   * Turret attack charge asset name: fx_sonicTurret_chargeup

@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 500ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 250ms
+  * Shot delay: 250ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1540|1610|1680|1760|1840|1930|2020|2110|2210|2310|
-|Calculated damage per second|1960|2050|2140|2240|2345|2450|2565|2685|2810|2945|
+|Calculated damage per second|1742|1822|1902|1991|2084|2177|2280|2386|2497|2617|
 |Calculated damage per clip  |3920|4100|4280|4480|4690|4900|5130|5370|5620|5890|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2s
+  * Cliptime: 2.250s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 12
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: banthabarge_rbl-ani
   * Audio attack: "sfx_attack_empire_atmp_1":35,"sfx_attack_empire_atmp_2":35,"sfx_attack_empire_atmp_3":30

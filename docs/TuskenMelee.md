@@ -58,16 +58,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 1000
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 0s
+  * Reload time: 0s
   * Retargeting offset: 4
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 1.250s
+  * Shot delay: 1.250s
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -82,12 +83,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |177|217 |236 |256 |276 |295 |315 |335 |354 |394 |
-|Calculated damage per second|177|217 |236 |256 |276 |295 |315 |335 |354 |394 |
+|Calculated damage per second|82 |101 |110 |120 |129 |138 |147 |157 |165 |184 |
 |Calculated damage per clip  |975|1195|1300|1410|1520|1625|1735|1845|1950|2170|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 5.500s
+  * Cliptime: 11.750s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -105,7 +106,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1000
   * Arcs: No
   * Asset name: raidermelee_tkn-ani
   * Audio attack: "sfx_attack_tuskenraiders_raider_1":35,"sfx_attack_tuskenraiders_raider_2":35,"sfx_attack_tuskenraiders_raider_3":30

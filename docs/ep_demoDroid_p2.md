@@ -3,7 +3,7 @@ title: Explosive Finish Part II (ep_demoDroid_p2)
 category: episode
 ---
 
-# Explosive Finish Part II (ep_demoDroid_p2) — version 1119
+# Explosive Finish Part II (ep_demoDroid_p2)
 
 
 

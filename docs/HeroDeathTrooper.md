@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 50ms
+  * Animation delay: 0
+  * Charge time: 50ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 400ms
+  * Shot delay: 400ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -88,12 +89,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2181|2545|3090|3454|3818|4363|4909|5272|5636|6545|
-|Calculated damage per second|3627|3875|4193|4579|4951|5282|5531|5779|6234|6868|
+|Calculated damage per second|2843|3037|3286|3589|3881|4140|4335|4529|4886|5383|
 |Calculated damage per clip  |5260|5620|6080|6640|7180|7660|8020|8380|9040|9960|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.450s
+  * Cliptime: 1.850s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -117,7 +118,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: deathtrooper_emp-ani
   * Audio attack: "sfx_attack_hero_deathtrooper_01":33,"sfx_attack_hero_deathtrooper_02":33,"sfx_attack_hero_deathtrooper_03":33

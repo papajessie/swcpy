@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 7
-  * Time between shots: 150ms
+  * Shot delay: 150ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -88,12 +89,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |Displayed damage per second |2746.667|2762.222|2817.778|2837.778|2857.778|2877.778|3008.889|3082.222|3157.778|3253.333|
-|Calculated damage per second|2746    |2762    |2817    |2837    |2857    |2877    |3008    |3082    |3157    |3253    |
+|Calculated damage per second|2621    |2636    |2689    |2708    |2727    |2746    |2872    |2942    |3014    |3105    |
 |Calculated damage per clip  |8652    |8701    |8876    |8939    |9002    |9065    |9478    |9709    |9947    |10248   |
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.150s
+  * Cliptime: 3.300s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -112,7 +113,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: ig86_emp-ani
   * Audio attack: "sfx_attack_ig86_01":33,"sfx_attack_ig86_02":33,"sfx_attack_ig86_03":34

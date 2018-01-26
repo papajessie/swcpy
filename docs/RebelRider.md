@@ -70,17 +70,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 0s
+  * Animation delay: 0
+  * Charge time: 0s
   * Clip retargeting: No
   * Damage per shot: 0
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 5s
+  * Reload time: 5s
   * Retargeting offset: 15
   * Self-centered targeting: Yes
   * Shot count: 1
-  * Time between shots: 0s
+  * Shot delay: 0s
   * Target locking: Yes
 
 ### Projectile
@@ -176,7 +177,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: rider_con-ani
   * Audio death: "sfx_death_rider_01":50,"sfx_death_rider_02":50

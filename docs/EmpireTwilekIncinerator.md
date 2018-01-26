@@ -99,16 +99,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1s
+  * Animation delay: 0
+  * Charge time: 1s
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1|2|3|4|5|6|7|8|9|10|
@@ -123,12 +124,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |3744|3857|3917|3973|4032|4089|4145|4205|4261|4320|
-|Calculated damage per second|0   |1   |2   |2   |3   |4   |4   |5   |6   |6   |
+|Calculated damage per second|0   |1   |1   |2   |2   |3   |4   |4   |5   |5   |
 |Calculated damage per clip  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.500s
+  * Cliptime: 1.700s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -252,7 +253,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: twilek_con-ani
   * Audio attack: "sfx_attack_flamethrower_twilekincinerator_01":35,"sfx_attack_flamethrower_twilekincinerator_02":35,"sfx_attack_flamethrower_twilekincinerator_03":30

@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,1
   * Impact delay: 1s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 750ms
+  * Shot delay: 750ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |560 |672 |784 |896 |1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|800 |960 |1120|1280|1440|1600|1760|1920|2080|2400|
+|Calculated damage per second|560 |672 |784 |896 |1008|1120|1232|1344|1456|1680|
 |Calculated damage per clip  |1400|1680|1960|2240|2520|2800|3080|3360|3640|4200|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 1.750s
+  * Cliptime: 2.500s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
@@ -116,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: hoversoldier_rbl-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25

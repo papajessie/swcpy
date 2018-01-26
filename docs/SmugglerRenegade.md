@@ -70,16 +70,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 100
   * Self-centered targeting: No
   * Shot count: 3
-  * Time between shots: 125ms
+  * Shot delay: 125ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -92,12 +93,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|342|408|477|546|612 |681 |750 |816 |885 |1020|
+|Calculated damage per second|304|362|424|485|544 |605 |666 |725 |786 |906 |
 |Calculated damage per clip  |342|408|477|546|612 |681 |750 |816 |885 |1020|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 1s
+  * Cliptime: 1.125s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -115,7 +116,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: speederbike_smg-ani
   * Audio attack: "sfx_attack_empire_mtv7_1":25,"sfx_attack_empire_mtv7_2":25,"sfx_attack_empire_mtv7_3":25,"sfx_attack_empire_mtv7_4":25

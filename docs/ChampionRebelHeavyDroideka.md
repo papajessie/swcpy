@@ -110,16 +110,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 650ms
+  * Animation delay: 250
+  * Charge time: 650ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 0s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 750ms
+  * Shot delay: 750ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -154,40 +155,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |6600|6700|6800|6900|7000|7100|7200|7300|7400|7500|
-|Calculated damage per second|2750|2791|2833|2875|2916|2958|3000|3041|3083|3125|
+|Calculated damage per second|1808|1835|1863|1890|1917|1945|1972|2000|2027|2054|
 |Calculated damage per clip  |6600|6700|6800|6900|7000|7100|7200|7300|7400|7500|
 
 
 |Level                       |11  |12  |13  |14  |15  |16  |17  |18  |19  |20  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |7600|7700|7800|7900|8000|8100|8200|8300|8400|8500|
-|Calculated damage per second|3166|3208|3250|3291|3333|3375|3416|3458|3500|3541|
+|Calculated damage per second|2082|2109|2136|2164|2191|2219|2246|2273|2301|2328|
 |Calculated damage per clip  |7600|7700|7800|7900|8000|8100|8200|8300|8400|8500|
 
 
 |Level                       |21  |22  |23  |24  |25  |26  |27  |28  |29  |30  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |8600|8700|8800|8900|9000|9100|9200|9300|9400|9500|
-|Calculated damage per second|3583|3625|3666|3708|3750|3791|3833|3875|3916|3958|
+|Calculated damage per second|2356|2383|2410|2438|2465|2493|2520|2547|2575|2602|
 |Calculated damage per clip  |8600|8700|8800|8900|9000|9100|9200|9300|9400|9500|
 
 
 |Level                       |31  |32  |33  |34  |35   |36   |37   |38   |39   |40   |
 |----------------------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |9600|9700|9800|9900|10000|10100|10200|10300|10400|10500|
-|Calculated damage per second|4000|4041|4083|4125|4166 |4208 |4250 |4291 |4333 |4375 |
+|Calculated damage per second|2630|2657|2684|2712|2739 |2767 |2794 |2821 |2849 |2876 |
 |Calculated damage per clip  |9600|9700|9800|9900|10000|10100|10200|10300|10400|10500|
 
 
 |Level                       |41   |42   |43   |44   |45   |46   |47   |48   |49   |50   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |10600|10700|10800|10900|11000|11100|11200|11300|11400|11500|
-|Calculated damage per second|4416 |4458 |4500 |4541 |4583 |4625 |4666 |4708 |4750 |4791 |
+|Calculated damage per second|2904 |2931 |2958 |2986 |3013 |3041 |3068 |3095 |3123 |3150 |
 |Calculated damage per clip  |10600|10700|10800|10900|11000|11100|11200|11300|11400|11500|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 2.400s
+  * Cliptime: 3.650s
   * Directional: No
   * Is deflectable: No
   * Max speed: 5
@@ -205,7 +206,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 250
   * Arcs: Yes
   * Audio attack: "sfx_attack_artillerydroideka_01":35,"sfx_attack_artillerydroideka_02":35,"sfx_attack_artillerydroideka_03":30
   * Audio death: "sfx_death_artillerydroideka_01":50,"sfx_death_artillerydroideka_02":50

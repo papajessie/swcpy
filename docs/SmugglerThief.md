@@ -74,16 +74,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 800ms
+  * Reload time: 800ms
   * Retargeting offset: 100
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 0s
+  * Shot delay: 0s
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9   |10  |
@@ -119,7 +120,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: looter_smg-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25

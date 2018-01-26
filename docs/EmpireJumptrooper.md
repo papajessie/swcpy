@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 150ms
+  * Animation delay: 0
+  * Charge time: 150ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |560 |672 |784 |896 |1008|1120|1232|1344|1456|1680|
-|Calculated damage per second|560 |672 |784 |896 |1008|1120|1232|1344|1456|1680|
+|Calculated damage per second|454 |545 |636 |727 |818 |908 |999 |1090|1181|1363|
 |Calculated damage per clip  |1204|1445|1686|1927|2168|2408|2649|2890|3131|3612|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.150s
+  * Cliptime: 2.650s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
@@ -116,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: jumptrooper_emp-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25

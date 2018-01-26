@@ -65,14 +65,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Turret time between start of clip and first shot: 300ms
+  * Turret animation delay: 0
+  * Turret charge time: 300ms
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret impact delay: 250ms
   * Turret can shoot over walls: Yes
-  * Turret time between end of clip and start of clip: 1.500s
+  * Turret reload time: 1.500s
   * Turret shot count: 8
-  * Turret time between shots: 150ms
+  * Turret shot delay: 150ms
 
 |Level                 |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |----------------------|---|---|---|---|---|---|---|---|---|---|
@@ -82,12 +83,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                     |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |------------------------------------------|----|----|----|----|----|----|----|----|----|----|
 |Turret displayed damage per second        |500 |750 |1000|1500|1594|1760|1925|2091|2254|2475|
-|Turret attack calculated damage per second|499 |749 |901 |1201|1594|1760|1925|2091|2254|2475|
+|Turret attack calculated damage per second|474 |712 |856 |1141|1514|1672|1829|1986|2141|2352|
 |Turret attack calculated damage per clip  |1424|2136|2568|3424|4544|5016|5488|5960|6424|7056|
 
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 2.850s
+  * Turret attack cliptime: 3s
   * Turret attack directional: Yes
   * Turret attack is deflectable: No
   * Turret attack max speed: 18
@@ -123,7 +124,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.43,0.25,-0.02
   * Stash order: 1000
   * Store tab: not_in_store
-  * Turret animation delay: 0
   * Turret attack arcs: No
   * Turret attack bullet: fx_slugthrower_projectile
   * Turret attack hit spark: fx_slugthrower_hit

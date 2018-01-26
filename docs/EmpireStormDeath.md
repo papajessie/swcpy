@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |----------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second |141|169|182|208|234|260|286|312|338|390|
-|Calculated damage per second|141|169|182|208|234|260|286|312|338|390|
+|Calculated damage per second|117|140|151|173|195|216|238|260|281|325|
 |Calculated damage per clip  |141|169|182|208|234|260|286|312|338|390|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1s
+  * Cliptime: 1.200s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: stotrper_dth-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25

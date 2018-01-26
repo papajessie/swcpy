@@ -207,16 +207,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 500ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 10
-  * Time between shots: 100ms
+  * Shot delay: 100ms
   * Target locking: No
 
 |Level                   |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
@@ -284,75 +285,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |650  |650  |650  |650  |650  |650  |650  |650  |650  |650  |
-|Calculated damage per second|1150 |1200 |1258 |1323 |1397 |1467 |1538 |1611 |1688 |1767 |
+|Calculated damage per second|1117 |1165 |1222 |1285 |1357 |1425 |1494 |1565 |1640 |1717 |
 |Calculated damage per clip  |3910 |4080 |4280 |4500 |4750 |4990 |5230 |5480 |5740 |6010 |
 
 
 |Level                       |02.01|02.02|02.03|02.04|02.05|02.06|02.07|02.08|02.09|02.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |782  |782  |782  |782  |782  |782  |782  |782  |782  |782  |
-|Calculated damage per second|1382 |1447 |1517 |1594 |1679 |1767 |1852 |1938 |2032 |2126 |
+|Calculated damage per second|1342 |1405 |1474 |1548 |1631 |1717 |1800 |1882 |1974 |2065 |
 |Calculated damage per clip  |4700 |4920 |5160 |5420 |5710 |6010 |6300 |6590 |6910 |7230 |
 
 
 |Level                       |03.01|03.02|03.03|03.04|03.05|03.06|03.07|03.08|03.09|03.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |911  |911  |911  |911  |911  |911  |911  |911  |911  |911  |
-|Calculated damage per second|1611 |1685 |1767 |1858 |1958 |2058 |2158 |2258 |2370 |2479 |
+|Calculated damage per second|1565 |1637 |1717 |1805 |1902 |2000 |2097 |2194 |2302 |2408 |
 |Calculated damage per clip  |5480 |5730 |6010 |6320 |6660 |7000 |7340 |7680 |8060 |8430 |
 
 
 |Level                       |04.01|04.02|04.03|04.04|04.05|04.06|04.07|04.08|04.09|04.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1041 |1041 |1041 |1041 |1041 |1041 |1041 |1041 |1041 |1041 |
-|Calculated damage per second|1841 |1923 |2017 |2123 |2238 |2352 |2464 |2579 |2705 |2829 |
+|Calculated damage per second|1788 |1868 |1960 |2062 |2174 |2285 |2394 |2505 |2628 |2748 |
 |Calculated damage per clip  |6260 |6540 |6860 |7220 |7610 |8000 |8380 |8770 |9200 |9620 |
 
 
 |Level                       |05.01|05.02|05.03|05.04|05.05|05.06|05.07|05.08|05.09|05.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1170 |1170 |1170 |1170 |1170 |1170 |1170 |1170 |1170 |1170 |
-|Calculated damage per second|2070 |2164 |2270 |2385 |2514 |2644 |2773 |2902 |3041 |3182 |
+|Calculated damage per second|2011 |2102 |2205 |2317 |2442 |2568 |2694 |2820 |2954 |3091 |
 |Calculated damage per clip  |7040 |7360 |7720 |8110 |8550 |8990 |9430 |9870 |10340|10820|
 
 
 |Level                       |06.01|06.02|06.03|06.04|06.05|06.06|06.07|06.08|06.09|06.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1300 |1300 |1300 |1300 |1300 |1300 |1300 |1300 |1300 |1300 |
-|Calculated damage per second|2300 |2402 |2520 |2650 |2794 |2935 |3079 |3223 |3379 |3535 |
+|Calculated damage per second|2234 |2334 |2448 |2574 |2714 |2851 |2991 |3131 |3282 |3434 |
 |Calculated damage per clip  |7820 |8170 |8570 |9010 |9500 |9980 |10470|10960|11490|12020|
 
 
 |Level                       |07.01|07.02|07.03|07.04|07.05|07.06|07.07|07.08|07.09|07.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1432 |1432 |1432 |1432 |1432 |1432 |1432 |1432 |1432 |1432 |
-|Calculated damage per second|2532 |2647 |2776 |2920 |3079 |3235 |3394 |3550 |3723 |3894 |
+|Calculated damage per second|2460 |2571 |2697 |2837 |2991 |3142 |3297 |3448 |3617 |3782 |
 |Calculated damage per clip  |8610 |9000 |9440 |9930 |10470|11000|11540|12070|12660|13240|
 
 
 |Level                       |08.01|08.02|08.03|08.04|08.05|08.06|08.07|08.08|08.09|08.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1561 |1561 |1561 |1561 |1561 |1561 |1561 |1561 |1561 |1561 |
-|Calculated damage per second|2761 |2888 |3029 |3185 |3355 |3529 |3700 |3870 |4058 |4247 |
+|Calculated damage per second|2682 |2805 |2942 |3094 |3260 |3428 |3594 |3760 |3942 |4125 |
 |Calculated damage per clip  |9390 |9820 |10300|10830|11410|12000|12580|13160|13800|14440|
 
 
 |Level                       |09.01|09.02|09.03|09.04|09.05|09.06|09.07|09.08|09.09|09.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1691 |1691 |1691 |1691 |1691 |1691 |1691 |1691 |1691 |1691 |
-|Calculated damage per second|2991 |3126 |3279 |3450 |3635 |3820 |4005 |4194 |4397 |4597 |
+|Calculated damage per second|2905 |3037 |3185 |3351 |3531 |3711 |3891 |4074 |4271 |4465 |
 |Calculated damage per clip  |10170|10630|11150|11730|12360|12990|13620|14260|14950|15630|
 
 
 |Level                       |10.01|10.02|10.03|10.04|10.05|10.06|10.07|10.08|10.09|10.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1950 |1950 |1950 |1950 |1950 |1950 |1950 |1950 |1950 |1950 |
-|Calculated damage per second|3450 |3605 |3782 |3976 |4191 |4405 |4620 |4835 |5067 |5302 |
+|Calculated damage per second|3351 |3502 |3674 |3862 |4071 |4280 |4488 |4697 |4922 |5151 |
 |Calculated damage per clip  |11730|12260|12860|13520|14250|14980|15710|16440|17230|18030|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.400s
+  * Cliptime: 3.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 30
@@ -370,7 +371,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: echobaseheavysoldier_rbl-ani
   * Audio attack: "sfx_attack_gatlinggun_1":30,"sfx_attack_gatlinggun_2":35,"sfx_attack_gatlinggun_3":35

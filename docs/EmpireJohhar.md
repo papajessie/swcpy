@@ -67,16 +67,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 3
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2000 |2400 |2800 |3200 |3599 |4000 |4400 |4800 |5200 |6000 |
-|Calculated damage per second|3600 |3812 |4024 |4227 |4430 |4643 |4966 |5316 |5686 |6083 |
+|Calculated damage per second|3120 |3304 |3488 |3664 |3840 |4024 |4304 |4608 |4928 |5272 |
 |Calculated damage per clip  |11700|12390|13080|13740|14400|15090|16140|17280|18480|19770|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.250s
+  * Cliptime: 3.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -108,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 45s
+  * Secondary attack cooldown Time: 45s
   * Secondary attack description: Rail Gun
   * Secondary attack duration: 1ms
   * Secondary attack recast ability: No
@@ -125,16 +126,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 1.200s
+  * Secondary attack animation delay: 1
+  * Secondary attack charge time: 1.200s
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 1ms
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 2.500s
+  * Secondary attack reload time: 2.500s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 1ms
+  * Secondary attack shot delay: 1ms
   * Secondary attack target locking: No
 
 |Level                           |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
@@ -149,7 +151,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 48.700s
+  * Secondary attack shot cliptime: 48.701s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: No
   * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
@@ -177,7 +179,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: forenbrand_neu-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
@@ -206,7 +207,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_r_med
   * Name: JohharEmpire
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 1
   * Secondary attack audio ability activate: "sfx_charge_railcannon_01":35,"sfx_charge_railcannon_02":35,"sfx_charge_railcannon_03":30
   * Secondary attack audio ability attack: "sfx_attack_railcannon_01":35,"sfx_attack_railcannon_02":35,"sfx_attack_railcannon_03":30
   * Secondary attack displayed damage per second: 1000

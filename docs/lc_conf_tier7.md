@@ -19,9 +19,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 8 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### On Takodana
+### Empire on Takodana
 
-  * No items, see the fallback option below
+  * (1/1) 8 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
 ### Empire on Er'Kit
 
@@ -38,6 +38,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 ### Empire on Yavin 4
 
   * (1/1) 8 data fragments of unlockable air support [VT-49 Decimator](VT49)
+
+### Rebellion on Takodana
+
+  * (1/1) 8 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
 
 ### Rebellion on Hoth
 

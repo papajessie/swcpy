@@ -38,20 +38,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2112
   * Damage per shot: 1000
   * Impact delay: 170ms
   * Shot count: 3
-  * Time between shots: 150ms
+  * Shot delay: 150ms
 
 ### Projectile
 
   * Displayed damage per second: 3000
-  * Calculated damage per second: 10000
+  * Calculated damage per second: 442
   * Calculated damage per clip: 3000
   * Splash damage percentages: 100,75
 
   * Cannons per sequence: 8
-  * Cliptime: 300ms
+  * Cliptime: 6.786s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20
@@ -68,7 +69,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2112
   * Arcs: No
   * Asset name: tiefighterfleet_emp-ani
   * Audio attack: "sfx_attack_starship_tiefighter_1":33,"sfx_attack_starship_tiefighter_2":33,"sfx_attack_starship_tiefighter_3":34

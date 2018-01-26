@@ -67,16 +67,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,1,2,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 100
   * Self-centered targeting: No
   * Shot count: 6
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1-5|6  |7   |8   |9   |10  |
@@ -89,12 +90,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1-5 |6   |7   |8    |9    |10   |
 |----------------------------|----|----|----|-----|-----|-----|
 |Displayed damage per second |2202|1320|3258|5019 |6075 |6600 |
-|Calculated damage per second|3145|1885|4654|7170 |8678 |9428 |
+|Calculated damage per second|2752|1650|4072|6273 |7593 |8250 |
 |Calculated damage per clip  |4404|2640|6516|10038|12150|13200|
 
 
   * Cannons per sequence: 4
-  * Cliptime: 1.400s
+  * Cliptime: 1.600s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 25
@@ -112,7 +113,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: droideka_con-ani-up1
   * Buff asset offset: 0.00,0.65,0.00

@@ -67,16 +67,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,1,1,1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 16
-  * Time between shots: 800ms
+  * Shot delay: 800ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1450 |1550 |1650 |1750 |1850 |1950 |2100 |2200 |2350 |2500 |
-|Calculated damage per second|4459 |4679 |4954 |5285 |5560 |5890 |6276 |6606 |7046 |7487 |
+|Calculated damage per second|3804 |3992 |4227 |4509 |4744 |5026 |5354 |5636 |6012 |6388 |
 |Calculated damage per clip  |20736|21760|23040|24576|25856|27392|29184|30720|32768|34816|
 
 
   * Cannons per sequence: 4
-  * Cliptime: 4.650s
+  * Cliptime: 5.450s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: hovertankrebel_rbl-ani
   * Audio attack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25

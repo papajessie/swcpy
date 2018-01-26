@@ -138,16 +138,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 0s
+  * Animation delay: 230
+  * Charge time: 0s
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 250ms
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 750ms
+  * Reload time: 750ms
   * Retargeting offset: 6
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
@@ -162,12 +163,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |----------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Displayed damage per second |8210      |9852      |11494     |13136     |14778     |16421     |18063     |19705     |21347     |24631      |
-|Calculated damage per second|8210      |9852      |11494     |13136     |14778     |16421     |18063     |19705     |21347     |24631      |
+|Calculated damage per second|4844      |5813      |6782      |7751      |8720      |9689      |10658     |11627     |12596     |14534      |
 |Calculated damage per clip  |7800      |9360      |10920     |12480     |14040     |15600     |17160     |18720     |20280     |23400      |
 
 
   * Cannons per sequence: 2
-  * Cliptime: 950ms
+  * Cliptime: 1.610s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 25
@@ -179,7 +180,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: No
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 15s
+  * Secondary attack cooldown Time: 15s
   * Secondary attack description: Lightsaber Defend
   * Secondary attack duration: 10s
   * Secondary attack recast ability: No
@@ -196,17 +197,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 100ms
+  * Secondary attack animation delay: 0
+  * Secondary attack charge time: 100ms
   * Secondary attack clip retargeting: No
   * Secondary attack damage per shot: 1200
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 0s
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 0s
+  * Secondary attack reload time: 0s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: Yes
   * Secondary attack shot count: 5
-  * Secondary attack time between shots: 2.067s
+  * Secondary attack shot delay: 2.067s
   * Secondary attack target locking: No
 
 #### Modifier "Deflect"
@@ -223,12 +225,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Deflect value: 0
 
 
-  * Secondary attack shot calculated damage per second: 256
+  * Secondary attack shot calculated damage per second: 235
   * Secondary attack shot calculated damage per clip: 6000
   * Secondary attack shot splash damage percentages: 100,100,100
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 23.368s
+  * Secondary attack shot cliptime: 25.435s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: No
   * Secondary attack shot max speed: 18
@@ -254,7 +256,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 230
   * Arcs: No
   * Asset name: darthvader_emp-ani
   * Audio attack: "sfx_lightsaber_hit_1":35,"sfx_lightsaber_hit_2":35,"sfx_lightsaber_hit_3":30
@@ -281,7 +282,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.01,2.04,-0.4
   * Max scale: 100
   * Name: HERO Darth ATtack
-  * Secondary attack animation delay: 0
   * Secondary attack audio ability activate: "sfx_lightsaber_vader_activate_1":100
   * Secondary attack audio ability attack: "sfx_lightsaber_vader_swing_1":30,"sfx_lightsaber_vader_swing_2":35,"sfx_lightsaber_vader_swing_3":35
   * Secondary attack audio ability loop: "sfx_lightsaber_vader_whirlwind":100

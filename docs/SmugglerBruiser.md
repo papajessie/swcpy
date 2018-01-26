@@ -74,14 +74,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Self-centered targeting: No
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level             |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
@@ -96,7 +97,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |100|120|140|308|578 |642 |707 |771 |836 |964 |
-|Calculated damage per second|100|120|140|308|578 |642 |707 |771 |836 |964 |
+|Calculated damage per second|82 |98 |114|252|450 |500 |550 |600 |650 |750 |
 |Calculated damage per clip  |226|270|316|694|1013|1125|1238|1350|1463|1688|
 
 
@@ -109,7 +110,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level   |1-4   |5-10  |
 |--------|------|------|
-|Cliptime|2.250s|1.750s|
+|Cliptime|2.750s|2.250s|
 |Salvos  |2     |1     |
 
 
@@ -123,7 +124,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: bountyhunter_smg-ani
   * Audio attack: "sfx_attack_blasterrifle_1":25,"sfx_attack_blasterrifle_2":25,"sfx_attack_blasterrifle_3":25,"sfx_attack_blasterrifle_4":25

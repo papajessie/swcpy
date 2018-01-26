@@ -62,16 +62,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 750ms
+  * Animation delay: 1500
+  * Charge time: 750ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 2,1
   * Impact delay: 0s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 0s
+  * Reload time: 0s
   * Retargeting offset: 8
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 1s
+  * Shot delay: 1s
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -86,12 +87,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |4613|2928|2928|2928|2928|2928|2928|2928|2928|2928|
-|Calculated damage per second|6150|6350|6566|6784|7017|7250|7500|7750|8017|8300|
+|Calculated damage per second|1419|1465|1515|1565|1619|1673|1730|1788|1850|1915|
 |Calculated damage per clip  |4613|4763|4925|5088|5263|5438|5625|5813|6013|6225|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 750ms
+  * Cliptime: 3.250s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -109,7 +110,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 1500
   * Arcs: No
   * Asset name: kraytdragonfast_neu-ani
   * Audio attack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30

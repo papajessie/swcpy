@@ -44,13 +44,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
+  * Animation delay: 2000
   * Damage per shot: 1
   * Impact delay: 400ms
   * Shot count: 1
-  * Time between shots: 1s
+  * Shot delay: 1s
 
 ### Projectile
 
+  * Calculated damage per second: 0
   * Calculated damage per clip: 1
   * Splash damage percentages: 100,100,100,100
 
@@ -60,7 +62,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 0s
+  * Cliptime: 3s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 0
@@ -100,7 +102,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 2000
   * Arcs: No
   * Asset name: healingship_rbl-mod
   * Attachment asset: healingshipcargo_rbl-mod

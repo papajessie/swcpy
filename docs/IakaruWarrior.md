@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 7
-  * Time between shots: 150ms
+  * Shot delay: 150ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -88,12 +89,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1       |2       |3       |4       |5       |6       |7       |8       |9   |10      |
 |----------------------------|--------|--------|--------|--------|--------|--------|--------|--------|----|--------|
 |Displayed damage per second |2733.333|2744.444|2806.667|2824.444|2844.444|2862.222|2991.111|3066.667|3140|3231.111|
-|Calculated damage per second|2733    |2744    |2806    |2824    |2844    |2862    |2991    |3066    |3140|3231    |
+|Calculated damage per second|2609    |2619    |2679    |2696    |2715    |2732    |2855    |2927    |2997|3084    |
 |Calculated damage per clip  |8610    |8645    |8841    |8897    |8960    |9016    |9422    |9660    |9891|10178   |
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.150s
+  * Cliptime: 3.300s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -112,7 +113,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: iakaru_rbl-ani
   * Audio attack: "sfx_attack_dl44_01":33,"sfx_attack_dl44_02":33,"sfx_attack_dl44_03":34

@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 500ms
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 3
-  * Time between shots: 400ms
+  * Shot delay: 400ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -88,12 +89,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |1800|2161|2521 |2880 |3240 |3601 |3961 |4320 |4680 |5401 |
-|Calculated damage per second|3169|3804|4440 |5071 |5705 |6340 |6975 |7606 |8240 |9511 |
+|Calculated damage per second|2700|3241|3782 |4320 |4860 |5401 |5942 |6480 |7020 |8102 |
 |Calculated damage per clip  |7290|8751|10212|11664|13122|14583|16044|17496|18954|21876|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.300s
+  * Cliptime: 2.700s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -117,7 +118,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: attehero_rbl-ani
   * Audio attack: "sfx_attack_empire_atat_1":50,"sfx_attack_empire_atat_2":25,"sfx_attack_empire_atat_3":25

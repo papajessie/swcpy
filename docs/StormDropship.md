@@ -70,16 +70,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 500ms
+  * Animation delay: 0
+  * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 500ms
+  * Reload time: 500ms
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 3
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -92,12 +93,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |----------------------------|---|---|---|---|---|---|---|---|---|---|
 |Displayed damage per second |180|188|196|212|220|228|236|248|260|300|
-|Calculated damage per second|417|437|456|492|512|529|548|576|604|696|
+|Calculated damage per second|365|382|399|431|448|463|480|504|528|609|
 |Calculated damage per clip  |585|612|639|690|717|741|768|807|846|975|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1.400s
+  * Cliptime: 1.600s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
@@ -115,7 +116,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: dropshiptrooper_emp-ani
   * Audio attack: "sfx_attack_heavyblasterrifle_1":25,"sfx_attack_heavyblasterrifle_2":25,"sfx_attack_heavyblasterrifle_3":25,"sfx_attack_heavyblasterrifle_4":25

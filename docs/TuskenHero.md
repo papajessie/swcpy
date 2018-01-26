@@ -62,16 +62,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 1s
+  * Animation delay: 350
+  * Charge time: 1s
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 0s
+  * Reload time: 0s
   * Retargeting offset: 10
   * Self-centered targeting: No
   * Shot count: 1
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -84,12 +85,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second |543|950|1519|1736|1953|2170|2387|2604|2821|3255|
-|Calculated damage per second|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Calculated damage per second|293|513|821 |938 |1055|1172|1290|1407|1524|1759|
 |Calculated damage per clip  |543|950|1519|1736|1953|2170|2387|2604|2821|3255|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 1s
+  * Cliptime: 1.850s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -108,7 +109,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 350
   * Arcs: No
   * Asset name: tuskenhero_tkn-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30

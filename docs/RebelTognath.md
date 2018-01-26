@@ -66,16 +66,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 4
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -90,12 +91,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9    |10   |
 |----------------------------|----|----|----|----|----|----|----|----|-----|-----|
 |Displayed damage per second |1200|1435|1675|1915|2160|2400|2640|2875|3115 |3590 |
-|Calculated damage per second|1201|1437|1675|1917|2158|2396|2638|2875|3112 |3591 |
+|Calculated damage per second|1041|1245|1451|1661|1870|2076|2286|2491|2697 |3112 |
 |Calculated damage per clip  |3904|4672|5444|6232|7016|7788|8576|9344|10116|11672|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.250s
+  * Cliptime: 3.750s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -107,7 +108,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Secondary attack auto: Yes
   * Secondary attack cooldown on spawn: No
-  * Secondary attack supplementary time between last shot and reload: 20s
+  * Secondary attack cooldown Time: 20s
   * Secondary attack description: Enhanced Shot
   * Secondary attack duration: 1ms
   * Secondary attack recast ability: Yes
@@ -124,16 +125,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack time between start of clip and first shot: 500ms
+  * Secondary attack animation delay: 250
+  * Secondary attack charge time: 500ms
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1
   * Secondary attack impact delay: 1ms
   * Secondary attack can shoot over walls: No
-  * Secondary attack time between end of clip and start of clip: 1s
+  * Secondary attack reload time: 1s
   * Secondary attack retargeting offset: 12
   * Secondary attack self-centered targeting: No
   * Secondary attack shot count: 1
-  * Secondary attack time between shots: 433ms
+  * Secondary attack shot delay: 433ms
   * Secondary attack target locking: No
 
 |Level                           |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -143,12 +145,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                                             |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |--------------------------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack shot calculated damage per second|144 |156 |161 |167 |173 |185 |191 |196 |202 |213 |
+|Secondary attack shot calculated damage per second|141 |153 |158 |164 |170 |181 |187 |192 |198 |209 |
 |Secondary attack shot calculated damage per clip  |3110|3360|3480|3610|3730|3980|4110|4230|4360|4600|
 
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 21.500s
+  * Secondary attack shot cliptime: 21.933s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: No
   * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
@@ -195,7 +197,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: tognath_con-ani
   * Audio attack: "sfx_attack_tognath_01":33,"sfx_attack_tognath_02":33,"sfx_attack_tognath_03":34
@@ -220,7 +221,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Muzzle flash: fx_blaster_flash_b_sm
   * Name: Tognath
   * Secondary attack alt gun locators: 1
-  * Secondary attack animation delay: 250
   * Secondary attack audio ability attack: "sfx_attack_tognath_ability_01":33,"sfx_attack_tognath_ability_02":33,"sfx_attack_tognath_ability_03":34
   * Secondary attack displayed damage per second: 1000
   * Secondary attack favorite target type: generic

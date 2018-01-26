@@ -69,16 +69,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 2s
+  * Reload time: 2s
   * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 4
-  * Time between shots: 200ms
+  * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
@@ -93,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1140|1190|1260|1350|1420|1500|1600|1680|1800|1910|
-|Calculated damage per second|1136|1192|1263|1347|1417|1501|1600|1684|1796|1908|
+|Calculated damage per second|1062|1114|1180|1259|1324|1403|1495|1573|1678|1783|
 |Calculated damage per clip  |3240|3400|3600|3840|4040|4280|4560|4800|5120|5440|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 2.850s
+  * Cliptime: 3.050s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -116,7 +117,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: aat1_rbl-ani
   * Audio attack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25

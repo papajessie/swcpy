@@ -67,16 +67,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 650ms
+  * Animation delay: 250
+  * Charge time: 650ms
   * Clip retargeting: No
   * Gun shooting sequence: 1,2
   * Impact delay: 0s
   * Can shoot over walls: Yes
-  * Time between end of clip and start of clip: 1s
+  * Reload time: 1s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 2
-  * Time between shots: 750ms
+  * Shot delay: 750ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
 |Displayed damage per second |7000|7500|8000|8500|9000|9500|10000|10500|11000|11500|
-|Calculated damage per second|2916|3125|3333|3541|3750|3958|4166 |4375 |4583 |4791 |
+|Calculated damage per second|1917|2054|2191|2328|2465|2602|2739 |2876 |3013 |3150 |
 |Calculated damage per clip  |7000|7500|8000|8500|9000|9500|10000|10500|11000|11500|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 2.400s
+  * Cliptime: 3.650s
   * Directional: No
   * Is deflectable: No
   * Max speed: 5
@@ -114,7 +115,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 250
   * Arcs: Yes
   * Buff asset offset: 0.00,0.65,0.00
   * Bullet: fx_artilleryDroideka_projectile

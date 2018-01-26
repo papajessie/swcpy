@@ -123,17 +123,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Time between start of clip and first shot: 250ms
+  * Animation delay: 0
+  * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * New target on reload: Yes
   * Can shoot over walls: No
-  * Time between end of clip and start of clip: 1.500s
+  * Reload time: 1.500s
   * Retargeting offset: 20
   * Self-centered targeting: No
   * Shot count: 5
-  * Time between shots: 500ms
+  * Shot delay: 500ms
   * Target locking: No
 
 |Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -148,12 +149,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
 |Displayed damage per second |2505|3140|3845|4620|5445|6360|7325 |8360 |9455 |11400|
-|Calculated damage per second|1272|1525|1780|2034|2288|2542|2797 |3050 |3305 |3813 |
+|Calculated damage per second|1122|1345|1570|1795|2018|2243|2468 |2691 |2916 |3364 |
 |Calculated damage per clip  |4770|5720|6675|7630|8580|9535|10490|11440|12395|14300|
 
 
   * Cannons per sequence: 1
-  * Cliptime: 3.750s
+  * Cliptime: 4.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -178,7 +179,6 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Animation delay: 0
   * Arcs: No
   * Asset name: sullustan_rbl-ani
   * Audio attack: "sfx_attack_tuskenraiders_rifleman_1":35,"sfx_attack_tuskenraiders_rifleman_2":35,"sfx_attack_tuskenraiders_rifleman_3":30
