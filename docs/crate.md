@@ -260,6 +260,8 @@ title: Index of crates
   * [Event Crate (lc_epSpacebear_epObj_unit)](lc_epSpacebear_epObj_unit.html)
   * [Event Crate (lc_epTask_demo_eqp)](lc_epTask_demo_eqp.html)
   * [Bronzium Data Fragment Crate (lc_eqpTutorial_00)](lc_eqpTutorial_00.html)
+  * [Facebook Exclusive Offer (lc_facebookSPDOffer_2018_v1)](lc_facebookSPDOffer_2018_v1.html)
+  * [Facebook Exclusive Offer (lc_facebookSPDOffer_2018_v2)](lc_facebookSPDOffer_2018_v2.html)
   * [Premium Forest Ops Crate (lc_forBiomeStore)](lc_forBiomeStore.html)
   * [Ultra Forest Ops Crate (lc_forBiome_Jetpack_SPD_v1)](lc_forBiome_Jetpack_SPD_v1.html)
   * [Forest Ops Crate 2x Rewards (lc_forBiome_Jetpack_SPD_v2)](lc_forBiome_Jetpack_SPD_v2.html)
