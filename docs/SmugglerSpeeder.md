@@ -97,11 +97,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|1680|
 |Calculated damage per second|84 |100|117|134|907 |1008|1108|1209|1310|1512|
-|Calculated damage per clip  |210|252|294|336|2268|2520|2772|3024|3276|3780|
+|Calculated damage per cycle |210|252|294|336|2268|2520|2772|3024|3276|3780|
 
 
   * Cannons per sequence: 2
-  * Cliptime: 2.500s
+  * Shooting cycle duration: 2.500s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18

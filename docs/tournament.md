@@ -3,6 +3,18 @@ title: Index of conflicts
 ---
 # Conflicts
 
+  * [Conflict on Yavin 4 (conflict_yav_20180222)](conflict_yav_20180222.html)
+  * [Conflict on ErKit (conflict_erk_20180222)](conflict_erk_20180222.html)
+  * [Conflict on Dandoran (conflict_dan_20180222)](conflict_dan_20180222.html)
+  * [Conflict on Takodana (conflict_tak_20180222)](conflict_tak_20180222.html)
+  * [Conflict on Hoth (conflict_hth_20180222)](conflict_hth_20180222.html)
+  * [Conflict on Tatooine (conflict_tat_20180222)](conflict_tat_20180222.html)
+  * [Conflict on Yavin 4 (conflict_yav_20180215)](conflict_yav_20180215.html)
+  * [Conflict on ErKit (conflict_erk_20180215)](conflict_erk_20180215.html)
+  * [Conflict on Dandoran (conflict_dan_20180215)](conflict_dan_20180215.html)
+  * [Conflict on Takodana (conflict_tak_20180215)](conflict_tak_20180215.html)
+  * [Conflict on Hoth (conflict_hth_20180215)](conflict_hth_20180215.html)
+  * [Conflict on Tatooine (conflict_tat_20180215)](conflict_tat_20180215.html)
   * [Conflict on Yavin 4 (conflict_yav_20180208)](conflict_yav_20180208.html)
   * [Conflict on ErKit (conflict_erk_20180208)](conflict_erk_20180208.html)
   * [Conflict on Dandoran (conflict_dan_20180208)](conflict_dan_20180208.html)

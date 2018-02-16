@@ -93,7 +93,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |----------------------------|---|---|----|----|----|----|----|----|----|----|
 |Displayed damage per second |280|336|336 |384 |432 |480 |528 |576 |624 |720 |
 |Calculated damage per second|441|529|617 |705 |794 |882 |970 |1058|1147|1800|
-|Calculated damage per clip  |750|900|1050|1200|1350|1500|1650|1800|1950|6750|
+|Calculated damage per cycle |750|900|1050|1200|1350|1500|1650|1800|1950|6750|
 
 
   * Cannons per sequence: 2
@@ -103,10 +103,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Storage, Support troop, Trap, Turret, Vehicule hero, **(50)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Wall, **(25)**: Shield, Shield generator
   * Pass through shield: No
 
-|Level   |1-9   |10    |
-|--------|------|------|
-|Cliptime|1.700s|3.750s|
-|Salvos  |1     |3     |
+|Level                  |1-9   |10    |
+|-----------------------|------|------|
+|Shooting cycle duration|1.700s|3.750s|
+|Salvos                 |1     |3     |
 
 
 ## Internal stats

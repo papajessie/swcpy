@@ -229,7 +229,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Calculated damage per second: 0
-  * Calculated damage per clip: 0
+  * Calculated damage per cycle: 0
 
 |Level                      |01.01-1.05         |01.06-1.08                 |01.09-1.10                         |02.01-2.05         |02.06-2.08                 |02.09-2.10                         |03.01-3.05         |03.06-3.08                 |03.09-3.10                         |04.01-4.05         |
 |---------------------------|-------------------|---------------------------|-----------------------------------|-------------------|---------------------------|-----------------------------------|-------------------|---------------------------|-----------------------------------|-------------------|
@@ -250,7 +250,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Cliptime: 4.600s
+  * Shooting cycle duration: 4.600s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
