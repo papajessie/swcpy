@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 import textwrap
 import sys
 import json
@@ -271,8 +270,9 @@ def initstat():
         'DPSSS': 'Calculated damage per second (formula two)',
         'DPSSSS': 'Calculated damage per second (formula three)',
         'mults': 'damage multipliers',
+        'projectile:cliptime': 'Shooting cycle duration',
         'projectile:DPS': 'Calculated damage per second',
-        'projectile:DPSS': 'Calculated damage per clip',
+        'projectile:DPSS': 'Calculated damage per cycle',
         'projectile:mults': 'Damage multipliers',
         'projectile:DPSSS': 'Calculated damage per second (formula two)',
         'projectile:DPSSSS': 'Calculated damage per second (formula three)',
@@ -940,7 +940,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='episode,tournament,crate,unit,equip,air,translate,building'
+        mode='episode,tournament,crate,unit,equip,air,translate,building,buildequip'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -1171,6 +1171,16 @@ def main(argv):
             output_mdheader_equipunit(out,objects,getdisplayed(displayed,'equip'))
             for unit in getdisplayed(displayed,'equip'):
                 output_md_equipunit(out,objects,objects[unit])
+    if ('buildequip' in displayed):
+        if ('list' in outputs):
+            output_listheader_equipbuilding(out,objects,getdisplayed(displayed,'buildequip'))
+            for building in getdisplayed(displayed,'buildequip'):
+                output_list_equipbuilding(out,objects,objects[building])
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','buildequip')
+            output_mdheader_equipbuilding(out,objects,getdisplayed(displayed,'buildequip'))
+            for building in getdisplayed(displayed,'buildequip'):
+                output_md_equipbuilding(out,objects,objects[building])
     if ('air' in displayed):
         if ('list' in outputs):
             output_listheader_air(out,objects,getdisplayed(displayed,'air'))
@@ -2044,7 +2054,7 @@ def analyse_equipment_building(objects,displayed,id):
     levels=ob['levels']
     used={}
     projectiles={}
-    addtodisplay(displayed,'equip',id)
+    addtodisplay(displayed,'buildequip',id)
     for u in (data['EquipmentData']).keys():
         uname=data['EquipmentData'][u]['equipmentID']
         if uname!=id:
@@ -2061,19 +2071,19 @@ def analyse_equipment_building(objects,displayed,id):
             ob['eqlevels'].append(eqlevel)
             ob['eqlevels']=sorted(ob['eqlevels'])
         eqsubunit['equipment:equipmentBuff']=dget(effect,'buffUids',[])
-        eqsubunit['equipment:affectedBuildingIds']=dget(effect,'affectedTroopIds',[None])[0]
-        if eqsubunit['equipment:affectedBuildingIds']==None:
-            die('No base unit',eqsubunit)
+        eqsubunit['equipment:buildingID']=dget(effect,'affectedBuildingIds',[None])[0]
+        if eqsubunit['equipment:buildingID']==None:
+            die('No base equipment',eqsubunit)
+        baseunit=eqsubunit['equipment:buildingID']
         damagehealth=dobuff(ob,eqsubunit,'equip','equipment:equipmentBuff')
         skin=None
         fill_unit_level(ob,eqlevel,eqsubunit,'equipment','eqroles')
-        die("debug",eqsubunit)
-        for uu in (data['TroopData']).keys():
-            if data['TroopData'][uu]['unitID'] != baseunit:
+        for uu in (data['BuildingData']).keys():
+            if data['BuildingData'][uu]['buildingID'] != baseunit:
                 continue
             # subunit is a flattened version of the CSV data
             subunit={}
-            for k,v in data['TroopData'][uu].items():
+            for k,v in data['BuildingData'][uu].items():
                 subunit[k]=v
             if skin != None:
                 if 'override' in data['SkinData'][skin]:
@@ -2088,6 +2098,7 @@ def analyse_equipment_building(objects,displayed,id):
             fill_unit_level(ob,level,subunit)
             levels.append(level)
     levels=sorted(levels)
+    ob['levels']=levels
     ob['firstlevel']=levels[0]
     if len(levels)==1:
         levelstring=str(levels[0])
@@ -2591,6 +2602,80 @@ def output_md_equipunit(out,objects,item):
         file.write("---\ntitle: {1} ({0})\ncategory: unit\n---\n".format(id,title))
         lout=['']
         output_list_equipunit(lout,objects,item,True)
+        file.write(lout[0])
+
+
+def output_listheader_equipbuilding(out,objects,displayed):
+    out.append("There are {0} buildings in the selection:".format(len(displayed)))
+
+def output_list_equipbuilding(out,objects,item,LINKS=False):
+    global config
+    id=___(item['uid'])
+    title=__(item['title'])
+    allkeys=config['statrole']
+    xout='\n# {1} ({0})\n\n'.format(id,title)
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    if LINKS:
+        config['stathandler']['equipment:affectedTroopIds']=lambda x:'[{1}]({0}.html)'.format(x,_('trp_title_'+x))
+    else:
+        config['stathandler']['equipment:affectedTroopIds']=lambda x:'{1} ({0})'.format(x,_('trp_title_'+x))
+    eqtosee=[x for x in item['eqroles'].keys()]
+    remove(eqtosee,'')
+    xout+='## Equipment stats\n\n'
+    xout+='### Basic stats\n\n' 
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentbasic']))
+    remove(eqtosee,'equipmentbasic')
+    if ('equip' in item['options']):
+        xout+='### Modifiers\n\n'
+        xout+=display_modifiers(item,'equip',eqtosee,'equipment')
+    xout+='### Upgrade stats\n\n'
+    trainlist=fill_requirements(item,'equipment','equipment:requirements',sorted(item['eqlevels']),LINKS)
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentupgrade']+trainlist))
+    remove(eqtosee,'equipmentupgrade')
+    xout+='### Presentation and internal stats\n\n' 
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentinternal']))
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentpresentation']))
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentunknown']))
+    remove(eqtosee,'equipmentunknown')
+    remove(eqtosee,'equipmentinternal')
+    remove(eqtosee,'equipmentpresentation')
+    eqtosee=removebysuffix(eqtosee,'nodisplay')
+    xout+=output_list_unit_aux(item,LINKS)
+    if len(eqtosee)>0:
+        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(eqtosee))+'\n'
+        xout+='\n'.join(sorted([x for x in allkeys if allkeys[x].endswith(sorted(eqtosee)[0])]))+'\n'
+    out[len(out)-1]+=xout
+    return
+
+def output_mdheader_equipbuilding(out,objects,displayed):
+    with open("docs/buildequip.md","w") as file:
+        file.write("---\ntitle: Index of building equipments\n---\n")
+        file.write("# Building equipments\n\n")
+        file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
+        sides={}
+        for building in displayed:
+            item=objects[building]
+            firstlevel=item['firstlevel']
+            sides[item['hq'][firstlevel]['faction']]=1
+        for side in sorted(sides,key=sortside):
+            file.write("### {0}\n\n".format(display_side(side)))
+            for building in sorted(displayed):
+                item=objects[building]
+                firstlevel=item['firstlevel']
+                if item['hq'][firstlevel]['faction']==side:
+                    id=___(item['uid'])
+                    title=__(item['title'])
+                    file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+            file.write("\n")
+
+def output_md_equipbuilding(out,objects,item):
+    id=___(item['uid'])
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: building\n---\n".format(id,title))
+        lout=['']
+        output_list_equipbuilding(lout,objects,item,True)
         file.write(lout[0])
 
 
