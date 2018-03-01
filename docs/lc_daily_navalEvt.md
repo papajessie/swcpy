@@ -93,31 +93,29 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
 ### Empire for HQ level 5
 
-  * (1/4) 1 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
-  * (1/4) 1 troop sample [Imperial Starfighter Pilot](TiePilot)
-  * (1/4) 2 troop sample [Imperial Starfighter Pilot](TiePilot)
-  * (1/4) 2 troop sample [Rodian Recon Sniper](RodianSample)
+  * (1/17) 1 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
+  * (8/17) 1 troop sample [Imperial Starfighter Pilot](TiePilot)
+  * (8/17) 1 troop sample [Rodian Recon Sniper](RodianSample)
 
 ### Rebellion for HQ level 5
 
-  * (1/4) 1 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
-  * (1/4) 1 troop sample [Alliance Starfighter Pilot](XWingPilot)
-  * (1/4) 2 troop sample [Alliance Starfighter Pilot](XWingPilot)
-  * (1/4) 2 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
+  * (1/17) 1 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
+  * (8/17) 1 troop sample [Alliance Starfighter Pilot](XWingPilot)
+  * (8/17) 1 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
 
 ### Rebellion for HQ levels 6-10
 
-  * (1/4) 1 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
-  * (1/4) 1 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
-  * (1/4) 2 troop sample [Alliance Starfighter Pilot](XWingPilot)
-  * (1/4) 2 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
+  * (1/18) 1 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
+  * (1/18) 1 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
+  * (8/18) 1 troop sample [Alliance Starfighter Pilot](XWingPilot)
+  * (8/18) 1 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
 
 ### Empire for HQ levels 6-10
 
-  * (1/4) 1 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
-  * (1/4) 1 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
-  * (1/4) 2 troop sample [Imperial Starfighter Pilot](TiePilot)
-  * (1/4) 2 troop sample [Rodian Recon Sniper](RodianSample)
+  * (1/18) 1 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
+  * (1/18) 1 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
+  * (8/18) 1 troop sample [Imperial Starfighter Pilot](TiePilot)
+  * (8/18) 1 troop sample [Rodian Recon Sniper](RodianSample)
 
 ### Fallback for HQ level 10
 

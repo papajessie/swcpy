@@ -25,7 +25,7 @@ category: episode
 |Task HQ7 |Earn 35 EP                                                                       |Earn 60 EP                                                                       |Destroy 60 Buildings                                                 |
 |Task HQ8 |Earn 35 EP                                                                       |Earn 60 EP                                                                       |Destroy 63 Buildings                                                 |
 |Task HQ9 |Earn 40 EP                                                                       |Earn 70 EP                                                                       |Destroy 72 Buildings                                                 |
-|Task HQ10|Earn 50 EP                                                                       |Earn 80 EP                                                                       |Destroy 159 Buildings                                                |
+|Task HQ10|Earn 50 EP                                                                       |Earn 100 EP                                                                      |Destroy 159 Buildings                                                |
 
 
 |Level    |04                                                                               |05                                                                               |06                                                                               |
@@ -42,7 +42,7 @@ category: episode
 |Task HQ7 |Earn 90 EP                                                                       |Earn 120 EP                                                                      |Earn 135 EP                                                                      |
 |Task HQ8 |Earn 90 EP                                                                       |Earn 120 EP                                                                      |Earn 135 EP                                                                      |
 |Task HQ9 |Earn 100 EP                                                                      |Earn 130 EP                                                                      |Earn 150 EP                                                                      |
-|Task HQ10|Earn 120 EP                                                                      |Earn 160 EP                                                                      |Earn 180 EP                                                                      |
+|Task HQ10|Earn 160 EP                                                                      |Earn 210 EP                                                                      |Earn 250 EP                                                                      |
 
 
 |Level    |07                                                                               |08                                                                             |09                                                                               |
@@ -59,7 +59,7 @@ category: episode
 |Task HQ7 |Earn 150 EP                                                                      |Destroy 6 Barracks                                                             |Earn 120 EP                                                                      |
 |Task HQ8 |Earn 150 EP                                                                      |Destroy 6 Barracks                                                             |Earn 120 EP                                                                      |
 |Task HQ9 |Earn 180 EP                                                                      |Destroy 6 Barracks                                                             |Earn 130 EP                                                                      |
-|Task HQ10|Earn 230 EP                                                                      |Destroy 6 Barracks                                                             |Earn 160 EP                                                                      |
+|Task HQ10|Earn 290 EP                                                                      |Destroy 6 Barracks                                                             |Earn 210 EP                                                                      |
 
 
 |Level    |10                                                                               |11                                                                               |12                                                                               |
@@ -76,7 +76,7 @@ category: episode
 |Task HQ7 |Earn 135 EP                                                                      |Earn 150 EP                                                                      |Earn 165 EP                                                                      |
 |Task HQ8 |Earn 135 EP                                                                      |Earn 150 EP                                                                      |Earn 165 EP                                                                      |
 |Task HQ9 |Earn 150 EP                                                                      |Earn 180 EP                                                                      |Earn 200 EP                                                                      |
-|Task HQ10|Earn 180 EP                                                                      |Earn 230 EP                                                                      |Earn 250 EP                                                                      |
+|Task HQ10|Earn 250 EP                                                                      |Earn 290 EP                                                                      |Earn 340 EP                                                                      |
 
 
 |Level    |13                                                                               |14                                                                               |15                                                                       |
@@ -93,7 +93,7 @@ category: episode
 |Task HQ7 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Destroy 6 Credit Markets                                                 |
 |Task HQ8 |Earn 175 EP                                                                      |Earn 185 EP                                                                      |Destroy 6 Credit Markets                                                 |
 |Task HQ9 |Earn 230 EP                                                                      |Earn 250 EP                                                                      |Destroy 6 Credit Markets                                                 |
-|Task HQ10|Earn 290 EP                                                                      |Earn 310 EP                                                                      |Destroy 12 Credit Markets                                                |
+|Task HQ10|Earn 380 EP                                                                      |Earn 450 EP                                                                      |Destroy 12 Credit Markets                                                |
 
 
 |Level    |16                                                                               |17                                                                               |18                                                                               |
@@ -110,7 +110,7 @@ category: episode
 |Task HQ7 |Earn 165 EP                                                                      |Earn 175 EP                                                                      |Earn 185 EP                                                                      |
 |Task HQ8 |Earn 165 EP                                                                      |Earn 175 EP                                                                      |Earn 185 EP                                                                      |
 |Task HQ9 |Earn 200 EP                                                                      |Earn 230 EP                                                                      |Earn 250 EP                                                                      |
-|Task HQ10|Earn 250 EP                                                                      |Earn 290 EP                                                                      |Earn 310 EP                                                                      |
+|Task HQ10|Earn 340 EP                                                                      |Earn 380 EP                                                                      |Earn 450 EP                                                                      |
 
 
 |Level    |19                                                                               |20                                                                               |21                                                                               |
@@ -127,7 +127,7 @@ category: episode
 |Task HQ7 |Earn 205 EP                                                                      |Earn 205 EP                                                                      |Earn 215 EP                                                                      |
 |Task HQ8 |Earn 205 EP                                                                      |Earn 205 EP                                                                      |Earn 215 EP                                                                      |
 |Task HQ9 |Earn 290 EP                                                                      |Earn 290 EP                                                                      |Earn 310 EP                                                                      |
-|Task HQ10|Earn 370 EP                                                                      |Earn 370 EP                                                                      |Earn 390 EP                                                                      |
+|Task HQ10|Earn 500 EP                                                                      |Earn 500 EP                                                                      |Earn 390 EP                                                                      |
 
 
 |Level    |22                                                                               |23                                                                                       |24                                                                                       |

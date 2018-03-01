@@ -168,19 +168,19 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_navalEvt_smpl" (x1 draw)
 
-### Rebellion
-
-  * (1/6) 2 troop sample [Alliance Starfighter Pilot](XWingPilot)
-  * (1/6) 2 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
-  * (2/6) 3 troop sample [Alliance Starfighter Pilot](XWingPilot)
-  * (2/6) 3 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
-
 ### Empire
 
-  * (1/6) 2 troop sample [Imperial Starfighter Pilot](TiePilot)
-  * (1/6) 2 troop sample [Rodian Recon Sniper](RodianSample)
-  * (2/6) 3 troop sample [Imperial Starfighter Pilot](TiePilot)
-  * (2/6) 3 troop sample [Rodian Recon Sniper](RodianSample)
+  * (1/13) 2 troop sample [Imperial Starfighter Pilot](TiePilot)
+  * (2/13) 3 troop sample [Imperial Starfighter Pilot](TiePilot)
+  * (2/13) 3 troop sample [Rodian Recon Sniper](RodianSample)
+  * (8/13) 1 troop sample [Rodian Recon Sniper](RodianSample)
+
+### Rebellion
+
+  * (1/13) 2 troop sample [Alliance Starfighter Pilot](XWingPilot)
+  * (2/13) 3 troop sample [Alliance Starfighter Pilot](XWingPilot)
+  * (2/13) 3 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
+  * (8/13) 1 troop sample [Sullustan Recon Sharpshooter](SullustanSample)
 
 ### Fallback for HQ level 10
 
