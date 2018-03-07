@@ -101,9 +101,9 @@ category: episode
 |Time     |4h                                                       |4h                                                       |0s                                                                     |
 |Nature   |                                                         |                                                         |★                                                                      |
 |Crate    |[Event Crate (lc_epNaval_epTask)](lc_epNaval_epTask.html)|[Event Crate (lc_epNaval_epTask)](lc_epNaval_epTask.html)|[Event Crate (lc_epMilestone_credit_t2)](lc_epMilestone_credit_t2.html)|
-|Task HQ1 |Earn 100 EP                                              |Earn 110 EP                                              |None (E); Deploy ??? Infantry Units (R)                                |
-|Task HQ2 |Earn 200 EP                                              |Earn 230 EP                                              |Deploy 10 Vehicle Units (E); Deploy ??? Infantry Units (R)             |
-|Task HQ3 |Earn 200 EP                                              |Earn 230 EP                                              |Deploy 10 Vehicle Units (E); Deploy ??? Infantry Units (R)             |
+|Task HQ1 |Earn 100 EP                                              |Earn 110 EP                                              |None (E); Deploy 10 Infantry Units (R)                                 |
+|Task HQ2 |Earn 200 EP                                              |Earn 230 EP                                              |Deploy 10 Vehicle Units (E); Deploy 40 Infantry Units (R)              |
+|Task HQ3 |Earn 200 EP                                              |Earn 230 EP                                              |Deploy 10 Vehicle Units (E); Deploy 40 Infantry Units (R)              |
 |Task HQ4 |Earn 250 EP                                              |Earn 290 EP                                              |Deploy 10 Vehicle Units                                                |
 |Task HQ5 |Earn 185 EP                                              |Earn 205 EP                                              |Deploy 10 Vehicle Units                                                |
 |Task HQ6 |Earn 250 EP                                              |Earn 290 EP                                              |Deploy 25 Vehicle Units                                                |
