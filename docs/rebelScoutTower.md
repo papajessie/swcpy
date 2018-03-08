@@ -69,6 +69,6 @@ These are all sorts of user interface settings, that should not interfere with g
 Seriously, we don't really know what to do with these.
 
   * Max XP: 3
-  * Order: 264
+  * Order: 16
   * Xp: 3
 

@@ -77,7 +77,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-  * Order: 256
+  * Order: 18
 
 |Level |1|2|3|4|5|6|7|8|
 |------|-|-|-|-|-|-|-|-|

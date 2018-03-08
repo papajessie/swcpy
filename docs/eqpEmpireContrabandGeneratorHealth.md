@@ -234,7 +234,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-  * Order: 252
+  * Order: 20
 
 |Level |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10, 10.01-10.10|
 |------|----------|----------|----------|----------|----------|----------|----------|----------|-----------------------|

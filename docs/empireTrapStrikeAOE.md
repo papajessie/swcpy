@@ -84,7 +84,7 @@ These are all sorts of user interface settings, that should not interfere with g
 Seriously, we don't really know what to do with these.
 
   * Max XP: 0
-  * Order: 234
+  * Order: 15
 
 |Level|1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
 |-----|--|--|--|--|--|--|--|--|--|--|

@@ -134,7 +134,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-  * Order: 267
+  * Order: 22
 
 |Level |1-4|5-8|9-12|13-16|17-20|21-24|25-28|29-32|33-36|37-50|
 |------|---|---|----|-----|-----|-----|-----|-----|-----|-----|

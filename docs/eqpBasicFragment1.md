@@ -125,6 +125,6 @@ These are all sorts of user interface settings, that should not interfere with g
 Seriously, we don't really know what to do with these.
 
   * Max XP: 0
-  * Order: 12
+  * Order: 1
   * Xp: 0
 

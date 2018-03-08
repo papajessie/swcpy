@@ -92,7 +92,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-  * Order: 250
+  * Order: 19
 
 |Level |1|2|3|4|5|6|7|8|9-17|
 |------|-|-|-|-|-|-|-|-|----|

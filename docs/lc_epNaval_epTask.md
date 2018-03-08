@@ -185,18 +185,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/84) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (3/84) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Rebellion for HQ level 5
-
-  * (3/27) 1 data fragments of unlockable air support [A-wing Starfighter](AWing)
-  * (3/27) 1 data fragments of unlockable air support [HWK-290](HWK290)
-  * (3/27) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (3/27) 1 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
-  * (3/27) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-  * (3/27) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (3/27) 1 data fragments of unlockable troop [Modified SD-K4](HeroRebelSpiderDroid)
-  * (3/27) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (3/27) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
-
 ### Empire for HQ levels 6-10
 
   * (3/84) 1 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
@@ -238,6 +226,17 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/24) 1 data fragments of unlockable troop [MTV-7](MTV7)
   * (3/24) 1 data fragments of unlockable troop [Shock Trooper](Shock)
   * (3/24) 1 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+
+### Rebellion for HQ level 5
+
+  * (3/24) 1 data fragments of unlockable air support [A-wing Starfighter](AWing)
+  * (3/24) 1 data fragments of unlockable air support [HWK-290](HWK290)
+  * (3/24) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (3/24) 1 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
+  * (3/24) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (3/24) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (3/24) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (3/24) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
 ### Fallback for HQ level 10
 
