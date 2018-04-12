@@ -106,30 +106,6 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_rogue1v3_shrd" (x1 draw)
 
-### Rebellion for HQ levels 6-10
-
-  * (1/18) 3 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (1/18) 3 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/18) 3 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (1/18) 3 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (1/18) 4 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (1/18) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/18) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (1/18) 4 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (2/18) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/18) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/18) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/18) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
-
-### Empire for HQ level 5
-
-  * (2/20) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/20) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (4/20) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (5/20) 1 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (5/20) 1 data fragments of unlockable air support [shptitleshrdtroopSecurityDroid](shrd_troopSecurityDroid)
-
 ### Empire for HQ levels 6-10
 
   * (1/18) 3 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
@@ -140,19 +116,44 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/18) 4 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
   * (1/18) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
   * (1/18) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (2/18) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/18) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/18) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/18) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (4/18) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
+### Rebellion for HQ levels 6-10
+
+  * (1/23) 3 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (1/23) 3 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/23) 3 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/23) 3 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (1/23) 4 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (1/23) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/23) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/23) 4 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (2/23) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/23) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/23) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (4/23) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (5/23) 1 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+
+### Empire for HQ level 5
+
+  * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/20) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (2/20) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (4/20) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/20) 1 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (5/20) 1 data fragments of unlockable troop [Security Droid](SecurityDroid)
+
 ### Rebellion for HQ level 5
 
-  * (2/20) 3 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (2/20) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (2/20) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (4/20) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (5/20) 1 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (5/20) 1 data fragments of unlockable air support [shptitleshrdtroopBigMouthAlien](shrd_troopBigMouthAlien)
+  * (5/20) 1 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
 
 ### Fallback for HQ level 10
 

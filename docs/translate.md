@@ -527,7 +527,7 @@ category: strings
   * **FLYOUT_DETAIL_REPUTATION**: '[c][DCF1FA]{0}[-][/c]'
   * **FLYOUT_DETAIL_UNIT_DATA_FRAGMENTS**: '[c][DBC0FF]{0}[-][/c]'
   * **FLYOUT_DETAIL_UNIT_SAMPLES**: '[c][23ABFA]{0}[-][/c]'
-  * **FLYOUT_DISCLAIMER**: 'TEMP: A substitute item will be rewarded if unit or equipment is fully upgraded.'
+  * **FLYOUT_DISCLAIMER**: 'Alternative items may be granted if reward requirements are not met.'
   * **FLYOUT_ELITE_EQUIPMENT_DATA_FRAGMENTS**: '[c][FFC25B]Elite Equipment Data Fragments {0}[-][/c]'
   * **FLYOUT_FEATURED_REWARDS**: 'Featured Rewards'
   * **FLYOUT_MATERIALS**: '[c][AEC0F2]Alloy {0}[-][/c]'
@@ -977,11 +977,28 @@ category: strings
   * **SETTINGS_CREDITS_DESIGN_SUBHEAD**: 'Design'
   * **SETTINGS_CREDITS_ENGINEERING_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
   * **SETTINGS_CREDITS_ENGINEERING_SUBHEAD**: 'Engineering'
-  * **SETTINGS_CREDITS_LASTTHANKS_LIST**: 'LucasFilm Games'
-  * **SETTINGS_CREDITS_LASTTHANKS_SUBHEAD**: 'Thanks for playing!'
+  * **SETTINGS_CREDITS_LASTTHANKS_SUBHEAD**: 'Thanks for playing Star Wars™: Commander!'
+  * **SETTINGS_CREDITS_LFFART_LIST**: 'Hez Chorba'
+  * **SETTINGS_CREDITS_LFFART_SUBHEAD**: 'Art'
+  * **SETTINGS_CREDITS_LFFBRANDQA_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFBRANDQA_SUBHEAD**: 'Brand QA'
+  * **SETTINGS_CREDITS_LFFDAMGT_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFDAMGT_SUBHEAD**: 'Digital Asset Management'
+  * **SETTINGS_CREDITS_LFFFRANCHISE_LIST**: 'Diana Cordio • Douglas Reilly'
+  * **SETTINGS_CREDITS_LFFFRANCHISE_SUBHEAD**: 'Franchise Management'
+  * **SETTINGS_CREDITS_LFFLOCALIZATION_LIST**: 'Kristen Hidalgo • Michael Kohn'
+  * **SETTINGS_CREDITS_LFFLOCALIZATION_SUBHEAD**: 'Localization'
+  * **SETTINGS_CREDITS_LFFMARKETING_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFMARKETING_SUBHEAD**: 'Marketing & PR'
+  * **SETTINGS_CREDITS_LFFPRODUCTION_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFPRODUCTION_SUBHEAD**: 'Production'
+  * **SETTINGS_CREDITS_LFFSPECIALTHANKS_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFSPECIALTHANKS_SUBHEAD**: 'Lucasfilm Franchise Special Thanks'
+  * **SETTINGS_CREDITS_LFFSTORY_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
+  * **SETTINGS_CREDITS_LFFSTORY_SUBHEAD**: 'Story'
+  * **SETTINGS_CREDITS_LFG_SUBHEAD**: 'Lucasfilm Games'
   * **SETTINGS_CREDITS_LOCALIZATION_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
   * **SETTINGS_CREDITS_LOCALIZATION_SUBHEAD**: 'Localization'
-  * **SETTINGS_CREDITS_LUCAS_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
   * **SETTINGS_CREDITS_LUCAS_SUBHEAD**: 'Lucasfilm Franchise'
   * **SETTINGS_CREDITS_PRODUCTION_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
   * **SETTINGS_CREDITS_PRODUCTION_SUBHEAD**: 'Production'
@@ -993,6 +1010,8 @@ category: strings
   * **SETTINGS_CREDITS_SPECIALTHANKS_SUBHEAD**: 'Special Thanks'
   * **SETTINGS_CREDITS_TECHNOLOGY_LIST**: 'TEMP: PLACEHOLDER NAME • PLACEHOLDER NAME • PLACEHOLDER NAME'
   * **SETTINGS_CREDITS_TECHNOLOGY_SUBHEAD**: 'Technology'
+  * **SETTINGS_CREDITS_VERYSPECIALTHANKS_LIST**: 'George Lucas'
+  * **SETTINGS_CREDITS_VERYSPECIALTHANKS_SUBHEAD**: 'Very Special Thanks'
   * **SETTINGS_DISNEY**: 'Disney Referral Store'
   * **SETTINGS_EVERYPLAY**: 'Everyplay Auto-Capture'
   * **SETTINGS_FACEBOOK**: 'Facebook: {0}'
@@ -2853,6 +2872,7 @@ category: strings
   * **crate_title_lc_vertCrateVehicle_A**: 'Vehicle Data Fragment Crate'
   * **crate_title_lc_vertCrateVehicle_B**: 'Vehicle Data Fragment Crate'
   * **crate_title_lc_vertCrateVehicle_C**: 'Vehicle Data Fragment Crate'
+  * **crate_title_mt4_Crate**: 'Daily Star Wars Day Crate'
   * **crystal_amount_bonus**: '{0} Extra Crystals!'
   * **crystal_bonus_ends_in**: 'Offer ends in {0}'
   * **crystal_incentive_1**: 'Get {0}'
@@ -3190,6 +3210,45 @@ category: strings
   * **dia_epNaval_p3cf_00_r**: "We've done it, Agent. One of our convoys under Imperial threat has finally escaped, thanks to the distraction created by your offensives."
   * **dia_epNaval_p3cf_01_e**: 'It was carrying supplies vital to the Rebellion. Strike again before they recover you will be rewarded further. The Empire thanks for your service on this mission, Operative.'
   * **dia_epNaval_p3cf_01_r**: "You must understand, the convoy's very existence must be kept a secret. If you can, maintain your attacks. The Alliance will reward you."
+  * **dia_epRogue1_p1c1_00**: "Hey, partner. Kada Jahr has a job offer for us. I don't know how she got it, but she's offering to pay with some heavy-duty tech."
+  * **dia_epRogue1_p1c1_01**: "You worry too much, Saponza. It's from a freighter that left Imperial space some time ago but was crippled by some accident."
+  * **dia_epRogue1_p1c1_02**: "A scavenger crew found it and recovered these crates, which is what I plan to pay you if you can complete the jobs I've sent over."
+  * **dia_epRogue1_p1c1_03_e**: "Operative, there's some heavy duty tech to be earned here. You don't want to miss out on this!"
+  * **dia_epRogue1_p1c1_03_r**: "There's some heavy duty tech to be earned here, Agent. Don't miss out!"
+  * **dia_epRogue1_p1c2_00_e**: "How's progress, Operative? I can't hold these goods forever, but I guarantee payment if you complete these jobs on time."
+  * **dia_epRogue1_p1c2_00_r**: "How's progress, Agent? I can't hold these goods forever, but I guarantee payment if you complete these jobs on time."
+  * **dia_epRogue1_p1cf_00**: "Nice work. Here's your payment, as promised. The scavengers scored a major haul and I'll have more work for you soon."
+  * **dia_epRogue1_p1cf_01**: "For now, if you do extra work, I'll send over extra crates."
+  * **dia_epRogue1_p2c1_00_e**: 'Hello again, Operative. I have another job for you, and more Data Fragments from that freighter cargo to back it up.'
+  * **dia_epRogue1_p2c1_00_r**: 'Hello again, Agent. I have another job for you, and more Data Fragments from that freighter cargo to back it up.'
+  * **dia_epRogue1_p2c1_01**: 'Seems there was an explosion on board some time after takeoff. It killed the whole crew and pushed the ship out of hyperspace.'
+  * **dia_epRogue1_p2c1_02**: "It was dumb luck the scavengers found it before anyone else. It won't stay secret forever, but we can both benefit from these recovered crates in the meantime."
+  * **dia_epRogue1_p2c1_03**: "Finish the job and I'll pay you well."
+  * **dia_epRogue1_p2c2_00**: "I'm keeping an eye on the scavengers. Nobody has let word of the freighter cargo slip- yet. You know how junker crews can be."
+  * **dia_epRogue1_p2cf_00_e**: "I knew you'd come through, Operative. Can't say the same for the scavengers. Rumors about the cargo are starting to go around."
+  * **dia_epRogue1_p2cf_00_r**: "I knew you'd come through, Agent. Can't say the same for the scavengers. Rumors about the cargo are starting to go around."
+  * **dia_epRogue1_p2cf_01**: "There's still time, though. I'll have more work for you soon, and extra crates for any more work you do on this current job."
+  * **dia_epRogue1_p3c1_00_e**: 'I have some interesting news, Operative. It seems the freighter was sabotaged, likely an inside job that clearly went wrong.'
+  * **dia_epRogue1_p3c1_00_r**: 'I have some interesting news, Agent. It seems the freighter was sabotaged, likely an inside job that clearly went wrong.'
+  * **dia_epRogue1_p3c1_01**: "I expect a rumor like that to get the Imperial Security Bureau's attention. Fortunately, there's still time for us to make a deal."
+  * **dia_epRogue1_p3c1_02**: 'I have some of the best crates set aside for you- if you finish this new job in time.'
+  * **dia_epRogue1_p3c1_03**: "Dealing in stolen goods is always risky, but I think you'll agree that it's worth it."
+  * **dia_epRogue1_p3c2_00_e**: "I hope you're holding up your end of things, Operative. ISB has just started asking questions, but I wouldn't waste time finishing this job."
+  * **dia_epRogue1_p3c2_00_r**: "I hope you're holding up your end of things, Agent. ISB has just started asking questions, but I wouldn't waste time finishing this job."
+  * **dia_epRogue1_p3cf_00_e**: "You've been busy, Operative. I'm sending payment, as promised. ISB has been busy, too, so I'll have one final job for you soon before I lay low."
+  * **dia_epRogue1_p3cf_00_r**: "You've been busy, Agent. I'm sending payment, as promised. ISB has been busy, too, so I'll have one final job for you soon before I lay low."
+  * **dia_epRogue1_p3cf_01**: 'In the meantime, I will pay extra for further work you put in to this job.'
+  * **dia_epRogue1_p4c1_00_e**: "I have one last job for you, Operative, then I'm burning the rest of the freighter cargo. Don't worry, I'll scrub anything linking either of us back to it."
+  * **dia_epRogue1_p4c1_00_r**: "I have one last job for you, Agent, then I'm burning the rest of the freighter cargo. Don't worry, I'll scrub anything linking either of us back to it."
+  * **dia_epRogue1_p4c1_01**: "The Imperial Security Bureau confirmed sabotage on the freighter. Obviously, they aren't very happy about it."
+  * **dia_epRogue1_p4c1_02**: "Fortunately, there's enough time for both of us to profit a little more. Finish the job, get your crates. Simple."
+  * **dia_epRogue1_p4c1_03_e**: "I was going to keep these Data Fragments, but they're yours if you can deliver. Good luck, Operative."
+  * **dia_epRogue1_p4c1_03_r**: "I was going to keep these Data Fragments, but they're yours if you can deliver. Good luck, Agent."
+  * **dia_epRogue1_p4c2_00_e**: "I hope you're not falling behind, Operative. ISB's methods are crude, but effective. Don't overestimate how much time you left."
+  * **dia_epRogue1_p4c2_00_r**: "I hope you're not falling behind, Agent. ISB's methods are crude, but effective. Don't overestimate how much time you left."
+  * **dia_epRogue1_p4cf_00_e**: "Time's up soon, Operative. The Imperial Security Bureau will discover that someone took the freighter cargo, but never who."
+  * **dia_epRogue1_p4cf_00_r**: "Time's up soon, Agent. The Imperial Security Bureau will discover that someone took the freighter cargo, but never who."
+  * **dia_epRogue1_p4cf_01_r**: "I wish we'd been able to make more of this deal, but I have just enough crates left to pay you for any final work on this job. See you later."
   * **dia_epSpaceBear_w2c1_00**: 'Hey, partner. My contact seems to have taken a liking to your work. He offered a new set of jobs for us to do, with payment of course!'
   * **dia_epSpaceBear_w2c1_01_e**: "I think it's a good chance for us to help the Empire. We should start on this now so we can get our hands on that new military tech."
   * **dia_epSpaceBear_w2c1_01_r**: "I think it's a good chance for us to help the Alliance. We should start on this fast so we can get our hands on that new tech."
@@ -4338,6 +4397,38 @@ category: strings
   * **epchp_epNaval_p3cf_title**: 'Naval Assault, Part III [Complete]'
   * **epchp_epNaval_p3f_body_e**: '[reuse the "Naval Event Event Phase 1, Final Grind Body (Empire)" string]:\n\nCongratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Imperial Starfighter Pilot.'
   * **epchp_epNaval_p3f_body_r**: '[reuse the "Naval Event Event Phase 1, Final Grind Body (Rebel)" string]:\n\nCongratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Alliance Starfighter Pilot.'
+  * **epchp_epRogue1_p1c1_body_e**: 'Kada Jahr has a job for you. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p1c1_body_r**: 'Kada Jahr has a job for you. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Stolen TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p1c1_title**: 'Questionable Cargo, Part I'
+  * **epchp_epRogue1_p1c2_title**: 'Questionable Cargo, Part I: Chapter II'
+  * **epchp_epRogue1_p1cf_body_e**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of TX-225 assault tank equipment fragments! (HQ 5 and below: chance of Shock Trooper unit.)'
+  * **epchp_epRogue1_p1cf_body_r**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of Stolen TX-225 assault tank equipment fragments! (HQ 5 and below: chance of Shock Trooper unit.)'
+  * **epchp_epRogue1_p1cf_title**: 'Questionable Cargo, Part I [Complete]'
+  * **epchp_epRogue1_p2c1_body_e**: 'Kada Jahr has more crates from the freighter cargo. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the TIE Striker starfighter! (HQ 5 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2c1_body_r**: 'Kada Jahr has more crates from the freighter cargo. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Fang Fighter starship! (HQ 5 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2c1_title**: 'Questionable Cargo, Part II'
+  * **epchp_epRogue1_p2c2_body_e**: 'The secret of the freighter cargo is safe, for now. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the TIE Striker starfighter! (HQ 5 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2c2_body_r**: 'The secret of the freighter cargo is safe, for now. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Fang Fighter starship! (HQ 5 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2c2_title**: 'Questionable Cargo, Part II: Chapter II'
+  * **epchp_epRogue1_p2cf_body_e**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of TIE Striker starfighter unit fragments! (HQ 5 and below: chance of Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2cf_body_r**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of Fang Fighter starship unit fragments! (HQ 5 and below: chance of Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p2cf_title**: 'Questionable Cargo, Part II [Complete]'
+  * **epchp_epRogue1_p3c1_body_e**: 'Kada Jahr has another set of Data Fragments. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Security Droid mercenary unit! (HQ 6 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3c1_body_r**: 'Kada Jahr has another set of Data Fragments. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Drabatan Saboteur mercenary unit! (HQ 6 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3c1_title**: 'Questionable Cargo, Part III'
+  * **epchp_epRogue1_p3c2_body_e**: 'The Imperial Security Bureau is investigating the freighter. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Security Droid mercenary unit! (HQ 6 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3c2_body_r**: 'The Imperial Security Bureau is investigating the freighter. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Drabatan Saboteur mercenary unit! (HQ 6 and below receive Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3c2_title**: 'Questionable Cargo, Part III: Chapter II'
+  * **epchp_epRogue1_p3cf_body_e**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of Security Droid mercenary unit fragments! (HQ 6 and below: chance of Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3cf_body_r**: 'Congratulations! You completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times.[-][/c] Each time earns a bonus crate with a chance of Drabatan Saboteur mercenary unit fragments! (HQ 6 and below: chance of Johhar Kessen hero unit.)'
+  * **epchp_epRogue1_p3cf_title**: 'Questionable Cargo, Part III [Complete]'
+  * **epchp_epRogue1_p4c1_body_e**: 'Kada Jahr is offering one last job. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p4c1_body_r**: 'Kada Jahr is offering one last job. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Stolen TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p4c1_title**: 'Questionable Cargo, Part IV'
+  * **epchp_epRogue1_p4c2_body_e**: 'Kada Jahr admonishes you to move quickly on the job. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p4c2_body_r**: 'Kada Jahr admonishes you to move quickly on the job. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Stolen TX-225 assault tank equipment! (HQ 5 and below receive Shock Trooper unit.)'
+  * **epchp_epRogue1_p4c2_title**: 'Questionable Cargo, Part IV: Chapter II'
+  * **epchp_epRogue1_p4cf_title**: 'Questionable Cargo, Part IV [Complete]'
   * **epchp_epSpaceBear_w1c1_body_e**: 'One of Saponza’s old pirate contacts needs some work done, and will pay handsomely for it.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
   * **epchp_epSpaceBear_w1c1_body_r**: 'One of Saponza’s old pirate contacts needs some work done, and will pay handsomely for it.\nFinish Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the V-4X-D Ski Speeder!'
   * **epchp_epSpaceBear_w1c2_body_e**: 'Saponza’s pirate contact seems trustworthy enough, having provided several smaller payments for the work.\nContinue finishing Event Objectives to earn Supply Crates. Complete the Event before time runs out for a guaranteed unlock of the 614-AvA speeder bike!'
@@ -5459,6 +5550,11 @@ category: strings
   * **hn_cc_1_jetpack_outbreak_20180322_hq6+_e_body**: 'Jump Trooper equipment is back! Place in Bronzium or higher on any planet to unlock/upgrade: [c][FFAA33]3/22 - 3/26, Desert Jump Trooper[-][/c] / [c][FFAA33]3/27 - 3/30, Arctic Jump Trooper[-][/c] / [c][FFAA33]3/31 - 4/4, Forest Jump Trooper[-][/c]'
   * **hn_cc_1_jetpack_outbreak_20180322_hq6+_r_body**: 'Jetpack Trooper equipment is back! Place in Bronzium or higher on any planet to unlock/upgrade: [c][FFAA33]3/22 - 3/26, Desert Jetpack Trooper[-][/c] / [c][FFAA33]3/27 - 3/30, Arctic Jetpack Trooper[-][/c] / [c][FFAA33]3/31 - 4/4, Forest Jetpack Trooper[-][/c]'
   * **hn_cc_1_jetpack_outbreak_20180322_r_title**: 'Conflict Outbreak: Jetpack Troopers'
+  * **hn_cc_1_jetpack_outbreak_20180405_hq5-_e_body**: '[c][FFAA33]Extra chance to earn rewards:[-][/c] Get powerful Jump Trooper samples in Bronzium or higher on any planet. Immune to mortar fire, this unit closes swiftly on Rebel bases to deal damage with jetpack-mounted blasters!'
+  * **hn_cc_1_jetpack_outbreak_20180405_hq5-_r_body**: '[c][FFAA33]Extra chance to earn rewards:[-][/c] Get powerful Jetpack Trooper samples in Bronzium or higher on any planet. Immune to mortar fire, this unit closes swiftly on Imperial garrisons to deal damage with jetpack-mounted blasters!'
+  * **hn_cc_1_jetpack_outbreak_20180405_hq6+_e_body**: "[c][FFAA33]Get more Jump Trooper Data Fragments![-][/c] Fight on any planet to earn different Jump Trooper types: [c][FFAA33]Tatooine, Er'Kit - Desert[-][/c] / [c][FFAA33]Hoth - Arctic[-][/c] / [c][FFAA33]Yavin 4, Dandoran, Takodana - Forest[-][/c]"
+  * **hn_cc_1_jetpack_outbreak_20180405_hq6+_r_body**: "[c][FFAA33]Get more Jetpack Trooper Data Fragments![-][/c] Fight on any planet to earn different Jetpack Trooper types: [c][FFAA33]Tatooine, Er'Kit - Desert[-][/c] / [c][FFAA33]Hoth - Arctic[-][/c] / [c][FFAA33]Yavin 4, Dandoran, Takodana - Forest[-][/c]"
+  * **hn_cc_1_jetpack_outbreak_20180405_title**: 'Extra Conflict Outbreak Goes To 4/11!'
   * **hn_cc_1_join_better_squad_body**: 'Using donated troops is highly advantageous for both attacking and defending. Are your squadmates keeping your Squad Center full?'
   * **hn_cc_1_join_better_squad_title**: 'Find Great Squadmates'
   * **hn_cc_1_join_squad_body**: 'Together, you will rule the galaxy! Join a squad, or assemble your own to share both tactics and troops with your fellow Commanders.'
@@ -5592,6 +5688,34 @@ category: strings
   * **hn_cc_1_reprush_winner_title**: 'Reputation Rush Winner: W.A.R.United!'
   * **hn_cc_1_rider_body**: 'Luggabeast Munitioneers serve a unique support role in any army by increasing the raw damage output of nearby troops and vehicles.'
   * **hn_cc_1_rider_title**: 'New Mercenary: Luggabeast Munitioneer'
+  * **hn_cc_1_rogue1_20180412_HQ2-5_e_body**: 'These troops are specially trained to seek out and destroy traps. Claim sample [c][FFAA33]Shock Troopers[-][/c] to deploy immediately, then complete part I of the Questionable Cargo event to [c][FFAA33]unlock/upgrade[-][/c] them permanently!'
+  * **hn_cc_1_rogue1_20180412_HQ2-5_e_title**: 'Shock Troopers in event until 4/18!'
+  * **hn_cc_1_rogue1_20180412_HQ2-5_r_body**: 'These troops are specially trained to seek out and destroy traps. Claim sample [c][FFAA33]Rebel Vanguards to deploy immediately, then complete part I of the Questionable Cargo event to [c][FFAA33]unlock/upgrade[-][/c] them permanently!'
+  * **hn_cc_1_rogue1_20180412_HQ2-5_r_title**: 'Rebel Vanguards in event until 4/18!'
+  * **hn_cc_1_rogue1_20180412_HQ6+_e_body**: 'Transform the 2-M Tank into the [c][FFAA33]TX-225[-][/c] assault tank! Thick armor plates offer greater protection and enable the tank to crush walls. Complete part I of the Questionable Cargo event to earn Data Fragments for this Elite Equipment.'
+  * **hn_cc_1_rogue1_20180412_HQ6+_e_title**: 'TX-225 Tank Equipment in event until 4/18!'
+  * **hn_cc_1_rogue1_20180412_HQ6+_r_body**: 'Transform the AAT-1 Repulsor Tank into the [c][FFAA33]Stolen TX-225[-][/c] assault tank! Thick armor plates offer greater protection and enable the tank to crush walls. Complete part I of the Questionable Cargo event to earn Data Fragments for this Elite Equipment.'
+  * **hn_cc_1_rogue1_20180412_HQ6+_r_title**: 'Stolen TX-225 Equipment in event until 4/18!'
+  * **hn_cc_1_rogue1_20180419_HQ2-5_body**: 'Sniper hero [c][FFAA33]Johhar Kessen[-][/c] picks off targets with ranged blaster fire. A pulse cannon attached to his rifle fires a powerful shot that penetrates multiple targets. Claim samples to deploy immediately, then complete part II of the Event to [c][FFAA33]unlock/upgrade[-][/c] this hero permanently!'
+  * **hn_cc_1_rogue1_20180419_HQ2-5_title**: 'Johhar Kessen in event until 4/25!'
+  * **hn_cc_1_rogue1_20180419_HQ6+_e_body**: "The [c][FFAA33]TIE Striker's[-][/c] attached proton bomb launcher deals heavy damage to vehicle units. Complete part II of the Questionable Cargo event to earn Unit Data Fragments and permanently [c][FFAA33]unlock/upgrade[-][/c] this starfighter!"
+  * **hn_cc_1_rogue1_20180419_HQ6+_e_title**: 'TIE Striker in event until 4/25!'
+  * **hn_cc_1_rogue1_20180419_HQ6+_r_body**: "The [c][FFAA33]Fang Fighter's[-][/c] attached proton torpedo launcher is devastating to vehicle units. Complete part II of the Questionable Cargo event to earn Unit Data Fragments and permanently [c][FFAA33]unlock/upgrade[-][/c] this starfighter!"
+  * **hn_cc_1_rogue1_20180419_HQ6+_r_title**: 'Fang Fighter in event until 4/25!'
+  * **hn_cc_1_rogue1_20180426_HQ2-6_body**: 'Sniper hero [c][FFAA33]Johhar Kessen[-][/c] picks off targets with ranged blaster fire. A pulse cannon attached to his rifle fires a powerful shot that penetrates multiple targets. Claim samples to deploy immediately, then complete part III of the Event to [c][FFAA33]unlock/upgrade[-][/c] this hero permanently!'
+  * **hn_cc_1_rogue1_20180426_HQ2-6_title**: 'Johhar Kessen in event until 5/3!'
+  * **hn_cc_1_rogue1_20180426_HQ7+_e_body**: 'The [c][FFAA33]Security Droid[-][/c] carries sonic grenades that temporarily weaken structures, increasing the damage taken. Complete part III of the Questionable Cargo event to earn Unit Data Fragments and permanently [c][FFAA33]unlock/upgrade[-][/c] this starfighter!'
+  * **hn_cc_1_rogue1_20180426_HQ7+_e_title**: 'Security Droid in event until 5/3!'
+  * **hn_cc_1_rogue1_20180426_HQ7+_r_body**: 'The [c][FFAA33]Drabatan Saboteur[-][/c] carries sonic grenades that temporarily weaken structures, increasing the damage taken. Complete part III of the Questionable Cargo event to earn Unit Data Fragments and permanently [c][FFAA33]unlock/upgrade[-][/c] this starfighter!'
+  * **hn_cc_1_rogue1_20180426_HQ7+_r_title**: 'Drabatan Saboteur in event until 5/3!'
+  * **hn_cc_1_rogue1_20180503_HQ2-5_e_body**: 'These troops are specially trained to seek out and destroy traps. Claim sample [c][FFAA33]Shock Troopers[-][/c] to deploy immediately, then complete part IV of the Questionable Cargo event to [c][FFAA33]unlock/upgrade[-][/c] them permanently!'
+  * **hn_cc_1_rogue1_20180503_HQ2-5_e_title**: 'Event ends 5/10! Last chance to unlock Shock Troopers!'
+  * **hn_cc_1_rogue1_20180503_HQ2-5_r_body**: 'These troops are specially trained to seek out and destroy traps. Claim sample [c][FFAA33]Rebel Vanguards to deploy immediately, then complete part IV of the Questionable Cargo event to [c][FFAA33]unlock/upgrade[-][/c] them permanently!'
+  * **hn_cc_1_rogue1_20180503_HQ2-5_r_title**: 'Event ends 5/10! Last chance to unlock Rebel Vanguards!'
+  * **hn_cc_1_rogue1_20180503_HQ6+_e_body**: 'Transform the 2-M Tank into the [c][FFAA33]TX-225[-][/c] assault tank! Thick armor plates offer greater protection and enable the tank to crush walls. Complete part IV of the Questionable Cargo event to earn Data Fragments for this Elite Equipment.'
+  * **hn_cc_1_rogue1_20180503_HQ6+_e_title**: 'Event ends 5/10! Last chance to unlock TX-225 Tank Equipment!'
+  * **hn_cc_1_rogue1_20180503_HQ6+_r_body**: 'Transform the AAT-1 Repulsor Tank into the [c][FFAA33]Stolen TX-225[-][/c] assault tank! Thick armor plates offer greater protection and enable the tank to crush walls. Complete part IV of the Questionable Cargo event to earn Data Fragments for this Elite Equipment.'
+  * **hn_cc_1_rogue1_20180503_HQ6+_r_title**: 'Event ends 5/10! Last chance to unlock Stolen TX-225 Tank Equipment!'
   * **hn_cc_1_rogue1_promo_body**: 'In theaters December 16'
   * **hn_cc_1_rogue1_promo_title**: 'Rogue One: A Star Wars Story'
   * **hn_cc_1_rogue1_ru_body**: 'Получите в подарок звездолеты и наемников из нового фильма «Изгой-один: Звёздные Войны. Истории»!'
@@ -6327,6 +6451,8 @@ category: strings
   * **hn_dnotes_2018-03-07_body**: '[c][FFAA33]Shop Updates[-][/c]\n•\xa0Data Fragments category added:\n- Gain instant access to Unit and Equipment Data Fragments.\n- Fragment selection changes daily.\n•\xa0Shop button on main base view improved to more clearly indicate when new sales or special offers are available.\n• Consolidated non-turret structures into single "Structures" category.\n\n[c][FFAA33]Game Improvements[-][/c]\n•\xa0Updated Data Fragment colors to distinguish between units and Elite equipment skins:\n- [c][DBC0FF]Unit Data Fragments[-][/c] and corresponding units are now colored [c][DBC0FF]purple.[-][/c]\n- [c][FFC25B]Elite Equipment Data Fragments[-][/c] and corresponding equipment remain [c][FFB74A]gold.[-][/c]\n\n•\xa0Asset handling adjusted to reduce game startup load time.\n• Major performance improvements to improve UI and combat framerate, especially on older devices.'
   * **hn_dnotes_2018-03-07_title**: 'Updates & Game Improvements'
   * **hn_dnotes_4**: 'Url test!'
+  * **hn_dnotes_6-0_body**: '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
+  * **hn_dnotes_6-0_title**: 'Version 6.0'
   * **hn_dnotes_chatFix_body**: 'Improved message handling to speed up loading of squad chat. Active squad members will see improvement in load times for both squad chat and initial game load.'
   * **hn_dnotes_chatFix_title**: 'Chat Lag Fix!'
   * **hn_dnotes_defRef_outbreak_body**: '[c][FFAA33]Conflict Outbreak Ends 11/29[-][/c]\n• Each week, conflicts on all planets reward Data Fragments for a specific type of Guard Reserve equipment.\n• Premium Tactical Defense Crates in the Shop have a chance to drop Data Fragments for any type of Guard Reserve. (Crates disappear when event ends.)\n•\xa0Check your HQ each day for a Daily Tactical Defense Crate.\n\n[c][FFAA33]Balance Updates[-][/c]\n• [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] equipment for Barracks has been updated to address game imbalance.\n\n[c][FFAA33]Guard Reserves[-][/c]\n• Guard Reserve equipment affects either the Barracks or the Factory.\n• Once activated in the Armory, the Guard Reserve the affected structures will automatically summon reinforcements to defend your base.\n• The first wave of guards is summoned shortly after the battle starts. Additional guards appear at timed intervals for the remainder of the battle.  \n• Research higher levels of Guard Reserve to make these guards appear more often.\n• Mix and match Guard Reserve equipment to form new base defense strategies. Guard Reserves that apply to the same building can be all be activated at the same time! See full list below:\n\n• Guard Reserves for Rebel Barracks:\n- [c][FFFFFF]Guard Reserve: Light Infantry[-][/c] - Each Barracks summons [c][FFFFFF]3 Soldiers[-][/c]\n- [c][FFFFFF]Guard Reserve: Melee Bruisers[-][/c] - Each Barracks summons [c][FFFFFF]2 Bantha Riders[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Barracks summons [c][FFFFFF]1 Vanguard[-][/c]\n\n• Guard Reserves for Rebel Factory:\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Factory summons [c][FFFFFF]1 Rebel Speeder[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Factory summons [c][FFFFFF]1 Desert Skiff[-][/c]\n\n• Guard Reserves for Empire Barracks:\n- [c][FFFFFF]Guard Reserve: Light Infantry[-][/c] - Each Barracks summons [c][FFFFFF]3 Stormtroopers[-][/c]\n- [c][FFFFFF]Guard Reserve: Melee Bruisers[-][/c] - Each Barracks summons [c][FFFFFF]2 Dewbacks[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Barracks summons [c][FFFFFF]1 Sniper[-][/c]\n\n• Guard Reserves for Empire Factory:\n- [c][FFFFFF]Guard Reserve: Anti-infantry[-][/c] - Each Factory summons [c][FFFFFF]1 Empire Speeder[-][/c]\n- [c][FFFFFF]Guard Reserve: Anti-vehicle[-][/c] - Each Factory summons [c][FFFFFF]1 MHC[-][/c]\n\n• Elite Data Fragments for Rebel:\n      Guard Reserve: Light Infantry - (Barracks Eqp)\n      Guard Reserve: Melee Bruisers - (Barracks Eqp)\n      Guard Reserve: Anti-vehicle - (Barracks Eqp)\n      Guard Reserve: Anti-infantry - (Factory Eqp)\n      Guard Reserve: Anti-vehicle - (Factory Eqp)\n      Johhar Kessen (Unit)\n      Iakaru Warrior (Unit)\n      Vanguard (Unit)\n\n• Elite Data Fragments for Empire:\n      Guard Reserve: Light Infantry - (Barracks Eqp)\n      Guard Reserve: Melee Bruisers - (Barracks Eqp)\n      Guard Reserve: Anti-infantry - (Barracks Eqp)[c][FFFFFF]**[-][/c]\n      Guard Reserve: Anti-infantry - (Factory Eqp)\n      Guard Reserve: Anti-vehicle - (Factory Eqp)[c][FFFFFF]**[-][/c]\n      Johhar Kessen (Unit)\n      IG-86 Assassin Droid (Unit)\n      Shocktrooper (Unit)'
@@ -6335,12 +6461,16 @@ category: strings
   * **hn_dnotes_epDemo_title**: 'New Event: Explosive Finish'
   * **hn_dnotes_epNaval_body**: '[c][FFAA33]Event Schedule[-][/c]\n• Runs in multiple parts from 3/1 to 3/22. Earn Data Fragments for units and equipment, each with different naval assault capabilities!\n• Completed the Event early? Bonus Supply Crates can always be earned an unlimited number of times before it ends.\n\n[c][FFAA33]Naval Assault Rewards[-][/c]\n• Rebel unit: [c][FFAA33]Alliance Starfighter Pilot[-][/c] - Attacks resource generators and storage, while summoning X-wing Starfighters into the battle.\n\n• Empire unit: [c][FFAA33]Imperial Starfighter Pilot[-][/c] - Attacks resource generators and storage, while summoning TIE fighters into the battle.\n\n• Rebel equipment skins [c][E40B18](Available to HQ 6 and above**)[-][/c]\n- [c][FFAA33]Millenium Falcon Support[-][/c] - Chewbacca hero unit health and damage are increased, and gains fire support from the Millennium Falcon. The Falcon will perform strafing runs on various enemy structures as long as Chewbacca is in play.\n- [c][FFAA33]Sullustan Recon Sharpshooter[-][/c] - Sharpshooter units become Sullustan Recon Sharpshooters; health and damage are increased, and equipment enables unit to call in Y-wing Starfighter bombing runs.\n\n• Empire equipment skins [c][E40B18](Available to HQ 6 and above**)[-][/c]\n- [c][FFAA33]Naval Officer[-][/c] - Royal Guard hero unit becomes Naval Officer; health and damage are increased, base attack changed from melee to ranged blaster, and gains orbital Star Destroyer fire support. Orbital attack will strike various enemy structures with turbolasers as long as the Naval Officer is in play.\n- [c][FFAA33]Rodian Recon Sniper[-][/c] - Sniper units become Rodian Recon Snipers; health and damage are increased, and equipment enables unit to call in TIE bomber runs.\n\n[c][E40B18]**[-][/c]Players HQ 5 and below will earn alternate rewards in place of Equipment Data Fragments.'
   * **hn_dnotes_epNaval_title**: 'Return of the Naval Assault Event'
+  * **hn_dnotes_epRogue1_201804012_body**: '[c][FFB74A]Event Schedule[-][/c]\n• 4-part Event runs from 4/12 to 5/10. Earn Data Fragments for powerful units and equipment!\n• Completed the Event early? Bonus Supply Crates can always be earned an unlimited number of times before it ends.\n\nNotice: on Tuesday, 4/17, Commander will be undergoing planned downtime starting at 12:00pm PST. During this update, the game will be unavailable for several hours.\n\n[c][FFB74A]Event Details[-][/c]\n• 4/12 to 4/19\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n• 4/19 to 4/26\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TIE Striker[-][/c] (Starfighter)\n- Rebel [c][FFAA33]Fang Fighter[-][/c] (Starfighter)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 4/26 to 5/3\n• [c][E40B18]HQ 7 and above final reward:[-][/c]\n- Empire [c][FFB74A]Security Droid[-][/c] (Mercenary Unit)\n- Rebel [c][FFAA33]Drabatan Saboteur[-][/c] (Mercenary Unit)\n• [c][E40B18]HQ 6 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 5/3 to 5/10\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n[c][FFB74A]Balance Updates[-][/c]\n• Health values on all [c][FFAA33]Reinforced Mounting[-][/c] turret equipment has been increased.\n• Damage values on all [c][FFAA33]Enhanced Heat Sink[-][/c] turret equipment has been increased.\n\n•\xa0This change is intended to increase the range of viable defense options, especially for mid-HQ players, without punishing any particular defensive strategy.'
+  * **hn_dnotes_epRogue1_201804012_title**: 'New Event: Questionable Cargo'
   * **hn_dnotes_epTimes_body**: '[c][FFAA33]Updates to Commander Events System[-][/c]\n•\xa0Extended the end time of all Events by 22 hours to allow more time to earn rewards.\n•\xa0Removed all "Loot Credits/Alloy/Contraband" Event Chapter Objectives until issue can be addressed where looted resources that exceed current storage capacity do not count toward Chapter Objective progress.'
   * **hn_dnotes_epTimes_title**: 'Event System Updates'
   * **hn_dnotes_heroesConf_body**: '[c][FFB74A]2-Week Conflict Outbreak: Healers & Heroes[-][/c]\n• Conflict Bronzium league or better awards event Data Fragments\n\n• 2/15 to 2/21, all planets:\n• [c][E40B18]All HQs[-][/c]\n- Rebel [c][FFB74A]WED Treadwell Repair Droid[-][/c] (Unit)\n- Empire [c][FFB74A]Imperial Astromedic[-][/c] (Unit)\n\n• 2/22 to 2/28, all planets:\n• [c][E40B18]HQ 5 and below[-][/c]\n- Rebel [c][FFAA33]Elite AT-TE Walker[-][/c] (Hero Unit)\n- Empire [c][FFB74A]Death Trooper[-][/c] (Hero Unit)\n• [c][E40B18]HQ 6 and above[-][/c]\n- Rebel [c][FFAA33]Senator Leia Organa[-][/c] (Eqp)\n- Empire [c][FFB74A]Lord Vader[-][/c] (Eqp)\n\n[c][FFB74A]Squad War Rewards[-][/c]\n•\xa0Victory Crate has been updated with additional variety of rewards, including more Equipment Data Fragments.'
   * **hn_dnotes_heroesConf_title**: 'Conflict Outbreak & Game Updates'
   * **hn_dnotes_jetpack_outbreak_201803022_body**: '[c][FFB74A]Conflict Outbreak: Jetpack & Jump Troopers[-][/c]\n• Conflict Bronzium league or better awards Elite Equipment Data Fragments\n\n• 3/22 to 3/26, all planets:\n• [c][E40B18]HQ 6 and above[-][/c]\n- Rebel [c][FFC25B]Desert Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Desert Jump Trooper[-][/c] (Eqp)\n\n• 3/27 to 3/30, all planets:\n• [c][E40B18]HQ 6 and above[-][/c]\n- Rebel [c][FFC25B]Arctic Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Arctic Jump Trooper[-][/c] (Eqp)\n\n• 3/31 to 4/4, all planets:\n• [c][E40B18]HQ 6 and above[-][/c]\n- Rebel [c][FFC25B]Forest Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Forest Jump Trooper[-][/c] (Eqp)\n\n• [c][E40B18]HQ 5 and below[-][/c] will earn sample Jetpack Trooper / Jumptroopers which can be used to instantly train and add these units to the Troop Transport.'
   * **hn_dnotes_jetpack_outbreak_201803022_title**: 'Conflict Outbreak'
+  * **hn_dnotes_jetpack_outbreak_20180405_body**: "[c][FFB74A]Conflict Outbreak: Jetpack & Jump Troopers[-][/c]\n•\xa0Unlock/upgrade specific Jetpack Trooper or Jump Trooper equipment by fighting on different planets.\n• Conflict Bronzium league or better awards Elite Equipment Data Fragments.\n\n• 4/5 to 4/11, [c][FFFFFF][EXTRA WEEK][-][/c]:\n• [c][E40B18]HQ 6 and above[-][/c]\n- Tatooine, Er'Kit\n-- Rebel [c][FFB74A]Desert Jetpack Trooper[-][/c] (Eqp)\n-- Empire [c][FFB74A]Desert Jump Trooper[-][/c] (Eqp)\n\n- Hoth\n-- Rebel [c][FFB74A]Arctic Jetpack Trooper[-][/c] (Eqp)\n-- Empire [c][FFB74A]Arctic Jump Trooper[-][/c] (Eqp)\n\n- Yavin 4, Dandoran, Takodana\n-- Rebel [c][FFB74A]Forest Jetpack Trooper[-][/c] (Eqp)\n-- Empire [c][FFB74A]Forest Jump Trooper[-][/c] (Eqp)\n\n\n• [c][E40B18]HQ 5 and below[-][/c] will earn sample Jetpack Trooper / Jumptroopers which can be used to instantly train and add these units to the Troop Transport."
+  * **hn_dnotes_jetpack_outbreak_20180405_title**: 'Conflict Outbreak - Extra Week!'
   * **hn_dnotes_spacebear_body**: "[c][FFAA33]Brand New Commander Events System[-][/c]\n• New Events system lets you play Commander however you wish: win battles, complete Planetary Objectives, rank up in Conflicts, or complete Heroic Defenses.\n•\xa0Earn rewards along your way to guaranteed unlocks of powerful units, starting with new content from and inspired by Star Wars: The Last Jedi.\n•\xa0Completed the Event early? Bonus Supply Crates can be earned an unlimited number of times, right up to the end of the Event! No more waiting for tomorrow's Planetary Objectives!\n\n[c][FFAA33]New Unit Unlocks[-][/c]\n• New vehicle units can be built in the Factory once unlocked.\n\n•\xa0Rebel V-4X-D Ski Speeder\n• Empire 614-AvA Speeder Bike"
   * **hn_dnotes_spacebear_title**: 'New Events System & Star Wars: The Last Jedi'
   * **hn_dnotes_squadWarMaintenance_body**: 'Ongoing maintenance has prevented us from re-enabling Squad Wars. We are working on a resolution as quickly as possible to provide a stable game experience. Thank you for your patience.'
@@ -6895,6 +7025,7 @@ category: strings
   * **lcfly_descTiePilotSample**: '[c][C8E8FF]Imperial Starfighter Pilot Samples[-][/c]'
   * **lcfly_descTognath**: '[c][DBC0FF]Tognath Marksman[-][/c]'
   * **lcfly_descTognathFragments**: '[c][DBC0FF]Tognath Marksman[-][/c] Data Fragments'
+  * **lcfly_descTognathSample**: '[c][C8E8FF]Tognath Marksman Samples[-][/c]'
   * **lcfly_descTreadwell**: '[c][DBC0FF]WED Treadwell Repair Droid[-][/c]'
   * **lcfly_descTreadwellFragments**: '[c][DBC0FF]WED Treadwell Repair Droid[-][/c] Data Fragments'
   * **lcfly_descTroopTiePilot**: '[c][DBC0FF]Imperial Starfighter Pilot[-][/c]'
@@ -7126,6 +7257,8 @@ category: strings
   * **lei_title_le_defRef_outbreakStore_r**: 'Premium Tactical Defenses Crate'
   * **lei_title_le_desBiome_StoreCrate_e**: 'Premium Desert Ops Crate'
   * **lei_title_le_desBiome_StoreCrate_r**: 'Premium Desert Ops Crate'
+  * **lei_title_le_epRogue1_StoreCrate_e**: 'Premium Weapons Research Crate'
+  * **lei_title_le_epRogue1_StoreCrate_r**: 'Premium Weapons Research Crate'
   * **lei_title_le_epSpacebearStore_wk1_e**: 'Premium Event Crate'
   * **lei_title_le_epSpacebearStore_wk1_r**: 'Premium Event Crate'
   * **lei_title_le_forBiome_StoreCrate_e**: 'Premium Forest Ops Crate'
@@ -10814,6 +10947,7 @@ category: strings
   * **promo_confirm_droidekao_2**: 'Congratulations! Your upgraded Droideka Oppressor is ready for battle!'
   * **promo_confirm_droidekas_1**: 'Congratulations! Your new Droideka Sentinel is ready for battle!'
   * **promo_confirm_droidekas_2**: 'Congratulations! Your upgraded Droideka Sentinel is ready for battle!'
+  * **promo_confirm_mt4_converter**: 'Congratulations! Your shipment of crystals has been added to your inventory!'
   * **promo_confirm_onetime_3**: 'Congratulations! Your shipment of resources has been added to your inventory!'
   * **promo_confirm_onetime_4**: 'Congratulations! Your shipment of resources has been added to your inventory!'
   * **promo_confirm_onetime_5**: 'Congratulations! Your shipment of resources has been added to your inventory!'
@@ -10866,6 +11000,7 @@ category: strings
   * **promo_desc_droidekas_r_2**: 'Awesome promotional bundle just for you!'
   * **promo_desc_droidekas_r_3**: 'Awesome promotional bundle just for you!'
   * **promo_desc_droidekas_r_4**: 'Awesome promotional bundle just for you!'
+  * **promo_desc_mt4_converter**: '200 Extra Crystals! May the Fourth Be With You!'
   * **promo_desc_onetime_3**: 'Use this shipment of resources to upgrade your base!'
   * **promo_desc_onetime_4**: 'Use this shipment of resources to upgrade your base!'
   * **promo_desc_onetime_5**: 'Use this shipment of resources to upgrade your base!'
@@ -10927,6 +11062,7 @@ category: strings
   * **promo_title_droidekas_r_3**: 'Special Promotion'
   * **promo_title_droidekas_r_4**: 'Special Promotion'
   * **promo_title_google_sale_v1**: 'Google Play Exclusive Bundle'
+  * **promo_title_mt4_converter**: 'Star Wars Day Sale'
   * **promo_title_onetime_3**: 'Level 3 Headquarters Resource Bundle!'
   * **promo_title_onetime_4**: 'Level 4 Headquarters Resource Bundle!'
   * **promo_title_onetime_5**: 'Level 5 Headquarters Resource Bundle!'
@@ -11218,6 +11354,8 @@ category: strings
   * **s_infoDesc_arcOps_crate**: 'Contains Data Fragments for arctic equipment and troops'
   * **s_infoDesc_arcOps_eqp**: 'Use on Hoth; very high damage and health'
   * **s_infoDesc_armory**: 'Provides access to advantageous equipment.'
+  * **s_infoDesc_atmostie_eqp_e**: 'Proton bombs devastate vehicle units'
+  * **s_infoDesc_bigmouthsecuritydroid_eqp**: "Sonic grenade weakens enemy structures' armor"
   * **s_infoDesc_dataFragment**: 'Collect via Supply Crates to unlock and upgrade equipment'
   * **s_infoDesc_defRef_crate**: 'Contains Data Fragments for elite Guard Reserve equipment'
   * **s_infoDesc_defRef_eqp**: 'Summons guards to defend your base'
@@ -11227,10 +11365,13 @@ category: strings
   * **s_infoDesc_desBiome_eqp**: "Use on Tatooine and Er'Kit, very high damage and health"
   * **s_infoDesc_epBonusCrate**: 'Earn for each time you complete the Bonus Event Objective'
   * **s_infoDesc_epCrate**: 'Earn a crate every time you complete an Event Objective.'
+  * **s_infoDesc_fangfighter_eqp_r**: 'Proton torpedoes devastate vehicle units'
   * **s_infoDesc_forBiome_Jetpack_eqp_e**: 'Increases damage and move speed on forest worlds'
   * **s_infoDesc_forBiome_Jetpack_eqp_r**: 'Increases damage and move speed on forest worlds'
   * **s_infoDesc_forBiome_crate**: 'Contains Data Fragments for forest equipment and troops'
   * **s_infoDesc_forBiome_eqp**: 'Use on Dandoran, Yavin 4, Takodana; high damage and health'
+  * **s_infoDesc_hovertank_eqp_e**: 'TX-225 assault tank, crushes walls'
+  * **s_infoDesc_hovertank_eqp_r**: 'Stolen TX-225 assault tank, crushes walls'
   * **s_infoDesc_limitedCrate**: 'Acquired in Objectives, Heroic Defense, and Store'
   * **s_infoDesc_navalEvt_crate**: 'Contains Data Fragments for naval equipment and troops'
   * **s_infoDesc_navalEvt_eqp_e**: 'Royal Guard equipment, wields blaster & calls in orbital strikes'
@@ -11280,6 +11421,8 @@ category: strings
   * **s_infoTitle_forBiome_Jetpack_eqp_r**: 'Forest Jetpack Trooper Equipment'
   * **s_infoTitle_forBiome_crate**: 'Forest Ops Crate'
   * **s_infoTitle_forBiome_eqp**: 'Forest Equipment'
+  * **s_infoTitle_hovertank_eqp_e**: 'Equipment for 2-M Hover Tank'
+  * **s_infoTitle_hovertank_eqp_r**: 'Equipment for AAT-1 Repulsor Tank'
   * **s_infoTitle_limitedCrate**: 'Weapons Research Crate'
   * **s_infoTitle_navalEvt_crate**: 'Naval Assault Crate'
   * **s_infoTitle_newHeroEvent_e**: 'Death Trooper'

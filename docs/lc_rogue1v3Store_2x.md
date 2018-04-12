@@ -12,10 +12,52 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_rogue1v3Store_SPD2x" (x2 draws)
 
+### Empire for HQ levels 6-10
+
+  * (1/33) 10 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (1/33) 10 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
+  * (1/33) 10 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (1/33) 12 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (1/33) 15 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
+  * (1/33) 15 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
+  * (1/33) 15 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
+  * (1/33) 15 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (1/33) 20 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (2/33) 10 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (2/33) 10 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (2/33) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (2/33) 6 data fragments of unlockable troop [Security Droid](SecurityDroid)
+  * (3/33) 10 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (3/33) 15 data fragments of unlockable air support [TIE Striker](AtmosMig)
+  * (3/33) 8 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (3/33) 8 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
+  * (4/33) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
+
+### Rebellion for HQ levels 6-10
+
+  * (1/33) 10 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (1/33) 10 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/33) 10 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/33) 12 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (1/33) 12 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (1/33) 15 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
+  * (1/33) 15 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
+  * (1/33) 15 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
+  * (1/33) 15 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (2/33) 10 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (2/33) 10 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+  * (2/33) 6 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (2/33) 6 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
+  * (3/33) 10 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (3/33) 15 data fragments of unlockable air support [Fang Fighter](FangFighter)
+  * (3/33) 8 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (3/33) 8 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
+  * (4/33) 10 data fragments of unlockable air support [Fang Fighter](FangFighter)
+
 ### Rebellion for HQ level 5
 
+  * (1/22) 12 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (1/22) 15 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (1/22) 20 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (2/22) 10 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
   * (2/22) 6 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
   * (3/22) 10 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
@@ -26,8 +68,8 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ### Empire for HQ level 5
 
+  * (1/22) 12 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (1/22) 15 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (1/22) 20 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (2/22) 10 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
   * (2/22) 6 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (3/22) 10 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
@@ -35,40 +77,6 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/22) 8 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (3/22) 8 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
   * (4/22) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
-
-### Empire for HQ levels 6-10
-
-  * (1/22) 10 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (1/22) 10 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
-  * (1/22) 10 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-  * (1/22) 15 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
-  * (1/22) 15 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
-  * (1/22) 15 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-  * (1/22) 15 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (1/22) 20 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/22) 20 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (2/22) 10 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (2/22) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (2/22) 6 data fragments of unlockable troop [Security Droid](SecurityDroid)
-  * (3/22) 15 data fragments of unlockable air support [TIE Striker](AtmosMig)
-  * (4/22) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
-
-### Rebellion for HQ levels 6-10
-
-  * (1/22) 10 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (1/22) 10 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/22) 10 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (1/22) 15 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
-  * (1/22) 15 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/22) 15 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
-  * (1/22) 15 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (1/22) 20 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (1/22) 20 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (2/22) 10 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (2/22) 6 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (2/22) 6 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
-  * (3/22) 15 data fragments of unlockable air support [Fang Fighter](FangFighter)
-  * (4/22) 10 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
 ### Fallback for HQ level 10
 
