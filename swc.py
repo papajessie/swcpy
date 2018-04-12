@@ -84,6 +84,14 @@ def sortside(a):
         return -19
     return len(a)
 
+def sortdate(a):
+    die([a,objects[a]])
+    if a=='empire':
+        return -20
+    if a=='rebel':
+        return -19
+    return len(a)
+
 def camel_case_to_phrase(s):
     prev = None
     t = []
@@ -2808,7 +2816,7 @@ def output_mdheader_episode(out,objects,displayed):
     with open("docs/episode.md","w") as file:
         file.write("---\ntitle: Index of episodes\n---\n")
         file.write("# Episodes\n\n")
-        for episode in displayed:
+        for episode in sorted(displayed,key=lambda x:objects[x]['startDate']):
             item=objects[episode]
             id=___(item['uid'])
             title=__(item['title'])
