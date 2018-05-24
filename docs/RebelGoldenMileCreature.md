@@ -45,7 +45,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Acceleration: 0
   * Crushes walls: Yes
-  * Ignores walls: No
   * Flying unit: No
   * Max speed: 120
   * Propensity to go around obstacles: 15

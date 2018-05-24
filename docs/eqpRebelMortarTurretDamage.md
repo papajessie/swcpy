@@ -124,7 +124,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Turret animation delay: 0
-  * Turret charge time: 1.800s
+  * Turret charge time: 1.650s
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1
   * Turret impact delay: 1s
@@ -198,75 +198,75 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                                     |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |350  |350  |350  |350  |350  |350  |350  |350  |350  |350  |
-|Turret attack calculated damage per second|678  |696  |717  |734  |759  |780  |800  |822  |846  |863  |
+|Turret attack calculated damage per second|710  |729  |751  |769  |795  |817  |839  |861  |887  |905  |
 |Turret attack calculated damage per clip  |2240 |2298 |2367 |2425 |2506 |2575 |2644 |2714 |2795 |2852 |
 
 
 |Level                                     |02.01|02.02|02.03|02.04|02.05|02.06|02.07|02.08|02.09|02.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |525  |525  |525  |525  |525  |525  |525  |525  |525  |525  |
-|Turret attack calculated damage per second|1018 |1044 |1076 |1102 |1139 |1170 |1202 |1233 |1270 |1296 |
+|Turret attack calculated damage per second|1066 |1094 |1127 |1154 |1193 |1226 |1259 |1292 |1330 |1358 |
 |Turret attack calculated damage per clip  |3362 |3448 |3552 |3639 |3760 |3864 |3968 |4072 |4193 |4280 |
 
 
 |Level                                     |03.01|03.02|03.03|03.04|03.05|03.06|03.07|03.08|03.09|03.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |630  |630  |630  |630  |630  |630  |630  |630  |630  |630  |
-|Turret attack calculated damage per second|1221 |1253 |1290 |1322 |1366 |1404 |1441 |1479 |1524 |1555 |
+|Turret attack calculated damage per second|1279 |1312 |1352 |1385 |1431 |1471 |1510 |1550 |1596 |1629 |
 |Turret attack calculated damage per clip  |4033 |4137 |4261 |4365 |4511 |4636 |4760 |4885 |5031 |5135 |
 
 
 |Level                                     |04.01|04.02|04.03|04.04|04.05|04.06|04.07|04.08|04.09|04.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |840  |840  |840  |840  |840  |840  |840  |840  |840  |840  |
-|Turret attack calculated damage per second|1628 |1671 |1721 |1763 |1822 |1872 |1922 |1973 |2032 |2073 |
+|Turret attack calculated damage per second|1706 |1750 |1803 |1847 |1908 |1961 |2014 |2067 |2128 |2172 |
 |Turret attack calculated damage per clip  |5377 |5516 |5682 |5821 |6015 |6181 |6347 |6514 |6708 |6846 |
 
 
 |Level                                     |05.01|05.02|05.03|05.04|05.05|05.06|05.07|05.08|05.09|05.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1015 |1015 |1015 |1015 |1015 |1015 |1015 |1015 |1015 |1015 |
-|Turret attack calculated damage per second|1968 |2019 |2080 |2131 |2202 |2262 |2323 |2384 |2455 |2506 |
+|Turret attack calculated damage per second|2062 |2115 |2179 |2232 |2306 |2370 |2434 |2498 |2572 |2625 |
 |Turret attack calculated damage per clip  |6499 |6666 |6867 |7035 |7269 |7470 |7671 |7872 |8107 |8274 |
 
 
 |Level                                     |06.01|06.02|06.03|06.04|06.05|06.06|06.07|06.08|06.09|06.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |1120 |
-|Turret attack calculated damage per second|2172 |2228 |2295 |2351 |2429 |2496 |2563 |2631 |2709 |2765 |
+|Turret attack calculated damage per second|2275 |2334 |2404 |2463 |2545 |2615 |2685 |2756 |2838 |2897 |
 |Turret attack calculated damage per clip  |7170 |7355 |7576 |7761 |8020 |8242 |8463 |8685 |8944 |9129 |
 
 
 |Level                                     |07.01|07.02|07.03|07.04|07.05|07.06|07.07|07.08|07.09|07.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1225 |1225 |1225 |1225 |1225 |1225 |1225 |1225 |1225 |1225 |
-|Turret attack calculated damage per second|2375 |2437 |2510 |2571 |2657 |2730 |2804 |2878 |2963 |3025 |
+|Turret attack calculated damage per second|2489 |2553 |2630 |2694 |2784 |2860 |2938 |3015 |3105 |3169 |
 |Turret attack calculated damage per clip  |7843 |8045 |8288 |8490 |8773 |9015 |9258 |9501 |9784 |9986 |
 
 
 |Level                                     |08.01|08.02|08.03|08.04|08.05|08.06|08.07|08.08|08.09|08.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1330 |1330 |1330 |1330 |1330 |1330 |1330 |1330 |1330 |1330 |
-|Turret attack calculated damage per second|2579 |2645 |2725 |2791 |2885 |2964 |3044 |3124 |3217 |3283 |
+|Turret attack calculated damage per second|2701 |2771 |2855 |2924 |3022 |3105 |3189 |3273 |3370 |3440 |
 |Turret attack calculated damage per clip  |8514 |8734 |8997 |9216 |9524 |9787 |10050|10314|10621|10840|
 
 
 |Level                                     |09.01|09.02|09.03|09.04|09.05|09.06|09.07|09.08|09.09|09.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1435 |1435 |1435 |1435 |1435 |1435 |1435 |1435 |1435 |1435 |
-|Turret attack calculated damage per second|2783 |2854 |2940 |3012 |3113 |3199 |3285 |3371 |3471 |3543 |
+|Turret attack calculated damage per second|2915 |2990 |3080 |3156 |3261 |3351 |3441 |3531 |3637 |3712 |
 |Turret attack calculated damage per clip  |9187 |9424 |9708 |9945 |10277|10561|10845|11129|11461|11697|
 
 
 |Level                                     |10.01|10.02|10.03|10.04|10.05|10.06|10.07|10.08|10.09|10.10|
 |------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Turret displayed damage per second        |1575 |1575 |1575 |1575 |1575 |1575 |1575 |1575 |1575 |1575 |
-|Turret attack calculated damage per second|3054 |3133 |3227 |3306 |3416 |3511 |3605 |3700 |3810 |3889 |
+|Turret attack calculated damage per second|3200 |3282 |3381 |3463 |3579 |3678 |3777 |3876 |3992 |4074 |
 |Turret attack calculated damage per clip  |10084|10344|10655|10915|11279|11591|11903|12215|12579|12839|
 
 
   * Turret attack cannons per sequence: 1
-  * Turret attack cliptime: 3.301s
+  * Turret attack cliptime: 3.151s
   * Turret attack directional: No
   * Turret attack is deflectable: No
   * Turret attack max speed: 4

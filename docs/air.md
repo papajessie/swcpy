@@ -10,6 +10,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Empire
 
   * [TIE Striker (AtmosMig)](AtmosMig.html)
+  * [AT-Hauler (EmpireHauler)](EmpireHauler.html)
   * [T-5 Deliverance (EmpireSupplyDrop)](EmpireSupplyDrop.html)
   * [Imperial Dropship Transport (ImperialDropship)](ImperialDropship.html)
   * [TIE Advanced (TieAdvanced)](TieAdvanced.html)
@@ -26,6 +27,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Low Altitude Assault Transport (CloneWarsGunship)](CloneWarsGunship.html)
   * [Fang Fighter (FangFighter)](FangFighter.html)
   * [HWK-290 (HWK290)](HWK290.html)
+  * [Salvaged AT-Hauler (RebelHauler)](RebelHauler.html)
   * [E-50 Landseer (RebelSupplyDrop)](RebelSupplyDrop.html)
   * [X-wing Starfighter (XWing)](XWing.html)
   * [Y-wing Bomber (YWing)](YWing.html)
@@ -44,6 +46,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Empire
 
   * [shptitleAtmosMigTrap (AtmosMigTrap)](AtmosMigTrap.html)
+  * [TIE Brute (BubbaTieSample)](BubbaTieSample.html)
   * [Strix Strafing Run (FreighterEmpire)](FreighterEmpire.html)
   * [shptitleGozantiCruiser (GozantiCruiser)](GozantiCruiser.html)
   * [Imperial Dropship Transport (ImperialDropshipTrap)](ImperialDropshipTrap.html)
@@ -52,6 +55,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Stolen TIE fighter (StolenTieFighter)](StolenTieFighter.html)
   * [shptitleTIEBomberTrap (TIEBomberTrap)](TIEBomberTrap.html)
   * [shptitleTIEFighterTrap (TIEFighterTrap)](TIEFighterTrap.html)
+  * [shptitleTieFighterEqpSummon (TieFighterEqpSummon)](TieFighterEqpSummon.html)
 
 ### Rebellion
 
@@ -63,6 +67,8 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [shptitleRedDot (RedDot)](RedDot.html)
   * [Seized A-wing Starfighter (SeizedAwing)](SeizedAwing.html)
   * [Seized X-wing Starfighter (SeizedXwing)](SeizedXwing.html)
+  * [U-wing Starfighter (UWingSample)](UWingSample.html)
+  * [shptitleXWingEqpSummon (XWingEqpSummon)](XWingEqpSummon.html)
   * [shptitleXWingTrap (XWingTrap)](XWingTrap.html)
   * [shptitleYWingTrap (YWingTrap)](YWingTrap.html)
 

@@ -63,14 +63,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 230
 
-|Level               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8-10                |
-|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-|Asset name          |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|
-|Buff asset offset   |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-1,-1.2,-1          |-1.2,-1.2,-1.2      |-1.2,-1.2,-1.2      |-0.8,0,-1.6         |-0.8,0,-1.6         |
-|Bundle name         |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|
-|Icon camera position|-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-50.51,41.92,41.7   |-35.7,25.44,39      |
-|Icon lookat position|-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |0.28,1.29,-0.14     |-0.32,1.64,1.07     |
-|Store tab           |army                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |
+|Level               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
+|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
+|Asset name          |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|barracks_rbl-mod-up9|barracks_rbl-mod-up10|
+|Buff asset offset   |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-1,-1.2,-1          |-1.2,-1.2,-1.2      |-1.2,-1.2,-1.2      |-0.8,0,-1.6         |-0.8,0,-1.6         |-0.8,0,-1.6         |-0.8,0,-1.6          |
+|Bundle name         |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|barracks_rbl-mod-up9|barracks_rbl-mod-up10|
+|Icon camera position|-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-50.51,41.92,41.7   |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39       |
+|Icon lookat position|-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |0.28,1.29,-0.14     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07      |
+|Store tab           |army                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 
 
 ## Uninterpreted stats

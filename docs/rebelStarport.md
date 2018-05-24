@@ -66,12 +66,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.47,0.24,-0.83
   * Stash order: 250
 
-|Level            |1                    |2-3                  |4-6                  |7-10                 |
-|-----------------|---------------------|---------------------|---------------------|---------------------|
-|Asset name       |spaceport_rbl-mod-up1|spaceport_rbl-mod-up1|spaceport_rbl-mod-up4|spaceport_rbl-mod-up7|
-|Buff asset offset|-1.4,1.2,-1.4        |-1.4,1.2,-1.4        |-1.4,1.2,-1.4        |-1.6,1.4,-1.6        |
-|Bundle name      |spaceport_rbl-mod-up1|spaceport_rbl-mod-up1|spaceport_rbl-mod-up4|spaceport_rbl-mod-up7|
-|Store tab        |army                 |(not found)          |(not found)          |(not found)          |
+|Level            |1                    |2-3                  |4-6                  |7                    |8                    |9                    |10                    |
+|-----------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|Asset name       |spaceport_rbl-mod-up1|spaceport_rbl-mod-up1|spaceport_rbl-mod-up4|spaceport_rbl-mod-up7|spaceport_rbl-mod-up8|spaceport_rbl-mod-up9|spaceport_rbl-mod-up10|
+|Buff asset offset|-1.4,1.2,-1.4        |-1.4,1.2,-1.4        |-1.4,1.2,-1.4        |-1.6,1.4,-1.6        |-1.6,1.4,-1.6        |-1.6,1.4,-1.6        |-1.6,1.4,-1.6         |
+|Bundle name      |spaceport_rbl-mod-up1|spaceport_rbl-mod-up1|spaceport_rbl-mod-up4|spaceport_rbl-mod-up7|spaceport_rbl-mod-up8|spaceport_rbl-mod-up9|spaceport_rbl-mod-up10|
+|Store tab        |army                 |(not found)          |(not found)          |(not found)          |(not found)          |(not found)          |(not found)           |
 
 
 ## Uninterpreted stats

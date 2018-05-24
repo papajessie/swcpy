@@ -13,11 +13,13 @@ This crates does not expire. The contents are one draw from each of the 6 pools.
 
 ### Empire
 
-  * (1/1) 4 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
+  * (1/2) 4 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
+  * (1/2) 50 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
 
 ### Rebellion
 
-  * (1/1) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
+  * (1/2) 4 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
+  * (1/2) 50 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
 
 ### Fallback for HQ level 10
 
@@ -45,13 +47,15 @@ This crates does not expire. The contents are one draw from each of the 6 pools.
 
 ## Pool "lcpool_testBasic" (x1 draw)
 
-### Rebellion
-
-  * (1/1) 4 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
-
 ### Empire
 
-  * (1/1) 4 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
+  * (1/2) 4 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
+  * (1/2) 50 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
+
+### Rebellion
+
+  * (1/2) 4 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
+  * (1/2) 50 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
 
 ### Fallback for HQ level 10
 
@@ -79,47 +83,71 @@ This crates does not expire. The contents are one draw from each of the 6 pools.
 
 ## Pool "lcpool_testCurrency" (x1 draw)
 
-### For HQ level 7
-
-  * (1/4) 3200 Alloy
-  * (1/4) 3200 Contraband
-  * (1/4) 3200 Credits
-  * (1/4) 3200 Crystals
-
 ### For HQ level 8
 
-  * (1/4) 4000 Alloy
-  * (1/4) 4000 Contraband
-  * (1/4) 4000 Credits
-  * (1/4) 4000 Crystals
-
-### For HQ level 9
-
-  * (1/4) 4800 Alloy
-  * (1/4) 4800 Contraband
-  * (1/4) 4800 Credits
-  * (1/4) 4800 Crystals
+  * (1/8) 330000 Alloy
+  * (1/8) 330000 Contraband
+  * (1/8) 330000 Credits
+  * (1/8) 330000 Crystals
+  * (1/8) 4000 Alloy
+  * (1/8) 4000 Contraband
+  * (1/8) 4000 Credits
+  * (1/8) 4000 Crystals
 
 ### For HQ level 10
 
-  * (1/4) 6000 Alloy
-  * (1/4) 6000 Contraband
-  * (1/4) 6000 Credits
-  * (1/4) 6000 Crystals
+  * (1/8) 6000 Alloy
+  * (1/8) 6000 Contraband
+  * (1/8) 6000 Credits
+  * (1/8) 6000 Crystals
+  * (1/8) 720000 Alloy
+  * (1/8) 720000 Contraband
+  * (1/8) 720000 Credits
+  * (1/8) 720000 Crystals
 
-### For HQ level 5
+### For HQ level 7
 
-  * (1/4) 1200 Alloy
-  * (1/4) 1200 Contraband
-  * (1/4) 1200 Credits
-  * (1/4) 1200 Crystals
+  * (1/8) 210000 Alloy
+  * (1/8) 210000 Contraband
+  * (1/8) 210000 Credits
+  * (1/8) 210000 Crystals
+  * (1/8) 3200 Alloy
+  * (1/8) 3200 Contraband
+  * (1/8) 3200 Credits
+  * (1/8) 3200 Crystals
+
+### For HQ level 9
+
+  * (1/8) 4800 Alloy
+  * (1/8) 4800 Contraband
+  * (1/8) 4800 Credits
+  * (1/8) 4800 Crystals
+  * (1/8) 480000 Alloy
+  * (1/8) 480000 Contraband
+  * (1/8) 480000 Credits
+  * (1/8) 480000 Crystals
 
 ### For HQ level 6
 
-  * (1/4) 2560 Alloy
-  * (1/4) 2560 Contraband
-  * (1/4) 2560 Credits
-  * (1/4) 2560 Crystals
+  * (1/8) 156000 Alloy
+  * (1/8) 156000 Contraband
+  * (1/8) 156000 Credits
+  * (1/8) 156000 Crystals
+  * (1/8) 2560 Alloy
+  * (1/8) 2560 Contraband
+  * (1/8) 2560 Credits
+  * (1/8) 2560 Crystals
+
+### For HQ level 5
+
+  * (1/8) 1200 Alloy
+  * (1/8) 1200 Contraband
+  * (1/8) 1200 Credits
+  * (1/8) 1200 Crystals
+  * (1/8) 72000 Alloy
+  * (1/8) 72000 Contraband
+  * (1/8) 72000 Credits
+  * (1/8) 72000 Crystals
 
 ### Fallback for HQ level 10
 
@@ -150,12 +178,12 @@ This crates does not expire. The contents are one draw from each of the 6 pools.
 ### Empire
 
   * (1/2) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/2) 50 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
 ### Rebellion
 
   * (1/2) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
-  * (1/2) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/2) 50 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
 ### Fallback for HQ level 10
 
@@ -185,11 +213,13 @@ This crates does not expire. The contents are one draw from each of the 6 pools.
 
 ### Empire
 
-  * (1/1) 5 troop sample [Stormtrooper](Storm)
+  * (1/2) 5 troop sample [Stormtrooper](Storm)
+  * (1/2) 50 troop sample [Stormtrooper](Storm)
 
 ### Rebellion
 
-  * (1/1) 5 troop sample [Rebel Soldier](Soldier)
+  * (1/2) 5 troop sample [Rebel Soldier](Soldier)
+  * (1/2) 50 troop sample [Rebel Soldier](Soldier)
 
 ### Fallback for HQ level 10
 

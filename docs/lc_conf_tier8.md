@@ -11,53 +11,23 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_conf8" (x1 draw)
 
-### Empire on Tatooine
+### Rebellion
 
-  * (1/1) 32 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/6) 32 data fragments of unlockable air support [A-wing Starfighter](AWing)
+  * (1/6) 32 data fragments of unlockable air support [HWK-290](HWK290)
+  * (1/6) 32 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (1/6) 32 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (1/6) 32 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/6) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion on Er'Kit
+### Empire
 
-  * (1/1) 32 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Empire on Yavin 4
-
-  * (1/1) 32 data fragments of unlockable air support [VT-49 Decimator](VT49)
-
-### Rebellion on Tatooine
-
-  * (1/1) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-
-### Rebellion on Dandoran
-
-  * (1/1) 32 data fragments of unlockable air support [A-wing Starfighter](AWing)
-
-### Empire on Hoth
-
-  * (1/1) 32 data fragments of unlockable troop [MTV-7](MTV7)
-
-### Rebellion on Hoth
-
-  * (1/1) 32 data fragments of unlockable troop [AT-RT Walker](ATRT)
-
-### Empire on Dandoran
-
-  * (1/1) 32 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-
-### Empire on Er'Kit
-
-  * (1/1) 32 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-
-### Rebellion on Yavin 4
-
-  * (1/1) 32 data fragments of unlockable air support [HWK-290](HWK290)
-
-### Empire on Takodana
-
-  * (1/1) 32 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-
-### Rebellion on Takodana
-
-  * (1/1) 32 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (1/6) 32 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (1/6) 32 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (1/6) 32 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/6) 32 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/6) 32 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/6) 32 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
 

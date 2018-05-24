@@ -53,7 +53,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
-  * Target preferences: **Heavy infantry (100)**, _Droideka (95)_, _Infantry (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _Headquarters (60)_, Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Heavy infantry (100)**, _Droideka (95)_, _Infantry (95)_, _Support troop (95)_, _Heavy vehicle (90)_, _Light vehicle (80)_, _Turret (80)_, _Headquarters (60)_, Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Flying infantry (1), Flying vehicle (1), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting

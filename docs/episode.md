@@ -30,3 +30,7 @@ title: Index of episodes
   * [Questionable Cargo Part II (ep_epRogue1_p2)](ep_epRogue1_p2.html)
   * [Questionable Cargo Part III (ep_epRogue1_p3)](ep_epRogue1_p3.html)
   * [Questionable Cargo Part IV (ep_epRogue1_p4)](ep_epRogue1_p4.html)
+  * [Lucky Break Part I (ep_epRedCup_p1)](ep_epRedCup_p1.html)
+  * [Lucky Break Part 2 (ep_epRedCup_p2)](ep_epRedCup_p2.html)
+  * [Lucky Break Part 3 (ep_epRedCup_p3)](ep_epRedCup_p3.html)
+  * [Lucky Break Part 4 (ep_epRedCup_p4)](ep_epRedCup_p4.html)

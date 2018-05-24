@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Turret animation delay: 0
-  * Turret charge time: 425ms
+  * Turret charge time: 515ms
   * Turret clip retargeting: Yes
   * Turret impact delay: 250ms
   * Turret can shoot over walls: Yes
@@ -68,20 +68,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 2
   * Turret shot delay: 500ms
 
-|Level                       |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|----------------------------|---|---|---|---|---|---|----|----|----|----|
-|Turret damage per shot      |294|441|529|705|852|999|1146|1293|1439|1586|
-|Turret gun shooting sequence|1  |1  |1  |1  |1  |1  |1,2 |1,2 |1,2 |1,2 |
+|Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|----------------------------|---|---|---|---|---|---|---|---|---|---|
+|Turret damage per shot      |123|185|223|296|358|419|481|542|604|667|
+|Turret gun shooting sequence|1  |1  |1  |1  |1  |1  |1,2|1,2|1,2|1,2|
 
 
-|Level                                     |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|------------------------------------------|---|---|----|----|----|----|----|----|----|----|
-|Turret displayed damage per second        |500|750|900 |1200|1450|1600|1750|1900|2050|2250|
-|Turret attack calculated damage per second|351|526|631 |841 |1017|1192|1368|1543|1718|1893|
-|Turret attack calculated damage per clip  |588|882|1058|1410|1704|1998|2292|2586|2878|3172|
+|Level                                     |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|------------------------------------------|---|---|---|----|----|----|----|----|----|----|
+|Turret displayed damage per second        |500|750|900|1200|1450|1600|1750|1900|2050|2250|
+|Turret attack calculated damage per second|139|209|252|335 |405 |474 |545 |614 |684 |755 |
+|Turret attack calculated damage per clip  |246|370|446|592 |716 |838 |962 |1084|1208|1334|
 
 
-  * Turret attack cliptime: 1.675s
+  * Turret attack cliptime: 1.765s
   * Turret attack directional: Yes
   * Turret attack is deflectable: Yes
   * Turret attack max speed: 20

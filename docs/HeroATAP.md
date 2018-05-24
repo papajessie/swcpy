@@ -72,7 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Animation delay: 0
   * Charge time: 250ms
   * Clip retargeting: No
-  * Gun shooting sequence: 1,2,3,4,5,6,7,8,9,10,11,12,13,14
+  * Gun shooting sequence: 1,2
   * Impact delay: 1s
   * Can shoot over walls: No
   * Reload time: 1s
@@ -96,7 +96,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |3430|4116|4788|5474|6160|6846|7532|8218|8904|10262|
 
 
-  * Cannons per sequence: 14
+  * Cannons per sequence: 2
   * Shooting cycle duration: 1.950s
   * Directional: Yes
   * Is deflectable: No

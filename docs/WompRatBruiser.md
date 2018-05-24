@@ -61,7 +61,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 982
   * Target preference strength: 90
-  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, Droideka (50), Headquarters (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Vehicule hero (50), Wall (1), Flying infantry (0), Flying vehicle (0), Trap (0)
+  * Target preferences: **Turret (70)**, _Ressource generator (60)_, _Storage (60)_, Droideka (50), Headquarters (50), Heavy infantry (50), Heavy infantry hero (50), Heavy vehicle (50), Heavy vehicule hero (50), Infantry (50), Infantry hero (50), Light vehicle (50), Other building (50), Shield (50), Shield generator (50), Support troop (50), Vehicule hero (50), Flying infantry (1), Flying vehicle (1), Wall (1), Trap (0)
   * View range: 8
 
 ### Shooting

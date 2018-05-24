@@ -1,0 +1,125 @@
+---
+title: U-wing Starfighter (UWingSample)
+category: air
+---
+
+# U-wing Starfighter (UWingSample)
+
+You can read an [explanation  of the various unit stats](unitexplained.md).
+
+## Main stats
+
+### Unit stats
+
+  * Side: Rebellion
+  * Buildable unit: No
+  * Unit capacity: 4
+
+### Training stats
+
+  * Training cost: 1$
+
+|Level        |1                                           |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
+|-------------|--------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
+|Training time|12m                                         |12m                                   |12m                                   |12m                                   |16m                                   |16m                                   |20m                                   |20m                                   |24m                                   |28m                                    |
+|Building     |[Starship Command 1](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+
+
+### Upgrading stats
+
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
+|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
+|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
+|Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+
+### Movement stats
+
+  * Acceleration: 0
+  * Max speed: 2
+
+## Main attack : U-wing Blaster
+
+### Targeting
+
+
+### Shooting
+
+  * Animation delay: 2500
+  * Impact delay: 170ms
+  * Shot count: 16
+  * Shot delay: 84ms
+
+|Level          |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|---------------|---|---|---|----|----|----|----|----|----|----|
+|Damage per shot|440|700|930|1300|1630|1980|2310|2680|3090|3480|
+
+
+### Projectile
+
+  * Splash damage percentages: 100,75
+
+|Level                       |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |7040|11200|14880|20800|26080|31680|36960|42880|49440|55680|
+|Calculated damage per second|170 |270  |359  |503  |630  |766  |893  |1037 |1195 |1346 |
+|Calculated damage per cycle |7040|11200|14880|20800|26080|31680|36960|42880|49440|55680|
+
+
+  * Cannons per sequence: 1
+  * Shooting cycle duration: 41.344s
+  * Directional: Yes
+  * Is deflectable: No
+  * Max speed: 20
+  * Pass through shield: No
+  * Salvos: 16
+
+|Level             |1                                                                                                                                                                                                                                                                                                                                                                                           |2                                                                                                                                                                                                                                                                                                                                                                                                     |3                                                                                                                                                                                                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                                                                                                                                                                           |5                                                                                                                                                                                                                                                                                                                                                                                                     |6                                                                                                                                                                                                                                                                                                                                                                                                     |7                                                                                                                                                                                                                                                                                                                                                                                           |8                                                                                                                                                                                                                                                                                                                                                                                           |9                                                                                                                                                                                                                                                                                                                                                                                                     |10                                                                                                                                                                                                                                                                                                                                                                                          |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Damage multipliers|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(85)**: Headquarters, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(68)**: Ressource generator, Turret, **(65)**: Other building, **(50)**: Shield, Storage, **(25)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(79)**: Headquarters, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(67)**: Turret, **(66)**: Ressource generator, **(65)**: Other building, **(50)**: Shield, Storage, **(34)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(73)**: Headquarters, **(66)**: Turret, **(65)**: Other building, **(64)**: Ressource generator, **(50)**: Shield, Storage, **(40)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(68)**: Headquarters, **(65)**: Other building, Turret, **(62)**: Ressource generator, **(50)**: Shield, Storage, **(40)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(64)**: Turret, **(62)**: Headquarters, **(60)**: Ressource generator, **(50)**: Shield, Storage, **(42)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(64)**: Turret, **(58)**: Ressource generator, **(56)**: Headquarters, **(50)**: Shield, Storage, **(43)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(63)**: Turret, **(56)**: Ressource generator, **(50)**: Headquarters, Shield, Storage, **(44)**: Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(62)**: Turret, **(54)**: Ressource generator, **(50)**: Shield, Storage, **(45)**: Headquarters, Wall, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(61)**: Turret, **(52)**: Ressource generator, **(50)**: Shield, Storage, **(45)**: Wall, **(39)**: Headquarters, **(0)**: Flying infantry, Flying vehicle, Trap|**(100)**: Droideka, Heavy infantry hero, Infantry, Infantry hero, Light vehicle, Support troop, **(90)**: Shield generator, **(75)**: Heavy infantry, Heavy vehicle, Heavy vehicule hero, Vehicule hero, **(65)**: Other building, **(60)**: Turret, **(50)**: Ressource generator, Shield, Storage, **(46)**: Wall, **(33)**: Headquarters, **(0)**: Flying infantry, Flying vehicle, Trap|
+
+
+## Internal stats
+
+These stats internal to the system link different parts of data together.
+
+
+## Presentation stats
+
+These are all sorts of user interface settings, that should not interfere with gameplay.
+
+  * Arcs: No
+  * Asset name: uwing_rbl-ani
+  * Audio attack: "sfx_attack_uwing_01":15,"sfx_attack_uwing_02":15,"sfx_attack_uwing_03":14,"sfx_attack_uwing_04":14,"sfx_attack_uwing_05":14,"sfx_attack_uwing_06":14,"sfx_attack_uwing_07":14
+  * Audio movement: "sfx_placement_uwing_01":100
+  * Bullet: fx_blaster_beam_b_xl
+  * Bundle name: uwing_rbl-ani
+  * Destroy delay: 10
+  * Favorite target type: none
+  * Hit spark: fx_blaster_hit_b_xl
+  * Hologram uid: StarshipHologramRebel1
+  * Icon camera position: 20.43,37.21,35.7
+  * Icon lookat position: -0.51,0.46,1.27
+  * Max scale: 100
+  * Muzzle flash: fx_blaster_flash_b_xl
+  * Name: U-wing Blaster
+  * Spin speed: 0
+
+|Level                      |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|---------------------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second|7040|11200|14880|20800|26080|31680|36960|42880|49440|55680|
+
+
+## Uninterpreted stats
+
+Seriously, we don't really know what to do with these.
+
+  * Seeks target: No
+  * Streams: no
+  * Xp: 0
+
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----|------|------|------|------|------|------|------|------|------|------|
+|Order|241201|241202|241203|241204|241205|241206|241207|241208|241209|241210|
+
+

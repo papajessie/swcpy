@@ -11,53 +11,23 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_conf5" (x1 draw)
 
-### Empire on Er'Kit
+### Empire
 
-  * (1/1) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/6) 1 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (1/6) 1 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (1/6) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/6) 1 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
+  * (1/6) 1 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/6) 1 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire on Hoth
+### Rebellion
 
-  * (1/1) 1 data fragments of unlockable troop [MTV-7](MTV7)
-
-### Rebellion on Takodana
-
-  * (1/1) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
-
-### Empire on Takodana
-
-  * (1/1) 1 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
-
-### Rebellion on Dandoran
-
-  * (1/1) 1 data fragments of unlockable air support [A-wing Starfighter](AWing)
-
-### Rebellion on Er'Kit
-
-  * (1/1) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Rebellion on Hoth
-
-  * (1/1) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
-
-### Rebellion on Tatooine
-
-  * (1/1) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-
-### Empire on Dandoran
-
-  * (1/1) 1 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-
-### Empire on Yavin 4
-
-  * (1/1) 1 data fragments of unlockable air support [VT-49 Decimator](VT49)
-
-### Rebellion on Yavin 4
-
-  * (1/1) 1 data fragments of unlockable air support [HWK-290](HWK290)
-
-### Empire on Tatooine
-
-  * (1/1) 1 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/6) 1 data fragments of unlockable air support [A-wing Starfighter](AWing)
+  * (1/6) 1 data fragments of unlockable air support [HWK-290](HWK290)
+  * (1/6) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (1/6) 1 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
+  * (1/6) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/6) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Fallback for HQ level 10
 
