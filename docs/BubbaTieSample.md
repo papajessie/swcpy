@@ -45,10 +45,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 2500
+  * Animation delay: 1500
   * Impact delay: 170ms
   * Shot count: 8
-  * Shot delay: 160ms
+  * Shot delay: 140ms
 
 |Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|---|----|----|----|----|----|----|----|----|----|
@@ -62,12 +62,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |6960|11200|15840|20560|25840|31200|36960|43040|49040|55760|
-|Calculated damage per second|327 |526  |744  |966  |1214 |1466 |1736 |2022 |2304 |2620 |
+|Calculated damage per second|530 |853  |1207 |1567 |1969 |2378 |2817 |3280 |3737 |4250 |
 |Calculated damage per cycle |6960|11200|15840|20560|25840|31200|36960|43040|49040|55760|
 
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 21.280s
+  * Shooting cycle duration: 13.120s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 20

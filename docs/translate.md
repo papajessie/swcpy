@@ -972,7 +972,7 @@ category: strings
   * **SETTINGS_CONFIRMLANGUAGE**: 'Are you sure you want to change your language to {0}?'
   * **SETTINGS_CONNECTED**: 'Disconnect'
   * **SETTINGS_CREDITS**: 'Credits'
-  * **SETTINGS_CREDITS_ART_LIST**: 'BENNETT HARRISON • CHRISTOPHER WINTERS • DEREK VALERO\nJEFFREY ANDUZA • KEN PROUDFOOT • MARC SENTENEY • MARIKA OREHEK\nMATTHEW ELSER • MIKE MARIANO • SEAN KRAFT'
+  * **SETTINGS_CREDITS_ART_LIST**: 'BENNETT HARRISON • CHRISTOPHER WINTERS • DEREK VALERIO\nJEFFREY ANDUZA • KEN PROUDFOOT • MARC SENTENEY • MARIKA OREHEK\nMATTHEW ELSER • MIKE MARIANO • SEAN KRAFT'
   * **SETTINGS_CREDITS_ART_SUBHEAD**: 'Art'
   * **SETTINGS_CREDITS_AUDIO_LIST**: 'ARIEL MANN • CLAY BARLOW • NICHOLAS GALLANT • PETER THOMAS'
   * **SETTINGS_CREDITS_AUDIO_SUBHEAD**: 'Audio'
@@ -2463,6 +2463,7 @@ category: strings
   * **context_Trap_Rearm**: 'Re-Arm'
   * **context_Trap_RearmAll**: 'Re-Arm All'
   * **context_Upgrade**: 'Upgrade'
+  * **context_UpgradePrestige**: 'Upgrade'
   * **context_Upgrade_Defense**: 'Research'
   * **context_Upgrade_Troops**: 'Research'
   * **crate_tier_lc_bronzium**: 'Bronzium Crate'
@@ -3233,18 +3234,18 @@ category: strings
   * **dia_epRedCup_p2c1_02**: "Hey, partner. A few of my contacts have been shedding light on Therm Scissorpunch's shadowy underworld connections, and guess what? They haven't found anything yet!"
   * **dia_epRedCup_p2c1_03**: "Therm's trying to offload these Data Fragments in a hurry, so the merchandise might be stolen."
   * **dia_epRedCup_p2c1_04**: "If we don't know where they came from, or who Therm is actually working for, it could be bad news for all of us."
-  * **dia_epRedCup_p2c1_05**: "Not bad enough we don't take the job, but we should keep our guard up."
+  * **dia_epRedCup_p2c1_05**: "Not bad enough that we don't take the job, but we should keep our guard up."
   * **dia_epRedCup_p2c2_00**: '(What is taking you so long?! Do you not want these Data Fragments?! Is that it?! That must be it. Get me the Coaxium or else!)'
   * **dia_epRedCup_p2c2_01**: "Hey, partner. Looks like Therm's desperation is showing. Keep it up, we'll have enough soon."
   * **dia_epRedCup_p2c3_00**: "Alright, partner! Looks like we've got the Coaxium shipment all ready to go. Therm better be thankful for this."
-  * **dia_epRedCup_p2c3_01**: "(Well despite your delay this will do quite nicely. Now take these Data Fragments off my claws. If you happen to get more Coaxium, I'm sure we can pay you for it.)"
+  * **dia_epRedCup_p2c3_01**: "(Well, despite your delay this will do quite nicely. Now take these Data Fragments off my claws. If you happen to get more Coaxium, I'm sure we can pay you for it.)"
   * **dia_epRedCup_p3c1_00**: "(Ready to make a new deal? Got to make this quick but I've gotten hold of some tech I think you'd appreciate.)"
   * **dia_epRedCup_p3c1_01**: "(If you get me enough Coaxium I'd be willing to part with it, but I have to move this fast, so hurry up!)"
   * **dia_epRedCup_p3c1_02**: "What's the rush, Therm? Certainly your syndicate can get tech like this and sell it whenever they want, right?"
   * **dia_epRedCup_p3c1_03**: "(Tech this rare doesn't just show up for just anyone to buy! I have a talent for acquiring goods, if you haven't noticed!)"
   * **dia_epRedCup_p3c1_04**: 'Quite a "talent" indeed. I\'m sure your boss is very pleased with your work.'
   * **dia_epRedCup_p3c1_05**: "(...I don't know what you're insinuating, but I don't like it. Just get me the Coaxium so we can do business.)"
-  * **dia_epRedCup_p3c1_06**: "Hey, partner. I've got a lead on what Therm's up to, but I need a time to chase it down. I'd take Therm's deal, but sleep with one eye open."
+  * **dia_epRedCup_p3c1_06**: "Hey, partner. I've got a lead on what Therm's up to, but I need time to chase it down. I'd take Therm's deal, but sleep with one eye open."
   * **dia_epRedCup_p3c2_00**: "(Remember what's on offer here. This valuable tech once you get me the Coaxium I requested.)"
   * **dia_epRedCup_p3c2_01**: 'The Coaxium for "your syndicate" is almost ready to be shipped, Therm.'
   * **dia_epRedCup_p3c3_00**: "Alright, Therm. We're ready to make the trade. Where should we send it again?"
@@ -3263,7 +3264,7 @@ category: strings
   * **dia_epRedCup_p4c2_01**: '"...walkers ...in Halthor sector... shipment was blown out to space..."'
   * **dia_epRedCup_p4c2_02**: "Somehow Therm found that lost cargo! We just need to get this last bit of Coaxium before he realizes what he's got and ups his price. We're almost there!"
   * **dia_epRedCup_p4c3_00**: "(I knew when I mistakenly contacted you that you'd be somewhat useful to me. Here's the rest of the cargo you wanted.)"
-  * **dia_epRedCup_p4c3_01**: "(If you've got more Coaxium I have the credits to trade. Until then, I'm feeling lucky, I think I'll stop at the casino on my way to pay off my debt. Ha ha!)"
+  * **dia_epRedCup_p4c3_01**: "(If you've got more Coaxium I have the credits to trade. Until then, I'm feeling lucky, so I think I'll stop at the casino on my way to pay off my debt. Ha ha!)"
   * **dia_epRogue1_p1c1_00**: "Hey, partner. Kada Jahr has a job offer for us. I don't know how she got it, but she's offering to pay with some heavy-duty tech."
   * **dia_epRogue1_p1c1_01**: "You worry too much, Saponza. It's from a freighter that left Imperial space some time ago but was crippled by some accident."
   * **dia_epRogue1_p1c1_02**: "A scavenger crew found it and recovered these crates, which is what I plan to pay you if you can complete the jobs I've sent over."
@@ -11065,6 +11066,12 @@ category: strings
   * **planet_name_planet3**: 'Dandoran'
   * **planet_name_planet6**: "Er'Kit"
   * **planet_name_planet8**: 'Yavin 4'
+  * **prestige_droid_desc_busy**: 'Finish a building to free up a Prestige Droid?'
+  * **prestige_droid_desc_required**: 'Prestige Droid is required to begin this upgrade.'
+  * **prestige_droid_title_busy**: 'All Prestige Droids are busy!'
+  * **prestige_droid_title_required**: 'Prestige Droid is required!'
+  * **prestige_level_long**: 'Prestige'
+  * **prestige_level_short**: 'P'
   * **prize_desc_gamorrean_five**: 'Gamorrean Warrior x5'
   * **prize_desc_gamorrean_single**: 'Gamorrean Warrior x1'
   * **prize_desc_twilek_five**: "Twi'Lek Incinerator x5"
