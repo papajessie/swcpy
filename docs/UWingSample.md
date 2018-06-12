@@ -96,12 +96,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Bundle name: uwing_rbl-ani
   * Destroy delay: 10
   * Favorite target type: none
-  * Hit spark: fx_blaster_hit_b_xl
+  * Hit spark: fx_blaster_hit_b_med
   * Hologram uid: StarshipHologramUWing
   * Icon camera position: 20.43,37.21,35.7
   * Icon lookat position: -0.51,0.46,1.27
   * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_b_xl
+  * Muzzle flash: fx_blaster_flash_b_sm
   * Name: U-wing Blaster
   * Spin speed: 0
 

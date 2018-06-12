@@ -6595,6 +6595,8 @@ category: strings
   * **hn_dnotes_2018-03-07_title**: 'Updates & Game Improvements'
   * **hn_dnotes_20180523_body**: 'Notice: on Wednesday, 5/23, Commander will be undergoing planned downtime starting around 1:00pm PST. During this update, the game will be unavailable for several hours.\n\nWe are aware that this downtime falls during the Conflict prize redemption period, and apologize for any inconvenience.'
   * **hn_dnotes_20180523_title**: 'Upcoming Maintenance'
+  * **hn_dnotes_20180604_body**: 'Notice: maintenance planned for Monday, 6/4, has been rescheduled for Monday, 6/11, starting around 11:00pm PST.\n\nFor several hours during this time, some players may experience instability or downtime.'
+  * **hn_dnotes_20180604_title**: 'Upcoming Maintenance Rescheduled'
   * **hn_dnotes_4**: 'Url test!'
   * **hn_dnotes_6-0_body**: '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
   * **hn_dnotes_6-0_title**: 'Version 6.0'

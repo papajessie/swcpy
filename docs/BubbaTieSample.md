@@ -101,7 +101,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 18.99,21.2,36.55
   * Icon lookat position: -0.28,0.95,-0.53
   * Max scale: 100
-  * Muzzle flash: fx_blaster_flash_r_lrg
   * Name: Bubba TIE Blaster
   * Spin speed: 0
 
