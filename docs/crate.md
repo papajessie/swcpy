@@ -230,6 +230,8 @@ title: Index of crates
   * [Death Star Crate Bonus Reward (lc_deathstar_spdbonus_v1)](lc_deathstar_spdbonus_v1.html)
   * [Death Star Crate Bonus Reward (lc_deathstar_spdbonus_v2)](lc_deathstar_spdbonus_v2.html)
   * [Premium Tactical Defenses Crate (lc_defRefStore)](lc_defRefStore.html)
+  * [cratetitlelcdefRefJunSPDv1 (lc_defRef_Jun_SPDv1)](lc_defRef_Jun_SPDv1.html)
+  * [cratetitlelcdefRefJunSPDv2 (lc_defRef_Jun_SPDv2)](lc_defRef_Jun_SPDv2.html)
   * [Elite Guard Reserve Crate (lc_defRef_Nov_SPDv1)](lc_defRef_Nov_SPDv1.html)
   * [Elite Guard Reserve Crate (lc_defRef_Nov_SPDv2)](lc_defRef_Nov_SPDv2.html)
   * [Tactical Defenses Last Chance Sale (lc_defRef_Nov_lastChanceV1)](lc_defRef_Nov_lastChanceV1.html)

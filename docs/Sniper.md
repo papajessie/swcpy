@@ -128,7 +128,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1
-  * Favorite target type: heroes
+  * Favorite target type: infantry
   * Gun position: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
   * Hit spark: fx_blaster_hit_r_sm
   * Icon camera position: 8.4,11.02,18.74

@@ -180,19 +180,19 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Empire
 
-  * (1/6) 1 troop sample [Shock Trooper](Shock)
-  * (1/6) 2 troop sample [Johhar Kessen](EmpireJohhar)
-  * (1/6) 2 troop sample [Shock Trooper](Shock)
-  * (1/6) 3 troop sample [Johhar Kessen](EmpireJohhar)
-  * (2/6) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
+  * (2/11) 1 troop sample [Shock Trooper](Shock)
+  * (2/11) 2 troop sample [Johhar Kessen](EmpireJohhar)
+  * (2/11) 2 troop sample [Shock Trooper](Shock)
+  * (2/11) 3 troop sample [Johhar Kessen](EmpireJohhar)
+  * (3/11) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
 
 ### Rebellion
 
-  * (1/6) 1 troop sample [Rebel Vanguard](Vanguard)
-  * (1/6) 2 troop sample [Johhar Kessen](RebelJohhar)
-  * (1/6) 2 troop sample [Rebel Vanguard](Vanguard)
-  * (1/6) 3 troop sample [Johhar Kessen](RebelJohhar)
-  * (2/6) 2 troop sample [Iakaru Warrior](IakaruWarrior)
+  * (2/11) 1 troop sample [Rebel Vanguard](Vanguard)
+  * (2/11) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (2/11) 2 troop sample [Rebel Vanguard](Vanguard)
+  * (2/11) 3 troop sample [Johhar Kessen](RebelJohhar)
+  * (3/11) 2 troop sample [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback for HQ level 10
 

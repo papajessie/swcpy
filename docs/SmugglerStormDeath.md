@@ -88,11 +88,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                       |1      |2      |3      |4      |5      |6      |7   |8   |9   |10      |
-|----------------------------|-------|-------|-------|-------|-------|-------|----|----|----|--------|
-|Displayed damage per second |377.500|452.500|487.500|556.250|626.250|696.250|765 |835 |905 |1043.750|
-|Calculated damage per second|369    |438    |469    |538    |607    |676    |746 |807 |876 |1015    |
-|Calculated damage per cycle |720    |855    |915    |1050   |1185   |1320   |1455|1575|1710|1980    |
+|Level                       |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
+|----------------------------|---|---|---|----|----|----|----|----|----|----|
+|Displayed damage per second |378|453|488|556 |626 |696 |765 |835 |905 |1044|
+|Calculated damage per second|369|438|469|538 |607 |676 |746 |807 |876 |1015|
+|Calculated damage per cycle |720|855|915|1050|1185|1320|1455|1575|1710|1980|
 
 
   * Cannons per sequence: 1
@@ -139,9 +139,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1      |2      |3      |4      |5      |6      |7  |8  |9  |10      |
-|---------------------------|-------|-------|-------|-------|-------|-------|---|---|---|--------|
-|Displayed damage per second|377.500|452.500|487.500|556.250|626.250|696.250|765|835|905|1043.750|
+|Level                      |1  |2  |3  |4  |5  |6  |7  |8  |9  |10  |
+|---------------------------|---|---|---|---|---|---|---|---|---|----|
+|Displayed damage per second|378|453|488|556|626|696|765|835|905|1044|
 
 
 ## Uninterpreted stats

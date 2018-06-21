@@ -93,31 +93,51 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
 ### Empire for HQ levels 6-10
 
-  * (1/4) 1 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
-  * (1/4) 1 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
-  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 1 data fragments of unlockable troop [Shock Trooper](Shock)
-
-### Empire for HQ level 5
-
-  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
-  * (1/4) 1 data fragments of unlockable troop [Shock Trooper](Shock)
-  * (1/4) 1 troop sample [Shock Trooper](Shock)
-  * (1/4) 2 troop sample [Johhar Kessen](EmpireJohhar)
-
-### Rebellion for HQ level 5
-
-  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
-  * (1/4) 1 troop sample [Rebel Vanguard](Vanguard)
-  * (1/4) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (1/15) 1 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
+  * (1/15) 1 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
+  * (1/15) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/15) 1 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (2/15) 1 troop sample [Shock Trooper](Shock)
+  * (2/15) 2 troop sample [Johhar Kessen](EmpireJohhar)
+  * (2/15) 2 troop sample [Shock Trooper](Shock)
+  * (2/15) 3 troop sample [Johhar Kessen](EmpireJohhar)
+  * (3/15) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
 
 ### Rebellion for HQ levels 6-10
 
-  * (1/4) 1 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
-  * (1/4) 1 data fragments of equipment [Guard Reserve Light Infantry](eqpRebelBarracksSummonLight)
-  * (1/4) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-  * (1/4) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/15) 1 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
+  * (1/15) 1 data fragments of equipment [Guard Reserve Light Infantry](eqpRebelBarracksSummonLight)
+  * (1/15) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/15) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (2/15) 1 troop sample [Rebel Vanguard](Vanguard)
+  * (2/15) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (2/15) 2 troop sample [Rebel Vanguard](Vanguard)
+  * (2/15) 3 troop sample [Johhar Kessen](RebelJohhar)
+  * (3/15) 2 troop sample [Iakaru Warrior](IakaruWarrior)
+
+### Rebellion for HQ level 5
+
+  * (1/15) 1 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/15) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/15) 1 troop sample [Rebel Vanguard](Vanguard)
+  * (1/15) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (2/15) 1 troop sample [Rebel Vanguard](Vanguard)
+  * (2/15) 2 troop sample [Johhar Kessen](RebelJohhar)
+  * (2/15) 2 troop sample [Rebel Vanguard](Vanguard)
+  * (2/15) 3 troop sample [Johhar Kessen](RebelJohhar)
+  * (3/15) 2 troop sample [Iakaru Warrior](IakaruWarrior)
+
+### Empire for HQ level 5
+
+  * (1/15) 1 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/15) 1 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/15) 1 troop sample [Shock Trooper](Shock)
+  * (1/15) 2 troop sample [Johhar Kessen](EmpireJohhar)
+  * (2/15) 1 troop sample [Shock Trooper](Shock)
+  * (2/15) 2 troop sample [Johhar Kessen](EmpireJohhar)
+  * (2/15) 2 troop sample [Shock Trooper](Shock)
+  * (2/15) 3 troop sample [Johhar Kessen](EmpireJohhar)
+  * (3/15) 2 troop sample [IG-86 Assassin Droid](IG86Droid)
 
 ### Fallback for HQ level 10
 
