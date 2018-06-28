@@ -302,6 +302,7 @@ title: Index of crates
   * [cratetitlelcepRedCupp2final (lc_epRedCup_p2_final)](lc_epRedCup_p2_final.html)
   * [cratetitlelcepRedCupp3final (lc_epRedCup_p3_final)](lc_epRedCup_p3_final.html)
   * [cratetitlelcepRedCupp4final (lc_epRedCup_p4_final)](lc_epRedCup_p4_final.html)
+  * [cratetitlelcepRedCupwk4compensationcrate (lc_epRedCup_wk4_compensationcrate)](lc_epRedCup_wk4_compensationcrate.html)
   * [cratetitlelcepRogue1epMilestonep101 (lc_epRogue1_epMilestone_p1_01)](lc_epRogue1_epMilestone_p1_01.html)
   * [cratetitlelcepRogue1epMilestonep201 (lc_epRogue1_epMilestone_p2_01)](lc_epRogue1_epMilestone_p2_01.html)
   * [cratetitlelcepRogue1epMilestonep301 (lc_epRogue1_epMilestone_p3_01)](lc_epRogue1_epMilestone_p3_01.html)
