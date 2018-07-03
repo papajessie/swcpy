@@ -3,6 +3,18 @@ title: Index of conflicts
 ---
 # Conflicts
 
+  * [tournamenttitleconflictdan20180726 (conflict_dan_20180726)](conflict_dan_20180726.html)
+  * [tournamenttitleconflicttak20180726 (conflict_tak_20180726)](conflict_tak_20180726.html)
+  * [tournamenttitleconflicttat20180726 (conflict_tat_20180726)](conflict_tat_20180726.html)
+  * [tournamenttitleconflictyav20180719 (conflict_yav_20180719)](conflict_yav_20180719.html)
+  * [tournamenttitleconflicthth20180719 (conflict_hth_20180719)](conflict_hth_20180719.html)
+  * [tournamenttitleconflicttat20180719 (conflict_tat_20180719)](conflict_tat_20180719.html)
+  * [tournamenttitleconflicterk20180712 (conflict_erk_20180712)](conflict_erk_20180712.html)
+  * [tournamenttitleconflicttak20180712 (conflict_tak_20180712)](conflict_tak_20180712.html)
+  * [tournamenttitleconflicttat20180712 (conflict_tat_20180712)](conflict_tat_20180712.html)
+  * [tournamenttitleconflictdan20180705 (conflict_dan_20180705)](conflict_dan_20180705.html)
+  * [tournamenttitleconflicthth20180705 (conflict_hth_20180705)](conflict_hth_20180705.html)
+  * [tournamenttitleconflicttat20180705 (conflict_tat_20180705)](conflict_tat_20180705.html)
   * [tournamenttitleconflictyav20180630 (conflict_yav_20180630)](conflict_yav_20180630.html)
   * [tournamenttitleconflicttfa20180630 (conflict_tfa_20180630)](conflict_tfa_20180630.html)
   * [tournamenttitleconflicterk20180629 (conflict_erk_20180629)](conflict_erk_20180629.html)

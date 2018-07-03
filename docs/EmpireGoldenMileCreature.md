@@ -82,18 +82,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 750ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|6075|6480|6880|7290|7690|8100|8505|8910|9315|9715|
+|Level          |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
+|---------------|----|----|----|----|----|-----|-----|-----|-----|-----|
+|Damage per shot|7594|8100|8600|9113|9613|10125|10632|11138|11644|12144|
 
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|----------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Displayed damage per second |7600|8100|8595|9115|9610|10125|10635|11140|11650|12145|
-|Calculated damage per second|4050|4320|4586|4860|5126|5400 |5670 |5940 |6210 |6476 |
-|Calculated damage per cycle |6075|6480|6880|7290|7690|8100 |8505 |8910 |9315 |9715 |
+|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |10125|10800|11466|12150|12817|13500|14176|14850|15525|16192|
+|Calculated damage per second|5062 |5400 |5733 |6075 |6408 |6750 |7088 |7425 |7762 |8096 |
+|Calculated damage per cycle |7594 |8100 |8600 |9113 |9613 |10125|10632|11138|11644|12144|
 
 
   * Cannons per sequence: 1
@@ -143,7 +143,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|7600       |8100       |8595       |9115       |9610       |10125      |10635      |11140      |11650      |12145      |
+|Displayed damage per second|10125      |10800      |11466      |12150      |12817      |13500      |14176      |14850      |15525      |16192      |
 |Icon unlock rotation       |0,-15,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |0.7,0.7,0.7|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 

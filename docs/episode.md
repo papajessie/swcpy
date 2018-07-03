@@ -34,3 +34,7 @@ title: Index of episodes
   * [Lucky Break Part 2 (ep_epRedCup_p2)](ep_epRedCup_p2.html)
   * [Lucky Break Part 3 (ep_epRedCup_p3)](ep_epRedCup_p3.html)
   * [Lucky Break Part 4 (ep_epRedCup_p4)](ep_epRedCup_p4.html)
+  * [Shared Interests (ep_Spacebear2_p1)](ep_Spacebear2_p1.html)
+  * [A Friend in Need (ep_Spacebear2_p2)](ep_Spacebear2_p2.html)
+  * [An Enemy Within (ep_Spacebear2_p3)](ep_Spacebear2_p3.html)
+  * [Unpaid Debts (ep_Spacebear2_p4)](ep_Spacebear2_p4.html)
