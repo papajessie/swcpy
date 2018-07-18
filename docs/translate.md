@@ -6496,7 +6496,7 @@ category: strings
   * **hn_cc_developer_notes**: 'Developer Notes'
   * **hn_cc_event_reward_614AVA**: 'Event Reward: 614-AvA Speeder Bike'
   * **hn_cc_event_reward_ApeMan**: 'Event Reward: Ongidae Oppressor'
-  * **hn_cc_event_reward_FurCoat**: 'Event Reward: Budopel Protector'
+  * **hn_cc_event_reward_FurCoat**: 'Event Reward: Bufopel Protector'
   * **hn_cc_event_reward_PolarShip**: 'Event Reward: V-4X-D Ski Speeder'
   * **hn_cc_featured_videos**: 'Featured Videos'
   * **hn_cc_io7_deprecate_body**: 'Our game will be removing support for iOS 7 in the coming weeks. Please ensure your device is running iOS8 or higher in order to continue playing.'
