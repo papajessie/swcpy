@@ -72,8 +72,8 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Animation delay: 200
   * Charge time: 0s
   * Clip retargeting: No
-  * Special data 2 title: Turret Time to Self-Destruct
-  * Special data 3 title: Overload Burst Damage
+  * Special data 2 title: Turret Time to Self-Destruct:
+  * Special data 3 title: Overload Burst Damage:
   * Damage per shot: 1
   * Gun shooting sequence: 1
   * Impact delay: 0s

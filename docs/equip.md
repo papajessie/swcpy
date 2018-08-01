@@ -7,6 +7,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
+  * [Enhanced AT-ST Walker (eqpEmpireATSTHalfSkin)](eqpEmpireATSTHalfSkin.html)
   * [Cold Weather AT-MP Mark III (eqpEmpireArcticATMP)](eqpEmpireArcticATMP.html)
   * [Modified INT-4 Interceptor (eqpEmpireArcticINT4)](eqpEmpireArcticINT4.html)
   * [Cold-weather Mobile Heavy Cannon (eqpEmpireArcticMHC)](eqpEmpireArcticMHC.html)
@@ -43,5 +44,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [Desert Soldier (eqpRebelSandSoldier)](eqpRebelSandSoldier.html)
   * [Gigoran Fighter (eqpRebelShaggyAlien)](eqpRebelShaggyAlien.html)
   * [Sullustan Recon Sharpshooter (eqpRebelSullustan)](eqpRebelSullustan.html)
+  * [Enhanced T2-B Repulsor Tank (eqpRebelT2BTankHalfSkin)](eqpRebelT2BTankHalfSkin.html)
   * [Tauntaun Rider (eqpRebelTauntaun)](eqpRebelTauntaun.html)
 
