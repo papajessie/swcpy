@@ -1,13 +1,13 @@
 ---
-title: cratetitlelcdailymt4ads (lc_daily_mt4_ads)
+title: cratetitlelcdailyanniversary4ads (lc_daily_anniversary_4_ads)
 category: crate
 ---
 
-# cratetitlelcdailymt4ads (lc_daily_mt4_ads)
+# cratetitlelcdailyanniversary4ads (lc_daily_anniversary_4_ads)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
-This crate expires after 7d. The contents are one draw from each of the 4 pools.
+This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_ad_crystals" (x1 draw)
 
@@ -46,42 +46,6 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 ### Fallback for HQ level 9
 
   * 250000 Credits
-
-## Pool "lcpool_chicken_smpl" (x1 draw)
-
-### Empire
-
-  * (1/3) 3 troop sample [AT-DT Walker](EmpireChicken)
-  * (2/3) 2 troop sample [AT-DT Walker](EmpireChicken)
-
-### Rebellion
-
-  * (1/3) 3 troop sample [Stolen AT-DT Walker](RebelChicken)
-  * (2/3) 2 troop sample [Stolen AT-DT Walker](RebelChicken)
-
-### Fallback for HQ level 10
-
-  * 7500 Credits
-
-### Fallback for HQ level 5
-
-  * 1500 Credits
-
-### Fallback for HQ level 6
-
-  * 3200 Credits
-
-### Fallback for HQ level 7
-
-  * 4000 Credits
-
-### Fallback for HQ level 8
-
-  * 5000 Credits
-
-### Fallback for HQ level 9
-
-  * 6000 Credits
 
 ## Pool "lcpool_currency_t1" (x1 draw)
 

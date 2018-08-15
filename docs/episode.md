@@ -38,3 +38,7 @@ title: Index of episodes
   * [A Friend in Need (ep_Spacebear2_p2)](ep_Spacebear2_p2.html)
   * [An Enemy Within (ep_Spacebear2_p3)](ep_Spacebear2_p3.html)
   * [Unpaid Debts (ep_Spacebear2_p4)](ep_Spacebear2_p4.html)
+  * [Lucky Break Part I (ep_epRedCupRedux_p1)](ep_epRedCupRedux_p1.html)
+  * [Lucky Break Part 2 (ep_epRedCupRedux_p2)](ep_epRedCupRedux_p2.html)
+  * [Lucky Break Part 3 (ep_epRedCupRedux_p3)](ep_epRedCupRedux_p3.html)
+  * [Lucky Break Part 4 (ep_epRedCupRedux_p4)](ep_epRedCupRedux_p4.html)

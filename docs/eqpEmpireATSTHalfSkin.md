@@ -297,7 +297,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Arcs: No
   * Asset name: atsthalfskin_emp-ani
-  * Audio attack: "sfx_attack_walker_1":25,"sfx_attack_walker_2":25,"sfx_attack_walker_3":25,"sfx_attack_walker_4":25
+  * Audio attack: "sfx_attack_atst_heavy_01":33,"sfx_attack_atst_heavy_02":33,"sfx_attack_atst_heavy_03":34
   * Audio death: "sfx_death_walker_1":100
   * Audio placement: "sfx_placement_walker_1":50,"sfx_placement_walker_2":50
   * Buff asset offset: 0.00,3.16,0.00

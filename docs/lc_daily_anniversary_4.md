@@ -1,27 +1,33 @@
 ---
-title: cratetitlelcdailymt4ads (lc_daily_mt4_ads)
+title: cratetitlelcdailyanniversary4 (lc_daily_anniversary_4)
 category: crate
 ---
 
-# cratetitlelcdailymt4ads (lc_daily_mt4_ads)
+# cratetitlelcdailyanniversary4 (lc_daily_anniversary_4)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
-This crate expires after 7d. The contents are one draw from each of the 4 pools.
+This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
-## Pool "lcpool_ad_crystals" (x1 draw)
-
-### For HQ level 5
-
-  * (1/6) 2 Crystals
-  * (1/6) 2 Crystals
-  * (2/6) 1 Crystals
-  * (2/6) 1 Crystals
+## Pool "lcpool_anniversary" (x1 draw)
 
 ### For HQ levels 6-10
 
-  * (1/3) 2 Crystals
-  * (2/3) 1 Crystals
+  * (1/7) 10 Crystals
+  * (1/7) 15 Crystals
+  * (1/7) 20 Crystals
+  * (1/7) 35 Crystals
+  * (1/7) 40 Crystals
+  * (1/7) 5 Crystals
+  * (1/7) 75 Crystals
+
+### For HQ level 5
+
+  * (1/6) 10 Crystals
+  * (1/6) 20 Crystals
+  * (1/6) 35 Crystals
+  * (1/6) 5 Crystals
+  * (2/6) 15 Crystals
 
 ### Fallback for HQ level 10
 
@@ -46,42 +52,6 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 ### Fallback for HQ level 9
 
   * 250000 Credits
-
-## Pool "lcpool_chicken_smpl" (x1 draw)
-
-### Empire
-
-  * (1/3) 3 troop sample [AT-DT Walker](EmpireChicken)
-  * (2/3) 2 troop sample [AT-DT Walker](EmpireChicken)
-
-### Rebellion
-
-  * (1/3) 3 troop sample [Stolen AT-DT Walker](RebelChicken)
-  * (2/3) 2 troop sample [Stolen AT-DT Walker](RebelChicken)
-
-### Fallback for HQ level 10
-
-  * 7500 Credits
-
-### Fallback for HQ level 5
-
-  * 1500 Credits
-
-### Fallback for HQ level 6
-
-  * 3200 Credits
-
-### Fallback for HQ level 7
-
-  * 4000 Credits
-
-### Fallback for HQ level 8
-
-  * 5000 Credits
-
-### Fallback for HQ level 9
-
-  * 6000 Credits
 
 ## Pool "lcpool_currency_t1" (x1 draw)
 

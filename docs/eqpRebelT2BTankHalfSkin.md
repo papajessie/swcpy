@@ -296,7 +296,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Arcs: No
   * Asset name: t2btankhalfskin_rbl-ani
-  * Audio attack: "sfx_attack_tank_1":25,"sfx_attack_tank_2":25,"sfx_attack_tank_3":25,"sfx_attack_tank_4":25
+  * Audio attack: "sfx_attack_tank_t2b_01":33,"sfx_attack_tank_t2b_02":33,"sfx_attack_tank_t2b_03":34
   * Audio death: "sfx_death_tank_1":25,"sfx_death_tank_2":25,"sfx_death_tank_3":25,"sfx_death_tank_4":25
   * Audio placement: "sfx_placement_tank_1":25,"sfx_placement_tank_2":25,"sfx_placement_tank_3":25,"sfx_placement_tank_4":25
   * Buff asset offset: 0.00,0.51,0
