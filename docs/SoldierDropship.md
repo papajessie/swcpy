@@ -26,19 +26,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|6120|6392|6664|7208|7480|7752|8024|8432|8840|10200|
 
 
+|Level |11   |
+|------|-----|
+|Health|11000|
+
+
 ### Training stats
 
   * Building: [Research Lab 2](rebelOffenseLab.html)
 
-|Level        |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|-------------|---|---|---|----|----|----|----|----|----|----|
-|Training time|20s|22s|23s|24s |25s |26s |27s |28s |29s |30s |
-|Training cost|50$|70$|90$|110$|130$|150$|170$|200$|210$|230$|
+|Level        |1  |2  |3  |4   |5   |6   |7   |8   |9   |10-11|
+|-------------|---|---|---|----|----|----|----|----|----|-----|
+|Training time|20s|22s|23s|24s |25s |26s |27s |28s |29s |30s  |
+|Training cost|50$|70$|90$|110$|130$|150$|170$|200$|210$|230$ |
 
 
 ### Upgrading stats
 
-|Level               |1      |2    |3    |4     |5     |6      |7      |8      |9       |10      |
+|Level               |1      |2    |3    |4     |5     |6      |7      |8      |9       |10-11   |
 |--------------------|-------|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s     |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Upgrade requirements|Nothing|1500$|4000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
@@ -88,6 +93,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|195|204|213|230|239|247|256|269|282|325|
 
 
+|Level          |11 |
+|---------------|---|
+|Damage per shot|355|
+
+
 ### Projectile
 
 |Level                       |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
@@ -95,6 +105,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |180|188|196|212|220|228|236|248|260|300|
 |Calculated damage per second|365|382|399|431|448|463|480|504|528|609|
 |Calculated damage per cycle |585|612|639|690|717|741|768|807|846|975|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |835 |
+|Calculated damage per second|665 |
+|Calculated damage per cycle |1065|
 
 
   * Cannons per sequence: 1
@@ -142,6 +159,11 @@ These are all sorts of user interface settings, that should not interfere with g
 |Displayed damage per second|180|188|196|212|220|228|236|248|260|300|
 
 
+|Level                      |11 |
+|---------------------------|---|
+|Displayed damage per second|835|
+
+
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -159,7 +181,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |235301|235302|235303|235304|235305|235306|235307|235308|235309|235310|
+|Order      |270001|270002|270003|270004|270005|270006|270007|270008|270009|270010|
 |Point value|2     |2.400 |2.800 |3.200 |3.600 |4     |4.400 |4.800 |5.200 |6     |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |270011|
+|Point value|6     |
 
 

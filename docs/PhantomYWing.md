@@ -91,9 +91,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 1
   * Calculated damage per second: 0
   * Calculated damage per cycle: 0
+
+|Level                      |1-9|10  |
+|---------------------------|---|----|
+|Displayed damage per second|1  |9980|
+
 
   * Cannons per sequence: 1
   * Shooting cycle duration: 4.500s
@@ -150,7 +154,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Arcs: No
   * Asset name: phantom_neu-ani
   * Bundle name: phantom_neu-ani
-  * Displayed damage per second: 1
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: turret
@@ -163,6 +166,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by campaign: No
   * Unlocked by event: false
   * Unlocked by tournament: No
+
+|Level                      |1-9|10  |
+|---------------------------|---|----|
+|Displayed damage per second|1  |9980|
+
 
 ## Uninterpreted stats
 
@@ -186,6 +194,6 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400500|400501|400502|400503|400504|400505|400506|400507|400508|400509|
+|Order|320301|320302|320303|320304|320305|320306|320307|320308|320309|320310|
 
 

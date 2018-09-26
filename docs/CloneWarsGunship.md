@@ -12,18 +12,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Unit stats
 
   * Side: Rebellion
+  * Buildable unit: Yes
   * Unit capacity: 7
 
 |Level                  |1                                              |2                                              |3                                              |4                                              |5                                              |6                                              |7                                              |8                                              |9                                              |10                                              |
 |-----------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------|
-|Buildable unit         |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                            |Yes                                             |
 |Special attack visitors|3×[Rebel Soldier level 1](SoldierDropship.html)|3×[Rebel Soldier level 2](SoldierDropship.html)|4×[Rebel Soldier level 3](SoldierDropship.html)|4×[Rebel Soldier level 4](SoldierDropship.html)|5×[Rebel Soldier level 5](SoldierDropship.html)|5×[Rebel Soldier level 6](SoldierDropship.html)|5×[Rebel Soldier level 7](SoldierDropship.html)|5×[Rebel Soldier level 8](SoldierDropship.html)|5×[Rebel Soldier level 9](SoldierDropship.html)|5×[Rebel Soldier level 10](SoldierDropship.html)|
 
 
 |Level                  |11                                              |
 |-----------------------|------------------------------------------------|
-|Buildable unit         |No                                              |
-|Special attack visitors|5×[Rebel Soldier level 10](SoldierDropship.html)|
+|Special attack visitors|5×[Rebel Soldier level 11](SoldierDropship.html)|
 
 
 ### Training stats
@@ -37,10 +36,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10-11   |
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |2w      |
+|Upgrade requirements|4250000$|
 
 
 ### Movement stats
@@ -72,9 +77,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 31.47,15.14,17.52
   * Icon lookat position: -0.58,2.82,0.11
 
-|Level                      |1    |2    |3    |4    |5     |6     |7     |8     |9     |10-11 |
-|---------------------------|-----|-----|-----|-----|------|------|------|------|------|------|
-|Displayed damage per second|15000|30000|60000|90000|120000|150000|180000|210000|240000|270000|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|15000      |30000      |60000      |90000      |120000     |150000     |180000     |210000     |240000     |270000     |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11    |
+|---------------------------|------|
+|Displayed damage per second|300000|
+|Prestige                   |true  |
 
 
 ## Uninterpreted stats
@@ -83,8 +95,13 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10-11 |
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|240601|240602|240603|240604|240605|240606|240607|240608|240609|240610|
+|Order|300501|300502|300503|300504|300505|300506|300507|300508|300509|300510|
+
+
+|Level|11    |
+|-----|------|
+|Order|300511|
 
 

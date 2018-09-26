@@ -161,7 +161,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |12  |13  |14  |15  |16  |17  |18  |19  |20  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |7600|7700|7800|7900|8000|8100|8200|8300|8400|8500|
+|Displayed damage per second |7701|7700|7800|7900|8000|8100|8200|8300|8400|8500|
 |Calculated damage per second|2082|2109|2136|2164|2191|2219|2246|2273|2301|2328|
 |Calculated damage per cycle |7600|7700|7800|7900|8000|8100|8200|8300|8400|8500|
 
@@ -242,7 +242,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
 |Asset name                 |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |
 |Bundle name                |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up10  |artillerydroideka_con-ani-up20  |
-|Displayed damage per second|7600                            |7700                            |7800                            |7900                            |8000                            |8100                            |8200                            |8300                            |8400                            |8500                            |
+|Displayed damage per second|7701                            |7700                            |7800                            |7900                            |8000                            |8100                            |8200                            |8300                            |8400                            |8500                            |
 |Icon camera position       |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-9.81,16.18,23.56               |-10.52,17.22,25.24              |
 |Icon lookat position       |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |0.23,1.51,-0.32                 |
 |Shield asset name          |effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield10|effectRebelHeavyDroidekaShield20|
@@ -297,31 +297,31 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214801|214802|214803|214804|214805|214806|214807|214808|214809|214810|
+|Order      |220201|220202|220203|220204|220205|220206|220207|220208|220209|220210|
 |Point value|20    |28    |32    |36    |40    |48    |52    |56    |60    |68    |
 
 
 |Level      |11    |12    |13    |14    |15    |16    |17    |18    |19    |20    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214811|214812|214813|214814|214815|214816|214817|214818|214819|214820|
+|Order      |220211|220212|220213|220214|220215|220216|220217|220218|220219|220220|
 |Point value|72    |76    |80    |84    |88    |92    |96    |100   |104   |108   |
 
 
 |Level      |21    |22    |23    |24    |25    |26    |27    |28    |29    |30    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214821|214822|214823|214824|214825|214826|214827|214828|214829|214830|
+|Order      |220221|220222|220223|220224|220225|220226|220227|220228|220229|220230|
 |Point value|112   |116   |120   |124   |128   |132   |136   |140   |144   |148   |
 
 
 |Level      |31    |32    |33    |34    |35    |36    |37    |38    |39    |40    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214831|214832|214833|214834|214835|214836|214837|214838|214839|214840|
+|Order      |220231|220232|220233|220234|220235|220236|220237|220238|220239|220240|
 |Point value|152   |156   |160   |168   |172   |176   |180   |184   |188   |200   |
 
 
 |Level      |41    |42    |43    |44    |45    |46    |47    |48    |49    |50    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |214841|214842|214843|214844|214845|214846|214847|214848|214849|214850|
+|Order      |220241|220242|220243|220244|220245|220246|220247|220248|220249|220250|
 |Point value|200   |200   |200   |200   |200   |200   |200   |200   |200   |200   |
 
 

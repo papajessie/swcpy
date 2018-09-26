@@ -89,7 +89,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-  * Order: 244910
+  * Order: 310810
   * Seeks target: No
   * Streams: no
   * Xp: 0

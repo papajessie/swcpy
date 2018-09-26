@@ -29,12 +29,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time  |5m  |1h  |2h  |8h  |1d  |1d   |2d   |3d   |5d   |1w   |
 
 
+|Level |11   |
+|------|-----|
+|Health|17100|
+|Time  |5d   |
+
+
 ### Training stats
 
 |Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|1000$                          |7500$                          |12500$                         |20000$                         |50000$                         |175000$                        |250000$                        |500000$                        |1500000$                       |3000000$                        |
 |Building     |[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11                              |
+|-------------|--------------------------------|
+|Training cost|3900000$                        |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -64,13 +76,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 280
 
-|Level               |1                     |2                     |3                     |4                     |5                     |6                     |7-10                  |
-|--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-|Asset name          |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|
-|Bundle name         |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|
-|Icon camera position|-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-35.31,23.02,28.58    |-33.3,22.19,28.3      |-33.3,22.19,28.3      |
-|Icon lookat position|0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.03,0.83,-0.02       |0.07,0.87,0.06        |0.07,0.87,0.06        |
-|Store tab           |army                  |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |
+|Level               |1                     |2                     |3                     |4                     |5                     |6                     |7-10                  |11                     |
+|--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
+|Asset name          |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|offenselab_emp-mod-up11|
+|Bundle name         |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|offenselab_emp-mod-up11|
+|Icon camera position|-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-35.31,23.02,28.58    |-33.3,22.19,28.3      |-33.3,22.19,28.3      |-33.3,22.19,28.3       |
+|Icon lookat position|0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.03,0.83,-0.02       |0.07,0.87,0.06        |0.07,0.87,0.06        |0.07,0.87,0.06         |
+|Prestige            |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |true                   |
+|Store tab           |army                  |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)            |
 
 
 ## Uninterpreted stats
@@ -83,5 +96,11 @@ Seriously, we don't really know what to do with these.
 |------|-|-|-|-|-|-|-|-|--|--|
 |Max XP|2|3|4|5|6|7|8|9|10|11|
 |Xp    |2|3|4|5|6|7|8|9|10|11|
+
+
+|Level |11|
+|------|--|
+|Max XP|12|
+|Xp    |12|
 
 

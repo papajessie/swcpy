@@ -20,6 +20,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Special attack visitors|2×[2-M Hover Tank level 4](2MTank.html)|2×[2-M Hover Tank level 5](2MTank.html)|2×[2-M Hover Tank level 6](2MTank.html)|2×[2-M Hover Tank level 7](2MTank.html)|2×[2-M Hover Tank level 8](2MTank.html)|1×[AT-AT level 5](ATAT.html)|1×[AT-AT level 6](ATAT.html)|1×[AT-AT level 7](ATAT.html)|1×[AT-AT level 8](ATAT.html)|1×[AT-AT level 9](ATAT.html)|
 
 
+|Level                  |11                           |
+|-----------------------|-----------------------------|
+|Special attack visitors|1×[AT-AT level 10](ATAT.html)|
+
+
 ### Training stats
 
 |Level        |1                                            |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -29,12 +34,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|1h3m30s                                 |
+|Training cost|22815$                                  |
+|Building     |[Research Lab 10](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
 |Upgrade time        |0s               |5s               |5s               |5s               |5s               |5s               |5s               |5s               |5s                |5s                |
 |Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade time        |5s                |
+|Upgrade requirements|220 data fragments|
 
 
 ### Movement stats
@@ -77,6 +95,17 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock position       |-2,-109.3,-30.3    |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
 |Icon unlock rotation       |-5.5,100.8,1.25    |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
 |Icon unlock scale          |1.3,1.3,1.3        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
+|Prestige                   |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
+
+
+|Level                      |11                     |
+|---------------------------|-----------------------|
+|Attachment asset           |haulercargoatat_emp-ani|
+|Displayed damage per second|5400                   |
+|Icon unlock position       |(not found)            |
+|Icon unlock rotation       |(not found)            |
+|Icon unlock scale          |(not found)            |
+|Prestige                   |true                   |
 
 
 ## Uninterpreted stats
@@ -87,6 +116,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|141101|141102|141103|141104|141105|141106|141107|141108|141109|141110|
+|Order|101001|101002|101003|101004|101005|101006|101007|101008|101009|101010|
+
+
+|Level|11    |
+|-----|------|
+|Order|101011|
 
 

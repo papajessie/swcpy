@@ -24,12 +24,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|10m                                     |
+|Training cost|7000$                                   |
+|Building     |[Research Lab 10](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |2w      |
+|Upgrade requirements|4250000$|
 
 
 ### Movement stats
@@ -54,6 +67,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|2000|3000|4000|5000|6000|7000|8000|9000|10000|11000|
 
 
+|Level          |11   |
+|---------------|-----|
+|Damage per shot|11600|
+
+
 ### Projectile
 
   * Splash damage percentages: 100,50,25,10
@@ -63,6 +81,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
 |Calculated damage per second|925 |1387|1850 |2312 |2775 |3237 |3700 |4162 |4625 |5087 |
 |Calculated damage per cycle |6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
+
+
+|Level                       |11   |
+|----------------------------|-----|
+|Displayed damage per second |34800|
+|Calculated damage per second|5365 |
+|Calculated damage per cycle |34800|
 
 
   * Cannons per sequence: 1
@@ -101,9 +126,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Freighter Blaster
   * Spin speed: 0
 
-|Level                      |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
-|---------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second|6000|9000|12000|15000|18000|21000|24000|27000|30000|33000|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|6000       |9000       |12000      |15000      |18000      |21000      |24000      |27000      |30000      |33000      |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11   |
+|---------------------------|-----|
+|Displayed damage per second|34800|
+|Prestige                   |true |
 
 
 ## Uninterpreted stats
@@ -116,6 +148,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|140101|140102|140103|140104|140105|140106|140107|140108|140109|140110|
+|Order|110001|110002|110003|110004|110005|110006|110007|110008|110009|110010|
+
+
+|Level|11    |
+|-----|------|
+|Order|110011|
 
 

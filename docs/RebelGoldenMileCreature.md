@@ -91,7 +91,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |10125|10800|11466|12150|12817|13500|14176|14850|15525|16192|
+|Displayed damage per second |10125|10800|11466|12150|12817|13500|14176|14850|15525|1951 |
 |Calculated damage per second|5062 |5400 |5733 |6075 |6408 |6750 |7088 |7425 |7762 |8096 |
 |Calculated damage per cycle |7594 |8100 |8600 |9113 |9613 |10125|10632|11138|11644|12144|
 
@@ -143,7 +143,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|10125      |10800      |11466      |12150      |12817      |13500      |14176      |14850      |15525      |16192      |
+|Displayed damage per second|10125      |10800      |11466      |12150      |12817      |13500      |14176      |14850      |15525      |1951       |
 |Icon unlock rotation       |0,-15,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |0.7,0.7,0.7|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
@@ -165,6 +165,6 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|230001|230002|230003|230004|230005|230006|230007|230008|230009|230010|
+|Order|240701|240702|240703|240704|240705|240706|240707|240708|240709|240710|
 
 

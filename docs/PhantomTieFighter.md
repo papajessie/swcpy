@@ -91,9 +91,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 1
   * Calculated damage per second: 0
   * Calculated damage per cycle: 0
+
+|Level                      |1-10|11 |
+|---------------------------|----|---|
+|Displayed damage per second|1   |747|
+
 
   * Cannons per sequence: 1
   * Shooting cycle duration: 4.500s
@@ -117,9 +121,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie fighter target: enemies
   * Sum tie fighter value: 1
 
-|Level                          |1-3                                                                |4-5                                                                |6-7                                                                |8-9                                                                |10                                                                  |
-|-------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
-|Sum tie fighter summon visitors|["shp_title_TieFighterEqpSummon" level 6](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 7](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 8](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 9](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 10](TieFighterEqpSummon.html)|
+|Level                          |1-3                                                                |4-5                                                                |6-7                                                                |8-9                                                                |10                                                                  |11                                                                  |
+|-------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|
+|Sum tie fighter summon visitors|["shp_title_TieFighterEqpSummon" level 6](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 7](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 8](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 9](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 10](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 11](TieFighterEqpSummon.html)|
 
 
   * Sum tie fighter summon die with summoner: No
@@ -143,6 +147,13 @@ These stats internal to the system link different parts of data together.
 |Sum tie fighter summon uid|sumTieFighter1    |sumTieFighter2    |sumTieFighter3    |sumTieFighter4    |sumTieFighter5    |sumTieFighter6    |sumTieFighter7    |sumTieFighter8    |sumTieFighter9    |sumTieFighter10    |
 
 
+|Level                     |11                 |
+|--------------------------|-------------------|
+|Apply buffs               |buffSumTieFighter11|
+|Sum tie fighter details   |sumTieFighter11    |
+|Sum tie fighter summon uid|sumTieFighter11    |
+
+
 ## Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -150,7 +161,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Arcs: No
   * Asset name: phantom_neu-ani
   * Bundle name: phantom_neu-ani
-  * Displayed damage per second: 1
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: turret
@@ -163,6 +173,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by campaign: No
   * Unlocked by event: false
   * Unlocked by tournament: No
+
+|Level                      |1-10       |11                           |
+|---------------------------|-----------|-----------------------------|
+|Deploy vfx                 |(not found)|vfx_prestige_deploy_small_emp|
+|Displayed damage per second|1          |747                          |
+
 
 ## Uninterpreted stats
 
@@ -186,6 +202,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400300|400301|400302|400303|400304|400305|400306|400307|400308|400309|
+|Order|120401|120402|120403|120404|120405|120406|120407|120408|120409|120410|
+
+
+|Level|11    |
+|-----|------|
+|Order|120411|
 
 

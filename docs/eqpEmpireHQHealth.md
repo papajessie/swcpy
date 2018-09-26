@@ -158,12 +158,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time           |2w   |2w   |2w    |2w    |2w    |2w    |2w    |2w    |2w    |2w    |
 
 
+|Level          |11.01|11.02 |11.03 |11.04 |11.05 |11.06 |11.07 |11.08 |11.09 |11.10 |
+|---------------|-----|------|------|------|------|------|------|------|------|------|
+|Health         |99750|102600|106020|109440|113430|116849|120840|124830|129390|133380|
+|Original health|57000|57000 |57000 |57000 |57000 |57000 |57000 |57000 |57000 |57000 |
+|Time           |2w   |2w    |2w    |2w    |2w    |2w    |2w    |2w    |2w    |2w    |
+
+
 ### Training stats
 
 |Level        |01.01-1.10|02.01-2.10                     |03.01-3.10                     |04.01-4.10                     |05.01-5.10                     |06.01-6.10                     |07.01-7.10                     |08.01-8.10                     |09.01-9.10                     |10.01-10.10                    |
 |-------------|----------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
 |Training cost|1000 All. |1500 All.                      |9000 All.                      |45000 All.                     |135000 All.                    |275000 All.                    |750000 All.                    |900000 All.                    |2000000 All.                   |3600000 All.                   |
 |Building     |None      |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|
+
+
+|Level        |11.01-11.10                     |
+|-------------|--------------------------------|
+|Training cost|5400000 All.                    |
+|Building     |[Headquarters 10](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -199,6 +212,17 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name         |headqrts_emp-mod-up1|headqrts_emp-mod-up2|headqrts_emp-mod-up3|headqrts_emp-mod-up4|headqrts_emp-mod-up5|headqrts_emp-mod-up6|headqrts_emp-mod-up7|headqrts_emp-mod-up8|headqrts_emp-mod-up9|headqrts_emp-mod-up10|
 |Icon camera position|-38.58,46.01,59     |-38.27,45.29,59.67  |-38.26,45.36,59.67  |-42.32,50.58,66.5   |-42.32,50.55,66.52  |-42.25,50.5,66.56   |-42.05,51.09,66.26  |-42.13,51.08,66.21  |-43.86,53.28,68.04  |-64.06,55.77,52.31   |
 |Icon lookat position|0.72,2.46,-1.04     |0.61,2.25,-1.01     |0.62,2.32,-1.01     |0.96,2.67,-1.03     |0.96,2.64,-1.01     |1.03,2.59,-0.97     |1.23,3.18,-1.27     |1.15,3.17,-1.32     |0.82,3.78,-1.75     |0.91,3.5,-1.48       |
+|Prestige            |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+
+
+|Level               |11.01-11.10          |
+|--------------------|---------------------|
+|Asset name          |headqrts_emp-mod-up11|
+|Buff asset offset   |-2,-1.6,-2.8         |
+|Bundle name         |headqrts_emp-mod-up11|
+|Icon camera position|-64.06,55.77,52.31   |
+|Icon lookat position|0.91,3.5,-1.48       |
+|Prestige            |true                 |
 
 
 ## Uninterpreted stats
@@ -211,5 +235,11 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|20        |40        |60        |80        |100       |120       |140       |160       |180       |200        |
 |Xp    |20        |40        |60        |80        |100       |120       |140       |160       |180       |200        |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|220        |
+|Xp    |220        |
 
 

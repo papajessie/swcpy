@@ -47,6 +47,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
   * [shptitleAtmosMigTrap (AtmosMigTrap)](AtmosMigTrap.html)
   * [TIE Brute (BubbaTieSample)](BubbaTieSample.html)
+  * [shptitleEmpireCreatureDropship (EmpireCreatureDropship)](EmpireCreatureDropship.html)
   * [Strix Strafing Run (FreighterEmpire)](FreighterEmpire.html)
   * [shptitleGozantiCruiser (GozantiCruiser)](GozantiCruiser.html)
   * [Imperial Dropship Transport (ImperialDropshipTrap)](ImperialDropshipTrap.html)
@@ -64,6 +65,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [shptitleFangFighterTrap (FangFighterTrap)](FangFighterTrap.html)
   * [Strix Strafing Run (FreighterRebel)](FreighterRebel.html)
   * [shptitleMillenniumFalcon (MillenniumFalcon)](MillenniumFalcon.html)
+  * [shptitleRebelCreatureDropship (RebelCreatureDropship)](RebelCreatureDropship.html)
   * [shptitleRedDot (RedDot)](RedDot.html)
   * [Seized A-wing Starfighter (SeizedAwing)](SeizedAwing.html)
   * [Seized X-wing Starfighter (SeizedXwing)](SeizedXwing.html)

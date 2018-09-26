@@ -30,12 +30,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time  |8m20s|30s  |4h   |1d   |4d   |6d   |1w1d |1w3d |1w5d |2w   |
 
 
+|Level |11   |
+|------|-----|
+|Health|57000|
+|Time  |2w   |
+
+
 ### Training stats
 
 |Level        |1        |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                            |
 |-------------|---------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
 |Training cost|1000 All.|1500 All.                     |9000 All.                     |45000 All.                    |135000 All.                   |275000 All.                   |750000 All.                   |900000 All.                   |2000000 All.                  |3600000 All.                  |
 |Building     |None     |[Headquarters 1](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+
+
+|Level        |11                             |
+|-------------|-------------------------------|
+|Training cost|5400000 All.                   |
+|Building     |[Headquarters 10](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -71,6 +83,17 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name         |headqrts_rbl-mod-up1|headqrts_rbl-mod-up2|headqrts_rbl-mod-up3|headqrts_rbl-mod-up4|headqrts_rbl-mod-up5|headqrts_rbl-mod-up6|headqrts_rbl-mod-up7|headqrts_rbl-mod-up8|headqrts_rbl-mod-up9|headqrts_rbl-mod-up10|
 |Icon camera position|-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.61,51.45,69.84  |-43.3,52.33,69.44   |-47.3,56.62,73.93   |-63.56,56.02,52.72   |
 |Icon lookat position|1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.23,1.76,-0.19     |1.54,2.64,-0.59     |0.92,3.25,-1.29     |1.41,3.75,-1.07      |
+|Prestige            |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+
+
+|Level               |11                   |
+|--------------------|---------------------|
+|Asset name          |headqrts_rbl-mod-up11|
+|Buff asset offset   |-2.6,-1.8,-2.6       |
+|Bundle name         |headqrts_rbl-mod-up11|
+|Icon camera position|-63.56,56.02,52.72   |
+|Icon lookat position|1.41,3.75,-1.07      |
+|Prestige            |true                 |
 
 
 ## Uninterpreted stats
@@ -83,5 +106,11 @@ Seriously, we don't really know what to do with these.
 |------|--|--|--|--|---|---|---|---|---|---|
 |Max XP|20|40|60|80|100|120|140|160|180|200|
 |Xp    |20|40|60|80|100|120|140|160|180|200|
+
+
+|Level |11 |
+|------|---|
+|Max XP|220|
+|Xp    |220|
 
 

@@ -27,6 +27,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|19200|19800|20480|21040|21850|22610|23720|25290|26920|28820|
 
 
+|Level |11   |
+|------|-----|
+|Health|29960|
+
+
 ### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -34,6 +39,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|2m40s                         |2m56s                                 |3m4s                                  |3m12s                                 |3m20s                                 |3m28s                                 |3m36s                                 |3m44s                                 |3m52s                                 |4m                                     |
 |Training cost|400$                          |560$                                  |720$                                  |880$                                  |1040$                                 |1200$                                 |1360$                                 |1600$                                 |1680$                                 |1840$                                  |
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+
+
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|4m8s                                   |
+|Training cost|2000$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -84,6 +96,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 
 
+|Level          |11  |
+|---------------|----|
+|Damage per shot|3380|
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -91,6 +108,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
 |Calculated damage per second|2080|2171|2266|2371|2485|2600|2723|2857|2990|3133|
 |Calculated damage per cycle |2184|2280|2380|2490|2610|2730|2860|3000|3140|3290|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |3380|
+|Calculated damage per second|3219|
+|Calculated damage per cycle |3380|
 
 
   * Cannons per sequence: 1
@@ -222,12 +246,24 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret damage debuff bundle name: fx_event_unit_buffs
   * Unlocked by event: true
 
-|Level                      |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|2184 |2280       |2380       |2490       |2610       |2730       |2860       |3000       |3140       |3290       |
-|Icon unlock position       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|2184       |2280       |2380       |2490       |2610       |2730       |2860       |3000       |3140       |3290       |
+|Icon unlock position       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |1,1,1      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|3380                         |
+|Icon unlock position       |(not found)                  |
+|Icon unlock rotation       |(not found)                  |
+|Icon unlock scale          |(not found)                  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -256,7 +292,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |231101|231102|231103|231104|231105|231106|231107|231108|231109|231110|
+|Order      |280901|280902|280903|280904|280905|280906|280907|280908|280909|280910|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |280911|
+|Point value|15    |
 
 

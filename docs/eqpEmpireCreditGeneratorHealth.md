@@ -183,12 +183,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time            |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |1w3d    |
 
 
+|Level           |11.01   |11.02   |11.03   |11.04   |11.05   |11.06   |11.07   |11.08   |11.09   |11.10   |
+|----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|Produce         |2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|2680 $/h|
+|Maximum capacity|160320 $|160320 $|160320 $|160320 $|160320 $|160320 $|160320 $|160320 $|160320 $|160320 $|
+|Health          |29925   |30780   |31805   |32832   |34029   |35055   |36252   |37449   |38817   |40014   |
+|Max quantity    |6       |6       |6       |6       |6       |6       |6       |6       |6       |6       |
+|Original health |17100   |17100   |17100   |17100   |17100   |17100   |17100   |17100   |17100   |17100   |
+|Time            |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |1w1d    |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                     |02.01-2.10                     |03.01-3.10                     |04.01-4.10                     |05.01-5.10                     |06.01-6.10                     |07.01-7.10                     |08.01-8.10                     |09.01-9.10                     |10.01-10.10                     |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|750 All.                       |2000 All.                      |10000 All.                     |30000 All.                     |60000 All.                     |175000 All.                    |350000 All.                    |750000 All.                    |2000000 All.                   |3500000 All.                    |
 |Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11.01-11.10                     |
+|-------------|--------------------------------|
+|Training cost|4550000 All.                    |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -226,7 +242,22 @@ These are all sorts of user interface settings, that should not interfere with g
 |Fill state bundle name|tradecenter_emp-mod-up1_fillStates|tradecenter_emp-mod-up2_fillStates|tradecenter_emp-mod-up3_fillStates|tradecenter_emp-mod-up4_fillStates|tradecenter_emp-mod-up5_fillStates|tradecenter_emp-mod-up6_fillStates|tradecenter_emp-mod-up6_fillStates|tradecenter_emp-mod-up6_fillStates|tradecenter_emp-mod-up6_fillStates|tradecenter_emp-mod-up6_fillStates|
 |Icon camera position  |-37.09,26.9,16.4                  |-37.09,26.9,16.4                  |-37.09,26.9,16.4                  |-43.75,31.36,19.3                 |-43.75,31.36,19.3                 |-43.75,31.36,19.3                 |-47.05,30.01,16.18                |-47.05,30.01,16.18                |-47.05,30.01,16.18                |-47.05,30.01,16.18                |
 |Icon lookat position  |0.55,1.6,-0.36                    |0.55,1.6,-0.36                    |0.55,1.6,-0.36                    |0.52,1.62,-0.41                   |0.52,1.62,-0.41                   |0.52,1.62,-0.41                   |0.37,1.54,-0.73                   |0.37,1.54,-0.73                   |0.37,1.54,-0.73                   |0.37,1.54,-0.73                   |
+|Prestige              |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |
 |Store tab             |resources                         |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |(not found)                       |
+
+
+|Level                 |11.01-11.10                        |
+|----------------------|-----------------------------------|
+|Asset name            |tradecenter_emp-mod-up11           |
+|Buff asset offset     |-1.6,0.6,-1.6                      |
+|Bundle name           |tradecenter_emp-mod-up11           |
+|Collect notify        |125                                |
+|Fill state asset name |tradecenter_emp-mod-up11_fillStates|
+|Fill state bundle name|tradecenter_emp-mod-up11_fillStates|
+|Icon camera position  |-47.05,30.01,16.18                 |
+|Icon lookat position  |0.37,1.54,-0.73                    |
+|Prestige              |true                               |
+|Store tab             |(not found)                        |
 
 
 ## Uninterpreted stats
@@ -239,5 +270,11 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|2         |4         |9         |16        |25        |36        |42        |48        |54        |60         |
 |Xp    |1         |2         |3         |4         |5         |6         |7         |8         |9         |10         |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|66         |
+|Xp    |11         |
 
 

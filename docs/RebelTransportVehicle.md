@@ -148,7 +148,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Displayed damage per second |3100|3850|4650|5250|5800|6200|6750 |7150 |7750 |8150 |
+|Displayed damage per second |3100|3850|4650|5250|5800|6200|6750 |7150 |7750 |1    |
 |Calculated damage per second|2742|3428|4114|4628|5142|5485|6000 |6342 |6857 |7200 |
 |Calculated damage per cycle |4800|6000|7200|8100|9000|9600|10500|11100|12000|12600|
 
@@ -214,7 +214,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1               |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|3100            |3850       |4650       |5250       |5800       |6200       |6750       |7150       |7750       |8150       |
+|Displayed damage per second|3100            |3850       |4650       |5250       |5800       |6200       |6750       |7150       |7750       |1          |
 |Icon unlock position       |-0.75,0.375,0.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |2.5,-21,-1.5    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |0.6,0.6,0.6     |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
@@ -240,6 +240,6 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|245711|245712|245713|245714|245715|245716|245717|245718|245719|245720|
+|Order|281301|281302|281303|281304|281305|281306|281307|281308|281309|281310|
 
 

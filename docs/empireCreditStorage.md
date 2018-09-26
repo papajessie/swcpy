@@ -29,12 +29,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time            |1m    |15m    |2h     |12h    |1d      |1d12h   |2d      |3d      |6d       |1w3d     |
 
 
+|Level           |11       |
+|----------------|---------|
+|Maximum capacity|1800000 $|
+|Health          |22800    |
+|Max quantity    |4        |
+|Time            |1w1d     |
+
+
 ### Training stats
 
 |Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|500 All.                       |1000 All.                      |6500 All.                      |20000 All.                     |40000 All.                     |115000 All.                    |230000 All.                    |500000 All.                    |1500000 All.                   |2500000 All.                    |
 |Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11                              |
+|-------------|--------------------------------|
+|Training cost|3750000 All.                    |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -63,16 +77,17 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 160
 
-|Level                 |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8-10                        |
-|----------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name            |vault_emp-mod-up1           |vault_emp-mod-up2           |vault_emp-mod-up3           |vault_emp-mod-up4           |vault_emp-mod-up5           |vault_emp-mod-up6           |vault_emp-mod-up7           |vault_emp-mod-up8           |
-|Buff asset offset     |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1.4,0.6,-1.4               |-1.8,0.6,-1.8               |-1.8,0.6,-1.8               |
-|Bundle name           |vault_emp-mod-up1           |vault_emp-mod-up2           |vault_emp-mod-up3           |vault_emp-mod-up4           |vault_emp-mod-up5           |vault_emp-mod-up6           |vault_emp-mod-up7           |vault_emp-mod-up8           |
-|Fill state asset name |vault_emp-mod-up1_fillStates|vault_emp-mod-up2_fillStates|vault_emp-mod-up3_fillStates|vault_emp-mod-up4_fillStates|vault_emp-mod-up5_fillStates|vault_emp-mod-up6_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|
-|Fill state bundle name|vault_emp-mod-up1_fillStates|vault_emp-mod-up2_fillStates|vault_emp-mod-up3_fillStates|vault_emp-mod-up4_fillStates|vault_emp-mod-up5_fillStates|vault_emp-mod-up6_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|
-|Icon camera position  |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-26.37,33.22,45.21          |
-|Icon lookat position  |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.88,1.44,-0.76            |
-|Store tab             |resources                   |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |
+|Level                 |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8-10                        |11                          |
+|----------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Asset name            |vault_emp-mod-up1           |vault_emp-mod-up2           |vault_emp-mod-up3           |vault_emp-mod-up4           |vault_emp-mod-up5           |vault_emp-mod-up6           |vault_emp-mod-up7           |vault_emp-mod-up8           |vault_emp-mod-up11          |
+|Buff asset offset     |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1,0.6,-1                   |-1.4,0.6,-1.4               |-1.8,0.6,-1.8               |-1.8,0.6,-1.8               |-1.8,0.6,-1.8               |
+|Bundle name           |vault_emp-mod-up1           |vault_emp-mod-up2           |vault_emp-mod-up3           |vault_emp-mod-up4           |vault_emp-mod-up5           |vault_emp-mod-up6           |vault_emp-mod-up7           |vault_emp-mod-up8           |vault_emp-mod-up11          |
+|Fill state asset name |vault_emp-mod-up1_fillStates|vault_emp-mod-up2_fillStates|vault_emp-mod-up3_fillStates|vault_emp-mod-up4_fillStates|vault_emp-mod-up5_fillStates|vault_emp-mod-up6_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|
+|Fill state bundle name|vault_emp-mod-up1_fillStates|vault_emp-mod-up2_fillStates|vault_emp-mod-up3_fillStates|vault_emp-mod-up4_fillStates|vault_emp-mod-up5_fillStates|vault_emp-mod-up6_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|vault_emp-mod-up7_fillStates|
+|Icon camera position  |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-23.79,30.3,41.74           |-26.37,33.22,45.21          |-26.37,33.22,45.21          |
+|Icon lookat position  |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.97,1.57,-0.66            |-0.88,1.44,-0.76            |-0.88,1.44,-0.76            |
+|Prestige              |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |true                        |
+|Store tab             |resources                   |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |(not found)                 |
 
 
 ## Uninterpreted stats
@@ -85,5 +100,11 @@ Seriously, we don't really know what to do with these.
 |------|-|-|-|-|--|--|--|--|--|--|
 |Max XP|1|2|6|8|10|12|14|24|36|40|
 |Xp    |1|2|3|4|5 |6 |7 |8 |9 |10|
+
+
+|Level |11|
+|------|--|
+|Max XP|44|
+|Xp    |11|
 
 

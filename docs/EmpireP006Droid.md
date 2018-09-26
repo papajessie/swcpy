@@ -96,6 +96,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per second: 0
   * Calculated damage per cycle: 1
 
+|Level                      |1-9        |10|
+|---------------------------|-----------|--|
+|Displayed damage per second|(not found)|1 |
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 2m200ms
   * Directional: No
@@ -210,9 +215,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level            |1             |2-10       |
-|-----------------|--------------|-----------|
-|Icon unlock scale|1.75,1.75,1.75|(not found)|
+|Level                      |1             |2-9        |10         |
+|---------------------------|--------------|-----------|-----------|
+|Displayed damage per second|(not found)   |(not found)|1          |
+|Icon unlock scale          |1.75,1.75,1.75|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -232,9 +238,9 @@ Seriously, we don't really know what to do with these.
   * Turret corruption tags: switchTeam
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |130801|130802|130803|130804|130805|130806|130807|130808|130809|130810|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |40801|40802|40803|40804|40805|40806|40807|40808|40809|40810|
+|Point value|1    |1.200|1.400|1.600|1.800|2    |2.200|2.400|2.600|3    |
 
 

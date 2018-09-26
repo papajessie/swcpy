@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|6810|7070|7350|7630|7930|8240|8560|8900|9250|9610|
 
 
+|Level |11  |
+|------|----|
+|Health|9826|
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -33,6 +38,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|26s                              |27s                                    |27s                                    |28s                                    |28s                                    |28s                                    |29s                                    |29s                                    |30s                                    |30s                                     |
 |Training cost|150$                             |160$                                   |170$                                   |190$                                   |200$                                   |200$                                   |210$                                   |210$                                   |220$                                   |230$                                    |
 |Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+
+
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|30s                                     |
+|Training cost|240$                                    |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -67,7 +79,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm tie fighter target: self
   * Sum phtm tie fighter value: 1
 
-|Level                               |1                                                              |2                                                              |3                                                              |4                                                              |5                                                              |6                                                              |7                                                              |8                                                              |9                                                              |10                                                              |
+|Level                               |1                                                              |2                                                              |3                                                              |4                                                              |5                                                              |6                                                              |7                                                              |8                                                              |9                                                              |10-11                                                           |
 |------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
 |Sum phtm tie fighter summon visitors|["trp_title_PhantomTieFighter" level 1](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 2](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 3](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 4](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 5](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 6](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 7](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 8](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 9](PhantomTieFighter.html)|["trp_title_PhantomTieFighter" level 10](PhantomTieFighter.html)|
 
@@ -112,6 +124,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|420|440|460|480|510|530|560|590|620|650|
 
 
+|Level          |11 |
+|---------------|---|
+|Damage per shot|668|
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -119,6 +136,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |190 |210 |220 |240 |250 |270 |280 |310 |330 |360 |
 |Calculated damage per second|763 |800 |836 |872 |927 |963 |1018|1072|1127|1181|
 |Calculated damage per cycle |1260|1320|1380|1440|1530|1590|1680|1770|1860|1950|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |1440|
+|Calculated damage per second|1214|
+|Calculated damage per cycle |2004|
 
 
   * Cannons per sequence: 1
@@ -137,7 +161,7 @@ These stats internal to the system link different parts of data together.
   * Unit ID: TiePilot
   * Upgrade shard uid: shrd_troopTiePilot
 
-|Level                          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                     |
+|Level                          |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10-11                  |
 |-------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
 |Spawn apply buffs              |buffSumPhtmTieFighter1|buffSumPhtmTieFighter2|buffSumPhtmTieFighter3|buffSumPhtmTieFighter4|buffSumPhtmTieFighter5|buffSumPhtmTieFighter6|buffSumPhtmTieFighter7|buffSumPhtmTieFighter8|buffSumPhtmTieFighter9|buffSumPhtmTieFighter10|
 |Sum phtm tie fighter details   |sumPhtmTieFighter1    |sumPhtmTieFighter2    |sumPhtmTieFighter3    |sumPhtmTieFighter4    |sumPhtmTieFighter5    |sumPhtmTieFighter6    |sumPhtmTieFighter7    |sumPhtmTieFighter8    |sumPhtmTieFighter9    |sumPhtmTieFighter10    |
@@ -180,10 +204,22 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1             |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Displayed damage per second|190           |210        |220        |240        |250        |270        |280        |310        |330        |360        |
 |Icon unlock position       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |1.25,1.25,1.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|1440                         |
+|Icon unlock position       |(not found)                  |
+|Icon unlock rotation       |(not found)                  |
+|Icon unlock scale          |(not found)                  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -201,9 +237,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |314800|314801|314802|314803|314804|314805|314806|314807|314808|314809|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |61501|61502|61503|61504|61505|61506|61507|61508|61509|61510|
+|Point value|1    |1.200|1.400|1.600|1.800|2    |2.200|2.400|2.600|3    |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |61511|
+|Point value|3    |
 
 

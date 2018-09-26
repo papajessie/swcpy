@@ -90,9 +90,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per cycle: 0
   * Splash damage percentages: 100,100,100,100
 
-|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|---|----|----|----|----|
-|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|1440|
+|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10 |
+|---------------------------|---|---|---|---|---|---|----|----|----|---|
+|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|835|
 
 
   * Cannons per sequence: 1
@@ -159,9 +159,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ALLIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|---|----|----|----|----|
-|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|1440|
+|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10 |
+|---------------------------|---|---|---|---|---|---|----|----|----|---|
+|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|835|
 
 
 ## Uninterpreted stats
@@ -183,6 +183,6 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|482004|482008|482012|482016|482020|482024|482028|482032|482036|482040|
+|Order|263601|263602|263603|263604|263605|263606|263607|263608|263609|263610|
 
 

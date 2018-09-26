@@ -183,12 +183,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time           |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |1w3d  |
 
 
+|Level          |11.01 |11.02 |11.03 |11.04 |11.05 |11.06 |11.07 |11.08 |11.09 |11.10 |
+|---------------|------|------|------|------|------|------|------|------|------|------|
+|Cross materials|702000|702000|702000|702000|702000|702000|702000|702000|702000|702000|
+|Cross time     |3d    |3d    |3d    |3d    |3d    |3d    |3d    |3d    |3d    |3d    |
+|Health         |55290 |56715 |58424 |59850 |61845 |63555 |65265 |66975 |68970 |70395 |
+|Max quantity   |22    |22    |22    |22    |22    |22    |22    |22    |22    |22    |
+|Original health|28500 |28500 |28500 |28500 |28500 |28500 |28500 |28500 |28500 |28500 |
+|Time           |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |1w1d  |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                    |02.01-2.10                    |03.01-3.10                    |04.01-4.10                    |05.01-5.10                    |06.01-6.10                    |07.01-7.10                    |08.01-8.10                    |09.01-9.10                    |10.01-10.10                    |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
 |Training cost|1500 All.                     |3000 All.                     |20000 All.                    |55000 All.                    |100000 All.                   |250000 All.                   |500000 All.                   |1000000 All.                  |3000000 All.                  |5000000 All.                   |
 |Building     |[Headquarters 1](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+
+
+|Level        |11.01-11.10                    |
+|-------------|-------------------------------|
+|Training cost|6500000 All.                   |
+|Building     |[Headquarters 11](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -210,7 +226,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret min attack range: 0
   * Turret target preference strength: 90
   * Turret target preferences: **Turret support troop (100)**, _Turret droideka (60)_, _Turret flying infantry (60)_, _Turret flying vehicle (60)_, _Turret headquarters (60)_, _Turret heavy infantry (60)_, _Turret heavy vehicle (60)_, _Turret infantry (60)_, _Turret light vehicle (60)_, _Turret other building (60)_, _Turret ressource generator (60)_, _Turret storage (60)_, _Turret turret (60)_, Turret heavy infantry hero (1), Turret heavy vehicule hero (1), Turret infantry hero (1), Turret vehicule hero (1), Turret wall (1)
-  * Turret view range: 10
+
+|Level            |01.01-1.10, 2.01-2.10, 3.01-3.10, 4.01-4.10, 5.01-5.10, 6.01-6.10, 7.01-7.10, 8.01-8.10, 9.01-9.10, 10.01-10.10|11.01-11.10|
+|-----------------|---------------------------------------------------------------------------------------------------------------|-----------|
+|Turret view range|10                                                                                                             |11         |
+
 
 ### Shooting
 
@@ -229,11 +249,23 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Turret damage per shot|104       |156       |188       |250       |302       |354       |406       |458       |510       |563        |
 
 
+|Level                 |11.01-11.10|
+|----------------------|-----------|
+|Turret damage per shot|595        |
+
+
 |Level                                     |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |------------------------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Turret displayed damage per second        |500       |750       |900       |1200      |1450      |1600      |1750      |1900      |2050      |2250       |
 |Turret attack calculated damage per second|234       |351       |423       |562       |679       |796       |914       |1031      |1148      |1267       |
 |Turret attack calculated damage per clip  |624       |936       |1128      |1500      |1812      |2124      |2436      |2748      |3060      |3378       |
+
+
+|Level                                     |11.01-11.10|
+|------------------------------------------|-----------|
+|Turret displayed damage per second        |2260       |
+|Turret attack calculated damage per second|1339       |
+|Turret attack calculated damage per clip  |3570       |
 
 
   * Turret attack cannons per sequence: 2
@@ -255,6 +287,11 @@ These stats internal to the system link different parts of data together.
 |Level    |01.01-1.10             |02.01-2.10             |03.01-3.10             |04.01-4.10             |05.01-5.10             |06.01-6.10             |07.01-7.10             |08.01-8.10             |09.01-9.10             |10.01-10.10             |
 |---------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
 |Turret id|t_rebelRapidFireTurret1|t_rebelRapidFireTurret2|t_rebelRapidFireTurret3|t_rebelRapidFireTurret4|t_rebelRapidFireTurret5|t_rebelRapidFireTurret6|t_rebelRapidFireTurret7|t_rebelRapidFireTurret8|t_rebelRapidFireTurret9|t_rebelRapidFireTurret10|
+
+
+|Level    |11.01-11.10             |
+|---------|------------------------|
+|Turret id|t_rebelRapidFireTurret11|
 
 
 ## Presentation stats
@@ -285,10 +322,25 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name                       |standardturret_rbl-mod-up1                               |standardturret_rbl-mod-up2                               |standardturret_rbl-mod-up3                               |standardturret_rbl-mod-up4                               |standardturret_rbl-mod-up5                               |standardturret_rbl-mod-up6                               |standardturret_rbl-mod-up7                               |standardturret_rbl-mod-up8                               |standardturret_rbl-mod-up9                               |standardturret_rbl-mod-up10                                |
 |Icon camera position              |-26.92,29.15,28.59                                       |-26.65,28.83,31.82                                       |-26.65,28.83,31.82                                       |-26.65,28.83,31.82                                       |-26.65,28.83,31.82                                       |-26.65,28.83,31.82                                       |-26.65,28.83,31.82                                       |-28.96,28.56,31.03                                       |-26.94,32.16,31.02                                       |-26.94,32.16,31.02                                         |
 |Icon lookat position              |0.72,1.97,-0.26                                          |0.47,2.02,-0.41                                          |0.47,2.02,-0.41                                          |0.47,2.02,-0.41                                          |0.47,2.02,-0.41                                          |0.47,2.02,-0.41                                          |0.47,2.02,-0.41                                          |0.48,1.83,-0.44                                          |0.41,2.03,-0.59                                          |0.41,2.03,-0.59                                            |
+|Prestige                          |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                                |
 |Store tab                         |decorations                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                                |
 |Turret displayed damage per second|500                                                      |750                                                      |900                                                      |1200                                                     |1450                                                     |1600                                                     |1750                                                     |1900                                                     |2050                                                     |2250                                                       |
 |Turret gun position               |"topMesh_up1/locator_gun1":1,"topMesh_up1/locator_gun2":2|"topMesh_up2/locator_gun1":1,"topMesh_up2/locator_gun2":2|"topMesh_up3/locator_gun1":1,"topMesh_up3/locator_gun2":2|"topMesh_up4/locator_gun1":1,"topMesh_up4/locator_gun2":2|"topMesh_up5/locator_gun1":1,"topMesh_up5/locator_gun2":2|"topMesh_up6/locator_gun1":1,"topMesh_up6/locator_gun2":2|"topMesh_up7/locator_gun1":1,"topMesh_up7/locator_gun2":2|"topMesh_up8/locator_gun1":1,"topMesh_up8/locator_gun2":2|"topMesh_up9/locator_gun1":1,"topMesh_up9/locator_gun2":2|"topMesh_up10/locator_gun1":1,"topMesh_up10/locator_gun2":2|
 |Turret tracker name               |topMesh_up1                                              |topMesh_up2                                              |topMesh_up3                                              |topMesh_up4                                              |topMesh_up5                                              |topMesh_up6                                              |topMesh_up7                                              |topMesh_up8                                              |topMesh_up9                                              |topMesh_up10                                               |
+
+
+|Level                             |11.01-11.10                                                |
+|----------------------------------|-----------------------------------------------------------|
+|Asset name                        |standardturret_rbl-mod-up11                                |
+|Buff asset offset                 |-1.4,4.2,-1.4                                              |
+|Bundle name                       |standardturret_rbl-mod-up11                                |
+|Icon camera position              |-26.94,32.16,31.02                                         |
+|Icon lookat position              |0.41,2.03,-0.59                                            |
+|Prestige                          |true                                                       |
+|Store tab                         |(not found)                                                |
+|Turret displayed damage per second|2260                                                       |
+|Turret gun position               |"topMesh_up11/locator_gun1":1,"topMesh_up11/locator_gun2":2|
+|Turret tracker name               |topMesh_up11                                               |
 
 
 ## Uninterpreted stats
@@ -307,6 +359,12 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|50        |120       |210       |320       |450       |600       |770       |960       |1170      |1400       |
 |Xp    |25        |30        |35        |40        |45        |50        |55        |60        |65        |70         |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|1630       |
+|Xp    |75         |
 
 
 I could not show the following roles, because I was not programmed to : buffEqpAdvancedStructHealthpresentation

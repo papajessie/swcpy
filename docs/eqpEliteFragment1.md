@@ -75,12 +75,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|1500 |3000 |4500 |7200 |9000 |10800|12600|14400|16200|18000|
 
 
+|Level          |11.01|
+|---------------|-----|
+|Health         |33390|
+|Max quantity   |140  |
+|Original health|19080|
+
+
 ### Training stats
 
 |Level        |01.01                          |02.01                          |03.01                          |04.01                          |05.01                          |06.01                          |07.01                          |08.01                          |09.01                          |10.01                           |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Training cost|200 All.                       |600 All.                       |2000 All.                      |10000 All.                     |25000 All.                     |100000 All.                    |200000 All.                    |500000 All.                    |1000000 All.                   |2000000 All.                    |
+|Training cost|20 All.                        |60 All.                        |200 All.                       |1000 All.                      |2500 All.                      |10000 All.                     |20000 All.                     |50000 All.                     |100000 All.                    |200000 All.                     |
 |Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11.01                           |
+|-------------|--------------------------------|
+|Training cost|260000 All.                     |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -117,7 +130,19 @@ These are all sorts of user interface settings, that should not interfere with g
 |Connectors          |empireWallConnectors1 |empireWallConnectors2 |empireWallConnectors3 |empireWallConnectors4 |empireWallConnectors5 |empireWallConnectors6 |empireWallConnectors7 |empireWallConnectors8 |empireWallConnectors9 |empireWallConnectors10 |
 |Icon camera position|-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.94,12.55,9.9      |-13.91,12.84,9.9      |-13.91,12.84,9.9      |-13.91,12.84,9.9       |
 |Icon lookat position|-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.35,0.87,0.19       |-0.22,1.06,0.13       |-0.22,1.06,0.13       |-0.22,1.06,0.13        |
+|Prestige            |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)            |
 |Store tab           |defenses              |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)            |
+
+
+|Level               |11.01                  |
+|--------------------|-----------------------|
+|Asset name          |wall_emp-mod-up11_typeD|
+|Bundle name         |wall_emp-mod-up11      |
+|Connectors          |empireWallConnectors11 |
+|Icon camera position|-13.91,12.84,9.9       |
+|Icon lookat position|-0.22,1.06,0.13        |
+|Prestige            |true                   |
+|Store tab           |(not found)            |
 
 
 ## Uninterpreted stats

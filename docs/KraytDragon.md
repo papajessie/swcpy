@@ -62,11 +62,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 1500
+  * Animation delay: 1100
   * Charge time: 750ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 2,1
-  * Impact delay: 0s
+  * Impact delay: 1.100s
   * Can shoot over walls: No
   * Reload time: 0s
   * Retargeting offset: 8
@@ -86,13 +86,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |4613|2928|2928|2928|2928|2928|2928|2928|2928|2928|
-|Calculated damage per second|1419|1465|1515|1565|1619|1673|1730|1788|1850|1915|
+|Displayed damage per second |4613|2928|2928|2928|2928|2928|2928|2928|2928|6545|
+|Calculated damage per second|1618|1671|1728|1785|1846|1908|1973|2039|2109|2184|
 |Calculated damage per cycle |4613|4763|4925|5088|5263|5438|5625|5813|6013|6225|
 
 
   * Cannons per sequence: 2
-  * Shooting cycle duration: 3.250s
+  * Shooting cycle duration: 2.850s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
@@ -112,9 +112,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Arcs: No
   * Asset name: kraytdragonfast_neu-ani
-  * Audio attack: "sfx_attack_krayt_1":35,"sfx_attack_krayt_2":35,"sfx_attack_krayt_3":30
+  * Audio attack: "sfx_attack_krayt_1":33,"sfx_attack_krayt_2":33,"sfx_attack_krayt_3":34
   * Audio death: "sfx_death_krayt_1":100
-  * Audio placement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * Audio impact: "sfx_impact_krayt_1":33,"sfx_impact_krayt_2":33,"sfx_impact_krayt_3":34
+  * Audio placement: "sfx_attack_krayt_1":33,"sfx_attack_krayt_2":33,"sfx_attack_krayt_3":34
   * Bundle name: kraytdragonfast_neu-ani
   * Factory rotation: 0
   * Factory scale factor: 1
@@ -129,10 +130,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1     |2-10    |
-|---------------------------|------|--------|
-|Displayed damage per second|4613  |2928    |
-|Favorite target type       |turret|infantry|
+|Level                      |1     |2-9     |10      |
+|---------------------------|------|--------|--------|
+|Displayed damage per second|4613  |2928    |6545    |
+|Favorite target type       |turret|infantry|infantry|
 
 
 ## Uninterpreted stats
@@ -152,7 +153,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332401|332402|332403|332404|332405|332406|332407|332408|332409|332410|
+|Order      |460601|460602|460603|460604|460605|460606|460607|460608|460609|460610|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 

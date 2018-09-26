@@ -190,6 +190,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|8400 |8400 |8400 |8400 |8400 |8400 |8400 |8400 |8400 |8400 |
 
 
+|Level          |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health         |13517|13880|14333|14878|15331|15876|16420|16964|17508|18144|
+|Original health|9072 |9072 |9072 |9072 |9072 |9072 |9072 |9072 |9072 |9072 |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                       |02.01-2.10                             |03.01-3.10                             |04.01-4.10                             |05.01-5.10                             |06.01-6.10                             |07.01-7.10                             |08.01-8.10                             |09.01-9.10                             |10.01-10.10                             |
@@ -199,12 +205,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 7](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11.01-11.10                             |
+|-------------|----------------------------------------|
+|Training time|3m37s                                   |
+|Training cost|1750$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |45m       |2h        |6h        |12h       |2d        |3d        |5d        |1w        |1w3d       |
 |Upgrade requirements|700$      |3000$     |6000$     |15000$    |35000$    |115000$   |175000$   |350000$   |1000000$  |2000000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |1w3d       |
+|Upgrade requirements|4000000$   |
 
 
 ### Movement stats
@@ -306,6 +325,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|2503 |2503 |2503 |2503 |2503 |2503 |2503 |2503 |2503 |2503 |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |4027 |4135 |4270 |4432 |4568 |4730 |4892 |5054 |5216 |5406 |
+|Original damage per shot|2703 |2703 |2703 |2703 |2703 |2703 |2703 |2703 |2703 |2703 |
+
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -380,6 +405,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |18645|19145|19770|20520|21150|21900|22650|23400|24150|25030|
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |3340 |3340 |3340 |3340 |3340 |3340 |3340 |3340 |3340 |3340 |
+|Calculated damage per second|4737 |4864 |5023 |5214 |5374 |5564 |5755 |5945 |6136 |6360 |
+|Calculated damage per cycle |20135|20675|21350|22160|22840|23650|24460|25270|26080|27030|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 4.250s
   * Directional: Yes
@@ -410,7 +442,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1
-  * Favorite target type: infantry
   * Gun position: "snipertrooper_emp_rig_MASTER_MOVER/snipertrooper_emp_rig_locator_gun_Rt":1
   * Hit spark: fx_blaster_hit_r_sm
   * Icon camera position: 5.8,8.85,16.13
@@ -423,9 +454,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|770       |924       |1078      |1232      |1386      |1540      |1694      |1848      |2002      |2310       |
+|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|770        |924        |1078       |1232       |1386       |1540       |1694       |1848       |2002       |2310       |
+|Favorite target type       |infantry   |infantry   |infantry   |infantry   |infantry   |infantry   |infantry   |infantry   |infantry   |infantry   |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|3340                         |
+|Favorite target type       |heroes                       |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -445,7 +487,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |120701    |120702    |120703    |120704    |120705    |120706    |120707    |120708    |120709    |120710     |
+|Order      |60701     |60702     |60703     |60704     |60705     |60706     |60707     |60708     |60709     |60710      |
 |Point value|7         |8.400     |9.800     |11.200    |12.600    |14        |15.400    |16.800    |18.200    |21         |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |60711      |
+|Point value|21         |
 
 

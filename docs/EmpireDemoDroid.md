@@ -23,6 +23,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|12850|13800|14650|16400|18000|19400|20650|21650|22500|24750|
 
 
+|Level |11   |
+|------|-----|
+|Health|26100|
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -32,13 +37,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 1](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
-### Upgrading stats
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|2m4s                                    |
+|Training cost|250$                                    |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
 
-  * Upgrade time: 0s
+
+### Upgrading stats
 
 |Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
+|Upgrade time        |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s                |0s                |
 |Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade time        |5s                |
+|Upgrade requirements|220 data fragments|
 
 
 ### Movement stats
@@ -85,6 +102,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|2928|2959|2997|3035|3074|3104|3143|3181|3250|3365|
 
 
+|Level          |11  |
+|---------------|----|
+|Damage per shot|3434|
+
+
 ### Projectile
 
   * Splash damage percentages: 100,70,30,20
@@ -94,6 +116,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |1490|1520|1570|1630|1695|1765|1845|1930|2045|2195|
 |Calculated damage per second|743 |751 |761 |771 |780 |788 |798 |808 |825 |854 |
 |Calculated damage per cycle |2928|2959|2997|3035|3074|3104|3143|3181|3250|3365|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |2240|
+|Calculated damage per second|872 |
+|Calculated damage per cycle |3434|
 
 
   * Cannons per sequence: 1
@@ -144,9 +173,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1490|1520|1570|1630|1695|1765|1845|1930|2045|2195|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|1490       |1520       |1570       |1630       |1695       |1765       |1845       |1930       |2045       |2195       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|2240                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -163,9 +201,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |135601|135602|135603|135604|135605|135606|135607|135608|135609|135610|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |61401|61402|61403|61404|61405|61406|61407|61408|61409|61410|
+|Point value|1    |1.200|1.400|1.600|1.800|2    |2.200|2.400|2.600|3    |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |61411|
+|Point value|3    |
 
 

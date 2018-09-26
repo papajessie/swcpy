@@ -25,6 +25,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|49m                                     |
+|Training cost|19025$                                  |
+|Building     |[Research Lab 10](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
   * Upgrade time: 5s
@@ -34,7 +41,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Acceleration: 0
 
-|Level    |1|2-10|
+|Level    |1|2-11|
 |---------|-|----|
 |Max speed|6|5   |
 
@@ -56,6 +63,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|6330|6650|6990|7350|7730|8130|8560|9010|9490|10000|
 
 
+|Level          |11   |
+|---------------|-----|
+|Damage per shot|10306|
+
+
 ### Projectile
 
   * Splash damage percentages: 100,75,50,10
@@ -65,6 +77,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
 |Calculated damage per second|2894 |3040 |3196 |3360 |3534 |3717 |3914 |4119 |4339 |4572  |
 |Calculated damage per cycle |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
+
+
+|Level                       |11    |
+|----------------------------|------|
+|Displayed damage per second |103060|
+|Calculated damage per second|4712  |
+|Calculated damage per cycle |103060|
 
 
   * Cannons per sequence: 10
@@ -95,9 +114,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Bullet: fx_rocket_projectile_r_med
   * Bundle name: tieadvancedfleet_emp-ani
   * Destroy delay: 10
-  * Event button action: planet
-  * Event button data: planet3
-  * Event button string: hn_open_dan
   * Event features string: fragment_obtain_gen
   * Favorite target type: shieldGenerator
   * Gun position: "tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation/tieadvancedfleet_emp_rig_locator_gun1":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation/tieadvancedfleet_emp_rig_locator_gun2":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Lt/tieadvancedfleet_emp_rig_locator_gun3":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Lt/tieadvancedfleet_emp_rig_locator_gun4":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Rt/tieadvancedfleet_emp_rig_locator_gun5":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Rt/tieadvancedfleet_emp_rig_locator_gun6":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Lt_Upper/tieadvancedfleet_emp_rig_locator_gun7":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Lt_Upper/tieadvancedfleet_emp_rig_locator_gun8":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Rt_Upper/tieadvancedfleet_emp_rig_locator_gun9":1,"tieadvancedfleet_emp_rig_bnd_cog/tieadvancedfleet_emp_rig_bnd_rotation_Rt_Upper/tieadvancedfleet_emp_rig_locator_gun10":1
@@ -113,12 +129,28 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Unlocked by event: true
 
-|Level                      |1           |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|63300       |66500      |69900      |73500      |77300      |81300      |85600      |90100      |94900      |100000     |
-|Icon unlock position       |0.3,0.8,-0.4|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,0,0       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |0.4,0.4,0.4 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1                                                |2                                                |3                                                |4                                                |5                                                |6                                                |7                                                |8                                                |9                                                |10                                               |
+|---------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+|Displayed damage per second|63300                                            |66500                                            |69900                                            |73500                                            |77300                                            |81300                                            |85600                                            |90100                                            |94900                                            |100000                                           |
+|Event button action        |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |
+|Event button data          |planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|
+|Event button string        |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |
+|Icon unlock position       |0.3,0.8,-0.4                                     |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
+|Icon unlock rotation       |0,0,0                                            |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
+|Icon unlock scale          |0.4,0.4,0.4                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
+|Prestige                   |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
+
+
+|Level                      |11         |
+|---------------------------|-----------|
+|Displayed damage per second|103060     |
+|Event button action        |planet     |
+|Event button data          |planet3    |
+|Event button string        |hn_open_dan|
+|Icon unlock position       |(not found)|
+|Icon unlock rotation       |(not found)|
+|Icon unlock scale          |(not found)|
+|Prestige                   |true       |
 
 
 ## Uninterpreted stats
@@ -131,6 +163,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|140901|140902|140903|140904|140905|140906|140907|140908|140909|140910|
+|Order|100801|100802|100803|100804|100805|100806|100807|100808|100809|100810|
+
+
+|Level|11    |
+|-----|------|
+|Order|100811|
 
 

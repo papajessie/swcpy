@@ -24,6 +24,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|32m                                    |
+|Training cost|7600$                                  |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
   * Upgrade time: 5s
@@ -31,6 +38,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                |2                |3                |4                |5                |6                 |7                 |8                 |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|------------------|------------------|------------------|
 |Upgrade requirements|15 data fragments|20 data fragments|30 data fragments|45 data fragments|75 data fragments|105 data fragments|150 data fragments|195 data fragments|270 data fragments|330 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade requirements|370 data fragments|
 
 
 ### Movement stats
@@ -55,6 +67,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|2410|2600|2790|2980|3170|3370|3560|3750|3940|4130|
 
 
+|Level          |11  |
+|---------------|----|
+|Damage per shot|4244|
+
+
 ### Projectile
 
   * Splash damage percentages: 100,75,50,25,10
@@ -64,6 +81,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
 |Calculated damage per second|1089 |1175 |1261 |1347 |1433 |1523 |1609 |1695 |1781 |1867 |
 |Calculated damage per cycle |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
+
+
+|Level                       |11   |
+|----------------------------|-----|
+|Displayed damage per second |33952|
+|Calculated damage per second|1918 |
+|Calculated damage per cycle |33952|
 
 
   * Cannons per sequence: 3
@@ -109,12 +133,22 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Unlocked by event: true
 
-|Level                      |1       |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|--------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|19280   |20800      |22320      |23840      |25360      |26960      |28480      |30000      |31520      |33040      |
-|Icon unlock position       |0,1.88,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,-15,0 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1,1,1   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|19280      |20800      |22320      |23840      |25360      |26960      |28480      |30000      |31520      |33040      |
+|Icon unlock position       |0,1.88,0   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,-15,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |1,1,1      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11         |
+|---------------------------|-----------|
+|Displayed damage per second|33952      |
+|Icon unlock position       |(not found)|
+|Icon unlock rotation       |(not found)|
+|Icon unlock scale          |(not found)|
+|Prestige                   |true       |
 
 
 ## Uninterpreted stats
@@ -127,6 +161,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|240701|240702|240703|240704|240705|240706|240707|240708|240709|240710|
+|Order|300901|300902|300903|300904|300905|300906|300907|300908|300909|300910|
+
+
+|Level|11    |
+|-----|------|
+|Order|300911|
 
 

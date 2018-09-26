@@ -87,6 +87,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|15120     |16965     |18975     |21170     |23555     |26165     |29015     |32110     |35480     |39155      |
 
 
+|Level |11.01-11.10|
+|------|-----------|
+|Health|41360      |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                    |02.01-2.10                            |03.01-3.10                            |04.01-4.10                            |05.01-5.10                            |06.01-6.10                            |07.01-7.10                            |08.01-8.10                            |09.01-9.10                            |10.01-10.10                            |
@@ -96,12 +101,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Factory 2](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11.01-11.10                            |
+|-------------|---------------------------------------|
+|Training time|3m40s                                  |
+|Training cost|1750$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |45m       |2h        |6h        |12h       |2d        |3d        |5d        |1w        |1w3d       |
 |Upgrade requirements|700$      |3000$     |6000$     |15000$    |35000$    |115000$   |175000$   |350000$   |1000000$  |2000000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |1w3d       |
+|Upgrade requirements|4000000$   |
 
 
 ### Movement stats
@@ -203,6 +221,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|1030 |1030 |1030 |1030 |1030 |1030 |1030 |1030 |1030 |1030 |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |1918 |2070 |2178 |2276 |2373 |2460 |2547 |2623 |2710 |2785 |
+|Original damage per shot|1084 |1084 |1084 |1084 |1084 |1084 |1084 |1084 |1084 |1084 |
+
+
 ### Projectile
 
 |Level                       |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
@@ -275,6 +299,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |7292 |7868 |8280 |8652 |9020 |9352 |9680 |9968 |10300|10588|
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1768 |1768 |1768 |1768 |1768 |1768 |1768 |1768 |1768 |1768 |
+|Calculated damage per second|3409 |3680 |3872 |4046 |4218 |4373 |4528 |4663 |4817 |4951 |
+|Calculated damage per cycle |7672 |8280 |8712 |9104 |9492 |9840 |10188|10492|10840|11140|
+
+
   * Cannons per sequence: 4
   * Shooting cycle duration: 2.250s
   * Directional: Yes
@@ -317,9 +348,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|630       |690       |760       |830       |900       |980       |1260      |1390      |1530      |1680       |
+|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|630        |690        |760        |830        |900        |980        |1260       |1390       |1530       |1680       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_large_reb|
+|Displayed damage per second|1768                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -339,7 +379,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |230201    |230202    |230203    |230204    |230205    |230206    |230207    |230208    |230209    |230210     |
+|Order      |280201    |280202    |280203    |280204    |280205    |280206    |280207    |280208    |280209    |280210     |
 |Point value|7         |8.400     |9.800     |11.200    |12.600    |14        |15.400    |16.800    |18.200    |21         |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |280211     |
+|Point value|21         |
 
 

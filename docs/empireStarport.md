@@ -29,12 +29,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time        |1m30s|15m |2h  |12h |1d  |1d12h|2d   |3d   |6d   |1w3d |
 
 
+|Level       |11   |
+|------------|-----|
+|Health      |17100|
+|Max quantity|3    |
+|Time        |1w1d |
+
+
 ### Training stats
 
 |Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|1400$                          |2000$                          |8000$                          |25000$                         |65000$                         |225000$                        |325000$                        |650000$                        |1750000$                       |3500000$                        |
 |Building     |[Headquarters 2](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11                              |
+|-------------|--------------------------------|
+|Training cost|4550000$                        |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -65,12 +78,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.12,0.2,-0.31
   * Stash order: 250
 
-|Level            |1                    |2-3                  |4-6                  |7-10                 |
-|-----------------|---------------------|---------------------|---------------------|---------------------|
-|Asset name       |spaceport_emp-mod-up1|spaceport_emp-mod-up1|spaceport_emp-mod-up4|spaceport_emp-mod-up7|
-|Buff asset offset|-1.6,0.4,-1.6        |-1.6,0.4,-1.6        |-1.8,0.4,-1.8        |-1.6,0.4,-1.6        |
-|Bundle name      |spaceport_emp-mod-up1|spaceport_emp-mod-up1|spaceport_emp-mod-up4|spaceport_emp-mod-up7|
-|Store tab        |army                 |(not found)          |(not found)          |(not found)          |
+|Level            |1                    |2-3                  |4-6                  |7-10                 |11                    |
+|-----------------|---------------------|---------------------|---------------------|---------------------|----------------------|
+|Asset name       |spaceport_emp-mod-up1|spaceport_emp-mod-up1|spaceport_emp-mod-up4|spaceport_emp-mod-up7|spaceport_emp-mod-up11|
+|Buff asset offset|-1.6,0.4,-1.6        |-1.6,0.4,-1.6        |-1.8,0.4,-1.8        |-1.6,0.4,-1.6        |-1.6,0.4,-1.6         |
+|Bundle name      |spaceport_emp-mod-up1|spaceport_emp-mod-up1|spaceport_emp-mod-up4|spaceport_emp-mod-up7|spaceport_emp-mod-up11|
+|Prestige         |(not found)          |(not found)          |(not found)          |(not found)          |true                  |
+|Store tab        |army                 |(not found)          |(not found)          |(not found)          |(not found)           |
 
 
 ## Uninterpreted stats
@@ -83,5 +97,11 @@ Seriously, we don't really know what to do with these.
 |------|-|-|-|--|--|--|--|--|--|--|
 |Max XP|2|6|8|10|12|21|24|27|30|33|
 |Xp    |2|3|4|5 |6 |7 |8 |9 |10|11|
+
+
+|Level |11|
+|------|--|
+|Max XP|36|
+|Xp    |12|
 
 

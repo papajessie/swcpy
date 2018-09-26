@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|6500|7800|9100|10400|11700|13000|14300|15600|16900|19500|
 
 
+|Level |11   |
+|------|-----|
+|Health|21060|
+
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 5](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|2m35s                                  |
+|Training cost|1250$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|4000000$|
 
 
 ### Movement stats
@@ -88,11 +106,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Calculated damage per second: 0
   * Calculated damage per cycle: 0
-  * Splash damage percentages: 100,100,100,100
 
-|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|865|1078|1257|1437|1616|1795|1976|2155|2334|2693|
+|Level                      |1              |2              |3              |4              |5              |6              |7              |8              |9              |10             |
+|---------------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|Displayed damage per second|865            |1078           |1257           |1437           |1616           |1795           |1976           |2155           |2334           |2693           |
+|Splash damage percentages  |100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|
+
+
+|Level                      |11          |
+|---------------------------|------------|
+|Displayed damage per second|2350        |
+|Splash damage percentages  |100100100100|
 
 
   * Cannons per sequence: 1
@@ -122,6 +146,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Heal damage multipliers|**(909)**: Heal infantry, Heal infantry hero, **(606)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(1092)**: Heal infantry, Heal infantry hero, **(728)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(1274)**: Heal infantry, Heal infantry hero, **(849)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(1455)**: Heal infantry, Heal infantry hero, **(970)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(1637)**: Heal infantry, Heal infantry hero, **(1091)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(1818)**: Heal infantry, Heal infantry hero, **(1212)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(2001)**: Heal infantry, Heal infantry hero, **(1334)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(2183)**: Heal infantry, Heal infantry hero, **(1455)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(2364)**: Heal infantry, Heal infantry hero, **(1576)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|**(2727)**: Heal infantry, Heal infantry hero, **(1818)**: Heal heavy infantry, Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|
 
 
+|Level                  |11                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Heal damage multipliers|**(2727)**: Heal infantry hero, **(2944)**: Heal infantry, **(1963)**: Heal heavy infantry, **(1818)**: Heal heavy infantry hero, **(0)**: Heal droideka, Heal flying infantry, Heal flying vehicle, Heal headquarters, Heal heavy vehicle, Heal heavy vehicule hero, Heal light vehicle, Heal other building, Heal ressource generator, Heal shield, Heal shield generator, Heal storage, Heal support troop, Heal trap, Heal turret, Heal vehicule hero, Heal wall|
+
+
 
 ## Internal stats
 
@@ -132,6 +161,11 @@ These stats internal to the system link different parts of data together.
 |Level      |1        |2        |3        |4        |5        |6        |7        |8        |9        |10        |
 |-----------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------|
 |Apply buffs|buffHeal1|buffHeal2|buffHeal3|buffHeal4|buffHeal5|buffHeal6|buffHeal7|buffHeal8|buffHeal9|buffHeal10|
+
+
+|Level      |11        |
+|-----------|----------|
+|Apply buffs|buffHeal11|
 
 
 ## Presentation stats
@@ -161,9 +195,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ALLIES
 
-|Level                      |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|865|1078|1257|1437|1616|1795|1976|2155|2334|2693|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|865        |1078       |1257       |1437       |1616       |1795       |1976       |2155       |2334       |2693       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|2350                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -185,7 +228,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |220501|220502|220503|220504|220505|220506|220507|220508|220509|220510|
+|Order      |260501|260502|260503|260504|260505|260506|260507|260508|260509|260510|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |260511|
+|Point value|15    |
 
 

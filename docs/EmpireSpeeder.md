@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|9240|10120|11090|12170|13360|14690|16160|17790|19610|21640|
 
 
+|Level |11   |
+|------|-----|
+|Health|22858|
+
+
 ### Training stats
 
 |Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Factory 1](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|3m6s                                    |
+|Training cost|1500$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1   |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s  |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|500$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|4000000$|
 
 
 ### Movement stats
@@ -53,7 +71,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x2
 
-|Level       |1-6|7-10|
+|Level       |1-6|7-11|
 |------------|---|----|
 |Acceleration|0  |8   |
 |Max speed   |40 |80  |
@@ -91,6 +109,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Shot count     |1    |1    |1    |1    |1    |1    |2    |2    |2    |2    |
 
 
+|Level          |11   |
+|---------------|-----|
+|Damage per shot|1796 |
+|Reload time    |625ms|
+|Shot count     |2    |
+
+
 ### Projectile
 
 |Level                       |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -100,6 +125,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |970|1030|1100|1170|1250|1330|2840|3040|3240|3460|
 
 
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |1520|
+|Calculated damage per second|4105|
+|Calculated damage per cycle |3592|
+
+
   * Cannons per sequence: 2
   * Directional: Yes
   * Is deflectable: Yes
@@ -107,7 +139,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 1
 
-|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |
+|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-11                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Shooting cycle duration|1.050s                                                                                                                                                                                                                                                                                                                                                 |875ms                                                                                                                                                                                                                                                                                                                                                                                           |
 |Damage multipliers     |**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
@@ -145,8 +177,18 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1               |2               |3               |4               |5               |6               |7                          |8                          |9                          |10                         |
 |---------------------------|----------------|----------------|----------------|----------------|----------------|----------------|---------------------------|---------------------------|---------------------------|---------------------------|
+|Deploy vfx                 |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)                |(not found)                |(not found)                |(not found)                |
 |Displayed damage per second|920             |980             |1050            |1110            |1190            |1270            |1620                       |1740                       |1850                       |1980                       |
 |Name                       |T7-E Speederbike|T7-E Speederbike|T7-E Speederbike|T7-E Speederbike|T7-E Speederbike|T7-E Speederbike|Empire Speeder Bike Upgrade|Empire Speeder Bike Upgrade|Empire Speeder Bike Upgrade|Empire Speeder Bike Upgrade|
+|Prestige                   |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)                |(not found)                |(not found)                |(not found)                |
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_large_emp|
+|Displayed damage per second|1520                         |
+|Name                       |Empire Speeder Bike Upgrade  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -164,9 +206,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |130101|130102|130103|130104|130105|130106|130107|130108|130109|130110|
-|Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
+|Level      |1    |2    |3    |4    |5     |6    |7     |8     |9     |10   |
+|-----------|-----|-----|-----|-----|------|-----|------|------|------|-----|
+|Order      |80101|80102|80103|80104|80105 |80106|80107 |80108 |80109 |80110|
+|Point value|6    |7.200|8.400|9.600|10.800|12   |13.200|14.400|15.600|18   |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |80111|
+|Point value|18   |
 
 

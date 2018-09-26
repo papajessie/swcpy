@@ -28,12 +28,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time           |1m  |30m |4h   |16h  |1d12h|2d12h|4d   |6d    |1w1d  |1w3d  |
 
 
+|Level          |11    |
+|---------------|------|
+|Cross materials|702000|
+|Cross time     |3d    |
+|Health         |28500 |
+|Max quantity   |22    |
+|Time           |1w1d  |
+
+
 ### Training stats
 
 |Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|1500 All.                      |3000 All.                      |20000 All.                     |55000 All.                     |100000 All.                    |250000 All.                    |500000 All.                    |1000000 All.                   |3000000 All.                   |5000000 All.                    |
 |Building     |[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11                              |
+|-------------|--------------------------------|
+|Training cost|6500000 All.                    |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -55,7 +70,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret min attack range: 0
   * Turret target preference strength: 90
   * Turret target preferences: **Turret flying vehicle (100)**, **Turret heavy vehicle (100)**, **Turret light vehicle (100)**, **Turret turret (100)**, Turret droideka (50), Turret flying infantry (50), Turret heavy infantry (50), Turret infantry (50), Turret support troop (50), Turret other building (25), Turret headquarters (1), Turret heavy infantry hero (1), Turret heavy vehicule hero (1), Turret infantry hero (1), Turret vehicule hero (1), Turret ressource generator (0), Turret storage (0), Turret wall (0)
-  * Turret view range: 10
+
+|Level            |1-10|11|
+|-----------------|----|--|
+|Turret view range|10  |11|
+
 
 ### Shooting
 
@@ -74,6 +93,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Turret damage per shot|306|459|551|735|888|980|1072|1164|1256|1378|
 
 
+|Level                 |11  |
+|----------------------|----|
+|Turret damage per shot|1451|
+
+
   * Turret attack splash damage percentages: 100
 
 |Level                                     |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -81,6 +105,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Turret displayed damage per second        |500 |750 |900 |1200|1450|1600|1750|1900|2050|2250|
 |Turret attack calculated damage per second|552 |828 |994 |1326|1602|1768|1934|2100|2266|2486|
 |Turret attack calculated damage per clip  |1836|2754|3306|4410|5328|5880|6432|6984|7536|8268|
+
+
+|Level                                     |11  |
+|------------------------------------------|----|
+|Turret displayed damage per second        |2260|
+|Turret attack calculated damage per second|2618|
+|Turret attack calculated damage per clip  |8706|
 
 
   * Turret attack cannons per sequence: 2
@@ -102,6 +133,11 @@ These stats internal to the system link different parts of data together.
 |Level    |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
 |---------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
 |Turret id|t_empireRocketTurret1|t_empireRocketTurret2|t_empireRocketTurret3|t_empireRocketTurret4|t_empireRocketTurret5|t_empireRocketTurret6|t_empireRocketTurret7|t_empireRocketTurret8|t_empireRocketTurret9|t_empireRocketTurret10|
+
+
+|Level    |11                    |
+|---------|----------------------|
+|Turret id|t_empireRocketTurret11|
 
 
 ## Presentation stats
@@ -133,10 +169,25 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name                       |rocketturret_emp-mod-up1                                                                                                                                     |rocketturret_emp-mod-up2                                                                                                                                     |rocketturret_emp-mod-up3                                                                                                                                     |rocketturret_emp-mod-up4                                                                                                                                     |rocketturret_emp-mod-up5                                                                                                                                     |rocketturret_emp-mod-up6                                                                                                                                     |rocketturret_emp-mod-up7                                                                                                                                     |rocketturret_emp-mod-up8                                                                                                                                     |rocketturret_emp-mod-up9                                                                                                                                     |rocketturret_emp-mod-up10                                                                                                                                            |
 |Icon camera position              |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-23.91,25.41,24.96                                                                                                                                           |-27.02,32.27,31.11                                                                                                                                           |-27.02,32.27,31.11                                                                                                                                                   |
 |Icon lookat position              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.34,1.59,-0.27                                                                                                                                              |0.41,2.03,-0.59                                                                                                                                              |0.41,2.03,-0.59                                                                                                                                                      |
+|Prestige                          |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                          |
 |Store tab                         |decorations                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                  |(not found)                                                                                                                                                          |
 |Turret displayed damage per second|500                                                                                                                                                          |750                                                                                                                                                          |900                                                                                                                                                          |1200                                                                                                                                                         |1450                                                                                                                                                         |1600                                                                                                                                                         |1750                                                                                                                                                         |1900                                                                                                                                                         |2050                                                                                                                                                         |2250                                                                                                                                                                 |
 |Turret gun position               |"rotateMesh_up1/tiltBarMesh_up1/aimMesh_up1/turretHeadMesh_up1/locator_gun1":1,"rotateMesh_up1/tiltBarMesh_up1/aimMesh_up1/turretHeadMesh_up1/locator_gun2":1|"rotateMesh_up2/tiltBarMesh_up2/aimMesh_up2/turretHeadMesh_up2/locator_gun1":1,"rotateMesh_up2/tiltBarMesh_up2/aimMesh_up2/turretHeadMesh_up2/locator_gun2":1|"rotateMesh_up3/tiltBarMesh_up3/aimMesh_up3/turretHeadMesh_up3/locator_gun1":1,"rotateMesh_up3/tiltBarMesh_up3/aimMesh_up3/turretHeadMesh_up3/locator_gun2":1|"rotateMesh_up4/tiltBarMesh_up4/aimMesh_up4/turretHeadMesh_up4/locator_gun1":1,"rotateMesh_up4/tiltBarMesh_up4/aimMesh_up4/turretHeadMesh_up4/locator_gun2":1|"rotateMesh_up5/tiltBarMesh_up5/aimMesh_up5/turretHeadMesh_up5/locator_gun1":1,"rotateMesh_up5/tiltBarMesh_up5/aimMesh_up5/turretHeadMesh_up5/locator_gun2":1|"rotateMesh_up6/tiltBarMesh_up6/aimMesh_up6/turretHeadMesh_up6/locator_gun1":1,"rotateMesh_up6/tiltBarMesh_up6/aimMesh_up6/turretHeadMesh_up6/locator_gun2":1|"rotateMesh_up7/tiltBarMesh_up7/aimMesh_up7/turretHeadMesh_up7/locator_gun1":1,"rotateMesh_up7/tiltBarMesh_up7/aimMesh_up7/turretHeadMesh_up7/locator_gun2":1|"rotateMesh_up8/tiltBarMesh_up8/aimMesh_up8/turretHeadMesh_up8/locator_gun1":1,"rotateMesh_up8/tiltBarMesh_up8/aimMesh_up8/turretHeadMesh_up8/locator_gun2":1|"rotateMesh_up9/tiltBarMesh_up9/aimMesh_up9/turretHeadMesh_up9/locator_gun1":1,"rotateMesh_up9/tiltBarMesh_up9/aimMesh_up9/turretHeadMesh_up9/locator_gun2":1|"rotateMesh_up10/tiltBarMesh_up10/aimMesh_up10/turretHeadMesh_up10/locator_gun1":1,"rotateMesh_up10/tiltBarMesh_up10/aimMesh_up10/turretHeadMesh_up10/locator_gun2":1|
 |Turret tracker name               |rotateMesh_up1                                                                                                                                               |rotateMesh_up2                                                                                                                                               |rotateMesh_up3                                                                                                                                               |rotateMesh_up4                                                                                                                                               |rotateMesh_up5                                                                                                                                               |rotateMesh_up6                                                                                                                                               |rotateMesh_up7                                                                                                                                               |rotateMesh_up8                                                                                                                                               |rotateMesh_up9                                                                                                                                               |rotateMesh_up10                                                                                                                                                      |
+
+
+|Level                             |11                                                                                                                                                                   |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Asset name                        |rocketturret_emp-mod-up11                                                                                                                                            |
+|Buff asset offset                 |-1,3.4,-1                                                                                                                                                            |
+|Bundle name                       |rocketturret_emp-mod-up11                                                                                                                                            |
+|Icon camera position              |-27.02,32.27,31.11                                                                                                                                                   |
+|Icon lookat position              |0.41,2.03,-0.59                                                                                                                                                      |
+|Prestige                          |true                                                                                                                                                                 |
+|Store tab                         |(not found)                                                                                                                                                          |
+|Turret displayed damage per second|2260                                                                                                                                                                 |
+|Turret gun position               |"rotateMesh_up11/tiltBarMesh_up11/aimMesh_up11/turretHeadMesh_up11/locator_gun1":1,"rotateMesh_up11/tiltBarMesh_up11/aimMesh_up11/turretHeadMesh_up11/locator_gun2":1|
+|Turret tracker name               |rotateMesh_up11                                                                                                                                                      |
 
 
 ## Uninterpreted stats
@@ -149,11 +200,17 @@ Seriously, we don't really know what to do with these.
   * Turret attack streams: no
   * Turret splash: false
   * Turret strict cool down: No
-  * Turret timey wimey: 1.6326530612244898321705477428622543811798095703125
+  * Turret timey wimey: 1.63265306100000007205608199001289904117584228515625
 
 |Level |1 |2  |3  |4  |5  |6  |7  |8  |9   |10  |
 |------|--|---|---|---|---|---|---|---|----|----|
 |Max XP|50|120|210|320|450|600|770|960|1170|1400|
 |Xp    |25|30 |35 |40 |45 |50 |55 |60 |65  |70  |
+
+
+|Level |11  |
+|------|----|
+|Max XP|1630|
+|Xp    |75  |
 
 

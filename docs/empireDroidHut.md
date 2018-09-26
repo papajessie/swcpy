@@ -19,16 +19,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: No
   * Health: 2000
-  * Hide if locked: Yes
   * Max quantity: 1
   * Produce: 0
   * Time: 0s
   * Type: droid_hut
 
+|Level         |1  |2 |
+|--------------|---|--|
+|Hide if locked|Yes|No|
+
+
 ### Training stats
 
   * Training cost: Free
-  * Building: [Headquarters 1](empireHQ.html)
+
+|Level   |1                              |2                               |
+|--------|-------------------------------|--------------------------------|
+|Building|[Headquarters 1](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
 
 ### Upgrading stats
 
@@ -49,17 +57,22 @@ These stats internal to the system link different parts of data together.
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
 
-  * Asset name: droidhut_neu-mod
   * Audio death: "sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":25
   * Buff asset offset: 0.0,0.0,0.0
-  * Bundle name: models_preload
   * Collect notify: 0
   * Cycle time: 0s
   * Destruct FX: fx_debris_{0}x{1}
   * Icon camera position: -32.24,23.74,34.7
   * Icon lookat position: -0.43,2.36,0.6
   * Stash order: 290
-  * Store tab: not_in_store
+
+|Level      |1               |2                       |
+|-----------|----------------|------------------------|
+|Asset name |droidhut_neu-mod|droidhutprestige_neu-mod|
+|Bundle name|models_preload  |droidhutprestige_neu-mod|
+|Prestige   |(not found)     |true                    |
+|Store tab  |not_in_store    |(not found)             |
+
 
 ## Uninterpreted stats
 

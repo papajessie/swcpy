@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|6810|7070|7350|7630|7930|8240|8560|8900|9250|9610|
 
 
+|Level |11  |
+|------|----|
+|Health|9826|
+
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -33,6 +38,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|26s                             |27s                                   |27s                                   |28s                                   |28s                                   |28s                                   |29s                                   |29s                                   |30s                                   |30s                                    |
 |Training cost|150$                            |160$                                  |170$                                  |190$                                  |200$                                  |200$                                  |210$                                  |210$                                  |220$                                  |230$                                   |
 |Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+
+
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|30s                                    |
+|Training cost|240$                                   |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -70,6 +82,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                          |1                                                    |2                                                    |3                                                    |4                                                    |5                                                    |6                                                    |7                                                    |8                                                    |9                                                    |10                                                    |
 |-------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
 |Sum phtm X wing summon visitors|["trp_title_PhantomXWing" level 1](PhantomXWing.html)|["trp_title_PhantomXWing" level 2](PhantomXWing.html)|["trp_title_PhantomXWing" level 3](PhantomXWing.html)|["trp_title_PhantomXWing" level 4](PhantomXWing.html)|["trp_title_PhantomXWing" level 5](PhantomXWing.html)|["trp_title_PhantomXWing" level 6](PhantomXWing.html)|["trp_title_PhantomXWing" level 7](PhantomXWing.html)|["trp_title_PhantomXWing" level 8](PhantomXWing.html)|["trp_title_PhantomXWing" level 9](PhantomXWing.html)|["trp_title_PhantomXWing" level 10](PhantomXWing.html)|
+
+
+|Level                          |11                                                    |
+|-------------------------------|------------------------------------------------------|
+|Sum phtm X wing summon visitors|["trp_title_PhantomXWing" level 11](PhantomXWing.html)|
 
 
   * Sum phtm X wing summon die with summoner: Yes
@@ -112,6 +129,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|430|450|480|510|540|570|600|630|670|710|
 
 
+|Level          |11 |
+|---------------|---|
+|Damage per shot|734|
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -119,6 +141,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |190 |210 |220 |240 |250 |270 |280 |310 |330 |360 |
 |Calculated damage per second|781 |818 |872 |927 |981 |1036|1090|1145|1218|1290|
 |Calculated damage per cycle |1290|1350|1440|1530|1620|1710|1800|1890|2010|2130|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |360 |
+|Calculated damage per second|1334|
+|Calculated damage per cycle |2202|
 
 
   * Cannons per sequence: 1
@@ -142,6 +171,13 @@ These stats internal to the system link different parts of data together.
 |Spawn apply buffs         |buffSumPhtmXWing1|buffSumPhtmXWing2|buffSumPhtmXWing3|buffSumPhtmXWing4|buffSumPhtmXWing5|buffSumPhtmXWing6|buffSumPhtmXWing7|buffSumPhtmXWing8|buffSumPhtmXWing9|buffSumPhtmXWing10|
 |Sum phtm X wing details   |sumPhtmXWing1    |sumPhtmXWing2    |sumPhtmXWing3    |sumPhtmXWing4    |sumPhtmXWing5    |sumPhtmXWing6    |sumPhtmXWing7    |sumPhtmXWing8    |sumPhtmXWing9    |sumPhtmXWing10    |
 |Sum phtm X wing summon uid|sumPhtmXWing1    |sumPhtmXWing2    |sumPhtmXWing3    |sumPhtmXWing4    |sumPhtmXWing5    |sumPhtmXWing6    |sumPhtmXWing7    |sumPhtmXWing8    |sumPhtmXWing9    |sumPhtmXWing10    |
+
+
+|Level                     |11                |
+|--------------------------|------------------|
+|Spawn apply buffs         |buffSumPhtmXWing11|
+|Sum phtm X wing details   |sumPhtmXWing11    |
+|Sum phtm X wing summon uid|sumPhtmXWing11    |
 
 
 ## Presentation stats
@@ -180,10 +216,22 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1             |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Displayed damage per second|190           |210        |220        |240        |250        |270        |280        |310        |330        |360        |
 |Icon unlock position       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |0,0,0         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |1.25,1.25,1.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|360                          |
+|Icon unlock position       |(not found)                  |
+|Icon unlock rotation       |(not found)                  |
+|Icon unlock scale          |(not found)                  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -203,7 +251,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |314900|314901|314902|314903|314904|314905|314906|314907|314908|314909|
+|Order      |261501|261502|261503|261504|261505|261506|261507|261508|261509|261510|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |261511|
+|Point value|3     |
 
 

@@ -46,7 +46,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Rotation speed: 3.927
   * Run speed: 0
   * Run threshold: 0
-  * Unit size on map: 2x2
+  * Unit size on map: 1x1
 
 ## Main attack : Rancor Blaster
 
@@ -57,7 +57,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 2000
   * Target preference strength: 90
-  * Target preferences: **Turret (55)**, Droideka (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Headquarters (40), Flying infantry (1), Flying vehicle (1), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
+  * Target preferences: **Droideka (50)**, **Heavy infantry (50)**, **Heavy vehicle (50)**, **Infantry (50)**, **Light vehicle (50)**, **Other building (50)**, **Ressource generator (50)**, **Shield (50)**, **Shield generator (50)**, **Storage (50)**, **Support troop (50)**, **Turret (50)**, Headquarters (40), Flying infantry (1), Flying vehicle (1), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
   * View range: 16
 
 ### Shooting
@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Charge time: 500ms
   * Clip retargeting: No
   * Gun shooting sequence: 2,1
-  * Impact delay: 0s
+  * Impact delay: 960ms
   * Can shoot over walls: No
   * Reload time: 1.910s
   * Retargeting offset: 8
@@ -86,7 +86,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
 |----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Displayed damage per second |1066|2560|2986|3413|3840|4266|4693 |5120 |5546 |6400 |
+|Displayed damage per second |1066|2560|2986|3413|3840|4266|4693 |5120 |5546 |4640 |
 |Calculated damage per second|492 |1182|1379|1577|1774|1971|2168 |2365 |2562 |2956 |
 |Calculated damage per cycle |2400|5760|6720|7680|8640|9600|10560|11520|12480|14400|
 
@@ -112,15 +112,16 @@ These are all sorts of user interface settings, that should not interfere with g
 
   * Arcs: No
   * Asset name: rancor_neu-ani
-  * Audio attack: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
+  * Audio attack: "sfx_attack_creatures_rancor_1":33,"sfx_attack_creatures_rancor_2":33,"sfx_attack_creatures_rancor_3":34
   * Audio death: "sfx_death_creatures_rancor_1":100
-  * Audio placement: "sfx_placement_creatures_bantha_1":50,"sfx_placement_creatures_bantha_2":50
+  * Audio impact: "sfx_impact_creatures_rancor_1":33,"sfx_impact_creatures_rancor_2":33,"sfx_impact_creatures_rancor_3":34
+  * Audio placement: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
   * Buff asset offset: 0.00,4.30,0.00
   * Bundle name: rancor_neu-ani
   * Death animation: buffFireBurn:15
   * Factory rotation: 0
   * Factory scale factor: 1
-  * Favorite target type: vehicles
+  * Favorite target type: closest
   * Gun position: "rancor_neu_rig_MASTER_MOVER/"rancor_neu_rig_locator_gun1":1,"rancor_neu_rig_MASTER_MOVER/rancor_neu_rig_locator_gun2":2
   * Icon camera position: 38.76,41.86,47.24
   * Icon lookat position: -0.95,2.74,-1.82
@@ -132,7 +133,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1066|2560|2986|3413|3840|4266|4693|5120|5546|6400|
+|Displayed damage per second|1066|2560|2986|3413|3840|4266|4693|5120|5546|4640|
 
 
 ## Uninterpreted stats
@@ -152,7 +153,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |332301|332302|332303|332304|332305|332306|332307|332308|332309|332310|
+|Order      |460501|460502|460503|460504|460505|460506|460507|460508|460509|460510|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 

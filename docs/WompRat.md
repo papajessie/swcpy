@@ -97,11 +97,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-|Level                       |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|---|---|---|----|----|----|----|----|----|----|
-|Displayed damage per second |50 |59 |69 |397 |447 |496 |546 |596 |645 |744 |
-|Calculated damage per second|23 |27 |32 |185 |209 |232 |255 |279 |302 |348 |
-|Calculated damage per cycle |275|325|380|2185|2460|2730|3005|3280|3550|4095|
+|Level                       |1  |2  |3  |4   |5   |6   |7   |8   |9   |10   |
+|----------------------------|---|---|---|----|----|----|----|----|----|-----|
+|Displayed damage per second |50 |59 |69 |397 |447 |496 |546 |596 |645 |11676|
+|Calculated damage per second|23 |27 |32 |185 |209 |232 |255 |279 |302 |348  |
+|Calculated damage per cycle |275|325|380|2185|2460|2730|3005|3280|3550|4095 |
 
 
   * Cannons per sequence: 1
@@ -140,7 +140,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Asset name                 |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|
 |Buff asset offset          |(not found)     |0.00,0.25,0.00       |0.00,0.33,0.00      |(not found)     |0.00,0.25,0.00       |0.00,0.33,0.00      |(not found)     |0.00,0.25,0.00       |0.00,0.33,0.00      |0.00,0.33,0.00      |
 |Bundle name                |womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|womprat_neu-ani |wompratmedium_neu-ani|wompratlarge_neu-ani|wompratlarge_neu-ani|
-|Displayed damage per second|50              |59                   |69                  |397             |447                  |496                 |546             |596                  |645                 |744                 |
+|Displayed damage per second|50              |59                   |69                  |397             |447                  |496                 |546             |596                  |645                 |11676               |
 |Icon camera position       |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56|13.51,14.12,9.05     |11.42,11.67,7.56    |11.42,11.67,7.56    |
 |Icon lookat position       |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08|-0.2,0.39,-0.08      |-0.07,0.16,-0.08    |-0.07,0.16,-0.08    |
 
@@ -162,7 +162,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |330901|330902|330903|330904|330905|330906|330907|330908|330909|330910|
+|Order      |460201|460202|460203|460204|460205|460206|460207|460208|460209|460210|
 |Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
 
 

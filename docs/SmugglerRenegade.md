@@ -92,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
-|Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|1680|
+|Displayed damage per second |93 |112|130|149|1008|1120|1232|1344|1456|987 |
 |Calculated damage per second|304|362|424|485|544 |605 |666 |725 |786 |906 |
 |Calculated damage per cycle |342|408|477|546|612 |681 |750 |816 |885 |1020|
 
@@ -141,7 +141,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1                                                                                                                      |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Audio train                |"sfx_ui_unitcomplete_darktrooper_01":35,"sfx_ui_unitcomplete_darktrooper_02":35,"sfx_ui_unitcomplete_darktrooper_03":30|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|93                                                                                                                     |112        |130        |149        |1008       |1120       |1232       |1344       |1456       |1680       |
+|Displayed damage per second|93                                                                                                                     |112        |130        |149        |1008       |1120       |1232       |1344       |1456       |987        |
 
 
 ## Uninterpreted stats
@@ -161,7 +161,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |344301|344302|344303|344304|344305|344306|344307|344308|344309|344310|
+|Order      |480601|480602|480603|480604|480605|480606|480607|480608|480609|480610|
 |Point value|6     |7.200 |8.400 |9.600 |10.800|12    |13.200|14.400|15.600|18    |
 
 

@@ -12,18 +12,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Unit stats
 
   * Side: Empire
+  * Buildable unit: Yes
   * Unit capacity: 7
 
 |Level                  |1                                           |2                                           |3                                           |4                                           |5                                           |6                                           |7                                           |8                                           |9                                           |10                                           |
 |-----------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|---------------------------------------------|
-|Buildable unit         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                         |Yes                                          |
 |Special attack visitors|3×[Stormtrooper level 1](StormDropship.html)|3×[Stormtrooper level 2](StormDropship.html)|4×[Stormtrooper level 3](StormDropship.html)|4×[Stormtrooper level 4](StormDropship.html)|5×[Stormtrooper level 5](StormDropship.html)|5×[Stormtrooper level 6](StormDropship.html)|5×[Stormtrooper level 7](StormDropship.html)|5×[Stormtrooper level 8](StormDropship.html)|5×[Stormtrooper level 9](StormDropship.html)|5×[Stormtrooper level 10](StormDropship.html)|
 
 
 |Level                  |11                                           |
 |-----------------------|---------------------------------------------|
-|Buildable unit         |No                                           |
-|Special attack visitors|5×[Stormtrooper level 10](StormDropship.html)|
+|Special attack visitors|5×[Stormtrooper level 11](StormDropship.html)|
 
 
 ### Training stats
@@ -37,10 +36,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10-11   |
+|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
 |Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |2w      |
+|Upgrade requirements|4250000$|
 
 
 ### Movement stats
@@ -72,9 +77,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 32.33,18.19,18.01
   * Icon lookat position: -1.41,2.74,-0.06
 
-|Level                      |1    |2    |3    |4    |5     |6     |7     |8     |9     |10-11 |
-|---------------------------|-----|-----|-----|-----|------|------|------|------|------|------|
-|Displayed damage per second|15000|30000|60000|90000|120000|150000|180000|210000|240000|270000|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|15000      |30000      |60000      |90000      |120000     |150000     |180000     |210000     |240000     |270000     |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11    |
+|---------------------------|------|
+|Displayed damage per second|300000|
+|Prestige                   |true  |
 
 
 ## Uninterpreted stats
@@ -83,8 +95,13 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10-11 |
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|140601|140602|140603|140604|140605|140606|140607|140608|140609|140610|
+|Order|100501|100502|100503|100504|100505|100506|100507|100508|100509|100510|
+
+
+|Level|11    |
+|-----|------|
+|Order|100511|
 
 

@@ -20,6 +20,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Special attack visitors|2×[AAT-1 Hover Tank level 3](AAT1.html)|2×[AAT-1 Hover Tank level 4](AAT1.html)|2×[AAT-1 Hover Tank level 5](AAT1.html)|2×[AAT-1 Hover Tank level 6](AAT1.html)|2×[AAT-1 Hover Tank level 7](AAT1.html)|1×[Juggernaut level 6](Juggernaut.html)|1×[Juggernaut level 7](Juggernaut.html)|1×[Juggernaut level 8](Juggernaut.html)|1×[Juggernaut level 9](Juggernaut.html)|1×[Juggernaut level 10](Juggernaut.html)|
 
 
+|Level                  |11                                      |
+|-----------------------|----------------------------------------|
+|Special attack visitors|1×[Juggernaut level 11](Juggernaut.html)|
+
+
 ### Training stats
 
 |Level        |1                                           |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -29,6 +34,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|1h3m30s                                |
+|Training cost|22815$                                 |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
   * Upgrade time: 5s
@@ -36,6 +48,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
 |Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade requirements|220 data fragments|
 
 
 ### Movement stats
@@ -78,6 +95,16 @@ These are all sorts of user interface settings, that should not interfere with g
 |Icon unlock position       |-2,-109.3,-30.3|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |-5.5,100.8,1.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |1.3,1.3,1.3    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11         |
+|---------------------------|-----------|
+|Displayed damage per second|5400       |
+|Icon unlock position       |(not found)|
+|Icon unlock rotation       |(not found)|
+|Icon unlock scale          |(not found)|
+|Prestige                   |true       |
 
 
 ## Uninterpreted stats
@@ -88,6 +115,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|241101|241102|241103|241104|241105|241106|241107|241108|241109|241110|
+|Order|301001|301002|301003|301004|301005|301006|301007|301008|301009|301010|
+
+
+|Level|11    |
+|-----|------|
+|Order|301011|
 
 

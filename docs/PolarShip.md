@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|10450|11090|11770|12490|13250|14090|14970|15920|16920|18000|
 
 
+|Level |11   |
+|------|-----|
+|Health|18648|
+
+
 ### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,13 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
-### Upgrading stats
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|3m5s                                   |
+|Training cost|1230$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
 
-  * Upgrade time: 0s
+
+### Upgrading stats
 
 |Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
+|Upgrade time        |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s                |0s                |
 |Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade time        |5s                |
+|Upgrade requirements|220 data fragments|
 
 
 ### Movement stats
@@ -55,7 +72,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 2x2
 
-|Level       |1-6|7-10|
+|Level       |1-6|7-11|
 |------------|---|----|
 |Acceleration|0  |8   |
 
@@ -91,13 +108,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Shot delay     |300ms|300ms|300ms|300ms|300ms|300ms|200ms|200ms|200ms|200ms|
 
 
+|Level          |11   |
+|---------------|-----|
+|Damage per shot|805  |
+|Shot delay     |300ms|
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1020|1070|1100|1130|1210|1510|1880|1930|2000|2060|
+|Displayed damage per second |1020|1070|1100|1130|1210|1510|1880|1930|2000|1650|
 |Calculated damage per second|836 |872 |900 |927 |990 |1236|1600|1644|1700|1755|
 |Calculated damage per cycle |1380|1440|1485|1530|1635|2040|2160|2220|2295|2370|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |1690|
+|Calculated damage per second|1463|
+|Calculated damage per cycle |2415|
 
 
   * Cannons per sequence: 2
@@ -107,10 +137,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 3
 
-|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Shooting cycle duration|1.650s                                                                                                                                                                                                                                                                                                                                                 |1.350s                                                                                                                                                                                                                                                                                                                                                                                          |
-|Damage multipliers     |**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
+|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |11                                                                                                                                                                                                                                                                                                                                                                                              |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Shooting cycle duration|1.650s                                                                                                                                                                                                                                                                                                                                                 |1.350s                                                                                                                                                                                                                                                                                                                                                                                          |1.650s                                                                                                                                                                                                                                                                                                                                                                                          |
+|Damage multipliers     |**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
 
 
 ## Internal stats
@@ -155,8 +185,18 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1               |2               |3               |4               |5               |6               |7                         |8                         |9                         |10                        |
 |---------------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------|--------------------------|--------------------------|--------------------------|
-|Displayed damage per second|1020            |1070            |1100            |1130            |1210            |1510            |1880                      |1930                      |2000                      |2060                      |
+|Deploy vfx                 |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)               |(not found)               |(not found)               |(not found)               |
+|Displayed damage per second|1020            |1070            |1100            |1130            |1210            |1510            |1880                      |1930                      |2000                      |1650                      |
 |Name                       |T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|
+|Prestige                   |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)               |(not found)               |(not found)               |(not found)               |
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_large_reb|
+|Displayed damage per second|1690                         |
+|Name                       |Rebel Speeder Bike Upgrade   |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -175,6 +215,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|232001|232002|232003|232004|232005|232006|232007|232008|232009|232010|
+|Order|281001|281002|281003|281004|281005|281006|281007|281008|281009|281010|
+
+
+|Level|11    |
+|-----|------|
+|Order|281011|
 
 

@@ -89,7 +89,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1-5 |6   |7   |8    |9    |10   |
 |----------------------------|----|----|----|-----|-----|-----|
-|Displayed damage per second |2202|1320|3258|5019 |6075 |6600 |
+|Displayed damage per second |2202|1320|3258|5019 |6075 |720  |
 |Calculated damage per second|2752|1650|4072|6273 |7593 |8250 |
 |Calculated damage per cycle |4404|2640|6516|10038|12150|13200|
 
@@ -143,7 +143,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Audio attack               |"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":25|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":26|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":27|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":28|"sfx_attack_empire_droideka_1":25,"sfx_attack_empire_droideka_2":25,"sfx_attack_empire_droideka_3":25,"sfx_attack_empire_droideka_4":29|
 |Audio death                |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":30                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":31                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":32                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":33                                     |"sfx_death_empire_droideka_1":35,"sfx_death_empire_droideka_2":35,"sfx_death_empire_droideka_3":34                                     |
 |Audio placement            |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":50                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":51                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":52                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":53                                                              |"sfx_placement_empire_droideka_1":50,"sfx_placement_empire_droideka_2":54                                                              |
-|Displayed damage per second|2202                                                                                                                                   |1320                                                                                                                                   |3258                                                                                                                                   |5019                                                                                                                                   |6075                                                                                                                                   |6600                                                                                                                                   |
+|Displayed damage per second|2202                                                                                                                                   |1320                                                                                                                                   |3258                                                                                                                                   |5019                                                                                                                                   |6075                                                                                                                                   |720                                                                                                                                    |
 
 
 ## Uninterpreted stats
@@ -163,7 +163,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |314701|314702|314703|314704|314705|314706|314707|314708|314709|314710|
+|Order      |420101|420102|420103|420104|420105|420106|420107|420108|420109|420110|
 |Point value|20    |20    |20    |20    |20    |40    |68    |148   |188   |200   |
 
 

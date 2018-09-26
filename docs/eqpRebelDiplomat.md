@@ -189,6 +189,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|48000 |48000 |48000 |48000 |48000 |48000 |48000 |48000 |48000 |48000 |
 
 
+|Level          |11.01 |11.02 |11.03 |11.04 |11.05 |11.06 |11.07 |11.08 |11.09 |11.10 |
+|---------------|------|------|------|------|------|------|------|------|------|------|
+|Health         |116640|123897|132710|142041|151372|161740|171590|182476|192844|203731|
+|Original health|51840 |51840 |51840 |51840 |51840 |51840 |51840 |51840 |51840 |51840 |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                                 |02.01-2.10                            |03.01-3.10                            |04.01-4.10                            |05.01-5.10                            |06.01-6.10                            |07.01-7.10                            |08.01-8.10                            |09.01-9.10                            |10.01-10.10                            |
@@ -198,12 +204,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Hero Command 4](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11.01-11.10                            |
+|-------------|---------------------------------------|
+|Training time|10m20s                                 |
+|Training cost|5000$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |1h        |2h30m     |7h        |20h       |2d12h     |4d        |6d        |1w1d      |1w5d       |
 |Upgrade requirements|3000$     |5000$     |10000$    |20000$    |50000$    |135000$   |225000$   |450000$   |1500000$  |2500000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |2w         |
+|Upgrade requirements|4250000$   |
 
 
 ### Movement stats
@@ -305,6 +324,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|2800 |2800 |2800 |2800 |2800 |2800 |2800 |2800 |2800 |2800 |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |6801 |7224 |7738 |8283 |8827 |9431 |10006|10640|11245|11880|
+|Original damage per shot|3023 |3023 |3023 |3023 |3023 |3023 |3023 |3023 |3023 |3023 |
+
+
 ### Projectile
 
 |Level                       |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
@@ -377,6 +402,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |37800|40146|43008|46032|49056|52416|55608|59136|62496|66024|
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |7200 |7200 |7200 |7200 |7200 |7200 |7200 |7200 |7200 |7200 |
+|Calculated damage per second|22670|24080|25793|27610|29423|31436|33353|35466|37483|39600|
+|Calculated damage per cycle |40806|43344|46428|49698|52962|56586|60036|63840|67470|71280|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 1.800s
   * Directional: Yes
@@ -392,9 +424,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: HeroLeia
 
-|Level    |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Hero data|hero1     |hero2     |hero3     |hero4     |hero5     |hero6     |hero7     |hero8     |hero9     |hero10     |
+|Level    |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10, 11.01-11.10|
+|---------|----------|----------|----------|----------|----------|----------|----------|----------|----------|------------------------|
+|Hero data|hero1     |hero2     |hero3     |hero4     |hero5     |hero6     |hero7     |hero8     |hero9     |hero10                  |
 
 
 ## Presentation stats
@@ -427,9 +459,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|2001      |2400      |2800      |3201      |3600      |4000      |4401      |4800      |5200      |6000       |
+|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|2001       |2400       |2800       |3201       |3600       |4000       |4401       |4800       |5200       |6000       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|7200                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -449,7 +490,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |210401    |210402    |210403    |210404    |210405    |210406    |210407    |210408    |210409    |210410     |
+|Order      |200301    |200302    |200303    |200304    |200305    |200306    |200307    |200308    |200309    |200310     |
 |Point value|20        |24        |28        |32        |36        |40        |44        |48        |52        |60         |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |200311     |
+|Point value|60         |
 
 

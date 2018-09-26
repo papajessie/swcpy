@@ -173,6 +173,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|12000          |12000          |12000          |12000          |12000          |12000          |12000          |12000          |12000          |12000          |
 
 
+|Level          |11.01          |11.02          |11.03          |11.04          |11.05          |11.06          |11.07          |11.08          |11.09          |11.10          |
+|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|Armor type     |bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|bruiserInfantry|
+|Health         |46242          |49242          |52616          |56365          |60115          |64239          |68239          |72488          |76737          |80987          |
+|Original health|12498          |12498          |12498          |12498          |12498          |12498          |12498          |12498          |12498          |12498          |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                      |02.01-2.10                            |03.01-3.10                            |04.01-4.10                            |05.01-5.10                            |06.01-6.10                            |07.01-7.10                            |08.01-8.10                            |09.01-9.10                            |10.01-10.10                            |
@@ -182,12 +189,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 3](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11.01-11.10                            |
+|-------------|---------------------------------------|
+|Training time|1m2s                                   |
+|Training cost|500$                                   |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |15m       |1h        |3h30m     |8h        |1d        |2d        |3d12h     |5d        |1w1d       |
 |Upgrade requirements|4700$     |3000$     |6000$     |12500$    |25000$    |100000$   |160000$   |320000$   |1000000$  |1750000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |1w3d       |
+|Upgrade requirements|3500000$   |
 
 
 ### Movement stats
@@ -289,6 +309,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|1040 |1040 |1040 |1040 |1040 |1040 |1040 |1040 |1040 |1040 |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |4003 |4263 |4555 |4879 |5204 |5561 |5907 |6275 |6643 |7011 |
+|Original damage per shot|1082 |1082 |1082 |1082 |1082 |1082 |1082 |1082 |1082 |1082 |
+
+
 ### Projectile
 
   * Splash damage percentages: 100,100
@@ -363,6 +389,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |30784|32776|35024|37520|40016|42760|45424|48256|51080|53912|
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |2164 |2164 |2164 |2164 |2164 |2164 |2164 |2164 |2164 |2164 |
+|Calculated damage per second|2337 |2489 |2659 |2849 |3038 |3247 |3449 |3664 |3879 |4094 |
+|Calculated damage per cycle |32024|34104|36440|39032|41632|44488|47256|50200|53144|56088|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 13.700s
   * Directional: Yes
@@ -421,6 +454,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage multipliers|**(560)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(670)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(950)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(940)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(930)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(900)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(880)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(840)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|
 
 
+|Level             |11.01                                                                                                                                                                                                                                                                                                                                      |11.02                                                                                                                                                                                                                                                                                                                                      |11.03                                                                                                                                                                                                                                                                                                                                      |11.04                                                                                                                                                                                                                                                                                                                                      |11.05                                                                                                                                                                                                                                                                                                                                      |11.06                                                                                                                                                                                                                                                                                                                                      |11.07                                                                                                                                                                                                                                                                                                                                      |11.08                                                                                                                                                                                                                                                                                                                                      |11.09                                                                                                                                                                                                                                                                                                                                      |11.10                                                                                                                                                                                                                                                                                                                                      |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Damage multipliers|**(560)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(670)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(950)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(940)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(930)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(900)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(880)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(840)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|
+
+
 ## Internal stats
 
 These stats internal to the system link different parts of data together.
@@ -454,9 +492,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Texture uid: unittransport_event_troop_tauntaunsoldier
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|1120      |1180      |1260      |1360      |1460      |1560      |1680      |1800      |1940      |2080       |
+|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|1120       |1180       |1260       |1360       |1460       |1560       |1680       |1800       |1940       |2080       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|2164                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -476,7 +523,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |220301    |220302    |220303    |220304    |220305    |220306    |220307    |220308    |220309    |220310     |
+|Order      |260301    |260302    |260303    |260304    |260305    |260306    |260307    |260308    |260309    |260310     |
 |Point value|2         |2.400     |2.800     |3.200     |3.600     |4         |4.400     |4.800     |5.200     |6          |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |260411     |
+|Point value|6          |
 
 

@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|9000|9700|10450|11280|12170|13140|14210|15360|16620|18000|
 
 
+|Level |11   |
+|------|-----|
+|Health|18828|
+
+
 ### Training stats
 
 |Level        |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Factory 1](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|3m6s                                   |
+|Training cost|1250$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|3000$|3000$|6000$|15000$|35000$|115000$|175000$|350000$|1000000$|2000000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|4000000$|
 
 
 ### Movement stats
@@ -53,7 +71,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Run threshold: 0
   * Unit size on map: 1x1
 
-|Level       |1-6|7-10|
+|Level       |1-6|7-11|
 |------------|---|----|
 |Acceleration|0  |8   |
 |Max speed   |40 |80  |
@@ -91,6 +109,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|1010|1050|1090|1140|1180|1230|1280 |1330 |1380 |1440 |
 
 
+|Level          |11   |
+|---------------|-----|
+|Charge time    |500ms|
+|Damage per shot|1476 |
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -100,6 +124,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |2020|2100|2180|2280|2360|2460|2560|2660|2760|2880|
 
 
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |1465|
+|Calculated damage per second|1476|
+|Calculated damage per cycle |2952|
+
+
   * Cannons per sequence: 2
   * Directional: Yes
   * Is deflectable: Yes
@@ -107,7 +138,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Pass through shield: No
   * Salvos: 2
 
-|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-10                                                                                                                                                                                                                                                                                                                                                                                            |
+|Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-11                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Shooting cycle duration|2.500s                                                                                                                                                                                                                                                                                                                                                 |2s                                                                                                                                                                                                                                                                                                                                                                                              |
 |Damage multipliers     |**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
@@ -145,8 +176,18 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1               |2               |3               |4               |5               |6               |7                         |8                         |9                         |10                        |
 |---------------------------|----------------|----------------|----------------|----------------|----------------|----------------|--------------------------|--------------------------|--------------------------|--------------------------|
+|Deploy vfx                 |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)               |(not found)               |(not found)               |(not found)               |
 |Displayed damage per second|900             |930             |970             |1010            |1050            |1090            |1460                      |1520                      |1580                      |1650                      |
 |Name                       |T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|
+|Prestige                   |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)               |(not found)               |(not found)               |(not found)               |
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|1465                         |
+|Name                       |Rebel Speeder Bike Upgrade   |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -166,7 +207,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |230101|230102|230103|230104|230105|230106|230107|230108|230109|230110|
+|Order      |280101|280102|280103|280104|280105|280106|280107|280108|280109|280110|
 |Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |280111|
+|Point value|15    |
 
 

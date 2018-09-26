@@ -100,12 +100,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time        |30s       |15m       |2h        |12h       |1d        |1d12h     |2d        |3d        |6d        |1w3d       |
 
 
+|Level       |11.01-11.10|
+|------------|-----------|
+|Health      |17100      |
+|Max quantity|4          |
+|Time        |1w1d       |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                     |02.01-2.10                     |03.01-3.10                     |04.01-4.10                     |05.01-5.10                     |06.01-6.10                     |07.01-7.10                     |08.01-8.10                     |09.01-9.10                     |10.01-10.10                     |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|1000$                          |2000$                          |10000$                         |30000$                         |75000$                         |275000$                        |400000$                        |800000$                        |2000000$                       |3500000$                        |
 |Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11.01-11.10                     |
+|-------------|--------------------------------|
+|Training cost|4550000$                        |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -141,7 +154,18 @@ These are all sorts of user interface settings, that should not interfere with g
 |Bundle name         |barracks_emp-mod-up1|barracks_emp-mod-up2|barracks_emp-mod-up3|barracks_emp-mod-up4|barracks_emp-mod-up5|barracks_emp-mod-up6|barracks_emp-mod-up7|barracks_emp-mod-up8|barracks_emp-mod-up9|barracks_emp-mod-up10|
 |Icon camera position|-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-50.51,41.92,41.7    |
 |Icon lookat position|-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |0.28,1.29,-0.14     |0.28,1.29,-0.14     |0.28,1.29,-0.14     |0.28,1.29,-0.14      |
+|Prestige            |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
 |Store tab           |army                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
+
+
+|Level               |11.01-11.10          |
+|--------------------|---------------------|
+|Asset name          |barracks_emp-mod-up11|
+|Bundle name         |barracks_emp-mod-up11|
+|Icon camera position|-50.51,41.92,41.7    |
+|Icon lookat position|0.28,1.29,-0.14      |
+|Prestige            |true                 |
+|Store tab           |(not found)          |
 
 
 ## Uninterpreted stats
@@ -154,5 +178,11 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|4         |6         |8         |15        |18        |21        |32        |36        |40        |44         |
 |Xp    |2         |3         |4         |5         |6         |7         |8         |9         |10        |11         |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|48         |
+|Xp    |12         |
 
 

@@ -26,6 +26,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health    |10800   |11420   |12080   |12780   |13520   |14320   |15160          |16070          |17030          |18050          |
 
 
+|Level     |11             |
+|----------|---------------|
+|Armor type|bruiserInfantry|
+|Health    |18662          |
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -35,12 +41,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 4](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|1m33s                                   |
+|Training cost|750$                                    |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
 |Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|3500000$|
 
 
 ### Movement stats
@@ -87,15 +106,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|950|1000|1060|1120|1190|1260|1330|1410|1490|1580|
 
 
+|Level          |11  |
+|---------------|----|
+|Damage per shot|1634|
+
+
 ### Projectile
 
-  * Splash damage percentages: 100,100
+|Level                       |1      |2      |3      |4      |5      |6      |7      |8      |9      |10     |
+|----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|Displayed damage per second |1360   |1430   |1510   |1600   |1700   |1800   |1900   |2010   |2130   |2260   |
+|Calculated damage per second|513    |540    |572    |605    |643    |681    |718    |762    |805    |854    |
+|Calculated damage per cycle |4750   |5000   |5300   |5600   |5950   |6300   |6650   |7050   |7450   |7900   |
+|Splash damage percentages   |100,100|100,100|100,100|100,100|100,100|100,100|100,100|100,100|100,100|100,100|
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1360|1430|1510|1600|1700|1800|1900|2010|2130|2260|
-|Calculated damage per second|513 |540 |572 |605 |643 |681 |718 |762 |805 |854 |
-|Calculated damage per cycle |4750|5000|5300|5600|5950|6300|6650|7050|7450|7900|
+
+|Level                       |11    |
+|----------------------------|------|
+|Displayed damage per second |2337  |
+|Calculated damage per second|883   |
+|Calculated damage per cycle |8170  |
+|Splash damage percentages   |100100|
 
 
   * Cannons per sequence: 1
@@ -109,6 +140,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level             |1                                                                                                                                                                                                                                                                                                                                          |2                                                                                                                                                                                                                                                                                                                                          |3                                                                                                                                                                                                                                                                                                                                          |4                                                                                                                                                                                                                                                                                                                                          |5                                                                                                                                                                                                                                                                                                                                          |6                                                                                                                                                                                                                                                                                                                                          |7                                                                                                                                                                                                                                                                                                                                          |8                                                                                                                                                                                                                                                                                                                                          |9                                                                                                                                                                                                                                                                                                                                          |10                                                                                                                                                                                                                                                                                                                                         |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Damage multipliers|**(560)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(670)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(950)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(940)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(930)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(900)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(880)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(840)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|**(760)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|
+
+
+|Level             |11                                                                                                                                                                                                                                                                                                                                         |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Damage multipliers|**(900)**: Wall, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(20)**: Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(0)**: Flying infantry, Flying vehicle, Trap|
 
 
 ## Internal stats
@@ -142,9 +178,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1360|1430|1510|1600|1700|1800|1900|2010|2130|2260|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|1360       |1430       |1510       |1600       |1700       |1800       |1900       |2010       |2130       |2260       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|2337                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -162,9 +207,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |120401|120402|120403|120404|120405|120406|120407|120408|120409|120410|
-|Point value|3     |3.600 |4.200 |4.800 |5.400 |6     |6.600 |7.200 |7.800 |9     |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |60401|60402|60403|60404|60405|60406|60407|60408|60409|60410|
+|Point value|3    |3.600|4.200|4.800|5.400|6    |6.600|7.200|7.800|9    |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |60411|
+|Point value|9    |
 
 

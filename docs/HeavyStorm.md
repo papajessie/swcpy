@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|3200|3840|4480|5120|5760|6400|7040|7680|8320|9600|
 
 
+|Level |11   |
+|------|-----|
+|Health|10368|
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 6](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|2m4s                                    |
+|Training cost|1000$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w2d    |
 |Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|3500000$|
 
 
 ### Movement stats
@@ -87,6 +105,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|177|213|248|283|319|354|389|425|460|531|
 
 
+|Level          |11 |
+|---------------|---|
+|Damage per shot|573|
+
+
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
@@ -94,6 +117,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |520 |626 |729 |832 |938 |1041|1144|1250|1352|1561|
 |Calculated damage per second|505 |608 |708 |808 |911 |1011|1111|1214|1314|1517|
 |Calculated damage per cycle |1770|2130|2480|2830|3190|3540|3890|4250|4600|5310|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |1561|
+|Calculated damage per second|1637|
+|Calculated damage per cycle |5730|
 
 
   * Cannons per sequence: 1
@@ -139,9 +169,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1  |2  |3  |4  |5  |6   |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|----|----|----|----|----|
-|Displayed damage per second|520|626|729|832|938|1041|1144|1250|1352|1561|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|520        |626        |729        |832        |938        |1041       |1144       |1250       |1352       |1561       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|1561                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -159,9 +198,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |120601|120602|120603|120604|120605|120606|120607|120608|120609|120610|
-|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9     |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|------|-----|
+|Order      |60601|60602|60603|60604|60605|60606|60607|60608|60609 |60610|
+|Point value|4    |4.800|5.600|6.400|7.200|8    |8.800|9.600|10.400|12   |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |60611|
+|Point value|12   |
 
 

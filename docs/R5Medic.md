@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|11700|12400|13100|13900|14600|15300|16000|16800|18100|19500|
 
 
+|Level |11   |
+|------|-----|
+|Health|20340|
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -33,6 +38,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|1m40s                            |1m50s                                  |1m55s                                  |2m                                     |2m5s                                   |2m10s                                  |2m15s                                  |2m20s                                  |2m25s                                  |2m30s                                   |
 |Training cost|250$                             |350$                                   |450$                                   |550$                                   |650$                                   |750$                                   |850$                                   |1000$                                  |1050$                                  |1150$                                   |
 |Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+
+
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|2m35s                                   |
+|Training cost|1250$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -92,6 +104,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second|1550|1710|1810|1910|2010|2110|2210|2310|2490|2690|
 
 
+|Level                      |11  |
+|---------------------------|----|
+|Displayed damage per second|6400|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 1.750s
   * Directional: Yes
@@ -119,6 +136,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Adv heal damage multipliers|**(1637)**: Adv heal infantry, Adv heal infantry hero, **(1091)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(1738)**: Adv heal infantry, Adv heal infantry hero, **(1158)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(1838)**: Adv heal infantry, Adv heal infantry hero, **(1226)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(1940)**: Adv heal infantry, Adv heal infantry hero, **(1293)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2041)**: Adv heal infantry, Adv heal infantry hero, **(1361)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2143)**: Adv heal infantry, Adv heal infantry hero, **(1428)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2243)**: Adv heal infantry, Adv heal infantry hero, **(1495)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2344)**: Adv heal infantry, Adv heal infantry hero, **(1563)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2525)**: Adv heal infantry, Adv heal infantry hero, **(1684)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|**(2727)**: Adv heal infantry, Adv heal infantry hero, **(1818)**: Adv heal heavy infantry, Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|
 
 
+|Level                      |11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Adv heal damage multipliers|**(2848)**: Adv heal infantry, Adv heal infantry hero, **(1898)**: Adv heal heavy infantry, **(1818)**: Adv heal heavy infantry hero, **(0)**: Adv heal droideka, Adv heal flying infantry, Adv heal flying vehicle, Adv heal headquarters, Adv heal heavy vehicle, Adv heal heavy vehicule hero, Adv heal light vehicle, Adv heal other building, Adv heal ressource generator, Adv heal shield, Adv heal shield generator, Adv heal storage, Adv heal support troop, Adv heal trap, Adv heal turret, Adv heal vehicule hero, Adv heal wall|
+
+
 
 ## Internal stats
 
@@ -130,6 +152,11 @@ These stats internal to the system link different parts of data together.
 |Level      |1           |2           |3           |4           |5           |6           |7           |8           |9           |10           |
 |-----------|------------|------------|------------|------------|------------|------------|------------|------------|------------|-------------|
 |Apply buffs|buffAdvHeal1|buffAdvHeal2|buffAdvHeal3|buffAdvHeal4|buffAdvHeal5|buffAdvHeal6|buffAdvHeal7|buffAdvHeal8|buffAdvHeal9|buffAdvHeal10|
+
+
+|Level      |11           |
+|-----------|-------------|
+|Apply buffs|buffAdvHeal11|
 
 
 ## Presentation stats
@@ -162,12 +189,24 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ALLIES
   * Unlocked by event: true
 
-|Level                      |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|1550 |1710       |1810       |1910       |2010       |2110       |2210       |2310       |2490       |2690       |
-|Icon unlock position       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|1550       |1710       |1810       |1910       |2010       |2110       |2210       |2310       |2490       |2690       |
+|Icon unlock position       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |1,1,1      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|6400                         |
+|Icon unlock position       |(not found)                  |
+|Icon unlock rotation       |(not found)                  |
+|Icon unlock scale          |(not found)                  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -187,9 +226,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |134401|134402|134403|134404|134405|134406|134407|134408|134409|134410|
-|Point value|5     |6     |7     |8     |9     |10    |11    |12    |13    |15    |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |61201|61202|61203|61204|61205|61206|61207|61208|61209|61210|
+|Point value|5    |6    |7    |8    |9    |10   |11   |12   |13   |15   |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |61211|
+|Point value|15   |
 
 

@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|8000|9600|11200|12800|14400|16000|17600|19200|20800|24000|
 
 
+|Level |11   |
+|------|-----|
+|Health|25920|
+
+
 ### Training stats
 
 |Level        |1                                          |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Hero Command 5](rebelTacticalCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|10m20s                                 |
+|Training cost|5000$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |1h   |2h30m |7h    |20h   |2d12h  |4d     |6d     |1w1d    |1w5d    |
 |Upgrade requirements|3000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |2w      |
+|Upgrade requirements|4250000$|
 
 
 ### Movement stats
@@ -95,6 +113,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
 
 
+|Level                      |11  |
+|---------------------------|----|
+|Displayed damage per second|6000|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 2.200s
   * Directional: Yes
@@ -122,6 +145,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Hero repair damage multipliers|**(2310)**: Hero repair light vehicle, **(1733)**: Hero repair heavy vehicle, **(1155)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(2079)**: Hero repair heavy vehicle, **(2772)**: Hero repair light vehicle, **(1386)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3234)**: Hero repair light vehicle, **(2426)**: Hero repair heavy vehicle, **(1617)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3696)**: Hero repair light vehicle, **(2772)**: Hero repair heavy vehicle, **(1848)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(2079)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(3119)**: Hero repair heavy vehicle, **(4158)**: Hero repair light vehicle, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3465)**: Hero repair heavy vehicle, **(4620)**: Hero repair light vehicle, **(2310)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3812)**: Hero repair heavy vehicle, **(5082)**: Hero repair light vehicle, **(2541)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(4158)**: Hero repair heavy vehicle, **(5544)**: Hero repair light vehicle, **(2772)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3003)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(4505)**: Hero repair heavy vehicle, **(6006)**: Hero repair light vehicle, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|**(3465)**: Hero repair heavy vehicule hero, Hero repair vehicule hero, **(5198)**: Hero repair heavy vehicle, **(6930)**: Hero repair light vehicle, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|
 
 
+|Level                         |11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Hero repair damage multipliers|**(3465)**: Hero repair heavy vehicule hero, **(5600)**: Hero repair vehicule hero, **(5613)**: Hero repair heavy vehicle, **(7484)**: Hero repair light vehicle, **(0)**: Hero repair droideka, Hero repair flying infantry, Hero repair flying vehicle, Hero repair headquarters, Hero repair heavy infantry, Hero repair heavy infantry hero, Hero repair infantry, Hero repair infantry hero, Hero repair other building, Hero repair ressource generator, Hero repair shield, Hero repair shield generator, Hero repair storage, Hero repair support troop, Hero repair trap, Hero repair turret, Hero repair wall|
+
+
 
 ## Internal stats
 
@@ -133,6 +161,12 @@ These stats internal to the system link different parts of data together.
 |-----------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------------|
 |Apply buffs|buffHeroRepair1|buffHeroRepair2|buffHeroRepair3|buffHeroRepair4|buffHeroRepair5|buffHeroRepair6|buffHeroRepair7|buffHeroRepair8|buffHeroRepair9|buffHeroRepair10|
 |Hero data  |hero1          |hero2          |hero3          |hero4          |hero5          |hero6          |hero7          |hero8          |hero9          |hero10          |
+
+
+|Level      |11              |
+|-----------|----------------|
+|Apply buffs|buffHeroRepair11|
+|Hero data  |hero10          |
 
 
 ## Presentation stats
@@ -164,9 +198,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ALLIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2200|2640|3080|3520|3960|4400|4840|5280|5720|6600|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|2200       |2640       |3080       |3520       |3960       |4400       |4840       |5280       |5720       |6600       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|6000                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -188,7 +231,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |210501|210502|210503|210504|210505|210506|210507|210508|210509|210510|
+|Order      |200401|200402|200403|200404|200405|200406|200407|200408|200409|200410|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |200411|
+|Point value|60    |
 
 

@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|3600|3800|4000|4300|4500|4700|4900|5200|5600|19500|
 
 
+|Level |11   |
+|------|-----|
+|Health|27840|
+
+
 ### Training stats
 
 |Level        |1                               |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
@@ -33,6 +38,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Training time|1m20s                           |1m28s                                 |1m32s                                 |1m36s                                 |1m40s                                 |1m44s                                 |1m48s                                 |1m52s                                 |1m56s                                 |2m                                     |
 |Training cost|200$                            |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |800$                                  |840$                                  |920$                                   |
 |Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+
+
+|Level        |11                                     |
+|-------------|---------------------------------------|
+|Training time|2m4s                                   |
+|Training cost|1000$                                  |
+|Building     |[Research Lab 11](rebelOffenseLab.html)|
 
 
 ### Upgrading stats
@@ -92,6 +104,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second|860|910|970|1020|1070|1130|1180|1230|1330|1440|
 
 
+|Level                      |11 |
+|---------------------------|---|
+|Displayed damage per second|144|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 2.750s
   * Directional: Yes
@@ -119,6 +136,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Adv repair damage multipliers|**(1944)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2064)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2184)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2304)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2424)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2544)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2664)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(2784)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(3000)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|**(3240)**: Adv repair heavy vehicle, Adv repair heavy vehicule hero, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|
 
 
+|Level                        |11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Adv repair damage multipliers|**(3240)**: Adv repair heavy vehicule hero, **(3384)**: Adv repair heavy vehicle, Adv repair light vehicle, Adv repair vehicule hero, **(0)**: Adv repair droideka, Adv repair flying infantry, Adv repair flying vehicle, Adv repair headquarters, Adv repair heavy infantry, Adv repair heavy infantry hero, Adv repair infantry, Adv repair infantry hero, Adv repair other building, Adv repair ressource generator, Adv repair shield, Adv repair shield generator, Adv repair storage, Adv repair support troop, Adv repair trap, Adv repair turret, Adv repair wall|
+
+
 
 ## Internal stats
 
@@ -130,6 +152,11 @@ These stats internal to the system link different parts of data together.
 |Level      |1             |2             |3             |4             |5             |6             |7             |8             |9             |10             |
 |-----------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|---------------|
 |Apply buffs|buffAdvRepair1|buffAdvRepair2|buffAdvRepair3|buffAdvRepair4|buffAdvRepair5|buffAdvRepair6|buffAdvRepair7|buffAdvRepair8|buffAdvRepair9|buffAdvRepair10|
+
+
+|Level      |11             |
+|-----------|---------------|
+|Apply buffs|buffAdvRepair11|
 
 
 ## Presentation stats
@@ -162,12 +189,24 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ALLIES
   * Unlocked by event: true
 
-|Level                      |1    |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|860  |910        |970        |1020       |1070       |1130       |1180       |1230       |1330       |1440       |
-|Icon unlock position       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,0,0|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1,1,1|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|860        |910        |970        |1020       |1070       |1130       |1180       |1230       |1330       |1440       |
+|Icon unlock position       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock rotation       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Icon unlock scale          |1,1,1      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_reb|
+|Displayed damage per second|144                          |
+|Icon unlock position       |(not found)                  |
+|Icon unlock rotation       |(not found)                  |
+|Icon unlock scale          |(not found)                  |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -189,7 +228,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |234501|234502|234503|234504|234505|234506|234507|234508|234509|234510|
+|Order      |261201|261202|261203|261204|261205|261206|261207|261208|261209|261210|
 |Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+
+
+|Level      |11    |
+|-----------|------|
+|Order      |261211|
+|Point value|12    |
 
 

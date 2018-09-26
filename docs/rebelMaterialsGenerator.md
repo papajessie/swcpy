@@ -30,12 +30,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time            |1m         |30m        |2h         |12h         |20h         |1d12h       |2d12h       |4d          |6d          |1w3d        |
 
 
+|Level           |11          |
+|----------------|------------|
+|Produce         |2680  All./h|
+|Maximum capacity|160320  All.|
+|Health          |17100       |
+|Max quantity    |6           |
+|Time            |1w1d        |
+
+
 ### Training stats
 
 |Level        |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
 |Training cost|750$                          |1500$                         |10000$                        |30000$                        |60000$                        |175000$                       |350000$                       |750000$                       |2000000$                      |3500000$                       |
 |Building     |[Headquarters 1](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+
+
+|Level        |11                             |
+|-------------|-------------------------------|
+|Training cost|4550000$                       |
+|Building     |[Headquarters 11](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -73,7 +88,22 @@ These are all sorts of user interface settings, that should not interfere with g
 |Fill state bundle name|refinery_rbl-mod-up1_fillStates|refinery_rbl-mod-up2_fillStates|refinery_rbl-mod-up3_fillStates|refinery_rbl-mod-up4_fillStates|refinery_rbl-mod-up5_fillStates|refinery_rbl-mod-up6_fillStates|refinery_rbl-mod-up7_fillStates|refinery_rbl-mod-up7_fillStates|refinery_rbl-mod-up7_fillStates|refinery_rbl-mod-up7_fillStates|
 |Icon camera position  |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.13,29.12,32.1              |-36.15,29.07,32.11             |-36.15,29.07,32.11             |-36.15,29.07,32.11             |
 |Icon lookat position  |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.29,1.06,-0.13                |0.27,1.01,-0.12                |0.27,1.01,-0.12                |0.27,1.01,-0.12                |
+|Prestige              |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |
 |Store tab             |resources                      |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |
+
+
+|Level                 |11                             |
+|----------------------|-------------------------------|
+|Asset name            |refinery_rbl-mod-up11          |
+|Buff asset offset     |-1.2,0.4,-2                    |
+|Bundle name           |refinery_rbl-mod-up11          |
+|Collect notify        |125                            |
+|Fill state asset name |refinery_rbl-mod-up7_fillStates|
+|Fill state bundle name|refinery_rbl-mod-up7_fillStates|
+|Icon camera position  |-36.15,29.07,32.11             |
+|Icon lookat position  |0.27,1.01,-0.12                |
+|Prestige              |true                           |
+|Store tab             |(not found)                    |
 
 
 ## Uninterpreted stats
@@ -86,5 +116,11 @@ Seriously, we don't really know what to do with these.
 |------|-|-|-|--|--|--|--|--|--|--|
 |Max XP|2|4|9|16|25|36|42|48|54|60|
 |Xp    |1|2|3|4 |5 |6 |7 |8 |9 |10|
+
+
+|Level |11|
+|------|--|
+|Max XP|66|
+|Xp    |11|
 
 

@@ -29,12 +29,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time            |1m        |15m        |2h         |12h        |1d          |1d12h       |2d          |3d          |6d           |1w3d         |
 
 
+|Level           |11           |
+|----------------|-------------|
+|Maximum capacity|1800000  All.|
+|Health          |22800        |
+|Max quantity    |4            |
+|Time            |1w1d         |
+
+
 ### Training stats
 
 |Level        |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
 |Training cost|500$                          |1000$                         |6500$                         |20000$                        |40000$                        |115000$                       |230000$                       |500000$                       |1500000$                      |2500000$                       |
 |Building     |[Headquarters 1](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+
+
+|Level        |11                             |
+|-------------|-------------------------------|
+|Training cost|3750000$                       |
+|Building     |[Headquarters 11](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -63,16 +77,17 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 170
 
-|Level                 |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8-10                            |
-|----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Asset name            |warehouse_rbl-mod-up1           |warehouse_rbl-mod-up2           |warehouse_rbl-mod-up3           |warehouse_rbl-mod-up4           |warehouse_rbl-mod-up5           |warehouse_rbl-mod-up6           |warehouse_rbl-mod-up7           |warehouse_rbl-mod-up8           |
-|Buff asset offset     |-2.8,0,-2.8                     |-2.8,0,-2.8                     |-2.8,0,-2.8                     |-3.2,0.4,-3.2                   |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |
-|Bundle name           |warehouse_rbl-mod-up1           |warehouse_rbl-mod-up2           |warehouse_rbl-mod-up3           |warehouse_rbl-mod-up4           |warehouse_rbl-mod-up5           |warehouse_rbl-mod-up6           |warehouse_rbl-mod-up7           |warehouse_rbl-mod-up8           |
-|Fill state asset name |warehouse_rbl-mod-up1_fillStates|warehouse_rbl-mod-up2_fillStates|warehouse_rbl-mod-up3_fillStates|warehouse_rbl-mod-up4_fillStates|warehouse_rbl-mod-up5_fillStates|warehouse_rbl-mod-up6_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|
-|Fill state bundle name|warehouse_rbl-mod-up1_fillStates|warehouse_rbl-mod-up2_fillStates|warehouse_rbl-mod-up3_fillStates|warehouse_rbl-mod-up4_fillStates|warehouse_rbl-mod-up5_fillStates|warehouse_rbl-mod-up6_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|
-|Icon camera position  |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.05              |-38.8,31.03,34.18               |
-|Icon lookat position  |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.18                 |0.1,1.05,-0.25                  |
-|Store tab             |resources                       |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |
+|Level                 |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8-10                            |11                              |
+|----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+|Asset name            |warehouse_rbl-mod-up1           |warehouse_rbl-mod-up2           |warehouse_rbl-mod-up3           |warehouse_rbl-mod-up4           |warehouse_rbl-mod-up5           |warehouse_rbl-mod-up6           |warehouse_rbl-mod-up7           |warehouse_rbl-mod-up8           |warehouse_rbl-mod-up11          |
+|Buff asset offset     |-2.8,0,-2.8                     |-2.8,0,-2.8                     |-2.8,0,-2.8                     |-3.2,0.4,-3.2                   |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |-1.0, 0.0, -1.8                 |
+|Bundle name           |warehouse_rbl-mod-up1           |warehouse_rbl-mod-up2           |warehouse_rbl-mod-up3           |warehouse_rbl-mod-up4           |warehouse_rbl-mod-up5           |warehouse_rbl-mod-up6           |warehouse_rbl-mod-up7           |warehouse_rbl-mod-up8           |warehouse_rbl-mod-up11          |
+|Fill state asset name |warehouse_rbl-mod-up1_fillStates|warehouse_rbl-mod-up2_fillStates|warehouse_rbl-mod-up3_fillStates|warehouse_rbl-mod-up4_fillStates|warehouse_rbl-mod-up5_fillStates|warehouse_rbl-mod-up6_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|
+|Fill state bundle name|warehouse_rbl-mod-up1_fillStates|warehouse_rbl-mod-up2_fillStates|warehouse_rbl-mod-up3_fillStates|warehouse_rbl-mod-up4_fillStates|warehouse_rbl-mod-up5_fillStates|warehouse_rbl-mod-up6_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|warehouse_rbl-mod-up7_fillStates|
+|Icon camera position  |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.11              |-36.15,29.07,32.05              |-38.8,31.03,34.18               |-38.8,31.03,34.18               |
+|Icon lookat position  |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.12                 |0.27,1.01,-0.18                 |0.1,1.05,-0.25                  |0.1,1.05,-0.25                  |
+|Prestige              |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |true                            |
+|Store tab             |resources                       |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |
 
 
 ## Uninterpreted stats
@@ -85,5 +100,11 @@ Seriously, we don't really know what to do with these.
 |------|-|-|-|-|--|--|--|--|--|--|
 |Max XP|1|2|6|8|10|12|14|24|36|40|
 |Xp    |1|2|3|4|5 |6 |7 |8 |9 |10|
+
+
+|Level |11|
+|------|--|
+|Max XP|44|
+|Xp    |11|
 
 

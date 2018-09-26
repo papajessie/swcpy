@@ -164,6 +164,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|3600 |3600 |3600 |3600 |3600 |3600 |3600 |3600 |3600 |3600 |
 
 
+|Level          |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health         |6337 |6609 |6920 |7270 |7620 |8009 |8398 |8786 |9175 |9603 |
+|Original health|3888 |3888 |3888 |3888 |3888 |3888 |3888 |3888 |3888 |3888 |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                       |02.01-2.10                             |03.01-3.10                             |04.01-4.10                             |05.01-5.10                             |06.01-6.10                             |07.01-7.10                             |08.01-8.10                             |09.01-9.10                             |10.01-10.10                             |
@@ -173,12 +179,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 1](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11.01-11.10                             |
+|-------------|----------------------------------------|
+|Training time|31s                                     |
+|Training cost|250$                                    |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |15m       |1h        |3h30m     |8h        |1d        |2d        |3d12h     |5d        |1w1d       |
 |Upgrade requirements|600$      |1500$     |4000$     |12500$    |25000$    |100000$   |160000$   |320000$   |1000000$  |1750000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |1w3d       |
+|Upgrade requirements|3500000$   |
 
 
 ### Movement stats
@@ -280,6 +299,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|390  |390  |390  |390  |390  |390  |390  |390  |390  |390  |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |686  |715  |749  |787  |825  |867  |909  |951  |993  |1039 |
+|Original damage per shot|421  |421  |421  |421  |421  |421  |421  |421  |421  |421  |
+
+
 ### Projectile
 
 |Level                       |01.01|01.02|01.03|01.04|01.05|01.06|01.07|01.08|01.09|01.10|
@@ -352,6 +377,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |3175 |3315 |3470 |3645 |3820 |4015 |4210 |4405 |4600 |4815 |
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |300  |300  |300  |300  |300  |300  |300  |300  |300  |300  |
+|Calculated damage per second|2286 |2383 |2496 |2623 |2750 |2890 |3030 |3170 |3310 |3463 |
+|Calculated damage per cycle |3430 |3575 |3745 |3935 |4125 |4335 |4545 |4755 |4965 |5195 |
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 1.500s
   * Directional: Yes
@@ -380,8 +412,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Bullet: fx_blaster_beam_r_sm
   * Bundle name: sandtrooper_emp-ani
   * Death animation: buffFireBurn:15
-  * Decal asset name: troop_stotrper_emp
-  * Decal bundle name: troop_stotrper_emp
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: infantry
@@ -397,9 +427,22 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|302       |362       |390       |445       |501       |557       |612       |668       |724       |835        |
+|Level                      |01.01-1.10        |02.01-2.10        |03.01-3.10        |04.01-4.10        |05.01-5.10        |06.01-6.10        |07.01-7.10        |08.01-8.10        |09.01-9.10        |10.01-10.10       |
+|---------------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+|Decal asset name           |troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|
+|Decal bundle name          |troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|troop_stotrper_emp|
+|Deploy vfx                 |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |
+|Displayed damage per second|302               |362               |390               |445               |501               |557               |612               |668               |724               |835               |
+|Prestige                   |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Decal asset name           |(not found)                  |
+|Decal bundle name          |(not found)                  |
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|300                          |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -419,7 +462,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |120101    |120102    |120103    |120104    |120105    |120106    |120107    |120108    |120109    |120110     |
+|Order      |60101     |60102     |60103     |60104     |60105     |60106     |60107     |60108     |60109     |60110      |
 |Point value|1         |1.200     |1.400     |1.600     |1.800     |2         |2.200     |2.400     |2.600     |3          |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |60111      |
+|Point value|3          |
 
 

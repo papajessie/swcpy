@@ -100,12 +100,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time        |4h        |8h        |16h       |1d        |2d        |2d        |3d        |4d        |1w        |1w5d       |
 
 
+|Level       |11.01-11.10|
+|------------|-----------|
+|Health      |22800      |
+|Max quantity|3          |
+|Time        |1w3d       |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                    |02.01-2.10                    |03.01-3.10                    |04.01-4.10                    |05.01-5.10                    |06.01-6.10                    |07.01-7.10                    |08.01-8.10                    |09.01-9.10                    |10.01-10.10                    |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
 |Training cost|18000$                        |20000$                        |30000$                        |60000$                        |100000$                       |250000$                       |375000$                       |750000$                       |2000000$                      |3500000$                       |
 |Building     |[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+
+
+|Level        |11.01-11.10                    |
+|-------------|-------------------------------|
+|Training cost|4550000$                       |
+|Building     |[Headquarters 11](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -134,14 +147,15 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 240
 
-|Level               |01.01-1.10         |02.01-2.10         |03.01-3.10         |04.01-4.10         |05.01-5.10         |06.01-6.10         |07.01-7.10, 8.01-8.10, 9.01-9.10, 10.01-10.10|
-|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|---------------------------------------------|
-|Asset name          |factory_rbl-mod-up1|factory_rbl-mod-up2|factory_rbl-mod-up3|factory_rbl-mod-up4|factory_rbl-mod-up5|factory_rbl-mod-up6|factory_rbl-mod-up7                          |
-|Buff asset offset   |-6.6,0.4,2.2       |-6.6,0.4,2.2       |-6.6,0.4,2.2       |-6,0.4,2.2         |-6.4, 0.0, 2.4     |-6.4,0,2.4         |-6.4,0,2.4                                   |
-|Bundle name         |factory_rbl-mod-up1|factory_rbl-mod-up2|factory_rbl-mod-up3|factory_rbl-mod-up4|factory_rbl-mod-up5|factory_rbl-mod-up6|factory_rbl-mod-up7                          |
-|Icon camera position|-63.7,42.08,35.4   |-63.7,42.08,35.4   |-63.7,42.08,35.4   |-66.27,43.75,36.53 |-66.27,43.75,36.53 |-68.83,47.24,40.58 |-68.83,47.24,40.58                           |
-|Icon lookat position|0.13,1.29,-0.1     |0.13,1.29,-0.1     |0.13,1.29,-0.1     |0.09,1.34,-0.38    |0.09,1.34,-0.38    |0.78,2.12,-0.41    |0.78,2.12,-0.41                              |
-|Store tab           |army               |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)                                  |
+|Level               |01.01-1.10         |02.01-2.10         |03.01-3.10         |04.01-4.10         |05.01-5.10         |06.01-6.10         |07.01-7.10, 8.01-8.10, 9.01-9.10, 10.01-10.10|11.01-11.10         |
+|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|---------------------------------------------|--------------------|
+|Asset name          |factory_rbl-mod-up1|factory_rbl-mod-up2|factory_rbl-mod-up3|factory_rbl-mod-up4|factory_rbl-mod-up5|factory_rbl-mod-up6|factory_rbl-mod-up7                          |factory_rbl-mod-up11|
+|Buff asset offset   |-6.6,0.4,2.2       |-6.6,0.4,2.2       |-6.6,0.4,2.2       |-6,0.4,2.2         |-6.4, 0.0, 2.4     |-6.4,0,2.4         |-6.4,0,2.4                                   |-6.4,0,2.4          |
+|Bundle name         |factory_rbl-mod-up1|factory_rbl-mod-up2|factory_rbl-mod-up3|factory_rbl-mod-up4|factory_rbl-mod-up5|factory_rbl-mod-up6|factory_rbl-mod-up7                          |factory_rbl-mod-up11|
+|Icon camera position|-63.7,42.08,35.4   |-63.7,42.08,35.4   |-63.7,42.08,35.4   |-66.27,43.75,36.53 |-66.27,43.75,36.53 |-68.83,47.24,40.58 |-68.83,47.24,40.58                           |-68.83,47.24,40.58  |
+|Icon lookat position|0.13,1.29,-0.1     |0.13,1.29,-0.1     |0.13,1.29,-0.1     |0.09,1.34,-0.38    |0.09,1.34,-0.38    |0.78,2.12,-0.41    |0.78,2.12,-0.41                              |0.78,2.12,-0.41     |
+|Prestige            |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)                                  |true                |
+|Store tab           |army               |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)                                  |(not found)         |
 
 
 ## Uninterpreted stats
@@ -154,5 +168,11 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|2         |3         |4         |5         |12        |14        |16        |18        |20        |33         |
 |Xp    |2         |3         |4         |5         |6         |7         |8         |9         |10        |11         |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|46         |
+|Xp    |12         |
 
 

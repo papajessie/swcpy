@@ -84,6 +84,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per cycle: 0
   * Splash damage percentages: 100
 
+|Level                      |1-9        |10  |
+|---------------------------|-----------|----|
+|Displayed damage per second|(not found)|4800|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 500ms
   * Directional: Yes
@@ -127,6 +132,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ALLIES
   * Tooltip height offset: 1.5
 
+|Level                      |1-9        |10  |
+|---------------------------|-----------|----|
+|Displayed damage per second|(not found)|4800|
+
+
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -142,8 +152,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1|2|3 |4 |5 |6 |7 |8 |9 |10|
-|-----------|-|-|--|--|--|--|--|--|--|--|
-|Point value|7|8|10|11|13|14|15|17|18|21|
+|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----------|------|------|------|------|------|------|------|------|------|------|
+|Order      |210201|210202|210203|210204|210205|210206|210207|210208|210209|210210|
+|Point value|7     |8     |10    |11    |13    |14    |15    |17    |18    |21    |
 
 

@@ -164,6 +164,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original health|16800|16800|16800|16800|16800|16800|16800|16800|16800|16800|
 
 
+|Level          |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health         |31389|32659|34292|36106|37739|39553|41549|43545|45541|47537|
+|Original health|18144|18144|18144|18144|18144|18144|18144|18144|18144|18144|
+
+
 ### Training stats
 
 |Level        |01.01-1.10                       |02.01-2.10                             |03.01-3.10                             |04.01-4.10                             |05.01-5.10                             |06.01-6.10                             |07.01-7.10                             |08.01-8.10                             |09.01-9.10                             |10.01-10.10                             |
@@ -173,12 +179,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 8](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11.01-11.10                             |
+|-------------|----------------------------------------|
+|Training time|3m37s                                   |
+|Training cost|1925$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Upgrade time        |0s        |15m       |1h        |3h30m     |8h        |1d        |2d        |3d12h     |5d        |1w3d       |
 |Upgrade requirements|600$      |1500$     |4000$     |12500$    |25000$    |100000$   |160000$   |320000$   |1000000$  |2000000$   |
+
+
+|Level               |11.01-11.10|
+|--------------------|-----------|
+|Upgrade time        |1w3d       |
+|Upgrade requirements|4000000$   |
 
 
 ### Movement stats
@@ -280,6 +299,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Original damage per shot|3612 |3612 |3612 |3612 |3612 |3612 |3612 |3612 |3612 |3612 |
 
 
+|Level                   |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Damage per shot         |6747 |7020 |7371 |7761 |8112 |8501 |8931 |9360 |9789 |10218|
+|Original damage per shot|3900 |3900 |3900 |3900 |3900 |3900 |3900 |3900 |3900 |3900 |
+
+
 ### Projectile
 
   * Splash damage percentages: 100
@@ -354,6 +379,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |12496|13002|13652|14374|15024|15748|16542|17336|18132|18926|
 
 
+|Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |1813 |1813 |1813 |1813 |1813 |1813 |1813 |1813 |1813 |1813 |
+|Calculated damage per second|4283 |4457 |4680 |4927 |5150 |5397 |5670 |5942 |6215 |6487 |
+|Calculated damage per cycle |13494|14040|14742|15522|16224|17002|17862|18720|19578|20436|
+
+
   * Cannons per sequence: 1
   * Shooting cycle duration: 3.150s
   * Directional: Yes
@@ -398,9 +430,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Texture uid: unittransport_event_troop_snowjumptrooper
 
-|Level                      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second|560       |672       |784       |896       |1008      |1120      |1232      |1344      |1456      |1680       |
+|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|560        |672        |784        |896        |1008       |1120       |1232       |1344       |1456       |1680       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11.01-11.10                  |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|1813                         |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -420,7 +461,13 @@ Seriously, we don't really know what to do with these.
 
 |Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
 |-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |121101    |121102    |121103    |121104    |121105    |121106    |121107    |121108    |121109    |121110     |
+|Order      |60801     |60802     |60803     |60804     |60805     |60806     |60807     |60808     |60809     |60810      |
 |Point value|7         |8.400     |9.800     |11.200    |12.600    |14        |15.400    |16.800    |18.200    |21         |
+
+
+|Level      |11.01-11.10|
+|-----------|-----------|
+|Order      |60811      |
+|Point value|21         |
 
 

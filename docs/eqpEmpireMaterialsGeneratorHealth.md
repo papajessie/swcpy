@@ -183,12 +183,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Time            |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |1w3d        |
 
 
+|Level           |11.01       |11.02       |11.03       |11.04       |11.05       |11.06       |11.07       |11.08       |11.09       |11.10       |
+|----------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
+|Produce         |2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|2680  All./h|
+|Maximum capacity|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|160320  All.|
+|Health          |29925       |30780       |31805       |32832       |34029       |35055       |36252       |37449       |38817       |40014       |
+|Max quantity    |6           |6           |6           |6           |6           |6           |6           |6           |6           |6           |
+|Original health |17100       |17100       |17100       |17100       |17100       |17100       |17100       |17100       |17100       |17100       |
+|Time            |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |1w1d        |
+
+
 ### Training stats
 
 |Level        |01.01-1.10                     |02.01-2.10                     |03.01-3.10                     |04.01-4.10                     |05.01-5.10                     |06.01-6.10                     |07.01-7.10                     |08.01-8.10                     |09.01-9.10                     |10.01-10.10                     |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
 |Training cost|750$                           |2000$                          |10000$                         |30000$                         |60000$                         |175000$                        |350000$                        |750000$                        |2000000$                       |3500000$                        |
 |Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
+
+
+|Level        |11.01-11.10                     |
+|-------------|--------------------------------|
+|Training cost|4550000$                        |
+|Building     |[Headquarters 11](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -226,7 +242,22 @@ These are all sorts of user interface settings, that should not interfere with g
 |Fill state bundle name|refinery_emp-mod-up1_fillStates|refinery_emp-mod-up2_fillStates|refinery_emp-mod-up3_fillStates|refinery_emp-mod-up4_fillStates|refinery_emp-mod-up5_fillStates|refinery_emp-mod-up6_fillStates|refinery_emp-mod-up7_fillStates|refinery_emp-mod-up7_fillStates|refinery_emp-mod-up7_fillStates|refinery_emp-mod-up7_fillStates|
 |Icon camera position  |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.02,32.1              |-36.15,29.07,32.11             |-36.15,29.07,32.11             |-36.15,29.07,32.11             |
 |Icon lookat position  |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,0.96,-0.13                |0.27,1.01,-0.12                |0.27,1.01,-0.12                |0.27,1.01,-0.12                |
+|Prestige              |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |
 |Store tab             |resources                      |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |(not found)                    |
+
+
+|Level                 |11.01-11.10                    |
+|----------------------|-------------------------------|
+|Asset name            |refinery_emp-mod-up11          |
+|Buff asset offset     |-2.2,0.4,-2.2                  |
+|Bundle name           |refinery_emp-mod-up11          |
+|Collect notify        |125                            |
+|Fill state asset name |refinery_emp-mod-up7_fillStates|
+|Fill state bundle name|refinery_emp-mod-up7_fillStates|
+|Icon camera position  |-36.15,29.07,32.11             |
+|Icon lookat position  |0.27,1.01,-0.12                |
+|Prestige              |true                           |
+|Store tab             |(not found)                    |
 
 
 ## Uninterpreted stats
@@ -239,5 +270,11 @@ Seriously, we don't really know what to do with these.
 |------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
 |Max XP|2         |4         |9         |16        |25        |36        |42        |48        |54        |60         |
 |Xp    |1         |2         |3         |4         |5         |6         |7         |8         |9         |10         |
+
+
+|Level |11.01-11.10|
+|------|-----------|
+|Max XP|66         |
+|Xp    |11         |
 
 

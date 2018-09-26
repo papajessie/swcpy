@@ -24,6 +24,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|32m                                     |
+|Training cost|7600$                                   |
+|Building     |[Research Lab 10](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
   * Upgrade time: 5s
@@ -31,6 +38,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level               |1                |2                |3                |4                |5                |6                 |7                 |8                 |9                 |10                |
 |--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|------------------|------------------|------------------|
 |Upgrade requirements|15 data fragments|20 data fragments|30 data fragments|45 data fragments|75 data fragments|105 data fragments|150 data fragments|195 data fragments|270 data fragments|330 data fragments|
+
+
+|Level               |11                |
+|--------------------|------------------|
+|Upgrade requirements|370 data fragments|
 
 
 ### Movement stats
@@ -55,6 +67,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Damage per shot|4820|5200|5580|5960|6340|6740|7120|7500|7880|8260|
 
 
+|Level          |11  |
+|---------------|----|
+|Damage per shot|8488|
+
+
 ### Projectile
 
   * Splash damage percentages: 100,75,50,25,10
@@ -64,6 +81,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
 |Calculated damage per second|2040 |2201 |2362 |2523 |2684 |2853 |3014 |3175 |3336 |3497 |
 |Calculated damage per cycle |19280|20800|22320|23840|25360|26960|28480|30000|31520|33040|
+
+
+|Level                       |11   |
+|----------------------------|-----|
+|Displayed damage per second |33952|
+|Calculated damage per second|3593 |
+|Calculated damage per cycle |33952|
 
 
   * Cannons per sequence: 3
@@ -115,6 +139,15 @@ These are all sorts of user interface settings, that should not interfere with g
 |Displayed damage per second|19280      |20800      |22320      |23840      |25360      |26960      |28480      |30000      |31520      |33040      |
 |Icon unlock position       |0,1.88,0   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |0.6,0.6,0.6|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11         |
+|---------------------------|-----------|
+|Displayed damage per second|33952      |
+|Icon unlock position       |(not found)|
+|Icon unlock scale          |(not found)|
+|Prestige                   |true       |
 
 
 ## Uninterpreted stats
@@ -127,6 +160,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|140701|140702|140703|140704|140705|140706|140707|140708|140709|140710|
+|Order|100901|100902|100903|100904|100905|100906|100907|100908|100909|100910|
+
+
+|Level|11    |
+|-----|------|
+|Order|100911|
 
 

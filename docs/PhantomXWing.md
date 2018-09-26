@@ -117,9 +117,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum X wing target: enemies
   * Sum X wing value: 1
 
-|Level                     |1-3                                                      |4-5                                                      |6-7                                                      |8-9                                                      |10                                                        |
-|--------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|
-|Sum X wing summon visitors|["shp_title_XWingEqpSummon" level 6](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 7](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 8](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 9](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 10](XWingEqpSummon.html)|
+|Level                     |1-3                                                      |4-5                                                      |6-7                                                      |8-9                                                      |10                                                        |11                                                        |
+|--------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+|Sum X wing summon visitors|["shp_title_XWingEqpSummon" level 6](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 7](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 8](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 9](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 10](XWingEqpSummon.html)|["shp_title_XWingEqpSummon" level 11](XWingEqpSummon.html)|
 
 
   * Sum X wing summon die with summoner: No
@@ -143,6 +143,13 @@ These stats internal to the system link different parts of data together.
 |Sum X wing summon uid|sumXWing1    |sumXWing2    |sumXWing3    |sumXWing4    |sumXWing5    |sumXWing6    |sumXWing7    |sumXWing8    |sumXWing9    |sumXWing10    |
 
 
+|Level                |11            |
+|---------------------|--------------|
+|Apply buffs          |buffSumXWing11|
+|Sum X wing details   |sumXWing11    |
+|Sum X wing summon uid|sumXWing11    |
+
+
 ## Presentation stats
 
 These are all sorts of user interface settings, that should not interfere with gameplay.
@@ -163,6 +170,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by campaign: No
   * Unlocked by event: false
   * Unlocked by tournament: No
+
+|Level     |1-10       |11                           |
+|----------|-----------|-----------------------------|
+|Deploy vfx|(not found)|vfx_prestige_deploy_small_reb|
+
 
 ## Uninterpreted stats
 
@@ -186,6 +198,11 @@ Seriously, we don't really know what to do with these.
 
 |Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|400400|400401|400402|400403|400404|400405|400406|400407|400408|400409|
+|Order|320401|320402|320403|320404|320405|320406|320407|320408|320409|320410|
+
+
+|Level|11    |
+|-----|------|
+|Order|320411|
 
 

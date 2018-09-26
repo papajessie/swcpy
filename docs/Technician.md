@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|2000|2400|2800|3200|3600|4000|4400|4800|5200|6000|
 
 
+|Level |11  |
+|------|----|
+|Health|6480|
+
+
 ### Training stats
 
 |Level        |1                                |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
@@ -35,12 +40,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Building     |[Barracks 5](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
+|Level        |11                                      |
+|-------------|----------------------------------------|
+|Training time|2m4s                                    |
+|Training cost|1000$                                   |
+|Building     |[Research Lab 11](empireOffenseLab.html)|
+
+
 ### Upgrading stats
 
 |Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
 |--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
 |Upgrade time        |0s   |30m  |1h30m|5h    |10h   |1d12h  |2d12h  |4d     |6d      |1w2d    |
 |Upgrade requirements|3000$|3000$|6000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+
+
+|Level               |11      |
+|--------------------|--------|
+|Upgrade time        |1w3d    |
+|Upgrade requirements|3500000$|
 
 
 ### Movement stats
@@ -88,11 +106,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Calculated damage per second: 0
   * Calculated damage per cycle: 0
-  * Splash damage percentages: 100,100,100,100
 
-|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|---|----|----|----|----|
-|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|1440|
+|Level                      |1              |2              |3              |4              |5              |6              |7              |8              |9              |10             |
+|---------------------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|Displayed damage per second|480            |576            |672            |768            |864            |960            |1056           |1152           |1248           |1440           |
+|Splash damage percentages  |100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|100,100,100,100|
+
+
+|Level                      |11          |
+|---------------------------|------------|
+|Displayed damage per second|360         |
+|Splash damage percentages  |100100100100|
 
 
   * Cannons per sequence: 1
@@ -122,6 +146,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Repair damage multipliers|**(1080)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(1296)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(1512)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(1728)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(1944)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(2160)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(2376)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(2592)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(2808)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|**(3240)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|
 
 
+|Level                    |11                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Repair damage multipliers|**(3500)**: Repair heavy vehicle, Repair heavy vehicule hero, Repair light vehicle, Repair vehicule hero, **(0)**: Repair droideka, Repair flying infantry, Repair flying vehicle, Repair headquarters, Repair heavy infantry, Repair heavy infantry hero, Repair infantry, Repair infantry hero, Repair other building, Repair ressource generator, Repair shield, Repair shield generator, Repair storage, Repair support troop, Repair trap, Repair turret, Repair wall|
+
+
 
 ## Internal stats
 
@@ -132,6 +161,11 @@ These stats internal to the system link different parts of data together.
 |Level      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10          |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
 |Apply buffs|buffRepair1|buffRepair2|buffRepair3|buffRepair4|buffRepair5|buffRepair6|buffRepair7|buffRepair8|buffRepair9|buffRepair10|
+
+
+|Level      |11          |
+|-----------|------------|
+|Apply buffs|buffRepair11|
 
 
 ## Presentation stats
@@ -159,9 +193,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ALLIES
 
-|Level                      |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|---------------------------|---|---|---|---|---|---|----|----|----|----|
-|Displayed damage per second|480|576|672|768|864|960|1056|1152|1248|1440|
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|480        |576        |672        |768        |864        |960        |1056       |1152       |1248       |1440       |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|360                          |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats
@@ -181,9 +224,15 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |120501|120502|120503|120504|120505|120506|120507|120508|120509|120510|
-|Point value|4     |4.800 |5.600 |6.400 |7.200 |8     |8.800 |9.600 |10.400|12    |
+|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9     |10   |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|------|-----|
+|Order      |60501|60502|60503|60504|60505|60506|60507|60508|60509 |60510|
+|Point value|4    |4.800|5.600|6.400|7.200|8    |8.800|9.600|10.400|12   |
+
+
+|Level      |11   |
+|-----------|-----|
+|Order      |60511|
+|Point value|12   |
 
 

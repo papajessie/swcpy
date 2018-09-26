@@ -84,7 +84,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second |543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Displayed damage per second |543|950|1519|1736|1953|2170|2387|2604|2821|394 |
 |Calculated damage per second|293|513|821 |938 |1055|1172|1290|1407|1524|1759|
 |Calculated damage per cycle |543|950|1519|1736|1953|2170|2387|2604|2821|3255|
 
@@ -134,9 +134,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
 
-|Level                      |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|---|---|----|----|----|----|----|----|----|----|
-|Displayed damage per second|543|950|1519|1736|1953|2170|2387|2604|2821|3255|
+|Level                      |1  |2  |3   |4   |5   |6   |7   |8   |9   |10 |
+|---------------------------|---|---|----|----|----|----|----|----|----|---|
+|Displayed damage per second|543|950|1519|1736|1953|2170|2387|2604|2821|394|
 
 
 ## Uninterpreted stats
@@ -156,7 +156,7 @@ Seriously, we don't really know what to do with these.
 
 |Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |321701|321702|321703|321704|321705|321706|321707|321708|321709|321710|
+|Order      |462201|462202|462203|462204|462205|462206|462207|462208|462209|462210|
 |Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
 
 

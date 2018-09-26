@@ -132,7 +132,7 @@ Seriously, we don't really know what to do with these.
   * Auto spawn rate scale: 3
   * Auto spawn spreading scale: 3
   * Max scale: No
-  * Order: 244908
+  * Order: 290208
   * Point value: 48
   * Seeks target: Yes
   * Splash: 0

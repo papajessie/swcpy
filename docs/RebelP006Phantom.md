@@ -90,10 +90,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 1
   * Calculated damage per second: 500
   * Calculated damage per cycle: 1
   * Splash damage percentages: 100,80,50,20,10
+
+|Level                      |1-9|10  |
+|---------------------------|---|----|
+|Displayed damage per second|1  |2928|
+
 
   * Cannons per sequence: 1
   * Shooting cycle duration: 2ms
@@ -178,7 +182,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Arcs: No
   * Asset name: phantom_neu-ani
   * Bundle name: phantom_neu-ani
-  * Displayed damage per second: 1
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: turret
@@ -186,7 +189,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 0,0,0
   * Icon lookat position: 0,0,0
   * Name: Turret Corruptor AoE
-  * Secondary attack displayed damage per second: 1
   * Secondary attack name: Corruptor AoE
   * Secondary attack persistent scaling: 0
   * Secondary attack shot arcs: No
@@ -199,6 +201,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: false
   * Unlocked by tournament: No
 
+|Level                      |1-9|10  |
+|---------------------------|---|----|
+|Displayed damage per second|1  |2928|
+
+
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
@@ -210,7 +217,6 @@ Seriously, we don't really know what to do with these.
   * Invulnerable is refreshing: No
   * Invulnerable tags: invulnerable
   * Max scale: No
-  * Order: 400200
   * Point value: 0
   * Secondary attack arming delay: 0
   * Secondary attack clip count: 1
@@ -223,4 +229,9 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Strict cool down: No
   * Xp: 0
+
+|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|-----|------|------|------|------|------|------|------|------|------|------|
+|Order|320501|320502|320503|320504|320505|320506|320507|320508|320509|320510|
+
 
