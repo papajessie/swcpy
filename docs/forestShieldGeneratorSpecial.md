@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |--------------------|---------|---------|-----------|
 |Activation radius   |12       |12       |32         |
 |Side                |Rebellion|Rebellion|Other units|
-|Shield health points|7        |5        |3          |
+|Shield health points|73600 (7)|50000 (5)|30000 (3)  |
 |Shield range points |9        |8        |10         |
 
 

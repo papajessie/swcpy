@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
-  * Shield health points: 1
+  * Shield health points: 10000 (1)
   * Shield range points: 7
   * Time: 0s
   * Type: shield_generator

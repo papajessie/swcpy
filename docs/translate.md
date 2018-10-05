@@ -2491,6 +2491,7 @@ category: strings
   * **context_UpgradePrestige**: 'Upgrade'
   * **context_Upgrade_Defense**: 'Research'
   * **context_Upgrade_Troops**: 'Research'
+  * **crate_desc_halfSkinOutageCompCrate**: 'Free Crate For Outage During Conflict Outbreak'
   * **crate_desc_luckyBreakCompCrate**: 'Free Crate For Technical Issues During "Lucky Break" Event'
   * **crate_tier_lc_bronzium**: 'Bronzium Crate'
   * **crate_tier_lc_durasteel**: 'Durasteel Crate'

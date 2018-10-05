@@ -22,22 +22,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: shield_generator
 
-|Level               |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|--------------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Health              |5000|7500|9000|12000|14500|17000|19500|22000|24500|27000|
-|Max quantity        |2   |2   |2   |2    |2    |3    |3    |3    |4    |4    |
-|Shield health points|1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|Shield range points |3   |3   |3   |4    |4    |4    |4    |4    |4    |4    |
-|Time                |4h  |8h  |16h |1d   |2d   |3d   |4d   |6d   |1w3d |2w   |
+|Level               |1        |2        |3        |4        |5        |6        |7        |8        |9        |10         |
+|--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|
+|Health              |5000     |7500     |9000     |12000    |14500    |17000    |19500    |22000    |24500    |27000      |
+|Max quantity        |2        |2        |2        |2        |2        |3        |3        |3        |4        |4          |
+|Shield health points|10000 (1)|20000 (2)|30000 (3)|40000 (4)|50000 (5)|63300 (6)|73600 (7)|83900 (8)|94500 (9)|100000 (10)|
+|Shield range points |3        |3        |3        |4        |4        |4        |4        |4        |4        |4          |
+|Time                |4h       |8h       |16h      |1d       |2d       |3d       |4d       |6d       |1w3d     |2w         |
 
 
-|Level               |11   |
-|--------------------|-----|
-|Health              |28500|
-|Max quantity        |4    |
-|Shield health points|11   |
-|Shield range points |5    |
-|Time                |1w5d |
+|Level               |11         |
+|--------------------|-----------|
+|Health              |28500      |
+|Max quantity        |4          |
+|Shield health points|110000 (11)|
+|Shield range points |5          |
+|Time                |1w5d       |
 
 
 ### Training stats

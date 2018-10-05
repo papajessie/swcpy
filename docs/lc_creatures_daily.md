@@ -11,21 +11,19 @@ This crate expires after 1d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_creatures_samples" (x1 draw)
 
-### Rebellion
-
-  * (2/12) 1 troop sample [Krayt Dragon](RebelKraytDragonCreature)
-  * (2/12) 1 troop sample [Rage Rancor](RebelRageRancor)
-  * (2/12) 2 troop sample [Hunter Rancor](RebelHunterRancor)
-  * (2/12) 2 troop sample [Shadow Rancor](RebelShadowRancor)
-  * (4/12) 2 troop sample [Rancor](promoRancorRebel)
-
 ### Empire
 
-  * (2/12) 1 troop sample [Krayt Dragon](EmpireKraytDragonCreature)
-  * (2/12) 1 troop sample [Rage Rancor](EmpireRageRancor)
-  * (2/12) 2 troop sample [Hunter Rancor](EmpireHunterRancor)
-  * (2/12) 2 troop sample [Shadow Rancor](EmpireShadowRancor)
-  * (4/12) 2 troop sample [Rancor](promoRancorEmpire)
+  * (2/10) 1 troop sample [Rage Rancor](EmpireRageRancor)
+  * (2/10) 2 troop sample [Hunter Rancor](EmpireHunterRancor)
+  * (2/10) 2 troop sample [Shadow Rancor](EmpireShadowRancor)
+  * (4/10) 2 troop sample [Rancor](promoRancorEmpire)
+
+### Rebellion
+
+  * (2/10) 1 troop sample [Rage Rancor](RebelRageRancor)
+  * (2/10) 2 troop sample [Hunter Rancor](RebelHunterRancor)
+  * (2/10) 2 troop sample [Shadow Rancor](RebelShadowRancor)
+  * (4/10) 2 troop sample [Rancor](promoRancorRebel)
 
 ### Fallback for HQ level 10
 

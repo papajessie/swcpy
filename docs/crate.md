@@ -215,6 +215,7 @@ title: Index of crates
   * [cratetitlelcconflictevergreenConflictCratesTreadwellR5MedicevtFragmenttier8 (lc_conflict_evergreenConflictCrates_Treadwell_R5Medic_evtFragment_tier8)](lc_conflict_evergreenConflictCrates_Treadwell_R5Medic_evtFragment_tier8.html)
   * [Ultra Chrome Conflict Crate (lc_conflict_halfskin_a_tier8_20180809)](lc_conflict_halfskin_a_tier8_20180809.html)
   * [cratetitlelcconflicthalfskinatier820180920 (lc_conflict_halfskin_a_tier8_20180920)](lc_conflict_halfskin_a_tier8_20180920.html)
+  * [cratetitlelcconflicthalfskinatier820180920comp (lc_conflict_halfskin_a_tier8_20180920_comp)](lc_conflict_halfskin_a_tier8_20180920_comp.html)
   * [Obsidian Conflict Crate (lc_conflict_halfskin_b_tier7_20180809)](lc_conflict_halfskin_b_tier7_20180809.html)
   * [cratetitlelcconflicthalfskinbtier720180920 (lc_conflict_halfskin_b_tier7_20180920)](lc_conflict_halfskin_b_tier7_20180920.html)
   * [Bronzium Conflict Crate (lc_conflict_halfskin_c_tier6_20180809)](lc_conflict_halfskin_c_tier6_20180809.html)
