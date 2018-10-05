@@ -230,6 +230,12 @@ def initstat():
     global config
     config['statopt']={}
     config['stattranslation']={
+        'customInfoUI2Title': 'Special data 2 title',
+        'customInfoUI2Unit': 'Special data 2 unit',
+        'customInfoUI2Value': 'Special data 2 value',
+        'customInfoUI3Title': 'Special data 3 title',
+        'customInfoUI3Unit': 'Special data 3 unit',
+        'customInfoUI3Value': 'Special data 3 value',
         'bruiserInfantry':'Heavy infantry',
         'bruiserVehicle':'Heavy vehicle',
         'building':'Other building',
@@ -394,6 +400,14 @@ def initstat():
         'upgradeShardUid': 'internal',
         'upgradeTime': 'xupgrade',
         'xp': 'unknown',
+        'customInfoUI2Title': 'attackstats',
+        'deployVfx': 'presentation',
+        'prestige': 'presentation',
+        'customInfoUI2Unit': 'presentation',
+        'customInfoUI2Value': 'attackstats',
+        'customInfoUI3Title': 'attackstats',
+        'customInfoUI3Unit': 'presentation',
+        'customInfoUI3Value': 'attackstats',
         # A few coming from skins
         'textureUid': 'presentation',
         'iconBundleName': 'presentation',
@@ -625,6 +639,7 @@ def initstat():
         'specialAttackVisitors': 'basic',
         'linkedUnit': 'nodisplay',
         'unitCount': 'nodisplay',
+        'unitRotation': 'presentation',
         'specialAttackID': 'nodisplay',
         'specialAttackName': 'nodisplay',
         # below are roles reserved to buildings
@@ -672,6 +687,7 @@ def initstat():
         'trap:disarmConditions': 'basic',
         'trap:rearmCreditsCost': 'basic',
         'trap:rearmMaterialsCost': 'basic',
+        'trap:rearmTime': 'basic',
         'trap:revealAudio': 'presentation',
         'trap:eventData': 'internal',
         'trap:eventType': 'internal',
@@ -720,6 +736,10 @@ def initstat():
         'supportFollowDistance': 'int',
         'targetInRangeModifier': 'int',
         'trainingTime': 'time',
+        'customInfoUI2Title': 'translate',
+        'customInfoUI2Unit': 'translate',
+        'customInfoUI3Title': 'translate',
+        'customInfoUI3Unit': 'translate',
         'unlockPlanet': 'translate',
         'upgradeContraband': 'int',
         'upgradeCredits': 'int',
@@ -814,6 +834,7 @@ def initstat():
         'spawnProtect': 'int',
         'shieldRangePoints': 'int',
         'shieldHealthPoints': 'int',
+        'trap:rearmTime': 'time',
         # placeholder
         '':''
         }
@@ -864,6 +885,7 @@ def initstat():
             config['stathandler'][k]=display_side
         else:
             die('{} is an unknown type. Stopping'.format(type))
+        config['stathandler']['shieldHealthPoints']=display_shieldhealthpoints
     config['stathandler']['equipment:planetIDs']=lambda x:', '.join([display_planet(y) for y in x])
     # Handle automatic translations
     trans={'deathprojectile':'Death attack ','abilityprojectile':'Secondary attack shot ','ability':'Secondary attack ', 'turretprojectile': 'Turret attack ', 'turret':'Turret ', 'trap': 'Trap '}
@@ -939,9 +961,9 @@ def main(argv):
         with open('lastversion.txt') as lastversionfile:
             num=json.load(lastversionfile)
             config['version']=num
+    importlangfile(config['lang'])
     for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk'):
         importfile(file)
-    importlangfile(config['lang'])
     if 'mode' in config:
         mode=config['mode']
     else:
@@ -1051,10 +1073,16 @@ def main(argv):
         if len(elements)==0:
             tmpdict={}
             for u in (data['EquipmentData']).keys():
-                if 'skins' in data['EquipmentData'][u]:
-                    uname=data['EquipmentData'][u]['equipmentID']
-                    if uname not in tmpdict:
-                        tmpdict[uname]=1
+                if 'effectUids' in data['EquipmentData'][u]:
+                    effects=data['EquipmentData'][u]['effectUids']
+                    found=0
+                    for effect in effects:
+                        if 'affectedTroopIds' in data['EquipmentEffectData'][effect]:
+                            found+=1
+                    if found>0:
+                        uname=data['EquipmentData'][u]['equipmentID']
+                        if uname not in tmpdict:
+                            tmpdict[uname]=1
             xelements=sorted(tmpdict.keys())
         else:
             xelements=elements
@@ -1068,15 +1096,44 @@ def main(argv):
         if len(elements)==0:
             tmpdict={}
             for u in (data['EquipmentData']).keys():
-                if 'skins' not in data['EquipmentData'][u]:
-                    uname=data['EquipmentData'][u]['equipmentID']
-                    if uname not in tmpdict:
-                        tmpdict[uname]=1
+                if 'effectUids' in data['EquipmentData'][u]:
+                    effects=data['EquipmentData'][u]['effectUids']
+                    found=0
+                    for effect in effects:
+                        if 'affectedBuildingIds' in data['EquipmentEffectData'][effect]:
+                            found+=1
+                    if found>0:
+                        uname=data['EquipmentData'][u]['equipmentID']
+                        if uname not in tmpdict:
+                            tmpdict[uname]=1
             xelements=sorted(tmpdict.keys())
         else:
             xelements=elements
         for i in xelements:
             analyse_equipment_building(objects,displayed,i)
+    ## Equipment (air)
+    xhelp['airequip']='List the statistics of equipment for air attacks'
+    morehelp['airequip']={'':'building identifier (default: all)'}
+    if ('airequip' in modes):
+        # do something that adds equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['EquipmentData']).keys():
+                if 'effectUids' in data['EquipmentData'][u]:
+                    effects=data['EquipmentData'][u]['effectUids']
+                    found=0
+                    for effect in effects:
+                        if 'affectedSpecialAttackIds' in data['EquipmentEffectData'][effect]:
+                            found+=1
+                    if found>0:
+                        uname=data['EquipmentData'][u]['equipmentID']
+                        if uname not in tmpdict:
+                            tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_equipment_air(objects,displayed,i)
     ## SpecialAttack (air)
     xhelp['air']='List the statistics of equipment for air strikes (special attacks)'
     morehelp['air']={'':'air strike identifier (default: all)'}
@@ -1644,7 +1701,10 @@ def addprojectile(prefix,ob,subunit,data):
     if gss==None:
         gp=dget(data,'gunPosition',None)
         # Heuristic
-        gs=range(1,len(gp.split(","))+1)
+        if gp==None:
+            gs=[1]
+        else:
+            gs=range(1,len(gp.split(","))+1)
     else:
         gs=[ int(x) for x in gss.split(',') ]
         gs=sorted(gs)
@@ -2837,6 +2897,13 @@ def output_md_episode(out,objects,item):
 
 def display_planet(planetId):
     return _('planet_name_'+planetId)
+
+def display_shieldhealthpoints(value):
+    t = data['GameConstants']['shield_health_per_point']['value'].split(' ')
+    s = 'unknown'
+    if int(value)<len(t):
+        s = t[int(value)]
+    return '{0} ({1})'.format(s,value)
 
 def display_float(xx):
     x=float(xx)
