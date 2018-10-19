@@ -37,7 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |-------------|---------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
 |Training time|1m40s                            |1m50s                                  |1m55s                                  |2m                                     |2m5s                                   |2m10s                                  |2m15s                                  |2m20s                                  |2m25s                                  |2m30s                                   |
 |Training cost|250$                             |350$                                   |450$                                   |550$                                   |650$                                   |750$                                   |850$                                   |1000$                                  |1050$                                  |1150$                                   |
-|Building     |[Barracks 2](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Building     |[Barracks 1](empireBarracks.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
 
 
 |Level        |11                                      |
@@ -106,7 +106,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                      |11  |
 |---------------------------|----|
-|Displayed damage per second|6400|
+|Displayed damage per second|2790|
 
 
   * Cannons per sequence: 1
@@ -202,7 +202,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|6400                         |
+|Displayed damage per second|2790                         |
 |Icon unlock position       |(not found)                  |
 |Icon unlock rotation       |(not found)                  |
 |Icon unlock scale          |(not found)                  |

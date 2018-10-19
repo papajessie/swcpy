@@ -100,18 +100,30 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 500ms
   * Target locking: No
 
-|Level          |1  |2-3|4  |5  |6  |7  |8  |9  |10 |11 |
+|Level          |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|304|364|416|468|520|572|624|676|780|842|
+|Damage per shot|304|340|364|416|468|520|572|624|676|780|
+
+
+|Level          |11 |
+|---------------|---|
+|Damage per shot|842|
 
 
 ### Projectile
 
-|Level                       |1  |2-3 |4   |5   |6   |7   |8   |9   |10  |11  |
+|Level                       |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |280|336 |384 |432 |480 |528 |576 |624 |720 |777 |
-|Calculated damage per second|243|291 |332 |374 |416 |457 |499 |540 |624 |673 |
-|Calculated damage per cycle |912|1092|1248|1404|1560|1716|1872|2028|2340|2526|
+|Displayed damage per second |280|314 |336 |384 |432 |480 |528 |576 |624 |720 |
+|Calculated damage per second|243|272 |291 |332 |374 |416 |457 |499 |540 |624 |
+|Calculated damage per cycle |912|1020|1092|1248|1404|1560|1716|1872|2028|2340|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |777 |
+|Calculated damage per second|673 |
+|Calculated damage per cycle |2526|
 
 
   * Cannons per sequence: 1
@@ -158,11 +170,18 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1          |2-3        |4          |5          |6          |7          |8          |9          |10         |11                           |
-|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------------------------|
-|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|vfx_prestige_deploy_small_emp|
-|Displayed damage per second|280        |336        |384        |432        |480        |528        |576        |624        |720        |777                          |
-|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|true                         |
+|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|280        |314        |336        |384        |432        |480        |528        |576        |624        |720        |
+|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+
+
+|Level                      |11                           |
+|---------------------------|-----------------------------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|
+|Displayed damage per second|777                          |
+|Prestige                   |true                         |
 
 
 ## Uninterpreted stats

@@ -121,7 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |
 |----------------------------|----|
-|Displayed damage per second |300 |
+|Displayed damage per second |880 |
 |Calculated damage per second|789 |
 |Calculated damage per cycle |1263|
 
@@ -183,7 +183,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Decal asset name           |(not found)                  |
 |Decal bundle name          |(not found)                  |
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|300                          |
+|Displayed damage per second|880                          |
 |Prestige                   |true                         |
 
 

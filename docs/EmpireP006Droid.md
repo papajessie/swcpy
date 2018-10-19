@@ -93,13 +93,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
+  * Displayed damage per second: 1
   * Calculated damage per second: 0
   * Calculated damage per cycle: 1
-
-|Level                      |1-9        |10|
-|---------------------------|-----------|--|
-|Displayed damage per second|(not found)|1 |
-
 
   * Cannons per sequence: 1
   * Shooting cycle duration: 2m200ms
@@ -193,6 +189,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Audio placement: "sfx_placement_p006droid_01":50,"sfx_placement_p006droid_02":50
   * Audio train: "sfx_ui_unitcomplete_p006droid_01":50,"sfx_ui_unitcomplete_p006droid_02":50
   * Bundle name: p006_con-ani
+  * Displayed damage per second: 1
   * Event button action: galaxy
   * Event button data: planet1 planet3 planet6 planet8 planet21 planet23
   * Event button string: hn_open_galaxy
@@ -215,10 +212,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level                      |1             |2-9        |10         |
-|---------------------------|--------------|-----------|-----------|
-|Displayed damage per second|(not found)   |(not found)|1          |
-|Icon unlock scale          |1.75,1.75,1.75|(not found)|(not found)|
+|Level            |1             |2-10       |
+|-----------------|--------------|-----------|
+|Icon unlock scale|1.75,1.75,1.75|(not found)|
 
 
 ## Uninterpreted stats

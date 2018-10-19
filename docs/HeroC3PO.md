@@ -80,14 +80,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
+  * Displayed damage per second: 1
   * Calculated damage per second: 0
   * Calculated damage per cycle: 0
   * Splash damage percentages: 100
-
-|Level                      |1-9        |10  |
-|---------------------------|-----------|----|
-|Displayed damage per second|(not found)|4800|
-
 
   * Cannons per sequence: 1
   * Shooting cycle duration: 500ms
@@ -122,6 +118,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Decal asset name: tac_hero_rbl
   * Decal bundle name: tac_hero_rbl
   * Decal size: 160
+  * Displayed damage per second: 1
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: closest
@@ -131,11 +128,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ALLIES
   * Tooltip height offset: 1.5
-
-|Level                      |1-9        |10  |
-|---------------------------|-----------|----|
-|Displayed damage per second|(not found)|4800|
-
 
 ## Uninterpreted stats
 

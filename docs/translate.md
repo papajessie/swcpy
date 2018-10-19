@@ -6883,6 +6883,8 @@ category: strings
   * **hn_dnotes_20180927_title**: '2-Week Conflict Outbreak'
   * **hn_dnotes_20181011_body**: '[c][FFAA33]Conflict Schedule[-][/c]\n• Conflicts run on all planets from 10/11 to 10/17, then again from 10/18 to 10/24.\n• Naval Data Fragments rewarded in Conflict Bronzium league or better.\n\n[c][FFAA33]Naval Assault Rewards[-][/c]\n•\xa0Rebel Alliance Starfighter Pilot / Imperial Starfighter Pilot (Unit)\n- On Tatooine for all HQ levels.\n- On all other planets for HQ 5 and below.\n•\xa0[c][E40B18]Available to HQ 6+ only:[-][/c] Rebel Millennium Falcon Support / Empire Naval Officer (Hero Equipment) \n- 10/11 to 10/17: All planets besides Tatooine (relocate via Planetary Command structure)\n•\xa0[c][E40B18]Available to HQ 6+ only:[-][/c] Rebel Sullustan Recon Sharpshooter / Empire Rodian Recon Sniper (Equipment) \n- 10/18 to 10/24: All planets besides Tatooine (relocate via Planetary Command structure)'
   * **hn_dnotes_20181011_title**: '2-Week Conflict Outbreak: Naval Assault'
+  * **hn_dnotes_20181012_body**: 'We will be performing system updates to improve game performance starting at 10 PM PST on 10/14 until 7AM PST on 10/15.\n\nDuring this time there may be intermittent issues while playing the game. Thank you for your patience.'
+  * **hn_dnotes_20181012_title**: '[c][FFAA33]System Performance Update - 10/14[-][/c]'
   * **hn_dnotes_4**: 'Url test!'
   * **hn_dnotes_6-0_body**: '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
   * **hn_dnotes_6-0_title**: 'Version 6.0'

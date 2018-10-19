@@ -407,7 +407,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |2693 |2693 |2693 |2693 |2693 |2693 |2693 |2693 |2693 |2693 |
+|Displayed damage per second |2850 |2850 |2850 |2850 |2850 |2850 |2850 |2850 |2850 |2850 |
 |Calculated damage per second|5412 |5557 |5740 |5957 |6138 |6357 |6575 |6792 |7010 |7265 |
 |Calculated damage per cycle |23005|23620|24395|25320|26090|27020|27945|28870|29795|30880|
 
@@ -465,7 +465,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11.01-11.10                  |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_reb|
-|Displayed damage per second|2693                         |
+|Displayed damage per second|2850                         |
 |Favorite target type       |heroes                       |
 |Prestige                   |true                         |
 

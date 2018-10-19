@@ -119,11 +119,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Calculated damage per cycle |2860|3432|4004|4576|5148|5720|6292|6864|7436|8580|
 
 
-|Level                       |11   |
-|----------------------------|-----|
-|Displayed damage per second |24631|
-|Calculated damage per second|4211 |
-|Calculated damage per cycle |9266 |
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |9080|
+|Calculated damage per second|4211|
+|Calculated damage per cycle |9266|
 
 
   * Cannons per sequence: 1
@@ -185,7 +185,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|24631                        |
+|Displayed damage per second|9080                         |
 |Prestige                   |true                         |
 
 

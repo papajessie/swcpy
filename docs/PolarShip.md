@@ -125,7 +125,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |
 |----------------------------|----|
-|Displayed damage per second |1690|
+|Displayed damage per second |1740|
 |Calculated damage per second|1463|
 |Calculated damage per cycle |2415|
 
@@ -194,7 +194,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_reb|
-|Displayed damage per second|1690                         |
+|Displayed damage per second|1740                         |
 |Name                       |Rebel Speeder Bike Upgrade   |
 |Prestige                   |true                         |
 

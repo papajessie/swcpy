@@ -37,7 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Training time|2m40s                           |2m48s                                 |3m2s                                  |3m19s                                 |3m38s                                 |3m59s                                 |4m22s                                 |4m47s                                 |5m13s                                 |5m40s                                  |
 |Training cost|1000$                           |1052$                                 |1137$                                 |1242$                                 |1361$                                 |1494$                                 |1638$                                 |1791$                                 |1954$                                 |2125$                                  |
-|Building     |[Barracks 4](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 |Level        |11                                     |
@@ -125,14 +125,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |4700|2545|3090 |3454 |3818 |4363 |4909 |5272 |5636 |6545 |
+|Displayed damage per second |1380|2545|3090 |3454 |3818 |4363 |4909 |5272 |5636 |6545 |
 |Calculated damage per second|2040|3081|4122 |5163 |6204 |7244 |8285 |9326 |10367|11408|
 |Calculated damage per cycle |5000|7550|10100|12650|15200|17750|20300|22850|25400|27950|
 
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |6000 |
+|Displayed damage per second |6872 |
 |Calculated damage per second|12032|
 |Calculated damage per cycle |29480|
 
@@ -189,14 +189,14 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|4700       |2545       |3090       |3454       |3818       |4363       |4909       |5272       |5636       |6545       |
+|Displayed damage per second|1380       |2545       |3090       |3454       |3818       |4363       |4909       |5272       |5636       |6545       |
 |Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_reb|
-|Displayed damage per second|6000                         |
+|Displayed damage per second|6872                         |
 |Prestige                   |true                         |
 
 

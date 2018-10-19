@@ -379,7 +379,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11.01|11.02|11.03|11.04|11.05|11.06|11.07|11.08|11.09|11.10|
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |300  |300  |300  |300  |300  |300  |300  |300  |300  |300  |
+|Displayed damage per second |880  |880  |880  |880  |880  |880  |880  |880  |880  |880  |
 |Calculated damage per second|1286 |1340 |1404 |1475 |1546 |1625 |1704 |1783 |1861 |1948 |
 |Calculated damage per cycle |2058 |2145 |2247 |2361 |2475 |2601 |2727 |2853 |2979 |3117 |
 
@@ -442,7 +442,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Decal asset name           |(not found)                  |
 |Decal bundle name          |(not found)                  |
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|300                          |
+|Displayed damage per second|880                          |
 |Prestige                   |true                         |
 
 

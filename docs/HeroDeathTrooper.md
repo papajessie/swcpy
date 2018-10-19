@@ -105,14 +105,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2181|2545|3090|3454|3818|4363|4909|5272|5636|6545|
+|Displayed damage per second |2840|3040|3290|3590|3880|4140|4340|4530|4890|5380|
 |Calculated damage per second|2843|3037|3286|3589|3881|4140|4335|4529|4886|5383|
 |Calculated damage per cycle |5260|5620|6080|6640|7180|7660|8020|8380|9040|9960|
 
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |6000 |
+|Displayed damage per second |5680 |
 |Calculated damage per second|5682 |
 |Calculated damage per cycle |10512|
 
@@ -177,7 +177,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|2181       |2545       |3090       |3454       |3818       |4363       |4909       |5272       |5636       |6545       |
+|Displayed damage per second|2840       |3040       |3290       |3590       |3880       |4140       |4340       |4530       |4890       |5380       |
 |Icon unlock scale          |1.2,1.2,1.2|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
@@ -185,7 +185,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|6000                         |
+|Displayed damage per second|5680                         |
 |Icon unlock scale          |(not found)                  |
 |Prestige                   |true                         |
 

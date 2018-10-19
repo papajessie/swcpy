@@ -37,7 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |-------------|--------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
 |Training time|1m20s                           |1m28s                                 |1m32s                                 |1m36s                                 |1m40s                                 |1m44s                                 |1m48s                                 |1m52s                                 |1m56s                                 |2m                                     |
 |Training cost|200$                            |280$                                  |360$                                  |440$                                  |520$                                  |600$                                  |680$                                  |800$                                  |840$                                  |920$                                   |
-|Building     |[Barracks 2](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Building     |[Barracks 1](rebelBarracks.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
 
 
 |Level        |11                                     |
@@ -104,9 +104,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Displayed damage per second|860|910|970|1020|1070|1130|1180|1230|1330|1440|
 
 
-|Level                      |11 |
-|---------------------------|---|
-|Displayed damage per second|144|
+|Level                      |11  |
+|---------------------------|----|
+|Displayed damage per second|1493|
 
 
   * Cannons per sequence: 1
@@ -202,7 +202,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_reb|
-|Displayed damage per second|144                          |
+|Displayed damage per second|1493                         |
 |Icon unlock position       |(not found)                  |
 |Icon unlock rotation       |(not found)                  |
 |Icon unlock scale          |(not found)                  |

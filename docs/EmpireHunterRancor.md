@@ -82,11 +82,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Projectile
 
-  * Displayed damage per second: 2928
   * Splash damage percentages: 100,50
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |2928 |2928 |3250 |3570 |3895 |4215 |4535 |4860 |5180 |5500 |
 |Calculated damage per second|2116 |2377 |2638 |2900 |3161 |3422 |3683 |3944 |4206 |4467 |
 |Calculated damage per cycle |10306|11578|12850|14124|15396|16668|17940|19212|20484|21756|
 
@@ -117,7 +117,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Audio impact: "sfx_impact_creatures_rancor_1":33,"sfx_impact_creatures_rancor_2":33,"sfx_impact_creatures_rancor_3":34
   * Audio placement: "sfx_attack_creatures_rancor_1":35,"sfx_attack_creatures_rancor_2":35,"sfx_attack_creatures_rancor_3":30
   * Bundle name: rancorhunter_neu-ani
-  * Displayed damage per second: 2928
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: infantry
@@ -129,6 +128,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Rancor Blaster
   * Spin speed: 0
   * Targeted type: ENEMIES
+
+|Level                      |1-2 |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|2928|3250|3570|3895|4215|4535|4860|5180|5500|
+
 
 ## Uninterpreted stats
 

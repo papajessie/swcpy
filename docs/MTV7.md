@@ -113,7 +113,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |
 |----------------------------|----|
-|Displayed damage per second |2262|
+|Displayed damage per second |3420|
 |Calculated damage per second|3219|
 |Calculated damage per cycle |3380|
 
@@ -260,7 +260,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_emp|
-|Displayed damage per second|2262                         |
+|Displayed damage per second|3420                         |
 |Icon unlock position       |(not found)                  |
 |Icon unlock rotation       |(not found)                  |
 |Icon unlock scale          |(not found)                  |

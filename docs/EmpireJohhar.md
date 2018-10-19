@@ -108,14 +108,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |2000 |2400 |2800 |3200 |3599 |4000 |4400 |4800 |5200 |6000 |
+|Displayed damage per second |2000 |2400 |2800 |3200 |3600 |4000 |4400 |4800 |5200 |6000 |
 |Calculated damage per second|3120 |3304 |3488 |3664 |3840 |4024 |4304 |4608 |4928 |5272 |
 |Calculated damage per cycle |11700|12390|13080|13740|14400|15090|16140|17280|18480|19770|
 
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |9315 |
+|Displayed damage per second |6320 |
 |Calculated damage per second|5478 |
 |Calculated damage per cycle |20544|
 
@@ -252,7 +252,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|2000       |2400       |2800       |3200       |3599       |4000       |4400       |4800       |5200       |6000       |
+|Displayed damage per second|2000       |2400       |2800       |3200       |3600       |4000       |4400       |4800       |5200       |6000       |
 |Icon unlock position       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |0,0,0      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |1,1,1      |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
@@ -262,7 +262,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|9315                         |
+|Displayed damage per second|6320                         |
 |Icon unlock position       |(not found)                  |
 |Icon unlock rotation       |(not found)                  |
 |Icon unlock scale          |(not found)                  |

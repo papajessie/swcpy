@@ -90,7 +90,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |3494 |3925 |4356 |4787 |5219 |5650 |6081 |6512 |6944 |1680 |
+|Displayed damage per second |3494 |3925 |4356 |4787 |5219 |5650 |6081 |6512 |6944 |7370 |
 |Calculated damage per second|2539 |2800 |3061 |3323 |3584 |3845 |4106 |4367 |4629 |4890 |
 |Calculated damage per cycle |12366|13638|14910|16184|17456|18728|20000|21272|22544|23816|
 
@@ -142,7 +142,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|3494       |3925       |4356       |4787       |5219       |5650       |6081       |6512       |6944       |1680       |
+|Displayed damage per second|3494       |3925       |4356       |4787       |5219       |5650       |6081       |6512       |6944       |7370       |
 |Icon unlock position       |0,-0.75,0  |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock rotation       |0,-30,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 |Icon unlock scale          |0.6,0.6,0.6|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|

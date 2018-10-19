@@ -91,7 +91,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1120|1250|1400|1580|1780|2010|2420|2640|2860|3600|
+|Displayed damage per second |1120|1250|1400|1580|1780|2010|2420|2640|2860|3180|
 |Calculated damage per second|1008|1128|1264|1424|1600|1808|2178|2376|2574|2970|
 |Calculated damage per cycle |2520|2820|3160|3560|4000|4520|5446|5940|6436|7426|
 
@@ -138,7 +138,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1120|1250|1400|1580|1780|2010|2420|2640|2860|3600|
+|Displayed damage per second|1120|1250|1400|1580|1780|2010|2420|2640|2860|3180|
 
 
 ## Uninterpreted stats

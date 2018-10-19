@@ -109,7 +109,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |
 |----------------------------|----|
-|Displayed damage per second |835 |
+|Displayed damage per second |305 |
 |Calculated damage per second|665 |
 |Calculated damage per cycle |1065|
 
@@ -163,7 +163,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |11 |
 |---------------------------|---|
-|Displayed damage per second|835|
+|Displayed damage per second|305|
 
 
 ## Uninterpreted stats

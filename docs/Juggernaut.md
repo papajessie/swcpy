@@ -121,7 +121,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |2928 |
+|Displayed damage per second |6320 |
 |Calculated damage per second|6480 |
 |Calculated damage per cycle |14580|
 
@@ -176,7 +176,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_reb|
-|Displayed damage per second|2928                         |
+|Displayed damage per second|6320                         |
 |Prestige                   |true                         |
 
 
