@@ -5429,6 +5429,10 @@ category: strings
   * **hn_cc_1_TroopTransportConflict_20180920_HQ6+_e_title**: '9/20 to 9/26 Conflict Outbreak: Enhanced AT-ST Walker Eqp.'
   * **hn_cc_1_TroopTransportConflict_20180920_HQ6+_r_body**: 'This week, all planet Conflicts give [c][FFB74A]Enhanced T2-B Repulsor Tank[-][/c] equipment fragments. When activated, this equipment greatly boosts T2-B tank firepower! Fight now to unlock this Equipment!'
   * **hn_cc_1_TroopTransportConflict_20180920_HQ6+_r_title**: '9/20 to 9/26 Conflict Outbreak: Enhanced T2-B Repulsor Tank Eqp.'
+  * **hn_cc_1_UndeadOffensive2018_20181025_e_body**: "Place in a Bronzium or higher tier to earn Data Fragments for the terrifying [c][DBC0FF]SD-K4[-][/c] assassin droid hero. This hero's health and damage have been significantly buffed. Fight to earn fragments, plus bonus Undead Trooper sample units!"
+  * **hn_cc_1_UndeadOffensive2018_20181025_e_title**: '10/25 to 11/7 Conflict Outbreaks: SD-K4 & Undead Troopers'
+  * **hn_cc_1_UndeadOffensive2018_20181025_r_body**: "Place in a Bronzium or higher tier to earn Data Fragments for the terrifying [c][DBC0FF]Modified SD-K4[-][/c] assassin droid hero. This hero's health and damage have been significantly buffed. Fight to earn fragments, plus bonus Undead Trooper sample units!"
+  * **hn_cc_1_UndeadOffensive2018_20181025_r_title**: '10/25 to 11/7 Conflict Outbreaks: SD-K4 & Undead Troopers'
   * **hn_cc_1_adcolonytest_body**: 'IF THIS IS WORKING, YOU SEE THIS. THE BUTTON WILL TAKE YOU TO TATOOINE.'
   * **hn_cc_1_adcolonytest_title**: 'ADCOLONY TEST'
   * **hn_cc_1_alloy_sale_body**: 'Alloy is on sale for a limited time. Buy alloy for a discounted price in the shop or when upgrading buildings. Don’t miss out on this special deal!'
@@ -6718,8 +6722,11 @@ category: strings
   * **hn_cc_rogue1v3_release_body_e**: 'Rogue One inspired units are now available during a limited-time event! Collect Data Fragments from special Weapons Research Crates to unlock the Security Droid, TIE Striker and TX-225 Tank!'
   * **hn_cc_rogue1v3_release_body_r**: 'Rogue One inspired units are available during a limited-time event! Collect Data Fragments from special Weapons Research Crates to unlock the Drabatan Saboteur, Fang Fighter and Stolen TX-225 Tank!'
   * **hn_cc_rogue1v3_release_title**: 'Rogue One Event'
+  * **hn_cc_samples_Death**: 'Sample Units: Undead Trooper'
   * **hn_cc_samples_EmpireATSTHalfSkinSample**: 'Sample Units: Enhanced AT-ST Walker'
   * **hn_cc_samples_EmpireTransportVehicle**: 'Sample Units: Imperial Troop Transport'
+  * **hn_cc_samples_HeroEmpireSpiderDroid**: 'Sample Units: SD-K4'
+  * **hn_cc_samples_HeroRebelSpiderDroid**: 'Sample Units: Modified SD-K4'
   * **hn_cc_samples_RebelT2BTankHalfSkinSample**: 'Sample Units: Enhanced T2-B Repulsor Tank'
   * **hn_cc_samples_RebelTransportVehicle**: 'Sample Units: A-A5 Speeder Truck'
   * **hn_cc_samples_TiePilotSample**: 'Sample Units: Imperial Starfighter Pilot'
@@ -6885,6 +6892,10 @@ category: strings
   * **hn_dnotes_20181011_title**: '2-Week Conflict Outbreak: Naval Assault'
   * **hn_dnotes_20181012_body**: 'We will be performing system updates to improve game performance starting at 10 PM PST on 10/14 until 7AM PST on 10/15.\n\nDuring this time there may be intermittent issues while playing the game. Thank you for your patience.'
   * **hn_dnotes_20181012_title**: '[c][FFAA33]System Performance Update - 10/14[-][/c]'
+  * **hn_dnotes_20181023_body**: 'Beginning after 12 PM PST on Wednesday 10/24, Commander will be unavailable for a a short time while we update the game.\n\nWe will also be performing system updates to improve game performance starting at 10 PM PST on 10/25 until 5AM PST on 10/26. There may be intermittent issues while playing the game during this time.\n\nThank you for your patience.'
+  * **hn_dnotes_20181023_title**: '[c][FFAA33]System Updates - 10/24 and 10/25[-][/c]'
+  * **hn_dnotes_20181025_body**: "[c][FFB74A]Conflict Schedule[-][/c]\n• Conflict Bronzium league or better awards event Data Fragments.\n•\xa0New rewards will not be available in Commander Events until Fall. Unlock and upgrade now to enjoy exclusive use until they return.\n\n• 10/25 to 10/31, all planets:\n- Rebel [c][DBC0FF]Modified SD-K4[-][/c] assassin droid (Hero Unit)\n- Empire [c][DBC0FF]SD-K4[-][/c] assassin droid (Hero Unit)\n\n- Empire/Rebel Undead Troopers (Unit Samples)\n- Empire/Rebel Heavy Undead Troopers (Unit Samples)\n\n• 11/1 to 11/7, all planets:\n- Rebel [c][DBC0FF]Modified SD-K4[-][/c] assassin droid (Hero Unit)\n- Empire [c][DBC0FF]SD-K4[-][/c] assassin droid (Hero Unit)\n\n- Empire/Rebel Undead Troopers (Unit Samples)\n- Empire/Rebel Heavy Undead Troopers (Unit Samples)\n\n[c][FFAA33]Balance Updates[-][/c]\n• Rebel [c][DBC0FF]Modified SD-K4[-][/c] / Empire [c][DBC0FF]SD-K4[-][/c]\n- Damage has been significantly increased across all levels.\n- Health has been significantly increased across all levels.\n- Damage of summoned probe killers has been significantly increased.\n\n- Since its initial release, this hero's utility has become too niche. Power increases across the board are intended to make this unit more relevant for a variety of strategies."
+  * **hn_dnotes_20181025_title**: '2-Week Conflict Outbreak: Undead Offensive'
   * **hn_dnotes_4**: 'Url test!'
   * **hn_dnotes_6-0_body**: '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
   * **hn_dnotes_6-0_title**: 'Version 6.0'

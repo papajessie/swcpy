@@ -275,7 +275,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 4.600s
+  * Shooting cycle duration: 4.500s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18

@@ -120,14 +120,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |900 |930 |970 |1010|1050|1090|1460|1520|1580|1650|
-|Calculated damage per second|808 |840 |872 |912 |944 |984 |1280|1330|1380|1440|
+|Calculated damage per second|897 |933 |968 |1013|1048|1093|1462|1520|1577|1645|
 |Calculated damage per cycle |2020|2100|2180|2280|2360|2460|2560|2660|2760|2880|
 
 
 |Level                       |11  |
 |----------------------------|----|
 |Displayed damage per second |1830|
-|Calculated damage per second|1476|
+|Calculated damage per second|1686|
 |Calculated damage per cycle |2952|
 
 
@@ -140,7 +140,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                  |1-6                                                                                                                                                                                                                                                                                                                                                    |7-11                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Shooting cycle duration|2.500s                                                                                                                                                                                                                                                                                                                                                 |2s                                                                                                                                                                                                                                                                                                                                                                                              |
+|Shooting cycle duration|2.250s                                                                                                                                                                                                                                                                                                                                                 |1.750s                                                                                                                                                                                                                                                                                                                                                                                          |
 |Damage multipliers     |**(150)**: Flying infantry, Infantry, Infantry hero, Support troop, **(125)**: Heavy infantry, Heavy infantry hero, **(100)**: Droideka, Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Flying vehicle, Light vehicle, Vehicule hero, **(50)**: Heavy vehicle, Heavy vehicule hero|**(250)**: Flying infantry, Infantry, Support troop, **(225)**: Flying vehicle, Light vehicle, **(200)**: Heavy vehicle, **(175)**: Heavy infantry, **(100)**: Droideka, Heavy infantry hero, Heavy vehicule hero, Infantry hero, Vehicule hero, **(75)**: Wall, **(50)**: Headquarters, **(25)**: Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(0)**: Trap|
 
 

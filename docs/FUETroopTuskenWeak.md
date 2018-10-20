@@ -79,7 +79,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Calculated damage per cycle: 6
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 3.750s
+  * Shooting cycle duration: 3.250s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18

@@ -109,19 +109,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Displayed damage per second |2000 |2400 |2800 |3200 |3600 |4000 |4400 |4800 |5200 |6000 |
-|Calculated damage per second|3120 |3304 |3488 |3664 |3840 |4024 |4304 |4608 |4928 |5272 |
+|Calculated damage per second|3600 |3812 |4024 |4227 |4430 |4643 |4966 |5316 |5686 |6083 |
 |Calculated damage per cycle |11700|12390|13080|13740|14400|15090|16140|17280|18480|19770|
 
 
 |Level                       |11   |
 |----------------------------|-----|
 |Displayed damage per second |6320 |
-|Calculated damage per second|5478 |
+|Calculated damage per second|6321 |
 |Calculated damage per cycle |20544|
 
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 3.750s
+  * Shooting cycle duration: 3.250s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18
@@ -170,12 +170,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                                             |1    |2    |3    |4    |5    |6    |7    |8    |9    |10-11|
 |--------------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Secondary attack shot calculated damage per second|277  |289  |301  |314  |326  |350  |377  |405  |435  |468  |
+|Secondary attack shot calculated damage per second|3648 |3810 |3972 |4135 |4297 |4618 |4964 |5337 |5737 |6167 |
 |Secondary attack shot calculated damage per clip  |13500|14100|14700|15300|15900|17090|18370|19750|21230|22820|
 
 
   * Secondary attack shot cannons per sequence: 1
-  * Secondary attack shot cliptime: 48.701s
+  * Secondary attack shot cliptime: 3.700s
   * Secondary attack shot directional: Yes
   * Secondary attack shot is deflectable: No
   * Secondary attack shot length segments: 0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100

@@ -92,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
 |----------------------------|---|---|---|---|----|----|----|----|----|----|
 |Displayed damage per second |329|396|461|529|593 |658 |726 |790 |858 |630 |
-|Calculated damage per second|373|450|523|600|673 |746 |823 |896 |973 |960 |
+|Calculated damage per second|400|482|560|642|721 |800 |882 |960 |1042|988 |
 |Calculated damage per cycle |560|675|785|900|1010|1120|1235|1345|1460|3360|
 
 
@@ -105,7 +105,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                  |1-9   |10    |
 |-----------------------|------|------|
-|Shooting cycle duration|1.500s|3.500s|
+|Shooting cycle duration|1.400s|3.400s|
 |Salvos                 |5     |10    |
 
 

@@ -76,11 +76,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Projectile
 
   * Displayed damage per second: 4800
-  * Calculated damage per second: 4800
+  * Calculated damage per second: 5400
   * Calculated damage per cycle: 10800
 
   * Cannons per sequence: 2
-  * Shooting cycle duration: 2.250s
+  * Shooting cycle duration: 2s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 18

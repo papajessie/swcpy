@@ -92,12 +92,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
 |----------------------------|----|----|----|----|----|----|----|----|----|-----|
 |Displayed damage per second |1805|2166|2520|2881|3242|3603|3964|4325|4686|5401 |
-|Calculated damage per second|1758|2110|2455|2807|3158|3510|3862|4214|4566|5262 |
+|Calculated damage per second|1805|2166|2520|2881|3242|3603|3964|4325|4686|5401 |
 |Calculated damage per cycle |3430|4116|4788|5474|6160|6846|7532|8218|8904|10262|
 
 
   * Cannons per sequence: 2
-  * Shooting cycle duration: 1.950s
+  * Shooting cycle duration: 1.900s
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 12
