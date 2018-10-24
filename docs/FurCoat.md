@@ -100,7 +100,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 500
+  * Animation delay: 500ms
   * Charge time: 400ms
   * Clip retargeting: No
   * Gun shooting sequence: 1

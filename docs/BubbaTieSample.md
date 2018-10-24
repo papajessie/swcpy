@@ -45,7 +45,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 1500
+  * Animation delay: 1.500s
   * Impact delay: 170ms
   * Shot count: 8
   * Shot delay: 140ms

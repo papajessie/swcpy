@@ -66,7 +66,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 0
+  * Animation delay: 0s
   * Charge time: 250ms
   * Clip retargeting: Yes
   * Gun shooting sequence: 1
@@ -125,7 +125,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Secondary attack animation delay: 250
+  * Secondary attack animation delay: 250ms
   * Secondary attack charge time: 500ms
   * Secondary attack clip retargeting: No
   * Secondary attack gun shooting sequence: 1

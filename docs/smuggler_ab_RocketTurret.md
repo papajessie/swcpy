@@ -60,7 +60,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Turret animation delay: 0
+  * Turret animation delay: 0s
   * Turret charge time: 1.500s
   * Turret clip retargeting: No
   * Turret gun shooting sequence: 1,2,3,4,5,6

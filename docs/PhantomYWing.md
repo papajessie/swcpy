@@ -74,7 +74,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 0
+  * Animation delay: 0s
   * Charge time: 3s
   * Clip retargeting: Yes
   * Damage per shot: 0

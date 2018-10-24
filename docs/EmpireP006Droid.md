@@ -69,7 +69,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Shooting
 
-  * Animation delay: 200
+  * Animation delay: 200ms
   * Charge time: 0s
   * Clip retargeting: No
   * Special data 2 title: Turret Time to Self-Destruct:
