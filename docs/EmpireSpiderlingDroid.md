@@ -26,6 +26,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health|5250|5360|5470|5580|5690|5810|5930|6050|6180|6310|
 
 
+|Level |11  |
+|------|----|
+|Health|6440|
+
+
 ### Training stats
 
   * Training time: 0s
@@ -108,16 +113,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Damage per shot|2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
+
+
+|Level          |11  |
+|---------------|----|
+|Damage per shot|3432|
 
 
 ### Projectile
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1235|1245|1270|1305|1325|1350|1370|1395|1430|1460|
-|Calculated damage per second|1053|1063|1084|1114|1133|1152|1172|1191|1220|1250|
-|Calculated damage per cycle |2170|2190|2235|2295|2335|2375|2415|2455|2515|2575|
+|Displayed damage per second |2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
+|Calculated damage per second|1369|1382|1410|1448|1473|1499|1524|1549|1587|1625|
+|Calculated damage per cycle |2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
+
+
+|Level                       |11  |
+|----------------------------|----|
+|Displayed damage per second |3432|
+|Calculated damage per second|1666|
+|Calculated damage per cycle |3432|
 
 
   * Cannons per sequence: 1
@@ -134,12 +151,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Death projectile delay: 0s
   * Death projectile distance: 0
 
-  * Death attack splash damage percentages: 100,100,100,100
+  * Death attack splash damage percentages: 100,75,40,20
 
-|Level                                  |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
-|---------------------------------------|---|---|---|---|---|---|---|---|---|---|
-|Death projectile damage                |810|818|833|855|870|885|900|915|938|960|
-|Death attack calculated damage per clip|810|818|833|855|870|885|900|915|938|960|
+|Level                                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|---------------------------------------|----|----|----|----|----|----|----|----|----|----|
+|Death projectile damage                |4050|4131|4248|4403|4524|4646|4770|4895|5065|5232|
+|Death attack calculated damage per clip|4050|4131|4248|4403|4524|4646|4770|4895|5065|5232|
+
+
+|Level                                  |11  |
+|---------------------------------------|----|
+|Death projectile damage                |5418|
+|Death attack calculated damage per clip|5418|
 
 
   * Death attack cannons per sequence: 1
@@ -147,7 +170,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Death attack directional: No
   * Death attack is deflectable: No
   * Death attack max speed: 18
-  * Death attack damage multipliers: **(100)**: Death attack droideka, Death attack flying infantry, Death attack flying vehicle, Death attack headquarters, Death attack heavy infantry, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack infantry, Death attack infantry hero, Death attack light vehicle, Death attack other building, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack turret, Death attack vehicule hero, Death attack wall
+  * Death attack damage multipliers: **(150)**: Death attack flying infantry, Death attack heavy infantry, Death attack infantry, Death attack infantry hero, **(100)**: Death attack droideka, Death attack flying vehicle, Death attack headquarters, Death attack heavy infantry hero, Death attack heavy vehicle, Death attack heavy vehicule hero, Death attack light vehicle, Death attack other building, Death attack ressource generator, Death attack shield, Death attack shield generator, Death attack storage, Death attack support troop, Death attack trap, Death attack turret, Death attack vehicule hero, Death attack wall
   * Death attack salvos: 1
 
 ## Internal stats
@@ -178,7 +201,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: infantry
-  * Gun position: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * Icon camera position: 6.92,13.54,17.41
   * Icon closeup camera position: 6.92,13.54,17.41
   * Icon closeup lookat position: -0.17,0.51,-0.33
@@ -189,9 +211,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1235|1245|1270|1305|1325|1350|1370|1395|1430|1460|
+|Level                      |1                                                     |2                                                     |3                                                     |4                                                     |5                                                     |6                                                     |7                                                     |8                                                     |9                                                     |10                                                    |
+|---------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+|Displayed damage per second|2821                                                  |2847                                                  |2906                                                  |2984                                                  |3036                                                  |3088                                                  |3140                                                  |3192                                                  |3270                                                  |3348                                                  |
+|Gun position               |"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|
+
+
+|Level                      |11         |
+|---------------------------|-----------|
+|Displayed damage per second|3432       |
+|Gun position               |(not found)|
 
 
 ## Uninterpreted stats
@@ -209,14 +238,20 @@ Seriously, we don't really know what to do with these.
   * Spiderling invulnerable cancel tags: damage
   * Spiderling invulnerable is refreshing: No
   * Spiderling invulnerable tags: invulnerable
-  * Splash: 0
   * Streams: no
   * Strict cool down: No
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order|90001|90002|90003|90004|90005|90006|90007|90008|90009|90010|
+|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order |90001|90002|90003|90004|90005|90006|90007|90008|90009|90010|
+|Splash|0    |0    |0    |0    |0    |0    |0    |0    |0    |0    |
+
+
+|Level |11         |
+|------|-----------|
+|Order |90011      |
+|Splash|(not found)|
 
 

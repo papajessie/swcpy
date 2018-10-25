@@ -217,9 +217,13 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_shrd_conf_eqp_tier8" (x1 draw)
 
-### For HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
-  * No items, see the fallback option below
+  * (1/1) 48000 Credits
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
+
+  * (1/1) 48000 Alloy
 
 ### Empire for HQ levels 6-10
 

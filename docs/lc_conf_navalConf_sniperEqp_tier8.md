@@ -141,19 +141,21 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ### Rebellion for HQ level 5
 
-  * (1/1) 32 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
+  * (1/2) 32 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
+  * (1/2) 32 troop sample [Alliance Starfighter Pilot](XWingPilot)
 
 ### Rebellion for HQ levels 6-10
 
   * (1/1) 20 data fragments of equipment [Sullustan Recon Sharpshooter](eqpRebelSullustan)
 
+### Empire for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
+  * (1/2) 32 troop sample [Imperial Starfighter Pilot](TiePilot)
+
 ### Empire for HQ levels 6-10
 
   * (1/1) 20 data fragments of equipment [Rodian Recon Sniper](eqpEmpireRodian)
-
-### Empire for HQ level 5
-
-  * (1/1) 32 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
 
 ### Fallback for HQ level 10
 
@@ -181,9 +183,13 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_shrd_conf_eqp_tier8" (x1 draw)
 
-### For HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
-  * No items, see the fallback option below
+  * (1/1) 48000 Credits
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
+
+  * (1/1) 48000 Alloy
 
 ### Empire for HQ levels 6-10
 

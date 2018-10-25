@@ -132,9 +132,9 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (6/42) 1 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
   * (6/42) 1 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
 
-### For HQ level 5
+### On Dandoran or Hoth or Tatooine for HQ level 5
 
-  * No items, see the fallback option below
+  * (1/1) 21600 Credits
 
 ### Rebellion for HQ levels 6-10
 
@@ -148,6 +148,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/42) 1 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
   * (6/42) 1 data fragments of equipment [Cold-weather Soldier](eqpRebelEchoBaseSoldier)
   * (6/42) 1 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
+
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
+
+  * (1/1) 21600 Alloy
 
 ### Fallback for HQ level 10
 

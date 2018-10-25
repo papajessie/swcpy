@@ -161,9 +161,13 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
   * (5/42) 3 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### For HQ level 5
+### On Er'Kit or Takodana or Yavin 4 for HQ level 5
 
-  * No items, see the fallback option below
+  * (1/1) 36000 Alloy
+
+### On Dandoran or Hoth or Tatooine for HQ level 5
+
+  * (1/1) 36000 Credits
 
 ### Fallback for HQ level 10
 

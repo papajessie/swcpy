@@ -11023,7 +11023,7 @@ category: strings
   * **obj_str_destroy_materialsstorage**: 'Destroy {0} Alloy Depots'
   * **obj_str_destroy_mortar**: 'Destroy {0} Mortar Turrets'
   * **obj_str_destroy_mortars**: 'Destroy {0} Mortar Turrets'
-  * **obj_str_destroy_navigationcenter**: 'Destroy {0} Planetary Command Builidngs'
+  * **obj_str_destroy_navigationcenter**: 'Destroy {0} Planetary Command Buildings'
   * **obj_str_destroy_offenselab**: 'Destroy {0} Research Labs'
   * **obj_str_destroy_planetcomm**: 'Destroy {0} Planetary Command Buildings'
   * **obj_str_destroy_platformdroideka**: 'Destroy {0} Droideka Sentinel Platforms'
