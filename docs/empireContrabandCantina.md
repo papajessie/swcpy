@@ -17,24 +17,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Cross time: 0s
   * Side: Empire
   * Force reticle when targeted: No
-  * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
   * Type: cantina
 
-|Level |1   |2   |3   |4   |5   |6    |7    |8    |
-|------|----|----|----|----|----|-----|-----|-----|
-|Health|3000|4500|5400|7200|8700|10200|11700|13200|
-|Time  |2d  |3d  |4d  |5d  |6d  |1w   |1w1d |1w2d |
+|Level         |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
+|--------------|----|----|----|----|----|-----|-----|-----|-----|-----|
+|Health        |3000|4500|5400|7200|8700|10200|11700|13200|14700|16200|
+|Hide if locked|No  |No  |No  |No  |No  |No   |No   |No   |Yes  |Yes  |
+|Time          |2d  |3d  |4d  |5d  |6d  |1w   |1w1d |1w2d |6d   |1w3d |
 
 
 ### Training stats
 
-|Level        |1                                                     |2                              |3                              |4                              |5                              |6                              |7                               |8                               |
-|-------------|------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|
-|Training cost|350000$                                               |730000$                        |1110000$                       |1125000$                       |2600000$                       |3100000$                       |4600000$                        |5000000$                        |
-|Building 1   |[Headquarters 7](empireHQ.html)                       |[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-|Building 2   |[Contraband Safehouse 1](empireContrabandStorage.html)|None                           |None                           |None                           |None                           |None                           |None                            |None                            |
+|Level        |1                                                     |2                              |3                              |4                              |5                              |6                              |7                               |8                               |9                                |10                               |
+|-------------|------------------------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|---------------------------------|---------------------------------|
+|Training cost|350000$                                               |730000$                        |1110000$                       |1125000$                       |2600000$                       |3100000$                       |4600000$                        |5000000$                        |2000000$                         |3500000$                         |
+|Building 1   |[Headquarters 7](empireHQ.html)                       |[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 10](empireHQ.html) |[Headquarters 10](empireHQ.html) |
+|Building 2   |[Contraband Safehouse 1](empireContrabandStorage.html)|None                           |None                           |None                           |None                           |None                           |None                            |None                            |[Headquarters 1](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats
@@ -68,7 +68,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.39,1.69,-0.09
   * Stash order: 220
 
-|Level    |1   |2-8        |
+|Level    |1   |2-10       |
 |---------|----|-----------|
 |Store tab|army|(not found)|
 
@@ -79,9 +79,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 18
 
-|Level |1|2|3|4|5|6|7|8|
-|------|-|-|-|-|-|-|-|-|
-|Max XP|2|3|4|5|6|7|8|9|
-|Xp    |2|3|4|5|6|7|8|9|
+|Level |1|2|3|4|5|6|7|8|9 |10|
+|------|-|-|-|-|-|-|-|-|--|--|
+|Max XP|2|3|4|5|6|7|8|9|10|11|
+|Xp    |2|3|4|5|6|7|8|9|10|11|
 
 

@@ -139,7 +139,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
-  * [bldtitleempireContrabandCantinaLocked (empireContrabandCantinaLocked)](empireContrabandCantinaLocked.html)
   * [bldtitleempireDefenseGenerator (empireDefenseGenerator)](empireDefenseGenerator.html)
   * [Droid Hut (empireDroidHut)](empireDroidHut.html)
   * [Headquarters (empireHQ)](empireHQ.html)
@@ -161,7 +160,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Rebellion
 
   * [bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial)](forestShieldGeneratorSpecial.html)
-  * [bldtitlerebelContrabandCantinaLocked (rebelContrabandCantinaLocked)](rebelContrabandCantinaLocked.html)
   * [bldtitlerebelDefenseGenerator (rebelDefenseGenerator)](rebelDefenseGenerator.html)
   * [Droid Hut (rebelDroidHut)](rebelDroidHut.html)
   * [Headquarters (rebelHQ)](rebelHQ.html)
