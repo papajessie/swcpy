@@ -78,7 +78,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
-  * Target preferences: **Trap (90)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Shield (50), Shield generator (50), Storage (50), Support troop (50), Turret (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1)
+  * Target preferences: **Trap (90)**, _Heavy vehicle (70)_, _Light vehicle (60)_, Flying infantry (50), Flying vehicle (50), Support troop (50), Droideka (40), Headquarters (40), Heavy infantry (40), Infantry (40), Other building (40), Ressource generator (40), Shield (40), Shield generator (40), Storage (40), Turret (40), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1)
   * View range: 21
 
 ### Shooting
@@ -98,12 +98,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2340|2512|2692|2892|3100|3332|3580|3852|4152|4470|
+|Damage per shot|2340|2532|2742|2970|3222|3492|3792|4122|4482|4872|
 
 
 |Level          |11  |
 |---------------|----|
-|Damage per shot|4660|
+|Damage per shot|5106|
 
 
 ### Projectile
@@ -113,15 +113,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |2340|2512|2692|2892|3100|3332|3580|3852|4152|4470|
-|Calculated damage per second|668 |717 |769 |826 |885 |952 |1022|1100|1186|1277|
-|Calculated damage per cycle |2340|2512|2692|2892|3100|3332|3580|3852|4152|4470|
+|Calculated damage per second|668 |723 |783 |848 |920 |997 |1083|1177|1280|1392|
+|Calculated damage per cycle |2340|2532|2742|2970|3222|3492|3792|4122|4482|4872|
 
 
 |Level                       |11  |
 |----------------------------|----|
 |Displayed damage per second |4790|
-|Calculated damage per second|1331|
-|Calculated damage per cycle |4660|
+|Calculated damage per second|1458|
+|Calculated damage per cycle |5106|
 
 
   * Cannons per sequence: 1
@@ -129,7 +129,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: No
   * Max speed: 18
-  * Damage multipliers: **(700)**: Wall, **(500)**: Trap, **(200)**: Headquarters, **(100)**: Droideka, Flying vehicle, Light vehicle, Vehicule hero, **(75)**: Heavy vehicle, Heavy vehicule hero, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(50)**: Flying infantry, Infantry, Infantry hero, Support troop, **(25)**: Heavy infantry, Heavy infantry hero
+  * Damage multipliers: **(700)**: Wall, **(500)**: Trap, **(200)**: Headquarters, **(100)**: Droideka, Flying vehicle, Light vehicle, Vehicule hero, **(90)**: Heavy vehicle, **(75)**: Heavy vehicule hero, Other building, Ressource generator, Shield, Shield generator, Storage, Turret, **(50)**: Flying infantry, Infantry, Infantry hero, Support troop, **(25)**: Heavy infantry, Heavy infantry hero
   * Pass through shield: Yes
   * Salvos: 1
 

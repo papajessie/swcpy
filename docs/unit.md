@@ -162,6 +162,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
   * [Droideka Sentinal (ChampionEmpireDroidekaSample)](ChampionEmpireDroidekaSample.html)
   * [Droideka Oppressor (ChampionEmpireHeavyDroidekaSample)](ChampionEmpireHeavyDroidekaSample.html)
+  * [trptitleEmpireATMPHalfSkinSample (EmpireATMPHalfSkinSample)](EmpireATMPHalfSkinSample.html)
   * [Enhanced AT-ST Walker (EmpireATSTHalfSkinSample)](EmpireATSTHalfSkinSample.html)
   * [Heavy Undead Trooper (EmpireHeavyStormDeath)](EmpireHeavyStormDeath.html)
   * [TX-225 (EmpireHovertankSample)](EmpireHovertankSample.html)
@@ -209,6 +210,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [trptitlePhantomMilleniumFalcon (PhantomMilleniumFalcon)](PhantomMilleniumFalcon.html)
   * [trptitlePhantomXWing (PhantomXWing)](PhantomXWing.html)
   * [trptitlePhantomYWing (PhantomYWing)](PhantomYWing.html)
+  * [trptitleRebelATAPHalfSkinSample (RebelATAPHalfSkinSample)](RebelATAPHalfSkinSample.html)
   * [Heavy Undead Trooper (RebelHeavyStormDeath)](RebelHeavyStormDeath.html)
   * [Stolen TX-225 (RebelHovertankSample)](RebelHovertankSample.html)
   * [Hunter Rancor (RebelHunterRancor)](RebelHunterRancor.html)

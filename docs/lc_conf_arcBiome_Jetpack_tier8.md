@@ -15,29 +15,23 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
   * (1/1) 20 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
 
-### Rebellion on Takodana for HQ level 5
-
-  * (1/1) 32 troop sample [Dowutin Hunter](RebelBrute)
-
 ### Empire on Tatooine for HQ level 5
 
   * (1/1) 32 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Rebellion on Er'Kit for HQ level 5
 
-  * (1/1) 32 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
-
-### Empire on Yavin 4 for HQ level 5
-
-  * (1/1) 32 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (1/2) 32 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
+  * (1/2) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Rebellion on Tatooine for HQ level 5
 
   * (1/1) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion on Dandoran for HQ level 5
+### Rebellion on Hoth for HQ level 5
 
-  * (1/1) 32 data fragments of unlockable air support [A-wing Starfighter](AWing)
+  * (1/2) 32 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (1/2) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Rebellion for HQ levels 6-10
 
@@ -45,27 +39,43 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ### Empire on Hoth for HQ level 5
 
-  * (1/1) 32 data fragments of unlockable troop [MTV-7](MTV7)
-
-### Rebellion on Hoth for HQ level 5
-
-  * (1/1) 32 data fragments of unlockable troop [AT-RT Walker](ATRT)
-
-### Empire on Dandoran for HQ level 5
-
-  * (1/1) 32 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
-
-### Empire on Er'Kit for HQ level 5
-
-  * (1/1) 32 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/2) 32 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/2) 32 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Empire on Takodana for HQ level 5
 
-  * (1/1) 32 troop sample [Dowutin Hunter](EmpireBrute)
+  * (1/2) 32 data fragments of unlockable troop [Shock Trooper](Shock)
+  * (1/2) 32 troop sample [Dowutin Hunter](EmpireBrute)
+
+### Rebellion on Dandoran for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable air support [A-wing Starfighter](AWing)
+  * (1/2) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Rebellion on Yavin 4 for HQ level 5
 
-  * (1/1) 32 data fragments of unlockable air support [HWK-290](HWK290)
+  * (1/2) 32 data fragments of unlockable air support [HWK-290](HWK290)
+  * (1/2) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+
+### Empire on Yavin 4 for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable air support [VT-49 Decimator](VT49)
+  * (1/2) 32 data fragments of unlockable troop [Shock Trooper](Shock)
+
+### Rebellion on Takodana for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
+  * (1/2) 32 troop sample [Dowutin Hunter](RebelBrute)
+
+### Empire on Dandoran for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
+  * (1/2) 32 data fragments of unlockable troop [Shock Trooper](Shock)
+
+### Empire on Er'Kit for HQ level 5
+
+  * (1/2) 32 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
+  * (1/2) 32 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
 

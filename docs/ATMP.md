@@ -23,12 +23,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|10800|11420|12080|12780|13520|14320|15160|16070|17030|18050|
+|Health|12960|13820|14890|16160|17650|19390|21375|23665|26265|29205|
 
 
 |Level |11   |
 |------|-----|
-|Health|18662|
+|Health|31725|
 
 
 ### Training stats
@@ -68,7 +68,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Flying unit: No
   * Max speed: 20
   * Propensity to go around obstacles: 15
-  * Rotation speed: 2
+  * Rotation speed: 3.927
   * Run speed: 0
   * Run threshold: 0
   * Unit size on map: 2x1
@@ -80,7 +80,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Attack shield border: Yes
   * Max attack range: 8
   * Min attack range: 0
-  * New rotation speed: 2000
+  * New rotation speed: 3927
   * Target preference strength: 90
   * Target preferences: **Shield (90)**, **Shield generator (90)**, Droideka (50), Flying infantry (50), Flying vehicle (50), Headquarters (50), Heavy infantry (50), Heavy vehicle (50), Infantry (50), Light vehicle (50), Other building (50), Ressource generator (50), Storage (50), Support troop (50), Turret (50), Heavy infantry hero (1), Heavy vehicule hero (1), Infantry hero (1), Vehicule hero (1), Wall (1), Trap (0)
   * View range: 10
@@ -93,37 +93,37 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1,3,5,2,4,6
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Reload time: 2s
+  * Reload time: 1.600s
   * Retargeting offset: 16
   * Self-centered targeting: No
-  * Shot count: 4
+  * Shot count: 6
   * Shot delay: 200ms
   * Target locking: No
 
 |Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2310|2440|2580|2730|2890|3060|3240|3430|3630|3850|
+|Damage per shot|1540|1627|1720|1820|1927|2040|2160|2287|2420|2567|
 
 
 |Level          |11  |
 |---------------|----|
-|Damage per shot|3982|
+|Damage per shot|2655|
 
 
 ### Projectile
 
 |Level                       |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
 |----------------------------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |3240|3420|3620 |3830 |4060 |4290 |4550 |4810 |5090 |5400 |
-|Calculated damage per second|3242|3424|3621 |3831 |4056 |4294 |4547 |4814 |5094 |5403 |
-|Calculated damage per cycle |9240|9760|10320|10920|11560|12240|12960|13720|14520|15400|
+|Displayed damage per second |3240|3425|3620 |3830 |4055 |4295 |4545 |4815 |5095 |5405 |
+|Calculated damage per second|3242|3425|3621 |3831 |4056 |4294 |4547 |4814 |5094 |5404 |
+|Calculated damage per cycle |9240|9762|10320|10920|11562|12240|12960|13722|14520|15402|
 
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |5585 |
-|Calculated damage per second|5588 |
-|Calculated damage per cycle |15928|
+|Displayed damage per second |5590 |
+|Calculated damage per second|5589 |
+|Calculated damage per cycle |15930|
 
 
   * Cannons per sequence: 6
@@ -133,7 +133,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max speed: 12
   * Damage multipliers: **(400)**: Shield, Shield generator, **(100)**: Droideka, Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero, **(75)**: Headquarters, Other building, Ressource generator, Storage, Trap, Turret, **(60)**: Wall
   * Pass through shield: No
-  * Salvos: 4
+  * Salvos: 6
 
 ## Internal stats
 
@@ -170,14 +170,14 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|3240       |3420       |3620       |3830       |4060       |4290       |4550       |4810       |5090       |5400       |
+|Displayed damage per second|3240       |3425       |3620       |3830       |4055       |4295       |4545       |4815       |5095       |5405       |
 |Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_emp|
-|Displayed damage per second|5585                         |
+|Displayed damage per second|5590                         |
 |Prestige                   |true                         |
 
 

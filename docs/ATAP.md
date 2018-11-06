@@ -21,14 +21,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 10
   * Type: vehicle
 
-|Level |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
-|------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Health|7200|7610|8050|8510|9000|9530|10090|10680|11320|12000|
+|Level |1   |2   |3    |4    |5    |6    |7    |8    |9    |10   |
+|------|----|----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|9360|9955|10675|11505|12460|13560|14810|16215|17815|19615|
 
 
 |Level |11   |
 |------|-----|
-|Health|12408|
+|Health|21095|
 
 
 ### Training stats
@@ -114,14 +114,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
 |----------------------------|----|----|----|----|----|----|----|----|----|-----|
-|Displayed damage per second |2160|2290|2410|2550|2690|2860|3030|3200|3400|3610 |
+|Displayed damage per second |2160|2290|2415|2555|2695|2865|3030|3200|3395|3605 |
 |Calculated damage per second|2161|2287|2414|2554|2694|2863|3031|3200|3396|3607 |
 |Calculated damage per cycle |6160|6520|6880|7280|7680|8160|8640|9120|9680|10280|
 
 
 |Level                       |11   |
 |----------------------------|-----|
-|Displayed damage per second |3736 |
+|Displayed damage per second |3735 |
 |Calculated damage per second|3733 |
 |Calculated damage per cycle |10640|
 
@@ -169,14 +169,14 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|2160       |2290       |2410       |2550       |2690       |2860       |3030       |3200       |3400       |3610       |
+|Displayed damage per second|2160       |2290       |2415       |2555       |2695       |2865       |3030       |3200       |3395       |3605       |
 |Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 |Level                      |11                           |
 |---------------------------|-----------------------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_reb|
-|Displayed damage per second|3736                         |
+|Displayed damage per second|3735                         |
 |Prestige                   |true                         |
 
 

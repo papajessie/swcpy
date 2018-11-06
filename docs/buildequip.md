@@ -11,6 +11,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
   * [ Data Fragment (eqpBasicFragment1)](eqpBasicFragment1.html)
   * [ Data Fragment (eqpEliteFragment1)](eqpEliteFragment1.html)
   * [Guard Reserve Anti-infantry (eqpEmpireBarracksSummonHeavy)](eqpEmpireBarracksSummonHeavy.html)
+  * [Guard Reserve Anti-vehicle (eqpEmpireBarracksSummonHeavyMirror)](eqpEmpireBarracksSummonHeavyMirror.html)
   * [Guard Reserve Light Infantry (eqpEmpireBarracksSummonLight)](eqpEmpireBarracksSummonLight.html)
   * [Guard Reserve Melee Bruisers (eqpEmpireBarracksSummonMedium)](eqpEmpireBarracksSummonMedium.html)
   * [Enhanced Heat Sink (eqpEmpireBurstTurretDamage)](eqpEmpireBurstTurretDamage.html)
@@ -32,6 +33,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Rebellion
 
   * [Guard Reserve Anti-vehicle (eqpRebelBarracksSummonHeavy)](eqpRebelBarracksSummonHeavy.html)
+  * [Guard Reserve Anti-infantry (eqpRebelBarracksSummonHeavyMirror)](eqpRebelBarracksSummonHeavyMirror.html)
   * [Guard Reserve Light Infantry (eqpRebelBarracksSummonLight)](eqpRebelBarracksSummonLight.html)
   * [Guard Reserve Melee Bruisers (eqpRebelBarracksSummonMedium)](eqpRebelBarracksSummonMedium.html)
   * [Enhanced Heat Sink (eqpRebelBurstTurretDamage)](eqpRebelBurstTurretDamage.html)
