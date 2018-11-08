@@ -5,6 +5,31 @@ title: The units stats explained
 
 This is an explanation as far as we know (since we do not have access to the source code of the application). Stats can be found in the [units descriptions](unit.html).
 
+
+**Note**: This file has been far too neglected, but since I am playing with the DPS computation, I will explain a few things about this first. Then below, the old page.
+
+## Damage computation
+
+The damage computation is pretty straightforward. The unit A shoots, the
+projectile hits unit B (or building, or whatever) and makes some damage.
+
+Well, almost.
+
+The unit A does not only "shoot". It shoots according to a certain cycle.
+As far as the team knows, the cycle is decomposed in a few steps:
+
+  * chargeTime : begins before the shots, but after the target is in range
+  * Several salvos. The number of salvos can be determined from the shotCount and the number of active "guns". As far as I know, this part is correct. A salvo takes some time itself:
+    * animationDelay : usually low, it is a time that is used to animate the sprite on screen before the shot. Mostly low. Counter-example : demolition droids, banthas, Krayt dragons, Dewbacks and Rancors.
+    * shotDelay : unclear, but thought to happen between shots. And maybe after the last shot. Mostly low. Counter-example : demolition droids, Dowutins, Krayt dragons, SD-K4 spider droids.
+  * cooldownTime : happens after some secondary shots, such as Kessen's ray pulse, or the Dowutins grenades. Simply delays the use of the abilities. Honestly, it shouldn't matter (it's just a data).
+  * reloadTime : happens after the shots (and possibly, after the cooldownTime when applicable; this may explain the delay between the end of the counter and the real availability of the second Kessen shot).
+
+The current formula for the cycle duration is :
+
+    chargeTime+salvos*animationDelay+(salvos-1)*shotDelay+max(shotDelay,reloadTime)
+
+
 ## Main stats
 
   * **Side:** Empire, Rebel, or a few others, but basically all others mean "neutral". Most others are used in PvE scenarios.

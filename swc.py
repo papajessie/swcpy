@@ -710,6 +710,7 @@ def initstat():
         'crushesWalls': 'boolean',
         'deathProjectileDamage': 'int',
         'deathProjectileDelay': 'microtime',
+        'animationDelay':'microtime',
         'deathProjectileDistance': 'int',
         'faction': 'side',
         'health': 'int',
@@ -1713,7 +1714,11 @@ def addprojectile(prefix,ob,subunit,data):
     if sc%(len(gs))>0:
         salvos+=gs[sc%(len(gs))-1]
     subunit[prefix+'salvos']=salvos
-    cliptime=ctime+stime*salvos+atime*salvos+cdtime+rtime
+    cliptime = ctime+stime*(salvos-1)+atime*salvos
+    if rtime>stime:
+        cliptime = cliptime+rtime
+    else:
+        cliptime = cliptime+stime
     subunit[prefix+'cliptime']=cliptime
     subunit[prefix+'DPSS']=int(sc*damage)
     if cliptime!=0:
