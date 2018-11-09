@@ -1,9 +1,9 @@
 ---
-title: trptitleEmpireATMPHalfSkinSample (EmpireATMPHalfSkinSample)
+title: Enhanced AT-MP Walker (EmpireATMPHalfSkinSample)
 category: unit
 ---
 
-# trptitleEmpireATMPHalfSkinSample (EmpireATMPHalfSkinSample)
+# Enhanced AT-MP Walker (EmpireATMPHalfSkinSample)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

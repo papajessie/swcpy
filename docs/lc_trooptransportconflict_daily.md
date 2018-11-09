@@ -1637,29 +1637,33 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ### Empire for HQ levels 6-10
 
-  * (1/5) 1 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
-  * (1/5) 2 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (1/5) 2 troop sample [TX-225](EmpireHovertankSample)
-  * (2/5) 2 troop sample [Imperial Troop Transport](EmpireTransportVehicle)
-
-### Rebellion for HQ levels 6-10
-
-  * (1/5) 1 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
-  * (1/5) 2 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (1/5) 2 troop sample [Stolen TX-225](RebelHovertankSample)
-  * (2/5) 2 troop sample [A-A5 Speeder Truck](RebelTransportVehicle)
-
-### Rebellion for HQ level 5
-
-  * (1/4) 1 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
-  * (1/4) 2 troop sample [Stolen TX-225](RebelHovertankSample)
-  * (2/4) 2 troop sample [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (1/7) 1 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
+  * (1/7) 2 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (1/7) 2 troop sample [TX-225](EmpireHovertankSample)
+  * (2/7) 2 troop sample [Enhanced AT-MP Walker](EmpireATMPHalfSkinSample)
+  * (2/7) 2 troop sample [Imperial Troop Transport](EmpireTransportVehicle)
 
 ### Empire for HQ level 5
 
-  * (1/4) 1 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
-  * (1/4) 2 troop sample [TX-225](EmpireHovertankSample)
-  * (2/4) 2 troop sample [Imperial Troop Transport](EmpireTransportVehicle)
+  * (1/6) 1 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
+  * (1/6) 2 troop sample [TX-225](EmpireHovertankSample)
+  * (2/6) 2 troop sample [Enhanced AT-MP Walker](EmpireATMPHalfSkinSample)
+  * (2/6) 2 troop sample [Imperial Troop Transport](EmpireTransportVehicle)
+
+### Rebellion for HQ levels 6-10
+
+  * (1/7) 1 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (1/7) 2 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (1/7) 2 troop sample [Stolen TX-225](RebelHovertankSample)
+  * (2/7) 2 troop sample [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (2/7) 2 troop sample [Enhanced AT-AP Walker](RebelATAPHalfSkinSample)
+
+### Rebellion for HQ level 5
+
+  * (1/6) 1 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (1/6) 2 troop sample [Stolen TX-225](RebelHovertankSample)
+  * (2/6) 2 troop sample [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (2/6) 2 troop sample [Enhanced AT-AP Walker](RebelATAPHalfSkinSample)
 
 ### Fallback for HQ level 10
 

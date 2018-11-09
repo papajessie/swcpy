@@ -25,37 +25,21 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ### Rebellion for HQ levels 6-10
 
-  * (2/28) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
-  * (2/28) 4 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
-  * (2/28) 4 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (2/28) 4 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
-  * (2/28) 4 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (2/28) 4 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
-  * (2/28) 4 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
-  * (2/28) 6 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
-  * (2/28) 6 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
-  * (2/28) 6 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
-  * (2/28) 6 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
-  * (2/28) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
-  * (2/28) 6 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
-  * (2/28) 6 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
-
-### Empire for HQ levels 6-10
-
-  * (2/28) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (2/28) 4 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
-  * (2/28) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (2/28) 4 data fragments of unlockable troop [614-AvA](614AVA)
-  * (2/28) 4 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
-  * (2/28) 4 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
-  * (2/28) 4 data fragments of unlockable troop [MTV-7](MTV7)
-  * (2/28) 6 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
-  * (2/28) 6 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
-  * (2/28) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
-  * (2/28) 6 data fragments of unlockable troop [614-AvA](614AVA)
-  * (2/28) 6 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
-  * (2/28) 6 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
-  * (2/28) 6 data fragments of unlockable troop [MTV-7](MTV7)
+  * (1/29) 6 data fragments of equipment [Enhanced AT-AP Walker](eqpRebelATAPHalfSkin)
+  * (2/29) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
+  * (2/29) 4 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
+  * (2/29) 4 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (2/29) 4 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (2/29) 4 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (2/29) 4 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
+  * (2/29) 4 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
+  * (2/29) 6 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
+  * (2/29) 6 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
+  * (2/29) 6 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
+  * (2/29) 6 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
+  * (2/29) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
+  * (2/29) 6 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
+  * (2/29) 6 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
 
 ### Rebellion for HQ level 5
 
@@ -67,6 +51,24 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (2/16) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (2/16) 6 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
   * (2/16) 6 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
+
+### Empire for HQ levels 6-10
+
+  * (1/29) 6 data fragments of equipment [Enhanced AT-MP Walker](eqpEmpireATMPHalfSkin)
+  * (2/29) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (2/29) 4 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
+  * (2/29) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (2/29) 4 data fragments of unlockable troop [614-AvA](614AVA)
+  * (2/29) 4 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
+  * (2/29) 4 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
+  * (2/29) 4 data fragments of unlockable troop [MTV-7](MTV7)
+  * (2/29) 6 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
+  * (2/29) 6 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
+  * (2/29) 6 data fragments of equipment [TX-225](eqpEmpireHovertank)
+  * (2/29) 6 data fragments of unlockable troop [614-AvA](614AVA)
+  * (2/29) 6 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
+  * (2/29) 6 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
+  * (2/29) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Fallback for HQ level 10
 

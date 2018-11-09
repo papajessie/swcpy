@@ -1,9 +1,9 @@
 ---
-title: trptitleRebelATAPHalfSkinSample (RebelATAPHalfSkinSample)
+title: Enhanced AT-AP Walker (RebelATAPHalfSkinSample)
 category: unit
 ---
 
-# trptitleRebelATAPHalfSkinSample (RebelATAPHalfSkinSample)
+# Enhanced AT-AP Walker (RebelATAPHalfSkinSample)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 

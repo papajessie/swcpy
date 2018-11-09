@@ -7,6 +7,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
+  * [Enhanced AT-MP Walker (eqpEmpireATMPHalfSkin)](eqpEmpireATMPHalfSkin.html)
   * [Enhanced AT-ST Walker (eqpEmpireATSTHalfSkin)](eqpEmpireATSTHalfSkin.html)
   * [Cold Weather AT-MP Mark III (eqpEmpireArcticATMP)](eqpEmpireArcticATMP.html)
   * [Modified INT-4 Interceptor (eqpEmpireArcticINT4)](eqpEmpireArcticINT4.html)
@@ -28,6 +29,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Rebellion
 
+  * [Enhanced AT-AP Walker (eqpRebelATAPHalfSkin)](eqpRebelATAPHalfSkin.html)
   * [Cold-weather Hailfire Droid (eqpRebelArcticHailfire)](eqpRebelArcticHailfire.html)
   * [Artoo  Threepio (eqpRebelArtoo)](eqpRebelArtoo.html)
   * [Captain Han Solo (eqpRebelCaptainSolo)](eqpRebelCaptainSolo.html)
