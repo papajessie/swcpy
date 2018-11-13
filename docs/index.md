@@ -4,7 +4,9 @@ category: index
 ---
 # Main index page (index)
 
-This documentation was generated on 2018-11-09 for version 1184
+This documentation was generated on 2018-11-13 for version 1184
+
+A list of [known bugs](bugs.html) in the data files is curated by hand by the author of this site.
 
  * [Index of objects of type "air"](air.html)
  * [Index of objects of type "buildequip"](buildequip.html)
