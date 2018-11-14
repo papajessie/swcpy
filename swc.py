@@ -1283,6 +1283,7 @@ def main(argv):
             file.write("---\ntitle: {1} ({0})\ncategory: index\n---\n".format(id,'Main index page'))
             file.write("# {1} ({0})\n\n".format('index','Main index page'))
             file.write("This documentation was generated on {0} for version {1}\n\n".format(date.today().isoformat(),config['version']))
+            file.write("A list of [known bugs](bugs.html) in the data files is curated by hand by the author of this site.\n\n".format(date.today().isoformat(),config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
                 file.write(' * [{1}]({0}.html)\n'.format(sid,title))
@@ -3370,14 +3371,24 @@ def display_leveldata(data,levels,keys,titles,funcs,LINKS=False,COLS=10):
             old=new
         levels=newlevs
         display=newdisp
-        if len(levels)>COLS:
+        if len(levels)>COLS+1:
+            ll=len(levels)
+            minrem = COLS
+            MAXCOLS = COLS
+            for maxcols in range(3,COLS+1):
+                if ll%maxcols == 0:
+                    MAXCOLS=maxcols
+                    minrem=0
+                elif ll%maxcols < minrem:
+                    MAXCOLS=maxcols
+                    minrem=ll%maxcols
             sublevels=[]
-            while len(levels)>COLS:
-                sublevels.append(levels[0:COLS])
-                levels=levels[COLS:]
-            sublevels.append(levels)
+            while len(levels)>MAXCOLS:
+                sublevels.append(list(reversed(levels[0:MAXCOLS])))
+                levels=levels[MAXCOLS:]
+            sublevels.append(list(reversed(levels)))
         else:
-            sublevels=[levels]
+            sublevels=[list(reversed(levels))]
         for levels in sublevels:
             width={}
             width['label']=5
