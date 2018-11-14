@@ -23,11 +23,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 1m
   * Type: storage
 
-|Level           |1       |2       |3       |4       |5       |6       |7       |8       |9       |10      |
+|Level           |10      |9       |8       |7       |6       |5       |4       |3       |2       |1       |
 |----------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|Armor type      |building|resource|resource|resource|resource|resource|resource|resource|resource|resource|
-|Maximum capacity|1200 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |
-|Health          |500     |6000    |7200    |9600    |11600   |13600   |15600   |17600   |19600   |21600   |
+|Armor type      |resource|resource|resource|resource|resource|resource|resource|resource|resource|building|
+|Maximum capacity|3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |3500 $  |1200 $  |
+|Health          |21600   |19600   |17600   |15600   |13600   |11600   |9600    |7200    |6000    |500     |
 
 
 ### Training stats
@@ -70,10 +70,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|24 |36 |42 |54 |66 |78 |90 |102|114|126|
-|Order |494|495|496|497|498|499|500|501|502|503|
-|Xp    |4  |6  |7  |9  |11 |13 |15 |17 |19 |21 |
+|Max XP|126|114|102|90 |78 |66 |54 |42 |36 |24 |
+|Order |503|502|501|500|499|498|497|496|495|494|
+|Xp    |21 |19 |17 |15 |13 |11 |9  |7  |6  |4  |
 
 

@@ -22,19 +22,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |1   |2   |3   |4   |5   |6   |7   |8   |
+|Level       |8   |7   |6   |5   |4   |3   |2   |1   |
 |------------|----|----|----|----|----|----|----|----|
-|Health      |1000|2000|3000|4000|5000|6000|7000|8000|
-|Max quantity|25  |50  |75  |100 |125 |150 |175 |200 |
+|Health      |8000|7000|6000|5000|4000|3000|2000|1000|
+|Max quantity|200 |175 |150 |125 |100 |75  |50  |25  |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                |2                                |3                                |4                                |5                                |6                                |7                                |8                                |
+|Level   |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
 |--------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
-|Building|[Headquarters 1](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|
+|Building|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats
@@ -67,10 +67,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.01,0.49,-0.07
   * Stash order: 1000
 
-|Level     |1                      |2                      |3                      |4                      |5                      |6                      |7                      |8                      |
+|Level     |8                      |7                      |6                      |5                      |4                      |3                      |2                      |1                      |
 |----------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-|Connectors|smugglerWallConnectors1|smugglerWallConnectors2|smugglerWallConnectors3|smugglerWallConnectors4|smugglerWallConnectors5|smugglerWallConnectors6|smugglerWallConnectors7|smugglerWallConnectors8|
-|Store tab |defenses               |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
+|Connectors|smugglerWallConnectors8|smugglerWallConnectors7|smugglerWallConnectors6|smugglerWallConnectors5|smugglerWallConnectors4|smugglerWallConnectors3|smugglerWallConnectors2|smugglerWallConnectors1|
+|Store tab |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |defenses               |
 
 
 ## Uninterpreted stats
@@ -80,8 +80,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |
+|Level|8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|
-|Order|462|463|464|465|466|467|468|469|
+|Order|469|468|467|466|465|464|463|462|
 
 

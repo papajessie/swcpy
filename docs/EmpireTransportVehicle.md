@@ -21,27 +21,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 12
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|42000|44900|47100|49100|50900|52600|54300|55900|57500|59000|
+|Health|59000|57500|55900|54300|52600|50900|49100|47100|44900|42000|
 
 
 ### Training stats
 
-|Level        |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|1m20s                          |1m25s                                  |1m30s                                  |1m45s                                  |1m55s                                  |2m10s                                  |2m25s                                  |2m45s                                  |3m5s                                   |3m25s                                   |
-|Training cost|730$                           |850$                                   |970$                                   |1105$                                  |1230$                                  |1350$                                  |1540$                                  |1645$                                  |1730$                                  |1865$                                   |
-|Building     |[Factory 1](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                              |
+|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|
+|Training time|3m25s                                   |3m5s                                   |2m45s                                  |2m25s                                  |2m10s                                  |1m55s                                  |1m45s                                  |1m30s                                  |1m25s                                  |1m20s                          |
+|Training cost|1865$                                   |1730$                                  |1645$                                  |1540$                                  |1350$                                  |1230$                                  |1105$                                  |970$                                   |850$                                   |730$                           |
+|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 1](empireFactory.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
-|--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
-|Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+|Level               |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
+|--------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Upgrade requirements|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 
 ### Movement stats
@@ -70,10 +70,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Empire transport vehicle summon A target: self
   * Empire transport vehicle summon A value: 1
 
-|Level                                            |1                                         |2                                         |3                                         |4                                         |5                                         |6                                         |7                                         |8                                         |9                                         |10                                        |
+|Level                                            |10                                        |9                                         |8                                         |7                                         |6                                         |5                                         |4                                         |3                                         |2                                         |1                                         |
 |-------------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|Empire transport vehicle summon A ms per proc    |24s                                       |23s                                       |22s                                       |21s                                       |20s                                       |19s                                       |18s                                       |17s                                       |16s                                       |15s                                       |
-|Empire transport vehicle summon A summon visitors|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|
+|Empire transport vehicle summon A ms per proc    |15s                                       |16s                                       |17s                                       |18s                                       |19s                                       |20s                                       |21s                                       |22s                                       |23s                                       |24s                                       |
+|Empire transport vehicle summon A summon visitors|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|
 
 
   * Empire transport vehicle summon A summon die with summoner: No
@@ -95,10 +95,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Empire transport vehicle summon B target: self
   * Empire transport vehicle summon B value: 1
 
-|Level                                            |1                                         |2                                         |3                                         |4                                         |5                                         |6                                         |7                                         |8                                         |9                                         |10                                        |
+|Level                                            |10                                        |9                                         |8                                         |7                                         |6                                         |5                                         |4                                         |3                                         |2                                         |1                                         |
 |-------------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|Empire transport vehicle summon B ms per proc    |24s                                       |23s                                       |22s                                       |21s                                       |20s                                       |19s                                       |18s                                       |17s                                       |16s                                       |15s                                       |
-|Empire transport vehicle summon B summon visitors|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|
+|Empire transport vehicle summon B ms per proc    |15s                                       |16s                                       |17s                                       |18s                                       |19s                                       |20s                                       |21s                                       |22s                                       |23s                                       |24s                                       |
+|Empire transport vehicle summon B summon visitors|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 9](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 8](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 7](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 6](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|[Phase II Dark Trooper level 5](Dark.html)|
 
 
   * Empire transport vehicle summon B summon die with summoner: No
@@ -137,20 +137,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 200ms
   * Target locking: No
 
-|Level               |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level               |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |--------------------|----|----|----|----|----|----|----|----|----|----|
-|Special data 2 value|3100|3850|4650|5250|5800|6200|6750|7150|7750|8150|
-|Special data 3 value|24  |23  |22  |21  |20  |19  |18  |17  |16  |15  |
-|Damage per shot     |1600|2000|2400|2700|3000|3200|3500|3700|4000|4200|
+|Special data 2 value|8150|7750|7150|6750|6200|5800|5250|4650|3850|3100|
+|Special data 3 value|15  |16  |17  |18  |19  |20  |21  |22  |23  |24  |
+|Damage per shot     |4200|4000|3700|3500|3200|3000|2700|2400|2000|1600|
 
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6   |7    |8    |9    |10   |
-|----------------------------|----|----|----|----|----|----|-----|-----|-----|-----|
-|Displayed damage per second |3100|3850|4650|5250|5800|6200|6750 |7150 |7750 |8150 |
-|Calculated damage per second|3096|3870|4645|5225|5806|6193|6774 |7161 |7741 |8129 |
-|Calculated damage per cycle |4800|6000|7200|8100|9000|9600|10500|11100|12000|12600|
+|Level                       |10   |9    |8    |7    |6   |5   |4   |3   |2   |1   |
+|----------------------------|-----|-----|-----|-----|----|----|----|----|----|----|
+|Displayed damage per second |8150 |7750 |7150 |6750 |6200|5800|5250|4650|3850|3100|
+|Calculated damage per second|8129 |7741 |7161 |6774 |6193|5806|5225|4645|3870|3096|
+|Calculated damage per cycle |12600|12000|11100|10500|9600|9000|8100|7200|6000|4800|
 
 
   * Cannons per sequence: 2
@@ -169,13 +169,13 @@ These stats internal to the system link different parts of data together.
   * Unit ID: EmpireTransportVehicle
   * Upgrade shard uid: shrd_troopEmpireTransportVehicle
 
-|Level                                       |1                                                                    |2                                                                    |3                                                                    |4                                                                    |5                                                                    |6                                                                    |7                                                                    |8                                                                    |9                                                                    |10                                                                     |
-|--------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------|
-|Empire transport vehicle summon A details   |sumEmpireTransportVehicleA1                                          |sumEmpireTransportVehicleA2                                          |sumEmpireTransportVehicleA3                                          |sumEmpireTransportVehicleA4                                          |sumEmpireTransportVehicleA5                                          |sumEmpireTransportVehicleA6                                          |sumEmpireTransportVehicleA7                                          |sumEmpireTransportVehicleA8                                          |sumEmpireTransportVehicleA9                                          |sumEmpireTransportVehicleA10                                           |
-|Empire transport vehicle summon A summon uid|sumEmpireTransportVehicleA1                                          |sumEmpireTransportVehicleA2                                          |sumEmpireTransportVehicleA3                                          |sumEmpireTransportVehicleA4                                          |sumEmpireTransportVehicleA5                                          |sumEmpireTransportVehicleA6                                          |sumEmpireTransportVehicleA7                                          |sumEmpireTransportVehicleA8                                          |sumEmpireTransportVehicleA9                                          |sumEmpireTransportVehicleA10                                           |
-|Empire transport vehicle summon B details   |sumEmpireTransportVehicleB1                                          |sumEmpireTransportVehicleB2                                          |sumEmpireTransportVehicleB3                                          |sumEmpireTransportVehicleB4                                          |sumEmpireTransportVehicleB5                                          |sumEmpireTransportVehicleB6                                          |sumEmpireTransportVehicleB7                                          |sumEmpireTransportVehicleB8                                          |sumEmpireTransportVehicleB9                                          |sumEmpireTransportVehicleB10                                           |
-|Empire transport vehicle summon B summon uid|sumEmpireTransportVehicleB1                                          |sumEmpireTransportVehicleB2                                          |sumEmpireTransportVehicleB3                                          |sumEmpireTransportVehicleB4                                          |sumEmpireTransportVehicleB5                                          |sumEmpireTransportVehicleB6                                          |sumEmpireTransportVehicleB7                                          |sumEmpireTransportVehicleB8                                          |sumEmpireTransportVehicleB9                                          |sumEmpireTransportVehicleB10                                           |
-|Spawn apply buffs                           |buffEmpireTransportVehicleSummonA1,buffEmpireTransportVehicleSummonB1|buffEmpireTransportVehicleSummonA2,buffEmpireTransportVehicleSummonB2|buffEmpireTransportVehicleSummonA3,buffEmpireTransportVehicleSummonB3|buffEmpireTransportVehicleSummonA4,buffEmpireTransportVehicleSummonB4|buffEmpireTransportVehicleSummonA5,buffEmpireTransportVehicleSummonB5|buffEmpireTransportVehicleSummonA6,buffEmpireTransportVehicleSummonB6|buffEmpireTransportVehicleSummonA7,buffEmpireTransportVehicleSummonB7|buffEmpireTransportVehicleSummonA8,buffEmpireTransportVehicleSummonB8|buffEmpireTransportVehicleSummonA9,buffEmpireTransportVehicleSummonB9|buffEmpireTransportVehicleSummonA10,buffEmpireTransportVehicleSummonB10|
+|Level                                       |10                                                                     |9                                                                    |8                                                                    |7                                                                    |6                                                                    |5                                                                    |4                                                                    |3                                                                    |2                                                                    |1                                                                    |
+|--------------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+|Empire transport vehicle summon A details   |sumEmpireTransportVehicleA10                                           |sumEmpireTransportVehicleA9                                          |sumEmpireTransportVehicleA8                                          |sumEmpireTransportVehicleA7                                          |sumEmpireTransportVehicleA6                                          |sumEmpireTransportVehicleA5                                          |sumEmpireTransportVehicleA4                                          |sumEmpireTransportVehicleA3                                          |sumEmpireTransportVehicleA2                                          |sumEmpireTransportVehicleA1                                          |
+|Empire transport vehicle summon A summon uid|sumEmpireTransportVehicleA10                                           |sumEmpireTransportVehicleA9                                          |sumEmpireTransportVehicleA8                                          |sumEmpireTransportVehicleA7                                          |sumEmpireTransportVehicleA6                                          |sumEmpireTransportVehicleA5                                          |sumEmpireTransportVehicleA4                                          |sumEmpireTransportVehicleA3                                          |sumEmpireTransportVehicleA2                                          |sumEmpireTransportVehicleA1                                          |
+|Empire transport vehicle summon B details   |sumEmpireTransportVehicleB10                                           |sumEmpireTransportVehicleB9                                          |sumEmpireTransportVehicleB8                                          |sumEmpireTransportVehicleB7                                          |sumEmpireTransportVehicleB6                                          |sumEmpireTransportVehicleB5                                          |sumEmpireTransportVehicleB4                                          |sumEmpireTransportVehicleB3                                          |sumEmpireTransportVehicleB2                                          |sumEmpireTransportVehicleB1                                          |
+|Empire transport vehicle summon B summon uid|sumEmpireTransportVehicleB10                                           |sumEmpireTransportVehicleB9                                          |sumEmpireTransportVehicleB8                                          |sumEmpireTransportVehicleB7                                          |sumEmpireTransportVehicleB6                                          |sumEmpireTransportVehicleB5                                          |sumEmpireTransportVehicleB4                                          |sumEmpireTransportVehicleB3                                          |sumEmpireTransportVehicleB2                                          |sumEmpireTransportVehicleB1                                          |
+|Spawn apply buffs                           |buffEmpireTransportVehicleSummonA10,buffEmpireTransportVehicleSummonB10|buffEmpireTransportVehicleSummonA9,buffEmpireTransportVehicleSummonB9|buffEmpireTransportVehicleSummonA8,buffEmpireTransportVehicleSummonB8|buffEmpireTransportVehicleSummonA7,buffEmpireTransportVehicleSummonB7|buffEmpireTransportVehicleSummonA6,buffEmpireTransportVehicleSummonB6|buffEmpireTransportVehicleSummonA5,buffEmpireTransportVehicleSummonB5|buffEmpireTransportVehicleSummonA4,buffEmpireTransportVehicleSummonB4|buffEmpireTransportVehicleSummonA3,buffEmpireTransportVehicleSummonB3|buffEmpireTransportVehicleSummonA2,buffEmpireTransportVehicleSummonB2|buffEmpireTransportVehicleSummonA1,buffEmpireTransportVehicleSummonB1|
 
 
 ## Presentation stats
@@ -212,12 +212,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level                      |1               |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|----------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|3100            |3850       |4650       |5250       |5800       |6200       |6750       |7150       |7750       |8150       |
-|Icon unlock position       |-0.75,0.375,0.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |2.5,-21,-1.5    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |0.6,0.6,0.6     |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |10         |9          |8          |7          |6          |5          |4          |3          |2          |1               |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|----------------|
+|Displayed damage per second|8150       |7750       |7150       |6750       |6200       |5800       |5250       |4650       |3850       |3100            |
+|Icon unlock position       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|-0.75,0.375,0.25|
+|Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|2.5,-21,-1.5    |
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0.6,0.6,0.6     |
 
 
 ## Uninterpreted stats
@@ -238,8 +238,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level|10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order|81301|81302|81303|81304|81305|81306|81307|81308|81309|81310|
+|Order|81310|81309|81308|81307|81306|81305|81304|81303|81302|81301|
 
 

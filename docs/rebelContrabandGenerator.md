@@ -21,22 +21,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Type: resource
 
-|Level           |1         |2         |3         |4         |5         |6         |7          |8          |9          |10         |
-|----------------|----------|----------|----------|----------|----------|----------|-----------|-----------|-----------|-----------|
-|Produce         |25  Con./h|40  Con./h|55  Con./h|58  Con./h|60  Con./h|75  Con./h|100  Con./h|110  Con./h|125  Con./h|150  Con./h|
-|Maximum capacity|150  Con. |300  Con. |560  Con. |560  Con. |560  Con. |890  Con. |1400  Con. |1500  Con. |2000  Con. |2200  Con. |
-|Health          |3000      |4500      |5400      |7200      |8700      |10200     |11700      |13200      |14700      |16400      |
-|Max quantity    |1         |1         |1         |2         |2         |2         |2          |3          |3          |3          |
-|Time            |1d        |2d        |3d        |4d        |5d        |6d        |1w         |1w1d       |1w2d       |1w3d       |
+|Level           |10         |9          |8          |7          |6         |5         |4         |3         |2         |1         |
+|----------------|-----------|-----------|-----------|-----------|----------|----------|----------|----------|----------|----------|
+|Produce         |150  Con./h|125  Con./h|110  Con./h|100  Con./h|75  Con./h|60  Con./h|58  Con./h|55  Con./h|40  Con./h|25  Con./h|
+|Maximum capacity|2200  Con. |2000  Con. |1500  Con. |1400  Con. |890  Con. |560  Con. |560  Con. |560  Con. |300  Con. |150  Con. |
+|Health          |16400      |14700      |13200      |11700      |10200     |8700      |7200      |5400      |4500      |3000      |
+|Max quantity    |3          |3          |3          |2          |2         |2         |2         |1         |1         |1         |
+|Time            |1w3d       |1w2d       |1w1d       |1w         |6d        |5d        |4d        |3d        |2d        |1d        |
 
 
 ### Training stats
 
-|Level        |1                                                    |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
-|-------------|-----------------------------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Training cost|810000$                                              |820000$                       |840000$                       |900000$                       |1050000$                      |1275000$                      |1290000$                      |3520000$                      |3600000$                      |4200000$                       |
-|Building 1   |[Headquarters 7](rebelHQ.html)                       |[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-|Building 2   |[Contraband Safehouse 1](rebelContrabandStorage.html)|None                          |None                          |None                          |None                          |None                          |None                          |None                          |None                          |None                           |
+|Level        |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                                                    |
+|-------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------------------------------|
+|Training cost|4200000$                       |3600000$                      |3520000$                      |1290000$                      |1275000$                      |1050000$                      |900000$                       |840000$                       |820000$                       |810000$                                              |
+|Building 1   |[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)                       |
+|Building 2   |None                           |None                          |None                          |None                          |None                          |None                          |None                          |None                          |None                          |[Contraband Safehouse 1](rebelContrabandStorage.html)|
 
 
 ### Upgrading stats
@@ -65,16 +65,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 210
 
-|Level                 |1                               |2                               |3                               |4                               |5                               |6                               |7                               |8                               |9-10                            |
+|Level                 |9-10                            |8                               |7                               |6                               |5                               |4                               |3                               |2                               |1                               |
 |----------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-|Asset name            |generator_con-mod-up1           |generator_con-mod-up2           |generator_con-mod-up3           |generator_con-mod-up4           |generator_con-mod-up5           |generator_con-mod-up6           |generator_con-mod-up7           |generator_con-mod-up8           |generator_con-mod-up9           |
-|Buff asset offset     |-1,0.8,-1                       |-1,0.8,-1                       |-1,0.8,-1                       |-1,0.8,-1                       |-1.2,0.4,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |
-|Bundle name           |generator_con-mod-up1           |generator_con-mod-up2           |generator_con-mod-up3           |generator_con-mod-up4           |generator_con-mod-up5           |generator_con-mod-up6           |generator_con-mod-up7           |generator_con-mod-up8           |generator_con-mod-up9           |
-|Fill state asset name |generator_con-mod-up1_fillStates|generator_con-mod-up2_fillStates|generator_con-mod-up3_fillStates|generator_con-mod-up4_fillStates|generator_con-mod-up5_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|
-|Fill state bundle name|generator_con-mod-up1_fillStates|generator_con-mod-up2_fillStates|generator_con-mod-up3_fillStates|generator_con-mod-up4_fillStates|generator_con-mod-up5_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|
-|Icon camera position  |-46.7,39.22,42.09               |-46.67,39.23,42.12              |-46.89,39.21,42.05              |-46.71,39.26,42.15              |-46.64,39.22,42.15              |-46.67,39.43,42.11              |-46.67,39.43,42.11              |-46.67,39.43,42.11              |-46.67,39.43,42.11              |
-|Icon lookat position  |1.25,2.22,-0.3                  |1.28,2.23,-0.27                 |1.06,2.21,-0.34                 |1.24,2.26,-0.24                 |1.31,2.22,-0.24                 |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |
-|Store tab             |resources                       |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |
+|Asset name            |generator_con-mod-up9           |generator_con-mod-up8           |generator_con-mod-up7           |generator_con-mod-up6           |generator_con-mod-up5           |generator_con-mod-up4           |generator_con-mod-up3           |generator_con-mod-up2           |generator_con-mod-up1           |
+|Buff asset offset     |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.6,-1.4                   |-1.2,0.4,-1.4                   |-1,0.8,-1                       |-1,0.8,-1                       |-1,0.8,-1                       |-1,0.8,-1                       |
+|Bundle name           |generator_con-mod-up9           |generator_con-mod-up8           |generator_con-mod-up7           |generator_con-mod-up6           |generator_con-mod-up5           |generator_con-mod-up4           |generator_con-mod-up3           |generator_con-mod-up2           |generator_con-mod-up1           |
+|Fill state asset name |generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up5_fillStates|generator_con-mod-up4_fillStates|generator_con-mod-up3_fillStates|generator_con-mod-up2_fillStates|generator_con-mod-up1_fillStates|
+|Fill state bundle name|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up6_fillStates|generator_con-mod-up5_fillStates|generator_con-mod-up4_fillStates|generator_con-mod-up3_fillStates|generator_con-mod-up2_fillStates|generator_con-mod-up1_fillStates|
+|Icon camera position  |-46.67,39.43,42.11              |-46.67,39.43,42.11              |-46.67,39.43,42.11              |-46.67,39.43,42.11              |-46.64,39.22,42.15              |-46.71,39.26,42.15              |-46.89,39.21,42.05              |-46.67,39.23,42.12              |-46.7,39.22,42.09               |
+|Icon lookat position  |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |1.28,2.43,-0.28                 |1.31,2.22,-0.24                 |1.24,2.26,-0.24                 |1.06,2.21,-0.34                 |1.28,2.23,-0.27                 |1.25,2.22,-0.3                  |
+|Store tab             |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |(not found)                     |resources                       |
 
 
 ## Uninterpreted stats
@@ -83,9 +83,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 20
 
-|Level |1|2|3|4|5 |6 |7 |8 |9-10|
-|------|-|-|-|-|--|--|--|--|----|
-|Max XP|1|2|3|8|10|12|14|24|27  |
-|Xp    |1|2|3|4|5 |6 |7 |8 |9   |
+|Level |9-10|8 |7 |6 |5 |4|3|2|1|
+|------|----|--|--|--|--|-|-|-|-|
+|Max XP|27  |24|14|12|10|8|3|2|1|
+|Xp    |9   |8 |7 |6 |5 |4|3|2|1|
 
 

@@ -24,18 +24,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: droid_hut
 
-|Level         |1  |2 |
-|--------------|---|--|
-|Hide if locked|Yes|No|
+|Level         |2 |1  |
+|--------------|--|---|
+|Hide if locked|No|Yes|
 
 
 ### Training stats
 
   * Training cost: Free
 
-|Level   |1                             |2                              |
-|--------|------------------------------|-------------------------------|
-|Building|[Headquarters 1](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level   |2                              |1                             |
+|--------|-------------------------------|------------------------------|
+|Building|[Headquarters 10](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -66,12 +66,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.43,2.36,0.6
   * Stash order: 290
 
-|Level      |1               |2                       |
-|-----------|----------------|------------------------|
-|Asset name |droidhut_neu-mod|droidhutprestige_neu-mod|
-|Bundle name|models_preload  |droidhutprestige_neu-mod|
-|Prestige   |(not found)     |true                    |
-|Store tab  |not_in_store    |(not found)             |
+|Level      |2                       |1               |
+|-----------|------------------------|----------------|
+|Asset name |droidhutprestige_neu-mod|droidhut_neu-mod|
+|Bundle name|droidhutprestige_neu-mod|models_preload  |
+|Prestige   |true                    |(not found)     |
+|Store tab  |(not found)             |not_in_store    |
 
 
 ## Uninterpreted stats

@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: starport
 
-|Level       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
-|------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-|Health      |3000|3900|6000|9000|10500|12000|13500|15000|16500|18000|
-|Max quantity|1   |1   |2   |2   |2    |3    |3    |3    |4    |4    |
-|Time        |5m  |0s  |0s  |0s  |0s   |0s   |0s   |0s   |0s   |0s   |
+|Level       |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|
+|Health      |18000|16500|15000|13500|12000|10500|9000|6000|3900|3000|
+|Max quantity|4    |4    |3    |3    |3    |2    |2   |2   |1   |1   |
+|Time        |0s   |0s   |0s   |0s   |0s   |0s   |0s  |0s  |0s  |5m  |
 
 
 ### Training stats
 
-|Level        |1                                             |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|-------------|----------------------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Training cost|2500 All.                                     |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                            |
-|Building     |[Alloy Depot 1](smugglerMaterialsStorage.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level        |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                             |
+|-------------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------------------|
+|Training cost|1 All.                            |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |2500 All.                                     |
+|Building     |[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Alloy Depot 1](smugglerMaterialsStorage.html)|
 
 
 ### Upgrading stats
@@ -68,19 +68,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 1.39,4.11,-1.67
   * Stash order: 1000
 
-|Level    |1   |2-10       |
-|---------|----|-----------|
-|Store tab|army|(not found)|
+|Level    |2-10       |1   |
+|---------|-----------|----|
+|Store tab|(not found)|army|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|3  |5  |10 |14 |16 |30 |33 |39 |56 |64 |
-|Order |400|401|402|403|404|405|406|407|408|409|
-|Xp    |3  |5  |5  |7  |8  |10 |11 |13 |14 |16 |
+|Max XP|64 |56 |39 |33 |30 |16 |14 |10 |5  |3  |
+|Order |409|408|407|406|405|404|403|402|401|400|
+|Xp    |16 |14 |13 |11 |10 |8  |7  |5  |5  |3  |
 
 

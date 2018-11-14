@@ -64,8 +64,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |
+|Level|2  |1  |
 |-----|---|---|
-|Order|702|703|
+|Order|703|702|
 
 

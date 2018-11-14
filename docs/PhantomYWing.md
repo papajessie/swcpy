@@ -117,9 +117,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum Y wing target: enemies
   * Sum Y wing value: 1
 
-|Level                     |1-3                                |4-5                                |6-7                                |8-9                                |10                                  |
-|--------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|Sum Y wing summon visitors|[Y-wing Bomber level 6](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 8](YWing.html)|[Y-wing Bomber level 9](YWing.html)|[Y-wing Bomber level 10](YWing.html)|
+|Level                     |10                                  |8-9                                |6-7                                |4-5                                |1-3                                |
+|--------------------------|------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|Sum Y wing summon visitors|[Y-wing Bomber level 10](YWing.html)|[Y-wing Bomber level 9](YWing.html)|[Y-wing Bomber level 8](YWing.html)|[Y-wing Bomber level 7](YWing.html)|[Y-wing Bomber level 6](YWing.html)|
 
 
   * Sum Y wing summon die with summoner: No
@@ -136,11 +136,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomYWing
 
-|Level                |1            |2            |3            |4            |5            |6            |7            |8            |9            |10            |
-|---------------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|--------------|
-|Apply buffs          |buffSumYWing1|buffSumYWing2|buffSumYWing3|buffSumYWing4|buffSumYWing5|buffSumYWing6|buffSumYWing7|buffSumYWing8|buffSumYWing9|buffSumYWing10|
-|Sum Y wing details   |sumYWing1    |sumYWing2    |sumYWing3    |sumYWing4    |sumYWing5    |sumYWing6    |sumYWing7    |sumYWing8    |sumYWing9    |sumYWing10    |
-|Sum Y wing summon uid|sumYWing1    |sumYWing2    |sumYWing3    |sumYWing4    |sumYWing5    |sumYWing6    |sumYWing7    |sumYWing8    |sumYWing9    |sumYWing10    |
+|Level                |10            |9            |8            |7            |6            |5            |4            |3            |2            |1            |
+|---------------------|--------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|Apply buffs          |buffSumYWing10|buffSumYWing9|buffSumYWing8|buffSumYWing7|buffSumYWing6|buffSumYWing5|buffSumYWing4|buffSumYWing3|buffSumYWing2|buffSumYWing1|
+|Sum Y wing details   |sumYWing10    |sumYWing9    |sumYWing8    |sumYWing7    |sumYWing6    |sumYWing5    |sumYWing4    |sumYWing3    |sumYWing2    |sumYWing1    |
+|Sum Y wing summon uid|sumYWing10    |sumYWing9    |sumYWing8    |sumYWing7    |sumYWing6    |sumYWing5    |sumYWing4    |sumYWing3    |sumYWing2    |sumYWing1    |
 
 
 ## Presentation stats
@@ -184,8 +184,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|320301|320302|320303|320304|320305|320306|320307|320308|320309|320310|
+|Order|320310|320309|320308|320307|320306|320305|320304|320303|320302|320301|
 
 

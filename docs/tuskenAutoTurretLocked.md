@@ -25,18 +25,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: turret
 
-|Level |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |
 |------|-----|-----|-----|-----|-----|
-|Health|17000|19500|22000|24500|27000|
+|Health|27000|24500|22000|19500|17000|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |6                                  |7                                                  |8                                                  |9                                                  |10                                                  |
-|--------|-----------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
-|Building|[Tusken Raider HQ 6](tuskenHQ.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 10](tuskenHQLocked.html)|
+|Level   |10                                                  |9                                                  |8                                                  |7                                                  |6                                  |
+|--------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-----------------------------------|
+|Building|["bld_title_tuskenHQLocked" 10](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|[Tusken Raider HQ 6](tuskenHQ.html)|
 
 
 ### Upgrading stats
@@ -72,16 +72,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 4
   * Turret shot delay: 100ms
 
-|Level                 |6  |7  |8   |9   |10  |
-|----------------------|---|---|----|----|----|
-|Turret damage per shot|901|986|1070|1155|1267|
+|Level                 |10  |9   |8   |7  |6  |
+|----------------------|----|----|----|---|---|
+|Turret damage per shot|1267|1155|1070|986|901|
 
 
-|Level                                     |6   |7   |8   |9   |10  |
+|Level                                     |10  |9   |8   |7   |6   |
 |------------------------------------------|----|----|----|----|----|
-|Turret displayed damage per second        |1601|1752|1902|2053|2252|
-|Turret attack calculated damage per second|1601|1752|1902|2053|2252|
-|Turret attack calculated damage per clip  |3604|3944|4280|4620|5068|
+|Turret displayed damage per second        |2252|2053|1902|1752|1601|
+|Turret attack calculated damage per second|2252|2053|1902|1752|1601|
+|Turret attack calculated damage per clip  |5068|4620|4280|3944|3604|
 
 
   * Turret attack cannons per sequence: 1
@@ -100,9 +100,9 @@ These stats internal to the system link different parts of data together.
   * Sub type: rapid_fire_turret
   * Turret projectile type: projectileTuskenAutoTurret
 
-|Level    |6                  |7                  |8                  |9                  |10                  |
-|---------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|Turret id|t_tuskenAutoTurret6|t_tuskenAutoTurret7|t_tuskenAutoTurret8|t_tuskenAutoTurret9|t_tuskenAutoTurret10|
+|Level    |10                  |9                  |8                  |7                  |6                  |
+|---------|--------------------|-------------------|-------------------|-------------------|-------------------|
+|Turret id|t_tuskenAutoTurret10|t_tuskenAutoTurret9|t_tuskenAutoTurret8|t_tuskenAutoTurret7|t_tuskenAutoTurret6|
 
 
 ## Presentation stats
@@ -133,9 +133,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret max scale: 0
   * Turret tracker name: Base/Turret
 
-|Level                             |6   |7   |8   |9   |10  |
+|Level                             |10  |9   |8   |7   |6   |
 |----------------------------------|----|----|----|----|----|
-|Turret displayed damage per second|1601|1752|1902|2053|2252|
+|Turret displayed damage per second|2252|2053|1902|1752|1601|
 
 
 ## Uninterpreted stats
@@ -149,10 +149,10 @@ Seriously, we don't really know what to do with these.
   * Turret strict cool down: No
   * Turret timey wimey: 1.77777777799999991970025803311727941036224365234375
 
-|Level |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |
 |------|---|---|---|---|---|
-|Max XP|102|114|132|144|162|
-|Order |526|527|528|529|530|
-|Xp    |17 |19 |22 |24 |27 |
+|Max XP|162|144|132|114|102|
+|Order |530|529|528|527|526|
+|Xp    |27 |24 |22 |19 |17 |
 
 

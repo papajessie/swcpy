@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: turret
 
-|Level          |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|---------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Cross materials|750 |1250|1556|1500 |2000 |2778 |4167 |10417|11111|11905|
-|Cross time     |1m  |2m  |3m  |4m   |5m   |6m   |7m   |8m   |9m   |10m  |
-|Health         |3800|5500|6000|15000|17500|20000|22500|25000|27500|30000|
+|Level          |10   |9    |8    |7    |6    |5    |4    |3   |2   |1   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|
+|Cross materials|11905|11111|10417|4167 |2778 |2000 |1500 |1556|1250|750 |
+|Cross time     |10m  |9m   |8m   |7m   |6m   |5m   |4m   |3m  |2m  |1m  |
+|Health         |30000|27500|25000|22500|20000|17500|15000|6000|5500|3800|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|--------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Building|[Headquarters 1](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level   |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
+|--------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
+|Building|[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats
@@ -70,16 +70,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 3
   * Turret shot delay: 250ms
 
-|Level                 |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|----------------------|---|---|---|---|---|---|----|----|----|----|
-|Turret damage per shot|292|438|525|700|846|992|1138|1283|1429|1575|
+|Level                 |10  |9   |8   |7   |6  |5  |4  |3  |2  |1  |
+|----------------------|----|----|----|----|---|---|---|---|---|---|
+|Turret damage per shot|1575|1429|1283|1138|992|846|700|525|438|292|
 
 
-|Level                                     |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|------------------------------------------|---|----|----|----|----|----|----|----|----|----|
-|Turret displayed damage per second        |500|750 |900 |1200|1450|1700|1950|2200|2450|2700|
-|Turret attack calculated damage per second|500|750 |900 |1200|1450|1700|1950|2199|2449|2700|
-|Turret attack calculated damage per clip  |876|1314|1575|2100|2538|2976|3414|3849|4287|4725|
+|Level                                     |10  |9   |8   |7   |6   |5   |4   |3   |2   |1  |
+|------------------------------------------|----|----|----|----|----|----|----|----|----|---|
+|Turret displayed damage per second        |2700|2450|2200|1950|1700|1450|1200|900 |750 |500|
+|Turret attack calculated damage per second|2700|2449|2199|1950|1700|1450|1200|900 |750 |500|
+|Turret attack calculated damage per clip  |4725|4287|3849|3414|2976|2538|2100|1575|1314|876|
 
 
   * Turret attack cannons per sequence: 1
@@ -98,9 +98,9 @@ These stats internal to the system link different parts of data together.
   * Sub type: rapid_fire_turret
   * Turret projectile type: projectileSmugglerRapidFireTurretAB
 
-|Level    |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
-|---------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Turret id|t_smuggler_ab_RapidFireTurret1|t_smuggler_ab_RapidFireTurret2|t_smuggler_ab_RapidFireTurret3|t_smuggler_ab_RapidFireTurret4|t_smuggler_ab_RapidFireTurret5|t_smuggler_ab_RapidFireTurret6|t_smuggler_ab_RapidFireTurret7|t_smuggler_ab_RapidFireTurret8|t_smuggler_ab_RapidFireTurret9|t_smuggler_ab_RapidFireTurret10|
+|Level    |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
+|---------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Turret id|t_smuggler_ab_RapidFireTurret10|t_smuggler_ab_RapidFireTurret9|t_smuggler_ab_RapidFireTurret8|t_smuggler_ab_RapidFireTurret7|t_smuggler_ab_RapidFireTurret6|t_smuggler_ab_RapidFireTurret5|t_smuggler_ab_RapidFireTurret4|t_smuggler_ab_RapidFireTurret3|t_smuggler_ab_RapidFireTurret2|t_smuggler_ab_RapidFireTurret1|
 
 
 ## Presentation stats
@@ -131,9 +131,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret max scale: 0
   * Turret tracker name: turretBase/turretHeadMesh
 
-|Level                             |1  |2  |3  |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------------|---|---|---|----|----|----|----|----|----|----|
-|Turret displayed damage per second|500|750|900|1200|1450|1700|1950|2200|2450|2700|
+|Level                             |10  |9   |8   |7   |6   |5   |4   |3  |2  |1  |
+|----------------------------------|----|----|----|----|----|----|----|---|---|---|
+|Turret displayed damage per second|2700|2450|2200|1950|1700|1450|1200|900|750|500|
 
 
 ## Uninterpreted stats
@@ -147,10 +147,10 @@ Seriously, we don't really know what to do with these.
   * Turret strict cool down: No
   * Turret timey wimey: 1.7142857140000000715218675395590253174304962158203125
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|30 |48 |54 |72 |84 |102|114|132|144|162|
-|Order |836|837|838|839|840|841|842|843|844|845|
-|Xp    |5  |8  |9  |12 |14 |17 |19 |22 |24 |27 |
+|Max XP|162|144|132|114|102|84 |72 |54 |48 |30 |
+|Order |845|844|843|842|841|840|839|838|837|836|
+|Xp    |27 |24 |22 |19 |17 |14 |12 |9  |8  |5  |
 
 

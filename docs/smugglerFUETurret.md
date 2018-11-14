@@ -63,16 +63,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 3
   * Turret shot delay: 200ms
 
-|Level                 |1  |2  |
+|Level                 |2  |1  |
 |----------------------|---|---|
-|Turret damage per shot|400|600|
+|Turret damage per shot|600|400|
 
 
-|Level                                     |1   |2   |
+|Level                                     |2   |1   |
 |------------------------------------------|----|----|
-|Turret displayed damage per second        |500 |750 |
-|Turret attack calculated damage per second|500 |750 |
-|Turret attack calculated damage per clip  |1200|1800|
+|Turret displayed damage per second        |750 |500 |
+|Turret attack calculated damage per second|750 |500 |
+|Turret attack calculated damage per clip  |1800|1200|
 
 
   * Turret attack cannons per sequence: 1
@@ -91,9 +91,9 @@ These stats internal to the system link different parts of data together.
   * Sub type: rapid_fire_turret
   * Turret projectile type: projectileBlasterGLrg
 
-|Level    |1                   |2                   |
+|Level    |2                   |1                   |
 |---------|--------------------|--------------------|
-|Turret id|t_smugglerFUETurret1|t_smugglerFUETurret2|
+|Turret id|t_smugglerFUETurret2|t_smugglerFUETurret1|
 
 
 ## Presentation stats
@@ -123,10 +123,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret max scale: 0
   * Turret tracker name: turretBase/turretHeadMesh
 
-|Level                             |1          |2          |
+|Level                             |2          |1          |
 |----------------------------------|-----------|-----------|
-|Store tab                         |decorations|(not found)|
-|Turret displayed damage per second|500        |750        |
+|Store tab                         |(not found)|decorations|
+|Turret displayed damage per second|750        |500        |
 
 
 ## Uninterpreted stats
@@ -140,10 +140,10 @@ Seriously, we don't really know what to do with these.
   * Turret strict cool down: No
   * Turret timey wimey: 1.25
 
-|Level |1  |2  |
+|Level |2  |1  |
 |------|---|---|
-|Max XP|10 |16 |
-|Order |460|461|
-|Xp    |5  |8  |
+|Max XP|16 |10 |
+|Order |461|460|
+|Xp    |8  |5  |
 
 

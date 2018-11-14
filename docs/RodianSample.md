@@ -18,9 +18,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 7
   * Type: infantry
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|2800|3360|3920|4480|5040|5600|6160|6720|7280|8400|
+|Health|8400|7280|6720|6160|5600|5040|4480|3920|3360|2800|
 
 
 ### Training stats
@@ -59,9 +59,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sniper damage stack: 0
   * Sniper damage target: self
 
-|Level              |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|-------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Sniper damage value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
+|Level              |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-------------------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Sniper damage value|100.0%|93.0%|87.0%|81.0%|75.0%|69.0%|64.0%|58.0%|53.0%|49.0%|
 
 
 
@@ -77,9 +77,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sniper health stack: 0
   * Sniper health target: self
 
-|Level              |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|-------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Sniper health value|49.0%|53.0%|58.0%|64.0%|69.0%|75.0%|81.0%|87.0%|93.0%|100.0%|
+|Level              |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-------------------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Sniper health value|100.0%|93.0%|87.0%|81.0%|75.0%|69.0%|64.0%|58.0%|53.0%|49.0%|
 
 
 
@@ -96,9 +96,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum phtm tie bomber target: self
   * Sum phtm tie bomber value: 1
 
-|Level                              |1                                                            |2                                                            |3                                                            |4                                                            |5                                                            |6                                                            |7                                                            |8                                                            |9                                                            |10                                                            |
-|-----------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|
-|Sum phtm tie bomber summon visitors|["trp_title_PhantomTieBomber" level 1](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 2](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 3](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 4](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 5](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 6](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 7](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 8](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 9](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 10](PhantomTieBomber.html)|
+|Level                              |10                                                            |9                                                            |8                                                            |7                                                            |6                                                            |5                                                            |4                                                            |3                                                            |2                                                            |1                                                            |
+|-----------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
+|Sum phtm tie bomber summon visitors|["trp_title_PhantomTieBomber" level 10](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 9](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 8](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 7](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 6](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 5](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 4](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 3](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 2](PhantomTieBomber.html)|["trp_title_PhantomTieBomber" level 1](PhantomTieBomber.html)|
 
 
   * Sum phtm tie bomber summon die with summoner: Yes
@@ -137,20 +137,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 500ms
   * Target locking: No
 
-|Level          |1  |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|----|----|----|----|----|----|----|----|----|
-|Damage per shot|835|1001|1168|1335|1502|1669|1836|2002|2169|2503|
+|Level          |10  |9   |8   |7   |6   |5   |4   |3   |2   |1  |
+|---------------|----|----|----|----|----|----|----|----|----|---|
+|Damage per shot|2503|2169|2002|1836|1669|1502|1335|1168|1001|835|
 
 
 ### Projectile
 
   * Splash damage percentages: 100
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8    |9    |10   |
-|----------------------------|----|----|----|----|----|----|----|-----|-----|-----|
-|Displayed damage per second |2195|2745|3365|4040|4765|5565|6415|7315 |8275 |9100 |
-|Calculated damage per second|1113|1334|1557|1780|2002|2225|2448|2669 |2892 |3337 |
-|Calculated damage per cycle |4175|5005|5840|6675|7510|8345|9180|10010|10845|12515|
+|Level                       |10   |9    |8    |7   |6   |5   |4   |3   |2   |1   |
+|----------------------------|-----|-----|-----|----|----|----|----|----|----|----|
+|Displayed damage per second |9100 |8275 |7315 |6415|5565|4765|4040|3365|2745|2195|
+|Calculated damage per second|3337 |2892 |2669 |2448|2225|2002|1780|1557|1334|1113|
+|Calculated damage per cycle |12515|10845|10010|9180|8345|7510|6675|5840|5005|4175|
 
 
   * Cannons per sequence: 1
@@ -168,11 +168,11 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: RodianSample
 
-|Level                         |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                          |
-|------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|
-|Spawn apply buffs             |buffSniperHealth1,buffSniperDamage1,buffSumPhtmTieBomber1|buffSniperHealth2,buffSniperDamage2,buffSumPhtmTieBomber2|buffSniperHealth3,buffSniperDamage3,buffSumPhtmTieBomber3|buffSniperHealth4,buffSniperDamage4,buffSumPhtmTieBomber4|buffSniperHealth5,buffSniperDamage5,buffSumPhtmTieBomber5|buffSniperHealth6,buffSniperDamage6,buffSumPhtmTieBomber6|buffSniperHealth7,buffSniperDamage7,buffSumPhtmTieBomber7|buffSniperHealth8,buffSniperDamage8,buffSumPhtmTieBomber8|buffSniperHealth9,buffSniperDamage9,buffSumPhtmTieBomber9|buffSniperHealth10,buffSniperDamage10,buffSumPhtmTieBomber10|
-|Sum phtm tie bomber details   |sumPhtmTieBomber1                                        |sumPhtmTieBomber2                                        |sumPhtmTieBomber3                                        |sumPhtmTieBomber4                                        |sumPhtmTieBomber5                                        |sumPhtmTieBomber6                                        |sumPhtmTieBomber7                                        |sumPhtmTieBomber8                                        |sumPhtmTieBomber9                                        |sumPhtmTieBomber10                                          |
-|Sum phtm tie bomber summon uid|sumPhtmTieBomber1                                        |sumPhtmTieBomber2                                        |sumPhtmTieBomber3                                        |sumPhtmTieBomber4                                        |sumPhtmTieBomber5                                        |sumPhtmTieBomber6                                        |sumPhtmTieBomber7                                        |sumPhtmTieBomber8                                        |sumPhtmTieBomber9                                        |sumPhtmTieBomber10                                          |
+|Level                         |10                                                          |9                                                        |8                                                        |7                                                        |6                                                        |5                                                        |4                                                        |3                                                        |2                                                        |1                                                        |
+|------------------------------|------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+|Spawn apply buffs             |buffSniperHealth10,buffSniperDamage10,buffSumPhtmTieBomber10|buffSniperHealth9,buffSniperDamage9,buffSumPhtmTieBomber9|buffSniperHealth8,buffSniperDamage8,buffSumPhtmTieBomber8|buffSniperHealth7,buffSniperDamage7,buffSumPhtmTieBomber7|buffSniperHealth6,buffSniperDamage6,buffSumPhtmTieBomber6|buffSniperHealth5,buffSniperDamage5,buffSumPhtmTieBomber5|buffSniperHealth4,buffSniperDamage4,buffSumPhtmTieBomber4|buffSniperHealth3,buffSniperDamage3,buffSumPhtmTieBomber3|buffSniperHealth2,buffSniperDamage2,buffSumPhtmTieBomber2|buffSniperHealth1,buffSniperDamage1,buffSumPhtmTieBomber1|
+|Sum phtm tie bomber details   |sumPhtmTieBomber10                                          |sumPhtmTieBomber9                                        |sumPhtmTieBomber8                                        |sumPhtmTieBomber7                                        |sumPhtmTieBomber6                                        |sumPhtmTieBomber5                                        |sumPhtmTieBomber4                                        |sumPhtmTieBomber3                                        |sumPhtmTieBomber2                                        |sumPhtmTieBomber1                                        |
+|Sum phtm tie bomber summon uid|sumPhtmTieBomber10                                          |sumPhtmTieBomber9                                        |sumPhtmTieBomber8                                        |sumPhtmTieBomber7                                        |sumPhtmTieBomber6                                        |sumPhtmTieBomber5                                        |sumPhtmTieBomber4                                        |sumPhtmTieBomber3                                        |sumPhtmTieBomber2                                        |sumPhtmTieBomber1                                        |
 
 
 ## Presentation stats
@@ -202,9 +202,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|2195|2745|3365|4040|4765|5565|6415|7315|8275|9100|
+|Displayed damage per second|9100|8275|7315|6415|5565|4765|4040|3365|2745|2195|
 
 
 ## Uninterpreted stats
@@ -225,8 +225,8 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * Xp: 0
 
-|Level|1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level|10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order|61601|61602|61603|61604|61605|61606|61607|61608|61609|61610|
+|Order|61610|61609|61608|61607|61606|61605|61604|61603|61602|61601|
 
 

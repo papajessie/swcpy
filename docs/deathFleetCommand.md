@@ -24,19 +24,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: fleet_command
 
-|Level |2   |3   |4   |5    |6    |7    |
-|------|----|----|----|-----|-----|-----|
-|Health|4500|5400|7200|8700 |10200|11700|
-|Time  |12h |18h |1d  |1d12h|2d   |3d   |
+|Level |7    |6    |5    |4   |3   |2   |
+|------|-----|-----|-----|----|----|----|
+|Health|11700|10200|8700 |7200|5400|4500|
+|Time  |3d   |2d   |1d12h|1d  |18h |12h |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |2     |3     |4      |5      |6      |7      |
-|-------------|------|------|-------|-------|-------|-------|
-|Training cost|50000$|75000$|100000$|150000$|250000$|350000$|
+|Level        |7      |6      |5      |4      |3     |2     |
+|-------------|-------|-------|-------|-------|------|------|
+|Training cost|350000$|250000$|150000$|100000$|75000$|50000$|
 
 
 ### Upgrading stats
@@ -75,10 +75,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |2  |3  |4  |5  |6  |7  |
+|Level |7  |6  |5  |4  |3  |2  |
 |------|---|---|---|---|---|---|
-|Max XP|3  |4  |5  |6  |7  |8  |
-|Order |852|853|854|855|856|857|
-|Xp    |3  |4  |5  |6  |7  |8  |
+|Max XP|8  |7  |6  |5  |4  |3  |
+|Order |857|856|855|854|853|852|
+|Xp    |8  |7  |6  |5  |4  |3  |
 
 

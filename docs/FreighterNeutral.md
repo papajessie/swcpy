@@ -42,20 +42,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot count: 3
   * Shot delay: 50ms
 
-|Level          |1    |2   |
-|---------------|-----|----|
-|Damage per shot|10000|4000|
+|Level          |2   |1    |
+|---------------|----|-----|
+|Damage per shot|4000|10000|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,50,25,10
 
-|Level                       |1    |2    |
+|Level                       |2    |1    |
 |----------------------------|-----|-----|
-|Displayed damage per second |30000|12000|
-|Calculated damage per second|4625 |1850 |
-|Calculated damage per cycle |30000|12000|
+|Displayed damage per second |12000|30000|
+|Calculated damage per second|1850 |4625 |
+|Calculated damage per cycle |12000|30000|
 
 
   * Cannons per sequence: 1
@@ -94,9 +94,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Freighter Blaster
   * Spin speed: 0
 
-|Level                      |1    |2    |
+|Level                      |2    |1    |
 |---------------------------|-----|-----|
-|Displayed damage per second|30000|12000|
+|Displayed damage per second|12000|30000|
 
 
 ## Uninterpreted stats
@@ -107,8 +107,8 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Xp: 0
 
-|Level|1     |2     |
+|Level|2     |1     |
 |-----|------|------|
-|Order|500101|500102|
+|Order|500102|500101|
 
 

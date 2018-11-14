@@ -20,9 +20,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training time: 1s
   * Training cost: Free
 
-|Level   |1                                            |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|--------|---------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Building|[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level   |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|--------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Building|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 1](empireFleetCommand.html)|
 
 
 ### Upgrading stats
@@ -47,20 +47,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot count: 4
   * Shot delay: 150ms
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|---------------|----|----|----|----|----|----|----|----|----|-----|
-|Damage per shot|3750|3930|4330|4910|5640|6510|7510|8640|9890|11250|
+|Level          |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------|-----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|11250|9890|8640|7510|6510|5640|4910|4330|3930|3750|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,100,90,80,60
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                       |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
-|Calculated damage per second|3109 |3258 |3590 |4071 |4676 |5398 |6227 |7164 |8200 |9328 |
-|Calculated damage per cycle |15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
+|Displayed damage per second |45000|39560|34560|30040|26040|22560|19640|17320|15720|15000|
+|Calculated damage per second|9328 |8200 |7164 |6227 |5398 |4676 |4071 |3590 |3258 |3109 |
+|Calculated damage per cycle |45000|39560|34560|30040|26040|22560|19640|17320|15720|15000|
 
 
   * Cannons per sequence: 1
@@ -96,9 +96,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Proton Bomb Barrage
   * Spin speed: 0
 
-|Level                      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                      |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |---------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second|15000|15720|17320|19640|22560|26040|30040|34560|39560|45000|
+|Displayed damage per second|45000|39560|34560|30040|26040|22560|19640|17320|15720|15000|
 
 
 ## Uninterpreted stats
@@ -109,8 +109,8 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|110201|110202|110203|110204|110205|110206|110207|110208|110209|110210|
+|Order|110210|110209|110208|110207|110206|110205|110204|110203|110202|110201|
 
 

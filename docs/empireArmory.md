@@ -23,18 +23,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: armory
 
-|Level |1   |2   |3    |4    |5    |6    |7    |
-|------|----|----|-----|-----|-----|-----|-----|
-|Health|6000|9000|10500|12000|13500|15000|15900|
-|Time  |5s  |1d  |2d   |4d   |6d   |1w3d |1w5d |
+|Level |7    |6    |5    |4    |3    |2   |1   |
+|------|-----|-----|-----|-----|-----|----|----|
+|Health|15900|15000|13500|12000|10500|9000|6000|
+|Time  |1w5d |1w3d |6d   |4d   |2d   |1d  |5s  |
 
 
 ### Training stats
 
-|Level        |1                              |2                              |3                              |4                              |5                              |6                               |7                               |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|--------------------------------|
-|Training cost|10000$                         |550000$                        |700000$                        |1500000$                       |3000000$                       |4000000$                        |5200000$                        |
-|Building     |[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 11](empireHQ.html)|
+|Level        |7                               |6                               |5                              |4                              |3                              |2                              |1                              |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|5200000$                        |4000000$                        |3000000$                       |1500000$                       |700000$                        |550000$                        |10000$                         |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -66,13 +66,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 230
   * Tooltip height offset: 2
 
-|Level            |1                 |2                 |3                 |4                 |5                 |6                 |7                  |
-|-----------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
-|Asset name       |armory_emp-mod-up1|armory_emp-mod-up2|armory_emp-mod-up3|armory_emp-mod-up4|armory_emp-mod-up5|armory_emp-mod-up6|armory_emp-mod-up11|
-|Buff asset offset|-1,0,-1           |-1,0,-2           |-1,0,-3           |-1,0,-4           |-1,0,-5           |-1,0,-6           |-1,0,-6            |
-|Bundle name      |armory_emp-mod-up1|armory_emp-mod-up2|armory_emp-mod-up3|armory_emp-mod-up4|armory_emp-mod-up5|armory_emp-mod-up6|armory_emp-mod-up11|
-|Prestige         |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |true               |
-|Store tab        |army              |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)        |
+|Level            |7                  |6                 |5                 |4                 |3                 |2                 |1                 |
+|-----------------|-------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+|Asset name       |armory_emp-mod-up11|armory_emp-mod-up6|armory_emp-mod-up5|armory_emp-mod-up4|armory_emp-mod-up3|armory_emp-mod-up2|armory_emp-mod-up1|
+|Buff asset offset|-1,0,-6            |-1,0,-6           |-1,0,-5           |-1,0,-4           |-1,0,-3           |-1,0,-2           |-1,0,-1           |
+|Bundle name      |armory_emp-mod-up11|armory_emp-mod-up6|armory_emp-mod-up5|armory_emp-mod-up4|armory_emp-mod-up3|armory_emp-mod-up2|armory_emp-mod-up1|
+|Prestige         |true               |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |
+|Store tab        |(not found)        |(not found)       |(not found)       |(not found)       |(not found)       |(not found)       |army              |
 
 
 ## Uninterpreted stats
@@ -81,9 +81,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 17
 
-|Level |1|2|3|4 |5 |6 |7 |
-|------|-|-|-|--|--|--|--|
-|Max XP|5|7|8|10|11|13|15|
-|Xp    |5|7|8|10|11|13|15|
+|Level |7 |6 |5 |4 |3|2|1|
+|------|--|--|--|--|-|-|-|
+|Max XP|15|13|11|10|8|7|5|
+|Xp    |15|13|11|10|8|7|5|
 
 

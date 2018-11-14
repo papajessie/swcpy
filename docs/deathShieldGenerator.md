@@ -22,22 +22,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: shield_generator
 
-|Level               |1        |2        |3        |4        |5        |6        |7        |8        |9        |10         |
-|--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|
-|Health              |5000     |7500     |9000     |12000    |14500    |17000    |19500    |22000    |24500    |27000      |
-|Max quantity        |2        |2        |2        |2        |2        |3        |3        |3        |4        |4          |
-|Shield health points|10000 (1)|20000 (2)|30000 (3)|40000 (4)|50000 (5)|63300 (6)|73600 (7)|83900 (8)|94500 (9)|100000 (10)|
-|Shield range points |3        |3        |3        |4        |4        |4        |5        |5        |5        |6          |
-|Time                |4h       |8h       |16h      |1d       |2d       |3d       |4d       |6d       |1w3d     |2w         |
+|Level               |10         |9        |8        |7        |6        |5        |4        |3        |2        |1        |
+|--------------------|-----------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|Health              |27000      |24500    |22000    |19500    |17000    |14500    |12000    |9000     |7500     |5000     |
+|Max quantity        |4          |4        |3        |3        |3        |2        |2        |2        |2        |2        |
+|Shield health points|100000 (10)|94500 (9)|83900 (8)|73600 (7)|63300 (6)|50000 (5)|40000 (4)|30000 (3)|20000 (2)|10000 (1)|
+|Shield range points |6          |5        |5        |5        |4        |4        |4        |3        |3        |3        |
+|Time                |2w         |1w3d     |6d       |4d       |3d       |2d       |1d       |16h      |8h       |4h       |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |1         |2         |3         |4         |5          |6          |7          |8           |9           |10          |
-|-------------|----------|----------|----------|----------|-----------|-----------|-----------|------------|------------|------------|
-|Training cost|20000 All.|30000 All.|45000 All.|75000 All.|100000 All.|250000 All.|500000 All.|1000000 All.|3000000 All.|5000000 All.|
+|Level        |10          |9           |8           |7          |6          |5          |4         |3         |2         |1         |
+|-------------|------------|------------|------------|-----------|-----------|-----------|----------|----------|----------|----------|
+|Training cost|5000000 All.|3000000 All.|1000000 All.|500000 All.|250000 All.|100000 All.|75000 All.|45000 All.|30000 All.|20000 All.|
 
 
 ### Upgrading stats
@@ -69,21 +69,21 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level            |1                    |2                    |3                    |4                    |5                    |6                    |7-10                 |
+|Level            |7-10                 |6                    |5                    |4                    |3                    |2                    |1                    |
 |-----------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Asset name       |shieldgen_dth-mod-up1|shieldgen_dth-mod-up2|shieldgen_dth-mod-up3|shieldgen_dth-mod-up4|shieldgen_dth-mod-up5|shieldgen_dth-mod-up6|shieldgen_dth-mod-up7|
-|Buff asset offset|-1,2,-1              |-1,2,-1              |-1,2,-1              |-1,2,-1              |-1,2.2,-1            |-1,2.2,-1            |-1,2.2,-1            |
-|Bundle name      |shieldgen_dth-mod-up1|shieldgen_dth-mod-up2|shieldgen_dth-mod-up3|shieldgen_dth-mod-up4|shieldgen_dth-mod-up5|shieldgen_dth-mod-up6|shieldgen_dth-mod-up7|
+|Asset name       |shieldgen_dth-mod-up7|shieldgen_dth-mod-up6|shieldgen_dth-mod-up5|shieldgen_dth-mod-up4|shieldgen_dth-mod-up3|shieldgen_dth-mod-up2|shieldgen_dth-mod-up1|
+|Buff asset offset|-1,2.2,-1            |-1,2.2,-1            |-1,2.2,-1            |-1,2,-1              |-1,2,-1              |-1,2,-1              |-1,2,-1              |
+|Bundle name      |shieldgen_dth-mod-up7|shieldgen_dth-mod-up6|shieldgen_dth-mod-up5|shieldgen_dth-mod-up4|shieldgen_dth-mod-up3|shieldgen_dth-mod-up2|shieldgen_dth-mod-up1|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|10 |16 |22 |26 |32 |54 |63 |69 |104|112|
-|Order |951|952|953|954|955|956|957|958|959|960|
-|Xp    |5  |8  |11 |13 |16 |18 |21 |23 |26 |28 |
+|Max XP|112|104|69 |63 |54 |32 |26 |22 |16 |10 |
+|Order |960|959|958|957|956|955|954|953|952|951|
+|Xp    |28 |26 |23 |21 |18 |16 |13 |11 |8  |5  |
 
 

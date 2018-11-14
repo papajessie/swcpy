@@ -137,17 +137,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Secondary attack shot delay: 0s
   * Secondary attack target locking: No
 
-|Level                           |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                           |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |--------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Secondary attack damage per shot|2400|2620|2830|3020|3210|3390|3560|3710|3860|4000|
+|Secondary attack damage per shot|4000|3860|3710|3560|3390|3210|3020|2830|2620|2400|
 
 
   * Secondary attack shot splash damage percentages: 100,80,50,20,10
 
-|Level                                             |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|--------------------------------------------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Secondary attack shot calculated damage per second|8000|8733|9433|10066|10700|11300|11866|12366|12866|13333|
-|Secondary attack shot calculated damage per clip  |2400|2620|2830|3020 |3210 |3390 |3560 |3710 |3860 |4000 |
+|Level                                             |10   |9    |8    |7    |6    |5    |4    |3   |2   |1   |
+|--------------------------------------------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|
+|Secondary attack shot calculated damage per second|13333|12866|12366|11866|11300|10700|10066|9433|8733|8000|
+|Secondary attack shot calculated damage per clip  |4000 |3860 |3710 |3560 |3390 |3210 |3020 |2830|2620|2400|
 
 
   * Secondary attack shot cannons per sequence: 1
@@ -166,9 +166,9 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: RebelP006Phantom
 
-|Level  |1                  |2                  |3                  |4                  |5                  |6                  |7                  |8                  |9                  |10                  |
-|-------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|--------------------|
-|Ability|abilityP006Phantom1|abilityP006Phantom2|abilityP006Phantom3|abilityP006Phantom4|abilityP006Phantom5|abilityP006Phantom6|abilityP006Phantom7|abilityP006Phantom8|abilityP006Phantom9|abilityP006Phantom10|
+|Level  |10                  |9                  |8                  |7                  |6                  |5                  |4                  |3                  |2                  |1                  |
+|-------|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|Ability|abilityP006Phantom10|abilityP006Phantom9|abilityP006Phantom8|abilityP006Phantom7|abilityP006Phantom6|abilityP006Phantom5|abilityP006Phantom4|abilityP006Phantom3|abilityP006Phantom2|abilityP006Phantom1|
 
 
 ## Presentation stats
@@ -222,8 +222,8 @@ Seriously, we don't really know what to do with these.
   * Strict cool down: No
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|320501|320502|320503|320504|320505|320506|320507|320508|320509|320510|
+|Order|320510|320509|320508|320507|320506|320505|320504|320503|320502|320501|
 
 

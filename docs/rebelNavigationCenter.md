@@ -22,18 +22,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: navigation_center
 
-|Level |1   |2    |3    |4    |5    |
-|------|----|-----|-----|-----|-----|
-|Health|8700|10200|11700|13200|14700|
-|Time  |2d  |4d   |6d   |1w1d |1w3d |
+|Level |5    |4    |3    |2    |1   |
+|------|-----|-----|-----|-----|----|
+|Health|14700|13200|11700|10200|8700|
+|Time  |1w3d |1w1d |6d   |4d   |2d  |
 
 
 ### Training stats
 
-|Level        |1                             |2                             |3                             |4                             |5                             |
+|Level        |5                             |4                             |3                             |2                             |1                             |
 |-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|140000$                       |250000$                       |700000$                       |1000000$                      |3300000$                      |
-|Building     |[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
+|Training cost|3300000$                      |1000000$                      |700000$                       |250000$                       |140000$                       |
+|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -62,16 +62,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 260
 
-|Level               |1                           |2                           |3                           |4                           |5                           |
+|Level               |5                           |4                           |3                           |2                           |1                           |
 |--------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name          |galacticnav_rbl-mod-up1     |galacticnav_rbl-mod-up2     |galacticnav_rbl-mod-up3     |galacticnav_rbl-mod-up4     |galacticnav_rbl-mod-up5     |
-|Buff asset offset   |-1.2,-0.6,-0.8              |-1.2,-0.6,-0.8              |-1.4, 0.0, -1.8             |-1.4, 0.0, -1.8             |-1.4, 0.0, -1.8             |
-|Bundle name         |galacticnav_rbl-mod-up1     |galacticnav_rbl-mod-up2     |galacticnav_rbl-mod-up3     |galacticnav_rbl-mod-up4     |galacticnav_rbl-mod-up5     |
-|Icon asset name     |icon_galacticnav_rbl-mod-up1|icon_galacticnav_rbl-mod-up2|icon_galacticnav_rbl-mod-up3|icon_galacticnav_rbl-mod-up4|icon_galacticnav_rbl-mod-up5|
-|Icon bundle name    |icon_galacticnav_rbl-mod-up1|icon_galacticnav_rbl-mod-up2|icon_galacticnav_rbl-mod-up3|icon_galacticnav_rbl-mod-up4|icon_galacticnav_rbl-mod-up5|
-|Icon camera position|-39.13,33.89,32.54          |-39.13,33.89,32.54          |-39.13,33.89,32.54          |-39.13,33.89,32.54          |-37.46,32.15,30.92          |
-|Icon lookat position|0.8,2.04,-0.29              |0.8,2.04,-0.29              |0.8,2.04,-0.29              |0.8,2.04,-0.29              |0.56,1.82,-0.26             |
-|Store tab           |army                        |(not found)                 |(not found)                 |(not found)                 |(not found)                 |
+|Asset name          |galacticnav_rbl-mod-up5     |galacticnav_rbl-mod-up4     |galacticnav_rbl-mod-up3     |galacticnav_rbl-mod-up2     |galacticnav_rbl-mod-up1     |
+|Buff asset offset   |-1.4, 0.0, -1.8             |-1.4, 0.0, -1.8             |-1.4, 0.0, -1.8             |-1.2,-0.6,-0.8              |-1.2,-0.6,-0.8              |
+|Bundle name         |galacticnav_rbl-mod-up5     |galacticnav_rbl-mod-up4     |galacticnav_rbl-mod-up3     |galacticnav_rbl-mod-up2     |galacticnav_rbl-mod-up1     |
+|Icon asset name     |icon_galacticnav_rbl-mod-up5|icon_galacticnav_rbl-mod-up4|icon_galacticnav_rbl-mod-up3|icon_galacticnav_rbl-mod-up2|icon_galacticnav_rbl-mod-up1|
+|Icon bundle name    |icon_galacticnav_rbl-mod-up5|icon_galacticnav_rbl-mod-up4|icon_galacticnav_rbl-mod-up3|icon_galacticnav_rbl-mod-up2|icon_galacticnav_rbl-mod-up1|
+|Icon camera position|-37.46,32.15,30.92          |-39.13,33.89,32.54          |-39.13,33.89,32.54          |-39.13,33.89,32.54          |-39.13,33.89,32.54          |
+|Icon lookat position|0.56,1.82,-0.26             |0.8,2.04,-0.29              |0.8,2.04,-0.29              |0.8,2.04,-0.29              |0.8,2.04,-0.29              |
+|Store tab           |(not found)                 |(not found)                 |(not found)                 |(not found)                 |army                        |
 
 
 ## Uninterpreted stats
@@ -80,9 +80,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 13
 
-|Level |1|2|3|4|5 |
-|------|-|-|-|-|--|
-|Max XP|6|7|8|9|10|
-|Xp    |6|7|8|9|10|
+|Level |5 |4|3|2|1|
+|------|--|-|-|-|-|
+|Max XP|10|9|8|7|6|
+|Xp    |10|9|8|7|6|
 
 

@@ -31,10 +31,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp empire lord vader target: self
   * Eqp empire lord vader value: 1
 
-|Level                                |1                                                                                                                                                                                                                     |2                                                                                                                                                                                                                                     |3                                                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                                           |5                                                                                                                                                                                                                                                                 |6                                                                                                                                                                                                      |7                                                                                                                                           |8                                                                                                                                                                                                                                         |9                                                                                                                                                                         |10                                                                                                                                                                                                           |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Eqp empire lord vader stack          |2                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                     |3                                                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                                 |4                                                                                                                                                                                                      |3                                                                                                                                           |5                                                                                                                                                                                                                                         |4                                                                                                                                                                         |3                                                                                                                                                                                                            |
-|Eqp empire lord vader summon visitors|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html)|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Phase II Dark Trooper level 8](Dark.html), [Phase II Dark Trooper level 8](Dark.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [AT-ST Walker level 8](ATST.html)|[Stormtrooper level 9](Storm.html), [Stormtrooper level 9](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html)|[Stormtrooper level 9](Storm.html), [Stormtrooper level 9](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [Heavy Stormtrooper level 7](HeavyStorm.html), [Heavy Stormtrooper level 7](HeavyStorm.html)|[Stormtrooper level 10](Storm.html), [Stormtrooper level 10](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-AT level 5](ATAT.html)|[Stormtrooper level 10](Storm.html), [Stormtrooper level 10](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-AT level 5](ATAT.html)|
+|Level                                |10                                                                                                                                                                                                           |9                                                                                                                                                                         |8                                                                                                                                                                                                                                         |7                                                                                                                                           |6                                                                                                                                                                                                      |5                                                                                                                                                                                                                                                                 |4                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                     |2                                                                                                                                                                                                                                     |1                                                                                                                                                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Eqp empire lord vader stack          |3                                                                                                                                                                                                            |4                                                                                                                                                                         |5                                                                                                                                                                                                                                         |3                                                                                                                                           |4                                                                                                                                                                                                      |3                                                                                                                                                                                                                                                                 |4                                                                                                                                                                                                                                                           |3                                                                                                                                                                                                                                                     |4                                                                                                                                                                                                                                     |2                                                                                                                                                                                                                     |
+|Eqp empire lord vader summon visitors|[Stormtrooper level 10](Storm.html), [Stormtrooper level 10](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-AT level 5](ATAT.html)|[Stormtrooper level 10](Storm.html), [Stormtrooper level 10](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [AT-AT level 5](ATAT.html)|[Stormtrooper level 9](Storm.html), [Stormtrooper level 9](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html), [Heavy Stormtrooper level 7](HeavyStorm.html), [Heavy Stormtrooper level 7](HeavyStorm.html)|[Stormtrooper level 9](Storm.html), [Stormtrooper level 9](Storm.html), [AT-ST Walker level 8](ATST.html), [AT-ST Walker level 8](ATST.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [AT-ST Walker level 8](ATST.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html)|[Stormtrooper level 8](Storm.html), [Stormtrooper level 8](Storm.html), [Phase II Dark Trooper level 8](Dark.html), [Phase II Dark Trooper level 8](Dark.html), [Heavy Stormtrooper level 8](HeavyStorm.html), [Heavy Stormtrooper level 8](HeavyStorm.html)|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html)|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Phase II Dark Trooper level 7](Dark.html), [Phase II Dark Trooper level 7](Dark.html)|[Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html), [Stormtrooper level 7](Storm.html)|
 
 
   * Eqp empire lord vader summon die with summoner: No
@@ -42,19 +42,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp empire lord vader summon target summoner: No
   * Eqp empire lord vader summon visitor type: Troop
 
-|Level                                    |1             |2                           |3                    |4                           |5                    |6                           |7                           |8                                   |9                           |10                   |
-|-----------------------------------------|--------------|----------------------------|---------------------|----------------------------|---------------------|----------------------------|----------------------------|------------------------------------|----------------------------|---------------------|
-|Eqp empire lord vader summon max proc    |6             |6                           |6                    |6                           |6                    |5                           |4                           |6                                   |5                           |6                    |
-|Eqp empire lord vader summon spawn points|1,0,-1 -1,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1 1,0,-2 -1,0,-2|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1|
+|Level                                    |10                   |9                           |8                                   |7                           |6                           |5                    |4                           |3                    |2                           |1             |
+|-----------------------------------------|---------------------|----------------------------|------------------------------------|----------------------------|----------------------------|---------------------|----------------------------|---------------------|----------------------------|--------------|
+|Eqp empire lord vader summon max proc    |6                    |5                           |6                                   |4                           |5                           |6                    |6                           |6                    |6                           |6             |
+|Eqp empire lord vader summon spawn points|1,0,-1 -1,0,-1 0,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1 1,0,-2 -1,0,-2|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1 0,0,-1|1,0,-1 -1,0,-1 0,0,-1 0,0,-2|1,0,-1 -1,0,-1|
 
 
 ### Upgrade stats
 
-|Level         |1   |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|--------------|----|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Upgrade shards|20  |10                                     |20                                     |30                                     |50                                     |70                                     |100                                    |130                                    |180                                    |220                                     |
-|Upgrade time  |0s  |45m                                    |2h                                     |6h                                     |12h                                    |2d                                     |3d                                     |5d                                     |1w                                     |1w3d                                    |
-|Building      |None|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level         |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1   |
+|--------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----|
+|Upgrade shards|220                                     |180                                    |130                                    |100                                    |70                                     |50                                     |30                                     |20                                     |10                                     |20  |
+|Upgrade time  |1w3d                                    |1w                                     |5d                                     |3d                                     |2d                                     |12h                                    |6h                                     |2h                                     |45m                                    |0s  |
+|Building      |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|None|
 
 
 ### Presentation and internal stats
@@ -71,9 +71,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Icon lookat position: -0.01,2.04,-0.4
   * Quality: elite
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level|10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|---|---|
-|Order|579|580|581|582|583|584|585|586|587|588|
+|Order|588|587|586|585|584|583|582|581|580|579|
 
 
 ## Main stats
@@ -90,44 +90,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Health|28000     |33600     |39200     |44800     |50400     |56000     |61600     |67200     |72800     |84000      |
-
-
-|Level |11.01-11.10|
-|------|-----------|
-|Health|90720      |
+|Level |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Health|90720      |84000      |72800     |67200     |61600     |56000     |50400     |44800     |39200     |33600     |28000     |
 
 
 ### Training stats
 
-|Level        |01.01-1.10                                  |02.01-2.10                             |03.01-3.10                             |04.01-4.10                             |05.01-5.10                             |06.01-6.10                             |07.01-7.10                             |08.01-8.10                             |09.01-9.10                             |10.01-10.10                             |
-|-------------|--------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|7m                                          |7m20s                                  |7m40s                                  |8m                                     |8m20s                                  |8m40s                                  |9m                                     |9m20s                                  |9m40s                                  |10m                                     |
-|Training cost|1500$                                       |2100$                                  |2700$                                  |3300$                                  |3900$                                  |4500$                                  |5100$                                  |5700$                                  |6300$                                  |6900$                                   |
-|Building     |[Hero Command 8](empireTacticalCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
-
-
-|Level        |11.01-11.10                             |
-|-------------|----------------------------------------|
-|Training time|10m20s                                  |
-|Training cost|7500$                                   |
-|Building     |[Research Lab 11](empireOffenseLab.html)|
+|Level        |11.01-11.10                             |10.01-10.10                             |09.01-9.10                             |08.01-8.10                             |07.01-7.10                             |06.01-6.10                             |05.01-5.10                             |04.01-4.10                             |03.01-3.10                             |02.01-2.10                             |01.01-1.10                                  |
+|-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|--------------------------------------------|
+|Training time|10m20s                                  |10m                                     |9m40s                                  |9m20s                                  |9m                                     |8m40s                                  |8m20s                                  |8m                                     |7m40s                                  |7m20s                                  |7m                                          |
+|Training cost|7500$                                   |6900$                                   |6300$                                  |5700$                                  |5100$                                  |4500$                                  |3900$                                  |3300$                                  |2700$                                  |2100$                                  |1500$                                       |
+|Building     |[Research Lab 11](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Hero Command 8](empireTacticalCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Upgrade time        |1h        |1h        |5h        |21h       |2d        |4d        |6d        |1w2d      |1w5d      |2w         |
-|Upgrade requirements|Nothing   |75000$    |150000$   |300000$   |600000$   |900000$   |1050000$  |1200000$  |3200000$  |4800000$   |
-
-
-|Level               |11.01-11.10|
-|--------------------|-----------|
-|Upgrade time        |2w         |
-|Upgrade requirements|6000000$   |
+|Level               |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|--------------------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Upgrade time        |2w         |2w         |1w5d      |1w2d      |6d        |4d        |2d        |21h       |5h        |1h        |1h        |
+|Upgrade requirements|6000000$   |4800000$   |3200000$  |1200000$  |1050000$  |900000$   |600000$   |300000$   |150000$   |75000$    |Nothing   |
 
 
 ### Movement stats
@@ -169,32 +151,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 200ms
   * Target locking: No
 
-|Level          |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|---------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Damage per shot|3900      |4680      |5460      |6240      |7020      |7800      |8580      |9360      |10140     |11700      |
-
-
-|Level          |11.01-11.10|
-|---------------|-----------|
-|Damage per shot|12636      |
+|Level          |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|---------------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Damage per shot|12636      |11700      |10140     |9360      |8580      |7800      |7020      |6240      |5460      |4680      |3900      |
 
 
 ### Projectile
 
   * Splash damage percentages: 0
 
-|Level                       |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|----------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Displayed damage per second |8210      |9852      |11494     |13136     |14778     |16421     |18063     |19705     |21347     |24631      |
-|Calculated damage per second|5531      |6638      |7744      |8851      |9957      |11063     |12170     |13276     |14382     |16595      |
-|Calculated damage per cycle |7800      |9360      |10920     |12480     |14040     |15600     |17160     |18720     |20280     |23400      |
-
-
-|Level                       |11.01-11.10|
-|----------------------------|-----------|
-|Displayed damage per second |25945      |
-|Calculated damage per second|17923      |
-|Calculated damage per cycle |25272      |
+|Level                       |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|----------------------------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Displayed damage per second |25945      |24631      |21347     |19705     |18063     |16421     |14778     |13136     |11494     |9852      |8210      |
+|Calculated damage per second|17923      |16595      |14382     |13276     |12170     |11063     |9957      |8851      |7744      |6638      |5531      |
+|Calculated damage per cycle |25272      |23400      |20280     |18720     |17160     |15600     |14040     |12480     |10920     |9360      |7800      |
 
 
   * Cannons per sequence: 2
@@ -277,9 +247,9 @@ These stats internal to the system link different parts of data together.
   * Secondary attack self buff: buffDeflect
   * Unit ID: HeroDarthVader
 
-|Level    |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10, 11.01-11.10|
-|---------|----------|----------|----------|----------|----------|----------|----------|----------|----------|------------------------|
-|Hero data|hero1     |hero2     |hero3     |hero4     |hero5     |hero6     |hero7     |hero8     |hero9     |hero10                  |
+|Level    |10.01-10.10, 11.01-11.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|---------|------------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Hero data|hero10                  |hero9     |hero8     |hero7     |hero6     |hero5     |hero4     |hero3     |hero2     |hero1     |
 
 
 ## Presentation stats
@@ -328,18 +298,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |01.01-1.10 |02.01-2.10 |03.01-3.10 |04.01-4.10 |05.01-5.10 |06.01-6.10 |07.01-7.10 |08.01-8.10 |09.01-9.10 |10.01-10.10|
-|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Deploy vfx                 |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|8210       |9852       |11494      |13136      |14778      |16421      |18063      |19705      |21347      |24631      |
-|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-
-
-|Level                      |11.01-11.10                  |
-|---------------------------|-----------------------------|
-|Deploy vfx                 |vfx_prestige_deploy_small_emp|
-|Displayed damage per second|25945                        |
-|Prestige                   |true                         |
+|Level                      |11.01-11.10                  |10.01-10.10|09.01-9.10 |08.01-8.10 |07.01-7.10 |06.01-6.10 |05.01-5.10 |04.01-4.10 |03.01-3.10 |02.01-2.10 |01.01-1.10 |
+|---------------------------|-----------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Deploy vfx                 |vfx_prestige_deploy_small_emp|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|25945                        |24631      |21347      |19705      |18063      |16421      |14778      |13136      |11494      |9852       |8210       |
+|Prestige                   |true                         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -367,15 +330,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Order      |501       |502       |503       |504       |505       |506       |507       |508       |509       |510        |
-|Point value|20        |24        |28        |32        |36        |40        |44        |48        |52        |60         |
-
-
-|Level      |11.01-11.10|
-|-----------|-----------|
-|Order      |511        |
-|Point value|60         |
+|Level      |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|-----------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Order      |511        |510        |509       |508       |507       |506       |505       |504       |503       |502       |501       |
+|Point value|60         |60         |52        |48        |44        |40        |36        |32        |28        |24        |20        |
 
 

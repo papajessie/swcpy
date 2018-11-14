@@ -4,9 +4,10 @@ This file tries to list confirmed bugs in units, buildings and others.
 
 ## Definitely bugs
 
-### Prestige medic droids
+### Prestige medic droids/repair droids
 
 The [medic droid](https://papajessie.github.io/swcpy/Medic.html) at level 11 doesn't heal units beyond the one he locked on at level 11 (Prestige).
+The [repair droid](https://papajessie.github.io/swcpy/Technician.html) at level 11 is probably affected too.
 
 Analysis: There are missing commas in the splash damage, leading to a bizarre splash percentage that certainly doesn't extend at radius 4 like normal.
 Bug confirmed : yes, by Tye Peer (JJO/J-Reb), video posted in line:SWC Quality Control on 2018-11-13 (12:13 UTC).

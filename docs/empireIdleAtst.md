@@ -24,9 +24,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: housing
 
-|Level |1   |2   |3   |4   |5   |6    |
-|------|----|----|----|----|----|-----|
-|Health|3000|4500|5400|7200|8700|10200|
+|Level |6    |5   |4   |3   |2   |1   |
+|------|-----|----|----|----|----|----|
+|Health|10200|8700|7200|5400|4500|3000|
 
 
 ### Training stats

@@ -25,18 +25,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: HQ
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|10000|13000|20000|30000|35000|40000|45000|50000|55000|60000|
+|Health|60000|55000|50000|45000|40000|35000|30000|20000|13000|10000|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1   |2                                        |3                                |4-5                              |6                                |7                                |8                                |9                                |10                               |
-|--------|----|-----------------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
-|Building|None|[Unit Transport 1](smugglerStarport.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|
+|Level   |10                               |9                                |8                                |7                                |6                                |4-5                              |3                                |2                                        |1   |
+|--------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|-----------------------------------------|----|
+|Building|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Unit Transport 1](smugglerStarport.html)|None|
 
 
 ### Upgrading stats
@@ -74,10 +74,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|10 |15 |18 |23 |28 |33 |38 |43 |48 |53 |
-|Order |410|411|412|413|414|415|416|417|418|419|
-|Xp    |10 |15 |18 |23 |28 |33 |38 |43 |48 |53 |
+|Max XP|53 |48 |43 |38 |33 |28 |23 |18 |15 |10 |
+|Order |419|418|417|416|415|414|413|412|411|410|
+|Xp    |53 |48 |43 |38 |33 |28 |23 |18 |15 |10 |
 
 

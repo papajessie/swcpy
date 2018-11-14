@@ -22,18 +22,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: navigation_center
 
-|Level |1   |2    |3    |4    |5    |
-|------|----|-----|-----|-----|-----|
-|Health|8700|10200|11700|13200|14700|
-|Time  |2d  |4d   |6d   |1w1d |1w3d |
+|Level |5    |4    |3    |2    |1   |
+|------|-----|-----|-----|-----|----|
+|Health|14700|13200|11700|10200|8700|
+|Time  |1w3d |1w1d |6d   |4d   |2d  |
 
 
 ### Training stats
 
-|Level        |1                              |2                              |3                              |4                              |5                              |
+|Level        |5                              |4                              |3                              |2                              |1                              |
 |-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|140000$                        |250000$                        |700000$                        |1000000$                       |3300000$                       |
-|Building     |[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|
+|Training cost|3300000$                       |1000000$                       |700000$                        |250000$                        |140000$                        |
+|Building     |[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -62,16 +62,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 260
 
-|Level               |1                           |2                           |3                           |4                           |5                           |
+|Level               |5                           |4                           |3                           |2                           |1                           |
 |--------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Asset name          |galacticnav_emp-mod-up1     |galacticnav_emp-mod-up2     |galacticnav_emp-mod-up3     |galacticnav_emp-mod-up4     |galacticnav_emp-mod-up5     |
-|Buff asset offset   |-1.4,0,-1.4                 |-2,-0.2,-2                  |-1.8,-1.2,-1.8              |-1.8,-1.2,-1.8              |-1.8,-1.2,-1.8              |
-|Bundle name         |galacticnav_emp-mod-up1     |galacticnav_emp-mod-up2     |galacticnav_emp-mod-up3     |galacticnav_emp-mod-up4     |galacticnav_emp-mod-up5     |
-|Icon asset name     |icon_galacticnav_emp-mod-up1|icon_galacticnav_emp-mod-up2|icon_galacticnav_emp-mod-up3|icon_galacticnav_emp-mod-up4|icon_galacticnav_emp-mod-up5|
-|Icon bundle name    |icon_galacticnav_emp-mod-up1|icon_galacticnav_emp-mod-up2|icon_galacticnav_emp-mod-up3|icon_galacticnav_emp-mod-up4|icon_galacticnav_emp-mod-up5|
-|Icon camera position|-39.14,33.82,32.63          |-39.14,33.82,32.63          |-39.14,33.82,32.63          |-39.26,33.85,32.44          |-42.07,35.23,34.84          |
-|Icon lookat position|0.79,1.97,-0.2              |0.79,1.97,-0.2              |0.79,1.97,-0.2              |0.67,2,-0.39                |0.4,1.33,-0.03              |
-|Store tab           |army                        |(not found)                 |(not found)                 |(not found)                 |(not found)                 |
+|Asset name          |galacticnav_emp-mod-up5     |galacticnav_emp-mod-up4     |galacticnav_emp-mod-up3     |galacticnav_emp-mod-up2     |galacticnav_emp-mod-up1     |
+|Buff asset offset   |-1.8,-1.2,-1.8              |-1.8,-1.2,-1.8              |-1.8,-1.2,-1.8              |-2,-0.2,-2                  |-1.4,0,-1.4                 |
+|Bundle name         |galacticnav_emp-mod-up5     |galacticnav_emp-mod-up4     |galacticnav_emp-mod-up3     |galacticnav_emp-mod-up2     |galacticnav_emp-mod-up1     |
+|Icon asset name     |icon_galacticnav_emp-mod-up5|icon_galacticnav_emp-mod-up4|icon_galacticnav_emp-mod-up3|icon_galacticnav_emp-mod-up2|icon_galacticnav_emp-mod-up1|
+|Icon bundle name    |icon_galacticnav_emp-mod-up5|icon_galacticnav_emp-mod-up4|icon_galacticnav_emp-mod-up3|icon_galacticnav_emp-mod-up2|icon_galacticnav_emp-mod-up1|
+|Icon camera position|-42.07,35.23,34.84          |-39.26,33.85,32.44          |-39.14,33.82,32.63          |-39.14,33.82,32.63          |-39.14,33.82,32.63          |
+|Icon lookat position|0.4,1.33,-0.03              |0.67,2,-0.39                |0.79,1.97,-0.2              |0.79,1.97,-0.2              |0.79,1.97,-0.2              |
+|Store tab           |(not found)                 |(not found)                 |(not found)                 |(not found)                 |army                        |
 
 
 ## Uninterpreted stats
@@ -80,9 +80,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 13
 
-|Level |1|2|3|4|5 |
-|------|-|-|-|-|--|
-|Max XP|6|7|8|9|10|
-|Xp    |6|7|8|9|10|
+|Level |5 |4|3|2|1|
+|------|--|-|-|-|-|
+|Max XP|10|9|8|7|6|
+|Xp    |10|9|8|7|6|
 
 

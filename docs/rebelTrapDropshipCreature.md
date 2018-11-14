@@ -23,20 +23,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Trap trigger conditions: Radius(8)
   * Type: trap
 
-|Level          |1   |2    |3   |4    |5    |6   |7    |8    |9    |10   |
-|---------------|----|-----|----|-----|-----|----|-----|-----|-----|-----|
-|Health         |2500|3750 |4500|6000 |7250 |8500|9750 |11000|12250|13500|
-|Time           |5s  |1d   |2d  |3d   |4d   |5d  |6d   |1w   |1w   |1w   |
-|Trap rearm time|4h  |3h30m|3h  |2h30m|2h15m|2h  |1h45m|1h30m|1h15m|1h   |
+|Level          |10   |9    |8    |7    |6   |5    |4    |3   |2    |1   |
+|---------------|-----|-----|-----|-----|----|-----|-----|----|-----|----|
+|Health         |13500|12250|11000|9750 |8500|7250 |6000 |4500|3750 |2500|
+|Time           |1w   |1w   |1w   |6d   |5d  |4d   |3d   |2d  |1d   |5s  |
+|Trap rearm time|1h   |1h15m|1h30m|1h45m|2h  |2h15m|2h30m|3h  |3h30m|4h  |
 
 
 ### Training stats
 
   * Building: [Headquarters 11](rebelHQ.html)
 
-|Level        |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
+|Level        |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
 |-------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Training cost|170000 Con.|200000 Con.|230000 Con.|275000 Con.|320000 Con.|370000 Con.|420000 Con.|500000 Con.|585000 Con.|690000 Con.|
+|Training cost|690000 Con.|585000 Con.|500000 Con.|420000 Con.|370000 Con.|320000 Con.|275000 Con.|230000 Con.|200000 Con.|170000 Con.|
 
 
 ### Upgrading stats
@@ -53,10 +53,10 @@ These stats internal to the system link different parts of data together.
 
   * Trap event type: CreatureSpecialAttack
 
-|Level          |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                  |8                                  |9                                  |10                                  |
-|---------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|Trap ID        |trap_RebelDropshipCreature1        |trap_RebelDropshipCreature2        |trap_RebelDropshipCreature3        |trap_RebelDropshipCreature4        |trap_RebelDropshipCreature5        |trap_RebelDropshipCreature6        |trap_RebelDropshipCreature7        |trap_RebelDropshipCreature8        |trap_RebelDropshipCreature9        |trap_RebelDropshipCreature10        |
-|Trap event data|specialAttackRebelCreatureDropship1|specialAttackRebelCreatureDropship2|specialAttackRebelCreatureDropship3|specialAttackRebelCreatureDropship4|specialAttackRebelCreatureDropship5|specialAttackRebelCreatureDropship6|specialAttackRebelCreatureDropship7|specialAttackRebelCreatureDropship8|specialAttackRebelCreatureDropship9|specialAttackRebelCreatureDropship10|
+|Level          |10                                  |9                                  |8                                  |7                                  |6                                  |5                                  |4                                  |3                                  |2                                  |1                                  |
+|---------------|------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|Trap ID        |trap_RebelDropshipCreature10        |trap_RebelDropshipCreature9        |trap_RebelDropshipCreature8        |trap_RebelDropshipCreature7        |trap_RebelDropshipCreature6        |trap_RebelDropshipCreature5        |trap_RebelDropshipCreature4        |trap_RebelDropshipCreature3        |trap_RebelDropshipCreature2        |trap_RebelDropshipCreature1        |
+|Trap event data|specialAttackRebelCreatureDropship10|specialAttackRebelCreatureDropship9|specialAttackRebelCreatureDropship8|specialAttackRebelCreatureDropship7|specialAttackRebelCreatureDropship6|specialAttackRebelCreatureDropship5|specialAttackRebelCreatureDropship4|specialAttackRebelCreatureDropship3|specialAttackRebelCreatureDropship2|specialAttackRebelCreatureDropship1|
 
 
 ## Presentation stats
@@ -75,9 +75,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Trap add ons: Contents/HomeAssets/holo_spent:rancorholo_neu-mod_red
   * Trap reveal audio: sfx_trap_appear
 
-|Level    |1       |2-10       |
-|---------|--------|-----------|
-|Store tab|defenses|(not found)|
+|Level    |2-10       |1       |
+|---------|-----------|--------|
+|Store tab|(not found)|defenses|
 
 
 ## Uninterpreted stats
@@ -86,9 +86,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 1000
 
-|Level |1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
+|Level |10|9 |8 |7 |6 |5 |4 |3 |2 |1 |
 |------|--|--|--|--|--|--|--|--|--|--|
-|Max XP|30|32|33|34|35|36|37|38|39|40|
-|Xp    |30|32|33|34|35|36|37|38|39|40|
+|Max XP|40|39|38|37|36|35|34|33|32|30|
+|Xp    |40|39|38|37|36|35|34|33|32|30|
 
 

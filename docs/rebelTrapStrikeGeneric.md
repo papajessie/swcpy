@@ -21,44 +21,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Trap trigger conditions: Radius(2) & ArmorNot(flierInfantry)
   * Type: trap
 
-|Level                    |1                                              |2                                              |3                                              |4                                              |5                                              |6                                              |7                                              |8                                              |9                                              |10                                              |
-|-------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------|
-|Cross credits            |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                     |
-|Cross materials          |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                     |
-|Cross time               |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                     |
-|Health                   |2500                                           |3750                                           |4500                                           |6000                                           |7250                                           |8500                                           |9750                                           |11000                                          |12250                                          |13500                                           |
-|Max quantity             |1                                              |1                                              |1                                              |2                                              |2                                              |4                                              |4                                              |6                                              |6                                              |6                                               |
-|Produce                  |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                     |
-|Time                     |1m                                             |15m                                            |2h                                             |12h                                            |1d                                             |1d12h                                          |2d                                             |3d                                             |6d                                             |1w3d                                            |
-|Trap air strike          |["shp_title_XWingTrap" level 1](XWingTrap.html)|["shp_title_XWingTrap" level 2](XWingTrap.html)|["shp_title_XWingTrap" level 3](XWingTrap.html)|["shp_title_XWingTrap" level 4](XWingTrap.html)|["shp_title_XWingTrap" level 5](XWingTrap.html)|["shp_title_XWingTrap" level 6](XWingTrap.html)|["shp_title_XWingTrap" level 7](XWingTrap.html)|["shp_title_XWingTrap" level 8](XWingTrap.html)|["shp_title_XWingTrap" level 9](XWingTrap.html)|["shp_title_XWingTrap" level 10](XWingTrap.html)|
-|Trap rearm materials cost|300                                            |600                                            |900                                            |1200                                           |1800                                           |2000                                           |2700                                           |3000                                           |3500                                           |6000                                            |
-
-
-|Level                    |11                                              |
-|-------------------------|------------------------------------------------|
-|Cross credits            |0                                               |
-|Cross materials          |0                                               |
-|Cross time               |0s                                              |
-|Health                   |14250                                           |
-|Max quantity             |6                                               |
-|Produce                  |0                                               |
-|Time                     |5d                                              |
-|Trap air strike          |["shp_title_XWingTrap" level 10](XWingTrap.html)|
-|Trap rearm materials cost|8500                                            |
+|Level                    |11                                              |10                                              |9                                              |8                                              |7                                              |6                                              |5                                              |4                                              |3                                              |2                                              |1                                              |
+|-------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|
+|Cross credits            |0                                               |(not found)                                     |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |
+|Cross materials          |0                                               |(not found)                                     |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |
+|Cross time               |0s                                              |(not found)                                     |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |
+|Health                   |14250                                           |13500                                           |12250                                          |11000                                          |9750                                           |8500                                           |7250                                           |6000                                           |4500                                           |3750                                           |2500                                           |
+|Max quantity             |6                                               |6                                               |6                                              |6                                              |4                                              |4                                              |2                                              |2                                              |1                                              |1                                              |1                                              |
+|Produce                  |0                                               |(not found)                                     |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |(not found)                                    |
+|Time                     |5d                                              |1w3d                                            |6d                                             |3d                                             |2d                                             |1d12h                                          |1d                                             |12h                                            |2h                                             |15m                                            |1m                                             |
+|Trap air strike          |["shp_title_XWingTrap" level 10](XWingTrap.html)|["shp_title_XWingTrap" level 10](XWingTrap.html)|["shp_title_XWingTrap" level 9](XWingTrap.html)|["shp_title_XWingTrap" level 8](XWingTrap.html)|["shp_title_XWingTrap" level 7](XWingTrap.html)|["shp_title_XWingTrap" level 6](XWingTrap.html)|["shp_title_XWingTrap" level 5](XWingTrap.html)|["shp_title_XWingTrap" level 4](XWingTrap.html)|["shp_title_XWingTrap" level 3](XWingTrap.html)|["shp_title_XWingTrap" level 2](XWingTrap.html)|["shp_title_XWingTrap" level 1](XWingTrap.html)|
+|Trap rearm materials cost|8500                                            |6000                                            |3500                                           |3000                                           |2700                                           |2000                                           |1800                                           |1200                                           |900                                            |600                                            |300                                            |
 
 
 ### Training stats
 
-|Level        |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Training cost|300 All.                      |1000 All.                     |5000 All.                     |15000 All.                    |30000 All.                    |70000 All.                    |150000 All.                   |300000 All.                   |900000 All.                   |1500000 All.                   |
-|Building     |[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-
-
-|Level        |11                             |
-|-------------|-------------------------------|
-|Training cost|1950000 All.                   |
-|Building     |[Headquarters 11](rebelHQ.html)|
+|Level        |11                             |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
+|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Training cost|1950000 All.                   |1500000 All.                   |900000 All.                   |300000 All.                   |150000 All.                   |70000 All.                    |30000 All.                    |15000 All.                    |5000 All.                     |1000 All.                     |300 All.                      |
+|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -75,16 +56,10 @@ These stats internal to the system link different parts of data together.
 
   * Trap event type: SpecialAttack
 
-|Level          |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
-|---------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|Trap ID        |trap_RebelStrikeGeneric1|trap_RebelStrikeGeneric2|trap_RebelStrikeGeneric3|trap_RebelStrikeGeneric4|trap_RebelStrikeGeneric5|trap_RebelStrikeGeneric6|trap_RebelStrikeGeneric7|trap_RebelStrikeGeneric8|trap_RebelStrikeGeneric9|trap_RebelStrikeGeneric10|
-|Trap event data|specialAttackXWingTrap1 |specialAttackXWingTrap2 |specialAttackXWingTrap3 |specialAttackXWingTrap4 |specialAttackXWingTrap5 |specialAttackXWingTrap6 |specialAttackXWingTrap7 |specialAttackXWingTrap8 |specialAttackXWingTrap9 |specialAttackXWingTrap10 |
-
-
-|Level          |11                       |
-|---------------|-------------------------|
-|Trap ID        |trap_RebelStrikeGeneric11|
-|Trap event data|specialAttackXWingTrap10 |
+|Level          |11                       |10                       |9                       |8                       |7                       |6                       |5                       |4                       |3                       |2                       |1                       |
+|---------------|-------------------------|-------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+|Trap ID        |trap_RebelStrikeGeneric11|trap_RebelStrikeGeneric10|trap_RebelStrikeGeneric9|trap_RebelStrikeGeneric8|trap_RebelStrikeGeneric7|trap_RebelStrikeGeneric6|trap_RebelStrikeGeneric5|trap_RebelStrikeGeneric4|trap_RebelStrikeGeneric3|trap_RebelStrikeGeneric2|trap_RebelStrikeGeneric1|
+|Trap event data|specialAttackXWingTrap10 |specialAttackXWingTrap10 |specialAttackXWingTrap9 |specialAttackXWingTrap8 |specialAttackXWingTrap7 |specialAttackXWingTrap6 |specialAttackXWingTrap5 |specialAttackXWingTrap4 |specialAttackXWingTrap3 |specialAttackXWingTrap2 |specialAttackXWingTrap1 |
 
 
 ## Presentation stats
@@ -99,15 +74,15 @@ These are all sorts of user interface settings, that should not interfere with g
   * Trap add ons: Contents/SharedAssets/active_holo/holo_armed:xwingholo_rbl-mod Contents/HomeAssets/holo_spent:xwingholo_rbl-mod_red Contents/HomeAssets/holo_spent:fx_repair_smoke Contents/SharedAssets/trap_spent/starshiptrap_rbl-mod_disarmed:fx_starship_trap_spent_cone_emitter
   * Trap reveal audio: sfx_trap_appear
 
-|Level           |1                           |2-10                        |11                               |
-|----------------|----------------------------|----------------------------|---------------------------------|
-|Asset name      |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl-up11 |
-|Bundle name     |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl-up11 |
-|Cycle time      |(not found)                 |(not found)                 |0s                               |
-|Icon asset name |icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl-up11|
-|Icon bundle name|icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl-up11|
-|Prestige        |(not found)                 |(not found)                 |true                             |
-|Store tab       |defenses                    |(not found)                 |(not found)                      |
+|Level           |11                               |2-10                        |1                           |
+|----------------|---------------------------------|----------------------------|----------------------------|
+|Asset name      |fx_trap_starship_strike_rbl-up11 |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl |
+|Bundle name     |fx_trap_starship_strike_rbl-up11 |fx_trap_starship_strike_rbl |fx_trap_starship_strike_rbl |
+|Cycle time      |0s                               |(not found)                 |(not found)                 |
+|Icon asset name |icon_starship_trap_xwing_rbl-up11|icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl|
+|Icon bundle name|icon_starship_trap_xwing_rbl-up11|icon_starship_trap_xwing_rbl|icon_starship_trap_xwing_rbl|
+|Prestige        |true                             |(not found)                 |(not found)                 |
+|Store tab       |(not found)                      |(not found)                 |defenses                    |
 
 
 ## Uninterpreted stats
@@ -117,13 +92,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Order: 14
 
-|Level|1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|-----|--|--|--|--|--|--|--|--|--|--|
-|Xp   |30|32|33|34|35|36|37|38|39|40|
-
-
-|Level|11|
-|-----|--|
-|Xp   |41|
+|Level|11|10|9 |8 |7 |6 |5 |4 |3 |2 |1 |
+|-----|--|--|--|--|--|--|--|--|--|--|--|
+|Xp   |41|40|39|38|37|36|35|34|33|32|30|
 
 

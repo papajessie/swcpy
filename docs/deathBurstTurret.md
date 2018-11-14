@@ -20,22 +20,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: turret
 
-|Level          |1   |2   |3    |4    |5     |6     |7     |8     |9      |10     |
-|---------------|----|----|-----|-----|------|------|------|------|-------|-------|
-|Cross materials|3000|6000|30000|90000|180000|480000|600000|900000|2400000|3600000|
-|Cross time     |1m  |2m  |3m   |4m   |5m    |6m    |7m    |8m    |9m     |10m    |
-|Health         |5000|7500|9000 |12000|14500 |17000 |19500 |22000 |24500  |27000  |
-|Max quantity   |2   |4   |6    |8    |10    |12    |14    |16    |18     |20     |
-|Time           |1m  |30m |4h   |16h  |1d12h |2d12h |4d    |6d    |1w1d   |1w3d   |
+|Level          |10     |9      |8     |7     |6     |5     |4    |3    |2   |1   |
+|---------------|-------|-------|------|------|------|------|-----|-----|----|----|
+|Cross materials|3600000|2400000|900000|600000|480000|180000|90000|30000|6000|3000|
+|Cross time     |10m    |9m     |8m    |7m    |6m    |5m    |4m   |3m   |2m  |1m  |
+|Health         |27000  |24500  |22000 |19500 |17000 |14500 |12000|9000 |7500|5000|
+|Max quantity   |20     |18     |16    |14    |12    |10    |8    |6    |4   |2   |
+|Time           |1w3d   |1w1d   |6d    |4d    |2d12h |1d12h |16h  |4h   |30m |1m  |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |1        |2        |3         |4         |5          |6          |7          |8           |9           |10          |
-|-------------|---------|---------|----------|----------|-----------|-----------|-----------|------------|------------|------------|
-|Training cost|1500 All.|3000 All.|20000 All.|55000 All.|100000 All.|250000 All.|500000 All.|1000000 All.|3000000 All.|5000000 All.|
+|Level        |10          |9           |8           |7          |6          |5          |4         |3         |2        |1        |
+|-------------|------------|------------|------------|-----------|-----------|-----------|----------|----------|---------|---------|
+|Training cost|5000000 All.|3000000 All.|1000000 All.|500000 All.|250000 All.|100000 All.|55000 All.|20000 All.|3000 All.|1500 All.|
 
 
 ### Upgrading stats
@@ -71,16 +71,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 8
   * Turret shot delay: 175ms
 
-|Level                 |1  |2  |3  |4  |5  |6  |7   |8   |9   |10  |
-|----------------------|---|---|---|---|---|---|----|----|----|----|
-|Turret damage per shot|287|431|517|689|832|919|1005|1091|1177|1292|
+|Level                 |10  |9   |8   |7   |6  |5  |4  |3  |2  |1  |
+|----------------------|----|----|----|----|---|---|---|---|---|---|
+|Turret damage per shot|1292|1177|1091|1005|919|832|689|517|431|287|
 
 
-|Level                                     |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------------------------------------------|----|----|----|----|----|----|----|----|----|-----|
-|Turret displayed damage per second        |550 |825 |990 |1320|1594|1761|1926|2090|2255|2475 |
-|Turret attack calculated damage per second|549 |825 |990 |1320|1594|1760|1925|2090|2255|2475 |
-|Turret attack calculated damage per clip  |2296|3448|4136|5512|6656|7352|8040|8728|9416|10336|
+|Level                                     |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------------------------------------------|-----|----|----|----|----|----|----|----|----|----|
+|Turret displayed damage per second        |2475 |2255|2090|1926|1761|1594|1320|990 |825 |550 |
+|Turret attack calculated damage per second|2475 |2255|2090|1925|1760|1594|1320|990 |825 |549 |
+|Turret attack calculated damage per clip  |10336|9416|8728|8040|7352|6656|5512|4136|3448|2296|
 
 
   * Turret attack cannons per sequence: 1
@@ -99,9 +99,9 @@ These stats internal to the system link different parts of data together.
   * Sub type: burst_turret
   * Turret projectile type: projectileEmpireBurstTurret
 
-|Level    |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
-|---------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|Turret id|t_empire_ab_BurstTurret1|t_empire_ab_BurstTurret2|t_empire_ab_BurstTurret3|t_empire_ab_BurstTurret4|t_empire_ab_BurstTurret5|t_empire_ab_BurstTurret6|t_empire_ab_BurstTurret7|t_empire_ab_BurstTurret8|t_empire_ab_BurstTurret9|t_empire_ab_BurstTurret10|
+|Level    |10                       |9                       |8                       |7                       |6                       |5                       |4                       |3                       |2                       |1                       |
+|---------|-------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+|Turret id|t_empire_ab_BurstTurret10|t_empire_ab_BurstTurret9|t_empire_ab_BurstTurret8|t_empire_ab_BurstTurret7|t_empire_ab_BurstTurret6|t_empire_ab_BurstTurret5|t_empire_ab_BurstTurret4|t_empire_ab_BurstTurret3|t_empire_ab_BurstTurret2|t_empire_ab_BurstTurret1|
 
 
 ## Presentation stats
@@ -128,14 +128,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret max scale: 0
   * Turret tracker name: n/a
 
-|Level                             |1                      |2                      |3                      |4                      |5                      |6                      |7                      |8                      |9                      |10                     |
+|Level                             |10                     |9                      |8                      |7                      |6                      |5                      |4                      |3                      |2                      |1                      |
 |----------------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-|Asset name                        |burstturret_dth-mod-up1|burstturret_dth-mod-up2|burstturret_dth-mod-up3|burstturret_dth-mod-up4|burstturret_dth-mod-up5|burstturret_dth-mod-up6|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|
-|Buff asset offset                 |-0.6,3,-0.6            |-0.6,3,-0.6            |-0.6,3,-0.6            |-0.6,3,-0.6            |-1,3.6,-1              |-1.2,3.6,-1.2          |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |
-|Bundle name                       |burstturret_dth-mod-up1|burstturret_dth-mod-up2|burstturret_dth-mod-up3|burstturret_dth-mod-up4|burstturret_dth-mod-up5|burstturret_dth-mod-up6|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|
-|Icon camera position              |-25.26,19.36,24.62     |-25.15,30.72,29.02     |-25.15,30.72,29.02     |-29.08,34.54,33.52     |-29.08,34.54,33.52     |-29.08,34.54,33.52     |-30.86,23.23,30.09     |-30.86,23.23,30.09     |-30.86,23.23,30.09     |-30.86,23.23,30.09     |
-|Icon lookat position              |0.37,1.66,-0.29        |0.62,2.39,-0.74        |0.62,2.39,-0.74        |0.41,2.03,-0.59        |0.41,2.03,-0.59        |0.41,2.03,-0.59        |0.37,1.66,-0.29        |0.37,1.66,-0.29        |0.37,1.66,-0.29        |0.37,1.66,-0.29        |
-|Turret displayed damage per second|550                    |825                    |990                    |1320                   |1594                   |1761                   |1926                   |2090                   |2255                   |2475                   |
+|Asset name                        |burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up6|burstturret_dth-mod-up5|burstturret_dth-mod-up4|burstturret_dth-mod-up3|burstturret_dth-mod-up2|burstturret_dth-mod-up1|
+|Buff asset offset                 |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |-1.2,4.2,-1.2          |-1.2,3.6,-1.2          |-1,3.6,-1              |-0.6,3,-0.6            |-0.6,3,-0.6            |-0.6,3,-0.6            |-0.6,3,-0.6            |
+|Bundle name                       |burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up7|burstturret_dth-mod-up6|burstturret_dth-mod-up5|burstturret_dth-mod-up4|burstturret_dth-mod-up3|burstturret_dth-mod-up2|burstturret_dth-mod-up1|
+|Icon camera position              |-30.86,23.23,30.09     |-30.86,23.23,30.09     |-30.86,23.23,30.09     |-30.86,23.23,30.09     |-29.08,34.54,33.52     |-29.08,34.54,33.52     |-29.08,34.54,33.52     |-25.15,30.72,29.02     |-25.15,30.72,29.02     |-25.26,19.36,24.62     |
+|Icon lookat position              |0.37,1.66,-0.29        |0.37,1.66,-0.29        |0.37,1.66,-0.29        |0.37,1.66,-0.29        |0.41,2.03,-0.59        |0.41,2.03,-0.59        |0.41,2.03,-0.59        |0.62,2.39,-0.74        |0.62,2.39,-0.74        |0.37,1.66,-0.29        |
+|Turret displayed damage per second|2475                   |2255                   |2090                   |1926                   |1761                   |1594                   |1320                   |990                    |825                    |550                    |
 
 
 ## Uninterpreted stats
@@ -149,10 +149,10 @@ Seriously, we don't really know what to do with these.
   * Turret strict cool down: No
   * Turret timey wimey: 1.9161676649999999089146740516298450529575347900390625
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|10 |32 |66 |104|160|216|294|368|468|560|
-|Order |921|922|923|924|925|926|927|928|929|930|
-|Xp    |5  |8  |11 |13 |16 |18 |21 |23 |26 |28 |
+|Max XP|560|468|368|294|216|160|104|66 |32 |10 |
+|Order |930|929|928|927|926|925|924|923|922|921|
+|Xp    |28 |26 |23 |21 |18 |16 |13 |11 |8  |5  |
 
 

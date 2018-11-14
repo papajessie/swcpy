@@ -23,30 +23,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: fleet_command
 
-|Level |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
-|------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-|Health|3000|4500|5400|7200|8700 |10200|11700|13200|14700|16200|
-|Time  |8h  |12h |18h |1d  |1d12h|2d   |3d   |4d   |1w   |1w5d |
-
-
-|Level |11   |
-|------|-----|
-|Health|17100|
-|Time  |1w3d |
+|Level |11   |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
+|------|-----|-----|-----|-----|-----|-----|-----|----|----|----|----|
+|Health|17100|16200|14700|13200|11700|10200|8700 |7200|5400|4500|3000|
+|Time  |1w3d |1w5d |1w   |4d   |3d   |2d   |1d12h|1d  |18h |12h |8h  |
 
 
 ### Training stats
 
-|Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Training cost|25000$                         |50000$                         |75000$                         |100000$                        |150000$                        |250000$                        |350000$                        |750000$                        |3000000$                       |5000000$                        |
-|Building     |[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-
-
-|Level        |11                              |
-|-------------|--------------------------------|
-|Training cost|6500000$                        |
-|Building     |[Headquarters 11](empireHQ.html)|
+|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|6500000$                        |5000000$                        |3000000$                       |750000$                        |350000$                        |250000$                        |150000$                        |100000$                        |75000$                         |50000$                         |25000$                         |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 5](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -76,14 +64,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 150
 
-|Level               |1                       |2                       |3                       |4                       |5                       |6                       |7-10                    |11                       |
-|--------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|Asset name          |fleetcommand_emp-mod-up1|fleetcommand_emp-mod-up2|fleetcommand_emp-mod-up3|fleetcommand_emp-mod-up4|fleetcommand_emp-mod-up5|fleetcommand_emp-mod-up6|fleetcommand_emp-mod-up7|fleetcommand_emp-mod-up11|
-|Bundle name         |fleetcommand_emp-mod-up1|fleetcommand_emp-mod-up2|fleetcommand_emp-mod-up3|fleetcommand_emp-mod-up4|fleetcommand_emp-mod-up5|fleetcommand_emp-mod-up6|fleetcommand_emp-mod-up7|fleetcommand_emp-mod-up11|
-|Icon camera position|-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-34.19,39.5,53.65       |-34.19,39.5,53.65        |
-|Icon lookat position|0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.41,1.24,-0.43         |0.41,1.24,-0.43          |
-|Prestige            |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |true                     |
-|Store tab           |army                    |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)              |
+|Level               |11                       |7-10                    |6                       |5                       |4                       |3                       |2                       |1                       |
+|--------------------|-------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+|Asset name          |fleetcommand_emp-mod-up11|fleetcommand_emp-mod-up7|fleetcommand_emp-mod-up6|fleetcommand_emp-mod-up5|fleetcommand_emp-mod-up4|fleetcommand_emp-mod-up3|fleetcommand_emp-mod-up2|fleetcommand_emp-mod-up1|
+|Bundle name         |fleetcommand_emp-mod-up11|fleetcommand_emp-mod-up7|fleetcommand_emp-mod-up6|fleetcommand_emp-mod-up5|fleetcommand_emp-mod-up4|fleetcommand_emp-mod-up3|fleetcommand_emp-mod-up2|fleetcommand_emp-mod-up1|
+|Icon camera position|-34.19,39.5,53.65        |-34.19,39.5,53.65       |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |-29.88,34.63,46.17      |
+|Icon lookat position|0.41,1.24,-0.43          |0.41,1.24,-0.43         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |0.18,1.37,-0.73         |
+|Prestige            |true                     |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |
+|Store tab           |(not found)              |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |(not found)             |army                    |
 
 
 ## Uninterpreted stats
@@ -92,15 +80,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 11
 
-|Level |1|2|3|4|5|6|7|8|9 |10|
-|------|-|-|-|-|-|-|-|-|--|--|
-|Max XP|2|3|4|5|6|7|8|9|10|11|
-|Xp    |2|3|4|5|6|7|8|9|10|11|
-
-
-|Level |11|
-|------|--|
-|Max XP|12|
-|Xp    |12|
+|Level |11|10|9 |8|7|6|5|4|3|2|1|
+|------|--|--|--|-|-|-|-|-|-|-|-|
+|Max XP|12|11|10|9|8|7|6|5|4|3|2|
+|Xp    |12|11|10|9|8|7|6|5|4|3|2|
 
 

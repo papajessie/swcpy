@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 7
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|15680|17375|19270|21400|23785|26490|31460|33880|36225|41250|
+|Health|41250|36225|33880|31460|26490|23785|21400|19270|17375|15680|
 
 
 ### Training stats
@@ -31,9 +31,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training time: 0s
   * Training cost: Free
 
-|Level   |1                             |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|--------|------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Building|[Factory 2](rebelFactory.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level   |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                             |
+|--------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|
+|Building|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Factory 2](rebelFactory.html)|
 
 
 ### Upgrading stats
@@ -80,18 +80,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 150ms
   * Target locking: No
 
-|Level          |1  |2  |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|---|---|----|----|----|----|----|----|----|----|
-|Damage per shot|797|936|1085|1239|1402|1589|1810|2057|2350|2647|
+|Level          |10  |9   |8   |7   |6   |5   |4   |3   |2  |1  |
+|---------------|----|----|----|----|----|----|----|----|---|---|
+|Damage per shot|2647|2350|2057|1810|1589|1402|1239|1085|936|797|
 
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|----------------------------|----|----|----|----|----|----|----|----|----|-----|
-|Displayed damage per second |1450|1700|1975|2255|2550|2890|3290|3740|4275|4640 |
-|Calculated damage per second|1518|1782|2066|2360|2670|3026|3447|3918|4476|5041 |
-|Calculated damage per cycle |3188|3744|4340|4956|5608|6356|7240|8228|9400|10588|
+|Level                       |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|----------------------------|-----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |4640 |4275|3740|3290|2890|2550|2255|1975|1700|1450|
+|Calculated damage per second|5041 |4476|3918|3447|3026|2670|2360|2066|1782|1518|
+|Calculated damage per cycle |10588|9400|8228|7240|6356|5608|4956|4340|3744|3188|
 
 
   * Cannons per sequence: 4
@@ -135,9 +135,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1450|1700|1975|2255|2550|2890|3290|3740|4275|4640|
+|Displayed damage per second|4640|4275|3740|3290|2890|2550|2255|1975|1700|1450|
 
 
 ## Uninterpreted stats
@@ -154,8 +154,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|281401|281402|281403|281404|281405|281406|281407|281408|281409|281410|
+|Order|281410|281409|281408|281407|281406|281405|281404|281403|281402|281401|
 
 

@@ -25,9 +25,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: storage
 
-|Level        |1 |2 |
+|Level        |2 |1 |
 |-------------|--|--|
-|Spawn protect|12|24|
+|Spawn protect|24|12|
 
 
 ### Training stats
@@ -66,10 +66,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |
+|Level |2  |1  |
 |------|---|---|
-|Max XP|20 |30 |
-|Order |646|647|
-|Xp    |4  |6  |
+|Max XP|30 |20 |
+|Order |647|646|
+|Xp    |6  |4  |
 
 

@@ -30,10 +30,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp empire barracks summon light A target: self
   * Eqp empire barracks summon light A value: 1
 
-|Level                                             |1                                 |2                                 |3                                 |4                                 |5                                 |6                                 |7                                 |8                                 |9                                 |10                                 |
-|--------------------------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----------------------------------|
-|Eqp empire barracks summon light A ms per proc    |45s                               |43s                               |41s                               |39s                               |37s                               |34s                               |32s                               |30s                               |28s                               |26s                                |
-|Eqp empire barracks summon light A summon visitors|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 10](Storm.html)|
+|Level                                             |10                                 |9                                 |8                                 |7                                 |6                                 |5                                 |4                                 |3                                 |2                                 |1                                 |
+|--------------------------------------------------|-----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+|Eqp empire barracks summon light A ms per proc    |26s                                |28s                               |30s                               |32s                               |34s                               |37s                               |39s                               |41s                               |43s                               |45s                               |
+|Eqp empire barracks summon light A summon visitors|[Stormtrooper level 10](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|
 
 
   * Eqp empire barracks summon light A summon die with summoner: No
@@ -55,10 +55,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp empire barracks summon light B target: self
   * Eqp empire barracks summon light B value: 1
 
-|Level                                             |1                                 |2                                 |3                                 |4                                 |5                                 |6                                 |7                                 |8                                 |9                                 |10                                 |
-|--------------------------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----------------------------------|
-|Eqp empire barracks summon light B ms per proc    |45s                               |43s                               |41s                               |39s                               |37s                               |34s                               |32s                               |30s                               |28s                               |26s                                |
-|Eqp empire barracks summon light B summon visitors|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 10](Storm.html)|
+|Level                                             |10                                 |9                                 |8                                 |7                                 |6                                 |5                                 |4                                 |3                                 |2                                 |1                                 |
+|--------------------------------------------------|-----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+|Eqp empire barracks summon light B ms per proc    |26s                                |28s                               |30s                               |32s                               |34s                               |37s                               |39s                               |41s                               |43s                               |45s                               |
+|Eqp empire barracks summon light B summon visitors|[Stormtrooper level 10](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|
 
 
   * Eqp empire barracks summon light B summon die with summoner: No
@@ -80,10 +80,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Eqp empire barracks summon light C target: self
   * Eqp empire barracks summon light C value: 1
 
-|Level                                             |1                                 |2                                 |3                                 |4                                 |5                                 |6                                 |7                                 |8                                 |9                                 |10                                 |
-|--------------------------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----------------------------------|
-|Eqp empire barracks summon light C ms per proc    |45s                               |43s                               |41s                               |39s                               |37s                               |34s                               |32s                               |30s                               |28s                               |26s                                |
-|Eqp empire barracks summon light C summon visitors|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 10](Storm.html)|
+|Level                                             |10                                 |9                                 |8                                 |7                                 |6                                 |5                                 |4                                 |3                                 |2                                 |1                                 |
+|--------------------------------------------------|-----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+|Eqp empire barracks summon light C ms per proc    |26s                                |28s                               |30s                               |32s                               |34s                               |37s                               |39s                               |41s                               |43s                               |45s                               |
+|Eqp empire barracks summon light C summon visitors|[Stormtrooper level 10](Storm.html)|[Stormtrooper level 9](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 8](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 7](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 6](Storm.html)|[Stormtrooper level 5](Storm.html)|[Stormtrooper level 5](Storm.html)|
 
 
   * Eqp empire barracks summon light C summon die with summoner: No
@@ -95,11 +95,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrade stats
 
-|Level         |1   |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|--------------|----|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Upgrade shards|20  |10                                     |20                                     |30                                     |50                                     |70                                     |100                                    |130                                    |180                                    |220                                     |
-|Upgrade time  |0s  |30m                                    |1h30m                                  |5h                                     |10h                                    |1d12h                                  |2d12h                                  |3d12h                                  |5d                                     |1w1d                                    |
-|Building      |None|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level         |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1   |
+|--------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----|
+|Upgrade shards|220                                     |180                                    |130                                    |100                                    |70                                     |50                                     |30                                     |20                                     |10                                     |20  |
+|Upgrade time  |1w1d                                    |5d                                     |3d12h                                  |2d12h                                  |1d12h                                  |10h                                    |5h                                     |1h30m                                  |30m                                    |0s  |
+|Building      |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|None|
 
 
 ### Presentation and internal stats
@@ -116,16 +116,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Icon lookat position: 0.55,0.86,-0.16
   * Quality: elite
 
-|Level               |1              |2-10       |
-|--------------------|---------------|-----------|
-|Icon unlock position|0.17,1.34,-0.34|(not found)|
-|Icon unlock rotation|0,40,0         |(not found)|
-|Icon unlock scale   |0.5,0.5,0.5    |(not found)|
+|Level               |2-10       |1              |
+|--------------------|-----------|---------------|
+|Icon unlock position|(not found)|0.17,1.34,-0.34|
+|Icon unlock rotation|(not found)|0,40,0         |
+|Icon unlock scale   |(not found)|0.5,0.5,0.5    |
 
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level|10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|---|---|
-|Order|599|600|601|602|603|604|605|606|607|608|
+|Order|608|607|606|605|604|603|602|601|600|599|
 
 
 ## Main stats
@@ -143,32 +143,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: barracks
 
-|Level       |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Health      |3000      |4500      |5400      |7200      |8700      |10200     |11700     |13200     |14700     |16200      |
-|Max quantity|2         |2         |2         |3         |3         |3         |4         |4         |4         |4          |
-|Time        |30s       |15m       |2h        |12h       |1d        |1d12h     |2d        |3d        |6d        |1w3d       |
-
-
-|Level       |11.01-11.10|
-|------------|-----------|
-|Health      |17100      |
-|Max quantity|4          |
-|Time        |1w1d       |
+|Level       |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|------------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Health      |17100      |16200      |14700     |13200     |11700     |10200     |8700      |7200      |5400      |4500      |3000      |
+|Max quantity|4          |4          |4         |4         |4         |3         |3         |3         |2         |2         |2         |
+|Time        |1w1d       |1w3d       |6d        |3d        |2d        |1d12h     |1d        |12h       |2h        |15m       |30s       |
 
 
 ### Training stats
 
-|Level        |01.01-1.10                     |02.01-2.10                     |03.01-3.10                     |04.01-4.10                     |05.01-5.10                     |06.01-6.10                     |07.01-7.10                     |08.01-8.10                     |09.01-9.10                     |10.01-10.10                     |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Training cost|1000$                          |2000$                          |10000$                         |30000$                         |75000$                         |275000$                        |400000$                        |800000$                        |2000000$                       |3500000$                        |
-|Building     |[Headquarters 1](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-
-
-|Level        |11.01-11.10                     |
-|-------------|--------------------------------|
-|Training cost|4550000$                        |
-|Building     |[Headquarters 11](empireHQ.html)|
+|Level        |11.01-11.10                     |10.01-10.10                     |09.01-9.10                     |08.01-8.10                     |07.01-7.10                     |06.01-6.10                     |05.01-5.10                     |04.01-4.10                     |03.01-3.10                     |02.01-2.10                     |01.01-1.10                     |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|4550000$                        |3500000$                        |2000000$                       |800000$                        |400000$                        |275000$                        |75000$                         |30000$                         |10000$                         |2000$                          |1000$                          |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 1](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -198,24 +185,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 230
 
-|Level               |01.01-1.10          |02.01-2.10          |03.01-3.10          |04.01-4.10          |05.01-5.10          |06.01-6.10          |07.01-7.10          |08.01-8.10          |09.01-9.10          |10.01-10.10          |
-|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|Asset name          |barracks_emp-mod-up1|barracks_emp-mod-up2|barracks_emp-mod-up3|barracks_emp-mod-up4|barracks_emp-mod-up5|barracks_emp-mod-up6|barracks_emp-mod-up7|barracks_emp-mod-up8|barracks_emp-mod-up9|barracks_emp-mod-up10|
-|Bundle name         |barracks_emp-mod-up1|barracks_emp-mod-up2|barracks_emp-mod-up3|barracks_emp-mod-up4|barracks_emp-mod-up5|barracks_emp-mod-up6|barracks_emp-mod-up7|barracks_emp-mod-up8|barracks_emp-mod-up9|barracks_emp-mod-up10|
-|Icon camera position|-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-50.51,41.92,41.7    |
-|Icon lookat position|-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |0.28,1.29,-0.14     |0.28,1.29,-0.14     |0.28,1.29,-0.14     |0.28,1.29,-0.14      |
-|Prestige            |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|Store tab           |army                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-
-
-|Level               |11.01-11.10          |
-|--------------------|---------------------|
-|Asset name          |barracks_emp-mod-up11|
-|Bundle name         |barracks_emp-mod-up11|
-|Icon camera position|-50.51,41.92,41.7    |
-|Icon lookat position|0.28,1.29,-0.14      |
-|Prestige            |true                 |
-|Store tab           |(not found)          |
+|Level               |11.01-11.10          |10.01-10.10          |09.01-9.10          |08.01-8.10          |07.01-7.10          |06.01-6.10          |05.01-5.10          |04.01-4.10          |03.01-3.10          |02.01-2.10          |01.01-1.10          |
+|--------------------|---------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+|Asset name          |barracks_emp-mod-up11|barracks_emp-mod-up10|barracks_emp-mod-up9|barracks_emp-mod-up8|barracks_emp-mod-up7|barracks_emp-mod-up6|barracks_emp-mod-up5|barracks_emp-mod-up4|barracks_emp-mod-up3|barracks_emp-mod-up2|barracks_emp-mod-up1|
+|Bundle name         |barracks_emp-mod-up11|barracks_emp-mod-up10|barracks_emp-mod-up9|barracks_emp-mod-up8|barracks_emp-mod-up7|barracks_emp-mod-up6|barracks_emp-mod-up5|barracks_emp-mod-up4|barracks_emp-mod-up3|barracks_emp-mod-up2|barracks_emp-mod-up1|
+|Icon camera position|-50.51,41.92,41.7    |-50.51,41.92,41.7    |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-50.51,41.92,41.7   |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |-27.84,27.67,44.85  |
+|Icon lookat position|0.28,1.29,-0.14      |0.28,1.29,-0.14      |0.28,1.29,-0.14     |0.28,1.29,-0.14     |0.28,1.29,-0.14     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |-0.03,1.75,1.33     |
+|Prestige            |true                 |(not found)          |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |
+|Store tab           |(not found)          |(not found)          |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |army                |
 
 
 ## Uninterpreted stats
@@ -224,15 +201,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 2
 
-|Level |01.01-1.10|02.01-2.10|03.01-3.10|04.01-4.10|05.01-5.10|06.01-6.10|07.01-7.10|08.01-8.10|09.01-9.10|10.01-10.10|
-|------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-|Max XP|4         |6         |8         |15        |18        |21        |32        |36        |40        |44         |
-|Xp    |2         |3         |4         |5         |6         |7         |8         |9         |10        |11         |
-
-
-|Level |11.01-11.10|
-|------|-----------|
-|Max XP|48         |
-|Xp    |12         |
+|Level |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
+|------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|Max XP|48         |44         |40        |36        |32        |21        |18        |15        |8         |6         |4         |
+|Xp    |12         |11         |10        |9         |8         |7         |6         |5         |4         |3         |2         |
 
 

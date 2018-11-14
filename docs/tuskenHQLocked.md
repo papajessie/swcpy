@@ -24,18 +24,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: HQ
 
-|Level |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |
 |------|-----|-----|-----|-----|
-|Health|45000|50000|55000|60000|
+|Health|60000|55000|50000|45000|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |7                                  |8                                                  |9                                                  |10                                                 |
-|--------|-----------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-|Building|[Tusken Raider HQ 6](tuskenHQ.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|
+|Level   |10                                                 |9                                                  |8                                                  |7                                  |
+|--------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-----------------------------------|
+|Building|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|[Tusken Raider HQ 6](tuskenHQ.html)|
 
 
 ### Upgrading stats
@@ -73,10 +73,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |
 |------|---|---|---|---|
-|Max XP|38 |43 |48 |53 |
-|Order |515|516|517|518|
-|Xp    |38 |43 |48 |53 |
+|Max XP|53 |48 |43 |38 |
+|Order |518|517|516|515|
+|Xp    |53 |48 |43 |38 |
 
 

@@ -21,14 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: vehicle
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|------|----|----|----|----|----|----|----|----|----|----|
-|Health|5250|5360|5470|5580|5690|5810|5930|6050|6180|6310|
-
-
-|Level |11  |
-|------|----|
-|Health|6440|
+|Level |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------|----|----|----|----|----|----|----|----|----|----|----|
+|Health|6440|6310|6180|6050|5930|5810|5690|5580|5470|5360|5250|
 
 
 ### Training stats
@@ -111,30 +106,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 960ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
-
-
-|Level          |11  |
-|---------------|----|
-|Damage per shot|3432|
+|Level          |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------|----|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|3432|3348|3270|3192|3140|3088|3036|2984|2906|2847|2821|
 
 
 ### Projectile
 
-|Level                       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
-|Calculated damage per second|1369|1382|1410|1448|1473|1499|1524|1549|1587|1625|
-|Calculated damage per cycle |2821|2847|2906|2984|3036|3088|3140|3192|3270|3348|
-
-
-|Level                       |11  |
-|----------------------------|----|
-|Displayed damage per second |3432|
-|Calculated damage per second|1666|
-|Calculated damage per cycle |3432|
+|Level                       |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |3432|3348|3270|3192|3140|3088|3036|2984|2906|2847|2821|
+|Calculated damage per second|1666|1625|1587|1549|1524|1499|1473|1448|1410|1382|1369|
+|Calculated damage per cycle |3432|3348|3270|3192|3140|3088|3036|2984|2906|2847|2821|
 
 
   * Cannons per sequence: 1
@@ -153,16 +136,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Death attack splash damage percentages: 100,75,40,20
 
-|Level                                  |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Death projectile damage                |4050|4131|4248|4403|4524|4646|4770|4895|5065|5232|
-|Death attack calculated damage per clip|4050|4131|4248|4403|4524|4646|4770|4895|5065|5232|
-
-
-|Level                                  |11  |
-|---------------------------------------|----|
-|Death projectile damage                |5418|
-|Death attack calculated damage per clip|5418|
+|Level                                  |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------------------------------|----|----|----|----|----|----|----|----|----|----|----|
+|Death projectile damage                |5418|5232|5065|4895|4770|4646|4524|4403|4248|4131|4050|
+|Death attack calculated damage per clip|5418|5232|5065|4895|4770|4646|4524|4403|4248|4131|4050|
 
 
   * Death attack cannons per sequence: 1
@@ -211,16 +188,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1                                                     |2                                                     |3                                                     |4                                                     |5                                                     |6                                                     |7                                                     |8                                                     |9                                                     |10                                                    |
-|---------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
-|Displayed damage per second|2821                                                  |2847                                                  |2906                                                  |2984                                                  |3036                                                  |3088                                                  |3140                                                  |3192                                                  |3270                                                  |3348                                                  |
-|Gun position               |"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|
-
-
-|Level                      |11         |
-|---------------------------|-----------|
-|Displayed damage per second|3432       |
-|Gun position               |(not found)|
+|Level                      |11         |10                                                    |9                                                     |8                                                     |7                                                     |6                                                     |5                                                     |4                                                     |3                                                     |2                                                     |1                                                     |
+|---------------------------|-----------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+|Displayed damage per second|3432       |3348                                                  |3270                                                  |3192                                                  |3140                                                  |3088                                                  |3036                                                  |2984                                                  |2906                                                  |2847                                                  |2821                                                  |
+|Gun position               |(not found)|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|
 
 
 ## Uninterpreted stats
@@ -243,15 +214,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order |90001|90002|90003|90004|90005|90006|90007|90008|90009|90010|
-|Splash|0    |0    |0    |0    |0    |0    |0    |0    |0    |0    |
-
-
-|Level |11         |
-|------|-----------|
-|Order |90011      |
-|Splash|(not found)|
+|Level |11         |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|------|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order |90011      |90010|90009|90008|90007|90006|90005|90004|90003|90002|90001|
+|Splash|(not found)|0    |0    |0    |0    |0    |0    |0    |0    |0    |0    |
 
 

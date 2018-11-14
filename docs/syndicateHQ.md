@@ -25,18 +25,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: HQ
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|11000|14300|22000|33000|38500|44000|49500|55000|60500|66000|
+|Health|66000|60500|55000|49500|44000|38500|33000|22000|14300|11000|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1   |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|--------|----|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Building|None|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level   |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1   |
+|--------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----|
+|Building|["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|None|
 
 
 ### Upgrading stats
@@ -74,10 +74,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|10  |15  |18  |23  |28  |33  |38  |43  |48  |53  |
-|Order |1080|1081|1082|1083|1084|1085|1086|1087|1088|1089|
-|Xp    |10  |15  |18  |23  |28  |33  |38  |43  |48  |53  |
+|Max XP|53  |48  |43  |38  |33  |28  |23  |18  |15  |10  |
+|Order |1089|1088|1087|1086|1085|1084|1083|1082|1081|1080|
+|Xp    |53  |48  |43  |38  |33  |28  |23  |18  |15  |10  |
 
 

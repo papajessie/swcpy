@@ -117,9 +117,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie fighter target: enemies
   * Sum tie fighter value: 1
 
-|Level                          |1-3                                                                |4-5                                                                |6-7                                                                |8-9                                                                |10                                                                  |11                                                                  |
-|-------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|
-|Sum tie fighter summon visitors|["shp_title_TieFighterEqpSummon" level 6](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 7](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 8](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 9](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 10](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 11](TieFighterEqpSummon.html)|
+|Level                          |11                                                                  |10                                                                  |8-9                                                                |6-7                                                                |4-5                                                                |1-3                                                                |
+|-------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
+|Sum tie fighter summon visitors|["shp_title_TieFighterEqpSummon" level 11](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 10](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 9](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 8](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 7](TieFighterEqpSummon.html)|["shp_title_TieFighterEqpSummon" level 6](TieFighterEqpSummon.html)|
 
 
   * Sum tie fighter summon die with summoner: No
@@ -136,18 +136,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomTieFighter
 
-|Level                     |1                 |2                 |3                 |4                 |5                 |6                 |7                 |8                 |9                 |10                 |
-|--------------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-------------------|
-|Apply buffs               |buffSumTieFighter1|buffSumTieFighter2|buffSumTieFighter3|buffSumTieFighter4|buffSumTieFighter5|buffSumTieFighter6|buffSumTieFighter7|buffSumTieFighter8|buffSumTieFighter9|buffSumTieFighter10|
-|Sum tie fighter details   |sumTieFighter1    |sumTieFighter2    |sumTieFighter3    |sumTieFighter4    |sumTieFighter5    |sumTieFighter6    |sumTieFighter7    |sumTieFighter8    |sumTieFighter9    |sumTieFighter10    |
-|Sum tie fighter summon uid|sumTieFighter1    |sumTieFighter2    |sumTieFighter3    |sumTieFighter4    |sumTieFighter5    |sumTieFighter6    |sumTieFighter7    |sumTieFighter8    |sumTieFighter9    |sumTieFighter10    |
-
-
-|Level                     |11                 |
-|--------------------------|-------------------|
-|Apply buffs               |buffSumTieFighter11|
-|Sum tie fighter details   |sumTieFighter11    |
-|Sum tie fighter summon uid|sumTieFighter11    |
+|Level                     |11                 |10                 |9                 |8                 |7                 |6                 |5                 |4                 |3                 |2                 |1                 |
+|--------------------------|-------------------|-------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+|Apply buffs               |buffSumTieFighter11|buffSumTieFighter10|buffSumTieFighter9|buffSumTieFighter8|buffSumTieFighter7|buffSumTieFighter6|buffSumTieFighter5|buffSumTieFighter4|buffSumTieFighter3|buffSumTieFighter2|buffSumTieFighter1|
+|Sum tie fighter details   |sumTieFighter11    |sumTieFighter10    |sumTieFighter9    |sumTieFighter8    |sumTieFighter7    |sumTieFighter6    |sumTieFighter5    |sumTieFighter4    |sumTieFighter3    |sumTieFighter2    |sumTieFighter1    |
+|Sum tie fighter summon uid|sumTieFighter11    |sumTieFighter10    |sumTieFighter9    |sumTieFighter8    |sumTieFighter7    |sumTieFighter6    |sumTieFighter5    |sumTieFighter4    |sumTieFighter3    |sumTieFighter2    |sumTieFighter1    |
 
 
 ## Presentation stats
@@ -171,9 +164,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: false
   * Unlocked by tournament: No
 
-|Level     |1-10       |11                           |
-|----------|-----------|-----------------------------|
-|Deploy vfx|(not found)|vfx_prestige_deploy_small_emp|
+|Level     |11                           |1-10       |
+|----------|-----------------------------|-----------|
+|Deploy vfx|vfx_prestige_deploy_small_emp|(not found)|
 
 
 ## Uninterpreted stats
@@ -196,13 +189,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----|------|------|------|------|------|------|------|------|------|------|
-|Order|120401|120402|120403|120404|120405|120406|120407|120408|120409|120410|
-
-
-|Level|11    |
-|-----|------|
-|Order|120411|
+|Level|11    |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|Order|120411|120410|120409|120408|120407|120406|120405|120404|120403|120402|120401|
 
 

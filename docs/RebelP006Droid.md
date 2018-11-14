@@ -19,27 +19,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 13
   * Type: mercenary
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|19600|21150|23300|25600|28050|30600|33150|35900|38550|41250|
+|Health|41250|38550|35900|33150|30600|28050|25600|23300|21150|19600|
 
 
 ### Training stats
 
-|Level        |1                                       |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|----------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|6m                                      |6m30s                                 |7m10s                                 |7m40s                                 |8m20s                                 |9m                                    |9m30s                                 |10m10s                                |10m40s                                |11m20s                                 |
-|Training cost|50 Con.                                 |60 Con.                               |120 Con.                              |210 Con.                              |340 Con.                              |480 Con.                              |640 Con.                              |810 Con.                              |970 Con.                              |1100 Con.                              |
-|Building     |[Cantina 1](rebelContrabandCantina.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                                       |
+|-------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------------------|
+|Training time|11m20s                                 |10m40s                                |10m10s                                |9m30s                                 |9m                                    |8m20s                                 |7m40s                                 |7m10s                                 |6m30s                                 |6m                                      |
+|Training cost|1100 Con.                              |970 Con.                              |810 Con.                              |640 Con.                              |480 Con.                              |340 Con.                              |210 Con.                              |120 Con.                              |60 Con.                               |50 Con.                                 |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Cantina 1](rebelContrabandCantina.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 0s
 
-|Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
-|--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
-|Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
+|Level               |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
+|--------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Upgrade requirements|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 
 ### Movement stats
@@ -85,10 +85,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 0s
   * Target locking: No
 
-|Level               |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level               |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |--------------------|----|----|----|----|----|----|----|----|----|----|
-|Special data 2 value|25  |27  |29  |32  |34  |36  |38  |41  |43  |45  |
-|Special data 3 value|1600|1750|1950|2100|2300|2450|2650|2800|3000|3200|
+|Special data 2 value|45  |43  |41  |38  |36  |34  |32  |29  |27  |25  |
+|Special data 3 value|3200|3000|2800|2650|2450|2300|2100|1950|1750|1600|
 
 
 ### Projectile
@@ -118,9 +118,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Corruption self destruct target: enemies
   * Corruption self destruct value: -100.0%
 
-|Level                                 |1  |2      |3      |4      |5      |6      |7      |8      |9      |10 |
+|Level                                 |10 |9      |8      |7      |6      |5      |4      |3      |2      |1  |
 |--------------------------------------|---|-------|-------|-------|-------|-------|-------|-------|-------|---|
-|Corruption self destruct ms first proc|25s|27.222s|29.444s|31.667s|33.889s|36.111s|38.333s|40.556s|42.778s|45s|
+|Corruption self destruct ms first proc|45s|42.778s|40.556s|38.333s|36.111s|33.889s|31.667s|29.444s|27.222s|25s|
 
 
 
@@ -137,9 +137,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum rebel turret corruptor phtm target: enemies
   * Sum rebel turret corruptor phtm value: 1
 
-|Level                                          |1                                                            |2                                                            |3                                                            |4                                                            |5                                                            |6                                                            |7                                                            |8                                                            |9                                                            |10                                                            |
-|-----------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|
-|Sum rebel turret corruptor phtm summon visitors|["trp_title_RebelP006Phantom" level 1](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 2](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 3](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 4](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 5](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 6](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 7](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 8](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 9](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 10](RebelP006Phantom.html)|
+|Level                                          |10                                                            |9                                                            |8                                                            |7                                                            |6                                                            |5                                                            |4                                                            |3                                                            |2                                                            |1                                                            |
+|-----------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
+|Sum rebel turret corruptor phtm summon visitors|["trp_title_RebelP006Phantom" level 10](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 9](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 8](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 7](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 6](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 5](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 4](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 3](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 2](RebelP006Phantom.html)|["trp_title_RebelP006Phantom" level 1](RebelP006Phantom.html)|
 
 
   * Sum rebel turret corruptor phtm summon die with summoner: Yes
@@ -148,9 +148,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum rebel turret corruptor phtm summon target summoner: No
   * Sum rebel turret corruptor phtm summon visitor type: Troop
 
-|Level                                              |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                                              |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |---------------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Sum rebel turret corruptor phtm summon spawn points|0,0,0|0,0,1|0,0,2|0,0,3|0,0,4|0,0,5|0,0,6|0,0,7|0,0,8|0,0,9|
+|Sum rebel turret corruptor phtm summon spawn points|0,0,9|0,0,8|0,0,7|0,0,6|0,0,5|0,0,4|0,0,3|0,0,2|0,0,1|0,0,0|
 
 
 #### Modifier "Turret corruption"
@@ -175,11 +175,11 @@ These stats internal to the system link different parts of data together.
   * Unit ID: RebelP006Droid
   * Upgrade shard uid: shrd_troopRebelP006Droid
 
-|Level                                     |1                                                                                 |2                                                                                 |3                                                                                 |4                                                                                 |5                                                                                 |6                                                                                 |7                                                                                 |8                                                                                 |9                                                                                 |10                                                                                  |
-|------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-|Apply buffs                               |buffTurretCorruption1,buffCorruptionSelfDestruct1,buffSumRebelTurretCorruptorPhtm1|buffTurretCorruption1,buffCorruptionSelfDestruct2,buffSumRebelTurretCorruptorPhtm2|buffTurretCorruption1,buffCorruptionSelfDestruct3,buffSumRebelTurretCorruptorPhtm3|buffTurretCorruption1,buffCorruptionSelfDestruct4,buffSumRebelTurretCorruptorPhtm4|buffTurretCorruption1,buffCorruptionSelfDestruct5,buffSumRebelTurretCorruptorPhtm5|buffTurretCorruption1,buffCorruptionSelfDestruct6,buffSumRebelTurretCorruptorPhtm6|buffTurretCorruption1,buffCorruptionSelfDestruct7,buffSumRebelTurretCorruptorPhtm7|buffTurretCorruption1,buffCorruptionSelfDestruct8,buffSumRebelTurretCorruptorPhtm8|buffTurretCorruption1,buffCorruptionSelfDestruct9,buffSumRebelTurretCorruptorPhtm9|buffTurretCorruption1,buffCorruptionSelfDestruct10,buffSumRebelTurretCorruptorPhtm10|
-|Sum rebel turret corruptor phtm details   |sumRebelTurretCorruptorPhtm1                                                      |sumRebelTurretCorruptorPhtm2                                                      |sumRebelTurretCorruptorPhtm3                                                      |sumRebelTurretCorruptorPhtm4                                                      |sumRebelTurretCorruptorPhtm5                                                      |sumRebelTurretCorruptorPhtm6                                                      |sumRebelTurretCorruptorPhtm7                                                      |sumRebelTurretCorruptorPhtm8                                                      |sumRebelTurretCorruptorPhtm9                                                      |sumRebelTurretCorruptorPhtm10                                                       |
-|Sum rebel turret corruptor phtm summon uid|sumRebelTurretCorruptorPhtm1                                                      |sumRebelTurretCorruptorPhtm2                                                      |sumRebelTurretCorruptorPhtm3                                                      |sumRebelTurretCorruptorPhtm4                                                      |sumRebelTurretCorruptorPhtm5                                                      |sumRebelTurretCorruptorPhtm6                                                      |sumRebelTurretCorruptorPhtm7                                                      |sumRebelTurretCorruptorPhtm8                                                      |sumRebelTurretCorruptorPhtm9                                                      |sumRebelTurretCorruptorPhtm10                                                       |
+|Level                                     |10                                                                                  |9                                                                                 |8                                                                                 |7                                                                                 |6                                                                                 |5                                                                                 |4                                                                                 |3                                                                                 |2                                                                                 |1                                                                                 |
+|------------------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+|Apply buffs                               |buffTurretCorruption1,buffCorruptionSelfDestruct10,buffSumRebelTurretCorruptorPhtm10|buffTurretCorruption1,buffCorruptionSelfDestruct9,buffSumRebelTurretCorruptorPhtm9|buffTurretCorruption1,buffCorruptionSelfDestruct8,buffSumRebelTurretCorruptorPhtm8|buffTurretCorruption1,buffCorruptionSelfDestruct7,buffSumRebelTurretCorruptorPhtm7|buffTurretCorruption1,buffCorruptionSelfDestruct6,buffSumRebelTurretCorruptorPhtm6|buffTurretCorruption1,buffCorruptionSelfDestruct5,buffSumRebelTurretCorruptorPhtm5|buffTurretCorruption1,buffCorruptionSelfDestruct4,buffSumRebelTurretCorruptorPhtm4|buffTurretCorruption1,buffCorruptionSelfDestruct3,buffSumRebelTurretCorruptorPhtm3|buffTurretCorruption1,buffCorruptionSelfDestruct2,buffSumRebelTurretCorruptorPhtm2|buffTurretCorruption1,buffCorruptionSelfDestruct1,buffSumRebelTurretCorruptorPhtm1|
+|Sum rebel turret corruptor phtm details   |sumRebelTurretCorruptorPhtm10                                                       |sumRebelTurretCorruptorPhtm9                                                      |sumRebelTurretCorruptorPhtm8                                                      |sumRebelTurretCorruptorPhtm7                                                      |sumRebelTurretCorruptorPhtm6                                                      |sumRebelTurretCorruptorPhtm5                                                      |sumRebelTurretCorruptorPhtm4                                                      |sumRebelTurretCorruptorPhtm3                                                      |sumRebelTurretCorruptorPhtm2                                                      |sumRebelTurretCorruptorPhtm1                                                      |
+|Sum rebel turret corruptor phtm summon uid|sumRebelTurretCorruptorPhtm10                                                       |sumRebelTurretCorruptorPhtm9                                                      |sumRebelTurretCorruptorPhtm8                                                      |sumRebelTurretCorruptorPhtm7                                                      |sumRebelTurretCorruptorPhtm6                                                      |sumRebelTurretCorruptorPhtm5                                                      |sumRebelTurretCorruptorPhtm4                                                      |sumRebelTurretCorruptorPhtm3                                                      |sumRebelTurretCorruptorPhtm2                                                      |sumRebelTurretCorruptorPhtm1                                                      |
 
 
 ## Presentation stats
@@ -216,9 +216,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unlocked by event: true
   * Unlocked by tournament: Yes
 
-|Level            |1             |2-10       |
-|-----------------|--------------|-----------|
-|Icon unlock scale|1.75,1.75,1.75|(not found)|
+|Level            |2-10       |1             |
+|-----------------|-----------|--------------|
+|Icon unlock scale|(not found)|1.75,1.75,1.75|
 
 
 ## Uninterpreted stats
@@ -238,9 +238,9 @@ Seriously, we don't really know what to do with these.
   * Turret corruption tags: switchTeam
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |240801|240802|240803|240804|240805|240806|240807|240808|240809|240810|
-|Point value|1     |1.200 |1.400 |1.600 |1.800 |2     |2.200 |2.400 |2.600 |3     |
+|Order      |240810|240809|240808|240807|240806|240805|240804|240803|240802|240801|
+|Point value|3     |2.600 |2.400 |2.200 |2     |1.800 |1.600 |1.400 |1.200 |1     |
 
 

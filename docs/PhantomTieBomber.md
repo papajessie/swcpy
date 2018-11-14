@@ -117,9 +117,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Sum tie bomber target: enemies
   * Sum tie bomber value: 1
 
-|Level                         |1-3                                 |4-5                                 |6-7                                 |8-9                                 |10                                   |
-|------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|
-|Sum tie bomber summon visitors|[TIE Bomber level 6](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 10](TieBomber.html)|
+|Level                         |10                                   |8-9                                 |6-7                                 |4-5                                 |1-3                                 |
+|------------------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+|Sum tie bomber summon visitors|[TIE Bomber level 10](TieBomber.html)|[TIE Bomber level 9](TieBomber.html)|[TIE Bomber level 8](TieBomber.html)|[TIE Bomber level 7](TieBomber.html)|[TIE Bomber level 6](TieBomber.html)|
 
 
   * Sum tie bomber summon die with summoner: No
@@ -136,11 +136,11 @@ These stats internal to the system link different parts of data together.
   * Spawn apply buffs: buffInvulnerable1
   * Unit ID: PhantomTieBomber
 
-|Level                    |1                |2                |3                |4                |5                |6                |7                |8                |9                |10                |
-|-------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|
-|Apply buffs              |buffSumTieBomber1|buffSumTieBomber2|buffSumTieBomber3|buffSumTieBomber4|buffSumTieBomber5|buffSumTieBomber6|buffSumTieBomber7|buffSumTieBomber8|buffSumTieBomber9|buffSumTieBomber10|
-|Sum tie bomber details   |sumTieBomber1    |sumTieBomber2    |sumTieBomber3    |sumTieBomber4    |sumTieBomber5    |sumTieBomber6    |sumTieBomber7    |sumTieBomber8    |sumTieBomber9    |sumTieBomber10    |
-|Sum tie bomber summon uid|sumTieBomber1    |sumTieBomber2    |sumTieBomber3    |sumTieBomber4    |sumTieBomber5    |sumTieBomber6    |sumTieBomber7    |sumTieBomber8    |sumTieBomber9    |sumTieBomber10    |
+|Level                    |10                |9                |8                |7                |6                |5                |4                |3                |2                |1                |
+|-------------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Apply buffs              |buffSumTieBomber10|buffSumTieBomber9|buffSumTieBomber8|buffSumTieBomber7|buffSumTieBomber6|buffSumTieBomber5|buffSumTieBomber4|buffSumTieBomber3|buffSumTieBomber2|buffSumTieBomber1|
+|Sum tie bomber details   |sumTieBomber10    |sumTieBomber9    |sumTieBomber8    |sumTieBomber7    |sumTieBomber6    |sumTieBomber5    |sumTieBomber4    |sumTieBomber3    |sumTieBomber2    |sumTieBomber1    |
+|Sum tie bomber summon uid|sumTieBomber10    |sumTieBomber9    |sumTieBomber8    |sumTieBomber7    |sumTieBomber6    |sumTieBomber5    |sumTieBomber4    |sumTieBomber3    |sumTieBomber2    |sumTieBomber1    |
 
 
 ## Presentation stats
@@ -184,8 +184,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|120301|120302|120303|120304|120305|120306|120307|120308|120309|120310|
+|Order|120310|120309|120308|120307|120306|120305|120304|120303|120302|120301|
 
 

@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: starport
 
-|Level       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
-|------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-|Health      |3300|4290|6600|9900|11550|13200|14850|16500|18150|19800|
-|Max quantity|1   |1   |2   |2   |2    |3    |3    |3    |4    |4    |
-|Time        |5m  |0s  |0s  |0s  |0s   |0s   |0s   |0s   |0s   |0s   |
+|Level       |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|
+|Health      |19800|18150|16500|14850|13200|11550|9900|6600|4290|3300|
+|Max quantity|4    |4    |3    |3    |3    |2    |2   |2   |1   |1   |
+|Time        |0s   |0s   |0s   |0s   |0s   |0s   |0s  |0s  |0s  |5m  |
 
 
 ### Training stats
 
-|Level        |1                                            |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|-------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Training cost|2500 All.                                    |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                        |
-|Building     |["bld_title_syndicateHQ" 1](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level        |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1                                            |
+|-------------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Training cost|1 All.                                        |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |2500 All.                                    |
+|Building     |["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 1](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -73,10 +73,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|3   |5   |10  |14  |16  |30  |33  |39  |56  |64  |
-|Order |1070|1071|1072|1073|1074|1075|1076|1077|1078|1079|
-|Xp    |3   |5   |5   |7   |8   |10  |11  |13  |14  |16  |
+|Max XP|64  |56  |39  |33  |30  |16  |14  |10  |5   |3   |
+|Order |1079|1078|1077|1076|1075|1074|1073|1072|1071|1070|
+|Xp    |16  |14  |13  |11  |10  |8   |7   |5   |5   |3   |
 
 

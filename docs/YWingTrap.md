@@ -17,19 +17,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |1                                           |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|8m                                          |8m48s                                 |9m36s                                 |10m24s                                |11m12s                                |12m                                   |12m48s                                |13m36s                                |14m24s                                |15m                                    |
-|Training cost|3000$                                       |3500$                                 |4000$                                 |4500$                                 |5000$                                 |5500$                                 |6000$                                 |6500$                                 |7000$                                 |7500$                                  |
-|Building     |[Starship Command 1](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                                           |
+|-------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|
+|Training time|15m                                    |14m24s                                |13m36s                                |12m48s                                |12m                                   |11m12s                                |10m24s                                |9m36s                                 |8m48s                                 |8m                                          |
+|Training cost|7500$                                  |7000$                                 |6500$                                 |6000$                                 |5500$                                 |5000$                                 |4500$                                 |4000$                                 |3500$                                 |3000$                                       |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Starship Command 1](rebelFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
-|Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+|Level               |10      |9       |8      |7      |6      |5     |4     |3     |2    |1    |
+|--------------------|--------|--------|-------|-------|-------|------|------|------|-----|-----|
+|Upgrade time        |2w      |1w3d    |1w     |5d     |3d     |1d    |8h    |3h    |1h30m|0s   |
+|Upgrade requirements|2500000$|1500000$|450000$|225000$|135000$|50000$|20000$|10000$|5000$|2000$|
 
 
 ### Movement stats
@@ -49,20 +49,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot count: 1
   * Shot delay: 150ms
 
-|Level          |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level          |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |---------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Damage per shot|19600|22400|25200|28000|30800|33600|36400|42000|48600|59292|
+|Damage per shot|59292|48600|42000|36400|33600|30800|28000|25200|22400|19600|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,90,25
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                       |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |25200|25390|25570|25760|25950|28000|30800|33600|36400|42000|
-|Calculated damage per second|16252|18573|20895|23217|25538|27860|30182|34825|40298|49164|
-|Calculated damage per cycle |19600|22400|25200|28000|30800|33600|36400|42000|48600|59292|
+|Displayed damage per second |42000|36400|33600|30800|28000|25950|25760|25570|25390|25200|
+|Calculated damage per second|49164|40298|34825|30182|27860|25538|23217|20895|18573|16252|
+|Calculated damage per cycle |59292|48600|42000|36400|33600|30800|28000|25200|22400|19600|
 
 
   * Cannons per sequence: 6
@@ -102,9 +102,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Name: Proton Torpedo Barrage
   * Spin speed: 0
 
-|Level                      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                      |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |---------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second|25200|25390|25570|25760|25950|28000|30800|33600|36400|42000|
+|Displayed damage per second|42000|36400|33600|30800|28000|25950|25760|25570|25390|25200|
 
 
 ## Uninterpreted stats
@@ -115,8 +115,8 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|310501|310502|310503|310504|310505|310506|310507|310508|310509|310510|
+|Order|310510|310509|310508|310507|310506|310505|310504|310503|310502|310501|
 
 

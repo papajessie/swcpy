@@ -24,19 +24,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: hero_mobilizer
 
-|Level |2   |3   |4   |5   |6   |7   |
+|Level |7   |6   |5   |4   |3   |2   |
 |------|----|----|----|----|----|----|
-|Health|3000|3600|4800|5800|6800|7800|
-|Time  |8h  |16h |1d  |2d  |2d  |3d  |
+|Health|7800|6800|5800|4800|3600|3000|
+|Time  |3d  |2d  |2d  |1d  |16h |8h  |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |2     |3     |4     |5      |6      |7      |
-|-------------|------|------|------|-------|-------|-------|
-|Training cost|20000$|30000$|60000$|100000$|250000$|375000$|
+|Level        |7      |6      |5      |4     |3     |2     |
+|-------------|-------|-------|-------|------|------|------|
+|Training cost|375000$|250000$|100000$|60000$|30000$|20000$|
 
 
 ### Upgrading stats
@@ -75,10 +75,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |2  |3  |4  |5  |6  |7  |
+|Level |7  |6  |5  |4  |3  |2  |
 |------|---|---|---|---|---|---|
-|Max XP|3  |4  |5  |6  |7  |8  |
-|Order |858|859|860|861|862|863|
-|Xp    |3  |4  |5  |6  |7  |8  |
+|Max XP|8  |7  |6  |5  |4  |3  |
+|Order |863|862|861|860|859|858|
+|Xp    |8  |7  |6  |5  |4  |3  |
 
 

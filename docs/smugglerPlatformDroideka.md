@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max quantity: 1
   * Type: champion_platform
 
-|Level |6   |7    |8    |9    |10   |
-|------|----|-----|-----|-----|-----|
-|Health|3000|4080 |7240 |8520 |9000 |
-|Time  |1m  |1m10s|1m20s|1m30s|1m40s|
+|Level |10   |9    |8    |7    |6   |
+|------|-----|-----|-----|-----|----|
+|Health|9000 |8520 |7240 |4080 |3000|
+|Time  |1m40s|1m30s|1m20s|1m10s|1m  |
 
 
 ### Training stats
 
   * Building: [Headquarters 6](smugglerHQ.html)
 
-|Level        |6      |7      |8      |9      |10      |
-|-------------|-------|-------|-------|-------|--------|
-|Training cost|60 Con.|70 Con.|80 Con.|90 Con.|100 Con.|
+|Level        |10      |9      |8      |7      |6      |
+|-------------|--------|-------|-------|-------|-------|
+|Training cost|100 Con.|90 Con.|80 Con.|70 Con.|60 Con.|
 
 
 ### Upgrading stats
@@ -68,21 +68,21 @@ These are all sorts of user interface settings, that should not interfere with g
   * Store tab: not_in_store
   * Tooltip height offset: 3.5
 
-|Level            |6-9                         |10                           |
-|-----------------|----------------------------|-----------------------------|
-|Asset name       |droidekaplatform_con-mod-up1|droidekaplatform_con-mod-up10|
-|Buff asset offset|-0.5, 0.0, -0.2             |-0.6,0,-0.2                  |
-|Bundle name      |droidekaplatform_con-mod-up1|droidekaplatform_con-mod-up10|
+|Level            |10                           |6-9                         |
+|-----------------|-----------------------------|----------------------------|
+|Asset name       |droidekaplatform_con-mod-up10|droidekaplatform_con-mod-up1|
+|Buff asset offset|-0.6,0,-0.2                  |-0.5, 0.0, -0.2             |
+|Bundle name      |droidekaplatform_con-mod-up10|droidekaplatform_con-mod-up1|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |
 |------|----|----|----|----|----|
-|Max XP|6   |7   |12  |14  |14  |
-|Order |1238|1239|1240|1241|1242|
-|Xp    |6   |7   |12  |14  |14  |
+|Max XP|14  |14  |12  |7   |6   |
+|Order |1242|1241|1240|1239|1238|
+|Xp    |14  |14  |12  |7   |6   |
 
 

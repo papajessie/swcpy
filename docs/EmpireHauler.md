@@ -15,44 +15,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Buildable unit: Yes
   * Unit capacity: 12
 
-|Level                  |1                                      |2                                      |3                                      |4                                      |5                                      |6                           |7                           |8                           |9                           |10                          |
-|-----------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|Special attack visitors|2×[2-M Hover Tank level 4](2MTank.html)|2×[2-M Hover Tank level 5](2MTank.html)|2×[2-M Hover Tank level 6](2MTank.html)|2×[2-M Hover Tank level 7](2MTank.html)|2×[2-M Hover Tank level 8](2MTank.html)|1×[AT-AT level 5](ATAT.html)|1×[AT-AT level 6](ATAT.html)|1×[AT-AT level 7](ATAT.html)|1×[AT-AT level 8](ATAT.html)|1×[AT-AT level 9](ATAT.html)|
-
-
-|Level                  |11                           |
-|-----------------------|-----------------------------|
-|Special attack visitors|1×[AT-AT level 10](ATAT.html)|
+|Level                  |11                           |10                          |9                           |8                           |7                           |6                           |5                                      |4                                      |3                                      |2                                      |1                                      |
+|-----------------------|-----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Special attack visitors|1×[AT-AT level 10](ATAT.html)|1×[AT-AT level 9](ATAT.html)|1×[AT-AT level 8](ATAT.html)|1×[AT-AT level 7](ATAT.html)|1×[AT-AT level 6](ATAT.html)|1×[AT-AT level 5](ATAT.html)|2×[2-M Hover Tank level 8](2MTank.html)|2×[2-M Hover Tank level 7](2MTank.html)|2×[2-M Hover Tank level 6](2MTank.html)|2×[2-M Hover Tank level 5](2MTank.html)|2×[2-M Hover Tank level 4](2MTank.html)|
 
 
 ### Training stats
 
-|Level        |1                                            |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|---------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|27m                                          |27m                                    |34m30s                                 |34m30s                                 |41m30s                                 |41m30s                                 |49m                                    |49m                                    |56m30s                                 |1h                                      |
-|Training cost|8565$                                        |9990$                                  |11400$                                 |12830$                                 |14265$                                 |15690$                                 |17100$                                 |18530$                                 |19965$                                 |21390$                                  |
-|Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
-
-
-|Level        |11                                      |
-|-------------|----------------------------------------|
-|Training time|1h3m30s                                 |
-|Training cost|22815$                                  |
-|Building     |[Research Lab 10](empireOffenseLab.html)|
+|Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Training time|1h3m30s                                 |1h                                      |56m30s                                 |49m                                    |49m                                    |41m30s                                 |41m30s                                 |34m30s                                 |34m30s                                 |27m                                    |27m                                          |
+|Training cost|22815$                                  |21390$                                  |19965$                                 |18530$                                 |17100$                                 |15690$                                 |14265$                                 |12830$                                 |11400$                                 |9990$                                  |8565$                                        |
+|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 1](empireFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
-|--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
-|Upgrade time        |0s               |5s               |5s               |5s               |5s               |5s               |5s               |5s               |5s                |5s                |
-|Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
-
-
-|Level               |11                |
-|--------------------|------------------|
-|Upgrade time        |5s                |
-|Upgrade requirements|220 data fragments|
+|Level               |11                |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
+|--------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Upgrade time        |5s                |5s                |5s                |5s               |5s               |5s               |5s               |5s               |5s               |5s               |0s               |
+|Upgrade requirements|220 data fragments|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 
 ### Movement stats
@@ -88,24 +70,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unit rotation: 3.14159260000000006840537025709636509418487548828125
   * Unlocked by event: true
 
-|Level                      |1                  |2                  |3                  |4                  |5                  |6                      |7                      |8                      |9                      |10                     |
-|---------------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-|Attachment asset           |haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|
-|Displayed damage per second|2490               |2820               |3150               |3480               |3780               |4110                   |4440                   |4770                   |5070                   |5400                   |
-|Icon unlock position       |-2,-109.3,-30.3    |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
-|Icon unlock rotation       |-5.5,100.8,1.25    |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
-|Icon unlock scale          |1.3,1.3,1.3        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
-|Prestige                   |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |
-
-
-|Level                      |11                     |
-|---------------------------|-----------------------|
-|Attachment asset           |haulercargoatat_emp-ani|
-|Displayed damage per second|5400                   |
-|Icon unlock position       |(not found)            |
-|Icon unlock rotation       |(not found)            |
-|Icon unlock scale          |(not found)            |
-|Prestige                   |true                   |
+|Level                      |11                     |10                     |9                      |8                      |7                      |6                      |5                  |4                  |3                  |2                  |1                  |
+|---------------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|Attachment asset           |haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargoatat_emp-ani|haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|haulercargo_emp-mod|
+|Displayed damage per second|5400                   |5400                   |5070                   |4770                   |4440                   |4110                   |3780               |3480               |3150               |2820               |2490               |
+|Icon unlock position       |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)        |(not found)        |(not found)        |(not found)        |-2,-109.3,-30.3    |
+|Icon unlock rotation       |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)        |(not found)        |(not found)        |(not found)        |-5.5,100.8,1.25    |
+|Icon unlock scale          |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)        |(not found)        |(not found)        |(not found)        |1.3,1.3,1.3        |
+|Prestige                   |true                   |(not found)            |(not found)            |(not found)            |(not found)            |(not found)            |(not found)        |(not found)        |(not found)        |(not found)        |(not found)        |
 
 
 ## Uninterpreted stats
@@ -114,13 +86,8 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----|------|------|------|------|------|------|------|------|------|------|
-|Order|101001|101002|101003|101004|101005|101006|101007|101008|101009|101010|
-
-
-|Level|11    |
-|-----|------|
-|Order|101011|
+|Level|11    |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|Order|101011|101010|101009|101008|101007|101006|101005|101004|101003|101002|101001|
 
 

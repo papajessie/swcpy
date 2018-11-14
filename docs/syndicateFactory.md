@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: factory
 
-|Level       |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Health      |1650|2200|2750|13200|15400|17600|19800|22000|24200|26400|
-|Max quantity|1   |1   |1   |1    |2    |2    |2    |2    |2    |3    |
+|Level       |10   |9    |8    |7    |6    |5    |4    |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|
+|Health      |26400|24200|22000|19800|17600|15400|13200|2750|2200|1650|
+|Max quantity|3    |2    |2    |2    |2    |2    |1    |1   |1   |1   |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                            |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|--------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Building|["bld_title_syndicateHQ" 1](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level   |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1                                            |
+|--------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Building|["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 1](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -73,10 +73,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|4   |6   |7   |9   |22  |26  |30  |34  |38  |63  |
-|Order |1148|1149|1150|1151|1152|1153|1154|1155|1156|1157|
-|Xp    |4   |6   |7   |9   |11  |13  |15  |17  |19  |21  |
+|Max XP|63  |38  |34  |30  |26  |22  |9   |7   |6   |4   |
+|Order |1157|1156|1155|1154|1153|1152|1151|1150|1149|1148|
+|Xp    |21  |19  |17  |15  |13  |11  |9   |7   |6   |4   |
 
 

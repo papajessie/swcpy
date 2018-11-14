@@ -22,19 +22,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |1   |2   |3   |4   |5   |
+|Level       |5   |4   |3   |2   |1   |
 |------------|----|----|----|----|----|
-|Health      |1000|2000|3000|4000|5000|
-|Max quantity|25  |50  |75  |100 |125 |
+|Health      |5000|4000|3000|2000|1000|
+|Max quantity|125 |100 |75  |50  |25  |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                  |2                                  |3                                  |4                                  |5                                  |
+|Level   |5                                  |4                                  |3                                  |2                                  |1                                  |
 |--------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
-|Building|[Tusken Raider HQ 1](tuskenHQ.html)|[Tusken Raider HQ 2](tuskenHQ.html)|[Tusken Raider HQ 3](tuskenHQ.html)|[Tusken Raider HQ 4](tuskenHQ.html)|[Tusken Raider HQ 5](tuskenHQ.html)|
+|Building|[Tusken Raider HQ 5](tuskenHQ.html)|[Tusken Raider HQ 4](tuskenHQ.html)|[Tusken Raider HQ 3](tuskenHQ.html)|[Tusken Raider HQ 2](tuskenHQ.html)|[Tusken Raider HQ 1](tuskenHQ.html)|
 
 
 ### Upgrading stats
@@ -67,10 +67,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.27,1.1,0.13
   * Stash order: 1000
 
-|Level     |1                    |2                    |3                    |4                    |5                    |
+|Level     |5                    |4                    |3                    |2                    |1                    |
 |----------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|Connectors|tuskenWallConnectors1|tuskenWallConnectors2|tuskenWallConnectors3|tuskenWallConnectors4|tuskenWallConnectors5|
-|Store tab |defenses             |(not found)          |(not found)          |(not found)          |(not found)          |
+|Connectors|tuskenWallConnectors5|tuskenWallConnectors4|tuskenWallConnectors3|tuskenWallConnectors2|tuskenWallConnectors1|
+|Store tab |(not found)          |(not found)          |(not found)          |(not found)          |defenses             |
 
 
 ## Uninterpreted stats
@@ -80,8 +80,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |
+|Level|5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|
-|Order|532|533|534|535|536|
+|Order|536|535|534|533|532|
 
 

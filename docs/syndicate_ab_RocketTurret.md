@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: turret
 
-|Level          |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|---------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Cross materials|750 |1250|1556|1500 |2000 |2778 |4167 |10417|11111|11905|
-|Cross time     |1m  |2m  |3m  |4m   |5m   |6m   |7m   |8m   |9m   |10m  |
-|Health         |4180|6050|6600|16500|19250|22000|24750|27500|30250|33000|
+|Level          |10   |9    |8    |7    |6    |5    |4    |3   |2   |1   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|
+|Cross materials|11905|11111|10417|4167 |2778 |2000 |1500 |1556|1250|750 |
+|Cross time     |10m  |9m   |8m   |7m   |6m   |5m   |4m   |3m  |2m  |1m  |
+|Health         |33000|30250|27500|24750|22000|19250|16500|6600|6050|4180|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                            |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|--------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Building|["bld_title_syndicateHQ" 1](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level   |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1                                            |
+|--------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Building|["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 1](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -70,18 +70,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Turret shot count: 1
   * Turret shot delay: 1ms
 
-|Level                 |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                 |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |----------------------|----|----|----|----|----|----|----|----|----|----|
-|Turret damage per shot|1575|2363|2835|3780|4568|5355|6143|6930|7718|8505|
+|Turret damage per shot|8505|7718|6930|6143|5355|4568|3780|2835|2363|1575|
 
 
   * Turret attack splash damage percentages: 100
 
-|Level                                     |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                                     |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------------------------------------------|----|----|----|----|----|----|----|----|----|----|
-|Turret displayed damage per second        |350 |525 |630 |840 |1015|1190|1365|1540|1715|1890|
-|Turret attack calculated damage per second|350 |525 |630 |840 |1015|1190|1365|1540|1715|1890|
-|Turret attack calculated damage per clip  |1575|2363|2835|3780|4568|5355|6143|6930|7718|8505|
+|Turret displayed damage per second        |1890|1715|1540|1365|1190|1015|840 |630 |525 |350 |
+|Turret attack calculated damage per second|1890|1715|1540|1365|1190|1015|840 |630 |525 |350 |
+|Turret attack calculated damage per clip  |8505|7718|6930|6143|5355|4568|3780|2835|2363|1575|
 
 
   * Turret attack cannons per sequence: 6
@@ -100,9 +100,9 @@ These stats internal to the system link different parts of data together.
   * Sub type: rocket_turret
   * Turret projectile type: projectileRocketTurretSmugglerAB
 
-|Level    |1                          |2                          |3                          |4                          |5                          |6                          |7                          |8                          |9                          |10                          |
-|---------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|----------------------------|
-|Turret id|t_smuggler_ab_RocketTurret1|t_smuggler_ab_RocketTurret2|t_smuggler_ab_RocketTurret3|t_smuggler_ab_RocketTurret4|t_smuggler_ab_RocketTurret5|t_smuggler_ab_RocketTurret6|t_smuggler_ab_RocketTurret7|t_smuggler_ab_RocketTurret8|t_smuggler_ab_RocketTurret9|t_smuggler_ab_RocketTurret10|
+|Level    |10                          |9                          |8                          |7                          |6                          |5                          |4                          |3                          |2                          |1                          |
+|---------|----------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|
+|Turret id|t_smuggler_ab_RocketTurret10|t_smuggler_ab_RocketTurret9|t_smuggler_ab_RocketTurret8|t_smuggler_ab_RocketTurret7|t_smuggler_ab_RocketTurret6|t_smuggler_ab_RocketTurret5|t_smuggler_ab_RocketTurret4|t_smuggler_ab_RocketTurret3|t_smuggler_ab_RocketTurret2|t_smuggler_ab_RocketTurret1|
 
 
 ## Presentation stats
@@ -133,9 +133,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Turret max scale: no
   * Turret tracker name: rotateMesh
 
-|Level                             |1  |2  |3  |4  |5   |6   |7   |8   |9   |10  |
-|----------------------------------|---|---|---|---|----|----|----|----|----|----|
-|Turret displayed damage per second|350|525|630|840|1015|1190|1365|1540|1715|1890|
+|Level                             |10  |9   |8   |7   |6   |5   |4  |3  |2  |1  |
+|----------------------------------|----|----|----|----|----|----|---|---|---|---|
+|Turret displayed damage per second|1890|1715|1540|1365|1190|1015|840|630|525|350|
 
 
 ## Uninterpreted stats
@@ -149,10 +149,10 @@ Seriously, we don't really know what to do with these.
   * Turret strict cool down: No
   * Turret timey wimey: 0.2222222222000000135810893198140547610819339752197265625
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|30  |48  |54  |72  |84  |102 |114 |132 |144 |162 |
-|Order |1198|1199|1200|1201|1202|1203|1204|1205|1206|1207|
-|Xp    |5   |8   |9   |12  |14  |17  |19  |22  |24  |27  |
+|Max XP|162 |144 |132 |114 |102 |84  |72  |54  |48  |30  |
+|Order |1207|1206|1205|1204|1203|1202|1201|1200|1199|1198|
+|Xp    |27  |24  |22  |19  |17  |14  |12  |9   |8   |5   |
 
 

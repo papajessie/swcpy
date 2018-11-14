@@ -22,32 +22,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: barracks
 
-|Level       |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|------------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Health      |3000|4500|5400|7200|8700|10200|11700|13200|14700|16200|
-|Max quantity|2   |2   |2   |3   |3   |3    |4    |4    |4    |4    |
-|Time        |30s |15m |2h  |12h |1d  |1d12h|2d   |3d   |6d   |1w3d |
-
-
-|Level       |11   |
-|------------|-----|
-|Health      |17100|
-|Max quantity|4    |
-|Time        |1w1d |
+|Level       |11   |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|----|
+|Health      |17100|16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
+|Max quantity|4    |4    |4    |4    |4    |3    |3   |3   |2   |2   |2   |
+|Time        |1w1d |1w3d |6d   |3d   |2d   |1d12h|1d  |12h |2h  |15m |30s |
 
 
 ### Training stats
 
-|Level        |1                             |2                             |3                             |4                             |5                             |6                             |7                             |8                             |9                             |10                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|
-|Training cost|1000$                         |2000$                         |10000$                        |30000$                        |75000$                        |275000$                       |400000$                       |800000$                       |2000000$                      |3500000$                       |
-|Building     |[Headquarters 1](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-
-
-|Level        |11                             |
-|-------------|-------------------------------|
-|Training cost|4550000$                       |
-|Building     |[Headquarters 11](rebelHQ.html)|
+|Level        |11                             |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
+|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Training cost|4550000$                       |3500000$                       |2000000$                      |800000$                       |400000$                       |275000$                       |75000$                        |30000$                        |10000$                        |2000$                         |1000$                         |
+|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|
 
 
 ### Upgrading stats
@@ -76,26 +63,15 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 230
 
-|Level               |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|Asset name          |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|barracks_rbl-mod-up9|barracks_rbl-mod-up10|
-|Buff asset offset   |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-1,-1.2,-1          |-1.2,-1.2,-1.2      |-1.2,-1.2,-1.2      |-0.8,0,-1.6         |-0.8,0,-1.6         |-0.8,0,-1.6         |-0.8,0,-1.6          |
-|Bundle name         |barracks_rbl-mod-up1|barracks_rbl-mod-up2|barracks_rbl-mod-up3|barracks_rbl-mod-up4|barracks_rbl-mod-up5|barracks_rbl-mod-up6|barracks_rbl-mod-up7|barracks_rbl-mod-up8|barracks_rbl-mod-up9|barracks_rbl-mod-up10|
-|Icon camera position|-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-50.51,41.92,41.7   |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39       |
-|Icon lookat position|-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |0.28,1.29,-0.14     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07      |
-|Prestige            |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-|Store tab           |army                |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)          |
-
-
-|Level               |11                   |
-|--------------------|---------------------|
-|Asset name          |barracks_rbl-mod-up11|
-|Buff asset offset   |-0.8,0,-1.6          |
-|Bundle name         |barracks_rbl-mod-up11|
-|Icon camera position|-35.7,25.44,39       |
-|Icon lookat position|-0.32,1.64,1.07      |
-|Prestige            |true                 |
-|Store tab           |(not found)          |
+|Level               |11                   |10                   |9                   |8                   |7                   |6                   |5                   |4                   |3                   |2                   |1                   |
+|--------------------|---------------------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+|Asset name          |barracks_rbl-mod-up11|barracks_rbl-mod-up10|barracks_rbl-mod-up9|barracks_rbl-mod-up8|barracks_rbl-mod-up7|barracks_rbl-mod-up6|barracks_rbl-mod-up5|barracks_rbl-mod-up4|barracks_rbl-mod-up3|barracks_rbl-mod-up2|barracks_rbl-mod-up1|
+|Buff asset offset   |-0.8,0,-1.6          |-0.8,0,-1.6          |-0.8,0,-1.6         |-0.8,0,-1.6         |-0.8,0,-1.6         |-1.2,-1.2,-1.2      |-1.2,-1.2,-1.2      |-1,-1.2,-1          |-0.6,-1.2,-1        |-0.6,-1.2,-1        |-0.6,-1.2,-1        |
+|Bundle name         |barracks_rbl-mod-up11|barracks_rbl-mod-up10|barracks_rbl-mod-up9|barracks_rbl-mod-up8|barracks_rbl-mod-up7|barracks_rbl-mod-up6|barracks_rbl-mod-up5|barracks_rbl-mod-up4|barracks_rbl-mod-up3|barracks_rbl-mod-up2|barracks_rbl-mod-up1|
+|Icon camera position|-35.7,25.44,39       |-35.7,25.44,39       |-35.7,25.44,39      |-35.7,25.44,39      |-50.51,41.92,41.7   |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |-35.7,25.44,39      |
+|Icon lookat position|-0.32,1.64,1.07      |-0.32,1.64,1.07      |-0.32,1.64,1.07     |-0.32,1.64,1.07     |0.28,1.29,-0.14     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |-0.32,1.64,1.07     |
+|Prestige            |true                 |(not found)          |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |
+|Store tab           |(not found)          |(not found)          |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |(not found)         |army                |
 
 
 ## Uninterpreted stats
@@ -104,15 +80,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 2
 
-|Level |1|2|3|4 |5 |6 |7 |8 |9 |10|
-|------|-|-|-|--|--|--|--|--|--|--|
-|Max XP|4|6|8|15|18|21|32|36|40|44|
-|Xp    |2|3|4|5 |6 |7 |8 |9 |10|11|
-
-
-|Level |11|
-|------|--|
-|Max XP|48|
-|Xp    |12|
+|Level |11|10|9 |8 |7 |6 |5 |4 |3|2|1|
+|------|--|--|--|--|--|--|--|--|-|-|-|
+|Max XP|48|44|40|36|32|21|18|15|8|6|4|
+|Xp    |12|11|10|9 |8 |7 |6 |5 |4|3|2|
 
 

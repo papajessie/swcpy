@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Type: storage
 
-|Level           |1     |2     |3     |4      |5      |6      |7       |8       |9       |10       |
-|----------------|------|------|------|-------|-------|-------|--------|--------|--------|---------|
-|Maximum capacity|1500 $|5000 $|7000 $|12000 $|25000 $|50000 $|100000 $|250000 $|500000 $|1000000 $|
-|Health          |4000  |5200  |8000  |12000  |14000  |16000  |18000   |20000   |22000   |24000    |
-|Max quantity    |1     |1     |2     |2      |2      |2      |2       |3       |4       |4        |
-|Time            |1m    |5m    |0s    |0s     |0s     |0s     |0s      |0s      |0s      |0s       |
+|Level           |10       |9       |8       |7       |6      |5      |4      |3     |2     |1     |
+|----------------|---------|--------|--------|--------|-------|-------|-------|------|------|------|
+|Maximum capacity|1000000 $|500000 $|250000 $|100000 $|50000 $|25000 $|12000 $|7000 $|5000 $|1500 $|
+|Health          |24000    |22000   |20000   |18000   |16000  |14000  |12000  |8000  |5200  |4000  |
+|Max quantity    |4        |4       |3       |2       |2      |2      |2      |2     |1     |1     |
+|Time            |0s       |0s      |0s      |0s      |0s     |0s     |0s     |0s    |5m    |1m    |
 
 
 ### Training stats
 
-|Level        |1                                     |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|-------------|--------------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Training cost|300 All.                              |750 All.                         |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                            |
-|Building     |[Autoturret 1](smugglerFUETurret.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level        |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                     |
+|-------------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|--------------------------------------|
+|Training cost|1 All.                            |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |750 All.                         |300 All.                              |
+|Building     |[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Autoturret 1](smugglerFUETurret.html)|
 
 
 ### Upgrading stats
@@ -69,19 +69,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.01,0.91,0.01
   * Stash order: 1000
 
-|Level    |1        |2-10       |
-|---------|---------|-----------|
-|Store tab|resources|(not found)|
+|Level    |2-10       |1        |
+|---------|-----------|---------|
+|Store tab|(not found)|resources|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|4  |6  |14 |18 |22 |26 |30 |51 |76 |84 |
-|Order |440|441|442|443|444|445|446|447|448|449|
-|Xp    |4  |6  |7  |9  |11 |13 |15 |17 |19 |21 |
+|Max XP|84 |76 |51 |30 |26 |22 |18 |14 |6  |4  |
+|Order |449|448|447|446|445|444|443|442|441|440|
+|Xp    |21 |19 |17 |15 |13 |11 |9  |7  |6  |4  |
 
 

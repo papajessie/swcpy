@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Type: storage
 
-|Level           |1         |2         |3         |4          |5          |6          |7           |8           |9           |10           |
-|----------------|----------|----------|----------|-----------|-----------|-----------|------------|------------|------------|-------------|
-|Maximum capacity|1500  All.|5000  All.|7000  All.|12000  All.|25000  All.|50000  All.|100000  All.|250000  All.|500000  All.|1000000  All.|
-|Health          |4000      |5200      |8000      |12000      |14000      |16000      |18000       |20000       |22000       |24000        |
-|Max quantity    |1         |1         |2         |2          |2          |2          |2           |3           |4           |4            |
-|Time            |30s       |0s        |0s        |0s         |0s         |0s         |0s          |0s          |0s          |0s           |
+|Level           |10           |9           |8           |7           |6          |5          |4          |3         |2         |1         |
+|----------------|-------------|------------|------------|------------|-----------|-----------|-----------|----------|----------|----------|
+|Maximum capacity|1000000  All.|500000  All.|250000  All.|100000  All.|50000  All.|25000  All.|12000  All.|7000  All.|5000  All.|1500  All.|
+|Health          |24000        |22000       |20000       |18000       |16000      |14000      |12000      |8000      |5200      |4000      |
+|Max quantity    |4            |4           |3           |2           |2          |2          |2          |2         |1         |1         |
+|Time            |0s           |0s          |0s          |0s          |0s         |0s         |0s         |0s        |0s        |30s       |
 
 
 ### Training stats
 
-|Level        |1                                           |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|-------------|--------------------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Training cost|300$                                        |750$                             |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                            |
-|Building     |[Credit Vault 1](smugglerCreditStorage.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level        |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                           |
+|-------------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|--------------------------------------------|
+|Training cost|1 All.                            |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |1 All.                           |750$                             |300$                                        |
+|Building     |[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Credit Vault 1](smugglerCreditStorage.html)|
 
 
 ### Upgrading stats
@@ -69,19 +69,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.27,1.01,-0.12
   * Stash order: 1000
 
-|Level    |1        |2-10       |
-|---------|---------|-----------|
-|Store tab|resources|(not found)|
+|Level    |2-10       |1        |
+|---------|-----------|---------|
+|Store tab|(not found)|resources|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|4  |6  |14 |18 |22 |26 |30 |51 |76 |84 |
-|Order |450|451|452|453|454|455|456|457|458|459|
-|Xp    |4  |6  |7  |9  |11 |13 |15 |17 |19 |21 |
+|Max XP|84 |76 |51 |30 |26 |22 |18 |14 |6  |4  |
+|Order |459|458|457|456|455|454|453|452|451|450|
+|Xp    |21 |19 |17 |15 |13 |11 |9  |7  |6  |4  |
 
 

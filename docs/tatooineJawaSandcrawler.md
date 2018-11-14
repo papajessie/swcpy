@@ -23,13 +23,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max quantity: 5
   * Time: 0s
 
-|Level           |1          |2          |3          |
+|Level           |3          |2          |1          |
 |----------------|-----------|-----------|-----------|
-|Maximum capacity|(not found)|10 $       |10 $       |
-|Health          |5          |12110      |15150      |
-|Produce         |0          |(not found)|(not found)|
+|Maximum capacity|10 $       |10 $       |(not found)|
+|Health          |15150      |12110      |5          |
+|Produce         |(not found)|(not found)|0          |
 |Spawn protect   |(not found)|6          |(not found)|
-|Type            |blocker    |HQ         |HQ         |
+|Type            |HQ         |HQ         |blocker    |
 
 
 ### Training stats
@@ -63,19 +63,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level      |1        |2-3              |
-|-----------|---------|-----------------|
-|Destruct FX|effect176|fx_debris_{0}x{1}|
+|Level      |2-3              |1        |
+|-----------|-----------------|---------|
+|Destruct FX|fx_debris_{0}x{1}|effect176|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |
+|Level |3  |2  |1  |
 |------|---|---|---|
-|Max XP|0  |75 |90 |
-|Order |615|640|641|
-|Xp    |0  |15 |18 |
+|Max XP|90 |75 |0  |
+|Order |641|640|615|
+|Xp    |18 |15 |0  |
 
 

@@ -61,10 +61,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|2  |4  |9  |16 |25 |36 |42 |48 |54 |70 |
-|Order |907|908|909|910|911|912|913|914|915|916|
-|Xp    |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Max XP|70 |54 |48 |42 |36 |25 |16 |9  |4  |2  |
+|Order |916|915|914|913|912|911|910|909|908|907|
+|Xp    |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 
 

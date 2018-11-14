@@ -22,19 +22,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------------|----|----|----|----|----|----|----|----|----|-----|
-|Health      |1000|2000|3000|4000|5000|6000|7000|8000|9000|10000|
-|Max quantity|20  |30  |40  |50  |60  |70  |80  |90  |100 |120  |
+|Level       |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------------|-----|----|----|----|----|----|----|----|----|----|
+|Health      |10000|9000|8000|7000|6000|5000|4000|3000|2000|1000|
+|Max quantity|120  |100 |90  |80  |70  |60  |50  |40  |30  |20  |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |1       |2       |3        |4         |5         |6          |7          |8          |9           |10          |
-|-------------|--------|--------|---------|----------|----------|-----------|-----------|-----------|------------|------------|
-|Training cost|200 All.|600 All.|2000 All.|10000 All.|25000 All.|100000 All.|200000 All.|500000 All.|1000000 All.|2000000 All.|
+|Level        |10          |9           |8          |7          |6          |5         |4         |3        |2       |1       |
+|-------------|------------|------------|-----------|-----------|-----------|----------|----------|---------|--------|--------|
+|Training cost|2000000 All.|1000000 All.|500000 All.|200000 All.|100000 All.|25000 All.|10000 All.|2000 All.|600 All.|200 All.|
 
 
 ### Upgrading stats
@@ -67,11 +67,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level      |1                     |2                     |3                     |4                     |5                     |6                     |7                     |8                     |9                     |10                    |
+|Level      |10                    |9                     |8                     |7                     |6                     |5                     |4                     |3                     |2                     |1                     |
 |-----------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-|Asset name |wall_dth-mod-up1_typeD|wall_dth-mod-up2_typeD|wall_dth-mod-up3_typeD|wall_dth-mod-up4_typeD|wall_dth-mod-up5_typeD|wall_dth-mod-up6_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|
-|Bundle name|wall_dth-mod-up1      |wall_dth-mod-up2      |wall_dth-mod-up3      |wall_dth-mod-up4      |wall_dth-mod-up5      |wall_dth-mod-up6      |wall_dth-mod-up7      |wall_dth-mod-up7      |wall_dth-mod-up7      |wall_dth-mod-up7      |
-|Connectors |deathWallConnectors1  |deathWallConnectors2  |deathWallConnectors3  |deathWallConnectors4  |deathWallConnectors5  |deathWallConnectors6  |deathWallConnectors7  |deathWallConnectors8  |deathWallConnectors9  |deathWallConnectors10 |
+|Asset name |wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up7_typeD|wall_dth-mod-up6_typeD|wall_dth-mod-up5_typeD|wall_dth-mod-up4_typeD|wall_dth-mod-up3_typeD|wall_dth-mod-up2_typeD|wall_dth-mod-up1_typeD|
+|Bundle name|wall_dth-mod-up7      |wall_dth-mod-up7      |wall_dth-mod-up7      |wall_dth-mod-up7      |wall_dth-mod-up6      |wall_dth-mod-up5      |wall_dth-mod-up4      |wall_dth-mod-up3      |wall_dth-mod-up2      |wall_dth-mod-up1      |
+|Connectors |deathWallConnectors10 |deathWallConnectors9  |deathWallConnectors8  |deathWallConnectors7  |deathWallConnectors6  |deathWallConnectors5  |deathWallConnectors4  |deathWallConnectors3  |deathWallConnectors2  |deathWallConnectors1  |
 
 
 ## Uninterpreted stats
@@ -81,8 +81,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level|10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|---|---|
-|Order|961|962|963|964|965|966|967|968|969|970|
+|Order|970|969|968|967|966|965|964|963|962|961|
 
 

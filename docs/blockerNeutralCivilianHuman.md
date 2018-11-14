@@ -55,20 +55,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level            |1                      |2-10                     |
-|-----------------|-----------------------|-------------------------|
-|Buff asset offset|-0.8,0.8,-0.8          |-1.2,1.6,-1              |
-|Bundle name      |settlertatooine_neu-ani|decohailfiredroid_rbl-mod|
+|Level            |2-10                     |1                      |
+|-----------------|-------------------------|-----------------------|
+|Buff asset offset|-1.2,1.6,-1              |-0.8,0.8,-0.8          |
+|Bundle name      |decohailfiredroid_rbl-mod|settlertatooine_neu-ani|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|2  |4  |9  |16 |25 |36 |42 |48 |54 |70 |
-|Order |917|918|919|920|921|922|923|924|925|926|
-|Xp    |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Max XP|70 |54 |48 |42 |36 |25 |16 |9  |4  |2  |
+|Order |926|925|924|923|922|921|920|919|918|917|
+|Xp    |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 
 

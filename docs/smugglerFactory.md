@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: factory
 
-|Level       |1   |2   |3   |4    |5    |6    |7    |8    |9    |10   |
-|------------|----|----|----|-----|-----|-----|-----|-----|-----|-----|
-|Health      |1500|2000|2500|12000|14000|16000|18000|20000|22000|24000|
-|Max quantity|1   |1   |1   |1    |2    |2    |2    |2    |2    |3    |
+|Level       |10   |9    |8    |7    |6    |5    |4    |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|
+|Health      |24000|22000|20000|18000|16000|14000|12000|2500|2000|1500|
+|Max quantity|3    |2    |2    |2    |2    |2    |1    |1   |1   |1   |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|--------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Building|[Headquarters 1](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level   |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
+|--------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
+|Building|[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats
@@ -73,10 +73,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|---|---|---|---|---|
-|Max XP|4  |6  |7  |9  |22 |26 |30 |34 |38 |63 |
-|Order |604|605|606|607|608|609|610|611|612|613|
-|Xp    |4  |6  |7  |9  |11 |13 |15 |17 |19 |21 |
+|Max XP|63 |38 |34 |30 |26 |22 |9  |7  |6  |4  |
+|Order |613|612|611|610|609|608|607|606|605|604|
+|Xp    |21 |19 |17 |15 |13 |11 |9  |7  |6  |4  |
 
 

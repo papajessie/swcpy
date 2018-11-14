@@ -23,12 +23,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: shield_generator
 
-|Level               |1        |2        |3          |
-|--------------------|---------|---------|-----------|
-|Activation radius   |12       |12       |32         |
-|Side                |Rebellion|Rebellion|Other units|
-|Shield health points|73600 (7)|50000 (5)|30000 (3)  |
-|Shield range points |9        |8        |10         |
+|Level               |3          |2        |1        |
+|--------------------|-----------|---------|---------|
+|Activation radius   |32         |12       |12       |
+|Side                |Other units|Rebellion|Rebellion|
+|Shield health points|30000 (3)  |50000 (5)|73600 (7)|
+|Shield range points |10         |8        |9        |
 
 
 ### Training stats
@@ -64,20 +64,20 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.35,0.77,0.07
   * Store tab: not_in_store
 
-|Level      |1-2          |3        |
-|-----------|-------------|---------|
-|Destruct FX|fx_debris_6x6|effect176|
-|Stash order|40           |1000     |
+|Level      |3        |1-2          |
+|-----------|---------|-------------|
+|Destruct FX|effect176|fx_debris_6x6|
+|Stash order|1000     |40           |
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |
+|Level |3  |2  |1  |
 |------|---|---|---|
-|Max XP|15 |24 |27 |
-|Order |161|161|708|
-|Xp    |5  |8  |9  |
+|Max XP|27 |24 |15 |
+|Order |708|161|161|
+|Xp    |9  |8  |5  |
 
 

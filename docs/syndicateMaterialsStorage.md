@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Type: storage
 
-|Level           |1         |2         |3         |4          |5          |6          |7           |8           |9           |10           |
-|----------------|----------|----------|----------|-----------|-----------|-----------|------------|------------|------------|-------------|
-|Maximum capacity|1500  All.|5000  All.|7000  All.|12000  All.|25000  All.|50000  All.|100000  All.|250000  All.|500000  All.|1000000  All.|
-|Health          |4400      |5720      |8800      |13200      |15400      |17600      |19800       |22000       |24200       |26400        |
-|Max quantity    |1         |1         |2         |2          |2          |2          |2           |3           |4           |4            |
-|Time            |30s       |0s        |0s        |0s         |0s         |0s         |0s          |0s          |0s          |0s           |
+|Level           |10           |9           |8           |7           |6          |5          |4          |3         |2         |1         |
+|----------------|-------------|------------|------------|------------|-----------|-----------|-----------|----------|----------|----------|
+|Maximum capacity|1000000  All.|500000  All.|250000  All.|100000  All.|50000  All.|25000  All.|12000  All.|7000  All.|5000  All.|1500  All.|
+|Health          |26400        |24200       |22000       |19800       |17600      |15400      |13200      |8800      |5720      |4400      |
+|Max quantity    |4            |4           |3           |2           |2          |2          |2          |2         |1         |1         |
+|Time            |0s           |0s          |0s          |0s          |0s         |0s         |0s         |0s        |0s        |30s       |
 
 
 ### Training stats
 
-|Level        |1                                            |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|-------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Training cost|300$                                         |750$                                         |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                        |
-|Building     |["bld_title_syndicateHQ" 1](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level        |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1                                            |
+|-------------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Training cost|1 All.                                        |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |1 All.                                       |750$                                         |300$                                         |
+|Building     |["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 1](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -74,10 +74,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|4   |6   |14  |18  |22  |26  |30  |51  |76  |84  |
-|Order |1120|1121|1122|1123|1124|1125|1126|1127|1128|1129|
-|Xp    |4   |6   |7   |9   |11  |13  |15  |17  |19  |21  |
+|Max XP|84  |76  |51  |30  |26  |22  |18  |14  |6   |4   |
+|Order |1129|1128|1127|1126|1125|1124|1123|1122|1121|1120|
+|Xp    |21  |19  |17  |15  |13  |11  |9   |7   |6   |4   |
 
 

@@ -23,20 +23,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: factory
 
-|Level       |2   |3   |4   |5    |6    |7    |
-|------------|----|----|----|-----|-----|-----|
-|Health      |6000|7200|9600|11600|13600|15600|
-|Max quantity|1   |1   |1   |2    |2    |2    |
-|Time        |30m |2h  |12h |1d   |2d   |3d   |
+|Level       |7    |6    |5    |4   |3   |2   |
+|------------|-----|-----|-----|----|----|----|
+|Health      |15600|13600|11600|9600|7200|6000|
+|Max quantity|2    |2    |2    |1   |1   |1   |
+|Time        |3d   |2d   |1d   |12h |2h  |30m |
 
 
 ### Training stats
 
   * Building: [Headquarters 10](smugglerHQ.html)
 
-|Level        |2    |3     |4     |5     |6      |7      |
-|-------------|-----|------|------|------|-------|-------|
-|Training cost|5000$|10000$|30000$|75000$|275000$|400000$|
+|Level        |7      |6      |5     |4     |3     |2    |
+|-------------|-------|-------|------|------|------|-----|
+|Training cost|400000$|275000$|75000$|30000$|10000$|5000$|
 
 
 ### Upgrading stats
@@ -75,10 +75,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |2  |3  |4  |5  |6  |7  |
+|Level |7  |6  |5  |4  |3  |2  |
 |------|---|---|---|---|---|---|
-|Max XP|3  |4  |5  |12 |14 |16 |
-|Order |840|841|842|843|844|845|
-|Xp    |3  |4  |5  |6  |7  |8  |
+|Max XP|16 |14 |12 |5  |4  |3  |
+|Order |845|844|843|842|841|840|
+|Xp    |8  |7  |6  |5  |4  |3  |
 
 

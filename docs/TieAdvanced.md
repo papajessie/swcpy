@@ -18,18 +18,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |1                                            |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|---------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|21m                                          |21m                                    |21m                                    |21m                                    |21m                                    |28m                                    |28m                                    |35m                                    |35m                                    |42m                                     |
-|Training cost|7125$                                        |8325$                                  |9500$                                  |10700$                                 |11875$                                 |13075$                                 |14250$                                 |15450$                                 |16625$                                 |17825$                                  |
-|Building     |[Starship Command 1](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
-
-
-|Level        |11                                      |
-|-------------|----------------------------------------|
-|Training time|49m                                     |
-|Training cost|19025$                                  |
-|Building     |[Research Lab 10](empireOffenseLab.html)|
+|Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Training time|49m                                     |42m                                     |35m                                    |35m                                    |28m                                    |28m                                    |21m                                    |21m                                    |21m                                    |21m                                    |21m                                          |
+|Training cost|19025$                                  |17825$                                  |16625$                                 |15450$                                 |14250$                                 |13075$                                 |11875$                                 |10700$                                 |9500$                                  |8325$                                  |7125$                                        |
+|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 1](empireFleetCommand.html)|
 
 
 ### Upgrading stats
@@ -41,9 +34,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Acceleration: 0
 
-|Level    |1|2-11|
-|---------|-|----|
-|Max speed|6|5   |
+|Level    |2-11|1|
+|---------|----|-|
+|Max speed|5   |6|
 
 
 ## Main attack : Proton Torpedo Barrage
@@ -58,32 +51,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot count: 10
   * Shot delay: 75ms
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|---------------|----|----|----|----|----|----|----|----|----|-----|
-|Damage per shot|6330|6650|6990|7350|7730|8130|8560|9010|9490|10000|
-
-
-|Level          |11   |
-|---------------|-----|
-|Damage per shot|10306|
+|Level          |11   |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------|-----|-----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|10306|10000|9490|9010|8560|8130|7730|7350|6990|6650|6330|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75,50,10
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Displayed damage per second |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
-|Calculated damage per second|2894 |3040 |3196 |3360 |3534 |3717 |3914 |4119 |4339 |4572  |
-|Calculated damage per cycle |63300|66500|69900|73500|77300|81300|85600|90100|94900|100000|
-
-
-|Level                       |11    |
-|----------------------------|------|
-|Displayed damage per second |103060|
-|Calculated damage per second|4712  |
-|Calculated damage per cycle |103060|
+|Level                       |11    |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|----------------------------|------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |103060|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
+|Calculated damage per second|4712  |4572  |4339 |4119 |3914 |3717 |3534 |3360 |3196 |3040 |2894 |
+|Calculated damage per cycle |103060|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
 
 
   * Cannons per sequence: 10
@@ -129,28 +110,16 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Unlocked by event: true
 
-|Level                      |1                                                |2                                                |3                                                |4                                                |5                                                |6                                                |7                                                |8                                                |9                                                |10                                               |
-|---------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-|Displayed damage per second|63300                                            |66500                                            |69900                                            |73500                                            |77300                                            |81300                                            |85600                                            |90100                                            |94900                                            |100000                                           |
-|Event button action        |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |
-|Event button data          |planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|
-|Event button string        |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |
-|Icon unlock position       |0.3,0.8,-0.4                                     |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
-|Icon unlock rotation       |0,0,0                                            |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
-|Icon unlock scale          |0.4,0.4,0.4                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
-|Prestige                   |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
-
-
-|Level                      |11         |
-|---------------------------|-----------|
-|Displayed damage per second|103060     |
-|Event button action        |planet     |
-|Event button data          |planet3    |
-|Event button string        |hn_open_dan|
-|Icon unlock position       |(not found)|
-|Icon unlock rotation       |(not found)|
-|Icon unlock scale          |(not found)|
-|Prestige                   |true       |
+|Level                      |11         |10                                               |9                                                |8                                                |7                                                |6                                                |5                                                |4                                                |3                                                |2                                                |1                                                |
+|---------------------------|-----------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+|Displayed damage per second|103060     |100000                                           |94900                                            |90100                                            |85600                                            |81300                                            |77300                                            |73500                                            |69900                                            |66500                                            |63300                                            |
+|Event button action        |planet     |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |
+|Event button data          |planet3    |planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|
+|Event button string        |hn_open_dan|hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |
+|Icon unlock position       |(not found)|(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |0.3,0.8,-0.4                                     |
+|Icon unlock rotation       |(not found)|(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |0,0,0                                            |
+|Icon unlock scale          |(not found)|(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |0.4,0.4,0.4                                      |
+|Prestige                   |true       |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |(not found)                                      |
 
 
 ## Uninterpreted stats
@@ -161,13 +130,8 @@ Seriously, we don't really know what to do with these.
   * Streams: no
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----|------|------|------|------|------|------|------|------|------|------|
-|Order|100801|100802|100803|100804|100805|100806|100807|100808|100809|100810|
-
-
-|Level|11    |
-|-----|------|
-|Order|100811|
+|Level|11    |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|Order|100811|100810|100809|100808|100807|100806|100805|100804|100803|100802|100801|
 
 

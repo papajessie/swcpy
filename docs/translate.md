@@ -1030,7 +1030,7 @@ category: strings
   * **SETTINGS_HELP**: 'Help'
   * **SETTINGS_LANGUAGE**: 'Language: {0}'
   * **SETTINGS_LINK_FORUMS**: 'https://forums.starwarscommander.com/'
-  * **SETTINGS_LINK_HELP**: 'https://help.starwars.com/en_US/Star-Wars-Commander'
+  * **SETTINGS_LINK_HELP**: 'https://support.starwarscommander.com/hc'
   * **SETTINGS_LINK_PRIVACY**: 'https://disneyprivacycenter.com'
   * **SETTINGS_LINK_TOS**: 'https://disneytermsofuse.com'
   * **SETTINGS_MUSIC**: 'Music'

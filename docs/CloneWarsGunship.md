@@ -15,37 +15,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Buildable unit: Yes
   * Unit capacity: 7
 
-|Level                  |1                                              |2                                              |3                                              |4                                              |5                                              |6                                              |7                                              |8                                              |9                                              |10                                              |
-|-----------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------|
-|Special attack visitors|3×[Rebel Soldier level 1](SoldierDropship.html)|3×[Rebel Soldier level 2](SoldierDropship.html)|4×[Rebel Soldier level 3](SoldierDropship.html)|4×[Rebel Soldier level 4](SoldierDropship.html)|5×[Rebel Soldier level 5](SoldierDropship.html)|5×[Rebel Soldier level 6](SoldierDropship.html)|5×[Rebel Soldier level 7](SoldierDropship.html)|5×[Rebel Soldier level 8](SoldierDropship.html)|5×[Rebel Soldier level 9](SoldierDropship.html)|5×[Rebel Soldier level 10](SoldierDropship.html)|
-
-
-|Level                  |11                                              |
-|-----------------------|------------------------------------------------|
-|Special attack visitors|5×[Rebel Soldier level 11](SoldierDropship.html)|
+|Level                  |11                                              |10                                              |9                                              |8                                              |7                                              |6                                              |5                                              |4                                              |3                                              |2                                              |1                                              |
+|-----------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|
+|Special attack visitors|5×[Rebel Soldier level 11](SoldierDropship.html)|5×[Rebel Soldier level 10](SoldierDropship.html)|5×[Rebel Soldier level 9](SoldierDropship.html)|5×[Rebel Soldier level 8](SoldierDropship.html)|5×[Rebel Soldier level 7](SoldierDropship.html)|5×[Rebel Soldier level 6](SoldierDropship.html)|5×[Rebel Soldier level 5](SoldierDropship.html)|4×[Rebel Soldier level 4](SoldierDropship.html)|4×[Rebel Soldier level 3](SoldierDropship.html)|3×[Rebel Soldier level 2](SoldierDropship.html)|3×[Rebel Soldier level 1](SoldierDropship.html)|
 
 
 ### Training stats
 
-|Level        |1                                           |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10-11                                  |
-|-------------|--------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|21m                                         |21m                                   |21m                                   |21m                                   |21m                                   |28m                                   |28m                                   |35m                                   |35m                                   |42m                                    |
-|Training cost|5000$                                       |5825$                                 |6650$                                 |7475$                                 |8325$                                 |9150$                                 |9975$                                 |10800$                                |11650$                                |12475$                                 |
-|Building     |[Starship Command 9](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
+|Level        |10-11                                  |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                                           |
+|-------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|
+|Training time|42m                                    |35m                                   |35m                                   |28m                                   |28m                                   |21m                                   |21m                                   |21m                                   |21m                                   |21m                                         |
+|Training cost|12475$                                 |11650$                                |10800$                                |9975$                                 |9150$                                 |8325$                                 |7475$                                 |6650$                                 |5825$                                 |5000$                                       |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Starship Command 9](rebelFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
-|Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
-
-
-|Level               |11      |
-|--------------------|--------|
-|Upgrade time        |2w      |
-|Upgrade requirements|4250000$|
+|Level               |11      |10      |9       |8      |7      |6      |5     |4     |3     |2    |1    |
+|--------------------|--------|--------|--------|-------|-------|-------|------|------|------|-----|-----|
+|Upgrade time        |2w      |2w      |1w3d    |1w     |5d     |3d     |1d    |8h    |3h    |1h30m|0s   |
+|Upgrade requirements|4250000$|2500000$|1500000$|450000$|225000$|135000$|50000$|20000$|10000$|5000$|2000$|
 
 
 ### Movement stats
@@ -77,16 +66,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 31.47,15.14,17.52
   * Icon lookat position: -0.58,2.82,0.11
 
-|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|15000      |30000      |60000      |90000      |120000     |150000     |180000     |210000     |240000     |270000     |
-|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-
-
-|Level                      |11    |
-|---------------------------|------|
-|Displayed damage per second|300000|
-|Prestige                   |true  |
+|Level                      |11    |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
+|---------------------------|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|300000|270000     |240000     |210000     |180000     |150000     |120000     |90000      |60000      |30000      |15000      |
+|Prestige                   |true  |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -95,13 +78,8 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----|------|------|------|------|------|------|------|------|------|------|
-|Order|300501|300502|300503|300504|300505|300506|300507|300508|300509|300510|
-
-
-|Level|11    |
-|-----|------|
-|Order|300511|
+|Level|11    |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|Order|300511|300510|300509|300508|300507|300506|300505|300504|300503|300502|300501|
 
 

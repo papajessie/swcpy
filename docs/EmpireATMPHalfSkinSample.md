@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 15
   * Type: vehicle
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10-11|
+|Level |10-11|9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|12960|13820|14890|16160|17650|19390|21375|26265|29205|31725|
+|Health|31725|29205|26265|21375|19390|17650|16160|14890|13820|12960|
 
 
 ### Training stats
@@ -31,14 +31,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Training time: 0s
   * Training cost: Free
 
-|Level   |1                              |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|--------|-------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Building|[Factory 2](empireFactory.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
-
-
-|Level   |11                                      |
-|--------|----------------------------------------|
-|Building|[Research Lab 11](empireOffenseLab.html)|
+|Level   |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                              |
+|--------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|
+|Building|[Research Lab 11](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 2](empireFactory.html)|
 
 
 ### Upgrading stats
@@ -85,32 +80,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 200ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
-|---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2803|3156|3509|3858|4220|4631|5054|5512|5977|6520|
-
-
-|Level          |11  |
-|---------------|----|
-|Damage per shot|6903|
+|Level          |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------|----|----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|6903|6520|5977|5512|5054|4631|4220|3858|3509|3156|2803|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,60,20
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |3935 |4430 |4925 |5415 |5925 |6500 |7095 |7735 |8390 |9150 |
-|Calculated damage per second|5901 |6644 |7387 |8122 |8884 |9749 |10640|11604|12583|13726|
-|Calculated damage per cycle |16818|18936|21054|23148|25320|27786|30324|33072|35862|39120|
-
-
-|Level                       |11   |
-|----------------------------|-----|
-|Displayed damage per second |9690 |
-|Calculated damage per second|14532|
-|Calculated damage per cycle |41418|
+|Level                       |11   |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Displayed damage per second |9690 |9150 |8390 |7735 |7095 |6500 |5925 |5415 |4925 |4430 |3935 |
+|Calculated damage per second|14532|13726|12583|11604|10640|9749 |8884 |8122 |7387 |6644 |5901 |
+|Calculated damage per cycle |41418|39120|35862|33072|30324|27786|25320|23148|21054|18936|16818|
 
 
   * Cannons per sequence: 6
@@ -155,16 +138,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|3935       |4430       |4925       |5415       |5925       |6500       |7095       |7735       |8390       |9150       |
-|Prestige                   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-
-
-|Level                      |11  |
-|---------------------------|----|
-|Displayed damage per second|9690|
-|Prestige                   |true|
+|Level                      |11  |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
+|---------------------------|----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|9690|9150       |8390       |7735       |7095       |6500       |5925       |5415       |4925       |4430       |3935       |
+|Prestige                   |true|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
@@ -181,13 +158,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level|1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order|81501|81502|81503|81504|81505|81506|81507|81508|81509|81510|
-
-
-|Level|11   |
-|-----|-----|
-|Order|81511|
+|Level|11   |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order|81511|81510|81509|81508|81507|81506|81505|81504|81503|81502|81501|
 
 

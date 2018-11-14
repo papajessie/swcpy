@@ -15,26 +15,26 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Buildable unit: No
   * Unit capacity: 1
 
-|Level                  |1                                                                          |2                                                                          |3                                                                          |4                                                                          |5                                                                          |6                                                                          |7                                                                          |8                                                                          |9                                                                          |10                                                                          |
-|-----------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
-|Special attack visitors|3×["trp_title_HeavyStormDropshipTrap" level 1](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 2](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 3](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 4](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 5](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 6](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 7](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 8](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 9](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 10](HeavyStormDropshipTrap.html)|
+|Level                  |10                                                                          |9                                                                          |8                                                                          |7                                                                          |6                                                                          |5                                                                          |4                                                                          |3                                                                          |2                                                                          |1                                                                          |
+|-----------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
+|Special attack visitors|4×["trp_title_HeavyStormDropshipTrap" level 10](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 9](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 8](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 7](HeavyStormDropshipTrap.html)|4×["trp_title_HeavyStormDropshipTrap" level 6](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 5](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 4](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 3](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 2](HeavyStormDropshipTrap.html)|3×["trp_title_HeavyStormDropshipTrap" level 1](HeavyStormDropshipTrap.html)|
 
 
 ### Training stats
 
-|Level        |1                                            |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-------------|---------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Training time|15m                                          |15m20s                                 |15m40s                                 |16m                                    |16m20s                                 |16m40s                                 |17m                                    |17m20s                                 |17m40s                                 |18m                                     |
-|Training cost|4000$                                        |4500$                                  |5000$                                  |7500$                                  |8000$                                  |10500$                                 |11000$                                 |13500$                                 |14000$                                 |16500$                                  |
-|Building     |[Starship Command 9](empireFleetCommand.html)|[Research Lab 2](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|
+|Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Training time|18m                                     |17m40s                                 |17m20s                                 |17m                                    |16m40s                                 |16m20s                                 |16m                                    |15m40s                                 |15m20s                                 |15m                                          |
+|Training cost|16500$                                  |14000$                                 |13500$                                 |11000$                                 |10500$                                 |8000$                                  |7500$                                  |5000$                                  |4500$                                  |4000$                                        |
+|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 9](empireFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |1    |2    |3     |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|------|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |1h30m|3h    |8h    |1d    |3d     |5d     |1w     |1w3d    |2w      |
-|Upgrade requirements|2000$|5000$|10000$|20000$|50000$|135000$|225000$|450000$|1500000$|2500000$|
+|Level               |10      |9       |8      |7      |6      |5     |4     |3     |2    |1    |
+|--------------------|--------|--------|-------|-------|-------|------|------|------|-----|-----|
+|Upgrade time        |2w      |1w3d    |1w     |5d     |3d     |1d    |8h    |3h    |1h30m|0s   |
+|Upgrade requirements|2500000$|1500000$|450000$|225000$|135000$|50000$|20000$|10000$|5000$|2000$|
 
 
 ### Movement stats
@@ -64,9 +64,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 32.33,18.19,18.01
   * Icon lookat position: -1.41,2.74,-0.06
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level                      |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second|1950|2350|2730|3120|3510|5200|5730|6240|6760|7800|
+|Displayed damage per second|7800|6760|6240|5730|5200|3510|3120|2730|2350|1950|
 
 
 ## Uninterpreted stats
@@ -75,8 +75,8 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level|10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----|------|------|------|------|------|------|------|------|------|------|
-|Order|110101|110102|110103|110104|110105|110106|110107|110108|110109|110110|
+|Order|110110|110109|110108|110107|110106|110105|110104|110103|110102|110101|
 
 

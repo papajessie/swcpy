@@ -22,19 +22,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |6   |7   |8   |
+|Level       |8   |7   |6   |
 |------------|----|----|----|
-|Health      |6000|7000|8000|
-|Max quantity|150 |175 |200 |
+|Health      |8000|7000|6000|
+|Max quantity|200 |175 |150 |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |6                                  |7                                                  |8                                                  |
-|--------|-----------------------------------|---------------------------------------------------|---------------------------------------------------|
-|Building|[Tusken Raider HQ 6](tuskenHQ.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|
+|Level   |8                                                  |7                                                  |6                                  |
+|--------|---------------------------------------------------|---------------------------------------------------|-----------------------------------|
+|Building|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|[Tusken Raider HQ 6](tuskenHQ.html)|
 
 
 ### Upgrading stats
@@ -67,9 +67,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: -0.27,1.1,0.13
   * Stash order: 1000
 
-|Level     |6                    |7                    |8                    |
+|Level     |8                    |7                    |6                    |
 |----------|---------------------|---------------------|---------------------|
-|Connectors|tuskenWallConnectors6|tuskenWallConnectors7|tuskenWallConnectors8|
+|Connectors|tuskenWallConnectors8|tuskenWallConnectors7|tuskenWallConnectors6|
 
 
 ## Uninterpreted stats
@@ -79,8 +79,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|6  |7  |8  |
+|Level|8  |7  |6  |
 |-----|---|---|---|
-|Order|537|538|539|
+|Order|539|538|537|
 
 

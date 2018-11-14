@@ -22,10 +22,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------------|----|----|----|----|----|----|----|----|----|-----|
-|Health      |1000|2000|3000|4000|5000|6000|7000|8000|9000|10000|
-|Max quantity|20  |30  |40  |50  |60  |70  |80  |90  |100 |120  |
+|Level       |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------------|-----|----|----|----|----|----|----|----|----|----|
+|Health      |10000|9000|8000|7000|6000|5000|4000|3000|2000|1000|
+|Max quantity|120  |100 |90  |80  |70  |60  |50  |40  |30  |20  |
 
 
 ### Training stats
@@ -65,9 +65,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level     |1                   |2                   |3                   |4                   |5                   |6                   |7                   |8                   |9                   |10                   |
-|----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------------------|
-|Connectors|erkitWallConnectors1|erkitWallConnectors2|erkitWallConnectors3|erkitWallConnectors4|erkitWallConnectors5|erkitWallConnectors6|erkitWallConnectors7|erkitWallConnectors8|erkitWallConnectors9|erkitWallConnectors10|
+|Level     |10                   |9                   |8                   |7                   |6                   |5                   |4                   |3                   |2                   |1                   |
+|----------|---------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+|Connectors|erkitWallConnectors10|erkitWallConnectors9|erkitWallConnectors8|erkitWallConnectors7|erkitWallConnectors6|erkitWallConnectors5|erkitWallConnectors4|erkitWallConnectors3|erkitWallConnectors2|erkitWallConnectors1|
 
 
 ## Uninterpreted stats
@@ -77,8 +77,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level|10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|---|---|
-|Order|826|827|828|829|830|831|832|833|834|835|
+|Order|835|834|833|832|831|830|829|828|827|826|
 
 

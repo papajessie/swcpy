@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 1
   * Type: hero
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|18000|21600|25200|28800|32400|36000|39600|43200|46800|54000|
+|Health|54000|46800|43200|39600|36000|32400|28800|25200|21600|18000|
 
 
 ### Training stats
@@ -34,10 +34,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |1    |2    |3    |4     |5     |6      |7      |8      |9       |10      |
-|--------------------|-----|-----|-----|------|------|-------|-------|-------|--------|--------|
-|Upgrade time        |0s   |15m  |1h   |3h30m |8h    |1d     |2d     |3d12h  |5d      |1w1d    |
-|Upgrade requirements|5000$|7000$|9000$|12500$|25000$|100000$|160000$|320000$|1000000$|1750000$|
+|Level               |10      |9       |8      |7      |6      |5     |4     |3    |2    |1    |
+|--------------------|--------|--------|-------|-------|-------|------|------|-----|-----|-----|
+|Upgrade time        |1w1d    |5d      |3d12h  |2d     |1d     |8h    |3h30m |1h   |15m  |0s   |
+|Upgrade requirements|1750000$|1000000$|320000$|160000$|100000$|25000$|12500$|9000$|7000$|5000$|
 
 
 ### Movement stats
@@ -79,20 +79,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 150ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level          |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|2530|3036|3542|4048|4554|5060|5566|6072|6578|7590|
+|Damage per shot|7590|6578|6072|5566|5060|4554|4048|3542|3036|2530|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,75,50
 
-|Level                       |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|----------------------------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Displayed damage per second |3892|4670|5449|6227|7006|7784 |8563 |9341 |10120|1890 |
-|Calculated damage per second|1533|1840|2146|2453|2760|3066 |3373 |3680 |3986 |4600 |
-|Calculated damage per cycle |5060|6072|7084|8096|9108|10120|11132|12144|13156|15180|
+|Level                       |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
+|----------------------------|-----|-----|-----|-----|-----|----|----|----|----|----|
+|Displayed damage per second |1890 |10120|9341 |8563 |7784 |7006|6227|5449|4670|3892|
+|Calculated damage per second|4600 |3986 |3680 |3373 |3066 |2760|2453|2146|1840|1533|
+|Calculated damage per cycle |15180|13156|12144|11132|10120|9108|8096|7084|6072|5060|
 
 
   * Cannons per sequence: 1
@@ -110,9 +110,9 @@ These stats internal to the system link different parts of data together.
 
   * Unit ID: WompRatAlpha
 
-|Level    |1    |2    |3    |4    |5    |6    |7    |8    |9    |10    |
-|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|Hero data|hero1|hero2|hero3|hero4|hero5|hero6|hero7|hero8|hero9|hero10|
+|Level    |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|---------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Hero data|hero10|hero9|hero8|hero7|hero6|hero5|hero4|hero3|hero2|hero1|
 
 
 ## Presentation stats
@@ -141,9 +141,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * UI decal asset name: HeroDecalNeutral
 
-|Level                      |1   |2   |3   |4   |5   |6   |7   |8   |9    |10  |
-|---------------------------|----|----|----|----|----|----|----|----|-----|----|
-|Displayed damage per second|3892|4670|5449|6227|7006|7784|8563|9341|10120|1890|
+|Level                      |10  |9    |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------------------|----|-----|----|----|----|----|----|----|----|----|
+|Displayed damage per second|1890|10120|9341|8563|7784|7006|6227|5449|4670|3892|
 
 
 ## Uninterpreted stats
@@ -161,9 +161,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
+|Level      |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
 |-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |400401|400402|400403|400404|400405|400406|400407|400408|400409|400410|
-|Point value|20    |24    |28    |32    |36    |40    |44    |48    |52    |60    |
+|Order      |400410|400409|400408|400407|400406|400405|400404|400403|400402|400401|
+|Point value|60    |52    |48    |44    |40    |36    |32    |28    |24    |20    |
 
 

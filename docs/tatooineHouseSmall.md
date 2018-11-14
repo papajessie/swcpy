@@ -24,9 +24,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: housing
 
-|Level |1   |2   |3   |4   |5   |
+|Level |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|
-|Health|2000|2500|3000|3500|4000|
+|Health|4000|3500|3000|2500|2000|
 
 
 ### Training stats
@@ -67,10 +67,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1  |2  |3  |4  |5  |
+|Level |5  |4  |3  |2  |1  |
 |------|---|---|---|---|---|
-|Max XP|18 |30 |30 |42 |48 |
-|Order |540|541|542|543|544|
-|Xp    |3  |5  |5  |7  |8  |
+|Max XP|48 |42 |30 |30 |18 |
+|Order |544|543|542|541|540|
+|Xp    |8  |7  |5  |5  |3  |
 
 

@@ -22,18 +22,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: wall
 
-|Level       |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|------------|----|----|----|----|----|----|----|----|----|-----|
-|Health      |1000|2000|3000|4000|5000|6000|7000|8000|9000|10000|
-|Max quantity|20  |30  |40  |50  |60  |70  |80  |90  |100 |120  |
+|Level       |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------------|-----|----|----|----|----|----|----|----|----|----|
+|Health      |10000|9000|8000|7000|6000|5000|4000|3000|2000|1000|
+|Max quantity|120  |100 |90  |80  |70  |60  |50  |40  |30  |20  |
 
 
 ### Training stats
 
-|Level        |1                                |2                                |3                                |4                                |5                                |6                                |7                                |8                                |9                                |10                                |
-|-------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|----------------------------------|
-|Training cost|200 All.                         |600 All.                         |2000 All.                        |10000 All.                       |25000 All.                       |100000 All.                      |200000 All.                      |500000 All.                      |1000000 All.                     |2000000 All.                      |
-|Building     |[Headquarters 1](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 10](smugglerHQ.html)|
+|Level        |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
+|-------------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
+|Training cost|2000000 All.                      |1000000 All.                     |500000 All.                      |200000 All.                      |100000 All.                      |25000 All.                       |10000 All.                       |2000 All.                        |600 All.                         |200 All.                         |
+|Building     |[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats
@@ -68,9 +68,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level     |1                    |2                    |3                    |4                    |5                    |6                    |7                    |8                    |9                    |10                    |
-|----------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|----------------------|
-|Connectors|prisonWallConnectors1|prisonWallConnectors2|prisonWallConnectors3|prisonWallConnectors4|prisonWallConnectors5|prisonWallConnectors6|prisonWallConnectors7|prisonWallConnectors8|prisonWallConnectors9|prisonWallConnectors10|
+|Level     |10                    |9                    |8                    |7                    |6                    |5                    |4                    |3                    |2                    |1                    |
+|----------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|Connectors|prisonWallConnectors10|prisonWallConnectors9|prisonWallConnectors8|prisonWallConnectors7|prisonWallConnectors6|prisonWallConnectors5|prisonWallConnectors4|prisonWallConnectors3|prisonWallConnectors2|prisonWallConnectors1|
 
 
 ## Uninterpreted stats
@@ -80,8 +80,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |
+|Level|10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|---|---|---|---|---|
-|Order|721|722|723|724|725|726|727|728|729|730|
+|Order|730|729|728|727|726|725|724|723|722|721|
 
 

@@ -23,9 +23,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: barracks
 
-|Level |1   |2   |3   |4   |5   |
+|Level |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|
-|Health|3000|4500|5400|7200|8700|
+|Health|8700|7200|5400|4500|3000|
 
 
 ### Training stats
@@ -71,8 +71,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Xp: 0
 
-|Level|1  |2  |3  |4  |5  |
+|Level|5  |4  |3  |2  |1  |
 |-----|---|---|---|---|---|
-|Order|839|840|841|842|843|
+|Order|843|842|841|840|839|
 
 

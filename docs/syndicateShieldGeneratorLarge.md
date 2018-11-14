@@ -24,20 +24,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: shield_generator
 
-|Level               |1        |2        |3        |4        |5        |6        |7        |8        |9        |10         |
-|--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|
-|Health              |5500     |8250     |9900     |13200    |15950    |18700    |21450    |24200    |26950    |29700      |
-|Max quantity        |1        |1        |1        |2        |3        |3        |3        |3        |3        |3          |
-|Shield health points|10000 (1)|20000 (2)|30000 (3)|40000 (4)|50000 (5)|63300 (6)|73600 (7)|83900 (8)|94500 (9)|100000 (10)|
+|Level               |10         |9        |8        |7        |6        |5        |4        |3        |2        |1        |
+|--------------------|-----------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|Health              |29700      |26950    |24200    |21450    |18700    |15950    |13200    |9900     |8250     |5500     |
+|Max quantity        |3          |3        |3        |3        |3        |3        |2        |1        |1        |1        |
+|Shield health points|100000 (10)|94500 (9)|83900 (8)|73600 (7)|63300 (6)|50000 (5)|40000 (4)|30000 (3)|20000 (2)|10000 (1)|
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1-4                                          |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|--------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Building|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level   |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |1-4                                          |
+|--------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Building|["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -75,10 +75,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|5   |8   |9   |24  |42  |51  |57  |66  |72  |81  |
-|Order |1158|1159|1160|1161|1162|1163|1164|1165|1166|1167|
-|Xp    |5   |8   |9   |12  |14  |17  |19  |22  |24  |27  |
+|Max XP|81  |72  |66  |57  |51  |42  |24  |9   |8   |5   |
+|Order |1167|1166|1165|1164|1163|1162|1161|1160|1159|1158|
+|Xp    |27  |24  |22  |19  |17  |14  |12  |9   |8   |5   |
 
 

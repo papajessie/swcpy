@@ -15,44 +15,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Buildable unit: Yes
   * Unit capacity: 12
 
-|Level                  |1                                      |2                                      |3                                      |4                                      |5                                      |6                                      |7                                      |8                                      |9                                      |10                                      |
-|-----------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
-|Special attack visitors|2×[AAT-1 Hover Tank level 3](AAT1.html)|2×[AAT-1 Hover Tank level 4](AAT1.html)|2×[AAT-1 Hover Tank level 5](AAT1.html)|2×[AAT-1 Hover Tank level 6](AAT1.html)|2×[AAT-1 Hover Tank level 7](AAT1.html)|1×[Juggernaut level 6](Juggernaut.html)|1×[Juggernaut level 7](Juggernaut.html)|1×[Juggernaut level 8](Juggernaut.html)|1×[Juggernaut level 9](Juggernaut.html)|1×[Juggernaut level 10](Juggernaut.html)|
-
-
-|Level                  |11                                      |
-|-----------------------|----------------------------------------|
-|Special attack visitors|1×[Juggernaut level 11](Juggernaut.html)|
+|Level                  |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                      |
+|-----------------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Special attack visitors|1×[Juggernaut level 11](Juggernaut.html)|1×[Juggernaut level 10](Juggernaut.html)|1×[Juggernaut level 9](Juggernaut.html)|1×[Juggernaut level 8](Juggernaut.html)|1×[Juggernaut level 7](Juggernaut.html)|1×[Juggernaut level 6](Juggernaut.html)|2×[AAT-1 Hover Tank level 7](AAT1.html)|2×[AAT-1 Hover Tank level 6](AAT1.html)|2×[AAT-1 Hover Tank level 5](AAT1.html)|2×[AAT-1 Hover Tank level 4](AAT1.html)|2×[AAT-1 Hover Tank level 3](AAT1.html)|
 
 
 ### Training stats
 
-|Level        |1                                           |2                                     |3                                     |4                                     |5                                     |6                                     |7                                     |8                                     |9                                     |10                                     |
-|-------------|--------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|---------------------------------------|
-|Training time|27m                                         |27m                                   |34m30s                                |34m30s                                |41m30s                                |41m30s                                |49m                                   |49m                                   |56m30s                                |1h                                     |
-|Training cost|8565$                                       |9990$                                 |11400$                                |12830$                                |14265$                                |15690$                                |17100$                                |18530$                                |19965$                                |21390$                                 |
-|Building     |[Starship Command 1](rebelFleetCommand.html)|[Research Lab 2](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|
-
-
-|Level        |11                                     |
-|-------------|---------------------------------------|
-|Training time|1h3m30s                                |
-|Training cost|22815$                                 |
-|Building     |[Research Lab 10](rebelOffenseLab.html)|
+|Level        |11                                     |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                                           |
+|-------------|---------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|
+|Training time|1h3m30s                                |1h                                     |56m30s                                |49m                                   |49m                                   |41m30s                                |41m30s                                |34m30s                                |34m30s                                |27m                                   |27m                                         |
+|Training cost|22815$                                 |21390$                                 |19965$                                |18530$                                |17100$                                |15690$                                |14265$                                |12830$                                |11400$                                |9990$                                 |8565$                                       |
+|Building     |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Starship Command 1](rebelFleetCommand.html)|
 
 
 ### Upgrading stats
 
   * Upgrade time: 5s
 
-|Level               |1                |2                |3                |4                |5                |6                |7                |8                |9                 |10                |
-|--------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------|------------------|
-|Upgrade requirements|32 data fragments|28 data fragments|30 data fragments|40 data fragments|50 data fragments|60 data fragments|70 data fragments|90 data fragments|120 data fragments|160 data fragments|
-
-
-|Level               |11                |
-|--------------------|------------------|
-|Upgrade requirements|220 data fragments|
+|Level               |11                |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
+|--------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Upgrade requirements|220 data fragments|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 
 ### Movement stats
@@ -89,22 +72,13 @@ These are all sorts of user interface settings, that should not interfere with g
   * Unit rotation: 3.14159260000000006840537025709636509418487548828125
   * Unlocked by event: true
 
-|Level                      |1              |2          |3          |4          |5          |6          |7          |8          |9          |10         |
-|---------------------------|---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|2490           |2820       |3150       |3480       |3780       |4110       |4440       |4770       |5070       |5400       |
-|Icon unlock position       |-2,-109.3,-30.3|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |-5.5,100.8,1.25|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |1.3,1.3,1.3    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Prestige                   |(not found)    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-
-
-|Level                      |11         |
-|---------------------------|-----------|
-|Displayed damage per second|5400       |
-|Icon unlock position       |(not found)|
-|Icon unlock rotation       |(not found)|
-|Icon unlock scale          |(not found)|
-|Prestige                   |true       |
+|Level                      |11         |10         |9          |8          |7          |6          |5          |4          |3          |2          |1              |
+|---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|---------------|
+|Displayed damage per second|5400       |5400       |5070       |4770       |4440       |4110       |3780       |3480       |3150       |2820       |2490           |
+|Icon unlock position       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|-2,-109.3,-30.3|
+|Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|-5.5,100.8,1.25|
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|1.3,1.3,1.3    |
+|Prestige                   |true       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)    |
 
 
 ## Uninterpreted stats
@@ -113,13 +87,8 @@ Seriously, we don't really know what to do with these.
 
   * Xp: 0
 
-|Level|1     |2     |3     |4     |5     |6     |7     |8     |9     |10    |
-|-----|------|------|------|------|------|------|------|------|------|------|
-|Order|301001|301002|301003|301004|301005|301006|301007|301008|301009|301010|
-
-
-|Level|11    |
-|-----|------|
-|Order|301011|
+|Level|11    |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
+|-----|------|------|------|------|------|------|------|------|------|------|------|
+|Order|301011|301010|301009|301008|301007|301006|301005|301004|301003|301002|301001|
 
 

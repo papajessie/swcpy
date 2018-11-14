@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: cantina
 
-|Level         |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|--------------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Health        |3000|4500|5400|7200|8700|10200|11700|13200|14700|16200|
-|Hide if locked|No  |No  |No  |No  |No  |No   |No   |No   |Yes  |Yes  |
-|Time          |2d  |3d  |4d  |5d  |6d  |1w   |1w1d |1w2d |6d   |1w3d |
+|Level         |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
+|--------------|-----|-----|-----|-----|-----|----|----|----|----|----|
+|Health        |16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
+|Hide if locked|Yes  |Yes  |No   |No   |No   |No  |No  |No  |No  |No  |
+|Time          |1w3d |6d   |1w2d |1w1d |1w   |6d  |5d  |4d  |3d  |2d  |
 
 
 ### Training stats
 
-|Level        |1                                                    |2                             |3                             |4                             |5                             |6                             |7                              |8                              |9                                |10                               |
-|-------------|-----------------------------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------|-------------------------------|---------------------------------|---------------------------------|
-|Training cost|350000$                                              |730000$                       |1110000$                      |1125000$                      |2600000$                      |3100000$                      |4600000$                       |5000000$                       |2000000$                         |3500000$                         |
-|Building 1   |[Headquarters 7](rebelHQ.html)                       |[Headquarters 7](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)  |
-|Building 2   |[Contraband Safehouse 1](rebelContrabandStorage.html)|None                          |None                          |None                          |None                          |None                          |None                           |None                           |[Headquarters 1](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
+|Level        |10                               |9                                |8                              |7                              |6                             |5                             |4                             |3                             |2                             |1                                                    |
+|-------------|---------------------------------|---------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------------------------------|
+|Training cost|3500000$                         |2000000$                         |5000000$                       |4600000$                       |3100000$                      |2600000$                      |1125000$                      |1110000$                      |730000$                       |350000$                                              |
+|Building 1   |[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)                       |
+|Building 2   |[Headquarters 1](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|None                           |None                           |None                          |None                          |None                          |None                          |None                          |[Contraband Safehouse 1](rebelContrabandStorage.html)|
 
 
 ### Upgrading stats
@@ -68,9 +68,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon lookat position: 0.39,1.69,-0.09
   * Stash order: 220
 
-|Level    |1   |2-10       |
-|---------|----|-----------|
-|Store tab|army|(not found)|
+|Level    |2-10       |1   |
+|---------|-----------|----|
+|Store tab|(not found)|army|
 
 
 ## Uninterpreted stats
@@ -79,9 +79,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 18
 
-|Level |1|2|3|4|5|6|7|8|9 |10|
-|------|-|-|-|-|-|-|-|-|--|--|
-|Max XP|2|3|4|5|6|7|8|9|10|11|
-|Xp    |2|3|4|5|6|7|8|9|10|11|
+|Level |10|9 |8|7|6|5|4|3|2|1|
+|------|--|--|-|-|-|-|-|-|-|-|
+|Max XP|11|10|9|8|7|6|5|4|3|2|
+|Xp    |11|10|9|8|7|6|5|4|3|2|
 
 

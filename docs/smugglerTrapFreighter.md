@@ -23,20 +23,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Trap trigger conditions: Radius(2) & ArmorNot(flierInfantry)
   * Type: trap
 
-|Level                    |1                                              |2                                              |3                                              |4                                              |5                                              |6                                              |7                                              |8                                              |9                                              |10                                              |
-|-------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|------------------------------------------------|
-|Max quantity             |1                                              |1                                              |1                                              |2                                              |2                                              |2                                              |2                                              |2                                              |2                                              |2                                               |
-|Trap air strike          |["shp_title_XWingTrap" level 1](XWingTrap.html)|["shp_title_XWingTrap" level 2](XWingTrap.html)|["shp_title_XWingTrap" level 3](XWingTrap.html)|["shp_title_XWingTrap" level 4](XWingTrap.html)|["shp_title_XWingTrap" level 5](XWingTrap.html)|["shp_title_XWingTrap" level 6](XWingTrap.html)|["shp_title_XWingTrap" level 7](XWingTrap.html)|["shp_title_XWingTrap" level 8](XWingTrap.html)|["shp_title_XWingTrap" level 9](XWingTrap.html)|["shp_title_XWingTrap" level 10](XWingTrap.html)|
-|Trap rearm materials cost|300                                            |600                                            |900                                            |1200                                           |1800                                           |2000                                           |2700                                           |3000                                           |3500                                           |6000                                            |
+|Level                    |10                                              |9                                              |8                                              |7                                              |6                                              |5                                              |4                                              |3                                              |2                                              |1                                              |
+|-------------------------|------------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|
+|Max quantity             |2                                               |2                                              |2                                              |2                                              |2                                              |2                                              |2                                              |1                                              |1                                              |1                                              |
+|Trap air strike          |["shp_title_XWingTrap" level 10](XWingTrap.html)|["shp_title_XWingTrap" level 9](XWingTrap.html)|["shp_title_XWingTrap" level 8](XWingTrap.html)|["shp_title_XWingTrap" level 7](XWingTrap.html)|["shp_title_XWingTrap" level 6](XWingTrap.html)|["shp_title_XWingTrap" level 5](XWingTrap.html)|["shp_title_XWingTrap" level 4](XWingTrap.html)|["shp_title_XWingTrap" level 3](XWingTrap.html)|["shp_title_XWingTrap" level 2](XWingTrap.html)|["shp_title_XWingTrap" level 1](XWingTrap.html)|
+|Trap rearm materials cost|6000                                            |3500                                           |3000                                           |2700                                           |2000                                           |1800                                           |1200                                           |900                                            |600                                            |300                                            |
 
 
 ### Training stats
 
   * Training cost: 1000$
 
-|Level   |1                                            |2                                            |3                                            |4                                            |5                                            |6                                            |7                                            |8                                            |9                                            |10                                            |
-|--------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------|
-|Building|["bld_title_syndicateHQ" 1](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 10](syndicateHQ.html)|
+|Level   |10                                            |9                                            |8                                            |7                                            |6                                            |5                                            |4                                            |3                                            |2                                            |1                                            |
+|--------|----------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+|Building|["bld_title_syndicateHQ" 10](syndicateHQ.html)|["bld_title_syndicateHQ" 9](syndicateHQ.html)|["bld_title_syndicateHQ" 8](syndicateHQ.html)|["bld_title_syndicateHQ" 7](syndicateHQ.html)|["bld_title_syndicateHQ" 6](syndicateHQ.html)|["bld_title_syndicateHQ" 5](syndicateHQ.html)|["bld_title_syndicateHQ" 4](syndicateHQ.html)|["bld_title_syndicateHQ" 3](syndicateHQ.html)|["bld_title_syndicateHQ" 2](syndicateHQ.html)|["bld_title_syndicateHQ" 1](syndicateHQ.html)|
 
 
 ### Upgrading stats
@@ -53,10 +53,10 @@ These stats internal to the system link different parts of data together.
 
   * Trap event type: SpecialAttack
 
-|Level          |1                       |2                       |3                       |4                       |5                       |6                       |7                       |8                       |9                       |10                       |
-|---------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|-------------------------|
-|Trap ID        |trap_RebelStrikeGeneric1|trap_RebelStrikeGeneric2|trap_RebelStrikeGeneric3|trap_RebelStrikeGeneric4|trap_RebelStrikeGeneric5|trap_RebelStrikeGeneric6|trap_RebelStrikeGeneric7|trap_RebelStrikeGeneric8|trap_RebelStrikeGeneric9|trap_RebelStrikeGeneric10|
-|Trap event data|specialAttackXWingTrap1 |specialAttackXWingTrap2 |specialAttackXWingTrap3 |specialAttackXWingTrap4 |specialAttackXWingTrap5 |specialAttackXWingTrap6 |specialAttackXWingTrap7 |specialAttackXWingTrap8 |specialAttackXWingTrap9 |specialAttackXWingTrap10 |
+|Level          |10                       |9                       |8                       |7                       |6                       |5                       |4                       |3                       |2                       |1                       |
+|---------------|-------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+|Trap ID        |trap_RebelStrikeGeneric10|trap_RebelStrikeGeneric9|trap_RebelStrikeGeneric8|trap_RebelStrikeGeneric7|trap_RebelStrikeGeneric6|trap_RebelStrikeGeneric5|trap_RebelStrikeGeneric4|trap_RebelStrikeGeneric3|trap_RebelStrikeGeneric2|trap_RebelStrikeGeneric1|
+|Trap event data|specialAttackXWingTrap10 |specialAttackXWingTrap9 |specialAttackXWingTrap8 |specialAttackXWingTrap7 |specialAttackXWingTrap6 |specialAttackXWingTrap5 |specialAttackXWingTrap4 |specialAttackXWingTrap3 |specialAttackXWingTrap2 |specialAttackXWingTrap1 |
 
 
 ## Presentation stats
@@ -76,10 +76,10 @@ These are all sorts of user interface settings, that should not interfere with g
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|5   |8   |11  |26  |32  |36  |42  |46  |52  |56  |
-|Order |1208|1209|1210|1211|1212|1213|1214|1215|1216|1217|
-|Xp    |5   |8   |11  |13  |16  |18  |21  |23  |26  |28  |
+|Max XP|56  |52  |46  |42  |36  |32  |26  |11  |8   |5   |
+|Order |1217|1216|1215|1214|1213|1212|1211|1210|1209|1208|
+|Xp    |28  |26  |23  |21  |18  |16  |13  |11  |8   |5   |
 
 

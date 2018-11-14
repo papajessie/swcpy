@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 20
   * Type: creature
 
-|Level |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|51840|57173|62506|67840|73173|78506|83840|89173|94506|99840|
+|Health|99840|94506|89173|83840|78506|73173|67840|62506|57173|51840|
 
 
 ### Training stats
@@ -35,9 +35,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 5s
 
-|Level               |1                |2                |3                |4                 |5                 |6                 |7                 |8                 |9                 |10                |
-|--------------------|-----------------|-----------------|-----------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
-|Upgrade requirements|32 data fragments|60 data fragments|90 data fragments|130 data fragments|180 data fragments|240 data fragments|310 data fragments|400 data fragments|520 data fragments|680 data fragments|
+|Level               |10                |9                 |8                 |7                 |6                 |5                 |4                 |3                |2                |1                |
+|--------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|
+|Upgrade requirements|680 data fragments|520 data fragments|400 data fragments|310 data fragments|240 data fragments|180 data fragments|130 data fragments|90 data fragments|60 data fragments|32 data fragments|
 
 
 ### Movement stats
@@ -79,20 +79,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 270ms
   * Target locking: No
 
-|Level          |1   |2   |3   |4   |5   |6   |7   |8   |9   |10   |
-|---------------|----|----|----|----|----|----|----|----|----|-----|
-|Damage per shot|5377|5930|6483|7036|7590|8143|8696|9249|9802|10355|
+|Level          |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|---------------|-----|----|----|----|----|----|----|----|----|----|
+|Damage per shot|10355|9802|9249|8696|8143|7590|7036|6483|5930|5377|
 
 
 ### Projectile
 
   * Splash damage percentages: 100,25
 
-|Level                       |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level                       |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |3038 |3413 |3788 |4163 |4538 |4913 |5288 |5663 |6038 |6038 |
-|Calculated damage per second|2337 |2578 |2818 |3059 |3300 |3540 |3780 |4021 |4261 |4502 |
-|Calculated damage per cycle |10754|11860|12966|14072|15180|16286|17392|18498|19604|20710|
+|Displayed damage per second |6038 |6038 |5663 |5288 |4913 |4538 |4163 |3788 |3413 |3038 |
+|Calculated damage per second|4502 |4261 |4021 |3780 |3540 |3300 |3059 |2818 |2578 |2337 |
+|Calculated damage per cycle |20710|19604|18498|17392|16286|15180|14072|12966|11860|10754|
 
 
   * Cannons per sequence: 2
@@ -142,12 +142,12 @@ These are all sorts of user interface settings, that should not interfere with g
   * Targeted type: ENEMIES
   * Unlocked by event: true
 
-|Level                      |1          |2          |3          |4          |5          |6          |7          |8          |9-10       |
+|Level                      |9-10       |8          |7          |6          |5          |4          |3          |2          |1          |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|3038       |3413       |3788       |4163       |4538       |4913       |5288       |5663       |6038       |
-|Icon unlock position       |0,-0.75,0  |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock rotation       |0,-30,0    |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Icon unlock scale          |0.6,0.6,0.6|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Displayed damage per second|6038       |5663       |5288       |4913       |4538       |4163       |3788       |3413       |3038       |
+|Icon unlock position       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,-0.75,0  |
+|Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,-30,0    |
+|Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0.6,0.6,0.6|
 
 
 ## Uninterpreted stats
@@ -165,9 +165,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |1    |2    |3    |4    |5    |6    |7    |8    |9    |10   |
+|Level      |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order      |90101|90102|90103|90104|90105|90106|90107|90108|90109|90110|
-|Point value|20   |24   |28   |32   |36   |40   |44   |48   |52   |60   |
+|Order      |90110|90109|90108|90107|90106|90105|90104|90103|90102|90101|
+|Point value|60   |52   |48   |44   |40   |36   |32   |28   |24   |20   |
 
 

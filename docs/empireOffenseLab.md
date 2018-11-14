@@ -23,30 +23,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Produce: 0
   * Type: troop_research
 
-|Level |1   |2   |3   |4   |5   |6    |7    |8    |9    |10   |
-|------|----|----|----|----|----|-----|-----|-----|-----|-----|
-|Health|3000|4500|5400|7200|8700|10200|11700|13200|14700|16200|
-|Time  |5m  |1h  |2h  |8h  |1d  |1d   |2d   |3d   |5d   |1w   |
-
-
-|Level |11   |
-|------|-----|
-|Health|17100|
-|Time  |5d   |
+|Level |11   |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
+|------|-----|-----|-----|-----|-----|-----|----|----|----|----|----|
+|Health|17100|16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
+|Time  |5d   |1w   |5d   |3d   |2d   |1d   |1d  |8h  |2h  |1h  |5m  |
 
 
 ### Training stats
 
-|Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Training cost|1000$                          |7500$                          |12500$                         |20000$                         |50000$                         |175000$                        |250000$                        |500000$                        |1500000$                       |3000000$                        |
-|Building     |[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-
-
-|Level        |11                              |
-|-------------|--------------------------------|
-|Training cost|3900000$                        |
-|Building     |[Headquarters 11](empireHQ.html)|
+|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|3900000$                        |3000000$                        |1500000$                       |500000$                        |250000$                        |175000$                        |50000$                         |20000$                         |12500$                         |7500$                          |1000$                          |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -76,14 +64,14 @@ These are all sorts of user interface settings, that should not interfere with g
   * Destruct FX: fx_debris_{0}x{1}
   * Stash order: 280
 
-|Level               |1                     |2                     |3                     |4                     |5                     |6                     |7-10                  |11                     |
-|--------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|-----------------------|
-|Asset name          |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|offenselab_emp-mod-up11|
-|Bundle name         |offenselab_emp-mod-up1|offenselab_emp-mod-up2|offenselab_emp-mod-up3|offenselab_emp-mod-up4|offenselab_emp-mod-up5|offenselab_emp-mod-up6|offenselab_emp-mod-up7|offenselab_emp-mod-up11|
-|Icon camera position|-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-35.31,23.02,28.58    |-33.3,22.19,28.3      |-33.3,22.19,28.3      |-33.3,22.19,28.3       |
-|Icon lookat position|0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.03,0.83,-0.02       |0.07,0.87,0.06        |0.07,0.87,0.06        |0.07,0.87,0.06         |
-|Prestige            |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |true                   |
-|Store tab           |army                  |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)            |
+|Level               |11                     |7-10                  |6                     |5                     |4                     |3                     |2                     |1                     |
+|--------------------|-----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+|Asset name          |offenselab_emp-mod-up11|offenselab_emp-mod-up7|offenselab_emp-mod-up6|offenselab_emp-mod-up5|offenselab_emp-mod-up4|offenselab_emp-mod-up3|offenselab_emp-mod-up2|offenselab_emp-mod-up1|
+|Bundle name         |offenselab_emp-mod-up11|offenselab_emp-mod-up7|offenselab_emp-mod-up6|offenselab_emp-mod-up5|offenselab_emp-mod-up4|offenselab_emp-mod-up3|offenselab_emp-mod-up2|offenselab_emp-mod-up1|
+|Icon camera position|-33.3,22.19,28.3       |-33.3,22.19,28.3      |-33.3,22.19,28.3      |-35.31,23.02,28.58    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |-31.81,21.14,26.77    |
+|Icon lookat position|0.07,0.87,0.06         |0.07,0.87,0.06        |0.07,0.87,0.06        |0.03,0.83,-0.02       |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |0.01,0.8,-0.16        |
+|Prestige            |true                   |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |
+|Store tab           |(not found)            |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |(not found)           |army                  |
 
 
 ## Uninterpreted stats
@@ -92,15 +80,9 @@ Seriously, we don't really know what to do with these.
 
   * Order: 10
 
-|Level |1|2|3|4|5|6|7|8|9 |10|
-|------|-|-|-|-|-|-|-|-|--|--|
-|Max XP|2|3|4|5|6|7|8|9|10|11|
-|Xp    |2|3|4|5|6|7|8|9|10|11|
-
-
-|Level |11|
-|------|--|
-|Max XP|12|
-|Xp    |12|
+|Level |11|10|9 |8|7|6|5|4|3|2|1|
+|------|--|--|--|-|-|-|-|-|-|-|-|
+|Max XP|12|11|10|9|8|7|6|5|4|3|2|
+|Xp    |12|11|10|9|8|7|6|5|4|3|2|
 
 

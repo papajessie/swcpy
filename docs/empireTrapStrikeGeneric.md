@@ -21,44 +21,25 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Trap trigger conditions: Radius(2) & ArmorNot(flierInfantry)
   * Type: trap
 
-|Level                    |1                                                        |2                                                        |3                                                        |4                                                        |5                                                        |6                                                        |7                                                        |8                                                        |9                                                        |10                                                        |
-|-------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|
-|Cross credits            |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                               |
-|Cross materials          |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                               |
-|Cross time               |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                               |
-|Health                   |2500                                                     |3750                                                     |4500                                                     |6000                                                     |7250                                                     |8500                                                     |9750                                                     |11000                                                    |12250                                                    |13500                                                     |
-|Max quantity             |1                                                        |1                                                        |1                                                        |2                                                        |2                                                        |4                                                        |4                                                        |6                                                        |6                                                        |6                                                         |
-|Produce                  |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                               |
-|Time                     |1m                                                       |15m                                                      |2h                                                       |12h                                                      |1d                                                       |1d12h                                                    |2d                                                       |3d                                                       |6d                                                       |1w3d                                                      |
-|Trap air strike          |["shp_title_TIEFighterTrap" level 1](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 2](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 3](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 4](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 5](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 6](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 7](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 8](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 9](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 10](TIEFighterTrap.html)|
-|Trap rearm materials cost|300                                                      |600                                                      |900                                                      |1200                                                     |1800                                                     |2000                                                     |2700                                                     |3000                                                     |3500                                                     |6000                                                      |
-
-
-|Level                    |11                                                        |
-|-------------------------|----------------------------------------------------------|
-|Cross credits            |0                                                         |
-|Cross materials          |0                                                         |
-|Cross time               |0s                                                        |
-|Health                   |14250                                                     |
-|Max quantity             |6                                                         |
-|Produce                  |0                                                         |
-|Time                     |5d                                                        |
-|Trap air strike          |["shp_title_TIEFighterTrap" level 10](TIEFighterTrap.html)|
-|Trap rearm materials cost|8500                                                      |
+|Level                    |11                                                        |10                                                        |9                                                        |8                                                        |7                                                        |6                                                        |5                                                        |4                                                        |3                                                        |2                                                        |1                                                        |
+|-------------------------|----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+|Cross credits            |0                                                         |(not found)                                               |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |
+|Cross materials          |0                                                         |(not found)                                               |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |
+|Cross time               |0s                                                        |(not found)                                               |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |
+|Health                   |14250                                                     |13500                                                     |12250                                                    |11000                                                    |9750                                                     |8500                                                     |7250                                                     |6000                                                     |4500                                                     |3750                                                     |2500                                                     |
+|Max quantity             |6                                                         |6                                                         |6                                                        |6                                                        |4                                                        |4                                                        |2                                                        |2                                                        |1                                                        |1                                                        |1                                                        |
+|Produce                  |0                                                         |(not found)                                               |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |(not found)                                              |
+|Time                     |5d                                                        |1w3d                                                      |6d                                                       |3d                                                       |2d                                                       |1d12h                                                    |1d                                                       |12h                                                      |2h                                                       |15m                                                      |1m                                                       |
+|Trap air strike          |["shp_title_TIEFighterTrap" level 10](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 10](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 9](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 8](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 7](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 6](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 5](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 4](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 3](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 2](TIEFighterTrap.html)|["shp_title_TIEFighterTrap" level 1](TIEFighterTrap.html)|
+|Trap rearm materials cost|8500                                                      |6000                                                      |3500                                                     |3000                                                     |2700                                                     |2000                                                     |1800                                                     |1200                                                     |900                                                      |600                                                      |300                                                      |
 
 
 ### Training stats
 
-|Level        |1                              |2                              |3                              |4                              |5                              |6                              |7                              |8                              |9                              |10                              |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|--------------------------------|
-|Training cost|300 All.                       |1000 All.                      |5000 All.                      |15000 All.                     |30000 All.                     |70000 All.                     |150000 All.                    |300000 All.                    |900000 All.                    |1500000 All.                    |
-|Building     |[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 10](empireHQ.html)|
-
-
-|Level        |11                              |
-|-------------|--------------------------------|
-|Training cost|1950000 All.                    |
-|Building     |[Headquarters 11](empireHQ.html)|
+|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|1950000 All.                    |1500000 All.                    |900000 All.                    |300000 All.                    |150000 All.                    |70000 All.                     |30000 All.                     |15000 All.                     |5000 All.                      |1000 All.                      |300 All.                       |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 3](empireHQ.html)|
 
 
 ### Upgrading stats
@@ -75,16 +56,10 @@ These stats internal to the system link different parts of data together.
 
   * Trap event type: SpecialAttack
 
-|Level          |1                           |2                           |3                           |4                           |5                           |6                           |7                           |8                           |9                           |10                           |
-|---------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
-|Trap ID        |trap_EmpireStrikeGeneric1   |trap_EmpireStrikeGeneric2   |trap_EmpireStrikeGeneric3   |trap_EmpireStrikeGeneric4   |trap_EmpireStrikeGeneric5   |trap_EmpireStrikeGeneric6   |trap_EmpireStrikeGeneric7   |trap_EmpireStrikeGeneric8   |trap_EmpireStrikeGeneric9   |trap_EmpireStrikeGeneric10   |
-|Trap event data|specialAttackTIEFighterTrap1|specialAttackTIEFighterTrap2|specialAttackTIEFighterTrap3|specialAttackTIEFighterTrap4|specialAttackTIEFighterTrap5|specialAttackTIEFighterTrap6|specialAttackTIEFighterTrap7|specialAttackTIEFighterTrap8|specialAttackTIEFighterTrap9|specialAttackTIEFighterTrap10|
-
-
-|Level          |11                           |
-|---------------|-----------------------------|
-|Trap ID        |trap_EmpireStrikeGeneric11   |
-|Trap event data|specialAttackTIEFighterTrap10|
+|Level          |11                           |10                           |9                           |8                           |7                           |6                           |5                           |4                           |3                           |2                           |1                           |
+|---------------|-----------------------------|-----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|Trap ID        |trap_EmpireStrikeGeneric11   |trap_EmpireStrikeGeneric10   |trap_EmpireStrikeGeneric9   |trap_EmpireStrikeGeneric8   |trap_EmpireStrikeGeneric7   |trap_EmpireStrikeGeneric6   |trap_EmpireStrikeGeneric5   |trap_EmpireStrikeGeneric4   |trap_EmpireStrikeGeneric3   |trap_EmpireStrikeGeneric2   |trap_EmpireStrikeGeneric1   |
+|Trap event data|specialAttackTIEFighterTrap10|specialAttackTIEFighterTrap10|specialAttackTIEFighterTrap9|specialAttackTIEFighterTrap8|specialAttackTIEFighterTrap7|specialAttackTIEFighterTrap6|specialAttackTIEFighterTrap5|specialAttackTIEFighterTrap4|specialAttackTIEFighterTrap3|specialAttackTIEFighterTrap2|specialAttackTIEFighterTrap1|
 
 
 ## Presentation stats
@@ -99,15 +74,15 @@ These are all sorts of user interface settings, that should not interfere with g
   * Trap add ons: Contents/SharedAssets/active_holo/holo_armed:tiefighterholo_emp-mod Contents/HomeAssets/holo_spent:tiefighterholo_emp-mod_red Contents/HomeAssets/holo_spent:fx_repair_smoke Contents/SharedAssets/trap_spent/starshiptrap_emp-mod_disarmed:fx_starship_trap_spent_cone_emitter
   * Trap reveal audio: sfx_trap_appear
 
-|Level           |1                                |2-10                             |11                                    |
-|----------------|---------------------------------|---------------------------------|--------------------------------------|
-|Asset name      |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp-up11      |
-|Bundle name     |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp-up11      |
-|Cycle time      |(not found)                      |(not found)                      |0s                                    |
-|Icon asset name |icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp-up11|
-|Icon bundle name|icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp-up11|
-|Prestige        |(not found)                      |(not found)                      |true                                  |
-|Store tab       |defenses                         |(not found)                      |(not found)                           |
+|Level           |11                                    |2-10                             |1                                |
+|----------------|--------------------------------------|---------------------------------|---------------------------------|
+|Asset name      |fx_trap_starship_strike_emp-up11      |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp      |
+|Bundle name     |fx_trap_starship_strike_emp-up11      |fx_trap_starship_strike_emp      |fx_trap_starship_strike_emp      |
+|Cycle time      |0s                                    |(not found)                      |(not found)                      |
+|Icon asset name |icon_starship_trap_tiefighter_emp-up11|icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp|
+|Icon bundle name|icon_starship_trap_tiefighter_emp-up11|icon_starship_trap_tiefighter_emp|icon_starship_trap_tiefighter_emp|
+|Prestige        |true                                  |(not found)                      |(not found)                      |
+|Store tab       |(not found)                           |(not found)                      |defenses                         |
 
 
 ## Uninterpreted stats
@@ -117,13 +92,8 @@ Seriously, we don't really know what to do with these.
   * Max XP: 0
   * Order: 14
 
-|Level|1 |2 |3 |4 |5 |6 |7 |8 |9 |10|
-|-----|--|--|--|--|--|--|--|--|--|--|
-|Xp   |30|32|33|34|35|36|37|38|39|40|
-
-
-|Level|11|
-|-----|--|
-|Xp   |41|
+|Level|11|10|9 |8 |7 |6 |5 |4 |3 |2 |1 |
+|-----|--|--|--|--|--|--|--|--|--|--|--|
+|Xp   |41|40|39|38|37|36|35|34|33|32|30|
 
 

@@ -23,19 +23,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Time: 0s
   * Type: storage
 
-|Level       |1   |2   |3   |4   |5    |6    |7    |8    |9    |10   |
-|------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-|Health      |4000|6000|7200|9600|11600|13600|15600|17600|19600|21600|
-|Max quantity|1   |1   |2   |2   |2    |2    |2    |3    |4    |4    |
+|Level       |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|
+|Health      |21600|19600|17600|15600|13600|11600|9600|7200|6000|4000|
+|Max quantity|4    |4    |3    |2    |2    |2    |2   |2   |1   |1   |
 
 
 ### Training stats
 
   * Training cost: 1 All.
 
-|Level   |1                                  |2                                  |3                                  |4                                  |5                                  |6                                  |7                                                  |8                                                  |9                                                  |10                                                  |
-|--------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
-|Building|[Tusken Raider HQ 1](tuskenHQ.html)|[Tusken Raider HQ 2](tuskenHQ.html)|[Tusken Raider HQ 3](tuskenHQ.html)|[Tusken Raider HQ 4](tuskenHQ.html)|[Tusken Raider HQ 5](tuskenHQ.html)|[Tusken Raider HQ 6](tuskenHQ.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 10](tuskenHQLocked.html)|
+|Level   |10                                                  |9                                                  |8                                                  |7                                                  |6                                  |5                                  |4                                  |3                                  |2                                  |1                                  |
+|--------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+|Building|["bld_title_tuskenHQLocked" 10](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 9](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 8](tuskenHQLocked.html)|["bld_title_tuskenHQLocked" 7](tuskenHQLocked.html)|[Tusken Raider HQ 6](tuskenHQ.html)|[Tusken Raider HQ 5](tuskenHQ.html)|[Tusken Raider HQ 4](tuskenHQ.html)|[Tusken Raider HQ 3](tuskenHQ.html)|[Tusken Raider HQ 2](tuskenHQ.html)|[Tusken Raider HQ 1](tuskenHQ.html)|
 
 
 ### Upgrading stats
@@ -47,9 +47,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Acceleration: 0
   * Max speed: 0
 
-|Level           |1  |2-10|
-|----------------|---|----|
-|Unit size on map|2x2|3x3 |
+|Level           |2-10|1  |
+|----------------|----|---|
+|Unit size on map|3x3 |2x2|
 
 
 ## Internal stats
@@ -71,19 +71,19 @@ These are all sorts of user interface settings, that should not interfere with g
   * Stash order: 1000
   * Store tab: not_in_store
 
-|Level      |1                                                                                                              |2                                                                                                              |3                                                                                                              |4                                                                                                              |5                                                                                                              |6                                                                                                              |7                                                                                                              |8                                                                                                              |9                                                                                                              |10                                                                                                             |
+|Level      |10                                                                                                             |9                                                                                                              |8                                                                                                              |7                                                                                                              |6                                                                                                              |5                                                                                                              |4                                                                                                              |3                                                                                                              |2                                                                                                              |1                                                                                                              |
 |-----------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|Audio death|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":45|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":46|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":47|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":48|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":49|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":50|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":51|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":52|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":53|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":54|
+|Audio death|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":54|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":53|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":52|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":51|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":50|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":49|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":48|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":47|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":46|"sfx_explosion_medium_1":25,"sfx_explosion_medium_2":25,"sfx_explosion_medium_3":25,"sfx_explosion_medium_4":45|
 
 
 ## Uninterpreted stats
 
 Seriously, we don't really know what to do with these.
 
-|Level |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Max XP|1   |2   |6   |8   |10  |12  |14  |24  |36  |40  |
-|Order |1243|1244|1245|1246|1247|1248|1249|1250|1251|1252|
-|Xp    |1   |2   |3   |4   |5   |6   |7   |8   |9   |10  |
+|Max XP|40  |36  |24  |14  |12  |10  |8   |6   |2   |1   |
+|Order |1252|1251|1250|1249|1248|1247|1246|1245|1244|1243|
+|Xp    |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 
 
