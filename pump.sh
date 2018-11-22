@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ "$SILENT" != "1" ]; then
+    SILENT=0
+fi
+
 if [ -n "$2" ]; then
     PREFIX="$2"
 else
@@ -14,6 +18,7 @@ fi
 
 if [ -n "$1" ]; then
     VERSION=$1
+    echo "Downloading version $VERSION"
 else
     echo "Let us look for the last version..."
     VERSION=1012
@@ -84,12 +89,18 @@ cat $MANIFESTJSON.lines|sort -r|while read line; do
             HASH=$(echo "$line"|cut -f2 -d:)
             URL="$ROOTURL/$HASH/$XPATH"
             mkdir -p content/$VERSION/$(dirname $XPATH)
-            echo -n "$N/$M: $XPATH"
+            if [ "$SILENT" = 0 ]; then
+		echo -n "$N/$M: $XPATH"
+	    fi
             if [ ! -f content/${VERSION}/${XPATH} ]; then
-                echo " X"
+                if [ "$SILENT" = 0 ]; then
+                    echo " X"
+	        fi
                 curl -s -o content/${VERSION}/${XPATH} "$URL" > /dev/null
             else
-                echo " OK"
+                if [ "$SILENT" = 0 ]; then
+                    echo " OK"
+	        fi
             fi
         fi
     fi

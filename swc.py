@@ -10,6 +10,7 @@ from datetime import datetime, timedelta, date
 from pprint import pprint,pformat
 import os
 import shutil
+import os.path
 
 hq=10
 side='rebel'
@@ -46,21 +47,25 @@ def die(string,item=None):
 def importfile(filename):
     global config
     global data
-    with open('content/{0}/patches/{1}.json'.format(config['version'],filename)) as swcfile:
-        swcdata=json.load(swcfile)
-        for table in swcdata['content']['objects']:
-            if (not(table in data)):
-                data[table]={}
-            if (isinstance(swcdata['content']['objects'][table],list)):
-                for item in swcdata['content']['objects'][table]:
-                    if 'uid' in item:
-                        uid=___(item['uid'])
-                        if (not(uid in data[table])):
-                            data[table][uid]={}
-                        for v in item:
-                            data[table][uid][v]=item[v]
-                    else:
-                        die('Item has no uid',item=item)
+    filepath = 'content/{0}/patches/{1}.json'.format(config['version'],filename)
+    if os.path.isfile(filepath):
+        with open(filepath) as swcfile:
+            swcdata=json.load(swcfile)
+            for table in swcdata['content']['objects']:
+                if (not(table in data)):
+                    data[table]={}
+                if (isinstance(swcdata['content']['objects'][table],list)):
+                    for item in swcdata['content']['objects'][table]:
+                        if 'uid' in item:
+                            uid=___(item['uid'])
+                            if (not(uid in data[table])):
+                                data[table][uid]={}
+                            for v in item:
+                                data[table][uid][v]=item[v]
+                        else:
+                            die('Item has no uid',item=item)
+    else:
+        pass
             
 def importlangfile(lang):
     global config
@@ -963,6 +968,11 @@ def main(argv):
             num=json.load(lastversionfile)
             config['version']=num
     importlangfile(config['lang'])
+    filepath = 'content/{0}/{1}.json'.format(config['version'],'branch_info')
+    if os.path.isfile(filepath):
+        with open(filepath) as swcfile:
+            swcdata=json.load(swcfile)
+            data['datePushed']=swcdata['datePushed']
     for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk'):
         importfile(file)
     if 'mode' in config:
@@ -1034,7 +1044,10 @@ def main(argv):
     if ('episode' in modes):
         # do something that adds tournament objects
         if len(elements)==0:
-            xelements=(data['EpisodeData']).keys()
+            if 'EpisodeData' in data:
+                xelements=(data['EpisodeData']).keys()
+            else:
+                xelements=[]
         else:
             xelements=elements
         for i in xelements:
@@ -1282,7 +1295,7 @@ def main(argv):
         with open("docs/{0}.md".format(id),"w") as file:
             file.write("---\ntitle: {1} ({0})\ncategory: index\n---\n".format(id,'Main index page'))
             file.write("# {1} ({0})\n\n".format('index','Main index page'))
-            file.write("This documentation was generated on {0} for version {1}\n\n".format(date.today().isoformat(),config['version']))
+            file.write("This documentation was generated on {0} for version {1} dated {2}\n\n".format(date.today().isoformat(),config['version'],data['datePushed']))
             file.write("A list of [known bugs](bugs.html) in the data files is curated by hand by the author of this site.\n\n".format(date.today().isoformat(),config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
