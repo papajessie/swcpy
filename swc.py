@@ -22,6 +22,7 @@ xdate=date.today().isoformat()
 elements=[]
 langdata={}
 data={}
+otherdata={}
 config={'table':[],'lang':'en-US','output':'list'}
 config['stattranslation']={}
 config['stattype']={}
@@ -297,6 +298,7 @@ def initstat():
         'projectile:DPSSSS': 'Calculated damage per second (formula three)',
         'equipment:planetIDs': 'Planets where equipment is available',
         'equipment:affectedTroopIds': 'Affected units',
+        'equipment:affectedSpecialAttackIds': 'Affected air strikes',
         'building:storage': 'Maximum capacity',
         'building:production': 'Hourly production',
         '':''
@@ -634,12 +636,14 @@ def initstat():
         'equipment:upgradeShards': 'equipmentupgrade',
         'equipment:upgradeTime': 'equipmentupgrade',
         'equipment:affectedTroopIds': 'equipmentbasic',
+        'equipment:affectedSpecialAttackIds': 'equipmentbasic',
         'equipment:equipmentBuff': 'equipmentnodisplay',
         # below are roles reserved to air strikes
         'audioMovement': 'presentation',
         'audioMovementAway': 'presentation',
         'attachmentAsset': 'presentation',
         'attachmentAssetBundle': 'presentation',
+        'addOns': 'presentation',
         'destroyDelay': 'presentation',
         'specialAttackVisitors': 'basic',
         'linkedUnit': 'nodisplay',
@@ -956,6 +960,7 @@ def __(x):
 
 def main(argv):
     global data
+    global otherdata
     global langdata
     global config
     global elements
@@ -972,7 +977,7 @@ def main(argv):
     if os.path.isfile(filepath):
         with open(filepath) as swcfile:
             swcdata=json.load(swcfile)
-            data['datePushed']=swcdata['datePushed']
+            otherdata['datePushed']=swcdata['datePushed']
     for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk'):
         importfile(file)
     if 'mode' in config:
@@ -981,7 +986,7 @@ def main(argv):
         mode='help'
     xhelp['docs']='Generate all docs in Markdown format'
     if mode == 'docs':
-        mode='episode,tournament,crate,unit,equip,air,translate,building,buildequip'
+        mode='episode,tournament,crate,unit,equip,air,translate,building,buildequip,airequip'
         config['begin']='2012-01-01'
         config['output']='md'
         for file in os.listdir("manualdocs"):
@@ -1102,6 +1107,29 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_equipment_unit(objects,displayed,i)
+    ## Equipment (air)
+    xhelp['airequip']='List the statistics of equipment for special air attacks'
+    morehelp['airequip']={'':'unit identifier (default: all)'}
+    if ('airequip' in modes):
+        # do something that adds air equipment objects
+        if len(elements)==0:
+            tmpdict={}
+            for u in (data['EquipmentData']).keys():
+                if 'effectUids' in data['EquipmentData'][u]:
+                    effects=data['EquipmentData'][u]['effectUids']
+                    found=0
+                    for effect in effects:
+                        if 'affectedSpecialAttackIds' in data['EquipmentEffectData'][effect]:
+                            found+=1
+                    if found>0:
+                        uname=data['EquipmentData'][u]['equipmentID']
+                        if uname not in tmpdict:
+                            tmpdict[uname]=1
+            xelements=sorted(tmpdict.keys())
+        else:
+            xelements=elements
+        for i in xelements:
+            analyse_equipment_air(objects,displayed,i)
     ## Equipment (buildings)
     xhelp['buildequip']='List the statistics of equipment for buildings'
     morehelp['buildequip']={'':'building identifier (default: all)'}
@@ -1125,29 +1153,6 @@ def main(argv):
             xelements=elements
         for i in xelements:
             analyse_equipment_building(objects,displayed,i)
-    ## Equipment (air)
-    xhelp['airequip']='List the statistics of equipment for air attacks'
-    morehelp['airequip']={'':'building identifier (default: all)'}
-    if ('airequip' in modes):
-        # do something that adds equipment objects
-        if len(elements)==0:
-            tmpdict={}
-            for u in (data['EquipmentData']).keys():
-                if 'effectUids' in data['EquipmentData'][u]:
-                    effects=data['EquipmentData'][u]['effectUids']
-                    found=0
-                    for effect in effects:
-                        if 'affectedSpecialAttackIds' in data['EquipmentEffectData'][effect]:
-                            found+=1
-                    if found>0:
-                        uname=data['EquipmentData'][u]['equipmentID']
-                        if uname not in tmpdict:
-                            tmpdict[uname]=1
-            xelements=sorted(tmpdict.keys())
-        else:
-            xelements=elements
-        for i in xelements:
-            analyse_equipment_air(objects,displayed,i)
     ## SpecialAttack (air)
     xhelp['air']='List the statistics of equipment for air strikes (special attacks)'
     morehelp['air']={'':'air strike identifier (default: all)'}
@@ -1250,6 +1255,16 @@ def main(argv):
             output_mdheader_equipunit(out,objects,getdisplayed(displayed,'equip'))
             for unit in getdisplayed(displayed,'equip'):
                 output_md_equipunit(out,objects,objects[unit])
+    if ('airequip' in displayed):
+        if ('list' in outputs):
+            output_listheader_airequip(out,objects,getdisplayed(displayed,'airequip'))
+            for air in getdisplayed(displayed,'airequip'):
+                output_list_airequip(out,objects,objects[air])
+        if ('md' in outputs):
+            addtodisplay(displayed,'index','airequip')
+            output_mdheader_airequip(out,objects,getdisplayed(displayed,'airequip'))
+            for air in getdisplayed(displayed,'airequip'):
+                output_md_airequip(out,objects,objects[air])
     if ('buildequip' in displayed):
         if ('list' in outputs):
             output_listheader_equipbuilding(out,objects,getdisplayed(displayed,'buildequip'))
@@ -1295,7 +1310,7 @@ def main(argv):
         with open("docs/{0}.md".format(id),"w") as file:
             file.write("---\ntitle: {1} ({0})\ncategory: index\n---\n".format(id,'Main index page'))
             file.write("# {1} ({0})\n\n".format('index','Main index page'))
-            file.write("This documentation was generated on {0} for version {1} dated {2}\n\n".format(date.today().isoformat(),config['version'],data['datePushed']))
+            file.write("This documentation was generated on {0} for version {1} dated {2}\n\n".format(date.today().isoformat(),config['version'],otherdata['datePushed']))
             file.write("A list of [known bugs](bugs.html) in the data files is curated by hand by the author of this site.\n\n".format(date.today().isoformat(),config['version']))
             for sid in getdisplayed(displayed,id):
                 title='Index of objects of type "{0}"'.format(sid)
@@ -2121,6 +2136,83 @@ def analyse_equipment_unit(objects,displayed,id):
     if id not in objects:
         objects[id]=ob
 
+def analyse_equipment_air(objects,displayed,id):
+    global data
+    global config
+    ob={}
+    ob['levels']=[]
+    ob['hq']={}
+    ob['uid']=id
+    ob['title']=id+'_name'
+    ob['unknown']={}
+    ob['presentation']={}
+    ob['projectileTypes']={}
+    ob['options']={}
+    ob['roles']={}
+    ob['buffs']={}
+    ob['equipment']={}
+    ob['eqlevels']=[]
+    ob['eqroles']={}
+    levels=ob['levels']
+    used={}
+    projectiles={}
+    addtodisplay(displayed,'airequip',id)
+    for u in (data['EquipmentData']).keys():
+        uname=data['EquipmentData'][u]['equipmentID']
+        if uname!=id:
+            continue
+        effect=data['EquipmentEffectData'][data['EquipmentData'][u]['effectUids'][0]]
+        if 'affectedSpecialAttackIds' not in effect:
+            continue
+        eqlevel=int(data['EquipmentData'][u]['lvl'])
+        skin=data['EquipmentData'][u]['skins'][0]
+        baseunit=data['SkinData'][skin]['unitID']
+        eqsubunit={}
+        for k,v in data['EquipmentData'][u].items():
+            eqsubunit['equipment:'+k]=v
+        ob['equipment'][eqlevel]=eqsubunit
+        if eqlevel not in ob['eqlevels']:
+            ob['eqlevels'].append(eqlevel)
+            ob['eqlevels']=sorted(ob['eqlevels'])
+        eqsubunit['equipment:equipmentBuff']=dget(effect,'buffUids',[])
+        eqsubunit['equipment:affectedSpecialAttackIds']=dget(effect,'affectedSpecialAttackIds',[None])[0]
+        if eqsubunit['equipment:affectedSpecialAttackIds']==None:
+            die('No base unit',eqsubunit)
+        damagehealth=dobuff(ob,eqsubunit,'equip','equipment:equipmentBuff')
+        skin=None
+        if 'equipment:skins' in eqsubunit:
+            skin=eqsubunit['equipment:skins'][0]
+        fill_unit_level(ob,eqlevel,eqsubunit,'equipment','eqroles')
+        for uu in (data['SpecialAttackData']).keys():
+            if data['SpecialAttackData'][uu]['specialAttackID'] != baseunit:
+                continue
+            # subunit is a flattened version of the CSV data
+            subunit={}
+            for k,v in data['SpecialAttackData'][uu].items():
+                subunit[k]=v
+            if skin != None:
+                if 'override' in data['SkinData'][skin]:
+                    for k,v in data['SkinOverrideData'][data['SkinData'][skin]['override']].items():
+                        if k != 'uid':
+                            subunit[k]=v
+                for k,v in data['SkinData'][skin].items():
+                    if k != 'uid':
+                        subunit[k]=v
+            fill_unit(ob,subunit,damagehealth)
+            level='{0:02d}.{1:02d}'.format(int(subunit['lvl']),eqlevel)
+            fill_unit_level(ob,level,subunit)
+            levels.append(level)
+    levels=sorted(levels)
+    ob['firstlevel']=levels[0]
+    if len(levels)==1:
+        levelstring=str(levels[0])
+    else:
+        levelstring='{0}-{1}'.format(levels[0],levels[-1])
+    for level in ob['hq'].keys():
+            ob['hq'][level]['levels']=levelstring
+    if id not in objects:
+        objects[id]=ob
+
 def analyse_equipment_building(objects,displayed,id):
     global data
     global config
@@ -2689,6 +2781,80 @@ def output_md_equipunit(out,objects,item):
         file.write("---\ntitle: {1} ({0})\ncategory: unit\n---\n".format(id,title))
         lout=['']
         output_list_equipunit(lout,objects,item,True)
+        file.write(lout[0])
+
+
+def output_listheader_airequip(out,objects,displayed):
+    out.append("There are {0} units in the selection:".format(len(displayed)))
+
+def output_list_airequip(out,objects,item,LINKS=False):
+    global config
+    id=___(item['uid'])
+    title=__(item['title'])
+    allkeys=config['statrole']
+    xout='\n# {1} ({0})\n\n'.format(id,title)
+    if LINKS:
+        xout+=("You can read an [explanation  of the various unit stats](unitexplained.md).\n\n")
+    if LINKS:
+        config['stathandler']['equipment:affectedSpecialAttackIds']=lambda x:'[{1}]({0}.html)'.format(x,_('trp_title_'+x))
+    else:
+        config['stathandler']['equipment:affectedSpecialAttackIds']=lambda x:'{1} ({0})'.format(x,_('trp_title_'+x))
+    eqtosee=[x for x in item['eqroles'].keys()]
+    remove(eqtosee,'')
+    xout+='## Equipment stats\n\n'
+    xout+='### Basic stats\n\n' 
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentbasic']))
+    remove(eqtosee,'equipmentbasic')
+    if ('equip' in item['options']):
+        xout+='### Modifiers\n\n'
+        xout+=display_modifiers(item,'equip',eqtosee,'equipment')
+    xout+='### Upgrade stats\n\n'
+    trainlist=fill_requirements(item,'equipment','equipment:requirements',sorted(item['eqlevels']),LINKS)
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentupgrade']+trainlist))
+    remove(eqtosee,'equipmentupgrade')
+    xout+='### Presentation and internal stats\n\n' 
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentinternal']))
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentpresentation']))
+    xout+=eqdatadump(item,sorted([x for x in allkeys if allkeys[x]=='equipmentunknown']))
+    remove(eqtosee,'equipmentunknown')
+    remove(eqtosee,'equipmentinternal')
+    remove(eqtosee,'equipmentpresentation')
+    eqtosee=removebysuffix(eqtosee,'nodisplay')
+    xout+=output_list_unit_aux(item,LINKS)
+    if len(eqtosee)>0:
+        xout+='I could not show the following roles, because I was not programmed to : '+', '.join(sorted(eqtosee))+'\n'
+        xout+='\n'.join(sorted([x for x in allkeys if allkeys[x].endswith(sorted(eqtosee)[0])]))+'\n'
+    out[len(out)-1]+=xout
+    return
+
+def output_mdheader_airequip(out,objects,displayed):
+    with open("docs/airequip.md","w") as file:
+        file.write("---\ntitle: Index of air equipments\n---\n")
+        file.write("# Air strikes equipments\n\n")
+        file.write("The site contains an [explanation of the unit stats](unitexplained.md).\n\n")
+        sides={}
+        for unit in displayed:
+            item=objects[unit]
+            firstlevel=item['firstlevel']
+            sides[item['hq'][firstlevel]['faction']]=1
+        for side in sorted(sides,key=sortside):
+            file.write("### {0}\n\n".format(display_side(side)))
+            for unit in sorted(displayed):
+                item=objects[unit]
+                firstlevel=item['firstlevel']
+                if item['hq'][firstlevel]['faction']==side:
+                    id=___(item['uid'])
+                    title=__(item['title'])
+                    file.write("  * [{1} ({0})]({0}.html)\n".format(id,title))
+            file.write("\n")
+
+def output_md_airequip(out,objects,item):
+    id=___(item['uid'])
+    title=__(item['title'])
+    with open("docs/{0}.md".format(id),"w") as file:
+        file.write("---\ntitle: {1} ({0})\ncategory: air\n---\n".format(id,title))
+        lout=['']
+        output_list_airequip(lout,objects,item,True)
         file.write(lout[0])
 
 
