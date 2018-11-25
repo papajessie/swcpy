@@ -9,6 +9,7 @@ This documentation was generated on 2018-11-25 for version 1187 dated 11/19/18 1
 A list of [known bugs](bugs.html) in the data files is curated by hand by the author of this site.
 
  * [Index of objects of type "air"](air.html)
+ * [Index of objects of type "airequip"](airequip.html)
  * [Index of objects of type "buildequip"](buildequip.html)
  * [Index of objects of type "building"](building.html)
  * [Index of objects of type "crate"](crate.html)
