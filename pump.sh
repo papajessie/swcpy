@@ -16,6 +16,18 @@ else
     SUFFIX="."
 fi
 
+urlmanifest () {
+    v="$1"
+    if [ "$v" -lt 2000 ]; then
+        # MANIFEST="https://starts0.content.disney.io/cloud-cms/manifest/starts/prod/${VERSION}.json" # oldstyle
+        url="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
+        echo "$url"
+    else
+        url="http://zynga-swc-prod-1-seed.akamaized.net/manifests/__manifest_zyngaswc_prod.0${VERSION}.json"
+        echo "$url"
+    fi
+    }
+
 if [ -n "$1" ]; then
     VERSION=$1
     echo "Downloading version $VERSION"
@@ -30,8 +42,10 @@ else
     while [ "$FOUND" = 0 ]; do
         LASTVERSION=$VERSION
         VERSION=$((VERSION+1))
-        # MANIFEST="https://starts0.content.disney.io/cloud-cms/manifest/starts/prod/${VERSION}.json" # oldstyle
-        MANIFEST="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
+        if [ "$VERSION" = 1190 ]; then
+            VERSION=2001
+        fi
+        MANIFEST=$(urlmanifest "$VERSION")
         DEST=manifest${VERSION}.json
         curl -s -o "$DEST" "$MANIFEST"
         if  [ "$(stat -c %s $DEST)" -lt 20000 ]; then
@@ -51,7 +65,7 @@ if [ -n "$VCHECK" ]; then
     exit 0
 fi
 
-MANIFEST="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
+MANIFEST=$(urlmanifest "$VERSION")
 DEST=manifest${VERSION}.json
 if [ '!' -f "$DEST" ]; then
     curl -o "$DEST" "$MANIFEST"
