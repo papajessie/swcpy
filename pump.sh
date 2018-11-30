@@ -18,15 +18,17 @@ fi
 
 urlmanifest () {
     v="$1"
-    if [ "$v" -lt 2000 ]; then
-        # MANIFEST="https://starts0.content.disney.io/cloud-cms/manifest/starts/prod/${VERSION}.json" # oldstyle
+    if [ "$v" -ge 2000 ]; then
+        url="http://zynga-swc-prod-1-seed.akamaized.net/manifests/__manifest_zyngaswc_prod.0${VERSION}.json"
+        echo "$url"
+    elif [ "$v" -ge 1000 ]; then
         url="https://d50ea5a0.content.disney.io/manifests/__manifest_starts_prod.0${VERSION}.json"
         echo "$url"
     else
-        url="http://zynga-swc-prod-1-seed.akamaized.net/manifests/__manifest_zyngaswc_prod.0${VERSION}.json"
+        url="https://starts0.content.disney.io/cloud-cms/manifest/starts/prod/${VERSION}.json" # oldstyle
         echo "$url"
     fi
-    }
+}
 
 if [ -n "$1" ]; then
     VERSION=$1
