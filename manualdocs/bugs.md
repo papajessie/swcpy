@@ -43,9 +43,12 @@ more powerful unit.
 As detailed in the *analysis* below, the damage may be related to splash
 projectiles and shields. So this bug may also apply to other units with
 splash damage : [Rebel Hailfire droid](Hailfire.html), [AAT-1 Hover
-Tank](AAT1.html) at least, and their imperial counterparts [Enhanced
-AT-MP Walker](eqpEmpireATMPHalfSkin.html) skin and [Mobile Heavy
-Cannon](MHC.html) and [2-M Hover Tank](2MTank.html) (and their skins).
+Tank](AAT1.html) and [Rebel Vanguard](Vanguard.html) at least, and their
+imperial counterparts [Enhanced AT-MP
+Walker](eqpEmpireATMPHalfSkin.html) skin and [Mobile Heavy
+Cannon](MHC.html), [2-M Hover Tank](2MTank.html) and [Shock
+Trooper](Shock.html) (plus the skins of the unskinned units that keep
+the splash damage).
 
   * **Analysis:** This bug was quite difficult to interpret, however a
     very credible explanation was found in the data mining group
@@ -60,6 +63,16 @@ Cannon](MHC.html) and [2-M Hover Tank](2MTank.html) (and their skins).
 >
 > _(Shelendil)_ For those values it would take 40.03 shots to kill.
 
+    The implications are quite far reaching, because beside the units
+    mentioned above, a lot of units with splash damage are stopped by
+    shields. Thus the computation needs to be confirmed for other units.
+    A possible explanation is as follows: when a splash projectile hits,
+    the targets in range are tested. But due to the nature of the
+    shield, when the target hits the shield, the distance between the
+    shield and the projectile impact point is computed badly and ends up
+    in a further range rather than the normal 100% center. It is also
+    possible that large buildings suffer from the same defect. All of
+    this needs a large test initiative. As of now, only the ATAP is confirmed.
   * **Bug confirmed:** 2018-11-29 by Tye Peer (JJO/J-Reb), video posted to Youtube https://www.youtube.com/watch?v=DCl04u9edjY
   * **Bug confirmation process:** Attack in the campaign scenarios against a (probably level 8) shield in two variants : a regular AT-AP of level 10, and a level 10 skin level 1 AT-AP (+180% damage).
 
