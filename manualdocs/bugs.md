@@ -63,7 +63,7 @@ the splash damage).
 >
 > _(Shelendil)_ For those values it would take 40.03 shots to kill.
 
-    The implications are quite far reaching, because beside the units
+  * The implications are quite far reaching, because beside the units
     mentioned above, a lot of units with splash damage are stopped by
     shields. Thus the computation needs to be confirmed for other units.
     A possible explanation is as follows: when a splash projectile hits,
