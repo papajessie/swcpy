@@ -21,9 +21,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level |10   |9    |8    |7    |6    |5    |4    |3    |2   |1   |
-|------|-----|-----|-----|-----|-----|-----|-----|-----|----|----|
-|Health|22500|19500|18000|16500|15000|13500|12000|10500|9000|7500|
+|Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Health|32345|29275|28175|26880|25395|23720|21850|19790|17540|15095|
 
 
 ### Training stats
@@ -48,7 +48,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Acceleration: 0
   * Crushes walls: No
   * Flying unit: No
-  * Max speed: 10
+  * Max speed: 13
   * Propensity to go around obstacles: 1
   * Rotation speed: 7.854
   * Run speed: 0
@@ -76,7 +76,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Targeting
 
   * Attack shield border: No
-  * Max attack range: 5
+  * Max attack range: 6
   * Min attack range: 0
   * New rotation speed: 7854
   * Target preference strength: 90
@@ -92,7 +92,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Impact delay: 500ms
   * Can shoot over walls: No
   * Reload time: 2s
-  * Retargeting offset: 10
+  * Retargeting offset: 12
   * Self-centered targeting: No
   * Shot count: 10
   * Shot delay: 100ms
@@ -100,16 +100,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|510|442|408|374|340|306|272|238|204|170|
+|Damage per shot|640|575|555|530|500|470|430|390|345|300|
 
 
 ### Projectile
 
 |Level                       |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1500|1300|1200|1100|1000|900 |800 |700 |600 |500 |
-|Calculated damage per second|1500|1300|1200|1100|1000|900 |800 |700 |600 |500 |
-|Calculated damage per cycle |5100|4420|4080|3740|3400|3060|2720|2380|2040|1700|
+|Displayed damage per second |1951|1690|1563|1430|1301|1173|1040|911 |783 |650 |
+|Calculated damage per second|1882|1691|1632|1558|1470|1382|1264|1147|1014|882 |
+|Calculated damage per cycle |6400|5750|5550|5300|5000|4700|4300|3900|3450|3000|
 
 
   * Cannons per sequence: 1
@@ -117,7 +117,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 30
-  * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, **(80)**: Wall
+  * Damage multipliers: **(200)**: Wall, **(150)**: Shield, **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero
   * Pass through shield: No
   * Salvos: 10
 
@@ -143,7 +143,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: closest
-  * Gun position: deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt:1
+  * Gun position: "deathheavytrooper_emp_rig_MASTER_MOVER/deathheavytrooper_emp_rig_locator_gun_Rt":1
   * Hit spark: fx_gatling_hit_r_lrg
   * Icon camera position: 4.46,8.55,22.59
   * Icon closeup camera position: 3.27,3.36,10.55
@@ -155,9 +155,9 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |10  |9   |8   |7   |6   |5  |4  |3  |2  |1  |
-|---------------------------|----|----|----|----|----|---|---|---|---|---|
-|Displayed damage per second|1500|1300|1200|1100|1000|900|800|700|600|500|
+|Level                      |10  |9   |8   |7   |6   |5   |4   |3  |2  |1  |
+|---------------------------|----|----|----|----|----|----|----|---|---|---|
+|Displayed damage per second|1951|1690|1563|1430|1301|1173|1040|911|783|650|
 
 
 ## Uninterpreted stats
@@ -176,9 +176,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |133010|133009|133008|133007|133006|133005|133004|133003|133002|133001|
-|Point value|12    |10.400|9.600 |8.800 |8     |7.200 |6.400 |5.600 |4.800 |4     |
+|Level      |10   |9     |8    |7    |6    |5    |4    |3    |2    |1    |
+|-----------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |63410|63409 |63408|63407|63406|63405|63404|63403|63402|63401|
+|Point value|12   |10.400|9.600|8.800|8    |7.200|6.400|5.600|4.800|4    |
 
 

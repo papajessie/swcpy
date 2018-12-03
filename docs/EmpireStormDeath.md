@@ -23,7 +23,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|----|----|----|----|----|----|----|----|----|----|
-|Health|3600|3120|2880|2640|2400|2160|1920|1680|1560|1300|
+|Health|7875|7130|6860|6545|6185|5775|5320|4820|4625|3980|
 
 
 ### Training stats
@@ -70,40 +70,40 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Shooting
 
   * Animation delay: 0s
-  * Charge time: 500ms
+  * Charge time: 250ms
   * Clip retargeting: No
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: No
-  * Reload time: 500ms
+  * Reload time: 650ms
   * Retargeting offset: 14
   * Self-centered targeting: No
-  * Shot count: 1
-  * Shot delay: 200ms
+  * Shot count: 3
+  * Shot delay: 350ms
   * Target locking: No
 
 |Level          |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |---------------|---|---|---|---|---|---|---|---|---|---|
-|Damage per shot|390|338|312|286|260|234|208|182|169|141|
+|Damage per shot|660|595|575|545|515|480|445|400|385|335|
 
 
 ### Projectile
 
-|Level                       |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
-|----------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second |390|338|312|286|260|234|208|182|169|141|
-|Calculated damage per second|390|338|312|286|260|234|208|182|169|141|
-|Calculated damage per cycle |390|338|312|286|260|234|208|182|169|141|
+|Level                       |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |975 |905 |835 |765 |696 |626 |556 |488 |453 |378 |
+|Calculated damage per second|1237|1115|1078|1021|965 |900 |834 |750 |721 |628 |
+|Calculated damage per cycle |1980|1785|1725|1635|1545|1440|1335|1200|1155|1005|
 
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 1s
+  * Shooting cycle duration: 1.600s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
-  * Damage multipliers: **(100)**: Droideka, Flying infantry, Flying vehicle, Headquarters, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Other building, Ressource generator, Shield, Shield generator, Storage, Support troop, Trap, Turret, Vehicule hero, Wall
+  * Damage multipliers: **(100)**: Headquarters, Other building, Ressource generator, Shield, Shield generator, Storage, Trap, Turret, Wall, **(75)**: Droideka, Flying infantry, Flying vehicle, Heavy infantry, Heavy infantry hero, Heavy vehicle, Heavy vehicule hero, Infantry, Infantry hero, Light vehicle, Support troop, Vehicule hero
   * Pass through shield: No
-  * Salvos: 1
+  * Salvos: 3
 
 ## Internal stats
 
@@ -128,7 +128,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: closest
-  * Gun position: stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun:1
+  * Gun position: "stotrper_dth_rig_MASTER_MOVER/stotrper_dth_rig_locator_gun":1
   * Hit spark: fx_blaster_hit_r_sm
   * Icon camera position: 11.27,12.43,13.71
   * Icon closeup camera position: 4.5,4.27,7.56
@@ -142,7 +142,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |10 |9  |8  |7  |6  |5  |4  |3  |2  |1  |
 |---------------------------|---|---|---|---|---|---|---|---|---|---|
-|Displayed damage per second|390|338|312|286|260|234|208|182|169|141|
+|Displayed damage per second|975|905|835|765|696|626|556|488|453|378|
 
 
 ## Uninterpreted stats
@@ -160,9 +160,9 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10    |9     |8     |7     |6     |5     |4     |3     |2     |1     |
-|-----------|------|------|------|------|------|------|------|------|------|------|
-|Order      |132910|132909|132908|132907|132906|132905|132904|132903|132902|132901|
-|Point value|3     |2.600 |2.400 |2.200 |2     |1.800 |1.600 |1.400 |1.200 |1     |
+|Level      |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |63310|63309|63308|63307|63306|63305|63304|63303|63302|63301|
+|Point value|3    |2.600|2.400|2.200|2    |1.800|1.600|1.400|1.200|1    |
 
 

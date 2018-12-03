@@ -496,7 +496,6 @@ title: Index of crates
   * [Premium Crystal Bronzium Crate (lc_spd_bronziumEqpStore_b1_c500)](lc_spd_bronziumEqpStore_b1_c500.html)
   * [Premium Triple Carbonite Crate (lc_spd_carboniteEqpStore_c6)](lc_spd_carboniteEqpStore_c6.html)
   * [Premium Double Durasteel Crate (lc_spd_durasteelEqpStore_d4)](lc_spd_durasteelEqpStore_d4.html)
-  * [cratetitlelcspecialAttacktest32 (lc_specialAttack_test_32)](lc_specialAttack_test_32.html)
   * [Salvage Crate (lc_sqwar_tier1)](lc_sqwar_tier1.html)
   * [Victory Crate (lc_sqwar_tier3)](lc_sqwar_tier3.html)
   * [Victory Crate (lc_sqwar_tier3_max)](lc_sqwar_tier3_max.html)

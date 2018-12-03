@@ -374,7 +374,7 @@ category: strings
   * **DEPLOY_DEFENSE_INSTRUCTIONS**: 'Tap to deploy a Starship Strike'
   * **DEPLOY_INSTRUCTIONS**: 'Tap or press and hold to deploy troops'
   * **DESTROY_HQ**: 'HQ Destroyed'
-  * **DESYNC_BANNED**: 'Sorry, you have been banned.  Please contact customer service at https://help.starwars.com/en_US/Star-Wars-Commander.\n\nYour player is {0}'
+  * **DESYNC_BANNED**: 'Sorry, you have been banned.  Please contact customer service at [url=https://support.starwarscommander.com/hc][00D4FFFF][u]https://support.starwarscommander.com/hc[/u][-][/url].\n\nYour player is {0}'
   * **DESYNC_BATCH_MAX_RETRY**: 'Connection Error!\nUnable to connect to the server. Check your internet connection and reload the game.'
   * **DESYNC_COMMAND_MAX_RETRY**: 'Command Failed!\nThe server was unable to execute the command. Please reload and try again. If the problem continues please contact customer support.'
   * **DESYNC_CRITICAL_COMMAND_FAIL**: 'Command Failed!\nThe server was unable to execute the command. Please reload and try again. If the problem continues please contact customer support.'
@@ -985,7 +985,7 @@ category: strings
   * **SETTINGS_CREDITS_AUDIO_SUBHEAD**: 'Audio'
   * **SETTINGS_CREDITS_DESIGN_LIST**: "BEN GILBERT • JEFF MCNAB • KYLE BARRETT • NATHAN HARLING • RUSS FAN\nSEAN 'SDF' DORNAN-FISH"
   * **SETTINGS_CREDITS_DESIGN_SUBHEAD**: 'Design'
-  * **SETTINGS_CREDITS_ENGINEERING_LIST**: "ADAM 'BREAD' SLESINGER • AKHIL PERUMPADAPPIL •\xa0ANDREW WAN\nDANIEL 'WOMPA' FRANK • DANIEL KAISER • DOMINIC LOBBIA • DON BUI \n ERIK YNIGO • JUSTIN BUTLER • KRUNAL SONI • MICHAEL NIGHTINGALE\nNIKHIL SHAH • PATRICK SHERMAN • RAMKRISH RAJA • SANTIAGO COFFEY\nSEAN CHUU • VLADAMIR CHURYUKIN"
+  * **SETTINGS_CREDITS_ENGINEERING_LIST**: "ADAM 'BREAD' SLESINGER • AKHIL PERUMPADAPPIL •\xa0AMITH TUDUR\nANDREW WAN • DANIEL 'WOMPA' FRANK • DANIEL KAISER\nDOMINIC LOBBIA • DON BUI • ERIK YNIGO • JUSTIN BUTLER\nKRUNAL SONI • MICHAEL NIGHTINGALE • NIKHIL SHAH • PATRICK SHERMAN\nRAMKRISH RAJA • SANTIAGO COFFEY • SEAN CHUU • VLADAMIR CHURYUKIN"
   * **SETTINGS_CREDITS_ENGINEERING_SUBHEAD**: 'Engineering'
   * **SETTINGS_CREDITS_LASTTHANKS_SUBHEAD**: 'Thanks for playing Star Wars™: Commander!'
   * **SETTINGS_CREDITS_LFFART_LIST**: 'HEZ CHORBA'
