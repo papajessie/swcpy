@@ -4,15 +4,6 @@ This file tries to list confirmed bugs in units, buildings and others. It won't 
 
 ## Definitely bugs
 
-### Prestige medic droids/repair droids
-
-The [medic droid](Medic.html) at level 11 doesn't heal units beyond the one he locked on at level 11 (Prestige).
-The [repair droid](Technician.html) at level 11 is probably affected too.
-
-  * **Analysis:** There are missing commas in the splash damage, leading to a bizarre splash percentage that certainly doesn't extend at radius 4 like normal.
-  * **Bug confirmed:** yes, by Tye Peer (JJO/J-Reb), video posted in line:SWC Quality Control on 2018-11-13 (12:13 UTC). https://www.youtube.com/watch?v=KKpv76ZfvMA
-  * **Bug confirmation process:** in chapter, dropped level 11 medic near heavy + hero guy, then level 9. Level 11 heals only the heavy it is attached to. 
-
 ### Imperial IDT Traps
 
 The [Imperial dropship trap](empireTrapDropship.html) at level 11 generates 5 stormtroopers instead of 4 heavy troopers. Only the Imperial faction suffers from this. See below for the Rebel IDT Trap.
@@ -108,3 +99,11 @@ The [Rebel A-A5 Speeder Truck](RebelTransportVehicle.html) also has no prestige 
   * **Analysis:** There is no prestige level. The fragment follows the same as the mercenaries for AA5 and ITT.
   * **Bug confirmed:** yes, multiple sources.
   * **Bug confirmation process:** (not required)
+## Older (fixed) bugs
+
+### Prestige medic droids/repair droids
+
+The [medic droid](Medic.html) at level 11 doesn't heal units beyond the one he locked on at level 11 (Prestige).
+The [repair droid](Technician.html) at level 11 is probably affected too.
+
+Bug fixed as of update 2003. Also the same bug existed for dewbacks (and not banthas).
