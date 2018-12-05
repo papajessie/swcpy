@@ -3,6 +3,12 @@ title: Index of conflicts
 ---
 # Conflicts
 
+  * [tournamenttitleconflictrancorerk20181213 (conflict_rancor_erk_20181213)](conflict_rancor_erk_20181213.html)
+  * [tournamenttitleconflictrancordan20181213 (conflict_rancor_dan_20181213)](conflict_rancor_dan_20181213.html)
+  * [tournamenttitleconflictrancortfa20181213 (conflict_rancor_tfa_20181213)](conflict_rancor_tfa_20181213.html)
+  * [tournamenttitleconflictrancoryav20181206 (conflict_rancor_yav_20181206)](conflict_rancor_yav_20181206.html)
+  * [tournamenttitleconflictrancorhth20181206 (conflict_rancor_hth_20181206)](conflict_rancor_hth_20181206.html)
+  * [tournamenttitleconflictrancortat20181206 (conflict_rancor_tat_20181206)](conflict_rancor_tat_20181206.html)
   * [tournamenttitleconflictyav20181129 (conflict_yav_20181129)](conflict_yav_20181129.html)
   * [tournamenttitleconflicterk20181129 (conflict_erk_20181129)](conflict_erk_20181129.html)
   * [tournamenttitleconflictdan20181129 (conflict_dan_20181129)](conflict_dan_20181129.html)
