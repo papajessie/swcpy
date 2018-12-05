@@ -2,14 +2,27 @@
 
 START=${1:-1000}
 
+rm -f /tmp/FORBIDDEN
+for FORBIDDEN in 1055 1056; do
+	echo "$FORBIDDEN" >> /tmp/FORBIDDEN
+done
+
 if [ "$START" -lt 1190 ]; then
-	SEQ="$(seq $START 1189) $(seq 2001 $(cat lastversion.txt))"
+    SEQQ="$(seq $START 1189) $(seq 2001 $(cat lastversion.txt))"
 else
-	SEQ="$(seq 2001 $(cat lastversion.txt))"
+    SEQQ="$(seq 2001 $(cat lastversion.txt))"
 fi
 
-echo $SEQ
-exit
+for i in $SEQQ; do
+    if grep -q ^$i\$ < /tmp/FORBIDDEN; then
+        true
+    else
+	SEQ="$SEQ $i"
+    fi
+done
+
+echo "$SEQ"
+
 
 cd swcdocs/
 if [ "$START" -le 1000 ]; then
