@@ -978,7 +978,7 @@ def main(argv):
         with open(filepath) as swcfile:
             swcdata=json.load(swcfile)
             otherdata['datePushed']=swcdata['datePushed']
-    for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk'):
+    for file in ('base','fue','olc','wts','war','reserved','cae','arc','epi','holo','prk','trp'):
         importfile(file)
     if 'mode' in config:
         mode=config['mode']
