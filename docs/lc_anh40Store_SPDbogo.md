@@ -41,6 +41,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
   * 380000 Credits
 
+### Fallback for HQ level 11
+
+  * 380000 Credits
+
 ### Fallback for HQ level 5
 
   * 33000 Credits
@@ -88,6 +92,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (2/13) 3 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

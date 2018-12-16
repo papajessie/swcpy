@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
 
 ## Pool "lcpool_rogue1v3Store_SPD2x" (x3 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/33) 10 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/33) 10 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
@@ -33,7 +33,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
   * (3/33) 8 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
   * (4/33) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/33) 10 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (1/33) 10 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
@@ -79,6 +79,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
   * (4/22) 10 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

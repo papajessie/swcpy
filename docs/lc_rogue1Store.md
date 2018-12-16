@@ -18,7 +18,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/11) 6 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (5/11) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/25) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/25) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
@@ -40,7 +40,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/11) 6 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (5/11) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/25) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (1/25) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
@@ -56,6 +56,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (5/25) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 
@@ -100,6 +104,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (6/17) 2 troop sample [Drabatan Saboteur](BigMouthAlien)
 
 ### Fallback for HQ level 10
+
+  * 30000 Credits
+
+### Fallback for HQ level 11
 
   * 30000 Credits
 

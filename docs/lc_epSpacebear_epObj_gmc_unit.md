@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -128,6 +132,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -157,14 +165,14 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 1 data fragments of unlockable air support [VT-49 Decimator](VT49)
   * (4/20) 1 data fragments of unlockable troop [MTV-7](MTV7)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/20) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (11/20) 1 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
   * (4/20) 1 data fragments of unlockable air support [HWK-290](HWK290)
   * (4/20) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/20) 1 data fragments of unlockable troop [Shock Trooper](Shock)
   * (11/20) 1 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
@@ -179,6 +187,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

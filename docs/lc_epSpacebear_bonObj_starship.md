@@ -27,6 +27,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -80,6 +84,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/23) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

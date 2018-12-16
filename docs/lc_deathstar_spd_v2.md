@@ -16,7 +16,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/8) 20 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/8) 20 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -27,7 +27,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
   * (1/8) 24 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/8) 24 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/8) 20 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/8) 20 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
@@ -39,6 +39,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 1 differen
   * (1/8) 24 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

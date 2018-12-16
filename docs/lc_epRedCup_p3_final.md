@@ -12,12 +12,12 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_epRedCup_p3_final" (x2 draws)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/2) 10 troop sample [A-LT Turret Slicer](EmpireP006Droid)
   * (1/2) 32 data fragments of unlockable troop [A-LT Turret Slicer](EmpireP006Droid)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/2) 10 troop sample [A-LT Turret Slicer](RebelP006Droid)
   * (1/2) 32 data fragments of unlockable troop [A-LT Turret Slicer](RebelP006Droid)
@@ -33,6 +33,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (1/2) 32 data fragments of unlockable air support [HWK-290](HWK290)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

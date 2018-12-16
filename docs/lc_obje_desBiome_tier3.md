@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -112,7 +116,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/4) 3 data fragments of unlockable troop [Shock Trooper](Shock)
   * (2/4) 1 troop sample [Jump Trooper](EmpireJumptrooper)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/6) 3 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (1/6) 3 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
@@ -134,7 +138,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/4) 3 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (2/4) 1 troop sample [Jetpack Trooper](RebelJetpackTrooper)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/6) 3 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (1/6) 3 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
@@ -151,6 +155,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/9) 4 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -189,6 +197,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/3) 2 troop sample [Jump Trooper](EmpireJumptrooper)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 

@@ -23,14 +23,14 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (2/11) 4 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
   * (9/11) 3 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (2/22) 4 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
   * (2/22) 4 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
   * (9/22) 3 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
   * (9/22) 3 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (2/22) 4 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
   * (2/22) 4 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
@@ -38,6 +38,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (9/22) 3 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 
@@ -72,7 +76,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/13) 4 data fragments of unlockable air support [HWK-290](HWK290)
   * (3/13) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/22) 4 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
   * (1/22) 5 data fragments of unlockable troop [Imperial Starfighter Pilot](TiePilot)
@@ -95,7 +99,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/13) 4 data fragments of unlockable air support [VT-49 Decimator](VT49)
   * (3/13) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/22) 4 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
   * (1/22) 5 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
@@ -110,6 +114,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/22) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

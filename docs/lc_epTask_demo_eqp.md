@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -114,7 +118,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/18) 1 data fragments of unlockable troop [Demolition Droid](RebelDemoDroid)
   * (5/18) 2 troop sample [Demolition Droid](RebelDemoDroid)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (3/24) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (3/24) 2 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
@@ -124,7 +128,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/24) 1 data fragments of unlockable troop [Demolition Droid](RebelDemoDroid)
   * (5/24) 2 troop sample [Demolition Droid](RebelDemoDroid)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (3/24) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (3/24) 2 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
@@ -143,6 +147,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/18) 2 troop sample [LIN Demolitionmech](EmpireDemoDroid)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 
@@ -172,7 +180,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -193,7 +201,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -215,6 +223,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

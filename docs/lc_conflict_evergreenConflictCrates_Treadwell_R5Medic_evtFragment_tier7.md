@@ -23,6 +23,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 300000 Credits
 
+### Fallback for HQ level 11
+
+  * 300000 Credits
+
 ### Fallback for HQ level 5
 
   * 27000 Credits
@@ -49,7 +53,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 120000 Credits
 
-### On Dandoran or Hoth or Tatooine for HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ levels 10-11
 
   * (1/1) 364000 Credits
 
@@ -81,7 +85,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 160000 Credits
 
-### On Er'Kit or Takodana or Yavin 4 for HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ levels 10-11
 
   * (1/1) 364000 Alloy
 
@@ -94,6 +98,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/1) 76000 Alloy
 
 ### Fallback for HQ level 10
+
+  * 364000 Credits
+
+### Fallback for HQ level 11
 
   * 364000 Credits
 
@@ -119,7 +127,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_shrd_conf_eqp_tier7" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/42) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/42) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -140,7 +148,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/42) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
   * (5/42) 3 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/42) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/42) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -170,6 +178,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/1) 36000 Credits
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

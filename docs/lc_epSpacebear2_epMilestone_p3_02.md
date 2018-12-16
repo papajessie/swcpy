@@ -23,7 +23,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 5000 Contraband
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (1/1) 22500 Contraband
 
@@ -36,6 +36,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (1/1) 75000 Alloy
 
 ### Fallback for HQ level 10
+
+  * 110000 Credits
+
+### Fallback for HQ level 11
 
   * 110000 Credits
 

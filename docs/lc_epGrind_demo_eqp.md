@@ -25,6 +25,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -59,7 +63,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/17) 4 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (3/17) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/23) 5 data fragments of unlockable troop [LIN Demolitionmech](EmpireDemoDroid)
   * (1/23) 6 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
@@ -85,7 +89,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/17) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (3/17) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/23) 5 data fragments of unlockable troop [Demolition Droid](RebelDemoDroid)
   * (1/23) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
@@ -100,6 +104,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/23) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

@@ -23,6 +23,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits

@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_currency_t4" (x1 draw)
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 130 Contraband
   * (3/51) 165 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 40000 Credits
 
+### Fallback for HQ level 11
+
+  * 40000 Credits
+
 ### Fallback for HQ level 5
 
   * 6000 Credits
@@ -110,7 +114,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/62) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
   * (1/62) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
@@ -139,7 +143,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/62) 20 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (6/62) 20 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/62) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireMortarTurretDamage)
   * (1/62) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
@@ -169,6 +173,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (6/62) 20 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
 
 ### Fallback for HQ level 10
+
+  * 30000 Credits
+
+### Fallback for HQ level 11
 
   * 30000 Credits
 
@@ -207,6 +215,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/3) 3 troop sample [Shadow Rancor](EmpireShadowRancor)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 

@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_eqpTutorial1" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 40 data fragments of equipment [Reinforced HQ Bracing](eqpEmpireHQHealth)
 
@@ -19,11 +19,15 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 40 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 
@@ -53,15 +57,19 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 16 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 16 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

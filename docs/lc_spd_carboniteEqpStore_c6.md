@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 6 draws from 1 differen
 
 ## Pool "lcpool_shrd_st1" (x6 draws)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpRebelRapidFireTurretDamage)
@@ -45,7 +45,7 @@ This crate expires after 7d. The contents are decided by 6 draws from 1 differen
 
   * No items, see the fallback option below
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireMortarTurretDamage)
   * (1/41) 10 data fragments of equipment [Enhanced Heat Sink](eqpEmpireRapidFireTurretDamage)
@@ -75,6 +75,10 @@ This crate expires after 7d. The contents are decided by 6 draws from 1 differen
   * (7/41) 20 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

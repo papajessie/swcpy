@@ -23,6 +23,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -45,7 +49,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_creditsAlloy_conf5" (x1 draw)
 
-### On Dandoran or Hoth or Tatooine for HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ levels 10-11
 
   * (1/1) 240000 Credits
 
@@ -61,7 +65,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 80000 Credits
 
-### On Er'Kit or Takodana or Yavin 4 for HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ levels 10-11
 
   * (1/1) 240000 Alloy
 
@@ -97,6 +101,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 240000 Credits
 
+### Fallback for HQ level 11
+
+  * 240000 Credits
+
 ### Fallback for HQ level 5
 
   * 21600 Credits
@@ -123,7 +131,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -144,7 +152,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -166,6 +174,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

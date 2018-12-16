@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_epRogue1_epMilestone_p1_01" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 10 troop sample [Stolen TX-225](RebelHovertankSample)
 
@@ -19,7 +19,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 5 troop sample [Stolen TX-225](RebelHovertankSample)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 10 troop sample [TX-225](EmpireHovertankSample)
 
@@ -28,6 +28,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (1/1) 5 troop sample [TX-225](EmpireHovertankSample)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

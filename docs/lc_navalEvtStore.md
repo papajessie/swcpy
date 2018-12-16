@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_navalEvtStore_shrd" (x2 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/23) 6 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/23) 6 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
@@ -40,7 +40,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/17) 5 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/17) 5 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/23) 6 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
   * (1/23) 6 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -69,6 +69,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/17) 5 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

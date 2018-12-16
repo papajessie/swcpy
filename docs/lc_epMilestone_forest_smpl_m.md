@@ -11,11 +11,11 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_epMilestone_forest_smpl_m" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 10 troop sample [Tognath Marksman](EmpireTognath)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 10 troop sample [Tognath Marksman](RebelTognath)
 
@@ -24,6 +24,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (1/1) 75000 Alloy
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

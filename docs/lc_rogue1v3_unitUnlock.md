@@ -25,7 +25,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/22) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (4/22) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/33) 4 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (1/33) 4 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
@@ -46,7 +46,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (3/33) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (4/33) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/33) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/33) 4 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
@@ -83,6 +83,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
   * 380000 Credits
 
+### Fallback for HQ level 11
+
+  * 380000 Credits
+
 ### Fallback for HQ level 5
 
   * 33000 Credits
@@ -114,6 +118,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
   * (1/1) 15 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

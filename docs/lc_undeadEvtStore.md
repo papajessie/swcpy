@@ -23,7 +23,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/15) 4 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
   * (3/15) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/19) 6 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
   * (1/19) 6 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
@@ -47,7 +47,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/15) 4 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (3/15) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/19) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/19) 6 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
@@ -61,6 +61,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/19) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

@@ -29,7 +29,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/6) 800000 Alloy
   * (1/6) 800000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (1/6) 1500000 Alloy
   * (1/6) 1500000 Credits
@@ -69,6 +69,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 3000000 Credits
 
+### Fallback for HQ level 11
+
+  * 3000000 Credits
+
 ### Fallback for HQ level 5
 
   * 150000 Credits
@@ -99,7 +103,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 16 data fragments of unlockable troop [MTV-7](MTV7)
   * (4/20) 16 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (4/36) 10 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (4/36) 10 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
@@ -111,7 +115,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/36) 16 data fragments of unlockable troop [MTV-7](MTV7)
   * (4/36) 16 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (4/36) 10 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (4/36) 10 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
@@ -132,6 +136,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 16 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
 ### Fallback for HQ level 10
+
+  * 3000000 Credits
+
+### Fallback for HQ level 11
 
   * 3000000 Credits
 
@@ -162,6 +170,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/1) 10 Reputation
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

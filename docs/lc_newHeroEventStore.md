@@ -36,7 +36,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/21) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (3/21) 5 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/31) 4 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
   * (1/31) 6 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
@@ -52,7 +52,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/31) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (3/31) 5 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/31) 4 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
   * (1/31) 6 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
@@ -69,6 +69,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/31) 5 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

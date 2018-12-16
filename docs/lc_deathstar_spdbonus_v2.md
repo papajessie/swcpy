@@ -24,7 +24,7 @@ This crate expires after 7d. The contents are decided by 7 draws from 1 differen
   * (3/17) 4 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (3/17) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/28) 5 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/28) 5 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
@@ -54,7 +54,7 @@ This crate expires after 7d. The contents are decided by 7 draws from 1 differen
   * (3/17) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (3/17) 4 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/28) 5 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
   * (1/28) 5 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
@@ -73,6 +73,10 @@ This crate expires after 7d. The contents are decided by 7 draws from 1 differen
   * (3/28) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

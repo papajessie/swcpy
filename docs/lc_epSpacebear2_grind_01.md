@@ -13,7 +13,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
 ## Pool "lcpool_epSpacebear2_grind_01" (x1 draw)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (2/30) 4 data fragments of unlockable troop [Bufopel Protector](FurCoat)
   * (2/30) 4 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
@@ -36,7 +36,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (8/20) 3 data fragments of unlockable troop [Bufopel Protector](FurCoat)
   * (8/20) 3 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (2/30) 4 data fragments of unlockable troop [614-AvA](614AVA)
   * (2/30) 4 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
@@ -46,6 +46,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (8/30) 3 data fragments of unlockable troop [Ongidae Oppressor](ApeMan)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -71,7 +75,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
 ## Pool "lcpool_epSpacebear2_grind_02" (x3 draws)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/34) 6 data fragments of unlockable troop [Ithorian Infiltrator](IthorianInfiltrator)
   * (1/34) 6 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
@@ -121,7 +125,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (3/26) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/26) 4 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/34) 6 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (1/34) 6 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
@@ -172,6 +176,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (3/32) 4 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

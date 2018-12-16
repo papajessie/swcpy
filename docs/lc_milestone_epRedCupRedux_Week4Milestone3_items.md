@@ -15,11 +15,11 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 10 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 10 air support sample [U-wing Starfighter](UWingSample)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 10 air support sample [TIE Brute](BubbaTieSample)
 
@@ -28,6 +28,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (1/1) 10 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
 
 ### Fallback for HQ level 10
+
+  * 75000 Credits
+
+### Fallback for HQ level 11
 
   * 75000 Credits
 

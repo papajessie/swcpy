@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -110,7 +114,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/38) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -131,7 +135,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/38) 2 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (5/38) 2 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/38) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/38) 2 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -153,6 +157,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/38) 2 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 
@@ -178,7 +186,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_smpl_t9" (x1 draw)
 
-### Empire on Dandoran for HQ levels 9-10
+### Empire on Dandoran for HQ levels 9-11
 
   * (1/65) 1 air support sample [TIE Advanced](TieAdvanced)
   * (1/65) 1 air support sample [TIE Defender](TieDefender)
@@ -323,7 +331,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/60) 10 Crystals
   * (5/60) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Empire on Er'Kit for HQ levels 9-10
+### Empire on Er'Kit for HQ levels 9-11
 
   * (1/67) 1 air support sample [TIE Defender](TieDefender)
   * (2/67) 1 air support sample [Imperial Dropship Transport](ImperialDropship)
@@ -378,7 +386,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/59) 10 Crystals
   * (5/59) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Rebellion on Er'Kit for HQ levels 9-10
+### Rebellion on Er'Kit for HQ levels 9-11
 
   * (1/67) 1 air support sample [B-wing Starfighter](BWing)
   * (2/67) 1 air support sample [E-50 Landseer](RebelSupplyDrop)
@@ -480,7 +488,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/55) 10 Crystals
   * (5/55) 4 troop sample [Heavy Soldier](HeavyRebel)
 
-### Rebellion on Hoth for HQ levels 9-10
+### Rebellion on Hoth for HQ levels 9-11
 
   * (1/67) 1 air support sample [B-wing Starfighter](BWing)
   * (2/67) 1 air support sample [E-50 Landseer](RebelSupplyDrop)
@@ -599,7 +607,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/57) 10 Crystals
   * (5/57) 4 troop sample [Heavy Soldier](HeavyRebel)
 
-### Empire on Hoth for HQ levels 9-10
+### Empire on Hoth for HQ levels 9-11
 
   * (1/67) 1 air support sample [TIE Defender](TieDefender)
   * (2/67) 1 air support sample [Imperial Dropship Transport](ImperialDropship)
@@ -690,7 +698,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/62) 10 Crystals
   * (5/62) 4 troop sample [Heavy Soldier](HeavyRebel)
 
-### Empire on Takodana for HQ levels 9-10
+### Empire on Takodana for HQ levels 9-11
 
   * (1/64) 1 air support sample [TIE Defender](TieDefender)
   * (2/64) 1 air support sample [Imperial Dropship Transport](ImperialDropship)
@@ -784,7 +792,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/47) 10 Crystals
   * (5/47) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Rebellion on Takodana for HQ levels 9-10
+### Rebellion on Takodana for HQ levels 9-11
 
   * (1/64) 1 air support sample [B-wing Starfighter](BWing)
   * (2/64) 1 air support sample [E-50 Landseer](RebelSupplyDrop)
@@ -839,7 +847,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/62) 10 Crystals
   * (5/62) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Rebellion on Tatooine for HQ levels 9-10
+### Rebellion on Tatooine for HQ levels 9-11
 
   * (1/67) 1 air support sample [B-wing Starfighter](BWing)
   * (2/67) 1 air support sample [E-50 Landseer](RebelSupplyDrop)
@@ -889,7 +897,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/47) 10 Crystals
   * (5/47) 4 troop sample [Heavy Soldier](HeavyRebel)
 
-### Rebellion on Yavin 4 for HQ levels 9-10
+### Rebellion on Yavin 4 for HQ levels 9-11
 
   * (1/66) 1 air support sample [B-wing Starfighter](BWing)
   * (2/66) 1 air support sample [E-50 Landseer](RebelSupplyDrop)
@@ -1114,7 +1122,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/54) 10 Crystals
   * (5/54) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Rebellion on Dandoran for HQ levels 9-10
+### Rebellion on Dandoran for HQ levels 9-11
 
   * (1/65) 1 air support sample [A-wing Starfighter](AWing)
   * (1/65) 1 air support sample [B-wing Starfighter](BWing)
@@ -1188,7 +1196,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/38) 4 troop sample [Heavy Soldier](HeavyRebel)
   * (5/38) 5 Crystals
 
-### Empire on Yavin 4 for HQ levels 9-10
+### Empire on Yavin 4 for HQ levels 9-11
 
   * (1/66) 1 air support sample [TIE Defender](TieDefender)
   * (2/66) 1 air support sample [Imperial Dropship Transport](ImperialDropship)
@@ -1256,7 +1264,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/45) 10 Crystals
   * (5/45) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
-### Empire on Tatooine for HQ levels 9-10
+### Empire on Tatooine for HQ levels 9-11
 
   * (1/67) 1 air support sample [TIE Defender](TieDefender)
   * (2/67) 1 air support sample [Imperial Dropship Transport](ImperialDropship)
@@ -1609,6 +1617,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/56) 4 troop sample [Heavy Stormtrooper](HeavyStorm)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

@@ -24,6 +24,10 @@ This crate expires after 1d. The contents are decided by 2 draws from 1 differen
 
   * 5 Crystals
 
+### Fallback for HQ level 11
+
+  * 5 Crystals
+
 ### Fallback for HQ level 5
 
   * 5 Crystals

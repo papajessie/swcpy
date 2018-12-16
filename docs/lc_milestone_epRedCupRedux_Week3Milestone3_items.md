@@ -15,7 +15,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 10 troop sample [Tognath Marksman](EmpireTognath)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/1) 20 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
@@ -23,11 +23,15 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 10 troop sample [Tognath Marksman](RebelTognath)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/1) 20 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
 ### Fallback for HQ level 10
+
+  * 75000 Credits
+
+### Fallback for HQ level 11
 
   * 75000 Credits
 

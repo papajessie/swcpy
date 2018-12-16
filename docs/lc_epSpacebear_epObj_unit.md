@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -121,6 +125,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/20) 1 data fragments of unlockable troop [AT-RT Walker](ATRT)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 
@@ -165,6 +173,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/19) 3 troop sample [Bufopel Protector](FurCoat)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

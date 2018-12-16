@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
 
 ## Pool "lcpool_heroConflict_SPD1" (x3 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/26) 12 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
   * (1/26) 12 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
@@ -31,7 +31,7 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/26) 12 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
   * (1/26) 12 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
@@ -47,6 +47,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 1 differen
   * (3/26) 8 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

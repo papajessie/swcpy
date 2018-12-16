@@ -27,7 +27,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/27) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/27) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/26) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpRebelFactorySummonHeavy)
   * (1/26) 4 data fragments of equipment [Guard Reserve Light Infantry](eqpRebelBarracksSummonLight)
@@ -62,7 +62,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (3/27) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (3/27) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/26) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpEmpireFactorySummonHeavy)
   * (1/26) 4 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
@@ -83,6 +83,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (2/26) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

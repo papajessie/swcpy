@@ -19,6 +19,10 @@ This crate expires after 14d. The contents are one draw from one pool only.
 
   * 100 Crystals
 
+### Fallback for HQ level 11
+
+  * 100 Crystals
+
 ### Fallback for HQ level 5
 
   * 100 Crystals

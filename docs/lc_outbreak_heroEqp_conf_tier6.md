@@ -19,7 +19,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 32800 Credits
 
-### On Dandoran or Hoth or Tatooine for HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ levels 10-11
 
   * (1/1) 152000 Credits
 
@@ -43,7 +43,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 32800 Alloy
 
-### On Er'Kit or Takodana or Yavin 4 for HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ levels 10-11
 
   * (1/1) 152000 Alloy
 
@@ -60,6 +60,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/1) 68000 Alloy
 
 ### Fallback for HQ level 10
+
+  * 304000 Credits
+
+### Fallback for HQ level 11
 
   * 304000 Credits
 
@@ -89,7 +93,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1 data fragments of unlockable troop [Elite AT-TE Walker](HeroATTE)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 1 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
 
@@ -97,11 +101,15 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1 data fragments of unlockable troop [Death Trooper](HeroDeathTrooper)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 1 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -127,7 +135,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_shrd_conf_eqp_tier5" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/42) 1 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
   * (1/42) 1 data fragments of equipment [Modified INT-4 Interceptor](eqpEmpireArcticINT4)
@@ -144,7 +152,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 21600 Credits
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/42) 1 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/42) 1 data fragments of equipment [Tauntaun Rider](eqpRebelTauntaun)
@@ -162,6 +170,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/1) 21600 Alloy
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

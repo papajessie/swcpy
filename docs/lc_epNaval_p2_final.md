@@ -15,7 +15,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 32 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
 
@@ -23,11 +23,15 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 32 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

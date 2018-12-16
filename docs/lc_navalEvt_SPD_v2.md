@@ -13,7 +13,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
 ## Pool "lcpool_navalEvt_A_shrd" (x3 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/6) 10 data fragments of equipment [Naval Officer](eqpEmpireNavalOfficer)
   * (1/6) 10 data fragments of equipment [Rodian Recon Sniper](eqpEmpireRodian)
@@ -26,7 +26,7 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/6) 10 data fragments of equipment [Millennium Falcon Support](eqpRebelChewie)
   * (1/6) 10 data fragments of equipment [Sullustan Recon Sharpshooter](eqpRebelSullustan)
@@ -36,6 +36,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (1/6) 8 data fragments of unlockable troop [Alliance Starfighter Pilot](XWingPilot)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 
@@ -65,14 +69,14 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
 
   * No items, see the fallback option below
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/4) 12 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/4) 12 data fragments of equipment [Cold Weather AT-MP Mark III](eqpEmpireArcticATMP)
   * (1/4) 12 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
   * (1/4) 12 data fragments of unlockable air support [VT-49 Decimator](VT49)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/4) 12 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
   * (1/4) 12 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -80,6 +84,10 @@ This crate expires after 7d. The contents are decided by 4 draws from 2 differen
   * (1/4) 12 data fragments of unlockable air support [HWK-290](HWK290)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

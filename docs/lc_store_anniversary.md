@@ -12,7 +12,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
 
 ## Pool "lcpool_anniversary_store" (x2 draws)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/60) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (1/60) 6 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
@@ -39,7 +39,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (4/60) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (4/60) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/60) 6 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
   * (1/60) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
@@ -93,6 +93,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (4/28) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

@@ -11,12 +11,12 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_forBiome_JetpackStore_shrd" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
   * (2/4) 6 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
   * (2/4) 6 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
@@ -36,6 +36,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (1/4) 6 data fragments of unlockable air support [VT-49 Decimator](VT49)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 
@@ -61,7 +65,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_forBiome_JetpackStore_shrd2" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/14) 4 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
   * (1/14) 6 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -72,7 +76,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (2/14) 6 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (2/14) 6 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/14) 4 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/14) 6 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
@@ -98,6 +102,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (1/4) 6 data fragments of unlockable air support [VT-49 Decimator](VT49)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

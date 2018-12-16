@@ -15,7 +15,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 1200 Alloy
 
-### On Er'Kit or Takodana or Yavin 4 for HQ level 10
+### On Er'Kit or Takodana or Yavin 4 for HQ levels 10-11
 
   * (1/1) 6000 Alloy
 
@@ -55,11 +55,15 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * (1/1) 2560 Alloy
 
-### On Dandoran or Hoth or Tatooine for HQ level 10
+### On Dandoran or Hoth or Tatooine for HQ levels 10-11
 
   * (1/1) 6000 Credits
 
 ### Fallback for HQ level 10
+
+  * 6000 Credits
+
+### Fallback for HQ level 11
 
   * 6000 Credits
 
@@ -95,7 +99,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/2) 5000 Alloy
   * (1/2) 5000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (1/2) 7500 Alloy
   * (1/2) 7500 Credits
@@ -116,6 +120,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/2) 1500 Credits
 
 ### Fallback for HQ level 10
+
+  * 7500 Credits
+
+### Fallback for HQ level 11
 
   * 7500 Credits
 
@@ -145,7 +153,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * No items, see the fallback option below
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/13) 2 data fragments of equipment [Enhanced Heat Sink](eqpRebelBurstTurretDamage)
   * (1/13) 2 data fragments of equipment [Enhanced Heat Sink](eqpRebelMortarTurretDamage)
@@ -161,7 +169,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/13) 6 data fragments of equipment [Reinforced HQ Bracing](eqpRebelHQHealth)
   * (1/13) 6 data fragments of equipment [Reinforced Wall Bracing](eqpRebelWallHealth)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/13) 2 data fragments of equipment [Enhanced Heat Sink](eqpEmpireBurstTurretDamage)
   * (1/13) 2 data fragments of equipment [Enhanced Heat Sink](eqpEmpireMortarTurretDamage)
@@ -178,6 +186,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/13) 6 data fragments of equipment [Reinforced Wall Bracing](eqpEmpireWallHealth)
 
 ### Fallback for HQ level 10
+
+  * 7500 Credits
+
+### Fallback for HQ level 11
 
   * 7500 Credits
 

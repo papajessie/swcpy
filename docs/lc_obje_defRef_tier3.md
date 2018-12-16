@@ -32,7 +32,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 225000 Credits
 
+### Fallback for HQ level 11
+
+  * 225000 Credits
+
 ### Fallback for HQ level 5
 
   * 25000 Credits
@@ -124,7 +128,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (4/15) 3 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (4/15) 3 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/22) 4 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
@@ -138,7 +142,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/22) 3 data fragments of equipment [Guard Reserve Light Infantry](eqpEmpireBarracksSummonLight)
   * (3/22) 3 data fragments of equipment [Guard Reserve Melee Bruisers](eqpEmpireBarracksSummonMedium)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/22) 4 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
   * (1/22) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
@@ -153,6 +157,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/22) 3 data fragments of equipment [Guard Reserve Melee Bruisers](eqpRebelBarracksSummonMedium)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -195,6 +203,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/11) 2 troop sample [Iakaru Warrior](IakaruWarrior)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 

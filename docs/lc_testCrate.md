@@ -25,6 +25,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
 
   * 25000 Credits
 
+### Fallback for HQ level 11
+
+  * 25000 Credits
+
 ### Fallback for HQ level 5
 
   * 3750 Credits
@@ -61,6 +65,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
 
   * 25000 Credits
 
+### Fallback for HQ level 11
+
+  * 25000 Credits
+
 ### Fallback for HQ level 5
 
   * 3750 Credits
@@ -94,7 +102,7 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
   * (1/8) 4000 Credits
   * (1/8) 4000 Crystals
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (1/8) 6000 Alloy
   * (1/8) 6000 Contraband
@@ -153,6 +161,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
 
   * 25000 Credits
 
+### Fallback for HQ level 11
+
+  * 25000 Credits
+
 ### Fallback for HQ level 5
 
   * 3750 Credits
@@ -186,6 +198,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
   * (1/2) 50 data fragments of equipment [Rebel Commando](eqpRebelPentagonSoldier)
 
 ### Fallback for HQ level 10
+
+  * 25000 Credits
+
+### Fallback for HQ level 11
 
   * 25000 Credits
 
@@ -225,6 +241,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
 
   * 25000 Credits
 
+### Fallback for HQ level 11
+
+  * 25000 Credits
+
 ### Fallback for HQ level 5
 
   * 3750 Credits
@@ -261,6 +281,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
 
   * 25000 Credits
 
+### Fallback for HQ level 11
+
+  * 25000 Credits
+
 ### Fallback for HQ level 5
 
   * 3750 Credits
@@ -288,6 +312,10 @@ This crate expires after 1d. The contents are one draw from each of the 7 pools.
   * (1/1) 10 Reputation
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

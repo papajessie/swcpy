@@ -44,7 +44,7 @@ This crate expires after 7d. The contents are decided by 10 draws from 1 differe
   * (3/12) 8 data fragments of unlockable air support [AT-Hauler](EmpireHauler)
   * (3/12) 8 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/18) 10 data fragments of equipment [U-wing Starfighter](eqpRebelUWing)
   * (1/18) 10 data fragments of unlockable air support [Salvaged AT-Hauler](RebelHauler)
@@ -55,7 +55,7 @@ This crate expires after 7d. The contents are decided by 10 draws from 1 differe
   * (3/18) 8 data fragments of unlockable troop [A-LT Turret Slicer](RebelP006Droid)
   * (3/18) 8 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/18) 10 data fragments of equipment [TIE Brute](eqpEmpireBubbaTieFighter)
   * (1/18) 10 data fragments of unlockable air support [AT-Hauler](EmpireHauler)
@@ -67,6 +67,10 @@ This crate expires after 7d. The contents are decided by 10 draws from 1 differe
   * (3/18) 8 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

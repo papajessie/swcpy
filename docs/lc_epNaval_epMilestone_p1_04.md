@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_epNaval_epMilestone_p1_04" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 10 data fragments of unlockable air support [A-wing Starfighter](AWing)
 
@@ -19,7 +19,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
   * (1/1) 10 air support sample [TIE Advanced](TieAdvanced)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 10 data fragments of unlockable air support [TIE Advanced](TieAdvanced)
 
@@ -28,6 +28,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (1/1) 10 air support sample [A-wing Starfighter](AWing)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

@@ -34,14 +34,14 @@ This crate expires after 7d. The contents are decided by 5 draws from 2 differen
   * (9/22) 3 data fragments of equipment [TX-225](eqpEmpireHovertank)
   * (9/22) 3 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ levels 8-10
+### Empire for HQ levels 8-11
 
   * (2/22) 4 data fragments of equipment [TX-225](eqpEmpireHovertank)
   * (2/22) 4 data fragments of unlockable troop [Security Droid](SecurityDroid)
   * (9/22) 3 data fragments of equipment [TX-225](eqpEmpireHovertank)
   * (9/22) 3 data fragments of unlockable troop [Security Droid](SecurityDroid)
 
-### Rebellion for HQ levels 8-10
+### Rebellion for HQ levels 8-11
 
   * (2/22) 4 data fragments of equipment [Stolen TX-225](eqpRebelHovertank)
   * (2/22) 4 data fragments of unlockable troop [Drabatan Saboteur](BigMouthAlien)
@@ -73,6 +73,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 2 differen
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -95,7 +99,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 2 differen
 
 ## Pool "lcpool_epRogue1_grind_02" (x3 draws)
 
-### Empire for HQ levels 7-10
+### Empire for HQ levels 7-11
 
   * (1/28) 4 data fragments of unlockable air support [TIE Striker](AtmosMig)
   * (1/28) 5 data fragments of unlockable air support [TIE Striker](AtmosMig)
@@ -111,7 +115,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 2 differen
   * (3/28) 4 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (3/28) 4 data fragments of unlockable troop [Tognath Marksman](EmpireTognath)
 
-### Rebellion for HQ levels 7-10
+### Rebellion for HQ levels 7-11
 
   * (1/28) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (1/28) 5 data fragments of unlockable air support [Fang Fighter](FangFighter)
@@ -172,6 +176,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 2 differen
   * (3/9) 4 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

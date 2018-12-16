@@ -31,6 +31,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 40000 Credits
 
+### Fallback for HQ level 11
+
+  * 40000 Credits
+
 ### Fallback for HQ level 5
 
   * 6000 Credits
@@ -53,7 +57,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_anh40rr_shrd" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/14) 1 data fragments of equipment [Artoo  Threepio](eqpRebelArtoo)
   * (1/14) 1 data fragments of unlockable troop [WED Treadwell Repair Droid](Treadwell)
@@ -80,7 +84,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/9) 2 data fragments of unlockable troop [Kubaz Invader](KubazInvader)
   * (2/9) 2 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/14) 1 data fragments of equipment [Lord Vader](eqpEmpireLordVader)
   * (1/14) 1 data fragments of unlockable troop [Imperial Astromedic](R5Medic)
@@ -92,6 +96,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/14) 2 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -138,7 +146,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -187,6 +195,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 60000 Credits
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

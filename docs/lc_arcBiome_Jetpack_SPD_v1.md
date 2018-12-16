@@ -21,12 +21,12 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
   * (2/4) 6 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (2/4) 6 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
@@ -39,6 +39,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 
@@ -64,7 +68,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
 ## Pool "lcpool_arcBiome_JetpackStore_shrd2" (x2 draws)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/14) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
   * (1/14) 6 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
@@ -82,7 +86,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (1/4) 6 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/14) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
   * (1/14) 6 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -101,6 +105,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 
@@ -126,7 +134,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
 ## Pool "lcpool_arcBiome_Jetpack_SPD1" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
 
@@ -134,11 +142,15 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
   * No items, see the fallback option below
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

@@ -35,7 +35,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 84000 Alloy
   * (7/51) 84000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 300 Contraband
   * (3/51) 380 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -128,6 +132,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 50000 Credits
 
+### Fallback for HQ level 11
+
+  * 50000 Credits
+
 ### Fallback for HQ level 5
 
   * 7500 Credits
@@ -150,7 +158,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_epTask_shrd_t3" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (3/84) 1 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
   * (3/84) 1 data fragments of equipment [Captain Han Solo](eqpRebelCaptainSolo)
@@ -181,7 +189,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/84) 1 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
   * (3/84) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (3/84) 1 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (3/84) 1 data fragments of equipment [Arctic Jump Trooper](eqpEmpireSnowJumpTrooper)
@@ -235,6 +243,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/24) 1 data fragments of unlockable troop [Tognath Marksman](RebelTognath)
 
 ### Fallback for HQ level 10
+
+  * 50000 Credits
+
+### Fallback for HQ level 11
 
   * 50000 Credits
 

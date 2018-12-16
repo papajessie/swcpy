@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
 
 ## Pool "lcpool_defRef_store1" (x1 draw)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/13) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireBarracksSummonHeavy)
   * (1/13) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
@@ -33,7 +33,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/15) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/15) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/13) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
   * (1/13) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpRebelBarracksSummonHeavy)
@@ -56,6 +56,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/15) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 
@@ -96,7 +100,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/27) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (3/27) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/25) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpRebelFactorySummonLight)
   * (1/25) 4 data fragments of equipment [Guard Reserve Anti-vehicle](eqpRebelBarracksSummonHeavy)
@@ -130,7 +134,7 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (3/27) 6 data fragments of unlockable troop [Johhar Kessen](EmpireJohhar)
   * (3/27) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/25) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireBarracksSummonHeavy)
   * (1/25) 4 data fragments of equipment [Guard Reserve Anti-infantry](eqpEmpireFactorySummonLight)
@@ -150,6 +154,10 @@ This crate expires after 7d. The contents are one draw from each of the 2 pools.
   * (2/25) 8 data fragments of equipment [Guard Reserve Melee Bruisers](eqpEmpireBarracksSummonMedium)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

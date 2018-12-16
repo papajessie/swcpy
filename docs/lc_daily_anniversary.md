@@ -11,7 +11,7 @@ This crate expires after 7d. The contents are one draw from one pool only.
 
 ## Pool "lcpool_anniversary" (x1 draw)
 
-### For HQ levels 6-10
+### For HQ levels 6-11
 
   * (1/7) 10 Crystals
   * (1/7) 15 Crystals
@@ -30,6 +30,10 @@ This crate expires after 7d. The contents are one draw from one pool only.
   * (2/6) 15 Crystals
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 

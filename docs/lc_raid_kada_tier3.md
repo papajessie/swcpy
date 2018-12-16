@@ -44,7 +44,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 26400 Alloy
   * (7/51) 26400 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 170 Contraband
   * (3/51) 210 Contraband
@@ -84,6 +84,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
   * 75000 Credits
 
+### Fallback for HQ level 11
+
+  * 75000 Credits
+
 ### Fallback for HQ level 5
 
   * 10000 Credits
@@ -106,7 +110,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_rogue1_shrd" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/24) 2 data fragments of equipment [Gigoran Fighter](eqpRebelShaggyAlien)
   * (1/24) 2 data fragments of equipment [Senator Leia Organa](eqpRebelDiplomat)
@@ -121,7 +125,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (3/24) 2 data fragments of unlockable air support [Fang Fighter](FangFighter)
   * (5/24) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/24) 2 data fragments of equipment [AT-ACT](eqpEmpireCargoGreatDane)
   * (1/24) 2 data fragments of equipment [Heavy Shoretrooper](eqpEmpirePentagonHeavyTrooper)
@@ -151,6 +155,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (5/11) 4 data fragments of unlockable air support [Fang Fighter](FangFighter)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 
@@ -195,6 +203,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/31) 1 troop sample [Security Droid](SecurityDroid)
 
 ### Fallback for HQ level 10
+
+  * 30000 Credits
+
+### Fallback for HQ level 11
 
   * 30000 Credits
 

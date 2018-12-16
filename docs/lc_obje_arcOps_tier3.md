@@ -17,7 +17,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/3) 3 data fragments of unlockable troop [AT-RT Walker](ATRT)
   * (1/3) 3 data fragments of unlockable troop [Iakaru Warrior](IakaruWarrior)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/10) 2 troop sample [Jump Trooper](EmpireJumptrooper)
   * (1/10) 3 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -34,7 +34,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/3) 3 data fragments of unlockable troop [IG-86 Assassin Droid](IG86Droid)
   * (1/3) 3 data fragments of unlockable troop [MTV-7](MTV7)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/10) 2 troop sample [Jetpack Trooper](RebelJetpackTrooper)
   * (1/10) 3 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
@@ -46,6 +46,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/10) 4 data fragments of equipment [Arctic Jetpack Trooper](eqpRebelEchoBaseJetpackTrooper)
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 
@@ -71,7 +75,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_arcBiome_Jetpack_smpl" (x1 draw)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/2) 1 troop sample [AT-RT Walker](ATRT)
   * (1/2) 1 troop sample [Iakaru Warrior](IakaruWarrior)
@@ -83,7 +87,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (1/5) 2 troop sample [Jump Trooper](EmpireJumptrooper)
   * (2/5) 1 troop sample [Jump Trooper](EmpireJumptrooper)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/2) 1 troop sample [IG-86 Assassin Droid](IG86Droid)
   * (1/2) 1 troop sample [MTV-7](MTV7)
@@ -96,6 +100,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (2/5) 1 troop sample [Jetpack Trooper](RebelJetpackTrooper)
 
 ### Fallback for HQ level 10
+
+  * 40000 Credits
+
+### Fallback for HQ level 11
 
   * 40000 Credits
 
@@ -142,7 +150,7 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 96000 Alloy
   * (7/51) 96000 Credits
 
-### For HQ level 10
+### For HQ levels 10-11
 
   * (3/51) 600 Contraband
   * (3/51) 750 Contraband
@@ -191,6 +199,10 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
   * (7/51) 60000 Credits
 
 ### Fallback for HQ level 10
+
+  * 225000 Credits
+
+### Fallback for HQ level 11
 
   * 225000 Credits
 

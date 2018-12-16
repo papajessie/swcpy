@@ -14,12 +14,12 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
 ## Pool "lcpool_desBiome_JetpackStore_shrd" (x2 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
   * (2/4) 6 data fragments of equipment [Desert Jump Trooper](eqpEmpireSandJumpTrooper)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (2/4) 5 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
   * (2/4) 6 data fragments of equipment [Desert Jetpack Trooper](eqpRebelSandJetpackTrooper)
@@ -39,6 +39,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 
@@ -64,7 +68,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
 ## Pool "lcpool_desBiome_JetpackStore_shrd2" (x2 draws)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (2/12) 4 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
   * (2/12) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
@@ -80,7 +84,7 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [Johhar Kessen](RebelJohhar)
   * (1/4) 6 data fragments of unlockable troop [Rebel Vanguard](Vanguard)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (2/12) 4 data fragments of equipment [Desert Soldier](eqpRebelSandSoldier)
   * (2/12) 4 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
@@ -97,6 +101,10 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
   * (1/4) 6 data fragments of unlockable troop [Shock Trooper](Shock)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 
@@ -126,15 +134,19 @@ This crate expires after 7d. The contents are decided by 5 draws from 3 differen
 
   * No items, see the fallback option below
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Heavy Sandtrooper](eqpEmpireHeavySandtrooper)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/1) 20 data fragments of equipment [Heavy Desert Soldier](eqpRebelHeavySandSoldier)
 
 ### Fallback for HQ level 10
+
+  * 300000 Credits
+
+### Fallback for HQ level 11
 
   * 300000 Credits
 

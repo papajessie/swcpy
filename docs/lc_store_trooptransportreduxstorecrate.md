@@ -23,7 +23,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (2/16) 6 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
   * (2/16) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
-### Rebellion for HQ levels 6-10
+### Rebellion for HQ levels 6-11
 
   * (1/29) 6 data fragments of equipment [Enhanced AT-AP Walker](eqpRebelATAPHalfSkin)
   * (2/29) 4 data fragments of equipment [Cold-weather Hailfire Droid](eqpRebelArcticHailfire)
@@ -52,7 +52,7 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (2/16) 6 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
   * (2/16) 6 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
 
-### Empire for HQ levels 6-10
+### Empire for HQ levels 6-11
 
   * (1/29) 6 data fragments of equipment [Enhanced AT-MP Walker](eqpEmpireATMPHalfSkin)
   * (2/29) 4 data fragments of equipment [Cold-weather Mobile Heavy Cannon](eqpEmpireArcticMHC)
@@ -71,6 +71,10 @@ This crate expires after 7d. The contents are decided by 2 draws from 1 differen
   * (2/29) 6 data fragments of unlockable troop [MTV-7](MTV7)
 
 ### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
 
   * 380000 Credits
 
