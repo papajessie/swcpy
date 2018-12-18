@@ -94,7 +94,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1740|1650|2000|1930|1880|1510|1210|1130|1100|1070|1020|
+|Displayed damage per second |2100|2065|2000|1930|1880|1510|1210|1130|1100|1070|1020|
 |Calculated damage per second|1788|2060|1995|1930|1878|1511|1211|1133|1100|1066|1022|
 |Calculated damage per cycle |2415|2370|2295|2220|2160|2040|1635|1530|1485|1440|1380|
 
@@ -155,7 +155,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |10                        |9                         |8                         |7                         |6               |5               |4               |3               |2               |1               |
 |---------------------------|-----------------------------|--------------------------|--------------------------|--------------------------|--------------------------|----------------|----------------|----------------|----------------|----------------|----------------|
 |Deploy vfx                 |vfx_prestige_deploy_large_reb|(not found)               |(not found)               |(not found)               |(not found)               |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |
-|Displayed damage per second|1740                         |1650                      |2000                      |1930                      |1880                      |1510            |1210            |1130            |1100            |1070            |1020            |
+|Displayed damage per second|2100                         |2065                      |2000                      |1930                      |1880                      |1510            |1210            |1130            |1100            |1070            |1020            |
 |Name                       |Rebel Speeder Bike Upgrade   |Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|Rebel Speeder Bike Upgrade|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|T7-V Speederbike|
 |Prestige                   |true                         |(not found)               |(not found)               |(not found)               |(not found)               |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |(not found)     |
 

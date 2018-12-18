@@ -21,24 +21,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Unit capacity: 4
   * Type: infantry
 
-|Level |10  |9   |8   |1-7 |
-|------|----|----|----|----|
-|Health|9600|8320|7680|7040|
+|Level |11  |10  |9   |8   |1-7 |
+|------|----|----|----|----|----|
+|Health|9850|9600|8320|7680|7040|
 
 
 ### Training stats
 
   * Building: [Research Lab 2](empireOffenseLab.html)
 
-|Level        |10  |9    |8    |7    |6    |5    |4    |3    |2    |1    |
-|-------------|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time|2m  |1m56s|1m52s|1m48s|1m44s|1m40s|1m36s|1m32s|1m28s|1m20s|
-|Training cost|920$|840$ |800$ |680$ |600$ |520$ |440$ |360$ |280$ |200$ |
+|Level        |10-11|9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Training time|2m   |1m56s|1m52s|1m48s|1m44s|1m40s|1m36s|1m32s|1m28s|1m20s|
+|Training cost|920$ |840$ |800$ |680$ |600$ |520$ |440$ |360$ |280$ |200$ |
 
 
 ### Upgrading stats
 
-|Level               |10      |9       |8      |7      |6      |5     |4     |3    |2    |1    |
+|Level               |10-11   |9       |8      |7      |6      |5     |4     |3    |2    |1    |
 |--------------------|--------|--------|-------|-------|-------|------|------|-----|-----|-----|
 |Upgrade time        |1w2d    |5d      |3d12h  |2d     |1d     |8h    |3h30m |1h   |15m  |0s   |
 |Upgrade requirements|1750000$|1000000$|320000$|160000$|100000$|25000$|12500$|6000$|3000$|3000$|
@@ -83,18 +83,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 100ms
   * Target locking: No
 
-|Level          |10 |9  |8  |1-7|
-|---------------|---|---|---|---|
-|Damage per shot|531|460|425|389|
+|Level          |11 |10 |9  |8  |1-7|
+|---------------|---|---|---|---|---|
+|Damage per shot|545|531|460|425|389|
 
 
 ### Projectile
 
-|Level                       |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
-|----------------------------|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |1456|1352|1250|1144|1041|938 |832 |729 |626 |520 |
-|Calculated damage per second|1561|1352|1250|1144|1144|1144|1144|1144|1144|1144|
-|Calculated damage per cycle |5310|4600|4250|3890|3890|3890|3890|3890|3890|3890|
+|Level                       |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|----------------------------|----|----|----|----|----|----|----|----|----|----|----|
+|Displayed damage per second |1456|1456|1352|1250|1144|1041|938 |832 |729 |626 |520 |
+|Calculated damage per second|1602|1561|1352|1250|1144|1144|1144|1144|1144|1144|1144|
+|Calculated damage per cycle |5450|5310|4600|4250|3890|3890|3890|3890|3890|3890|3890|
 
 
   * Cannons per sequence: 1
@@ -128,7 +128,6 @@ These are all sorts of user interface settings, that should not interfere with g
   * Factory rotation: 0
   * Factory scale factor: 1
   * Favorite target type: closest
-  * Gun position: "atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1
   * Hit spark: fx_gatling_hit_r_lrg
   * Icon camera position: 7.72,10.75,21.04
   * Icon closeup camera position: 1.24,0.61,11.39
@@ -140,9 +139,11 @@ These are all sorts of user interface settings, that should not interfere with g
   * Spin speed: 0
   * Targeted type: ENEMIES
 
-|Level                      |10  |9   |8   |7   |6   |5  |4  |3  |2  |1  |
-|---------------------------|----|----|----|----|----|---|---|---|---|---|
-|Displayed damage per second|1456|1352|1250|1144|1041|938|832|729|626|520|
+|Level                      |11         |10                                                    |9                                                     |8                                                     |7                                                     |6                                                     |5                                                     |4                                                     |3                                                     |2                                                     |1                                                     |
+|---------------------------|-----------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+|Displayed damage per second|1456       |1456                                                  |1352                                                  |1250                                                  |1144                                                  |1041                                                  |938                                                   |832                                                   |729                                                   |626                                                   |520                                                   |
+|Gun position               |(not found)|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|"atst_emp_rig_MASTER_MOVER/atst_emp_rig_locator_gun":1|
+|Prestige                   |true       |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |(not found)                                           |
 
 
 ## Uninterpreted stats
@@ -154,15 +155,15 @@ Seriously, we don't really know what to do with these.
   * Auto spawn spreading scale: 1
   * Max scale: No
   * Seeks target: Yes
-  * Splash: 0
   * Streams: no
   * Strict cool down: No
   * Target in range modifier: 1
   * Xp: 0
 
-|Level      |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
-|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Order      |70210|70209|70208|70207|70206|70205|70204|70203|70202|70201|
-|Point value|3    |2.600|2.400|2.200|2    |1.800|1.600|1.400|1.200|1    |
+|Level      |11         |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-----------|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order      |70211      |70210|70209|70208|70207|70206|70205|70204|70203|70202|70201|
+|Point value|3          |3    |2.600|2.400|2.200|2    |1.800|1.600|1.400|1.200|1    |
+|Splash     |(not found)|0    |0    |0    |0    |0    |0    |0    |0    |0    |0    |
 
 

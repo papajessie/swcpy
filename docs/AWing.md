@@ -49,7 +49,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |11   |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------|-----|-----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|10306|10000|9490|9010|8560|8130|7730|7350|6990|6650|6330|
+|Damage per shot|11000|10000|9490|9010|8560|8130|7730|7350|6990|6650|6330|
 
 
 ### Projectile
@@ -58,9 +58,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11    |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------------|------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |103060|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
-|Calculated damage per second|4712  |4572  |4339 |4119 |3914 |3717 |3534 |3360 |3196 |3040 |2894 |
-|Calculated damage per cycle |103060|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
+|Displayed damage per second |110000|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
+|Calculated damage per second|5029  |4572  |4339 |4119 |3914 |3717 |3534 |3360 |3196 |3040 |2894 |
+|Calculated damage per cycle |110000|100000|94900|90100|85600|81300|77300|73500|69900|66500|63300|
 
 
   * Cannons per sequence: 10
@@ -108,7 +108,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |11         |10                                               |9                                                |8                                                |7                                                |6                                                |5                                                |4                                                |3                                                |2                                                |1                                                |
 |---------------------------|-----------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-|Displayed damage per second|103060     |100000                                           |94900                                            |90100                                            |85600                                            |81300                                            |77300                                            |73500                                            |69900                                            |66500                                            |63300                                            |
+|Displayed damage per second|110000     |100000                                           |94900                                            |90100                                            |85600                                            |81300                                            |77300                                            |73500                                            |69900                                            |66500                                            |63300                                            |
 |Event button action        |planet     |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |galaxy                                           |
 |Event button data          |planet3    |planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|planet1 planet3 planet6 planet8 planet21 planet23|
 |Event button string        |hn_open_dan|hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |hn_open_galaxy                                   |

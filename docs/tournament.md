@@ -3,6 +3,18 @@ title: Index of conflicts
 ---
 # Conflicts
 
+  * [tournamenttitleconflicterk20181227 (conflict_erk_20181227)](conflict_erk_20181227.html)
+  * [tournamenttitleconflictdan20181227 (conflict_dan_20181227)](conflict_dan_20181227.html)
+  * [tournamenttitleconflicthth20181227 (conflict_hth_20181227)](conflict_hth_20181227.html)
+  * [tournamenttitleconflicttfa20181227 (conflict_tfa_20181227)](conflict_tfa_20181227.html)
+  * [tournamenttitleconflictyav20181227 (conflict_yav_20181227)](conflict_yav_20181227.html)
+  * [tournamenttitleconflicttat20181227 (conflict_tat_20181227)](conflict_tat_20181227.html)
+  * [tournamenttitleconflicterk20181220 (conflict_erk_20181220)](conflict_erk_20181220.html)
+  * [tournamenttitleconflictdan20181220 (conflict_dan_20181220)](conflict_dan_20181220.html)
+  * [tournamenttitleconflicthth20181220 (conflict_hth_20181220)](conflict_hth_20181220.html)
+  * [tournamenttitleconflicttfa20181220 (conflict_tfa_20181220)](conflict_tfa_20181220.html)
+  * [tournamenttitleconflictyav20181220 (conflict_yav_20181220)](conflict_yav_20181220.html)
+  * [tournamenttitleconflicttat20181220 (conflict_tat_20181220)](conflict_tat_20181220.html)
   * [tournamenttitleconflictrancorerk20181213 (conflict_rancor_erk_20181213)](conflict_rancor_erk_20181213.html)
   * [tournamenttitleconflictrancordan20181213 (conflict_rancor_dan_20181213)](conflict_rancor_dan_20181213.html)
   * [tournamenttitleconflictrancortfa20181213 (conflict_rancor_tfa_20181213)](conflict_rancor_tfa_20181213.html)

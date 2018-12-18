@@ -66,10 +66,10 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 32.33,18.19,18.01
   * Icon lookat position: -1.41,2.74,-0.06
 
-|Level                      |11    |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
-|---------------------------|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|300000|270000     |240000     |210000     |180000     |150000     |120000     |90000      |60000      |30000      |15000      |
-|Prestige                   |true  |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
+|Level                      |11  |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
+|---------------------------|----|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|Displayed damage per second|4950|4410       |3750       |3480       |3240       |3030       |2880       |2160       |1950       |1350       |1260       |
+|Prestige                   |true|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 
 ## Uninterpreted stats
