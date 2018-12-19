@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level |11   |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Health|26100|24750|22500|21650|20650|19400|18000|16400|14650|13800|12850|
+|Health|32650|30950|28150|27050|25800|24250|22500|20500|18300|17250|16050|
 
 
 ### Training stats
@@ -81,7 +81,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level          |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------|----|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3434|3365|3250|3181|3143|3104|3074|3035|2997|2959|2928|
+|Damage per shot|4636|4543|4388|4294|4243|4190|4150|4097|4046|3995|3953|
 
 
 ### Projectile
@@ -90,9 +90,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level                       |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|----|
-|Displayed damage per second |2270|2195|2045|1930|1845|1765|1695|1630|1570|1520|1490|
-|Calculated damage per second|919 |900 |869 |851 |841 |830 |822 |812 |802 |792 |783 |
-|Calculated damage per cycle |3434|3365|3250|3181|3143|3104|3074|3035|2997|2959|2928|
+|Displayed damage per second |4570|4440|4140|3910|3740|3570|3430|3300|3180|3080|3020|
+|Calculated damage per second|1240|1216|1174|1149|1135|1121|1110|1096|1082|1069|1058|
+|Calculated damage per cycle |4636|4543|4388|4294|4243|4190|4150|4097|4046|3995|3953|
 
 
   * Cannons per sequence: 1
@@ -146,7 +146,7 @@ These are all sorts of user interface settings, that should not interfere with g
 |Level                      |11                           |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
 |---------------------------|-----------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |Deploy vfx                 |vfx_prestige_deploy_small_reb|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
-|Displayed damage per second|2270                         |2195       |2045       |1930       |1845       |1765       |1695       |1630       |1570       |1520       |1490       |
+|Displayed damage per second|4570                         |4440       |4140       |3910       |3740       |3570       |3430       |3300       |3180       |3080       |3020       |
 |Prestige                   |true                         |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|
 
 

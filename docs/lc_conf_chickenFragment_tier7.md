@@ -21,31 +21,31 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ### Fallback for HQ level 10
 
-  * 50000 Credits
+  * 300000 Credits
 
 ### Fallback for HQ level 11
 
-  * 50000 Credits
+  * 300000 Credits
 
 ### Fallback for HQ level 5
 
-  * 7500 Credits
+  * 27000 Credits
 
 ### Fallback for HQ level 6
 
-  * 14000 Credits
+  * 65000 Credits
 
 ### Fallback for HQ level 7
 
-  * 18000 Credits
+  * 100000 Credits
 
 ### Fallback for HQ level 8
 
-  * 25000 Credits
+  * 140000 Credits
 
 ### Fallback for HQ level 9
 
-  * 32000 Credits
+  * 200000 Credits
 
 ## Pool "lcpool_creditsAlloy_conf7" (x1 draw)
 
