@@ -32,9 +32,13 @@ urlmanifest () {
 
 if [ -n "$1" ]; then
     VERSION=$1
-    echo "Downloading version $VERSION"
+    if [ "$SILENT" = 0 ]; then
+        echo "Downloading version $VERSION"
+    fi
 else
-    echo "Let us look for the last version..."
+    if [ "$SILENT" = 0 ]; then
+        echo "Let us look for the last version..."
+    fi
     VERSION=1012
     if [ -f lastversion.txt ]; then
         VERSION=$(cat lastversion.txt)
@@ -52,12 +56,16 @@ else
         curl -s -o "$DEST" "$MANIFEST"
         if  [ "$(stat -c %s $DEST)" -lt 20000 ]; then
             FOUND=1
-            echo "Version $VERSION is not available. Going back to $LASTVERSION."
+            if [ "$SILENT" = 0 ]; then
+                echo "Version $VERSION is not available. Going back to $LASTVERSION."
+            fi
             VERSION="$LASTVERSION"
         else
             rm -f $LASTDEST
             LASTDEST=$DEST
-            echo "$VERSION found"
+            if [ "$SILENT" = 0 ]; then
+                echo "$VERSION found"
+            fi
             echo "$VERSION" > lastversion.txt
         fi
     done
@@ -88,7 +96,6 @@ ENVIRONMENT=$(grep '"environment"' $MANIFESTJSON|head -n 1|cut -f4 -d\")
 CDNROOT=$(grep cdnRoot $MANIFESTJSON|grep https|cut -f4 -d\")
 
 ROOTURL="$CDNROOT"
-echo "$ROOTURL"
 N=0
 
 cat $MANIFESTJSON |sed -ne '/^   "paths"/,/^   },/ p'|grep '^      "'|cut -f2 -d'"' > $MANIFESTJSON.ids

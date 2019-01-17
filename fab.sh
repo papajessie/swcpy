@@ -10,7 +10,7 @@ done
 if [ "$START" -lt 1190 ]; then
     SEQQ="$(seq $START 1189) $(seq 2001 $(cat lastversion.txt))"
 else
-    SEQQ="$(seq 2001 $(cat lastversion.txt))"
+    SEQQ="$(seq $START $(cat lastversion.txt))"
 fi
 
 for i in $SEQQ; do
