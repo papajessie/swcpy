@@ -15,8 +15,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Empire for HQ levels 7-11
 
-  * (2/11) 4 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
-  * (9/11) 3 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (2/15) 16 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (2/15) 4 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (2/15) 8 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
+  * (9/15) 3 data fragments of unlockable troop [Fathier Rider](EmpireGoldenMileCreature)
 
 ### Empire for HQ levels 5-6
 
@@ -30,8 +32,10 @@ This crate expires after 7d. The contents are decided by 3 draws from 2 differen
 
 ### Rebellion for HQ levels 7-11
 
-  * (2/11) 4 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
-  * (9/11) 3 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (2/15) 16 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (2/15) 4 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (2/15) 8 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
+  * (9/15) 3 data fragments of unlockable troop [Fathier Rider](RebelGoldenMileCreature)
 
 ### Fallback for HQ level 10
 

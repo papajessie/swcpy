@@ -9,7 +9,7 @@ This file tries to list confirmed bugs in units, buildings and others. It won't 
 The [Rebel V-4X-D Ski Speeder](PolarShip.html) has a displayed damage that is going down from level 9 to level 11 (instead of up) without any other stats increasing. The calculated damage increases from level 9 to 10, but drops at level 11 (below level 7).
 
   * **Analysis:**
-    * _displayed damage_: The displayed damage per second is computed correctly according to the current formula until level 9. The level 10 value was diminished in update 1171 (the Prestige one) so that it would seem to increase from level 10 to 11. In a posterior update, the level 11 was re-computed in version 1176 or 1177 from a wrong value to a wrong value (according to the current formula), but a bit larger (so that it would show better, possibly).
+    * _displayed damage_: The displayed damage per second is computed correctly according to the current formula until level 9. The level 10 value was diminished in update 1171 (the Prestige one) so that it would seem to increase from level 10 to 11. In a posterior update, the level 11 was re-computed in version 1176 or 1177 from a wrong value to a wrong value (according to the current formula), but a bit larger (so that it would show better, possibly). (**fixed**)
     * _computed damage_: The computed damage drops with level 11 because the shot delay is 300 ms instead of 200 ms (so the fire rate drops).
   * **Bug confirmed:** not yet
   * **Bug confirmation process:** to be done
@@ -64,15 +64,6 @@ the splash damage).
 
 ## Design bugs
 
-### Prestige A-Wings/TIE Advanced vs Shields
-
-The [A-wing](AWing.html) at prestige level cannot pierce an [imperial shield](empireShieldGenerator.html).
-
-The situation is symmetric for Empire [TIE Advanced](TieAdvanced.html) vs [rebel shields](rebelShieldGenerator.html).
-
-  * **Analysis:** The problem is clear from the numbers. This may have been an overlook by the dev team, or a conscious design decision to make defence at level 11 easier.
-  * **Bug confirmed:** yes, multiple sources. Waiting for a timestamp and an official test.
-
 ### A-A5 Speeder Truck and Imperial Troop Transport : Units without a prestige level
 
 While this may be by design, a number of playable units don't have a
@@ -112,5 +103,17 @@ As expressed above, the [Rebel IDT trap](rebelTrapDropship.html) is only a bit h
   * **Analysis:** The [Clone Wars Gunship](CloneWarsGunshipTrap.html) was not given a level 11, so the trap is set to simply use the level 10. Other stats of the trap were increased in a seemingly sound way.
   * **Bug confirmed:** yes, multiple sources. Waiting for a timestamp and an official test.
   * **Bug confirmation process:** (not required)
+
+Bug fixed as of update 2007.
+
+
+### Prestige A-Wings/TIE Advanced vs Shields
+
+The [A-wing](AWing.html) at prestige level cannot pierce an [imperial shield](empireShieldGenerator.html).
+
+The situation is symmetric for Empire [TIE Advanced](TieAdvanced.html) vs [rebel shields](rebelShieldGenerator.html).
+
+  * **Analysis:** The problem is clear from the numbers. This may have been an overlook by the dev team, or a conscious design decision to make defence at level 11 easier.
+  * **Bug confirmed:** yes, multiple sources. Waiting for a timestamp and an official test.
 
 Bug fixed as of update 2007.

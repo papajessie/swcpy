@@ -42,3 +42,6 @@ title: Index of episodes
   * [Lucky Break Part 2 (ep_epRedCupRedux_p2)](ep_epRedCupRedux_p2.html)
   * [Lucky Break Part 3 (ep_epRedCupRedux_p3)](ep_epRedCupRedux_p3.html)
   * [Lucky Break Part 4 (ep_epRedCupRedux_p4)](ep_epRedCupRedux_p4.html)
+  * [Naval Assault Part I (ep_epNaval2_p1)](ep_epNaval2_p1.html)
+  * [Naval Assault Part II (ep_epNaval2_p2)](ep_epNaval2_p2.html)
+  * [Naval Assault Part III (ep_epNaval2_p3)](ep_epNaval2_p3.html)
