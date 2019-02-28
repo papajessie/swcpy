@@ -153,13 +153,13 @@ This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
 ## Pool "lcpool_speeders_conf_tier5" (x1 draw)
 
-### Empire
-
-  * No items, see the fallback option below
-
-### Always
+### Rebellion
 
   * (2/2) 4 data fragments of unlockable troop [V-4X-D Ski Speeder](PolarShip)
+
+### Empire
+
+  * (2/2) 4 data fragments of unlockable troop [614-AvA](614AVA)
 
 ### Fallback for HQ level 10
 
