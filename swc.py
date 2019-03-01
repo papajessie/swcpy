@@ -1198,7 +1198,7 @@ def main(argv):
                 file.write("# {1} ({0})\n\n".format('translate','Translation strings'))
                 for t in elements:
                     string=_(t)
-                    file.write('  * **{0}**: {1}\n'.format(t,repr(string)))
+                    file.write('    {0} {1}\n'.format(t,repr(string)))
         if ('list' in outputs):
             for t in elements:
                 string=_(t)
@@ -1365,7 +1365,7 @@ def variantspace():
     if 'hq' in config:
         hqs=[config['hq']]
     else:
-        hqs=[5,6,7,8,9,10]
+        hqs=[5,6,7,8,9,10,11]
     if 'defaultplanet' in config:
         defaultplanet=config['defaultplanet'].split(",")
     else:
@@ -1487,7 +1487,10 @@ def analyse_cratepoolitem(hq,item):
         try:
             num=data['CrateSupplyScale'][scale]['HQ{0}'.format(hq)]
         except KeyError:
-            num=data['CrateSupplyScale'][scale]['HQ3']
+            try:
+                num=data['CrateSupplyScale'][scale]['HQ3']
+            except KeyError:
+                num=0
     elif 'amount' in item:
         num=item['amount']
     else:
@@ -1622,7 +1625,7 @@ def analyse_episode(objects,displayed,id):
                 oldtaskvalue=''
                 taskstart=0
                 taskstop=0
-                for HQ in range(1,11):
+                for HQ in range(1,12):
                     HQS='HQ{0}'.format(HQ)
                     taskheader='Task HQ{0}'.format(HQ)
                     if taskheader not in ob['legend']:
