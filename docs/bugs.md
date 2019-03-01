@@ -4,18 +4,6 @@ This file tries to list confirmed bugs in units, buildings and others. It won't 
 
 ## Definitely bugs
 
-### Rebel V-4X-D Ski Speeder
-
-The [Rebel V-4X-D Ski Speeder](PolarShip.html) has a displayed damage that is going down from level 9 to level 11 (instead of up) without any other stats increasing. The calculated damage increases from level 9 to 10, but drops at level 11 (below level 7).
-
-  * **Analysis:**
-    * _displayed damage_: The displayed damage per second is computed correctly according to the current formula until level 9. The level 10 value was diminished in update 1171 (the Prestige one) so that it would seem to increase from level 10 to 11. In a posterior update, the level 11 was re-computed in version 1176 or 1177 from a wrong value to a wrong value (according to the current formula), but a bit larger (so that it would show better, possibly). (**fixed**)
-    * _computed damage_: The computed damage drops with level 11 because the shot delay is 300 ms instead of 200 ms (so the fire rate drops).
-  * **Bug confirmed:** not yet
-  * **Bug confirmation process:** to be done
-
-The displayed damage was fixed in release 2007. So only the computed damage at level 11 has to be assessed and fixed (if found to be true).
-
 ### Enhanced AT-AP Walker (and possibly other units with splash damage) vs shields
 
 The [Enhanced AT-AP Walker](eqpRebelATAPHalfSkin.html) takes a very long
@@ -78,6 +66,18 @@ The [Rebel A-A5 Speeder Truck](RebelTransportVehicle.html) also has no prestige 
   * **Bug confirmation process:** (not required)
 
 ## Older (fixed) bugs
+
+### Rebel V-4X-D Ski Speeder
+
+The [Rebel V-4X-D Ski Speeder](PolarShip.html) has a displayed damage that is going down from level 9 to level 11 (instead of up) without any other stats increasing. The calculated damage increases from level 9 to 10, but drops at level 11 (below level 7).
+
+  * **Analysis:**
+    * _displayed damage_: The displayed damage per second is computed correctly according to the current formula until level 9. The level 10 value was diminished in update 1171 (the Prestige one) so that it would seem to increase from level 10 to 11. In a posterior update, the level 11 was re-computed in version 1176 or 1177 from a wrong value to a wrong value (according to the current formula), but a bit larger (so that it would show better, possibly). (**fixed**)
+    * _computed damage_: The computed damage drops with level 11 because the shot delay is 300 ms instead of 200 ms (so the fire rate drops).
+  * **Bug confirmed:** not yet
+  * **Bug confirmation process:** to be done
+
+The displayed damage was fixed in release 2007. So only the computed damage at level 11 has to be assessed and fixed (if found to be true). As of release 2014, the level 11 real damage was increased (by using the same inter-shot delay as level 10, and not a higher value, leading to slower shots) so all of this bug seems to be resolved.
 
 ### Prestige medic droids/repair droids
 
