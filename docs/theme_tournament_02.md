@@ -4,7 +4,7 @@ category: tournament
 ---
 # Double Event Points
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2015-04-01
   * End date: 2015-04-06
 

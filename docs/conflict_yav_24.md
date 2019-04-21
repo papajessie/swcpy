@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Ferra Groves
 
-  * Planet: planet8
+  * Planet: "planet8"
   * Start date: 2016-07-27
   * End date: 2016-08-01
 

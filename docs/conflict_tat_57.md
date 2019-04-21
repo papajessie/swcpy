@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Jundland Chasm
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2016-12-30
   * End date: 2017-01-02
 

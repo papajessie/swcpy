@@ -4,7 +4,7 @@ category: tournament
 ---
 # Desert OpsConflict on Yavin IV
 
-  * Planet: planet8
+  * Planet: "planet8"
   * Start date: 2017-02-02
   * End date: 2017-02-08
 

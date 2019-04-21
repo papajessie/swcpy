@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict on ErKit
 
-  * Planet: planet6
+  * Planet: "planet6"
   * Start date: 2018-01-18
   * End date: 2018-01-24
 

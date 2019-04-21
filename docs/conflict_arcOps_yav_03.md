@@ -4,7 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on Yavin 4
 
-  * Planet: planet8
+  * Planet: "planet8"
   * Start date: 2017-03-30
   * End date: 2017-04-05
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Mynock Grottos
 
-  * Planet: planet3
+  * Planet: "planet3"
   * Start date: 2016-07-27
   * End date: 2016-08-01
 

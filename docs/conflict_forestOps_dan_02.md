@@ -4,7 +4,7 @@ category: tournament
 ---
 # Forest Ops Conflict on Dandoran
 
-  * Planet: planet3
+  * Planet: "planet3"
   * Start date: 2017-03-09
   * End date: 2017-03-15
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Smugglers Basin
 
-  * Planet: planet3
+  * Planet: "planet3"
   * Start date: 2016-03-05
   * End date: 2016-03-07
 

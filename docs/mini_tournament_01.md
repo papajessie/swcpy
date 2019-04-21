@@ -4,7 +4,7 @@ category: tournament
 ---
 # Special Tournament Mounted Units
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2015-03-21
   * End date: 2015-03-22
 

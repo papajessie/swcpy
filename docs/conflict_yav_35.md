@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Massassi Valley
 
-  * Planet: planet8
+  * Planet: "planet8"
   * Start date: 2016-12-21
   * End date: 2016-12-28
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Skygazer Hill
 
-  * Planet: planet8
+  * Planet: "planet8"
   * Start date: 2016-10-16
   * End date: 2016-10-19
 

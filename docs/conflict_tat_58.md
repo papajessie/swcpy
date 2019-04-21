@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Boonta Eve
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2017-01-04
   * End date: 2017-01-09
 

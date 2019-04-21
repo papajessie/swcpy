@@ -4,7 +4,7 @@ category: tournament
 ---
 # Incineration Tournament
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2015-05-29
   * End date: 2015-06-01
 

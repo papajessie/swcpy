@@ -4,7 +4,7 @@ category: tournament
 ---
 # Double Reward Tournament
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2014-07-02
   * End date: 2014-07-06
 

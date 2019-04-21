@@ -4,7 +4,7 @@ category: tournament
 ---
 # Desert OpsConflict on Hoth
 
-  * Planet: planet21
+  * Planet: "planet21"
   * Start date: 2017-01-26
   * End date: 2017-02-01
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Crimson Gultch
 
-  * Planet: planet6
+  * Planet: "planet6"
   * Start date: 2016-05-17
   * End date: 2016-05-20
 

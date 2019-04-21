@@ -4,7 +4,7 @@ category: tournament
 ---
 # Desert OpsConflict on ErKit
 
-  * Planet: planet6
+  * Planet: "planet6"
   * Start date: 2017-01-19
   * End date: 2017-01-25
 

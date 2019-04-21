@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Anchorhead Pass
 
-  * Planet: planet1
+  * Planet: "planet1"
   * Start date: 2016-12-21
   * End date: 2016-12-28
 

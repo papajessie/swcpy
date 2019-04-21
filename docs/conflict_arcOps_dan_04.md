@@ -4,7 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on Dandoran
 
-  * Planet: planet3
+  * Planet: "planet3"
   * Start date: 2017-04-06
   * End date: 2017-04-12
 

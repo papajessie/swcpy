@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Varsa Meadows
 
-  * Planet: planet3
+  * Planet: "planet3"
   * Start date: 2016-03-17
   * End date: 2016-03-19
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on ErKit
 
-  * Planet: planet6
+  * Planet: "planet6"
   * Start date: 2017-03-23
   * End date: 2017-03-29
 

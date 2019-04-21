@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Luun Heights
 
-  * Planet: planet6
+  * Planet: "planet6"
   * Start date: 2016-04-17
   * End date: 2016-04-20
 

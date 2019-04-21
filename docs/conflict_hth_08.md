@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Icefall Plains
 
-  * Planet: planet21
+  * Planet: "planet21"
   * Start date: 2016-01-10
   * End date: 2016-01-14
 
