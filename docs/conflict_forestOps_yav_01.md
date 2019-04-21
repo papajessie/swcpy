@@ -4,6 +4,7 @@ category: tournament
 ---
 # Forest Ops Conflict on Yavin IV
 
+  * Planet: planet8
   * Start date: 2017-03-02
   * End date: 2017-03-08
 

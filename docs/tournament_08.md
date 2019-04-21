@@ -4,6 +4,7 @@ category: tournament
 ---
 # Galactic War Tournament 8
 
+  * Planet: planet1
   * Start date: 2015-04-30
   * End date: 2015-05-04
 

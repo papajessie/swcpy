@@ -4,6 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on Hoth
 
+  * Planet: planet21
   * Start date: 2017-03-30
   * End date: 2017-04-05
 

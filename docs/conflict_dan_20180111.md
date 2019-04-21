@@ -4,6 +4,7 @@ category: tournament
 ---
 # Conflict on Dandoran
 
+  * Planet: planet3
   * Start date: 2018-01-11
   * End date: 2018-01-17
 

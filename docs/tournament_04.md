@@ -4,6 +4,7 @@ category: tournament
 ---
 # Galactic War Tournament 4
 
+  * Planet: planet1
   * Start date: 2015-01-15
   * End date: 2015-01-19
 

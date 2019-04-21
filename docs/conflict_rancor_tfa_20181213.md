@@ -4,6 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflictrancortfa20181213
 
+  * Planet: planet23
   * Start date: 2018-12-13
   * End date: 2018-12-19
 

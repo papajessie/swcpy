@@ -4,6 +4,7 @@ category: tournament
 ---
 # Conflict at Shyloahs Crest
 
+  * Planet: planet21
   * Start date: 2016-11-15
   * End date: 2016-11-18
 

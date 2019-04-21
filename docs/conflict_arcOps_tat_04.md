@@ -4,6 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on Tatooine
 
+  * Planet: planet1
   * Start date: 2017-04-06
   * End date: 2017-04-12
 

@@ -4,6 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflicttak20180903
 
+  * Planet: planet23
   * Start date: 2018-09-03
   * End date: 2018-09-08
 

@@ -4,6 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflicttat20180616
 
+  * Planet: planet1
   * Start date: 2018-06-16
   * End date: 2018-06-21
 

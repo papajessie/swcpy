@@ -4,6 +4,7 @@ category: tournament
 ---
 #  Conflict on Tatooine
 
+  * Planet: planet1
   * Start date: 2016-06-24
   * End date: 2016-06-27
 

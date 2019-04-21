@@ -4,6 +4,7 @@ category: tournament
 ---
 # Galactic War Tournament 3
 
+  * Planet: planet1
   * Start date: 2014-12-18
   * End date: 2014-12-28
 

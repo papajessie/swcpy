@@ -4,6 +4,7 @@ category: tournament
 ---
 # Desert OpsConflict on Takodana
 
+  * Planet: planet23
   * Start date: 2017-02-09
   * End date: 2017-02-15
 

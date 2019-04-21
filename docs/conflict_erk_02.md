@@ -4,6 +4,7 @@ category: tournament
 ---
 # Conflict at Gundark Pass
 
+  * Planet: planet6
   * Start date: 2015-08-03
   * End date: 2015-08-10
 
