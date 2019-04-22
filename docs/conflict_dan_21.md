@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Varsa Meadows
 
-  * Planet: "planet3"
+  * Planet: Dandoran
   * Start date: 2016-06-03
   * End date: 2016-06-08
 

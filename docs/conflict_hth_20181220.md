@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflicthth20181220
 
-  * Planet: "planet3"
+  * Planet: Dandoran
   * Start date: 2018-12-20
   * End date: 2018-12-26
 

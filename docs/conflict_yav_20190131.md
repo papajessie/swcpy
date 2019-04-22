@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflictyav20190131
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2019-01-31
   * End date: 2019-02-06
 

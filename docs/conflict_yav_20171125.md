@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict on Yavin 4
 
-  * Planet: "planet8"
+  * Planet: Yavin 4
   * Start date: 2017-11-25
   * End date: 2017-11-29
 

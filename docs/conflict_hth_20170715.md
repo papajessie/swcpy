@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict on Hoth
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2017-07-15
   * End date: 2017-07-19
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Ferra Groves
 
-  * Planet: "planet8"
+  * Planet: Yavin 4
   * Start date: 2015-08-27
   * End date: 2015-08-31
 

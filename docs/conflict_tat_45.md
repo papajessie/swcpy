@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Jundland Chasm
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2016-10-05
   * End date: 2016-10-10
 

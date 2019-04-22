@@ -4,7 +4,7 @@ category: tournament
 ---
 # Galactic War Tournament 5
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2015-02-18
   * End date: 2015-02-23
 

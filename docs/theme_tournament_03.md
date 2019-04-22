@@ -4,7 +4,7 @@ category: tournament
 ---
 # Gamorrean Warriors Tournament
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2015-04-17
   * End date: 2015-04-20
 

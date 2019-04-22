@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict on Takodana
 
-  * Planet: "planet23"
+  * Planet: Takodana
   * Start date: 2017-10-29
   * End date: 2017-11-01
 

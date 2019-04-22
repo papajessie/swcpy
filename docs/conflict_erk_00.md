@@ -4,7 +4,7 @@ category: tournament
 ---
 # Johhar Kessen spotted on ErKit
 
-  * Planet: "planet6"
+  * Planet: Er'Kit
   * Start date: 2015-10-19
   * End date: 2015-10-25
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflictrancoryav27092018
 
-  * Planet: "planet8"
+  * Planet: Yavin 4
   * Start date: 2018-09-27
   * End date: 2018-10-03
 

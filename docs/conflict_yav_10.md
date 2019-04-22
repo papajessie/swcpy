@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Massassi Valley
 
-  * Planet: "planet8"
+  * Planet: Yavin 4
   * Start date: 2016-02-18
   * End date: 2016-02-20
 

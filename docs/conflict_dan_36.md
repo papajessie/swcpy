@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Mynock Grottos
 
-  * Planet: "planet3"
+  * Planet: Dandoran
   * Start date: 2016-11-18
   * End date: 2016-11-21
 

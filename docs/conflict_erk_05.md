@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Gundark Pass
 
-  * Planet: "planet6"
+  * Planet: Er'Kit
   * Start date: 2015-10-04
   * End date: 2015-10-10
 

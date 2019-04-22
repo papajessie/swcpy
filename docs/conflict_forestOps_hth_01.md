@@ -4,7 +4,7 @@ category: tournament
 ---
 # Forest Ops Conflict on Hoth
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2017-02-16
   * End date: 2017-02-22
 

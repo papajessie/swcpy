@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflicttat20181025
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2018-10-25
   * End date: 2018-10-31
 

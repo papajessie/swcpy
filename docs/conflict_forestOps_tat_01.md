@@ -4,7 +4,7 @@ category: tournament
 ---
 # Forest Ops Conflict on Tatooine
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2017-02-16
   * End date: 2017-02-22
 

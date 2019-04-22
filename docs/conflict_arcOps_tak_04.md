@@ -4,7 +4,7 @@ category: tournament
 ---
 # Arctic Ops Conflict on Takodana
 
-  * Planet: "planet23"
+  * Planet: Takodana
   * Start date: 2017-04-06
   * End date: 2017-04-12
 

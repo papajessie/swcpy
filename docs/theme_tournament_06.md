@@ -4,7 +4,7 @@ category: tournament
 ---
 # Scoundrels Tournament
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2015-06-18
   * End date: 2015-06-22
 

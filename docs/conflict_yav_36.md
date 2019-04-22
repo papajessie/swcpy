@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Skygazer Hill
 
-  * Planet: "planet8"
+  * Planet: Yavin 4
   * Start date: 2017-01-06
   * End date: 2017-01-09
 

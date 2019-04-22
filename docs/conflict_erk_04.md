@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Luun Heights
 
-  * Planet: "planet6"
+  * Planet: Er'Kit
   * Start date: 2015-09-11
   * End date: 2015-09-18
 

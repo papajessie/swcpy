@@ -4,7 +4,7 @@ category: tournament
 ---
 # Starship Tournament
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2015-05-15
   * End date: 2015-05-18
 

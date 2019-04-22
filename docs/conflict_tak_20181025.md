@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflicttak20181025
 
-  * Planet: "planet23"
+  * Planet: Takodana
   * Start date: 2018-10-25
   * End date: 2018-10-31
 

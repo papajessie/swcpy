@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Smugglers Basin
 
-  * Planet: "planet3"
+  * Planet: Dandoran
   * Start date: 2016-11-02
   * End date: 2016-11-09
 

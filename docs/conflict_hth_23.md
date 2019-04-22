@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Wampa Mountain
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2016-08-13
   * End date: 2016-08-16
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Desert OpsConflict on Tatooine
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2017-02-09
   * End date: 2017-02-15
 

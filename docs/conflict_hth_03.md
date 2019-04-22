@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Icefall Plains
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2015-08-31
   * End date: 2015-09-04
 

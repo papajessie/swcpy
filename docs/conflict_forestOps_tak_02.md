@@ -4,7 +4,7 @@ category: tournament
 ---
 # Forest Ops Conflict on Takodana
 
-  * Planet: "planet23"
+  * Planet: Takodana
   * Start date: 2017-03-09
   * End date: 2017-03-15
 

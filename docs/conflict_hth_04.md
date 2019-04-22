@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Shyloahs Crest
 
-  * Planet: "planet21"
+  * Planet: Hoth
   * Start date: 2015-09-17
   * End date: 2015-09-24
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # tournamenttitleconflictdan20190131
 
-  * Planet: "planet6"
+  * Planet: Er'Kit
   * Start date: 2019-01-31
   * End date: 2019-02-06
 

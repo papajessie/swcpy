@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Boonta Eve
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2015-07-28
   * End date: 2015-08-04
 

@@ -4,7 +4,7 @@ category: tournament
 ---
 # Conflict at Anchorhead Pass
 
-  * Planet: "planet1"
+  * Planet: Tatooine
   * Start date: 2016-04-05
   * End date: 2016-04-11
 
