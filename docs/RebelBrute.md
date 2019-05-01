@@ -18,7 +18,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shield cooldown: 0s
   * Shield health: 0
   * Shield range: 0
-  * Unit capacity: 12
+  * Unit capacity: 8
   * Type: mercenary
 
 |Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |

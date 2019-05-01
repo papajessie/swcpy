@@ -9,6 +9,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
+  * [Imperial Banner (empireAlpha)](empireAlpha.html)
   * [Armory (empireArmory)](empireArmory.html)
   * [Barracks (empireBarracks)](empireBarracks.html)
   * [Cantina (empireContrabandCantina)](empireContrabandCantina.html)
@@ -21,6 +22,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Rebellion
 
+  * [Rebel Banner (rebelAlpha)](rebelAlpha.html)
   * [Armory (rebelArmory)](rebelArmory.html)
   * [Barracks (rebelBarracks)](rebelBarracks.html)
   * [Cantina (rebelContrabandCantina)](rebelContrabandCantina.html)
