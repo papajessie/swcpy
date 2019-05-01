@@ -9,7 +9,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
-  * [Imperial Banner (empireAlpha)](empireAlpha.html)
   * [Armory (empireArmory)](empireArmory.html)
   * [Barracks (empireBarracks)](empireBarracks.html)
   * [Cantina (empireContrabandCantina)](empireContrabandCantina.html)
@@ -22,7 +21,6 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Rebellion
 
-  * [Rebel Banner (rebelAlpha)](rebelAlpha.html)
   * [Armory (rebelArmory)](rebelArmory.html)
   * [Barracks (rebelBarracks)](rebelBarracks.html)
   * [Cantina (rebelContrabandCantina)](rebelContrabandCantina.html)
@@ -141,6 +139,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 
 ### Empire
 
+  * [Imperial Banner (empireAlpha)](empireAlpha.html)
   * [bldtitleempireDefenseGenerator (empireDefenseGenerator)](empireDefenseGenerator.html)
   * [Droid Hut (empireDroidHut)](empireDroidHut.html)
   * [Headquarters (empireHQ)](empireHQ.html)
@@ -162,6 +161,7 @@ The site contains an [explanation of the unit stats](unitexplained.md).
 ### Rebellion
 
   * [bldtitleforestShieldGeneratorSpecial (forestShieldGeneratorSpecial)](forestShieldGeneratorSpecial.html)
+  * [Rebel Banner (rebelAlpha)](rebelAlpha.html)
   * [bldtitlerebelDefenseGenerator (rebelDefenseGenerator)](rebelDefenseGenerator.html)
   * [Droid Hut (rebelDroidHut)](rebelDroidHut.html)
   * [Headquarters (rebelHQ)](rebelHQ.html)
