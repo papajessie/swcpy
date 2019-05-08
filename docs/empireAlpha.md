@@ -19,7 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: No
   * Health: 1
-  * Hide if locked: Yes
+  * Hide if locked: No
   * Max quantity: 4
   * Produce: 0
   * Time: 0s
@@ -59,7 +59,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 12.8,28.95,33.51
   * Icon lookat position: -0.66,2.45,-1.6
   * Stash order: 290
-  * Store tab: not_in_store
+  * Store tab: army
 
 ## Uninterpreted stats
 

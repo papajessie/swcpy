@@ -19,7 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Rebellion
   * Force reticle when targeted: No
   * Health: 1
-  * Hide if locked: Yes
+  * Hide if locked: No
   * Max quantity: 4
   * Produce: 0
   * Time: 0s
@@ -59,7 +59,7 @@ These are all sorts of user interface settings, that should not interfere with g
   * Icon camera position: 14.03,27.87,35.4
   * Icon lookat position: -0.64,2.77,-1.75
   * Stash order: 290
-  * Store tab: not_in_store
+  * Store tab: army
 
 ## Uninterpreted stats
 

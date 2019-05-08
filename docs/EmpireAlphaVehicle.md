@@ -13,7 +13,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: bruiserVehicle
   * Side: Empire
-  * Buildable unit: No
+  * Buildable unit: Yes
   * Role: Generic
   * Shield cooldown: 0s
   * Shield health: 0
