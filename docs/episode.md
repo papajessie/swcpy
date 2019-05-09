@@ -45,3 +45,7 @@ title: Index of episodes
   * [Naval Assault Part I (ep_epNaval2_p1)](ep_epNaval2_p1.html)
   * [Naval Assault Part II (ep_epNaval2_p2)](ep_epNaval2_p2.html)
   * [Naval Assault Part III (ep_epNaval2_p3)](ep_epNaval2_p3.html)
+  * [Questionable Cargo Part I (ep_epRogue12019_p1)](ep_epRogue12019_p1.html)
+  * [Questionable Cargo Part II (ep_epRogue12019_p2)](ep_epRogue12019_p2.html)
+  * [Questionable Cargo Part III (ep_epRogue12019_p3)](ep_epRogue12019_p3.html)
+  * [Questionable Cargo Part IV (ep_epRogue12019_p4)](ep_epRogue12019_p4.html)
