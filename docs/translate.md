@@ -5449,6 +5449,8 @@ category: strings
     hn_cc_1_JetpackJumpTrooper_20190425_HQ5-_r_title '4/25 to 5/1 Conflicts: Jetpack Trooper Samples'
     hn_cc_1_JetpackJumpTrooper_20190425_HQ6+_e_title '4/25 to 5/1 Conflicts: Jump Trooper Equipment'
     hn_cc_1_JetpackJumpTrooper_20190425_HQ6+_r_title '4/25 to 5/1 Conflicts: Jetpack Trooper Equipment'
+    hn_cc_1_KraytDragonAnnounce-_body "The Krayt Dragon is Tatooine's legendary apex predator. Renowned for its fierce nature, this massive beast excels at taking down living prey. Saponza has intel on how to capture these ferocious predators so that you can deploy them against your enemies using the Strix Beacon.\n"
+    hn_cc_1_KraytDragonAnnounce-_title 'Krayt Dragon'
     hn_cc_1_NavalConflictRedux_20181011_HQ5-_e_title '10/11 to 10/17 Conflict Outbreak: Imperial Starfighter Pilot'
     hn_cc_1_NavalConflictRedux_20181011_HQ5-_r_title '10/11 to 10/17 Conflict Outbreak: Alliance Starfighter Pilot'
     hn_cc_1_NavalConflictRedux_20181018_HQ5-_e_title '10/18 to 10/24 Conflict Outbreak: Imperial Starfighter Pilot'
@@ -5467,6 +5469,22 @@ category: strings
     hn_cc_1_NewHalfSkins_20181122_HQ6+_e_body 'This week, Conflicts on all planets reward [c][FFB74A]Enhanced AT-MP Walker[-][/c] data fragments. Fight to permanently unlock and activate this damage-boosting Equipment!'
     hn_cc_1_NewHalfSkins_20181122_HQ6+_r '11/22 to 12/6, New Equipment in Conflicts'
     hn_cc_1_NewHalfSkins_20181122_HQ6+_r_body 'This week, Conflicts on all planets reward [c][FFB74A]Enhanced AT-AP Walker[-][/c] data fragments. Fight to permanently unlock and activate this damage-boosting Equipment!'
+    hn_cc_1_RancorKraytDragon_20190606_HQ10+_e_body "Assault the Rebels with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to unlock/upgrade permanently!"
+    hn_cc_1_RancorKraytDragon_20190606_HQ10+_e_title '6/6 to 6/12 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190606_HQ10+_r_body "Tear down the Empire with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to unlock/upgrade permanently!"
+    hn_cc_1_RancorKraytDragon_20190606_HQ10+_r_title '6/6 to 6/12 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190606_HQ9-_e_body "Assault the Rebels with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to acquire more!"
+    hn_cc_1_RancorKraytDragon_20190606_HQ9-_e_title '6/6 to 6/12 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190606_HQ9-_r_body "Tear down the Empire with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to acquire more!"
+    hn_cc_1_RancorKraytDragon_20190606_HQ9-_r_title '6/6 to 6/12 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190613_HQ10+_e_body "Assault the Rebels with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to unlock/upgrade permanently!"
+    hn_cc_1_RancorKraytDragon_20190613_HQ10+_e_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190613_HQ10+_r_body "Tear down the Empire with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to unlock/upgrade permanently!"
+    hn_cc_1_RancorKraytDragon_20190613_HQ10+_r_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190613_HQ9-_e_body "Assault the Rebels with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to acquire more!"
+    hn_cc_1_RancorKraytDragon_20190613_HQ9-_e_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20190613_HQ9-_r_body "Tear down the Empire with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to acquire more!"
+    hn_cc_1_RancorKraytDragon_20190613_HQ9-_r_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
     hn_cc_1_RebelBanner_20190502_New_Building_body 'As part of Star Wars Day celebrations, Commanders at HQ 3 and above can now construct Rebel Banners. Show your devotion to the Rebel Alliance!'
     hn_cc_1_RebelBanner_20190502_New_Building_title 'New Building: Rebel Banner'
     hn_cc_1_Rebel_EnhancedEngineering_20190502_body 'For a Limited Time, Vehicle Training Time is halved! Dominate your opponents with mechanized forces! In addition, Upgrading Vehicles at the Research Lab costs half the regular amount of Credits!'
@@ -7061,6 +7079,8 @@ category: strings
     hn_dnotes_20190418_title '2-Week Conflict Outbreak: Jetpack & Jump Troopers'
     hn_dnotes_20190502_body "[c][FFB74A]Conflict Outbreak: Salvaged Multi-Troop Transport[-][/c]\n• Conflict Bronzium league or better awards Unit Data Fragments - Unlock and Upgrade the Salvaged Multi-Troop Transport.\n\n• 5/2 to 5/8, All Planets:\n• [c][E40B18]HQ 7 and above[-][/c]\n- [c][FFC25B]Salvaged Multi-Troop Transport[-] Data Fragments[/c]\n• [c][E40B18]HQ 6 and below[-][/c]\n- [c][FFC25B]Salvaged Multi-Troop Transport[-] Samples[/c]\n\n[c][FFAA33]New Unit[-][/c]\n• The Mercenary [c][DBC0FF]Salvaged Multi-Troop Transport[-][/c] has mid to low firepower and speed. However, it has very high health and deploys Dowutin Hunter reinforcements to the field.\n- Reinforcements: appear after 5 seconds, and every 24 seconds at Level 1 / every 14 seconds at Level 11\n\n[c][FFAA33]New Building[-][/c]\n• To celebrate Star Wars Day, we've added the [c][DBC0FF]Imperial Banner[-][/c] and [c][DBC0FF]Rebel Banner[-][/c] as cosmetic buildings. These are available from HQ3, and allow you to show your colors as you fly the flag of your faction!\n\n[c][FFAA33]Enhanced Engineering[-][/c]\n• 5/2 to 5/8:\n- Training Time for Vehicles at Factory reduced by 50%\n- Credit Cost to Upgrade Vehicles at Research Lab reduced by 50%\n\n[c][FFB74A]Balance Updates[-][/c]\n• Unit Capacity of the [c][FFAA33]Dowutin Hunter[-][/c] Mercenary Unit has been reduced.\n• This change is intended to make Dowutin Hunters more viable in battles."
     hn_dnotes_20190502_title 'Star Wars Day - May The 4th Be With You!'
+    hn_dnotes_20190606_body "[c][E40B18]-∫- Player Notice -∫-[-][/c]\nStarting with this Conflict Outbreak, the regular schedule will change such that all future events will start and end at 15:00UTC on the days specified (5 hours earlier than current)\n\n[c][FFC25B]Conflict Outbreak : Krayt Dragons & Rancors[-][/c]\n• Conflict Obsidian League or better awards Krayt Dragon Data Fragments / Samples\n• Conflict Bronzium League or better awards Rancor Data Fragments / Samples\n\n• 6/6 to 6/12:\n• [c][E40B18]HQ 10 and above[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Shadow Rancor[-][/c] (Creature) Data Fragments\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Rancor[-][/c] (Creature) Data Fragments\n• [c][E40B18]HQ 9 and below[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Shadow Rancor[-][/c] (Creature) Samples\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Rancor[-][/c] (Creature) Samples\n\n• 6/13 to 6/19:\n• [c][E40B18]HQ 10 and above[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Rage Rancor[-][/c] (Creature) Data Fragments\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Giant Rancor[-][/c] (Creature) Data Fragments\n• [c][E40B18]HQ 9 and below[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Rage Rancor[-][/c] (Creature) Samples\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Giant Rancor[-][/c] (Creature) Samples"
+    hn_dnotes_20190606_title '2-Week Conflict Outbreak: '
     hn_dnotes_4 'Url test!'
     hn_dnotes_6-0_body '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
     hn_dnotes_6-0_title 'Version 6.0'
@@ -7895,6 +7915,10 @@ category: strings
     leaderboard_top_50 'Top 50'
     lei_title_le_JetpackJumpTrooper_StoreCrate_e 'Premium Jump Trooper Crate'
     lei_title_le_JetpackJumpTrooper_StoreCrate_r 'Premium Jetpack Trooper Crate'
+    lei_title_le_RancorKraytDragonHQ10_StoreCrate_e 'Premium Krayt Dragons Crate'
+    lei_title_le_RancorKraytDragonHQ10_StoreCrate_r 'Premium Krayt Dragons Crate'
+    lei_title_le_RancorKraytDragon_StoreCrate_e 'Premium Rancors Crate'
+    lei_title_le_RancorKraytDragon_StoreCrate_r 'Premium Rancors Crate'
     lei_title_le_SalvagedMTT_StoreCrate_e 'Mercenary Crate'
     lei_title_le_SalvagedMTT_StoreCrate_r 'Mercenary Crate'
     lei_title_le_anh40_StoreCrate_e 'Premium Death Star Crate'
