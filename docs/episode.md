@@ -51,3 +51,7 @@ title: Index of episodes
   * [Questionable Cargo Part IV (ep_epRogue12019_p4)](ep_epRogue12019_p4.html)
   * [Time of Heroes Part I (ep_eptimeofheroes_p1)](ep_eptimeofheroes_p1.html)
   * [Time of Heroes Part II (ep_eptimeofheroes_p2)](ep_eptimeofheroes_p2.html)
+  * [Shared Interests (ep_Spacebear3_p1)](ep_Spacebear3_p1.html)
+  * [A Friend in Need (ep_Spacebear3_p2)](ep_Spacebear3_p2.html)
+  * [An Enemy Within (ep_Spacebear3_p3)](ep_Spacebear3_p3.html)
+  * [Unpaid Debts (ep_Spacebear3_p4)](ep_Spacebear3_p4.html)

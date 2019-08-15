@@ -3,6 +3,11 @@ title: Index of crates
 ---
 # Crates
 
+  * [cratetitlelc5thAnniversaryGRStoree (lc_5thAnniversaryGR_Store_e)](lc_5thAnniversaryGR_Store_e.html)
+  * [cratetitlelc5thAnniversaryGRStorer (lc_5thAnniversaryGR_Store_r)](lc_5thAnniversaryGR_Store_r.html)
+  * [cratetitlelc5thAnniversaryRCBStoree (lc_5thAnniversaryRCB_Store_e)](lc_5thAnniversaryRCB_Store_e.html)
+  * [cratetitlelc5thAnniversaryRCBStorer (lc_5thAnniversaryRCB_Store_r)](lc_5thAnniversaryRCB_Store_r.html)
+  * [cratetitlelc5thAnniversaryDaily (lc_5thAnniversary_Daily)](lc_5thAnniversary_Daily.html)
   * [cratetitlelcJetpackJumpDaily (lc_JetpackJump_Daily)](lc_JetpackJump_Daily.html)
   * [cratetitlelcJetpackJumpStoree (lc_JetpackJump_Store_e)](lc_JetpackJump_Store_e.html)
   * [cratetitlelcJetpackJumpStorer (lc_JetpackJump_Store_r)](lc_JetpackJump_Store_r.html)
@@ -24,6 +29,14 @@ title: Index of crates
   * [Premium Arctic Ops Crate (lc_arcOpsStore)](lc_arcOpsStore.html)
   * [Bronzium Data Fragment Crate (lc_bronziumEqpStore)](lc_bronziumEqpStore.html)
   * [Carbonite Data Fragment Crate (lc_carboniteEqpStore)](lc_carboniteEqpStore.html)
+  * [cratetitlelcconf5thAnniversarywk1tier5 (lc_conf_5thAnniversary_wk1_tier5)](lc_conf_5thAnniversary_wk1_tier5.html)
+  * [cratetitlelcconf5thAnniversarywk1tier6 (lc_conf_5thAnniversary_wk1_tier6)](lc_conf_5thAnniversary_wk1_tier6.html)
+  * [cratetitlelcconf5thAnniversarywk1tier7 (lc_conf_5thAnniversary_wk1_tier7)](lc_conf_5thAnniversary_wk1_tier7.html)
+  * [cratetitlelcconf5thAnniversarywk1tier8 (lc_conf_5thAnniversary_wk1_tier8)](lc_conf_5thAnniversary_wk1_tier8.html)
+  * [cratetitlelcconf5thAnniversarywk2tier5 (lc_conf_5thAnniversary_wk2_tier5)](lc_conf_5thAnniversary_wk2_tier5.html)
+  * [cratetitlelcconf5thAnniversarywk2tier6 (lc_conf_5thAnniversary_wk2_tier6)](lc_conf_5thAnniversary_wk2_tier6.html)
+  * [cratetitlelcconf5thAnniversarywk2tier7 (lc_conf_5thAnniversary_wk2_tier7)](lc_conf_5thAnniversary_wk2_tier7.html)
+  * [cratetitlelcconf5thAnniversarywk2tier8 (lc_conf_5thAnniversary_wk2_tier8)](lc_conf_5thAnniversary_wk2_tier8.html)
   * [cratetitlelcconfATDTATHaulertier5 (lc_conf_ATDT_ATHauler_tier5)](lc_conf_ATDT_ATHauler_tier5.html)
   * [cratetitlelcconfATDTATHaulertier6 (lc_conf_ATDT_ATHauler_tier6)](lc_conf_ATDT_ATHauler_tier6.html)
   * [cratetitlelcconfATDTATHaulertier7 (lc_conf_ATDT_ATHauler_tier7)](lc_conf_ATDT_ATHauler_tier7.html)

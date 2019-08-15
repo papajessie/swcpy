@@ -54,13 +54,27 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Modifiers
 
+#### Modifier "Damage stack"
+
+  * Damage stack apply value as: relativePercent
+  * Damage stack buff ID: buffDamageStack
+  * Damage stack duration: permanent
+  * Damage stack modifier: damage
+  * Damage stack ms first proc: 5s
+  * Damage stack ms per proc: 10s
+  * Damage stack name: Damage stack
+  * Damage stack stack: 5
+  * Damage stack target: self
+  * Damage stack value: 25.0%
+
+
 #### Modifier "Resilience"
 
   * Resilience apply value as: relativePercent
   * Resilience buff ID: buffResilience
   * Resilience duration: permanent
   * Resilience modifier: defense
-  * Resilience ms first proc: 10s
+  * Resilience ms first proc: 5s
   * Resilience ms per proc: 10s
   * Resilience name: Resilience
   * Resilience stack: 5
@@ -123,7 +137,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 These stats internal to the system link different parts of data together.
 
   * Resilience details: defense
-  * Spawn apply buffs: buffResilience1
+  * Spawn apply buffs: buffResilience1,buffDamageStack1
   * Unit ID: ApeMan
   * Upgrade shard uid: shrd_troopApeMan
 
@@ -172,6 +186,7 @@ Seriously, we don't really know what to do with these.
   * Arming delay: 0
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
+  * Damage stack tags: DamageStack
   * Max scale: No
   * Resilience tags: Resilience
   * Seeks target: Yes

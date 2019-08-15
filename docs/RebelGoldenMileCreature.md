@@ -15,7 +15,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Rebellion
   * Buildable unit: Yes
   * Role: Generic
-  * Unit capacity: 25
+  * Unit capacity: 15
   * Type: mercenary
 
 |Level |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
@@ -82,18 +82,18 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Shot delay: 750ms
   * Target locking: No
 
-|Level          |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
-|---------------|-----|-----|-----|-----|-----|----|----|----|----|----|
-|Damage per shot|12144|11644|11138|10632|10125|9613|9113|8600|8100|7594|
+|Level          |10   |9    |8    |7    |6    |5    |4    |3    |2   |1   |
+|---------------|-----|-----|-----|-----|-----|-----|-----|-----|----|----|
+|Damage per shot|14573|13973|13366|12758|12150|11536|10936|10320|9720|9113|
 
 
 ### Projectile
 
 |Level                       |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Displayed damage per second |1951 |15525|14850|14176|13500|12817|12150|11466|10800|10125|
-|Calculated damage per second|8096 |7762 |7425 |7088 |6750 |6408 |6075 |5733 |5400 |5062 |
-|Calculated damage per cycle |12144|11644|11138|10632|10125|9613 |9113 |8600 |8100 |7594 |
+|Displayed damage per second |19430|18630|17820|17011|16200|15380|14580|13759|12960|12150|
+|Calculated damage per second|9715 |9315 |8910 |8505 |8100 |7690 |7290 |6880 |6480 |6075 |
+|Calculated damage per cycle |14573|13973|13366|12758|12150|11536|10936|10320|9720 |9113 |
 
 
   * Cannons per sequence: 1
@@ -143,7 +143,7 @@ These are all sorts of user interface settings, that should not interfere with g
 
 |Level                      |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
 |---------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Displayed damage per second|1951       |15525      |14850      |14176      |13500      |12817      |12150      |11466      |10800      |10125      |
+|Displayed damage per second|19430      |18630      |17820      |17011      |16200      |15380      |14580      |13759      |12960      |12150      |
 |Icon unlock rotation       |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0,-15,0    |
 |Icon unlock scale          |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|0.7,0.7,0.7|
 
