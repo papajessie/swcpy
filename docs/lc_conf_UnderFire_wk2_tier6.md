@@ -1,23 +1,23 @@
 ---
-title: cratetitlelcconfchickenFragmenttier6 (lc_conf_chickenFragment_tier6)
+title: cratetitlelcconfUnderFirewk2tier6 (lc_conf_UnderFire_wk2_tier6)
 category: crate
 ---
 
-# cratetitlelcconfchickenFragmenttier6 (lc_conf_chickenFragment_tier6)
+# cratetitlelcconfUnderFirewk2tier6 (lc_conf_UnderFire_wk2_tier6)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
 This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
-## Pool "lcpool_chickenFragment_conf5" (x1 draw)
+## Pool "lcpool_conf_UnderFire_wk2_tier5" (x1 draw)
 
 ### Empire
 
-  * (1/1) 4 data fragments of unlockable troop [AT-DT Walker](EmpireChicken)
+  * (1/1) 8 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
 
 ### Rebellion
 
-  * (1/1) 4 data fragments of unlockable troop [Stolen AT-DT Walker](RebelChicken)
+  * (1/1) 8 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
 
 ### Fallback for HQ level 10
 

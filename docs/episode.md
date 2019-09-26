@@ -55,3 +55,5 @@ title: Index of episodes
   * [A Friend in Need (ep_Spacebear3_p2)](ep_Spacebear3_p2.html)
   * [An Enemy Within (ep_Spacebear3_p3)](ep_Spacebear3_p3.html)
   * [Unpaid Debts (ep_Spacebear3_p4)](ep_Spacebear3_p4.html)
+  * [Under Fire Part I (ep_epunderfire_p1)](ep_epunderfire_p1.html)
+  * [Under Fire Part II (ep_epunderfire_p2)](ep_epunderfire_p2.html)
