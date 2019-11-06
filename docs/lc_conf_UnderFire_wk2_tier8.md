@@ -11,13 +11,9 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
 
 ## Pool "lcpool_conf_UnderFire_wk2_tier8" (x1 draw)
 
-### Rebellion
+### Always
 
-  * (1/1) 32 data fragments of equipment [Enhanced T2-B Repulsor Tank](eqpRebelT2BTankHalfSkin)
-
-### Empire
-
-  * (1/1) 32 data fragments of equipment [Enhanced AT-ST Walker](eqpEmpireATSTHalfSkin)
+  * No items, see the fallback option below
 
 ### Fallback for HQ level 10
 

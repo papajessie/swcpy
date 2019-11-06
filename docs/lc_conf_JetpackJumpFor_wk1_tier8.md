@@ -1,13 +1,47 @@
 ---
-title: cratetitlelcconflicttrooptransportconflictatier820180913 (lc_conflict_trooptransportconflict_a_tier8_20180913)
+title: cratetitlelcconfJetpackJumpForwk1tier8 (lc_conf_JetpackJumpFor_wk1_tier8)
 category: crate
 ---
 
-# cratetitlelcconflicttrooptransportconflictatier820180913 (lc_conflict_trooptransportconflict_a_tier8_20180913)
+# cratetitlelcconfJetpackJumpForwk1tier8 (lc_conf_JetpackJumpFor_wk1_tier8)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
 This crate expires after 7d. The contents are one draw from each of the 4 pools.
+
+## Pool "lcpool_conf_JetpackJumpFor_wk1_tier8" (x1 draw)
+
+### Rebellion
+
+  * (1/1) 20 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
+
+### Empire
+
+  * (1/1) 20 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
+
+### Fallback for HQ level 10
+
+  * 380000 Credits
+
+### Fallback for HQ level 11
+
+  * 380000 Credits
+
+### Fallback for HQ level 6
+
+  * 82000 Credits
+
+### Fallback for HQ level 7
+
+  * 130000 Credits
+
+### Fallback for HQ level 8
+
+  * 170000 Credits
+
+### Fallback for HQ level 9
+
+  * 250000 Credits
 
 ## Pool "lcpool_creditsAlloy_conf8" (x1 draw)
 
@@ -154,40 +188,6 @@ This crate expires after 7d. The contents are one draw from each of the 4 pools.
   * (3/28) 4 data fragments of equipment [Sandtrooper](eqpEmpireSandtrooper)
   * (3/28) 4 data fragments of equipment [Snowtrooper](eqpEmpireSnowtrooper)
   * (5/28) 4 data fragments of equipment [Shoretrooper](eqpEmpirePentagonTrooper)
-
-### Fallback for HQ level 10
-
-  * 380000 Credits
-
-### Fallback for HQ level 11
-
-  * 380000 Credits
-
-### Fallback for HQ level 6
-
-  * 82000 Credits
-
-### Fallback for HQ level 7
-
-  * 130000 Credits
-
-### Fallback for HQ level 8
-
-  * 170000 Credits
-
-### Fallback for HQ level 9
-
-  * 250000 Credits
-
-## Pool "lcpool_trooptransportconflict_conf8" (x1 draw)
-
-### Rebellion
-
-  * (1/1) 32 data fragments of unlockable troop [A-A5 Speeder Truck](RebelTransportVehicle)
-
-### Empire
-
-  * (1/1) 32 data fragments of unlockable troop [Imperial Troop Transport](EmpireTransportVehicle)
 
 ### Fallback for HQ level 10
 

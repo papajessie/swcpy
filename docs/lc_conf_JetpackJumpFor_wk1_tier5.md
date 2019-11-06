@@ -1,19 +1,23 @@
 ---
-title: cratetitlelcconfUnderFirewk2tier5 (lc_conf_UnderFire_wk2_tier5)
+title: cratetitlelcconfJetpackJumpForwk1tier5 (lc_conf_JetpackJumpFor_wk1_tier5)
 category: crate
 ---
 
-# cratetitlelcconfUnderFirewk2tier5 (lc_conf_UnderFire_wk2_tier5)
+# cratetitlelcconfJetpackJumpForwk1tier5 (lc_conf_JetpackJumpFor_wk1_tier5)
 
 Crates are given as rewards for various actions. The content is revealed only when opening them, by drawing once (or more) in various prize pools. Only one prize is won for each pool per draw. The in-game description of expectations is written manually and can be wrong. The probability of obtaining one prize is indicated below; the pools change according to planet, faction and HQ level.
 
 This crate expires after 7d. The contents are one draw from each of the 3 pools.
 
-## Pool "lcpool_conf_UnderFire_wk2_tier5" (x1 draw)
+## Pool "lcpool_conf_JetpackJumpFor_wk1_tier5" (x1 draw)
 
-### Always
+### Rebellion
 
-  * No items, see the fallback option below
+  * (1/1) 5 data fragments of equipment [Forest Jetpack Trooper](eqpRebelPentagonJetpackTrooper)
+
+### Empire
+
+  * (1/1) 5 data fragments of equipment [Forest Jump Trooper](eqpEmpirePentagonJumpTrooper)
 
 ### Fallback for HQ level 10
 

@@ -57,3 +57,6 @@ title: Index of episodes
   * [Unpaid Debts (ep_Spacebear3_p4)](ep_Spacebear3_p4.html)
   * [Under Fire Part I (ep_epunderfire_p1)](ep_epunderfire_p1.html)
   * [Under Fire Part II (ep_epunderfire_p2)](ep_epunderfire_p2.html)
+  * [Naval Assault Part I (ep_epNaval3_p1)](ep_epNaval3_p1.html)
+  * [Naval Assault Part II (ep_epNaval3_p2)](ep_epNaval3_p2.html)
+  * [Naval Assault Part III (ep_epNaval3_p3)](ep_epNaval3_p3.html)
