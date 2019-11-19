@@ -75,16 +75,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Gun shooting sequence: 1
   * Impact delay: 1s
   * Can shoot over walls: Yes
-  * Reload time: 2s
+  * Reload time: 1.650s
   * Retargeting offset: 14
   * Self-centered targeting: No
   * Shot count: 1
-  * Shot delay: 500ms
+  * Shot delay: 700ms
   * Target locking: No
 
 |Level          |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |---------------|----|----|----|----|----|----|----|----|----|----|----|
-|Damage per shot|3900|3612|3131|2890|2649|2408|2168|1927|1686|1445|1204|
+|Damage per shot|4536|4200|3640|3360|3080|2800|2520|2240|1960|1680|1400|
 
 
 ### Projectile
@@ -94,12 +94,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                       |11  |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |----------------------------|----|----|----|----|----|----|----|----|----|----|----|
 |Displayed damage per second |1813|1680|1456|1344|1232|1120|1008|896 |784 |672 |560 |
-|Calculated damage per second|1813|1680|1456|1344|1232|1120|1008|896 |784 |672 |560 |
-|Calculated damage per cycle |3900|3612|3131|2890|2649|2408|2168|1927|1686|1445|1204|
+|Calculated damage per second|2520|2333|2022|1866|1711|1555|1400|1244|1088|933 |777 |
+|Calculated damage per cycle |4536|4200|3640|3360|3080|2800|2520|2240|1960|1680|1400|
 
 
   * Cannons per sequence: 1
-  * Shooting cycle duration: 2.150s
+  * Shooting cycle duration: 1.800s
   * Directional: Yes
   * Is deflectable: Yes
   * Max speed: 15
