@@ -3424,6 +3424,34 @@ category: strings
     dia_epSpacebear_w1c1_02 'There’s a limited time window for this job, so let’s get started. It’ll be worth it!'
     dia_epSpacebear_w1c2_00 'Doing great, partner. We make good on this deal, I bet there will be more jobs in the future.'
     dia_epSpacebear_w1cf_00 "You did it, partner! My contact came through, like I said. In fact, they told me they'll pay for any extra work we do on this contract. If you aren't satisfied, keep up the work and they'll keep up the payment!"
+    dia_epTrixie_p1c1_00 "Pirates have stolen my relics! Unforgivable! Get them back and you will be rewarded. Could I do it? Of course I could do it! But I'm a little tied down right now."
+    dia_epTrixie_p1c1_01 'Now listen, I know a smuggler who keeps his ear to the ground, and he owes me a favor. If anyone knows who’s got my relics, he will. We need to find out what he knows.'
+    dia_epTrixie_p1c1_02 "But I don't know where he is… He's a card player, gambler, scoundrel. He’s probably playing cards in some cantina with mercenaries and smugglers! Find him."
+    dia_epTrixie_p1c1_03 "The reward? I've had these data fragments in my collection for a long time, I'm sure they will be of use to you."
+    dia_epTrixie_p1c2_00 'You are close to finding my friend. Oh, they call him Baron now? Hah!'
+    dia_epTrixie_p1c2_01 'I have more tasks that will help you uncover clues. Keep it up and I will give you more of my data fragments.'
+    dia_epTrixie_p1c3_00 'You should have enough information to locate him now. Baron Administrator Calrissian. Hah!'
+    dia_epTrixie_p1c3_01 "Talk with him, tell him Maz sent you. He might not tell you everything he knows for free though, I said he's a friend, not stupid."
+    dia_epTrixie_p1c3_02 'Any new information you recover will be rewarded.'
+    dia_epTrixie_p2c1_00 "Hello, I'm the Administrator of this facility. Maz Kanata sent you? Look I'm a legitimate businessman..."
+    dia_epTrixie_p2c1_01 "Alright, alright, but you have to do something for me first. An… organization is threatening my operation. Deal with them first. Then, I can help you track down Maz's Relics."
+    dia_epTrixie_p2c1_02 'Also, I recently acquired a few crates of data fragments in a card game. They’re yours… if you do these tasks for me. Agreed?'
+    dia_epTrixie_p2c2_00 "They're backing off, keep up the pressure. Remember our agreement, I'll pay for every one of them you deal with."
+    dia_epTrixie_p2c3_00 "They don't seem so keen on my gas mine now. Hey, that was no easy spin, you've done me a real favor!"
+    dia_epTrixie_p2c3_01 'The relics? Sure, I can help Maz, I\'m just waiting to hear back from my "sources".'
+    dia_epTrixie_p2c3_02 "Oh and if you want to take care of what's left of that organization then I'll compensate you handsomely."
+    dia_epTrixie_p3c1_00_e "I've found the pirates smuggling Maz’s relics. They’ve been disguising themselves as Rebels. An impressive operation!"
+    dia_epTrixie_p3c1_00_r "I've discovered that the pirates are smuggling Maz’s relics through Empire bases, using them as a cover. An impressive operation!"
+    dia_epTrixie_p3c1_01 'While you are recovering Maz’s relics, dismantle their little enterprise. It will be advantageous for everybody. Here’s more data fragments to sweeten the deal.'
+    dia_epTrixie_p3c2_00 "I've heard you've shut down some of their operations. Remember, complete the tasks and you'll be well compensated."
+    dia_epTrixie_p3c3_00 "Buddy! How’ you doing? You've taken back Maz's relics? She'll be happy! Let's not keep the lady waiting."
+    dia_epTrixie_p3c3_01 "You know... if you deal with what's left of these pirates I will repay you, they might even have some new relics to add to Maz's collection!"
+    dia_epTrixie_p4c1_00_e "My relics! You found them. So, they've been disguising themselves as Rebels! Those beasts! Right under my nose."
+    dia_epTrixie_p4c1_00_r "My relics! You found them. So, they've been hiding behind the Empire! Those beasts!"
+    dia_epTrixie_p4c1_01 "This isn't just some union dispute. Nobody steals from Maz Kanata. I want you to teach these thieves a lesson!"
+    dia_epTrixie_p4c1_02 "I have more data fragments stored away. Do this for me and they're yours."
+    dia_epTrixie_p4c2_00 "Ha! You're right in the mess! Keep this up and you will earn yourself more data fragments."
+    dia_epTrixie_p4c3_00 "You've done well, but there will be more of those thieving troublemakers out there. Remind them that nobody breaks the rules! Find more of those pirates and I will repay you."
     dia_epUnderFire_p1c1_00_e 'Hello again, Friend! I was thinking, those Stormtroopers of yours are trusty in a fight, but what about something a little more out of the ordinary?'
     dia_epUnderFire_p1c1_00_r 'Hello again, Friend! I was thinking, those Soldiers of yours are trusty in a fight, but what about something a little more out of the ordinary?'
     dia_epUnderFire_p1c1_01 'I find myself with several more jobs that need doing. There are some truly extraordinary rewards in it for you, trust me!'
@@ -4710,6 +4738,46 @@ category: strings
     epchp_epSpaceBear_w6cf_body 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. Until the event ends, this objective can be finished an unlimited number of times, each time earning an Elite Event Crate with a chance to award Data Fragments for the Fathier Rider.'
     epchp_epSpaceBear_w6f_title 'Unpaid Debts [Complete]'
     epchp_epSpacebear_w1_title 'An Old Friend'
+    epchp_epTrixie_p1_title 'Plunder'
+    epchp_epTrixie_p1c1_body_e 'Maz has acquired a cache of Data Fragments for a powerful Mercenary Unit. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!'
+    epchp_epTrixie_p1c1_body_r 'Maz has acquired a cache of Data Fragments for a powerful Mercenary Unit. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!'
+    epchp_epTrixie_p1c1_title 'Plunder, Chapter I'
+    epchp_epTrixie_p1c2_body_e "Maz's offer remains open: Data Fragments for a powerful Mercenary Unit, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!"
+    epchp_epTrixie_p1c2_body_r "Maz's offer remains open: Data Fragments for a powerful Mercenary Unit, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!"
+    epchp_epTrixie_p1c2_title 'Plunder, Chapter II'
+    epchp_epTrixie_p1f_body_e 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit.'
+    epchp_epTrixie_p1f_body_r 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit.'
+    epchp_epTrixie_p1f_title 'Plunder, Complete'
+    epchp_epTrixie_p2_title 'Legitimate Business'
+    epchp_epTrixie_p2c1_body_e 'Lando requires your assistance and has acquired a cache of Data Fragments for a powerful Mercenary Unit. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!'
+    epchp_epTrixie_p2c1_body_r 'Lando requires your assistance and has acquired a cache of Data Fragments for a powerful Mercenary Unit. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!'
+    epchp_epTrixie_p2c1_title 'Legitimate Business, Chapter I'
+    epchp_epTrixie_p2c2_body_e "Lando's offer remains open: Data Fragments for the Orbak Marauder Unit, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!"
+    epchp_epTrixie_p2c2_body_r "Lando's offer remains open: Data Fragments for the Orbak Marauder Unit, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Orbak Marauder Unit!"
+    epchp_epTrixie_p2c2_title 'Legitimate Business, Chapter II'
+    epchp_epTrixie_p2f_body_e 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit.'
+    epchp_epTrixie_p2f_body_r 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit.'
+    epchp_epTrixie_p2f_title 'Legitimate Business, Complete'
+    epchp_epTrixie_p3_title 'Treasure Hunt'
+    epchp_epTrixie_p3c1_body_e 'Lando still requires your assistance and has acquired a cache of Equipment Data Fragments for the Elite Orbak Marauder. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!'
+    epchp_epTrixie_p3c1_body_r 'Lando still requires your assistance and has acquired a cache of Equipment Data Fragments for the Elite Orbak Marauder. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!'
+    epchp_epTrixie_p3c1_title 'Treasure Hunt, Chapter I'
+    epchp_epTrixie_p3c2_body_e "Lando's offer remains open: Data Fragments for the Elite Orbak Marauder Equipment, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!"
+    epchp_epTrixie_p3c2_body_r "Lando's offer remains open: Data Fragments for the Elite Orbak Marauder Equipment, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!"
+    epchp_epTrixie_p3c2_title 'Treasure Hunt, Chapter II'
+    epchp_epTrixie_p3f_body_e 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit and the Elite Orbak Marauder Equipment!.'
+    epchp_epTrixie_p3f_body_r 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit and the Elite Orbak Marauder Equipment!.'
+    epchp_epTrixie_p3f_title 'Treasure Hunt, Complete'
+    epchp_epTrixie_p4_title 'Pirate Queen'
+    epchp_epTrixie_p4c1_body_e 'Maz still holds a cache of Equipment Data Fragments for the Elite Orbak Marauder. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!'
+    epchp_epTrixie_p4c1_body_r 'Maz still holds a cache of Equipment Data Fragments for the Elite Orbak Marauder. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!'
+    epchp_epTrixie_p4c1_title 'Pirate Queen, Chapter I'
+    epchp_epTrixie_p4c2_body_e "Maz's offer remains open: Data Fragments for the Elite Orbak Marauder Equipment, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!"
+    epchp_epTrixie_p4c2_body_r "Maz's offer remains open: Data Fragments for the Elite Orbak Marauder Equipment, in exchange for work. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Elite Orbak Marauder Equipment!"
+    epchp_epTrixie_p4c2_title 'Pirate Queen, Chapter II'
+    epchp_epTrixie_p4f_body_e 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit and the Elite Orbak Marauder Equipment!.'
+    epchp_epTrixie_p4f_body_r 'Congratulations! You have completed the event and unlocked the Bonus Event Objective. [c][23BBFB]Until the event ends, this objective can be finished an unlimited number of times[-][/c], each time earning an Elite Event Crate with a chance to award Data Fragments for the Orbak Marauder Unit and the Elite Orbak Marauder Equipment!.'
+    epchp_epTrixie_p4f_title 'Pirate Queen, Complete'
     epchp_eptimeofheroes_p1c1_body_e 'Hondo has acquired a cache of Data Fragments for a dangerous Spiderdroid. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the SD-K4!'
     epchp_eptimeofheroes_p1c1_body_r 'Hondo has acquired a cache of Data Fragments for a dangerous Spiderdroid. [c][23BBFB]Finish Event Objectives to earn Supply Crates.[-][/c] Complete the Event before time runs out for a guaranteed unlock of the Modified SD-K4!'
     epchp_eptimeofheroes_p1c1_title 'Time of Heroes, Part I'
@@ -4813,6 +4881,7 @@ category: strings
     eqpEmpireBarracksSummonLight_name 'Guard Reserve: Light Infantry'
     eqpEmpireBarracksSummonMedium_description 'A guard wave of [c][FFC25B]2 Dewbacks[-][/c] will appear from each Barrack shortly after the battle starts. Additional guard waves will periodically appear during the battle. [c][FFC25B]Research higher levels of this Guard Reserve to make Dewbacks appear more often.[-][/c]'
     eqpEmpireBarracksSummonMedium_name 'Guard Reserve: Melee Bruisers'
+    eqpEmpireBetaTroop_name 'Elite Orbak Marauder'
     eqpEmpireBubbaTieFighter_description 'An improvement over the TIE starfighter, the TIE/rb heavy starfighter has much more powerful laser cannons.'
     eqpEmpireBubbaTieFighter_name 'TIE Brute'
     eqpEmpireBurstTurretDamage_description 'Diffuses the buildup of internal thermal energy, allowing the burst turret to more efficiently produce powerful volleys.'
@@ -4891,6 +4960,7 @@ category: strings
     eqpRebelBarracksSummonLight_name 'Guard Reserve: Light Infantry'
     eqpRebelBarracksSummonMedium_description 'A guard wave of [c][FFC25B]2 Bantha Riders[-][/c] will appear from each Barrack shortly after the battle starts. Additional guard waves will periodically appear during the battle. [c][FFC25B]Research higher levels of this Guard Reserve to make Bantha Riders appear more often.[-][/c]'
     eqpRebelBarracksSummonMedium_name 'Guard Reserve: Melee Bruisers'
+    eqpRebelBetaTroop_name 'Elite Orbak Marauder'
     eqpRebelBurstTurretDamage_description 'Diffuses the buildup of internal thermal energy, allowing the burst turret to more efficiently produce powerful volleys.'
     eqpRebelBurstTurretDamage_name 'Enhanced Heat Sink'
     eqpRebelBurstTurretHealth_description 'Provides bracing to the weak points of the standard burst turret mounting, increasing the amount of damage the turret will sustain before becoming non-operational.'
@@ -5592,6 +5662,14 @@ category: strings
     hn_cc_1_RancorKraytDragon_20190613_HQ9-_e_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
     hn_cc_1_RancorKraytDragon_20190613_HQ9-_r_body "Tear down the Empire with ferocious [c][FFB74A]Krayt Dragons & Rancors[-][/c]. Claim samples of these exotic beasts to deploy immediately, then fight in this week's Conflict to acquire more!"
     hn_cc_1_RancorKraytDragon_20190613_HQ9-_r_title '6/13 to 6/19 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200116_HQ10+_e_title '1/16 to 1/22Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200116_HQ10+_r_title '1/16 to 1/22 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200116_HQ9-_e_title '1/16 to 1/22 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200116_HQ9-_r_title '1/16 to 1/22 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200123_HQ10+_e_title '1/22 to 1/29 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200123_HQ10+_r_title '1/22 to 1/29 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200123_HQ9-_e_title '1/22 to 1/29 Conflict Outbreak: Krayt Dragons and Rancors'
+    hn_cc_1_RancorKraytDragon_20200123_HQ9-_r_title '1/22 to 1/29 Conflict Outbreak: Krayt Dragons and Rancors'
     hn_cc_1_RebelBanner_20190502_New_Building_body 'As part of Star Wars Day celebrations, Commanders at HQ 3 and above can now construct Rebel Banners. Show your devotion to the Rebel Alliance!'
     hn_cc_1_RebelBanner_20190502_New_Building_title 'New Building: Rebel Banner'
     hn_cc_1_Rebel_EnhancedEngineering_20190502_body 'For a Limited Time, Vehicle Training Time is halved! Dominate your opponents with mechanized forces! In addition, Upgrading Vehicles at the Research Lab costs half the regular amount of Credits!'
@@ -5930,6 +6008,26 @@ category: strings
     hn_cc_1_epSpacebear_w5_r_title 'Second Chance: Bufopel Protector Data Fragments!'
     hn_cc_1_epSpacebear_w6_body "This week's Event concludes the celebration of Star Wars: The Last Jedi. Finish the Event for a guaranteed unlock/upgrade of the Fathier Rider from the movie, available this week only!"
     hn_cc_1_epSpacebear_w6_title 'Last Chance: Fathier Rider Data Fragments!'
+    hn_cc_1_epTrixie_announce_p1_body 'Maz Kanata has a mission for you! Complete the event to earn rewards, including Data Fragments for the [c][FFB74A]Orbak Marauder[-][/c].'
+    hn_cc_1_epTrixie_announce_p1_title 'New event celebrating Star Wars: The Rise of Skywalker!'
+    hn_cc_1_epTrixie_announce_p2_body "Part II of the event finishes 01/01! Complete Lando's tasks to earn rewards, including Data Fragments for the powerful [c][FFB74A]Orbak Marauder[-][/c]."
+    hn_cc_1_epTrixie_announce_p2_title 'Part II playable now!'
+    hn_cc_1_epTrixie_announce_p3_body "Part III of the event finishes 01/08! Complete Lando's tasks to earn rewards, including Data Fragments for the powerful [c][FFB74A]Elite Orbak Marauder[-][/c] equipment."
+    hn_cc_1_epTrixie_announce_p3_title 'Part III playable now!'
+    hn_cc_1_epTrixie_announce_p4_body 'Finish the mission! [FFB74A]Part IV[-][/c] ends 01/15! Play for big rewards, and a last chance to unlock/upgrade the Elite Orbak Marauder Equipment!'
+    hn_cc_1_epTrixie_announce_p4_title 'Last Chance: Orbak Marauder Data Fragments'
+    hn_cc_1_epTrixie_w1_HQ6-_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. [c][FFB74A]HQ Level 7 and Cantina required to train Orbak Marauder units.[-][/c]'
+    hn_cc_1_epTrixie_w1_HQ7+_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster.'
+    hn_cc_1_epTrixie_w1_e_title 'New Mercenary: Orbak Marauder'
+    hn_cc_1_epTrixie_w2_HQ6-_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. [c][FFB74A]HQ Level 7 and Cantina required to train Orbak Marauder units.[-][/c]'
+    hn_cc_1_epTrixie_w2_HQ7+_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster.'
+    hn_cc_1_epTrixie_w2_e_title 'New Mercenary: Orbak Marauder'
+    hn_cc_1_epTrixie_w3_HQ6-_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage. [c][FFB74A]HQ Level 7 and Cantina required to train Orbak Marauder.[-][/c]'
+    hn_cc_1_epTrixie_w3_HQ7+_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
+    hn_cc_1_epTrixie_w3_e_title 'New Equipment: Elite Orbak Marauder'
+    hn_cc_1_epTrixie_w4_HQ6-_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage. [c][FFB74A]HQ Level 7 and Cantina required to train Orbak Marauder units.[-][/c]'
+    hn_cc_1_epTrixie_w4_HQ7+_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
+    hn_cc_1_epTrixie_w4_e_title 'New Equipment: Elite Orbak Marauder'
     hn_cc_1_erk_outpost_body "A Mining Complex has been located on Er'Kit. Capture it during a Squad War to increase your squad's wall and HQ durability!"
     hn_cc_1_erk_outpost_title "Factory Outpost - Er'Kit"
     hn_cc_1_erkit_conflict_end_body_e "The recent uptick in Rebel activity on Er'Kit seems to have run its course. You performed admirably, Operative. I begin to see now why Lord Vader has taken notice of your skill."
@@ -6322,6 +6420,20 @@ category: strings
     hn_cc_1_rogue1_20190530_HQ2-5_r_title 'Event ends 6/05! Last chance to unlock Rebel Vanguards!'
     hn_cc_1_rogue1_20190530_HQ6+_e_title 'Event ends 6/05! Last chance to unlock TX-225 Tank Equipment!'
     hn_cc_1_rogue1_20190530_HQ6+_r_title 'Event ends 6/05! Last chance to unlock Stolen TX-225 Tank Equipment!'
+    hn_cc_1_rogue1_20200130_HQ2-5_e_title 'Shock Troopers in event until 2/5!'
+    hn_cc_1_rogue1_20200130_HQ2-5_r_title 'Rebel Vanguards in event until 2/5!'
+    hn_cc_1_rogue1_20200130_HQ6+_e_title 'TX-225 Tank Equipment in event until 2/5!'
+    hn_cc_1_rogue1_20200130_HQ6+_r_title 'Stolen TX-225 Equipment in event until 2/5!'
+    hn_cc_1_rogue1_20200206_HQ2-5_title 'Johhar Kessen in event until 2/12!'
+    hn_cc_1_rogue1_20200206_HQ6+_e_title 'TIE Striker in event until 2/12!'
+    hn_cc_1_rogue1_20200206_HQ6+_r_title 'Fang Fighter in event until 2/12!'
+    hn_cc_1_rogue1_20200213_HQ2-6_title 'Johhar Kessen in event until 2/19!'
+    hn_cc_1_rogue1_20200213_HQ7+_e_title 'Security Droid in event until 2/19!'
+    hn_cc_1_rogue1_20200213_HQ7+_r_title 'Drabatan Saboteur in event until 2/19!'
+    hn_cc_1_rogue1_20200220_HQ2-5_e_title 'Event ends 2/26! Last chance to unlock Shock Troopers!'
+    hn_cc_1_rogue1_20200220_HQ2-5_r_title 'Event ends 2/26! Last chance to unlock Rebel Vanguards!'
+    hn_cc_1_rogue1_20200220_HQ6+_e_title 'Event ends 2/26! Last chance to unlock TX-225 Tank Equipment!'
+    hn_cc_1_rogue1_20200220_HQ6+_r_title 'Event ends 2/26! Last chance to unlock Stolen TX-225 Tank Equipment!'
     hn_cc_1_rogue1_promo_body 'In theaters December 16'
     hn_cc_1_rogue1_promo_title 'Rogue One: A Star Wars Story'
     hn_cc_1_rogue1_ru_body 'Получите в подарок звездолеты и наемников из нового фильма «Изгой-один: Звёздные Войны. Истории»!'
@@ -6871,6 +6983,18 @@ category: strings
     hn_cc_3_epSpacebear_w4_e_title 'New Troop: Ongidae Oppressor'
     hn_cc_3_epSpacebear_w4_r_body 'While the Bufopel normally prefer peace, they will unite in conflict to defend themselves. Their immense strength makes them fearsome opponents. This unit takes less damage from attacks, the longer it remains in battle. Claim special samples of this troop to deploy immediately!'
     hn_cc_3_epSpacebear_w4_r_title 'New Troop: Bufopel Protector'
+    hn_cc_3_epTrixie_w1_HQ6-_body 'Targeting Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. Claim samples of this troop to deploy immediately! [c][FFB74A]HQ Level 7 and Cantina required to train additional Orbak Marauder units.[-][/c]'
+    hn_cc_3_epTrixie_w1_HQ7+_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. Claim samples of this troop to deploy immediately!'
+    hn_cc_3_epTrixie_w1_e_title 'New Mercenary: Orbak Marauder'
+    hn_cc_3_epTrixie_w2_HQ6-_body 'Targeting Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. Claim samples of this troop to deploy immediately! [c][FFB74A]HQ Level 7 and Cantina required to train additional Orbak Marauder units.[-][/c]'
+    hn_cc_3_epTrixie_w2_HQ7+_body 'A mercenary mounted atop a powerful Orbak. Focusing on Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster. Claim samples of this troop to deploy immediately!'
+    hn_cc_3_epTrixie_w2_e_title 'New Mercenary: Orbak Marauder'
+    hn_cc_3_epTrixie_w3_HQ6-_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage. [c][FFB74A]HQ Level 7 and Cantina required to train additional Orbak Marauder units.[-][/c]'
+    hn_cc_3_epTrixie_w3_HQ7+_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
+    hn_cc_3_epTrixie_w3_e_title 'New Equipment: Elite Orbak Marauder'
+    hn_cc_3_epTrixie_w4_HQ6-_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage. [c][FFB74A]HQ Level 7 and Cantina required to train additional Orbak Marauder units.[-][/c]'
+    hn_cc_3_epTrixie_w4_HQ7+_body 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.Claim special samples of this troop to deploy immediately!'
+    hn_cc_3_epTrixie_w4_e_title 'New Equipment: Elite Orbak Marauder'
     hn_cc_3_fangFighter_body 'The Fang Fighter is especially effective against vehicle units, using a barrage of proton torpedos to cause massive damage across a wide area. Collect Data Fragments for this starship only during the Rogue One Special Event!'
     hn_cc_3_fangFighter_title 'Special Event Starships'
     hn_cc_3_fangFighter_title2 'Fang Fighter'
@@ -7270,6 +7394,9 @@ category: strings
     hn_dnotes_20191107_title '2-Week Conflict Outbreak'
     hn_dnotes_20191212_body "[c][FFB74A]Conflict Outbreak: Jetpack & Jump Troopers[-][/c]\n• Conflict Bronzium league or better awards Elite Equipment Data Fragments - Increases Jetpack & Jump Trooper damage and health\n\n• [c][E40B18]HQ 6 and above[-][/c]\n• 12/12 to 12/18; Tatooine & Er'Kit:\n- Rebel [c][FFC25B]Desert Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Desert Jump Trooper[-][/c] (Eqp)\n\n• 12/12 to 12/18; Hoth:\n- Rebel [c][FFC25B]Arctic Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Arctic Jump Trooper[-][/c] (Eqp)\n\n• 12/12 to 12/18; Dandoran, Takodana & Yavin 4:\n- Rebel [c][FFC25B]Forest Jetpack Trooper[-][/c] (Eqp)\n- Empire [c][FFC25B]Forest Jump Trooper[-][/c] (Eqp)\n\n• [c][E40B18]HQ 5 and below[-][/c] can earn samples of Jetpack & Jump Trooper Units."
     hn_dnotes_20191212_title 'Conflict Outbreak: Jetpack & Jump Troopers'
+    hn_dnotes_20191219_body "[c][FFC25B]New event celebrating Star Wars: The Rise of Skywalker![-][/c]\nIn this four week Event, Maz Kanata has a mission for you! Complete the event to earn rewards, including Data Fragments & Equipment for the new Orbak Marauder Unit!\n\n[c][FFC25B]Planetary Conflicts during the Star Wars: The Rise of Skywalker event[-][/c]\n\n• 12/19 to 12/25:\n• Tatooine, Hoth, Er'Kit:\n• [c][E40B18]HQ 7 and above[-][/c]\n- Empire & Rebel [c][FFC25B]Orbak Marauder[-][/c] (Unit) Data Fragments\n• [c][E40B18]HQ 6 and below[-][/c]\n- Empire & Rebel [c][FFC25B]Orbak Marauder[-][/c] (Unit) Samples\n\n• 12/26 to 01/01:\n• Tatooine, Takodana, Yavin IV:\n• [c][E40B18]HQ 7 and above[-][/c]\n- Empire & Rebel [c][FFC25B]Orbak Marauder[-][/c] (Unit) Data Fragments\n• [c][E40B18]HQ 6 and below[-][/c]\n- Empire & Rebel [c][FFC25B]Orbak Marauder[-][/c] (Unit) Samples\n\n• 01/02 to 01/08:\n• Tatooine, Dandoran, Er'Kit:\n• [c][E40B18]HQ 7 and above[-][/c]\n- Empire & Rebel [c][FFC25B]Elite Orbak Marauder[-][/c] (Equipment) Data Fragments\n• [c][E40B18]HQ 6 and below[-][/c]\n- Empire & Rebel [c][FFC25B]Elite Orbak Marauder[-][/c] (Equipment) Samples\n\n• 01/09 to 01/15:\n• Tatooine, Dandoran, Hoth:\n• [c][E40B18]HQ 7 and above[-][/c]\n- Empire & Rebel [c][FFC25B]Elite Orbak Marauder[-][/c] (Equipment) Data Fragments\n• [c][E40B18]HQ 6 and below[-][/c]\n- Empire & Rebel [c][FFC25B]Elite Orbak Marauder[-][/c] (Equipment) Samples"
+    hn_dnotes_20191219_title 'Star Wars: The Rise of Skywalker'
+    hn_dnotes_20200116_body "[c][FFC25B]Conflict Outbreak : Krayt Dragons & Rancors[-][/c]\n• Conflict Obsidian League or better awards Krayt Dragon Data Fragments / Samples\n• Conflict Bronzium League or better awards Rancor Data Fragments / Samples\n\n• 1/16 to 1/22:\n• [c][E40B18]HQ 10 and above[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Shadow Rancor[-][/c] (Creature) Data Fragments\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Rancor[-][/c] (Creature) Data Fragments\n• [c][E40B18]HQ 9 and below[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Shadow Rancor[-][/c] (Creature) Samples\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Rancor[-][/c] (Creature) Samples\n\n• 1/23 to 1/29:\n• [c][E40B18]HQ 10 and above[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Rage Rancor[-][/c] (Creature) Data Fragments\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Data Fragments\n- Bronzium or better [c][FFC25B]Giant Rancor[-][/c] (Creature) Data Fragments\n• [c][E40B18]HQ 9 and below[-][/c]\n• Tatooine, Dandoran, Hoth:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Rage Rancor[-][/c] (Creature) Samples\n• Er'Kit, Takodana, Yavin IV:\n- Obsidian or better [c][FFC25B]Krayt Dragon[-][/c] (Creature) Samples\n- Bronzium or better [c][FFC25B]Giant Rancor[-][/c] (Creature) Samples"
     hn_dnotes_4 'Url test!'
     hn_dnotes_6-0_body '[c][FFB74A]Game Update[-][/c]\n• Major Unity version update.\n•\xa0Various bug fixes and improvements.'
     hn_dnotes_6-0_title 'Version 6.0'
@@ -7296,6 +7423,7 @@ category: strings
     hn_dnotes_epRogue1_201804012_body '[c][FFB74A]Event Schedule[-][/c]\n• 4-part Event runs from 4/12 to 5/10. Earn Data Fragments for powerful units and equipment!\n• Completed the Event early? Bonus Supply Crates can always be earned an unlimited number of times before it ends.\n\nNotice: on Tuesday, 4/17, Commander will be undergoing planned downtime starting at 12:00pm PST. During this update, the game will be unavailable for several hours.\n\n[c][FFB74A]Event Details[-][/c]\n• 4/12 to 4/19\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n• 4/19 to 4/26\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TIE Striker[-][/c] (Starfighter)\n- Rebel [c][FFAA33]Fang Fighter[-][/c] (Starfighter)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 4/26 to 5/3\n• [c][E40B18]HQ 7 and above final reward:[-][/c]\n- Empire [c][FFB74A]Security Droid[-][/c] (Mercenary Unit)\n- Rebel [c][FFAA33]Drabatan Saboteur[-][/c] (Mercenary Unit)\n• [c][E40B18]HQ 6 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 5/3 to 5/10\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n[c][FFB74A]Balance Updates[-][/c]\n• Health values on all [c][FFAA33]Reinforced Mounting[-][/c] turret equipment has been increased.\n• Damage values on all [c][FFAA33]Enhanced Heat Sink[-][/c] turret equipment has been increased.\n\n•\xa0This change is intended to increase the range of viable defense options, especially for mid-HQ players, without punishing any particular defensive strategy.'
     hn_dnotes_epRogue1_201804012_title 'New Event: Questionable Cargo'
     hn_dnotes_epRogue1_20190509_body '[c][FFAA33]Event Schedule[-][/c]\n• This 4-part Event runs from 5/9 to 6/5. Replay the event series originally launched in celebration of [c][FFAA33]"Rogue One: A Star Wars Story"[-][/c]\n• Play to see the story, and earn Data Fragments for units such as the TX-225 Assault Tank.\n• Completed an Event early? Bonus Supply Crates can always be earned an unlimited number of times before it ends.\n\n[c][FFB74A]Event Details[-][/c]\n• 5/9 to 5/15\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n• 5/16 to 5/22\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TIE Striker[-][/c] (Starfighter)\n- Rebel [c][FFAA33]Fang Fighter[-][/c] (Starfighter)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 5/23 to 5/29\n• [c][E40B18]HQ 7 and above final reward:[-][/c]\n- Empire [c][FFB74A]Security Droid[-][/c] (Mercenary Unit)\n- Rebel [c][FFAA33]Drabatan Saboteur[-][/c] (Mercenary Unit)\n• [c][E40B18]HQ 6 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 5/30 to 6/5\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)'
+    hn_dnotes_epRogue1_20200130_body '[c][FFB74A]Event Schedule[-][/c]\n• 4-part Event runs from 1/30 to 2/26. Earn Data Fragments for powerful units and equipment!\n• Completed the Event early? Bonus Supply Crates can always be earned an unlimited number of times before it ends.\n\n[c][FFB74A]Event Details[-][/c]\n• 1/30 to 2/5\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)\n\n• 2/6 to 2/12\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TIE Striker[-][/c] (Starfighter)\n- Rebel [c][FFAA33]Fang Fighter[-][/c] (Starfighter)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 2/13 to 2/19\n• [c][E40B18]HQ 7 and above final reward:[-][/c]\n- Empire [c][FFB74A]Security Droid[-][/c] (Mercenary Unit)\n- Rebel [c][FFAA33]Drabatan Saboteur[-][/c] (Mercenary Unit)\n• [c][E40B18]HQ 6 and below final reward:[-][/c]\n- Empire/Rebel [c][FFAA33]Johhar Kessen[-][/c] (Hero)\n\n• 2/20 to 2/26\n• [c][E40B18]HQ 6 and above final reward:[-][/c]\n- Empire [c][FFB74A]TX-225 assault tank[-][/c] (Eqp)\n- Rebel [c][FFAA33]Stolen TX-225 assault tank[-][/c] (Eqp)\n• [c][E40B18]HQ 5 and below final reward:[-][/c]\n- Empire [c][FFAA33]Shock Trooper[-][/c] (Unit)\n- Rebel [c][FFAA33]Vanguard[-][/c] (Unit)'
     hn_dnotes_epTimes_body '[c][FFAA33]Updates to Commander Events System[-][/c]\n•\xa0Extended the end time of all Events by 22 hours to allow more time to earn rewards.\n•\xa0Removed all "Loot Credits/Alloy/Contraband" Event Chapter Objectives until issue can be addressed where looted resources that exceed current storage capacity do not count toward Chapter Objective progress.'
     hn_dnotes_epTimes_title 'Event System Updates'
     hn_dnotes_genericdowntime_IAPS_Squadwars_body 'This week, Commander will be undergoing planned server maintenance. During this update, the game will be unavailable for several hours.\\n\\nTo avoid potential data loss:\\n• No new Squad Wars can be initiated starting 3 days before the day of maintenance.\\n• In-App Purchases will be disabled\\n\\nSquad War initiation and In-App Purchases will be re-enabled once maintenance is complete. Thanks for your patience.'
@@ -8155,6 +8283,10 @@ category: strings
     lei_title_le_store_redcup_r 'Premium Event Crate '
     lei_title_le_timeofheroes_StoreCrate_e 'Premium Hero Crate'
     lei_title_le_timeofheroes_StoreCrate_r 'Premium Hero Crate'
+    lei_title_le_trixie_eqp_StoreCrate_e 'Elite Orbak Crate'
+    lei_title_le_trixie_eqp_StoreCrate_r 'Elite Orbak Crate'
+    lei_title_le_trixie_unit_StoreCrate_e 'Orbak Crate'
+    lei_title_le_trixie_unit_StoreCrate_r 'Orbak Crate'
     lei_title_le_trooptransportstorecrate_e 'Premium Vehicle Crate'
     lei_title_le_trooptransportstorecrate_r 'Premium Vehicle Crate'
     lei_title_le_trooptransportstorecrate_redux_e 'Premium Vehicle Crate'
@@ -12582,6 +12714,26 @@ category: strings
     skn_title_sknUWing8 'U-wing Starfighter'
     skn_title_sknUWing9 'U-wing Starfighter'
     skn_title_sknUWingTrap 'U-wing Starfighter'
+    skn_title_skneqpBetaUnitE1 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE10 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE2 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE3 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE4 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE5 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE6 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE7 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE8 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitE9 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR1 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR10 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR2 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR3 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR4 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR5 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR6 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR7 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR8 'Elite Orbak Marauder'
+    skn_title_skneqpBetaUnitR9 'Elite Orbak Marauder'
     smuggler 'Smuggler'
     squad_join_reprompt "Field Reports will let you receive communication notifications from your squad, will let you know when you've been attacked, and other vital information. (Crystal reward may require reload)"
     standardCrystalBonus_title 'Limited-Time Crystal Bonus!'
@@ -12637,6 +12789,7 @@ category: strings
     tapjoy_title 'Special Offers'
     target_pref_HQ 'HQ'
     target_pref_aircraft 'Aircraft'
+    target_pref_barracksfactorycantina 'Barracks, Factory and Cantina'
     target_pref_bruiserInfantry 'Bruiser Infantry'
     target_pref_bruiserVehicle 'Bruiser Vehicle'
     target_pref_building 'Building'
@@ -13612,6 +13765,8 @@ category: strings
     trp_desc_ATTE 'Rebel mechanics have made special modifications to keep these Clone Wars era AT-TE walkers running. They are equipped to take on infantry and vehicles alike, but slow and vulnerable to anti-vehicle fire.'
     trp_desc_ApeMan 'The Empire rarely enlists non-human species in its military. However, the Ongidae are strong and disciplined, making them an ideal foot-soldier unit. [CC3366]Resilience: The longer this unit remains in battle, the less damage it takes from attacks, and the more damage it deals.[-]'
     trp_desc_Bantha 'Banthas are indigenous to Tatooine and are used by the Rebel alliance as a sturdy beast of war, trained to ram walls and knock them down.'
+    trp_desc_BetaTroop 'A mercenary mounted atop a powerful Orbak. Targeting Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster.'
+    trp_desc_BetaTroopEqp 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
     trp_desc_BigMouthAlien 'The amphibious Drabatan Saboteurs are fierce commandos on the battlefield, charging into combat with full-throated war cries. The Drabatan Saboteur employs a sonic grenade to create micro-fractures in enemy defenses, temporarily increasing the damage taken.'
     trp_desc_ChampionEmpireDroideka 'This Clone Wars era Droideka was refurbished by smugglers to protect Contraband. Combat improvements have made it highly lethal, but maintenance heavy. Shielded and highly mobile, the Droideka Sentinel excels against troops.'
     trp_desc_ChampionEmpireDroidekaSample 'This Clone Wars era Droideka was refurbished by smugglers to protect Contraband. Combat improvements have made it highly lethal, but maintenance heavy. Shielded and highly mobile, the Droideka Sentinel excels against troops.'
@@ -13632,6 +13787,9 @@ category: strings
     trp_desc_EmpireATMPHalfSkinSample 'This walker has been outfitted with enhanced munition firing systems, capable of delivering heavier and more explosive payloads. These modifications are built around existing systems, visibly altering the appearance of this AT-MP.'
     trp_desc_EmpireATSTHalfSkinSample 'This walker has been outfitted with enhanced power couplings and sub-systems, allowing its weapons to fire high power blasts at a faster than normal rate. The modifications needed for this performance are built around existing systems, visibly altering the appearance of this AT-ST.'
     trp_desc_EmpireAlphaVehicle 'The Multi-Troop Transport was a heavily armored vehicle used during the Clone Wars. Mercenary Dowutin have salvaged and converted them to serve their needs. Periodically in battle, a [c][FFC25B]Dowutin Hunter[-][/c] will emerge from the vehicle and join the battle. [c][FFC25B]Research higher levels of this vehicle to make Dowutin Hunters appear more often.[-][/c]'
+    trp_desc_EmpireBetaTroop 'A mercenary mounted atop a powerful Orbak. Targeting Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster.'
+    trp_desc_EmpireBetaTroopEqp 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
+    trp_desc_EmpireBetaTroopSample 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
     trp_desc_EmpireBrute 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
     trp_desc_EmpireChicken 'The AT-DT Walker moves slowly under the weight of its main cannon. It fires a massive shot that explodes on impact, dealing area damage and cutting down lighter targets. Only lightly armored, this unit is vulnerable to anti-vehicle weapons.'
     trp_desc_EmpireDemoDroid 'This mine-laying droid has been programmed to ignore turrets and resources, deploying explosive charges point-blank against soft targets such as the Squad Center, Barracks, and Armory. Special armor protects the droid from its own attack, but it is still vulnerable to enemy fire.'
@@ -13705,6 +13863,9 @@ category: strings
     trp_desc_R5Medic 'Medic Droids heal injuries with advanced bacta-based technologies. They are programmed to follow and provide aid to infantry closest to them.'
     trp_desc_RebelATAPHalfSkinSample "This AT-AP has been outfitted with enhanced power couplings and sub-systems, allowing its weapons to fire higher energy blasts without overloading. The modifications needed for this performance are built around existing systems, visibly altering the walker's appearance."
     trp_desc_RebelAlphaVehicle 'The Multi-Troop Transport was a heavily armored vehicle used during the Clone Wars. Mercenary Dowutin have salvaged and converted them to serve their needs. Periodically in battle, a [c][FFC25B]Dowutin Hunter[-][/c] will emerge from the vehicle and join the battle. [c][FFC25B]Research higher levels of this vehicle to make Dowutin Hunters appear more often.[-][/c]'
+    trp_desc_RebelBetaTroop 'A mercenary mounted atop a powerful Orbak. Targeting Barracks, Factories and Cantinas, they close in quickly and devastate anything caught in the blast of their SX-21 Scatter Blaster.'
+    trp_desc_RebelBetaTroopEqp 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
+    trp_desc_RebelBetaTroopSample 'Riding a hardier breed of Orbak and equipped with more powerful ordanance, the Elite Orbak Marauder takes to the battlefield with increased health and damage.'
     trp_desc_RebelBrute 'With uncanny strength and a taste for havoc, this Dowutin mercenary specializes in bringing enemies to their knees. He carries a grip of thermal detonators and a modified starfighter blaster to ensure that the job gets done.\n[CC3366]Flushing Frag: Upon deploy, seeks to clear the field of troops and vehicles with his thermal detonators.[-]'
     trp_desc_RebelChicken 'Stolen and re-purposed by the Alliance, this walker moves slowly under the weight of its main cannon. It fires a massive shot that explodes on impact, dealing area damage and cutting down lighter targets. Only lightly armored, this unit is vulnerable to anti-vehicle weapons.'
     trp_desc_RebelDemoDroid 'This droid is reprogrammed to ignore turrets and resources, engaging targets such as the Squad Center, Barracks, and Armory at point-blank range with explosives. Special armoring protects the droid from its own attack, though it cannot transform and is still vulnerable to enemy fire.'
@@ -13784,6 +13945,8 @@ category: strings
     trp_title_ATTE 'AT-TE'
     trp_title_ApeMan 'Ongidae Oppressor'
     trp_title_Bantha 'Bantha Rider'
+    trp_title_BetaTroop 'Orbak Marauder'
+    trp_title_BetaTroopEqp 'Elite Orbak Marauder'
     trp_title_BigMouthAlien 'Drabatan Saboteur'
     trp_title_ChampionEmpireDroideka 'Droideka Sentinel'
     trp_title_ChampionEmpireDroidekaSample 'Droideka Sentinal'
@@ -13801,6 +13964,8 @@ category: strings
     trp_title_EmpireATMPHalfSkinSample 'Enhanced AT-MP Walker'
     trp_title_EmpireATSTHalfSkinSample 'Enhanced AT-ST Walker'
     trp_title_EmpireAlphaVehicle 'Salvaged Multi-Troop Transport'
+    trp_title_EmpireBetaTroop 'Orbak Marauder'
+    trp_title_EmpireBetaTroopSample 'Elite Orbak Marauder'
     trp_title_EmpireBrute 'Dowutin Hunter'
     trp_title_EmpireChicken 'AT-DT Walker'
     trp_title_EmpireDemoDroid 'LIN Demolitionmech'
@@ -13883,6 +14048,8 @@ category: strings
     trp_title_Rancor 'Rancor'
     trp_title_RebelATAPHalfSkinSample 'Enhanced AT-AP Walker'
     trp_title_RebelAlphaVehicle 'Salvaged Multi-Troop Transport'
+    trp_title_RebelBetaTroop 'Orbak Marauder'
+    trp_title_RebelBetaTroopSample 'Elite Orbak Marauder'
     trp_title_RebelBrute 'Dowutin Hunter'
     trp_title_RebelChicken 'Stolen AT-DT Walker'
     trp_title_RebelDemoDroid 'Demolition Droid'
