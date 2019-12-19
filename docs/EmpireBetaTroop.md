@@ -13,7 +13,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: infantry
   * Side: Empire
-  * Buildable unit: No
+  * Buildable unit: Yes
   * Role: Generic
   * Shield cooldown: 0s
   * Shield health: 0
@@ -39,9 +39,9 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Upgrade time: 0s
 
-|Level               |11                             |10                             |9                              |8                             |7                             |6                             |5                            |4                            |3                            |2                           |1                |
-|--------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------|-----------------------------|-----------------------------|----------------------------|-----------------|
-|Upgrade requirements|190900 Con., 220 data fragments|168000 Con., 160 data fragments|165000 Con., 120 data fragments|160000 Con., 90 data fragments|140000 Con., 70 data fragments|110000 Con., 60 data fragments|58000 Con., 50 data fragments|30000 Con., 40 data fragments|15000 Con., 30 data fragments|7000 Con., 28 data fragments|32 data fragments|
+|Level               |11                |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
+|--------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
+|Upgrade requirements|220 data fragments|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 
 ### Movement stats
