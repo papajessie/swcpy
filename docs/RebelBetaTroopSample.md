@@ -1,9 +1,9 @@
 ---
-title: Elite Orbak Marauder (EmpireBetaTroopSample)
+title: Elite Orbak Marauder (RebelBetaTroopSample)
 category: unit
 ---
 
-# Elite Orbak Marauder (EmpireBetaTroopSample)
+# Elite Orbak Marauder (RebelBetaTroopSample)
 
 You can read an [explanation  of the various unit stats](unitexplained.md).
 
@@ -12,7 +12,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 ### Unit stats
 
   * Armor type: infantry
-  * Side: Empire
+  * Side: Rebellion
   * Buildable unit: No
   * Role: Generic
   * Shield cooldown: 0s
@@ -56,18 +56,19 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 #### Modifier "Beta unit damage"
 
-|Level                          |10                |9                 |8                 |7                 |6                 |5                 |4          |3                 |2                 |1                 |
-|-------------------------------|------------------|------------------|------------------|------------------|------------------|------------------|-----------|------------------|------------------|------------------|
-|Beta unit damage apply value as|relativePercent   |relativePercent   |relativePercent   |relativePercent   |relativePercent   |relativePercent   |(not found)|relativePercent   |relativePercent   |relativePercent   |
-|Beta unit damage buff ID       |buffBetaUnitDamage|buffBetaUnitDamage|buffBetaUnitDamage|buffBetaUnitDamage|buffBetaUnitDamage|buffBetaUnitDamage|(not found)|buffBetaUnitDamage|buffBetaUnitDamage|buffBetaUnitDamage|
-|Beta unit damage duration      |permanent         |permanent         |permanent         |permanent         |permanent         |permanent         |(not found)|permanent         |permanent         |permanent         |
-|Beta unit damage modifier      |damage            |damage            |damage            |damage            |damage            |damage            |(not found)|damage            |damage            |damage            |
-|Beta unit damage ms first proc |0s                |0s                |0s                |0s                |0s                |0s                |(not found)|0s                |0s                |0s                |
-|Beta unit damage ms per proc   |permanent         |permanent         |permanent         |permanent         |permanent         |permanent         |(not found)|permanent         |permanent         |permanent         |
-|Beta unit damage name          |Beta unit damage  |Beta unit damage  |Beta unit damage  |Beta unit damage  |Beta unit damage  |Beta unit damage  |(not found)|Beta unit damage  |Beta unit damage  |Beta unit damage  |
-|Beta unit damage stack         |0                 |0                 |0                 |0                 |0                 |0                 |(not found)|0                 |0                 |0                 |
-|Beta unit damage target        |self              |self              |self              |self              |self              |self              |(not found)|self              |self              |self              |
-|Beta unit damage value         |100.0%            |93.0%             |87.0%             |81.0%             |75.0%             |69.0%             |(not found)|58.0%             |53.0%             |45.0%             |
+  * Beta unit damage apply value as: relativePercent
+  * Beta unit damage buff ID: buffBetaUnitDamage
+  * Beta unit damage duration: permanent
+  * Beta unit damage modifier: damage
+  * Beta unit damage ms first proc: 0s
+  * Beta unit damage ms per proc: permanent
+  * Beta unit damage name: Beta unit damage
+  * Beta unit damage stack: 0
+  * Beta unit damage target: self
+
+|Level                 |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|----------------------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Beta unit damage value|100.0%|93.0%|87.0%|81.0%|75.0%|69.0%|64.0%|58.0%|53.0%|45.0%|
 
 
 
@@ -86,23 +87,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level                 |10    |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |----------------------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Beta unit health value|100.0%|93.0%|87.0%|81.0%|75.0%|69.0%|64.0%|58.0%|53.0%|45.0%|
-
-
-
-#### Modifier "buffSniperDamage"
-
-|Level                       |5-10       |4               |1-3        |
-|----------------------------|-----------|----------------|-----------|
-|Sniper damage apply value as|(not found)|relativePercent |(not found)|
-|Sniper damage buff ID       |(not found)|buffSniperDamage|(not found)|
-|Sniper damage duration      |(not found)|permanent       |(not found)|
-|Sniper damage modifier      |(not found)|damage          |(not found)|
-|Sniper damage ms first proc |(not found)|0s              |(not found)|
-|Sniper damage ms per proc   |(not found)|permanent       |(not found)|
-|Sniper damage name          |(not found)|Sniper damage   |(not found)|
-|Sniper damage stack         |(not found)|0               |(not found)|
-|Sniper damage target        |(not found)|self            |(not found)|
-|Sniper damage value         |(not found)|64.0%           |(not found)|
 
 
 
@@ -181,12 +165,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 These stats internal to the system link different parts of data together.
 
-  * Unit ID: EmpireBetaTroopSample
+  * Unit ID: RebelBetaTroopSample
 
-|Level            |10                                       |9                                      |8                                      |7                                      |6                                      |5                                      |4                                    |3                                      |2                                      |1                                      |
-|-----------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
-|Apply buffs      |buffFireBurst10                          |buffFireBurst9                         |buffFireBurst8                         |buffFireBurst7                         |buffFireBurst6                         |buffFireBurst5                         |buffFireBurst4                       |buffFireBurst3                         |buffFireBurst2                         |buffFireBurst1                         |
-|Spawn apply buffs|buffBetaUnitHealth10,buffBetaUnitDamage10|buffBetaUnitHealth9,buffBetaUnitDamage9|buffBetaUnitHealth8,buffBetaUnitDamage8|buffBetaUnitHealth7,buffBetaUnitDamage7|buffBetaUnitHealth6,buffBetaUnitDamage6|buffBetaUnitHealth5,buffBetaUnitDamage5|buffBetaUnitHealth4,buffSniperDamage4|buffBetaUnitHealth3,buffBetaUnitDamage3|buffBetaUnitHealth2,buffBetaUnitDamage2|buffBetaUnitHealth1,buffBetaUnitDamage1|
+|Level            |10                                       |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                      |
+|-----------------|-----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+|Apply buffs      |buffFireBurst10                          |buffFireBurst9                         |buffFireBurst8                         |buffFireBurst7                         |buffFireBurst6                         |buffFireBurst5                         |buffFireBurst4                         |buffFireBurst3                         |buffFireBurst2                         |buffFireBurst1                         |
+|Spawn apply buffs|buffBetaUnitHealth10,buffBetaUnitDamage10|buffBetaUnitHealth9,buffBetaUnitDamage9|buffBetaUnitHealth8,buffBetaUnitDamage8|buffBetaUnitHealth7,buffBetaUnitDamage7|buffBetaUnitHealth6,buffBetaUnitDamage6|buffBetaUnitHealth5,buffBetaUnitDamage5|buffBetaUnitHealth4,buffBetaUnitDamage4|buffBetaUnitHealth3,buffBetaUnitDamage3|buffBetaUnitHealth2,buffBetaUnitDamage2|buffBetaUnitHealth1,buffBetaUnitDamage1|
 
 
 ## Presentation stats
@@ -229,6 +213,8 @@ Seriously, we don't really know what to do with these.
   * Arming delay: 0
   * Auto spawn rate scale: 1
   * Auto spawn spreading scale: 1
+  * Beta unit damage is refreshing: No
+  * Beta unit damage tags: damage
   * Beta unit health is refreshing: No
   * Beta unit health tags: maxHealth
   * Fire burst is refreshing: Yes
@@ -241,12 +227,8 @@ Seriously, we don't really know what to do with these.
   * Target in range modifier: 1
   * Xp: 0
 
-|Level                         |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
-|------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Beta unit damage is refreshing|No         |No         |No         |No         |No         |No         |(not found)|No         |No         |No         |
-|Beta unit damage tags         |damage     |damage     |damage     |damage     |damage     |damage     |(not found)|damage     |damage     |damage     |
-|Order                         |44788      |44787      |44786      |44785      |44784      |44783      |44782      |44781      |44780      |44779      |
-|Sniper damage is refreshing   |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|No         |(not found)|(not found)|(not found)|
-|Sniper damage tags            |(not found)|(not found)|(not found)|(not found)|(not found)|(not found)|damage     |(not found)|(not found)|(not found)|
+|Level|10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Order|44798|44797|44796|44795|44794|44793|44792|44791|44790|44789|
 
 
