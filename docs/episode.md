@@ -64,3 +64,7 @@ title: Index of episodes
   * [Legitimate Business (ep_eptrixie_p2)](ep_eptrixie_p2.html)
   * [Treasure Hunt (ep_eptrixie_p3)](ep_eptrixie_p3.html)
   * [Pirate Queen (ep_eptrixie_p4)](ep_eptrixie_p4.html)
+  * [Questionable Cargo Part I (ep_epRogue12020_p1)](ep_epRogue12020_p1.html)
+  * [Questionable Cargo Part II (ep_epRogue12020_p2)](ep_epRogue12020_p2.html)
+  * [Questionable Cargo Part III (ep_epRogue12020_p3)](ep_epRogue12020_p3.html)
+  * [Questionable Cargo Part IV (ep_epRogue12020_p4)](ep_epRogue12020_p4.html)
