@@ -21,20 +21,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: hero_mobilizer
 
 |Level |11   |10   |9   |8   |7   |6   |5   |4   |3   |2   |1   |
 |------|-----|-----|----|----|----|----|----|----|----|----|----|
 |Health|11400|10800|9800|8800|7800|6800|5800|4800|3600|3000|2000|
-|Time  |1w3d |1w5d |1w  |4d  |3d  |2d  |2d  |1d  |16h |8h  |4h  |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|4030000$                        |3100000$                        |2000000$                       |750000$                        |375000$                        |250000$                        |100000$                        |60000$                         |30000$                         |20000$                         |18000$                         |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|
+  * Training cost: 1$
+
+|Level   |11                              |10                              |9                              |8                              |7                              |6                              |5                              |1-4                            |
+|--------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Building|[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|
 
 
 ### Upgrading stats

@@ -17,13 +17,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training time: 1s
+  * Training time: 10s
   * Training cost: 1$
 
 ### Upgrading stats
 
-  * Upgrade time: 1s
   * Upgrade requirements: 1$
+
+|Level       |2-10|1 |
+|------------|----|--|
+|Upgrade time|10s |0s|
+
 
 ### Movement stats
 

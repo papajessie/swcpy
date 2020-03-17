@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training cost: 10000 All.
+  * Training cost: 1 All.
   * Building: [Headquarters 4](rebelHQ.html)
 
 ### Upgrading stats

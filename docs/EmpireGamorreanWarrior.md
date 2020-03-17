@@ -28,19 +28,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                        |
 |-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-----------------------------------------|
-|Training time|10m                                     |9m37s                                  |9m8s                                   |8m39s                                  |8m10s                                  |7m41s                                  |7m12s                                  |6m43s                                  |6m14s                                  |5m45s                                    |
-|Training cost|720 Con.                                |360 Con.                               |265 Con.                               |190 Con.                               |145 Con.                               |95 Con.                                |85 Con.                                |50 Con.                                |25 Con.                                |15 Con.                                  |
+|Training cost|1 Con.                                  |1 Con.                                 |1 Con.                                 |1 Con.                                 |1 Con.                                 |1 Con.                                 |1 Con.                                 |1 Con.                                 |1 Con.                                 |Free                                     |
 |Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Cantina 1](empireContrabandCantina.html)|
 
 
 ### Upgrading stats
 
-|Level               |10         |9          |8          |7         |6         |5         |4         |3         |2        |1      |
-|--------------------|-----------|-----------|-----------|----------|----------|----------|----------|----------|---------|-------|
-|Upgrade time        |1w5d       |1w4d       |1w3d       |1w2d      |1w1d      |1w        |6d        |5d        |4d       |0s     |
-|Upgrade requirements|190000 Con.|140000 Con.|135000 Con.|85000 Con.|75000 Con.|50000 Con.|25000 Con.|13000 Con.|6000 Con.|Nothing|
+|Level               |2-10  |1      |
+|--------------------|------|-------|
+|Upgrade time        |10s   |0s     |
+|Upgrade requirements|1 Con.|Nothing|
 
 
 ### Movement stats

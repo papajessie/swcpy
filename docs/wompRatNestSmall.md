@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: Yes
   * Max quantity: 6
-  * Time: 1m
+  * Time: 0s
   * Type: storage
 
 |Level           |10    |9     |8     |7     |6     |5     |4     |3     |2     |1          |

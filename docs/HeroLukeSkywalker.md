@@ -28,19 +28,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                     |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                                          |
 |-------------|---------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------------|
-|Training time|10m20s                                 |10m                                    |9m40s                                 |9m20s                                 |9m                                    |8m40s                                 |8m20s                                 |8m                                    |7m40s                                 |7m20s                                 |7m                                         |
 |Training cost|7500$                                  |6900$                                  |6300$                                 |5700$                                 |5100$                                 |4500$                                 |3900$                                 |3300$                                 |2700$                                 |2100$                                 |1500$                                      |
 |Building     |[Research Lab 11](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Hero Command 8](rebelTacticalCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |11      |10      |9       |8       |7       |6      |5      |4      |3      |2     |1      |
-|--------------------|--------|--------|--------|--------|--------|-------|-------|-------|-------|------|-------|
-|Upgrade time        |2w      |2w      |1w5d    |1w2d    |6d      |4d     |2d     |21h    |5h     |1h    |1h     |
-|Upgrade requirements|6000000$|4800000$|3200000$|1200000$|1050000$|900000$|600000$|300000$|150000$|75000$|Nothing|
+  * Upgrade time: 10s
+
+|Level               |2-11|1      |
+|--------------------|----|-------|
+|Upgrade requirements|1$  |Nothing|
 
 
 ### Movement stats

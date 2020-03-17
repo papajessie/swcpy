@@ -22,12 +22,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training time: 1s
+  * Training time: 10s
   * Training cost: 1$
 
 ### Upgrading stats
 
-  * Upgrade time: 1s
+  * Upgrade time: 10s
   * Upgrade requirements: 1$
 
 ### Movement stats

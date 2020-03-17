@@ -20,21 +20,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: starport
 
-|Level       |11   |10   |9    |8    |7    |6    |5   |4   |3   |2   |1    |
-|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|-----|
-|Health      |17100|16200|14700|13200|11700|10200|8700|7200|5400|4500|3000 |
-|Max quantity|3    |3    |3    |3    |3    |3    |2   |2   |2   |2   |1    |
-|Time        |1w1d |1w3d |6d   |3d   |2d   |1d12h|1d  |12h |2h  |15m |1m30s|
+|Level       |11   |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
+|------------|-----|-----|-----|-----|-----|-----|----|----|----|----|----|
+|Health      |17100|16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
+|Max quantity|3    |3    |3    |3    |3    |3    |2   |2   |2   |2   |1   |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|4550000$                        |3500000$                        |1750000$                       |650000$                        |325000$                        |225000$                        |65000$                         |25000$                         |8000$                          |2000$                          |1400$                          |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 2](empireHQ.html)|
+  * Training cost: 1$
+
+|Level   |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |1-2                            |
+|--------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Building|[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|
 
 
 ### Upgrading stats

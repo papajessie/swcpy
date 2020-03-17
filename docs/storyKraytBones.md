@@ -21,12 +21,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Health: 1000
   * Hide if locked: Yes
   * Max quantity: 5
-  * Time: 10s
+  * Time: 0s
   * Type: housing
 
 ### Training stats
 
-  * Training cost: 200 All.
+  * Training cost: Free
 
 ### Upgrading stats
 

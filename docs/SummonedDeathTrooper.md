@@ -28,15 +28,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |11    |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
-|-------------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Training time|10m20s|10m  |9m40s|9m20s|4m30s|4m20s|4m10s|4m   |3m50s|3m40s|3m30s|
-|Training cost|5000$ |4600$|4200$|4000$|3400$|3000$|2600$|2200$|1800$|1400$|1000$|
+  * Training time: 10s
+
+|Level        |11   |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Training cost|5000$|4600$|4200$|4000$|3400$|3000$|2600$|2200$|1800$|1400$|1000$|
 
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
+  * Upgrade time: 10s
   * Upgrade requirements: Nothing
 
 ### Movement stats

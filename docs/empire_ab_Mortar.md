@@ -17,6 +17,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: Yes
   * Produce: 0
+  * Time: 1s
   * Type: turret
 
 |Level          |10     |9      |8     |7     |6     |5     |4    |3    |2   |1   |
@@ -25,17 +26,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Cross time     |10m    |9m     |8m    |7m    |6m    |5m    |4m   |3m   |2m  |1m  |
 |Health         |27000  |24500  |22000 |19500 |17000 |14500 |12000|9000 |7500|5000|
 |Max quantity   |20     |18     |16    |14    |12    |10    |8    |6    |4   |2   |
-|Time           |1w3d   |1w1d   |6d    |4d    |2d12h |1d12h |16h  |4h   |30m |1m  |
 
 
 ### Training stats
 
+  * Training cost: 1 All.
   * Building: [Headquarters 10](smugglerHQ.html)
-
-|Level        |10          |9           |8           |7          |6          |5          |4         |3         |2        |1        |
-|-------------|------------|------------|------------|-----------|-----------|-----------|----------|----------|---------|---------|
-|Training cost|5000000 All.|3000000 All.|1000000 All.|500000 All.|250000 All.|100000 All.|55000 All.|20000 All.|3000 All.|1500 All.|
-
 
 ### Upgrading stats
 

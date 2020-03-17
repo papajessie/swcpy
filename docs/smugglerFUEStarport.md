@@ -23,7 +23,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
-  * Time: 5m
+  * Time: 0s
   * Type: starport
 
 ### Training stats

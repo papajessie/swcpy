@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-  * Upgrade time: 1s
+  * Upgrade time: 10s
   * Upgrade requirements: 1$
 
 ### Movement stats

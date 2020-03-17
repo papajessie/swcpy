@@ -21,13 +21,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Produce: 0
   * Spawn protect: 5
+  * Time: 0s
   * Type: turret
 
 |Level       |5    |4    |3    |2   |1   |
 |------------|-----|-----|-----|----|----|
 |Health      |14500|15000|10000|4000|3200|
 |Max quantity|6    |6    |6    |6   |2   |
-|Time        |0s   |0s   |0s   |0s  |1m  |
 
 
 ### Training stats

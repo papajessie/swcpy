@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Health: 1
   * Hide if locked: Yes
   * Max quantity: 5
-  * Time: 10s
+  * Time: 0s
   * Type: blocker
 
 ### Training stats

@@ -23,7 +23,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Max quantity: 6
   * Produce: 0
   * Spawn protect: 7
-  * Time: 1m
+  * Time: 0s
   * Type: housing
 
 ### Training stats

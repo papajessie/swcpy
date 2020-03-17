@@ -21,13 +21,13 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 0s
   * Type: starport
 
 |Level       |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
 |------------|-----|-----|-----|-----|-----|-----|----|----|----|----|
 |Health      |18000|16500|15000|13500|12000|10500|9000|6000|3900|3000|
 |Max quantity|4    |4    |3    |3    |3    |2    |2   |2   |1   |1   |
-|Time        |0s   |0s   |0s   |0s   |0s   |0s   |0s  |0s  |0s  |5m  |
 
 
 ### Training stats

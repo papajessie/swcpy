@@ -20,6 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: shield_generator
 
 |Level               |11         |10         |9        |8        |7        |6        |5        |4        |3        |2        |1        |
@@ -28,15 +29,14 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Max quantity        |4          |4          |4        |3        |3        |3        |2        |2        |2        |2        |2        |
 |Shield health points|110000 (11)|100000 (10)|94500 (9)|83900 (8)|73600 (7)|63300 (6)|50000 (5)|40000 (4)|30000 (3)|20000 (2)|10000 (1)|
 |Shield range points |5          |4          |4        |4        |4        |4        |4        |4        |3        |3        |3        |
-|Time                |1w5d       |2w         |1w3d     |6d       |4d       |3d       |2d       |1d       |16h      |8h       |4h       |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|6500000 All.                    |5000000 All.                    |3000000 All.                   |1000000 All.                   |500000 All.                    |250000 All.                    |100000 All.                    |75000 All.                     |45000 All.                     |30000 All.                     |20000 All.                     |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|
+|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |1-4                            |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|1 All.                          |1$                              |1$                             |1$                             |1$                             |1$                             |1$                             |1$                             |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|
 
 
 ### Upgrading stats

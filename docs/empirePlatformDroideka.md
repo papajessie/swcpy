@@ -22,68 +22,41 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Max quantity: 1
+  * Time: 10s
   * Type: champion_platform
 
-|Level |10   |9   |8    |7    |6    |5   |4    |3   |2   |1   |
-|------|-----|----|-----|-----|-----|----|-----|----|----|----|
-|Health|4080 |3600|3480 |3360 |3240 |3000|2800 |2600|2400|2000|
-|Time  |4d10h|4d  |3d10h|2d22h|2d10h|2d  |1d10h|22h |10h |0s  |
+|Level |10  |9   |8   |7   |6   |5   |4   |3   |2   |1   |
+|------|----|----|----|----|----|----|----|----|----|----|
+|Health|4080|3600|3480|3360|3240|3000|2800|2600|2400|2000|
 
 
-|Level |20  |19  |18  |17  |16  |15  |14   |13  |12   |11   |
-|------|----|----|----|----|----|----|-----|----|-----|-----|
-|Health|6040|5920|5800|5600|5400|5200|5000 |4800|4560 |4320 |
-|Time  |1w  |1w  |1w  |1w  |1w  |1w  |6d10h|6d  |5d10h|4d22h|
+|Level |20  |19  |18  |17  |16  |15  |14  |13  |12  |11  |
+|------|----|----|----|----|----|----|----|----|----|----|
+|Health|6040|5920|5800|5600|5400|5200|5000|4800|4560|4320|
 
 
 |Level |30  |29  |28  |27  |26  |25  |24  |23  |22  |21  |
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|7240|7120|7000|6880|6760|6640|6520|6400|6280|6160|
-|Time  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |
 
 
 |Level |40  |39  |38  |37  |36  |35  |34  |33  |32  |31  |
 |------|----|----|----|----|----|----|----|----|----|----|
 |Health|9000|8520|8360|8200|8080|7960|7840|7600|7480|7360|
-|Time  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |
 
 
 |Level |50   |49   |48  |47  |46  |45  |44  |43  |42  |41  |
 |------|-----|-----|----|----|----|----|----|----|----|----|
 |Health|10200|10080|9960|9840|9720|9600|9480|9360|9240|9120|
-|Time  |1w   |1w   |1w  |1w  |1w  |1w  |1w  |1w  |1w  |1w  |
 
 
 ### Training stats
 
-|Level        |10                             |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                                                     |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------------------|
-|Training cost|50000 Con.                     |43000 Con.                     |37000 Con.                     |31000 Con.                     |28000 Con.                     |25000 Con.                     |22000 Con.                     |19000 Con.                     |16000 Con.                     |12000 Con.                                            |
-|Building     |[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Contraband Safehouse 1](empireContrabandStorage.html)|
+  * Training cost: 1 All.
 
-
-|Level        |20                             |19                             |18                             |17                             |16                             |15                             |14                             |13                             |12                             |11                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|149000 Con.                    |136000 Con.                    |118000 Con.                    |105000 Con.                    |92000 Con.                     |81000 Con.                     |74000 Con.                     |68000 Con.                     |62000 Con.                     |56000 Con.                     |
-|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|
-
-
-|Level        |30                             |29                             |28                             |27                             |26                             |25                             |24                             |23                             |22                             |21                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|370000 Con.                    |350000 Con.                    |330000 Con.                    |310000 Con.                    |275000 Con.                    |252000 Con.                    |229000 Con.                    |205000 Con.                    |186000 Con.                    |167000 Con.                    |
-|Building     |[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|
-
-
-|Level        |40                             |39                             |38                             |37                             |36                             |35                             |34                             |33                             |32                             |31                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|580000 Con.                    |560000 Con.                    |540000 Con.                    |520000 Con.                    |500000 Con.                    |475000 Con.                    |455000 Con.                    |435000 Con.                    |415000 Con.                    |395000 Con.                    |
-|Building     |[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|
-
-
-|Level        |50                             |49                             |48                             |47                             |46                             |45                             |44                             |43                             |42                             |41                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|790000 Con.                    |770000 Con.                    |750000 Con.                    |725000 Con.                    |705000 Con.                    |685000 Con.                    |665000 Con.                    |645000 Con.                    |625000 Con.                    |600000 Con.                    |
-|Building     |[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|
+|Level   |31-50                          |11-30                          |6-10                           |2-5                            |1                                                     |
+|--------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------------------|
+|Building|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Contraband Safehouse 1](empireContrabandStorage.html)|
 
 
 ### Upgrading stats

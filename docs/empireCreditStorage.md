@@ -19,6 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: No
   * Hide if locked: No
+  * Time: 10s
   * Type: storage
 
 |Level           |11       |10       |9        |8       |7       |6       |5       |4      |3      |2      |1     |
@@ -26,15 +27,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Maximum capacity|1800000 $|1500000 $|1000000 $|700000 $|500000 $|400000 $|150000 $|75000 $|25000 $|10000 $|5000 $|
 |Health          |22800    |21600    |19600    |17600   |15600   |13600   |11600   |9600   |7200   |6000   |4000  |
 |Max quantity    |4        |4        |4        |3       |2       |2       |2       |2      |2      |1      |1     |
-|Time            |1w1d     |1w3d     |6d       |3d      |2d      |1d12h   |1d      |12h    |2h     |15m    |1m    |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|3750000 All.                    |2500000 All.                    |1500000 All.                   |500000 All.                    |230000 All.                    |115000 All.                    |40000 All.                     |20000 All.                     |6500 All.                      |1000 All.                      |500 All.                       |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 1](empireHQ.html)|
+  * Training cost: 1 All.
+
+|Level   |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
+|--------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Building|[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 1](empireHQ.html)|
 
 
 ### Upgrading stats

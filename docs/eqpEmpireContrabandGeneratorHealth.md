@@ -41,7 +41,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level         |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1   |
 |--------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|----|
 |Upgrade shards|440                                     |360                                    |260                                    |200                                    |140                                    |100                                    |60                                     |40                                     |20                                     |40  |
-|Upgrade time  |1w1d                                    |5d                                     |3d12h                                  |2d                                     |1d                                     |8h                                     |3h30m                                  |1h                                     |15m                                    |0s  |
+|Upgrade time  |10s                                     |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |0s  |
 |Building      |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|None|
 
 
@@ -81,6 +81,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: No
   * Hide if locked: No
+  * Time: 10s
   * Type: resource
 
 |Level           |01.10     |01.09     |01.08     |01.07     |01.06     |01.05     |01.04     |01.03     |01.02     |01.01     |
@@ -90,7 +91,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |7020      |6810      |6570      |6360      |6149      |5970      |5760      |5580      |5400      |5250      |
 |Max quantity    |1         |1         |1         |1         |1         |1         |1         |1         |1         |1         |
 |Original health |3000      |3000      |3000      |3000      |3000      |3000      |3000      |3000      |3000      |3000      |
-|Time            |1d        |1d        |1d        |1d        |1d        |1d        |1d        |1d        |1d        |1d        |
 
 
 |Level           |02.10     |02.09     |02.08     |02.07     |02.06     |02.05     |02.04     |02.03     |02.02     |02.01     |
@@ -100,7 +100,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |10530     |10215     |9855      |9540      |9225      |8955      |8640      |8370      |8100      |7875      |
 |Max quantity    |1         |1         |1         |1         |1         |1         |1         |1         |1         |1         |
 |Original health |4500      |4500      |4500      |4500      |4500      |4500      |4500      |4500      |4500      |4500      |
-|Time            |2d        |2d        |2d        |2d        |2d        |2d        |2d        |2d        |2d        |2d        |
 
 
 |Level           |03.10     |03.09     |03.08     |03.07     |03.06     |03.05     |03.04     |03.03     |03.02     |03.01     |
@@ -110,7 +109,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |12636     |12258     |11826     |11448     |11069     |10746     |10368     |10044     |9720      |9450      |
 |Max quantity    |1         |1         |1         |1         |1         |1         |1         |1         |1         |1         |
 |Original health |5400      |5400      |5400      |5400      |5400      |5400      |5400      |5400      |5400      |5400      |
-|Time            |3d        |3d        |3d        |3d        |3d        |3d        |3d        |3d        |3d        |3d        |
 
 
 |Level           |04.10     |04.09     |04.08     |04.07     |04.06     |04.05     |04.04     |04.03     |04.02     |04.01     |
@@ -120,7 +118,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |16848     |16344     |15768     |15264     |14759     |14328     |13824     |13392     |12960     |12600     |
 |Max quantity    |2         |2         |2         |2         |2         |2         |2         |2         |2         |2         |
 |Original health |7200      |7200      |7200      |7200      |7200      |7200      |7200      |7200      |7200      |7200      |
-|Time            |4d        |4d        |4d        |4d        |4d        |4d        |4d        |4d        |4d        |4d        |
 
 
 |Level           |05.10     |05.09     |05.08     |05.07     |05.06     |05.05     |05.04     |05.03     |05.02     |05.01     |
@@ -130,7 +127,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |20358     |19749     |19053     |18444     |17835     |17313     |16704     |16181     |15660     |15225     |
 |Max quantity    |2         |2         |2         |2         |2         |2         |2         |2         |2         |2         |
 |Original health |8700      |8700      |8700      |8700      |8700      |8700      |8700      |8700      |8700      |8700      |
-|Time            |5d        |5d        |5d        |5d        |5d        |5d        |5d        |5d        |5d        |5d        |
 
 
 |Level           |06.10     |06.09     |06.08     |06.07     |06.06     |06.05     |06.04     |06.03     |06.02     |06.01     |
@@ -140,7 +136,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |23868     |23154     |22338     |21624     |20910     |20298     |19584     |18972     |18360     |17850     |
 |Max quantity    |2         |2         |2         |2         |2         |2         |2         |2         |2         |2         |
 |Original health |10200     |10200     |10200     |10200     |10200     |10200     |10200     |10200     |10200     |10200     |
-|Time            |6d        |6d        |6d        |6d        |6d        |6d        |6d        |6d        |6d        |6d        |
 
 
 |Level           |07.10      |07.09      |07.08      |07.07      |07.06      |07.05      |07.04      |07.03      |07.02      |07.01      |
@@ -150,7 +145,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |27378      |26559      |25623      |24804      |23984      |23283      |22464      |21762      |21060      |20475      |
 |Max quantity    |2          |2          |2          |2          |2          |2          |2          |2          |2          |2          |
 |Original health |11700      |11700      |11700      |11700      |11700      |11700      |11700      |11700      |11700      |11700      |
-|Time            |1w         |1w         |1w         |1w         |1w         |1w         |1w         |1w         |1w         |1w         |
 
 
 |Level           |08.10      |08.09      |08.08      |08.07      |08.06      |08.05      |08.04      |08.03      |08.02      |08.01      |
@@ -160,7 +154,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |30887      |29964      |28908      |27984      |27059      |26268      |25344      |24552      |23760      |23100      |
 |Max quantity    |3          |3          |3          |3          |3          |3          |3          |3          |3          |3          |
 |Original health |13200      |13200      |13200      |13200      |13200      |13200      |13200      |13200      |13200      |13200      |
-|Time            |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |1w1d       |
 
 
 |Level           |09.10      |09.09      |09.08      |09.07      |09.06      |09.05      |09.04      |09.03      |09.02      |09.01      |
@@ -170,7 +163,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |34398      |33369      |32193      |31164      |30134      |29253      |28224      |27341      |26460      |25725      |
 |Max quantity    |3          |3          |3          |3          |3          |3          |3          |3          |3          |3          |
 |Original health |14700      |14700      |14700      |14700      |14700      |14700      |14700      |14700      |14700      |14700      |
-|Time            |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |1w2d       |
 
 
 |Level           |10.10      |10.09      |10.08      |10.07      |10.06      |10.05      |10.04      |10.03      |10.02      |10.01      |
@@ -180,16 +172,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Health          |38376      |37228      |35916      |34768      |33620      |32636      |31488      |30503      |29520      |28700      |
 |Max quantity    |3          |3          |3          |3          |3          |3          |3          |3          |3          |3          |
 |Original health |16400      |16400      |16400      |16400      |16400      |16400      |16400      |16400      |16400      |16400      |
-|Time            |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |1w3d       |
 
 
 ### Training stats
 
-|Level        |10.01-10.10                     |09.01-9.10                     |08.01-8.10                     |07.01-7.10                     |06.01-6.10                     |05.01-5.10                     |04.01-4.10                     |03.01-3.10                     |02.01-2.10                     |01.01-1.10                                            |
-|-------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------------------|
-|Training cost|4200000$                        |3600000$                       |3520000$                       |1290000$                       |1275000$                       |1050000$                       |900000$                        |840000$                        |820000$                        |810000$                                               |
-|Building 1   |[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)                       |
-|Building 2   |None                            |None                           |None                           |None                           |None                           |None                           |None                           |None                           |None                           |[Contraband Safehouse 1](empireContrabandStorage.html)|
+  * Training cost: 1$
+
+|Level     |10.01-10.10                     |08.01-8.10, 9.01-9.10          |04.01-4.10, 5.01-5.10, 6.01-6.10, 7.01-7.10|02.01-2.10, 3.01-3.10          |01.01-1.10                                            |
+|----------|--------------------------------|-------------------------------|-------------------------------------------|-------------------------------|------------------------------------------------------|
+|Building 1|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)            |[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)                       |
+|Building 2|None                            |None                           |None                                       |None                           |[Contraband Safehouse 1](empireContrabandStorage.html)|
 
 
 ### Upgrading stats

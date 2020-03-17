@@ -21,12 +21,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 1
   * Produce: 0
-  * Time: 1w5d
+  * Time: 10s
   * Type: navigation_center
 
 ### Training stats
 
-  * Training cost: 5100000$
+  * Training cost: 1$
   * Building: [Headquarters 10](rebelHQ.html)
 
 ### Upgrading stats

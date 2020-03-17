@@ -28,12 +28,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training time: 3m50s
+  * Training time: 10s
   * Training cost: 3250$
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
+  * Upgrade time: 10s
 
 |Level               |10                |9                 |8                 |7                 |6                 |5                 |4                 |3                |2                |1                |
 |--------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|

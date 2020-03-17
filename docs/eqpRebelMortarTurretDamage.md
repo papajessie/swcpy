@@ -41,7 +41,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Level         |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1   |
 |--------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|----|
 |Upgrade shards|330                                    |270                                   |195                                   |150                                   |105                                   |75                                    |45                                    |30                                    |15                                    |30  |
-|Upgrade time  |1w1d                                   |5d                                    |3d12h                                 |2d12h                                 |1d12h                                 |10h                                   |5h                                    |1h30m                                 |30m                                   |0s  |
+|Upgrade time  |10s                                    |10s                                   |10s                                   |10s                                   |10s                                   |10s                                   |10s                                   |10s                                   |10s                                   |0s  |
 |Building      |[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|None|
 
 
@@ -77,27 +77,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: turret
   * Cross credits: 0
+  * Cross time: 10s
   * Side: Rebellion
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: turret
 
 |Level          |11.01-11.10|10.01-10.10|09.01-9.10|08.01-8.10|07.01-7.10|06.01-6.10|05.01-5.10|04.01-4.10|03.01-3.10|02.01-2.10|01.01-1.10|
 |---------------|-----------|-----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 |Cross materials|702000     |540000     |360000    |135000    |90000     |72000     |27000     |13500     |4500      |900       |450       |
-|Cross time     |3d         |2d         |1d12h     |1d4h      |20h       |14h       |8h        |4h48m     |1h12m     |12m       |10m       |
 |Health         |28500      |27000      |24500     |22000     |17500     |16000     |14500     |12000     |9000      |7500      |5000      |
 |Max quantity   |22         |20         |18        |16        |14        |12        |10        |8         |6         |4         |2         |
-|Time           |1w1d       |1w3d       |1w1d      |6d        |4d        |2d12h     |1d12h     |16h       |4h        |30m       |1m        |
 
 
 ### Training stats
 
-|Level        |11.01-11.10                    |10.01-10.10                    |09.01-9.10                    |08.01-8.10                    |07.01-7.10                    |06.01-6.10                    |05.01-5.10                    |04.01-4.10                    |03.01-3.10                    |02.01-2.10                    |01.01-1.10                    |
-|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|6500000 All.                   |5000000 All.                   |3000000 All.                  |1000000 All.                  |500000 All.                   |250000 All.                   |100000 All.                   |55000 All.                    |20000 All.                    |3000 All.                     |1500 All.                     |
-|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|
+  * Training cost: 1 All.
+
+|Level   |11.01-11.10                    |10.01-10.10                    |09.01-9.10                    |08.01-8.10                    |07.01-7.10                    |06.01-6.10                    |05.01-5.10                    |04.01-4.10                    |01.01-1.10, 2.01-2.10, 3.01-3.10|
+|--------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|--------------------------------|
+|Building|[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)  |
 
 
 ### Upgrading stats

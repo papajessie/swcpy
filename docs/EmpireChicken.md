@@ -25,9 +25,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                              |
 |-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|
-|Training time|4m7s                                    |3m45s                                   |3m23s                                  |3m2s                                   |2m42s                                  |2m24s                                  |2m8s                                   |1m54s                                  |1m41s                                  |1m32s                                  |1m27s                          |
 |Training cost|2220$                                   |2070$                                   |1920$                                  |1830$                                  |1710$                                  |1500$                                  |1365$                                  |1230$                                  |1080$                                  |945$                                   |810$                           |
 |Building     |[Research Lab 11](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 1](empireFactory.html)|
 
@@ -36,7 +37,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 |Level               |11                |10                |9                 |8                |7                |6                |5                |4                |3                |2                |1                |
 |--------------------|------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
-|Upgrade time        |5s                |0s                |0s                |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s               |
+|Upgrade time        |10s               |0s                |0s                |0s               |0s               |0s               |0s               |0s               |0s               |0s               |0s               |
 |Upgrade requirements|220 data fragments|160 data fragments|120 data fragments|90 data fragments|70 data fragments|60 data fragments|50 data fragments|40 data fragments|30 data fragments|28 data fragments|32 data fragments|
 
 

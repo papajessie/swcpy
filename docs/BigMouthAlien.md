@@ -28,16 +28,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |5                                     |4                                     |3                                     |2                                     |1                                       |
-|-------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|----------------------------------------|
-|Training time|10m13s                                |8m57s                                 |7m47s                                 |6m43s                                 |5m45s                                   |
-|Training cost|175 Con.                              |145 Con.                              |115 Con.                              |85 Con.                               |50 Con.                                 |
-|Building     |[Research Lab 3](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Cantina 1](rebelContrabandCantina.html)|
+  * Training time: 10s
+  * Training cost: 1 Con.
+
+|Level   |3-5                                   |2                                     |1                                       |
+|--------|--------------------------------------|--------------------------------------|----------------------------------------|
+|Building|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Cantina 1](rebelContrabandCantina.html)|
 
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
+  * Upgrade time: 10s
 
 |Level               |5                 |4                 |3                |2                |1                |
 |--------------------|------------------|------------------|-----------------|-----------------|-----------------|

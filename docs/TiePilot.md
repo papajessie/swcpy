@@ -28,16 +28,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                |
 |-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------|
-|Training time|30s                                     |30s                                     |30s                                    |29s                                    |29s                                    |28s                                    |28s                                    |28s                                    |27s                                    |27s                                    |26s                              |
 |Training cost|240$                                    |230$                                    |220$                                   |210$                                   |210$                                   |200$                                   |200$                                   |190$                                   |170$                                   |160$                                   |150$                             |
 |Building     |[Research Lab 11](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Barracks 1](empireBarracks.html)|
 
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
+  * Upgrade time: 10s
   * Upgrade requirements: 32 data fragments
 
 ### Movement stats

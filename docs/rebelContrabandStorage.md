@@ -20,73 +20,46 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Max quantity: 1
+  * Time: 10s
   * Type: storage
 
 |Level           |4           |3          |2          |1          |
 |----------------|------------|-----------|-----------|-----------|
 |Maximum capacity|100000  Con.|50000  Con.|25000  Con.|12000  Con.|
 |Health          |9600        |7200       |6000       |4000       |
-|Time            |4d          |3d         |2d         |1d         |
 
 
 |Level           |8           |7           |6           |5           |
 |----------------|------------|------------|------------|------------|
 |Maximum capacity|310000  Con.|280000  Con.|250000  Con.|190000  Con.|
 |Health          |17600       |15600       |13600       |11600       |
-|Time            |1w1d        |1w          |6d          |5d          |
 
 
 |Level           |12          |11          |10          |9           |
 |----------------|------------|------------|------------|------------|
 |Maximum capacity|580000  Con.|520000  Con.|450000  Con.|380000  Con.|
 |Health          |20800       |20200       |19600       |19000       |
-|Time            |1w5d        |1w4d        |1w3d        |1w2d        |
 
 
 |Level           |16          |15          |14          |13          |
 |----------------|------------|------------|------------|------------|
 |Maximum capacity|860000  Con.|790000  Con.|720000  Con.|650000  Con.|
 |Health          |22440       |22220       |22000       |21400       |
-|Time            |2w          |2w          |2w          |1w6d        |
 
 
 |Level           |17          |
 |----------------|------------|
 |Maximum capacity|930000  Con.|
 |Health          |22660       |
-|Time            |2w          |
 
 
 ### Training stats
 
-|Level        |4                             |3                             |2                             |1                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|630000$                       |620000$                       |488000$                       |480000$                       |
-|Building     |[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|
+  * Training cost: 1$
 
-
-|Level        |8                             |7                             |6                             |5                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|2680000$                      |2640000$                      |975000$                       |960000$                       |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|
-
-
-|Level        |12                             |11                             |10                             |9                              |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|4300000$                       |3800000$                       |3400000$                       |3000000$                       |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-
-
-|Level        |16                             |15                             |14                             |13                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|5900000$                       |5500000$                       |5100000$                       |4700000$                       |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-
-
-|Level        |17                             |
-|-------------|-------------------------------|
-|Training cost|6000000$                       |
-|Building     |[Headquarters 10](rebelHQ.html)|
+|Level   |9-17                           |7-8                           |5-6                           |3-4                           |1-2                           |
+|--------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Building|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|
 
 
 ### Upgrading stats

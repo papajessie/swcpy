@@ -16,28 +16,24 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: Yes
   * Hide if locked: No
   * Max quantity: 1
+  * Time: 10s
   * Trap disarm conditions: EventSuccess
   * Trap rearm credits cost: 0
   * Trap rearm materials cost: 0
+  * Trap rearm time: 10s
   * Trap target type: Self
   * Trap trigger conditions: Radius(8)
   * Type: trap
 
-|Level          |10   |9    |8    |7    |6   |5    |4    |3   |2    |1   |
-|---------------|-----|-----|-----|-----|----|-----|-----|----|-----|----|
-|Health         |13500|12250|11000|9750 |8500|7250 |6000 |4500|3750 |2500|
-|Time           |1w   |1w   |1w   |6d   |5d  |4d   |3d   |2d  |1d   |5s  |
-|Trap rearm time|1h   |1h15m|1h30m|1h45m|2h  |2h15m|2h30m|3h  |3h30m|4h  |
+|Level |10   |9    |8    |7   |6   |5   |4   |3   |2   |1   |
+|------|-----|-----|-----|----|----|----|----|----|----|----|
+|Health|13500|12250|11000|9750|8500|7250|6000|4500|3750|2500|
 
 
 ### Training stats
 
+  * Training cost: 1 Con.
   * Building: [Headquarters 11](empireHQ.html)
-
-|Level        |10         |9          |8          |7          |6          |5          |4          |3          |2          |1          |
-|-------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|Training cost|690000 Con.|585000 Con.|500000 Con.|420000 Con.|370000 Con.|320000 Con.|275000 Con.|230000 Con.|200000 Con.|170000 Con.|
-
 
 ### Upgrading stats
 

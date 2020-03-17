@@ -13,27 +13,28 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
   * Armor type: turret
   * Cross credits: 0
+  * Cross time: 10s
   * Side: Empire
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: turret
 
-|Level          |11    |10    |9     |8     |7    |6    |5    |4    |3    |2   |1   |
-|---------------|------|------|------|------|-----|-----|-----|-----|-----|----|----|
-|Cross materials|702000|540000|360000|135000|90000|72000|27000|13500|4500 |900 |450 |
-|Cross time     |3d    |2d    |1d12h |1d4h  |20h  |14h  |8h   |4h48m|1h12m|12m |10m |
-|Health         |28500 |27000 |24500 |22000 |17500|16000|14500|12000|9000 |7500|5000|
-|Max quantity   |22    |20    |18    |16    |14   |12   |10   |8    |6    |4   |2   |
-|Time           |1w1d  |1w3d  |1w1d  |6d    |4d   |2d12h|1d12h|16h  |4h   |30m |1m  |
+|Level          |11    |10    |9     |8     |7    |6    |5    |4    |3   |2   |1   |
+|---------------|------|------|------|------|-----|-----|-----|-----|----|----|----|
+|Cross materials|702000|540000|360000|135000|90000|72000|27000|13500|4500|900 |450 |
+|Health         |28500 |27000 |24500 |22000 |17500|16000|14500|12000|9000|7500|5000|
+|Max quantity   |22    |20    |18    |16    |14   |12   |10   |8    |6   |4   |2   |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|6500000 All.                    |5000000 All.                    |3000000 All.                   |1000000 All.                   |500000 All.                    |250000 All.                    |100000 All.                    |55000 All.                     |20000 All.                     |3000 All.                      |1500 All.                      |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 4](empireHQ.html)|
+  * Training cost: 1 All.
+
+|Level   |11                              |10                              |9                              |8                              |7                              |6                              |5                              |1-4                            |
+|--------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Building|[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|
 
 
 ### Upgrading stats

@@ -22,7 +22,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 2
   * Produce: 0
-  * Time: 30s
+  * Time: 0s
   * Type: turret
 
 ### Training stats

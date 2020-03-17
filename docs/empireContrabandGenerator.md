@@ -19,6 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Empire
   * Force reticle when targeted: No
   * Hide if locked: No
+  * Time: 10s
   * Type: resource
 
 |Level           |10         |9          |8          |7          |6         |5         |4         |3         |2         |1         |
@@ -27,16 +28,16 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Maximum capacity|2200  Con. |2000  Con. |1500  Con. |1400  Con. |890  Con. |560  Con. |560  Con. |560  Con. |300  Con. |150  Con. |
 |Health          |16400      |14700      |13200      |11700      |10200     |8700      |7200      |5400      |4500      |3000      |
 |Max quantity    |3          |3          |3          |2          |2         |2         |2         |1         |1         |1         |
-|Time            |1w3d       |1w2d       |1w1d       |1w         |6d        |5d        |4d        |3d        |2d        |1d        |
 
 
 ### Training stats
 
-|Level        |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                                                     |
-|-------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------------------|
-|Training cost|4200000$                        |3600000$                       |3520000$                       |1290000$                       |1275000$                       |1050000$                       |900000$                        |840000$                        |820000$                        |810000$                                               |
-|Building 1   |[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)                       |
-|Building 2   |None                            |None                           |None                           |None                           |None                           |None                           |None                           |None                           |None                           |[Contraband Safehouse 1](empireContrabandStorage.html)|
+  * Training cost: 1$
+
+|Level     |10                              |8-9                            |4-7                            |2-3                            |1                                                     |
+|----------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------------------------------|
+|Building 1|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 7](empireHQ.html)                       |
+|Building 2|None                            |None                           |None                           |None                           |[Contraband Safehouse 1](empireContrabandStorage.html)|
 
 
 ### Upgrading stats

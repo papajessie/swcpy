@@ -22,12 +22,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 5
   * Spawn protect: 3
-  * Time: 10s
+  * Time: 0s
   * Type: blocker
 
 ### Training stats
 
-  * Training cost: 200 All.
+  * Training cost: Free
 
 ### Upgrading stats
 

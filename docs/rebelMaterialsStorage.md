@@ -19,6 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Rebellion
   * Force reticle when targeted: No
   * Hide if locked: No
+  * Time: 10s
   * Type: storage
 
 |Level           |11           |10           |9            |8           |7           |6           |5           |4          |3          |2          |1         |
@@ -26,15 +27,15 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Maximum capacity|1800000  All.|1500000  All.|1000000  All.|700000  All.|500000  All.|400000  All.|150000  All.|75000  All.|25000  All.|10000  All.|5000  All.|
 |Health          |22800        |21600        |19600        |17600       |15600       |13600       |11600       |9600       |7200       |6000       |4000      |
 |Max quantity    |4            |4            |4            |3           |2           |2           |2           |2          |2          |1          |1         |
-|Time            |1w1d         |1w3d         |6d           |3d          |2d          |1d12h       |1d          |12h        |2h         |15m        |1m        |
 
 
 ### Training stats
 
-|Level        |11                             |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
-|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|3750000$                       |2500000$                       |1500000$                      |500000$                       |230000$                       |115000$                       |40000$                        |20000$                        |6500$                         |1000$                         |500$                          |
-|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|
+  * Training cost: 1$
+
+|Level   |11                             |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
+|--------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Building|[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|
 
 
 ### Upgrading stats

@@ -19,6 +19,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Side: Independant units
   * Force reticle when targeted: No
   * Hide if locked: Yes
+  * Time: 0s
   * Type: resource
 
 |Level           |10           |9            |8            |7           |6           |5           |4           |3           |2           |1          |
@@ -27,7 +28,6 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 |Maximum capacity|1000000  All.|500000  All. |250000  All. |100000  All.|50000  All. |25000  All. |12000  All. |7000  All.  |5000  All.  |1500  All. |
 |Health          |18000        |16500        |15000        |13500       |12000       |10500       |9000        |6000        |3900        |3000       |
 |Max quantity    |7            |6            |6            |6           |6           |5           |4           |3           |2           |1          |
-|Time            |0s           |0s           |0s           |0s          |0s          |0s          |0s          |0s          |0s          |1m         |
 
 
 ### Training stats

@@ -21,7 +21,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 6
   * Produce: 0
-  * Time: 1m
+  * Time: 0s
   * Type: housing
 
 ### Training stats

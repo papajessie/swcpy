@@ -28,9 +28,10 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                              |
 |-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|
-|Training time|3m25s                                   |3m5s                                   |2m45s                                  |2m25s                                  |2m10s                                  |1m55s                                  |1m45s                                  |1m30s                                  |1m25s                                  |1m20s                          |
 |Training cost|1865$                                   |1730$                                  |1645$                                  |1540$                                  |1350$                                  |1230$                                  |1105$                                  |970$                                   |850$                                   |730$                           |
 |Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 1](empireFactory.html)|
 

@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: armory
 
 |Level |7    |6    |5    |4    |3    |2   |1   |
 |------|-----|-----|-----|-----|-----|----|----|
 |Health|15900|15000|13500|12000|10500|9000|6000|
-|Time  |1w5d |1w3d |6d   |4d   |2d   |1d  |5s  |
 
 
 ### Training stats
 
-|Level        |7                               |6                               |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|5200000$                        |4000000$                        |3000000$                       |1500000$                       |700000$                        |550000$                        |10000$                         |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 6](empireHQ.html)|
+|Level        |7                               |6                               |5                              |4                              |3                              |1-2                            |
+|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Training cost|1 All.                          |1$                              |1$                             |1$                             |1$                             |1$                             |
+|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|
 
 
 ### Upgrading stats

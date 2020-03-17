@@ -28,19 +28,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                        |
-|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-----------------------------------------|
-|Training time|15m                                     |14m30s                                 |13m30s                                 |13m                                    |12m30s                                 |11m30s                                 |11m                                    |10m                                    |9m30s                                  |8m30s                                    |
-|Training cost|900 Con.                                |550 Con.                               |400 Con.                               |275 Con.                               |200 Con.                               |150 Con.                               |125 Con.                               |70 Con.                                |35 Con.                                |24 Con.                                  |
-|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Cantina 7](empireContrabandCantina.html)|
+  * Training time: 10s
+  * Training cost: 1 Con.
+
+|Level   |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                        |
+|--------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-----------------------------------------|
+|Building|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Cantina 7](empireContrabandCantina.html)|
 
 
 ### Upgrading stats
 
-|Level               |10         |9          |8          |7          |6          |5         |4         |3         |2         |1      |
-|--------------------|-----------|-----------|-----------|-----------|-----------|----------|----------|----------|----------|-------|
-|Upgrade time        |1w5d       |1w4d       |1w3d       |1w2d       |1w1d       |1w        |6d        |5d        |4d        |0s     |
-|Upgrade requirements|285000 Con.|280000 Con.|270000 Con.|250000 Con.|190000 Con.|99000 Con.|50000 Con.|25000 Con.|12000 Con.|Nothing|
+|Level               |2-10  |1      |
+|--------------------|------|-------|
+|Upgrade time        |10s   |0s     |
+|Upgrade requirements|1 Con.|Nothing|
 
 
 ### Movement stats

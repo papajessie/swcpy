@@ -17,20 +17,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
   * Training cost: 1$
 
-|Level        |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
-|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
-|Training time|28m                                     |24m                                    |20m                                    |20m                                    |16m                                    |16m                                    |12m                                    |12m                                    |12m                                    |12m                                          |
-|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 1](empireFleetCommand.html)|
+|Level   |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|--------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Building|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 1](empireFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |10      |9       |8      |7      |6      |5     |4     |3     |2    |1    |
-|--------------------|--------|--------|-------|-------|-------|------|------|------|-----|-----|
-|Upgrade time        |2w      |1w3d    |1w     |5d     |3d     |1d    |8h    |3h    |1h30m|0s   |
-|Upgrade requirements|2500000$|1500000$|450000$|225000$|135000$|50000$|20000$|10000$|5000$|2000$|
+  * Upgrade requirements: 1$
+
+|Level       |2-10|1 |
+|------------|----|--|
+|Upgrade time|10s |0s|
 
 
 ### Movement stats

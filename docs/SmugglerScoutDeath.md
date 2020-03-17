@@ -36,10 +36,11 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Upgrading stats
 
-|Level               |10      |9       |8      |7      |6      |5     |4     |3    |2    |1   |
-|--------------------|--------|--------|-------|-------|-------|------|------|-----|-----|----|
-|Upgrade time        |1w1d    |5d      |3d12h  |2d     |1d     |8h    |3h30m |1h   |15m  |0s  |
-|Upgrade requirements|1750000$|1000000$|320000$|160000$|100000$|25000$|12500$|4000$|1500$|600$|
+  * Upgrade requirements: 1$
+
+|Level       |2-10|1 |
+|------------|----|--|
+|Upgrade time|10s |0s|
 
 
 ### Movement stats

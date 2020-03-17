@@ -21,21 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Health: 2000
   * Max quantity: 1
   * Produce: 0
-  * Time: 0s
   * Type: droid_hut
 
 |Level         |2 |1  |
 |--------------|--|---|
 |Hide if locked|No|Yes|
+|Time          |0s|10s|
 
 
 ### Training stats
 
-  * Training cost: Free
-
-|Level   |2                               |1                              |
-|--------|--------------------------------|-------------------------------|
-|Building|[Headquarters 10](empireHQ.html)|[Headquarters 1](empireHQ.html)|
+|Level        |2                               |1                              |
+|-------------|--------------------------------|-------------------------------|
+|Training cost|Free                            |1$                             |
+|Building     |[Headquarters 10](empireHQ.html)|[Headquarters 1](empireHQ.html)|
 
 
 ### Upgrading stats

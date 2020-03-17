@@ -22,20 +22,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: HQ
 
 |Level |11   |10   |9    |8    |7    |6    |5    |4    |3    |2    |1    |
 |------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Health|57000|54000|49000|44000|39000|34000|29000|24000|18000|15000|10000|
-|Time  |2w   |2w   |1w5d |1w3d |1w1d |6d   |4d   |1d   |4h   |30s  |8m20s|
 
 
 ### Training stats
 
-|Level        |11                             |10                            |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1        |
-|-------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|---------|
-|Training cost|5400000 All.                   |3600000 All.                  |2000000 All.                  |900000 All.                   |750000 All.                   |275000 All.                   |135000 All.                   |45000 All.                    |9000 All.                     |1500 All.                     |1000 All.|
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|None     |
+  * Training cost: 1 All.
+
+|Level   |11                             |10                            |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1   |
+|--------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|----|
+|Building|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 3](rebelHQ.html)|[Headquarters 2](rebelHQ.html)|[Headquarters 1](rebelHQ.html)|None|
 
 
 ### Upgrading stats

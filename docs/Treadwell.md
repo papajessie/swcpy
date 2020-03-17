@@ -28,17 +28,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                     |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                               |
 |-------------|---------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------|
-|Training time|2m4s                                   |2m                                     |1m56s                                 |1m52s                                 |1m48s                                 |1m44s                                 |1m40s                                 |1m36s                                 |1m32s                                 |1m28s                                 |1m20s                           |
 |Training cost|1000$                                  |920$                                   |840$                                  |800$                                  |680$                                  |600$                                  |520$                                  |440$                                  |360$                                  |280$                                  |200$                            |
 |Building     |[Research Lab 11](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Barracks 1](rebelBarracks.html)|
 
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
   * Upgrade requirements: 32 data fragments
+
+|Level       |11 |1-10|
+|------------|---|----|
+|Upgrade time|10s|5s  |
+
 
 ### Movement stats
 

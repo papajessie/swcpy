@@ -20,21 +20,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: factory
 
 |Level       |11   |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
 |------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|----|
 |Health      |22800|21600|19600|17600|15600|13600|11600|9600|7200|6000|4000|
 |Max quantity|3    |3    |2    |2    |2    |2    |2    |1   |1   |1   |1   |
-|Time        |1w3d |1w5d |1w   |4d   |3d   |2d   |1d   |12h |2h  |30m |15m |
 
 
 ### Training stats
 
-|Level        |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |2                              |1                              |
-|-------------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training cost|4550000$                        |3500000$                        |2000000$                       |800000$                        |400000$                        |275000$                        |75000$                         |30000$                         |10000$                         |5000$                          |1500$                          |
-|Building     |[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|[Headquarters 2](empireHQ.html)|
+  * Training cost: 1$
+
+|Level   |11                              |10                              |9                              |8                              |7                              |6                              |5                              |4                              |3                              |1-2                            |
+|--------|--------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|Building|[Headquarters 11](empireHQ.html)|[Headquarters 10](empireHQ.html)|[Headquarters 9](empireHQ.html)|[Headquarters 8](empireHQ.html)|[Headquarters 7](empireHQ.html)|[Headquarters 6](empireHQ.html)|[Headquarters 5](empireHQ.html)|[Headquarters 4](empireHQ.html)|[Headquarters 3](empireHQ.html)|[Headquarters 2](empireHQ.html)|
 
 
 ### Upgrading stats

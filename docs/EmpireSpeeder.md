@@ -28,19 +28,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                              |
 |-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|-------------------------------|
-|Training time|3m6s                                    |3m                                      |2m54s                                  |2m48s                                  |1m21s                                  |1m18s                                  |1m15s                                  |1m12s                                  |1m9s                                   |1m7s                                   |1m6s                           |
 |Training cost|1500$                                   |1380$                                   |1260$                                  |1200$                                  |1020$                                  |900$                                   |780$                                   |660$                                   |540$                                   |480$                                   |420$                           |
 |Building     |[Research Lab 11](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Factory 1](empireFactory.html)|
 
 
 ### Upgrading stats
 
-|Level               |11      |10      |9       |8      |7      |6      |5     |4     |3    |2    |1   |
-|--------------------|--------|--------|--------|-------|-------|-------|------|------|-----|-----|----|
-|Upgrade time        |1w3d    |1w2d    |6d      |4d     |2d12h  |1d12h  |10h   |5h    |1h30m|30m  |0s  |
-|Upgrade requirements|4000000$|2000000$|1000000$|350000$|175000$|115000$|35000$|15000$|6000$|3000$|500$|
+  * Upgrade requirements: 1$
+
+|Level       |2-11|1 |
+|------------|----|--|
+|Upgrade time|10s |0s|
 
 
 ### Movement stats

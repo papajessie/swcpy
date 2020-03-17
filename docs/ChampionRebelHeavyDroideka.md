@@ -53,30 +53,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
   * Training cost: Free
 
-|Level        |10                            |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                                                               |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|----------------------------------------------------------------|
-|Training time|1h18m                         |1h16m                         |1h15m                         |1h12m                         |1h10m                         |1h8m                          |1h7m                          |1h4m                          |1h2m                          |1h                                                              |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Droideka Oppressor Platform 1](rebelPlatformHeavyDroideka.html)|
-
-
-|Level        |20                            |19                            |18                            |17                            |16                            |15                            |14                            |13                            |12                            |11                            |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training time|1h39m                         |1h36m                         |1h34m                         |1h32m                         |1h31m                         |1h28m                         |1h26m                         |1h24m                         |1h23m                         |1h20m                         |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|
-
-
-|Level        |30                             |29                             |28                             |27                             |26                             |25                             |24                             |23                             |22                             |21                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|1h58m                          |1h56m                          |1h55m                          |1h52m                          |1h50m                          |1h48m                          |1h47m                          |1h44m                          |1h42m                          |1h40m                          |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
-
-
-|Level        |40-50                          |39                             |38                             |37                             |36                             |35                             |34                             |33                             |32                             |31                             |
-|-------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|Training time|2h19m                          |2h16m                          |2h14m                          |2h12m                          |2h11m                          |2h8m                           |2h6m                           |2h4m                           |2h3m                           |2h                             |
-|Building     |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|
+|Level   |21-50                          |2-20                          |1                                                               |
+|--------|-------------------------------|------------------------------|----------------------------------------------------------------|
+|Building|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Droideka Oppressor Platform 1](rebelPlatformHeavyDroideka.html)|
 
 
 ### Upgrading stats

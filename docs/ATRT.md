@@ -29,16 +29,17 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
+  * Training time: 10s
+
 |Level        |11                                     |10                                     |9                                     |8                                     |7                                     |6                                     |5                                     |4                                     |3                                     |2                                     |1                             |
 |-------------|---------------------------------------|---------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|------------------------------|
-|Training time|4m8s                                   |4m                                     |3m52s                                 |3m44s                                 |3m36s                                 |3m28s                                 |3m20s                                 |3m12s                                 |3m4s                                  |2m56s                                 |2m40s                         |
 |Training cost|2000$                                  |1840$                                  |1680$                                 |1600$                                 |1360$                                 |1200$                                 |1040$                                 |880$                                  |720$                                  |560$                                  |400$                          |
 |Building     |[Research Lab 11](rebelOffenseLab.html)|[Research Lab 10](rebelOffenseLab.html)|[Research Lab 9](rebelOffenseLab.html)|[Research Lab 8](rebelOffenseLab.html)|[Research Lab 7](rebelOffenseLab.html)|[Research Lab 6](rebelOffenseLab.html)|[Research Lab 5](rebelOffenseLab.html)|[Research Lab 4](rebelOffenseLab.html)|[Research Lab 3](rebelOffenseLab.html)|[Research Lab 2](rebelOffenseLab.html)|[Factory 1](rebelFactory.html)|
 
 
 ### Upgrading stats
 
-  * Upgrade time: 5s
+  * Upgrade time: 10s
   * Upgrade requirements: 32 data fragments
 
 ### Movement stats

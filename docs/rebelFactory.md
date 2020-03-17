@@ -20,21 +20,22 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Hide if locked: No
   * Produce: 0
+  * Time: 10s
   * Type: factory
 
 |Level       |11   |10   |9    |8    |7    |6    |5    |4   |3   |2   |1   |
 |------------|-----|-----|-----|-----|-----|-----|-----|----|----|----|----|
 |Health      |22800|21600|19600|17600|15600|13600|11600|9600|7200|6000|4000|
 |Max quantity|3    |3    |2    |2    |2    |2    |2    |1   |1   |1   |1   |
-|Time        |1w3d |1w5d |1w   |4d   |3d   |2d   |2d   |1d  |16h |8h  |4h  |
 
 
 ### Training stats
 
-|Level        |11                             |10                             |9                             |8                             |7                             |6                             |5                             |4                             |3                             |2                             |1                             |
-|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|4550000$                       |3500000$                       |2000000$                      |750000$                       |375000$                       |250000$                       |100000$                       |60000$                        |30000$                        |20000$                        |18000$                        |
-|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|
+  * Training cost: 1$
+
+|Level   |11                             |10                             |9                             |8                             |7                             |6                             |5                             |1-4                           |
+|--------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Building|[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|[Headquarters 4](rebelHQ.html)|
 
 
 ### Upgrading stats

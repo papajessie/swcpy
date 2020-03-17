@@ -27,7 +27,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-  * Training cost: 100$
+  * Training cost: Free
   * Building: [Headquarters 1](empireHQ.html)
 
 ### Upgrading stats

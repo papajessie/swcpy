@@ -20,7 +20,7 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Health: 0
   * Hide if locked: Yes
   * Max quantity: 10
-  * Time: 0s
+  * Time: 10s
   * Type: rubble
 
 ### Training stats

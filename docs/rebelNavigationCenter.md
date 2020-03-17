@@ -20,20 +20,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: navigation_center
 
 |Level |5    |4    |3    |2    |1   |
 |------|-----|-----|-----|-----|----|
 |Health|14700|13200|11700|10200|8700|
-|Time  |1w3d |1w1d |6d   |4d   |2d  |
 
 
 ### Training stats
 
-|Level        |5                             |4                             |3                             |2                             |1                             |
-|-------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|3300000$                      |1000000$                      |700000$                       |250000$                       |140000$                       |
-|Building     |[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|
+  * Training cost: 1$
+
+|Level   |5                             |4                             |3                             |2                             |1                             |
+|--------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Building|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 5](rebelHQ.html)|
 
 
 ### Upgrading stats

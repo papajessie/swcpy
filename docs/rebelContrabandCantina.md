@@ -19,22 +19,23 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Force reticle when targeted: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: cantina
 
 |Level         |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
 |--------------|-----|-----|-----|-----|-----|----|----|----|----|----|
 |Health        |16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
 |Hide if locked|Yes  |Yes  |No   |No   |No   |No  |No  |No  |No  |No  |
-|Time          |1w3d |6d   |1w2d |1w1d |1w   |6d  |5d  |4d  |3d  |2d  |
 
 
 ### Training stats
 
-|Level        |10                               |9                                |8                              |7                              |6                             |5                             |4                             |3                             |2                             |1                                                    |
-|-------------|---------------------------------|---------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------------------------------|
-|Training cost|3500000$                         |2000000$                         |5000000$                       |4600000$                       |3100000$                      |2600000$                      |1125000$                      |1110000$                      |730000$                       |350000$                                              |
-|Building 1   |[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)                       |
-|Building 2   |[Headquarters 1](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|None                           |None                           |None                          |None                          |None                          |None                          |None                          |[Contraband Safehouse 1](rebelContrabandStorage.html)|
+  * Training cost: 1$
+
+|Level     |9-10                             |7-8                            |5-6                           |3-4                           |2                             |1                                                    |
+|----------|---------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|-----------------------------------------------------|
+|Building 1|[Headquarters 10](rebelHQ.html)  |[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 7](rebelHQ.html)                       |
+|Building 2|[Headquarters 1](smugglerHQ.html)|None                           |None                          |None                          |None                          |[Contraband Safehouse 1](rebelContrabandStorage.html)|
 
 
 ### Upgrading stats

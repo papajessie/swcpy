@@ -22,19 +22,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
 
 ### Training stats
 
-|Level        |10-11                                   |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
-|-------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
-|Training time|18m                                     |17m40s                                 |17m20s                                 |17m                                    |16m40s                                 |16m20s                                 |16m                                    |15m40s                                 |15m20s                                 |15m                                          |
-|Training cost|16500$                                  |14000$                                 |13500$                                 |11000$                                 |10500$                                 |8000$                                  |7500$                                  |5000$                                  |4500$                                  |4000$                                        |
-|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 9](empireFleetCommand.html)|
+|Level        |11                                      |10                                      |9                                      |8                                      |7                                      |6                                      |5                                      |4                                      |3                                      |2                                      |1                                            |
+|-------------|----------------------------------------|----------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------|
+|Training time|18m                                     |10s                                     |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                    |10s                                          |
+|Training cost|16500$                                  |16500$                                  |14000$                                 |13500$                                 |11000$                                 |10500$                                 |8000$                                  |7500$                                  |5000$                                  |4500$                                  |4000$                                        |
+|Building     |[Research Lab 10](empireOffenseLab.html)|[Research Lab 10](empireOffenseLab.html)|[Research Lab 9](empireOffenseLab.html)|[Research Lab 8](empireOffenseLab.html)|[Research Lab 7](empireOffenseLab.html)|[Research Lab 6](empireOffenseLab.html)|[Research Lab 5](empireOffenseLab.html)|[Research Lab 4](empireOffenseLab.html)|[Research Lab 3](empireOffenseLab.html)|[Research Lab 2](empireOffenseLab.html)|[Starship Command 9](empireFleetCommand.html)|
 
 
 ### Upgrading stats
 
-|Level               |10-11   |9       |8      |7      |6      |5     |4     |3     |2    |1    |
-|--------------------|--------|--------|-------|-------|-------|------|------|------|-----|-----|
-|Upgrade time        |2w      |1w3d    |1w     |5d     |3d     |1d    |8h    |3h    |1h30m|0s   |
-|Upgrade requirements|2500000$|1500000$|450000$|225000$|135000$|50000$|20000$|10000$|5000$|2000$|
+  * Upgrade requirements: 1$
+
+|Level       |2-11|1 |
+|------------|----|--|
+|Upgrade time|10s |0s|
 
 
 ### Movement stats

@@ -21,20 +21,20 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: No
   * Max quantity: 1
   * Produce: 0
+  * Time: 10s
   * Type: armory
 
 |Level |7    |6    |5    |4    |3    |2   |1   |
 |------|-----|-----|-----|-----|-----|----|----|
 |Health|15900|15000|13500|12000|10500|9000|6000|
-|Time  |1w5d |1w3d |6d   |4d   |2d   |1d  |5s  |
 
 
 ### Training stats
 
-|Level        |7                              |6                              |5                             |4                             |3                             |2                             |1                             |
-|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|Training cost|5200000$                       |4000000$                       |3000000$                      |1500000$                      |700000$                       |550000$                       |10000$                        |
-|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|
+|Level        |7                              |6                              |5                             |4                             |3                             |1-2                           |
+|-------------|-------------------------------|-------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|Training cost|1 All.                         |1$                             |1$                            |1$                            |1$                            |1$                            |
+|Building     |[Headquarters 11](rebelHQ.html)|[Headquarters 10](rebelHQ.html)|[Headquarters 9](rebelHQ.html)|[Headquarters 8](rebelHQ.html)|[Headquarters 7](rebelHQ.html)|[Headquarters 6](rebelHQ.html)|
 
 
 ### Upgrading stats

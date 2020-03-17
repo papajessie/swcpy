@@ -22,20 +22,21 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 1
   * Produce: 0
+  * Time: 0s
   * Type: housing
 
 |Level |10   |9    |8    |7    |6    |5   |4   |3   |2   |1   |
 |------|-----|-----|-----|-----|-----|----|----|----|----|----|
 |Health|16200|14700|13200|11700|10200|8700|7200|5400|4500|3000|
-|Time  |2w   |1w5d |1w3d |1w1d |6d   |4d  |1d  |4h  |1h  |0s  |
 
 
 ### Training stats
 
-|Level        |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
-|-------------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
-|Training cost|3600000 All.                      |1350000 All.                     |900000 All.                      |750000 All.                      |275000 All.                      |135000 All.                      |45000 All.                       |9000 All.                        |3000 All.                        |Free                             |
-|Building     |[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
+  * Training cost: Free
+
+|Level   |10                                |9                                |8                                |7                                |6                                |5                                |4                                |3                                |2                                |1                                |
+|--------|----------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
+|Building|[Headquarters 10](smugglerHQ.html)|[Headquarters 9](smugglerHQ.html)|[Headquarters 8](smugglerHQ.html)|[Headquarters 7](smugglerHQ.html)|[Headquarters 6](smugglerHQ.html)|[Headquarters 5](smugglerHQ.html)|[Headquarters 4](smugglerHQ.html)|[Headquarters 3](smugglerHQ.html)|[Headquarters 2](smugglerHQ.html)|[Headquarters 1](smugglerHQ.html)|
 
 
 ### Upgrading stats

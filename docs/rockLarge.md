@@ -20,12 +20,12 @@ You can read an [explanation  of the various unit stats](unitexplained.md).
   * Hide if locked: Yes
   * Max quantity: 5
   * Produce: 0
-  * Time: 1m
+  * Time: 0s
   * Type: clearable
 
 ### Training stats
 
-  * Training cost: 10000 All.
+  * Training cost: Free
 
 ### Upgrading stats
 
